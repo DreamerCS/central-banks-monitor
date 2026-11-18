@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10283b">
+  <meta name="description" content="A research directory of central bank publications across 29 target jurisdictions.">
+  <title>Central Bank Intelligence — Source Atlas</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="utility"><div class="shell utility-inner"><span class="signal"></span><span>THE POLICY RECORD, IN CONTEXT</span><span class="utility-date">PUBLIC RESEARCH PROTOTYPE / SOURCE ATLAS</span></div></div>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <a href="#top" class="brand" aria-label="Central Bank Intelligence home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M2 46V2h44"/><path d="m9 35 10-12 9 6 12-17"/><circle cx="40" cy="12" r="2"/></svg></span>
+        <span><strong>Central Bank<br>Intelligence</strong><small>RESEARCH SOURCE ATLAS</small></span>
+      </a>
+      <nav aria-label="Main navigation"><a href="#coverage">Coverage</a><a href="#atlas">Sources</a><a href="#lab">Analysis</a><a href="#index">Index</a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="rule"></span> A RESEARCH WORKSPACE / 01</div>
+          <h1>Central banks,<br><em>in context.</em></h1>
+          <p class="lead">Follow the official record behind monetary policy. Explore publications, speeches and research across the full 29-jurisdiction target universe.</p>
+          <p class="hero-note">A source atlas and transparent analysis prototype. Coverage and scores are labelled so an unvalidated signal cannot be mistaken for a live research product.</p>
+          <a class="button" href="#coverage">Explore the research desk <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-art" aria-label="Abstract line illustration of connected policy signals" role="img">
+          <span class="art-top">POLICY / EVIDENCE / MARKETS</span>
+          <svg viewBox="0 0 600 520" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#7393a4" stroke-opacity=".16"/></pattern></defs>
+            <rect width="600" height="520" fill="url(#grid)"/>
+            <g fill="none" stroke="#8db6b2" stroke-width="1.2" opacity=".45"><ellipse cx="340" cy="270" rx="220" ry="160" transform="rotate(-24 340 270)"/><ellipse cx="340" cy="270" rx="170" ry="120" transform="rotate(-24 340 270)"/><ellipse cx="340" cy="270" rx="112" ry="79" transform="rotate(-24 340 270)"/><ellipse cx="340" cy="270" rx="52" ry="36" transform="rotate(-24 340 270)"/></g>
+            <path d="M0 405 C130 370 154 439 253 340 S397 219 600 116" fill="none" stroke="#c8b28c" stroke-width="2"/>
+            <g fill="#d0bd9a"><circle cx="253" cy="340" r="5"/><circle cx="436" cy="208" r="5"/></g>
+            <circle cx="340" cy="270" r="8" fill="#d9ece8"/>
+          </svg>
+          <div class="art-caption"><span>01 — PRIMARY SOURCES</span><strong>Trace the signal<br>to its origin.</strong></div>
+        </div>
+      </div>
+    </section>
+    <div class="metric-band"><div class="shell metrics"><div><b id="source-total">105</b><span>SOURCE PAGES</span></div><div><b id="bank-total">45</b><span>INSTITUTIONS</span></div><div><b>04</b><span>REGIONS</span></div><p>Original register: 26 October 2026 · Expanded: 18 November 2026<br>Links have not been continuously checked.</p></div></div>
+    <section id="coverage" class="coverage shell">
+      <div class="section-kicker">RESEARCH UNIVERSE / 02</div>
+      <div class="section-heading"><div><h2>The coverage map<span>.</span></h2><p>The 29 jurisdictions requested for the sentiment index.</p></div><div class="section-number">29 LINKED / 29 TARGETS</div></div>
+      <div class="coverage-intro"><strong>29</strong><p>target jurisdictions have at least one official source link. Three currently have a general policy or publication portal rather than a dedicated speech listing. “Linked” does not mean speeches have been collected or scored.</p></div>
+      <div id="coverage-grid" class="coverage-grid" aria-label="Target jurisdictions and source status"></div>
+    </section>
+    <section id="atlas" class="atlas shell">
+      <div class="section-kicker">EXPLORE SOURCES / 03</div>
+      <div class="section-heading"><div><h2>The source atlas<span>.</span></h2><p>Start from the institution, then follow the original publication page.</p></div><div class="section-number">105 / SOURCES</div></div>
+      <div class="atlas-layout">
+        <aside class="filters" aria-label="Filter sources">
+          <label for="search">SEARCH THE DIRECTORY</label>
+          <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Bank, country or topic" autocomplete="off"></div>
+          <fieldset><legend>REGION</legend><div id="region-filters" class="filter-options"></div></fieldset>
+          <fieldset><legend>PUBLICATION TYPE</legend><div id="category-filters" class="filter-options"></div></fieldset>
+          <button id="reset" class="reset" type="button">Clear all filters ↗</button>
+          <div class="filter-note"><span class="status-dot"></span><strong>Coverage note</strong><p>The register combines catalogued and proposed links. Neither label confirms continuous monitoring, publication completeness or permission to republish source text.</p></div>
+        </aside>
+        <div class="results">
+          <div class="result-toolbar"><p id="results-count" role="status" aria-live="polite">Loading sources…</p><label for="sort">SORT <select id="sort"><option value="institution">Institution A–Z</option><option value="country">Country A–Z</option><option value="category">Publication type</option></select></label></div>
+          <div id="results-list" class="results-list"></div>
+          <div id="load-error" class="load-error" hidden>Could not load the directory. Please refresh the page.</div>
+        </div>
+      </div>
+    </section>
+    <section id="lab" class="lab"><div class="shell"><div class="section-kicker">ANALYSIS FRAMEWORK / 04</div><div class="section-heading"><div><h2>Read the source. Trace the view<span>.</span></h2><p>Two distinct analyses, with a documented hand-off between them.</p></div></div>
+      <div class="analysis-grid"><article><span>01 / SELL-SIDE RESEARCH</span><h3>Report readout</h3><p>The supplied research prompt governs a report-based summary of roughly 500–800 words, followed by 3–5 ranked questions for further research. It calls for full chart, table, footnote and appendix review; date-bound attribution; page references; and a clear separation of the authors’ views from consensus and market pricing.</p><small>STATUS · SPECIFICATION DEFINED · DOCUMENT ANALYSIS BACKEND NOT CONNECTED</small></article><article><span>02 / CENTRAL BANK SPEECHES</span><h3>Stance and shift</h3><p>Speech scoring needs the team’s validated model and a separate numerical rubric. Each record should retain the original text, speaker, release time, evidence passages, model version, a hawkish/dovish level and the change versus an appropriate prior communication.</p><small>STATUS · MODEL INTEGRATION PENDING · NO SCORES PUBLISHED</small></article></div>
+      <p class="analysis-note">The report prompt is not a scoring model. Report summaries must use the document as their only evidence base; the market event analysis below uses separately timestamped asset data and is kept distinct from the document summary.</p>
+    </div></section>
+    <section id="index" class="index shell"><div class="section-kicker">MARKET EVENT STUDY / 05</div><div class="section-heading"><div><h2>Words and markets<span>.</span></h2><p>Align speech timestamps, sentiment scores and market observations before drawing conclusions.</p></div></div><div class="index-grid"><div><h3>What the index needs</h3><p>An event record should keep the speech URL, speaker, precise time and time zone, model version, level score, change from the speaker's prior speech, and whether the text was available before the market move.</p><p>For US speeches, compare the score with the 2-year Treasury yield and other selected assets using predeclared windows. A daily close may include many other news events, so it cannot isolate the speech reaction.</p></div><div class="index-panel"><span>INDEX STATUS</span><strong>Awaiting verified series</strong><p>No historical speech scores or 2-year yield observations are bundled with this public prototype. A time-series index requires the team's model output and timestamped asset data.</p><div class="index-steps"><span>01 · VALIDATE MODEL</span><span>02 · ALIGN TIMESTAMPS</span><span>03 · ESTIMATE RESPONSE</span></div></div></div>
+      <div class="event-tool"><div><span class="section-kicker">LOCAL EVENT CALCULATOR</span><h3>Before and after a speech.</h3><p>Load your own timestamped observations as a CSV with <code>timestamp_utc,asset,value</code>. This runs in your browser. For a yield in percentage points, the result is also shown in basis points.</p><a href="market-template.csv" download>Download blank CSV template ↧</a></div><div class="event-form"><label for="market-file">MARKET CSV</label><input id="market-file" type="file" accept=".csv,text/csv"><label for="event-time">SPEECH TIME (UTC)</label><input id="event-time" type="datetime-local"><label for="asset-filter">ASSET NAME IN CSV</label><input id="asset-filter" type="text" value="US 2Y yield"><label for="event-window">MAXIMUM GAP EACH SIDE</label><select id="event-window"><option value="60">60 minutes</option><option value="240">4 hours</option><option value="1440">24 hours</option><option value="4320">3 days</option></select><button id="run-event" class="button" type="button">Calculate change <span aria-hidden="true">→</span></button><p id="event-result" role="status" aria-live="polite">Add a CSV and event time to calculate.</p></div></div>
+    </section>
+    <section id="method" class="method"><div class="shell"><div class="section-kicker light">THE RESEARCH LENS / 06</div><div class="method-grid"><div><h2>From policy words<br>to better questions<span>.</span></h2><p>Central bank publications are evidence. Market interpretation needs a separate, explicit step.</p></div><ol><li><span>01</span><div><h3>Find the original</h3><p>Read the dated statement, speech or research paper at the issuing institution.</p></div></li><li><span>02</span><div><h3>Separate level and change</h3><p>Distinguish the current policy stance from a shift relative to earlier communication.</p></div></li><li><span>03</span><div><h3>Test the market channel</h3><p>Form a hypothesis for rates, foreign exchange or risk assets, then check pricing and competing explanations.</p></div></li></ol></div></div></section>
+    <section id="about" class="about shell"><div class="section-kicker">ABOUT THIS EDITION / 07</div><div class="about-grid"><h2>A transparent<br>starting point<span>.</span></h2><div><p>This public prototype uses the 26 October 2026 source register snapshot, expanded on 18 November for all 29 requested jurisdictions. It links to external institutions; no central bank endorses this site.</p><p>It does not publish the team's model, proprietary research, live policy scores, market prices, ingestion results or a daily briefing. “RSS / Atom” identifies a feed URL in the register, not proof that the feed is working today. Always verify dates and content at the original source.</p><p class="repo-status">Source repository pending publication.</p></div></div></section>
+  </main>
+  <footer><div class="shell footer-inner"><div><strong>CBI<span>.</span></strong><small>Central Bank Intelligence · Source Atlas</small></div><p>Primary sources. Careful interpretation.</p><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
