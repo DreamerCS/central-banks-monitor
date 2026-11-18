@@ -148,6 +148,70 @@ async function start() {
 
 start();
 
+async function loadTreasury() {
+  const status = $("#treasury-asof"), chart = $("#treasury-chart");
+  try {
+    const response = await fetch("data/treasury.json", {cache: "no-store"});
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    const rows = data.observations;
+    if (!Array.isArray(rows) || !rows.length) throw new Error("No verified observations yet");
+    if (data.frequency !== "daily" || data.unit !== "percent per annum" || rows.length > 300 ||
+        rows.some((r) => !/^\d{4}-\d\d-\d\d$/.test(r.date) || !Number.isFinite(r.twoYear) || !Number.isFinite(r.tenYear) || r.twoYear < 0 || r.tenYear < 0)) {
+      throw new Error("Invalid Treasury snapshot");
+    }
+    const latest = rows[rows.length - 1];
+    if (latest.date !== data.asOfDate) throw new Error("Inconsistent observation date");
+    $("#yield-2y").textContent = `${latest.twoYear.toFixed(2)}%`;
+    $("#yield-10y").textContent = `${latest.tenYear.toFixed(2)}%`;
+    $("#yield-spread").textContent = `${((latest.tenYear - latest.twoYear) * 100).toFixed(0)} bp`;
+    const ageDays = Math.floor((Date.now() - Date.parse(`${latest.date}T00:00:00Z`)) / 86400000);
+    status.textContent = `Observation date: ${latest.date} · U.S. Treasury daily par yield curve · ${ageDays > 4 ? "Older than four calendar days; verify at source." : "Not a live quote."}`;
+    const recent = rows.slice(-90);
+    const ns = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(ns, "svg");
+    svg.setAttribute("viewBox", "0 0 860 280");
+    svg.setAttribute("preserveAspectRatio", "none");
+    svg.setAttribute("aria-hidden", "true");
+    const values = recent.flatMap((r) => [r.twoYear, r.tenYear]);
+    const lo = Math.floor((Math.min(...values) - .1) * 4) / 4;
+    const hi = Math.ceil((Math.max(...values) + .1) * 4) / 4;
+    const x = (i) => 48 + (i / Math.max(recent.length - 1, 1)) * 790;
+    const y = (v) => 225 - ((v - lo) / Math.max(hi - lo, .1)) * 190;
+    for (let i = 0; i <= 4; i++) {
+      const value = lo + (hi - lo) * i / 4;
+      const line = document.createElementNS(ns, "line");
+      line.setAttribute("x1", "48"); line.setAttribute("x2", "838");
+      line.setAttribute("y1", String(y(value))); line.setAttribute("y2", String(y(value)));
+      line.setAttribute("stroke", "#d8e3e1"); svg.append(line);
+      const label = document.createElementNS(ns, "text");
+      label.setAttribute("x", "4"); label.setAttribute("y", String(y(value) + 4));
+      label.textContent = `${value.toFixed(2)}%`; svg.append(label);
+    }
+    for (const [key, colour] of [["twoYear", "#24516b"], ["tenYear", "#b49566"]]) {
+      const line = document.createElementNS(ns, "polyline");
+      line.setAttribute("points", recent.map((r, i) => `${x(i).toFixed(1)},${y(r[key]).toFixed(1)}`).join(" "));
+      line.setAttribute("fill", "none"); line.setAttribute("stroke", colour);
+      line.setAttribute("stroke-width", "3"); line.setAttribute("vector-effect", "non-scaling-stroke");
+      svg.append(line);
+    }
+    for (const [i, anchor] of [[0, "start"], [recent.length - 1, "end"]]) {
+      const label = document.createElementNS(ns, "text");
+      label.setAttribute("x", String(x(i))); label.setAttribute("y", "260");
+      label.setAttribute("text-anchor", anchor); label.textContent = recent[i].date;
+      svg.append(label);
+    }
+    chart.replaceChildren(svg);
+    chart.setAttribute("aria-label", `Daily U.S. Treasury par yields from ${recent[0].date} to ${latest.date}. Latest two-year ${latest.twoYear.toFixed(2)} percent, ten-year ${latest.tenYear.toFixed(2)} percent.`);
+  } catch (error) {
+    status.textContent = "Daily Treasury series unavailable. Check the official source; no value has been inferred.";
+    chart.textContent = "No verified observations to display.";
+    console.warn("Treasury snapshot failed to load", error);
+  }
+}
+
+loadTreasury();
+
 function parseCsvLine(line) {
   const fields = []; let value = "", quoted = false;
   for (let i = 0; i < line.length; i++) {
