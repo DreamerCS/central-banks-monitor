@@ -54,7 +54,10 @@
       "sourceType": "Rendered research index",
       "url": "https://www.banxico.org.mx/DIBM/web/index.html?locale=es",
       "feed": null,
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "banxico_speeches",
@@ -87,7 +90,10 @@
       "sourceType": "Research feed",
       "url": "https://www.bankofcanada.ca/research/browse/",
       "feed": "https://www.bankofcanada.ca/content_type/research,boc-review-article,fsr-article/feed/",
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "boc_speeches",
@@ -109,7 +115,10 @@
       "sourceType": "Research feed",
       "url": "https://www.federalreserve.gov/econres.htm",
       "feed": "https://www.federalreserve.gov/feeds/working_papers.xml",
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "fed_speeches",
@@ -131,7 +140,10 @@
       "sourceType": "Research listing",
       "url": "https://www.frbatlanta.org/research/publications.aspx",
       "feed": null,
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "frbbos",
@@ -142,7 +154,10 @@
       "sourceType": "Research feed",
       "url": "https://www.bostonfed.org/publications-and-data.aspx",
       "feed": "https://www.bostonfed.org/feeds/rss_research.xml",
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "frbchi",
@@ -153,7 +168,10 @@
       "sourceType": "Research feed",
       "url": "https://www.chicagofed.org/publications/index",
       "feed": "https://www.chicagofed.org/forms/rss/insights",
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "frbcle",
@@ -164,7 +182,10 @@
       "sourceType": "Research listing",
       "url": "https://www.clevelandfed.org/our-research/publications.aspx",
       "feed": null,
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "frbdal",
@@ -175,7 +196,10 @@
       "sourceType": "Research listing",
       "url": "https://www.dallasfed.org/pubs.aspx",
       "feed": null,
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "frbkc",
@@ -186,7 +210,10 @@
       "sourceType": "Research listing",
       "url": "https://www.kansascityfed.org/publications",
       "feed": null,
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "frbmin",
@@ -197,7 +224,10 @@
       "sourceType": "Research listing",
       "url": "https://www.minneapolisfed.org/economic-research",
       "feed": null,
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "frbny",
@@ -208,7 +238,10 @@
       "sourceType": "Research listing",
       "url": "https://www.newyorkfed.org/research",
       "feed": null,
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "frbphl",
@@ -219,7 +252,10 @@
       "sourceType": "Research listing",
       "url": "https://www.philadelphiafed.org/search-results/all-work?searchtype=all-work-the-economy",
       "feed": null,
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "frbric",
@@ -230,7 +266,10 @@
       "sourceType": "Research listing",
       "url": "https://www.richmondfed.org/publications",
       "feed": null,
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "frbsf",
@@ -241,7 +280,10 @@
       "sourceType": "Research listing",
       "url": "https://www.frbsf.org/about-us/economic-research/",
       "feed": null,
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "frbstl",
@@ -252,7 +294,10 @@
       "sourceType": "Research listing",
       "url": "https://www.stlouisfed.org/publications",
       "feed": null,
-      "status": "Proposed"
+      "status": "Proposed",
+      "workbook": [
+        "Register"
+      ]
     },
     {
       "id": "bsp_speeches",
@@ -395,7 +440,10 @@
       "sourceType": "Model catalogue",
       "url": "https://www.bancaditalia.it/compiti/ricerca-economica/modelli-macroeconomici/index.html?com.dotmarketing.htmlpage.language=1",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "bdi_policy",
@@ -406,7 +454,10 @@
       "sourceType": "National projections",
       "url": "https://www.bancaditalia.it/pubblicazioni/proiezioni-macroeconomiche/index.html?com.dotmarketing.htmlpage.language=1",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "bdi_research",
@@ -416,8 +467,12 @@
       "category": "Research",
       "sourceType": "Research gateway or listing",
       "url": "https://www.bancaditalia.it/pubblicazioni/menu/ricerca-analisi.html?com.dotmarketing.htmlpage.language=1",
-      "feed": null,
-      "status": "Catalogued"
+      "feed": "https://www.bancaditalia.it/util/index.rss.html?sezione=/pubblicazioni&lingua=en",
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "bdi_research_watch",
@@ -427,8 +482,12 @@
       "category": "Research / working papers",
       "sourceType": "Working paper series",
       "url": "https://www.bancaditalia.it/pubblicazioni/temi-discussione/index.html?com.dotmarketing.htmlpage.language=1",
-      "feed": null,
-      "status": "Catalogued"
+      "feed": "https://www.bancaditalia.it/util/index.rss.html?sezione=/pubblicazioni/temi-discussione&lingua=en",
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "bdi_speech",
@@ -439,7 +498,10 @@
       "sourceType": "Governor speeches",
       "url": "https://www.bancaditalia.it/interventi/governatore/index.html?com.dotmarketing.htmlpage.language=1",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "bdi_speech_board",
@@ -450,7 +512,10 @@
       "sourceType": "Other Board speeches",
       "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/index.html?com.dotmarketing.htmlpage.language=1",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "bde_model",
@@ -461,7 +526,10 @@
       "sourceType": "MTBE model paper",
       "url": "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/documentos-ocasionales/mtbe-v2025-new-version-of-the-quarterly-model-of-the-banco-de-espana.html",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "bde_policy",
@@ -472,7 +540,10 @@
       "sourceType": "National projections",
       "url": "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/proyecciones-macro-informe-trimestral/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "bde_research",
@@ -483,7 +554,11 @@
       "sourceType": "Research gateway or listing",
       "url": "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/",
       "feed": "https://www.bde.es/wbe/en/inicio/rss/rss-estudios-publicaciones/",
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "bde_research_watch",
@@ -493,8 +568,12 @@
       "category": "Research / working papers",
       "sourceType": "Dated Working Papers",
       "url": "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/documentos-trabajo/",
-      "feed": null,
-      "status": "Catalogued"
+      "feed": "https://www.bde.es/wbe/en/inicio/rss/rss-estudios-publicaciones/",
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "bde_speech",
@@ -505,7 +584,10 @@
       "sourceType": "Speech listing",
       "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-banco-espana/intervenciones-publicas/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "boe_model",
@@ -516,7 +598,10 @@
       "sourceType": "Technical paper series",
       "url": "https://www.bankofengland.co.uk/macro-technical-paper/macro-technical-papers",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "boe_policy",
@@ -527,7 +612,10 @@
       "sourceType": "Current rate and MPC links",
       "url": "https://www.bankofengland.co.uk/monetary-policy",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "boe_outlook",
@@ -538,7 +626,10 @@
       "sourceType": "Monetary Policy Report",
       "url": "https://www.bankofengland.co.uk/monetary-policy-report/monetary-policy-report",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "boe_research",
@@ -548,8 +639,12 @@
       "category": "Research",
       "sourceType": "Research gateway or listing",
       "url": "https://www.bankofengland.co.uk/research",
-      "feed": null,
-      "status": "Catalogued"
+      "feed": "https://www.bankofengland.co.uk/rss/publications",
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "boe_research_watch",
@@ -559,8 +654,12 @@
       "category": "Research / working papers",
       "sourceType": "Staff working papers",
       "url": "https://www.bankofengland.co.uk/working-paper/staff-working-papers",
-      "feed": null,
-      "status": "Catalogued"
+      "feed": "https://www.bankofengland.co.uk/rss/publications",
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "boe_speech",
@@ -571,7 +670,10 @@
       "sourceType": "Dynamic listing",
       "url": "https://www.bankofengland.co.uk/news/speeches",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "bdf_model",
@@ -582,7 +684,10 @@
       "sourceType": "FR-BDF model paper",
       "url": "https://www.banque-france.fr/en/publications-and-statistics/publications/fr-bdf-model-and-assessment-monetary-policy-transmission-france",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "bdf_policy",
@@ -593,7 +698,10 @@
       "sourceType": "National projections",
       "url": "https://www.banque-france.fr/en/publications-and-research/our-main-publications/macroeconomic-projections",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "bdf_research",
@@ -604,7 +712,11 @@
       "sourceType": "Research gateway or listing",
       "url": "https://www.banque-france.fr/en/publications-and-statistics/publications",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "bdf_research_watch",
@@ -615,7 +727,11 @@
       "sourceType": "Working paper series",
       "url": "https://www.banque-france.fr/en/publications-and-research/our-main-publications/working-papers",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "bdf_speech",
@@ -626,7 +742,10 @@
       "sourceType": "Governor and deputy governor speeches",
       "url": "https://www.banque-france.fr/en/governor-interventions",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "tcmb_speeches",
@@ -648,7 +767,10 @@
       "sourceType": "g3+ model article",
       "url": "https://www.cnb.cz/en/monetary-policy/monetary-policy-reports/boxes-and-articles/The-updated-g3-core-forecasting-model/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "cnb_policy",
@@ -659,7 +781,10 @@
       "sourceType": "Bank Board decisions",
       "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "cnb_outlook",
@@ -670,7 +795,10 @@
       "sourceType": "Monetary Policy Reports",
       "url": "https://www.cnb.cz/en/monetary-policy/monetary-policy-reports/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "cnb_research",
@@ -681,7 +809,11 @@
       "sourceType": "Research gateway or listing",
       "url": "https://www.cnb.cz/en/economic-research/research-publications/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "cnb_research_watch",
@@ -692,7 +824,11 @@
       "sourceType": "Working paper series",
       "url": "https://www.cnb.cz/en/economic-research/research-publications/cnb-working-paper-series/index.html",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "cnb_speech",
@@ -703,7 +839,10 @@
       "sourceType": "Speech listing",
       "url": "https://www.cnb.cz/en/public/media-service/speeches-conferences-seminars/presentations-and-speeches/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "bbk_model",
@@ -714,7 +853,10 @@
       "sourceType": "Macroeconometric model paper",
       "url": "https://www.bundesbank.de/en/publications/reports/technical-papers/the-macroeconometric-model-of-the-bundesbank-revisited-888376",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "bbk_policy",
@@ -725,7 +867,10 @@
       "sourceType": "National forecasts",
       "url": "https://www.bundesbank.de/en/tasks/monetary-policy/economic-analyses/forecasts-625856",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "bbk_research",
@@ -736,7 +881,11 @@
       "sourceType": "Research gateway or listing",
       "url": "https://www.bundesbank.de/en/publications/research",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "bbk_research_brief",
@@ -747,7 +896,11 @@
       "sourceType": "Research Brief",
       "url": "https://www.bundesbank.de/en/publications/research/research-brief",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "bbk_discussion_papers",
@@ -757,8 +910,12 @@
       "category": "Research / discussion papers",
       "sourceType": "Discussion Papers",
       "url": "https://www.bundesbank.de/en/publications/research/discussion-papers",
-      "feed": null,
-      "status": "Catalogued"
+      "feed": "https://www.bundesbank.de/service/rss/en/633292/feed.rss",
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "bbk_speech",
@@ -769,7 +926,10 @@
       "sourceType": "Speech listing",
       "url": "https://www.bundesbank.de/en/press/speeches",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "ecb_model",
@@ -780,7 +940,10 @@
       "sourceType": "Model catalogue",
       "url": "https://www.ecb.europa.eu/pub/economic-research/macroeconomic-models/html/index.en.html",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "ecb_policy",
@@ -791,7 +954,10 @@
       "sourceType": "Decision list",
       "url": "https://www.ecb.europa.eu/press/govcdec/mopo/html/index.en.html",
       "feed": "https://www.ecb.europa.eu/rss/press.html",
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "ecb_outlook",
@@ -802,7 +968,10 @@
       "sourceType": "Economic Bulletin",
       "url": "https://www.ecb.europa.eu/press/economic-bulletin/html/index.en.html",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "ecb_research",
@@ -813,7 +982,11 @@
       "sourceType": "Research gateway or listing",
       "url": "https://www.ecb.europa.eu/pub/economic-research/html/index.en.html",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "ecb_research_bulletin",
@@ -823,8 +996,12 @@
       "category": "Research / bulletin",
       "sourceType": "Research Bulletin",
       "url": "https://www.ecb.europa.eu/press/research-publications/resbull/html/index.en.html",
-      "feed": null,
-      "status": "Catalogued"
+      "feed": "https://www.ecb.europa.eu/rss/rbu.html",
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "ecb_research_watch",
@@ -835,7 +1012,11 @@
       "sourceType": "Working papers and RSS",
       "url": "https://www.ecb.europa.eu/press/research-publications/working-papers/html/index.en.html",
       "feed": "https://www.ecb.europa.eu/rss/wppub.html",
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "ecb_speech",
@@ -846,7 +1027,10 @@
       "sourceType": "Speech listing",
       "url": "https://www.ecb.europa.eu/press/pubbydate/html/index.en.html?name_of_publication=Speech",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "mnb_model",
@@ -857,7 +1041,10 @@
       "sourceType": "Forecasting model paper",
       "url": "https://www.mnb.hu/en/publications/studies-publications-statistics/working-papers-1-1/wp-2016-4-laszlo-bekesi-csaba-kober-henrik-kucsera-timea-varnai-balazs-vilagi-the-macroeconomic-forecasting-model-of-the-mnb",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "mnb_policy",
@@ -868,7 +1055,10 @@
       "sourceType": "Council press releases",
       "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "mnb_outlook",
@@ -879,7 +1069,10 @@
       "sourceType": "Inflation Report",
       "url": "https://www.mnb.hu/en/publications/reports/inflation-report",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "mnb_research",
@@ -890,7 +1083,11 @@
       "sourceType": "Research gateway or listing",
       "url": "https://www.mnb.hu/en/publications/studies-publications-statistics",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "mnb_research_watch",
@@ -901,7 +1098,11 @@
       "sourceType": "Working paper series",
       "url": "https://www.mnb.hu/en/publications/studies-publications-statistics/working-papers-1-1",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "mnb_speech",
@@ -912,7 +1113,10 @@
       "sourceType": "Speech archive",
       "url": "https://www.mnb.hu/en/pressroom/speeches-performances",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "nbp_model",
@@ -923,7 +1127,10 @@
       "sourceType": "NECMOD model overview",
       "url": "https://nbp.pl/en/monetary-policy/inflation-and-gdp-projection/necmod/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "nbp_policy",
@@ -934,7 +1141,10 @@
       "sourceType": "MPC documents index",
       "url": "https://nbp.pl/en/monetary-policy/mpc-documents/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "nbp_research",
@@ -945,7 +1155,11 @@
       "sourceType": "Research gateway or listing",
       "url": "https://nbp.pl/en/publications/research-papers/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "nbp_research_watch",
@@ -956,7 +1170,11 @@
       "sourceType": "Working paper index",
       "url": "https://nbp.pl/en/publications/research-papers/working-papers/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "nbp_speech",
@@ -967,7 +1185,10 @@
       "sourceType": "Mixed governor news",
       "url": "https://prezes.nbp.pl/aktualnosci/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "norges_model",
@@ -978,7 +1199,10 @@
       "sourceType": "Model catalogue",
       "url": "https://www.norges-bank.no/en/topics/Monetary-policy/Models-for-monetary-policy-analysis-and-forecasting/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "norges_policy",
@@ -989,7 +1213,10 @@
       "sourceType": "Meeting list",
       "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/",
       "feed": "https://www.norges-bank.no/en/rss-feeds/Press-releases---Norges-Bank/",
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "norges_outlook",
@@ -1000,7 +1227,10 @@
       "sourceType": "Monetary Policy Report",
       "url": "https://www.norges-bank.no/en/news-events/publications/Monetary-Policy-Report/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "norges_research",
@@ -1011,7 +1241,11 @@
       "sourceType": "Research gateway or listing",
       "url": "https://www.norges-bank.no/en/news-events/publications/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "norges_research_watch",
@@ -1022,7 +1256,11 @@
       "sourceType": "Filtered series and RSS",
       "url": "https://www.norges-bank.no/en/news-events/publications/?selectedFacets%5BType%5D=51616",
       "feed": "https://www.norges-bank.no/en/rss-feeds/Working-papers---Norges-Bank/",
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "norges_speech",
@@ -1033,7 +1271,10 @@
       "sourceType": "Speech listing",
       "url": "https://www.norges-bank.no/en/topics/news-events/speeches/",
       "feed": "https://www.norges-bank.no/en/rss-feeds/Speeches---Norges-Bank/",
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "riks_model",
@@ -1044,7 +1285,10 @@
       "sourceType": "Ramses II model paper",
       "url": "https://www.riksbank.se/en-gb/press-and-published/publications/working-paper-series/occasional-paper-series/occasional-paper-series-no.-12-ramses-ii--model-description",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "riks_policy",
@@ -1055,7 +1299,10 @@
       "sourceType": "Decision documents",
       "url": "https://www.riksbank.se/en-gb/monetary-policy/monetary-policy-report/monetary-policy-decision-documents/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "riks_research",
@@ -1066,7 +1313,11 @@
       "sourceType": "Research gateway or listing",
       "url": "https://www.riksbank.se/en-gb/press-and-published/publications/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "riks_research_watch",
@@ -1077,7 +1328,11 @@
       "sourceType": "Working paper series",
       "url": "https://www.riksbank.se/en-gb/press-and-published/publications/working-paper-series/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "riks_speech",
@@ -1088,7 +1343,10 @@
       "sourceType": "Speech listing",
       "url": "https://www.riksbank.se/en-gb/press-and-published/speeches-and-presentations/",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "snb_model",
@@ -1099,7 +1357,10 @@
       "sourceType": "DSGE model paper",
       "url": "https://www.snb.ch/en/publications/research/economic-studies/2014/11/economic_studies_2014_08",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "snb_policy",
@@ -1110,7 +1371,10 @@
       "sourceType": "Decision list",
       "url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/decisions",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     },
     {
       "id": "snb_research",
@@ -1120,8 +1384,12 @@
       "category": "Research",
       "sourceType": "Research gateway or listing",
       "url": "https://www.snb.ch/en/news-publications",
-      "feed": null,
-      "status": "Catalogued"
+      "feed": "https://www.snb.ch/public/rss/en/news",
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "snb_economic_notes",
@@ -1131,8 +1399,12 @@
       "category": "Research / economic notes",
       "sourceType": "Economic Notes",
       "url": "https://www.snb.ch/en/news-publications/economy/economic-notes",
-      "feed": null,
-      "status": "Catalogued"
+      "feed": "https://www.snb.ch/public/rss/en/papers",
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "snb_research_watch",
@@ -1142,8 +1414,12 @@
       "category": "Research / working papers",
       "sourceType": "Working paper series",
       "url": "https://www.snb.ch/en/news-publications/economy/working-papers",
-      "feed": null,
-      "status": "Catalogued"
+      "feed": "https://www.snb.ch/public/rss/en/papers",
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models",
+        "Register"
+      ]
     },
     {
       "id": "snb_speech",
@@ -1154,7 +1430,10 @@
       "sourceType": "Speech listing",
       "url": "https://www.snb.ch/en/news-publications/speeches",
       "feed": null,
-      "status": "Catalogued"
+      "status": "Catalogued",
+      "workbook": [
+        "Europe Policies & Models"
+      ]
     }
   ],
   "expandedDate": "2026-11-18"

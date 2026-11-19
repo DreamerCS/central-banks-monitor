@@ -1,0 +1,92 @@
+#source-checks,
+#archive-review,
+.europe-register {
+  margin-bottom: 3.5rem;
+}
+
+#source-checks details,
+.europe-register {
+  padding: 0.85rem 1rem;
+  background: #fff;
+  border: 1px solid var(--line);
+}
+
+#source-checks details + details {
+  margin-top: 0.45rem;
+}
+
+#source-checks summary,
+.europe-register summary {
+  cursor: pointer;
+  color: var(--navy);
+  font-weight: 700;
+}
+
+#source-checks summary span {
+  display: inline-block;
+  margin-inline-start: 0.6rem;
+  color: #526b78;
+  font-weight: 400;
+}
+
+.check-table {
+  margin-block: 0.85rem;
+  overflow-x: auto;
+}
+
+.check-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.check-table th,
+.check-table td {
+  text-align: start;
+  padding: 0.6rem 0.65rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+  font-size: 0.875rem;
+}
+
+.check-table th {
+  background: var(--pale);
+  color: var(--navy);
+}
+
+#source-checks small,
+.review-entries small {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.8125rem;
+  color: #526b78;
+}
+
+#archive-review h2 {
+  margin-bottom: 1rem;
+}
+
+.review-entries {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.review-entries li {
+  border-top: 1px solid var(--line);
+  padding: 0.8rem 0;
+}
+
+.europe-register p {
+  margin: 1rem 0 0;
+}
+
+#main [hidden] {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #source-checks summary span {
+    display: block;
+    margin-block-start: 0.25rem;
+  }
+}

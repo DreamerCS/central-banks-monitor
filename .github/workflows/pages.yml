@@ -20,12 +20,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Check requested coverage
         run: python3 scripts/check-data.py
       - name: Update daily Treasury benchmark
         run: python3 scripts/update-treasury.py
       - name: Refresh central bank map activity
-        run: python3 scripts/update-map-activity.py
+        run: |
+          python3 -m pip install 'lxml>=5,<7'
+          python3 scripts/update-map-activity.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -24,5 +24,14 @@ assert len({item["institution"] for item in sources}) == 45
 for item in sources:
     assert urlparse(item["url"]).scheme == "https", item["id"]
     assert not item["feed"] or urlparse(item["feed"]).scheme == "https", item["id"]
+assert sum("Europe Policies & Models" in item.get("workbook", []) for item in sources) == 69
+
+channels = json.loads((Path(__file__).with_name("monitored-sources.json")).read_text())
+assert len({row["id"] for row in channels}) == len({row["url"] for row in channels}) == len(channels)
+for row in channels:
+    assert row["bank"] in expected and urlparse(row["url"]).scheme == "https", row["id"]
+    if "listing" in row:
+        assert {"entry", "link", "date"} <= row["listing"].keys(), row["id"]
+        assert "title" in row["listing"] or "titleText" in row["listing"], row["id"]
 
 print(f"OK: {coverage['linkedCount']}/{coverage['targetCount']} targets; {len(sources)} unique HTTPS source entries")

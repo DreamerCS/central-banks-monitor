@@ -158,7 +158,7 @@
       details.append(element("h4", bank.name));
       if (items.length) renderEvents(items, bank, 8);
       else details.append(element("p", "No publications recorded for this date."));
-      if (!state.sources[bank.name]?.[1]) {
+      if (!state.sources[bank.name]?.[0]) {
         details.append(element("p", "Activity shown here comes from the curated archive.", "map-scope"));
       }
       const links = element("div", "", "map-archive-links");
@@ -178,7 +178,7 @@
       const total = feeds.reduce((total, values) => total + values[1], 0);
       const checked = new Date(state.checked);
       const stale = Date.now() - checked.getTime() > 36 * 60 * 60 * 1000;
-      feedStatus.textContent = `Feed snapshot: ${checked.toISOString().slice(0, 16).replace("T", " ")} UTC${stale ? " (older than 36 hours)" : ""}. ${ok}/${total} official feeds reached across ${feeds.filter(([success]) => success > 0).length} jurisdictions. All 29 include the curated archive.`;
+      feedStatus.textContent = `${ok}/${total} official feeds and listings read across ${feeds.filter(([success]) => success > 0).length}/29 jurisdictions. Checked ${checked.toISOString().slice(0, 16).replace("T", " ")} UTC${stale ? " (older than 36 hours)" : ""}.`;
     }
   }
 
