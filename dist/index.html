@@ -9,6 +9,8 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
+  <link rel="stylesheet" href="world-map.css">
+  <script src="world-map.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -19,10 +21,31 @@
         <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M2 46V2h44"/><path d="m9 35 10-12 9 6 12-17"/><circle cx="40" cy="12" r="2"/></svg></span>
         <span><strong>Central Bank<br>Intelligence</strong><small>RESEARCH SOURCE ATLAS</small></span>
       </a>
-      <nav aria-label="Main navigation"><a href="#coverage">Coverage</a><a href="#atlas">Sources</a><a href="#lab">Analysis</a><a href="#index">Index</a><a href="research-archive.html">Monthly archive</a></nav>
+      <nav aria-label="Main navigation"><a href="#world-map">World map</a><a href="#coverage">Coverage</a><a href="#atlas">Sources</a><a href="#lab">Analysis</a><a href="#index">Index</a><a href="research-archive.html">Monthly archive</a></nav>
     </div>
   </header>
   <main id="main">
+    <section id="world-map" class="map-section shell" aria-labelledby="world-map-title">
+      <div class="map-heading">
+        <div><h2 id="world-map-title">Central banks world map</h2><p>Follow new releases across 29 jurisdictions.</p></div>
+        <div class="map-date"><label for="map-day">Publication day (UTC)</label><select id="map-day" disabled></select></div>
+      </div>
+      <div class="map-regions" id="map-regions" role="group" aria-label="Select a continent"></div>
+      <div class="map-layout">
+        <div class="map-stage" id="map-stage">
+          <canvas id="map-canvas" aria-hidden="true"></canvas>
+          <div id="map-pins" class="map-pins" role="group" aria-label="Central bank map pins"></div>
+          <div class="map-key"><span><i class="map-dot is-active"></i> Published on selected day</span><span><i class="map-dot"></i> Covered jurisdiction</span></div>
+        </div>
+        <div id="map-details" class="map-details">
+          <h3>Publications by location</h3><p id="map-status" role="status">Loading map and recent publications…</p>
+          <div id="map-locations" class="map-locations" role="group" aria-label="Select a jurisdiction"></div>
+          <div id="map-selection" class="map-selection"></div>
+        </div>
+      </div>
+      <p class="map-footnote" id="map-feed-status"></p>
+      <p class="map-footnote"><a href="https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/" target="_blank" rel="noopener noreferrer">Map geometry: Natural Earth</a>. Pins follow the research register’s jurisdiction list.</p>
+    </section>
     <section class="hero" id="top">
       <div class="shell hero-grid">
         <div class="hero-copy">

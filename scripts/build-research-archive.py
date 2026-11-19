@@ -51,7 +51,7 @@ def render_record(row):
         body = f'{paragraphs}<h4>Questions for further research</h4><ol>{questions}</ol>'
     search_text = e(" ".join((row["title"], row["institution"], row["type"], row["date"])).casefold())
     return f"""
-<article class="research-record" data-type="{e(row['type'])}" data-analysed="{str(analysed).lower()}" data-search="{search_text}">
+<article class="research-record" data-date="{e(row['date'])}" data-type="{e(row['type'])}" data-analysed="{str(analysed).lower()}" data-search="{search_text}">
   <div class="record-meta"><time datetime="{row['date']}">{row['date']}</time><span>{e(row['type'])}</span><span>{label}</span></div>
   <h4>{title}</h4><p class="record-issuer">{e(row['institution'])}</p>
   <details><summary>{"Read analysis" if analysed else "Publication details"}</summary><div class="record-body">{body}{locator}{limitation}</div></details>
@@ -73,21 +73,22 @@ def render_sources(sources):
     return "<ul>" + "".join(items) + "</ul>"
 
 
-def render_month(month, targets, grouped_sources, rows):
+def render_month(month, targets, grouped_sources, rows, continents):
     key, label, start, end = month
     entries = [r for r in rows if start <= r["date"] <= end]
     by_bank = defaultdict(list)
     for row in entries:
         by_bank[row["jurisdiction"]].append(row)
-    jump = []
-    groups = []
+    groups = defaultdict(list)
+    jump_by_region = defaultdict(list)
     for index, bank in enumerate(targets, 1):
         items = by_bank[bank]
         anchor = f"{key}-bank-{index}"
-        jump.append(f'<li><a href="#{anchor}">{e(bank)}<span>{e(status(items))}</span></a></li>')
+        region = continents[bank]
+        jump_by_region[region].append(f'<li><a href="#{anchor}">{e(bank)}<span>{e(status(items))}</span></a></li>')
         cards = "".join(render_record(r) for r in items)
         no_items = "" if items else "<p class='missing'>No dated publication verified here yet. Use the official register links to continue the review.</p>"
-        groups.append(f"""
+        groups[region].append(f"""
 <section class="bank-section" id="{anchor}" data-bank="{e(bank)}">
   <div class="bank-title"><h3>{e(bank)}</h3><span>{e(status(items))}</span></div>
   {cards}{no_items}
@@ -96,11 +97,20 @@ def render_month(month, targets, grouped_sources, rows):
     notes = sum(bool(row.get("summary")) for row in entries)
     institutions = len({row["institution"] for row in entries})
     covered = sum(bool(items) for items in by_bank.values())
+    region_order = ("North America", "South America", "Europe", "Africa", "Asia", "Oceania")
+    region_index = "".join(
+        f'<div class="archive-continent"><h3>{e(region)}</h3><ul class="bank-jump" aria-label="{e(region)} jurisdiction shortcuts">{"".join(jump_by_region[region])}</ul></div>'
+        for region in region_order
+    )
+    region_groups = "".join(
+        f'<div class="archive-region"><h3 class="archive-region-title">{e(region)}</h3>{"".join(groups[region])}</div>'
+        for region in region_order
+    )
     return f"""
 <section class="archive-month" id="{key}" aria-labelledby="{key}-title">
   <div class="month-title"><h2 id="{key}-title">{label}</h2><p>{start} to {end} · {covered}/29 jurisdictions · {institutions} institutions · {len(entries)} publications · {notes} research notes</p></div>
-  <ul class="bank-jump" aria-label="{label} jurisdiction shortcuts">{''.join(jump)}</ul>
-  {''.join(groups)}
+  <div class="archive-region-view">{region_index}{region_groups}</div>
+  <div class="archive-timeline" hidden></div>
 </section>"""
 
 
@@ -142,7 +152,8 @@ def build(records):
             assert isinstance(r["summary"], str) and 3 <= len(r["questions"]) <= 5, r
             assert all(q["question"].strip() and q["evidence"].strip() for q in r["questions"]), r
     rows = sorted(records, key=lambda r: (r["date"], r["title"]), reverse=True)
-    month_html = "".join(render_month(month, targets, grouped_sources, rows) for month in MONTHS)
+    continents = {x["name"]: x["region"] for x in read_json(DATA / "world-map.json")["targets"]}
+    month_html = "".join(render_month(month, targets, grouped_sources, rows, continents) for month in MONTHS)
     types = "".join(f'<option value="{e(t)}">{e(t)}</option>' for t in sorted(allowed_types))
     banks = "".join(f'<option value="{e(b)}">{e(b)}</option>' for b in targets)
     template = (ROOT / "scripts" / "research-archive.html").read_text(encoding="utf-8")

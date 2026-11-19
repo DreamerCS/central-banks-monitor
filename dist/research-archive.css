@@ -95,3 +95,25 @@
   .archive-filters label:not(.notes-filter) { flex: 1 1 100%; }
   .archive-nav nav { gap: 10px; }
 }
+
+.archive-continent h3 {
+  color: #31576a;
+  font-size: .9rem;
+  margin: 18px 0 7px;
+}
+.archive-continent .bank-jump { margin: 0 0 16px; }
+.archive-region-view .archive-region:first-of-type { margin-top: 26px; }
+.archive-region-title, .archive-timeline-day h3 {
+  margin: 24px 0 13px;
+  color: #254756;
+  font: 1.47rem var(--serif);
+}
+.archive-region-title {
+  padding: 10px 12px;
+  border-left: 3px solid #638b90;
+  background: #eaf0ee;
+}
+.archive-region-view .record-region-label { display: none; }
+.archive-timeline-day { margin: 20px 0 33px; }
+.archive-timeline-day h3 { border-bottom: 1px solid #a8bfbe; padding-bottom: 8px; }
+.record-region-label { font-weight: 700; color: #2d6074; }
