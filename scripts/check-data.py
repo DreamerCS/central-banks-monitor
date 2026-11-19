@@ -28,10 +28,13 @@ for item in sources:
 assert sum("Europe Policies & Models" in item.get("workbook", []) for item in sources) == 69
 
 periods = json.loads((ROOT / "archive-periods.json").read_text())
+records = json.loads((ROOT / "research-archive.json").read_text())
 assert len({period["id"] for period in periods}) == len(periods)
 for period in periods:
     start, end = (date.fromisoformat(period[key]) for key in ("start", "end"))
     assert start.day == 1 and (start.year, start.month) == (end.year, end.month), period
+    covered = {row["jurisdiction"] for row in records if period["start"] <= row["date"] <= period["end"]}
+    assert covered == expected, f"{period['label']} archive is missing {', '.join(sorted(expected - covered))}"
 assert all(a["end"] < b["start"] for a, b in zip(periods, periods[1:]))
 
 channels = json.loads((Path(__file__).with_name("monitored-sources.json")).read_text())

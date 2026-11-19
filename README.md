@@ -18,10 +18,10 @@ Production work still needs the team's validated model, a speech corpus with rel
 
 ## Local preview
 
-Rebuild the archive from its source records and serve it with a static HTTP server.
+Rebuild the archive from the committed research dataset and serve it with a static HTTP server.
 
 ```sh
-python3 scripts/build-research-archive.py --fragments dist/data/archive-fragments
+python3 scripts/build-research-archive.py
 python3 -m http.server 8000 --directory dist
 ```
 
@@ -36,5 +36,7 @@ The workflow in `.github/workflows/pages.yml` publishes `dist` on pushes to `mai
 Edit `dist/data/sources.json` and `dist/data/coverage.json`. Each source record requires a unique `id`, an HTTPS `url`, and the displayed institution, country, region, category, source type and status. A feed URL is optional. Review publication rights and the accuracy of the page before promoting a proposed entry. Update the snapshot and expansion dates and on-page note when the directory changes.
 
 Add daily machine-readable channels to `scripts/monitored-sources.json`. A listing needs selectors for each dated entry, its title and its official link. Validate the latest dated result with `python3 scripts/update-map-activity.py` after installing `lxml`. The scheduled run rebuilds the monthly archive and refreshes map activity and channel health. Use `--audit aug-sep` or `--audit oct-nov` to rerun a historical review with the dated listings available at the time of the check. `dist/data/archive-periods.json` supplies the archive date ranges and month links.
+
+Update `dist/data/research-archive.json` with verified research records before rebuilding the site. Files in `dist/data/archive-fragments` contain individual research batches. The live site builds from the combined archive dataset.
 
 No external fonts, trackers or runtime services are used. External institution links open in a new tab.
