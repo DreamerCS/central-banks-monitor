@@ -15,8 +15,10 @@ from xml.etree import ElementTree as ET
 
 SCRIPTS = Path(__file__).resolve().parent
 DATA = SCRIPTS.parent / "dist" / "data"
-AUDIT_START = "2026-10-01"
-AUDIT_END = "2026-11-19"
+AUDIT_WINDOWS = {
+    "aug-sep": (("aug", "sep"), "archive-review-aug-sep.json"),
+    "oct-nov": (("oct", "nov"), "archive-review.json"),
+}
 SPANISH_MONTHS = dict(
     zip("enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre".split(),
         "January February March April May June July August September October November December".split())
@@ -46,7 +48,7 @@ def publication_day(value, date_format=None):
     if re.fullmatch(r"\d{1,2} [A-Za-z]+\. \d{4}", value):
         value = value.replace(".", "")
     value = " ".join(SPANISH_MONTHS.get(word.lower(), word) for word in value.split())
-    for pattern in ("%d %B %Y", "%d %b %Y", "%d.%m.%Y", "%d/%m/%Y", "%Y/%m/%d"):
+    for pattern in ("%d %B %Y", "%d %b %Y", "%B %d %Y", "%d.%m.%Y", "%d/%m/%Y", "%Y/%m/%d"):
         try:
             return datetime.strptime(value, pattern).date()
         except ValueError:
@@ -63,6 +65,10 @@ def official_url(url, publisher):
     host = hostname(url)
     return (parsed.scheme == "https" and not parsed.username and not parsed.password
             and (host == publisher or host.endswith("." + publisher)))
+
+
+def normal_path(path):
+    return re.sub(r"/{2,}", "/", path)
 
 
 def xml_entries(body, use_updated):
@@ -133,12 +139,12 @@ def collect(source, throttle):
             if not (day and title and link and official_url(link, publisher)):
                 continue
             parts = urlsplit(link)
-            if parts.path.startswith(tuple(source.get("excludePaths", []))):
+            path = normal_path(parts.path)
+            if path.startswith(tuple(source.get("excludePaths", []))):
                 continue
-            path = quote(parts.path, safe="/%:@!$&'()*+,;=-._~")
-            link = urlunsplit(parts._replace(path=path))
+            link = urlunsplit(parts._replace(path=quote(path, safe="/%:@!$&'()*+,;=-._~")))
             kind = next((kind for prefix, kind in source.get("pathTypes", {}).items()
-                         if parts.path.lower().startswith(prefix)), source["type"])
+                         if path.lower().startswith(prefix)), source["type"])
             row = dict(bank=source["bank"], institution=source["institution"], type=kind,
                        day=day.isoformat(), title=title, url=link, source=source["id"])
             rows[identity(link)] = row
@@ -153,7 +159,7 @@ def identity(url):
     query = tuple(sorted((k, v) for k, v in parse_qsl(parsed.query)
                          if not k.lower().startswith("utm_") and k.lower() not in
                          {"trk", "fbclid", "gclid"}))
-    return hostname(url), unquote(parsed.path).rstrip("/"), query
+    return hostname(url), normal_path(unquote(parsed.path)).rstrip("/"), query
 
 
 def title_key(row):
@@ -167,20 +173,24 @@ def write_json(target, payload):
     temporary.replace(target)
 
 
-def review_snapshot(checked, checks, rows, archive):
-    official = [r for r in rows if AUDIT_START <= r["day"] <= AUDIT_END]
+def review_snapshot(window, checked, checks, rows, archive):
+    ids, output = AUDIT_WINDOWS[window]
+    periods = json.loads((DATA / "archive-periods.json").read_text(encoding="utf-8"))
+    periods = [period for period in periods if period["id"] in ids]
+    start, end = periods[0]["start"], periods[-1]["end"]
+    official = [r for r in rows if start <= r["day"] <= end]
     links = {identity(r["url"]) for r in archive}
     links.update(identity(link["url"]) for r in archive for link in r.get("related", []))
     titles = {title_key(r) for r in archive}
     unmatched = [r for r in official if identity(r["url"]) not in links and title_key(r) not in titles]
     monthly = {}
-    for month in ("2026-10", "2026-11"):
-        monthly[month] = {
-            "indexed": dict(Counter(r["bank"] for r in archive if r["day"].startswith(month))),
-            "review": dict(Counter(r["bank"] for r in unmatched if r["day"].startswith(month))),
+    for period in periods:
+        monthly[period["start"][:7]] = {
+            "indexed": dict(Counter(r["bank"] for r in archive if period["start"] <= r["day"] <= period["end"])),
+            "review": dict(Counter(r["bank"] for r in unmatched if period["start"] <= r["day"] <= period["end"])),
         }
-    write_json(DATA / "archive-review.json", dict(
-        checkedAt=checked, start=AUDIT_START, end=AUDIT_END, matched=len(official) - len(unmatched),
+    write_json(DATA / output, dict(
+        checkedAt=checked, start=start, end=end, matched=len(official) - len(unmatched),
         inputsRead=sum(r["status"] == "Read" for r in checks), inputsChecked=len(checks),
         monthly=monthly, items=unmatched,
     ))
@@ -189,7 +199,8 @@ def review_snapshot(checked, checks, rows, archive):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--audit", action="store_true", help="save a fixed reconciliation for October–November 2026")
+    parser.add_argument("--audit", nargs="?", const="oct-nov", choices=AUDIT_WINDOWS,
+                        help="save a fixed historical reconciliation for the chosen 2026 window")
     args = parser.parse_args()
     now = datetime.now(timezone.utc)
     checked = now.isoformat(timespec="seconds")
@@ -219,7 +230,10 @@ def main():
                 dates = [row["day"] for row in rows]
                 check.update(status="Read", first=min(dates), last=max(dates))
                 for row in rows:
-                    collected.setdefault(identity(row["url"]), row)
+                    key = identity(row["url"])
+                    existing = collected.get(key)
+                    if existing is None or (not audit_only and existing["type"] == "Release" and row["type"] != "Release"):
+                        collected[key] = row
             checks.append(check | {"auditOnly": audit_only})
 
     archive = [
@@ -230,7 +244,7 @@ def main():
     ]
     ordered = sorted(collected.values(), key=lambda r: (r["day"], r["bank"], r["title"]), reverse=True)
     if args.audit:
-        review_snapshot(checked, checks, ordered, archive)
+        review_snapshot(args.audit, checked, checks, ordered, archive)
 
     daily_checks = [check for check in checks if not check.pop("auditOnly")]
     daily_ids = {check["id"] for check in daily_checks}

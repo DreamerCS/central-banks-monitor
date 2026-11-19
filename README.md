@@ -6,7 +6,7 @@ A static, public prototype for the central bank research project. It includes a 
 
 The directory contains **105 official page links** covering all **29 requested jurisdictions**, including **all 69 entries** on the original Europe Policies & Models worksheet. The daily monitor checks individual RSS/Atom feeds and official dated listings. The public [source coverage page](dist/source-coverage.html) shows which inputs returned dated records and the latest item from each source. Some inputs publish infrequently or return only a short history. The map combines the recent records returned by those checks with the monthly research archive.
 
-The archive contains selected source-based notes. The October–November 2026 comparison lists dated links returned by the checked sources that did not match the existing archive by URL, related document URL or normalised title and day. It is a review queue for scope, additional duplicates and analysis. It also depends on the available listing pages, feed history and language editions. Feed or meeting dates need to be verified at the source before running a market event study.
+The archive contains selected source-based notes for August to November 2026. The source coverage page has separate historical comparisons for August–September and October–19 November. Each lists dated links returned by the checked sources that did not match the archive by URL, related document URL or normalised title and day. The review queue depends on available listing pages, feed history and language editions. Verify feed and meeting dates against the publication before using a record in a market event study.
 
 The supplied `Prompt.docx` defines the sell-side report analysis workflow: a 500–800 word source-only summary, 3–5 ranked further-research questions, chart/table/footnote review, page references and careful attribution to the report's date. Its source-grounded checks also guide speech and central-bank document analysis, with format adapted to each document. It does **not** define a numerical hawkish/dovish scoring rubric. The public site describes this method without embedding the private prompt file or pretending that a static page can analyse complete documents. The team's validated speech model must be integrated before numerical scores or an index are published.
 
@@ -18,9 +18,10 @@ Production work still needs the team's validated model, a speech corpus with rel
 
 ## Local preview
 
-Serve the `dist` directory with any static HTTP server, for example:
+Rebuild the archive from its source records and serve it with a static HTTP server.
 
 ```sh
+python3 scripts/build-research-archive.py --fragments dist/data/archive-fragments
 python3 -m http.server 8000 --directory dist
 ```
 
@@ -34,6 +35,6 @@ The workflow in `.github/workflows/pages.yml` publishes `dist` on pushes to `mai
 
 Edit `dist/data/sources.json` and `dist/data/coverage.json`. Each source record requires a unique `id`, an HTTPS `url`, and the displayed institution, country, region, category, source type and status. A feed URL is optional. Review publication rights and the accuracy of the page before promoting a proposed entry. Update the snapshot and expansion dates and on-page note when the directory changes.
 
-Add daily machine-readable channels to `scripts/monitored-sources.json`. A listing needs selectors for each dated entry, its title and its official link. Validate the latest dated result with `python3 scripts/update-map-activity.py` after installing `lxml`. The scheduled run refreshes map activity and channel health. Use `--audit` to regenerate the fixed October–November review, including the historical listings marked for that audit.
+Add daily machine-readable channels to `scripts/monitored-sources.json`. A listing needs selectors for each dated entry, its title and its official link. Validate the latest dated result with `python3 scripts/update-map-activity.py` after installing `lxml`. The scheduled run rebuilds the monthly archive and refreshes map activity and channel health. Use `--audit aug-sep` or `--audit oct-nov` to rerun a historical review with the dated listings available at the time of the check. `dist/data/archive-periods.json` supplies the archive date ranges and month links.
 
 No external fonts, trackers or runtime services are used. External institution links open in a new tab.

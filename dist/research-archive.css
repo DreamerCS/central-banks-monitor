@@ -11,7 +11,12 @@
 }
 .archive-nav > a { font-family: var(--serif); font-size: 1.2rem; }
 .archive-nav nav { display: flex; flex-wrap: wrap; gap: 18px; }
+.masthead .archive-nav nav a { display: inline-flex; align-items: center; min-height: 2.5rem; font-size: .9rem; }
 .archive-nav nav a[aria-current] { border-bottom: 2px solid var(--gold); }
+@media (max-width: 650px) {
+  .archive-nav { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .archive-nav nav { gap: 8px 16px; }
+}
 .archive-shell { padding-block: 38px 80px; }
 .archive-intro { max-width: 76ch; }
 .archive-intro h1 {

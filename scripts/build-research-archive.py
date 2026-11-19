@@ -13,10 +13,6 @@ ALIASES = {
     "US": "United States", "UK": "United Kingdom", "Euro-area": "Euro area",
     "Germany": "Euro area", "France": "Euro area", "Italy": "Euro area", "Spain": "Euro area",
 }
-MONTHS = [
-    ("oct", "October 2026", "2026-10-01", "2026-10-31"),
-    ("nov", "November 2026", "2026-11-01", "2026-11-19"),
-]
 e = escape
 
 
@@ -74,7 +70,7 @@ def render_sources(sources):
 
 
 def render_month(month, targets, grouped_sources, rows, continents):
-    key, label, start, end = month
+    key, label, start, end = (month[field] for field in ("id", "label", "start", "end"))
     entries = [r for r in rows if start <= r["date"] <= end]
     by_bank = defaultdict(list)
     for row in entries:
@@ -108,7 +104,7 @@ def render_month(month, targets, grouped_sources, rows, continents):
     )
     return f"""
 <section class="archive-month" id="{key}" aria-labelledby="{key}-title">
-  <div class="month-title"><h2 id="{key}-title">{label}</h2><p>{start} to {end} · {covered}/29 jurisdictions · {institutions} institutions · {len(entries)} publications · {notes} research notes</p></div>
+  <div class="month-title"><h2 id="{key}-title">{e(label)} {start[:4]}</h2><p>{start} to {end} · {covered}/29 jurisdictions · {institutions} institutions · {len(entries)} publications · {notes} research notes</p></div>
   <div class="archive-region-view">{region_index}{region_groups}</div>
   <div class="archive-timeline" hidden></div>
 </section>"""
@@ -121,6 +117,7 @@ def load_records(path):
 
 
 def build(records):
+    periods = read_json(DATA / "archive-periods.json")
     targets = [x["name"] for x in read_json(DATA / "coverage.json")["targets"]]
     sources = read_json(DATA / "sources.json")["sources"]
     grouped_sources = defaultdict(list)
@@ -139,7 +136,7 @@ def build(records):
         assert r["type"] in allowed_types, r
         assert all(isinstance(r[k], str) and r[k].strip() for k in ("date", "institution", "title", "url")), r
         assert date.fromisoformat(r["date"]).isoformat() == r["date"]
-        assert any(start <= r["date"] <= end for _, _, start, end in MONTHS), r
+        assert any(period["start"] <= r["date"] <= period["end"] for period in periods), r
         url = urlsplit(r["url"])
         assert url.scheme == "https" and url.hostname and not url.username, r
         identity = (url.hostname, url.path.rstrip("/"), url.query, url.fragment)
@@ -153,13 +150,17 @@ def build(records):
             assert all(q["question"].strip() and q["evidence"].strip() for q in r["questions"]), r
     rows = sorted(records, key=lambda r: (r["date"], r["title"]), reverse=True)
     continents = {x["name"]: x["region"] for x in read_json(DATA / "world-map.json")["targets"]}
-    month_html = "".join(render_month(month, targets, grouped_sources, rows, continents) for month in MONTHS)
+    month_html = "".join(render_month(month, targets, grouped_sources, rows, continents) for month in periods)
     types = "".join(f'<option value="{e(t)}">{e(t)}</option>' for t in sorted(allowed_types))
     banks = "".join(f'<option value="{e(b)}">{e(b)}</option>' for b in targets)
     template = (ROOT / "scripts" / "research-archive.html").read_text(encoding="utf-8")
-    page = template.replace("{{MONTHS}}", month_html).replace("{{BANKS}}", banks).replace("{{TYPES}}", types)
-    for label, prefix in (("October", "2026-10"), ("November", "2026-11")):
-        month = [r for r in rows if r["date"].startswith(prefix)]
+    links = "".join(f'<a href="?month={e(period["id"])}#{e(period["id"])}">{e(period["label"])}</a>'
+                    for period in periods)
+    page = (template.replace("{{MONTHS}}", month_html).replace("{{MONTH_LINKS}}", links)
+            .replace("{{BANKS}}", banks).replace("{{TYPES}}", types))
+    for period in periods:
+        label = period["label"]
+        month = [r for r in rows if period["start"] <= r["date"] <= period["end"]]
         notes = [r for r in month if r.get("summary")]
         dated_banks = {r["jurisdiction"] for r in month}
         print(f"{label}: {len(month)} documents, {len(notes)} notes, {len(dated_banks)}/29 jurisdictions with dated sources")

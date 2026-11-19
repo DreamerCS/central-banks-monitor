@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Official source checks and the October–November 2026 central bank archive review.">
+  <meta name="description" content="Official source checks and the August–November 2026 central bank archive review.">
   <title>Source Coverage | Central Bank Intelligence</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
@@ -33,14 +33,15 @@
     </section>
 
     <section id="archive-review" aria-labelledby="review-title">
-      <h2 id="review-title">October–November 2026 archive review</h2>
+      <h2 id="review-title">August–November 2026 archive review</h2>
       <p id="review-count" role="status">Loading archive comparison…</p>
-      <p>The initial comparison covers the records returned by the checked RSS feeds and listing pages through 19 November. Older pages, local-language editions and sources outside these checks can contain more material. Unmatched links still need review for scope, duplicates and analysis.</p>
+      <p>The comparison uses the records returned by checked official feeds and listing pages. Sources can provide more material through older pages or other language editions. Unmatched links still need review for scope, duplicates and analysis.</p>
       <form class="archive-filters" id="review-filters" aria-label="Filter unmatched publications" hidden>
-        <label>Month <select id="review-month"><option value="2026-10">October</option><option value="2026-11">November</option></select></label>
+        <label>Month <select id="review-month"></select></label>
         <label>Jurisdiction <select id="review-bank"><option value="">All 29</option></select></label>
         <label>Publication type <select id="review-type"><option value="">All types</option></select></label>
       </form>
+      <p id="review-scope"></p>
       <p id="review-selection" role="status"></p>
       <ul id="review-entries" class="review-entries"></ul>
     </section>

@@ -2,6 +2,8 @@
 
 const select = (id) => document.getElementById(id);
 const params = new URLSearchParams(window.location.search);
+const monthFormatter = new Intl.DateTimeFormat("en-GB", {month: "long", timeZone: "UTC"});
+const monthName = (month) => monthFormatter.format(new Date(`${month}-01T00:00:00Z`));
 
 function node(tag, value) {
   const element = document.createElement(tag);
@@ -42,7 +44,7 @@ function table(headers, rows) {
   return container;
 }
 
-function renderChecks(targets, checks, review) {
+function renderChecks(targets, checks, months) {
   const container = select("source-checks");
   for (const bank of targets) {
     const channels = checks.filter((channel) => channel.bank === bank);
@@ -62,11 +64,9 @@ function renderChecks(targets, checks, review) {
       });
       details.append(table(["Official channel", "Method", "Last check", "Latest item returned"], rows));
     }
-    if (review) {
-      const count = (month, key) => review.monthly[month][key][bank] ?? 0;
-      const october = `October ${count("2026-10", "indexed")} indexed · ${count("2026-10", "review")} to review`;
-      const november = `November ${count("2026-11", "indexed")} indexed · ${count("2026-11", "review")} to review`;
-      details.append(node("small", `${october}  /  ${november}`));
+    for (const [month, review] of months) {
+      const stats = review.monthly[month];
+      details.append(node("small", `${monthName(month)} · ${stats.indexed[bank] ?? 0} indexed · ${stats.review[bank] ?? 0} to review`));
     }
     container.append(details);
   }
@@ -84,21 +84,25 @@ function renderEurope(sources, checks) {
   select("europe-register").append(table(["Institution", "Category", "Register entry", "Monitoring"], rows));
 }
 
-function renderReview(review, targets) {
-  const indexed = Object.values(review.monthly).reduce(
-    (total, month) => total + Object.values(month.indexed).reduce((sum, count) => sum + count, 0), 0);
-  select("review-count").textContent = `${indexed} indexed publications · ${review.items.length} unmatched official links to review.`;
+function renderReview(months, targets) {
   const month = select("review-month");
   const bank = select("review-bank");
   const type = select("review-type");
   const entries = select("review-entries");
+  for (const id of months.keys()) month.add(new Option(monthName(id), id));
   for (const name of targets) bank.add(new Option(name, name));
-  for (const kind of [...new Set(review.items.map((item) => item.type))].sort()) {
+  const allTypes = new Set([...new Set(months.values())].flatMap((review) => review.items.map((item) => item.type)));
+  for (const kind of [...allTypes].sort()) {
     type.add(new Option(kind, kind));
   }
   if (targets.includes(params.get("bank"))) bank.value = params.get("bank");
-  month.value = params.get("month") === "2026-10" ? "2026-10" : "2026-11";
+  month.value = months.has(params.get("month")) ? params.get("month") : [...months.keys()].at(-1);
   const update = () => {
+    const review = months.get(month.value);
+    const stats = review.monthly[month.value];
+    const sum = (counts) => Object.values(counts).reduce((total, count) => total + count, 0);
+    select("review-count").textContent = `${monthName(month.value)} · ${sum(stats.indexed)} indexed publications · ${sum(stats.review)} unmatched official links.`;
+    select("review-scope").textContent = `Checked ${review.inputsChecked} official channels for ${review.start} to ${review.end} on ${review.checkedAt.slice(0, 10)} UTC.`;
     const filtered = review.items.filter((item) => item.day.startsWith(month.value) &&
       (!bank.value || item.bank === bank.value) && (!type.value || item.type === type.value));
     select("review-selection").textContent = filtered.length
@@ -119,8 +123,12 @@ function renderReview(review, targets) {
 async function start() {
   const results = await Promise.allSettled([
     readData("coverage"), readData("sources"), readData("world-map-activity"), readData("archive-review"),
+    readData("archive-review-aug-sep"),
   ]);
-  const [coverage, directory, snapshot, review] = results.map((result) => result.value);
+  const [coverage, directory, snapshot, late, early] = results.map((result) => result.value);
+  const months = new Map([early, late].filter(Boolean).flatMap((review) =>
+    Object.keys(review.monthly).map((month) => [month, review])
+  ));
   const targets = (coverage?.targets ?? []).map((target) => target.name);
   const checks = snapshot?.checks ?? [];
   if (checks.length) {
@@ -129,11 +137,11 @@ async function start() {
     const count = (set) => set.filter((channel) => channel.status === "Read").length;
     const active = new Set(checks.filter((channel) => channel.status === "Read").map((channel) => channel.bank));
     select("coverage-check").textContent = `${count(rss)}/${rss.length} RSS feeds and ${count(pages)}/${pages.length} official listings read across ${active.size}/29 jurisdictions on ${snapshot.checkedAt.slice(0, 10)} UTC.`;
-    if (targets.length) renderChecks(targets, checks, review);
+    if (targets.length) renderChecks(targets, checks, months);
   } else {
     select("coverage-check").textContent = "Daily check results are unavailable.";
   }
-  if (review && targets.length) renderReview(review, targets);
+  if (months.size && targets.length) renderReview(months, targets);
   else select("review-count").textContent = "The archive comparison is unavailable.";
   if (directory) renderEurope(directory.sources, checks);
   else select("europe-register").textContent = "Register entries are unavailable.";

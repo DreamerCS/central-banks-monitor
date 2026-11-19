@@ -11,8 +11,9 @@ const months = [...document.querySelectorAll(".archive-month")];
 const monthLinks = [...document.querySelectorAll(".archive-nav nav a")];
 const params = new URLSearchParams(location.search);
 const monthParam = params.get("month");
-const hashMonth = location.hash.match(/^#(oct|nov)(?:$|-)/)?.[1];
-const activeMonth = ["oct", "nov"].includes(monthParam) ? monthParam : (hashMonth || "oct");
+const hashMonth = location.hash.slice(1).split("-")[0];
+const activeMonth = [monthParam, hashMonth, "oct"].find((id) => months.some((month) => month.id === id))
+  ?? months[0].id;
 
 function savedView() {
   try {

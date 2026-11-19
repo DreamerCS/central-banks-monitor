@@ -1,0 +1,742 @@
+[
+  {
+    "jurisdiction": "United States",
+    "institution": "Board of Governors of the Federal Reserve System",
+    "date": "2026-08-19",
+    "type": "Minutes",
+    "title": "FOMC minutes — 28–29 July 2026 meeting",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm",
+    "locator": "Staff Economic Outlook; Participants’ Views; Committee Policy Actions and recorded vote.",
+    "summary": "Minutes released on 19 August show the Committee held the federal funds target range at 3.50–3.75% at its July meeting. Beth Hammack, Neel Kashkari and Lorie Logan preferred a 25-basis-point increase. Most participants expected new data to help them assess inflation persistence. The staff projected lower headline inflation as gasoline prices fell and saw inflation around 2% in 2028. Participants placed greater weight on upside inflation risks, including the prospect that repeated energy and tariff shocks could change expectations and pricing.\n\nDemand and supply effects from AI investment were both relevant. Participants noted that strong investment in data centres and related inputs could lift demand and prices before any wider productivity gains expanded supply. Some saw those prices as concentrated in a few categories, while others already saw broader pressure. Resilient consumption and stable employment supported a waiting decision, although some noted low job-finding and strains on lower-income households. The Desk review attributed much of the earlier rise in nominal yields to higher expected policy rates and reported little change in inflation compensation. Those observations refer to the interval before the July meeting. The minutes give no market move at their August release.",
+    "questions": [
+      {
+        "question": "What would make the July dissent the majority view?",
+        "evidence": "Compare the next core PCE measures, price breadth, inflation expectations and workforce indicators with the evidence the minutes identify. Separate a fresh commodity-price increase from wider pass-through."
+      },
+      {
+        "question": "How much of a tighter path was already priced before the minutes?",
+        "evidence": "Use meeting-dated fed funds futures, two-year Treasury yields and inflation swaps around the 19 August release. Distinguish changes to expected policy rates from a shift in inflation compensation."
+      },
+      {
+        "question": "When could AI investment tighten financial conditions through credit?",
+        "evidence": "Use segment-level capital spending, financing disclosures and banks’ or private lenders’ exposures to test how a reassessment of AI-linked earnings might affect funding and demand."
+      }
+    ],
+    "related": [
+      {
+        "label": "Official release date",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm"
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Board of Governors of the Federal Reserve System",
+    "date": "2026-08-28",
+    "type": "Speech",
+    "title": "In Our Time — Kevin Warsh at Jackson Hole",
+    "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
+    "locator": "Preparing for Future Policy Conjunctures, forward guidance discussion, Key Principles, The Economy Today and footnotes.",
+    "summary": "At Jackson Hole, Chair Kevin Warsh made a judgment about the balance of risks. He saw employment conditions as broadly consistent with full employment, financial conditions as difficult to call restrictive and inflation as still too high. He cited a jobless rate of 4.1%, relatively low initial claims, strong business investment and private domestic demand, narrow credit spreads and active issuance. Housing and agriculture showed strain. Rising AI investment could expand capacity and productivity, but the speech left its timing, labour-market effects, financing intensity and distribution of returns uncertain.\n\nWarsh focused on the breadth and pace of inflation as well as the headline rate. Twelve-month PCE inflation was 3.7% in the data he cited. He said 54% of the PCE categories he examined had risen by more than 3% over the previous year, above the corresponding pre-pandemic share cited in the speech. Better summer prints had yet to convince him that underlying inflation was returning promptly to target. Medium-horizon expectations and inflation swap compensation appeared stable in his assessment.\n\nThe speech also set out a communications preference. Warsh favoured limited reliance on guidance about future rates outside crisis conditions and wanted financial-market prices to carry independent information. He saw short rates as the main policy tool and put weight on the broad effects of credit and money. The speech offered a criterion for action, confidence that underlying inflation is moving towards 2% fast enough, while leaving the next vote open.",
+    "questions": [
+      {
+        "question": "Which components best distinguish persistent inflation from a small number of supply shocks?",
+        "evidence": "Reconstruct the speech’s PCE breadth calculation by weight and by item, then test whether different thresholds and windows move with other trend measures."
+      },
+      {
+        "question": "How did the emphasis on less rate guidance change what traders reacted to?",
+        "evidence": "Compare meeting-dated policy pricing and rate volatility around the speech with the same instruments around other communication, controlling for the scheduled data tape."
+      },
+      {
+        "question": "Is financial restraint concentrated in rate-sensitive sectors?",
+        "evidence": "Combine the cited bank lending standards with household mortgage activity, issuance and refinancing terms to distinguish firm credit conditions from housing and agriculture."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Board of Governors of the Federal Reserve System",
+    "date": "2026-09-03",
+    "type": "Speech",
+    "title": "The economic outlook and policy communication — Christopher Waller",
+    "url": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
+    "locator": "Economic activity, labour and PCE discussion, policy outlook and the three communication categories.",
+    "summary": "Governor Christopher Waller was open to holding the funds rate if August inflation confirmed the preceding disinflation. A material reversal could lead him to support a small increase at the September meeting. He judged that aggregate demand faced only slight restraint and expected forthcoming labour data to leave his assessment of a stable employment market broadly intact. The solid pace of private demand and a lower pace of labour-force growth gave him room to focus on inflation.\n\nJuly headline and core PCE prices were both up 0.2% on the month in the release he discussed. He contrasted elevated annual rates with slower short-run momentum. Three-month core inflation had declined from 4.76% in February to 3.05% in July, still above the pace consistent with the target. In Waller’s account, imputed non-market prices explained a meaningful part of the latest increase. An anticipated measurement change might reduce reported inflation, independently of underlying price-setting. Energy, tariffs and AI equipment costs remained upside risks.\n\nThe September decision was therefore conditional on incoming prices. Waller distinguished explaining an existing vote, describing his data-dependent response and using guidance as a policy tool at the effective lower bound. The remarks describe his personal vote criteria and provide no committee commitment.",
+    "questions": [
+      {
+        "question": "Would the August inflation signal survive a change in measured non-market services?",
+        "evidence": "Use component and vintage PCE data to distinguish revisions of imputed prices from a change in observed services and goods prices."
+      },
+      {
+        "question": "Has lower labour-force growth changed how much hiring indicates full employment?",
+        "evidence": "Check immigration and participation estimates against hours, payroll breadth and claims. The reassessment changes how the employment release should affect rates expectations."
+      },
+      {
+        "question": "How much of the alternative hike scenario was already in front-end pricing?",
+        "evidence": "Compare meeting-dated swaps immediately before the speech and after the inflation release. Estimate how much repricing is linked to changed decision odds versus later horizons."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Board of Governors of the Federal Reserve System",
+    "date": "2026-09-16",
+    "type": "Decision",
+    "title": "FOMC raises the federal funds target range to 3.75–4.00%",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "locator": "Statement released at 14:00 EDT, decision, vote and accompanying implementation link.",
+    "summary": "The FOMC raised the federal funds target range 25 basis points to 3.75–4.00% on a 12–0 vote, citing a timelier return to its 2% inflation goal. The statement kept the ample-reserves approach. It described solid activity, resilient domestic spending, robust capital investment and little change in unemployment. Job growth had kept pace with workforce growth in the Committee’s assessment. Geopolitical developments remained a source of uncertainty. The published language places the inflation problem at the centre of the action while describing employment as broadly steady. The statement gives neither a future rate path nor a threshold for the next move.",
+    "questions": [
+      {
+        "question": "How much of the increase was already priced before 14:00 EDT?",
+        "evidence": "Use options and futures on the policy rate and timestamped two-year Treasury data. Separate the target-range surprise from the simultaneous forecasts and later press conference."
+      },
+      {
+        "question": "Which underlying inflation measures would support another increase?",
+        "evidence": "Track the breadth and short-run momentum of PCE inflation and survey expectations alongside revisions. The statement supplies no numerical trigger."
+      },
+      {
+        "question": "How does a higher administered rate transmit under ample reserves?",
+        "evidence": "Use the implementation note, daily effective fed funds and reserve and repo rates to distinguish an executed corridor adjustment from pressure in money markets."
+      }
+    ],
+    "related": [
+      {
+        "label": "Official FOMC meeting materials",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20260916.htm"
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Board of Governors of the Federal Reserve System",
+    "date": "2026-09-16",
+    "type": "Forecast",
+    "title": "FOMC Summary of Economic Projections — September 2026",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+    "locator": "Table 1, Figures 1–2 and the accessible distributions and uncertainty tables.",
+    "summary": "FOMC participants’ September projections paired stronger growth and lower unemployment with a higher median path for the policy rate than in June. Median real GDP growth for 2026 rose from 2.2% to 2.3%. The 2026 unemployment median fell to 4.1% from 4.3%. Median headline PCE inflation was 3.7% in 2026 and 2.3% in 2027. Core PCE was 3.4% in 2026 and 2.5% in 2027. The growth and inflation projections compare fourth quarters, whereas unemployment is the fourth-quarter average.\n\nThe median funds-rate projection was 4.1% at end-2026 and end-2027, following June medians of 3.8% and 3.6%. The September individual 2027 projections spanned roughly 3.1–4.4% in Table 1, so the median conceals substantial variation. The dots apply each participant’s view of appropriate policy to their individual outlook. A dotted path cannot be read as a collective commitment or as a direct measure of what rates markets priced.",
+    "questions": [
+      {
+        "question": "How did the distribution of 2027 dots move beyond its median?",
+        "evidence": "Compare all available dots and central tendencies across June and September, accounting for changes in participation, to see whether the shift was broad or concentrated."
+      },
+      {
+        "question": "How much was a change in inflation tolerance versus stronger demand?",
+        "evidence": "Use the detailed projection distributions and published explanations by participants to test whether the rate revision covaries with inflation, growth or unemployment assumptions."
+      },
+      {
+        "question": "What was the gap to expectations in forward markets?",
+        "evidence": "Use contemporaneous meeting-dated rates and the Treasury curve, with a risk-premium adjustment, to distinguish a change in median policy assumptions from a market surprise."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Boston",
+    "date": "2026-08-25",
+    "type": "Speech",
+    "title": "Perspectives on the economy — Susan Collins",
+    "url": "https://www.bostonfed.org/news-and-events/speeches/2026/perspectives-on-the-economy.aspx",
+    "locator": "Full prepared perspectives PDF, pp. 1–4, especially Inflation Concerns and Implications for Monetary Policy.",
+    "summary": "Susan Collins saw stable employment and continued expansion in the United States, with persistent inflation receiving most of her attention. Her most likely scenario expected the effects of earlier tariffs and energy shocks to wane if new tariffs remained limited and the Strait of Hormuz reopened to some degree. Mild policy restraint, higher longer-term rates and continued productivity gains could help disinflation. She viewed the June and July releases as encouraging but too volatile to establish a trend. The AI buildout could lift core goods prices in the short run. Collins was comfortable with the July hold and wanted evidence of durable progress. Her outlook depends in part on avoiding fresh supply shocks and keeping expectations anchored.",
+    "questions": [
+      {
+        "question": "Which inflation measures would show that supply shocks are fading?",
+        "evidence": "Compare energy and tariff-exposed categories with the broader core distribution and long-horizon expectations."
+      },
+      {
+        "question": "Where is mild monetary restraint visible in the economy?",
+        "evidence": "Compare mortgage and consumer borrowing, bank lending to firms and the sensitivity of business spending to long yields."
+      },
+      {
+        "question": "What would make the productivity channel stronger than AI-related input pressure?",
+        "evidence": "Use industry productivity, costs and goods prices to compare AI-exposed sectors with industries further from the buildout."
+      }
+    ],
+    "related": [
+      {
+        "label": "Prepared remarks PDF",
+        "url": "https://www.bostonfed.org/-/media/Documents/Speeches/PDF/collins/2026/20260825-text.pdf"
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Boston",
+    "date": "2026-09-02",
+    "type": "Research",
+    "title": "How AI and affordability concerns affect workers’ expected saving",
+    "url": "https://www.bostonfed.org/publications/current-policy-perspectives/2026/how-concerns-about-ai-and-affordability-affect-saving-expectations.aspx",
+    "locator": "Worker survey waves, Figures 1–4, Appendix Table A and discussion of controls.",
+    "summary": "Boston Fed researchers find that workers worried about losing their jobs to AI were roughly 8 percentage points more likely to expect a lower saving rate, conditional on the controls used in the brief. The share expecting to save less rose from 11% in 2024 to 21% in 2025 across their survey samples. The outcome concerns plans over the next year. Workers may have had limited room to build a precautionary buffer if essentials were already hard to afford. Workers who expected AI-related productivity gains or had higher incomes could face different constraints. The relationship is conditional on the survey sample and covariates. It leaves the causal effect of AI concerns and the subsequent realised saving rate open.",
+    "questions": [
+      {
+        "question": "Do anticipated saving cuts appear in realised balances?",
+        "evidence": "Follow the same respondents’ spending and deposit balances where available and control for changes in income and employment."
+      },
+      {
+        "question": "How much of the result is driven by affordability constraints?",
+        "evidence": "Compare workers with similar incomes and jobs but different liquid assets and required spending."
+      },
+      {
+        "question": "Will this exposure affect aggregate spending or particular sectors?",
+        "evidence": "Weight the survey by earnings and consumption shares and compare discretionary spending responses within occupations with different AI exposure."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of New York",
+    "date": "2026-08-03",
+    "type": "Statement",
+    "title": "John Williams on inflation and the policy path — New York Fed interview recap",
+    "url": "https://tellerwindow.newyorkfed.org/2026/08/03/key-takeaways-president-williams-interview-reuters/",
+    "locator": "New York Fed’s published summary of the Reuters interview, including its inflation, conditional policy and transmission passages.",
+    "summary": "John Williams judged that policy was positioned to support further disinflation in the circumstances he described. He expected tariff and Middle East effects on inflation to diminish over the second half of 2026 and into the following year. The recap also shows the policy condition behind that assessment. A failure to return towards 2% would warrant a response. Williams described financial-market developments as part of transmission to households and firms. The recap provides neither the size of any adjustment nor an estimate of the probability of a particular decision.",
+    "questions": [
+      {
+        "question": "What would indicate that disinflation had gone off-track?",
+        "evidence": "Check energy and tariff-exposed categories alongside broad core PCE and household and professional expectations."
+      },
+      {
+        "question": "Which financial-market moves would affect the real outlook?",
+        "evidence": "Track mortgage rates, corporate spreads and bank credit conditions alongside changes in the expected policy path."
+      },
+      {
+        "question": "How firm was the outlook for an unchanged rate?",
+        "evidence": "Compare the full interview, adjacent public remarks and meeting-dated OIS to distinguish conditional guidance from any market assumption."
+      }
+    ],
+    "coverageNote": "The Bank’s first-party recap is used here. It reproduces selected remarks from the interview."
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of New York",
+    "date": "2026-09-29",
+    "type": "Speech",
+    "title": "Unwavering dedication — John Williams on the outlook",
+    "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260929",
+    "locator": "The Economy and Labour Market, Inflation, Monetary Policy and the Economic Outlook, Conclusion and footnotes.",
+    "summary": "Williams saw enough resilience in spending and employment to put more weight on inflation. Refining bottlenecks had increased refined-product prices relative to crude, and scarce inputs for AI investment were beginning to lift prices of other goods. He saw less pressure from earlier tariffs, declining housing-services inflation and anchored expectations. In his forecast real GDP grew about 2.25% this year and next, overall inflation was about 3.5% in 2026 and reached 2% in 2028. Weak labour-force growth and imported equipment limited the domestic GDP boost from AI spending. The September hike gave him time to collect evidence. If the economy followed his forecast, he saw scope for one further increase late in 2026.",
+    "questions": [
+      {
+        "question": "How much energy pressure comes from refining capacity?",
+        "evidence": "Compare crude, gasoline and diesel spreads, refinery utilisation and inventories to gauge how persistence differs by input."
+      },
+      {
+        "question": "Will imported AI inputs limit the near-term contribution to US growth?",
+        "evidence": "Examine equipment imports, domestic construction and power investment alongside national accounts and industry-level producer prices."
+      },
+      {
+        "question": "Did the conditional reference to another increase change pricing?",
+        "evidence": "Separate September 29’s speech time from other releases and compare immediately adjacent fed funds futures and two-year yields."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Philadelphia",
+    "date": "2026-08-04",
+    "type": "Statement",
+    "title": "Monetary policy perspective: keeping an open mind — Anna Paulson",
+    "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/monetary-policy-perspective-keeping-an-open-mind",
+    "locator": "Current Conditions, Balance of Risks, Implications for Monetary Policy and footnotes.",
+    "summary": "Anna Paulson supported the preceding FOMC hold. The labour market looked broadly stable. Lower energy prices had helped June headline PCE, while her estimate of underlying inflation after adjusting for tariff and energy effects was around 2.4–2.8%. She set out two plausible readings of the same economy. Moderate pay growth and weak housing activity pointed to some restraint. Healthy private demand and business investment suggested current settings might prove too loose to bring inflation down promptly. Anchored expectations gave her room to assess which mechanism mattered most. She placed greater weight on inflation risk and remained open to an adjustment once underlying inflation became clearer.",
+    "questions": [
+      {
+        "question": "How sensitive is the underlying inflation estimate to the tariff and energy adjustment?",
+        "evidence": "Reproduce the calculation across different affected items and lag structures using the component data."
+      },
+      {
+        "question": "Is weak housing evidence of broad restraint?",
+        "evidence": "Compare housing turnover and financing costs with consumption growth across income groups and capex outside the AI buildout."
+      },
+      {
+        "question": "Could an apparently steady unemployment rate hide weakening hiring?",
+        "evidence": "Cross-check job-finding, layoffs and survey perceptions with labour-force growth and labour demand."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Philadelphia",
+    "date": "2026-09-17",
+    "type": "Research",
+    "title": "September Manufacturing Business Outlook Survey",
+    "url": "https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/mbos-2026-09",
+    "locator": "Current Activity, Price Indexes, Special Questions, Charts 1–2 and final diffusion-index table.",
+    "summary": "Third District manufacturers reported continued expansion in September, with new orders and shipments still elevated. Employment growth was less widespread. The employment diffusion index dropped to 11.8, while the shares reporting increases in input and output prices rose. Prices paid reached 48.6 and prices received 31.3. The supplemental questions indicated that 68% of respondents expected third-quarter output to exceed the second quarter and that median capacity utilisation stayed in the 70–80% bracket. More firms cited labour supply as a constraint. Expectations for six-month activity stayed positive even as the corresponding diffusion index eased. These seasonally adjusted balances show the breadth of reported change across respondents.",
+    "questions": [
+      {
+        "question": "Do higher prices received signal durable pass-through?",
+        "evidence": "Compare later survey responses with invoices and producer-price data, accounting for industry mix and input costs."
+      },
+      {
+        "question": "Why did employment breadth soften as orders remained strong?",
+        "evidence": "Use hours, utilisation and regional payrolls to distinguish productivity gains from staffing constraints."
+      },
+      {
+        "question": "How representative is this improvement nationally?",
+        "evidence": "Cross-check other regional manufacturing surveys and national orders while allowing for sampling and industry differences."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Cleveland",
+    "date": "2026-08-31",
+    "type": "Research",
+    "title": "How do monetary policy surprises affect household sentiment?",
+    "url": "https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202620-how-do-monetary-policy-surprises-affect-household-sentiment",
+    "locator": "Monthly sentiment regression, inflation regimes, Tables 2–5 and conclusion.",
+    "summary": "The authors find a state-dependent response of consumer sentiment to unexpected monetary tightening. Their baseline linear regression produces little reliable average response. When previous-month inflation is low, an upward rate surprise is associated with higher sentiment in the interacted estimates. When inflation is high, the response turns negative. The authors discuss differences in what households infer about economic prospects and the costs of restraint. Their baseline inflation split uses 0.2% monthly headline CPI, while robustness tests change the cutoff and sample. Rate shocks are measured in a short FOMC window and related to monthly sentiment, so the estimates link a market surprise to an aggregate survey rather than individual spending decisions.",
+    "questions": [
+      {
+        "question": "Does the sign switch depend on the inflation threshold?",
+        "evidence": "Replicate the estimates with continuous inflation and expectations measures and test stability across different samples."
+      },
+      {
+        "question": "How much of the event surprise contains information about the economy?",
+        "evidence": "Identify rate and information shocks using rate-equity co-movements and compare their associations with sentiment."
+      },
+      {
+        "question": "Does the sentiment response predict spending?",
+        "evidence": "Trace household consumption and credit use by income and interest-rate exposure after comparable shocks."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Cleveland",
+    "date": "2026-09-21",
+    "type": "Research",
+    "title": "Trends in manufacturing in the United States",
+    "url": "https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202621-trends-in-manufacturing-in-the-united-states",
+    "locator": "Manufacturing output and employment, Figures 1–4, wage premia, automation and conclusion.",
+    "summary": "The commentary distinguishes the large absolute size of US manufacturing from its declining shares of output and employment. The workforce shift reflects fewer workers entering manufacturing early in their careers. Workers remaining in the sector have become more educated. The positive wage premium over similarly situated workers in other sectors turned negative in the overall estimates around the early 1990s, with different outcomes by education. Automation can lift output per worker at the same time as local demand for employees falls. The evidence includes long-run descriptive comparisons and results from external studies cited in the piece. It does not establish a current aggregate employment effect from any one factory investment.",
+    "questions": [
+      {
+        "question": "Which cohorts account for fewer entrants?",
+        "evidence": "Compare education, location and first-job sector across cohorts using the microdata behind the study."
+      },
+      {
+        "question": "Where do automation gains appear in wages and output?",
+        "evidence": "Link robot adoption, worker mobility and productivity across plants and local labour markets."
+      },
+      {
+        "question": "Could manufacturing investment raise output without restoring employment share?",
+        "evidence": "Compare capital intensity, training constraints, domestic input sourcing and production capacity across new projects."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Richmond",
+    "date": "2026-08-13",
+    "type": "Speech",
+    "title": "The mysterious US economy — Tom Barkin",
+    "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2026/barkin_speech_20260813",
+    "locator": "Prepared remarks on demand resilience, the low-hire and low-layoff labour market, and persistent inflation.",
+    "summary": "Tom Barkin explored why consumption, business investment and a low unemployment rate had persisted through an extended series of shocks. The speech links resilience to employment, wealth gains among asset holders and changes in spending behaviour. Weak sentiment and lower real income point to the risk that resilience is uneven. The unemployment rate can stay low when both demand for new hires and growth in the labour force slow. Barkin judged that much of the observed productivity improvement followed the post-pandemic labour squeeze through firms’ operational changes. He left room for additional AI gains. These mechanisms affect his reading of inflation persistence and labour-market slack. The speech does not identify a fixed next move.",
+    "questions": [
+      {
+        "question": "How dependent is consumption on households with asset gains?",
+        "evidence": "Compare spending growth and liquid savings by income and wealth, controlling for changes in wages and credit."
+      },
+      {
+        "question": "Does the low-hire, low-layoff pattern raise the risk of a rapid unemployment change?",
+        "evidence": "Use transition rates out of unemployment and changes in labour-force growth to examine that scenario."
+      },
+      {
+        "question": "How can productivity sources be disentangled?",
+        "evidence": "Compare timing of operational changes and AI adoption with output per hour at the industry level."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Richmond",
+    "date": "2026-09-22",
+    "type": "Speech",
+    "title": "Why hike? — Tom Barkin",
+    "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2026/barkin_speech_20260922",
+    "locator": "Prepared remarks explaining the price-stability rationale, resilient demand, and firm pricing.",
+    "summary": "After the September increase, Tom Barkin explained why he gave more weight to inflation risk than to the employment side of the mandate. July headline and core PCE inflation in the speech were 3.7% and 3.3%, and price increases had spread beyond directly affected supply categories. August hiring recovered and unemployment was 4.1%. Barkin observed that higher-income households held up spending and that some other households protected spending volumes by switching to cheaper products. Firms he spoke with sounded more able to pass through costs than before the pandemic. Low hiring remained a weakness, with slower labour-force growth limiting its effect on the unemployment rate. The case for the increase was based on persistence and breadth, as described in the remarks.",
+    "questions": [
+      {
+        "question": "How should inflation breadth be measured across different PCE weights?",
+        "evidence": "Reproduce the distribution used in the remarks and compare it with alternative trim and frequency measures."
+      },
+      {
+        "question": "Are firms’ pass-through accounts visible in actual pricing?",
+        "evidence": "Match regional firm contacts’ industry exposure to product-level producer and consumer prices."
+      },
+      {
+        "question": "When could labour-market risks overtake the inflation concern?",
+        "evidence": "Monitor job openings, hiring and separations alongside changes in labour-force growth and real spending."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Atlanta",
+    "date": "2026-08-03",
+    "type": "Research",
+    "title": "Mortgage lock-in: a review of the literature",
+    "url": "https://www.atlantafed.org/research-and-data/publications/working-papers/2026/08/03/11-mortgage-lock-in-review-of-the-literature",
+    "locator": "Working Paper 2026-11, mobility and home-sales evidence, Table 1, policy options and concluding discussion.",
+    "summary": "The working paper reviews what happens when owners with low fixed-rate mortgages would have to finance a new home at a materially higher rate. Keeping the old mortgage can discourage both a sale and a move, affecting housing turnover and the allocation of labour. The reviewed studies use different data, designs and definitions of a move. The authors distinguish the financing advantage of keeping a particular loan from the direct effect of that loan’s payments on household cash flow. Those mechanisms need different empirical tests and can imply different responses to market rates. The review also examines portability, wider mortgage assumption and a delivery option. Their wider housing and labour-market effects remain open.",
+    "questions": [
+      {
+        "question": "How much lost mobility is caused by replacing the loan rather than the payment on the old loan?",
+        "evidence": "Compare households with comparable mortgage costs but different feasible refinancing or assumption terms."
+      },
+      {
+        "question": "Where is the supply response strongest?",
+        "evidence": "Match listings, sales and rental prices to the distribution of local outstanding mortgage rates and transaction costs."
+      },
+      {
+        "question": "Would portability reduce broader labour-market costs?",
+        "evidence": "Assess worker mobility, job transitions and lender or investor pricing under a change to mortgage contract terms."
+      }
+    ],
+    "coverageNote": "This note focuses on the paper’s discussion of mobility, sales, empirical designs and policy options."
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Atlanta",
+    "date": "2026-09-23",
+    "type": "Research",
+    "title": "Testing for contemporaneous exogeneity in linear time-series models",
+    "url": "https://www.atlantafed.org/research-and-data/publications/working-papers/2026/09/23/14-testing-for-contemporaneous-exogeneity-in-linear-time-series-models",
+    "locator": "Working Paper 2026-14, abstract, Phillips-curve applications and Section 8.",
+    "summary": "Dovonon and Gospodinov develop a specification test for whether a time-series regressor is contemporaneously exogenous. They construct an expanding collection of moments from the regressors themselves. The method can test a single subset of regressors under its assumptions without requiring external instruments. They apply it to measures of labour tightness and slack in alternative Phillips-curve specifications. This matters for macro research because slack can move in response to the same forces that move inflation. A regression coefficient alone cannot identify policy transmission under such simultaneity. The paper supplies a model diagnostic. Its assumptions about sample size, moments and regressor dynamics matter for interpreting the test.",
+    "questions": [
+      {
+        "question": "Are the candidate slack proxies equally exposed to feedback?",
+        "evidence": "Use the paper’s empirical specifications to compare results for labour tightness and the unemployment gap over the same vintage."
+      },
+      {
+        "question": "Is the test informative in short post-pandemic samples?",
+        "evidence": "Use the documented simulations as a starting point and vary sample size, persistence and shocks."
+      },
+      {
+        "question": "Does choosing a better-specified measure change the inflation forecast?",
+        "evidence": "Compare rolling out-of-sample errors and policy-scenario responses for models using the tested proxies."
+      }
+    ],
+    "coverageNote": "The note focuses on the test, the application and the conclusion. It does not assess every proof or simulation."
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Chicago",
+    "date": "2026-08-24",
+    "type": "Research",
+    "title": "Chicago Fed Survey of Economic Conditions — August 2026",
+    "url": "https://www.chicagofed.org/-/media/publications/cfsec/2026/cfsec-august2026.pdf?sc_lang=en",
+    "locator": "August release PDF, activity and cost-pressure charts, index construction note and official release schedule.",
+    "summary": "The Seventh District survey’s overall activity index fell from +11 to +5. The release PDF described growth as near trend. Manufacturing activity remained positive at +20, though it slowed, and the nonmanufacturing index reached −2. Current and expected hiring balances weakened, and the 12-month capital-spending expectation index stayed negative despite improving. Both labour and nonlabour cost-pressure indexes fell. The indexes summarise how many contacts rated conditions above or below their usual experience. Their levels measure the breadth of responses within this survey.",
+    "questions": [
+      {
+        "question": "Is the divergence between manufacturing and services broad based?",
+        "evidence": "Cross-check subsequent district and national business surveys by sector and respondent mix."
+      },
+      {
+        "question": "Do weaker hiring plans appear in realised employment?",
+        "evidence": "Compare regional payrolls, hours and vacancies with the survey’s hiring balance."
+      },
+      {
+        "question": "What explains lower cost-pressure breadth?",
+        "evidence": "Compare local supplier costs and wages with the survey’s responses to assess whether disinflation is durable."
+      }
+    ],
+    "related": [
+      {
+        "label": "Chicago Fed release calendar",
+        "url": "https://www.chicagofed.org/research/data/data-release-calendar"
+      },
+      {
+        "label": "Release landing page",
+        "url": "https://www.chicagofed.org/publications/cfsec/2026/august2026"
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Chicago",
+    "date": "2026-09-22",
+    "type": "Research",
+    "title": "Chicago Fed Survey of Economic Conditions — September 2026",
+    "url": "https://www.chicagofed.org/-/media/publications/cfsec/2026/cfsec-september2026.pdf?sc_lang=en",
+    "locator": "September release PDF, overall and sector activity charts, hiring and capital-spending expectations.",
+    "summary": "The activity index fell to −5 from +5. The release PDF characterised growth as near trend. Manufacturing rose to +25 from a revised +19, while nonmanufacturing declined from −2 to −20. Current and anticipated hiring picked up, though their indexes stayed negative. The balance for expected capital spending turned positive. Labour and nonlabour cost pressures increased from weak readings. Together the survey suggests a divergence between manufacturing and services, alongside spending plans that were stronger than current hiring on these measures.",
+    "questions": [
+      {
+        "question": "Was the nonmanufacturing decline a temporary regional shock?",
+        "evidence": "Compare sector respondents, the next survey and realised service-sector activity indicators."
+      },
+      {
+        "question": "Do firmer investment plans increase demand for labour or equipment first?",
+        "evidence": "Track spending, orders, hours and hiring by industry to separate these responses."
+      },
+      {
+        "question": "How large is the uncertainty from survey revisions?",
+        "evidence": "Compare the August and September vintages with later releases and examine the sensitivity of the signals to response composition."
+      }
+    ],
+    "related": [
+      {
+        "label": "Chicago Fed release calendar",
+        "url": "https://www.chicagofed.org/research/data/data-release-calendar"
+      },
+      {
+        "label": "Release landing page",
+        "url": "https://www.chicagofed.org/publications/cfsec/2026/september2026"
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of St. Louis",
+    "date": "2026-08-06",
+    "type": "Speech",
+    "title": "Monetary policy and productivity — Alberto Musalem",
+    "url": "https://www.stlouisfed.org/from-the-president/remarks/2026/monetary-policy-and-productivity-brazil",
+    "locator": "Full prepared remarks, the investment case for easing, inflation trade-off and closing judgment.",
+    "summary": "Musalem considers whether monetary policy can foster productivity by supporting investment and innovation. He sees potentially large cumulative gains if a policy change raises long-run productivity. He argues that this possibility provides weak grounds for deliberately accepting more inflation. The payoff from easier money is uncertain, financing conditions differ by borrower, and persistently high inflation can make planning and investment harder. He describes himself as optimistic about AI while treating future productivity gains as uncertain for current policy. The remarks set out a framework for the trade-off, rather than an assessment of a near-term market move.",
+    "questions": [
+      {
+        "question": "Which productivity investments are actually sensitive to policy rates?",
+        "evidence": "Compare investment by firm financing structure, internal cash flow and exposure to long-term funding costs."
+      },
+      {
+        "question": "Would faster productivity show up in inflation before it changes expected returns?",
+        "evidence": "Track unit costs and utilisation, then separate demand generated by the buildout from subsequent supply gains."
+      },
+      {
+        "question": "What would demonstrate a persistent investment effect from easing?",
+        "evidence": "Test exogenous financial-condition changes against capital deepening and productivity over sufficiently long horizons."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of St. Louis",
+    "date": "2026-09-29",
+    "type": "Speech",
+    "title": "How and why — Alberto Musalem on policy communication",
+    "url": "https://www.stlouisfed.org/from-the-president/remarks/2026/how-and-why-communicating-monetary-policy-framework-london",
+    "locator": "Prepared remarks on forecasts, rate-path guidance and the framework for reacting to data.",
+    "summary": "Musalem argues that explaining how policy decisions are made helps market participants interpret news and improves accountability. He distinguishes publishing an outlook, promising a path and explaining the factors that change the policy decision. A framework allows private forecasts to differ while giving investors a way to form expectations about the response. He argues that repeating a projected rate path can crowd out the independent information the central bank seeks in markets. A clear framework might also change term premia by reducing uncertainty about how policy responds. The remarks do not quantify that effect or express a particular next-rate preference.",
+    "questions": [
+      {
+        "question": "Do clearer reaction-function explanations improve market forecasts?",
+        "evidence": "Compare errors in meeting-dated rates after statements with different amounts of conditional guidance."
+      },
+      {
+        "question": "Does communication alter expected short rates or term premia?",
+        "evidence": "Use yield-curve decomposition and options around comparable news and communication events."
+      },
+      {
+        "question": "Can outside forecasters recover the same conditional rule?",
+        "evidence": "Compare their responses to inflation and employment surprises, allowing for changes in their economic outlook."
+      }
+    ],
+    "coverageNote": "This analysis covers the prepared remarks. The subsequent discussion is outside the reviewed text."
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Minneapolis",
+    "date": "2026-08-25",
+    "type": "Research",
+    "title": "Ninth District businesses continue to grapple with high costs",
+    "url": "https://www.minneapolisfed.org/article/2026/ninth-district-businesses-continue-to-grapple-with-high-costs",
+    "locator": "July General Business Survey write-up, cost, profit and hiring figures and sampling note.",
+    "summary": "This August release summarises July responses from 905 Ninth District businesses. More than half reported lower profits than a year earlier and about 43% reported raising retail prices by at least 5%. Contacts attributed higher costs to several sources including tariffs and materials, with some reluctant to pass them through. Less than half were hiring and many of those were replacing leavers. Six-month sentiment was mixed. The survey used a convenience sample, heavily weighted towards Minnesota. It provides a timely account of pressures on responding firms. Its percentages do not represent national estimates.",
+    "questions": [
+      {
+        "question": "How do cost pressures translate into margins by sector?",
+        "evidence": "Compare respondents’ input exposure, price changes and operating margins with administrative data."
+      },
+      {
+        "question": "Are tariffs separable from regional demand or weather effects?",
+        "evidence": "Match business locations and industry inputs to tariff changes and regional travel and spending patterns."
+      },
+      {
+        "question": "Could the employment signal reflect sampling composition?",
+        "evidence": "Reweight the responses and compare them with independent job openings and payroll data."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Minneapolis",
+    "date": "2026-09-02",
+    "type": "Research",
+    "title": "Ninth District Beige Book — September 2026",
+    "url": "https://www.minneapolisfed.org/beige-book-reports/2026/2026-09-mi",
+    "locator": "Summary and district sections on labour markets, prices, consumption, credit and investment.",
+    "summary": "The Ninth District reported slight expansion. Employment and labour demand were firmer, with much hiring described as replacement and a share of firms adding positions. Wage growth was modest to moderate and prices increased moderately. Consumer spending edged down, while manufacturing, commercial construction and financial services showed growth. Loan demand improved slightly overall, with more demand in commercial real estate and softer consumer and residential credit. Contacts describe conditions as of late summer. The Beige Book draws on qualitative reports and selected surveys, with different measures and time windows across sectors.",
+    "questions": [
+      {
+        "question": "Does rising commercial loan demand indicate new spending or refinancing?",
+        "evidence": "Check bank loan purpose, origination volumes and spreads alongside construction plans."
+      },
+      {
+        "question": "Will stable price pressure persist if consumer demand weakens?",
+        "evidence": "Track realised revenue, discounts and input costs in the retail and accommodation sectors."
+      },
+      {
+        "question": "How far is the improvement in employment attributable to new positions?",
+        "evidence": "Compare local hiring flows, vacancy duration and payrolls with the contact reports."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Kansas City",
+    "date": "2026-08-18",
+    "type": "Research",
+    "title": "Introducing trimmed imports and exports",
+    "url": "https://www.kansascityfed.org/research/research-working-papers/introducing-trimmed-imports-and-exports/",
+    "locator": "Research Working Paper 26-08, official summary and reported forecast comparisons.",
+    "summary": "The authors introduce trimmed measures of US import and export growth. They aim to isolate components that improve forecasts of aggregate trade from volatile series with weak predictive content. The official summary reports better out-of-sample errors at medium horizons, particularly four to 12 months, with reductions up to 15% in some comparisons. The figures describe a forecast evaluation. The realised trade flow still includes the trimmed items, and large temporary changes in those items can matter for a quarter’s national accounts.",
+    "questions": [
+      {
+        "question": "Which components are repeatedly trimmed?",
+        "evidence": "Inspect the algorithm and the weights across estimates and test whether the same industries drive improvements."
+      },
+      {
+        "question": "Do the gains survive new tariff regimes?",
+        "evidence": "Re-estimate sequentially with data vintages and compare errors before and after changes in trade policy."
+      },
+      {
+        "question": "Does the trimmed signal improve GDP forecasts?",
+        "evidence": "Test how its use affects net-export nowcasts alongside actual shipments and inventory data."
+      }
+    ],
+    "coverageNote": "The author conclusions and headline forecast evidence come from the Bank’s working-paper summary. Detailed tables and implementation were not reviewed."
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Kansas City",
+    "date": "2026-09-30",
+    "type": "Research",
+    "title": "The low-hire, low-fire labour market is calm but fragile",
+    "url": "https://www.kansascityfed.org/research/economic-bulletin/the-low-hire-low-fire-labor-market-is-calm-but-fragile/",
+    "locator": "Economic Bulletin, Charts 1–4, underlying worker transitions and counterfactual notes.",
+    "summary": "The bulletin argues that low job loss was doing more to hold down unemployment than robust hiring. The authors estimate a job-finding rate of 34%, below 39% in 2019, and show longer spells out of work. Employer hiring and separation data point to a similar slowdown in flows. The scenario exercise applies changes in job loss and finding from past downturns to different starting labour markets. A 2001-type shock produces unemployment near 8% from current conditions versus around 6% from the 1999 comparison. This counterfactual illustrates sensitivity to a downturn. It carries no probability or recession date.",
+    "questions": [
+      {
+        "question": "Which workers face the largest decline in job finding?",
+        "evidence": "Break the CPS transitions down by age, industry and unemployment duration."
+      },
+      {
+        "question": "How much labour deterioration would be visible before unemployment moves sharply?",
+        "evidence": "Compare claims, hiring conversions and hours as possible leading indicators."
+      },
+      {
+        "question": "How sensitive is the stress scenario to the steady-state approximation?",
+        "evidence": "Run the same flow shocks through a transition model with lags and test different participation responses."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Dallas",
+    "date": "2026-08-31",
+    "type": "Research",
+    "title": "Texas Manufacturing Outlook Survey — August 2026",
+    "url": "https://www.dallasfed.org/research/surveys/tmos/2026/2608",
+    "locator": "Current report, collection dates and results table for production, new orders, employment, prices and outlook.",
+    "summary": "Texas manufacturers reported faster output growth in August. The production index rose to 16.1 and new orders to 22.0. Broader business assessments improved, while employment growth became less widespread. The raw-materials price index was 44.1 and the finished-goods measure edged lower to 22.7, consistent with more widespread input-cost increases than sales-price increases. Expectations for production over the next six months became more positive. These diffusion indexes summarise the responses of 69 Texas manufacturers, which leaves national coverage and the size of changes open.",
+    "questions": [
+      {
+        "question": "Where did the jump in new orders originate?",
+        "evidence": "Compare respondent comments with national orders, energy project demand and export markets."
+      },
+      {
+        "question": "What is the lag between material costs and output prices?",
+        "evidence": "Track final and input price balances and sector-level margins in subsequent releases."
+      },
+      {
+        "question": "Does stronger output lead to jobs or higher utilisation?",
+        "evidence": "Compare hiring, hours and capacity use with order growth and payroll records."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of Dallas",
+    "date": "2026-09-28",
+    "type": "Research",
+    "title": "Texas Manufacturing Outlook Survey — September 2026",
+    "url": "https://www.dallasfed.org/research/surveys/tmos/2026/2609",
+    "locator": "Current report, results table and collection notes for output, hiring, prices and forward balances.",
+    "summary": "The September production index rose to 29.5 and new orders to 30.7 in the Texas manufacturing survey. Capacity use and shipments also rose. The employment balance improved while hours were broadly steady. Raw-material and finished-goods prices and the wage balance increased. At the same time the company outlook balance dropped from 19.2 to 8.7 and respondents reported more uncertainty. This combination indicates stronger current activity with less widespread improvement in expectations. The release is a regional business diffusion survey, based on 63 responses.",
+    "questions": [
+      {
+        "question": "What accounts for stronger output and a softer outlook?",
+        "evidence": "Distinguish backlogs and current orders from responses on future demand, financing and costs."
+      },
+      {
+        "question": "Are higher materials prices reaching downstream buyers?",
+        "evidence": "Compare finished goods price balances by subsector and realised shipment prices."
+      },
+      {
+        "question": "How much should the results shift the national growth outlook?",
+        "evidence": "Combine the survey with non-Texas manufacturing releases and control for industrial and energy exposure."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of San Francisco",
+    "date": "2026-08-27",
+    "type": "Research",
+    "title": "Can fiscal, AI, or monetary news explain the rise in r-star?",
+    "url": "https://www.frbsf.org/research-and-insights/publications/working-papers/2026/08/can-fiscal-ai-or-monetary-news-explain-the-rise-in-r-star/",
+    "locator": "SF Fed Working Paper 2026-19, Tables 1–4, event-study design, monetary-policy extension and Section 6.",
+    "summary": "The working paper compares models of the US natural real rate with movements in financial-market estimates around news events. Major fiscal events offered only a modest upward contribution in the exercise. Selected AI model releases were associated with an overall decline in the estimates, and long-term rates and market-based r-star estimates generally fell around FOMC meetings in the sample. Together these event types explain little of the measured rise. The interpretation depends on the dates chosen, the separation of risk premia and the idea that news is processed around discrete events. The authors allow for more gradual fiscal or technological information and suggest considering global saving and investment.",
+    "questions": [
+      {
+        "question": "Do other measures of r-star move in the same direction?",
+        "evidence": "Compare market-derived results with macro models and inflation-protected yields under alternative term-premium estimates."
+      },
+      {
+        "question": "Can gradual updating explain the weak event-study attribution?",
+        "evidence": "Add earnings calls, budget forecasts and adoption dates to distributed windows with controls for overlapping releases."
+      },
+      {
+        "question": "Which global developments could account for the common increase?",
+        "evidence": "Compare the timing across economies with changes in fiscal issuance, foreign demand and saving-investment balances."
+      }
+    ],
+    "coverageNote": "Reviewed sections focus on the event design, results tables and conclusion."
+  },
+  {
+    "jurisdiction": "United States",
+    "institution": "Federal Reserve Bank of San Francisco",
+    "date": "2026-09-03",
+    "type": "Research",
+    "title": "SF FedViews — productivity-driven growth confronts elevated inflation",
+    "url": "https://www.frbsf.org/research-and-insights/publications/fedviews/2026/09/sf-fedviews-september-3-2026/",
+    "locator": "Inflation contributions, labour and market-path charts, productivity decomposition and AI adoption comparison.",
+    "summary": "SF Fed staff analysis as of 3 September saw solid growth and above-target inflation. Headline and core PCE were 3.7% and 3.3% in July. Energy and goods added pressure, while core services excluding housing remained an important contributor. A steady unemployment rate coexisted with subdued payroll growth. The productivity decomposition attributes much recent strength to capital deepening and greater utilisation, with a smaller contribution from total factor productivity. The most AI-intensive industries had yet to show uniformly stronger contributions. The page presents a staff inflation forecast and a separate futures-implied policy path that anticipated tightening.",
+    "questions": [
+      {
+        "question": "Can capital deepening keep productivity growth above trend?",
+        "evidence": "Compare the utilisation and capital contributions against business investment and revised output-per-hour data."
+      },
+      {
+        "question": "Is the labour market more sensitive to weaker hiring than the unemployment rate suggests?",
+        "evidence": "Track payroll breadth and labour-force growth alongside flows into and out of employment."
+      },
+      {
+        "question": "What part of the futures path represents policy expectations?",
+        "evidence": "Compare futures with surveys and options, accounting for risk premia and timing of the outlook."
+      }
+    ]
+  }
+]

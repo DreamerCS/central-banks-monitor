@@ -25,6 +25,8 @@ jobs:
           python-version: '3.12'
       - name: Check requested coverage
         run: python3 scripts/check-data.py
+      - name: Build the monthly research archive
+        run: python3 scripts/build-research-archive.py --fragments dist/data/archive-fragments
       - name: Update daily Treasury benchmark
         run: python3 scripts/update-treasury.py
       - name: Refresh central bank map activity

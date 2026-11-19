@@ -1,5 +1,6 @@
 """Check the requested research universe before publishing."""
 import json
+from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -25,6 +26,13 @@ for item in sources:
     assert urlparse(item["url"]).scheme == "https", item["id"]
     assert not item["feed"] or urlparse(item["feed"]).scheme == "https", item["id"]
 assert sum("Europe Policies & Models" in item.get("workbook", []) for item in sources) == 69
+
+periods = json.loads((ROOT / "archive-periods.json").read_text())
+assert len({period["id"] for period in periods}) == len(periods)
+for period in periods:
+    start, end = (date.fromisoformat(period[key]) for key in ("start", "end"))
+    assert start.day == 1 and (start.year, start.month) == (end.year, end.month), period
+assert all(a["end"] < b["start"] for a, b in zip(periods, periods[1:]))
 
 channels = json.loads((Path(__file__).with_name("monitored-sources.json")).read_text())
 assert len({row["id"] for row in channels}) == len({row["url"] for row in channels}) == len(channels)

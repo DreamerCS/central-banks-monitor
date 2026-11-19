@@ -1,0 +1,561 @@
+[
+  {
+    "jurisdiction": "Hungary",
+    "institution": "Magyar Nemzeti Bank",
+    "date": "2026-08-05",
+    "type": "Minutes",
+    "title": "Minutes of the 21 July Monetary Council meeting",
+    "url": "https://www.mnb.hu/letoltes/en-roviditett-jegyzokonyv-a-monetaris-tanacs-2026-julius-21-i-uleserol.pdf",
+    "locator": "Published 5 August at 2 p.m. Section 1 records the 21 July discussion and vote. Section 2 contains background charts.",
+    "summary": "The minutes show that every member present supported the sole proposal to cut the base rate by 25 basis points to 5.75%. Members saw inflation and the outlook as more favourable than in the June baseline. They assessed domestic financial markets as relatively stable despite a weaker forint as energy prices rose and judged that lower risk premia had persisted.\n\nThe discussion acknowledged uncertainty linked to the renewed US–Iran conflict and stressed continued assessment of external conditions. The minutes identify a collective agreement on the proposal and selected arguments raised by members. They offer limited evidence about how members would have voted on alternatives.",
+    "questions": [
+      {
+        "question": "Which CPI items and forecast assumptions enabled the cut?",
+        "evidence": "Use the June report and real-time component observations discussed in the minutes."
+      },
+      {
+        "question": "Did lower domestic risk premia cushion the forint during the energy shock?",
+        "evidence": "Compare FX and sovereign spread changes with energy prices and comparable regional currency moves."
+      },
+      {
+        "question": "Were real rates still restrictive after the reduction?",
+        "evidence": "Compare policy rates adjusted for matched-horizon inflation expectations with household and corporate credit conditions."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Hungary",
+    "institution": "Magyar Nemzeti Bank",
+    "date": "2026-08-25",
+    "type": "Decision",
+    "title": "Monetary Council decision, 25 August 2026",
+    "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-25-august-2026",
+    "locator": "Rate table and paragraphs on domestic inflation, risk premia and the policy decision.",
+    "summary": "The Monetary Council cut its base rate by 25 basis points to 5.50%, with the overnight deposit and lending rates declining by the same amount to 4.50% and 6.50%. The Council said July inflation of 1.2% was lower than expected and core inflation fell to 1.9%. Food and tradables inflation eased while bank and telecommunications repricing contributed to higher market services prices. Preliminary GDP was up 1.7% from a year earlier in Q2. The Council cited weaker inflation and stable domestic risk premia as room for the cut.\n\nThe Council described positive real rates and FX stability as helpful in anchoring expectations. It identified fiscal plans, views on euro adoption and the external market environment as future influences on the domestic risk assessment, and deferred judgement on the next rate path to the September Inflation Report.",
+    "questions": [
+      {
+        "question": "Was the July inflation undershoot concentrated in a few categories?",
+        "evidence": "Compare the June forecast and realised component contributions, including services affected by earlier voluntary restrictions."
+      },
+      {
+        "question": "How did the cut affect financing without destabilising the forint?",
+        "evidence": "Track loan and deposit pricing, then examine timed EUR/HUF and local rates around the decision separately."
+      },
+      {
+        "question": "Which fiscal and external conditions would constrain the next move?",
+        "evidence": "Compare the next report’s risk scenarios with government budget releases, euro-area rates and domestic spreads."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Hungary",
+    "institution": "Magyar Nemzeti Bank",
+    "date": "2026-09-22",
+    "type": "Decision",
+    "title": "Monetary Council decision, 22 September 2026",
+    "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-22-september-2026",
+    "locator": "Rate table and statement sections on the domestic outlook, risk scenarios and policy guidance.",
+    "summary": "The Council kept the base rate at 5.50% and the overnight deposit and lending rates at 4.50% and 6.50%. August CPI was 1.3%, below the June forecast and analysts’ expectations, while core inflation was 2.0%. Nonetheless, the September forecast left 2026 annual inflation at 1.8% and raised the 2027 projection to 3.1%, citing energy and a change to tobacco excise duty. This year’s offsetting forces were quicker pass-through from earlier forint appreciation and higher fuel prices.\n\nThe Council cited elevated energy prices and external uncertainty as reasons to maintain settings despite low spot inflation. It said the new 2.5% target would take effect in January 2028. Strong real wages and industrial activity supported domestic momentum, while drought depressed agriculture. The Council viewed growth and inflation risks as broadly balanced around the new baseline.",
+    "questions": [
+      {
+        "question": "How much did the exchange rate offset the fuel shock in the projection?",
+        "evidence": "Review the forecast decomposition and track import prices and domestic fuel and tradables inflation."
+      },
+      {
+        "question": "Do services and wages point to higher underlying inflation?",
+        "evidence": "Compare pay settlements and services price momentum with the report’s persistence scenario."
+      },
+      {
+        "question": "Did the hold or the target news drive any repricing?",
+        "evidence": "Identify the respective release times and use local rates, the forint and expectations with suitable controls."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Hungary",
+    "institution": "Magyar Nemzeti Bank",
+    "date": "2026-09-22",
+    "type": "Statement",
+    "title": "Monetary Council review of the inflation target",
+    "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-by-the-monetary-council-on-the-review-of-the-inflation-target",
+    "locator": "Framework announcement, paragraphs on the target, adjustment horizon and policy calendar.",
+    "summary": "The Council set a 2.5% medium-term CPI target with the existing symmetric tolerance band of one percentage point on either side, starting 1 January 2028. It saw low inflation, declining risk premia and a stable currency as conditions that would help anchor expectations lower. The Council argued that the remaining half-point gap to the euro-area target allows some price-level convergence while reducing the short-term adjustment burden. It also announced a move to eight scheduled policy meetings per year from 2027.\n\nThe release describes a change in the framework and its intended long-run effects on predictability and financing costs. It gives a transition period for households and firms to adapt.",
+    "questions": [
+      {
+        "question": "Did longer-term inflation expectations shift toward 2.5%?",
+        "evidence": "Compare survey vintages and inflation-linked pricing where liquid, allowing for changing risk premia."
+      },
+      {
+        "question": "How much of Hungary’s price convergence is explained by service prices?",
+        "evidence": "Compare price levels, productivity and wage trends with the euro area and regional peers."
+      },
+      {
+        "question": "How will a less frequent meeting cycle alter policy communication?",
+        "evidence": "Track the new calendar, unscheduled communications and dispersion of market pricing between decisions."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Hungary",
+    "institution": "Magyar Nemzeti Bank",
+    "date": "2026-09-24",
+    "type": "Forecast",
+    "title": "Inflation Report – September 2026",
+    "url": "https://www.mnb.hu/letoltes/eng-ir-digitalis-32.pdf",
+    "locator": "Assessment of the Monetary Council and baseline projection. The official MNB calendar gives 24 September at 10 a.m. The forecast is conditional on assumptions available at publication.",
+    "summary": "The MNB projected average inflation of 1.8% in 2026 and 3.1% in 2027. It expected inflation to reach the level of the new 2.5% target in the second half of 2028. It projected real GDP growth of 1.8% in 2026, 2.9% in 2027 and 2.8% in 2028. The Bank expected household consumption to support activity and investment to remain weak in 2026.\n\nBank lending strengthened in the second quarter. Outstanding corporate loans were 10.5% higher in the year to June and household loans increased 18%. Banks reported increasing demand for short-term business loans, with no increase in demand for longer-term investment financing. The report identifies the Home Start programme as a contributor to household lending growth.",
+    "questions": [
+      {
+        "question": "What accounted for higher average inflation in 2027 despite the 2026 undershoot?",
+        "evidence": "Compare the baseline path by component and identify base effects, regulatory measures and underlying price changes."
+      },
+      {
+        "question": "Which parts of the growth forecast depend on an investment recovery?",
+        "evidence": "Compare the expenditure decomposition across baseline and risk scenarios, then track construction and capital goods data."
+      },
+      {
+        "question": "How much of household credit growth is attributable to the Home Start programme?",
+        "evidence": "Compare eligible and comparable ineligible originations, loan sizes and bank underwriting before and after the programme."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Poland",
+    "institution": "Narodowy Bank Polski",
+    "date": "2026-08-03",
+    "type": "Research",
+    "title": "Bank lending survey – third quarter of 2026",
+    "url": "https://static.nbp.pl/dane/rynek-kredytowy/ASRK_III_2026_Publikacja_PL.pdf",
+    "locator": "Official Polish report, executive summary, survey method and sector sections. The study was prepared in July and reported publicly on 3 August.",
+    "summary": "NBP’s survey describes easier lending standards for enterprises in Q2, especially for smaller firms, and stronger reported demand across the surveyed credit categories. Banks generally maintained household lending criteria while cutting some margins, with competitive pressure a prominent explanation. They expected tighter household lending standards in Q3 even as demand for consumer and mortgage loans rose, alongside mixed expectations on business lending policy.\n\nThe measure summarises the direction and breadth of bank responses weighted by market share. A positive balance for demand describes the survey, while actual lending growth requires the subsequent volumes. The June-quarter readings and banks’ next-quarter expectations have different dates.",
+    "questions": [
+      {
+        "question": "Did competition reduce the total price of business credit?",
+        "evidence": "Compare margins, non-interest charges, collateral and annualised borrowing costs from new contracts."
+      },
+      {
+        "question": "Did expected household tightening materialise?",
+        "evidence": "Compare the next survey and actual approval rates by consumer and mortgage lending segment."
+      },
+      {
+        "question": "What drove the recorded SME credit demand?",
+        "evidence": "Separate capital investment financing from short-term working capital using loan originations and enterprise surveys."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Poland",
+    "institution": "Narodowy Bank Polski",
+    "date": "2026-08-31",
+    "type": "Research",
+    "title": "Hours or Heads? Demand Shocks and Labour Market Adjustments in Poland",
+    "url": "https://static.nbp.pl/publikacje/materialy-i-studia/389_en.pdf",
+    "locator": "NBP Working Paper 389, abstract, identification, results and conclusion. 31 August is the public RePEc dissemination date. The publisher PDF specifies 2026 without a day.",
+    "summary": "Łukasz Postek and Małgorzata Walerych use two complementary sign-restricted Bayesian VARs to separate demand shocks that affect employment relatively strongly from those that operate more through activity within existing jobs. In their estimates, the first type explains more unemployment variation. The second type is more important for output, inflation and productivity. Both matter for hours per employee.\n\nTheir estimated contribution of the two shocks changes over time. The findings are sensitive to how shocks are defined and identified, so they motivate checking hours and productivity alongside employment when diagnosing demand in Poland. The researchers' estimates are distinct from the Council’s macroeconomic forecast.",
+    "questions": [
+      {
+        "question": "How sensitive are the estimated shock contributions to the sign restrictions?",
+        "evidence": "Replicate the baseline and alternative models and compare posterior distributions and impulse-response ranges."
+      },
+      {
+        "question": "Did hours or employment lead the adjustment in more recent shocks?",
+        "evidence": "Use comparable quarterly labour, price and output series to update the sample and test revisions and structural breaks."
+      },
+      {
+        "question": "Which labour indicators add most to a contemporaneous inflation nowcast?",
+        "evidence": "Test the out-of-sample performance of hours, employment and productivity indicators using the available data vintages."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Poland",
+    "institution": "Narodowy Bank Polski",
+    "date": "2026-09-09",
+    "type": "Decision",
+    "title": "Monetary Policy Council press release, 8–9 September 2026",
+    "url": "https://nbp.pl/rpp-09-09-2026/",
+    "locator": "Page 29 of the NBP’s November 2026 Inflation Report, September Council discussion and rate decision immediately before the October statement.",
+    "coverageNote": "The original 9 September press-release page returned HTTP 403. The note uses the NBP’s retrospective account of the September meeting.",
+    "related": [
+      {
+        "label": "NBP retrospective, November Inflation Report (PDF)",
+        "url": "https://strefainwestorow.pl/sites/default/files/attachments/55456009_14070338_55456009_Raport%20o%20inflacji%20PL%20-%20listopad%202026.pdf#page=29"
+      }
+    ],
+    "summary": "The NBP’s later account of the meeting records that the Council kept its reference rate at 3.75%. The Lombard and deposit rates stayed at 4.25% and 3.25%, with the bill rediscount and discount rates at 3.80% and 3.85%. The account records that a view was expressed that prevailing rates were too low.\n\nMembers emphasised that future decisions would depend on incoming information about Poland’s inflation and activity outlook. The discussion singled out global commodity prices and inflation amid changing geopolitical conditions. It also identified fiscal policy, domestic activity and wages as risks to inflation.",
+    "questions": [
+      {
+        "question": "Were the commodity pressures becoming visible in domestic prices beyond energy?",
+        "evidence": "Use the price and exchange-rate vintages available by 9 September, then compare later import, producer and core consumer price data."
+      },
+      {
+        "question": "Which domestic data supported concern that rates were too low?",
+        "evidence": "Compare the discussion with contemporaneous wage, labour cost and activity data and any member positions explicitly attributed in later records."
+      },
+      {
+        "question": "Did the decision change expectations for the next few meetings?",
+        "evidence": "Check the official release timestamp and compare matched intraday PLN forwards, two-year yields and the zloty around the release with regional controls."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Poland",
+    "institution": "Narodowy Bank Polski",
+    "date": "2026-09-25",
+    "type": "Statement",
+    "title": "Monetary Policy Guidelines for 2027",
+    "url": "https://eli.gov.pl/eli/MP/2026/943/ogl/pol/pdf",
+    "locator": "Official gazette, 25 September, cover and chapters 1–2. The Council adopted the resolution on 8 September. The guidelines apply from 1 January 2027.",
+    "summary": "The Monetary Policy Council retained the medium-term CPI target of 2.5% with a symmetric tolerance range of ±1 percentage point. Policy rates remain the principal instrument under a floating exchange rate. The Council retained the option of FX intervention and said the return-to-target horizon would depend on shocks and the costs of adjustment.\n\nThe operating goal for 2027 is to keep POLONIA close to the reference rate, subject to movements within the standing-facility corridor. The NBP expects excess banking-system liquidity to persist, with weekly operations normally issuing seven-day NBP bills. The resolution sets the policy framework and operating instructions and gives no forward path for the reference rate.",
+    "questions": [
+      {
+        "question": "How has the tolerance band functioned across demand and supply shocks?",
+        "evidence": "Match de-identified episodes of target deviations with Council decisions, inflation contributions and revisions to inflation forecasts."
+      },
+      {
+        "question": "Does surplus liquidity affect how closely POLONIA tracks the reference rate?",
+        "evidence": "Use daily POLONIA, auction allotments, settlement flows and standing facility balances to compare end-month with normal days."
+      },
+      {
+        "question": "How does a floating exchange rate affect the return-to-target horizon?",
+        "evidence": "Compare real-time NBP assessments of identified currency shocks with import prices, pass-through estimates and forecast vintages."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Czechia",
+    "institution": "Czech National Bank",
+    "date": "2026-08-06",
+    "type": "Decision",
+    "title": "CNB Bank Board keeps the two-week repo rate at 3.75%",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1785999600000",
+    "locator": "Decision page, rate paragraph and accompanying meeting materials.",
+    "summary": "The Board kept its two-week repo rate at 3.75%, its discount rate at 2.75% and its Lombard rate at 4.75%. The short decision notice records the instrument settings and points to the statement, press conference and minutes for the rationale. The unchanged rate can be analysed as a discrete release and the subsequent explanation as a separate communication event.",
+    "questions": [
+      {
+        "question": "Were short-term markets already pricing a hold?",
+        "evidence": "Compare timed CZK forward rates and the koruna in a window around the decision."
+      },
+      {
+        "question": "How did the statement qualify the unchanged headline rate?",
+        "evidence": "Read the decision notice alongside the statement and forecast, recording their different publication times."
+      },
+      {
+        "question": "How much are unchanged policy settings transmitted to deposit and loan rates?",
+        "evidence": "Compare CNB bank-rate series and longer-maturity market rates by borrower and tenor."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Czechia",
+    "institution": "Czech National Bank",
+    "date": "2026-08-14",
+    "type": "Minutes",
+    "title": "Minutes of the 6 August Bank Board meeting",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1785999600000/?tab=record",
+    "locator": "CNB publication calendar dated 14 August and full minutes for the 6 August meeting. The accompanying background report is separate.",
+    "summary": "The Board considered current policy appropriate following June’s increase and unanimously held the two-week repo rate at 3.75%. Members noted that volatile food and administered energy prices had kept headline inflation below target while services and core prices remained elevated. Some cited a stronger koruna and elevated longer-term yields as sources of restriction.\n\nThe Board discussed fast growth in genuinely new mortgages before tighter rules on investment mortgages and amid concern over higher mortgage rates. The discussion also acknowledged that persistent credit growth could increase financial risks. Members distinguished the possible timing shift in originations from evidence of a lasting boom.",
+    "questions": [
+      {
+        "question": "Did mortgage growth persist after the new rules took effect?",
+        "evidence": "Separate genuinely new loans from refinancing and split investment mortgages from owner-occupier loans across policy dates."
+      },
+      {
+        "question": "How much of the headline inflation undershoot came from temporary components?",
+        "evidence": "Compare item contributions with services and trimmed price indicators, accounting for administrative energy measures."
+      },
+      {
+        "question": "How much restriction came from the exchange rate and the long end of the curve?",
+        "evidence": "Compare a monetary conditions index with separate bank rates, currency and yield-curve drivers."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Czechia",
+    "institution": "Czech National Bank",
+    "date": "2026-08-14",
+    "type": "Forecast",
+    "title": "Monetary Policy Report – Summer 2026",
+    "url": "https://www.cnb.cz/en/monetary-policy/monetary-policy-reports/Monetary-Policy-Report-Summer-2026/",
+    "locator": "Scope: official landing-page headline forecast, approval date and data cutoff. Full linked PDF, boxes and chartbook require a separate review.",
+    "summary": "The CNB summer forecast sees inflation close to the 2% target in 2026, a temporary rise to 3% at the start of 2027 and a subsequent return near target. Its baseline is consistent with broadly stable short-term market interest rates, while growth is expected to slow a little in 2026 and pick up the following year. The report was approved on 13 August and largely uses information through 24 July. These projections describe the staff baseline supporting the policy discussion and do not specify a binding rate path.",
+    "questions": [
+      {
+        "question": "Which components drive the temporary 2027 inflation pickup?",
+        "evidence": "Use the report’s decomposition, inspecting headline, core and regulated or administered series with separate units."
+      },
+      {
+        "question": "How sensitive is the baseline to a stronger energy shock?",
+        "evidence": "Compare the report’s risk scenario with the assumptions for foreign prices, the koruna and household demand."
+      },
+      {
+        "question": "What signals would overturn the baseline of stable short rates?",
+        "evidence": "Compare subsequent CNB forecast vintages, revisions and the narrative around the underlying risks."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Czechia",
+    "institution": "Czech National Bank",
+    "date": "2026-09-17",
+    "type": "Decision",
+    "title": "CNB Bank Board holds the two-week repo rate at 3.75%",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1789628400000",
+    "locator": "Board decision and linked press-conference slides, pp. 2–3 and 10–13. Seven Board members voted for the decision.",
+    "summary": "The Board held the two-week repo rate at 3.75%, the discount rate at 2.75% and the Lombard rate at 4.75%. The briefing reported year-on-year GDP growth slowing to 1.9% in the second quarter from 2.2%, with domestic demand still driving growth and services inflation and property prices elevated.\n\nThe Board judged the overall risks to the inflation outlook to be tilted upwards. It cited persistent core inflation, strong wage growth and the potential for credit to increase money growth. Weak activity in some euro-area economies and a possible global asset-price correction represented downside risks. The August forecast, on which the decision drew, had envisaged broadly stable short-term market rates.",
+    "questions": [
+      {
+        "question": "Is the slowdown in GDP compatible with continuing pressure from domestic demand?",
+        "evidence": "Decompose real GDP and private domestic demand and compare both with labour costs and service-price growth."
+      },
+      {
+        "question": "How concentrated is loan growth across household and government borrowers?",
+        "evidence": "Compare maturity-adjusted loan growth and money aggregates with mortgage flows and the timing of fiscal financing."
+      },
+      {
+        "question": "Did the risk assessment carry information beyond the widely observed policy rate?",
+        "evidence": "Separate the decision and briefing timestamps, then compare changes in Czech rate expectations, the koruna and global controls."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Czechia",
+    "institution": "Czech National Bank",
+    "date": "2026-09-25",
+    "type": "Minutes",
+    "title": "Minutes of the 17 September Bank Board meeting",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1789628400000/?tab=record",
+    "locator": "Bank Board minutes, discussion of core inflation, financial conditions and the policy choice; see CNB calendar for the publication date.",
+    "summary": "The Bank Board judged its current stance appropriate as tighter longer-dated market rates, the June rate rise and a strong koruna gave it time to assess further data. Members described risks of persistent core inflation and second-round commodity effects, and several distinguished August headline inflation of 1.9% from still elevated services prices. They noted that food and administrative energy measures helped contain the headline measure and could fade.\n\nThe discussion identified a conditional case for additional restriction if domestic demand and credit remained strong while the external cost shock persisted. Members also highlighted softer growth and the possible restraint already delivered by long yields and client rates.",
+    "questions": [
+      {
+        "question": "What part of the transmission is coming from the long end?",
+        "evidence": "Compare maturity-matched market rates, mortgage offers and corporate borrowing costs."
+      },
+      {
+        "question": "Which services prices show signs of durable inflation?",
+        "evidence": "Track the breadth, monthly momentum and wage sensitivity of services components."
+      },
+      {
+        "question": "Would core inflation remain elevated after energy prices ease?",
+        "evidence": "Examine alternative shock scenarios, input-cost pass-through and firm pricing expectations."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Türkiye",
+    "institution": "Central Bank of the Republic of Türkiye",
+    "date": "2026-08-13",
+    "type": "Speech",
+    "title": "Fatih Karahan’s briefing on Inflation Report 2026-III",
+    "url": "https://tcmb.gov.tr/wps/wcm/connect/en/tcmb%2Ben/main%2Bmenu/announcements/remarks%2Bby%2Bgovernor/2026/speechg13_08_2026",
+    "locator": "Written briefing, including inflation developments, monetary policy and medium-term projections. The official remarks feed dates the speech 13 August. The associated Q&A is outside this review.",
+    "summary": "Governor Fatih Karahan attributed weaker demand and relatively contained core goods inflation to the tight policy stance while highlighting geopolitical supply shocks. He said the Bank would continue to use its tools to support price stability. The briefing reported gross reserves of USD 185 billion as of 12 August, up from USD 155 billion on 27 March.\n\nThe CBRT raised its year-end 2026 inflation forecast to 28%. The new path put year-end inflation at 15% in 2027 and 9% in 2028 before converging to the 5% medium-term target. These are official conditional projections. The briefing describes demand, pricing and geopolitical risks around the path.",
+    "questions": [
+      {
+        "question": "Which assumptions contributed most to the 2026 forecast revision?",
+        "evidence": "Compare vintage projection tables, energy and food assumptions and the inflation forecast decomposition in the two reports."
+      },
+      {
+        "question": "Is weaker domestic demand limiting the pass-through from imported costs?",
+        "evidence": "Compare producer-to-consumer price pass-through by tradable category with retail volumes and import price measures."
+      },
+      {
+        "question": "What drove the increase in gross reserves?",
+        "evidence": "Distinguish valuation changes, FX transactions, swaps and other balance-sheet flows before drawing conclusions about reserve adequacy."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Türkiye",
+    "institution": "Central Bank of the Republic of Türkiye",
+    "date": "2026-08-23",
+    "type": "Statement",
+    "title": "Turkish lira liquidity management: resumption of one-week repo auctions",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB%2BEN/Main%2BMenu/Announcements/Press%2BReleases/2026/ANO2026-35",
+    "locator": "Press release 2026-35 and CBRT’s 17 September MPC minutes, paragraph 26. The short release provides no quantities or new policy-rate decision.",
+    "summary": "The CBRT said it would resume its one-week repo auctions, which had been suspended on 1 March. The release addresses the operating framework for Turkish lira liquidity. The September committee summary confirms the August announcement and the dates.\n\nThe immediate monetary-policy research question is how the availability of one-week funding changes effective funding costs and the placement of overnight market rates inside the operating corridor. Auction details and market series are needed to measure those effects.",
+    "questions": [
+      {
+        "question": "Did the one-week auction resumption shift the composition of central-bank funding?",
+        "evidence": "Compare auction allotments, maturities and outstanding overnight facilities around the first auction."
+      },
+      {
+        "question": "How did the distance between the overnight market rate and the policy rate change?",
+        "evidence": "Use timestamped overnight and policy series and account for calendar-related liquidity shifts."
+      },
+      {
+        "question": "How quickly did banks adjust lira deposit or commercial loan offers?",
+        "evidence": "Compare weekly bank-rate distributions with lira liquidity and loan composition around the implementation date."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Türkiye",
+    "institution": "Central Bank of the Republic of Türkiye",
+    "date": "2026-09-10",
+    "type": "Decision",
+    "title": "CBRT holds the policy rate at 37%",
+    "url": "https://tcmb.gov.tr/wps/wcm/connect/EN/TCMB%2BEN/Main%2BMenu/Announcements/Press%2BReleases/2026/ANO2026-38",
+    "locator": "Press release 2026-38 and CBRT’s 17 September MPC minutes, paragraphs 27–30, which reproduce the decision and guidance.",
+    "summary": "The committee left the one-week repo rate at 37%, overnight lending at 40% and overnight borrowing at 35.5%. It judged that recent data and leading indicators pointed to underlying disinflation despite monthly fluctuations. Indicators and the limited pass-through of supply shocks pointed to weak domestic demand. The committee identified elevated energy prices as an upside risk and was monitoring the geopolitical effects on costs, activity and expectations.\n\nThe committee pledged to tighten if the inflation outlook deteriorated significantly and persistently. The policy path remained data dependent, with macroprudential and liquidity tools available to support transmission.",
+    "questions": [
+      {
+        "question": "Which August components explain the gap between annual CPI and the committee’s underlying reading?",
+        "evidence": "Use seasonal adjustments, component contributions and statistical core measures, with a check for calendar shifts."
+      },
+      {
+        "question": "How much restrictive pressure remains at a 37% repo rate?",
+        "evidence": "Compare the forward-looking real policy rate, effective funding and market loan rates against estimates of neutral conditions."
+      },
+      {
+        "question": "How can future easing be distinguished from a liquidity adjustment?",
+        "evidence": "Compare decision statements, auction policy, the realised funding mix and rate expectations around each release."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Türkiye",
+    "institution": "Central Bank of the Republic of Türkiye",
+    "date": "2026-09-17",
+    "type": "Minutes",
+    "title": "Summary of the 10 September Monetary Policy Committee meeting",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb%2Ben/main%2Bmenu/announcements/press%2Breleases/2026/ano2026-42",
+    "locator": "Committee minutes, sections on inflation, domestic conditions, financial conditions and monetary policy. The note is dated 17 September and covers the 10 September meeting.",
+    "summary": "The minutes record a 1.84% monthly CPI rise and 31.51% annual inflation in August. Annual inflation eased by 0.24 percentage points. The committee noted that the placement of private-school tuition and Hajj fees had added around 0.25 percentage points to August inflation and distorted month-to-month readings of the underlying trend. It highlighted energy and freight costs as persistent risks. Household, firm and professional expectations continued to differ materially.\n\nThe committee reported that second-quarter GDP expanded by 2.3% from a year earlier and 1.1% from the previous quarter, with private consumption contracting on the quarter and net exports supporting growth. It also recorded lower lira deposit and commercial loan rates between 24 July and 4 September. Those changes describe the financial backdrop to the meeting.",
+    "questions": [
+      {
+        "question": "How much of August inflation was a shift in timing across months?",
+        "evidence": "Reallocate tuition and Hajj charges using their collection dates and compare three-month measures of core inflation."
+      },
+      {
+        "question": "Which group’s inflation expectations best predict service repricing?",
+        "evidence": "Compare survey vintages by respondent group with later service-price changes and wage agreements."
+      },
+      {
+        "question": "What drove the divergence between commercial and housing loan pricing?",
+        "evidence": "Link product-level rates with funding costs, lending restrictions and changes in borrower or maturity mix."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "South Africa",
+    "institution": "South African Reserve Bank",
+    "date": "2026-08-03",
+    "type": "Statement",
+    "title": "Draft cross-border Crypto Assets Manual consultation",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/media-releases/2026/crypto-assets",
+    "locator": "SARB and National Treasury joint statement dated 3 August, including reporting trigger and consultation status. The proposed manual and regulations were still subject to change.",
+    "summary": "The SARB and National Treasury opened consultation on a draft manual for cross-border crypto activity to complement April’s proposed Capital Flow Management Regulations. The notice describes proposed authorisation, transaction conditions and reporting for crypto asset service providers. It seeks better surveillance and reduced regulatory arbitrage across entities involved in cross-border activities.\n\nThe draft clarifies that transfers from a domestic authorised provider to an offshore provider or a non-custodial wallet can trigger reporting to the Financial Surveillance Department. In the proposal, individuals could externalise crypto assets through authorised providers within their applicable allowance. The statement records the state of the consultation at publication.",
+    "questions": [
+      {
+        "question": "How would the reporting trigger change the coverage of measured private outflows?",
+        "evidence": "Compare the proposed categories with exchange-control returns and anonymised flows for authorised providers."
+      },
+      {
+        "question": "Would the rule affect prices or liquidity on domestic crypto platforms?",
+        "evidence": "Track spreads, premiums and turnover by permitted route across consultation and eventual implementation dates."
+      },
+      {
+        "question": "How well would the proposed reporting cover transfers outside authorised providers?",
+        "evidence": "Assess the consultation evidence on intermediary and wallet coverage, with explicit limitations for unobservable transactions."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "South Africa",
+    "institution": "South African Reserve Bank",
+    "date": "2026-08-04",
+    "type": "Speech",
+    "title": "Lesetja Kganyago on emerging market resilience",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/speeches/speeches-by-governors/2026/kganyago-unisa",
+    "locator": "Governor’s lecture, historical comparison, policy reforms in emerging markets and the South Africa section.",
+    "summary": "Governor Lesetja Kganyago traced how emerging markets became less vulnerable to repeats of the 1990s crises. He highlighted changes in exchange-rate policy and inflation credibility, as well as steps to limit risky balance-sheet exposures. He used South Africa’s move to a floating exchange rate and inflation targeting as an example of reform and cited a smaller inflation differential with the US over time.\n\nThe speech stressed that greater resilience supports stability while long-run growth still depends on fundamentals such as productive capacity and the success of reforms. It is an institutional and historical argument, with no near-term rate announcement.",
+    "questions": [
+      {
+        "question": "Which reforms most reduced crisis sensitivity?",
+        "evidence": "Compare external currency mismatch, reserves, debt composition and volatility over policy regime changes."
+      },
+      {
+        "question": "How effective is the floating rand at absorbing external shocks?",
+        "evidence": "Analyse exchange-rate moves together with inflation pass-through, output and expected rates."
+      },
+      {
+        "question": "What would transform resilience into faster sustainable growth?",
+        "evidence": "Track productivity, infrastructure and investment alongside peer economies with similar inflation credibility."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "South Africa",
+    "institution": "South African Reserve Bank",
+    "date": "2026-09-08",
+    "type": "Research",
+    "title": "Running on empty? South Africa’s refinery closures and their macroeconomic impact",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/occasional-bulletin-of-economic-notes/2026/oben-running-empty",
+    "locator": "SARB publications index dated 8 September and linked paper. See the summary, employment estimates and import-bill scenarios. The figures are the authors’ estimates.",
+    "summary": "The researchers report that domestic refining capacity roughly halved over the prior decade and imported refined products supplied more than half of local fuel demand. They discuss the implications for the import bill and South Africa’s exposure to refined-product prices, shipping disruptions and currency moves.\n\nThe paper estimates the closures reduced petroleum-related manufacturing output by about one-fifth relative to 2019 and displaced about 5,400 direct and indirect jobs. Its import-bill scenarios illustrate the cost of the changed fuel mix. The magnitude of the effects depends on the assumed import mix, prices and domestic operating costs.",
+    "questions": [
+      {
+        "question": "How does greater refined-fuel reliance change the rand-to-fuel price pass-through?",
+        "evidence": "Compare domestic fuel pricing components against CIF refined-product prices, freight and the rand before and after closures."
+      },
+      {
+        "question": "How sensitive is the import-bill estimate to refinery margins and utilisation?",
+        "evidence": "Recalculate the report’s scenarios with alternative crude and product spreads, operating costs, and refinery uptime."
+      },
+      {
+        "question": "Where were the estimated employment effects concentrated?",
+        "evidence": "Compare refinery communities with similar industrial locations, considering other concurrent plant and labour-market changes."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "South Africa",
+    "institution": "South African Reserve Bank",
+    "date": "2026-09-23",
+    "type": "Decision",
+    "title": "Statement of the Monetary Policy Committee, 23 September 2026",
+    "url": "https://resbank.co.za/content/dam/sarb/publications/statements/monetary-policy-statements/2026/september/september-statement.pdf",
+    "locator": "Official statement and footnotes on the oil assumption, inflation peak, survey expectations and QPM path.",
+    "summary": "The MPC unanimously raised its policy rate by 25 basis points to 7.25%, effective 25 September. It raised its near-term inflation outlook as the renewed fuel shock lifted the Brent assumption, with headline inflation expected to exceed 5% late in 2026 and to return to around 3% toward the end of 2027. Longer-run survey expectations remained around 4%. The bank distinguished that pre-fuel-increase survey from market measures that had picked up more recently.\n\nThe central forecast put 2026 GDP growth at 1.2% rather than 1.4%. Even with weak activity, the bank saw a risk of fuels feeding persistent services inflation and expectations. The Quarterly Projection Model implied a broadly stable policy rate near term and lower rates as inflation receded, while the committee retained a meeting-by-meeting approach.",
+    "questions": [
+      {
+        "question": "Are inflation expectations moving in response to fuel or broader prices?",
+        "evidence": "Compare later business and household survey vintages and inflation compensation by tenor."
+      },
+      {
+        "question": "How much of the rate decision was anticipated?",
+        "evidence": "Check dated front-end ZAR pricing and comparable assets around the statement and Q&A windows."
+      },
+      {
+        "question": "What if global rates or oil stay higher than assumed?",
+        "evidence": "Use the MPC’s alternative scenarios and track transport costs, exchange rates and service prices."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "South Africa",
+    "institution": "South African Reserve Bank",
+    "date": "2026-09-29",
+    "type": "Research",
+    "title": "Quarterly Bulletin – September 2026",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/quarterly-bulletins/quarterly-bulletin-publications/2026/september",
+    "locator": "Scope: SARB’s official bulletin overview on expenditure, labour, prices and external trade. The complete PDF and individual statistical tables require separate review.",
+    "summary": "The SARB bulletin describes weak Q2 production and stronger expenditure. Household consumption rose 0.4% quarter on quarter and inventories added 0.6 percentage points to GDP growth, while net exports subtracted 1.1 points as imports rose faster than exports. Job losses and expansion of the labour force took unemployment to 33.6%. The bulletin cautions that stronger measured productivity partly reflected weaker labour absorption.\n\nFuel and fertiliser costs raised domestic prices in the first half of 2026. August headline inflation eased to 4.4% after a 5.0% June reading, while several underlying measures ran above the new 3.0% target. It is a dated summary of activity and price data with a lag on quarterly outcomes.",
+    "questions": [
+      {
+        "question": "Were inventories accumulated voluntarily or through weaker sales?",
+        "evidence": "Compare stock-to-sales ratios, orders and firm-sector inventory contributions."
+      },
+      {
+        "question": "How durable was the rise in measured labour productivity?",
+        "evidence": "Cross-check hours worked, sector output and employment from successive releases."
+      },
+      {
+        "question": "Has the shock broadened beyond fuel, fertiliser and related services?",
+        "evidence": "Track the disaggregated producer and consumer inflation series alongside transport and import costs."
+      }
+    ]
+  }
+]

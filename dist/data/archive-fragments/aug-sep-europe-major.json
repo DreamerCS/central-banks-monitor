@@ -1,0 +1,805 @@
+[
+  {
+    "jurisdiction": "Euro area",
+    "date": "2026-08-03",
+    "institution": "Banco de España",
+    "title": "One-year Euribor rises to 2.855% in July 2026",
+    "type": "Research",
+    "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/el-euribor-se-situa-en-el-2855-en-julio-0776-puntos-mas-que-hace-un-ano.html",
+    "summary": "The Banco de España reported that the one-year Euribor mortgage reference rate reached 2.855% in July, 0.776 percentage points higher than a year earlier. The observation is the July index reported in August. Its relevance for policy transmission is the connection between money market benchmark rates and the reference rate used in floating-rate mortgage contracts.\n\nThe household cash flow effect varies with contract terms and the timing of a reset. The release identifies the benchmark change, without estimating changes in payment burdens or measuring the reaction to a specific central bank announcement.",
+    "locator": "Press note title, benchmark explanation and chart",
+    "questions": [
+      {
+        "question": "How much of the mortgage stock resets soon?",
+        "evidence": "Check outstanding floating-rate loans and the schedule of annual resets."
+      },
+      {
+        "question": "How large is the payment shock across households?",
+        "evidence": "Compare balances, loan margins and income distributions."
+      },
+      {
+        "question": "How much benchmark repricing reflects forward policy expectations?",
+        "evidence": "Compare Euribor with matched overnight swap and bank funding rates."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Euro area",
+    "date": "2026-08-06",
+    "institution": "European Central Bank",
+    "title": "Economic Bulletin Issue 5, 2026",
+    "type": "Research",
+    "url": "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202605.en.html",
+    "summary": "The bulletin’s overview records the 23 July hold. Conditions had tightened slightly since the June increase. June headline inflation declined to 2.8% from 3.2% in May and inflation excluding energy and food fell from 2.6% to 2.4%. Services also eased, although the full effect of higher input costs remained uncertain.\n\nSurvey information suggested some recovery in services after the shock and resilience in manufacturing, helped by inventory-building and defence outlays. Job postings continued to fall even while unemployment was near historical lows. The outlook combined downside growth risks with upside inflation risks if disruption persisted. A sustained resolution or lower pass-through could instead reduce inflation.",
+    "locator": "Overview and sections on economic activity, inflation and financing conditions",
+    "questions": [
+      {
+        "question": "Which input shocks had not yet reached selling prices?",
+        "evidence": "Compare purchasing costs, inventory and consumer price components."
+      },
+      {
+        "question": "Was manufacturing strength mostly precautionary stockbuilding?",
+        "evidence": "Compare orders, production and inventories."
+      },
+      {
+        "question": "Are labour market indicators pointing to more slack?",
+        "evidence": "Compare vacancy, hiring and unemployment measures."
+      }
+    ],
+    "coverageLimitation": "The economic overview is covered. Separate boxes and the long-form article are outside this note."
+  },
+  {
+    "jurisdiction": "Euro area",
+    "date": "2026-08-11",
+    "institution": "Banca d'Italia",
+    "title": "The Italian economy in brief, No. 8 — August 2026",
+    "type": "Research",
+    "url": "https://www.bancaditalia.it/pubblicazioni/economia-italiana-in-breve/2026/eib_Agosto_2026_en.pdf?language_id=1",
+    "summary": "The August reference pack puts different measures of borrowing costs side by side. Table 38 gives monthly-average gross benchmark yields. The Italian ten-year yield rose from 3.73% in June to 3.88% in July, and the three-year yield rose from 2.90% to 3.06%. The table uses daily MTS data and benchmark securities. Chart 39 uses daily ten-year spreads relative to German government bonds, a separate measure of relative credit and liquidity conditions.\n\nChart 37 compares marginal borrowing benchmarks with the average effective cost and residual maturity of existing debt. Only maturing or newly issued debt is priced immediately at new funding conditions. These observations describe the level and term structure of yields, without attributing them to a particular event.",
+    "locator": "Charts 37–39, especially Table 38 and definition notes",
+    "questions": [
+      {
+        "question": "How much of the benchmark move was common across Europe?",
+        "evidence": "Compare daily BTP–Bund spreads and matched swap yields."
+      },
+      {
+        "question": "How quickly will refinancing increase the interest bill?",
+        "evidence": "Map issuance and maturities to loan coupons and effective debt costs."
+      },
+      {
+        "question": "Which curve segment shows a larger funding shift?",
+        "evidence": "Compare auction rates, liquidity and yields by tenor."
+      }
+    ],
+    "coverageLimitation": "Focused review of the public funding sections. Other sections are not summarised here."
+  },
+  {
+    "jurisdiction": "Norway",
+    "date": "2026-08-13",
+    "institution": "Norges Bank",
+    "title": "Rate decision August 2026",
+    "type": "Decision",
+    "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/august-2026/",
+    "summary": "Norges Bank held at 4.25% in August. Inflation had been below its June projection but remained above target. Capacity utilisation was near normal and softening. The krone had recovered some of its earlier weakness and was broadly in line with the June assumption. The committee still saw a restrictive stance as necessary and judged it was too early to infer a material change in the inflation path.\n\nJune guidance had indicated an increase would probably be needed at one of the upcoming meetings. The committee did not prepare new forecasts for August, and was due to reassess them in September. The decision to wait illustrates the balance between high existing inflation and a potentially softer outlook.",
+    "locator": "Press release and committee deliberations",
+    "questions": [
+      {
+        "question": "Was lower inflation driven by temporary components?",
+        "evidence": "Compare CPI-ATE, energy and domestically produced prices with June assumptions."
+      },
+      {
+        "question": "How much slack does registered unemployment capture?",
+        "evidence": "Compare the labour force survey, vacancies and regional contacts."
+      },
+      {
+        "question": "What did the hold mean relative to pre-announcement rates?",
+        "evidence": "Compare NOK forwards and OIS around the release."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Euro area",
+    "date": "2026-08-18",
+    "institution": "Banque de France",
+    "title": "Monthly Business Survey — Start of August 2026",
+    "type": "Research",
+    "url": "https://www.banque-france.fr/en/publications-and-statistics/publications/monthly-business-survey-start-august-2026",
+    "summary": "The August survey suggested a slowing pace of activity in industry and services in July, with respondents expecting a pickup in August. July manufacturing utilisation stayed at 76.7%. Technology, defence and energy-related industries were stronger. Order books were comparatively high in aerospace and some equipment categories, while some other firms expected seasonal or catch-up effects rather than sustained demand. Market services still reported a generally adverse cash position.\n\nInput and selling price rises became less widespread. Close to 11% of industrial firms reported supply difficulties, with more severe constraints in aerospace. The bank estimated 0.2% third-quarter GDP growth using the survey and other indicators, while stressing weather and geopolitical uncertainty. That estimate was a nowcast rather than a published outturn.",
+    "locator": "Survey overview and Sections 1–4",
+    "questions": [
+      {
+        "question": "Is an industrial rebound visible beyond catch-up effects?",
+        "evidence": "Compare sector output, orders and prior-month shutdowns."
+      },
+      {
+        "question": "Where are supplier constraints most likely to persist?",
+        "evidence": "Check component delivery times and backlogs in aerospace and equipment."
+      },
+      {
+        "question": "How fragile are cash positions?",
+        "evidence": "Compare working capital, payment delays and costs for weaker service sectors."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Sweden",
+    "date": "2026-08-20",
+    "institution": "Sveriges Riksbank",
+    "title": "Policy rate unchanged at 1.75 per cent",
+    "type": "Decision",
+    "url": "https://www.riksbank.se/en-gb/monetary-policy/monetary-policy-report/2026/monetary-policy-decision-august-2026/",
+    "summary": "The Board held the policy rate at 1.75%. Summer growth and inflation had exceeded the June forecast, raising concern that supply shocks would lift underlying inflation. At the same time measured inflation remained low, unemployment high and companies’ pricing plans subdued. Some international supply disruptions had eased. The Board judged the overall outlook little changed and continued to see a possible increase later in the year.\n\nThe policy response around the hold was state contingent. A larger, more persistent rise in inflation would warrant tightening. The August update assessed the incoming news without publishing fresh forecasts.",
+    "locator": "Decision text and note on the August Monetary Policy Update",
+    "questions": [
+      {
+        "question": "Is the upside surprise seasonal or persistent?",
+        "evidence": "Compare travel services, tax-adjusted CPIF and pricing survey data."
+      },
+      {
+        "question": "How much spare capacity is left?",
+        "evidence": "Compare vacancies, unemployment and capacity with the forecast."
+      },
+      {
+        "question": "Was later-year tightening already priced?",
+        "evidence": "Retrieve timestamped Swedish OIS around the release."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Euro area",
+    "date": "2026-08-20",
+    "institution": "Deutsche Bundesbank",
+    "title": "The German economy — Monthly Report, August 2026",
+    "type": "Research",
+    "url": "https://publikationen.bundesbank.de/publikationen-en/reports-studies/monthly-reports/monthly-report-august-2026-1004736?article=the-german-economy-1004738",
+    "summary": "The Bundesbank assessed that Germany remained on a recovery path despite higher energy costs. The second-quarter flash estimate showed real GDP growth of 0.2% quarter on quarter. Revised first-quarter growth was 0.4%. Because the revisions arrived in late July, the Bundesbank’s June forecast had not incorporated the stronger preceding activity.\n\nExports helped sustain industrial production and sales. Manufacturing capacity was still low, and higher borrowing costs and uncertainty limited equipment investment. Construction recovered partly because of weather-related catch-up, and household consumption was likely to have grown only modestly amid softer labour conditions and higher prices. The report distinguishes the shift in measured GDP from the breadth and durability of the recovery.",
+    "locator": "Sections 1 and 2, with GDP figures and revisions",
+    "questions": [
+      {
+        "question": "How much of the estimated recovery reflects statistical revisions?",
+        "evidence": "Compare GDP vintages, employment and state-of-business surveys."
+      },
+      {
+        "question": "Can stronger export demand support investment?",
+        "evidence": "Compare foreign equipment orders, utilisation and financing costs."
+      },
+      {
+        "question": "How long will construction catch-up last?",
+        "evidence": "Compare starts, permits and real spending with weather impacts."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United Kingdom",
+    "date": "2026-08-21",
+    "institution": "Bank of England",
+    "title": "Productivity and inflation dynamics",
+    "type": "Research",
+    "url": "https://www.bankofengland.co.uk/working-paper/2026/productivity-and-inflation-dynamics",
+    "locator": "Staff Working Paper No. 1,201; authors’ abstract. Review limited to the abstract.",
+    "summary": "Ludovica Ambrosino, Jenny Chan and Silvana Tenreyro distinguish a temporary improvement in the level of productivity from a lasting rise in its growth rate. A temporary improvement lowers marginal costs and raises potential output in their account. It places downward pressure on the price level during adjustment before inflation returns to target.\n\nA lasting improvement raises expected permanent income, potentially lifting investment, consumption and the natural real interest rate. Inflationary pressure can result under some monetary policy responses if demand rises before the productive capacity arrives. For an open economy, the transmission also depends on the sector affected. These are conditional mechanisms from a staff paper.",
+    "questions": [
+      {
+        "question": "How should policymakers tell a temporary improvement in productivity from a persistent rise in its growth rate?",
+        "evidence": "The authors assign different marginal-cost, spending and real-rate channels to those shocks."
+      },
+      {
+        "question": "How early would investment and consumption respond to an expected increase in productive capacity?",
+        "evidence": "The abstract identifies the timing of anticipated demand versus realised supply gains as a determinant of inflation pressure."
+      },
+      {
+        "question": "Which affected sectors would matter most for an open economy’s inflation response?",
+        "evidence": "The authors say the sectoral incidence of the shock and the composition of demand matter."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Norway",
+    "date": "2026-08-24",
+    "institution": "Norges Bank",
+    "title": "Schweigaard lecture: Ten questions and answers about monetary policy — Ida Wolden Bache",
+    "type": "Speech",
+    "url": "https://www.norges-bank.no/en/news-events/news/Speeches/2026/2026-08-24-schweigaard-lecture/",
+    "summary": "Bache explained why the policy rate can contain inflation even when some individual prices rise in response to higher financing costs. Rents are one possible cost channel. She argued that weaker consumption and investment and a stronger exchange rate dominate for aggregate Norwegian inflation over time. She also emphasised identifying the effect of rate changes separately from the tendency for rates to rise when inflation is already high.\n\nComparing Scandinavian economies, she distinguished Norway’s floating exchange rate and independent policy setting from the close connection between Danish rates and euro area policy. The speech explains the mandate, its interaction with employment and the adjustment mechanism. Uncertainty about the size and timing of effects remains part of the policy problem.",
+    "locator": "Sections 6–7 and the chart comparing Scandinavian rates",
+    "questions": [
+      {
+        "question": "How large is the rent cost channel over different horizons?",
+        "evidence": "Compare rental resets and landlord financing with contraction in overall demand."
+      },
+      {
+        "question": "Which source best identifies exogenous policy surprises?",
+        "evidence": "Review Norges Bank’s cited evidence with time-stamped market data."
+      },
+      {
+        "question": "How do Norwegian rate changes affect the krone when rates change abroad?",
+        "evidence": "Compare relative short rates, exchange rates and risk measures."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Switzerland",
+    "date": "2026-08-26",
+    "institution": "Swiss National Bank",
+    "title": "Monetary policy and financial stability at the SNB: the role of macroprudential tools — Antoine Martin",
+    "type": "Speech",
+    "url": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20260826_anmar",
+    "summary": "Martin outlined a framework in which price stability has priority and a stable banking system enables transmission. A policy rate suitable for inflation can leave vulnerabilities building in parts of the financial system. He described targeted macroprudential tools, including the countercyclical capital buffer, as a complement that gives the SNB room to support monetary policy transmission.\n\nThe speech illustrates the distinction through three episodes. The Credit Suisse crisis underscored the need for buffers. The low-rate period showed how financial vulnerabilities can grow despite low inflation. In 2022–23, monetary tightening and financial stability considerations were more closely aligned. This argument concerns policy design and the availability of bank credit in stress.",
+    "locator": "Speech summary and three case studies",
+    "questions": [
+      {
+        "question": "Where are vulnerabilities disproportionately concentrated?",
+        "evidence": "Check borrower leverage, underwriting and collateral exposure by bank."
+      },
+      {
+        "question": "How do capital buffers change lending under stress?",
+        "evidence": "Compare credit supply at banks with different capital headroom."
+      },
+      {
+        "question": "When do monetary policy and macroprudential tools reinforce each other?",
+        "evidence": "Compare rate cycles, property credit concentration and buffer decisions."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Euro area",
+    "date": "2026-08-27",
+    "institution": "European Central Bank",
+    "title": "Account of the monetary policy meeting of 22–23 July 2026",
+    "type": "Minutes",
+    "url": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg260827~f06c21fd54.en.html",
+    "summary": "The account released in August records the July hold. Most longer-term inflation expectations were still near the 2% target, and members saw limited evidence of second-round effects. Staff attributed the rise in headline inflation largely to the energy supply shock, with little contribution from demand or fiscal policy. The June increase had already signalled a willingness to act, and the July discussion emphasised the value of assessing more evidence.\n\nSome members would have accepted another increase. They saw persistent energy prices and unexpectedly resilient demand as raising the chance that firms would pass costs on, and judged that delaying could require more tightening later. The August publication reveals differences in the July discussion. It is distinct from the July rate announcement for an event study.",
+    "locator": "Monetary policy considerations and policy discussion",
+    "questions": [
+      {
+        "question": "Would the account have changed the odds on the next decision?",
+        "evidence": "Compare euro OIS in narrow windows around the July statement and August account."
+      },
+      {
+        "question": "Which costs were firms able to pass through?",
+        "evidence": "Compare producer, refining and consumer price series with activity."
+      },
+      {
+        "question": "Were expectations still anchored across cohorts?",
+        "evidence": "Compare professional, market and household measures over equal horizons."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United Kingdom",
+    "date": "2026-08-28",
+    "institution": "Bank of England",
+    "title": "How do firms cope with economic shocks in real time?",
+    "type": "Research",
+    "url": "https://www.bankofengland.co.uk/working-paper/2026/how-do-firms-cope-with-economic-shocks-in-real-time",
+    "summary": "The authors combine administrative and survey microdata in a pre-registered design to estimate firms’ responses before slower structural data arrive. In their application to the 2021–23 UK energy shock, energy-intensive firms passed on costs, accumulated cash and increased homeworking. The authors found little evidence of aggregate job losses or exits. Smaller firms drove much of the estimated pass-through and larger firms drove investment responses.\n\nThe study compares its early estimates with later survey data and applies the framework to the 2026 shock. Its channel-level results help frame the question of whether higher energy costs are arriving as higher consumer prices, lower margins or reduced investment. The estimated relationship is conditioned by firm exposure and sample, and the paper represents its authors’ research.",
+    "locator": "Staff Working Paper 1,204 abstract and methods summary",
+    "questions": [
+      {
+        "question": "Were the same firms affected in 2026?",
+        "evidence": "Compare exposure, hedging and pricing across energy shocks in the underlying data."
+      },
+      {
+        "question": "How credible is the identification of cost pass-through?",
+        "evidence": "Review the pre-registration, instruments and robustness to pre-existing sector trends."
+      },
+      {
+        "question": "Are cash buffers or reduced investment the more important response?",
+        "evidence": "Track liquidity and capex by firm size and prior energy exposure."
+      }
+    ],
+    "coverageLimitation": "The official abstract and research design summary were reviewed. Full estimates and sensitivity checks are outside this note."
+  },
+  {
+    "jurisdiction": "United Kingdom",
+    "date": "2026-08-28",
+    "institution": "Bank of England",
+    "title": "Locking in the rate or staying flexible? Mortgage refinancing around an interest rate shock",
+    "type": "Research",
+    "url": "https://www.bankofengland.co.uk/working-paper/2026/locking-in-the-rate-or-staying-flexible-mortgage-refinancing-around-an-interest-rate-shock",
+    "summary": "The authors use predetermined UK mortgage expiry dates around the September 2022 mini-budget rates shock to study refinancing choices. More borrowers shifted towards two-year fixes even when these were priced above five-year fixes. A 200 basis point rise was associated with a reduction of roughly two to three percentage points in average loan-to-value ratios.\n\nAdjustable-rate borrowing increased, though most borrowers still chose two-year fixes. The authors interpret this as a preference for protection against rate risk coupled with a prospect of refinancing sooner if rates fall. Evidence of more near-term equity extraction under two-year fixes supports their interpretation. The results describe a historical shock and inform how fixed-rate rollover and desired flexibility might affect transmission.",
+    "locator": "Staff Working Paper 1,203 abstract",
+    "questions": [
+      {
+        "question": "Are refinancing choices driven by expectations or access constraints?",
+        "evidence": "Compare contracts, underwriting cutoffs and borrowers’ balance sheets."
+      },
+      {
+        "question": "How would the results change under a differently sloped mortgage curve?",
+        "evidence": "Compare term spreads and fixing behaviour across rate shocks."
+      },
+      {
+        "question": "When does reduced equity extraction reach consumer demand?",
+        "evidence": "Match borrower refinancing dates with spending and liquidity measures."
+      }
+    ],
+    "coverageLimitation": "Official abstract reviewed. Full specifications and tables remain outside this note."
+  },
+  {
+    "jurisdiction": "Switzerland",
+    "date": "2026-08-31",
+    "institution": "Swiss National Bank",
+    "title": "Current challenges of monetary policy — Petra Tschudin",
+    "type": "Speech",
+    "url": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20260831_gpe",
+    "summary": "Tschudin’s presentation explained how Swiss monetary policy transmits through interest rates and the exchange rate. Export performance had recovered following a 2025 decline. The nominal franc’s appreciation was set against lower accumulated Swiss inflation than abroad. The real effective exchange rate had been relatively stable since 2021 in the slides.\n\nThe rise in Swiss inflation following renewed Middle East conflict had mainly come from oil products. The presentation discussed the prospect of temporarily slower world growth. It referred to the June hold at 0%, little change in medium-term inflation pressure and a greater willingness at that stage to intervene in currency markets if necessary.",
+    "locator": "Slides 4–5 and 7–16, including the price stability and conditional projection slides",
+    "questions": [
+      {
+        "question": "Does a stable real effective franc hide large changes for some exporters?",
+        "evidence": "Compare bilateral real rates and sector export exposures."
+      },
+      {
+        "question": "How much of inflation came from oil products versus other imports?",
+        "evidence": "Examine CPI components and foreign producer prices."
+      },
+      {
+        "question": "What would change the case for FX intervention?",
+        "evidence": "Compare the June assessment with incoming inflation and exchange-rate measures."
+      }
+    ],
+    "coverageLimitation": "Official slide deck reviewed. No separate transcript was available."
+  },
+  {
+    "jurisdiction": "Sweden",
+    "date": "2026-08-31",
+    "institution": "Sveriges Riksbank",
+    "title": "Inflation risks being elevated, but there is scope to wait and see — Per Jansson",
+    "type": "Speech",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/speeches-and-presentations/2026/per-jansson-inflation-risks-being-elevated-but-there-is-scope-to-wait-and-see/",
+    "summary": "Jansson attributed a large part of the summer inflation surprise to travel services. He noted that these prices can rise temporarily in summer, but higher aviation fuel could indicate more persistent indirect effects from supply disruptions. Stronger output and a weak labour market offered mixed signals about demand pressures.\n\nHe saw room to wait because longer-term inflation expectations were near 2% and wage formation showed confidence in the target. A clearer, sustained inflation problem would warrant action in his view. His conditional policy assessment distinguishes increased concern from evidence of overheating.",
+    "locator": "Official presentation summary",
+    "questions": [
+      {
+        "question": "Was the travel price move seasonal?",
+        "evidence": "Compare adjusted airfare and travel service figures with aviation fuel."
+      },
+      {
+        "question": "What do wage settlements imply about expectations?",
+        "evidence": "Compare union bargaining outcomes and long-run survey readings."
+      },
+      {
+        "question": "Has growth reduced spare capacity?",
+        "evidence": "Track output, vacancies and unemployment together."
+      }
+    ],
+    "coverageLimitation": "The official presentation summary is the basis of this note."
+  },
+  {
+    "jurisdiction": "Euro area",
+    "date": "2026-09-02",
+    "institution": "Deutsche Bundesbank",
+    "title": "Rising interest rates in the financial markets are complicating the ECB’s situation — Joachim Nagel",
+    "type": "Speech",
+    "url": "https://www.bundesbank.de/en/press/interviews/-rising-interest-rates-in-the-financial-markets-are-complicating-the-ecb-s-situation--1007256",
+    "summary": "Nagel said euro area inflation was still above target and that the June outlook's return to 2% had assumed higher rates. He cited a market-implied probability above 95% for a September rate increase, while avoiding guidance beyond that meeting. Volatility in energy and global bond markets made the policy path more uncertain. Activity had been more resilient than expected, with firmer German exports and manufacturing orders.\n\nThe interview highlights the trade-off between upside inflation risks and broader market tightening. Higher yields can restrain the economy independently of the policy rate. The expected September move described in the interview is a dated observation about pricing, separate from Nagel’s judgment about the appropriate response.",
+    "locator": "Questions on September rates, the energy shock and market yields",
+    "questions": [
+      {
+        "question": "Was pricing near unanimous across horizons?",
+        "evidence": "Compare dated OIS with expected policy in subsequent meetings."
+      },
+      {
+        "question": "What was causing the rise in long-term rates?",
+        "evidence": "Decompose the move into policy expectations and estimated premia."
+      },
+      {
+        "question": "What would change the view after September?",
+        "evidence": "Track energy costs, inflation expectations, wage settlements and German orders."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Sweden",
+    "date": "2026-09-03",
+    "institution": "Sveriges Riksbank",
+    "title": "Erik Thedéen in Visby on the economic situation and monetary policy",
+    "type": "Speech",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/speeches-and-presentations/2026/erik-thedeen-in-visby-on-the-economic-situation-and-monetary-policy/",
+    "summary": "Thedéen considered that new GDP data and the Economic Tendency Survey strengthened the case for an improving Swedish recovery. Inflation had exceeded the June projection during summer, with uncertainty about how supply pressures would pass into consumer prices. He saw no clear evidence at that point of a persistent broad rise.\n\nHe stressed that remaining labour market slack made room for growth to accelerate without generating materially more inflation in the near term. The September meeting would weigh new data against both sides of that outlook. The remarks give a conditional assessment of risks ahead of the decision.",
+    "locator": "Official presentation summary and discussion of the August meeting",
+    "questions": [
+      {
+        "question": "Is the improvement broad across output components?",
+        "evidence": "Compare the GDP release with sector surveys and capacity utilisation."
+      },
+      {
+        "question": "Which price pressures could persist?",
+        "evidence": "Check CPI components, foreign input costs and business pricing plans."
+      },
+      {
+        "question": "What would change the near-term trade-off?",
+        "evidence": "Track vacancy, earnings and labour market slack before the meeting."
+      }
+    ],
+    "coverageLimitation": "The official presentation summary is the basis of this note."
+  },
+  {
+    "jurisdiction": "United Kingdom",
+    "date": "2026-09-04",
+    "institution": "Bank of England",
+    "title": "Monthly Decision Maker Panel data — August 2026",
+    "type": "Research",
+    "url": "https://www.bankofengland.co.uk/decision-maker-panel/2026/august-2026",
+    "summary": "The survey released in September showed near-term CPI expectations easing while longer-term expectations were unchanged. In three-month averages, firms’ year-ahead CPI expectations fell from 3.4% to 3.1%, with the three-year reading at 2.8%. Own-price inflation was 3.7% and firms expected 3.8% over the next year. Realised annual wage growth was 4.0%, while firms expected 3.4% over the coming year.\n\nAsked about the energy shock, 59% expected to raise prices and 61% expected lower margins, both below their April shares. The survey describes firms’ expectations and past reported behaviour across the economy. The own-price measure covers businesses beyond the consumer-facing sector.",
+    "locator": "News release and energy shock questions",
+    "questions": [
+      {
+        "question": "How much expected pricing was realised?",
+        "evidence": "Compare survey cohorts with subsequent own-price and CPI components."
+      },
+      {
+        "question": "When will margin absorption give way to price increases?",
+        "evidence": "Cross-reference energy contract expiries, hedges and sector margins."
+      },
+      {
+        "question": "Is a lower near-term CPI outlook spreading into wage bargaining?",
+        "evidence": "Check pay settlements and repeated survey responses."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United Kingdom",
+    "date": "2026-09-04",
+    "institution": "Bank of England",
+    "title": "The institutional form of independent central banks: from history to contemporary challenges — Andrew Bailey",
+    "type": "Speech",
+    "url": "https://www.bankofengland.co.uk/speech/2026/september/andrew-bailey-keynote-speech-at-lse-trium-anniversary-conference",
+    "locator": "Speech; sections on Parliament’s delegation, contemporary challenges and conclusion.",
+    "summary": "Andrew Bailey sets central bank independence in the history of efforts to constrain arbitrary power and treat stable money as a public good. For the Bank of England, he locates authority in Parliament’s role in setting objectives and powers and retaining authority to alter the framework. The central bank’s ability to act with insulation from short-term political pressure depends on that delegation.\n\nBailey links institutional durability to open explanations, public engagement and accountability to the House of Commons Treasury Select Committee. He recognises different effects on borrowers and savers as well as the role of trust in the financial system. The speech addresses how monetary authority is exercised and scrutinised.",
+    "questions": [
+      {
+        "question": "How should Parliament distinguish scrutiny of decisions from changes to the Bank’s mandate?",
+        "evidence": "Bailey identifies a formal parliamentary role in setting and revising the framework and an ongoing accountability role for the Treasury Select Committee."
+      },
+      {
+        "question": "How can the Bank communicate distributional effects while explaining how a decision serves its statutory objectives?",
+        "evidence": "The speech acknowledges that borrowers and savers experience rate decisions differently and argues for clear public explanations."
+      },
+      {
+        "question": "What practices help central banks maintain broad public trust when different groups challenge the same decision?",
+        "evidence": "Bailey discusses opposing criticisms and identifies transparent decisions and public engagement as safeguards for institutional legitimacy."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Euro area",
+    "date": "2026-09-08",
+    "institution": "Banco de España",
+    "title": "The sources of growth in Spain and the main European economies: total factor productivity and sectoral heterogeneity",
+    "type": "Research",
+    "url": "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/documentos-ocasionales/las-fuentes-del-crecimiento-en-espana-y-las-principales-economias-europeas-productividad-total-de-los-factores-y-heterogeneidad-sectorial.html",
+    "summary": "The authors use growth accounting and a sectoral productivity database to compare Spain with Germany, France, Italy and the Netherlands. Over 2000–25 more favourable demographics accounted for much of Spain’s faster aggregate growth. Since 2013 stronger employment and sustained growth in total factor productivity also supported faster growth per person.\n\nThe reported productivity rebound was broad across sectors, with especially strong growth in digital and professional services. This distinction between population, employment and productivity matters for assessing potential output and unit cost pressure. The accounting decomposition describes contributions rather than establishing the causes of the productivity changes.",
+    "locator": "Occasional Paper 2614 abstract and takeaways",
+    "questions": [
+      {
+        "question": "How sensitive is the productivity result to labour and capital measurement?",
+        "evidence": "Compare decomposition assumptions, factor quality and sector weights."
+      },
+      {
+        "question": "Does rapid digital productivity spread to other industries?",
+        "evidence": "Compare use and input linkages across sectors."
+      },
+      {
+        "question": "How durable is the demographic contribution?",
+        "evidence": "Check employment, participation and population scenarios."
+      }
+    ],
+    "coverageLimitation": "Official abstract reviewed. Full tables and alternate growth-accounting specifications remain outside this note."
+  },
+  {
+    "jurisdiction": "Euro area",
+    "date": "2026-09-10",
+    "institution": "European Central Bank",
+    "title": "ECB staff macroeconomic projections for the euro area — September 2026",
+    "type": "Forecast",
+    "url": "https://www.ecb.europa.eu/press/projections/html/ecb.projections202609_ecbstaff~8e340fc69d.en.html",
+    "summary": "ECB staff revised 2027 growth up to 1.4% from 1.2% and headline inflation up to 2.5% from 2.3%. The baseline projected annual growth of 0.9%, 1.4% and 1.5% over 2026–28. Staff expected activity to recover, though competitiveness limits the export boost and the euro area’s own production of AI-related goods was relatively small. The projection for 2027 core inflation rose 0.1 percentage point to 2.6%.\n\nTable 1 shows why the risks cannot be reduced to one central path. In the severe energy scenario, 2027 inflation was 5.4% and growth 0.4%, while in the milder case the same projections were 1.9% and 1.5%. These scenarios vary the size and duration of the energy shock and the strength of pass-through. They are conditional comparisons, without assigned market probabilities.",
+    "locator": "Overview, Table 1 and scenario assumptions",
+    "questions": [
+      {
+        "question": "Which energy assumptions separate the scenarios?",
+        "evidence": "Compare gas, oil and shipping assumptions with the futures and physical markets at the cutoff."
+      },
+      {
+        "question": "How much of firmer core inflation depends on wage growth?",
+        "evidence": "Compare labour cost and services prices with the projection."
+      },
+      {
+        "question": "Do the alternative scenarios imply materially different financing conditions?",
+        "evidence": "Compare market pricing and credit costs with each scenario’s mechanisms."
+      }
+    ],
+    "coverageLimitation": "The baseline, scenario table and main drivers were reviewed. Separate analytical boxes are not all covered."
+  },
+  {
+    "jurisdiction": "Euro area",
+    "date": "2026-09-10",
+    "institution": "European Central Bank",
+    "title": "Monetary policy decisions",
+    "type": "Decision",
+    "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+    "summary": "The ECB raised its three policy rates by 25 basis points. From 16 September the deposit facility rate was 2.50%, the main refinancing rate 2.65%, and the marginal lending rate 2.90%. Staff projected headline inflation at 3.0% in 2026, 2.5% in 2027 and 2.1% in 2028. The Governing Council judged that prolonged energy pressures made it appropriate to tighten so that inflation returned to 2% over the medium term.\n\nCouncil guidance retained a meeting-by-meeting approach. Underlying inflation dynamics and the degree of transmission remained relevant alongside the outlook. Asset purchase programme portfolios continued to run down without reinvestment. The statement provides the policy shift and outlook; market repricing would require dated market data.",
+    "locator": "Decision, new staff baseline and interest rate and portfolio sections",
+    "questions": [
+      {
+        "question": "Was the decision anticipated?",
+        "evidence": "Compare euro OIS just before the release and in a separate press-conference window."
+      },
+      {
+        "question": "How much medium-term inflation depends on persistent energy prices?",
+        "evidence": "Compare the staff scenarios with dated gas, oil and refining data."
+      },
+      {
+        "question": "Have higher rates reached financing conditions?",
+        "evidence": "Review financing costs and bank lending standards by country and borrower type."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Euro area",
+    "date": "2026-09-15",
+    "institution": "Banque de France",
+    "title": "Macroeconomic interim projections — September 2026",
+    "type": "Forecast",
+    "url": "https://www.banque-france.fr/en/publications-and-statistics/publications/macroeconomic-interim-projections-september-2026",
+    "summary": "The Banque de France lowered its 2026 GDP growth forecast by 0.1 percentage point to 0.4%. Activity was weak in the first half and the forecast incorporated a lower first-quarter GDP vintage. The central path anticipated growth recovering to 0.9% in 2027 and 1.2% in 2028. Tight financing conditions and fiscal uncertainty limited private investment in the projection.\n\nHeadline inflation was projected at 2.3% in 2026, 1.9% in 2027 and 1.6% in 2028. Inflation excluding energy and food was projected to rise from 1.6% in 2026 to 2.3% in 2027, reflecting indirect and second-round effects. The paths are conditioned on the 19 August energy futures assumptions. The unemployment rate was revised higher across the horizon.",
+    "locator": "Key projections and sections on growth, inflation and projection assumptions",
+    "questions": [
+      {
+        "question": "How sensitive is French growth to private investment assumptions?",
+        "evidence": "Compare investment surveys and borrowing costs against June and September projections."
+      },
+      {
+        "question": "Which costs account for higher core but lower headline inflation in 2027?",
+        "evidence": "Examine energy base effects and the assumptions on sector pass-through."
+      },
+      {
+        "question": "How much of the unemployment revision reflects labour supply?",
+        "evidence": "Compare employment and participation assumptions with INSEE data."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United Kingdom",
+    "date": "2026-09-17",
+    "institution": "Bank of England",
+    "title": "Bank Rate maintained at 3.75% — September 2026 Monetary Policy Summary and Minutes",
+    "type": "Decision",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+    "summary": "The Monetary Policy Committee voted 6–3 to hold Bank Rate at 3.75%, with three members preferring an increase of 25 basis points. The committee saw greater upside risks to inflation than in July after renewed energy price increases and slightly stronger activity. August CPI was 3.1%. So far the evidence of broader wage and price effects was limited, and the weaker labour market and higher private borrowing costs were expected to restrain inflation over time.\n\nThe committee unanimously agreed to wind down gilt holdings financed by reserves to zero by the end of 2034. The announced plan averaged £46 billion of annual reduction, with £20 billion of annual sales alongside maturities. Rate guidance and changes in gilt supply may differ in their effects on the front end and on longer maturities.",
+    "locator": "Monetary Policy Summary and minutes on rate vote and gilt holdings",
+    "questions": [
+      {
+        "question": "How much did the vote distribution matter for rate expectations?",
+        "evidence": "Compare SONIA before and after the summary and around later communication."
+      },
+      {
+        "question": "Which firms and workers are increasingly passing costs through?",
+        "evidence": "Compare Agents’ reports, earnings and pricing surveys."
+      },
+      {
+        "question": "How does the agreed gilt run-off affect duration supply?",
+        "evidence": "Match the maturity and sales calendar with auction results and gilt–swap spreads."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Norway",
+    "date": "2026-09-17",
+    "institution": "Norges Bank",
+    "title": "Regional Network Report 3/2026 — Minor changes in growth prospects",
+    "type": "Research",
+    "url": "https://www.norges-bank.no/en/news-events/publications/Regional-network-reports/2026/3-2026/web-report-3-2026/",
+    "summary": "Norges Bank’s contacts expected quarterly output growth of 0.3% in the third and fourth quarters, broadly similar to the previous survey for the third quarter. They cited household purchasing power, defence demand and data centre construction as supports. Residential and other construction remained weak and respondents in oil services were relatively cautious.\n\nReported capacity shortages and difficulties hiring had declined and were below historical averages. Contacts estimated wage growth at 4.5% for 2026 and 4.0% for 2027. The survey provides forward-looking regional evidence. Its estimates are respondents’ views, distinct from national accounts or an official policy forecast.",
+    "locator": "Overview, Charts 1–2 and discussions of sector activity and employment",
+    "questions": [
+      {
+        "question": "Is weaker capacity utilisation translating into softer wages?",
+        "evidence": "Compare contacts’ estimates with settlements and official hourly wage data."
+      },
+      {
+        "question": "How dependent is output growth on data centre and defence projects?",
+        "evidence": "Compare order books and project delivery dates by supplier."
+      },
+      {
+        "question": "Is a residential construction recovery delayed or cancelled?",
+        "evidence": "Check new-home sales, permits and developer funding."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Euro area",
+    "date": "2026-09-21",
+    "institution": "Deutsche Bundesbank",
+    "title": "Monetary policy transmission in the euro area: Sectoral differences between industry, services and construction",
+    "type": "Research",
+    "url": "https://publikationen.bundesbank.de/publikationen-en/reports-studies/monthly-reports/monthly-report-september-2026-1008246?article=monetary-policy-transmission-in-the-euro-area-sectoral-differences-between-industry-services-and-construction-1007392",
+    "summary": "The Bundesbank reports that manufacturing responded more quickly to monetary easing than services or construction in its model estimates. Chart 4.1 shows distributions of differences in real gross value added following a simulated 25 basis point cut. The median initially favours a stronger manufacturing response, with uncertainty around the estimates and timing.\n\nSurvey evidence suggests demand plays a larger role in transmitting policy to services. For manufacturing and construction, financing and demand channels both matter in the short term and financing is more important over the medium term. A changing mix of sectors may therefore change the strength and timing of aggregate transmission across economies.",
+    "locator": "Sections 1–2, Chart 4.1 and interpretation note",
+    "questions": [
+      {
+        "question": "Does the sector ranking hold for rate increases?",
+        "evidence": "Compare response estimates for tightening and easing at different starting rates."
+      },
+      {
+        "question": "Which financing exposures best explain the sector gaps?",
+        "evidence": "Compare maturity structure and debt burdens in firms across sectors."
+      },
+      {
+        "question": "What happens when sector shares change?",
+        "evidence": "Reweight estimates by national industrial and services structures."
+      }
+    ],
+    "coverageLimitation": "Main model and channel results reviewed. Full specifications and survey appendices are outside this note."
+  },
+  {
+    "jurisdiction": "Euro area",
+    "date": "2026-09-21",
+    "institution": "Banca d'Italia",
+    "title": "The challenge of innovation — Fabio Panetta",
+    "type": "Speech",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-governatore/integov2026/20260921-panetta/index.html?com.dotmarketing.htmlpage.language=1",
+    "summary": "Panetta argued that AI can improve analysis and change the economy the central bank is trying to forecast. Near-term investment can boost demand for scarce compute, energy and skills before supply is ready. The longer-term supply effect depends on adoption and the productivity gains that follow. The timing of demand and supply shifts therefore determines the inflation consequences.\n\nHow gains are distributed also matters. New tasks that strengthen labour incomes can reinforce consumption and investment. Automation that increases insecurity may raise precautionary saving and offset some investment demand. Panetta discussed national differences in diffusion and the potential for larger firms to capture gains sooner. The speech presents mechanisms and cites research estimates. It makes no commitment about the next rate setting.",
+    "locator": "Section 3 and its subsections on aggregate demand and international divergence",
+    "questions": [
+      {
+        "question": "Which input constraints could bind before productivity gains arrive?",
+        "evidence": "Compare energy, compute and specialist wages with adoption estimates."
+      },
+      {
+        "question": "Are household responses affecting consumption yet?",
+        "evidence": "Track savings and jobs by exposure to automation and new tasks."
+      },
+      {
+        "question": "Which national or sector differences matter for policy?",
+        "evidence": "Compare firm adoption, output and wage distribution across countries."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Switzerland",
+    "date": "2026-09-24",
+    "institution": "Swiss National Bank",
+    "title": "Monetary policy assessment of 24 September 2026",
+    "type": "Decision",
+    "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
+    "summary": "The SNB held its rate at 0% and retained the option to intervene in exchange markets. The discount above banks’ sight-deposit thresholds stayed 0.25 percentage points. Swiss inflation rose to 0.8% in August from 0.6% in May, primarily because of petroleum-related goods prices. The conditional forecast, assuming the rate remained at 0%, was 0.7% in 2026 and 0.8% in both 2027 and 2028. Prices for oil products raised the near-term outlook and franc depreciation contributed to a small medium-term revision.\n\nSwiss growth was unusually strong in the second quarter. Chemicals and pharmaceuticals overstated the aggregate momentum, while activity outside those sectors was also broadly positive. The SNB expected 1.5–2.0% growth for the year and around 1.5% in 2027. International developments remained the main risk.",
+    "locator": "Policy decision, conditional inflation forecast and Swiss outlook",
+    "questions": [
+      {
+        "question": "How far is higher inflation concentrated in energy?",
+        "evidence": "Compare CPI contributions with the new forecast and domestic price trends."
+      },
+      {
+        "question": "Which industries explain the stronger growth baseline?",
+        "evidence": "Check national accounts contributions and manufacturing utilisation."
+      },
+      {
+        "question": "What would make intervention more likely?",
+        "evidence": "Compare import prices and effective CHF with the scenarios in the assessment."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Norway",
+    "date": "2026-09-24",
+    "institution": "Norges Bank",
+    "title": "Monetary Policy Report 3/2026",
+    "type": "Forecast",
+    "url": "https://www.norges-bank.no/en/news-events/publications/Monetary-Policy-Report/2026/mpr-32026/web-report-mpr-32026",
+    "locator": "Monetary Policy Statement; sections 1 and 3; Annex, Table 3. Publication date from the September meeting’s release page.",
+    "summary": "Norges Bank raised its forecasts for headline CPI inflation to 3.3% in 2026 and 2.6% in 2027. It lowered its CPI-ATE forecasts for the same years to 3.0% and 2.7%, respectively. Underlying inflation had softened faster than projected in June even as energy and other commodities raised the headline measure. The report estimates a negative mainland output gap, projected to widen from −0.3% in 2026 to −1.1% in 2028.\n\nThe September path keeps the policy rate elevated for somewhat longer than the June forecast. The annual CPI and CPI-ATE rates both reach 2.1% in 2029 in the baseline. The Committee says stronger external price pressures could require higher rates while quicker disinflation or labour-market weakness could result in a lower path.",
+    "questions": [
+      {
+        "question": "Which prices explain the opposing revisions in 2026 headline CPI and CPI-ATE?",
+        "evidence": "The forecasts move 0.1 percentage point up for headline CPI and 0.2 point down for CPI-ATE. The report identifies energy and commodity pressures alongside lower underlying inflation."
+      },
+      {
+        "question": "How does the policy path balance persistence risks with a widening negative output gap?",
+        "evidence": "The rate path stays elevated longer than in June and the projected mainland output gap widens through 2028."
+      },
+      {
+        "question": "What would distinguish faster underlying disinflation from a temporary move in CPI-ATE?",
+        "evidence": "The Committee names faster disinflation as a possible reason for lower rates while the report finds near-term underlying inflation upside risk above its historical average."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Sweden",
+    "date": "2026-09-24",
+    "institution": "Sveriges Riksbank",
+    "title": "Policy rate unchanged at 1.75 per cent — September decision",
+    "type": "Decision",
+    "url": "https://www.riksbank.se/en-gb/monetary-policy/monetary-policy-report/2026/monetary-policy-decision-september-2026/",
+    "summary": "The Riksbank held at 1.75% but projected more tightening than in June. Spare capacity and inflation measures excluding the direct effects of temporary fiscal measures near 2% supported waiting. Stronger activity and persistent foreign supply pressures provided a case for later increases. The Board expected the increases to start during 2026 if the outlook remained in line, with faster tightening possible if inflation proved more persistent.\n\nThe published forecast raised 2027 average CPIF inflation to 2.1% from 1.7%. The forecast path now put the policy rate at 2.24% in the second quarter of 2027, compared with 1.93% in June. These are averages conditional on the forecast. They do not specify the rate at any particular meeting.",
+    "locator": "Decision and the inflation, GDP and policy rate forecast tables",
+    "questions": [
+      {
+        "question": "How does the updated path compare with market pricing?",
+        "evidence": "Line up Swedish OIS dates with the quarter-average forecast."
+      },
+      {
+        "question": "How much of measured inflation is attributable to fiscal relief?",
+        "evidence": "Compare tax-adjusted and headline CPIF with measure expiry dates."
+      },
+      {
+        "question": "What would warrant a faster path?",
+        "evidence": "Track demand, energy pass-through, wages and core prices against the forecast."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Norway",
+    "date": "2026-09-24",
+    "institution": "Norges Bank",
+    "title": "Rate decision September 2026",
+    "type": "Decision",
+    "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/september-2026/?tabs=164685",
+    "summary": "Norges Bank raised the rate to 4.5%. August CPI was 3.3%, lifted by energy, and CPI-ATE was 3.0%, below the June forecast. Imported goods inflation slowed and the krone was stronger than projected, while domestic price pressure remained elevated, supported by earlier business costs and labour costs. Employment had held up somewhat better than expected. Measures of spare capacity did not all give the same signal.\n\nThe committee judged that keeping rates restrictive remained necessary. The deliberations explicitly report that markets already priced a further Norwegian rate increase during 2026 and that rate expectations abroad had risen. The committee weighed domestic price persistence and uncertain external inflation pressures against the milder underlying near-term readings.",
+    "locator": "Monetary Policy Report summary and committee deliberations on international conditions, inflation and stance",
+    "questions": [
+      {
+        "question": "How persistent are domestic price components?",
+        "evidence": "Compare rent, wages and services measures with prior forecasts."
+      },
+      {
+        "question": "What explains the difference between the central-bank path and market pricing?",
+        "evidence": "Compare dated NOK rates with the report’s risk and baseline paths."
+      },
+      {
+        "question": "How far does a stronger krone offset foreign input costs?",
+        "evidence": "Compare import prices with the I-44 index and external price pressures."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Switzerland",
+    "date": "2026-09-25",
+    "institution": "Swiss National Bank",
+    "title": "L’economia svizzera nel contesto globale — Martin Schlegel",
+    "type": "Speech",
+    "url": "https://www.snb.ch/it/publications/communication/speeches/2026/ref_20260925_msl",
+    "summary": "Schlegel linked the Swiss economy’s resilience to exports and discussed how the exchange rate affects sectors and export markets differently. The slides show a relatively stable real effective franc since 2020, while the bilateral and sector exposures behind that average can vary. Business conversations showed improved confidence. Swiss GDP had been especially strong in the second quarter and was expected to grow more moderately ahead.\n\nOil products explained much of the rise in domestic inflation. The slides referred to the September hold at 0% with somewhat firmer inflation pressure than in June. The combination of better recent activity and a contained medium-term forecast anchored the presentation.",
+    "locator": "Official Italian slides 3–11 and 13–16",
+    "questions": [
+      {
+        "question": "How broad was export growth outside pharmaceuticals?",
+        "evidence": "Check official export volume and sector contributions."
+      },
+      {
+        "question": "Which real exchange rates most affect the different exporters?",
+        "evidence": "Compare sector destination weights and costs."
+      },
+      {
+        "question": "Is the energy shock reaching domestically set prices?",
+        "evidence": "Review the CPI composition and business pricing evidence."
+      }
+    ],
+    "coverageLimitation": "Official Italian slide deck reviewed. No separate transcript was available."
+  },
+  {
+    "jurisdiction": "Switzerland",
+    "date": "2026-09-30",
+    "institution": "Swiss National Bank",
+    "title": "Quarterly Bulletin 3/2026 — Monetary policy report and business cycle signals",
+    "type": "Forecast",
+    "url": "https://www.snb.ch/en/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett",
+    "locator": "Published key points for the Monetary policy report and Business cycle signals. Review limited to the official online summary.",
+    "summary": "The SNB’s bulletin says unusually strong chemicals and pharmaceuticals output raised second-quarter headline GDP above underlying momentum, while activity outside that effect remained solid and broad-based. The SNB forecasts 1.5–2% GDP growth in 2026 and around 1.5% in 2027. Swiss inflation rose from 0.6% in May to 0.8% in August on imported inflation, especially oil products, while longer-term expectations were broadly steady.\n\nCompanies in the SNB’s third-quarter interviews described strong business activity across manufacturing, services and construction. Hiring intentions improved and wage increases were expected to slow from 1.5% in 2026 to 1.3% in 2027. The bulletin reports an upward shift in the Confederation yield curve and a franc depreciation since mid-June, a comparison across months.",
+    "questions": [
+      {
+        "question": "How much of second-quarter GDP strength is likely to persist?",
+        "evidence": "The bulletin highlights unusually strong chemicals and pharmaceuticals output and cites broad underlying growth and resilient third-quarter business reports."
+      },
+      {
+        "question": "What would indicate imported energy inflation is spreading to domestic prices?",
+        "evidence": "The bulletin attributes the observed inflation rise to imported oil-related costs and reports broadly unchanged longer-term expectations."
+      },
+      {
+        "question": "How do firms’ strong demand and improving hiring plans fit with slower expected wage growth?",
+        "evidence": "The company talks anticipate stronger hiring, easier recruitment and an average wage rise of 1.3% in 2027 after 1.5% in 2026."
+      }
+    ]
+  }
+]

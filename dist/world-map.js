@@ -24,7 +24,7 @@
   };
   const dayIndex = new Map();
   const todayUtc = () => new Date().toISOString().slice(0, 10);
-  const state = {region: "World", bank: null, day: "", latest: "", map: null, checked: null, sources: {}};
+  const state = {region: "World", bank: null, day: "", latest: "", map: null, checked: null, sources: {}, archivePeriods: []};
   let paths = [];
   let layoutSignature = "";
   let pulseDay = "";
@@ -84,10 +84,8 @@
       if (!link) continue;
       const row = element("li");
       row.append(element("small", item.type), link);
-      if (item.archive) {
-        const month = item.day.startsWith("2026-10") ? "oct" : "nov";
-        row.append(archiveLink(bank, month, "Read analysis →", item.title));
-      }
+      const period = item.archive && state.archivePeriods.find(({start, end}) => start <= item.day && item.day <= end);
+      if (period) row.append(archiveLink(bank, period.id, "Read analysis", item.title));
       list.append(row);
     }
     if (items.length > limit) {
@@ -162,7 +160,9 @@
         details.append(element("p", "Activity shown here comes from the curated archive.", "map-scope"));
       }
       const links = element("div", "", "map-archive-links");
-      links.append(archiveLink(bank, "oct", "October analysis"), archiveLink(bank, "nov", "November analysis"));
+      for (const period of state.archivePeriods) {
+        links.append(archiveLink(bank, period.id, `${period.label} analysis`));
+      }
       details.append(links);
     } else {
       const leaders = active.filter((bank) => visible.includes(bank));
@@ -383,10 +383,11 @@
   async function start() {
     try {
       const results = await Promise.allSettled([
-        getJSON("data/world-map.json"), getJSON("data/world-map-activity.json"),
+        getJSON("data/world-map.json"), getJSON("data/world-map-activity.json"), getJSON("data/archive-periods.json"),
       ]);
       if (results[0].status === "rejected") throw results[0].reason;
       state.map = results[0].value;
+      state.archivePeriods = results[2].value ?? [];
       if (results[1].status === "fulfilled") useSnapshot(results[1].value);
       else {
         state.day = todayUtc();

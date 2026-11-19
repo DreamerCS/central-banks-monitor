@@ -1,0 +1,626 @@
+[
+  {
+    "jurisdiction": "Australia",
+    "date": "2026-08-11",
+    "institution": "Reserve Bank of Australia",
+    "title": "Monetary Policy Board decision: cash rate held at 4.35%",
+    "type": "Decision",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-19.html",
+    "locator": "Opening assessment and Decision",
+    "summary": "The Board held its cash rate target at 4.35% after three increases earlier in 2026. The release says financial conditions had tightened through higher money-market rates and yields and through exchange-rate appreciation. Housing and household spending showed signs of slowing, while business borrowing and investment remained strong. Trimmed-mean inflation was still elevated and little changed from the March quarter. The initial Middle East conflict effect on inflation had been smaller than expected, with evidence of fuel-cost pass-through and domestic capacity pressure still present.\n\nThe hold gave the Board time to assess how earlier tightening was working. The Board described the policy setting as somewhat restrictive and retained the option to raise the rate if upside inflation risks materialised. Stronger trading-partner activity associated with AI investment was helping offset some of the global energy shock. Weak domestic productivity meant Australia’s capacity to absorb stronger demand was limited. These were reasons to pay attention to the composition of growth even while aggregate demand was slowing.",
+    "questions": [
+      {
+        "question": "Was the hold already priced and did the conditional tightening language affect later meetings?",
+        "evidence": "Check Australian OIS and futures before and after the published decision time, accounting for the simultaneous forecast."
+      },
+      {
+        "question": "How persistent was the domestic component of inflation?",
+        "evidence": "Compare domestically exposed services and the trimmed mean with fuel prices and firm-level selling-price intentions."
+      },
+      {
+        "question": "How far had financial tightening reached household demand?",
+        "evidence": "Compare mortgage payments, new housing borrowing and spending with business credit and investment activity."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Australia",
+    "date": "2026-08-11",
+    "institution": "Reserve Bank of Australia",
+    "title": "Statement on Monetary Policy, August 2026",
+    "type": "Forecast",
+    "url": "https://www.rba.gov.au/publications/smp/2026/aug/contents.html",
+    "locator": "Overview forecast table and Outlook, including conditioning assumptions and historical forecast bands. Selected chapters reviewed.",
+    "summary": "The August projections describe a period of below-trend growth, an increase in unemployment and inflation declining gradually toward the target midpoint. The overview table shows CPI inflation falling from 3.9% in June 2026 to 2.6% in December 2027, with unemployment rising from 4.4% to 4.7% over the same dates. The staff expect some relief from energy-related costs and a reduction in domestic capacity pressures as restrictive financing restrains demand. Stronger activity among trading partners supports the growth outlook even with weakness in domestic household spending.\n\nThe cash-rate assumption comes from financial-market pricing on 5 August. The forecast also holds the trade-weighted exchange rate at its 5 August level. Neither assumption describes what the Board promises to do. The trimmed-mean inflation fan chart uses historical forecast errors, with a wide range by the end of the projection. Uncertainty around the conflict and the global AI investment cycle matters for the path of import prices, export demand and capacity pressures.",
+    "questions": [
+      {
+        "question": "What is most important to the projected disinflation, easing input costs or spare capacity?",
+        "evidence": "Compare the staff’s decomposition of trimmed-mean inflation with changes in energy and labour indicators as data arrive."
+      },
+      {
+        "question": "Is the 5 August market path still a reasonable conditioning benchmark?",
+        "evidence": "Compare the dated OIS curve with subsequent market pricing, keeping the assumptions separate from the Board’s decision."
+      },
+      {
+        "question": "How much could weaker domestic demand be masked by resilient exports?",
+        "evidence": "Use disaggregated activity data to test the drivers of the growth forecast."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Australia",
+    "date": "2026-08-13",
+    "institution": "Reserve Bank of Australia",
+    "title": "Christopher Kent: The Restrictive Stance of Monetary Policy",
+    "type": "Speech",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-08-13.html",
+    "locator": "Graphs 1–3 and discussion of transmission and offsets",
+    "summary": "Kent assesses financial conditions as somewhat restrictive after three cash-rate increases in 2026. He notes that lending and deposit rates moved up, scheduled mortgage payments were near their 2024 peak relative to disposable income, and the Australian dollar had strengthened by around 5% on a trade-weighted basis since the start of the year. Exchange-rate appreciation affects imported prices and the demand for domestic production. Kent also observes that since May some market-implied future rate expectations had eased, reducing some wholesale borrowing rates.\n\nHis neutral-rate comparison places the cash rate near the upper end of the range of central estimates. He stresses that those estimates are uncertain and can adjust slowly to changes in the economy. Resilient investment and global demand, including spending linked to AI, can offset some of the drag on household demand. The speech’s market significance is the distinction between the current cash rate and the full set of conditions that determine restraint.",
+    "questions": [
+      {
+        "question": "How far have mortgage resets affected aggregate spending already?",
+        "evidence": "Compare the timing of scheduled payments and consumption across households with different debt exposure."
+      },
+      {
+        "question": "What is driving the trade-weighted AUD move?",
+        "evidence": "Compare changes in domestic and overseas rate expectations with export prices and global risk indicators."
+      },
+      {
+        "question": "Is an apparent increase in neutral robust across different methods?",
+        "evidence": "Compare the models in Graph 3 and assess the sensitivity to rate and activity assumptions."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Australia",
+    "date": "2026-08-25",
+    "institution": "Reserve Bank of Australia",
+    "title": "David Jacobs: The Road to Ample",
+    "type": "Speech",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-so-2026-08-25.html",
+    "locator": "Demand for reserves, Graphs 8–12 and Conclusion",
+    "summary": "Jacobs describes the RBA’s transition toward reserves driven by banks’ demand rather than past asset purchases. As pandemic-era bonds run off, the RBA’s weekly full-allotment repo operations can expand if money-market rates create an incentive for lenders to obtain reserves. The amount of reserves can then react to demand while the asset side shifts from long-term bonds toward short-term repo. Jacobs says a smooth transition depends on the ability to supply liquidity flexibly rather than a fixed reserve target.\n\nIf official repo activity grew enough to affect functioning in private markets, the RBA could use additional liquidity instruments, such as FX swaps or purchases of short-term government securities. Existing overnight and intraday facilities remain in the toolkit even as open repo is phased out under the new approach. Graphs distinguish past usage and illustrative projections. The speech concerns how the RBA implements its cash rate target and why private liquidity management still matters.",
+    "questions": [
+      {
+        "question": "What observable markers indicate demand for reserves is starting to bind?",
+        "evidence": "Compare the effective cash rate and market repo rates with RBA facility use, eligible collateral and settlement balances."
+      },
+      {
+        "question": "Could larger official repo activity crowd out private liquidity?",
+        "evidence": "Monitor private turnover, rates and collateral use alongside open market operations."
+      },
+      {
+        "question": "What would indicate an FX swap injection is an implementation operation?",
+        "evidence": "Check announced purpose, size and tenor against cash-rate guidance and central bank asset runoff."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Australia",
+    "date": "2026-08-25",
+    "institution": "Reserve Bank of Australia",
+    "title": "Minutes of the August 2026 Monetary Policy Board meeting",
+    "type": "Minutes",
+    "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-08-11.html",
+    "locator": "Meeting held 11 August. Minutes released 25 August. Considerations for monetary policy and decision.",
+    "summary": "The minutes set out what the Board considered before holding the cash rate at 4.35% in August. The discussion balances persistent above-target inflation against the tightening already in place and evidence that housing and domestic spending were slowing. Members discuss the prospect that inflation risks could warrant another increase and the value of observing how the previous moves transmit. Measures of potential supply and longer-horizon expectations are important to that calculation.\n\nThe text describes the arguments that could justify an increase or a pause rather than committing the Board to a fixed path. The distinction matters for investors assessing what might cause repricing. Announcing the minutes on 25 August offered a later opportunity for markets to learn about the discussion, whereas the rate and quarterly forecasts were already public on 11 August.",
+    "questions": [
+      {
+        "question": "Did the minutes reveal a different threshold for action from the statement?",
+        "evidence": "Read the two texts side by side, then compare the meeting-dated OIS price around the 25 August release."
+      },
+      {
+        "question": "How much policy restraint was already reaching investment and housing?",
+        "evidence": "Compare mortgage cash flow and loan approvals with business investment and market yields."
+      },
+      {
+        "question": "Are persistent price pressures showing up in medium-term expectations?",
+        "evidence": "Compare horizon-specific surveys with inflation compensation and business pricing intentions."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Australia",
+    "date": "2026-08-27",
+    "institution": "Reserve Bank of Australia",
+    "title": "Isobel McKay: An Input-cost Decomposition of the Household Consumption Deflator",
+    "type": "Research",
+    "url": "https://www.rba.gov.au/publications/bulletin/2026/aug/an-input-cost-decomposition-of-the-household-consumption-deflator.html",
+    "locator": "Graph 1, measurement differences and the input-cost decomposition, with Figures 1 and 3",
+    "summary": "McKay decomposes the household consumption deflator into labour costs, business owner returns, dwelling rents, import prices and net taxes. The method maps costs at industry level through input-output and consumption weights. Graph 1 compares contributions during the recent inflation episode with an illustrative benchmark of costs growing at 2.5%. The article finds that import prices and business owner returns accounted for more of the rise early in the period, while labour costs and dwelling rents became more important from 2023.\n\nThe article explains why the deflator and headline CPI moved differently. They measure owner-occupier housing differently, and some subsidies affect the prices households pay in the CPI while leaving listed prices used for the deflator unchanged. The decomposition is an accounting approach to the sources of measured price growth. Its results can guide tests of inflation persistence, with separate evidence needed to identify whether a given cost contribution reflects excess demand, a supply shock or both.",
+    "questions": [
+      {
+        "question": "Has the recent contribution from labour and rents continued?",
+        "evidence": "Apply the decomposition to the next release and compare it with wages, productivity and rents."
+      },
+      {
+        "question": "How does the inflation diagnosis change with a different housing measure?",
+        "evidence": "Compare individual housing series and recalculate the headline and deflator contributions under common weights."
+      },
+      {
+        "question": "Can accounting contributions be mapped to underlying shocks?",
+        "evidence": "Pair the results with evidence on productivity, import supply, margins and aggregate demand rather than reading causal effects into the decomposition."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Australia",
+    "date": "2026-09-08",
+    "institution": "Reserve Bank of Australia",
+    "title": "Andrew Hauser: Interview on ABC 7.30",
+    "type": "Speech",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-09-08.html",
+    "locator": "Official interview transcript, discussion of the inflation outlook, housing, AI and the policy trade-off",
+    "summary": "Hauser identifies three upside risks for inflation: a prolonged Middle East disruption, the unexpectedly strong global AI investment boom and weak Australian potential supply. He says the recent inflation and output releases were somewhat stronger than the RBA had expected, while household confidence was low and house prices were falling. In his assessment, the aggregate economy had enough resilience for policymakers to remain focused on inflation even with weakness in specific areas.\n\nHauser says the Board had chosen a gradual disinflation path to preserve employment gains, with the risk that a long period of excess inflation could weaken trust in the target. He presents loss of that trust as a reason for a stronger response if it materialises. The transcript includes the interviewer’s figures and questions as separate material. Hauser describes a conditional reaction function without saying what members would decide at the next meeting.",
+    "questions": [
+      {
+        "question": "Which indicators would show expectations losing their anchor?",
+        "evidence": "Compare confidence, price plans, longer-run surveys and inflation compensation rather than relying on the headline rate alone."
+      },
+      {
+        "question": "How much does the AI demand channel alter Australian forecasts?",
+        "evidence": "Check global orders, local data-centre investment and domestic supply constraints."
+      },
+      {
+        "question": "Did the interview change the range of expected outcomes before the decision?",
+        "evidence": "Compare dated OIS and analyst views around the broadcast, with other public releases flagged."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Australia",
+    "date": "2026-09-18",
+    "institution": "Reserve Bank of Australia",
+    "title": "Michele Bullock: Opening Statement to the House Standing Committee on Economics",
+    "type": "Testimony",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-09-18.html",
+    "locator": "Opening statement on inflation and activity, and discussion of payments",
+    "summary": "Bullock tells the Committee that the RBA has raised the cash rate by 75 basis points in 2026. She describes renewed oil price pressure and business reports of input cost pass-through as vulnerabilities relative to the August forecast. Inflation at the time remained too high for comfort. Labour conditions had eased gradually, while remaining capacity pressure could still encourage cost increases to reach consumer prices.\n\nThe Governor frames the upcoming meeting around whether cumulative tightening will reduce inflation within a reasonable time. She notes the need to balance inflation and employment, and gives no commitment to a particular vote. Payments and card-cost reforms discussed later involve a different policy area and have separate implications for merchants and consumers. The rate-relevant news in the testimony should be judged against what the market already knew from the August decision and subsequent data.",
+    "questions": [
+      {
+        "question": "Did the testimony add policy information beyond the August upside risks?",
+        "evidence": "Compare wording, recent releases and short-rate expectations at the hearing time."
+      },
+      {
+        "question": "Which business costs are being passed through most broadly?",
+        "evidence": "Look at price-setting intentions, inventories and margins alongside energy and transport costs."
+      },
+      {
+        "question": "How much has employment softened without reducing capacity pressure?",
+        "evidence": "Compare vacancies, hours and industry labour supply to productivity and the output mix."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Australia",
+    "date": "2026-09-22",
+    "institution": "Reserve Bank of Australia",
+    "title": "Michele Bullock: Fireside chat at CEDA",
+    "type": "Speech",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-09-22.html",
+    "locator": "Governor’s transcript, supply-shock, inflation-expectations and productivity passages",
+    "summary": "Bullock describes the policy trade-off when adverse supply shocks raise inflation and simultaneously weaken activity. Repeated shocks matter because a sequence of price increases can change the inflation expectations of households and firms. She says monetary policy can limit the propagation of those shocks through demand, price setting and expectations. That is different from offsetting the first-round change in a relative price.\n\nShe also discusses the pressure of mortgage costs on household budgets and the difficulty of explaining the distinction between those costs and consumer-price inflation. For productivity, she sees possible benefits from AI over time alongside risks during a transition, including changes in labour-market matching. Her comments concern the policy objective and medium-term trade-off. The market question is whether her emphasis on expectations and supply implied a materially different response from what investors had priced.",
+    "questions": [
+      {
+        "question": "Are repeated shocks changing price-setting behaviour?",
+        "evidence": "Compare price plans and wage settlements over successive episodes, controlling for import-cost exposure."
+      },
+      {
+        "question": "Would lower household confidence magnify transmission?",
+        "evidence": "Compare spending in indebted and less indebted households and track home loan repricing."
+      },
+      {
+        "question": "Does the speech materially change the policy message since the testimony?",
+        "evidence": "Compare wording on second-round effects with the 18 September testimony and check price changes around the event."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Australia",
+    "date": "2026-09-29",
+    "institution": "Reserve Bank of Australia",
+    "title": "Michele Bullock: September monetary policy media conference",
+    "type": "Speech",
+    "url": "https://www.rba.gov.au/speeches/2026/mc-gov-2026-09-29.html",
+    "locator": "Opening statement and Q&A on productivity, capacity and policy transmission",
+    "summary": "Bullock explains why the Board raised the cash rate by 25 basis points to 4.60%. She describes pressure from renewed increases in global energy prices and inflation in technology-related goods, alongside concern about domestic capacity and weak productivity. In the Q&A she explains that weaker supply growth affects how far demand can expand without generating price pressure. The deterioration in the inflation outlook shifts how the Board weighs the trade-off with employment, while it continues to pursue both objectives.\n\nThe Governor says rates could rise again if needed. The remarks clarify the motives behind the decision and the conditional nature of further action. To estimate any market information attributable to the press conference, use the conference’s separate scheduled window after the policy statement rather than attributing the entire day’s price move to her Q&A.",
+    "questions": [
+      {
+        "question": "What did the press conference add about future rate moves?",
+        "evidence": "Compare market pricing immediately after the written decision with pricing during and after the press conference."
+      },
+      {
+        "question": "How much of the inflation revision could reflect slower potential growth?",
+        "evidence": "Compare productivity data, underlying prices and activity against previous staff assumptions."
+      },
+      {
+        "question": "Does weaker demand make the stated trade-off easier in later quarters?",
+        "evidence": "Track spending and hiring responses at different policy lags and look for persistent wage and price pressure."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Australia",
+    "date": "2026-09-29",
+    "institution": "Reserve Bank of Australia",
+    "title": "Monetary Policy Board decision: cash rate raised to 4.60%",
+    "type": "Decision",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
+    "locator": "Opening assessment and unanimous Decision",
+    "summary": "The Board unanimously raised the cash rate target by 25 basis points to 4.60%. Upside risks highlighted in August had started to materialise. The Board cites a widening Middle East conflict and energy prices well above assumptions, faster global inflation in technology goods associated with AI demand, and continuing domestic capacity constraints. It also reports stronger-than-expected local inflation and liaison evidence of firms raising prices or planning to. The release says the earlier increases had tightened conditions and slowed the economy.\n\nThe decision reflects a judgment that more restraint was needed to return inflation to target in a reasonable period, even as housing weakened and weak growth scenarios remained possible. Trading-partner growth had held up, partly through AI expenditure, while weak productivity constrained domestic supply. Further tightening remains conditional on the outlook. The relevant comparison for an event study is the hike and statement relative to expectations immediately before release.",
+    "questions": [
+      {
+        "question": "Which part of the move surprised the curve?",
+        "evidence": "Compare meeting-specific OIS pricing around the statement and again around the Governor’s press conference."
+      },
+      {
+        "question": "Would falling oil prices change the projected need for restraint?",
+        "evidence": "Compare updated energy prices with August assumptions and monitor underlying domestic inflation separately."
+      },
+      {
+        "question": "Could housing weakness amplify the effect of tightening?",
+        "evidence": "Track borrowing, prices, construction and spending among interest-sensitive households."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "New Zealand",
+    "date": "2026-08-12",
+    "institution": "Reserve Bank of New Zealand",
+    "title": "Measuring foreign and domestic macroeconomic uncertainty and their impact on the New Zealand economy",
+    "type": "Research",
+    "url": "https://www.rbnz.govt.nz/research-and-publications/research/our-research-and-analysis/analytical-notes/2026/measuring-foreign-and-domestic-macroeconomic-uncertainty-and-their-impact-on-the-new-zealand-economy",
+    "locator": "Publication overview, methodology and key findings",
+    "summary": "The RBNZ analytical note constructs separate measures of foreign and domestic macroeconomic uncertainty and estimates their associations with the New Zealand economy. The two series move together to a substantial degree. The authors interpret that co-movement as consistent with foreign developments contributing to domestic uncertainty. For both categories, estimated responses imply weaker GDP and a higher CPI after an uncertainty increase.\n\nThis pattern raises a policy trade-off because the inflation and activity implications point in different directions. The estimated effects belong to the authors’ identification method and sample. Co-movement alone leaves open how a specific international disruption reached New Zealand, and responses to a particular episode can differ by source and duration. The publication is research on shock transmission, useful for framing how to test whether local market moves reflect external uncertainty.",
+    "questions": [
+      {
+        "question": "Can foreign uncertainty be separated from coincident global commodity and demand shocks?",
+        "evidence": "Compare model responses under alternative controls and around externally dated episodes."
+      },
+      {
+        "question": "Which components explain the estimated CPI increase?",
+        "evidence": "Examine import prices, the exchange rate and other disaggregated CPI components around identified shocks."
+      },
+      {
+        "question": "How stable are these responses across regimes?",
+        "evidence": "Compare estimates before and after major exchange-rate, inflation and financial conditions changes."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "New Zealand",
+    "date": "2026-08-14",
+    "institution": "Reserve Bank of New Zealand",
+    "title": "Reserve Bank provides update on LSAP sales",
+    "type": "Statement",
+    "url": "https://www.rbnz.govt.nz/financial-markets/domestic-markets/domestic-markets-media-releases-listing-page/2026/reserve-bank-provides-update-on-lsap-sales",
+    "locator": "Release of 14 August, paragraphs on NZGB sale and LGFA divestment",
+    "summary": "The release sets out operational details following the MPC’s 8 July decision to fully unwind the Large Scale Asset Purchase portfolio by 30 June 2027. The RBNZ and New Zealand Debt Management agreed to bring forward a NZ$141 million sale of April 2029 government bonds to 15 June 2027, combining it with the planned sale on that day for a total of NZ$576 million. The release describes a transfer to the government debt manager. It does not quantify any net bonds offered to public investors.\n\nThe Bank also reports NZ$392 million in Local Government Funding Agency securities maturing after June 2027 and intends to prioritise the agency’s regular repurchase tenders for divestment. The details matter for analysis of bond supply and relative spreads. Assessing the market effect requires tracking how the counterparties finance or manage the tender and what changes in privately held duration, not treating the headline amount as an immediate open-market sale.",
+    "questions": [
+      {
+        "question": "How much duration actually returns to private investors after the schedule change?",
+        "evidence": "Reconcile the transfer with government refinancing, cancellation and issuance plans by maturity."
+      },
+      {
+        "question": "Is there an effect on LGFA spreads when bonds become eligible for repurchase?",
+        "evidence": "Match tender dates and lines with individual bond prices, turnover and matched government yields."
+      },
+      {
+        "question": "Did the operational details change expectations beyond the July MPC decision?",
+        "evidence": "Compare the July guidance with information available before the August release and dated spread changes."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "New Zealand",
+    "date": "2026-08-20",
+    "institution": "Reserve Bank of New Zealand",
+    "title": "Rebecca Williams: The Inflation Outlook",
+    "type": "Speech",
+    "url": "https://www.rbnz.govt.nz/news-and-events/events/2026/august/upcoming-speaking-engagements-for-august",
+    "locator": "20 August SIFA Conference listing and linked slides 2–8. Slides are the source; no Q&A transcript reviewed.",
+    "summary": "The linked slides used for Williams’s SIFA Conference talk reprise the July Monetary Policy Review. They explain the committee’s consensus to raise the OCR to 2.50% and its view at that time that some further withdrawal of stimulus was likely, with timing dependent on pricing behaviour, demand and incoming data. The slides distinguish lower crude and refined petrol prices from levels before the conflict, and show easing in some domestic financial conditions alongside a recovery projection.\n\nThe material records the presentation’s use of the committee’s July assessment. The RBNZ listing explicitly says the event would cover insights already contained in the July review. For an August communication archive, it shows how the bank presented that existing assessment to market participants. An event study would need evidence of the remarks and first public timing, and should account for the fact that the underlying decision and projections were already public.",
+    "questions": [
+      {
+        "question": "Did anything beyond the published slides become public?",
+        "evidence": "Check any official transcript or released Q&A and compare it with the July statement."
+      },
+      {
+        "question": "How did fuel assumptions evolve between July and the talk?",
+        "evidence": "Compare contemporaneous Dubai crude and refined petrol prices with the charts and underlying forecast assumptions."
+      },
+      {
+        "question": "Did eased mortgage and FX conditions point to stronger demand?",
+        "evidence": "Check dated lending and consumption indicators, separating mortgage pricing from currency effects."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "New Zealand",
+    "date": "2026-09-02",
+    "institution": "Reserve Bank of New Zealand",
+    "title": "Monetary Policy Statement, September 2026",
+    "type": "Forecast",
+    "url": "https://www.rbnz.govt.nz/monetary-policy/monetary-policy-statement/monetary-policy-statements/2026/sep-0209/monetary-policy-statement-september-2026/web-version",
+    "locator": "Key projections, the faster-hike counterfactual in Box B and Figure 5.1. Selected chapters reviewed.",
+    "summary": "The RBNZ projects annual inflation returning to within the target band in the June 2027 quarter and close to the 2% midpoint by late 2027. Lower fuel prices and the base effect of the earlier increase are important to that path, which is conditioned on oil futures. The negative output gap and reduced stimulus are expected to restrain underlying price pressures. The statement projects annual September-quarter CPI at 3.9%. This figure is a contemporaneous forecast rather than a subsequent observation.\n\nBox B illustrates the costs of bringing inflation back into the band more quickly. In its model scenario the OCR peaks around 4.5%, returning inflation to the band earlier, after which inflation falls below 2% as fuel effects fade. The model also shows weaker activity and a higher unemployment rate. The Box compares scenarios under its assumptions, not a proposed central OCR path. The forecast’s market relevance depends on whether oil, spare capacity and pass-through evolve as envisaged.",
+    "questions": [
+      {
+        "question": "How sensitive is the return-to-target date to the futures curve?",
+        "evidence": "Compare subsequent energy curves and the exchange rate with the conditioning assumptions used on 2 September."
+      },
+      {
+        "question": "Can the gradual strategy contain price persistence as fuel base effects fade?",
+        "evidence": "Monitor expectations, non-tradables inflation and wage growth alongside the headline measure."
+      },
+      {
+        "question": "How robust is the faster-hike scenario’s employment cost?",
+        "evidence": "Compare the Box B results across alternative pass-through and monetary transmission assumptions."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "New Zealand",
+    "date": "2026-09-02",
+    "institution": "Reserve Bank of New Zealand",
+    "title": "OCR increased by 25 basis points to 2.75%",
+    "type": "Decision",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/09/ocr-increased-by-25-basis-points-to-2-75",
+    "locator": "Media release and summary record, especially financial conditions, risk and decision",
+    "summary": "The Monetary Policy Committee reached consensus on raising the OCR by 25 basis points to 2.75%. Its record says that further increases were possible under the central outlook. Headline inflation remained high, but most core measures were inside the 1–3% target band and inflation excluding vehicle fuel was 2.9% year on year in the June quarter. The committee expected falling fuel-related contributions, spare capacity and reduced stimulus to bring inflation back to the 2% midpoint in late 2027.\n\nRecovery was uneven. Strong export prices and resilient trading partners were supporting activity and investment in some regions. Domestic spending and labour markets were weaker, and the positive spillovers from exports to households had been limited. The committee judged gradual withdrawal of stimulus a way to protect the target while avoiding an abrupt later adjustment. It noted that wholesale and loan rates had risen partly on market expectations of future moves. The size of the surprise on 2 September remains an empirical question.",
+    "questions": [
+      {
+        "question": "How much of the hike and conditional path was in NZD rates?",
+        "evidence": "Compare meeting-dated quotes around the official 2 pm NZT release and distinguish the decision from the forecast."
+      },
+      {
+        "question": "Could export strength feed into domestic demand faster than projected?",
+        "evidence": "Compare regional job, capital spending and household income measures with export and tourism earnings."
+      },
+      {
+        "question": "Is lower fuel inflation sufficient for durable disinflation?",
+        "evidence": "Track non-tradables, inflation expectations and survey measures of cost pass-through."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "New Zealand",
+    "date": "2026-09-09",
+    "institution": "Reserve Bank of New Zealand",
+    "title": "Karen Silk: Securing the future, the role of the repo market",
+    "type": "Speech",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/09/securing-the-future-the-role-of-the-repo-market",
+    "locator": "Linked speech, pp. 2–9 on repo and the OCR implementation framework",
+    "summary": "Silk explains how government bond-backed repo helps distribute cash and collateral, supports trading in securities and transmits the policy rate through wholesale markets. She says the market has grown internationally and in New Zealand. As settlement cash declines from elevated levels, a well-functioning repo market can reduce the quantity of cash the RBNZ must provide while preserving rate control. The speech introduces the role of regular liquidity provision and reports that term operations can lend at OCR plus 10 basis points for seven and 28 days.\n\nSilk points to scope for deeper activity, stronger transparency and resilience. Her discussion distinguishes observed market growth from the potential benefits of further development. Researchers should track effects on money-market spreads and settlement separately from any change in the target policy rate.",
+    "questions": [
+      {
+        "question": "How stable are short-term spreads as settlement cash declines?",
+        "evidence": "Compare local repo rates, volume and collateral with facility use and balances over time."
+      },
+      {
+        "question": "How do global repo stresses spill over to New Zealand?",
+        "evidence": "Look at cross-currency funding, foreign demand for local government bonds and domestic funding spreads around stress episodes."
+      },
+      {
+        "question": "Which market changes would improve transparency?",
+        "evidence": "Assess trade reporting, eligible collateral and the diversity of participant trading activity."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "New Zealand",
+    "date": "2026-09-17",
+    "institution": "Reserve Bank of New Zealand",
+    "title": "The Future of Banking Study: scenarios for New Zealand in 2035",
+    "type": "Research",
+    "url": "https://www.rbnz.govt.nz/research-and-publications/research/our-research-and-analysis/bulletins/2026/future-of-banking",
+    "locator": "Publication overview, key findings and methods. Analysis focuses on the published summary.",
+    "summary": "The RBNZ study explores how banking in New Zealand could look under three scenarios through 2035. Its scenarios span continued incumbent dominance, a larger role for digital challengers and greater use of platforms that distribute or combine banking services. The horizon and scenarios are inputs for supervisory planning. They do not give probabilities or a central forecast for industry shares.\n\nCompetitive entry and new technology could improve efficiency and access, while fragmentation of banking services could create dependencies on concentrated providers and activities outside existing supervisory coverage. The study draws on research, scenario development and engagement. An investor could use the scenarios to identify which parts of the banking value chain are exposed to changes in customer access, funding and distribution, then look for adoption evidence separately.",
+    "questions": [
+      {
+        "question": "Where is entry most likely to change banks’ competitive positions?",
+        "evidence": "Track switching rates and changes in retail deposits, payments and lending shares by provider."
+      },
+      {
+        "question": "Can new distribution channels change the pricing of deposits or loans?",
+        "evidence": "Compare customer acquisition costs, funding composition and lending margins across models."
+      },
+      {
+        "question": "What operational risks would become more concentrated under a platform model?",
+        "evidence": "Review provider dependencies and how continuity requirements and service arrangements are structured."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Singapore",
+    "date": "2026-08-19",
+    "institution": "Monetary Authority of Singapore",
+    "title": "MAS introduces measures to strengthen Singapore’s competitiveness as an asset management hub",
+    "type": "Statement",
+    "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-introduces-measures-to-strengthen-singapores-competitiveness-as-a-leading-asset-management-hub",
+    "locator": "Paragraphs 1–8, programme, tax and work-pass measures",
+    "summary": "MAS describes measures aimed at expanding Singapore’s asset-management ecosystem. It cites growth in industry assets to nearly S$7 trillion and highlights a planned investment programme for hedge fund managers that establish or deepen local operations. MAS expects local prime brokers, service providers and investment teams to benefit if the programme draws a larger cluster of firms. The package also proposes a tax exemption for qualifying performance-linked fund-management returns and a specialist work-pass track for senior investment professionals. The industry figures in the release are reported context for the announcement.\n\nFor macro research, the distinction is between assets administered in Singapore and capital devoted to domestic assets. Hosting more managers can change financing, collateral and service demand without implying an equivalent change in net investment flows. The release outlines policy commitments and aims, with programme details, realised take-up and market impacts left to later evidence.",
+    "questions": [
+      {
+        "question": "Does manager relocation bring new investment capital or move existing mandates?",
+        "evidence": "Compare changes in assets under management, domicile and asset location with launch and relocation disclosures."
+      },
+      {
+        "question": "Which funding and brokerage services would face greater demand?",
+        "evidence": "Monitor prime-broker activity, custodian services and local fund formation."
+      },
+      {
+        "question": "What criteria will determine participation and scale?",
+        "evidence": "Check subsequent MAS programme documents for eligibility, mandate terms and allocations."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Singapore",
+    "date": "2026-08-24",
+    "institution": "Monetary Authority of Singapore",
+    "title": "Consumer Price Developments in July 2026",
+    "type": "Research",
+    "url": "https://www.mas.gov.sg/news/consumer-price-developments/2026/consumer-price-developments-in-july-2026",
+    "locator": "Linked joint MAS release, Charts 1–2 and Outlook",
+    "summary": "The joint release reports MAS core inflation at 2.0% year on year in July, up from 1.6% in June. Headline CPI rose to 2.2% from 1.9%, though the headline index was down 0.2% on the month. The difference between the monthly and annual rates shows why analysts should compare both horizons and inspect the components. The charts show measured rates and percentage-point contributions and distinguish the coverage of core from all items.\n\nThe report cites higher global input costs alongside potentially slower domestic unit labour cost growth and a dampening effect from subsidies. It projects both core and headline inflation to average 1.5–2.5% in 2026. A large renewed disruption to food or energy supply and stronger demand spillovers from global technology investment are upside scenarios. An abrupt global tightening and weaker AI investment could reduce growth and price pressure. These are release-date forecasts rather than realised future outcomes.",
+    "questions": [
+      {
+        "question": "How much of the annual increase reflects a change in base rather than current momentum?",
+        "evidence": "Compare month-on-month core and headline levels and contribution changes over several months."
+      },
+      {
+        "question": "Which imported costs are reaching service and food prices?",
+        "evidence": "Align import values, energy tariffs and disaggregated consumer prices with each other."
+      },
+      {
+        "question": "Could domestic wage costs offset energy disinflation later?",
+        "evidence": "Check nominal wages and services productivity alongside subsidy implementation."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Singapore",
+    "date": "2026-08-31",
+    "institution": "Monetary Authority of Singapore",
+    "title": "MAS commits S$220 million to support the next phase of FinTech innovation",
+    "type": "Statement",
+    "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-commits-s%24220-million-to-support-next-phase-of-fintech-innovation",
+    "locator": "Announcement and FSTI 4.0 tracks",
+    "summary": "MAS says it will commit S$220 million across three years to the renewed Financial Sector Technology and Innovation scheme. The programme aims to expand use of market-ready technology, position industry-wide infrastructure for wider use and develop local expertise. Its tracks cover AI adoption, shared systems and centres where companies can develop capabilities. The announcement sets the funding commitment and programme objectives.\n\nThe relevant market question is whether this induces projects and adoption that would otherwise have been delayed, and whether lower setup and transaction costs spread beyond the recipients. Programme spending and projects are separate from the scale of the industry cited as context. The effects on financial system efficiency, operational resilience and business costs remain to be measured.",
+    "questions": [
+      {
+        "question": "How much of the commitment funds genuinely additional projects?",
+        "evidence": "Review awarded grants, co-financing and project timelines, comparing applicants with similar unfunded firms."
+      },
+      {
+        "question": "Can shared infrastructure reduce fixed costs for smaller firms?",
+        "evidence": "Track actual participation, interconnection costs, usage rates and service performance."
+      },
+      {
+        "question": "Which AI uses appear to deliver financial or operational value?",
+        "evidence": "Compare deployment outcomes, error rates and compliance costs with baseline workflows."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Singapore",
+    "date": "2026-09-01",
+    "institution": "Monetary Authority of Singapore",
+    "title": "MAS consults on legislative amendments for its stablecoin framework",
+    "type": "Statement",
+    "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-consults-on-legislative-amendments-to-implement-stablecoin-regulatory-framework",
+    "locator": "Press release paragraphs 1–4 and proposals for financial stability",
+    "summary": "MAS proposes legislative changes to implement the framework for regulated single-currency stablecoins. The consultation covers criteria for issuers and requirements for value stability, capital, redemption at par and disclosure. Proposed additions include restrictions on paying interest, stress testing and recovery and orderly wind-down plans. Separately, the proposal describes how stablecoins outside the framework would be treated under existing payment-token rules.\n\nThe release frames regulatory credibility as relevant to whether stablecoins can serve as settlement assets in tokenised markets. The consultation establishes scope and proposed safeguards. Effects on funding substitution, demand and settlement costs require evidence on final rules and adoption. For macro research, it concerns payment intermediation and financial stability, not the S$NEER policy band.",
+    "questions": [
+      {
+        "question": "Which reserve and redemption rules matter most for liquidity under stress?",
+        "evidence": "Compare eligible reserves, settlement procedures and proposed timelines with existing instruments and stress scenarios."
+      },
+      {
+        "question": "Could a prohibition on interest change demand across digital settlement instruments?",
+        "evidence": "Track flows and pricing between eligible stablecoins, alternative settlement assets and short-term deposits after implementation."
+      },
+      {
+        "question": "How much of the consultation survives to the final rules?",
+        "evidence": "Compare amendments and responses with the proposed boundaries and requirements."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Singapore",
+    "date": "2026-09-11",
+    "institution": "Monetary Authority of Singapore",
+    "title": "Chia Der Jiun: Building the Financial System of the Future",
+    "type": "Speech",
+    "url": "https://www.mas.gov.sg/news/speeches/2026/building-the-financial-system-of-the-future---trusted-connected-and-resilient-by-md-for-gff-2026/",
+    "locator": "AI adoption, operational resilience and the UPI–PayNow linkage passages",
+    "summary": "Chia describes financial-sector AI use in fraud detection, underwriting, regulatory work and other business processes, and sets out initiatives to validate reusable applications and maintain institutional controls. He emphasises that faster decision-making and delegated transactions could accelerate movements of funds. That increases the relevance of operational resilience and accountable verification alongside potential efficiency gains.\n\nHe also recalls the Singapore–India UPI–PayNow retail payments link, which he says had recorded more than a doubling in transaction volumes each year following launch. The speech considers how interoperable payment systems can reduce friction in small cross-border transfers and how usage could expand. The investment issues are whether new payment channels change realised transaction costs and intraday liquidity needs. His claims on adoption and growth describe what was reported to the audience on 11 September.",
+    "questions": [
+      {
+        "question": "Did the payment linkage lower the total cost of transfers?",
+        "evidence": "Compare fees, conversion spreads, delays and failures before and after adoption across comparable channels."
+      },
+      {
+        "question": "Could faster transfers change bank funding behaviour?",
+        "evidence": "Study transaction values and timing alongside deposit rates and intraday settlement balances."
+      },
+      {
+        "question": "Are AI applications improving underwriting or mostly reducing process time?",
+        "evidence": "Seek actual approval rates, loss outcomes and costs, controlling for participant and borrower mix."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Singapore",
+    "date": "2026-09-22",
+    "institution": "Monetary Authority of Singapore",
+    "title": "Financial Stability Review 2026",
+    "type": "Research",
+    "url": "https://www.mas.gov.sg/publications/financial-stability-review/2026/financial-stability-review-2026",
+    "locator": "Report Foreword, Overview pp. 1–2 and stress test discussion. Selected sections reviewed.",
+    "summary": "The MAS review, using information available through 17 September unless stated otherwise, sees higher global sovereign yields, fiscal pressure and persistent input costs as sources of financial risk. AI investment and exports can support earnings and activity in the economies most exposed to the technology cycle. The same exposure makes those economies vulnerable if projects or valuations disappoint. The review distinguishes the effects of higher refinancing costs on sovereigns and private borrowers from the potential risk of a more abrupt change in asset prices.\n\nMAS finds generally sound Singapore corporate, household and bank balance sheets. Borrowing costs had eased domestically and credit spreads had narrowed. Stress tests suggest most borrowers and financial institutions have buffers, while highly leveraged firms and a subset of lower-liquidity borrowers remain vulnerable. The resident credit-to-GDP ratio was 133% in Q2, down slightly from 134% in Q4 2025 and below trend. MAS says the countercyclical capital buffer will stay at 0% in 2027. This is a banking resilience assessment and a macroprudential setting. Its stress-test findings are conditional on scenario design.",
+    "questions": [
+      {
+        "question": "How would an AI valuation shock reach Singapore credit?",
+        "evidence": "Trace export, market funding and revenue exposure to the technology cycle across sectors and identify the most leveraged borrowers."
+      },
+      {
+        "question": "Do aggregate buffers conceal concentration in vulnerable firms or households?",
+        "evidence": "Compare debt-service ratios and liquidity distributions against the report’s stress assumptions."
+      },
+      {
+        "question": "What would justify reassessing the countercyclical capital buffer?",
+        "evidence": "Track the credit gap alongside credit allocation, property exposure and bank underwriting trends."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Singapore",
+    "date": "2026-09-23",
+    "institution": "Monetary Authority of Singapore",
+    "title": "Consumer Price Developments in August 2026",
+    "type": "Research",
+    "url": "https://www.mas.gov.sg/news/consumer-price-developments/2026/consumer-price-developments-in-august-2026",
+    "locator": "Joint MAS report, Charts 1–2 and Outlook. PDF verified via the co-publisher's release.",
+    "summary": "MAS and its co-publisher report core inflation at 2.2% year on year in August versus 2.0% in July, with monthly core prices rising 0.3%. Higher inflation in services, retail goods and food accounted for the core increase. Headline inflation edged up to 2.3% from 2.2% as the rise in core outweighed the effect of lower private transport inflation. Headline prices increased 0.6% on the month. The contribution charts relate components to the headline rate, while MAS core omits accommodation and private transport.\n\nThe report expects elevated energy costs to keep feeding into tariffs and transport charges, with global weather and supply conditions also affecting food. It anticipates more limited local pressure from services unit labour costs and subsidies. The overall 2026 forecast remains 1.5–2.5% for both measures, with core inflation expected to cool more clearly around mid-2027. An extended external cost shock or stronger investment spillovers could make inflation more persistent.",
+    "questions": [
+      {
+        "question": "Is this rise broader than the July rise?",
+        "evidence": "Compare inflation contributions in services, goods and food, with special attention to narrowing or expanding breadth."
+      },
+      {
+        "question": "What part of domestic inflation depends on administered prices or subsidies?",
+        "evidence": "Check changes in sector tariffs, healthcare subsidies and other managed prices before comparing core trends."
+      },
+      {
+        "question": "Does the data change expectations for the next MAS review?",
+        "evidence": "Compare analyst forecasts and dated SGD basket and market observations, allowing for broader USD moves."
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Singapore",
+    "date": "2026-09-29",
+    "institution": "Monetary Authority of Singapore",
+    "title": "Chee Hong Tat: Connecting Capital and Opportunity",
+    "type": "Speech",
+    "url": "https://www.mas.gov.sg/news/speeches/2026/connecting-capital-and-opportunity-building-a-trusted-growth-capital-ecosystem",
+    "locator": "Growth-capital ecosystem discussion and paragraphs on the Equity Market Development Programme",
+    "summary": "Chee describes Singapore’s approach to connecting institutional funding with firms that need growth capital and developing a more liquid listed market. He reports that allocations under the Equity Market Development Programme reached S$5.4 billion after the third batch, compared with S$3.95 billion in the earlier two batches. The speech discusses building a broader capital ecosystem and states the aim of improving trading liquidity and reducing execution costs for the relevant stocks.\n\nThe speech contains amounts allocated and stated objectives. Assessing the impact on firms’ financing requires evidence on deployment, turnover and spreads over time. A mandate allocation could change ownership, market depth or active coverage without necessarily causing a comparable change in new financing. The effects on listed and private firms should be examined using distinct measures.",
+    "questions": [
+      {
+        "question": "Do stocks targeted by the programme show improved execution quality?",
+        "evidence": "Compare spreads, depth and turnover with comparable firms before and after allocation and deployment."
+      },
+      {
+        "question": "Is additional capital reaching new issuance or mostly secondary markets?",
+        "evidence": "Review manager mandates, deployment and offerings by growth firms."
+      },
+      {
+        "question": "Does the third allocation batch change concentration across managers or sectors?",
+        "evidence": "Use disclosures on the new mandates and compare portfolio holdings where available."
+      }
+    ]
+  }
+]
