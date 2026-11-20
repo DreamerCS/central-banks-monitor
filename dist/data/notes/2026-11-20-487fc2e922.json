@@ -1,0 +1,28 @@
+{
+  "title": "Underestimating divorce risk changes when households invest in the second earner’s career",
+  "bank": "Norges Bank",
+  "date": "2026-11-20",
+  "url": "https://www.norges-bank.no/en/news-events/publications/Working-Papers/2026/wp-102026/",
+  "summary": [
+    "Optimistic beliefs about staying married can have small average welfare costs and large lasting costs for households whose marriages turn out badly. In a Norges Bank working paper, Ursula Berresheim, David Koll and Mariia Kovaleva argue that couples expecting to stay together for longer have a stronger incentive to divide market and household work. If that division coincides with the years when experience raises future wages most, the second earner can emerge from divorce with less earning capacity. The survey documents beliefs and associations in the United States. The authors’ model supplies the counterfactual about labour income, fertility and welfare (Sections 2–5).",
+    "The authors survey 2,595 Americans living with their spouse in their first marriage. Low reported risk alone cannot establish a mistake because the actual future of any individual marriage is unknown. Three comparisons point in the same direction. Respondents put their own ten-year risk 16 percentage points below the risk they attributed to comparable couples. Two-thirds did not revise their assessment when shown the population divorce rate. Finally, a model trained on past US marital histories predicts higher risk than 74% of the relevant respondents reported. The average gap against this benchmark was 7.8 percentage points and was larger in recently married households. A population rate, perceived peer risk and a model prediction are distinct benchmarks. None observes privately known features of every marriage.",
+    "Respondents who expect their marriage to last also report a more specialised division of work and earlier intended childbearing, including when comparing people with similar predicted divorce risk. In the structural model spouses choose paid work, home production, saving and when to have children. Both partners must prefer remaining together for the marriage to continue. Optimistic couples expect gains from specialisation to last longer and attach less weight to an independent career as insurance against separation. They have their first child about a year earlier and have roughly 8% more children on average in the simulations. Earlier births bring childcare into precisely the period when paid experience is most valuable for future earnings (Sections 3–5).",
+    "The fitted optimism bias has a half-life around 2.6 years. Its economic consequences endure beyond the change in beliefs. In lasting marriages the secondary earner can catch up during the second decade. In marriages that end, the forgone experience is harder to rebuild. Specialisation also reduces the secondary earner’s outside option and can make the marriage last longer. The resulting cost arises primarily from weaker preparation for separation, even though optimistic couples can remain together for longer (Section 5 and Tables 6–10).",
+    "In the model, correcting beliefs for all couples reduces the gender gap in annual labour income by about 6% of that gap. The contribution to the earnings penalty associated with children rises to about 7% six to ten years after birth. Table 11 evaluates outcomes using actual simulated match quality. The average cost of optimism is equivalent to 0.27% of consumption per period, masking an 8.63% cost in the lowest third of outcomes and a 4.60% gain in the highest third. These are welfare equivalents, not observed changes in bank balances. The model pools spouses’ beliefs, uses a single liquid asset split equally on divorce and omits remarriage, limiting conclusions about real household portfolios and recovery after separation."
+  ],
+  "questions": [
+    {
+      "question": "How much of the survey gap reflects private information about the marriage?",
+      "detail": "The authors use three benchmarks, but a statistical prediction cannot observe every factor known to a couple. Follow the original respondents over time and compare realised transitions with their own and the model’s predicted probabilities. The timing of separated households dropping out of surveys would matter for evaluating whether the apparent belief gap persists."
+    },
+    {
+      "question": "Would housing, debt and individually owned savings change the financial cost of separation?",
+      "detail": "The model splits one liquid asset equally. Dividing an illiquid house or servicing joint debt can produce a different cash-flow problem, particularly for a secondary earner with reduced current earnings. Compare household balance-sheet and longitudinal income records under different marital property regimes. This would extend the welfare result to the resources actually available after a separation."
+    },
+    {
+      "question": "What if spouses disagree about the likelihood of staying together?",
+      "detail": "The model assigns beliefs at the couple level and links specialisation to a shared expectation. Collect paired responses on divorce expectations, intended fertility and expected labour supply before observing later work histories. If only one spouse is optimistic, bargaining rather than shared confidence could determine who reduces market hours, with different implications for the distribution of future earnings risk."
+    }
+  ],
+  "limitation": ""
+}

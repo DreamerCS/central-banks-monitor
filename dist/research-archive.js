@@ -324,6 +324,7 @@ async function start() {
     const editions = [key,...(note.publication?.aliases || []).map(sourceKey)];
     for (const edition of editions) notesByUrl.set(edition, note);
     notesById.set(note.file.slice(0,-5), note);
+    for (const previousId of note.publication?.previousIds || []) notesById.set(previousId, note);
     if (note.publication && !editions.some(edition => primaryUrls.has(edition))) {
       additional.push({...note.publication, url:note.url, date:note.date, institution:note.bank});
     }

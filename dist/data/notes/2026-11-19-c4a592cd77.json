@@ -1,0 +1,28 @@
+{
+  "title": "The transatlantic securitisation gap depends on whether the question is funding or risk transfer",
+  "bank": "European Central Bank",
+  "date": "2026-11-19",
+  "url": "https://www.ecb.europa.eu/pub/pdf/scpops/ecb.op403.en.pdf",
+  "summary": [
+    "Europe appears to securitise far fewer assets than the United States. Germar Knöchlein and Cristina Morar Triandafil ask how much that headline tells us about the ability to fund lending or redistribute credit risk. The answer changes with the instruments counted and with the question being asked. US issuance includes a large agency mortgage market, while important parts of European bank funding and credit-risk transfer sit outside conventional cash securitisation totals. Comparing private markets separately and including covered bonds where the question concerns funding produces a narrower gap. The authors still find that the US model turns assets over on a larger scale. Their occasional paper sets out a comparison of financial systems, without proposing a specific change to ECB policy (sections 2–3).",
+    "An instrument can finance a loan, transfer its risk or make it usable as collateral. It need not do all three. A covered bond raises funding while the underlying loans stay on the bank’s balance sheet. Holders have recourse to the issuer and to a designated cover pool. A synthetic transaction, by contrast, can transfer specified credit losses and provide regulatory capital relief while leaving the loans on the balance sheet. An issuer can also retain asset-backed securities and, if eligible, pledge them in Eurosystem operations. Counting all three as cash raised from outside investors would give a misleading picture of European bank financing. Excluding them all would miss how banks manage loans and collateral (section 2 and its box on collateral eligibility).",
+    "Charts 5–7 show why the choice of US comparison matters. Headline US volumes include agency mortgage pass-through securities. Comparing EU securitisation with US non-agency issuance puts greater weight on private markets, where relative volumes have varied over the cycle. European covered bonds provided a steadier funding channel as traditional securitisation contracted following the global financial crisis. Agency issuance remained an important source of US market scale even when private issuance weakened. Consequently, a comparison of European and US private transactions answers a different question from a comparison of the systems available to finance mortgage lending overall.",
+    "Section 3.3 scales issuance by the size of the economy. The authors’ asset mobilisation ratio relates annual issuance of securitisation instruments and covered bonds to GDP. In chart 9 the US ratio was three to four times the EU ratio before the financial crisis. Both adjusted afterward, and the longer-term gap narrowed despite substantial fluctuations. This is an issuance-flow measure. It does not identify how much risk left a banking system, whether the securities were placed with a new investor or how much fresh lending an issuer undertook. Those distinctions become particularly important when secured funding and synthetic protection play different roles across countries.",
+    "Table 2 provides a separate check on European significant risk transfer. In its 2025 supervisory figures, 39 banks accounted for €299 billion in total notional, of which 86% was synthetic. The four largest participants accounted for 60%, and the reported total capital benefit was €7.2 billion. The last number is already a reminder that reference portfolio size and capital relief measure different things. The authors contrast privately arranged EU bank transactions, often used to obtain capital relief, with agency-led US programmes that transfer mortgage credit risk to private investors. Their comparison points readers towards the issuer, guarantee and loss allocation behind a headline issuance total when assessing where credit exposure ultimately resides (sections 4–5)."
+  ],
+  "questions": [
+    {
+      "question": "How much annual issuance brings in new market funding for the original lender?",
+      "detail": "Charts 5–9 bring additional instruments into view, but an annual issuance total can include retained securities, refinancing and synthetic transactions that provide credit protection without cash funding. Reconcile gross issuance with placements, maturities and the use of collateral at central banks. Compare funding raised from unaffiliated investors before inferring how much capacity either architecture creates for additional lending."
+    },
+    {
+      "question": "How much credit risk has really moved for each euro or dollar of reference assets?",
+      "detail": "EU notional and capital relief differ sharply in table 2, while US agency programme totals can refer to cumulative mortgage pools. Compare matched vintages using the amount of actual protection, loss attachment and exhaustion points, guarantees, and the identity of the ultimate risk holder. A comparison on those terms would make the potential distribution of losses in stress more interpretable."
+    },
+    {
+      "question": "How robust is the narrowing mobilisation gap to the choice of period and denominator?",
+      "detail": "The ratio in chart 9 scales annual issuance to GDP and spans a financial crisis, a pandemic and large swings in US mortgage activity. Recalculate it by issuance channel, separating repeat refinancing from new originations, and compare with the outstanding eligible loan stock. Assess whether convergence holds within each channel before linking it to durable differences in the ability to fund credit."
+    }
+  ],
+  "limitation": ""
+}

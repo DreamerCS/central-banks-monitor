@@ -1,0 +1,28 @@
+{
+  "title": "Who counts as energy-poor changes when households cannot afford to heat their homes",
+  "bank": "Banca d’Italia",
+  "date": "2026-11-17",
+  "url": "https://www.bancaditalia.it/pubblicazioni/qef/2026-1083/index.html?com.dotmarketing.htmlpage.language=1",
+  "summary": [
+    "Researchers from Istat and Banca d’Italia propose a measure of household energy poverty for Italian official statistics that combines two kinds of hardship. Some families devote such a large share of their budget to energy that what remains is insufficient for other essentials. Others report no spending on heating because their resources are already severely constrained. A rule based only on large bills can miss the second group entirely. Conversely, it can classify an affluent household with a large home and high discretionary consumption as vulnerable. The paper compares indicators that answer different questions and recommends the modified low-income, high-cost measure, or m-LIHC, as an operational starting point (Sections 2–4).",
+    "The Italian expenditure-based measure first identifies households whose equivalised energy spending takes more than twice the average share of expenditure and whose total spending after energy falls below Istat’s relative poverty line. It also counts households with below-median equivalised total expenditure and zero heating expenditure. Equivalisation adjusts for household composition. The two routes are alternatives. A family does not need to spend both a very large amount and nothing on heating to qualify. The thresholds are relative to the spending distribution. Changes in the measure can therefore reflect changes in households’ relative positions as well as changes in prices or quantities of energy consumed (Section 3.2).",
+    "Using EU-SILC and the Household Budget Survey, the authors compare income- and expenditure-based versions with simpler measures, including bills exceeding 10% of household resources, an energy share above twice the median, and reported arrears or inability to maintain adequate warmth. Figure 4.1 shows how differently the income-based measures distribute households across deciles in 2024. Figure 4.2 repeats the comparison across expenditure deciles using the budget survey. The simpler share thresholds still identify families relatively high in the distribution. The additional resources test concentrates the modified indicator more closely among poorer households. Differences between a subjective answer and measured expenditure can also reveal real hardship that either measure alone misses (Section 4).",
+    "Administrative records offer an independent check on what households consume and pay. The authors examine the linkage of surveys to electricity and gas records and discuss the treatment of energy bill rebates. The distinction between a gross bill and the amount a household actually pays matters when evaluating assistance. The records do not cover every supply contract or household equally. Table 6.1 shows different access to matched electricity and gas supplies across regions. The charts also separate total household consumption from per-person consumption. Household size can produce an apparently different relationship between energy use and resources depending on which unit is plotted (Section 6, Figures 6.1–6.4).",
+    "For interpreting an energy-price shock, the choice of indicator determines which households appear exposed and how well targeted a rebate looks. None of these indicators is a direct estimate of lost disposable income, a utility’s arrears or the amount of heat a dwelling needs. Housing efficiency, climate, fuel access and suppressed demand can all affect the gap between recorded spending and essential energy services. The authors recommend combining the expenditure measure with better physical-consumption and building information. It remains a proposal for statistical practice."
+  ],
+  "questions": [
+    {
+      "question": "How often does zero heating expenditure represent deprivation rather than the way a household pays for heat?",
+      "detail": "The modified measure explicitly includes lower-spending households with no recorded heating expenditure. Shared heating charges, fuel supplied outside the billing records and dwelling characteristics could affect that classification. Compare linked contracts, building energy ratings, indoor temperatures and survey responses about adequate warmth. Misclassification would change how investors interpret vulnerable utility customers and how governments allocate relief."
+    },
+    {
+      "question": "Do rebates reduce material hardship or chiefly move households across a statistical threshold?",
+      "detail": "The paper distinguishes energy consumption from net household expenditure after support. Match rebate eligibility and actual credits to metered usage, arrears and remaining disposable resources before and after assistance. This would show whether a lower measured burden coincides with restored consumption and lower payment risk, especially for households that had already cut heating."
+    },
+    {
+      "question": "Are regional comparisons stable when energy sources and data coverage differ?",
+      "detail": "Table 6.1 identifies geographic variation in matched supplies, while the preferred spending measure cannot fully capture building efficiency. Compare alternative indicators by climate zone, heating technology, dwelling tenure and household size. Istat, energy-regulator data and housing-energy surveys could identify whether high measured vulnerability reflects local costs, unusually inefficient homes or incomplete matching."
+    }
+  ],
+  "limitation": ""
+}

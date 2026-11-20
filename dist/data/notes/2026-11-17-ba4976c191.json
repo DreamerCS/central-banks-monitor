@@ -1,0 +1,28 @@
+{
+  "title": "Malaysia’s deputy governor separates Islamic benchmark reform from proposals for a new policy rate",
+  "bank": "Bank Negara Malaysia",
+  "date": "2026-11-17",
+  "url": "https://www.bnm.gov.my/-/dgaz-spch-inceif-nov26",
+  "summary": [
+    "Deputy Governor Adnan Zaylani sets out two questions that have different implications for markets. One is already practical: Malaysian Islamic banks are moving towards MYOR-i, a transaction-based overnight benchmark. In his 17 November address, he says its use will become mandatory for Islamic banks in the coming year. The other is a research question: how far an Islamic monetary framework could change policy transmission or the weight policymakers give to the costs of inflation and unemployment. He includes a possible Islamic policy-rate concept among topics for study. He gives no decision to introduce such a policy rate or specified path for the existing one.",
+    "His starting point is the financial system’s relationship with production. Financing linked to an identifiable asset can make rights and obligations clearer. Yet the existence of collateral does not establish that investors understand the underlying risk. He uses the pre-crisis securitisation of mortgages as an example: successive claims and leverage made the original exposures harder to see. In Islamic finance, a trade or leasing contract can finance a real asset, while a partnership can give financiers a more direct stake in the risk and return of an enterprise. The appropriate structure depends on the activity, the customer and the institution’s capacity to manage the exposure.",
+    "Zaylani retains an explicit role for debt. Modern payments and money already rely on transferable claims and liabilities. Expanding equity and partnership finance is a way of widening the set of viable instruments for firms whose needs differ from those of conventional borrowers. He also argues that legal form and economic substance serve different purposes. A properly written contract safeguards the parties’ rights. Underwriting, governance and incentives determine whether the instrument is commercially viable and whether its use supports the intended economic activity. Compliance alone does not establish either outcome.",
+    "He applies this distinction to Malaysia’s policy experience. The earlier focus on contractual validity helped build confidence and bring Islamic banking to scale. Value-Based Intermediation shifted attention towards the quality of the activities financed. The iTEKAD initiative combines commercial financing with social funding and entrepreneurship support. New initiatives on the use of Shariah contracts and the development of MYOR-i concern product design and the infrastructure in which institutions fund and hedge themselves. Their success would be visible in additional productive capacity, viable small firms or better-managed exposures; growth in the volume of financing would be only one measure. The earlier discussion of monetary liabilities also matters here. A bank that changes how it finances selected enterprises still has deposits and other commitments to honour. Comparing the asset contract alone would miss the liquidity risk on the other side of its balance sheet.",
+    "The speech ends with empirical questions. Can risk-sharing reduce the propagation of shocks through firms and banks? What governance and credit support would allow smaller firms to use equity financing at scale? Can the distributional effects of value-based finance be measured consistently? And can money and hedging markets develop without encouraging activity disconnected from underlying risk? The deputy governor treats these as hypotheses for collaboration between academics, regulators and practitioners. The speech neither supplies estimated effects nor proposes that every bank adopt a single preferred contract."
+  ],
+  "questions": [
+    {
+      "question": "How much changes when Islamic banks use MYOR-i to price and manage exposures?",
+      "detail": "The speech identifies mandatory benchmark use in the coming year, while offering an Islamic policy rate only as a possible research topic. Examine BNM implementation documents, contractual fallback terms, repricing schedules and transaction volumes by tenor. This would show whether transition changes funding costs and hedging effectiveness or initially changes primarily the reference written into new contracts."
+    },
+    {
+      "question": "Which enterprises can use genuine risk-sharing finance at commercial scale?",
+      "detail": "Zaylani argues that equity and partnership contracts can serve some businesses better than debt, conditional on governance and information. Compare actual small-business facilities by eligibility, monitoring, entrepreneur control rights, realised returns and loss absorption. Selection into each product will matter: firms able to attract equity partners may have different prospects before any financing takes place."
+    },
+    {
+      "question": "Does value-based finance deliver additional activity beyond what would otherwise occur?",
+      "detail": "The speech proposes productive capacity and social mobility as relevant outcomes, but does not estimate the effects of individual programmes. Look for cohort-level financing and outcome data, pre-financing performance and a credible comparison group for business investment, employment and survival. For public or social funding blended with commercial credit, also record the subsidy and who bears losses."
+    }
+  ],
+  "limitation": ""
+}

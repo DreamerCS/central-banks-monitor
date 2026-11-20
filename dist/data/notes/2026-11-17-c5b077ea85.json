@@ -1,0 +1,28 @@
+{
+  "title": "Tourism’s share of spending ranges from about 5% to 35% across Italian regions",
+  "bank": "Banca d’Italia",
+  "date": "2026-11-17",
+  "url": "https://www.bancaditalia.it/pubblicazioni/qef/2026-1086/index.html?com.dotmarketing.htmlpage.language=1",
+  "summary": [
+    "Italian tourism statistics tell where visitors stayed and how much foreign travellers spent, but those series alone cannot show how much each region’s consumer economy relies on visitors. Banca d’Italia researchers combine national and regional accounts with tourism surveys to estimate spending by domestic and international travellers for 2018–24. In 2023–24, tourist spending accounted for an estimated 10.3% of consumption inside Italy. The range across regions was approximately 5% to 35%. This share measures spending where it takes place. It is distinct from tourism’s contribution to value added and from the proportion of residents’ income spent on travel (Section 3.1, Figure 2).",
+    "The authors construct an origin–destination matrix: a transaction can be attributed to the region where the traveller lives and the region where the purchase occurs. The model includes travel within a resident’s own region, travel between Italian regions and international flows. Different surveys and administrative sources provide partial observations. Preliminary estimates are then adjusted to satisfy known national and regional totals, allowing less reliable inputs to move more. This yields a consistent set of estimates even where the sample for a particular pair of regions is small. It also means that a small cell is an estimated allocation constrained by other observations. It should not be treated as a separately observed total (Section 2, Table 1, Appendices A–B).",
+    "Valle d’Aosta and Trentino-Alto Adige had the largest estimated tourism shares of local consumption in 2023–24, about 34.5% and 26.4% respectively. Piedmont and Lombardy had the smallest shares. A large region can receive considerable tourism spending in euros and still have a low share because its local economy is much larger. The authors separately estimate residents’ propensity to spend on travel relative to their net disposable income and a tourism balance comparing spending brought in by non-residents with residents’ spending outside their region. Lombardy recorded a negative balance, while Valle d’Aosta had the largest positive one. Those balances include interregional as well as international flows. They are not regional current-account figures (Figures 2–4).",
+    "The recovery comparison uses two-year averages around the pandemic, 2018–19 and 2023–24. At the national level, foreign tourist spending contributed about 0.4 percentage points to growth in real consumption within Italy, while Italian tourists’ expenditure contributed about minus 0.3 points. Non-tourism expenditure accounted for about 3.3 points. The near-offset in tourist spending conceals regional differences: the contribution was positive particularly in Valle d’Aosta, Friuli-Venezia Giulia and Calabria, and negative in Molise, Tuscany and Campania. The contribution from residents travelling within their own region was generally flat or negative. Changes in visitor origin therefore matter when assessing local demand for accommodation, retail or transport (Section 3.4, Figure 5).",
+    "The authors check how much balancing changes preliminary estimates, perturb their reliability assumptions and compare results with alternative sources. The broad ranking is more stable than some regional levels, especially where direct source data are thin. Better independent measures of regional saving would improve estimates that currently use saving as a residual. These results identify geographic exposure to changes in travel spending. They supply neither company revenue forecasts nor a regional multiplier for visitor spending (Appendices C–D)."
+  ],
+  "questions": [
+    {
+      "question": "Which regions are most exposed to a fall in spending by visitors from outside Italy?",
+      "detail": "The paper separates spending by origin, but the aggregate share alone cannot distinguish an international travel shock from weaker demand by Italians visiting other regions. Compare the estimated matrix with the Bank’s international tourism survey, arrivals, expenditure per night and accommodation occupancy. This would help identify the relevant customer base for local hotel, transport and retail borrowers."
+    },
+    {
+      "question": "How much does the ranking change when visitors stay outside official accommodation?",
+      "detail": "Regional estimates depend partly on survey coverage and adjustments to observed totals. Informal lodging or second homes could affect some destinations more than others. Compare alternative accommodation records, household travel diaries and other independent indicators by region. A sensitivity range would be more useful than a point share when valuing a small market with limited observations."
+    },
+    {
+      "question": "Does more visitor spending translate into higher local income or mainly higher prices and imported inputs?",
+      "detail": "The analysis measures consumption at the destination. It does not estimate the share retained by local workers and firms. Compare regional value added, wages, prices and business margins with visitor spending and nights. This distinction matters for judging whether a tourism recovery improves household creditworthiness and locally generated earnings."
+    }
+  ],
+  "limitation": ""
+}

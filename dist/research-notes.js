@@ -101,7 +101,7 @@ function render() {
   matching = notes.filter(note => (!bank || note.bank === bank) && (!year || note.date.startsWith(year))
     && terms.every(term => note.title.toLocaleLowerCase().includes(term)));
   const requested = params.get("source");
-  const selectedIndex = requested ? matching.findIndex(note => note.url === requested) : 0;
+  const selectedIndex = requested ? matching.findIndex(note => note.url === requested || note.publication?.aliases?.includes(requested)) : 0;
   page = Math.max(0, Math.floor(selectedIndex / perPage));
   const start = page * perPage;
   const visible = matching.slice(start,start + perPage);

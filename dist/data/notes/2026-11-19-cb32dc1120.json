@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-19",
+  "bank": "Monetary Authority of Singapore",
+  "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-announces-successful-issuance-of-tokenised-mas-bills-on-the-singapore-dollar-test-network",
+  "title": "A S$100 million auction tests native issuance of central-bank bills in Singapore",
+  "summary": [
+    "Singapore’s monetary authority issued S$100 million of four-week bills on 6 November and reported the result on 19 November. The bills were created directly on a ledger operated by MAS, and buyers settled in wholesale Singapore dollar central bank digital currency. For a portfolio manager, the development concerns the way a familiar short-term claim is issued, held and potentially delivered as collateral. The release gives no indication of a change in monetary policy or in the credit risk of MAS.",
+    "Both sides of the transaction matter. The securities had their sole record of issue on the Singapore Dollar Test Network, which MAS plans to rename SG Digital Ledger. There was no separately issued conventional bill that had to be reconciled with a token representing it. MAS says this arrangement removes the need to reconcile two records and reduces the role of intermediaries in that process. The cash side used central bank money. Combining a native record of title with settlement in that money gave the authority a working operational test. It did not establish how cheaply participants can trade or finance a position throughout its life.",
+    "The auction attracted applications exceeding twice the offered amount. Five approved primary dealers took part: DBS, HSBC’s Singapore branch, OCBC, Standard Chartered Bank (Singapore) and UOB. That provides evidence that established government-securities dealers could participate in an actual auction. It leaves open what proportion of the demand came from repeat investors, the clearing yield relative to conventional bills and how broadly holdings were subsequently distributed. The stated maturity was 4 December, still in the future on the publication date.",
+    "The earlier step in 2025 had been a live overnight interbank lending transaction settled using wholesale central bank digital currency. The November auction added a security that could serve as the collateral side of a secured transaction. MAS identifies wider issuance, participation by additional institutions and collateral management as the next stage, and invites financial institutions and infrastructure providers to join further live trials in 2027. It describes tokenised bills as a possible complement to conventional bills. The eventual value to a dealer will depend on whether the instrument can be valued, transferred and accepted when cash is needed. The primary auction alone supplies no secondary-market or secured-funding evidence to answer that question."
+  ],
+  "questions": [
+    {
+      "question": "Does the tokenised bill carry a different liquidity premium from its conventional equivalent?",
+      "detail": "The auction was more than twice subscribed, but MAS reports no yield or distribution of bids. Compare auction cutoffs, when disclosed, against conventional bills with matched maturities and settlement dates. Then examine secondary quotes, turnover and bid–offer spreads. This would help a cash manager distinguish auction interest from a dependable market for selling before maturity."
+    },
+    {
+      "question": "How much intraday liquidity or operational effort does native issuance save?",
+      "detail": "Avoided reconciliation is the principal efficiency MAS identifies. The release does not quantify settlement time, cost per transfer or funding held available by dealers. Review operational results from the participating primary dealers and MAS, especially exceptions, failed transactions and liquidity used around settlement. A system that settles quickly but requires cash in advance can have a different balance-sheet effect from one that also releases collateral sooner."
+    },
+    {
+      "question": "When would another institution accept the bills in a secured transaction?",
+      "detail": "MAS identifies this as a next-stage use, while the completed transaction involved issuance and payment. Examine the trial rules, collateral eligibility, valuation and haircuts, custody arrangements and enforceable rights on default. For a dealer funding a bill position, usable borrowing capacity depends on those terms and on which counterparties actually accept the security."
+    }
+  ],
+  "limitation": "The release covers issuance and initial allocation. It supplies no clearing yield, secondary-market turnover or collateral transaction data."
+}

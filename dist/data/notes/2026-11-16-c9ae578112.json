@@ -1,0 +1,28 @@
+{
+  "title": "Italy’s financial-market tables separate Treasury funding costs from the yields investors can trade",
+  "bank": "Banca d’Italia",
+  "date": "2026-11-16",
+  "url": "https://www.bancaditalia.it/pubblicazioni/mercato-finanziario/2026-mercato-finanziario/en_statistiche_MFN_20261116.pdf?language_id=1",
+  "summary": [
+    "Banca d’Italia’s monthly financial-market release brings together the stock of securities issued by Italian residents, Treasury auction and trading data, and the holdings of banks, households, funds and insurers. The observations do not all refer to October. The securities-issuance breakdown is dated 30 September, government market indicators extend into October, and some sector holdings and portfolio breakdowns refer to 30 June. The publication is therefore most useful for connecting the size and composition of the bond market with the different ways yields are measured. An October price movement cannot be read directly into the June holdings of a particular sector (Figures 1–8).",
+    "Ordinary BTPs accounted for 59.25% of the resident securities mix shown in Figure 2 at end-September, with index-linked BTPs and short Treasury bills reported separately. Figure 1 likewise uses a separate right-hand axis for BTPs. Comparing the apparent height of that line with another series without checking the scale would misstate the relative stocks. Debt amounts outstanding are generally recorded at nominal value, whereas listed shares are valued at market prices. The statistics are unconsolidated and can include securities held within the issuing sector or group. A rise in the value of listed equity is consequently a different observation from new cash raised. Figure 3 provides the separate series for net issues after redemptions (pp. 1–2).",
+    "For sovereign debt, the chartbook reports at least three distinct prices. Figure 4 presents gross yields on new issuance as quantity-weighted averages of auction allotment rates for auctions settled during the month. Bonds are grouped by original maturity, and gaps can occur when a type was not issued. Figure 5 uses prices of securities traded on the MOT market to calculate yields to maturity. Figure 7 follows wholesale MTS benchmarks, switching to a newly issued security once it becomes the most traded in its category. The first measure captures the Treasury’s cost on supply actually placed; the others describe the pricing of securities already in the market. Differences across the series can come from maturity, composition and trading conventions as well as a change in rates (pp. 3–5).",
+    "Figure 6 adds daily wholesale turnover. BTP trading displays much larger swings than the other instrument groups shown. Turnover counts trades between counterparties. A busy market may indicate a change in risk-bearing capacity, a shift between maturities or repeated dealer transactions in the same bond. The release alone cannot distinguish buying pressure from selling pressure on the basis of turnover.",
+    "The holdings charts explain why the same price move can affect institutions differently. Figure 8 groups resident holders’ assets by instrument type and distinguishes domestic from foreign securities. The household and non-profit sector holds a mixture of debt, shares and fund units. The report separately presents discretionary managed portfolios, Italian-law open-end fund assets, the broader market of funds distributed in Italy, and insurance balance sheets. A household can own units in a fund which itself owns bonds. Adding those positions as if they were independent final exposures would double-count economic risk. Figures 9–12 supply balance-sheet values. Establishing whether a change reflects purchases, valuation, subscriptions or redemptions requires the associated flows and more current sector data (pp. 6–11)."
+  ],
+  "questions": [
+    {
+      "question": "What is the effective refinancing cost on the government debt that actually needs to roll?",
+      "detail": "Auction yields apply to issue amounts in particular maturity buckets, whereas traded benchmarks can change constituents. Match the Treasury’s maturity schedule, coupons and auction allocations to the corresponding primary-market series in the Bank’s database. This would show how rapidly a market yield rise enters cash interest expenditure rather than merely changing the mark on outstanding bonds."
+    },
+    {
+      "question": "Who now carries the duration represented by the end-June holdings?",
+      "detail": "The holder breakdown is older than the October market prices and aggregates broad instruments. Combine updated securities-holdings data by sector and maturity with fund look-through reports and hedging disclosures. A bank owning short bills and a household owning a long-duration bond fund can have quite different exposures even if both appear as large securities holders."
+    },
+    {
+      "question": "Do changes in outstanding fund or equity values represent investor flows?",
+      "detail": "Market-valued equity positions and fund assets can rise with prices even as investors withdraw money. Consult the Bank’s separate net-subscription and net-issuance tables, reconcile opening and closing stocks, and compare the result with relevant underlying market returns. This would distinguish changes in demand for Italian risk from valuation effects in those portfolios across the reporting dates."
+    }
+  ],
+  "limitation": ""
+}

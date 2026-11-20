@@ -1,0 +1,27 @@
+{
+  "title": "Korean producer prices edged down in October even as raw-material costs climbed",
+  "bank": "Bank of Korea",
+  "date": "2026-11-20",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11066827&menuNo=400069",
+  "summary": [
+    "Korea’s producer price index fell 0.1% in October from September and remained 7.2% above a year earlier. Agricultural, forestry and marine products recorded an 8.3% monthly decline. Manufactured products rose 0.3%, power and utilities edged up 0.2%, and services were unchanged. In the Bank of Korea’s preliminary figures, a relatively small but volatile category was therefore able to pull down the overall index even while manufactured goods became more expensive. The annual inflation rate eased from 7.6% in September. That says more about prices relative to a year ago than about the immediate direction of factory costs (p. 1).",
+    "The weights explain the apparent mismatch. Agriculture, forestry and marine products carried 30.9 of 1,000 weight points, against 480.8 for manufacturing and 413.4 for services. Within the first group, agricultural food prices fell 11.8% month on month and livestock prices fell 7.3%, while marine foods rose 1.4%. Within manufacturing, coal and petroleum products rose 1.9% and chemicals rose 1.5%. Basic metals fell 0.8%. Financial and insurance services fell 3.9% even as transport and accommodation became more expensive. An unchanged aggregate for services masks repricing in both directions.",
+    "Two additional indices give the price signal a different interpretation. Prices for supply to the domestic market, including imports as well as domestic production, rose 0.7% on the month. Raw materials rose 7.3%, intermediate goods and services edged up 0.1%, and final goods and services fell 0.2%. That combination puts the largest increase upstream. It does not establish when, or whether, producers could recover higher input costs through selling prices. In annual terms, raw material prices were up 25.6% but final goods and services only 1.1% (p. 2).",
+    "The total output price index, which adds export prices to domestic producer prices, rose 0.3% month on month and 13.6% year on year. Manufacturing has a larger weight in that index than in the domestic producer index. The compilation appendix also explains that import and export contract prices are adjusted for customs-clearance timing. Consequently, the difference between the producer, domestic supply and total output readings cannot be interpreted as a single estimate of exporters’ pricing power or firms’ margins. Different markets, weights, production stages and timing contribute. The figures are preliminary and could be revised in the following monthly release (pp. 11–12)."
+  ],
+  "questions": [
+    {
+      "question": "How much of the upstream rise was likely to reach final prices?",
+      "detail": "Compare the domestic supply series for raw, intermediate and final products with contract reset schedules, currency hedges and inventory turnover in industries using those inputs. The Bank’s time-series tables and corporate procurement disclosures would help distinguish short-lived cost pressure from margin compression or eventual price increases. A large rise in raw-material prices does not establish the sign of the effect on earnings."
+    },
+    {
+      "question": "Was the monthly fall mostly seasonal or broader evidence of disinflation?",
+      "detail": "Agricultural food prices fell sharply while several manufactured categories rose. Compare the revisions and monthly seasonal patterns in the detailed Bank of Korea tables, separating high-weight items from large price changes in small groups. A broader decline after excluding unusually volatile products would carry more information for the domestic cost outlook than the headline fall alone."
+    },
+    {
+      "question": "What accounts for the large gap between domestic producer and total output inflation?",
+      "detail": "Reconcile export and domestic weights for major manufacturers, then compare price series after accounting for the customs adjustment explained in the appendix. Distinguish changes in contract prices and exchange-rate translation from changes in product mix. That would help determine whether an exporter’s nominal sales growth could plausibly be sustained without higher shipment volumes."
+    }
+  ],
+  "limitation": ""
+}

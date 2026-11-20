@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-18",
+  "bank": "Monetary Authority of Singapore",
+  "url": "https://www.mas.gov.sg/news/speeches/2026/ministerial-keynote-by-dpm-at-singapore-fintech-festival-2026",
+  "title": "Singapore’s financial AI programme puts shared information and accountability before scale",
+  "summary": [
+    "Deputy Prime Minister and MAS chairman Gan Kim Yong announced three national financial-sector AI missions at the Singapore FinTech Festival. Their proposed uses are quite different: tracing financial crime across banks, improving smaller firms’ access to credit and letting software agents transact within a defined mandate. What links them is an information problem that an individual institution cannot solve on its own. The speech identifies a five-bank experiment already under way, planned tests with synthetic business data and future trials of agent payments. It gives no estimate of realised loan growth, fraud savings or commercial returns.",
+    "Cross-bank crime prevention is the most concrete test. A payment can pass through several banks within minutes, leaving each bank with a fragment of the chain. Five banks are pooling transaction data securely in a proof-of-value exercise to see whether models can identify connections that would otherwise be missed. Gan says the findings will inform the design of an industry-wide scam detection utility, with a design study planned for early 2027. Initial coverage is domestic. More information would be valuable only if institutions can intervene before funds move on, while controlling access to sensitive data. The pilot provides an opportunity to measure those conditions before putting a utility into production.",
+    "The financing mission targets smaller firms and young businesses whose short histories or limited collateral can leave traditional lenders reliant on personal guarantees. Account activity, invoices, payments, company profiles and public records could give an underwriter a fuller view of cash generation. Gan envisages faster decisions, a lower cost of serving small exposures and possibly cheaper borrowing. Interpreting these possibilities as proven credit improvements would get ahead of the evidence. The proposed evaluation uses realistic synthetic data, with financial institutions and agencies contributing expertise and SMEs giving feedback. Performance at scale would determine whether new data infrastructure is warranted.",
+    "Agent payments bring a different constraint. A program can monitor balances or initiate a contractual payment once defined conditions are satisfied. The institution and the enterprise still bear responsibility for actions carried out on their behalf. The speech proposes controlled tests of identity, limits, accountability and interoperability, including how agents interact with purpose-bound money. The Future of Finance Institute is to help develop and test shared solutions, deployment guidance and risk-management resources. A separate Phase 2 plan for PayNow Generation 2 concerns simpler and safer everyday payments, including wider acceptance of preferred QR applications by residents and visitors.",
+    "Gan also identifies a supply-side condition for these ambitions. He says new US rules require licences for advanced-chip exports or re-exports to five countries including Singapore. His government was assessing the consequences with affected businesses and discussing access with US authorities. The speech offers no estimate of lost computing capacity. Across all three missions, the relevant commercial decision is whether tested outcomes justify deployment after accounting for compute, oversight, data access and institutions’ continuing obligations to customers."
+  ],
+  "questions": [
+    {
+      "question": "Can pooling data reduce realised scam losses without imposing excessive false positives?",
+      "detail": "The five-bank proof of value addresses gaps between institutions. It does not report detection accuracy, how quickly banks intervene or the disruption to legitimate users. Compare pilot evidence on recovered or prevented losses, false alerts, response times and operating costs with the banks’ prior processes. These outcomes would matter when estimating the value of investing in a shared utility."
+    },
+    {
+      "question": "Will additional information change which smaller firms receive sustainable credit?",
+      "detail": "Synthetic tests can compare models before real borrowers are exposed. For lender earnings, a faster approval is valuable only if risk-adjusted margins and subsequent repayment justify it. Review validation by borrower type and, if trials advance, approval, pricing and delinquency by vintage against existing underwriting. Separate firms newly served from borrowers who would have been approved anyway."
+    },
+    {
+      "question": "Who bears the residual risk when an AI agent meets its programmed conditions but acts against a customer’s interests?",
+      "detail": "The chairman retains institutional accountability while encouraging experimentation with programmable payments. Examine trial mandates, dispute resolution, oversight costs and responses to ambiguous instructions. That evidence would help compare a bank’s incremental transaction revenues against the cost of controls and compensation for errors."
+    }
+  ],
+  "limitation": ""
+}

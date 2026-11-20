@@ -1,0 +1,28 @@
+{
+  "title": "Malaysia’s Islamic banks face a skills test as financing moves into more complex industries",
+  "bank": "Bank Negara Malaysia",
+  "date": "2026-11-18",
+  "url": "https://www.bnm.gov.my/-/dgaz-spch-ciif26",
+  "summary": [
+    "Deputy Governor Adnan Zaylani argues that Islamic finance in Malaysia needs professionals who can assess the businesses behind new contracts. The sector accounts for 48% of financing, according to the BNM annual report cited in his address. The presentation traces its growth from a small share in the industry’s formative years to its present role alongside conventional finance. The investment pipeline is also changing. Malaysia recorded more than RM350 billion of investment approvals in the first nine months of 2026, and growth sectors include semiconductors, aerospace and advanced manufacturing. The figure measures approvals, not loans already drawn or projects in production.",
+    "His first concern is whether the people designing and governing financial products can recognise both commercial risk and the obligations created by a Shariah contract. The speech cites an AICB study in which 79% reported specialised AI skills shortages, while 33% had established structured AI governance and model-risk management. The survey covered Malaysia’s banking and development-finance sector more broadly. It cannot establish those proportions for Islamic institutions alone, or show whether any particular firm is using AI unsafely. Zaylani uses the findings to argue for bringing practitioners, technology specialists and Shariah experts into the same product-design process.",
+    "His second concern is sector knowledge. A lender evaluating a technology manufacturer, a transition project or a young company needs to understand its cash flows and the risks its owners can reasonably bear. The slides distinguish financing a transaction from sharing the risks of an enterprise, pooling protection through takaful and combining philanthropic capital with commercial finance. They illustrate, for example, how a business partnership can channel investment into an innovative sector. These are possible structures. The bank does not supply portfolio performance comparisons showing that a partnership will deliver higher returns or absorb losses better than another contract.",
+    "The speech cites a wider labour-market constraint. The share of skilled employment in Malaysia was 26.8% in the International Labour Organisation figures cited, against 65.1% for Singapore, 41.9% for South Korea and 41.4% for Hong Kong. Those figures describe national employment, rather than the training of staff at individual banks. The argument is that stronger sectoral expertise has to be developed across origination, monitoring and protection. It cannot be inferred from a qualification in contractual form alone. The slides distinguish staff working inside financial institutions from the lawyers, training providers and specialist advisers who support them. A bank can develop internal competence while remaining dependent on the availability of those external services.",
+    "The third concern is cross-border capability. A transaction that meets one jurisdiction’s requirements may encounter different market conventions, legal frameworks or Shariah approaches elsewhere. The deputy governor points to MYOR-i, the Islamic overnight benchmark, and to work on liquidity management and hedging as areas where institutions need practical market expertise. He calls on lenders, takaful operators, training institutions and professional bodies to share that expertise. For a bank investor, the substantive question is whether the investment in staff and governance changes which projects can be financed, how risks are priced and how the resulting book performs. The address puts that question on the agenda without presenting a new prudential rule."
+  ],
+  "questions": [
+    {
+      "question": "Which sector skills actually improve underwriting of new industries?",
+      "detail": "The speech connects a large pipeline of investment approvals with the difficulty of assessing unfamiliar borrowers. Compare subsequent disbursements, project completion and credit outcomes by industry, alongside lenders’ use of specialist staff. Approvals can lapse and long-lived projects take time to generate cash. Better performance on comparable exposures would be more informative for a bank investor than training numbers alone."
+    },
+    {
+      "question": "Can firms expand risk-sharing products without weakening monitoring?",
+      "detail": "The illustrative structures distribute risk differently across financiers, investors and entrepreneurs. Their success depends on reporting, contract enforcement and the ability to intervene when a project misses milestones. Look for product documentation, governance arrangements and performance over a full project cycle. Compare these with facilities serving similar businesses, allowing for differences in who qualifies and who ultimately bears a loss."
+    },
+    {
+      "question": "Does adoption of MYOR-i create usable cross-border liquidity and hedging capacity?",
+      "detail": "The deputy governor links transaction-based benchmarks and market expertise with wider international activity. The speech provides no turnover, dealer participation or measure of hedge effectiveness. Examine official benchmark usage, documented cross-border transactions and disclosures on residual rate and currency exposures. A common reference rate and actual ability to trade at size are distinct stages of market development."
+    }
+  ],
+  "limitation": ""
+}

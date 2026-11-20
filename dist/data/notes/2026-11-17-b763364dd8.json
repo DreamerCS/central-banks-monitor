@@ -1,0 +1,28 @@
+{
+  "title": "Tokenized securities still need someone to reconcile legal ownership and digital control",
+  "bank": "Banca d’Italia",
+  "date": "2026-11-17",
+  "url": "https://www.bancaditalia.it/pubblicazioni/mercati-infrastrutture-e-sistemi-di-pagamento/approfondimenti/2026-097/index.html?com.dotmarketing.htmlpage.language=1",
+  "summary": [
+    "A Banca d’Italia study of asset servicing finds a gap between expectations for tokenized finance and the custody services available for conventional assets re-issued on distributed ledgers. Interviews conducted in the second half of 2025 describe a market still concentrated on basic account and key custody. Asset managers and market operators see potential for more, but fragmented infrastructures, thin markets and uncertainty over legal responsibilities limit investment in full services. The paper examines which functions would have to work at scale. It does not measure realised industry-wide savings, forecast token prices or establish that tokenized assets already trade more cheaply than conventional securities (Sections 1–3).",
+    "The authors distinguish assets issued directly on a ledger from tokens that represent a security which already exists in a conventional system. In the latter case the securityholder’s rights, the traditional register and the digital record have to agree. A token may transfer quickly even though legal finality or access to the underlying asset depends on a separate process. A custodian’s responsibilities can therefore expand: someone must demonstrate that an underlying asset exists, is correctly segregated and supports no more than the corresponding outstanding claims. Possession of the credentials needed to move a token alone does not establish that every contractual or legal right will be enforceable in a dispute (Sections 2 and 4).",
+    "Asset servicing goes well beyond recording a transfer. Payments, dividends, votes and fund valuations may depend on events and data originating outside the ledger. The paper’s examples illustrate how a token can change hands on a different schedule from the register, banking system or pricing service governing the underlying asset. Fund investors may be able to transmit an instruction at any time while a net asset value is still calculated once a business day. Automated execution can reduce repetitive processing, but an operator must manage discrepancies, exceptional events and corrections. The economics of two parallel systems depend on whether enough manual reconciliation can actually be retired (Section 3 and appendices).",
+    "The interviews identify a coordination problem. Small issuance volumes and limited secondary-market liquidity make a broad custody platform hard to justify commercially. Clients hesitate to commit assets before robust custody and settlement services exist. Different networks, settlement assets and governance arrangements can further split that liquidity. Risk managers also face uncertainty over which party bears losses and how existing safeguards apply across jurisdictions. These are qualitative accounts from selected market participants. They do not establish the prevalence of any one technology or the financial return from adopting it (Section 3).",
+    "Under a hybrid model, central securities depositories and custodians could continue to play substantial roles by connecting conventional records with digital claims and overseeing asset protection. A wholly ledger-native model could change who performs those functions, but the authors describe that outcome as speculative. For investors, the immediate distinction is between technological transferability and the economic ability to exit or enforce a claim under stress. For service providers, the commercial question is whether clients will pay for dependable settlement, segregation and servicing at transaction volumes high enough to cover the infrastructure. Neither result follows from the use of a token alone (Section 4)."
+  ],
+  "questions": [
+    {
+      "question": "Which record would determine ownership if the conventional register and token balance diverged?",
+      "detail": "The paper identifies reconciliation and legal certainty as essential, while outcomes depend on the instrument and jurisdiction. Examine offering documents, custody contracts, segregation arrangements and the relevant settlement and insolvency rules. The ability to establish enforceable ownership after an intermediary fails matters more to loss severity than the speed of a routine transfer."
+    },
+    {
+      "question": "How much of the apparent efficiency gain survives running the two systems in parallel?",
+      "detail": "Interviews suggest potential savings, but the paper provides no representative realised cost per transaction. Obtain providers’ reconciliation exception rates, staffing costs, settlement failures and volume data for comparable conventional and tokenized issues. That would distinguish an actual operating-margin benefit from an additional technology layer subsidised during a pilot."
+    },
+    {
+      "question": "Can the investor exit, value or pledge the position when the traditional market is closed?",
+      "detail": "Continuous transferability does not supply a live price, cash settlement or an active buyer. Compare observed trade sizes, bid–ask spreads, redemption terms, valuation schedules and collateral eligibility across market hours. Those details would determine whether the instrument improves liquidity in stress or merely changes the time at which instructions can be submitted. Review published cut-off times and the terms for settlement cash."
+    }
+  ],
+  "limitation": ""
+}

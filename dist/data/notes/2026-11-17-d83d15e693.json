@@ -1,0 +1,28 @@
+{
+  "title": "Paying judges to hear cases remotely reduced delays in Italy’s most congested courts",
+  "bank": "Banca d’Italia",
+  "date": "2026-11-17",
+  "url": "https://www.bancaditalia.it/pubblicazioni/temi-discussione/2026/2026-1550/index.html?com.dotmarketing.htmlpage.language=1",
+  "summary": [
+    "An Italian court programme paid judges to resolve cases remotely for overloaded courts while keeping their regular assignments. Within ten months, the participating target courts completed about 9% more proceedings, or 19% more when cases were weighted by complexity. Their backlogs fell by 5% and estimated disposition times by 6% relative to comparison courts. These are different measures. Disposition time relates the stock of pending cases to the rate of completion. A 6% improvement does not mean each litigant’s case ended 6% sooner. The study presents evidence about reallocating judicial capacity. This matters in districts where congestion ties up disputed claims. The study does not estimate a corresponding change in loan recoveries, investment or potential GDP (Sections 1 and 5, Tables 4–5).",
+    "The author assembles administrative records covering almost ten million Italian civil proceedings during 2016–26. Historically, much of the dispersion in output followed judges across workplaces. After adjusting for bias, judge effects account for around 60% of variation in complexity-weighted productivity, compared with 11% for court effects. Proceedings are weighted by the typical duration of their type, giving a difficult case more weight than a routine one. A transfer can also temporarily reduce the output of the judge who moves. Together, those findings explain the appeal of letting experienced judges support another district without requiring them to relocate. They do not imply that court staffing or management is irrelevant (Tables 2–3, Figures 4–7).",
+    "The incentive programme targeted 48 courts with particularly long disposition times. Of a planned maximum of 500 judges, 212 participated. Completing a batch of 50 remote cases from September 2025 through June 2026 earned about €15,274 gross plus seniority credits. Hearings could proceed by video or written submissions, subject to a party’s right to request an in-person hearing. The author compares participants with nonparticipants over time and checks whether their output was already following a different trajectory. Because judges volunteered, effects for those prepared to take on a second caseload need not apply to the entire judiciary (Sections 2–3 and 5).",
+    "For a participating judge, remote adjudication added about seven completed cases per month, but in-person completions at home fell by approximately three. Thus the net gain was four from a baseline of 24, roughly 16%. Complexity-weighted output increased around 30%, indicating that remotely assigned cases were relatively demanding. The study found no evidence that other judges in home or target courts became less productive. The difference between gross remote completions and net output is important for valuing the intervention. Ignoring displacement would materially overstate the gain (Figures 8–10).",
+    "The paper estimates €4.3m in incentive payments, against €6.9m in transfer compensation or €7.8m in gross salaries to achieve equivalent additional output by other means. These alternatives are modelled comparisons. The study did not observe the same courts randomly allocated to three competing programmes. The payoff for lenders and companies would depend on whether the time saved includes their own case types and survives after the temporary incentives expire. No euro value for that benefit is estimated (Section 5, Figure 11)."
+  ],
+  "questions": [
+    {
+      "question": "Did faster completion extend to proceedings that affect corporate creditors?",
+      "detail": "The paper demonstrates an increase in aggregate judicial capacity but does not estimate how quickly lenders recovered collateral or settled business disputes. Match proceeding types and regions to recovery times and amounts in bank workout files and insolvency records. Shorter queues could affect provisioning and working capital only if the relevant cases actually move faster."
+    },
+    {
+      "question": "Would a permanent or larger scheme generate the same net gain?",
+      "detail": "Participation fell short of the maximum, and the judges who volunteered may have had unusual capacity or preferences. Compare later cohorts’ participation, home-court workload and quality-adjusted output with the initial volunteers. A scaled programme might displace a larger share of regular cases, limiting the efficiency implied by the first ten months."
+    },
+    {
+      "question": "Did case quality and access hold up after decisions could be appealed?",
+      "detail": "The paper links historical judge productivity with appeal outcomes, but that relationship alone cannot establish the quality of every remote decision. Follow matched cases through appeals, reversals, settlements and litigants’ requests for physical hearings. Evidence by complexity and party type would help assess whether faster enforcement improves the expected value of claims for both sides. Compare the value and vintage of the claims as well as case counts."
+    }
+  ],
+  "limitation": ""
+}

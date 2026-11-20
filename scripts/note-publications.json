@@ -1689,7 +1689,7 @@
     ]
   },
   "2026-11-18-0a9b4092d8.json": {
-    "title": "Financial Stability Review — November 2026",
+    "title": "Financial Stability Review, November 2026",
     "jurisdiction": "Euro area",
     "type": "Research",
     "aliases": [
@@ -1697,31 +1697,31 @@
     ]
   },
   "2026-11-18-65e2fa1a9c.json": {
-    "title": "Boris Vujčić: Financial Stability Review - November 2026",
+    "title": "Financial Stability Review, November 2026 – Press briefing",
     "jurisdiction": "Euro area",
-    "type": "Speech",
+    "type": "Press conference",
     "aliases": []
   },
   "2026-11-16-c04c35da48.json": {
-    "title": "Boris Vujčić: Risks and resilience in the euro area financial system",
+    "title": "Risks and resilience in the euro area financial system",
     "jurisdiction": "Euro area",
     "type": "Speech",
     "aliases": []
   },
   "2026-11-16-1d9bd47a13.json": {
-    "title": "Europe and China: A changing relationship in a changing world | Keynote speech at 12th China Day, DFV Euro Finance Group",
+    "title": "Europe and China: A changing relationship in a changing world",
     "jurisdiction": "Euro area",
     "type": "Speech",
     "aliases": []
   },
   "2026-11-18-fb9c893286.json": {
-    "title": "Innovation braucht Resilienz: KI und Quantencomputing im Finanzsektor | Euro Finance Week",
+    "title": "Innovation braucht Resilienz: KI und Quantencomputing im Finanzsektor",
     "jurisdiction": "Euro area",
     "type": "Speech",
     "aliases": []
   },
   "2026-11-18-f7bd1e8e19.json": {
-    "title": "Beyond local deposit markets: Social spillovers in deposit pricing | Sofia Anyfantaki, Panagiotis Avramidis, Natalya Martynova",
+    "title": "Beyond local deposit markets: Social spillovers in deposit pricing",
     "jurisdiction": "Euro area",
     "type": "Research",
     "aliases": [
@@ -1729,7 +1729,7 @@
     ]
   },
   "2026-11-17-8f086a37f6.json": {
-    "title": "Tariffs, cohort redistribution, and the world real interest rate | Anne Ernst, Matthias Schön, Nikolai Stähler",
+    "title": "Tariffs, cohort redistribution, and the world real interest rate",
     "jurisdiction": "Euro area",
     "type": "Research",
     "aliases": [
@@ -1794,11 +1794,6 @@
     "jurisdiction": "China",
     "type": "Release",
     "title": "2026年10月金融市场运行情况"
-  },
-  "2026-11-16-dce2af21e6.json": {
-    "jurisdiction": "China",
-    "type": "Statement",
-    "title": "October 2026 Financial Statistics"
   },
   "2026-11-18-a43afe0587.json": {
     "jurisdiction": "China",
@@ -1917,6 +1912,182 @@
   },
   "2026-11-16-e8059f03f6.json": {
     "title": "Near-final statement of policy: The Bank of England’s approach to supervisory processes (model changes, recognition orders and variations of recognition orders) and margin permissions",
+    "jurisdiction": "United Kingdom",
+    "type": "Policy"
+  },
+  "2026-11-19-c4a592cd77.json": {
+    "title": "Transatlantic securitisation gap revisited: comparing EU and US securitisation architectures",
+    "jurisdiction": "Euro area",
+    "type": "Research"
+  },
+  "2026-11-19-f521ebd83e.json": {
+    "jurisdiction": "Japan",
+    "type": "Release",
+    "title": "Developments in Real Exports and Real Imports"
+  },
+  "2026-11-20-d3720da586.json": {
+    "jurisdiction": "India",
+    "type": "Release",
+    "title": "RBI imposes monetary penalty on Fusion Finance Limited"
+  },
+  "2026-11-20-82e21072b4.json": {
+    "jurisdiction": "India",
+    "type": "Release",
+    "title": "Reserve Bank issues Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026"
+  },
+  "2026-11-20-f0794696be.json": {
+    "jurisdiction": "Japan",
+    "type": "Research",
+    "title": "Monetary and Economic Studies, Vol. 44 (November 2026)",
+    "aliases": [
+      "https://www.imes.boj.or.jp/research/papers/english/me44.pdf"
+    ]
+  },
+  "2026-11-16-23933831bf.json": {
+    "jurisdiction": "Japan",
+    "type": "Release",
+    "title": "Highlights of the Outlook for Economic Activity and Prices (October 2026)"
+  },
+  "2026-11-20-566c7634f9.json": {
+    "jurisdiction": "South Korea",
+    "type": "Release",
+    "title": "Producer Price Index during October 2026 (preliminary)",
+    "aliases": [
+      "https://www.bok.or.kr/fileSrc/eng/a4907b470a144f5fa62091ce599a1936/3/6b71ad3b58bc4d988ef65db14ff627d4.pdf"
+    ]
+  },
+  "2026-11-19-6fe0cfcaf4.json": {
+    "jurisdiction": "India",
+    "type": "Research",
+    "title": "Finances of Panchayati Raj Institutions 2022-23 to 2024-25"
+  },
+  "2026-11-16-b5b743d8cc.json": {
+    "title": "The impact of monetary policy on productivity",
+    "jurisdiction": "Euro area",
+    "type": "Research",
+    "aliases": []
+  },
+  "2026-11-16-459b6cdc42.json": {
+    "title": "Decoding the cyber-AI nexus",
+    "jurisdiction": "Euro area",
+    "type": "Research",
+    "aliases": []
+  },
+  "2026-11-20-487fc2e922.json": {
+    "title": "Optimistic Divorce Beliefs and the Life-Cycle Economics of the Family",
+    "jurisdiction": "Norway",
+    "type": "Research",
+    "aliases": [
+      "https://www.norges-bank.no/contentassets/e9280c91e7564972a71c0f92c1c209ce/wp_10_2026.pdf?v=20112026125648"
+    ]
+  },
+  "2026-11-17-d83d15e693.json": {
+    "jurisdiction": "Euro area",
+    "title": "No. 1550 - Remote work incentives and state capacity",
+    "type": "Research",
+    "aliases": [
+      "https://www.bancaditalia.it/pubblicazioni/temi-discussione/2026/2026-1550/en_tema_1550.pdf?language_id=1"
+    ]
+  },
+  "2026-11-17-b763364dd8.json": {
+    "jurisdiction": "Euro area",
+    "title": "No. 97 - From vaults to validations: what is the future of asset servicing in the era of tokenization?",
+    "type": "Research",
+    "aliases": [
+      "https://www.bancaditalia.it/pubblicazioni/mercati-infrastrutture-e-sistemi-di-pagamento/approfondimenti/2026-097/N.97-MISP.pdf?language_id=1"
+    ]
+  },
+  "2026-11-17-ea101d2f8d.json": {
+    "jurisdiction": "Euro area",
+    "title": "No. 1083 - Measuring energy poverty in official statistics",
+    "type": "Research",
+    "aliases": [
+      "https://www.bancaditalia.it/pubblicazioni/qef/2026-1083/QEF_1083_26.pdf?language_id=1"
+    ]
+  },
+  "2026-11-17-c5b077ea85.json": {
+    "jurisdiction": "Euro area",
+    "title": "No. 1086 - Regional tourism expenditure in Italy: estimation methodology and results",
+    "type": "Research",
+    "aliases": [
+      "https://www.bancaditalia.it/pubblicazioni/qef/2026-1086/QEF_1086_26.pdf?language_id=1"
+    ]
+  },
+  "2026-11-16-c9ae578112.json": {
+    "jurisdiction": "Euro area",
+    "title": "The Financial Market - September-October 2026 [pdf, 1.4 MB]",
+    "type": "Statistics",
+    "aliases": []
+  },
+  "2026-11-20-37f09741f4.json": {
+    "jurisdiction": "Taiwan",
+    "type": "Statement",
+    "title": "Average Rate on New Loans of Five Major Banks (October 2026)"
+  },
+  "2026-11-18-a3f92983c2.json": {
+    "jurisdiction": "Malaysia",
+    "type": "Speech",
+    "title": "Deputy Governor's Opening Remarks at the CIIF Professional Fellowship Forum 2026"
+  },
+  "2026-11-17-ba4976c191.json": {
+    "jurisdiction": "Malaysia",
+    "type": "Speech",
+    "title": "Deputy Governor's Keynote Address at INCEIF University's Seminar on Reconstituting Islamic Economics and Finance"
+  },
+  "2026-11-13-3ac3ef4a58.json": {
+    "jurisdiction": "China",
+    "type": "Release",
+    "title": "2026年10月金融统计数据报告",
+    "aliases": [
+      "https://jrj.sh.gov.cn/SCGK194/20261116/00d09e641a1148d5bdee81e3f0f483de.html"
+    ],
+    "previousIds": [
+      "2026-11-16-dce2af21e6"
+    ]
+  },
+  "2026-11-19-ea8f0e649c.json": {
+    "title": "Chia Der Jiun: Advancing the Future of Finance: From Foundation to Scale",
+    "jurisdiction": "Singapore",
+    "type": "Speech"
+  },
+  "2026-11-19-cb32dc1120.json": {
+    "title": "MAS announces issuance of tokenised MAS Bills",
+    "jurisdiction": "Singapore",
+    "type": "Statement"
+  },
+  "2026-11-19-761579f00f.json": {
+    "title": "El Banco de España presenta el catálogo razonado de su colección de textiles",
+    "jurisdiction": "Euro area",
+    "type": "Release",
+    "aliases": [
+      "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/NotasInformativas/26/presbe2026-108.pdf"
+    ]
+  },
+  "2026-11-18-03d9d0035b.json": {
+    "title": "Gan Kim Yong: Ministerial keynote at the Singapore FinTech Festival",
+    "jurisdiction": "Singapore",
+    "type": "Speech"
+  },
+  "2026-11-18-e2cd85b978.json": {
+    "title": "DG de Relaciones Institucionales, Transparencia y Conducta. Presentación del catálogo razonado de la colección de textiles del Banco de España",
+    "jurisdiction": "Euro area",
+    "type": "Release",
+    "aliases": [
+      "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/IntervencionesPublicas/DirectoresGenerales/conducta%20y%20billetes/IIPP-2026-11-18-rios-es-or.pdf"
+    ]
+  },
+  "2026-11-17-55e2f53fab.json": {
+    "title": "Eleventh edition of the Regulatory Initiatives Grid",
+    "jurisdiction": "United Kingdom",
+    "type": "Policy"
+  },
+  "2026-11-19-a04fbe73dc.json": {
+    "title": "Cyber resilience guidance consultation and AI and quantum effective practices",
+    "jurisdiction": "United Kingdom",
+    "type": "Release"
+  },
+  "2026-11-16-3ee262321d.json": {
+    "title": "Ensuring the resilience of CCPs: near-final policy statement",
     "jurisdiction": "United Kingdom",
     "type": "Policy"
   }

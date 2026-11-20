@@ -1,0 +1,27 @@
+{
+  "title": "Japan’s October real export rebound extended beyond technology",
+  "bank": "Bank of Japan",
+  "date": "2026-11-19",
+  "url": "https://www.boj.or.jp/en/research/research_data/reri/index.htm",
+  "summary": [
+    "Japan’s real exports rebounded 4.1% in October from September, reversing monthly declines in August and September. The Bank of Japan’s 19 November research data show that vehicles and capital goods both grew faster than IT-related goods. This matters for interpreting a stronger aggregate as evidence of an electronics upcycle. The release measures shipment values after adjustment for price changes. It does not identify the demand shock behind the rise or the earnings retained by exporters.",
+    "The seasonally adjusted export index rose from 118.13 to 122.97, and the import index rose from 115.73 to 117.07, equivalent to an increase of about 1.2%. Both are indexed to 2020 at 100. A gap between the two index levels is not a trade balance in yen, because each indexes a separate series to its own base. In chart 1 the fourth-quarter observation consists only of October. Chart 2’s 3.4% fourth-quarter export increase compares October with the third-quarter average. The 4.1% monthly figure compares it with September. Treating one month as a completed quarter would overstate the evidence of an acceleration.",
+    "All regional groups rose in October. Shipments to the EU increased 10.7% from September, compared with 3.7% to the United States and 3.1% to Asia. The EU accounted for 9.1% of Japan’s 2025 exports, while Asia accounted for 54.3%. A large percentage change in Europe consequently need not imply the largest contribution to total exports. China, included within Asia, recorded a 5.2% monthly gain after a 7.1% decline. Despite that rebound, October exports to China were still 0.3% below their third-quarter average. The change in momentum depended on the comparison period (chart 2, regional breakdown).",
+    "In the goods breakdown, motor vehicles and related items rose 7.1% in October, capital goods 5.0%, and IT-related goods 2.1%. The latter had fallen 4.3% in September and October was only 0.1% above the third-quarter average. Some semiconductor production equipment is classified as capital goods. The two groups therefore do not divide cleanly into technology and non-technology demand. Gold and re-exported goods fall into the residual category. Excluding that category still left a 4.1% monthly increase, reducing the likelihood that unusual movements in those goods alone explained the rebound. The Bank notes that trade statistics and seasonal adjustments may be revised. No regional-by-product cross-tabulation in these charts identifies which destination bought any specific product."
+  ],
+  "questions": [
+    {
+      "question": "Was October’s increase sustained beyond a single month?",
+      "detail": "The fourth-quarter figure contains only October. Use the release’s monthly workbook and subsequent scheduled provisional trade data to compare multi-month averages and the persistence of the rebound. Check normal revision sizes before interpreting a change as a new export trend. This matters for forecasts of production, earnings and net exports."
+    },
+    {
+      "question": "Which markets accounted for the strength in vehicles and capital goods?",
+      "detail": "The table gives separate destination and goods panels, leaving their intersection unknown. Use disaggregated customs quantities and export price indices by product and destination, with attention to vehicle parts and semiconductor production equipment. This would help distinguish broad final demand from the timing of a few large shipments and avoid attributing the entire capital-goods gain to AI investment."
+    },
+    {
+      "question": "How much of the export gain could translate into domestic income?",
+      "detail": "A real shipment index excludes price changes and does not measure import content, margins or the currencies in which firms are paid. Compare the trade release with corporate disclosures on sourcing and contract currency, and with national accounts as they become available. This can distinguish a rise in output volumes from a materially larger contribution to profits or real domestic spending."
+    }
+  ],
+  "limitation": ""
+}

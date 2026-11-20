@@ -1,0 +1,27 @@
+{
+  "title": "Japan’s October outlook places the inflation overshoot before convergence in fiscal 2028",
+  "bank": "Bank of Japan",
+  "date": "2026-11-16",
+  "url": "https://www.boj.or.jp/en/mopo/outlook/highlight/ten202610.htm",
+  "summary": [
+    "The Bank of Japan’s visual highlights, released on 16 November, present its October outlook. The Board expected to continue raising its policy rate as the economy and prices evolved. Underlying inflation was already broadly consistent with the 2% target and was expected to remain around that level. Higher oil and semiconductor prices and the yen’s depreciation to date would nevertheless lift measured inflation clearly above 2% for a time. The policy question was how quickly to withdraw accommodation while keeping underlying inflation near target. The November publication conveyed the October assessment and announced no new rate decision.",
+    "The two forecast charts specify the measures and the horizon. The price series is the fiscal-year change in CPI excluding fresh food. The chart shows 2.7% in fiscal 2025 and forecasts of 2.5%, 2.6% and 2.0% in fiscal 2026, 2027 and 2028. These figures can coexist with the Bank’s assessment that underlying inflation was already near 2%, because the plotted series still contains energy and other temporary shocks. Its projected return to target in fiscal 2028 relies in part on high oil prices losing their influence. The path is also an annual average and does not identify the peak monthly inflation rate.",
+    "Real GDP growth was forecast at 0.7% in fiscal 2026 and 2027 and 0.8% in fiscal 2028, following 0.9% in fiscal 2025. Energy and raw material costs associated with the Middle East situation would slow the economy, while government measures and AI-related demand would support it. Stronger demand for semiconductors has two roles in this account. It can support production while also raising firms’ input costs and the prices of goods households purchase. The resulting combination of slower real growth and an inflation overshoot makes the timing of adjustment more important than either annual series in isolation.",
+    "The risk panel explains why the Board intended to look beyond forecast convergence. Firms appeared more willing to raise wages and prices. If renewed input price increases led households and firms to lift medium- and long-term inflation expectations, underlying inflation itself could rise beyond 2%. The highlights provide no probability for that outcome. The Bank tied the timing and pace of future hikes to financial conditions, activity, prices and the likelihood of its baseline. They provide no evidence on how many increases investors had already priced."
+  ],
+  "questions": [
+    {
+      "question": "Which components would distinguish an imported-price overshoot from stronger underlying inflation?",
+      "detail": "Compare domestic service prices, wages and measures of medium-term expectations with energy and semiconductor-intensive goods. Use the October Outlook Report identified in the highlights and the Bank’s contemporary underlying-inflation indicators. A rise concentrated in imported goods would have different implications for rate duration from a change in firms’ recurring wage and pricing decisions."
+    },
+    {
+      "question": "Can stronger semiconductor demand offset the income loss from expensive energy?",
+      "detail": "Compare export volumes and capital spending in affected industries with import prices, operating margins and real household spending. The highlights put both forces into the GDP forecast without quantifying their contributions. Their relative strength would affect how easily the economy could absorb further tightening."
+    },
+    {
+      "question": "How sensitive is the policy path to the timing of the projected inflation decline?",
+      "detail": "The chart gives annual averages through fiscal 2028 and the Bank conditions tightening on underlying prices. Compare the fuller forecast, its risk discussion and contemporary interest-rate pricing across meeting dates. A later decline driven by oil could produce similar annual averages but a different near-term path from one driven by persistent domestic pressures."
+    }
+  ],
+  "limitation": ""
+}

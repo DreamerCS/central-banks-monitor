@@ -1,0 +1,28 @@
+{
+  "title": "The UK regulatory timetable separates finished policy work from firms’ implementation",
+  "bank": "Bank of England",
+  "date": "2026-11-17",
+  "url": "https://www.bankofengland.co.uk/report/regulatory-initiatives-grid",
+  "summary": [
+    "The November Regulatory Initiatives Grid covers the next 24 months of publicly announced UK financial regulation. Its co-chairs describe the peak in new rulemaking as having passed while major programmes move towards implementation. For an operator deciding how many people to allocate to regulatory change, that is an important distinction. A policy team can complete its work months before a bank finishes changing data systems, calculating exposures, training staff and testing reports. The Forum’s eleventh edition records expected milestones and their indicative operational impact. It does not estimate the total money or staff time an individual firm needs to deliver them.",
+    "The grid brings together initiatives involving multiple regulators and separates those spanning sectors from those affecting particular industries. The introduction explains its selection criteria. Measures already have to be public and expected to demand significant operational effort from firms. Firm-specific supervision and enforcement lie outside its scope. An omitted project could therefore still matter to a particular institution. The accompanying Bank release identifies the FCA and the Bank, including the PRA, among the participating authorities and describes the Treasury as an observer. Listing more than one authority on a row means that coordination matters. A firm should consult the authority responsible for the specific decision before treating an expected date as binding.",
+    "The columns distinguish a milestone from an indication that work will continue during a quarter. Timing is shown in detail for the next three quarters and more broadly beyond them. The higher, lower and unknown impact categories express relative judgements across initiatives. They cannot be added to estimate a bank’s costs. The annexes further distinguish policy that is complete and awaiting implementation from initiatives removed because they are complete, paused or stopped. A compliance team tracing a project from the previous grid needs to inspect the annex and the underlying milestone before releasing its implementation budget.",
+    "The entry for the remaining Basel III standards illustrates how that works in practice. The PRA’s final Basel 3.1 rules were published on 20 January 2026. The grid shows most of the package taking effect on 1 January 2027, with the internal models approach for market risk delayed until 1 January 2028. The entry carries a higher impact indication. Treating the entire package as a 2028 project would miss the earlier milestone. By contrast, the later-life mortgage entry distinguishes the expected outcome of a market study in the first half of 2027 from a possible consultation and a possible policy statement in the second half. They represent different degrees of certainty.",
+    "The Forum identifies pensions, payments and mortgages among substantial programmes already in progress. Even initiatives designed to remove burdens, such as abolishing data returns, can call for consultation and engagement before firms realise a saving. Parliamentary decisions and fast-moving developments can change the sequence. For an investor assessing the operating costs of two financial groups, the useful comparison is their actual business mix and capacity where dated obligations overlap. Two firms facing the same published grid can have different peak workloads because they use different models, distribute different products or depend on different service providers."
+  ],
+  "questions": [
+    {
+      "question": "Which dated milestones could compete for the same implementation staff?",
+      "detail": "The grid indicates activity and relative impact but gives no firm-level cost estimate. For a bank budget or earnings forecast, match its business lines and reporting systems to the entries with firm dates. Check the responsible authorities’ final instruments and assess where several initiatives depend on the same data, technology supplier or controls team. An unknown impact label warrants further investigation before assigning a numerical cost."
+    },
+    {
+      "question": "How much of the Basel project can genuinely wait until 2028?",
+      "detail": "The grid separates the delayed internal models approach for market risk from the rest of the January 2027 implementation. That difference matters to a bank allocating testing capacity and to an analyst estimating the timing of capital effects. Compare the institution’s model permissions and portfolios with the PRA’s final rules and implementation schedule. Identify which calculation, reporting or governance changes still have to operate in 2027."
+    },
+    {
+      "question": "Which proposed mortgage changes justify spending before a final policy is known?",
+      "detail": "The later-life lending milestones distinguish possible consultation and policy from already published requirements. A lender planning product development needs to separate reversible preparation from changes that depend on the market study. Check the scope and outcome of the FCA’s study and any subsequent consultation against the lender’s actual customer mix. Update the decision when the authority specifies which measures it will pursue and when."
+    }
+  ],
+  "limitation": "The 84-page November grid is a dated planning document. Its indicative impact levels and possible milestones are neither firm-specific cost estimates nor binding rules."
+}

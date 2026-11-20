@@ -1,0 +1,26 @@
+{
+  "title": "India’s central bank identified two control failures at Fusion Finance",
+  "bank": "Reserve Bank of India",
+  "date": "2026-11-20",
+  "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64015",
+  "summary": [
+    "India’s Reserve Bank imposed a ₹750,000 penalty on Fusion Finance under an order dated 17 November. The release was published on 20 November. The two findings concern customer identification at onboarding and the handling of rejected complaints. They identify weaknesses in separate controls. The notice gives neither an estimate of financial loss to customers nor the share of accounts affected.",
+    "The statutory inspection examined the company with reference to its financial position on 31 March 2026. After a notice, a written response, further submissions and a personal hearing, the RBI found that Fusion had failed to obtain a Permanent Account Number, its electronic equivalent, or Form 60 from customers when establishing account-based relationships. It also found that the company failed to refer partly or wholly rejected complaints to its internal ombudsman within the prescribed period. The distinction matters because a change in onboarding documentation alone would leave the complaint-escalation issue unresolved.",
+    "The RBI confined its finding to regulatory compliance. It did not rule on the validity of customers’ agreements and expressly preserved the possibility of other action. For investors assessing the lender, the amount of the fine is observable. The cost of fixing records, improving escalation or dealing with repeat exceptions is not quantified in the order. Inferring asset impairment or customer compensation from the penalty alone would go beyond what the regulator established."
+  ],
+  "questions": [
+    {
+      "question": "How extensive were the two control exceptions?",
+      "detail": "The order identifies the nature of the failures but provides no count, duration or sample denominator. Look for inspection-period disclosures, subsequent management commentary and the lender’s published compliance reporting on missing documents and overdue complaint referrals. Isolated processing errors and recurring failures across branches would imply different remediation costs."
+    },
+    {
+      "question": "How would investors know that both controls had been repaired?",
+      "detail": "Seek evidence of file-level testing of identification documents and time-stamped escalation of rejected complaints. The internal ombudsman’s reporting and audit committee disclosures may reveal how management monitors each process. A change to a written policy alone would give little evidence about operating effectiveness."
+    },
+    {
+      "question": "What financial exposure did the lender itself recognise?",
+      "detail": "Compare the amount paid with any disclosed provisions, remediation expenditure or contingent liabilities. The RBI’s notice reaches no judgement on customer contracts and supplies no estimate of prospective claims. Distinguishing a documented cost from a hypothetical one matters when translating the enforcement action into an earnings assessment."
+    }
+  ],
+  "limitation": ""
+}

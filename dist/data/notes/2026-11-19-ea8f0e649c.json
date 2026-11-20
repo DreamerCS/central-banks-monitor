@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-19",
+  "bank": "Monetary Authority of Singapore",
+  "url": "https://www.mas.gov.sg/news/speeches/2026/keynote-address-by-md-at-the-singapore-fintech-festival-2026",
+  "title": "MAS puts collateral mobility and authority over AI payments at the centre of its fintech plans",
+  "summary": [
+    "Chia Der Jiun sees a common commercial challenge in tokenised securities and AI agents: an institution must know which asset, whose money and whose authority it is accepting. In his Singapore FinTech Festival address, the MAS managing director describes live examples of digital settlement and outlines further work on agent-initiated payments. Investors should distinguish the services already operating from protocols being developed and economic consequences that the speaker presents as possibilities. He treats adoption by paying customers as decisive for scale.",
+    "Collateral is the clearest proposed use for tokenisation. A bond or money market fund still conveys the economic rights of its underlying instrument, but moving the record of ownership can change how quickly collateral becomes available for funding or derivatives. In paragraphs 17–24, Chia sets three practical conditions: reliable legal treatment, eligible assets and participation across dealers, banks, custodians and clearing houses. S$100 million of MAS bills had been issued and settled using wholesale central bank digital currency. Bringing other assets onto the system remained prospective. The published Guardian framework addresses such details as custody, valuation and enforcement. A lender needs those arrangements throughout a transaction, especially if a borrower fails.",
+    "The cash and settlement components are developing at different speeds. MAS has issued guidance on tokenised bank deposits, is introducing a stablecoin regime and has tested wholesale central bank money in live transactions. Its BLOOM collaboration brings together 24 industry participants and regional policymakers to examine actual uses. Chia says the Singapore dollar test network will become an operating utility called SG Digital Ledger. Five global institutions have also established an independent organisation to carry forward interoperable infrastructure standards. Separate tests with the British and Thai central banks, and work with the Bundesbank, address how different systems can coordinate settlement. These stages offer evidence about technical feasibility, while commercial volumes, costs and uptake remain open.",
+    "AI agents pose a different operating question. A bank receiving an instruction must verify who empowered the agent, what it may do and what happens if it exceeds its authority. Paragraphs 46–62 outline a proposed common way of exchanging information about identity, provenance and mandate. MAS and the Future of Finance Institute also plan a sandbox. A corporate treasury agent could monitor balances and initiate transfers within limits set by the company. In a payment application, banks or payment firms would verify authorisation and apply controls before executing the instruction. Sharing an individual’s ordinary login is specifically discouraged.",
+    "The broader investment implications are conditional. Agents able to compare products continually could intensify price competition and move deposits for smaller incentives. Faster reallocation could improve customers’ terms while making funding less sticky for banks. Chia separately notes that simulated interactions have suggested possible collusion or unequal outcomes for users of weaker models. He does not present these as observed characteristics of financial markets. The practical test for institutions is whether automated activity adds profitable volume once verification costs, customer protection and limits on rapid money movement are included. Interoperability can expand the market for a service while also making it easier for customers to switch away from its provider."
+  ],
+  "questions": [
+    {
+      "question": "Where would faster collateral transfer release enough funding capacity to justify adoption?",
+      "detail": "The speech sets out legal and operating prerequisites but gives no comparative data on encumbrance, failed deliveries or collateral substitution. Compare pilot transactions from dealers, custodians and clearing houses with the same assets moving conventionally. Measure the cost of holding buffers as well as fees and settlement time to assess who would capture any savings."
+    },
+    {
+      "question": "How might agent-managed accounts change the speed of bank funding outflows?",
+      "detail": "Chia expects agents to respond to smaller price incentives and raises the possibility of limits. Banks do not yet report a stable behavioural history for such accounts. Consult sandbox transaction distributions, institutional risk limits and deposit stress tests to compare the speed and concentration of potential transfers. This would matter for liquidity buffers and for the cost of retaining customers."
+    },
+    {
+      "question": "What incentives and liabilities would govern an automated payment across institutions?",
+      "detail": "A common mandate helps establish authority but does not by itself allocate losses when instructions conflict or data are stale. Compare the proposed protocol, participating institutions’ terms and tests of disputed transactions. Evidence on who can stop or reverse a payment would determine the operational risk a treasury or payment provider would accept for speed."
+    }
+  ],
+  "limitation": ""
+}
