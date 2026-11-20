@@ -1,0 +1,26 @@
+{
+  "title": "Waller explains how a personal policy argument becomes a committee discussion",
+  "bank": "Board of Governors of the Federal Reserve System",
+  "date": "2026-11-20",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20261120a.htm",
+  "summary": [
+    "Christopher Waller’s opening remarks at the College Fed Challenge are informative about the meaning of a Fed speech. He says his own monetary policy speeches grow out of arguments he has made to colleagues and how those arguments withstand their scrutiny. A speech can therefore reveal a participant’s reasoning without communicating a committee decision. The release gives an unusually clear example of the distinction. Waller describes the process in the first person and explicitly attributes the views to himself in the footnote. He does not state which economic argument or rate choice he will advance in December (pp. 1–2).",
+    "Waller describes two stages at the forthcoming meeting. On 8 December he and his 18 colleagues will present their economic outlooks. On 9 December they will offer their judgements about the appropriate policy stance. That sequence matters when reading individual communications. A disagreement about where inflation or employment is going can lead to different policy preferences. Participants could also agree on the outlook and differ on how much or how quickly policy should respond. The speech gives the meeting structure but reports no disagreement, vote or numerical forecast.",
+    "His reason for explaining a collective decision goes beyond accountability. In Waller’s account, monetary policy operates in substantial part by changing how the public understands present and future economic and financial conditions. The post-meeting statement summarises the consensus reached after participants have presented evidence and challenged one another. He also contrasts the funds-rate target used when the student competition began in 2003 with the subsequent expansion of the policy toolkit. He identifies no proposed use of any instrument in these remarks. For someone following the next meeting, the actionable distinction is the identity of the speaker and what the speaker has actually committed to. Waller supplies a description of deliberation and leaves his own December preference open."
+  ],
+  "questions": [
+    {
+      "question": "At the December meeting, will participants disagree about the outlook or about the response it calls for?",
+      "detail": "The address distinguishes the two deliberations and gives neither set of views. Compare the projections, statement, press conference and, when available, minutes. Look for explicit differences over incoming data, risks or the appropriate response to a common forecast before assigning a disagreement to any participant."
+    },
+    {
+      "question": "Which parts of a later Waller speech are personal arguments, and which describe a committee position?",
+      "detail": "He says his arguments are tested internally, but this does not establish that others endorse them. Compare his dated remarks with the contemporaneous FOMC statement and his own attribution. That distinction matters if an investor uses a speaker’s words to revise the expected rate path."
+    },
+    {
+      "question": "Does a later decision move the expected path after the current rate is known?",
+      "detail": "The speech identifies an expectations channel without supplying any market observations. A subsequent decision and its press conference provide separate occasions to compare short-dated futures and one-year OIS. Pre-release pricing and the timing of other news are needed before linking a move to specific words."
+    }
+  ],
+  "limitation": ""
+}

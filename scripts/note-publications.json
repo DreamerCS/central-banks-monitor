@@ -1213,5 +1213,13 @@
     "jurisdiction": "Australia",
     "type": "Speech",
     "title": "Transcript of Question & Answer Session The Role of Research in Monetary Policymaking"
+  },
+  "2026-11-20-e022512640.json": {
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "title": "Opening Remarks",
+    "aliases": [
+      "https://www.federalreserve.gov/newsevents/speech/files/waller20261120a.pdf"
+    ]
   }
 }
