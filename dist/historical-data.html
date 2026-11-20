@@ -39,7 +39,7 @@
       <h1>Policy <em>history</em></h1>
       <p class="history-dateline">Chart coverage · 2000 <span aria-hidden="true">—</span> 2026</p>
     </div>
-    <nav class="ledger-jump" aria-label="Policy history sections"><a href="#fed-liquidity-stance">Emergency lending and the policy rate</a> · <a href="#annual-policy-ledger">Compare policy decisions by year, 2000–2026 ↓</a> <a href="#policy-world-year">Compare rates across economies ↓</a></nav>
+    <nav class="ledger-jump" aria-label="Policy history sections"><a href="#dollar-swap-use">Dollar swap lines and actual drawings</a> · <a href="#fed-liquidity-stance">Emergency lending and the policy rate</a> · <a href="#annual-policy-ledger">Compare policy decisions by year, 2000–2026 ↓</a> <a href="#policy-world-year">Compare rates across economies ↓</a></nav>
     <p id="history-load" class="history-load" role="status">Loading historical data…</p>
     <div id="history-explorer" hidden>
       <div class="history-metrics" role="group" aria-label="Chart metric">
@@ -203,6 +203,27 @@
       </tbody></table></div>
       <p>The operating rates shifted together while portfolio runoff continued. Monthly redemption caps remained $25 billion for Treasuries and $35 billion for agency debt and agency mortgage-backed securities combined. Actual redemptions depended on principal payments. The overnight observations establish immediate pass-through at the median. Assessing liquidity across borrowers would also require transaction volumes and the rate distribution.</p>
       <p class="policy-footnote"><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a1.htm">July operating directive</a> · <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a1.htm">September operating directive</a> · <a href="https://markets.newyorkfed.org/api/rates/unsecured/effr/search.json?startDate=09/17/2024&amp;endDate=09/20/2024&amp;type=rate">New York Fed effective rates</a> · <a href="casebook.html#fed-cut-september-2024">Announcement pricing and Treasury yields</a></p>
+    </section>
+    <section class="policy-episode" id="dollar-swap-use" aria-labelledby="swap-use-title">
+      <p class="policy-date">Federal Reserve dollar swap lines · 2008 and 2020</p>
+      <h2 id="swap-use-title">How much of a dollar swap line did central banks actually draw?</h2>
+      <p>Brazil, Mexico, Korea and Singapore each received a $30bn limit in 2008 and a $60bn limit in 2020. Trace how much had actually settled when measuring currency stress. A central bank could draw dollars from the Fed and lend them to banks at home even while its currency kept falling.</p>
+      <div class="policy-table-scroll" tabindex="0" role="region" aria-label="Outstanding dollar swap balances by country"><table class="policy-path-table">
+        <caption>Month-end principal outstanding, US$ billions. The limit applies separately to each country.</caption>
+        <thead><tr><th scope="col">Day</th><th scope="col">Limit each</th><th scope="col">Brazil</th><th scope="col">Mexico</th><th scope="col">Korea</th><th scope="col">Singapore</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">30 Nov 2008</th><td>30</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+          <tr><th scope="row">31 Dec 2008</th><td>30</td><td>0</td><td>0</td><td>10.35</td><td>0</td></tr>
+          <tr><th scope="row">31 Mar 2020</th><td>60</td><td>0</td><td>0</td><td>0</td><td>4.27</td></tr>
+          <tr><th scope="row">30 Apr 2020</th><td>60</td><td>0</td><td>6.59</td><td>17.46</td><td>8.54</td></tr>
+          <tr><th scope="row">31 May 2020</th><td>60</td><td>0</td><td>6.59</td><td>18.79</td><td>10.03</td></tr>
+        </tbody>
+      </table></div>
+      <p><strong>Mexico, 2020.</strong> Short-term external debt stood at 31.8% of total reserves at end-2018. The Fed announced the $60bn line on 19 March 2020. Two draws settled on 3 and 8 April, bringing the balance to $6.59bn. Mexico’s monthly-average trade-weighted currency index fell 18.7% between February and May. The swap supplied dollar funding to the banking system. Measuring its effect on the peso would require estimating what would have happened without it.</p>
+      <p><strong>Korea, 2008.</strong> The line opened on 29 October in Washington. Its first draw settled on 4 December, after the November endpoint used in the cross-country study. Korea had already supplied dollars from its own reserves. In their analysis of the won–dollar swap market, Naohiko Baba and Ilhyock Shim found stronger evidence of relief from the Fed-funded auctions. Korea illustrates this mechanism separately because its debt ratio is missing from the matched panel.</p>
+      <details><summary>Calculation and primary sources</summary><p>For each date, add dollar principal settled and subtract principal that matured. A zero means no outstanding principal in this facility on that date. The headline limit measures capacity. The table rounds balances to the nearest $0.01bn. The download keeps the underlying millions of dollars for every calendar day from each announcement to 31 December 2008 or 31 May 2020. December 2008 is shown as a follow-up to the August–November exchange-rate window.</p>
+        <p class="policy-footnote"><a href="data/dollar-swap-balances.csv" download>Daily balances (CSV)</a> · <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20081029b.htm">October 2008 announcement</a> · <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20200319b.htm">March 2020 announcement</a> · <a href="https://www.federalreserve.gov/regreform/files/cbls.csv">Fed transaction file, 2007–10</a> · <a href="https://markets.newyorkfed.org/api/fxs/all/search.json?startDate=03/01/2020&amp;endDate=05/31/2020">New York Fed transaction records, March–May 2020</a> · <a href="https://www.bis.org/publications/policy-responses-dislocations-fx-swap-market-experience-korea">Baba and Shim on Korea’s two funding sources</a></p></details>
+      <p class="policy-footnote"><a href="external-vulnerability.html?episode=2020&amp;country=MX&amp;lag=2&amp;months=3#explore">Compare the debt ratios and currency outcomes</a> · <a href="yearbook.html?historyYear=2008&amp;case=2008-10-30-south-korea">Korea’s 2008 policy timeline</a></p>
     </section>
 <section id="fed-liquidity-stance" class="policy-episode fls-study" aria-labelledby="fls-heading">
   <div class="policy-section-heading">

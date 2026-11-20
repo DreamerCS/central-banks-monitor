@@ -1,0 +1,15 @@
+.da-wrap .rs-head{margin-bottom:2rem}
+.da-figure{margin:1.2rem 0;padding:clamp(12px,2.2vw,24px);border:1px solid #b9c4b4;background:#f7f8ee}
+.da-figure figcaption strong{display:block;font:400 clamp(1.4rem,2.5vw,2rem)/1.2 var(--serif)}
+.da-figure figcaption span{display:block;color:#526155;font-size:.92rem;margin-top:.35rem}
+.da-legend{display:flex;gap:1.4rem;flex-wrap:wrap;list-style:none;padding:0;margin:.9rem 0 .25rem}
+.da-legend li{display:flex;align-items:center;gap:.45rem;font-size:.94rem}
+.da-legend li:before{content:"";width:1.8rem;border-top:3px solid #24573e}
+.da-legend .da-low:before{border-top:3px dashed #93502f}
+.da-figure svg{width:100%;height:auto;display:block;color:#465148;overflow:visible}
+.da-figure svg text{font-size:14px;fill:currentColor;font-family:var(--sans,sans-serif);font-variant-numeric:tabular-nums}
+.da-wrap td{font-variant-numeric:tabular-nums}
+.da-single-controls{max-width:27rem}
+.da-wrap [hidden]{display:none!important}
+.da-wrap #da-finding{font-size:1.08rem}
+@media(max-width:600px){.da-figure{padding:12px 8px}.da-figure svg text{font-size:14px}.da-wrap .rs-controls{grid-template-columns:1fr}.da-legend{gap:1rem}.da-wrap table{min-width:31rem}}

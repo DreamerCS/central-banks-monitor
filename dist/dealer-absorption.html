@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#19251e">
+<title>Where does a Treasury auction go? · Market reactions</title>
+<meta name="description" content="Compare primary-dealer awards at US ten-year Treasury auctions with weekly net dealer positions from before the auction to three weeks after settlement.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="edition.css">
+<link rel="stylesheet" href="reading-studies.css"><link rel="stylesheet" href="dealer-absorption.css">
+<script type="module" src="dealer-absorption.js"></script>
+</head>
+<body><a class="skip-link" href="#main">Skip to content</a>
+<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="reading-studies.html">Testing macro ideas</a><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="research-archive.html">Archive</a></nav></div></header>
+<main id="main" class="rs-wrap da-wrap">
+<header class="rs-head"><p class="eyeline">Market reactions · US Treasury supply</p><h1>Where does a Treasury auction go?</h1>
+<p>When primary dealers take a large share of a ten-year note auction, how much does their net position change by settlement? Follow the weekly figures, then compare them with evidence on how quickly dealers sell individual bonds.</p></header>
+<p id="da-status" role="status">Loading the auction awards and weekly dealer reports…</p>
+<noscript><p>The study’s interpretation and sources are available below. Enable JavaScript for the historical comparisons or download the auction observations.</p></noscript>
+<div id="da-interactive" hidden>
+<section class="rs-study" aria-labelledby="da-comp"><h2 id="da-comp">After a large award</h2>
+<p>Compare median changes in dealers’ net holdings of Treasury coupons with more than seven and up to eleven years remaining. The award share is the amount primary dealers won divided by competitive awards inside the offering, both measured at par. Awards in the upper and lower thirds are ranked within the same reporting period and issue type.</p>
+<div class="rs-controls">
+<label>Issue type<select id="da-type"><option value="all">All ten-year notes</option><option value="New issue">New issues</option><option value="Reopening">Reopenings</option></select></label>
+<label>Reporting period<select id="da-regime"><option value="all">All reporting periods</option></select></label>
+<label>Measure from<select id="da-baseline"><option value="baseline">Last report before auction</option><option value="preSettlement">Last report before settlement</option></select></label>
+</div>
+<p id="da-count" aria-live="polite"></p>
+<figure class="da-figure"><figcaption><strong>Median change in net position</strong><span>US$ billion · positive values mean a larger net long position or a smaller net short position</span></figcaption>
+<ul class="da-legend"><li class="da-high">High award share</li><li class="da-low">Low award share</li></ul>
+<div id="da-plot"></div></figure>
+<p id="da-finding"></p>
+<details class="rs-details"><summary>Compare all three groups and their sample sizes</summary><div class="rs-table-wrap"><table><caption>Median change in US$ billion. Each cell shows the number of available auctions in parentheses.</caption><thead><tr><th scope="col">Report</th><th scope="col">High awards</th><th scope="col">Middle awards</th><th scope="col">Low awards</th></tr></thead><tbody id="da-group-table"></tbody></table></div></details>
+</section>
+<section id="settled-reopenings" class="rs-study" aria-labelledby="da-settled-title"><h2 id="da-settled-title">Follow the same note through a reopening</h2>
+<p>A reopened note already trades before the new bonds settle. Match the CUSIP of the auction to the ten-year note in dealers’ reports on both dates. This narrower comparison measures the <strong>net settled position in that note at par</strong>, relative to the last report before the issue date. An increase can reflect a short position being covered.</p>
+<p id="da-settled-summary" aria-live="polite"></p>
+<div class="rs-table-wrap"><table><caption>Same-CUSIP median change in US$ billion. Counts in parentheses. The reporting-period selector applies; this comparison always uses reopenings.</caption><thead><tr><th scope="col">Report</th><th scope="col">All reopenings</th><th scope="col">High awards</th><th scope="col">Middle awards</th><th scope="col">Low awards</th></tr></thead><tbody id="da-settled-table"></tbody></table></div>
+<p class="rs-links"><a href="https://markets.newyorkfed.org/api/pd/get/PDSI10NSP.json">New York Fed current ten-year settled positions</a><a href="https://www.newyorkfed.org/financial-institution-supervision/reporting-forms-and-instructions/reporting-forms/fr-2004si-guide-sheet">Reporting guide</a></p>
+</section>
+<section class="rs-study" aria-labelledby="da-single"><h2 id="da-single">Inspect an auction</h2>
+<div class="rs-controls da-single-controls"><label>Auction date<select id="da-auction"></select></label></div><div id="da-instance" aria-live="polite"></div>
+<div class="rs-table-wrap"><table><caption>Published report dates and position levels, in US$ billion</caption><thead><tr><th scope="col">Observation</th><th scope="col">Report date</th><th scope="col">Net position</th><th scope="col">Change from selected baseline</th></tr></thead><tbody id="da-event-table"></tbody></table></div>
+<div id="da-settled-event" hidden><h3>The reopened note</h3><div class="rs-table-wrap"><table><caption>Net settled positions in the same CUSIP at par, in US$ billion</caption><thead><tr><th scope="col">Observation</th><th scope="col">Report date</th><th scope="col">Net settled position</th><th scope="col">Change from before settlement</th></tr></thead><tbody id="da-settled-event-table"></tbody></table></div></div>
+</section>
+</div>
+<section class="rs-study" aria-labelledby="da-interpretation"><h2 id="da-interpretation">How long did dealers hold the bonds?</h2>
+<p>A dealer can sell a note before settlement, hold it for later resale or finance a customer who buys it. The auction result measures the par value awarded to dealers. Weekly reports measure the net position that remains after their other trades. Following the same note through a reopening helps distinguish these quantities.</p>
+<p>In the 20 November 2026 snapshot, the median position change from before auction to the settlement report was <strong>+$0.36bn</strong> for high awards and <strong>+$0.57bn</strong> for low awards. One week later those medians were +$0.20bn and +$1.66bn. In this sample the high-award group recorded the smaller median increase at both horizons.</p>
+<p>The Federal Reserve Board followed individual securities more closely using when-issued trades and regulatory TRACE records. For original issues from March 2016 to July 2025, its ten-year estimate put the time for post-auction inventory to fall by half at <strong>under half a day</strong>. Dealers could therefore have sold much of an award before the first weekly observation. The Board also found that financing provided to customers could persist after dealers had sold the securities. <a href="https://www.federalreserve.gov/econres/notes/feds-notes/treasury-issuance-and-dealer-balance-sheets-20261030.html">Federal Reserve Board research</a> · <a href="https://www.federalreserve.gov/econres/notes/feds-notes/treasury-issuance-and-dealer-balance-sheets-accessible-20261030.htm">Figures 3 and 4</a></p>
+<details class="rs-details" id="da-method"><summary>Definitions, timing and coverage</summary>
+<p>Compare award shares within the same reporting period and issue type. A reopening adds to a note already trading under the same CUSIP. A new issue introduces a new CUSIP. The group labels use historical awards and can only be assigned with the benefit of the full sample.</p>
+<p id="da-coverage">The matched series begins in April 2013, when the seven-to-eleven-year reporting bucket became available. The November 2026 vintage covers 164 regular auctions, 55 new issues and 109 reopenings. The first post-settlement observation is available for 163 auctions. The June 2019 contingency test is excluded.</p>
+<p>Each maturity-bucket observation measures long positions less short positions at market value. For each horizon, the chart takes the median event-by-event change among the auctions with both endpoint reports. Later readings stop at reporting-period changes and at the next regular ten-year auction. Only 40 auctions have an eligible observation three weeks after the settlement report. The chart spaces its observation labels evenly; the number of days between auction and settlement varies.</p>
+<div class="rs-table-wrap" id="da-threshold-table" hidden><table><caption>Historical award-share thresholds by issue type and reporting period. Shares at or below the lower threshold enter the low group and shares at or above the upper threshold enter the high group. Thresholds shown to two decimal places.</caption><thead><tr><th scope="col">Reporting period</th><th scope="col">Issue type</th><th scope="col">Auctions</th><th scope="col">Lower threshold</th><th scope="col">Upper threshold</th></tr></thead><tbody id="da-cutoffs"></tbody></table></div>
+<p>The baseline selector isolates two different intervals. The last report strictly before the auction includes subsequent when-issued trading in the measured change. The last report strictly before the issue date can already reflect the award and some trading. Settlement is represented by the first report on or after the issue date, which can fall several days later. The following observations are spaced a week apart.</p>
+<p>Changes in this net position also reflect client orders, outright trades in other issues, changes in security prices and bonds moving across maturity buckets. Individual bonds can change hands several times between two reports. Establishing sales by CUSIP, the financing associated with those trades, or their effect on long yields requires additional observations.</p>
+<p class="rs-links"><a href="https://fiscaldata.treasury.gov/datasets/treasury-securities-auctions-data/">US Treasury auction results</a><a href="https://www.newyorkfed.org/markets/counterparties/primary-dealers-statistics">New York Fed dealer statistics</a><a href="https://markets.newyorkfed.org/api/pd/get/PDPOSGSC-G7L11.json">New York Fed weekly position series</a></p></details>
+<p class="rs-links"><a href="data/dealer-absorption.json" download>Download auction observations (JSON)</a><a href="reading-studies.html">More research from the reading</a></p>
+</section></main></body></html>
