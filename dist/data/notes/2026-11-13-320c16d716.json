@@ -1,0 +1,27 @@
+{
+  "title": "Instant payments shorten the time a bank has to fund an outflow",
+  "bank": "Federal Reserve Bank of Dallas",
+  "date": "2026-11-13",
+  "url": "https://www.dallasfed.org/news/speeches/speeches-leaders/2026/261113eg",
+  "summary": [
+    "Emily Greenwald’s opening remarks in Dallas on 13 November identified a mismatch between the speed customers now expect from payments and the time banks historically had to arrange funding. A deposit is payable when the customer wants it. A bank can own assets sufficient to cover that liability and still face an urgent problem if it cannot turn them into transferable funds in time. Greenwald’s comparison of the global financial crisis with 2023 puts the relevant unit of time at the centre of that problem.",
+    "In the earlier crisis, she recalled, the largest bank failure involved $17 billion of deposit withdrawals over nine days. The experience led banks to rethink overnight and 30-day contingency plans and short-term interbank borrowing. Supervisors assessed the timing of cash flows alongside capital shortfalls and, in some resolutions she worked on, had days or months to coordinate with the deposit insurer and discount window. Those figures describe one failure and her resolution experience. They do not establish a normal withdrawal rate for other banks.",
+    "By 2023, she said, some funding needs emerged within hours. She also drew a distinction between identifiable links among institutions and depositors acting on perceived similarities between banks, including regional banks in the Dallas district and the western US. For a bank creditor, that matters because a review of direct counterparty exposures can miss a source of joint withdrawals. It also changes how to read a 30-day funding estimate: two banks with the same cumulative outflow can face very different outcomes if one needs the cash on the first afternoon.",
+    "Greenwald cited a Federal Reserve Financial Services study from the preceding year. Some 78% of consumers preferred faster payments, and nearly half held balances at nonbank providers facilitating them. The first number measures preferences and the second the prevalence of balances. Neither measures the share of deposits that would leave in stress. Her question was how to retain the convenience of round-the-clock payments while giving institutions the resources and procedures to settle them under pressure. Tokenised deposits and digital assets were among the topics for the conference. The remarks announced no operational change, liquidity requirement or rate decision."
+  ],
+  "questions": [
+    {
+      "question": "What was the maximum cash shortfall within the first hours of a run?",
+      "detail": "The historical comparison establishes that the response window shortened. The peak within-day gap determines whether a bank can settle withdrawals before arranging new borrowing. Compare timestamped deposit debits and actual funding receipts in official crisis reviews, including the largest gap before the next funding source opened."
+    },
+    {
+      "question": "Which similarities triggered withdrawals at otherwise unconnected banks?",
+      "detail": "The speaker identifies perceived similarity but gives no bank-level measure. Depositor overlap, funding concentration and asset composition imply different risks for a portfolio of regional-bank debt. Supervisory reviews, bank filings and contemporaneous deposit flows would help distinguish common customer behaviour from direct financial links."
+    },
+    {
+      "question": "Which sources of cash can banks mobilise outside business hours?",
+      "detail": "Payment preference evidence says little about weekend funding capacity. Compare service hours, collateral access and settlement cut-offs with the timing of liabilities in banks’ contingency plans. The relevant measure is cash delivered before a payment deadline, including at times when the usual funding desk is closed."
+    }
+  ],
+  "limitation": ""
+}

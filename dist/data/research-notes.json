@@ -1773,6 +1773,19 @@
     }
   },
   {
+    "title": "Logan would backstop Treasury trading while keeping monetary policy restrictive",
+    "bank": "Federal Reserve Bank of Dallas",
+    "date": "2026-11-13",
+    "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl261113",
+    "excerpt": "Lorie Logan favoured tighter monetary policy on 13 November and judged the Treasury market to be functioning well.",
+    "file": "2026-11-13-5aaa8717d6.json",
+    "publication": {
+      "title": "Operational readiness and bank funding: Considerations for depository institutions and the Federal Reserve",
+      "type": "Speech",
+      "jurisdiction": "United States"
+    }
+  },
+  {
     "title": "Jefferson sees AI investment lifting demand before productivity expands supply",
     "bank": "Federal Reserve Board",
     "date": "2026-11-13",
@@ -1783,6 +1796,19 @@
       "jurisdiction": "United States",
       "type": "Speech",
       "title": "Philip Jefferson · New Technology, Old Questions: Productivity Puzzles and the Macroeconomy"
+    }
+  },
+  {
+    "title": "Instant payments shorten the time a bank has to fund an outflow",
+    "bank": "Federal Reserve Bank of Dallas",
+    "date": "2026-11-13",
+    "url": "https://www.dallasfed.org/news/speeches/speeches-leaders/2026/261113eg",
+    "excerpt": "Emily Greenwald’s opening remarks in Dallas on 13 November identified a mismatch between the speed customers now expect from payments and the time banks historically had to arrange funding.",
+    "file": "2026-11-13-320c16d716.json",
+    "publication": {
+      "title": "Opening remarks for the 2026 Bank Funding Conference",
+      "type": "Speech",
+      "jurisdiction": "United States"
     }
   },
   {
@@ -1881,6 +1907,88 @@
     }
   },
   {
+    "title": "Which Turkish banks passed cheaper central-bank funding on to borrowers?",
+    "bank": "Central Bank of the Republic of Türkiye",
+    "date": "2026-11-12",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/6b3b5c32-4930-4bc5-9ef6-6b1e2fcb14f8/Box_2.1_26_iv.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-6b3b5c32-4930-4bc5-9ef6-6b1e2fcb14f8-q7f0oO0",
+    "excerpt": "Türkiye’s return to one-week repo funding lowered the average rate banks paid the central bank.",
+    "file": "2026-11-12-59a5d003dd.json",
+    "publication": {
+      "title": "Box 2.1 The Role of Bank Heterogeneity in Monetary Transmission",
+      "type": "Research",
+      "jurisdiction": "Türkiye"
+    }
+  },
+  {
+    "title": "What the CBRT bought when Turkish government bond liquidity came under pressure",
+    "bank": "Central Bank of the Republic of Türkiye",
+    "date": "2026-11-12",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/ee472bfc-00c2-42f6-b463-79e92eaee075/Box_1.1_26_iv.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-ee472bfc-00c2-42f6-b463-79e92eaee075-q7f0ciB",
+    "excerpt": "The CBRT brought government bond purchases forward twice in 2026.",
+    "file": "2026-11-12-9114e9de95.json",
+    "publication": {
+      "title": "Box 1.1 Outright Purchases and Bond Markets",
+      "type": "Research",
+      "jurisdiction": "Türkiye"
+    }
+  },
+  {
+    "title": "Weak orders and slow collections kept Turkish firms cautious even as borrowing rates eased",
+    "bank": "Central Bank of the Republic of Türkiye",
+    "date": "2026-11-12",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/014886d1-6be8-49e4-a684-f1fa8ac18ad1/Box_2.3_26_iv.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-014886d1-6be8-49e4-a684-f1fa8ac18ad1-q7f0Te3",
+    "excerpt": "Interviews during July–September found little evidence that easier borrowing costs were translating into an investment recovery.",
+    "file": "2026-11-12-967511a7b8.json",
+    "publication": {
+      "title": "Box 2.3 Findings from Interviews with Firms",
+      "type": "Research",
+      "jurisdiction": "Türkiye"
+    }
+  },
+  {
+    "title": "Türkiye’s new inflation path relies on weak domestic demand absorbing an energy shock",
+    "bank": "Central Bank of the Republic of Türkiye",
+    "date": "2026-11-12",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/a98b93fe-ffb5-4868-9e6b-6dccdd4083f9/1c26_iv.pdf?CACHEID=ROOTWORKSPACE-a98b93fe-ffb5-4868-9e6b-6dccdd4083f9-q7f00J1&MOD=AJPERES",
+    "excerpt": "The Central Bank of the Republic of Türkiye forecast year-end inflation of 29.5% in November while retaining a 24% interim target for 2026.",
+    "file": "2026-11-12-8c698c7fb1.json",
+    "publication": {
+      "title": "Inflation Report 2026-IV – official overview",
+      "type": "Forecast",
+      "jurisdiction": "Türkiye",
+      "aliases": [
+        "https://www.tcmb.gov.tr/wps/wcm/connect/a98b93fe-ffb5-4868-9e6b-6dccdd4083f9/1c26_iv.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-a98b93fe-ffb5-4868-9e6b-6dccdd4083f9-q7jGj1Z",
+        "https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb+en/main+menu/publications/reports/inflation+report/2026/inflation+report+2026+-+iv"
+      ]
+    }
+  },
+  {
+    "title": "Türkiye gained export share alongside China, with sharply different outcomes in apparel and steel",
+    "bank": "Central Bank of the Republic of Türkiye",
+    "date": "2026-11-12",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/8729fe63-3ffe-49c3-a3cb-3be9cb162610/Box_2.4_26_iv.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-8729fe63-3ffe-49c3-a3cb-3be9cb162610-q7f15dj",
+    "excerpt": "Growth in import markets explains most of Türkiye’s export gains in the markets it shared with China between 2021 and 2025.",
+    "file": "2026-11-12-9b9e1146df.json",
+    "publication": {
+      "title": "Box 2.4 Türkiye's Market Share Performance in Export Markets Shared with China",
+      "type": "Research",
+      "jurisdiction": "Türkiye"
+    }
+  },
+  {
+    "title": "Turkish money-fund withdrawals reached banks through deposits and repo collateral",
+    "bank": "Central Bank of the Republic of Türkiye",
+    "date": "2026-11-12",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/16d0c6d0-33e9-4ad5-b772-843db3776baa/Box_2.2_26_iv.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-16d0c6d0-33e9-4ad5-b772-843db3776baa-q7f0ASE",
+    "excerpt": "The CBRT concludes that much of the money withdrawn from Turkish mutual funds stayed in the domestic financial system.",
+    "file": "2026-11-12-89859c4e22.json",
+    "publication": {
+      "title": "Box 2.2 Recent Developments in Mutual Funds",
+      "type": "Research",
+      "jurisdiction": "Türkiye"
+    }
+  },
+  {
     "title": "The assumptions behind Türkiye’s November inflation forecast, chart by chart",
     "bank": "Central Bank of the Republic of Türkiye",
     "date": "2026-11-12",
@@ -1949,6 +2057,19 @@
       "aliases": [
         "https://tcmb.gov.tr/wps/wcm/connect/6995ca32-dead-4908-8630-510a69985923/SpeechG12_11_2026.pdf?CACHEID=ROOTWORKSPACE-6995ca32-dead-4908-8630-510a69985923-q7ePhDc&MOD=AJPERES"
       ]
+    }
+  },
+  {
+    "title": "Fixed-rate mortgage borrowers spent more during Türkiye’s inflation surge, but the gap narrowed in 2025",
+    "bank": "Central Bank of the Republic of Türkiye",
+    "date": "2026-11-12",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/6e50b0a4-40d2-4593-b822-cb13b4c8f7b5/Box_2.5_26_iv.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-6e50b0a4-40d2-4593-b822-cb13b4c8f7b5-q7f1g3E",
+    "excerpt": "Homeowners with mortgages increased real consumption relative to mortgage-free homeowners after Turkish inflation accelerated.",
+    "file": "2026-11-12-e1e3828026.json",
+    "publication": {
+      "title": "Box 2.5 The Effect of the Decline in Mortgage Debt Burden on Consumption",
+      "type": "Research",
+      "jurisdiction": "Türkiye"
     }
   },
   {
@@ -2174,6 +2295,22 @@
     }
   },
   {
+    "title": "Korea’s unanimous hold left the next hike contingent on who shared in the chip boom",
+    "bank": "Bank of Korea",
+    "date": "2026-11-10",
+    "url": "https://www.bok.or.kr/eng/bbs/E0001620/view.do?menuNo=400021&nttId=11066451",
+    "excerpt": "The Bank of Korea held its Base Rate at 3.00% on 22 October after two consecutive increases.",
+    "file": "2026-11-10-adfb0b0140.json",
+    "publication": {
+      "title": "Minutes of the Monetary Policy Board Meeting (October 2026)",
+      "type": "Minutes",
+      "jurisdiction": "South Korea",
+      "aliases": [
+        "https://www.bok.or.kr/fileSrc/eng/30f760d0a57c427a96b850b68c06c363/2/572663100b86464a8f67075e72a39e31.pdf"
+      ]
+    }
+  },
+  {
     "title": "Japan’s October policy debate turns on how quickly to approach neutral",
     "bank": "Bank of Japan",
     "date": "2026-11-10",
@@ -2252,6 +2389,19 @@
       "jurisdiction": "United States",
       "type": "Speech",
       "title": "Michelle Bowman · The U.S. Economy and Considerations for Monetary Policy"
+    }
+  },
+  {
+    "title": "When did the Fed’s response improve? A 150-year comparison of shocks and policy choices",
+    "bank": "Federal Reserve Bank of New York",
+    "date": "2026-11-09",
+    "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/has-u-s-monetary-policy-really-improved-a-150-year-perspective",
+    "excerpt": "Regis Barnichon and Geert Mesters find that the clearest improvement in US monetary policy came after the Volcker disinflation.",
+    "file": "2026-11-09-a6aba26750.json",
+    "publication": {
+      "title": "Has U.S. Monetary Policy Really Improved? A 150‑Year Perspective",
+      "type": "Research",
+      "jurisdiction": "United States"
     }
   },
   {

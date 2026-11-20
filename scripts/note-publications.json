@@ -2114,5 +2114,67 @@
     "jurisdiction": "United States",
     "type": "Research",
     "title": "Wages Are Cooling, While Supercore Inflation Isn't"
+  },
+  "2026-11-10-adfb0b0140.json": {
+    "title": "Minutes of the Monetary Policy Board Meeting (October 2026)",
+    "type": "Minutes",
+    "jurisdiction": "South Korea",
+    "aliases": [
+      "https://www.bok.or.kr/fileSrc/eng/30f760d0a57c427a96b850b68c06c363/2/572663100b86464a8f67075e72a39e31.pdf"
+    ]
+  },
+  "2026-11-13-320c16d716.json": {
+    "title": "Opening remarks for the 2026 Bank Funding Conference",
+    "type": "Speech",
+    "jurisdiction": "United States"
+  },
+  "2026-11-13-5aaa8717d6.json": {
+    "title": "Operational readiness and bank funding: Considerations for depository institutions and the Federal Reserve",
+    "type": "Speech",
+    "jurisdiction": "United States"
+  },
+  "2026-11-12-8c698c7fb1.json": {
+    "title": "Inflation Report 2026-IV – official overview",
+    "type": "Forecast",
+    "jurisdiction": "Türkiye",
+    "aliases": [
+      "https://www.tcmb.gov.tr/wps/wcm/connect/a98b93fe-ffb5-4868-9e6b-6dccdd4083f9/1c26_iv.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-a98b93fe-ffb5-4868-9e6b-6dccdd4083f9-q7jGj1Z",
+      "https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb+en/main+menu/publications/reports/inflation+report/2026/inflation+report+2026+-+iv"
+    ]
+  },
+  "2026-11-09-a6aba26750.json": {
+    "title": "Has U.S. Monetary Policy Really Improved? A 150‑Year Perspective",
+    "type": "Research",
+    "jurisdiction": "United States"
+  },
+  "2026-11-12-9114e9de95.json": {
+    "title": "Box 1.1 Outright Purchases and Bond Markets",
+    "type": "Research",
+    "jurisdiction": "Türkiye"
+  },
+  "2026-11-12-59a5d003dd.json": {
+    "title": "Box 2.1 The Role of Bank Heterogeneity in Monetary Transmission",
+    "type": "Research",
+    "jurisdiction": "Türkiye"
+  },
+  "2026-11-12-89859c4e22.json": {
+    "title": "Box 2.2 Recent Developments in Mutual Funds",
+    "type": "Research",
+    "jurisdiction": "Türkiye"
+  },
+  "2026-11-12-967511a7b8.json": {
+    "title": "Box 2.3 Findings from Interviews with Firms",
+    "type": "Research",
+    "jurisdiction": "Türkiye"
+  },
+  "2026-11-12-9b9e1146df.json": {
+    "title": "Box 2.4 Türkiye's Market Share Performance in Export Markets Shared with China",
+    "type": "Research",
+    "jurisdiction": "Türkiye"
+  },
+  "2026-11-12-e1e3828026.json": {
+    "title": "Box 2.5 The Effect of the Decline in Mortgage Debt Burden on Consumption",
+    "type": "Research",
+    "jurisdiction": "Türkiye"
   }
 }

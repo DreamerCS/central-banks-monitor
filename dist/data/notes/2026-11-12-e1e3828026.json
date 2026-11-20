@@ -1,0 +1,28 @@
+{
+  "title": "Fixed-rate mortgage borrowers spent more during Türkiye’s inflation surge, but the gap narrowed in 2025",
+  "bank": "Central Bank of the Republic of Türkiye",
+  "date": "2026-11-12",
+  "url": "https://www.tcmb.gov.tr/wps/wcm/connect/6e50b0a4-40d2-4593-b822-cb13b4c8f7b5/Box_2.5_26_iv.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-6e50b0a4-40d2-4593-b822-cb13b4c8f7b5-q7f1g3E",
+  "summary": [
+    "Homeowners with mortgages increased real consumption relative to mortgage-free homeowners after Turkish inflation accelerated. The estimated difference reached approximately 16% in 2024 and narrowed in 2025. The mechanism is plausible for outstanding fixed-rate mortgages. An unexpected rise in prices erodes the real value of a predetermined nominal payment. Borrowers whose nominal resources rise can support spending while meeting the same instalment. This describes a distributional channel of monetary transmission. A household taking out a new loan at current rates faces a different financing decision (Box 2.5, pp. 1–3).",
+    "The authors compare homeowners with other homeowners so both groups have exposure to house-price appreciation. In the Household Budget Survey, 57% of sampled households owned their homes, and 16% of those owners had mortgage debt. Annual cross-sections cover 2016–2025, with no surveys in 2020 or 2021. The observations are different household samples over time. The study excludes actual and imputed rent and constructs household-specific deflators using four-digit consumption price indices and household spending weights. That matters if the groups bought different baskets during the inflation surge. Survey income covers the previous twelve months and is adjusted to year-end prices, while month and region controls are constructed using CPI-based proxies (p. 1, footnotes 1–2).",
+    "The empirical comparison allows the mortgage gap to change each year relative to 2016. It controls for demographic and employment characteristics, age and education groups interacted with year, and year-by-month-by-region effects. Standard errors are clustered at the last of those levels. Total spending is estimated in logs and by Poisson pseudo-maximum likelihood. The latter allows the category regressions to retain households reporting zero spending on, for example, durables. The total expenditure regressions use 56,448 observations. Chart 1 shows estimated annual gaps, including the baseline mortgage coefficient. By contrast, the annual interactions in Table 1 and Chart 2 measure changes in the gap from the base year. Reading either chart as the growth rate of an individual household’s spending would exaggerate what the data identify.",
+    "The groups moved broadly together before the interruption in the survey. In 2024 the log-spending interaction was 0.158 and the corresponding Poisson coefficient 0.182, both significant at 1%. In 2025 these fell to 0.072 and 0.056. Only the log specification still reached 5%. The comparison of average interactions in 2022–25 against 2017–19 was stronger for total spending, non-durables, semi-durables and services than for durables, where the reported p-value was 0.0833. Services and durables lost statistical significance in 2025. Wide confidence intervals around durable purchases leave room for economically material effects in either direction (Table 1, Charts 1–2).",
+    "The results are consistent with relief on existing fixed payments supporting consumption even when borrowing fresh money is expensive. The groups can also change composition as households take out or repay mortgages. The survey does not follow the same household through the inflation surprise, and the estimates do not isolate a given change in a borrower’s real instalment from changes in its earnings or other assets. The borrower comparison alone cannot quantify the net effect on national consumption once creditors and households without property are included."
+  ],
+  "questions": [
+    {
+      "question": "Does expenditure respond to the size of the real instalment saving?",
+      "detail": "The survey comparison identifies mortgage status. Loan-level payment schedules, origination dates and remaining balances linked to income and spending would allow a dose-response test. That would improve forecasts of household sensitivity during disinflation."
+    },
+    {
+      "question": "What drove the narrowing in 2025?",
+      "detail": "The narrowing appears across categories, with some differences between the total-spending specifications. Separate existing borrowers, recent entrants and households paying off debt, and compare their wage growth and loan terms. This would show how long a spending cushion could persist after inflation slowed."
+    },
+    {
+      "question": "How large was the offset for lenders and other households?",
+      "detail": "Borrowers were a minority of owners and the analysis excludes renters from the comparison. Balance-sheet data on who held the nominal claims and household expenditure surveys by asset position would help translate redistribution into a net consumption exposure."
+    }
+  ],
+  "limitation": ""
+}

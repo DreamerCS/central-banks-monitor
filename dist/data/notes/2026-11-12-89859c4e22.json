@@ -1,0 +1,28 @@
+{
+  "title": "Turkish money-fund withdrawals reached banks through deposits and repo collateral",
+  "bank": "Central Bank of the Republic of Türkiye",
+  "date": "2026-11-12",
+  "url": "https://www.tcmb.gov.tr/wps/wcm/connect/16d0c6d0-33e9-4ad5-b772-843db3776baa/Box_2.2_26_iv.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-16d0c6d0-33e9-4ad5-b772-843db3776baa-q7f0ASE",
+  "summary": [
+    "The CBRT concludes that much of the money withdrawn from Turkish mutual funds stayed in the domestic financial system. This helped contain the aggregate funding shock. It did little to remove the immediate cash requirement at a redeeming fund, the refinancing needs of issuers, or the risk faced by a counterparty holding less liquid collateral. The distinction matters because an investor can move into a lira bank deposit on the very day another institution needs central-bank liquidity (Box 2.2, pp. 1–4).",
+    "Mutual funds had grown rapidly before the episode. Their portfolio size fell from about TRY 9.9 trillion in August to TRY 7.9 trillion in October on the reporting perimeter used in the box, which excludes frozen funds from the latter figure. Policy changes came in close succession. The Capital Markets Board revised investment and concentration rules on 28 August. A 5 September decision changed the tax treatment of institutional investors’ returns on money-market and specified hedge funds. On 17 September the regulator decided to liquidate certain funds and on 1 October it published the procedures. The qualifying-investor threshold rose from TRY 10 million to TRY 50 million later in October. These overlapping changes limit what can be attributed to any single announcement (Charts 1–3).",
+    "The redemptions extended to funds still trading. The authors report TRY 226 billion of net outflows from end-August to the liquidation decision, and TRY 522 billion in the subsequent period. Outflows slowed after the procedures became clear, although day-to-day flows remained volatile. Chart 4 measures something different. Between 28 August and 4 November, money-market and similar funds’ outstanding balances fell from TRY 3.6 trillion to TRY 2.5 trillion. Non-resident legal entities accounted for about TRY 212 billion of the fall, resident companies TRY 569 billion and resident individuals TRY 295 billion. Residents thus accounted for about four-fifths. Changes in investors’ holdings and net redemptions over different windows cannot be added together.",
+    "Funds met cash calls partly from bank deposits and reverse repos. Their collateral could include government bonds, private debt or shares, with very different liquidation values under pressure. On 17 September the CBRT increased weekly repo funding, revised interbank borrowing limits and lowered collateral haircuts. October measures reduced certain blocked reserve requirements, raised the SME loan growth limit and exempted some lira loans for repayment of domestic non-bank debt falling due by year-end. These actions addressed cash availability and refinancing at different points in the system.",
+    "Chart 6 adjusts fund flows for investment returns. From 28 August to 30 October, the decline approached TRY 1 trillion, less than the combined rise in deposits and households’ government securities. Bank deposits held by funds fell, meaning growth elsewhere in commercial deposits was stronger than the aggregate suggests. Some FX and precious-metals fund balances also moved into FX deposits. By 4 November the lira share was 62% in deposits and 61% when funds were included (Chart 7, five-day averages). Those aggregates support continued lira preference. They cannot trace each investor’s destination or establish that every bank or corporate issuer could replace funding on similar terms."
+  ],
+  "questions": [
+    {
+      "question": "Which intermediaries actually received the replacement deposits?",
+      "detail": "An aggregate migration into lira deposits can conceal a loss of funding at the banks facing the greatest repo withdrawals. Matched fund and bank balance sheets, deposit tenors and rates would identify institutions most exposed to expensive replacement funding."
+    },
+    {
+      "question": "Could the collateral have been sold at reported valuations during peak withdrawals?",
+      "detail": "The range of eligible assets is broad. Counterparty-level repo maturity, haircut, concentration and trading-volume data would distinguish readily usable liquidity from collateral requiring a large discount. That difference determines the tail risk to short-dated credit."
+    },
+    {
+      "question": "Which corporate maturities required bank refinancing after the withdrawals?",
+      "detail": "The October exemption created a route to refinance qualifying lira debt. Combine scheduled maturities with subsequent loan drawdowns and issuer cash balances to assess take-up, refinancing costs and where risk migrated."
+    }
+  ],
+  "limitation": ""
+}

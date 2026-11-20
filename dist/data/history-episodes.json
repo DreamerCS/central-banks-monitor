@@ -325,7 +325,7 @@
     "anchor": "2022-06",
     "headline": "A price shock met a different operating regime",
     "analysis": "When the FOMC raised rates on June 15, 2022, the latest published U.S. headline CPI reading was May’s 8.6% year-on-year increase. The Committee cited pandemic-related imbalances, energy costs and broader price pressures, and anticipated further increases. June’s 9.1% headline reading arrived on July 13. The chart calculates year-on-year inflation from the seasonally adjusted index, yielding about 9.0% for June, when unemployment was 3.6%. The energy shock invites a comparison with the 1970s. In 2022, however, administered rates in an ample-reserves system carried the policy signal that the Fed had sought to convey through its reserve operations in October 1979.",
-    "test": "Separate the instrument from the economic shock. The inflation test below compares the same predictors across several training periods. For market pricing, compare changes in expected future rates and longer yields around the same announcement, rather than mapping the size of a rate change directly onto the bond return.",
+    "test": "Using quarterly information sets from the Philadelphia Fed, the model fitted on 2000–2008 beat the 2009–2019 model on 14 of 18 six-month US inflation forecasts with target months from January 2022 to July 2026. Against the first available inflation reading, mean absolute errors were 0.83 and 1.56 percentage points, respectively, versus 1.05 for carrying inflation forward. The same predictors entered both regressions: current year-on-year inflation and the twelve-month change in unemployment. Omitting 2022 targets narrowed the earlier model’s advantage from 0.73 to 0.28 points. Omitting each other calendar year in turn left an advantage of 0.80–0.86 points. Overlapping forecast horizons and so few target dates make these sensitivity checks descriptive. This result does not identify which policy regime caused inflation or which sample will win the next cycle.",
     "sources": [
       {
         "label": "FOMC · June 2022 decision",
@@ -342,6 +342,10 @@
       {
         "label": "FOMC · operating framework",
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190130c.htm"
+      },
+      {
+        "label": "Philadelphia Fed · real-time US data and vintage definitions",
+        "url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/real-time-data-set-for-macroeconomists"
       }
     ],
     "studyLink": {

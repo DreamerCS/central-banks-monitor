@@ -1,0 +1,28 @@
+{
+  "title": "Which Turkish banks passed cheaper central-bank funding on to borrowers?",
+  "bank": "Central Bank of the Republic of Türkiye",
+  "date": "2026-11-12",
+  "url": "https://www.tcmb.gov.tr/wps/wcm/connect/6b3b5c32-4930-4bc5-9ef6-6b1e2fcb14f8/Box_2.1_26_iv.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-6b3b5c32-4930-4bc5-9ef6-6b1e2fcb14f8-q7f0oO0",
+  "summary": [
+    "Türkiye’s return to one-week repo funding lowered the average rate banks paid the central bank. The reduction reached customers unevenly. Banks entering the episode with higher profitability cut loan rates relative to deposit rates more than their peers. Banks with higher credit risk maintained wider relative spreads. The evidence is strongest for the profitability split and weakest for the claim that a larger maturity gap improved transmission across the entire loan book (Box 2.1, Table 1).",
+    "The aggregate and bank-level results answer different questions. Between 21 August and 23 October, the weighted average funding rate fell 319 basis points. Commercial and general-purpose loan rates fell 161 and 256 basis points respectively, while deposit rates fell 275. On that comparison the commercial loan rate declined less than the deposit rate. It is entirely possible for that aggregate spread to widen while particular banks narrow theirs relative to competitors. The endpoint also includes the 22 October policy rate cut of 100 basis points. The bank-level estimation ends on 16 October, before that separate decision (Charts 1–2).",
+    "The authors compare 26 banks weekly from 19 June to 16 October. They exclude participation, development and investment banks, digital banks and branches. Each specification splits the banks at the median of a pre-existing financial characteristic, then compares changes across the groups after repo funding resumed. Bank fixed effects absorb persistent differences in average spreads. Week effects absorb shocks common to banks, including the common component of September’s market disruption. Using the deposit rate as a benchmark matters when deposits themselves are being repriced as money leaves investment funds. The three characteristics enter separate exercises. They need not describe three independent effects on the same bank.",
+    "For above-median profitability the estimated change in spreads relative to the other group was −2.45 percentage points on general-purpose loans, −1.39 on commercial loans and −1.78 for total loans. All three estimates were significant at 1%. For higher credit risk, the corresponding estimates were +1.42, +1.28 and +2.22 points. The general-purpose estimate met only the 10% threshold. Using the maturity or repricing gap, the general-purpose estimate was −4.24 points, the commercial estimate −0.83 and the total −0.55. Only the first met the 1% threshold, the second met 10%, and the total was statistically indistinguishable from zero. The number of usable bank-week observations varies by outcome, from 366 to 445 (Table 1).",
+    "The distinction between contractual maturity and repricing is important. Floating-rate positions enter the gap by their repricing period. The authors report similar results using alternative profitability and asset-quality indicators. They also note that above-median groups started with higher spreads. The short before-and-after comparison is vulnerable to differential exposure to the September disruption, changing borrower mix and convergence from unusually wide initial spreads. For investors, the estimates identify where customer pricing differed. Projecting earnings requires further information about volumes, loan losses and deposit retention."
+  ],
+  "questions": [
+    {
+      "question": "Would the spread differences survive adjustment for borrower mix?",
+      "detail": "More profitable banks may serve firms with different credit quality or offer loans of different maturity. Match comparable borrowers and products across lenders in supervisory credit records. A continuing differential would give more weight to the bank balance-sheet channel when forecasting loan pricing."
+    },
+    {
+      "question": "Did the groups already have converging spreads before repo auctions resumed?",
+      "detail": "Table 1 measures relative changes and the footnotes identify higher starting spreads. Bank-level pre-trends, placebo dates and sensitivity to individual banks would distinguish persistent transmission differences from convergence. This matters for extrapolating to the next easing."
+    },
+    {
+      "question": "Did lower customer spreads generate enough new business to protect net income?",
+      "detail": "Primary pricing is only one margin. Examine new lending, deposit composition, expected losses and repricing schedules in banks’ quarterly disclosures. Those data could show whether narrower spreads raised volumes or reduced risk-adjusted earnings."
+    }
+  ],
+  "limitation": ""
+}
