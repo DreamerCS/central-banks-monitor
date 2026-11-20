@@ -1,9 +1,10 @@
 const DAY = 86_400_000;
-const colours = ["#245875", "#a36628", "#2e8077", "#8a527e", "#915453", "#4b6d38", "#5345a0", "#627b8b"];
+const colours = ["#1b6156", "#a04d2a", "#3d6794", "#75568d", "#a32e61", "#5d6a1c", "#3b427e", "#7b5741"];
 const defaults = ["US", "XM", "GB", "JP"];
 const ui = Object.fromEntries([...document.querySelectorAll("[id]")].map(node => [node.id, node]));
 const metricButtons = [...document.querySelectorAll("[data-metric]")];
 const grainButtons = [...document.querySelectorAll("[data-grain]")];
+const viewButtons = [...document.querySelectorAll("[data-view]")];
 const rangeButtons = [...document.querySelectorAll("[data-range]")];
 const metrics = {
   rates: {
@@ -32,6 +33,7 @@ const canvas = ui["history-canvas"];
 const ctx = canvas.getContext("2d");
 
 let firstDay, lastDay, archiveStart, archiveEnd, banks;
+let view = "level";
 let metric = "rates", grain = "year", from, to, frame, hover = -1;
 const selected = {rates: [...defaults], publications: [...defaults], neer: ["SG"]};
 
@@ -116,12 +118,29 @@ function pointFor(bank, period) {
   return null;
 }
 
+function seriesPoint(bank, period) {
+  const current = pointFor(bank, period);
+  if (!current || view === "level" || metric === "publications") return current;
+  // Use the final observed close before this visible interval, including bank holidays.
+  const earliest = Math.max(firstDay, period.start - 7);
+  for (let day = period.start - 1; day >= earliest; day--) {
+    const baseline = bank.values[day - firstDay];
+    if (!Number.isFinite(baseline)) continue;
+    const change = metric === "rates"
+      ? (current.value - baseline) * 100
+      : 100 * (current.value / baseline - 1);
+    return {value: Number(change.toFixed(8)), day: current.day, baselineDay: day};
+  }
+  return null;
+}
+
 function availableRange() {
   return metric === "publications" ? [archiveStart, archiveEnd] : [firstDay, lastDay];
 }
 
 function shortcut(name) {
   const [start, end] = availableRange();
+  if (name === "ytd") return [Math.max(start, toDay("2026-01-01")), end];
   if (name === "recent") return [Math.max(start, toDay("2026-06-01")), Math.min(end, toDay("2026-07-31"))];
   if (name === "five") {
     const date = toDate(end);
@@ -144,7 +163,7 @@ function setRange(start, end) {
   endField.value = iso(to);
   for (const button of rangeButtons) {
     const [a, b] = shortcut(button.dataset.range);
-    button.disabled = button.dataset.range === "five" && min === a;
+    button.disabled = ["five", "ytd"].includes(button.dataset.range) && min === a;
     const chosen = !button.disabled && a === from && b === to;
     button.setAttribute("aria-pressed", chosen);
   }
@@ -165,7 +184,7 @@ function draw() {
   canvas.width = Math.round(width * scale);
   canvas.height = Math.round(height * scale);
   ctx.scale(scale, scale);
-  ctx.font = "12px Arial, sans-serif";
+  ctx.font = '11px "IBM Plex Mono", ui-monospace, monospace';
   const left = 48, right = width - 15, top = 12, bottom = height - 33;
   const x = index => periods.length === 1 ? (left + right) / 2 : left + index * (right - left) / (periods.length - 1);
   frame.bounds = {left, right, x};
@@ -180,6 +199,10 @@ function draw() {
     return;
   }
   if (metric === "publications") low = 0;
+  if (view === "change") {
+    low = Math.min(0, low);
+    high = Math.max(0, high);
+  }
   high = Math.max(high, low + (metric === "rates" ? 0.1 : 1));
   const approx = (high - low) / 5;
   const magnitude = 10 ** Math.floor(Math.log10(approx));
@@ -191,10 +214,10 @@ function draw() {
   ctx.lineWidth = 1;
   ctx.textAlign = "right";
   ctx.textBaseline = "middle";
-  ctx.fillStyle = "#4a646f";
+  ctx.fillStyle = "#5b665d";
   for (let i = 0; i <= Math.round((ceil - floor) / step); i++) {
     const value = floor + step * i;
-    ctx.strokeStyle = Math.abs(value) < 1e-9 ? "#acbfbd" : "#e0e9e5";
+    ctx.strokeStyle = Math.abs(value) < 1e-9 ? "#93988a" : "#dcdcd1";
     ctx.beginPath();
     ctx.moveTo(left, y(value));
     ctx.lineTo(right, y(value));
@@ -222,7 +245,7 @@ function draw() {
       const connected = previous >= 0 && gap <= (grain === "day" ? 4 : 1);
       if (!connected) ctx.moveTo(x(i), y(point.value));
       else {
-        if (grain === "day" && metric === "rates") ctx.lineTo(x(i), y(line.points[previous].value));
+        if (grain === "day" && metric === "rates" && view === "level") ctx.lineTo(x(i), y(line.points[previous].value));
         ctx.lineTo(x(i), y(point.value));
       }
       if (periods.length < 42 || (!connected && !line.points.slice(i + 1, i + (grain === "day" ? 5 : 2)).some(Boolean))) markers.push([x(i), y(point.value)]);
@@ -251,14 +274,17 @@ function inspect(index, interactive = false) {
   hover = interactive ? index : -1;
   frame.inspected = index;
   ui["inspector-period"].textContent = period.start === period.end ? dayLabel(period.end) : `${dayLabel(period.start)} – ${dayLabel(period.end)}`;
-  ui["inspector-label"].textContent = metric === "publications" ? "Indexed in period" : "Latest in period";
+  ui["inspector-label"].textContent = metric === "publications" ? "Indexed in period" : view === "change" ? "Period change" : "Latest in period";
   const cards = frame.lines.map(line => {
     const point = line.points[index];
     const card = element("div", "", "history-value");
     card.style.setProperty("--series-colour", line.colour);
-    const suffix = metric === "rates" ? "%" : "";
-    const reading = point ? `${valueFormat.format(point.value)}${suffix}` : "—";
-    const detail = !point ? "No observation" : metric === "publications" ? "Documents" : dayLabel(point.day);
+    const suffix = view === "change" ? (metric === "rates" ? " bp" : "%") : metric === "rates" ? "%" : "";
+    const prefix = view === "change" && point?.value > 0 ? "+" : "";
+    const reading = point ? `${prefix}${valueFormat.format(point.value)}${suffix}` : "—";
+    const detail = !point ? "No observation" : metric === "publications" ? "Documents" : view === "change"
+      ? `${dayLabel(point.baselineDay)} – ${dayLabel(point.day)}`
+      : dayLabel(point.day);
     card.append(element("small", line.bank.name), element("strong", reading), element("small", detail));
     return card;
   });
@@ -291,7 +317,8 @@ function compare(lines) {
 }
 
 function sources(lines) {
-  ui["history-method-note"].textContent = metrics[metric].method;
+  ui["history-method-note"].textContent = metrics[metric].method + (view === "change"
+    ? " Changes use the last observation before the selected period and the last within it. A baseline must fall within the previous seven calendar days." : "");
   ui["history-sources"].replaceChildren();
   let note = "";
   if (metric === "rates") {
@@ -313,13 +340,17 @@ function sources(lines) {
 
 function render() {
   ui["chart-title"].textContent = metrics[metric].title;
-  ui["chart-unit"].textContent = metrics[metric].unit;
+  ui["chart-unit"].textContent = view === "change"
+    ? (metric === "rates" ? "Period change · basis points" : "Period return · percent")
+    : metrics[metric].unit;
+  ui["history-view-field"].hidden = metric === "publications";
+  for (const button of viewButtons) button.setAttribute("aria-pressed", view === button.dataset.view);
   for (const button of metricButtons) button.setAttribute("aria-pressed", metric === button.dataset.metric);
   for (const button of grainButtons) button.setAttribute("aria-pressed", grain === button.dataset.grain);
   const periods = periodsInRange();
   const lines = selected[metric].map((id, index) => {
     const bank = banks.get(id);
-    return {bank, colour: colours[index], points: periods.map(period => pointFor(bank, period))};
+    return {bank, colour: colours[index], points: periods.map(period => seriesPoint(bank, period))};
   });
   frame = {periods, lines, inspected: periods.length - 1};
   const lastObserved = Math.max(...lines.map(line => line.points.findLastIndex(Boolean)));
@@ -334,28 +365,30 @@ function render() {
 
 function selectMetric(value) {
   metric = value;
+  view = "level";
   grain = metric === "publications" ? "month" : "year";
   setRange(...shortcut("all"));
   render();
 }
 
 function exportCsv() {
-  const output = ["metric,jurisdiction,frequency,period_start,period_end,observation_date,value,unit,source_url"];
-  const unit = {rates: "percent", publications: "documents", neer: "index_2020_100"}[metric];
+  const output = ["metric,jurisdiction,frequency,period_start,period_end,observation_date,value,unit,source_url,measure,baseline_date"];
+  const unit = view === "change" ? (metric === "rates" ? "bp" : "percent_return") : {rates: "percent", publications: "documents", neer: "index_2020_100"}[metric];
   const archiveUrl = new URL("research-archive.html", location.href).href;
   for (const [i, period] of frame.periods.entries()) {
     for (const {bank, points} of frame.lines) {
       const point = points[i];
       const fields = [metric, bank.name, grain, iso(period.start), iso(period.end),
         point && metric !== "publications" ? iso(point.day) : "", point?.value ?? "", unit,
-        metric === "publications" ? archiveUrl : bank.source];
+        metric === "publications" ? archiveUrl : bank.source, metric === "publications" ? "count" : view,
+        point?.baselineDay !== undefined ? iso(point.baselineDay) : ""];
       output.push(fields.map(value => `"${String(value).replaceAll('"', '""')}"`).join(","));
     }
   }
   const url = URL.createObjectURL(new Blob([output.join("\r\n") + "\r\n"], {type: "text/csv;charset=utf-8"}));
   const link = element("a");
   link.href = url;
-  link.download = `central-banks-${metric}-${grain}-${iso(from)}-${iso(to)}.csv`;
+  link.download = `central-banks-${metric}-${view}-${grain}-${iso(from)}-${iso(to)}.csv`;
   link.click();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
@@ -374,6 +407,10 @@ async function start() {
   selectMetric(Object.hasOwn(metrics, requestedMetric) ? requestedMetric : "rates");
   new ResizeObserver(draw).observe(canvas);
   for (const button of metricButtons) button.addEventListener("click", () => selectMetric(button.dataset.metric));
+  for (const button of viewButtons) button.addEventListener("click", () => {
+    view = button.dataset.view;
+    render();
+  });
   for (const button of grainButtons) button.addEventListener("click", () => {
     grain = button.dataset.grain;
     render();

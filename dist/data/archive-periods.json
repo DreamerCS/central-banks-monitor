@@ -1,8 +1,68 @@
 [
-  {"id": "jun", "label": "June", "start": "2026-06-01", "end": "2026-06-30"},
-  {"id": "jul", "label": "July", "start": "2026-07-01", "end": "2026-07-31"},
-  {"id": "aug", "label": "August", "start": "2026-08-01", "end": "2026-08-31"},
-  {"id": "sep", "label": "September", "start": "2026-09-01", "end": "2026-09-30"},
-  {"id": "oct", "label": "October", "start": "2026-10-01", "end": "2026-10-31"},
-  {"id": "nov", "label": "November", "start": "2026-11-01", "end": "2026-11-19"}
+  {
+    "id": "jan",
+    "label": "January",
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+  },
+  {
+    "id": "feb",
+    "label": "February",
+    "start": "2026-02-01",
+    "end": "2026-02-28"
+  },
+  {
+    "id": "mar",
+    "label": "March",
+    "start": "2026-03-01",
+    "end": "2026-03-31"
+  },
+  {
+    "id": "apr",
+    "label": "April",
+    "start": "2026-04-01",
+    "end": "2026-04-30"
+  },
+  {
+    "id": "may",
+    "label": "May",
+    "start": "2026-05-01",
+    "end": "2026-05-31"
+  },
+  {
+    "id": "jun",
+    "label": "June",
+    "start": "2026-06-01",
+    "end": "2026-06-30"
+  },
+  {
+    "id": "jul",
+    "label": "July",
+    "start": "2026-07-01",
+    "end": "2026-07-31"
+  },
+  {
+    "id": "aug",
+    "label": "August",
+    "start": "2026-08-01",
+    "end": "2026-08-31"
+  },
+  {
+    "id": "sep",
+    "label": "September",
+    "start": "2026-09-01",
+    "end": "2026-09-30"
+  },
+  {
+    "id": "oct",
+    "label": "October",
+    "start": "2026-10-01",
+    "end": "2026-10-31"
+  },
+  {
+    "id": "nov",
+    "label": "November",
+    "start": "2026-11-01",
+    "end": "2026-11-20"
+  }
 ]

@@ -27,12 +27,22 @@ jobs:
         run: python3 scripts/build-research-archive.py
       - name: Check requested coverage
         run: python3 scripts/check-data.py
+      - name: Build official market event windows
+        run: |
+          python3 -m pip install 'openpyxl>=3.1,<4'
+          curl --fail --location --retry 3 --max-time 90 https://www.frbsf.org/wp-content/uploads/USMPD.xlsx -o "$RUNNER_TEMP/usmpd.xlsx"
+          curl --fail --location --retry 3 --max-time 90 https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx -o "$RUNNER_TEMP/ea-empd.xlsx"
+          python3 scripts/build-market-events.py "$RUNNER_TEMP/usmpd.xlsx" "$RUNNER_TEMP/ea-empd.xlsx"
+      - name: Refresh rates and FX history
+        run: python3 scripts/update-market-history.py
       - name: Update daily Treasury benchmark
         run: python3 scripts/update-treasury.py
       - name: Refresh central bank map activity
         run: |
           python3 -m pip install 'lxml>=5,<7'
           python3 scripts/update-map-activity.py
+      - name: Refresh speaking calendar
+        run: python3 scripts/update-speaking-calendar.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

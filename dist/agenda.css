@@ -1,0 +1,40 @@
+#speech-agenda {
+  --agenda-ink: #252b27;
+  display: flex;
+  align-items: baseline;
+  gap: .5rem 1.05rem;
+  flex-wrap: wrap;
+  font-family: inherit;
+  color: var(--agenda-ink);
+  background: #eeeae0;
+  border-block: 1px solid #c7c3b7;
+  padding: 13px clamp(18px, 4.6vw, 80px);
+  min-height: 44px;
+}
+#speech-agenda .agenda-label,
+#speech-agenda .agenda-countdown,
+#speech-agenda .agenda-time {
+  font: 600 .72rem/1.4 ui-monospace, 'SFMono-Regular', Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+}
+#speech-agenda .agenda-label { text-transform: uppercase; letter-spacing: .12em; }
+#speech-agenda .agenda-label::before {
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  width: 6px; height: 6px;
+  background: #945535;
+  margin-right: 8px;
+  vertical-align: 1px;
+}
+#speech-agenda .agenda-bank { color: #555950; font-size: .86rem; }
+#speech-agenda a { color: var(--agenda-ink); text-underline-offset: 3px; }
+#speech-agenda .agenda-speaker { font-weight: 650; font-size: .9rem; text-decoration: none; }
+#speech-agenda .agenda-speaker:hover, #speech-agenda .agenda-speaker:focus-visible { text-decoration: underline; }
+#speech-agenda .agenda-time { margin-left: auto; font-weight: 450; }
+#speech-agenda .agenda-countdown { color: #854629; }
+#speech-agenda .agenda-calendar { font-size: .86rem; }
+@media (max-width: 680px) {
+  #speech-agenda { column-gap: .65rem; }
+  #speech-agenda .agenda-time { margin-left: 0; }
+}

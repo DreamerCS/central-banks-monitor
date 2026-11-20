@@ -1,6 +1,6 @@
 "use strict";
 
-const state = { sources: [], region: "All", category: "All", query: "", sort: "institution" };
+const state = { sources: [], limit: 10, region: "All", category: "All", query: "", sort: "institution" };
 const $ = (selector) => document.querySelector(selector);
 const categories = ["All", "Policy", "Speeches", "Research"];
 const regions = ["All", "Europe", "Americas", "Asia-Pacific", "Africa"];
@@ -21,7 +21,7 @@ function filterButtons(container, choices, key) {
     button.dataset.value = choice;
     button.setAttribute("aria-pressed", String(state[key] === choice));
     button.addEventListener("click", () => {
-      state[key] = choice;
+      state[key] = choice; state.limit = 10;
       for (const item of parent.children) item.setAttribute("aria-pressed", String(item === button));
       render();
     });
@@ -76,6 +76,7 @@ function render() {
   $("#results-count").textContent = `${filtered.length} of ${state.sources.length} source pages`;
   const list = $("#results-list");
   list.replaceChildren();
+  $("#more-sources").hidden = filtered.length <= state.limit;
   if (!filtered.length) {
     const empty = document.createElement("div");
     empty.className = "empty";
@@ -87,18 +88,19 @@ function render() {
     list.append(empty);
   } else {
     const fragment = document.createDocumentFragment();
-    for (const source of filtered) fragment.append(sourceCard(source));
+    for (const source of filtered.slice(0, state.limit)) fragment.append(sourceCard(source));
     list.append(fragment);
   }
 }
 
 async function start() {
+  $("#more-sources").addEventListener("click", () => { state.limit += 20; render(); });
   filterButtons("#region-filters", regions, "region");
   filterButtons("#category-filters", categories, "category");
-  $("#search").addEventListener("input", (event) => { state.query = event.target.value; render(); });
+  $("#search").addEventListener("input", (event) => { state.limit = 10; state.query = event.target.value; render(); });
   $("#sort").addEventListener("change", (event) => { state.sort = event.target.value; render(); });
   $("#reset").addEventListener("click", () => {
-    state.region = "All"; state.category = "All"; state.query = "";
+    state.limit = 10; state.region = "All"; state.category = "All"; state.query = "";
     $("#search").value = "";
     for (const container of ["#region-filters", "#category-filters"]) {
       for (const item of $(container).children) item.setAttribute("aria-pressed", String(item.dataset.value === "All"));

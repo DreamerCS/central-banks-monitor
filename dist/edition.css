@@ -1,0 +1,71 @@
+:root{--paper:#f6f3ea;--navy:#192820;--ink:#202b24;--muted:#576257;--line:#cccbbf;--gold:#b77a51;--serif:"Iowan Old Style",Baskerville,"Palatino Linotype",Georgia,serif}
+body{background:var(--paper);color:var(--ink)}
+.shell{max-width:1440px;padding-inline:clamp(20px,5vw,82px)}
+.cbi-head{background:#19251e;color:#f8f5e9;border-bottom:1px solid #6f7666}
+.cbi-bar{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:70px}
+.cbi-name{display:inline-flex;align-items:center;gap:13px;color:inherit;text-decoration:none;font:500 clamp(1.1rem,2vw,1.4rem)/1 var(--serif);letter-spacing:-.04em}
+.cbi-name i{width:11px;height:21px;display:inline-block;border-inline:3px double #c4a37b;transform:skew(-16deg)}
+.cbi-bar nav{display:flex;gap:clamp(16px,2.2vw,38px);align-items:center}
+.cbi-bar nav a{font:400 .9rem/1.2 Arial,sans-serif;text-decoration:none;color:#dfdfd2;padding-block:7px}
+.cbi-bar nav a:hover,.cbi-bar nav a[aria-current]{color:#fff;border-bottom:1px solid #cc9b72}
+.cover{position:relative;background:#28342b;color:#fcfaf2;isolation:isolate;overflow:hidden}
+.cover-img{position:absolute;inset:0;z-index:-3;width:100%;height:100%;object-fit:cover;object-position:center 49%;filter:saturate(.75)}
+.cover:before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(13,23,19,.78) 0%,rgba(19,25,19,.5) 40%,transparent 82%),linear-gradient(0deg,#0e191a55,transparent 65%)}
+.cover-frame{position:relative;display:flex;align-items:end;min-height:clamp(360px,35vw,510px);padding-block:44px 46px}
+.cover-kicker,.eyeline{font:500 .78rem/1.5 ui-monospace,monospace;letter-spacing:.105em;text-transform:uppercase}
+.cover-kicker{color:#eee6cc;margin:0 0 21px;display:flex;gap:12px;align-items:center}
+.cover-kicker:before{content:"";width:26px;height:1px;background:#d3ae82}
+.cover h1{color:inherit;font:400 clamp(3.6rem,6.8vw,7.2rem)/.93 var(--serif);letter-spacing:-.061em;margin:0}
+.cover h1 em{color:#ebd6b0}
+.cover-links{display:flex;gap:23px;align-items:center;margin-top:27px}
+.cover-links a{font-size:.9rem;font-weight:600;text-decoration:none}
+.cover-links a:first-child{background:#f6f2e6;color:#1e2c22;padding:13px 16px}
+.cover-links a:first-child:hover{background:#fff}
+.cover-links a+ a{border-bottom:1px solid #d4c9b3;padding-block:5px}
+.cover-credit{position:absolute;right:clamp(20px,5vw,82px);bottom:18px;color:#f1e9d8;font:.75rem/1.4 ui-monospace,monospace;text-decoration:none;text-shadow:0 1px 4px #000}.cover-credit span{opacity:.6}
+.market-tape{padding-block:52px 42px}
+.tape-heading{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:22px}
+.eyeline{color:#7b503b;margin-bottom:5px}
+.tape-heading h2,.edition .section-heading h2,.edition .map-heading h2,.archive-intro h1{font:400 clamp(2.6rem,4.1vw,4.4rem)/1.04 var(--serif);letter-spacing:-.055em;color:#223025;margin:0}
+.text-link,.plot-footer a,.directory-stats a,.edition-foot a{color:inherit;text-underline-offset:4px;font-size:.9rem}
+.tape-controls{border-block:1px solid #c4c6b9;padding:13px 0;display:flex;gap:23px;align-items:center;flex-wrap:wrap}
+.tape-controls label{color:#5d665a;font: .81rem/1.6 Arial,sans-serif}
+.tape-controls select{color:#273126;background:transparent;border:none;font-size:.94rem;font-weight:600;min-height:32px;cursor:pointer}
+#tape-ranges{margin-left:auto;display:flex;gap:3px}
+#tape-ranges button{background:transparent;border:0;color:#455044;padding:7px 10px;font:.8rem ui-monospace,monospace}
+#tape-ranges [aria-pressed=true]{color:#f5f2e8;background:#2b3b2e}
+.tape-quote{margin:17px 0 0;display:flex;align-items:baseline;gap:13px;min-height:40px}
+.tape-quote strong{font:2.15rem/1.1 var(--serif);letter-spacing:-.055em}
+.tape-quote span,.plot-footer{font:.8rem/1.4 ui-monospace,monospace;color:#5b6759}
+.tape-plot{height:220px;position:relative;outline-offset:4px}
+.tape-plot svg{width:100%;height:100%;display:block}
+.tape-plot text{font:12px ui-monospace,monospace;fill:#52604f}
+.plot-footer{display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid var(--line);padding-top:9px}
+.plot-footer a{font:.78rem/1.5 ui-monospace,monospace}
+.edition .section-heading{margin:0 0 22px;padding-bottom:16px}
+.edition .index,.edition .atlas,.edition .coverage,.edition .map-section{padding-block:35px 42px}
+.map-stage{background:#24362e}
+.map-layout,.map-region,.map-location,.treasury-panel,.source-card{border-radius:0}
+.directory-stats{padding-top:22px}
+.edition .source-card,.archive-page .research-record{background:transparent;border:0;border-bottom:1px solid var(--line);padding:17px 0;transform:none}
+.edition .results-list{gap:0}
+.edition .source-card h3{color:var(--ink);margin-block:5px}
+.more-sources,.calc summary{font-weight:600;color:var(--ink);font-size:.95rem;padding:12px;cursor:pointer}
+.more-sources{background:transparent;border:1px solid var(--line);margin-top:15px}
+.calc{margin-top:20px;border-block:1px solid var(--line)}
+.calc .event-tool{margin-top:4px}
+.edition-foot{background:#1c2a20;color:var(--paper);padding:27px 0}
+.edition-foot .shell{display:flex;align-items:center;gap:22px}
+.edition-foot .cbi-name{margin-right:auto;font-size:1.22rem}
+.archive-shell{padding-block:55px 75px}
+.archive-page .archive-filters,.archive-page .archive-region-title{background:#e9e8dd}
+.archive-page .archive-months a[aria-current],.edition .filter-options button[aria-pressed=true]{background:#2c3a2e;border-color:#2c3a2e}
+.archive-page .bank-jump a,.archive-page .archive-filters select,.archive-page .archive-filters input{background:#fbf9f1}
+@media(max-width:780px){
+ .cbi-bar{flex-wrap:wrap;align-content:center;gap:5px;padding-block:10px}.cbi-bar nav{gap:16px;flex-wrap:wrap}.cbi-bar nav a{font-size:.83rem}.cover-frame{min-height:375px}.tape-controls{gap:9px 14px}
+}
+@media(max-width:520px){
+ .cbi-bar nav{width:100%}.cover-frame{padding-bottom:48px}.cover h1{font-size:clamp(3.1rem,12vw,4.5rem)}.cover-credit{bottom:10px;font-size:.7rem}
+ .market-tape{padding-block:35px}.tape-heading{align-items:end}.text-link{font-size:.8rem}.tape-controls{display:grid;grid-template-columns:1fr 1fr}.tape-controls label{display:flex;flex-direction:column}.tape-controls select{width:100%;margin-left:-3px}.tape-plot{height:190px}.edition-foot .shell{flex-wrap:wrap}.plot-footer a{font-size:.7rem}
+}
+@media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}.map-pin-pulse{animation:none}}

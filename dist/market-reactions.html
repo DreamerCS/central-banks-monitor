@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1b211e">
+  <title>Market Reactions · Central Bank Intelligence</title>
+  <meta name="description" content="Explore changes in rates, currencies and equities around central bank decisions and press conferences.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="market-reactions.css">
+  <link rel="stylesheet" href="edition.css">
+  <script type="module" src="market-reactions.js"></script>
+</head>
+<body class="reaction-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="./">Overview</a><a href="market-reactions.html" aria-current="page">Market reactions</a><a href="historical-data.html">Policy history</a><a href="research-archive.html">Archive</a></nav></div></header>
+<main id="main" class="mr-wrap">
+  <div class="mr-intro"><p>Rates &nbsp;/&nbsp; FX &nbsp;/&nbsp; Equities</p><h1>Market reactions</h1></div>
+  <p id="mr-load" role="status">Loading event data…</p>
+  <div id="mr-explorer" hidden>
+    <div class="mr-controls">
+      <label>Central bank<select id="mr-bank"></select></label>
+      <label>Event window<select id="mr-window"></select></label>
+      <label>Instrument<select id="mr-asset"></select></label>
+      <label>Sample<select id="mr-year"></select></label>
+    </div>
+    <section class="mr-figure" aria-labelledby="mr-title">
+      <div class="mr-figure-heading"><div><p class="mr-label" id="mr-series-period"></p><h2 id="mr-title"></h2></div><button class="mr-download" id="mr-export">Download CSV ↓</button></div>
+      <p class="mr-selected" id="mr-selected" aria-live="polite"></p>
+      <div class="mr-chart" id="mr-chart"></div>
+      <div class="mr-chart-foot"><span id="mr-unit"></span><span id="mr-window-note"></span></div>
+      <div class="mr-metrics" id="mr-metrics"></div>
+    </section>
+    <section class="mr-detail" aria-labelledby="mr-detail-title">
+      <div class="mr-detail-head">
+        <div><p class="mr-label" id="mr-detail-bank"></p><h2 id="mr-detail-title">Cross-asset reaction</h2></div>
+        <label>Meeting<select id="mr-date"></select></label>
+      </div>
+      <div id="mr-panels" class="mr-panels"></div>
+      <p class="mr-footnote" id="mr-detail-note" aria-live="polite"></p>
+    </section>
+    <div class="mr-sources"><strong>Source</strong><a id="mr-source" href=""></a><span id="mr-credit"></span></div>
+  </div>
+</main>
+</body>
+</html>

@@ -106,7 +106,7 @@ function render() {
   const summary = `${total} ${total === 1 ? "publication" : "publications"} · ${jurisdictions} ${jurisdictions === 1 ? "jurisdiction" : "jurisdictions"}`;
   result.textContent = total ? summary : "No matching publications";
   const title = element("div", "", "month-title");
-  const heading = element("h2", `${month.label} ${month.start.slice(0, 4)}`);
+  const heading = element("h2", month.id === "year" ? month.label : `${month.label} ${month.start.slice(0, 4)}`);
   heading.id = "active-month-title";
   title.append(heading, element("p", `${month.start} to ${month.end}`));
   container.replaceChildren(title, viewFilter.value === "time" ? renderByTime(records) : renderByRegion(records));
@@ -122,10 +122,14 @@ async function start() {
   const [periods, map, records] = await Promise.all(["archive-periods", "world-map", "research-archive"].map(load));
   targets = map.targets;
   const hash = location.hash.slice(1);
-  month = [params.get("month"), hash.split("-")[0], "oct"].map(id => periods.find(period => period.id === id)).find(Boolean) ?? periods[0];
+  const currentYear = periods[0].start.slice(0, 4);
+  const year = {id: "year", label: currentYear, start: periods[0].start, end: periods.at(-1).end};
+  const ranges = [year, ...periods];
+  month = [params.get("month"), hash.split("-")[0]].map(id => ranges.find(period => period.id === id)).find(Boolean) ?? periods.at(-1);
   monthRecords = records.filter(record => month.start <= record.date && record.date <= month.end);
-  for (const period of periods) {
-    const link = element("a", period.label);
+  for (const period of ranges) {
+    const link = element("a", period.id === "year" ? period.label : period.label.slice(0, 3));
+    link.setAttribute("aria-label", period.id === "year" ? `All of ${currentYear}` : period.label);
     link.href = `?month=${period.id}#${period.id}`;
     if (period.id === month.id) link.setAttribute("aria-current", "page");
     select("archive-months").append(link);
