@@ -1,0 +1,33 @@
+{
+  "title": "Indonesia’s reserves edge higher while borrowing and rupiah support work in opposite directions",
+  "bank": "Bank Indonesia",
+  "date": "2026-11-06",
+  "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2824226.aspx",
+  "summary": [
+    "Indonesia’s official reserves rose from US$146.3 billion at end-September to US$146.8 billion at end-October. Bank Indonesia described the position as broadly stable and judged it adequate to support external resilience. The rise was small relative to the outstanding stock. Its direction alone says little about the pressure on the rupiah. The Bank explicitly identified exchange-rate stabilisation operations as one use of foreign currency in the period.",
+    "The longer series in the accompanying graphic gives a different perspective from the monthly comparison. Reserves were US$150.0 billion in October 2025, reached US$156.5 billion in December and stood at US$144.9 billion in May 2026. October’s increase therefore left the stock below both its year-earlier level and its December level. The path records closing balances, so these differences cannot by themselves establish how much foreign currency the authorities bought or sold. A comparison beginning in May and one beginning in December would give different answers about the direction of the cumulative change.",
+    "The Bank identified government foreign-loan drawings and receipts from taxes and services as sources of funds. Government external debt also matured and had to be repaid. The authorities’ rupiah stabilisation policy took place amid continuing uncertainty in global financial markets. These influences could offset one another within a period when the gross stock moved only US$0.5 billion. The source gives no breakdown of their individual amounts and no reconciliation between transactions and valuation effects.",
+    "Borrowing and recurring receipts also affect the sovereign balance sheet differently. A foreign loan can raise reserves as it is drawn while leaving the government with a future obligation. Paying a maturing loan uses foreign currency but removes the need to refinance that particular payment. A tax receipt or a services receipt adds a different claim on future resources. The closing reserve position measures assets held on a particular date more directly than it measures changes in net government indebtedness or financing needs.",
+    "At end-October the reported stock covered 5.3 months of imports, or 5.2 months when government external debt service was also included. Bank Indonesia compared these with an international reference of approximately three months of imports. Import costs and debt maturities affect the denominators. The two measures can change even if the dollar stock stays constant. The comparison supports the Bank’s assessment of current coverage, while supplying no exchange-rate intervention limit or minimum it has pledged to defend.",
+    "Looking forward, the Bank expected adequate reserves and foreign capital inflows to support the external position. It cited investors’ perceptions of Indonesia’s economic outlook and attractive investment returns, and reiterated its intention to coordinate policy with the government. That is the institution’s assessment. The closing stock measures neither the amount of portfolio capital that entered in October nor its likely persistence if relative returns change."
+  ],
+  "questions": [
+    {
+      "question": "How much of the reserve increase improved the government’s net position?",
+      "detail": "Reconcile the change with loan disbursements, repayments, tax and service receipts, stabilisation operations and valuation. Compare additional liquid assets with the corresponding external liabilities. Recurring receipts and debt-funded reserve accumulation create different refinancing obligations even when the closing asset stock is identical."
+    },
+    {
+      "question": "Would both coverage ratios remain comfortable under a more expensive import bill?",
+      "detail": "Recreate the import-only measure separately from imports and debt service. Vary prices and payment dates separately. A drop in coverage caused by scheduled principal repayment calls for a different financing assessment from one caused by a persistent increase in the import bill."
+    },
+    {
+      "question": "Which foreign inflows could reverse most quickly?",
+      "detail": "Distinguish committed loan funding from short-term foreign securities purchases. Follow investors, maturities and currencies before interpreting the Bank’s qualitative assessment as a durable source of finance. Compare gross flows with reported stabilisation operations where data permit."
+    },
+    {
+      "question": "What would distinguish a temporary drawdown from a change in the intervention regime?",
+      "detail": "Compare several months’ stock and flow reconciliations against exchange-rate and settlement dates. Treat a single closing balance with caution. The qualitative reference to stabilisation identifies an activity without revealing its scale or the authorities’ intervention rule."
+    }
+  ],
+  "limitation": "The attached official graphic gives reserve stocks over time. The release does not decompose October’s change into transactions, valuations or individual stabilisation operations."
+}
