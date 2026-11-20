@@ -1,0 +1,28 @@
+{
+  "title": "Who supplies Bunds in a sell-off, and what could clearing save?",
+  "bank": "Deutsche Bundesbank",
+  "date": "2026-11-06",
+  "url": "https://www.bundesbank.de/en/publications/research/discussion-papers/anatomy-of-a-safe-asset-bund-market-structure-and-reform-1007074",
+  "summary": [
+    "A safe asset can change hands because someone needs cash, because investors seek protection or because the expected supply of bonds has changed. Mark Kerssenfischer, Konrad Lucke and Willy Scherrieble use identified German sovereign bond transactions to distinguish these cases. They also ask which trading costs a reform could actually remove. Joining MiFID I and II reports extends their view back to 2008 and identifies dealers, clients, execution venues and individual bonds. The records show trades that take place. They cannot directly reveal every motive for trading or the value a client places on a continuing relationship.",
+    "A small core of primary dealers connects a much larger population of clients. Most bilateral clients use just one dealer. Electronic venues expand the dealers they can reach, but client-to-client execution remains rare. Recently issued benchmarks and bonds deliverable into futures attract much of the activity. Many bond and venue combinations record no trade on a given day. Official institutions and hedge funds primarily use electronic platforms, while households rely more heavily on exchanges and bilateral trading. An average spread across venues can therefore mix changes in who traded with changes in execution quality.",
+    "Figure 12 follows secondary-market purchases through three short windows. From 9 to 18 March 2020 the ten-year yield rose 45 basis points. The official sector sold a net €11.3 billion, including €10 billion from foreign official accounts. Hedge funds bought, and primary dealers absorbed substantial sales. From 9 to 17 March 2023 the yield instead fell 46 basis points during banking turmoil. Foreign official accounts again sold and hedge funds bought, but primary dealers were small net sellers. In the five trading days after Germany’s March 2025 fiscal announcement, the yield rose 41 basis points. Dealers were the main net sellers, and investment funds, banks, insurers and pension funds absorbed bonds. Reporting coverage changed after the United Kingdom left the reporting perimeter, complicating comparisons of absolute volumes across episodes.",
+    "Hedge-fund and official purchases predict persistent increases in a bond’s price relative to the German curve. Official buyers also tend to buy bonds that cheapened the previous day, consistent with reserve management. Lasting price impact alone cannot establish superior private information. Households pay the largest effective half-spreads, and execution costs increase with trade size. The sectors whose flows best predict prices consequently need not pay the most to trade immediately.",
+    "The paper’s two reform exercises examine different decisions. A central counterparty could net each dealer’s settlement obligations after the observed trades. In the pre-pandemic exercise, average daily net obligations fall from €17.2 billion to €11.1 billion, a 35% reduction before margin, fees or liquidity costs. Interdealer transactions net 24% within a Bund dealer against 63% in the Treasury comparison. About a quarter of obligations concern bonds the dealer only bought or only sold that day. Mandatory platform trading would instead change execution itself. In the authors’ model, lost relationship value and strategic dealer quotes can outweigh broader matching. That welfare result depends on assumptions about relationships and demand, whereas the settlement calculation uses recorded trades. Neither exercise alone establishes the overall benefit of a clearing or execution mandate."
+  ],
+  "questions": [
+    {
+      "question": "How much of the estimated clearing gain would survive funding and collateral costs?",
+      "detail": "Reproduce the same-dealer, same-bond, same-day netting in the transaction reports and match the resulting obligations to margin requirements, collateral costs and settlement failures. Separate dealers active on both sides from one-sided dealers. A reduction concentrated in obligations that are cheap to fund would make the gross €6.1 billion difference a poor guide to usable liquidity."
+    },
+    {
+      "question": "When do dealers absorb official sales, and when do hedge funds take the other side?",
+      "detail": "Compare additional short stress windows using identified transactions, consistent reporting coverage and dealer starting inventories. Condition on reserve sales and distinguish market-wide cash demand from flight to safety and anticipated issuance. If the same dealers carry similar inventory across episodes but change direction with financing conditions, the simple interpretation based on the sign of the yield move would weaken."
+    },
+    {
+      "question": "What benefit do bilateral relationships deliver that platform quotes miss?",
+      "detail": "Within the same bond and client, compare size, execution price, likelihood of completion and subsequent trading for transactions routed through a regular dealer and through a platform. Estimate matching and demand parameters on German transactions where possible. Test whether the model’s welfare ranking survives weaker relationship preferences and less strategic platform quoting."
+    }
+  ],
+  "limitation": ""
+}
