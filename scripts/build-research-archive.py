@@ -6,6 +6,8 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlsplit
 
+from publication_archive import with_previous_urls
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "dist" / "data"
 FIELDS = ("jurisdiction", "date", "institution", "title", "type", "url")
@@ -36,7 +38,8 @@ def build(records):
     unique = set()
     counts = Counter()
     result = []
-    for record in records:
+    for raw_record in records:
+        record = with_previous_urls(raw_record)
         assert all(isinstance(record[key], str) and record[key].strip() for key in FIELDS), record["url"]
         day = record["date"]
         assert date.fromisoformat(day).isoformat() == day
@@ -47,7 +50,9 @@ def build(records):
         identity = public_url(record["url"])
         assert identity not in unique, f"Duplicate publication URL: {record['url']}"
         unique.add(identity)
-        row = {key: value for key, value in record.items() if key in FIELDS}
+        row = {key: value for key, value in record.items() if key in (*FIELDS, "previousUrls")}
+        for previous in row.get("previousUrls", []):
+            public_url(previous)
         if record.get("sourcePage"):
             public_url(record["sourcePage"])
             row["sourcePage"] = record["sourcePage"]

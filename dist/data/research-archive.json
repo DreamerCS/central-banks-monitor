@@ -357,7 +357,10 @@
     "title": "Uniform Regulations and Rules for Bankers' Clearing Houses - Version 2.0 - November 2026",
     "institution": "Reserve Bank of India",
     "type": "Research",
-    "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?Id=24100"
+    "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?Id=24100",
+    "previousUrls": [
+      "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24100"
+    ]
   },
   {
     "jurisdiction": "India",
@@ -365,7 +368,10 @@
     "title": "Procedural Guidelines for Cheque Truncation System - Version 3.0 - November 2026",
     "institution": "Reserve Bank of India",
     "type": "Research",
-    "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?Id=24099"
+    "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?Id=24099",
+    "previousUrls": [
+      "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24099"
+    ]
   },
   {
     "jurisdiction": "United States",
@@ -685,7 +691,10 @@
     "institution": "Reserve Bank of Australia",
     "title": "Sarah Hunter: What Happens to the Economy as ‘Intelligence’ Gets Cheaper?",
     "type": "Speech",
-    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-11-09.html"
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-11-09.html",
+    "previousUrls": [
+      "https://www.rba.gov.au/speeches/2026/sp-sp-ag-2026-11-09.html"
+    ]
   },
   {
     "jurisdiction": "United States",

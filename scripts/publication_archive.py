@@ -14,12 +14,23 @@ VERIFIED_PUBLICATION_URLS = {
 }
 
 
+def with_previous_urls(row):
+    """Keep catalogue identifiers attached to the corrected publication."""
+    url = VERIFIED_PUBLICATION_URLS.get(row["url"], row["url"])
+    previous = set(row.get("previousUrls", []))
+    previous.update(old for old, current in VERIFIED_PUBLICATION_URLS.items() if current == url)
+    previous.discard(url)
+    if previous:
+        return {**row, "url": url, "previousUrls": sorted(previous)}
+    return row
+
+
 def merge_publications(curated, previous, harvested, listings, today, identity):
     if not isinstance(previous, list) or not previous:
         raise ValueError("Cannot restore the published archive")
     # Caller validates the complete archive before deployment. Curated rows and
     # their related links take precedence over newly discovered alternatives.
-    result = list(curated)
+    result = [with_previous_urls(row) for row in curated]
     urls = set()
     titles = set()
 
@@ -27,14 +38,13 @@ def merge_publications(curated, previous, harvested, listings, today, identity):
         title = "".join(c for c in row["title"].casefold() if c.isalnum())
         return row["jurisdiction"], row["institution"], row["date"], title
 
-    for row in curated:
+    for row in result:
         urls.add(identity(row["url"]))
         urls.update(identity(link["url"]) for link in row.get("related", []))
         titles.add(title_key(row))
 
     def add(row):
-        if row["url"] in VERIFIED_PUBLICATION_URLS:
-            row = {**row, "url": VERIFIED_PUBLICATION_URLS[row["url"]]}
+        row = with_previous_urls(row)
         url, title = identity(row["url"]), title_key(row)
         if url not in urls and title not in titles:
             result.append(row)
