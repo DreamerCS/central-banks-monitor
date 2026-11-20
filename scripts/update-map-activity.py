@@ -93,7 +93,7 @@ def xml_entries(body, use_updated):
         )
 
 
-def listing_entries(body, spec):
+def listing_entries(body, spec, charset=None):
     from lxml import html
     from lxml.etree import ParserError
 
@@ -104,7 +104,14 @@ def listing_entries(body, spec):
         return value.strip()
 
     try:
-        doc = html.fromstring(body)
+        # Some publishers serve Latin-1 bytes alongside a stale UTF-8 meta tag.
+        parser = None
+        if charset and not body.isascii():
+            try:
+                body.decode("utf-8")
+            except UnicodeDecodeError:
+                parser = html.HTMLParser(encoding=charset)
+        doc = html.fromstring(body, parser=parser)
     except ParserError as err:
         raise ValueError("empty or unreadable listing") from err
     for node in doc.xpath(spec["entry"]):
@@ -126,10 +133,11 @@ def collect(source, throttle):
             base = response.url
             if not official_url(base, publisher):
                 raise ValueError("redirect outside publisher")
+            charset = response.headers.get_content_charset()
             body = response.read(5_000_001)
         if len(body) > 5_000_000:
             raise ValueError("response exceeds 5 MB")
-        entries = listing_entries(body, listing) if listing else xml_entries(body, source.get("useUpdated", False))
+        entries = listing_entries(body, listing, charset) if listing else xml_entries(body, source.get("useUpdated", False))
         rows = {}
         for when, heading, href in entries:
             day = publication_day(when, (listing or {}).get("dateFormat"))
@@ -202,6 +210,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--audit", nargs="?", const="oct-nov", choices=AUDIT_WINDOWS,
                         help="save a fixed historical reconciliation for the chosen 2026 window")
+    parser.add_argument("--previous-archive", type=Path,
+                        help="carry the previously published archive into this build")
     args = parser.parse_args()
     now = datetime.now(timezone.utc)
     checked = now.isoformat(timespec="seconds")
@@ -237,13 +247,28 @@ def main():
                         collected[key] = row
             checks.append(check | {"auditOnly": audit_only})
 
+    archive_path = DATA / "research-archive.json"
+    records = json.loads(archive_path.read_text(encoding="utf-8"))
+    ordered = sorted(collected.values(), key=lambda r: (r["day"], r["bank"], r["title"]), reverse=True)
+    if args.previous_archive:
+        from publication_archive import extend_periods, merge_publications
+
+        previous = json.loads(args.previous_archive.read_text(encoding="utf-8"))
+        listings = {s["id"]: s["url"] for s in inputs if not s.get("auditOnly")}
+        records = merge_publications(records, previous, ordered, listings, now.date(), identity)
+        periods_path = DATA / "archive-periods.json"
+        periods = json.loads(periods_path.read_text(encoding="utf-8"))
+        write_json(periods_path, extend_periods(periods, records, now.date()))
+        write_json(archive_path, records)
+        print(f"Archive: {len(records)} publications including "
+              f"{sum('sourcePage' in r for r in records)} collected from official listings")
+
     archive = [
         dict(bank=r["jurisdiction"], type=r["type"], day=r["date"], title=r["title"], url=r["url"],
              related=r.get("related", []), archive=True)
-        for r in json.loads((DATA / "research-archive.json").read_text(encoding="utf-8"))
+        for r in records
         if r["date"] <= today
     ]
-    ordered = sorted(collected.values(), key=lambda r: (r["day"], r["bank"], r["title"]), reverse=True)
     if args.audit:
         review_snapshot(args.audit, checked, checks, ordered, archive)
 

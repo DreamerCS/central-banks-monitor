@@ -15,11 +15,13 @@ async function renderCoverage() {
     const key = `${jurisdiction}:${date.slice(0, 7)}`;
     counts.set(key, (counts.get(key) ?? 0) + 1);
   }
+  const multipleYears = new Set(periods.map(period => period.start.slice(0, 4))).size > 1;
+  const periodLabel = period => multipleYears ? period.label + " " + period.start.slice(0, 4) : period.label;
   const head = document.querySelector("#coverage-head");
   for (const period of periods) {
     const cell = document.createElement("th");
     cell.scope = "col";
-    cell.textContent = period.label;
+    cell.textContent = periodLabel(period);
     head.append(cell);
   }
   const body = document.querySelector("#coverage-rows");
@@ -37,7 +39,7 @@ async function renderCoverage() {
       const params = new URLSearchParams({month: period.id, bank: target.name});
       link.href = `research-archive.html?${params}#${period.id}`;
       link.textContent = count;
-      link.setAttribute("aria-label", `${target.name}, ${period.label}: ${count} publications`);
+      link.setAttribute("aria-label", `${target.name}, ${periodLabel(period)}: ${count} publications`);
       row.insertCell().append(link);
     }
   }

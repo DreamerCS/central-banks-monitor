@@ -1,0 +1,28 @@
+{
+  "title": "A unanimous UK hold masks two very different paths for rates",
+  "bank": "Bank of England",
+  "date": "2026-03-19",
+  "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/march-2026",
+  "summary": [
+    "The MPC unanimously held Bank Rate at 3.75% after disruption to Middle Eastern energy supply changed its near-term inflation outlook. Two members, Sarah Breeden and Dave Ramsden, said they would otherwise have expected to vote for a cut. Monetary policy could do little about the first rise in fuel and utility bills. Its response would depend on whether the shock spread to wages and domestic prices, or instead squeezed household spending sufficiently to weaken medium-term inflation. Members wanted more evidence about the duration and propagation of the shock; their agreement to hold did not extend to a common view of the next move (minutes, paragraphs 20–34).",
+    "Brent crude exceeded $100 a barrel before the meeting, around 60% above its level at the February Report. European wholesale gas also rose sharply. UK gas futures relevant to the July–September household price cap had risen by 35–40% on average. Market contacts generally expected a relatively short conflict, but the Committee saw upside risks even in that case. Damaged supply and depleted stocks could take longer to recover than shipping access, while releases from strategic reserves would take time to reach refineries. Options prices suggested that the upside risks to energy prices had increased over the coming months (paragraphs 2–6).",
+    "The inflation timing differed across fuels. Petrol prices responded quickly, while the April–June household energy cap had already been set. Based on energy prices on 16 March, staff expected March CPI inflation near 3.5% and second-quarter inflation around 3%, against 2.1% previously projected for that quarter. The oil and gas futures curves implied a direct energy contribution of around 0.75 percentage points to third-quarter CPI inflation. Rapid pass-through of business costs could add around a further 0.25 points; under those assumptions total inflation could reach 3.5%. The timing and size of that indirect effect were uncertain. A rise in firms’ input prices alone would not establish persistent wage and price feedback (paragraphs 10–16).",
+    "Unlike in 2022, the economy entered the shock with growth below potential and spare capacity. Fourth-quarter GDP had grown 0.1%, and unemployment was 5.2% in the three months to January. A loss of real household income or a rise in precautionary saving could further weaken demand and firms’ ability to raise prices. Against that, households and firms might respond more strongly to salient energy and food price increases after successive inflation shocks. Private-sector regular pay growth had eased to 3.3% in the three months to January, while the Bank’s Agents revised their estimate of average 2026 basic pay settlements up to 3.6%. These measures cover different periods and concepts; both predated any clear evidence of second-round effects from the conflict (paragraphs 15–18 and 24–29).",
+    "Markets had already tightened financial conditions. The implied Bank Rate path rose significantly relative to February and sloped slightly upwards during 2026. Some lenders had raised quoted rates on new mortgages; corporate credit spreads had widened since hostilities began. A large majority of survey responses submitted on 4–6 March had anticipated a hold. Catherine Mann saw the case shifting towards a longer hold or even a hike if inflation persisted. Alan Taylor thought a short shock against weak demand could ultimately warrant faster and deeper cuts, and set a high bar for a hike. These were conditional views of individual members. The minutes report asset moves leading into the decision and do not measure the market reaction to the announcement itself (paragraphs 7–8, 19 and 34)."
+  ],
+  "questions": [
+    {
+      "question": "What would show that the energy shock has entered domestic wage and price-setting?",
+      "detail": "The minutes estimate direct energy effects and illustrate a rapid pass-through case, but do not establish a wage-price feedback. This distinction matters for whether higher front-end rates are sustainable. Compare post-shock settlement dates and firms’ pricing plans with pre-shock observations from the Agents and Decision Maker Panel. Check whether rises extend beyond energy-intensive products and whether medium-term expectations move alongside near-term ones."
+    },
+    {
+      "question": "How sensitive is the July household energy bill to the duration of disruption?",
+      "detail": "The existing cap shields bills in the spring, while staff’s third-quarter arithmetic uses the futures curve on 16 March. A brief spot-price spike and an extended period of high forward prices carry different inflation and household-income risks. Examine Ofgem’s observation calendar and cost methodology alongside the dated UK gas curve. Recalculate the direct CPI contribution under alternative durations, keeping indirect pass-through separate."
+    },
+    {
+      "question": "How much additional demand weakness could come from the rise in financing costs?",
+      "detail": "Some new mortgage quotes had risen with overnight-indexed swap rates, but the Committee judged it too early to assess the full lending impact. The timing matters for how long a tighter curve can coexist with weak consumption before downside inflation risk increases. Examine Bank of England mortgage reset schedules, quoted-rate data, household savings measures and lending surveys to identify which borrowers face near-term cash-flow pressure."
+    }
+  ],
+  "limitation": ""
+}

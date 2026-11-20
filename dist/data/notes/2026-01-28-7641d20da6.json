@@ -1,0 +1,28 @@
+{
+  "title": "Canada holds as tariffs put opposing pressures on inflation",
+  "bank": "Bank of Canada",
+  "date": "2026-01-28",
+  "url": "https://www.bankofcanada.ca/2026/01/opening-statement-2026-01-28/",
+  "summary": [
+    "Governor Tiff Macklem explained the Governing Council’s decision to keep the policy rate at 2.25% as a judgement about an economy undergoing structural adjustment. In the Bank’s January projection, the extra costs associated with tariffs were offset by spare capacity, leaving inflation close to the 2% target. The outlook for growth and inflation had changed little since October, but the range of plausible outcomes had widened. Council considered the policy rate appropriate if the economy followed its projection. It reached no view on the timing or direction of the next move (opening statement, paragraphs 2–5 and 16).",
+    "The headline growth figures concealed different paths for external and domestic demand. Following a strong third quarter, the Bank thought growth had probably stalled in the fourth. US tariffs continued to disrupt exports, while domestic demand appeared to be recovering. Earlier interest rate cuts and rising disposable incomes were expected to sustain a moderate expansion in household spending. Uncertain access to the US market had also deterred capital expenditure. The Bank envisaged a modest recovery in investment as businesses adapted and governments increased infrastructure spending. Its forecasts of 1.1% real GDP growth in 2026 and 1.5% in 2027 were annual averages. They implied a gradual recovery rather than a quantified estimate of the fourth-quarter slowdown (paragraphs 7–11).",
+    "Aggregate employment had risen recently, led by services such as health care. That improvement followed production and job cuts in tariff-exposed sectors earlier in 2025. Slower population growth was also reducing the flow of new workers into the labour market. Unemployment nevertheless stood at 6.8%, youth unemployment was particularly high and few businesses reported plans to hire in coming months. A recovery in total employment could therefore coexist with continued weakness in exposed industries. Council’s downside scenario ran from deeper trade losses through further labour market weakness to lower household spending (paragraphs 10 and 15).",
+    "The inflation measures sent different near-term signals. CPI inflation averaged 2.1% in 2025, while the December twelve-month reading rose to 2.4%. Part of the December increase reflected comparison with the previous winter’s temporary sales-tax holiday. Meanwhile, the Bank’s preferred core measures eased from 3% in October to around 2.5% in December. Macklem attributed the projected stability of inflation to opposing forces. A larger cost shock or a larger loss of demand could break that balance in different directions (paragraph 12).",
+    "The review of the Canada–United States–Mexico Agreement, uncertainty over US trade policy and geopolitical risks gave Council reasons to keep its options open. A smoother adjustment could support stronger investment and consumption, whereas renewed market volatility could tighten financial conditions as trade losses weakened demand. Over a longer horizon, firms could find new markets and reorganise supply chains, while workers and capital moved into new activities. The Governor expected these changes to help restore some productive capacity over time. An economy-wide interest rate could assist the transition but could neither undo the damage to capacity nor direct assistance to individual sectors. The statement supplied no market-implied policy path against which to measure a pricing surprise (paragraphs 13–18)."
+  ],
+  "questions": [
+    {
+      "question": "Which tariff effects are dominating underlying inflation: higher input costs or weaker demand?",
+      "detail": "The Bank expects the two to offset, but the opening statement supplies no estimate of their separate sizes or lags. Their balance matters for the direction of the next policy move. Start with the January Monetary Policy Report identified in the statement. Compare import and producer prices in tariff-exposed industries with the breadth of consumer price changes and firms’ accounts of their ability to pass on costs."
+    },
+    {
+      "question": "Will the recent rise in service-sector employment translate into stronger household spending?",
+      "detail": "Recent hiring and fewer new labour-force entrants sit alongside high unemployment and weak hiring intentions. The aggregate numbers leave the earnings prospects of displaced workers uncertain. That distinction matters for whether consumption can carry the recovery. Consult the Labour Force Survey industry and age breakdowns, hours worked and household income data alongside the business surveys available in January."
+    },
+    {
+      "question": "How much of the projected investment recovery requires a more predictable trading relationship?",
+      "detail": "Council envisages some strengthening as businesses adjust and infrastructure spending increases, while identifying the trade agreement review as a material risk. The statement does not quantify the two sources of investment. Capacity that can be redirected to new markets would imply different medium-term growth risks from spending that is easily deferred. Compare firms’ capital spending intentions, export destinations and government infrastructure timetables with the January projection."
+    }
+  ],
+  "limitation": ""
+}

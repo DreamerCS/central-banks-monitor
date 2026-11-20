@@ -12,6 +12,7 @@ const params = new URLSearchParams(location.search);
 const regions = ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"];
 const dateLabel = new Intl.DateTimeFormat("en-GB", {day: "numeric", month: "long", year: "numeric", timeZone: "UTC"});
 let month, targets, monthRecords;
+let noteSources = new Set();
 
 function element(name, text, cssClass) {
   const node = document.createElement(name);
@@ -38,6 +39,11 @@ function card(record) {
   const issuer = element("p", record.institution, "record-issuer");
   const links = element("p", "", "official-link");
   links.append(sourceLink("Source document", record.url));
+  if (noteSources.has(record.url)) {
+    const note = element("a", "Research note");
+    note.href = "research-notes.html?" + new URLSearchParams({source:record.url});
+    links.append(document.createTextNode(" · "), note);
+  }
   for (const related of record.related ?? []) {
     links.append(document.createTextNode(" · "), sourceLink(related.label, related.url));
   }
@@ -106,7 +112,7 @@ function render() {
   const summary = `${total} ${total === 1 ? "publication" : "publications"} · ${jurisdictions} ${jurisdictions === 1 ? "jurisdiction" : "jurisdictions"}`;
   result.textContent = total ? summary : "No matching publications";
   const title = element("div", "", "month-title");
-  const heading = element("h2", month.id === "year" ? month.label : `${month.label} ${month.start.slice(0, 4)}`);
+  const heading = element("h2", month.annual ? month.label : `${month.label} ${month.start.slice(0, 4)}`);
   heading.id = "active-month-title";
   title.append(heading, element("p", `${month.start} to ${month.end}`));
   container.replaceChildren(title, viewFilter.value === "time" ? renderByTime(records) : renderByRegion(records));
@@ -119,17 +125,29 @@ async function load(name) {
 }
 
 async function start() {
-  const [periods, map, records] = await Promise.all(["archive-periods", "world-map", "research-archive"].map(load));
+  const [periods, map, records, notes] = await Promise.all([
+    load("archive-periods"), load("world-map"), load("research-archive"), load("research-notes").catch(() => [])
+  ]);
+  noteSources = new Set(notes.map(note => note.url));
   targets = map.targets;
   const hash = location.hash.slice(1);
-  const currentYear = periods[0].start.slice(0, 4);
-  const year = {id: "year", label: currentYear, start: periods[0].start, end: periods.at(-1).end};
-  const ranges = [year, ...periods];
-  month = [params.get("month"), hash.split("-")[0]].map(id => ranges.find(period => period.id === id)).find(Boolean) ?? periods.at(-1);
+  const years = new Map();
+  for (const period of periods) {
+    const year = period.start.slice(0, 4);
+    if (!years.has(year)) {
+      years.set(year, {id: year === "2026" ? "year" : year, label: year, start: period.start, end: period.end, annual: true});
+    }
+    years.get(year).end = period.end;
+  }
+  const ranges = [...years.values(), ...periods];
+  const hashPeriod = hash.split("-bank-")[0];
+  month = [params.get("month"), hashPeriod].map(id => ranges.find(period => period.id === id)).find(Boolean) ?? periods.at(-1);
   monthRecords = records.filter(record => month.start <= record.date && record.date <= month.end);
-  for (const period of ranges) {
-    const link = element("a", period.id === "year" ? period.label : period.label.slice(0, 3));
-    link.setAttribute("aria-label", period.id === "year" ? `All of ${currentYear}` : period.label);
+  const selectedYear = month.start.slice(0, 4);
+  for (const period of [...years.values(), ...periods.filter(item => item.start.startsWith(selectedYear))]) {
+    const link = element("a", period.annual ? period.label : period.label.slice(0, 3));
+    const context = years.size > 1 ? " " + selectedYear : "";
+    link.setAttribute("aria-label", period.annual ? `All of ${period.label}` : period.label + context);
     link.href = `?month=${period.id}#${period.id}`;
     if (period.id === month.id) link.setAttribute("aria-current", "page");
     select("archive-months").append(link);

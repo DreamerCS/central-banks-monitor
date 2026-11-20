@@ -1,0 +1,28 @@
+{
+  "title": "Monetary Policy at a Crossroads",
+  "bank": "Federal Reserve",
+  "date": "2026-07-13",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm",
+  "summary": [
+    "Governor Christopher Waller saw two plausible paths for US monetary policy on 13 July. Several months of softer core inflation would support keeping the target range in place. Another strong reading that week would warrant considering a near-term increase. That difference in the burden of proof matters for rates investors. One soft release would carry less weight in his assessment than another strong one after six months of rising inflation. He was describing his own judgement ahead of the June CPI and producer-price releases. He offered neither a voting commitment nor an estimate of how investors had priced the next meeting (pp. 1–2, 9–10).",
+    "The breadth and timing of the price increases made it difficult to look through them. Twelve-month core PCE inflation had risen from 3.0% in December to 3.4% in May, with the upturn beginning before the oil shock. Headline PCE inflation reached 4.1% in May. Cheaper crude could bring the headline reading down while leaving the underlying problem unresolved. Services made up three quarters of core prices, and nearly 70% of core services categories had inflation above 3% on both the three-month and twelve-month measures. Waller acknowledged that a forthcoming methodology change could lower annual core inflation by up to a few tenths of a percentage point. He judged the level would still be too high (pp. 1, 4–6 and footnote 4).",
+    "He identified three channels with different implications for persistence. Earlier tariffs had largely worked their way into goods prices, according to the Fed research he cited. Importers might still try to recover costs they had absorbed. Lower oil prices reduced his concern about energy costs spreading through other prices, although the earlier spike could feed through with a lag. AI investment had already raised prices for some computing equipment. Reports of component shortages reaching consumer electronics mattered because those products had historically helped pull inflation down. Waller considered the aggregate effect small so far and saw continued investment as a condition for a larger impact (pp. 6–7).",
+    "The cost of tightening also looked different from 2022. Households continued spending and businesses continued investing in AI. The initial June payroll gain of 57,000 and downward revisions for April and May still left three-month average gains of 111,000. Slower labour supply growth reduced the number of hires needed to sustain employment. Waller placed more weight on roughly stable hiring and separations than on a single sharp fall in prime-age participation. With roughly one opening per unemployed worker, compared with two when tightening began in 2022, he saw less scope for higher rates to drain vacancies without costing jobs. Wage growth around 3.5% was consistent, in his view, with 2% inflation given trend productivity growth (pp. 3–4, 8).",
+    "Waller cited two- and five-year market inflation compensation of 2.1% and 2.3%, respectively, as evidence that expectations remained anchored. In his reasoning, that gave policymakers more time and could shorten the period for which higher rates would be needed. A loss of that anchor would change the scale, speed and duration of the response for the same inflation overshoot. The immediate question was therefore whether the forthcoming releases indicated continued core pressure. The more consequential risk was a combination of persistent inflation and rising expectations that would make the employment cost of restoring price stability harder to avoid (pp. 8–10)."
+  ],
+  "questions": [
+    {
+      "question": "How much of a strong June core reading would signal persistent inflation?",
+      "detail": "Waller documents broad services pressure and a forthcoming PCE methodology change. He leaves open which components would make the next reading persuasive enough to change his near-term policy judgement. For a short-rate position, a miss driven by one volatile category has a different implication from widespread acceleration. Compare the June CPI and producer-price components as released with the underlying PCE categories. Use the BEA methodology notice and the Dallas Fed analysis he cites in footnote 5 to test sensitivity to revisions and skew."
+    },
+    {
+      "question": "How much tightening could the labour market absorb through fewer vacancies?",
+      "detail": "The vacancy-to-unemployment ratio suggests less room for adjustment than in 2022. The speech gives no estimate of how quickly layoffs would increase if rates rose. That uncertainty affects how long a higher short-rate path could plausibly last. Compare vacancies, hires, separations and unemployment using data vintages available at the time, and examine the Beveridge-curve analysis cited in footnote 8 for the assumptions linking fewer openings to job losses."
+    },
+    {
+      "question": "Would the inflation-expectations evidence survive a different measure?",
+      "detail": "Waller interprets two- and five-year inflation compensation as reassuring and explains his preference for these horizons. The speech does not decompose the compensation investors receive or compare it with survey expectations at comparable horizons. A divergence would weaken the case for a gradual response. Check contemporaneous inflation-compensation data against household and professional forecasts, matching their price indices and horizons before drawing conclusions about the persistence of any tightening."
+    }
+  ],
+  "limitation": ""
+}

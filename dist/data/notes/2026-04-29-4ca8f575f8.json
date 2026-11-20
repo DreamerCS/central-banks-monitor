@@ -1,0 +1,27 @@
+{
+  "title": "Bank of Canada maintains policy rate at 2¼%",
+  "bank": "Bank of Canada",
+  "date": "2026-04-29",
+  "url": "https://www.bankofcanada.ca/2026/04/fad-press-release-2026-04-29/",
+  "summary": [
+    "The Bank of Canada held its overnight target at 2.25% on 29 April because it expected the oil-price shock to lift near-term inflation while leaving enough spare capacity in the economy to contain the pressure over time. The Bank Rate remained at 2.5% and the deposit rate at 2.20%. Governing Council was willing to look through the initial jump in gasoline prices. The more consequential question was whether it would spread into other prices and expectations. Its forecast depended on unchanged tariffs and a decline in the global benchmark oil price to US$75 per barrel by mid-2027. These were assumptions for the projection, distinct from a commitment to hold the overnight rate until then (decision, paragraphs 1–2 and 10).",
+    "The national impact of more expensive oil was unusually difficult to infer from household experience alone. As a large net oil exporter, Canada earns additional income when the price of its exports rises. Households nevertheless pay more at the pump. The Bank expected the conflict to change the composition of Canadian activity while leaving its aggregate growth forecast close to January’s. Output was forecast to have returned to growth in early 2026 after contracting in the final quarter of 2025. Consumer and government spending provided support. US tariffs and trade uncertainty continued to weigh on exports and business investment. The forecast put annual growth at 1.2% in 2026, 1.6% in 2027 and 1.7% in 2028. That modest acceleration would absorb excess supply only gradually, as exports and investment recovered on a lower trajectory (paragraphs 6–7).",
+    "The employment and housing evidence supported a cautious reading of demand. Employment had grown slowly over the previous year, and industries affected by US tariffs had lost jobs. Unemployment remained in a range of 6.5% to 7%, reflecting both weak hiring and fewer people looking for work. Housing had weakened in late 2025 and still faced affordability constraints, uncertainty and slower population growth. Meanwhile, headline CPI inflation rose to 2.4% in March, and the Bank expected roughly 3% in April. Core inflation had eased to just above 2%, fewer components were recording price increases above 3%, and the Bank saw little evidence of broader energy pass-through to date. Near-term inflation expectations had increased, while longer-term expectations remained anchored. Conditional on easing oil prices, the Bank projected a return to 2% inflation early in 2027 (paragraphs 6 and 8–9).",
+    "Abroad, the same energy shock had different consequences for trading partners. US consumption and AI investment supported its outlook, robust exports supported China, and higher oil and gas prices weighed on the euro area. The Bank still expected world growth of about 3% in each year from 2026 to 2028, with higher inflation over the following year. Bond yields had risen modestly since January, while equity markets had recovered from their initial fall. The US dollar had gained against most major currencies since the war began, but its exchange rate against the Canadian dollar had been relatively stable. Those observations describe conditions going into the decision. The release provides no priced probability for the hold or announcement-window return attributable to it (paragraphs 3–5)."
+  ],
+  "questions": [
+    {
+      "question": "Is higher gasoline inflation spreading to domestically determined prices?",
+      "detail": "The release documents a rise in headline CPI alongside easing core measures and narrower breadth. It gives no threshold for Council to judge that pass-through has become persistent. That threshold matters for the expected duration of the hold. Compare category-level CPI and core measures as they become available with survey evidence on firms’ price-setting and longer-term expectations. The April Monetary Policy Report is the first source to consult for the baseline assumptions."
+    },
+    {
+      "question": "How quickly do the gains to oil exporters reach domestic demand?",
+      "detail": "The Bank expects higher national income to offset part of the household squeeze without materially changing aggregate growth. It provides no timetable for cash receipts to turn into investment, hiring or spending. The lag affects both the output gap and relative exposure to exporters versus domestic consumption. Examine energy-company capital spending plans, household consumption volumes and the national accounts’ terms-of-trade and real-income measures against the April projection."
+    },
+    {
+      "question": "Would a less favourable trade outcome change the balance between growth and inflation?",
+      "detail": "The projection holds tariffs constant while recognising damage to export activity and employment. A different path could weaken activity while shifting costs, complicating the policy response. Compare export volumes and employment in tariff-exposed sectors with the Bank’s published scenario assumptions, and look for evidence from business surveys on firms’ investment plans and their ability to pass costs to customers."
+    }
+  ],
+  "limitation": ""
+}

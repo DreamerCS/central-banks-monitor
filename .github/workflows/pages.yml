@@ -4,14 +4,14 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: '30 23 * * *'
+    - cron: '30 * * * *'
 permissions:
   contents: read
   pages: write
   id-token: write
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   deploy:
     environment:
@@ -23,8 +23,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Restore and refresh official publications
+        run: |
+          python3 -m pip install 'lxml>=5,<7'
+          curl --fail --location --retry 3 --max-time 90 -H 'Cache-Control: no-cache' \
+            "https://dreamercs.github.io/central-banks-monitor/data/research-archive.json?run=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" \
+            -o "$RUNNER_TEMP/previous-archive.json"
+          python3 scripts/update-map-activity.py --previous-archive "$RUNNER_TEMP/previous-archive.json"
       - name: Build the monthly research archive
         run: python3 scripts/build-research-archive.py
+      - name: Index research notes
+        run: python3 scripts/build-research-notes.py
       - name: Check requested coverage
         run: python3 scripts/check-data.py
       - name: Build official market event windows
@@ -37,10 +46,6 @@ jobs:
         run: python3 scripts/update-market-history.py
       - name: Update daily Treasury benchmark
         run: python3 scripts/update-treasury.py
-      - name: Refresh central bank map activity
-        run: |
-          python3 -m pip install 'lxml>=5,<7'
-          python3 scripts/update-map-activity.py
       - name: Refresh speaking calendar
         run: python3 scripts/update-speaking-calendar.py
       - uses: actions/configure-pages@v5

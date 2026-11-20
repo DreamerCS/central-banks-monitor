@@ -31,7 +31,7 @@ for item in sources:
 periods = json.loads((ROOT / "archive-periods.json").read_text())
 records = json.loads((ROOT / "research-archive.json").read_text())
 for row in records:
-    assert row.keys() <= {"jurisdiction", "date", "institution", "title", "type", "url", "related"}, row["url"]
+    assert row.keys() <= {"jurisdiction", "date", "institution", "title", "type", "url", "related", "sourcePage"}, row["url"]
     assert all(link.keys() == {"label", "url"} for link in row.get("related", [])), row["url"]
 assert len({period["id"] for period in periods}) == len(periods)
 for period in periods:

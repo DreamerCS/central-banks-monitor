@@ -9,7 +9,8 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "dist" / "data"
 FIELDS = ("jurisdiction", "date", "institution", "title", "type", "url")
-TYPES = {"Decision", "Minutes", "Forecast", "Speech", "Research", "Testimony", "Statement"}
+TYPES = {"Decision", "Minutes", "Forecast", "Speech", "Research", "Testimony", "Statement",
+         "Release", "Policy", "Appearance", "Interview", "Speech or interview", "Speech or testimony"}
 
 
 def read_json(path):
@@ -47,6 +48,9 @@ def build(records):
         assert identity not in unique, f"Duplicate publication URL: {record['url']}"
         unique.add(identity)
         row = {key: value for key, value in record.items() if key in FIELDS}
+        if record.get("sourcePage"):
+            public_url(record["sourcePage"])
+            row["sourcePage"] = record["sourcePage"]
         if record.get("related"):
             row["related"] = []
             for link in record["related"]:
