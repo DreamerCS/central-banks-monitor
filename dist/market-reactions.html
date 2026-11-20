@@ -18,13 +18,93 @@
   <script type="module" src="pre-speech-sonia.js"></script>
   <script type="module" src="event-expectations.js"></script>
   <script src="speech-intraday.js" defer></script>
+  <link rel="stylesheet" href="annual-market-history.css">
+  <script type="module" src="annual-market-history.js"></script>
 </head>
 <body class="reaction-page">
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="./">Overview</a><a href="market-reactions.html" aria-current="page">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="research-notes.html">Research notes</a><a href="research-archive.html">Archive</a></nav></div></header>
 <main id="main" class="mr-wrap">
   <div class="mr-intro"><p>Rates &nbsp;/&nbsp; FX &nbsp;/&nbsp; Equities</p><h1>Market reactions</h1></div>
-  <nav class="mr-jump" aria-label="Market studies"><a href="#pre-event-curve">US pricing before a speech</a><a href="#mr-speech-intraday">US intraday speech moves</a><a href="#pre-speech-sonia">Sterling forward pricing</a><a href="#ecb-speech-windows">Euro-area speeches</a><a href="#mr-explorer">Meeting windows</a><a href="#mr-daily">Daily yield screen</a></nav>
+  <nav class="mr-jump" aria-label="Market studies"><a href="#annual-market-history">Annual comparisons, 2000–2026</a><a href="#uk-market-history">UK meeting windows</a><a href="#pre-event-curve">US pricing before a speech</a><a href="#mr-speech-intraday">US intraday speech moves</a><a href="#pre-speech-sonia">Sterling forward pricing</a><a href="#ecb-speech-windows">Euro-area speeches</a><a href="#mr-explorer">Meeting windows</a><a href="#mr-daily">Daily yield screen</a></nav>
+  <section class="mr-analysis amh" id="annual-market-history" aria-labelledby="amh-title">
+    <h2 id="amh-title">Market reactions by year</h2>
+    <p>Compare the typical announcement move across years, then open the meetings with the biggest price changes in any one year.</p>
+    <p id="amh-status" role="status">Loading annual meeting observations…</p>
+    <div id="amh-content" hidden>
+      <div class="amh-controls">
+        <label for="amh-window">Event window<select id="amh-window"><option value="statement">Statement</option><option value="conference">Press conference</option><option value="meeting">Full event</option></select></label>
+        <label for="amh-asset">Instrument<select id="amh-asset"><option value="two-year">2-year government yield</option><option value="ten-year">10-year government yield</option><option value="curve">10Y minus 2Y slope</option><option value="ois">1-year overnight index swap</option><option value="eurusd">EUR/USD</option><option value="equities">Domestic equity index</option></select></label>
+        <label for="amh-year">Year to inspect<select id="amh-year"></select></label>
+      </div>
+      <figure class="amh-figure">
+        <figcaption><div><h3>Median absolute move by year</h3><p id="amh-chart-caption"></p></div>
+          <div class="amh-legend"><span>Federal Reserve</span><span>ECB</span></div>
+        </figcaption>
+        <div id="amh-chart" tabindex="0" role="group" aria-label="Annual median absolute changes. Use the left and right arrows to select a year."></div>
+        <p id="amh-latest"></p>
+      </figure>
+      <div class="amh-selection" aria-live="polite"><h3 id="amh-selection-title"></h3><p id="amh-selection-desc"></p><p class="amh-yearbook"><a id="amh-yearbook" href="yearbook.html?historyYear=2000">Read the 2000 yearbook</a></p></div>
+      <div class="amh-year-detail">
+        <div class="amh-stat-block">
+          <table class="amh-summary"><caption>Distribution and coverage</caption>
+            <thead><tr><th scope="col">Measure</th><th scope="col">Fed</th><th scope="col">ECB</th></tr></thead>
+            <tbody id="amh-summary-body"></tbody>
+          </table>
+        </div>
+        <div class="amh-ranked"><h4>Largest moves in the selected year</h4><div id="amh-ranks"></div></div>
+      </div>
+      <section class="amh-prior" aria-labelledby="amh-prior-title">
+        <div class="amh-prior-head"><h3 id="amh-prior-title">How did the US curve move before Fed events?</h3>
+          <label for="amh-before">Event sample<select id="amh-before"><option value="statements">Fed statement dates</option><option value="speeches">Board speech dates</option></select></label></div>
+        <p>Compare the fifth and first jointly quoted Treasury closes before each event. T−5 to T−1 spans four close-to-close changes and ends before the event date. A date is excluded if the latest available prior close is more than a week old.</p>
+        <p id="amh-prior-coverage" role="status">Loading pre-event Treasury data…</p>
+        <div id="amh-prior-values" hidden><dl id="amh-prior-stats"></dl><p id="amh-prior-largest"></p></div>
+        <details class="mr-help"><summary>Pre-event pricing and sample construction</summary><p>Each date contributes once, including dates with several speeches. The medians of the two yields and their spread are calculated separately. The 2s10s spread is the ten-year yield minus the two-year yield. Daily Treasury yields reflect both the expected path of short rates and term premia. Other economic news during the window can affect both. Estimating the probability of a particular policy decision requires an instrument and assumptions about the possible outcomes. The meeting windows above measure a different interval around the announcement itself.</p>
+          <p class="amh-links"><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml">US Treasury daily par yields</a> <a href="https://www.federalreserve.gov/newsevents/speeches.htm">Federal Reserve Board speech archive</a></p></details>
+      </section>
+      <details class="amh-details" id="amh-grid"><summary>All years in a table</summary>
+        <div class="mr-table-scroll" role="region" aria-label="Annual distributions for the selected window and instrument" tabindex="0">
+          <table class="amh-all"><caption id="amh-grid-caption"></caption>
+            <thead><tr><th rowspan="2" scope="col">Year</th><th colspan="3" scope="colgroup">Federal Reserve</th><th colspan="3" scope="colgroup">ECB</th></tr>
+            <tr><th scope="col">Quoted / eligible</th><th scope="col">Median</th><th scope="col">Median |move|</th><th scope="col">Quoted / eligible</th><th scope="col">Median</th><th scope="col">Median |move|</th></tr></thead>
+            <tbody id="amh-grid-body"></tbody>
+          </table>
+        </div>
+      </details>
+      <div class="amh-actions"><button type="button" class="amh-export" id="amh-export">Download annual statistics (CSV)</button></div>
+      <details class="mr-help amh-method"><summary>Sample, instruments and window definitions</summary>
+        <p>Eligible dates have a published observation window. A missing quote is an eligible window without the selected instrument. Dates with no such window are counted separately. Zero changes remain in the sample. The median absolute move is the middle observation after sorting by magnitude. The signed median and middle 50% retain direction. Quantiles use linear interpolation, and rankings use absolute changes before display rounding.</p>
+        <p id="amh-def-fed"></p><p id="amh-def-ecb"></p>
+        <p>Rates and slope changes use basis points. Equity and currency changes use percent. US and German government yields refer to different issuers. EUR/USD is dollars per euro. Price changes can reflect several kinds of news. Each source uses its own trading interval for the selected event type.</p>
+        <p class="amh-links"><a href="https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/">San Francisco Fed · USMPD</a> <a href="https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx">ECB · EA-EMPD workbook</a></p>
+      </details>
+    </div>
+    <noscript>Enable JavaScript to explore the annual market observations.</noscript>
+  </section>
+<section class="mr-analysis" id="uk-market-history" aria-labelledby="uk-market-title">
+  <h2 id="uk-market-title">How did UK markets move around Bank of England decisions?</h2>
+  <p>Compare the median size of the move after an MPC announcement with the move around a quarterly press conference. The largest move keeps its sign so you can see which way the market went.</p>
+  <div class="mr-pair-picker" id="uk-market-controls" hidden>
+    <label>UK comparison year<select id="uk-market-year"></select></label>
+    <label>UK instrument<select id="uk-market-asset"></select></label>
+  </div>
+  <p id="uk-market-status" role="status">Loading UK results…</p>
+  <div class="mr-table-scroll" id="uk-market-results" tabindex="0" role="region" aria-label="UK monetary policy event windows" hidden>
+    <table class="mr-method-table">
+      <caption id="uk-market-caption"></caption>
+      <thead><tr><th scope="col">Event window</th><th scope="col">Quoted / recorded</th><th scope="col">Median absolute move</th><th scope="col">Largest move and date</th></tr></thead>
+      <tbody id="uk-market-rows"></tbody>
+    </table>
+  </div>
+  <details class="mr-help">
+    <summary>UK timing, units and coverage</summary>
+    <p>The announcement window starts 10 minutes before the policy decision and ends 20 minutes after it. The 75-minute conference window starts 10 minutes before the conference and ends 5 minutes after it finishes. The researchers compare median quotes from the 10 minutes just outside each end of the window. From August 2015, the quarterly forecast was published with the decision. Earlier forecasts accompanied the conference.</p>
+    <p>Counts use the events in the workbook. It omits some releases with unavailable data, including three 7 a.m. policy announcements in 2020. Blank instrument quotes are excluded from the median. The sterling two-year swap series starts in 2009. Gilt and swap changes are in basis points. Equity and exchange-rate changes are log returns in percent. A positive GBP/USD return means sterling strengthened.</p>
+  </details>
+  <p class="mr-method-links"><a href="https://www.bankofengland.co.uk/working-paper/2023/measuring-monetary-policy-in-the-uk-ukmpd">Bank of England · Braun, Miranda-Agrippino and Saha</a> · <a href="https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/measuring-monetary-policy-in-the-uk-the-ukmpesd.xlsx">Original UKMPD workbook</a> · <a href="data/uk-market-years.json" download>Download annual results (JSON)</a></p>
+</section>
+<script defer src="uk-market-years.js"></script>
   <section class="mr-analysis pre-curve" id="pre-event-curve" aria-labelledby="pc-title">
     <h2 id="pc-title">How did the US curve move before the event?</h2>
     <p>Compare two- and ten-year Treasury yields over the sessions leading into a Fed speech or statement. A custom date uses the same comparison.</p>

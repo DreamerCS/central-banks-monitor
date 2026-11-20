@@ -1,0 +1,720 @@
+[
+  {
+    "year": 2000,
+    "date": "2000-08-11",
+    "area": "Japan",
+    "title": "Japan ends its first zero-rate commitment",
+    "analysis": "The Bank of Japan set its target for unsecured overnight lending between banks at around 0.25%. Investment spending had strengthened and the Board judged that weak demand posed less of a threat to prices. Investors assessing the path of future rates had previously been told that zero rates would last until the danger of deflation had passed.",
+    "test": "Follow the duration of the exit. On 19 March 2001 the Bank shifted to a ¥5 trillion current-account-balance target and expected the overnight rate to return to around zero. The August decision gave little basis for assuming a sustained sequence of increases.",
+    "sources": [
+      {
+        "label": "Bank of Japan · August policy decision",
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000811.htm"
+      },
+      {
+        "label": "Bank of Japan · March 2001 operating framework, Q&A",
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2001/k010319c.htm"
+      }
+    ]
+  },
+  {
+    "year": 2001,
+    "date": "2001-09-17",
+    "area": "United States",
+    "title": "The Fed cuts its target and supplies emergency liquidity",
+    "analysis": "After the September 11 attacks, the Federal Reserve cut its federal funds target by 50 basis points to 3% and its discount rate to 2.5%. It also offered unusually large amounts of liquidity to restore market functioning. Banks could therefore borrow overnight at a rate far below the announced target even as the Fed kept that target in place.",
+    "test": "Compare the target with the effective rate published in H.15. The latter was 2.13% on September 17, 1.19% on September 19 and 3.11% on September 21. Treating the 1.19% print as a second policy cut would misread the cost of overnight funding that week.",
+    "sources": [
+      {
+        "label": "Federal Reserve · September 17 FOMC and discount-rate statement",
+        "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010917/"
+      },
+      {
+        "label": "Federal Reserve · H.15 daily rates for September 17–21",
+        "url": "https://www.federalreserve.gov/releases/h15/20010924/"
+      }
+    ]
+  },
+  {
+    "year": 2002,
+    "date": "2002-10-14",
+    "area": "Brazil",
+    "title": "Brazil tightens as depreciation feeds inflation expectations",
+    "analysis": "At an extraordinary meeting, Banco Central do Brasil’s monetary policy committee raised its Selic target from 18% to 21%. The dollar had reached roughly R$3.90 against a September forecast assumption of R$3.20, and surveyed inflation expectations for 2003 had risen from 5.2% to 5.9%. Keeping the nominal rate at 18% would have allowed expected inflation to erode the real cost of borrowing just as currency depreciation was feeding into domestic prices.",
+    "test": "Track the same forecast year in the central bank’s survey. Expected 2003 inflation reached 9.8% in November and 11.0% in December. The October increase therefore did not immediately halt the deterioration. The December minutes also identify price inertia and uncertainty about future policy.",
+    "sources": [
+      {
+        "label": "Banco Central do Brasil · October meeting minutes, printed pp. 139–141",
+        "url": "https://www.bcb.gov.br/content/ri/inflationreport/200212/INFREP200212-ri200212ani.pdf"
+      },
+      {
+        "label": "Banco Central do Brasil · December meeting minutes and 2003 inflation expectations",
+        "url": "https://www.bcb.gov.br/content/copom/copomminutes/MIN200079-COPOM20021227-79th%20Copom%20Minutes.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2003,
+    "date": "2003-05-08",
+    "area": "Euro area",
+    "title": "The ECB clarifies where it wants inflation to settle",
+    "analysis": "The European Central Bank clarified that it aimed for inflation close to 2% over the medium term, within its existing definition of price stability as an annual increase below 2%. The clarification gave households and firms a reason to distinguish near-zero inflation from the outcome the ECB wanted to sustain. The same day’s decision kept the minimum bid rate in its main refinancing operations at 2.50%.",
+    "test": "Compare the ECB’s second- and third-quarter surveys of professional forecasters. Five-year-ahead inflation stayed at 1.9% in both, while the forecast for 2004 fell from 1.7% to 1.5%. A stable long-term mean can coexist with weaker near-term demand. These quarterly observations cannot isolate the announcement-day response.",
+    "sources": [
+      {
+        "label": "ECB · May 8 strategy decision",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2003/html/pr030508_2.en.html"
+      },
+      {
+        "label": "ECB · same-day policy rates",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2003/html/pr030508.en.html"
+      },
+      {
+        "label": "ECB · 2003 Q3 survey, including the previous round",
+        "url": "https://www.ecb.europa.eu/pub/pdf/other/mb200308_focus03.en.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2004,
+    "date": "2004-03-25",
+    "area": "India",
+    "title": "India sells government securities to absorb surplus rupees",
+    "analysis": "The Reserve Bank of India and the government agreed on a Market Stabilisation Scheme that began in April. When investors bought the additional bills and bonds, the proceeds went into a separate RBI account reserved for redeeming or buying back the securities. This let the authorities drain rupee liquidity, including reserves created by foreign-exchange purchases, without returning the proceeds to circulation through ordinary government spending.",
+    "test": "Distinguish the announced borrowing limit from actual absorption. The initial ceiling was ₹60,000 crore, raised in August to ₹80,000 crore. On November 13 the RBI reported ₹55,686 crore in securities outstanding at face value. Compare that stock and its maturities with bank reserves when assessing the scale of sterilisation.",
+    "sources": [
+      {
+        "label": "Reserve Bank of India · March 25 agreement and cash-account rules",
+        "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=9886"
+      },
+      {
+        "label": "Reserve Bank of India · 2003–04 banking report, scheme ceiling and outstanding stock",
+        "url": "https://www.rbi.org.in/upload/publications/pdfs/58841.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2005,
+    "date": "2005-07-21",
+    "area": "China",
+    "title": "China changes how it sets the renminbi’s dollar rate",
+    "analysis": "The People’s Bank of China set the renminbi at 8.11 per US dollar and introduced a managed exchange rate with reference to a basket of currencies. It kept daily interbank dollar trading within 0.3% of a central parity, initially based on the preceding close. If the renminbi strengthened between invoicing and settlement, a Chinese exporter would receive fewer yuan for the same dollar sale.",
+    "test": "Separate the initial reset from subsequent changes. China’s State Administration of Foreign Exchange records the dollar at 8.1128 yuan on July 27 and 8.0702 on December 30. The renminbi gained about 0.5% from its initial 8.11 level by year-end, with movement in both directions along the way.",
+    "sources": [
+      {
+        "label": "People’s Bank of China · original exchange-rate announcement, official English text",
+        "url": "https://na.china-embassy.gov.cn/eng/sgxw/200507/t20050721_6717532.htm"
+      },
+      {
+        "label": "State Administration of Foreign Exchange · 2005 annual report, exchange-rate developments",
+        "url": "https://www.safe.gov.cn/en/file/file/20170726/1bebfb79f9c84419a77be4db145fbd1a.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2006,
+    "date": "2006-03-09",
+    "area": "Japan",
+    "title": "Japan winds down excess reserves before raising the overnight rate",
+    "analysis": "The Bank of Japan ended its quantitative target for banks’ current-account balances and switched back to targeting the unsecured overnight call rate at effectively zero. It planned to withdraw excess balances gradually through short-term operations while continuing its existing pace of outright government bond purchases. Banks could shed part of their cash buffers months before the policy rate itself rose.",
+    "test": "Distinguish March from July 14, when the overnight target rose to around 0.25%. The Bank’s operations review shows that reserve balances at institutions subject to requirements fell from ¥23.5 trillion at the end of fiscal 2005 to an average of ¥5–6 trillion after the July meeting. That measure excludes balances at other institutions.",
+    "sources": [
+      {
+        "label": "Bank of Japan · March change in operating target",
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2006/k060309.htm"
+      },
+      {
+        "label": "Bank of Japan · July rate decision",
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2006/k060714.pdf"
+      },
+      {
+        "label": "Bank of Japan · Money Market Operations in Fiscal 2006",
+        "url": "https://www.boj.or.jp/en/research/brp/ron_2007/data/ron0707c.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2006,
+    "date": "2006-12-18",
+    "area": "Thailand",
+    "title": "Thailand raises the cost of a short-term bet on the baht",
+    "analysis": "To curb speculative inflows, the Bank of Thailand ordered banks to retain 30% of covered foreign currency exchanged for baht. An investor repatriating funds within a year could recover only two-thirds of the reserve. That put 10% of the original inflow at risk on an early exit.",
+    "test": "The Thai stock index fell 14.8% at the December 19 close and rebounded after equity investment was exempted. Compare listed shares with instruments still covered by the rule. The fall measures the equity market’s reaction, while the original policy objective concerned the baht.",
+    "sources": [
+      {
+        "label": "Bank of Thailand · December 18 circular and refund rules",
+        "url": "https://www.bot.or.th/content/dam/bot/fipcs/documents/FOG/2549/EngPDF/25490114.pdf"
+      },
+      {
+        "label": "Bank of Thailand · January 2007 Inflation Report, equity-market response",
+        "url": "https://www.bot.or.th/content/dam/bot/documents/en/our-roles/monetary-policy/mpc-publication/monetary-policy-report/IR_2007_Q1.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "date": "2007-08-09",
+    "area": "Euro area",
+    "title": "The ECB supplies overnight cash as interbank trading thins",
+    "analysis": "When overnight trading volumes shrank and funding rates jumped, the European Central Bank met every bid in a special overnight operation. Forty-nine banks borrowed €94.8 billion at 4.00%, the minimum bid rate on the regular refinancing operation. Banks could obtain settlement balances at the ECB while their capacity to borrow privately for several months remained a separate question.",
+    "test": "The overnight EONIA benchmark stood at 4.10% on August 13 and traded between 4.00% and 4.02% for several days after the August 14 operations. Later that month, banks paid a weighted average of 4.61% at a supplementary three-month tender. The differing dates and maturities prevent treating that gap as a pure credit spread.",
+    "sources": [
+      {
+        "label": "ECB · September Monthly Bulletin, box 3, operation terms, EONIA and three-month tender",
+        "url": "https://www.ecb.europa.eu/pub/pdf/other/mb200709_focus03.en.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "date": "2008-04-21",
+    "area": "United Kingdom",
+    "title": "The Bank of England swaps hard-to-finance assets for Treasury bills",
+    "analysis": "The Bank of England’s Special Liquidity Scheme allowed banks to exchange eligible mortgage-backed and other securities for Treasury bills for one year, renewable for up to three years in total. Banks could use the bills to raise funds while retaining losses on the underlying loans. A fall in the value of pledged securities could require the bank to post more collateral or return bills.",
+    "test": "The April announcement anticipated initial use of about £50 billion. When the drawdown window closed on January 30, 2009, the Bank reported £185 billion of bills lent. That measures demand for liquid collateral. Assess any revival of new mortgage lending separately, since eligible securities had to be backed by assets already held at the end of 2007.",
+    "sources": [
+      {
+        "label": "Bank of England · original scheme terms and initial estimate",
+        "url": "https://www.bankofengland.co.uk/-/media/boe/files/news/2008/april/special-liquidity-scheme.pdf"
+      },
+      {
+        "label": "Bank of England · February 2009 report on drawdown",
+        "url": "https://www.bankofengland.co.uk/-/media/boe/files/news/2009/february/special-liquidity-scheme.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "date": "2008-10-30",
+    "area": "South Korea",
+    "title": "A dollar swap line gives Korean banks another source of funding",
+    "analysis": "On October 30 in Seoul, the Bank of Korea announced a temporary US$30 billion swap line with the Federal Reserve. It could draw dollars and lend them to local banks facing difficulty refinancing dollar obligations overseas. A won rate cut alone could not supply the currency those borrowers needed.",
+    "test": "Compare the line’s capacity with the dollars actually used. By year-end the Bank of Korea had drawn US$10.35 billion from the Fed for bank lending. It had separately supplied US$10.27 billion through swaps funded from its own reserves.",
+    "sources": [
+      {
+        "label": "Korean Ministry of Finance and Economy · October 30 announcement",
+        "url": "https://english.mofe.go.kr/pc/selectTbPressCenterDtl.do?boardCd=N0001&seq=2509"
+      },
+      {
+        "label": "Bank for International Settlements · Korean drawings and reserve-funded swaps",
+        "url": "https://www.bis.org/publications/working-paper-310-central-bank-co-operation-and-international-liquidity-financial-crisis-2008-9.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "date": "2009-03-12",
+    "area": "Switzerland",
+    "title": "The SNB buys foreign currency to resist franc appreciation",
+    "analysis": "The Swiss National Bank narrowed its three-month Libor target range to 0–0.75% and aimed for about 0.25%. As deflation risk rose, it announced foreign-currency purchases to resist further franc appreciation against the euro, alongside repo operations and purchases of Swiss-franc bonds issued by private borrowers. The currency leg addressed the downward pressure a stronger franc put on import prices.",
+    "test": "Track francs per euro around 12 March and import prices excluding oil over the following months. The simultaneous rate and bond measures limit what the exchange-rate move alone can identify.",
+    "sources": [
+      {
+        "label": "SNB monetary policy assessment, 12 March 2009",
+        "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/press-releases/2009/pre_20090312/publications0_en/pre_20090312.en.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "date": "2010-03-04",
+    "area": "Malaysia",
+    "title": "Malaysia begins to withdraw its crisis-era rate cuts",
+    "analysis": "Bank Negara Malaysia raised its overnight policy rate from 2.00% to 2.25%, with a 2.00–2.50% corridor. Domestic demand was recovering and neighbouring economies were buying more Malaysian exports. Although the committee still expected moderate inflation, it judged that keeping borrowing costs at their crisis lows could encourage financial imbalances.",
+    "test": "The May and July meetings each added 25 basis points, taking the rate to 2.75%. To judge how much the 75-basis-point cumulative increase affected borrowing, compare changes in new loan rates with changes in the overnight rate over those months.",
+    "sources": [
+      {
+        "label": "Bank Negara Malaysia · 4 March policy statement",
+        "url": "https://www.bnm.gov.my/-/monetary-policy-statement-04032010"
+      },
+      {
+        "label": "Bank Negara Malaysia · official overnight rate decisions",
+        "url": "https://www.bnm.gov.my/monetary-stability/opr-decisions"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "date": "2010-07-01",
+    "area": "India",
+    "title": "Banks begin pricing new rupee loans against a published floor",
+    "analysis": "The Reserve Bank of India required scheduled commercial banks covered by its circular to use their own Base Rate for new domestic rupee loans and older loans coming up for renewal, with specified exceptions. Under the old benchmark prime lending rate, banks could lend to many borrowers below the published benchmark. The new floor made the costs shared across borrowers easier to distinguish from a customer’s individual loan spread.",
+    "test": "After a change in a bank’s Base Rate, compare actual rates on newly issued and renewed loans of similar size and risk with still-outstanding loans priced under the old benchmark.",
+    "sources": [
+      {
+        "label": "RBI guidelines issued 9 April 2010",
+        "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=5579&Mode=0"
+      },
+      {
+        "label": "RBI circular in effect on 1 July, sections 2.2–2.3",
+        "url": "https://www.rbi.org.in/commonman/Upload/English/Notification/PDFs/72MIR010710_F.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "date": "2011-08-31",
+    "area": "Brazil",
+    "title": "A weaker world outlook tips a divided Copom towards a cut",
+    "analysis": "Brazil’s monetary policy committee cut the Selic target from 12.50% to 12.00% by five votes to two. The majority judged that slower growth abroad could weaken Brazilian trade and investment, tighten credit and ease inflation pressure over the policy horizon. The two dissenters preferred to keep the previous rate.",
+    "test": "Compare seasonally adjusted export volumes over the following two quarters with their pre-meeting trend. Falling export values alone could reflect commodity prices rather than weaker quantities.",
+    "sources": [
+      {
+        "label": "Banco Central do Brasil decision, 31 August 2011",
+        "url": "https://www.bcb.gov.br/en/monetarypolicy/copomstatements/2160"
+      },
+      {
+        "label": "Minutes of the 161st Copom meeting",
+        "url": "https://www.bcb.gov.br/content/copom/copomminutes/MIN2011161st-COPOM20110831-161st%20Copom%20Minutes.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "date": "2012-07-13",
+    "area": "United Kingdom",
+    "title": "Funding for Lending ties cheaper bank funding to new credit",
+    "analysis": "The Bank of England and HM Treasury announced a scheme opening on 1 August. Banks could borrow Treasury bills against collateral up to 5% of their existing eligible loan book, with another £1 of access for each £1 of net new lending. In the fourth quarter participants drew £9.5 billion while their combined net lending fell £2.4 billion.",
+    "test": "Compare each participant’s quarterly net lending after its first draw with its earlier trend and that of lenders serving similar borrowers. Aggregate drawdowns alone cannot establish how lending would have evolved without the scheme.",
+    "sources": [
+      {
+        "label": "Bank of England and HM Treasury launch terms",
+        "url": "https://www.bankofengland.co.uk/-/media/boe/files/news/2012/july/boe-and-hmt-announce-launch-of-funding-for-lending-scheme.pdf"
+      },
+      {
+        "label": "Bank of England fourth-quarter drawings and net lending",
+        "url": "https://www.bankofengland.co.uk/-/media/boe/files/news/2013/march/boe-hmt-fls-2012-q4"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "date": "2013-10-01",
+    "area": "New Zealand",
+    "title": "A mortgage limit changes which borrowers banks can finance",
+    "analysis": "From October 1, the Reserve Bank of New Zealand allowed banks to put at most 10% of the dollar value of new housing lending into mortgages above 80% loan-to-value, subject to exemptions. The limit constrained lending to buyers with small deposits while leaving banks room to lend to buyers with more equity.",
+    "test": "High loan-to-value lending was roughly 25% in September. It accounted for 5.6% over the six months ending March 2014, the first compliance period. This change in new lending is directly observable. A house-price effect also depends on supply and demand from other buyers.",
+    "sources": [
+      {
+        "label": "Reserve Bank of New Zealand · terms and effective date",
+        "url": "https://www.rbnz.govt.nz/news-and-events/news/2013/08/limits-for-high-lvr-mortgage-lending"
+      },
+      {
+        "label": "Reserve Bank of New Zealand · first six months of lending",
+        "url": "https://www.rbnz.govt.nz/news-and-events/news/2014/04/high-lvr-lending-falls-to-5-6-over-six-months"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "date": "2013-11-07",
+    "area": "Czechia",
+    "title": "The Czech National Bank puts a one-sided floor under koruna per euro",
+    "analysis": "With its two-week repo rate at 0.05%, the Czech National Bank committed to sell koruna to prevent the currency strengthening past approximately CZK 27 per euro. A weaker koruna would raise the domestic price of imports and help counter deflation. By 20 November the Bank reported buying foreign currency worth about CZK 200 billion, concentrated in the first days.",
+    "test": "Compare daily koruna per euro with the subsequent intervention figures. Periods close to 27 with few purchases would be consistent with traders expecting the Bank to defend the boundary.",
+    "sources": [
+      {
+        "label": "CNB policy decision, 7 November 2013",
+        "url": "https://www.cnb.cz/en/cnb-news/press-releases/CNB-keeps-interest-rates-unchanged-decides-on-interventions-00001"
+      },
+      {
+        "label": "CNB intervention totals through 20 November",
+        "url": "https://www.cnb.cz/en/cnb-news/press-releases/The-CNB-buys-foreign-exchange-worth-about-CZK-200-billion-00001"
+      },
+      {
+        "label": "CNB explanation of exchange-rate transmission",
+        "url": "https://www.cnb.cz/en/faq/What-was-the-exchange-rate-commitment/"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "date": "2014-06-05",
+    "area": "Euro area",
+    "title": "The ECB takes the return on excess reserves below zero",
+    "analysis": "The ECB announced a −0.10% deposit facility rate, effective 11 June, and applied it to average reserve balances above banks’ minimum requirements. Moving funds from the facility into an excess current-account balance would therefore leave the same charge. The unsecured overnight benchmark EONIA averaged 24 basis points in the preceding reserve period and settled near positive 4 basis points in the next two.",
+    "test": "Track EONIA’s spread over the deposit rate around 11 June, with excess liquidity alongside it. Other ECB rates changed on the same date, so the full decline cannot be assigned to the deposit facility alone.",
+    "sources": [
+      {
+        "label": "ECB decision and accounts subject to the negative rate",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2014/html/pr140605_3.en.html"
+      },
+      {
+        "label": "ECB September bulletin on liquidity and overnight rates",
+        "url": "https://www.ecb.europa.eu/pub/pdf/other/mb201409_focus04.en.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "date": "2014-11-04",
+    "area": "Hungary",
+    "title": "Hungary supplies the currency needed to convert household mortgages",
+    "analysis": "The Magyar Nemzeti Bank made €9 billion available to support the conversion of household foreign-currency loans into forint. As mortgage assets changed currency, banks needed foreign exchange to cover the resulting exposure. Buying it simultaneously in the open market could have weakened the forint during the conversion.",
+    "test": "At its November 10 tender the central bank accepted €7.83 billion in bids against an estimated €8 billion hedging need. Compare those figures to assess how much immediate market demand the tender absorbed. The auction amount alone says little about households’ subsequent arrears.",
+    "sources": [
+      {
+        "label": "Magyar Nemzeti Bank · November 4 conversion facility",
+        "url": "https://www.mnb.hu/en/pressroom/press-releases/press-releases-2014/magyar-nemzeti-bank-provides-the-necessary-amount-of-foreign-currency-for-the-conversion-of-household-fx-loans-into-hungarian-forint"
+      },
+      {
+        "label": "Magyar Nemzeti Bank · November 10 tender and estimated hedging need",
+        "url": "https://www.mnb.hu/en/pressroom/press-releases/press-releases-2014/the-mnb-s-foreign-currency-tender-has-brought-success-banks-have-almost-entirely-covered-the-forint-conversion"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "date": "2014-12-11",
+    "area": "Indonesia",
+    "title": "Indonesia holds rates as fuel-subsidy reform lifts prices",
+    "analysis": "Bank Indonesia held its benchmark at 7.75% after the government raised subsidized fuel prices. The bank expected the initial jump in prices to fade and aimed to bring inflation back inside a 3–5% range in 2015. It also wanted to contain the current-account deficit while keeping credit markets functioning.",
+    "test": "Annual inflation fell from 8.36% at the end of 2014 to 3.35% a year later, inside the target range. Compare core inflation with administered fuel prices to see how much of the 5.01-percentage-point decline simply reflected the earlier price jump dropping out of the annual comparison.",
+    "sources": [
+      {
+        "label": "Bank Indonesia · 11 December policy decision",
+        "url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_1610114.aspx"
+      },
+      {
+        "label": "Bank Indonesia · inflation targets and outcomes",
+        "url": "https://www.bi.go.id/en/statistik/indikator/target-inflasi.aspx"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "date": "2015-01-21",
+    "area": "Canada",
+    "title": "Canada’s oil-price insurance meets a deeper first-half contraction",
+    "analysis": "The Bank of Canada cut its overnight rate by 25 basis points to 0.75% as lower oil prices squeezed export income and energy investment. With oil assumed at about US$60 a barrel, it still expected real GDP growth to average roughly 1.5% annualized in the first half. Statistics Canada’s 1 September release recorded quarterly annualized growth of −0.8% and −0.5%, averaging −0.65%, about 2.2 percentage points below that forecast.",
+    "test": "Spending on mineral exploration and evaluation fell 19.6% in the first quarter and 33.2% in the second, a compounded 46.3% decline from the fourth quarter of 2014. That concentration supports the investment channel. These figures leave open how much output would have fallen with the policy rate unchanged.",
+    "sources": [
+      {
+        "label": "Bank of Canada · 21 January policy deliberations and oil assumption",
+        "url": "https://www.bankofcanada.ca/2015/01/opening-statement-210115/"
+      },
+      {
+        "label": "Bank of Canada · January 2015 Monetary Policy Report, Canadian economy",
+        "url": "https://www.bankofcanada.ca/wp-content/uploads/2014/07/mpr-2015-01-21.pdf"
+      },
+      {
+        "label": "Statistics Canada · 1 September 2015 GDP and investment release",
+        "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/150901/dq150901a-eng.htm"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "date": "2015-10-24",
+    "area": "China",
+    "title": "China removes its remaining deposit-rate ceilings as benchmarks fall",
+    "analysis": "On 24 October the People’s Bank of China removed the remaining caps on demand deposits and term deposits of one year or less at commercial banks and rural cooperative financial institutions. Caps on longer-term deposits had already been lifted in August. The one-year deposit benchmark fell to 1.50% and the lending benchmark to 4.35%, leaving banks more room to compete for deposits even as the policy benchmarks declined.",
+    "test": "Compare the dispersion of banks’ quoted one-year deposit rates before and after 24 October with the dispersion at longer maturities already freed in August. Match banks and account terms across both periods.",
+    "sources": [
+      {
+        "label": "PBoC monetary policy report, section VII and box 2 (Chinese)",
+        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2973791/2015110619161324598.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "date": "2016-07-29",
+    "area": "Colombia",
+    "title": "Colombia tests whether a food-price shock has spread",
+    "analysis": "Banco de la República raised its policy rate by 25 basis points to 7.75%. El Niño had ended, but food costs and earlier peso depreciation had already reached other prices through contracts indexed to inflation. In June, headline inflation was 8.6% and the bank’s average of core inflation measures was 6.5%, both above its 3% target.",
+    "test": "From July to December, headline inflation fell from 8.97% to 5.75%, while the average core measure fell from 6.61% to 5.60%. The 3.22-point headline drop was more than three times the 1.01-point core decline, consistent with a faster reversal in volatile prices.",
+    "sources": [
+      {
+        "label": "Banco de la República · 29 July policy decision",
+        "url": "https://www.banrep.gov.co/es/node/41870"
+      },
+      {
+        "label": "Banco de la República · December Inflation Report, table 6",
+        "url": "https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/isi_dic_2016_ingles.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "date": "2016-09-21",
+    "area": "Japan",
+    "title": "The Bank of Japan names a ten-year yield target",
+    "analysis": "The Bank of Japan retained −0.10% on Policy-Rate Balances at the central bank and aimed to keep the ten-year Japanese government bond yield around zero. It kept roughly ¥80 trillion as a guide to the annual increase in its bond holdings and added the option to buy at yields it specified. That gave traders a price against which to test the Bank’s commitment even when the volume of purchases varied.",
+    "test": "On days when global bond yields rose, compare ten-year Japanese yields with the Bank’s fixed-rate purchase offers and amounts accepted. A credible offer can restrain yields even if nobody sells into it.",
+    "sources": [
+      {
+        "label": "Bank of Japan framework and operating tools, 21 September",
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2016/k160921a.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "date": "2017-12-20",
+    "area": "Sweden",
+    "title": "Sweden starts reinvesting ahead of its 2019 bond maturities",
+    "analysis": "The Riksbank kept its repo rate at −0.50% and decided to start reinvesting in January 2018 against roughly SEK 50 billion of bonds maturing in the first half of 2019. Spreading those purchases through mid-2019 would keep the Bank in the market at a steadier pace and temporarily increase its holdings before the bonds matured.",
+    "test": "Compare the monthly face value of the Riksbank’s government-bond holdings with the dates of the 2019 redemptions. An increase before maturity can arise from the reinvestment schedule itself.",
+    "sources": [
+      {
+        "label": "Riksbank decision and redemption schedule, 20 December 2017",
+        "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2017/repo-rate-unchanged-at-03.50-per-cent/"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "date": "2018-09-13",
+    "area": "Türkiye",
+    "title": "A falling lira changes firms’ prices even as demand weakens",
+    "analysis": "Türkiye’s central bank raised its one-week repo rate from 17.75% to 24% as the lira’s decline spread through prices. Annual core goods inflation had reached 23.18% in August. Even as domestic demand slowed, higher import costs and more frequent price increases threatened to keep inflation high.",
+    "test": "Compare monthly durable-goods and services inflation after the lira stabilizes. Goods could cool quickly as import costs settle, while continued acceleration in services would suggest broader changes in pricing and wages.",
+    "sources": [
+      {
+        "label": "CBRT · 13 September rate decision",
+        "url": "https://tcmb.gov.tr/wps/wcm/connect/en/tcmb%2Ben/main%2Bmenu/announcements/press%2Breleases/2018/ano2018-38"
+      },
+      {
+        "label": "CBRT · September meeting summary, §§1–5",
+        "url": "https://tcmb.gov.tr/wps/wcm/connect/EN/TCMB%2BEN/Main%2BMenu/Announcements/Press%2BReleases/2018/ANO2018-41"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "date": "2018-09-28",
+    "area": "Argentina",
+    "title": "Argentina sets a ceiling on the monetary base",
+    "analysis": "Argentina’s central bank committed to hold the monthly average monetary base at its September level from October through June 2019, with a December adjustment for seasonal cash demand. It used daily auctions of short-term central bank bills to absorb pesos. The bill yield could rise when banks were reluctant to give up scarce pesos, and initially carried a 60% annual floor.",
+    "test": "The October average was 1.252 trillion pesos, 1.5% below September’s 1.271 trillion. The bill rate ended October at 68%, up from 65% at end-September. Those numbers verify the first month of implementation. Whether it anchored prices requires separate evidence on inflation and expectations.",
+    "sources": [
+      {
+        "label": "BCRA · 28 September implementation decision",
+        "url": "https://www.bcra.gob.ar/en/news/the-bcra-implements-a-new-monetary-policy-scheme/"
+      },
+      {
+        "label": "BCRA · October 2018 Monetary Report",
+        "url": "https://www.bcra.gob.ar/en/publicaciones/monthly-monetary-report-october-2018/"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "date": "2019-08-15",
+    "area": "Mexico",
+    "title": "Banxico cuts as the output gap widens and core inflation holds",
+    "analysis": "Banco de México lowered the overnight interbank target by 25 basis points to 8.00%. Headline inflation fell from 3.95% in June to 3.78% in July, largely because energy and some food prices rose more slowly, while core inflation stayed near 3.8%. A larger-than-expected gap between actual and potential output argued for easing, and one board member preferred to hold at 8.25%.",
+    "test": "Track services inflation and retail activity over subsequent quarters alongside the peso. A slowdown in services as spending weakens would strengthen the case that slack was cooling prices beyond food and energy.",
+    "sources": [
+      {
+        "label": "Banco de México · 15 August monetary policy announcement, pp. 1–2",
+        "url": "https://www.banxico.org.mx/publications-and-press/announcements-of-monetary-policy-decisions/%7B7D98ECF2-2748-CC92-D90B-6E2A1E3EE4BC%7D.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "date": "2020-03-17",
+    "area": "Poland",
+    "title": "Poland adds bond purchases to a pandemic rate cut",
+    "analysis": "Narodowy Bank Polski cut its reference rate by 50 basis points to 1% and announced secondary-market purchases of government bonds. Banks could sell bonds for central-bank money when finding another buyer was difficult. The rate cut addressed short-term financing costs, while the purchases also supported trading in longer-dated debt.",
+    "test": "Purchases began March 19 and expanded in April to government-guaranteed debt. In 2020 the central bank bought PLN 107.1 billion at face value. Compare bid–ask spreads and turnover around the tenders to test market liquidity. Purchase volumes alone cannot establish that borrowing costs fell.",
+    "sources": [
+      {
+        "label": "Narodowy Bank Polski · March 17 Monetary Policy Council decision",
+        "url": "https://nbp.pl/wp-content/uploads/2022/10/mpc_2020_03_17.pdf"
+      },
+      {
+        "label": "Narodowy Bank Polski · 2020 Annual Report, purchases and eligibility",
+        "url": "https://nbp.pl/wp-content/uploads/2022/11/rocznik2020_en.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "date": "2020-03-30",
+    "area": "Singapore",
+    "title": "MAS removes the appreciation path for the Singapore dollar",
+    "analysis": "The Monetary Authority of Singapore set the annual appreciation rate of its trade-weighted currency band to zero, starting at the prevailing exchange rate. The Singapore dollar had already slipped slightly below the old band’s midpoint. Accepting that level and dropping the upward slope eased pressure on import prices to fall as the pandemic depressed demand.",
+    "test": "Follow the trade-weighted Singapore dollar and import prices in local currency. A move in SGD/USD alone could come from a broad US dollar swing even if the Singapore dollar stayed steady against its trading partners.",
+    "sources": [
+      {
+        "label": "MAS · 30 March monetary policy statement, §§14–18",
+        "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2020/mas-monetary-policy-statement-30mar20"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "date": "2020-04-23",
+    "area": "Peru",
+    "title": "Reactiva Perú auctions funding for firms’ working capital",
+    "analysis": "Peru’s central bank allocated 4 billion soles in its first auctions of funding against government-guaranteed business loans. Lenders competed on the interest rate they would charge borrowers. Bids totalled 10.36 billion soles, and the average winning client rate was 1.13%. The government took on part of the credit risk so that banks could lend to firms waiting for customers to pay.",
+    "test": "Bids amounted to 2.59 times the funds available. The first bank loan under the programme was disbursed on 5 May, twelve days after the auction. Compare subsequent loan disbursements by firm size with auction allocations to measure how quickly the liquidity reached borrowers.",
+    "sources": [
+      {
+        "label": "BCRP · 23 April Weekly Report, first Reactiva Perú auction",
+        "url": "https://www.bcrp.gob.pe/eng-docs/Publications/Weekly-Reports/2020/weekly-report-2020-04-23.pdf"
+      },
+      {
+        "label": "BCRP · June Inflation Report, Reactiva Perú implementation dates",
+        "url": "https://www.bcrp.gob.pe/eng-docs/Monetary-Policy/Inflation-Report/2020/inflation-report-june-2020.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "date": "2021-09-23",
+    "area": "Norway",
+    "title": "Norway leaves zero as the domestic economy reopens",
+    "analysis": "Norges Bank announced a rise from zero to 0.25%, effective September 24, and signalled a further increase was likely in December. Underlying inflation was still low. Reopening, falling unemployment and the prospect of faster wage growth gave the committee reasons to tighten before underlying inflation reached 2%.",
+    "test": "By December most banks had raised residential mortgage rates, although forward money-market rates had edged down since September. On December 16 Norges Bank announced a rise to 0.5%. Mortgage rates show the first increase reaching borrowers, while forwards also reflect revisions to the rest of the expected path.",
+    "sources": [
+      {
+        "label": "Norges Bank · September 23 announcement and forecast",
+        "url": "https://www.norges-bank.no/en/topics/Monetary-policy/Monetary-policy-meetings/2021/september-2021/"
+      },
+      {
+        "label": "Norges Bank · December decision, mortgage and forward rates",
+        "url": "https://www.norges-bank.no/en/topics/Monetary-policy/Monetary-policy-meetings/2021/december-2021/?tab=117743"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "date": "2021-10-27",
+    "area": "Brazil",
+    "title": "Doubts about fiscal rules raise the cost of bringing inflation down",
+    "analysis": "Brazil’s monetary policy committee unanimously lifted the Selic rate by 1.50 percentage points to 7.75% and indicated that another increase of the same size was likely. Public accounts had improved, but doubts about future spending limits had raised risk premiums. The committee judged that a loss of confidence in the inflation target would require tighter policy than its central forecast implied.",
+    "test": "Compare the weekly Focus survey’s longer-horizon inflation forecasts with Brazilian sovereign bond spreads and commodity prices in reais. An increase in spreads and distant inflation expectations after fiscal news would support the committee’s diagnosis.",
+    "sources": [
+      {
+        "label": "Banco Central do Brasil · 242nd Copom decision",
+        "url": "https://www.bcb.gov.br/en/monetarypolicy/copomstatements/2418"
+      },
+      {
+        "label": "Banco Central do Brasil · October minutes, §§9–18 (PDF)",
+        "url": "https://www.bcb.gov.br/content/copom/copomminutes/MINUTES%20242.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "date": "2022-07-14",
+    "area": "Philippines",
+    "title": "The BSP brings forward a 75-basis-point increase",
+    "analysis": "At an off-cycle decision, the Bangko Sentral ng Pilipinas raised its overnight reverse repo rate to 3.25% and moved its deposit and lending rates to 2.75% and 3.75%. The larger increase followed two 25-basis-point moves. With price pressures spreading, the board sought to slow their transmission into wage demands, fares and expectations.",
+    "test": "By December, headline inflation was 8.1% and core inflation had risen from 6.5% in November to 6.9%. Food prices contributed to the headline increase, while the rise in core shows that price pressure extended beyond selected food and energy items. These readings include the effects of other shocks and subsequent decisions.",
+    "sources": [
+      {
+        "label": "BSP · third-quarter 2022 report, monetary policy decisions",
+        "url": "https://www.bsp.gov.ph/Lists/Quarterly%20Report/Attachments/24/LTP_3qtr2022.pdf"
+      },
+      {
+        "label": "Philippine Statistics Authority · December 2022 CPI",
+        "url": "https://psa.gov.ph/content/summary-inflation-report-consumer-price-index-2018100-december-2022"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "date": "2022-09-28",
+    "area": "United Kingdom",
+    "title": "Temporary gilt purchases give pension funds time to meet margin calls",
+    "analysis": "The Bank of England initially offered to buy up to £5 billion per auction in conventional gilts with more than 20 years remaining. Falling bond prices had triggered collateral calls on leveraged liability-driven investment funds used by pension schemes. Selling gilts to raise cash pushed prices down further, and the Bank’s auctions offered those funds another buyer while they replenished their cash buffers.",
+    "test": "Compare bid–ask spreads and yield moves in eligible long gilts with shorter gilts and sterling overnight-indexed swaps around auction times. An improvement concentrated in long gilts would support the market-liquidity explanation.",
+    "sources": [
+      {
+        "label": "Bank of England · original gilt auction terms",
+        "url": "https://www.bankofengland.co.uk/markets/market-notices/2022/september/market-notice-28-september-2022-gilt-market-operations"
+      },
+      {
+        "label": "Bank of England · December Financial Stability Report, §5.2",
+        "url": "https://www.bankofengland.co.uk/financial-stability-report/2022/december-2022"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "date": "2023-03-19",
+    "area": "Switzerland",
+    "title": "Two liquidity facilities help bridge the Credit Suisse takeover",
+    "analysis": "As UBS announced its acquisition of Credit Suisse, the Swiss National Bank made up to CHF 100 billion available to the two banks together under a new facility with priority in bankruptcy. Credit Suisse separately qualified for up to CHF 100 billion backed by a federal default guarantee. The second facility let the bank fund withdrawals after its immediately usable collateral proved insufficient, and Credit Suisse drew CHF 70 billion under that guarantee on 20 March.",
+    "test": "Compare the amounts drawn and repaid under each facility with deposit outflows. Falling withdrawals followed by repayment would show how long the bank needed public liquidity while the takeover proceeded.",
+    "sources": [
+      {
+        "label": "SNB · 19 March liquidity announcement",
+        "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/press-releases/2023/pre_20230319_1/publications0_en/pre_20230319.en.pdf"
+      },
+      {
+        "label": "SNB · 2023 accountability report, March liquidity operations",
+        "url": "https://www.snb.ch/dam/jcr%3A1771c369-2e5f-4ce0-8de6-9b61cdfcef70/annrep_2023_rechenschaft.en.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "date": "2024-03-19",
+    "area": "Japan",
+    "title": "The overnight rate becomes Japan’s main policy instrument",
+    "analysis": "The Bank of Japan ended negative rates and yield-curve control after judging that wage growth and price increases were reinforcing each other. It guided the unsecured overnight call rate to around 0–0.1% and initially maintained government bond purchases near ¥6 trillion per month. Banks therefore faced a new short-term funding rate while the central bank continued buying bonds in the secondary market.",
+    "test": "Check whether the overnight call rate moved into the new range, then compare ten-year yields with actual purchase volumes on the Bank’s operation days. The two series reveal how the short-rate change and ongoing bond purchases reached different maturities.",
+    "sources": [
+      {
+        "label": "Bank of Japan · 19 March framework decision and footnote 3",
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2024/k240319a.htm"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "date": "2024-09-19",
+    "area": "Taiwan",
+    "title": "Taiwan lowers the borrowing limit on a second home loan",
+    "analysis": "Taiwan’s central bank extended its cap on an individual’s second outstanding home loan nationwide from September 20 and cut the maximum loan-to-value ratio from 60% in designated areas to 50% nationwide. A buyer in a previously covered area now needed ten more dollars of equity for every hundred dollars of property value at the lending limit.",
+    "test": "Annual growth in banks’ outstanding home-purchase loans slowed from 11.26% in September 2024 to 4.46% in December 2025. Compare second-loan originations with loans to first-time owners to distinguish this cap’s effect from tighter bank reserves and the wider property cycle.",
+    "sources": [
+      {
+        "label": "Central Bank of the Republic of China (Taiwan) · September 19 policy decision",
+        "url": "https://www.cbc.gov.tw/en/cp-448-175346-495b8-2.html"
+      },
+      {
+        "label": "Central Bank of the Republic of China (Taiwan) · 2025 Annual Report, housing credit",
+        "url": "https://www.cbc.gov.tw/dl-225845-2dca26f3c81a48048034d9d047710729.html"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "date": "2025-11-12",
+    "area": "South Africa",
+    "title": "A new 3% inflation target changes the benchmark for wage and price decisions",
+    "analysis": "South Africa’s finance minister and Reserve Bank governor agreed on a 3% inflation target with a tolerance of one percentage point on either side. It immediately replaced the 3–6% target range, with implementation over two years. A single reference point gives firms and workers a common figure for setting multi-year contracts, while the tolerance band allows temporary price shocks.",
+    "test": "Compare two-year-ahead survey expectations and multi-year wage settlements with 3% and the old range’s 4.5% midpoint. Falling near-term inflation alongside expectations still near 4.5% would suggest that the new target had yet to change longer-term contracts.",
+    "sources": [
+      {
+        "label": "National Treasury and SARB · joint target announcement",
+        "url": "https://www.gov.za/news/media-statements/treasury-and-south-african-reserve-bank-announce-new-inflation-target-south"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "date": "2026-11-03",
+    "area": "Australia",
+    "title": "The RBA raises rates as fuel costs spread into other prices",
+    "analysis": "The Reserve Bank of Australia voted six to three to raise the cash rate by 25 basis points to 4.85%. Staff pushed back the projected return of inflation to 3%, the top of the target range, by about three quarters to late 2027. The board judged that firms were passing fuel costs into other prices while domestic capacity remained tight, even as the housing market weakened.",
+    "test": "Compare trimmed-mean inflation and services prices with automotive fuel prices, then check housing turnover and household spending. Falling fuel prices alongside persistent services inflation would support the case for restraint despite weakness in housing.",
+    "sources": [
+      {
+        "label": "RBA · 3 November decision and vote",
+        "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html"
+      },
+      {
+        "label": "RBA · November Statement on Monetary Policy",
+        "url": "https://www.rba.gov.au/publications/smp/2026/nov/index.html"
+      }
+    ]
+  }
+]

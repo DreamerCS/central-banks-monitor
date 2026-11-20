@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#19251e">
+  <meta name="description" content="Explore monetary history from 2000 through 2026. Compare policy decisions, event-window prices and macroeconomic outcomes by year and economy.">
+  <title>Monetary history by year · Central Bank Intelligence</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="yearbook.css">
+  <script type="module" src="yearbook.js"></script>
+</head>
+<body class="yearbook-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="./">Overview</a><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="research-notes.html">Research notes</a><a href="research-archive.html">Archive</a></nav></div></header>
+<main id="main" class="yb-wrap">
+  <header class="yb-title"><p class="eyeline">2000 — 2026</p><h1>Monetary history <em>by year</em></h1><p>Trace a decision from its original announcement to the evidence that followed. Compare the same year across economies, policy instruments and financial markets.</p></header>
+  <p id="yb-status" role="status">Loading the historical record…</p>
+  <div id="yb-content" hidden>
+    <p id="yb-coverage" class="yb-coverage"></p>
+    <nav id="yb-years" aria-label="Choose a year"></nav>
+    <section class="yb-year" aria-labelledby="yb-heading">
+      <header class="yb-year-head"><div><p class="eyeline">Selected year</p><h2 id="yb-heading"></h2></div>
+      <label for="yb-case-index">Find a case by economy<select id="yb-case-index"></select></label></header>
+      <div id="yb-cases"></div>
+      <nav id="yb-studies" aria-label="Studies for the selected year"></nav>
+    </section>
+    <section class="yb-macro yb-peers" aria-labelledby="yb-peer-title">
+      <p class="eyeline">Before and after the decision</p><h2 id="yb-peer-title"></h2>
+      <p id="yb-peer-caption"></p>
+      <div class="yb-peer-filters"><label for="yb-measure">Compare<select id="yb-measure"><option value="0">Real GDP growth</option><option value="1">CPI inflation</option></select></label>
+      <label for="yb-benchmark">Benchmark<select id="yb-benchmark"><option value="all">Other covered economies</option><option value="regional">Other economies in this region</option></select></label></div>
+      <div id="yb-peer-grid"></div>
+    </section>
+    <section class="yb-macro" aria-labelledby="yb-economies-title">
+      <div class="yb-section-head"><div><p class="eyeline">Cross-country comparison</p><h2 id="yb-economies-title">Growth and inflation</h2></div>
+      <label for="yb-region">Region<select id="yb-region"><option>All regions</option></select></label></div>
+      <p id="yb-sample" aria-live="polite"></p>
+      <div id="yb-matrix"></div>
+      <details class="yb-notes"><summary>Sources, comparability and revisions</summary><div id="yb-source-note"></div></details>
+    </section>
+    <details class="yb-reading yb-notes"><summary>How the reading informs these comparisons</summary>
+      <p>For a policy view, record the horizon, the price before the event and the move in the announcement window. A steepening 2s10s can reflect a falling two-year yield, a rising ten-year yield, or both. Inspect the legs before interpreting the spread.</p>
+      <p>Looking at quantities alongside prices helps distinguish a demand contraction from an adverse supply shock. Annual growth and inflation can hide the order in which developments occurred. The monthly panel lets you check the sequence.</p>
+      <p>The instrument available to a central bank depends on its exchange-rate commitments and room for domestic adjustment. In the exchange-rate cases, follow the intervention and reserve evidence alongside the policy rate.</p>
+    </details>
+  </div>
+</main></body></html>

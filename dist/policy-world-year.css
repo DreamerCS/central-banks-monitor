@@ -1,0 +1,32 @@
+#policy-world-year { scroll-margin-top:1rem; }
+#policy-world-year [hidden] { display:none; }
+.pw-controls { display:flex; flex-wrap:wrap; gap:.55rem 1rem; }
+.pw-controls label { display:grid; gap:.15rem; font-size:.82rem; font-weight:600; }
+.pw-controls select { min-height:2.25rem; color:var(--navy); border:1px solid var(--quiet,#9c9f93); background:transparent; padding:.27rem .55rem; font:inherit; }
+.pw-table-wrap { max-height:33rem; overflow:auto; overscroll-behavior:contain; border-bottom:1px solid var(--hairline,#d8d9ce); }
+.pw-table-wrap:focus-visible { outline:2px solid currentColor; outline-offset:2px; }
+.pw-table { width:100%; border-collapse:separate; border-spacing:0; font-variant-numeric:tabular-nums; }
+.pw-table caption { text-align:left; padding:.55rem 0; font-weight:600; }
+.pw-table th, .pw-table td { padding:.43rem .6rem; border-bottom:1px solid var(--hairline,#d8d9ce); vertical-align:top; }
+.pw-table thead th { position:sticky; top:0; background:var(--paper,#f5f5ee); text-align:right; font-size:.78rem; }
+.pw-table thead th:first-child,.pw-table tbody th { text-align:left; }
+.pw-table tbody th { font-weight:550; }
+.pw-table td { text-align:right; font-size:.91rem; }
+.pw-table small, #pw-sg-reading small { display:block; color:var(--quiet,#58615c); font-size:.75rem; line-height:1.4; font-weight:400; }
+#policy-world-year a { color:var(--teal,#315e4f); text-underline-offset:.18em; }
+#pw-singapore { margin:1.2rem 0; padding:1rem 1.1rem; background:#eeeee3; border-left:3px solid #768772; }
+#pw-singapore h3 { margin:0 0 .4rem; }
+#pw-sg-reading dl { display:flex; flex-wrap:wrap; gap:.7rem 2rem; margin:.65rem 0; font-variant-numeric:tabular-nums; }
+#pw-sg-reading dt { font-size:.76rem; }
+#pw-sg-reading dd { margin:.2rem 0; font-weight:600; }
+#pw-sg-reading a,.pw-share a,.pw-method a { font-size:.85rem; }
+.pw-method { margin-top:1rem; }
+.pw-method summary { cursor:pointer; font-weight:600; }
+.pw-share { margin:.75rem 0; }
+@media(max-width:650px) {
+  #policy-world-year .policy-section-heading { align-items:start; flex-wrap:wrap; gap:.65rem; }
+  .pw-table th,.pw-table td { padding:.42rem .22rem; font-size:.78rem; }
+  .pw-table thead th { font-size:.73rem; }
+  .pw-table small { font-size:.7rem; }
+  #pw-singapore { padding:.7rem; }
+}

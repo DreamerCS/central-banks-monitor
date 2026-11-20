@@ -1,3 +1,4 @@
+import {yearbook} from "./macro-yearbook.js";
 import {labourFlows} from "./labour-flows.js";
 import {ukCredit} from "./uk-rate-pricing.js";
 
@@ -200,6 +201,7 @@ async function cycles() {
           row.auction === null ? "Before launch" : num(row.auction, 2)]), title));
   }
   if (["financial-crisis","pandemic"].includes(item.id)) article.append(link("Compare US job losses and job finding",local("labour-flows")));
+  if (Number(item.anchor.slice(0,4)) >= 2000) article.append(link("Compare monthly indicators in " + item.anchor.slice(0,4),local("yearbook",{historyYear:item.anchor.slice(0,4)})));
   if (item.studyLink) article.append(link(item.studyLink.label, item.studyLink.url));
   const comparisonIds = {"oil-embargo":"oil-reopening",volcker:"volcker-reopening","financial-crisis":"funding-runs",pandemic:"funding-runs","recent-inflation":"oil-reopening"};
   if (comparisonIds[item.id]) article.append(link("Compare the inflation, employment and output paths", local("compare",{pair:comparisonIds[item.id]})));
@@ -490,9 +492,10 @@ async function compare() {
 }
 
 async function main(){
-  const views={cycles,leaders,guidance,compare,"uk-credit":ukCredit,
+  const views={cycles,leaders,guidance,compare,
+    yearbook:async()=>{const [panel,episodes]=await Promise.all([read("macro-yearbook"),read("history-episodes")]);return yearbook(panel,episodes,{el,select,table,link,svgNode},params);},"uk-credit":ukCredit,
     "labour-flows":async()=>labourFlows(await read("us-labour-flows"),{el,link,table,select,svgNode,sourceList},params)};
-  const view=Object.hasOwn(views,params.get("view"))?params.get("view"):"cycles";
+  const view=Object.hasOwn(views,params.get("view"))?params.get("view"):(params.has("historyYear")?"yearbook":"cycles");
   document.querySelector('[data-view="'+view+'"]').setAttribute("aria-current","page");
   try {
     root.replaceChildren(await views[view]());

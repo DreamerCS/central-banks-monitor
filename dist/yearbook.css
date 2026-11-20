@@ -1,0 +1,30 @@
+.yearbook-page{margin:0;background:var(--paper);color:var(--ink)}
+.yb-wrap{max-width:1180px;margin:auto;padding:clamp(30px,6vw,80px) clamp(18px,5vw,66px) 80px}
+.yb-title{max-width:850px}.yb-title h1,.yb-year h2,.yb-macro h2,.yb-card h3{font-family:var(--serif);font-weight:400;letter-spacing:-.045em;color:#1e3026}
+.yb-title h1{font-size:clamp(3rem,7vw,6rem);line-height:1.02;margin:.12em 0 .25em}.yb-title em{color:#79624d;font-weight:400}
+.yb-title>p:last-child{max-width:66ch;line-height:1.65;color:#4d5b50;font-size:1.07rem}.yb-wrap .eyeline{margin:0;color:#576455}
+.yb-coverage{font-size:.91rem;color:#50604f;margin:20px 0 0}#yb-years{display:flex;gap:4px;flex-wrap:wrap;margin:10px 0 25px;padding:15px 0;border-block:1px solid var(--line)}
+#yb-years a{color:#334838;border:1px solid transparent;font:500 .88rem/1.4 ui-monospace,monospace;text-decoration:none;padding:6px 10px;border-radius:2px}
+#yb-years a[aria-current],#yb-years a:hover{background:#253e2d;color:#fbf8ee}
+.yb-wrap :is(a,select,summary):focus-visible{outline:3px solid #ab6945;outline-offset:2px}
+.yb-wrap a{color:#29523b;text-underline-offset:3px}.yb-wrap label{display:grid;gap:6px;color:#4a584d;font-weight:600;font-size:.82rem}
+.yb-wrap select{box-sizing:border-box;color:#203629;background:#fffdf5;border:1px solid #a6ad9c;border-radius:2px;padding:8px 12px;font:inherit;width:100%;min-width:0;max-width:100%}
+.yb-year-head,.yb-section-head{display:flex;align-items:end;justify-content:space-between;gap:18px}.yb-year-head label{width:min(100%,450px)}
+.yb-year h2{font-size:clamp(3rem,7vw,5.5rem);line-height:1;margin:.09em 0}.yb-macro h2{margin:.15em 0 0;font-size:clamp(2rem,3.8vw,3.15rem);line-height:1.1}
+.yb-card{padding:24px 0 22px;border-bottom:1px solid var(--line);scroll-margin-top:12px}
+.yb-card .yb-meta{font:500 .8rem/1.5 ui-monospace,monospace;color:#5a6559;margin:2px 0 7px}
+.yb-card h3{font-size:clamp(1.65rem,3.2vw,2.6rem);margin:0 0 .35em;line-height:1.12}.yb-card p,.yb-notes p,#yb-sample{line-height:1.6}
+.yb-columns{display:grid;grid-template-columns:minmax(0,1.22fr) minmax(0,1fr);gap:clamp(17px,4vw,55px)}.yb-columns p{margin:.35rem 0 .5rem}
+.yb-follow{border-left:2px solid #c6aa89;padding-left:18px}.yb-follow h4{margin:.25rem 0;color:#524939;font-size:.9rem}
+.yb-sources{display:flex;gap:5px 18px;flex-wrap:wrap;font-size:.84rem;margin-top:10px}
+#yb-studies{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#b3baad;margin:24px 0 40px;border:1px solid #b3baad}
+#yb-studies a{background:#e7eade;text-decoration:none;padding:16px;display:block;font-size:.9rem}#yb-studies a:hover{background:#d6dece}
+#yb-studies strong{display:block;font-family:var(--serif);font-size:1.4rem;line-height:1.3;font-weight:500;color:#253f2d}#yb-studies span{display:block;margin-top:4px;color:#4e5a4e}
+.yb-macro{border-top:2px solid #405646;padding-top:24px}.yb-scroll{max-width:100%;overflow-x:auto}.yb-wrap table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.yb-wrap th,.yb-wrap td{font-size:.93rem;text-align:right;padding:9px 10px;border-bottom:1px solid #d1d1c5}
+.yb-wrap tr>:first-child{text-align:left;padding-left:0}.yb-wrap thead th{color:#516250;font-size:.8rem}.yb-wrap tbody th{font-weight:500}.yb-wrap th small{font-weight:400;color:#687367}.yb-wrap .yb-na{color:#677566}
+.yb-notes{margin-top:16px;color:#49564a;font-size:.92rem;line-height:1.5}.yb-notes summary{cursor:pointer;color:#304a38}.yb-reading{padding-top:17px;border-top:1px solid var(--line)}.yb-notes p{max-width:90ch}
+@media(max-width:700px){.yb-year-head,.yb-section-head{display:grid;align-items:start}.yb-year-head label{width:100%}.yb-year-head{grid-template-columns:minmax(0,1fr)}
+#yb-studies,.yb-columns{grid-template-columns:1fr}.yb-columns{gap:4px}.yb-card{padding-top:20px}.yb-section-head label{max-width:190px}#yb-studies{margin-bottom:25px}.yb-wrap td,.yb-wrap th{padding:7px 4px;font-size:.82rem}#yb-years a{padding:6px 8px}}
+
+.yb-peer-filters{display:flex;flex-wrap:wrap;gap:10px 18px;margin-bottom:14px}.yb-peers{margin-bottom:36px}.yb-peers>p:not(.eyeline){max-width:85ch;line-height:1.55}.yb-peer-filters label{max-width:100%}.yb-peers h2{margin-top:.1em}

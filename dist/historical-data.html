@@ -11,8 +11,12 @@
   <link rel="stylesheet" href="historical-data.css">
   <link rel="stylesheet" href="uk-rate-pricing.css">
   <script src="historical-data.js?v=uk-rates-2024" type="module"></script>
+  <link rel="stylesheet" href="policy-year-ledger.css">
+  <script type="module" src="policy-year-ledger.js"></script>
   <link rel="stylesheet" href="policy-erm.css">
   <script type="module" src="policy-erm.js"></script>
+  <link rel="stylesheet" href="policy-world-year.css">
+  <script type="module" src="policy-world-year.js"></script>
 </head>
 <body class="history-page">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -33,6 +37,7 @@
       <h1>Policy <em>history</em></h1>
       <p class="history-dateline">Chart coverage · 2000 <span aria-hidden="true">—</span> 2026</p>
     </div>
+    <nav class="ledger-jump" aria-label="Policy history sections"><a href="#annual-policy-ledger">Compare policy decisions by year, 2000–2026 ↓</a> <a href="#policy-world-year">Compare rates across economies ↓</a></nav>
     <p id="history-load" class="history-load" role="status">Loading historical data…</p>
     <div id="history-explorer" hidden>
       <div class="history-metrics" role="group" aria-label="Chart metric">
@@ -183,6 +188,87 @@
         <div id="history-sources" class="history-sources"></div></div>
       </details>
     </div>
+    <section id="annual-policy-ledger" class="policy-episode" aria-labelledby="ledger-title">
+      <div class="policy-section-heading">
+        <div><p class="policy-date">United States · United Kingdom · euro area</p><h2 id="ledger-title">A year in monetary policy</h2></div>
+        <label class="ledger-select" for="ledger-year">Year <select id="ledger-year" disabled></select></label>
+      </div>
+      <p class="policy-lede">A year-end rate can hide a reversal. A flat rate can hide a bond purchase or a change in lending terms. Compare the full path of three overnight policy instruments and read one decision that helps explain the year.</p>
+      <p class="policy-footnote" id="ledger-status" role="status">Loading the annual policy record…</p>
+      <div id="ledger-body" hidden>
+        <div class="ledger-layout">
+          <div class="ledger-totals">
+            <h3 id="ledger-totals-title">How far did rates move?</h3>
+            <div class="policy-table-scroll" tabindex="0" role="region" aria-labelledby="ledger-totals-title">
+              <table class="policy-path-table ledger-grid">
+                <thead><tr><th scope="col">Bank</th><th scope="col">Start</th><th scope="col">Hikes<br>bp</th><th scope="col">Cuts<br>bp</th><th scope="col">Net<br>bp</th><th scope="col">End</th></tr></thead>
+                <tbody id="ledger-totals"></tbody>
+              </table>
+            </div>
+            <p class="policy-footnote">Start is the previous 31 December. Hikes and cuts add up the size of each move. One basis point (bp) equals 0.01 percentage point.</p>
+          </div>
+          <article class="ledger-record" aria-labelledby="ledger-record-title">
+            <p class="policy-date" id="ledger-record-date"></p>
+            <h3 id="ledger-record-title"></h3>
+            <p id="ledger-record-analysis"></p>
+            <a id="ledger-record-source"></a>
+          </article>
+        </div>
+        <div class="ledger-actions">
+          <details class="ledger-detail">
+            <summary id="ledger-moves-title">Dated changes</summary>
+            <p class="policy-footnote">Each date is the first day the new rate appears in its source. An announcement can precede that date.</p>
+            <div id="ledger-moves"></div>
+          </details>
+          <details class="ledger-detail">
+            <summary>Compare net moves across all years</summary>
+            <div class="policy-table-scroll ledger-matrix" tabindex="0" role="region" aria-label="Annual net rate moves in basis points">
+              <table class="policy-path-table"><thead><tr><th scope="col">Year</th><th scope="col">US · bp</th><th scope="col">UK · bp</th><th scope="col">Euro area · bp</th></tr></thead><tbody id="ledger-matrix"></tbody></table>
+            </div>
+          </details>
+          <details class="ledger-detail">
+            <summary>Instruments and primary series</summary>
+            <p class="policy-footnote">The US series follows the federal funds target, then the midpoint of its target range from 16 December 2008. The UK uses the Bank’s official rate history, including the earlier repo rate. The ECB series follows its overnight deposit facility across the entire period, including years when its main refinancing rate was the main policy signal. Absolute levels reflect different operating arrangements. The table measures movements in nominal policy rates. Asset purchases, liquidity facilities and guidance are documented separately in the dated decisions.</p>
+            <div id="ledger-sources"></div>
+          </details>
+        </div>
+        <p class="ledger-yearbook"><a id="ledger-yearbook" href="yearbook.html">Read the year’s historical case and compare growth and inflation →</a></p>
+      </div>
+      <noscript><p>JavaScript enables year selection. <a href="data/policy-year-ledger.json">Download the annual records and source links</a>.</p></noscript>
+    </section>
+<section id="policy-world-year" class="policy-episode" aria-labelledby="pw-title">
+  <div class="policy-section-heading">
+    <div><h2 id="pw-title">Policy rates across economies</h2></div>
+    <div class="pw-controls">
+      <label for="pw-year">Year <select id="pw-year" disabled></select></label>
+      <label for="pw-region">Region <select id="pw-region" disabled><option value="">All regions</option></select></label>
+    </div>
+  </div>
+  <p class="policy-lede">Compare the last rate reported near each year-end with the previous December. Singapore’s separate measure is a trade-weighted exchange-rate index.</p>
+  <p id="pw-status" class="policy-footnote" role="status">Loading the annual comparisons…</p>
+  <div id="pw-results" hidden>
+    <div class="pw-table-wrap" tabindex="0" role="region" aria-labelledby="pw-caption">
+      <table class="pw-table">
+        <caption id="pw-caption">Reported policy rates</caption>
+        <thead><tr><th scope="col">Economy · source</th><th scope="col" id="pw-before">Previous December</th><th scope="col" id="pw-after">Year-end</th><th scope="col">Net change</th></tr></thead>
+        <tbody id="pw-rates"></tbody>
+      </table>
+    </div>
+    <section id="pw-singapore" aria-labelledby="pw-sg-title" hidden>
+      <h3 id="pw-sg-title">Singapore dollar · nominal effective exchange rate</h3>
+      <p class="policy-footnote">The BIS broad index measures the currency against a trade-weighted basket (2020 = 100). An increase is an appreciation. MAS manages its own exchange-rate band.</p>
+      <div id="pw-sg-reading"></div>
+    </section>
+    <details class="pw-method">
+      <summary>Endpoints and source definitions</summary>
+      <p class="policy-footnote">For each year-end, we use the last observation in that December within 10 calendar days of 31 December. For a partial year, we apply the same 10-day limit to the dataset’s reporting cutoff. Each rate change is the difference between the two dated levels in basis points. The snapshot begins in January 2000, so previous-December comparisons start in 2001.</p>
+      <p class="policy-footnote">The BIS selects a representative policy rate for each economy, and the underlying instrument can change. Its euro-area series, for example, can differ from the ECB deposit facility shown in the three-bank ledger. Taiwan uses the discount rate effective under its central bank’s published schedule. A net change across two dates can conceal reversals, reporting gaps and changes of instrument. Country links give the source definition.</p>
+      <p><a href="data/historical-series.json">Download the dated source series</a></p>
+    </details>
+    <p class="pw-share"><a id="pw-permalink" href="#policy-world-year">Link to this year and region</a></p>
+  </div>
+  <noscript><p><a href="data/historical-series.json">Download the daily observations for all 29 economies</a>.</p></noscript>
+</section>
     <section id="uk-bank-rate-pricing" aria-label="UK market-implied policy rates"></section>
     <noscript><p>Enable JavaScript to explore the series or download them from the <a href="https://data.bis.org/topics/CBPOL">BIS Data Portal</a>.</p></noscript>
   </main>

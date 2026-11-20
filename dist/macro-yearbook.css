@@ -1,0 +1,17 @@
+.yb-panel{max-width:76rem;margin:2rem auto}
+.yb-panel h2{font:400 clamp(2rem,4vw,3.6rem)/1.08 var(--serif);letter-spacing:-.045em;margin:.4rem 0 1rem}
+.yb-panel h3{font:600 1.2rem/1.35 var(--serif);margin:1.25rem 0 .55rem}
+.yb-panel p{max-width:85ch}
+.yb-filters,.yb-legend,.yb-reading{display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem 1.4rem}
+.yb-filters select{max-width:100%}
+.yb-chart{margin:1.3rem 0}.yb-chart svg{width:100%;max-width:830px;display:block}
+.yb-chart svg text{fill:#4d574c;font:12px Arial,sans-serif}
+.yb-rule{stroke:#c9cdbc}.yb-line{fill:none;stroke-width:2.1}
+.yb-line.yb-colour-0{stroke:#286351}.yb-point.yb-colour-0{fill:#286351}
+.yb-line.yb-colour-1{stroke:#9a5333;stroke-dasharray:7 3}.yb-point.yb-colour-1{fill:#9a5333}
+.yb-key::before{content:"";display:inline-block;width:1.6rem;border-top:3px solid #286351;margin:0 .4rem .2rem 0}
+.yb-key-1::before{border-top:3px dashed #9a5333}.yb-legend,.yb-note,.yb-chart figcaption{font-size:.9rem;color:#47574b}
+.yb-readout{border-left:3px solid #997450;padding:0 .75rem;font-weight:600}
+.yb-panel .hs-table th{white-space:normal;text-align:left}.yb-panel .hs-table td{font-variant-numeric:tabular-nums}
+.yb-reading{margin:1rem 0}.yb-reading .yb-context{flex-basis:100%;margin:.2rem 0 .5rem}.yb-reading h3{flex-basis:100%;margin-bottom:0}
+@media(max-width:600px){.yb-filters .hs-control{max-width:100%}.yb-chart svg text{font-size:16px}}

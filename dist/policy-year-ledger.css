@@ -1,0 +1,25 @@
+.ledger-jump { margin: .9rem 0 1.25rem; }
+.ledger-jump a, .ledger-yearbook a { color: #315e4f; font-size: .89rem; text-underline-offset: .2em; }
+.ledger-select { display: flex; align-items: center; gap: .45rem; font-size: .88rem; font-weight: 600; }
+.ledger-select select { min-width: 5rem; padding: .35rem .5rem; font: inherit; color: var(--navy); border: 1px solid var(--quiet); background: transparent; }
+.ledger-layout { display: grid; grid-template-columns: minmax(0,1.15fr) minmax(0,1fr); gap: 1.1rem 2rem; margin: .7rem 0 1.15rem; }
+.ledger-totals h3 { padding: .35rem 0 .7rem; }
+.ledger-grid th:not(:first-child), .ledger-grid td { text-align: right; }
+.ledger-grid tbody th { min-width: auto; }
+.ledger-grid tbody tr:last-child > * { border-bottom-color: var(--navy); }
+.ledger-record { padding: 1rem 1.15rem; background: #eeeee3; border-left: 3px solid #6c7967; }
+.ledger-record p:not(.policy-date) { margin: .55rem 0; font-size: .91rem; line-height: 1.55; }
+.ledger-actions { border-top: 1px solid var(--hairline); }
+.ledger-detail { padding: .75rem 0; border-bottom: 1px solid var(--hairline); }
+.ledger-detail summary { width: fit-content; font-size: .91rem; font-weight: 600; cursor: pointer; }
+.ledger-detail[open] summary { margin-bottom: .6rem; }
+.ledger-matrix { max-height: 22rem; }
+.ledger-matrix thead { position: sticky; top: 0; background: #f5f5ee; }
+.ledger-matrix a[aria-current] { font-weight: 700; }
+#ledger-sources { display: flex; flex-wrap: wrap; gap: .5rem 1.2rem; }
+.ledger-yearbook { margin-block: 1rem; }
+#ledger-moves .policy-path-table { max-width: 52rem; }
+@media (max-width: 760px) {
+  .ledger-layout { grid-template-columns: minmax(0,1fr); gap: .5rem; }
+  .ledger-grid th, .ledger-grid td { padding-inline: .35rem; }
+}
