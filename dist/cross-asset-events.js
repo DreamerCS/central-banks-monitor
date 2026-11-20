@@ -256,9 +256,9 @@
       t.append(body);coverage.append(t,element('p','These selected events have recoverable publisher records. Several reports can cover one event. The counts describe these headlines.','ce-small'),link('Browse events with news evidence','cross-asset-events.html?bank='+state.bank+'&stage=release&lens=news'));
     }
     if(!items.length) {
-      section.append(element('p',newsAvailable?'No verified headline is linked to this event in the current sample.':'The news evidence file could not be loaded.','ce-small'));if(sample.length)section.append(coverage);box.append(section);return;
+      section.append(element('p',newsAvailable?'No original Bloomberg, Wall Street Journal, Financial Times or Reuters headline has been verified for this event.':'The news evidence file could not be loaded.','ce-small'));if(sample.length)section.append(coverage);box.append(section);return;
     }
-    section.append(element('p','These are paraphrases of observed headlines. Meeting-day coverage can span both the release and the press conference. Each item identifies the available publication or live-entry time. Headline alignment with a market move is descriptive.','ce-small'));
+    section.append(element('p','Headlines are reviewed on Bloomberg, The Wall Street Journal, Financial Times and Reuters. Each summary links to the original publisher. Meeting-day coverage can span both the release and the press conference. Each item identifies the available publication or live-entry time. Headline alignment with a market move is descriptive.','ce-small'));
     for(const report of items) {
       const article=element('article',null,'ce-article');article.append(element('p',[report.publisher,report.recordKind,report.coverageMode,report.bylineSource].filter(Boolean).join(' · '),'ce-time'),element('h4',report.angle));
       if(report.excerpt)article.append(element('p','Words in the published title · “'+report.excerpt+'”','ce-small'));

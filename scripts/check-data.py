@@ -1,6 +1,8 @@
 """Check the requested research universe before publishing."""
 import json
 import math
+import subprocess
+import sys
 from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
@@ -71,5 +73,7 @@ for row in channels:
     if "listing" in row:
         assert {"entry", "link", "date"} <= row["listing"].keys(), row["id"]
         assert "title" in row["listing"] or "titleText" in row["listing"], row["id"]
+
+subprocess.run([sys.executable, Path(__file__).with_name("check-news-framing.py")], check=True)
 
 print(f"OK: {coverage['linkedCount']}/{coverage['targetCount']} targets; {len(sources)} unique HTTPS source entries; {len(history['series'])} historical series")

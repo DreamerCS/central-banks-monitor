@@ -18,6 +18,8 @@ from urllib.request import Request, urlopen
 from lxml import html
 
 DATA = Path(__file__).resolve().parents[1] / "dist/data"
+OUTLETS = {"Bloomberg": "bloomberg.com", "The Wall Street Journal": "wsj.com",
+           "Financial Times": "ft.com", "Reuters": "reuters.com"}
 ACTION = {"hike", "cut", "hold", None}
 PATH = {"tighter", "easier", "steady", "conditional", "mixed", None}
 BASIS = {"level", "revision", "open", None}
@@ -40,6 +42,11 @@ def check_rows(data):
             known.add(("ecb", speech["event_time"][:10], "speech", speech["speaker"].split()[-1]))
     ids, urls = set(), set()
     for r in rows:
+        domain = OUTLETS.get(r["publisher"])
+        url = urlsplit(r["url"])
+        if (not domain or url.netloc not in {domain, "www." + domain}
+                or r["host"] != r["publisher"] or r["newsroom"] != r["publisher"]):
+            raise ValueError(f"Unapproved publisher or third-party host on {r['id']}")
         key = (r["bank"], r["date"], r["type"], r.get("speaker", ""))
         if key not in known:
             raise ValueError(f"Unmatched central-bank event {key}")
@@ -93,7 +100,7 @@ def check_online(r):
             if observed != expected:
                 return f"{r['url']} — dispatch timestamps changed"
         else:
-            matches = doc.xpath("//h1")
+            matches = doc.xpath("//h1 | //blockquote")
         for el in matches:
             value = normalised(el.text_content())
             if hashlib.sha256(value.encode()).hexdigest() == r["headlineSha256"]:
