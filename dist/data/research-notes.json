@@ -356,6 +356,19 @@
     }
   },
   {
+    "title": "Banks would release reserves for a higher repo rate, but their responses differ sharply",
+    "bank": "Board of Governors of the Federal Reserve System",
+    "date": "2026-11-20",
+    "url": "https://www.federalreserve.gov/data/sfos/files/senior-financial-officer-survey-202609.pdf",
+    "excerpt": "A five-basis-point premium on secured overnight lending would be enough for 44 of 91 surveyed institutions to expect to reduce their reserve balances.",
+    "file": "2026-11-20-f3585971ac.json",
+    "publication": {
+      "title": "Senior Financial Officer Survey Results, September 2026",
+      "type": "Research",
+      "jurisdiction": "United States"
+    }
+  },
+  {
     "title": "Why the same energy shock can deliver a different inflation outcome",
     "bank": "Banca d’Italia",
     "date": "2026-11-19",
