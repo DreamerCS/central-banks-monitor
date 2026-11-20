@@ -77,6 +77,34 @@
     if (mode === 'window') return Number.isFinite(r.market.marketBp);
     return true;
   }
+  let eventLookup;
+  function addMarketLinks(details, refs, url) {
+    async function load() {
+      if (!details.open) return;
+      details.removeEventListener('toggle', load);
+      eventLookup ??= Promise.all(['fed-speech-cross-asset-events', 'fed-speech-intraday-assets'].map(async name => {
+        try {
+          const response = await fetch('data/' + name + '.json');
+          if (response.ok) return (await response.json()).records;
+        } catch { /* Other source links remain usable. */ }
+        return [];
+      })).then(groups => {
+        const lookup = new Map();
+        for (const row of groups.flat()) {
+          const key = row.documentUrl || row.sourceUrl;
+          if (!lookup.has(key)) lookup.set(key, []);
+          lookup.get(key).push(row);
+        }
+        return lookup;
+      });
+      for (const row of (await eventLookup).get(url) || []) {
+        const q = new URLSearchParams({bank:'fed', stage:row.stage, event:row.id});
+        refs.append(link(row.stage === 'speechDaily' ? 'Compare daily market moves' : 'Track intraday currency moves', 'cross-asset-events.html?' + q));
+      }
+    }
+    details.addEventListener('toggle', load);
+    if (details.open) load();
+  }
   function card(r, open) {
     const m = r.market, details = node('details',null,'fed-card'), heading = node('summary');
     const label = r.score === null ? 'Unscored' : signed(r.score) + ' · ' + descriptions[r.score];
@@ -111,6 +139,7 @@
     if (m.meetingPricing) m.meetingPricing.sources.filter(url => url !== m.marketSource).forEach((url,i) => refs.append(link('Meeting-price source ' + (i+1),url)));
     if (m.quarterPricing && (m.quarterPricing.source || pricingSource)) refs.append(link('SOFR options source', m.quarterPricing.source || pricingSource));
     details.append(dl,refs);
+    addMarketLinks(details, refs, r.sourceUrl);
     return details;
   }
   function quarterlyFields(dl, q) {

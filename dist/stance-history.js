@@ -513,6 +513,12 @@
     if(safeUrl(r.url))urls.append(link("Official communication",r.url));
     if(safeUrl(r.releaseUrl)&&r.releaseUrl!==r.url)urls.append(link("Decision release",r.releaseUrl));
     if(bank.id==="fed")urls.append(link("FOMC evidence and prior pricing","policy-stance.html?date="+r.date));
+    if(isNum(r.marketBp)) {
+      const stage=r.sourceType==="conference"?"conference":"release";
+      const eventId=bank.id==="ecb"?["ecb",stage,r.date].join("-"):["fed",r.date,stage].join("-");
+      const query=new URLSearchParams({bank:bank.id,stage,event:eventId});
+      urls.append(link("Compare markets for this communication","cross-asset-events.html?"+query));
+    }
     if(safeUrl(r.marketUrl||r.marketSource||bank.marketUrl))urls.append(link("Market data",r.marketUrl||r.marketSource||bank.marketUrl));
     words.append(urls);
     const dl=el("dl");

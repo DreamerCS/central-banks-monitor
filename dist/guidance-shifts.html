@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare consecutive Fed and ECB guidance scores with market repricing during the relevant statement or press conference.">
+  <title>Changes in guidance · Central Bank Intelligence</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="edition.css">
+  <link rel="stylesheet" href="empirical-studies.css"><link rel="stylesheet" href="stance-history.css">
+  <script defer src="guidance-shifts.js"></script>
+</head>
+<body class="es-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a>
+    <nav aria-label="Main navigation"><a href="market-reactions.html">Market reactions</a><a href="cross-asset-events.html">Cross-asset events</a><a href="stance-history.html">Stance by period</a><a href="historical-data.html">Policy history</a></nav></div></header>
+  <main id="main" class="es-wrap">
+    <header class="sx-title"><h1>Changes in policy guidance</h1>
+      <p>A committee can still favour tightening while sounding less hawkish than it did last time. Compare the two texts, the decision already priced and the market move during the announcement.</p></header>
+    <section class="sx-panel sx-full" aria-labelledby="comparison-title">
+      <h2 id="comparison-title">Consecutive meetings</h2>
+      <p id="load" role="status">Loading the meeting comparisons…</p>
+      <div id="app" hidden>
+        <div class="sx-controls">
+          <label>Communication<select id="panel"><option value="fed-release">Fed · Decision statement</option><option value="ecb-release">ECB · Decision release</option><option value="ecb-conference">ECB · Press conference</option></select></label>
+          <label>Policy decision<select id="sample"><option value="all">All decisions</option><option value="held">Policy rate unchanged</option><option value="priced">Decision within 1 bp of pricing</option></select></label>
+          <label>Market move threshold<select id="band"><option value="0.5">±0.5 bp</option><option value="1" selected>±1 bp</option><option value="2">±2 bp</option></select></label>
+        </div>
+        <p id="coverage" role="status"></p>
+        <p id="finding"></p>
+        <div class="sx-tablewrap" tabindex="0" role="region" aria-label="Market repricing by change in guidance"><table class="sx-table">
+          <caption id="caption"></caption>
+          <thead><tr><th scope="col">Change in score</th><th scope="col">Priced windows</th><th scope="col">Market down</th><th scope="col">Inside band</th><th scope="col">Market up</th><th scope="col">Median change</th></tr></thead>
+          <tbody id="summary"></tbody>
+        </table></div>
+        <p class="sx-foot" id="limits"></p>
+        <section class="sx-divider"><h3>Read the two meetings</h3>
+          <div class="sx-controls"><label>Meeting date<select id="meeting"></select></label></div>
+          <div id="reader" aria-live="polite"></div>
+          <div class="sx-links"><a href="?bank=fed&amp;stage=release&amp;date=2012-12-12">Fed 2012 · A new condition at the same score</a><a href="?bank=fed&amp;stage=release&amp;date=2023-03-22">Fed 2023 · A softer statement that still favoured tightening</a><a href="?bank=ecb&amp;stage=conference&amp;date=2023-03-16">ECB 2023 · A conditional tightening path</a></div>
+        </section>
+        <details class="sx-source"><summary>How the sample is built</summary>
+          <p>The comparison uses the immediately preceding archived policy meeting. Both communications need a numeric score from the same stage under the same chair and quote-window convention. A missing score or missing conference breaks the sequence. The comparison also stops when the Fed switches from a target point to a range and at the listed framework and benchmark changes.</p>
+          <p>Scores run from −2 (strong easing or low-rate guidance) through 0 (an explicit steady path) to +2 (strong tightening guidance). A change records movement across these ordered categories. Distances between categories have no fixed basis-point meaning. Identical scores can include different wording or a different time horizon.</p>
+          <p>Markets supply a separate outcome. A positive rate move means the relevant futures-implied rate or swap rate rose. The Fed measure is next-meeting futures over the statement window. A one-year euro OIS spans several meetings, and the ECB press-conference window starts after the decision release. Economic information, guidance, projections and simultaneous policy action can all move prices. The quoted decisions form a historical sample with uneven coverage.</p>
+          <p>The pricing filter requires a comparable difference of at most 1 bp in absolute value between the actual policy step and the prior. Fed priors are reconstructed from the current-meeting futures surprise. ECB comparisons require a sourced, comparable deposit-rate expectation. “Policy rate unchanged” uses the archived target change at the Fed and the deposit facility rate at the ECB.</p>
+          <p id="exclusions"></p><div id="sources" class="sx-links"></div>
+        </details>
+      </div>
+      <noscript><p><a href="data/guidance-shifts.json">Download the comparisons and source links (JSON)</a>.</p></noscript>
+    </section>
+  </main>
+</body>
+</html>
