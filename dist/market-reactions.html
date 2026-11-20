@@ -16,7 +16,7 @@
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="./">Overview</a><a href="market-reactions.html" aria-current="page">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="research-notes.html">Research notes</a><a href="research-archive.html">Archive</a></nav></div></header>
 <main id="main" class="mr-wrap">
-  <div class="mr-intro"><p>Rates &nbsp;/&nbsp; FX &nbsp;/&nbsp; Equities</p><h1>Market reactions</h1><a class="text-link" href="empirical-studies.html?study=markets">Compare policy surprises across meetings</a> · <a class="text-link" href="casebook.html#fed-guidance-2011">Compare statement and full-day moves</a> · <a class="text-link" href="casebook.html#fed-cut-september-2024">Explore the September 2024 Fed cut</a></div>
+  <div class="mr-intro"><p>Rates &nbsp;/&nbsp; FX &nbsp;/&nbsp; Equities</p><h1>Market reactions</h1><a class="text-link" href="empirical-studies.html?study=markets">Compare policy surprises across meetings</a> · <a class="text-link" href="casebook.html#fed-guidance-2011">Compare statement and full-day moves</a> · <a class="text-link" href="casebook.html#fed-cut-september-2024">Explore the September 2024 Fed cut</a> · <a class="text-link" href="#mr-daily">Test large daily yield moves</a></div>
   <p id="mr-load" role="status">Loading event data…</p>
   <div id="mr-explorer" hidden>
     <div class="mr-controls">
@@ -40,8 +40,46 @@
       <div id="mr-panels" class="mr-panels"></div>
       <p class="mr-footnote" id="mr-detail-note" aria-live="polite"></p>
     </section>
+    <section class="mr-analysis" id="mr-windows" aria-labelledby="mr-windows-title">
+      <h2 id="mr-windows-title">What changed between the statement and the conference?</h2>
+      <p id="mr-window-context"></p>
+      <div class="mr-table-scroll" role="region" aria-label="Selected meeting window comparison" tabindex="0">
+        <table class="mr-method-table"><caption id="mr-compare-date"></caption>
+          <thead><tr><th scope="col">Instrument</th><th scope="col">Statement</th><th scope="col">Conference</th><th scope="col">Whole event</th></tr></thead>
+          <tbody id="mr-compare-rows"></tbody>
+        </table>
+      </div>
+      <p id="mr-window-pattern"></p>
+      <details class="mr-help"><summary>Timing, units and missing quotes</summary><dl id="mr-window-definitions"></dl>
+        <p>The whole-event column uses the source’s own observation. Quoting intervals, gaps and rounding can prevent exact addition. Rates are in basis points. A positive EUR/USD return means that the euro strengthened against the dollar. Concurrent economic news can affect these prices.</p>
+      </details>
+    </section>
     <div class="mr-sources"><strong>Source</strong><a id="mr-source" href=""></a><span id="mr-credit"></span></div>
   </div>
+  <section class="mr-analysis mr-daily" id="mr-daily" aria-labelledby="mr-daily-title">
+    <h2 id="mr-daily-title">Which 2024 Fed meetings moved the two-year yield unusually far?</h2>
+    <p>The target fell 25 basis points on 18 December, yet the Treasury’s daily two-year yield rose 10 basis points. It was the only one of eight scheduled 2024 meetings to cross twice the previous month’s daily volatility. Twenty quoted days later the yield was 8 basis points below its meeting-day level.</p>
+    <div class="mr-table-scroll" role="region" aria-label="2024 FOMC daily yield screen" tabindex="0">
+      <table class="mr-method-table"><caption>All eight scheduled 2024 decisions · basis points</caption>
+        <thead><tr><th scope="col">Meeting</th><th scope="col">Target change</th><th scope="col">2Y daily move</th><th scope="col">2× volatility</th><th scope="col">2Y next 20 days</th><th scope="col">Decision source</th></tr></thead>
+        <tbody>
+          <tr data-mr-meeting="2024-01-31" data-action="0" data-daily="-9"><th scope="row"><a href="?bank=fed&amp;year=2024&amp;window=statement&amp;asset=UST2Y&amp;date=2024-01-31#mr-detail-title">31 Jan</a></th><td>0</td><td>−9</td><td>12.99</td><td>+37</td><td><a aria-label="FOMC statement for 2024-01-31" href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240131a.htm">Statement</a></td></tr>
+          <tr data-mr-meeting="2024-03-20" data-action="0" data-daily="-9"><th scope="row"><a href="?bank=fed&amp;year=2024&amp;window=statement&amp;asset=UST2Y&amp;date=2024-03-20#mr-detail-title">20 Mar</a></th><td>0</td><td>−9</td><td>10.05</td><td>+39</td><td><a aria-label="FOMC statement for 2024-03-20" href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240320a.htm">Statement</a></td></tr>
+          <tr data-mr-meeting="2024-05-01" data-action="0" data-daily="-8"><th scope="row"><a href="?bank=fed&amp;year=2024&amp;window=statement&amp;asset=UST2Y&amp;date=2024-05-01#mr-detail-title">1 May</a></th><td>0</td><td>−8</td><td>13.82</td><td>−4</td><td><a aria-label="FOMC statement for 2024-05-01" href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240501a.htm">Statement</a></td></tr>
+          <tr data-mr-meeting="2024-06-12" data-action="0" data-daily="-6"><th scope="row"><a href="?bank=fed&amp;year=2024&amp;window=statement&amp;asset=UST2Y&amp;date=2024-06-12#mr-detail-title">12 Jun</a></th><td>0</td><td>−6</td><td>10.66</td><td>−30</td><td><a aria-label="FOMC statement for 2024-06-12" href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240612a.htm">Statement</a></td></tr>
+          <tr data-mr-meeting="2024-07-31" data-action="0" data-daily="-6"><th scope="row"><a href="?bank=fed&amp;year=2024&amp;window=statement&amp;asset=UST2Y&amp;date=2024-07-31#mr-detail-title">31 Jul</a></th><td>0</td><td>−6</td><td>9.66</td><td>−46</td><td><a aria-label="FOMC statement for 2024-07-31" href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm">Statement</a></td></tr>
+          <tr data-mr-meeting="2024-09-18" data-action="-50" data-daily="2"><th scope="row"><a href="?bank=fed&amp;year=2024&amp;window=statement&amp;asset=UST2Y&amp;date=2024-09-18#mr-detail-title">18 Sept</a></th><td>−50</td><td>+2</td><td>11.06</td><td>+35</td><td><a aria-label="FOMC statement for 2024-09-18" href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm">Statement</a></td></tr>
+          <tr data-mr-meeting="2024-11-07" data-action="-25" data-daily="-6"><th scope="row"><a href="?bank=fed&amp;year=2024&amp;window=statement&amp;asset=UST2Y&amp;date=2024-11-07#mr-detail-title">7 Nov</a></th><td>−25</td><td>−6</td><td>6.30</td><td>−8</td><td><a aria-label="FOMC statement for 2024-11-07" href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm">Statement</a></td></tr>
+          <tr data-mr-meeting="2024-12-18" data-action="-25" data-daily="10"><th scope="row"><a href="?bank=fed&amp;year=2024&amp;window=statement&amp;asset=UST2Y&amp;date=2024-12-18#mr-detail-title">18 Dec</a></th><td>−25</td><td>+10</td><td>9.68</td><td>−8</td><td><a aria-label="FOMC statement for 2024-12-18" href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm">Statement</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <details class="mr-help"><summary>How the daily screen is calculated</summary>
+      <p>Use the US Treasury’s two-year par yield to put the move on each FOMC day in context. The screen compares the absolute daily change with twice the sample standard deviation of the 21 preceding quoted-day changes. The meeting day is excluded from the volatility estimate. The final column of figures measures the yield change from the meeting-day quote to the twentieth subsequent quote.</p>
+      <p>Treasury samples indicative quotations around 3:30 p.m. New York time. Its day-to-day move can include news that arrived hours before the statement. A yield change omits coupon income and duration, so it cannot establish a bond return. One qualifying meeting in a single calendar year is too little evidence to estimate trading performance.</p>
+    </details>
+    <p class="mr-method-links"><a href="market-reactions-us-2y-2024.csv" download>Download the daily two-year yields (CSV)</a> · <a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&amp;field_tdr_date_value=2024">Treasury par yields</a> · <a href="https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/">Quotation methodology</a> · <a href="casebook.html#fed-cut-september-2024">September’s pricing and projections</a></p>
+  </section>
 </main>
 </body>
 </html>
