@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#18251f">
-  <meta name="description" content="Trace changes in policy rates, compare jurisdictions and read the decisions behind Switzerland’s exchange-rate floor.">
+  <meta name="description" content="Trace changes in policy rates, compare jurisdictions and examine Switzerland’s exchange-rate floor and the ECB’s conditional bond-purchase programme.">
   <title>Policy History | Central Bank Intelligence</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
@@ -99,10 +99,11 @@
         </div>
         <p class="policy-footnote">Steps use daily observations at every chart frequency. Opposite moves within a month or year count separately. A comparison can start up to seven days before the window. Longer gaps break the chain. These are changes in the published instrument, which may include a change of benchmark.</p>
       </section>
-      <section class="policy-episode" aria-labelledby="floor-title">
+      <nav class="policy-case-links" aria-label="Policy episodes"><a href="#swiss-franc-floor">Swiss franc floor, 2011–15</a><a href="#ecb-omt">ECB bond backstop, 2012</a></nav>
+      <section id="swiss-franc-floor" class="policy-episode" aria-labelledby="floor-title">
         <div class="policy-section-heading">
           <div><p class="policy-date">Switzerland · 2011–2015</p><h2 id="floor-title">The franc floor and the rate cut</h2></div>
-          <button id="chart-swiss-floor" type="button" class="policy-plot-link">Chart the Swiss episode ↑</button>
+          <button id="chart-swiss-floor" type="button" data-episode-bank="CH" data-start="2011-09-01" data-end="2015-01-30" data-frequency="month" class="policy-plot-link">Chart the Swiss episode ↑</button>
         </div>
         <p class="policy-lede">On 15 January 2015 the Swiss National Bank removed the franc’s floor against the euro and cut interest rates. The two decisions worked in different directions. Reading the rate line alone gives an incomplete account of the change in borrowing and trading conditions.</p>
         <ol class="policy-timeline">
@@ -115,6 +116,22 @@
           <div><h3>What would distinguish the explanations?</h3><p>A falling rate could be read as an independent response to a weakening domestic outlook. The joint announcement also supports an exchange-rate explanation. In April, the SNB said prolonged euro weakness would have required interventions of rapidly increasing size. Comparing franc rates and euro cross-rates with inflation expectations and Swiss credit terms would help separate the external pressure from domestic transmission. Two instruments changed together, so their separate effects cannot be recovered from this decision alone.</p><p class="policy-references"><a href="https://www.snb.ch/en/publications/communication/speeches/2015/ref_20150424_tjn">SNB’s April retrospective</a> · <a href="https://www.bis.org/pages/statistics/cbpol-doc.pdf">BIS instrument definition, p. 10</a></p></div>
         </div>
         <details class="policy-reading"><summary>Who faced the new interest rate?</summary><p>The SNB charged eligible sight-deposit balances above their exemption thresholds. To test how much of the charge reached households or firms, compare deposit and lending rates at banks with different amounts of exposed balances before and after 22 January.</p></details>
+      </section>
+      <section id="ecb-omt" class="policy-episode" aria-labelledby="omt-title">
+        <div class="policy-section-heading">
+          <div><p class="policy-date">Euro area · July–September 2012</p><h2 id="omt-title">A bond backstop without a purchase</h2></div>
+          <button type="button" class="policy-plot-link" data-episode-bank="XM" data-start="2012-07-25" data-end="2012-09-10" data-frequency="day">Chart the ECB episode ↑</button>
+        </div>
+        <p class="policy-lede">The ECB’s main refinancing rate stayed at 0.75% from 25 July to 10 September. During that interval the prospect of a conditional buyer changed what investors could expect if a sovereign bond sell-off threatened the transmission of monetary policy. Three announcements tell different parts of the story.</p>
+        <ol class="policy-timeline">
+          <li><time datetime="2012-07-26">26 Jul 2012</time><div><h3>A commitment to preserve the euro</h3><p>In London, Mario Draghi distinguished the risk that debt could be repaid in a different currency from default and liquidity risk. He argued that a premium linked to the euro’s convertibility could obstruct common monetary policy. His speech signalled a willingness to act within the ECB’s mandate. It specified neither a purchase schedule nor which bonds could qualify.</p><a href="https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html">London remarks</a></div></li>
+          <li><time datetime="2012-08-02">2 Aug 2012</time><div><h3>The Council describes a possible instrument</h3><p>The Governing Council said it could undertake outright operations to restore transmission. Governments would need to fulfil their commitments and seek the appropriate assistance through the euro-area rescue funds. Draghi explained that such action was a necessary precondition and the ECB would still decide independently whether to intervene. Design work continued.</p><a href="https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2012/html/is120802.en.html">Council statement and questions</a></div></li>
+          <li><time datetime="2012-09-06">6 Sep 2012</time><div><h3>The purchase rules become public</h3><p>Outright Monetary Transactions could buy sovereign bonds on secondary markets, concentrating on maturities of one to three years. The ECB required an appropriate EFSF or ESM programme with enforceable conditions and retained discretion to start, suspend or stop purchases. It set no advance numerical limit, intended equal creditor treatment and would absorb the liquidity created. Existing Securities Markets Programme holdings remained on a separate book.</p><a href="https://www.ecb.europa.eu/press/pr/date/2012/html/pr120906_1.en.html">OMT technical features</a></div></li>
+        </ol>
+        <div class="policy-interpretation">
+          <div><h3>What changed in the market’s downside scenario?</h3><p>By June 2019, Draghi reported that OMT had never been activated. The programme therefore made no purchases in the 2012 episode. He also reported that spreads in vulnerable countries fell by more than 400 basis points on average over the next two years. That horizon includes subsequent policy decisions and economic news. It cannot measure the impact of any single announcement.</p><p class="policy-references"><a href="https://www.ecb.europa.eu/press/key/date/2019/html/ecb.sp190618~ec4cd2443b.en.html">ECB retrospective, June 2019</a> · <a href="https://www.ecb.europa.eu/press/pr/date/2012/html/pr120705.en.html">July rate decision and settlement date</a></p></div>
+          <div><h3>Was it currency risk, credit risk or liquidity?</h3><p>Compare short sovereign spreads over euro overnight swaps around each announcement with longer maturities, fiscal news and bond bid–ask spreads. One ECB working paper also compares the cost of insuring the same sovereign in dollars and euros, relative to Germany, to isolate exposure to repayment in another currency. Falling currency-sensitive premiums alongside narrower cross-border bank funding spreads would support the transmission explanation. Simultaneous rescue-fund news, collateral changes and shifting default risk can also move bond prices. Spreads on their own cannot separate those effects.</p><p class="policy-references"><a href="https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1785.en.pdf">Redenomination measure, Working Paper 1785</a> · <a href="https://www.ecb.europa.eu/press/govcdec/otherdec/2012/html/gc120921.en.html">Other September measures</a></p></div>
+        </div>
       </section>
       <details class="history-source-details">
         <summary>Sources &amp; series notes</summary>
