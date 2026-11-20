@@ -45,6 +45,11 @@
   function fillSummary(rows) {
     const matched = rows.filter(r => r.score !== null && r.market.eligible &&
       (get('window').value !== 'one' || r.market.overnights === 1));
+    const easing = matched.filter(r=>r.score<0), tightening = matched.filter(r=>r.score>0);
+    const counts = [];
+    if (tightening.length) counts.push('Two-year yields rose in ' + tightening.filter(r=>r.market.close2yBp > 0).length + ' of ' + tightening.length + ' tightening readings (median ' + bp(median(tightening,'close2yBp')) + ')');
+    if (easing.length) counts.push('Two-year yields fell in ' + easing.filter(r=>r.market.close2yBp < 0).length + ' of ' + easing.length + ' easing readings (median ' + bp(median(easing,'close2yBp')) + ')');
+    get('finding').textContent = counts.length ? counts.join('. ') + '. Unchanged yields count in the denominators.' : '';
     const groups = [['Easing', r => r.score < 0],['Wait / hold', r => r.score === 0],['Tightening', r => r.score > 0]];
     const out = get('medians');
     out.replaceChildren();
@@ -52,6 +57,12 @@
       const group = matched.filter(predicate);
       const tr = node('tr');
       const th = node('th', label); th.scope = 'row'; tr.append(th, node('td', group.length));
+      if (label === 'Wait / hold' || !group.length) tr.append(node('td', '—'));
+      else {
+        const direction = label === 'Tightening' ? 1 : -1;
+        const same = group.filter(r => Number.isFinite(r.market.close2yBp) && Math.sign(r.market.close2yBp) === direction).length;
+        tr.append(node('td', same + ' / ' + group.length));
+      }
       ['prior2yBp','priorSlopeBp','close2yBp','closeSlopeBp'].forEach(key => tr.append(node('td', signed(median(group, key)))));
       out.append(tr);
     });
@@ -95,6 +106,7 @@
     if (m.quarterPricing) quarterlyFields(dl,m.quarterPricing);
     const refs = node('div',null,'rs-links');
     refs.append(link('Original Board speech',r.sourceUrl),link('Permalink','?date=' + r.date + '#archive'));
+    if (m.timeSource) refs.append(link('FRASER release cover · page 1' + (m.timeEvidence ? ' · ' + m.timeEvidence : ''),m.timeSource));
     if (m.marketSource) refs.append(link('Window source' + (m.marketLocator ? ' · ' + m.marketLocator : ''), m.marketSource));
     if (m.meetingPricing) m.meetingPricing.sources.filter(url => url !== m.marketSource).forEach((url,i) => refs.append(link('Meeting-price source ' + (i+1),url)));
     if (m.quarterPricing && (m.quarterPricing.source || pricingSource)) refs.append(link('SOFR options source', m.quarterPricing.source || pricingSource));
@@ -102,7 +114,8 @@
     return details;
   }
   function quarterlyFields(dl, q) {
-    if (q.reading) field(dl, 'Quarterly SOFR pricing', q.reading);
+    field(dl, 'Quarterly SOFR priced before', (q.meanBp / 100).toFixed(3) + '% implied mean as of ' + q.asOf + ' · ' + bp(q.changeBp) + ' since ' + q.fromDate + ' · three-month reference period from ' + q.referenceStart);
+    field(dl, 'Implied distribution', q.belowTargetPct + '% below and ' + q.aboveTargetPct + '% above the then-current target range of ' + q.targetRange.replaceAll('bps', ' bp') + '. These options price quarterly average SOFR.');
   }
   function render(reset) {
     if (reset) visible = 20;

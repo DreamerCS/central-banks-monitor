@@ -1,0 +1,1185 @@
+[
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/200001132.htm",
+    "date": "2000-01-13",
+    "timeET": "20:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000113.pdf",
+    "timeEvidence": "8:30 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000306.htm",
+    "date": "2000-03-06",
+    "timeET": "11:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000306.pdf",
+    "timeEvidence": "11:30 a.m.EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000308.htm",
+    "date": "2000-03-08",
+    "timeET": "09:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000308.pdf",
+    "timeEvidence": "8:30 a.m. CST / 9:30 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000322.htm",
+    "date": "2000-03-22",
+    "timeET": "07:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000322.pdf",
+    "timeEvidence": "7:45 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000405.htm",
+    "date": "2000-04-05",
+    "timeET": "13:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000405.pdf",
+    "timeEvidence": "1:45 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000407.htm",
+    "date": "2000-04-07",
+    "timeET": "12:40",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000407.pdf",
+    "timeEvidence": "11:40 a.m. CDT / 12:40 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000410.htm",
+    "date": "2000-04-10",
+    "timeET": "12:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000410.pdf",
+    "timeEvidence": "noon EDT / 9:00 a.m. (PDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000411.htm",
+    "date": "2000-04-11",
+    "timeET": "12:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000411.pdf",
+    "timeEvidence": "12:30 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000414.htm",
+    "date": "2000-04-14",
+    "timeET": "12:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000414.pdf",
+    "timeEvidence": "Noon EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000427.htm",
+    "date": "2000-04-27",
+    "timeET": "13:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000427.pdf",
+    "timeEvidence": "1:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000525.htm",
+    "date": "2000-05-25",
+    "timeET": "15:20",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000525.pdf",
+    "timeEvidence": "12:20 p.m. PDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000613.htm",
+    "date": "2000-06-13",
+    "timeET": "13:10",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000613.pdf",
+    "timeEvidence": "1:10 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000711.htm",
+    "date": "2000-07-11",
+    "timeET": "09:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000711.pdf",
+    "timeEvidence": "9:45 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000712.htm",
+    "date": "2000-07-12",
+    "timeET": "20:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000712.pdf",
+    "timeEvidence": "8:30 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000825.htm",
+    "date": "2000-08-25",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000825.pdf",
+    "timeEvidence": "8:00 a.m. MDT / 10:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000918.htm",
+    "date": "2000-09-18",
+    "timeET": "08:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20000918.pdf",
+    "timeEvidence": "8:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20001016.htm",
+    "date": "2000-10-16",
+    "timeET": "08:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20001016.pdf",
+    "timeEvidence": "8:30 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/200010192.htm",
+    "date": "2000-10-19",
+    "timeET": "09:10",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20001019.pdf",
+    "timeEvidence": "9:10 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20001114.htm",
+    "date": "2000-11-14",
+    "timeET": "09:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20001114.pdf",
+    "timeEvidence": "8:45 a.m. CST / 9:45 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20001205.htm",
+    "date": "2000-12-05",
+    "timeET": "10:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20001205.pdf",
+    "timeEvidence": "10:45 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20001208.htm",
+    "date": "2000-12-08",
+    "timeET": "14:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20001208.pdf",
+    "timeEvidence": "1:00 p.m. CST / 2:00 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/20010307/default.htm",
+    "date": "2001-03-07",
+    "timeET": "15:10",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20010307.pdf",
+    "timeEvidence": "12:10 p.m. PST / 3:10 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/20010327/default.htm",
+    "date": "2001-03-27",
+    "timeET": "08:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20010327.pdf",
+    "timeEvidence": "8:45 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/20010427/default.htm",
+    "date": "2001-04-27",
+    "timeET": "09:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20010427.pdf",
+    "timeEvidence": "9:15 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/20010510/default.htm",
+    "date": "2001-05-10",
+    "timeET": "09:25",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20010510.pdf",
+    "timeEvidence": "8:25 a.m. CDT / 9:25 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/20010518/default.htm",
+    "date": "2001-05-18",
+    "timeET": "14:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20010518.pdf",
+    "timeEvidence": "2 p.m. E.D.T"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/200105242/default.htm",
+    "date": "2001-05-24",
+    "timeET": "20:20",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20010524.pdf",
+    "timeEvidence": "8:20 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/20010620/default.htm",
+    "date": "2001-06-20",
+    "timeET": "08:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20010620b.pdf",
+    "timeEvidence": "8:45amEDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/20010628/default.htm",
+    "date": "2001-06-28",
+    "timeET": "13:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20010628b.pdf",
+    "timeEvidence": "1:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/200106282/default.htm",
+    "date": "2001-06-28",
+    "timeET": "21:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20010628.pdf",
+    "timeEvidence": "8:00 p.m. CDT / 9:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/20011011/default.htm",
+    "date": "2001-10-11",
+    "timeET": "14:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20011011.pdf",
+    "timeEvidence": "2:30 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/20011023/default.htm",
+    "date": "2001-10-23",
+    "timeET": "08:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20011023.pdf",
+    "timeEvidence": "8:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/20011024/default.htm",
+    "date": "2001-10-24",
+    "timeET": "20:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20011024.pdf",
+    "timeEvidence": "8:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/20011026/default.htm",
+    "date": "2001-10-26",
+    "timeET": "11:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20011026.pdf",
+    "timeEvidence": "10:15 a.m. CDT / 11:15 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/20011113/default.htm",
+    "date": "2001-11-13",
+    "timeET": "20:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20011113.pdf",
+    "timeEvidence": "7:00 p.m. CST / 8.00 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/200111302/default.htm",
+    "date": "2001-11-30",
+    "timeET": "14:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20011130b.pdf",
+    "timeEvidence": "2:00 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/20011203/default.htm",
+    "date": "2001-12-03",
+    "timeET": "17:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20011203.pdf",
+    "timeEvidence": "5:30 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/20020111/default.htm",
+    "date": "2002-01-11",
+    "timeET": "13:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20020111.pdf",
+    "timeEvidence": "10:45 a.m. PST / 1:45 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/20020228/default.htm",
+    "date": "2002-02-28",
+    "timeET": "12:35",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20020228.pdf",
+    "timeEvidence": "12:35 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/20020313/default.htm",
+    "date": "2002-03-13",
+    "timeET": "13:35",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20020313.pdf",
+    "timeEvidence": "1:35 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/200203262/default.htm",
+    "date": "2002-03-26",
+    "timeET": "17:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20020326.pdf",
+    "timeEvidence": "5:00 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/20020422/default.htm",
+    "date": "2002-04-22",
+    "timeET": "20:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20020422.pdf",
+    "timeEvidence": "8:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/20020503/default.htm",
+    "date": "2002-05-03",
+    "timeET": "08:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20020503.pdf",
+    "timeEvidence": "8:15 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/20020510/default.htm",
+    "date": "2002-05-10",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20020510.pdf",
+    "timeEvidence": "9 a.m. CDT / 10 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/20020925/default.htm",
+    "date": "2002-09-25",
+    "timeET": "08:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20020925.pdf",
+    "timeEvidence": "8 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/200209252/default.htm",
+    "date": "2002-09-25",
+    "timeET": "13:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20020925b.pdf",
+    "timeEvidence": "1:30 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/20021007/default.htm",
+    "date": "2002-10-07",
+    "timeET": "12:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20021007.pdf",
+    "timeEvidence": "9:30 a.m. MST / 12:30 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/20021023/default.htm",
+    "date": "2002-10-23",
+    "timeET": "12:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20021023.pdf",
+    "timeEvidence": "12:30 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/20021112/default.htm",
+    "date": "2002-11-12",
+    "timeET": "09:40",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20021112.pdf",
+    "timeEvidence": "9:40 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/200211182/default.htm",
+    "date": "2002-11-18",
+    "timeET": "17:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20021118.pdf",
+    "timeEvidence": "5 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/20021119/default.htm",
+    "date": "2002-11-19",
+    "timeET": "13:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20021119.pdf",
+    "timeEvidence": "1:00 p.m. (EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2002/20021219/default.htm",
+    "date": "2002-12-19",
+    "timeET": "20:20",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20021219.pdf",
+    "timeEvidence": "8:20 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2003/20030304/default.htm",
+    "date": "2003-03-04",
+    "timeET": "08:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20030304.pdf",
+    "timeEvidence": "8:30 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2003/20030307/default.htm",
+    "date": "2003-03-07",
+    "timeET": "09:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20030307.pdf",
+    "timeEvidence": "9:45 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2003/20030328/default.htm",
+    "date": "2003-03-28",
+    "timeET": "13:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20030328.pdf",
+    "timeEvidence": "1 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2003/20030403/default.htm",
+    "date": "2003-04-03",
+    "timeET": "12:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20030403.pdf",
+    "timeEvidence": "12:30 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2003/20030404/default.htm",
+    "date": "2003-04-04",
+    "timeET": "08:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20030404.pdf",
+    "timeEvidence": "8:00 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2003/200304092/default.htm",
+    "date": "2003-04-09",
+    "timeET": "20:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20030409.pdf",
+    "timeEvidence": "5:00 p.m. PDT / 8:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2003/20030508/default.htm",
+    "date": "2003-05-08",
+    "timeET": "09:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20030508.pdf",
+    "timeEvidence": "8:15 a.m. CDT / 9:15 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2003/20030829/default.htm",
+    "date": "2003-08-29",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20030829.pdf",
+    "timeEvidence": "8:00 a.m. MDT / 10:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2003/20030926/default.htm",
+    "date": "2003-09-26",
+    "timeET": "14:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20030926.pdf",
+    "timeEvidence": "2:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2003/20031106/default.htm",
+    "date": "2003-11-06",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20031106.pdf",
+    "timeEvidence": "10:00 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2003/20031120/default.htm",
+    "date": "2003-11-20",
+    "timeET": "09:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20031120.pdf",
+    "timeEvidence": "9:00 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2003/20031211/default.htm",
+    "date": "2003-12-11",
+    "timeET": "12:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20031211.pdf",
+    "timeEvidence": "11:30 a.m. CST / 12:30 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20040113/default.htm",
+    "date": "2004-01-13",
+    "timeET": "11:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040113.pdf",
+    "timeEvidence": "11:15 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20040126/default.htm",
+    "date": "2004-01-26",
+    "timeET": "12:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040126.pdf",
+    "timeEvidence": "12:15 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/200402202/default.htm",
+    "date": "2004-02-20",
+    "timeET": "13:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040220.pdf",
+    "timeEvidence": "12:45 p.m. CST / 1:45 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20040223/default.htm",
+    "date": "2004-02-23",
+    "timeET": "09:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040223.pdf",
+    "timeEvidence": "9:15a.m.EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/200402272/default.htm",
+    "date": "2004-02-27",
+    "timeET": "22:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040227.pdf",
+    "timeEvidence": "7:00 p.m. PST / 10:00 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20040302/default.htm",
+    "date": "2004-03-02",
+    "timeET": "12:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040302.pdf",
+    "timeEvidence": "12:30 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20040312/default.htm",
+    "date": "2004-03-12",
+    "timeET": "12:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040312.pdf",
+    "timeEvidence": "noon EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20040317/default.htm",
+    "date": "2004-03-17",
+    "timeET": "11:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040317.pdf",
+    "timeEvidence": "8:30 a.m. PST / 11:30 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20040325/default.htm",
+    "date": "2004-03-25",
+    "timeET": "09:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040325.pdf",
+    "timeEvidence": "9:00 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20040416/default.htm",
+    "date": "2004-04-16",
+    "timeET": "08:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040416.pdf",
+    "timeEvidence": "8:15a.m.EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/200405062/default.htm",
+    "date": "2004-05-06",
+    "timeET": "09:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040506.pdf",
+    "timeEvidence": "8:30 a.m. CDT / 9:30 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20040513/default.htm",
+    "date": "2004-05-13",
+    "timeET": "11:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040513.pdf",
+    "timeEvidence": "10:00 a.m. CDT / 11:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/200405203/default.htm",
+    "date": "2004-05-20",
+    "timeET": "18:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040520.pdf",
+    "timeEvidence": "6:45 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20040608/default.htm",
+    "date": "2004-06-08",
+    "timeET": "09:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040608.pdf",
+    "timeEvidence": "9:15 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20040827/default.htm",
+    "date": "2004-08-27",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20040827.pdf",
+    "timeEvidence": "8:00 a.m. MDT / 10:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20041005/default.htm",
+    "date": "2004-10-05",
+    "timeET": "10:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20041005.pdf",
+    "timeEvidence": "10:30 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/200410073/default.htm",
+    "date": "2004-10-07",
+    "timeET": "14:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20041007.pdf",
+    "timeEvidence": "2:30 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/200410152/default.htm",
+    "date": "2004-10-15",
+    "timeET": "13:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20041015.pdf",
+    "timeEvidence": "1:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20041019/default.htm",
+    "date": "2004-10-19",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20041019.pdf",
+    "timeEvidence": "10:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20041119/default.htm",
+    "date": "2004-11-19",
+    "timeET": "08:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20041119.pdf",
+    "timeEvidence": "8:30 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20050204/default.htm",
+    "date": "2005-02-04",
+    "timeET": "08:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050204.pdf",
+    "timeEvidence": "8:45 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20050206/default.htm",
+    "date": "2005-02-06",
+    "timeET": "12:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050206.pdf",
+    "timeEvidence": "12:00 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20050310/default.htm",
+    "date": "2005-03-10",
+    "timeET": "18:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050310.pdf",
+    "timeEvidence": "6:15 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20050311/default.htm",
+    "date": "2005-03-11",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050311.pdf",
+    "timeEvidence": "10:00 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20050318/default.htm",
+    "date": "2005-03-18",
+    "timeET": "12:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050318.pdf",
+    "timeEvidence": "Noon EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20050405/default.htm",
+    "date": "2005-04-05",
+    "timeET": "13:50",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050405.pdf",
+    "timeEvidence": "1:50 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20050408/default.htm",
+    "date": "2005-04-08",
+    "timeET": "13:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050408.pdf",
+    "timeEvidence": "1:15 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20050505/default.htm",
+    "date": "2005-05-05",
+    "timeET": "09:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050505.pdf",
+    "timeEvidence": "9:30 a.m. EDT / 8:30 a.m. CDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20050515/default.htm",
+    "date": "2005-05-15",
+    "timeET": "13:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050515.pdf",
+    "timeEvidence": "1:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20050519/default.htm",
+    "date": "2005-05-19",
+    "timeET": "08:25",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050519.pdf",
+    "timeEvidence": "8:25 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/200505202/default.htm",
+    "date": "2005-05-20",
+    "timeET": "12:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050520.pdf",
+    "timeEvidence": "12:30 p.m.EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20050606/default.htm",
+    "date": "2005-06-06",
+    "timeET": "21:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050606.pdf",
+    "timeEvidence": "9:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20050826/default.htm",
+    "date": "2005-08-26",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050826.pdf",
+    "timeEvidence": "8:00 a.m. MDT / 10:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/200508272/default.htm",
+    "date": "2005-08-27",
+    "timeET": "13:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050827.pdf",
+    "timeEvidence": "11:30 a.m. MDT / 1:30 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/200509262/default.htm",
+    "date": "2005-09-26",
+    "timeET": "13:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050926.pdf",
+    "timeEvidence": "1:30 p.m. EDT / 10:30 a.m. PDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20050927/default.htm",
+    "date": "2005-09-27",
+    "timeET": "14:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20050927.pdf",
+    "timeEvidence": "2:45 p.m. EDT / 1:45 p.m. CDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20051012/default.htm",
+    "date": "2005-10-12",
+    "timeET": "08:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20051012.pdf",
+    "timeEvidence": "8:30 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20051026/default.htm",
+    "date": "2005-10-26",
+    "timeET": "13:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20051026.pdf",
+    "timeEvidence": "1:45 p.m. EDT / 12:45 p.m. CDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20051027/default.htm",
+    "date": "2005-10-27",
+    "timeET": "11:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20051027.pdf",
+    "timeEvidence": "11:00 a.m. EDT / 10:00 a.m. CDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20051114/default.htm",
+    "date": "2005-11-14",
+    "timeET": "10:10",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20051114.pdf",
+    "timeEvidence": "10:10 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20051202/default.htm",
+    "date": "2005-12-02",
+    "timeET": "09:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20051202.pdf",
+    "timeEvidence": "9:00 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/200512022/default.htm",
+    "date": "2005-12-02",
+    "timeET": "11:10",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20051202b.pdf",
+    "timeEvidence": "11:10 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/boarddocs/speeches/2005/20051214/default.htm",
+    "date": "2005-12-14",
+    "timeET": "15:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/greenspan/Greenspan_20051214.pdf",
+    "timeEvidence": "3:00 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060206a.htm",
+    "date": "2006-02-06",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060206.pdf",
+    "timeEvidence": "10:00 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060224a.htm",
+    "date": "2006-02-24",
+    "timeET": "17:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060224.pdf",
+    "timeEvidence": "5:30 P.M. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060308a.htm",
+    "date": "2006-03-08",
+    "timeET": "12:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060308.pdf",
+    "timeEvidence": "noon EST / 9:00 a.m. PST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060320a.htm",
+    "date": "2006-03-20",
+    "timeET": "19:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060320.pdf",
+    "timeEvidence": "7:00 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060405a.htm",
+    "date": "2006-04-05",
+    "timeET": "09:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060405.pdf",
+    "timeEvidence": "9:30 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060503a.htm",
+    "date": "2006-05-03",
+    "timeET": "12:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060503.pdf",
+    "timeEvidence": "Noon EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060518a.htm",
+    "date": "2006-05-18",
+    "timeET": "09:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060518.pdf",
+    "timeEvidence": "9:30 a.m. EDT / 8:30 a.m. CDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060605a.htm",
+    "date": "2006-06-05",
+    "timeET": "14:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060605.pdf",
+    "timeEvidence": "2:15 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060612a.htm",
+    "date": "2006-06-12",
+    "timeET": "19:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060612.pdf",
+    "timeEvidence": "7:30 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060613a.htm",
+    "date": "2006-06-13",
+    "timeET": "11:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060613.pdf",
+    "timeEvidence": "11 :00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060615a.htm",
+    "date": "2006-06-15",
+    "timeET": "13:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060615.pdf",
+    "timeEvidence": "1:45 p.m. EDT / 12:45 p.m. CDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060825a.htm",
+    "date": "2006-08-25",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060825.pdf",
+    "timeEvidence": "10:00 a.m. EDT / 8:00 a.m. MDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060831a.htm",
+    "date": "2006-08-31",
+    "timeET": "12:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060831.pdf",
+    "timeEvidence": "12:30 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20060901a.htm",
+    "date": "2006-09-01",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20060901.pdf",
+    "timeEvidence": "10:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20061004a.htm",
+    "date": "2006-10-04",
+    "timeET": "12:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20061004.pdf",
+    "timeEvidence": "12:45 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20061016a.htm",
+    "date": "2006-10-16",
+    "timeET": "13:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20061016.pdf",
+    "timeEvidence": "1:30 p.m. EDT / 10:30 a.m. PDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20061110a.htm",
+    "date": "2006-11-10",
+    "timeET": "08:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20061110.pdf",
+    "timeEvidence": "8:45 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20061128a.htm",
+    "date": "2006-11-28",
+    "timeET": "12:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20061128.pdf",
+    "timeEvidence": "12:30 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20061201a.htm",
+    "date": "2006-12-01",
+    "timeET": "09:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20061201.pdf",
+    "timeEvidence": "9:00 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20061215a.htm",
+    "date": "2006-12-15",
+    "timeET": "01:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20061215.pdf",
+    "timeEvidence": "1:00 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070105a.htm",
+    "date": "2007-01-05",
+    "timeET": "13:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070105.pdf",
+    "timeEvidence": "1:45 p.m. EST / 12:45 p.m. CST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070206a.htm",
+    "date": "2007-02-06",
+    "timeET": "13:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070206.pdf",
+    "timeEvidence": "1:30 p.m. EST / 12:30 p.m. CST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070302a.htm",
+    "date": "2007-03-02",
+    "timeET": "23:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070302.pdf",
+    "timeEvidence": "11 :00 p.m. EST / 8:00 p.m. PST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070306a.htm",
+    "date": "2007-03-06",
+    "timeET": "14:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070306.pdf",
+    "timeEvidence": "2:00 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070411a.htm",
+    "date": "2007-04-11",
+    "timeET": "13:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070411.pdf",
+    "timeEvidence": "1:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070425a.htm",
+    "date": "2007-04-25",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070425.pdf",
+    "timeEvidence": "10:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070501a.htm",
+    "date": "2007-05-01",
+    "timeET": "11:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070501.pdf",
+    "timeEvidence": "11 :00 a.m. EDT / 9:00 a.m. MDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070515a.htm",
+    "date": "2007-05-15",
+    "timeET": "08:10",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070515.pdf",
+    "timeEvidence": "8:10 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070517a.htm",
+    "date": "2007-05-17",
+    "timeET": "09:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070517.pdf",
+    "timeEvidence": "9:30 a.m. EDT / 8:30 a.m. CDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070522a.htm",
+    "date": "2007-05-22",
+    "timeET": "18:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070522.pdf",
+    "timeEvidence": "6:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070605a.htm",
+    "date": "2007-06-05",
+    "timeET": "08:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070605.pdf",
+    "timeEvidence": "8:15 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070615a.htm",
+    "date": "2007-06-15",
+    "timeET": "08:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070615.pdf",
+    "timeEvidence": "8:30 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070710a.htm",
+    "date": "2007-07-10",
+    "timeET": "13:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070710.pdf",
+    "timeEvidence": "1:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070831a.htm",
+    "date": "2007-08-31",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070831.pdf",
+    "timeEvidence": "10:00 a.m. EDT / 8:00 a.m. MDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070924a.htm",
+    "date": "2007-09-24",
+    "timeET": "13:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20070924.pdf",
+    "timeEvidence": "1:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20071012a.htm",
+    "date": "2007-10-12",
+    "timeET": "09:10",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20071012.pdf",
+    "timeEvidence": "9:10 a.m. EDT / 8:10 a.m. CDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20071015a.htm",
+    "date": "2007-10-15",
+    "timeET": "19:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20071015.pdf",
+    "timeEvidence": "7:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20071019a.htm",
+    "date": "2007-10-19",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20071019.pdf",
+    "timeEvidence": "10 a.m. EDT / 9 a.m. CDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20071106a.htm",
+    "date": "2007-11-06",
+    "timeET": "13:40",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20071106.pdf",
+    "timeEvidence": "1:40 p.m. EST / 12:40 p.m. CST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20071114a.htm",
+    "date": "2007-11-14",
+    "timeET": "09:10",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20071114.pdf",
+    "timeEvidence": "9:10 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20071129a.htm",
+    "date": "2007-11-29",
+    "timeET": "18:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20071129.pdf",
+    "timeEvidence": "6:45 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080110a.htm",
+    "date": "2008-01-10",
+    "timeET": "13:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080110.pdf",
+    "timeEvidence": "1:00 p.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080304a.htm",
+    "date": "2008-03-04",
+    "timeET": "09:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080304.pdf",
+    "timeEvidence": "9:00 a.m. EST"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080314a.htm",
+    "date": "2008-03-14",
+    "timeET": "13:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080314.pdf",
+    "timeEvidence": "1:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080409a.htm",
+    "date": "2008-04-09",
+    "timeET": "09:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080409.pdf",
+    "timeEvidence": "9:30 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080410a.htm",
+    "date": "2008-04-10",
+    "timeET": "13:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080410.pdf",
+    "timeEvidence": "1:00 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/Bernanke20080505a.htm",
+    "date": "2008-05-05",
+    "timeET": "20:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080505.pdf",
+    "timeEvidence": "8:30 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080513.htm",
+    "date": "2008-05-13",
+    "timeET": "08:20",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080513.pdf",
+    "timeEvidence": "8:20 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080515a.htm",
+    "date": "2008-05-15",
+    "timeET": "09:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080515.pdf",
+    "timeEvidence": "9:30 a.m. EDT / 8:30 a.m. CDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080603a.htm",
+    "date": "2008-06-03",
+    "timeET": "09:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080603.pdf",
+    "timeEvidence": "9:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080604a.htm",
+    "date": "2008-06-04",
+    "timeET": "14:45",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080604.pdf",
+    "timeEvidence": "2:45 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080609a.htm",
+    "date": "2008-06-09",
+    "timeET": "20:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080609.pdf",
+    "timeEvidence": "8:15 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080612a.htm",
+    "date": "2008-06-12",
+    "timeET": "11:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080612.pdf",
+    "timeEvidence": "11 :30 a.m. EDT / 10:30 a.m. CDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080616a.htm",
+    "date": "2008-06-16",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080616.pdf",
+    "timeEvidence": "10:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080708a.htm",
+    "date": "2008-07-08",
+    "timeET": "08:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080708.pdf",
+    "timeEvidence": "8:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080822a.htm",
+    "date": "2008-08-22",
+    "timeET": "10:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080822.pdf",
+    "timeEvidence": "10:00 a.m. EDT / 8:00 a.m. MDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080909a.htm",
+    "date": "2008-09-09",
+    "timeET": "09:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20080909.pdf",
+    "timeEvidence": "9:00 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20081007a.htm",
+    "date": "2008-10-07",
+    "timeET": "13:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20081007.pdf",
+    "timeEvidence": "1:15 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20081014a.htm",
+    "date": "2008-10-14",
+    "timeET": "08:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20081014.pdf",
+    "timeEvidence": "8:30 a.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20081015a.htm",
+    "date": "2008-10-15",
+    "timeET": "12:15",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20081015.pdf",
+    "timeEvidence": "12:15 p.m. EDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20081031a.htm",
+    "date": "2008-10-31",
+    "timeET": "14:00",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20081031.pdf",
+    "timeEvidence": "2:00 p.m. EDT / 11 a.m. PDT"
+  },
+  {
+    "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20081214a.htm",
+    "date": "2008-11-14",
+    "timeET": "08:30",
+    "timeSource": "https://fraser.stlouisfed.org/files/docs/historical/bernanke/bernanke_20081114.pdf",
+    "timeEvidence": "8:30 a.m. EST"
+  }
+]

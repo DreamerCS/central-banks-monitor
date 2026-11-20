@@ -7,6 +7,7 @@ FOMC statement dates, published speech windows and Jackson Hole study.
 import argparse
 import csv
 import json
+import re
 from bisect import bisect_left
 from collections import Counter, defaultdict
 from datetime import date, timedelta
@@ -107,6 +108,27 @@ def summary(rows):
             "singleCalendarDayMedianAbsClose2yBp": median_field([v for v in eligible if v["overnights"]==1], "close2yBp", True)}
 
 
+def stance_comparison(rows, readings):
+    by_url = {r["sourceUrl"]: r["score"] for r in readings["records"]}
+    if set(by_url) != {r["url"] for r in rows}:
+        raise ValueError("Speech market catalogue and scored catalogue differ")
+    output = {}
+    for label, scores in (("Hawkish", (1, 2)), ("Dovish", (-2, -1)), ("Neutral", (0,))):
+        selected = [r for r in rows if by_url[r["url"]] in scores]
+        eligible = [r for r in selected if r["eligible"]]
+        single_day = [r for r in eligible if r["overnights"] == 1]
+        output[label] = {
+            "reviewed": len(selected), "eligible": len(eligible),
+            "up": sum(r["close2yBp"] > 0 for r in eligible),
+            "down": sum(r["close2yBp"] < 0 for r in eligible),
+            "flat": sum(r["close2yBp"] == 0 for r in eligible),
+            "median2yBp": median_field(eligible, "close2yBp"),
+            "medianSlopeBp": median_field(eligible, "closeSlopeBp"),
+            "singleCalendarDay": len(single_day),
+            "singleCalendarDayMedian2yBp": median_field(single_day, "close2yBp")}
+    return output
+
+
 def published_windows(intraday, jackson_file):
     out = {}
     for entry in intraday["events"]:
@@ -123,11 +145,22 @@ def published_windows(intraday, jackson_file):
     return out, jackson
 
 
-def build(catalogue, curve, fomc, intraday, jackson_file, option_priors):
+def decision_time(value):
+    if not value:
+        return None
+    found = re.search(r"(\d{1,2}):(\d{2})\s*([ap])", value, re.I)
+    if not found:
+        return None
+    hour = int(found[1]) % 12 + (12 if found[3].lower() == "p" else 0)
+    return f"{hour:02d}:{found[2]}"
+
+
+def build(catalogue, curve, fomc, intraday, jackson_file, option_priors, readings, archives):
     quotes = [r for r in curve["observations"] if r.get("y2") is not None and r.get("y10") is not None]
     days = [r["date"] for r in quotes]
     assert days == sorted(set(days))
-    rate_days = sorted({r["date"] for r in fomc["records"]})
+    rate_days = [(r["date"], decision_time(r.get("publicationET"))) for r in fomc["records"]]
+    archival_times = {r["url"]: r for r in archives}
     narrow, jackson = published_windows(intraday, jackson_file)
     rows = []
     seen = set()
@@ -136,7 +169,10 @@ def build(catalogue, curve, fomc, intraday, jackson_file, option_priors):
         if url in seen:
             raise ValueError("Duplicate speech URL: " + url)
         seen.add(url)
-        stamp = s.get("time") or None
+        archive = archival_times.get(url, {})
+        if archive and archive["date"] != day:
+            raise ValueError("Archival cover date differs from Board catalogue")
+        stamp = s.get("time") or archive.get("timeET")
         i = bisect_left(days, day)
         same = i < len(days) and days[i] == day
         # Strict calendar-day window is comparable with the statement explorer.
@@ -161,6 +197,8 @@ def build(catalogue, curve, fomc, intraday, jackson_file, option_priors):
                 "closeDate":None,"close2yBp":None,"close10yBp":None,"closeSlopeBp":None,"overnights":None,
                 "windowStatus":status,"overlapCount":0,"fomcOverlap":False,"eligible":False,
                 "marketBp":None,"instrument":None,"marketWindow":None,"marketSource":None}
+        if archive and not s.get("time"):
+            base.update(timeSource=archive["timeSource"], timeEvidence=archive["timeEvidence"])
         if 4 <= before < len(quotes):
             start,end = quotes[before-4],quotes[before]
             base.update(priorStart=start["date"], priorEnd=end["date"])
@@ -170,7 +208,11 @@ def build(catalogue, curve, fomc, intraday, jackson_file, option_priors):
                 base["closeDate"] = close["date"]
                 base["close2yBp"],base["close10yBp"],base["closeSlopeBp"]=changes(end,close)
                 base["overnights"]=(date.fromisoformat(close["date"])-date.fromisoformat(end["date"])).days
-                base["fomcOverlap"] = any(end["date"] < target <= close["date"] for target in rate_days)
+                base["fomcOverlap"] = any(
+                    end["date"] < target < close["date"]
+                    or target == end["date"] and (not hour or hour >= "15:30")
+                    or target == close["date"] and (not hour or hour <= "15:30")
+                    for target,hour in rate_days)
         if url in narrow:
             base.update(narrow[url])
         if url in jackson:
@@ -183,11 +225,14 @@ def build(catalogue, curve, fomc, intraday, jackson_file, option_priors):
                             marketSource=base["meetingPricing"]["sources"][0], marketLocator="Page 16")
         rows.append(base)
     intervals=Counter((r["priorEnd"],r["closeDate"]) for r in rows if r["closeDate"])
+    ambiguous = Counter(r["date"] for r in rows if r["windowStatus"] in {"time-unknown","at-fixing"})
     by_leader=defaultdict(list)
     by_cycle=defaultdict(list)
     for r in rows:
         if r["closeDate"]:
             r["overlapCount"]=intervals[r["priorEnd"],r["closeDate"]]
+            # An un-timed or exactly-at-fixing speech on the first day could also be within this interval.
+            r["overlapCount"] += ambiguous[r["priorEnd"]]
             r["eligible"]=(r["windowStatus"] in {"before-fixing","after-fixing","non-quote-day"}
                            and r["overlapCount"] == 1 and not r["fomcOverlap"])
         r["cycle"] = cycle(r["date"])
@@ -199,23 +244,25 @@ def build(catalogue, curve, fomc, intraday, jackson_file, option_priors):
     return {"title":"Treasury yields around speeches by the Federal Reserve Chair",
             "sources":{"quotes":PRICES,"method":TREASURY,"quarterlyOptions":MPT,"cycle":NBER,"boardTime":"https://www.federalreserve.gov/json/ne-speeches.json"},
             "through":days[-1],"method":[
-             "The pre-speech change runs from the fifth prior Treasury fixing to the final pre-release fixing (four successive changes). The 2s10s spread is the ten-year par yield minus the two-year par yield.",
+             "Historical release times are taken from the dated delivery instructions on the first page of the FRASER transcript when the Board index omits a time. The pre-speech change runs from the fifth prior Treasury fixing to the final pre-release fixing (four successive changes). The 2s10s spread is the ten-year par yield minus the two-year par yield.",
              "A speech before the approximately 15:30 ET Treasury fixing uses the previous trading day's fixing as its baseline. A later speech uses the same day's fixing and the next available fixing. Non-quote days are bracketed by the adjacent available fixings.",
              "When a trading-day release time is missing, the daily change describes the calendar date only. The change is excluded from the event-window statistics. Speeches listed at exactly the fixing time are also excluded.",
-             "The matched sample has a unique speech per fixing interval and excludes FOMC decisions within that interval. Other releases and trading still contribute. The one-calendar-day sensitivity additionally drops holiday and weekend spans.",
+             "The matched sample has a unique speech per fixing interval and excludes FOMC decisions within that interval. A speech or decision with unknown or exactly-at-fixing timing on either boundary can overlap both adjacent windows. Other releases and trading still contribute. The one-calendar-day sensitivity additionally drops holiday and weekend spans.",
              "The observed short-window readings and September meeting prices identify their own instruments and source windows. Daily par yields contain term premia and rate expectations across maturities. They do not identify meeting-specific probabilities.",
              "The Atlanta Fed Market Probability Tracker uses CME options to estimate distributions for average compounded SOFR over a three-month reference window. We select the nearest reference window starting on or after the speech, and the last price date strictly before the speech. The change compares the same reference window on the fifth and last prior price dates. Above/below probabilities refer to the then-current fed funds target range. These are educational calculations from daily option data.",
              "NBER contractions run from the month after a dated peak through the month of its trough. These are retrospective labels." ],
-            "summary":summary(rows),"cycles":{k:summary(v) for k,v in by_cycle.items()},"leaders":{k:summary(v) for k,v in by_leader.items()},"records":rows}
+            "summary":summary(rows),"stanceComparison":stance_comparison(rows,readings),"cycles":{k:summary(v) for k,v in by_cycle.items()},"leaders":{k:summary(v) for k,v in by_leader.items()},"records":rows}
 
 
 if __name__=="__main__":
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("--catalogue",type=Path,default=ROOT/"scripts/fed-chair-catalogue.json")
     p.add_argument("--data",type=Path,default=DATA)
+    p.add_argument("--archives",type=Path,default=ROOT/"scripts/fed-archival-speech-times.json")
+    p.add_argument("--readings",type=Path,default=DATA/"fed-leader-speeches.json")
     p.add_argument("--options-workbook",type=Path,help="Local Atlanta Fed Market Probability Tracker workbook (default downloads the official release)")
     p.add_argument("--output",type=Path,default=DATA/"fed-speech-markets.json")
     args=p.parse_args()
     result=build(load(args.catalogue),load(args.data/"pre-event-curve.json"),load(args.data/"fed-statement-stance.json"),
-                 load(args.data/"speech-intraday.json"),args.data/"jackson-hole-stance.csv",load_option_priors(args.options_workbook))
+                 load(args.data/"speech-intraday.json"),args.data/"jackson-hole-stance.csv",load_option_priors(args.options_workbook),load(args.readings),load(args.archives))
     args.output.write_text(json.dumps(result,ensure_ascii=False,separators=(",",":"),allow_nan=False)+"\n")

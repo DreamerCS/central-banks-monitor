@@ -88,8 +88,16 @@ def main():
                 shift = score - last_score
             prior[leader] = (day, score)
             verified.append((row, review, args.cache))
+        elif leader == 'Greenspan' and day == '2002-01-11':
+            evidence = 'Greenspan described downside growth risks and the preceding cuts. He did not specify his preferred next rate move.'
+        elif leader == 'Greenspan' and day == '2002-12-19':
+            evidence = 'Greenspan reviewed the November cut and discussed the tools available in a hypothetical deflation. He left the near-term rate path open.'
+        elif leader == 'Greenspan' and day == '2003-08-29':
+            evidence = 'The discussion addressed how the Fed manages deflation risk and the response to the 1998 Russian default. It did not establish a new rate path.'
+        elif leader == 'Greenspan' and day == '2005-06-06':
+            evidence = 'Greenspan examined a fall in long yields during an existing tightening cycle. Market participants’ expectations were part of his explanation.'
         elif day == '2026-08-28' and leader == 'Warsh':
-            evidence = 'Warsh discussed inflation persistence, employment, and his decision framework. He left the next rate decision open.'
+            evidence = 'Warsh described his July vote to wait, discussed subsequent developments, and left the next rate decision open.'
         elif day == '2026-11-16' and leader == 'Warsh':
             status = 'Technical or institutional subject'
             evidence = 'Warsh discussed the economic impact of artificial intelligence and potential implications for future monetary policy.'

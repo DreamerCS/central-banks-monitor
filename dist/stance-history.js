@@ -18,7 +18,7 @@
   let period = null;
   let pairData, pairBand=Number(params.get("sxBand") || 1);
   selected.pairDate=params.get("sxPairDate")||"";
-  let banks, bank;
+  let banks, bank, riskData, riskBank, riskByDate=new Map();
   const el = (tag, text, cls) => {
     const node = document.createElement(tag);
     if (text !== undefined) node.textContent = text;
@@ -294,6 +294,44 @@
     if(part?.n)box.append(el("p",part.label+" · "+part.n+" paired meetings. Median absolute release move "+part.releaseMedianAbsBp.toFixed(2)+" bp, conference move "+part.conferenceMedianAbsBp.toFixed(2)+" bp.","sx-foot"));
     box.append(link("EA-MPD observations",bank.marketUrl));container.append(box);
   }
+  function riskComparison(container,rows) {
+    if(!riskBank)return;
+    const groupBySignal=new Map();
+    let unscored=0, identified=0, directional=0;
+    const oneSided=new Set(["Inflation upside","Inflation downside","Growth downside","Employment downside","Unduly low inflation"]);
+    for(const r of rows) {
+      if(!isNum(r.score))unscored++;
+      const risk=riskByDate.get(r.date);
+      if(!risk?.signal)continue;
+      const counts=groupBySignal.get(risk.signal)||{all:0,noScore:0};
+      counts.all++;
+      if(!isNum(r.score)) {
+        counts.noScore++;identified++;
+        if(oneSided.has(risk.signal))directional++;
+      }
+      groupBySignal.set(risk.signal,counts);
+    }
+    const box=el("details",undefined,"sx-source");
+    if(view==="policy")box.open=true;
+    box.append(el("summary",riskBank.label+" where rate guidance was absent"));
+    box.append(el("p","Of "+unscored+" meetings without a forward-rate score in this selection, "+identified+
+      " had an explicit risk assessment. "+directional+" identified a one-sided inflation, employment or growth risk. The risk tally is separate from the rate-guidance score.","sx-foot"));
+    if(groupBySignal.size) {
+      const wrap=el("div",undefined,"sx-tablewrap"),t=el("table",undefined,"sx-table");
+      wrap.tabIndex=0;wrap.setAttribute("role","region");wrap.setAttribute("aria-label","Explicit risk readings by type");
+      t.append(el("caption","Each label preserves the economic risk described by the committee."));
+      const thead=el("thead"),h=el("tr");
+      for(const label of ["Published risk assessment","Meetings","Without a forward-rate score"]){const th=el("th",label);th.scope="col";h.append(th);}
+      thead.append(h);t.append(thead);const body=el("tbody");
+      for(const [label,counts] of [...groupBySignal].sort((a,b)=>b[1].all-a[1].all||a[0].localeCompare(b[0]))) {
+        const tr=el("tr"),th=el("th",label);th.scope="row";tr.append(th,el("td",String(counts.all)),el("td",String(counts.noScore)));body.append(tr);
+      }
+      t.append(body);wrap.append(t);box.append(wrap);
+    }
+    if(typeof riskBank.scope==="string")box.append(el("p",riskBank.scope,"sx-foot"));
+    box.append(link("Download dates, labels and underlying passages","data/stance-risk-signals.json"));
+    container.append(box);
+  }
   function bandCheck(container) {
     const windows=bank.cycleComparison?.windows?.filter(w=>w.sensitivity?.length)||[];
     if(!windows.length)return;
@@ -347,7 +385,17 @@
       words.append(el("h4",r.evidenceKind || (bank.id==="ecb"?"Reading of the official communication":"Statement evidence")),el("p",r.evidence));
     }
     else if(r.rationale) words.append(el("p",r.rationale));
-    if(r.riskSignal)words.append(el("p","Risk assessment · "+r.riskSignal,"sx-foot"));
+    const risk=riskByDate.get(r.date);
+    if(riskBank) {
+      const detail=el("div");
+      detail.append(el("h4",riskBank.label));
+      if(risk?.signal) {
+        detail.append(el("p",risk.signal,"sx-foot"));
+        if(risk.evidence)detail.append(el("blockquote",risk.evidence));
+        if(safeUrl(risk.sourceUrl))detail.append(link("Official risk passage",risk.sourceUrl));
+      } else detail.append(el("p","No explicit balance identified for this meeting.","sx-foot"));
+      words.append(detail);
+    } else if(r.riskSignal)words.append(el("p","Risk assessment · "+r.riskSignal,"sx-foot"));
     if(r.sourceType==="conference" && r.releaseReading) {
       const rel=r.releaseReading, detail=el("details",undefined,"sx-source");
       detail.append(el("summary","Earlier release that day · "+scoreText(rel.score)));
@@ -410,6 +458,8 @@
       block.append(link(text,urlFor(file)));
   }
   function render(focus="") {
+    riskBank=riskData?.banks?.[bank.id]||null;
+    riskByDate=new Map((riskBank?.records||[]).map(r=>[r.date,r]));
     mount.replaceChildren();
     const controls=el("div",undefined,"sx-controls"),selects={};
     selects.bank=labelled(controls,"Central bank",banks.map(b=>[b.id,b.label]),bank.id,v=>{
@@ -457,6 +507,7 @@
       content.append(primary);if(full)content.append(secondary);
       mount.append(content);reader(mount,rows);
     }
+    if(full || view==="policy")riskComparison(mount,rows);
     if(full || view==="macro")cycleCheck(mount);
     if(full || view==="market") {
       twoWindowComparison(mount);pairedWindows(mount);bandCheck(mount);
@@ -473,8 +524,10 @@
     if(focus) {selects[focus]?.focus({preventScroll:true});storeSelection();}
   }
   async function start() {
-    const [response,pairResponse]=await Promise.all([fetch("data/stance-cohorts.json"),
-      (full||view==="market")?fetch("data/stance-window-pairs.json").catch(()=>null):null]);
+    const [response,pairResponse,riskResponse]=await Promise.all([fetch("data/stance-cohorts.json"),
+      (full||view==="market")?fetch("data/stance-window-pairs.json").catch(()=>null):null,
+      (full||view==="policy")?fetch("data/stance-risk-signals.json").catch(()=>null):null]);
+    if(riskResponse?.ok)try{riskData=await riskResponse.json();}catch{}
     if(pairResponse?.ok)try{pairData=await pairResponse.json();}catch{}
     if(!response.ok) throw Error("Cohort data unavailable");
     const data=await response.json();

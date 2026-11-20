@@ -9,6 +9,15 @@
   "textSha256": "f2d169c633d307b68f79eec610715713f99dba217fa1d98545b3d621f7e27db1"
  },
  {
+  "url": "https://www.federalreserve.gov/boarddocs/speeches/2003/20031106/default.htm",
+  "date": "2003-11-06",
+  "leader": "Greenspan",
+  "score": 0,
+  "rationale": "Greenspan judged that unusually low inflation gave the Fed room to wait before tightening into the recovery.",
+  "sentence": 47,
+  "textSha256": "9e56b3a2822c38b91b935c502b96ee56b5e49344e53b19a0168a8865636a2256"
+ },
+ {
   "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20040608/default.htm",
   "date": "2004-06-08",
   "leader": "Greenspan",
