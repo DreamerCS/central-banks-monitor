@@ -13,15 +13,15 @@
   "questions": [
     {
       "question": "Which year and cross-variable interaction drive the severe scenario's low score?",
-      "detail": "Repeat the Table A comparisons for the severe path, dropping each year or variable in turn and reporting the window in which the maximum is attained. This would show whether the rarity lies chiefly in the initial inflation jump, the persistence of prices or the subsequent growth response. The answer would identify which part of a portfolio stress test most depends on an unusual outcome."
+      "detail": "Repeat the Table A comparisons for the severe path, dropping each year or variable in turn and reporting the window in which the maximum is attained. This would show whether the rarity lies chiefly in the initial inflation jump, the persistence of prices or the subsequent growth response. The answer would identify which part of a portfolio stress test most depends on an unusual outcome. The ECB's September projection scenario paths and the box's replication inputs are the relevant starting point."
     },
     {
       "question": "How sensitive is the ranking to selecting the most favourable historical window?",
-      "detail": "Alongside the maximum likelihood ratio, compute the median score and the distribution of scores across rolling windows for each narrative. Identify whether the adverse path looks familiar in several periods or mainly in one. Two scenarios with the same published score could have very different historical support if one relies on a single episode."
+      "detail": "Alongside the maximum likelihood ratio, compute the median score and the distribution of scores across rolling windows for each narrative. Identify whether the adverse path looks familiar in several periods or mainly in one. Two scenarios with the same published score could have very different historical support if one relies on a single episode. Use successive vintages of the ECB staff growth and inflation series to avoid treating data revisions as real-time information."
     },
     {
       "question": "When do survey-based distributions change the policy interpretation?",
-      "detail": "Hold the assumed scenario paths fixed, compare the historical and forecaster-based marginal distributions and then vary only the dependence structure. Locate the years and variables responsible for the 56–85 range in the adverse scenario. This would help distinguish disagreement about the size of ordinary forecast errors from disagreement about how inflation and growth normally evolve together."
+      "detail": "Hold the assumed scenario paths fixed, compare the historical and forecaster-based marginal distributions and then vary only the dependence structure. Locate the years and variables responsible for the 56–85 range in the adverse scenario. This would help distinguish disagreement about the size of ordinary forecast errors from disagreement about how inflation and growth normally evolve together. Consult the ECB Survey of Professional Forecasters' probability distributions alongside the scenario inputs."
     }
   ],
   "limitation": ""

@@ -13,15 +13,15 @@
   "questions": [
     {
       "question": "How sensitive is the public-payroll estimate to the historical ownership assumption?",
-      "detail": "Rebuild the employer split by country and service using historical payroll or provider registers where available. Compare the growth rates of new public and private jobs with the shares of the existing workforce that the box applies retrospectively. The resulting range around the estimated 1.9 million public health and social jobs would show where changes in provider ownership matter most."
+      "detail": "Rebuild the employer split by country and service using historical payroll or provider registers where available. Compare the growth rates of new public and private jobs with the shares of the existing workforce that the box applies retrospectively. The resulting range around the estimated 1.9 million public health and social jobs would show where changes in provider ownership matter most. National administrative employment records and the ECB's Consumer Expectations Survey provide complementary employer definitions."
     },
     {
       "question": "Does growth in privately delivered care shift public spending from wages to purchases?",
-      "detail": "Compare countries with similar population ageing but markedly different shares of public health employment, including Finland and Germany. Track direct compensation alongside publicly financed purchases of care from other providers. Similar total spending growth alongside different payroll paths would show why direct hiring and budget pressure can move differently even when governments face comparable demographic demand."
+      "detail": "Compare countries with similar population ageing but markedly different shares of public health employment, including Finland and Germany. Track direct compensation alongside publicly financed purchases of care from other providers. Similar total spending growth alongside different payroll paths would show why direct hiring and budget pressure can move differently even when governments face comparable demographic demand. Government expenditure-by-function accounts and public procurement or reimbursement figures would identify those payments."
     },
     {
       "question": "How much of the association in Chart C survives a common observation window?",
-      "detail": "Restrict the comparison to countries with consistent three-digit industry detail from 2008 and distinguish residential from non-residential care. Test whether changes in the older population predict hours as well as headcount, and whether the relationship persists after accounting for initial staffing levels. That would help distinguish an increase in labour used to deliver care from a change in how jobs are counted."
+      "detail": "Restrict the comparison to countries with consistent three-digit industry detail from 2008 and distinguish residential from non-residential care. Test whether changes in the older population predict hours as well as headcount, and whether the relationship persists after accounting for initial staffing levels. That would help distinguish an increase in labour used to deliver care from a change in how jobs are counted. The EU Labour Force Survey and detailed national employment tables are the relevant starting points."
     }
   ],
   "limitation": ""

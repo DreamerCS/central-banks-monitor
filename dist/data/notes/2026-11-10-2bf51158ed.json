@@ -13,15 +13,15 @@
   "questions": [
     {
       "question": "Which pilot results would establish readiness for remote and in-person payments?",
-      "detail": "Separate completion rates, recovery after failed payments, operating effort and user experience for canteen purchases, remote merchants and person-to-person transfers. Compare large banks, smaller providers and non-bank participants among the 36 selected. This would reveal whether a smooth staff payment in a controlled setting translates into consistent service across the use cases expected at first issuance."
+      "detail": "Separate completion rates, recovery after failed payments, operating effort and user experience for canteen purchases, remote merchants and person-to-person transfers. Compare large banks, smaller providers and non-bank participants among the 36 selected. This would reveal whether a smooth staff payment in a controlled setting translates into consistent service across the use cases expected at first issuance. Pilot test reports and participating providers' operational logs would provide the relevant comparison."
     },
     {
       "question": "How would a phased shop rollout affect the gap between technical availability and practical acceptance?",
-      "detail": "Track the share of participating merchants able to accept payments, the time and cost of integration, and repeat use after acceptance begins. Compare those results with merchants entering later. If consumers can access a wallet before nearby shops can accept it, wide technical availability could coexist with low practical usefulness during the early rollout."
+      "detail": "Track the share of participating merchants able to accept payments, the time and cost of integration, and repeat use after acceptance begins. Compare those results with merchants entering later. If consumers can access a wallet before nearby shops can accept it, wide technical availability could coexist with low practical usefulness during the early rollout. Merchant pilot records and acquirer implementation data would help quantify that delay."
     },
     {
       "question": "Where would digital euro use add an independent European payment option?",
-      "detail": "In the pilot, record what payment method each transaction would otherwise have used, alongside cash access and acceptance at the same locations. This would help distinguish displacement of other European instruments from substitution for foreign providers. Evaluate the wholesale Pontes transaction separately, since its demonstrated settlement capability does not measure the proposed retail instrument's contribution to payment autonomy."
+      "detail": "In the pilot, record what payment method each transaction would otherwise have used, alongside cash access and acceptance at the same locations. This would help distinguish displacement of other European instruments from substitution for foreign providers. Evaluate the wholesale Pontes transaction separately, since its demonstrated settlement capability does not measure the proposed retail instrument's contribution to payment autonomy. Merchant payment diaries and surveys of users would be appropriate evidence for the counterfactual."
     }
   ],
   "limitation": ""

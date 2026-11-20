@@ -13,15 +13,15 @@
   "questions": [
     {
       "question": "Do higher valuations anticipate additional earnings or mainly a change in the multiple?",
-      "detail": "Track the first qualifying disclosure for each issuer and compare subsequent earnings surprises and valuation multiples with peers in the same sector and quarter. Separate calls about new products from calls about cost reductions, allowing for overlap. A sustained increase in earnings following the initial return would carry a different valuation implication from an unchanged earnings path and a persistently higher multiple."
+      "detail": "Track the first qualifying disclosure for each issuer and compare subsequent earnings surprises and valuation multiples with peers in the same sector and quarter. Separate calls about new products from calls about cost reductions, allowing for overlap. A sustained increase in earnings following the initial return would carry a different valuation implication from an unchanged earnings path and a persistently higher multiple. The authors' earnings-call methodology and company filings provide a starting point."
     },
     {
       "question": "Does the five-basis-point spread difference survive a comparison at the point of issuance?",
-      "detail": "Match new exposed and unexposed bonds by maturity, seniority, industry and issue quarter, and repeat separately for maturities beyond ten years. Compare the resulting new-issue discount with the secondary-market option-adjusted spread in Chart D. This would establish how much of the apparent pricing advantage an issuer could actually lock in when raising longer-term funds."
+      "detail": "Match new exposed and unexposed bonds by maturity, seniority, industry and issue quarter, and repeat separately for maturities beyond ten years. Compare the resulting new-issue discount with the secondary-market option-adjusted spread in Chart D. This would establish how much of the apparent pricing advantage an issuer could actually lock in when raising longer-term funds. Use official bond prospectuses alongside historical transaction or evaluated-price data."
     },
     {
       "question": "Which non-technology sectors would drive a broad repricing if expected returns on AI fell?",
-      "detail": "Group firms by exposure category before an earnings disappointment and measure subsequent changes in their equity multiples and credit spreads relative to sector peers. Weight the moves by market value and debt outstanding. This would test whether sensitivity is dispersed among users of AI, or whether widespread statistical exposure translates into a comparatively concentrated market loss."
+      "detail": "Group firms by exposure category before an earnings disappointment and measure subsequent changes in their equity multiples and credit spreads relative to sector peers. Weight the moves by market value and debt outstanding. This would test whether sensitivity is dispersed among users of AI, or whether widespread statistical exposure translates into a comparatively concentrated market loss. Check financial statements, earnings-call transcripts and issuer-level bond and equity market data."
     }
   ],
   "limitation": ""

@@ -14,6 +14,8 @@ from urllib.parse import parse_qsl, quote, unquote, urljoin, urlsplit, urlunspli
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 
+from publication_archive import VERIFIED_PUBLICATION_URLS
+
 SCRIPTS = Path(__file__).resolve().parent
 DATA = SCRIPTS.parent / "dist" / "data"
 AUDIT_WINDOWS = {
@@ -145,6 +147,7 @@ def collect(source, throttle):
             link = urljoin(base, href) if href else ""
             if link.startswith("http://"):
                 link = "https://" + link[7:]
+            link = VERIFIED_PUBLICATION_URLS.get(link, link)
             if not (day and title and link and official_url(link, publisher)):
                 continue
             parts = urlsplit(link)

@@ -14,15 +14,15 @@
   "questions": [
     {
       "question": "What would distinguish a temporary fuel shock from a persistent increase in underlying inflation?",
-      "detail": "Track diesel and petrol spreads, negotiated settlements entering the wage tracker, unit labour costs and services prices in successive releases. Compare the sequence with what firms reported about costs and selling prices. This would show whether the market's expected path for short rates is exposed mainly to volatile fuel assumptions or to a more durable shift in domestic inflation."
+      "detail": "Track diesel and petrol spreads, negotiated settlements entering the wage tracker, unit labour costs and services prices in successive releases. Compare the sequence with what firms reported about costs and selling prices. This would show whether the market's expected path for short rates is exposed mainly to volatile fuel assumptions or to a more durable shift in domestic inflation. Use official HICP component data, the ECB wage tracker and subsequent company-contact rounds."
     },
     {
       "question": "Is weaker business borrowing a funding constraint for otherwise viable firms?",
-      "detail": "Separate tighter bank standards from customers' response to higher interest costs, and distinguish inventory finance from investment loans. Compare survey responses with bank lending flows, corporate bond issuance and access by firm size. Large companies that can issue securities and smaller bank-dependent borrowers could face quite different refinancing risks despite similar growth rates in aggregate loans and bonds."
+      "detail": "Separate tighter bank standards from customers' response to higher interest costs, and distinguish inventory finance from investment loans. Compare survey responses with bank lending flows, corporate bond issuance and access by firm size. Large companies that can issue securities and smaller bank-dependent borrowers could face quite different refinancing risks despite similar growth rates in aggregate loans and bonds. The ECB lending survey, loan data and issue-level securities statistics provide complementary evidence."
     },
     {
       "question": "How much of the apparent resilience in output is likely to support recurring domestic demand?",
-      "detail": "Reconcile the strong second-quarter trade contribution with later exports, domestic investment, consumer spending and the next national accounts vintage. Compare the firm's exposure to AI-related external demand or public procurement with evidence from companies selling to households. For equity and credit portfolios, this would help distinguish improving underlying customer demand from a temporary favourable contribution to GDP."
+      "detail": "Reconcile the strong second-quarter trade contribution with later exports, domestic investment, consumer spending and the next national accounts vintage. Compare the firm's exposure to AI-related external demand or public procurement with evidence from companies selling to households. For equity and credit portfolios, this would help distinguish improving underlying customer demand from a temporary favourable contribution to GDP. Consult Eurostat expenditure tables and the ECB's corporate contact rounds."
     }
   ],
   "limitation": ""

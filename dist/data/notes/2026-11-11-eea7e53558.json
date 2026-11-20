@@ -13,15 +13,15 @@
   "questions": [
     {
       "question": "How much of the persistent gap is attributable to households losing access to the housing recovery?",
-      "detail": "Use survey microdata to compare younger renters, leveraged owners and debt-free owners in the two country groups. Reweight the post-crisis population to the earlier distribution of housing tenure, then recalculate the bottom-half share and Gini. This would test whether changes in who owned property explain more of the divergence than different price changes experienced by continuing owners."
+      "detail": "Use survey microdata to compare younger renters, leveraged owners and debt-free owners in the two country groups. Reweight the post-crisis population to the earlier distribution of housing tenure, then recalculate the bottom-half share and Gini. This would test whether changes in who owned property explain more of the divergence than different price changes experienced by continuing owners. Household Finance and Consumption Survey tenure and debt variables provide the primary evidence."
     },
     {
       "question": "Did the apparent improvement during the inflation surge coincide with weaker liquidity?",
-      "detail": "Compare changes in deposits, debt and spending on essentials for households with similar initial net wealth but different leverage. Recalculate their ranking using liquid assets as well as total wealth. Households gaining relative net wealth because the real value of debt fell could still face deteriorating short-term spending capacity, which matters for consumption and credit risk."
+      "detail": "Compare changes in deposits, debt and spending on essentials for households with similar initial net wealth but different leverage. Recalculate their ranking using liquid assets as well as total wealth. Households gaining relative net wealth because the real value of debt fell could still face deteriorating short-term spending capacity, which matters for consumption and credit risk. Consult the survey balance sheets and the inflation incidence study cited by the authors."
     },
     {
       "question": "How sensitive are the country-group results to aggregation and the choice of inequality measure?",
-      "detail": "Recalculate the Table 2 comparisons country by country, holding household weights fixed, and examine the top tenth, bottom half and median separately. Determine whether one large country's housing cycle dominates the pooled Gini or whether the direction persists across the six. This would clarify how far the survey can support a common recovery narrative."
+      "detail": "Recalculate the Table 2 comparisons country by country, holding household weights fixed, and examine the top tenth, bottom half and median separately. Determine whether one large country's housing cycle dominates the pooled Gini or whether the direction persists across the six. This would clarify how far the survey can support a common recovery narrative. The survey's five waves and national statistical weights make this comparison possible."
     }
   ],
   "limitation": ""

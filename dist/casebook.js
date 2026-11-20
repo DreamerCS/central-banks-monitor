@@ -77,3 +77,48 @@
   book.classList.add("case-enhanced");
   picker.hidden = false;
 })();
+
+(() => {
+  const form = document.getElementById("btp-repo-calculator");
+  if (!form) return;
+  const haircut = form.elements.namedItem("haircut");
+  const priceFall = form.elements.namedItem("priceFall");
+  const gap = form.querySelector("#repo-funding-gap");
+  const loss = form.querySelector("#repo-bond-loss");
+  const message = form.querySelector("#repo-input-message");
+  const amount = new Intl.NumberFormat("en-GB", {minimumFractionDigits: 2, maximumFractionDigits: 2});
+  const originalCollateral = 100;
+  const principalDue = 98;
+
+  function percentage(input) {
+    const value = input.valueAsNumber;
+    const valid = Number.isFinite(value) && value >= 0 && value <= 100;
+    input.setAttribute("aria-invalid", String(!valid));
+    if (valid) input.removeAttribute("aria-describedby");
+    else input.setAttribute("aria-describedby", message.id);
+    return valid ? value : null;
+  }
+
+  function update() {
+    const haircutPercent = percentage(haircut);
+    const fallPercent = percentage(priceFall);
+    const valid = haircutPercent !== null && fallPercent !== null;
+    message.textContent = valid ? "" : "Enter a percentage from 0 to 100 in each highlighted field.";
+    message.hidden = valid;
+    const priceLoss = fallPercent === null ? null : originalCollateral * fallPercent / 100;
+    loss.textContent = priceLoss === null ? "—" : "€" + amount.format(priceLoss) + " million";
+    if (!valid) {
+      gap.textContent = "—";
+      return;
+    }
+    const renewedAdvance = (originalCollateral - priceLoss) * (1 - haircutPercent / 100);
+    const fundingGap = Math.max(0, principalDue - renewedAdvance);
+    gap.textContent = "€" + amount.format(fundingGap) + " million";
+  }
+
+  form.addEventListener("input", update);
+  form.addEventListener("submit", event => event.preventDefault());
+  form.addEventListener("reset", () => queueMicrotask(update));
+  update();
+  form.hidden = false;
+})();

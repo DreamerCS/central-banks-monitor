@@ -4,6 +4,16 @@ import calendar
 from datetime import date
 
 
+VERIFIED_PUBLICATION_URLS = {
+    'https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24100':
+        'https://www.rbi.org.in/scripts/PublicationsView.aspx?Id=24100',
+    'https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24099':
+        'https://www.rbi.org.in/scripts/PublicationsView.aspx?Id=24099',
+    'https://www.rba.gov.au/speeches/2026/sp-sp-ag-2026-11-09.html':
+        'https://www.rba.gov.au/speeches/2026/sp-ag-2026-11-09.html',
+}
+
+
 def merge_publications(curated, previous, harvested, listings, today, identity):
     if not isinstance(previous, list) or not previous:
         raise ValueError("Cannot restore the published archive")
@@ -23,6 +33,8 @@ def merge_publications(curated, previous, harvested, listings, today, identity):
         titles.add(title_key(row))
 
     def add(row):
+        if row["url"] in VERIFIED_PUBLICATION_URLS:
+            row = {**row, "url": VERIFIED_PUBLICATION_URLS[row["url"]]}
         url, title = identity(row["url"]), title_key(row)
         if url not in urls and title not in titles:
             result.append(row)

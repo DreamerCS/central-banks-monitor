@@ -123,6 +123,28 @@ const PublicationReader = (() => {
     article.querySelector("#note-market").hidden = false;
   }
 
+  const workedCases = [
+    ["https://www.bancaditalia.it/pubblicazioni/rapporto-stabilita/2026-2/index.html?com.dotmarketing.htmlpage.language=1", "italian-btp-repo-2026", "Italian BTP repo and rollover funding"],
+    ["https://www.bundesbank.de/en/press/speeches/statement-on-the-publication-of-the-financial-stability-review-2026-of-the-deutsche-bundesbank-1014858", "italian-btp-repo-2026", "Italian BTP repo and rollover funding"],
+    ["https://www.cnb.cz/en/monetary-policy/monetary-policy-reports/Monetary-Policy-Report-Autumn-2026", "czech-inflation-forecast-2026", "Czech inflation, growth and the policy path"],
+    ["https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1793865600000/?tab=record", "czech-inflation-forecast-2026", "Czech inflation, growth and the policy path"],
+    ["https://www.boj.or.jp/en/research/research_data/cai/index.htm", "japan-consumption-2026", "How much of Japan’s spending decline reversed?"],
+    ["https://www.federalreserve.gov/newsevents/pressreleases/monetary20130918a.htm", "fed-cut-september-2024", "A Fed cut and a steeper Treasury curve"],
+    ["https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm", "fed-cut-september-2024", "A Fed cut and a steeper Treasury curve"]
+  ];
+
+  function addWorkedCase(article, url) {
+    const match = workedCases.find(([source]) => source === url);
+    if (!match) return;
+    const [, id, label] = match;
+    const link = node("a", "Worked case · " + label);
+    link.className = "note-source";
+    link.href = "casebook.html#" + id;
+    const paragraph = node("p", "");
+    paragraph.append(link);
+    article.querySelector("#note-source").after(paragraph);
+  }
+
   function render(article, note, link) {
     article.dataset.note = note.url;
     article.innerHTML = `
@@ -148,6 +170,7 @@ const PublicationReader = (() => {
     article.querySelector("#note-date").textContent = dateFormat.format(new Date(note.date));
     article.querySelector("#note-title").textContent = note.title;
     article.querySelector("#note-source").href = note.url;
+    addWorkedCase(article, note.url);
     article.querySelector("#note-permalink").href = link;
     article.querySelector("#note-summary").replaceChildren(...note.summary.map(text => node("p",text)));
     article.querySelector("#note-questions").replaceChildren(...note.questions.map(item => {

@@ -13,15 +13,15 @@
   "questions": [
     {
       "question": "Does the next-day association survive a strict real-time information cutoff?",
-      "detail": "Fix the time at which a post, its comments and its votes become observable, calculate sentiment using only information then available, and test subsequent returns separately during declines and calmer periods. Compare the signal with the previous day's return and volatility. This would show how much the index adds after public price information and engagement accumulated after the cutoff are excluded."
+      "detail": "Fix the time at which a post, its comments and its votes become observable, calculate sentiment using only information then available, and test subsequent returns separately during declines and calmer periods. Compare the signal with the previous day's return and volatility. This would show how much the index adds after public price information and engagement accumulated after the cutoff are excluded. Start with the cited companion working paper and timestamped posts and market prices."
     },
     {
       "question": "Can a shift from geopolitical to macroeconomic discussion anticipate changes in earnings expectations?",
-      "detail": "Identify episodes similar to the sequence following the invasion of Ukraine, record the order and persistence of topic-specific declines and compare them with subsequent revisions in energy-sensitive sectors. Use the tariff episode as a different sequence. The test would establish whether the mix of topics carries information beyond the size of the aggregate sentiment move."
+      "detail": "Identify episodes similar to the sequence following the invasion of Ukraine, record the order and persistence of topic-specific declines and compare them with subsequent revisions in energy-sensitive sectors. Use the tariff episode as a different sequence. The test would establish whether the mix of topics carries information beyond the size of the aggregate sentiment move. The cited dashboard's topic series, issuer filings and timestamped analyst forecast revisions could test the timing."
     },
     {
       "question": "How much of the AI and bitcoin divergence comes from forum composition?",
-      "detail": "Recompute each series with equal post weights, constant community weights and a common smoothing window. Compare the resulting market correlations with Chart 4 and review a sample of ambiguous ticker or sentiment labels. An apparent difference that disappears with a fixed user-community mix would call for a different interpretation from one that persists within the same forums."
+      "detail": "Recompute each series with equal post weights, constant community weights and a common smoothing window. Compare the resulting market correlations with Chart 4 and review a sample of ambiguous ticker or sentiment labels. An apparent difference that disappears with a fixed user-community mix would call for a different interpretation from one that persists within the same forums. The original post labels, forum-level histories and corresponding market price series would support that comparison."
     }
   ],
   "limitation": ""
