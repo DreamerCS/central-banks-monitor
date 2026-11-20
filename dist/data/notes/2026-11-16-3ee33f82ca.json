@@ -1,0 +1,28 @@
+{
+  "title": "Who pays for US corporate research, and where the money goes",
+  "bank": "Federal Reserve Bank of St. Louis",
+  "date": "2026-11-16",
+  "url": "https://www.stlouisfed.org/on-the-economy/2026/nov/changing-face-us-corporate-rd-investment",
+  "summary": [
+    "Corporate research has become a larger part of US fixed investment, and companies themselves fund a growing share of the work they perform. Software accounts for the largest share among the technologies examined. Biotechnology has also gained considerably. Artificial intelligence was growing rapidly from a small base at the last survey date. Hannah Rubinton and Bontu Ankit Patro show why these developments answer different investment questions. A technology can claim a large share of one industry's research budget while accounting for a small share of national spending.",
+    "The national accounts provide the broadest measure. R&D rose from just under 15% of private nonresidential fixed investment in 2012 to slightly above 20% at the end of the first chart. The increase was particularly pronounced between 2018 and 2020. The chart also shows a subsequent peak above 21% followed by some retracement. A larger share can reflect changes in the spending on structures and equipment in the denominator as well as growth in research itself. The series measures resources committed to R&D. It cannot tell an equity investor how much of that spending ultimately produces saleable products.",
+    "For the financing and industry breakdowns, the authors turn to the annual Business Enterprise Research and Development Survey. They start in 2011 because of a change in its design. Companies provided just over 81% of the funding for domestic corporate R&D in 2011 and 88% in 2023. The federal share fell from about 11% to 4%. Other funders stayed within a band of roughly 7–9% (funding chart). These shares identify who pays for research performed by businesses. They leave open both the dollar amount of federal support and how the companies themselves raise funds. Inferring a decline in federal research across the economy, or a rise in corporate borrowing, would require different evidence.",
+    "The technology mix changed even within this growing pool of spending. Software rose from 29% in 2011 to roughly 43% in 2021 and nearly 42% in 2023. Biotechnology rose from about 9% to almost 19%. The survey first recorded AI separately in 2019, when it accounted for around 3%. It reached 9% four years later. The categories are self-reported and overlap. A firm developing AI chips can count the same expenditure towards two fields. Adding the bars or interpreting the increase in AI as spending diverted from software would give a misleading account of investment (category chart and accompanying survey note).",
+    "The four industry charts put the apparent breadth of the boom in perspective. The ten industries selected by their total research spending accounted for 87.7% of US domestic business R&D in 2023. In information, software took 86.4% of the industry's research budget and AI took 19.8%. AI also reached 12.1% in computers and electronic products and 8.7% in professional, scientific and technical services. Most other industries shown allocated less than 5%. Biotechnology was particularly concentrated in chemicals, at 78.7% of that industry's research. For nanotechnology, computers and electronic products led at 25%, followed by machinery at 20.5%. Each comparison uses the industry's own R&D as its denominator. To translate these intensities into dollar exposures, a portfolio manager would also need each industry's total spending. The survey establishes a change in the composition of investment through 2023. It leaves the subsequent spread of AI research and the distribution of its commercial returns open."
+  ],
+  "questions": [
+    {
+      "question": "How concentrated is the incremental dollar of AI research?",
+      "detail": "The survey identifies the industries with the highest internal spending shares. A small share in a large industry could still outweigh a high share in a smaller one. Combine industry totals and category shares from the same BERD survey vintage, retaining the overlapping categories. The result would help distinguish exposure to a handful of research budgets from a broad increase in demand for suppliers."
+    },
+    {
+      "question": "How much of the measured rise reflects new work rather than reclassification?",
+      "detail": "AI was first separately identified in 2019 and firms can classify one project under several headings. Compare the survey questionnaires, respondent instructions and consistent reporting by industry across waves. A rise within a stable reporting population would carry more weight for an investment forecast than a change in how firms label existing software projects."
+    },
+    {
+      "question": "Which part of the funding shift exposes research budgets to a corporate downturn?",
+      "detail": "The federal share fell while companies' share rose. Those shares alone cannot show whether public funding fell in dollars or which firms must finance the marginal project. Compare BERD funding levels in consistent prices with contemporaneous company filings on internal funding, customer contracts and spending commitments. That would help judge which research programmes could be cut if profits weaken."
+    }
+  ],
+  "limitation": ""
+}

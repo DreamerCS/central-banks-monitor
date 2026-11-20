@@ -1,0 +1,28 @@
+{
+  "title": "Capital expenditure overtakes R&D as the driver of hyperscaler investment",
+  "bank": "Federal Reserve Bank of St. Louis",
+  "date": "2026-11-17",
+  "url": "https://www.stlouisfed.org/on-the-economy/2026/nov/hyperscaler-cash-investment-ai-boom",
+  "summary": [
+    "The latest increase in investment intensity at ten large US technology firms came from capital expenditure. Research spending was still high relative to assets, but had already retreated from its 2023 peak. Julian Kozlowski, Juan M. Sánchez and Nicholas Sullivan show that the group's combined capital and R&D spending rose from 12.5% of assets in early 2018 to 22% in early 2026. For an investor trying to locate incremental demand, the distinction matters. Recent growth was concentrated in what these companies bought or built, while the rest of the quoted corporate sector showed little comparable acceleration.",
+    "The authors group data-centre operators and semiconductor suppliers together under the term hyperscalers. The ten companies are Alphabet, Amazon, Apple, Broadcom, IBM, Intel, Meta, Microsoft, Nvidia and Oracle. Their comparator is the remaining publicly traded US companies in the sample. The three Compustat charts use asset-weighted ratios from 2010 to early 2026. A large firm's investment therefore has more influence on the group line than the same percentage change at a small firm. The shaded period begins in 2018, the authors' dating of advances in deep learning. The charts already show meaningful movement before the November 2022 release of ChatGPT. Neither date identifies how much of the spending was caused by AI.",
+    "The first sign of changing priorities was on the asset side of the balance sheet. Cash and short-term investments fell from approximately one-third of hyperscaler assets in 2018 to 20% in late 2022 and 16% in early 2026. Among the other companies, the proportion fell from roughly 14% to 11% between 2018 and early 2026. Hyperscalers retained a higher cash share, but their advantage narrowed from around 19 percentage points to five. A business adding assets rapidly can report a falling cash ratio even while its dollar cash balance grows. The cash chart consequently provides no direct measure of how much investment was funded by drawing down cash.",
+    "The capital-spending chart gives the clearest evidence of a break with the rest of the sample. Before 2018, hyperscalers spent approximately 4–5% of assets on capital expenditure, against 3–4% for other firms. Hyperscalers reached about 9% by 2023, slipped to around 7% in 2024 and then accelerated to nearly 13% in early 2026. Other companies stayed near 3%. R&D followed a different path. From a pre-2018 level near 7% of assets, the hyperscaler ratio rose to around 11% in 2023 and eased to about 9% in early 2026. Other firms generally spent close to 4%. The chart measures research relative to a growing asset base, so the downturn after 2023 is compatible with continued growth in research dollars.",
+    "For a portfolio manager, the change raises a question about the lag between expenditure and revenue. An asset installed today may take time to enter service and generate sales. The article measures the outlay, without breaking it down by project, expected utilisation or cash return. It also leaves the funding question for the authors' companion analysis. The evidence here supports a narrower conclusion: the balance sheets of a small group of large companies became more investment-intensive, and their more recent expansion was unusually capital-intensive. Neither the chart of cash nor the chart of investment establishes that new capacity will earn its cost of capital."
+  ],
+  "questions": [
+    {
+      "question": "Which assets account for the increase, and when will they generate revenue?",
+      "detail": "The authors document an increase from about 7% to nearly 13% of assets in capital spending after the 2024 dip. They do not distinguish projects under construction, equipment brought into service or capacity already earning revenue. Look to the companies' contemporary capital-expenditure disclosures, construction balances and depreciation schedules. Commissioning dates and customer commitments would help translate a spending cycle into a cash-flow forecast."
+    },
+    {
+      "question": "How much of the group pattern comes from a few large firms?",
+      "detail": "The charts combine operators and suppliers and weight them by assets. A rising group ratio can coexist with flat investment at several members. Reconstruct the three charts from the underlying company filings with individual contributions and a fixed-weight comparison. That would indicate whether a portfolio exposed to suppliers and builders is making the same investment bet twice."
+    },
+    {
+      "question": "Did lower cash intensity reduce the capacity to absorb a funding shock?",
+      "detail": "The cash ratio fell as the asset base expanded. The missing quantities are the change in cash dollars, financing flows and contractual uses of cash. The authors identify their companion financing analysis and underlying Review paper as the natural next sources. Match those flows to debt maturities and investment commitments in the filings before interpreting the lower ratio as a deterioration in liquidity."
+    }
+  ],
+  "limitation": ""
+}

@@ -2643,5 +2643,20 @@
     "title": "Senior Financial Officer Survey Results, September 2026",
     "type": "Research",
     "jurisdiction": "United States"
+  },
+  "2026-11-16-3ee33f82ca.json": {
+    "title": "The Changing Face of U.S. Corporate R&D Investment",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-17-23c505a21b.json": {
+    "title": "Hyperscalers’ Cash and Investment during the AI Boom",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-19-2f43bab068.json": {
+    "title": "Hyperscalers’ Financing of the AI Investment Boom",
+    "jurisdiction": "United States",
+    "type": "Research"
   }
 }
