@@ -19,6 +19,7 @@ function node(tag, text) {
 
 let selection = 0;
 const manuscripts = new Map();
+const release = document.currentScript && new URL(document.currentScript.src).search;
 
 // Verified FOMC policy-statement documents. The generic monetary press-release
 // path is also used for minutes, facilities, projections and implementation notes.
@@ -115,7 +116,7 @@ async function showNote(header, unavailable = false) {
   let note = manuscripts.get(header.url);
   if (!note) {
     try {
-      const response = await fetch("data/notes/" + header.file);
+      const response = await fetch("data/notes/" + header.file + (release || ""));
       if (!response.ok) throw Error(response.status);
       note = await response.json();
       if (note.url !== header.url) throw Error("Source mismatch");
@@ -148,7 +149,7 @@ async function showNote(header, unavailable = false) {
 }
 
 async function startNotes() {
-  const response = await fetch("data/research-notes.json");
+  const response = await fetch("data/research-notes.json" + (release || ""));
   if (!response.ok) throw new Error("Notes unavailable");
   notes = (await response.json()).filter(note => {
     try {

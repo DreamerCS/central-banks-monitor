@@ -2,6 +2,7 @@
 import json
 import re
 from datetime import date
+from hashlib import sha256
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -16,8 +17,11 @@ def filled(value):
 def build():
     index = []
     urls = set()
+    revision = sha256()
     for file in sorted((DATA / "notes").glob("*.json")):
-        note = json.loads(file.read_text())
+        manuscript = file.read_bytes()
+        revision.update(sha256(manuscript).digest())
+        note = json.loads(manuscript)
         if set(note) != FIELDS or not all(filled(note[k]) for k in ("title", "bank", "url", "date")):
             raise ValueError(f"Incomplete manuscript: {file.name}")
         url = urlsplit(note["url"])
@@ -38,6 +42,13 @@ def build():
         raise ValueError("Empty research index")
     index.sort(key=lambda n: (n["date"], n["title"]), reverse=True)
     (DATA / "research-notes.json").write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n")
+    # Keep the reader, its index and the manuscripts on the same release on Pages.
+    site = DATA.parent
+    for asset in ("research-notes.js", "research-notes.css"):
+        revision.update(sha256((site / asset).read_bytes()).digest())
+    reader = site / "research-notes.html"
+    reader.write_text(re.sub(r'(research-notes\.(?:js|css))(?:\?v=[0-9a-f]+)?(?=")',
+                             r'\g<1>?v=' + revision.hexdigest()[:12], reader.read_text()))
     print(f"Indexed {len(index)} full research notes")
 
 
