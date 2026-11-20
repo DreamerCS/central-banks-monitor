@@ -1,0 +1,33 @@
+{
+  "title": "Korea’s September goods surplus rises as residents acquire more assets abroad",
+  "bank": "Bank of Korea",
+  "date": "2026-11-05",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11066295&menuNo=400069",
+  "summary": [
+    "South Korea’s preliminary September balance of payments recorded a US$61.46 billion current-account surplus, up from US$46.11 billion in August and US$14.22 billion a year earlier. The financial account recorded a net increase of US$54.34 billion in external assets relative to liabilities. The distinction matters. The current account describes current transactions with the rest of the world. The financial account shows residents buying foreign assets while foreign investors also changed their holdings of Korean claims. The figures give no basis for equating the trade surplus to purchases of foreign exchange by the central bank.",
+    "The goods account produced a US$62.75 billion surplus. Exports reached US$130.72 billion, up 92.4% from September 2025, while imports rose 29.4% to US$67.97 billion. Both sides of merchandise trade were expanding. The surplus rose because exports outpaced a rising import bill. For January–September the goods surplus reached US$343.84 billion, compared with US$95.49 billion a year earlier. The goods figures follow balance-of-payments definitions and can differ from customs-clearance statistics. The detailed workbook does not turn gross dollar changes into a decomposition by particular export prices and volumes.",
+    "Services reduced the headline surplus. Their deficit widened from US$1.68 billion in August to US$3.35 billion in September. Other business services accounted for a US$1.72 billion deficit, and travel for US$0.77 billion. Primary income produced a US$2.65 billion surplus, supported by greater income on equity. Secondary income showed a US$0.59 billion deficit. The current-account surplus for the first nine months was US$340.66 billion. That is accumulated income and transactions during the period. It is a different quantity from the nation’s net external wealth on the last day of September.",
+    "Portfolio transactions accounted for US$30.44 billion of the net financial figure. Residents increased their portfolio assets abroad by US$16.63 billion across both equity and debt securities. At the same time, portfolio liabilities fell US$13.81 billion, including US$13.74 billion in equity. Under the Bank’s sign convention, a resident buying overseas securities and a foreign investor reducing holdings of Korean shares both increase the reported net asset figure. They represent different investors and give different information about demand for Korean markets.",
+    "The nine-month portfolio figures show the two-sided nature of the change more clearly. Residents added US$90.92 billion of foreign portfolio assets, while portfolio liabilities fell US$99.24 billion. Within liabilities, foreign equity holdings fell US$114.50 billion while debt-securities liabilities increased US$15.26 billion. A net measure of portfolio flows therefore conceals different investment decisions in the equity and bond markets.",
+    "Direct investment contributed a net increase of US$4.91 billion, with external assets up US$11.43 billion and liabilities up US$6.52 billion. Other investment contributed a net US$22.41 billion. Derivatives recorded minus US$3.15 billion and reserve-asset transactions minus US$0.27 billion. The reserve figure again shows how a large current surplus can coexist with a small decline in reserve assets from transactions. Any reconciliation with a published reserve stock would also need to account for valuation and dates. The underlying workbook provides original and seasonally adjusted current-account figures and a separate financial and capital account. September observations were preliminary."
+  ],
+  "questions": [
+    {
+      "question": "Was the increase in the goods surplus driven by quantities, prices or unusual shipment timing?",
+      "detail": "Compare consistent balance-of-payments and customs definitions before attributing the change to an industry. Examine the September 2025 comparison, seasonally adjusted flows and subsequent deliveries. Reversing shipments would carry less information about lasting export earnings than persistent growth across product volumes."
+    },
+    {
+      "question": "Which investors account for the financial counterpart?",
+      "detail": "Separate Korean residents’ overseas equity and bond purchases from foreigners’ reductions in Korean portfolio holdings. Compare settlement timing, gross acquisitions and the holdings data. An increase in Korea’s net foreign claims can coincide with weaker foreign demand for its stock market."
+    },
+    {
+      "question": "Did the surplus leave liquid foreign currency with the institutions that need it?",
+      "detail": "Match export receipts and foreign assets to banks, exporters and public entities. Compare currency, maturity and available liquidity before inferring greater capacity to meet short-term foreign payments. Reconcile reserve transactions with the separate stock release only after accounting for exchange-rate and valuation effects."
+    },
+    {
+      "question": "How much of the result survives revisions and the wider income account?",
+      "detail": "Track revisions to goods alongside services, investment income and statistical discrepancies at the same vintage. A stable revised current-account balance could still redistribute the earnings between exporters, providers of services and owners of financial assets."
+    }
+  ],
+  "limitation": "The Bank designated the September figures preliminary. The release supplies accounting flows and no evidence on individual investors’ motives."
+}

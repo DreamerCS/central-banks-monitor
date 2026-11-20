@@ -1,0 +1,34 @@
+{
+  "title": "Indonesia’s growth accelerates on domestic consumption and investment, with a fiscal contribution",
+  "bank": "Bank Indonesia",
+  "date": "2026-11-05",
+  "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2824126.aspx",
+  "summary": [
+    "Indonesia’s economy expanded 5.47% in the third quarter from the same quarter of 2025, following 5.29% annual growth in the second quarter. Bank Indonesia attributed the acceleration primarily to domestic consumption and investment. It maintained a full-year growth range of 4.9–5.7%, expecting continuing government stimulus, improving expectations and a broader set of growth sources to support activity. The 0.18 percentage point increase compares two year-on-year rates. The accompanying graphic also shows that the third-quarter rate remained below the first quarter’s 5.61%. An acceleration relative to the preceding quarter’s annual rate is different from a steady acceleration throughout the year.",
+    "Household consumption grew 5.04% year on year, which the Bank linked to mobility, performances and sporting events. Hotel occupancy and spending on meals can improve while events are taking place without an equivalent increase in households’ underlying purchasing power. The release identifies the activities involved but gives no estimate of spending in their absence. Consumption by non-profit institutions serving households was a separate component and grew 5.02%.",
+    "Government consumption increased 8.95%. The Bank cited higher disbursements for civil-service salaries and allowances and for goods and services, including free nutritious meals. These channels reach different recipients first. Procurement initially generates orders for suppliers, while personnel spending adds to household income and can support spending later. Growth in a relatively small expenditure category can exceed growth in a large one without adding more to GDP. The release reports rates rather than percentage-point contributions or an estimate of how long the fiscal impulse will last.",
+    "Investment rose 6.06%, supported by vehicles and realised investment by the private and public sectors. Infrastructure work contributed to construction activity. Exports grew 4.59%, supported by demand from key trading partners. A rise in gross exports is compatible with lower net exports if imports rise more, especially in a quarter with strong investment and consumption. The release does not provide the import contribution or information on how much of the investment already represented productive capacity in use.",
+    "All industries registered growth. Manufacturing and trade were important contributors as both domestic and foreign demand rose, while accommodation and food services benefited from occupancy and consumption. Bali and Nusa Tenggara reported the highest growth rate, followed by Java, Sulawesi, Sumatra, Maluku and Papua, and Kalimantan. This ranking compares growth rates across regions whose economies have different starting sizes. It does not assign the largest absolute contribution to the fastest-growing region.",
+    "The reported combination also rules out treating the quarter as an export-only expansion: growth in household consumption, government consumption and investment was positive alongside the export gains. What remains unresolved is the relative size of their contributions, which depends on levels and weights as well as growth rates.",
+    "Bank Indonesia reiterated that it would coordinate monetary, macroprudential and payment-system policies with the government in pursuit of economic stability and sustainable growth. The release announced no change to a particular instrument. Whether the full-year range is likely to be reached through durable private demand depends in part on spending outside the event calendar and on which public projects or payments recur."
+  ],
+  "questions": [
+    {
+      "question": "Which component can sustain growth after the events and disbursements in the third quarter?",
+      "detail": "Reconstruct expenditure contributions using real levels and weights, and compare the same series after seasonal adjustment. Follow ordinary household consumption separately from event-related travel and food spending. A broad increase across recurring categories would give stronger evidence of sustained private demand."
+    },
+    {
+      "question": "How much investment represents domestic income now and productive capacity later?",
+      "detail": "Separate imported equipment from local construction, transport and installation. Follow public and private projects through cash disbursement, delivery, completion and utilisation. A high investment growth rate need not imply that firms can already produce more output with the new equipment."
+    },
+    {
+      "question": "Did the faster headline reflect broad private-sector growth or the timing of public spending?",
+      "detail": "Compare civil-service payments and programme procurement with the revenue and payroll of suppliers. Look for persistent activity in industries and regions with a smaller connection to public projects. Use regional weights when comparing contributions to national output."
+    },
+    {
+      "question": "How sensitive is the annual range to net trade?",
+      "detail": "Match growth in gross goods and services exports with the import content of domestic demand. Compare export volumes with prices and destination demand. Distinguish a rising export sector from a positive net contribution before revising the external component of the forecast."
+    }
+  ],
+  "limitation": "The source reports year-on-year growth and a conditional annual range. It does not estimate expenditure contributions or a fiscal multiplier."
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Swaminathan asks Indian Bank to judge growth against funding, underwriting and service reliability",
+  "bank": "Reserve Bank of India",
+  "date": "2026-11-03",
+  "url": "https://www.rbi.org.in/scripts/BS_SpeechesView.aspx?id=1587",
+  "summary": [
+    "Deputy Governor Swaminathan J asked the leadership of Indian Bank to judge lending growth alongside the deposit funding, underwriting and people who will have to sustain it. Earnings and loan balances are visible within a reporting period, whereas investment in staff, systems or a stronger deposit franchise may benefit later management. The address was given in Chennai on October 23 and published by the Reserve Bank of India on November 3. It states the speaker’s supervisory priorities for bank leadership without offering a current assessment of this bank’s capital or announcing a policy decision.",
+    "The example was Indian Bank’s own turnaround under Ranjana Kumar in the early 2000s. The speech’s footnote records that the bank had negative capital adequacy and six consecutive years of losses before successfully meeting its restructuring targets and returning to profit. Swaminathan stressed rebuilding confidence, improving processes and mobilising employees alongside the financial restructuring. He used this historical episode to illustrate the long life of management decisions. The description does not imply comparable financial conditions at Indian Bank in 2026.",
+    "Indian Bank began business on August 15, 1907. Its more recent inheritance includes the banking tradition of Allahabad Bank, another example of institutional responsibilities lasting beyond a single management team.",
+    "Three changes complicate that task. Payments technology, analytics and AI have altered customer expectations of convenience. Banks operate alongside fintech firms and platforms that are both potential partners and competitors. Greater economic and financial interconnection also makes developments outside the institution relevant to its planning. Swaminathan argued that the longstanding roles of mobilising savings, allocating credit prudently, managing risk and sustaining customer confidence still apply. The value of a new technology depends on whether it improves service, efficiency and competitiveness once it is in use.",
+    "On the asset side, loans must be priced for risk and underwritten against a realistic view of the borrower’s repayment capacity. On the liability side, sustainable expansion requires a stable and diversified deposit base. The two requirements interact. A bank can meet a lending target by taking credit risks whose costs only appear in later vintages, or by relying on funds that reprice or leave before its assets mature. Swaminathan specified no acceptable growth rate, deposit share or provision threshold. His test concerned the ability to sustain growth over time.",
+    "Digitisation also creates obligations beyond installing a system. Senior managers and business functions share responsibility for service continuity, protecting customer data and overseeing outside providers. Governance shows up in fair lending, clear accountability and how the bank resolves grievances. It also shows up in whether someone can challenge a decision early enough to change the outcome. Swaminathan asked senior leaders to give younger colleagues responsibility and practice in independent judgement rather than treating succession as a matter of naming replacements.",
+    "The investment question is how to distinguish a temporarily flattering result from an institution becoming more capable. Evidence would accumulate across loan repayments, the durability of deposits, the quality of complaint resolution and whether essential services remain available through disruption. The speaker offered a framework for examining those outcomes. He reported no bank-specific stress test and did not quantify the cost or return of the investments under discussion."
+  ],
+  "questions": [
+    {
+      "question": "Is the bank funding and pricing its growth for a full lending cycle?",
+      "detail": "Compare loan vintages by origination standard and price, then follow realised arrears, recoveries and loss rates. Track deposit concentration, renewal rates and the pricing needed to retain funds. A growth target met only by weaker underwriting and costly short-lived funding would give limited evidence of durable earnings."
+    },
+    {
+      "question": "Which digital investments improve customer outcomes once reliability costs are included?",
+      "detail": "Compare successful transactions, complaint rates, outages and recovery times before and after expansion. Include the costs of oversight and fallback arrangements, especially where several services depend on one provider. A lower reported unit cost alongside unresolved failures need not create lasting franchise value."
+    },
+    {
+      "question": "Can employees surface problems before reported losses increase?",
+      "detail": "Ask for examples of risk escalation, who owned the response, how customers were treated and whether the underlying decision changed. Compare repeat grievances with timely remedies. A growing count of reports can reflect better escalation, so the resolution and recurrence of problems matter more than the count alone."
+    },
+    {
+      "question": "Will capability survive a change in management?",
+      "detail": "Look for delegated judgement in credit and operations, roles with genuinely independent responsibility and succession at levels below the executive team. Follow whether results persist after the managers who sponsored a change move on."
+    }
+  ],
+  "limitation": "This is a leadership address published in November after its October 23 delivery. It reports no current bank-specific capital estimates or supervisory determination."
+}

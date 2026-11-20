@@ -1,0 +1,34 @@
+{
+  "title": "Indonesia keeps a goods surplus as energy imports fall and non-energy exports rise",
+  "bank": "Bank Indonesia",
+  "date": "2026-11-03",
+  "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2823926.aspx",
+  "summary": [
+    "Indonesia recorded a merchandise surplus of US$3.36 billion in September after US$3.55 billion in August. Bank Indonesia considered the continued surplus supportive of external resilience. The headline hides two developments. Non-oil-and-gas exports rose, while the oil-and-gas deficit narrowed because imports fell more than exports. Both helped maintain a positive total in September. But the total surplus was smaller than in August, so faster gross exports alone would have given the wrong signal about the monthly change.",
+    "Non-oil-and-gas exports rose from US$25.62 billion to US$26.64 billion, a gain of about US$1.02 billion based on the published rounded figures. The non-energy surplus reached US$5.67 billion. Products contributing to export performance included animal or vegetable fats and oils, precious metals, gems and jewellery. Manufactured products also featured, including electrical equipment and components, iron and steel. China, the United States and India were major destinations. The release does not quantify individual countries’ or products’ contributions. Commodity prices, the amount shipped and the value of imported inputs can also move separately from exporters’ final margins.",
+    "The energy balance improved from a US$2.54 billion deficit to a US$2.32 billion deficit. Both oil-and-gas exports and imports declined, with a larger fall in imports. This narrower gap contributed approximately US$0.22 billion to the change in the overall balance from August. It describes lower net spending on imported energy. Without a decomposition into prices and volumes it cannot distinguish cheaper imports from fewer physical deliveries or a shift in cargo timing. It likewise supplies no measure of domestic energy production.",
+    "Combining the two sets of figures clarifies where the September deterioration occurred. The overall surplus fell around US$0.19 billion while the energy component improved around US$0.22 billion. The non-energy surplus must therefore have fallen by roughly US$0.4 billion, notwithstanding the increase in its gross exports. Stronger non-energy imports reconcile those facts. The rounded September components subtract to US$3.35 billion against the published headline of US$3.36 billion, so an exact residual calculated from them would suggest more precision than the source supports.",
+    "The timing matters for exporters’ cash flows as well. A company supplying a foreign customer can record a sale before payment falls due, and a manufacturer can pay for imported inputs ahead of shipment. A contemporaneous goods surplus therefore gives only a partial account of which firms have dollars available for near-term payments.",
+    "The cumulative merchandise surplus reached US$10.61 billion in January–September. September contributed a substantial part of that total. The accompanying graphic records deficits in May and June and a small surplus in July before the larger August and September readings. Annualising the September figure would obscure that variation. The figures come from BPS-Statistics Indonesia; the November release conveys Bank Indonesia’s interpretation of the trade balance and its intended coordination with the government.",
+    "The goods balance measures recorded trade. It excludes services, income and financial transactions, and it does not say when individual exporters converted their receipts into rupiah. A sustained goods surplus can improve the external funding position while the exchange rate and reserve balance still move in response to other transactions. The Bank did not report intervention, price targets or an exchange-rate forecast in this release."
+  ],
+  "questions": [
+    {
+      "question": "What reconciles higher non-energy exports with a smaller non-energy surplus?",
+      "detail": "Build the bridge using unrounded product data for both exports and imports. Distinguish imported capital goods and intermediate inputs from consumer goods. An increase in equipment imports would carry a different implication for domestic capacity from a price-driven increase in essential imports."
+    },
+    {
+      "question": "Does the smaller energy deficit represent a change in exposure or merely timing?",
+      "detail": "Separate import and export quantities from unit prices, track shipment schedules and compare several months. Cheaper or delayed cargoes can narrow a monthly deficit without reducing physical dependence. A persistent quantity change would warrant a different assessment of the future import bill."
+    },
+    {
+      "question": "How concentrated are export earnings, and when do they become liquid?",
+      "detail": "Compare the cited commodity and manufacturing groups across the three major destinations. Follow invoice currencies, receivables and conversion dates before treating recorded merchandise flows as funds available in domestic currency. Test whether export growth survives a constant-price comparison."
+    },
+    {
+      "question": "How representative is the late-quarter improvement?",
+      "detail": "Compare rolling balances and the oscillation between spring deficits and late summer surpluses in the graphic. Use matched seasonal periods rather than extrapolating September. A lasting improvement requires evidence across import and export categories over more than one month."
+    }
+  ],
+  "limitation": "The English page was posted November 3; its text is signed November 2. The release reports merchandise trade at rounded values and gives no price-volume decomposition."
+}

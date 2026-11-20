@@ -1,0 +1,33 @@
+{
+  "title": "Japan’s October outlook weighs AI exports, costly investment and persistent inflation",
+  "bank": "Bank of Japan",
+  "date": "2026-11-02",
+  "url": "https://www.boj.or.jp/en/mopo/outlook/gor2610b.pdf",
+  "summary": [
+    "The Bank of Japan’s full October Outlook, released on 2 November, explains why moderate growth could coexist with further increases in the policy rate. Expensive energy and raw materials were squeezing purchasing power, while overseas demand for equipment used in artificial intelligence supported exports. The Policy Board judged the risks to growth broadly balanced and the risks to inflation tilted upward. The full report supplies the analysis behind the view the Board agreed at its 29–30 October meeting. The distinction matters for anyone assigning a date to possible market news.",
+    "The median Board member projected real GDP growth of 0.7%, 0.7% and 0.8% in fiscal 2026, 2027 and 2028 respectively. For CPI excluding fresh food, the corresponding figures were 2.5%, 2.6% and 2.0%. Against July, the largest change in that inflation series was a 0.2 percentage point upward revision for fiscal 2027. These are medians of members’ projections. The adjoining range excludes the highest and lowest forecasts and describes disagreement between members. It gives no direct probability that future inflation will fall inside it.",
+    "The source of foreign demand matters. Box 1 follows investment in data centres through orders for semiconductor equipment, industrial robots, power equipment and cooling systems. Japan can benefit even when the completed centre is overseas. But concentration in a global investment cycle makes export performance sensitive to a revision in the returns expected by the companies funding the build-out. Domestic consumption supplies a counterweight. Higher employment income supports spending, while higher prices cut what each yen buys. Box 3 shows why an aggregate wage figure can mask weakness among households in their fifties and older households, including pensioners.",
+    "Box 2 examines the gap between budgets and installed capacity. Compared with the first quarter of 2021, business investment was about 30% higher in money terms and slightly less than 10% higher in volume. Price increases absorbed approximately two-thirds of the nominal gain. A recent sale of patent rights abroad also lowered recorded R&D investment. For an equipment producer, the distinction changes how to read its order book. Delayed building work can support future activity if the order remains firm. A cancelled project signals a loss of demand even if past spending still looks strong.",
+    "The price outlook separates the initial rise in imported costs from its wider propagation. A higher import price for finished equipment can reach the consumer directly. A more expensive intermediate input can work through several firms before a retail price changes. Box 4 traces those routes, while Box 5 examines whether expectations and wage and price decisions remain consistent with inflation around 2%. A proposed temporary cut to the consumption tax on food and beverages was excluded from the baseline. Under the Bank’s stated assumptions it could reduce fiscal 2027 inflation excluding fresh food by roughly 1.3 percentage points. That mechanical price-level effect would change a year-on-year comparison even if pay settlements were unchanged.",
+    "The Bank continued to envisage rate increases, with their timing and pace dependent on economic activity, inflation risks and financing conditions. Box 6 looks beyond a single bond yield to real borrowing rates, access to finance and the quantities of credit available. The Bank saw the financial system as broadly robust while flagging risks from overseas non-bank intermediaries, the financing of AI investment and developments in the Middle East. A practical reading of the full report therefore links the price forecast to subsequent wage and credit evidence. The fiscal 2027 inflation revision alone does not settle the date of the next policy move."
+  ],
+  "questions": [
+    {
+      "question": "How would a researcher tell weak Japanese capital demand from delayed installation?",
+      "detail": "Track nominal plans in the Tankan alongside real GDP investment, machinery orders and construction backlogs. An order book that stays full as completion times lengthen would support a capacity constraint. Falling orders, project cancellations and weaker intended spending would support a demand explanation. Adjust the GDP comparison for the patent transaction before interpreting two successive quarterly declines."
+    },
+    {
+      "question": "What would show that an imported price shock was becoming persistent?",
+      "detail": "Trace the sequence from import and producer prices to the breadth of consumer-price increases, wage settlements and medium-term expectations. A rise concentrated in fuel can diminish as the base of comparison catches up. Price increases across labour-intensive services alongside repeated wage adjustments would give stronger evidence that domestic wage and price decisions had changed."
+    },
+    {
+      "question": "How should a tax announcement change an inflation forecast comparison?",
+      "detail": "Record whether each forecast includes the proposed tax change. The October baseline excluded it. Compare an observed or newly forecast fiscal 2027 inflation rate with a like-for-like tax assumption, then examine the remaining change in demand, wages and import costs. Mechanically subtracting 1.3 points leaves out any subsequent change in household spending or firms’ pass-through."
+    },
+    {
+      "question": "Which date belongs in an event study of the full Outlook?",
+      "detail": "Use the October meeting for information already published with the Board’s view. For 2 November, identify genuinely new evidence in the full report, record its 2 p.m. Japan release and compare prices over an appropriately documented window. A move between the two dates could reflect many other developments."
+    }
+  ],
+  "limitation": "Board medians are fiscal-year projections. Tax effects are conditional estimates. The November release adds background to October’s Board view. No intraday market series is supplied here from which to infer a price reaction."
+}

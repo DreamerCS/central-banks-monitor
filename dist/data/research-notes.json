@@ -3622,6 +3622,22 @@
     }
   },
   {
+    "title": "Why do Iberian household power bills diverge when wholesale electricity prices converge?",
+    "bank": "Banco de España",
+    "date": "2026-11-06",
+    "url": "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/documentos-ocasionales/perspectives-on-iberian-economic-integration.html",
+    "excerpt": "Spain and Portugal come close to operating one wholesale electricity market, yet a household on either side of the border can experience a common energy shock quite differently.",
+    "file": "2026-11-06-6da1085141.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Perspectives on Iberian Economic Integration",
+      "type": "Research",
+      "aliases": [
+        "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/26/Files/do2621e.pdf"
+      ]
+    }
+  },
+  {
     "title": "What does the collateral choice cost an equity borrower?",
     "bank": "Bank of England",
     "date": "2026-11-06",
@@ -3648,6 +3664,48 @@
     }
   },
   {
+    "title": "Indonesia’s reserves edge higher while borrowing and rupiah support work in opposite directions",
+    "bank": "Bank Indonesia",
+    "date": "2026-11-06",
+    "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2824226.aspx",
+    "excerpt": "Indonesia’s official reserves rose from US$146.3 billion at end-September to US$146.8 billion at end-October.",
+    "file": "2026-11-06-8140b13620.json",
+    "publication": {
+      "title": "Official Reserve Assets Remain Solid in October 2026",
+      "jurisdiction": "Indonesia",
+      "type": "Release"
+    }
+  },
+  {
+    "title": "Indonesia’s new-home sales fall across all sizes while quoted prices still rise",
+    "bank": "Bank Indonesia",
+    "date": "2026-11-06",
+    "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2824426.aspx",
+    "excerpt": "New-home sales in Bank Indonesia’s surveyed primary markets fell 8.43% in the third quarter from a year earlier, following a 2.36% decline in the second quarter.",
+    "file": "2026-11-06-b64e0f032d.json",
+    "publication": {
+      "title": "Residential Property Price Survey Quarter III - 2026: Limited Growth of Residential Property Prices",
+      "jurisdiction": "Indonesia",
+      "type": "Release"
+    }
+  },
+  {
+    "title": "India’s foreign-investment census shows why inward and outward positions converged",
+    "bank": "Reserve Bank of India",
+    "date": "2026-11-06",
+    "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=24098",
+    "excerpt": "India’s inward direct investment was 4.2 times its outward investment at end-March 2026, down from 5.5 times a year earlier in rupee terms.",
+    "file": "2026-11-06-e237ccddc0.json",
+    "publication": {
+      "title": "Census on Foreign Liabilities and Assets of Indian Direct Investment Entities for 2025-26",
+      "jurisdiction": "India",
+      "type": "Research",
+      "aliases": [
+        "https://rbi.org.in/scriptS/BS_PressReleaseDisplay.aspx?prid=63941"
+      ]
+    }
+  },
+  {
     "title": "Cuadra traces Mexico’s growth constraints to productivity, investment and labour supply",
     "bank": "Banco de México",
     "date": "2026-11-06",
@@ -3658,6 +3716,19 @@
       "title": "Gabriel Cuadra · Crecimiento económico en México: retos y perspectivas",
       "jurisdiction": "Mexico",
       "type": "Speech"
+    }
+  },
+  {
+    "title": "Australia brings a second cash distribution company within its new regulatory framework",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-11-06",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-31.html",
+    "excerpt": "The Reserve Bank of Australia designated Prosegur Australia Pty Ltd under the Cash Distribution Framework Act 2026.",
+    "file": "2026-11-06-e73d99678b.json",
+    "publication": {
+      "title": "Designation of Prosegur Australia Pty Ltd under the Cash Distribution Framework Act 2026",
+      "jurisdiction": "Australia",
+      "type": "Release"
     }
   },
   {
@@ -3708,22 +3779,6 @@
     }
   },
   {
-    "title": "What a rise in ECB borrowing would tell us about banks",
-    "bank": "European Central Bank",
-    "date": "2026-11-05",
-    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.ga.html",
-    "excerpt": "Isabel Schnabel offers a way to distinguish two very different uses of an ECB balance sheet.",
-    "file": "2026-11-05-18e48acb55.json",
-    "publication": {
-      "jurisdiction": "Euro area",
-      "type": "Speech",
-      "title": "Navigating stormy waters: reflections on monetary policy — Isabel Schnabel",
-      "aliases": [
-        "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
-      ]
-    }
-  },
-  {
     "title": "Thedéen would simplify bank capital rules while preserving the buffers that support lending",
     "bank": "Sveriges Riksbank",
     "date": "2026-11-05",
@@ -3756,6 +3811,22 @@
     }
   },
   {
+    "title": "Schnabel on keeping rate decisions independent as banks return to ECB refinancing",
+    "bank": "European Central Bank",
+    "date": "2026-11-05",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.ga.html",
+    "excerpt": "Isabel Schnabel offers a way to distinguish two very different uses of an ECB balance sheet.",
+    "file": "2026-11-05-18e48acb55.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "type": "Speech",
+      "title": "Navigating stormy waters: reflections on monetary policy — Isabel Schnabel",
+      "aliases": [
+        "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
+      ]
+    }
+  },
+  {
     "title": "Norges Bank’s hold keeps the option of a further increase open",
     "bank": "Norges Bank",
     "date": "2026-11-05",
@@ -3779,6 +3850,32 @@
       "jurisdiction": "Mexico",
       "title": "Anuncio de Política Monetaria",
       "type": "Decision"
+    }
+  },
+  {
+    "title": "Korea’s September goods surplus rises as residents acquire more assets abroad",
+    "bank": "Bank of Korea",
+    "date": "2026-11-05",
+    "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11066295&menuNo=400069",
+    "excerpt": "South Korea’s preliminary September balance of payments recorded a US$61.46 billion current-account surplus, up from US$46.11 billion in August and US$14.22 billion a year earlier.",
+    "file": "2026-11-05-4975aacdee.json",
+    "publication": {
+      "title": "Balance of Payments during September 2026 (preliminary)",
+      "jurisdiction": "South Korea",
+      "type": "Release"
+    }
+  },
+  {
+    "title": "Indonesia’s growth accelerates on domestic consumption and investment, with a fiscal contribution",
+    "bank": "Bank Indonesia",
+    "date": "2026-11-05",
+    "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2824126.aspx",
+    "excerpt": "Indonesia’s economy expanded 5.47% in the third quarter from the same quarter of 2025, following 5.29% annual growth in the second quarter.",
+    "file": "2026-11-05-384e652741.json",
+    "publication": {
+      "title": "Indonesia’s Economy Grows 5.47% in Third Quarter of 2026",
+      "jurisdiction": "Indonesia",
+      "type": "Release"
     }
   },
   {
@@ -3923,6 +4020,22 @@
     }
   },
   {
+    "title": "Swiss inflation persistence and the forecasts a seasonal rule could match",
+    "bank": "Swiss National Bank",
+    "date": "2026-11-04",
+    "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/research/working-papers/2026/working_paper_2026_14/publications0_en/working_paper_2026_14.pdf",
+    "excerpt": "In November 2026 Simon Beyeler returned to a question a Swiss forecaster faced in spring 2022.",
+    "file": "2026-11-04-b73ceced0e.json",
+    "publication": {
+      "jurisdiction": "Switzerland",
+      "title": "Forecasting the post-COVID inflation surge in Switzerland",
+      "type": "Research",
+      "aliases": [
+        "https://www.snb.ch/en/publications/research/working-papers/2026/working_paper_2026_14"
+      ]
+    }
+  },
+  {
     "title": "Signed wage agreements point to firmer underlying pay, with the weakest coverage furthest ahead",
     "bank": "European Central Bank",
     "date": "2026-11-04",
@@ -4023,6 +4136,27 @@
     }
   },
   {
+    "title": "Swiss export growth, the franc and the margins beneath the headline",
+    "bank": "Swiss National Bank",
+    "date": "2026-11-03",
+    "url": "https://www.snb.ch/de/publications/communication/speeches/2026/ref_20261103_msl",
+    "excerpt": "Martin Schlegel’s 3 November presentation in St Gallen starts with a puzzle for an open economy.",
+    "file": "2026-11-03-4187f3d56d.json"
+  },
+  {
+    "title": "Swaminathan asks Indian Bank to judge growth against funding, underwriting and service reliability",
+    "bank": "Reserve Bank of India",
+    "date": "2026-11-03",
+    "url": "https://www.rbi.org.in/scripts/BS_SpeechesView.aspx?id=1587",
+    "excerpt": "Deputy Governor Swaminathan J asked the leadership of Indian Bank to judge lending growth alongside the deposit funding, underwriting and people who will have to sustain it.",
+    "file": "2026-11-03-b4d6621926.json",
+    "publication": {
+      "title": "Leading Today, Building for Tomorrow",
+      "jurisdiction": "India",
+      "type": "Speech"
+    }
+  },
+  {
     "title": "South Africa’s benchmark transition carries over R98 trillion of Jibar derivatives and a clearing-date problem",
     "bank": "South African Reserve Bank",
     "date": "2026-11-03",
@@ -4065,6 +4199,19 @@
     }
   },
   {
+    "title": "Indonesia keeps a goods surplus as energy imports fall and non-energy exports rise",
+    "bank": "Bank Indonesia",
+    "date": "2026-11-03",
+    "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2823926.aspx",
+    "excerpt": "Indonesia recorded a merchandise surplus of US$3.36 billion in September after US$3.55 billion in August.",
+    "file": "2026-11-03-c2e92cb2dc.json",
+    "publication": {
+      "title": "Trade Surplus Maintained",
+      "jurisdiction": "Indonesia",
+      "type": "Release"
+    }
+  },
+  {
     "title": "Bullock explains the fifth increase and the case for waiting",
     "bank": "Reserve Bank of Australia",
     "date": "2026-11-03",
@@ -4095,8 +4242,25 @@
     "bank": "Reserve Bank of Australia",
     "date": "2026-11-03",
     "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
-    "excerpt": "On November 3 the Monetary Policy Board raised the cash rate target to 4.85%, a 25-basis-point increase supported by six members.",
+    "excerpt": "Australia’s Monetary Policy Board raised the cash rate target by 25 basis points to 4.85% on November 3.",
     "file": "2026-11-03-a6e32eb980.json"
+  },
+  {
+    "title": "Australia raises its inflation forecast as fuel costs and domestic capacity pressures coincide",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-11-03",
+    "url": "https://www.rba.gov.au/publications/smp/2026/nov/contents.html",
+    "excerpt": "The November Statement raised Australia’s inflation outlook even as housing prices fell and staff expected tighter financial conditions to slow spending.",
+    "file": "2026-11-03-949da5f433.json",
+    "publication": {
+      "title": "Statement on Monetary Policy, November 2026",
+      "jurisdiction": "Australia",
+      "type": "Forecast",
+      "aliases": [
+        "https://www.rba.gov.au/publications/smp/2026/nov/",
+        "https://www.rba.gov.au/publications/smp/2026/nov/pdf/statement-on-monetary-policy-2026-11.pdf"
+      ]
+    }
   },
   {
     "title": "Why faster clearing makes access to cash a matter of minutes",
@@ -4123,6 +4287,14 @@
       "type": "Research",
       "title": "Texas Economic Indicators: September 2026"
     }
+  },
+  {
+    "title": "Japan’s October outlook weighs AI exports, costly investment and persistent inflation",
+    "bank": "Bank of Japan",
+    "date": "2026-11-02",
+    "url": "https://www.boj.or.jp/en/mopo/outlook/gor2610b.pdf",
+    "excerpt": "The Bank of Japan’s full October Outlook, released on 2 November, explains why moderate growth could coexist with further increases in the policy rate.",
+    "file": "2026-11-02-8b98d931fc.json"
   },
   {
     "title": "El Niño raises a conditional inflation risk for 2027",

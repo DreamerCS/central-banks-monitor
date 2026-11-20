@@ -1,0 +1,33 @@
+{
+  "title": "Australia raises its inflation forecast as fuel costs and domestic capacity pressures coincide",
+  "bank": "Reserve Bank of Australia",
+  "date": "2026-11-03",
+  "url": "https://www.rba.gov.au/publications/smp/2026/nov/contents.html",
+  "summary": [
+    "The November Statement raised Australia’s inflation outlook even as housing prices fell and staff expected tighter financial conditions to slow spending. The Reserve Bank of Australia judged that the economy had been operating closer to capacity than it had allowed for in August. Disruption to global fuel supplies raised petrol and diesel prices directly and increased costs that businesses could pass to customers later. The Board raised the cash rate to 4.85% at its November meeting. The staff forecasts had been finalised on October 28 using market prices available on that date.",
+    "The revision was particularly large over the next four quarters. Staff raised December 2026 year-ended headline inflation from 3.6% to 4.5%, and June 2027 inflation from 2.8% to 3.7%. Trimmed mean inflation for June 2027 rose from 3.0% to 3.5%. The latter revision shows why a reversal in the pump price alone would leave part of the increase in the forecast intact. By December 2027, staff projected headline and trimmed mean inflation at 2.7% and 2.9%. Both were expected to reach 2.5% in mid-2028. Entry into the target range and return to its midpoint have different dates.",
+    "Households and businesses were already adjusting. In September national housing prices stood 4.7% below their recent peak. Higher interest rates and weaker housing weighed on spending, and investment outside data centres and renewable energy was less buoyant than the headline suggested. Installing a data centre can create demand for construction workers and power connections before it generates services that raise economy-wide productivity. Imported equipment and domestic construction also make different immediate contributions to Australian output. The pace and composition of investment consequently mattered to the inflation outlook as well as to growth.",
+    "Staff raised December 2026 year-ended GDP growth to 1.6% from 1.4%, but cut December 2027 growth to 1.3% from 1.6%. They expected weaker housing, tighter financial conditions and expensive fuel to outweigh part of the investment stimulus. Spare capacity was expected to emerge in 2027. The unemployment projection reached 5.1% at end-2028, against 4.8% in August. Staff now expected more people to remain in or enter the labour force. Employment could therefore continue expanding even as the unemployment rate rose. Job losses and a growing workforce can produce the same headline rate with different consequences for household income.",
+    "The cash rate in the forecast table reaches 4.9% in June 2027 and stands at 4.8% at subsequent dates shown. Staff conditioned the figures on market pricing and held the trade-weighted exchange rate at its October 28 level going forward. Box A examines how higher longer-term real yields transmit to spending and asset prices. Box B examines the neutral rate, an unobservable rate consistent with the economy operating at capacity and inflation at target. A change in the term premium and a change in the estimated neutral rate can both raise long yields, with different implications for how restrictive policy is.",
+    "A further interruption to shipping or refining could challenge the assumed decline in energy costs. Rapid AI-related investment could sustain demand for scarce inputs. Alternatively, if households cut spending more sharply as interest rates bite and housing wealth declines, firms may struggle to pass on costs and inflation could fall faster. The Board judged inflation risks tilted upward when it tightened. The two-sided projections show what subsequent evidence could change that judgment."
+  ],
+  "questions": [
+    {
+      "question": "How much of the June 2027 inflation revision would survive a fall in fuel prices?",
+      "detail": "Track refined fuel prices separately from freight charges, domestic services and firms’ pricing intentions. Compare the breadth of price increases with the October 28 forecast vintage. Reversing a direct fuel shock would leave a different inflation path if firms were still recovering earlier cost increases."
+    },
+    {
+      "question": "Does data-centre investment add to domestic capacity pressure or mainly increase imports?",
+      "detail": "Separate imported servers from local construction, grid connections and competition for workers on other projects. Compare planned expenditure with milestones, installation and utilisation. The split matters both for current Australian value added and for when the spending can begin to deliver productive services."
+    },
+    {
+      "question": "Is rising unemployment signalling weaker labour demand than staff assumed?",
+      "detail": "Compare employment, participation, hours and vacancies with the November projection. Then look at household spending and mortgage servicing. A greater labour supply alongside moderate hiring would fit the forecast, while actual job losses and falling spending would indicate a larger shortfall."
+    },
+    {
+      "question": "Would a rise in long yields tighten financing by more than the cash-rate assumption implies?",
+      "detail": "Distinguish changes in the expected cash-rate path from term premia. Trace both through bank funding, mortgage rates, business borrowing costs and housing activity. Check the resulting effective rates against those underlying the forecast before interpreting a change in long yields as news about the next Board vote."
+    }
+  ],
+  "limitation": "The forecasts use information and technical assumptions as at October 28. The accompanying workbook supplies data for selected graphs."
+}
