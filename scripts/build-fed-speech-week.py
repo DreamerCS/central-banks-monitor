@@ -50,6 +50,10 @@ for source, case in study["cases"].items():
     context = escape(window["context"])
     if window.get("contextSource"):
         context += f' <a href="{escape(window["contextSource"])}">Release record</a>.'
+    comparison = ""
+    if prior_outlook := case.get("priorOutlook"):
+        comparison = (f'<h4>Change from the earlier outlook</h4><p>{escape(prior_outlook["comparison"])}</p>'
+                      f'<p><a href="{escape(prior_outlook["url"])}">{escape(prior_outlook["label"])}</a></p>')
     market = f'''<h4>Pricing for the December meeting</h4>
 <p>Remarks at <a href="{escape(case["releaseTimeSource"])}">{escape(case["releaseTimeET"])} ET</a>. {escape(window["summary"])}</p>
 <p>{context}</p>
@@ -60,7 +64,7 @@ for source, case in study["cases"].items():
 <p>{escape(case["rationale"])}</p>
 <blockquote>“{escape(case["evidence"])}”</blockquote>
 <p class="rs-links"><a href="{escape(source)}">{escape(case["title"])}</a> <a href="{escape(archive)}">Read the dated archive note</a></p>
-{market}</article>''')
+{comparison}{market}</article>''')
 page = '''<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">

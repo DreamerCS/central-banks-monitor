@@ -192,6 +192,12 @@ const PublicationReader = (() => {
     link.href = "fed-speech-week.html#" + review.id;
     const window = study.pricing.windows[note.date];
     section.append(heading, judgement, node("p", review.rationale), evidence);
+    if (review.priorOutlook) {
+      const earlier = node("a", review.priorOutlook.label);
+      earlier.href = review.priorOutlook.url;
+      section.append(node("h4", "Change from the earlier outlook"),
+        node("p", review.priorOutlook.comparison), earlier);
+    }
     section.append(node("h4", "Pricing for the December meeting"));
     section.append(node("p", "Remarks at " + review.releaseTimeET + " ET. " + window.summary));
     section.append(node("p", window.context));
