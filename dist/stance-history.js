@@ -18,7 +18,8 @@
   let period = null;
   let pairData, pairBand=Number(params.get("sxBand") || 1);
   selected.pairDate=params.get("sxPairDate")||"";
-  let banks, bank, riskData, riskBank, riskByDate=new Map();
+  selected.priorDate=params.get("sxPriorDate")||"";
+  let banks, bank, riskData, riskBank, riskByDate=new Map(), curveData, curves;
   const el = (tag, text, cls) => {
     const node = document.createElement(tag);
     if (text !== undefined) node.textContent = text;
@@ -74,6 +75,7 @@
     if(grouping!=="leader") q.set("sxGroup",grouping);
     if(pairBand!==1)q.set("sxBand",String(pairBand));
     if(selected.pairDate)q.set("sxPairDate",selected.pairDate);
+    if(selected.priorDate)q.set("sxPriorDate",selected.priorDate);
     if(period) {q.set("sxFrom",period.from);q.set("sxTo",period.to);}
     return file+"?"+q+(file==="stance-history.html" ? "" : "#stance-periods");
   }
@@ -93,7 +95,7 @@
   function moveBank(id) {
     bank=banks.find(b=>b.id===id)||banks[0];selected.bank=bank.id;
     for(const key of Object.keys(seriesLabels)) selected[key]="";
-    selected.date="";selected.pairDate="";
+    selected.date="";selected.pairDate="";selected.priorDate="";
   }
   function facts(entries) {
     const dl=el("dl",undefined,"sx-facts");
@@ -332,6 +334,108 @@
     box.append(link("Download dates, labels and underlying passages","data/stance-risk-signals.json"));
     container.append(box);
   }
+  function isProxy(r) {
+    return r.priorIsProxy===true || r.priorSourceKind==="digitised-figure" || r.priorQuoteQualifier==="proxy";
+  }
+  function matchedGap(r) {
+    return !isProxy(r) && r.priorGapEligible!==false && isNum(r.pricingGapBp) ? r.pricingGapBp : null;
+  }
+  function pricingCoverage(container,rows) {
+    const priors=rows.filter(r=>isNum(r.priorMoveBp));
+    const gaps=priors.filter(r=>isNum(matchedGap(r)));
+    const evidence=rows.filter(r=>isNum(r.priorMoveBp)||r.priorQuoteQualifier||r.priorPricingNote);
+    const section=el("section",undefined,"sx-divider sx-prior-comparison");
+    section.append(el("h3","What was priced for the decision?"),
+      el("p",priors.length+" of "+rows.length+" selected meetings have a numeric pre-decision expectation. "+gaps.length+
+        " have a comparable announced policy move and a measured or reconstructed gap.","sx-foot"));
+    if(bank.id==="ecb" && priors.length) {
+      const proxies=priors.filter(isProxy).length;
+      section.append(el("p",(priors.length-proxies)+" published numeric expectations · "+proxies+" estimates digitised from market charts. Each row states which rate was priced. Approximate MRO readings are excluded from the deposit-rate gap.","sx-foot"));
+    }
+    if(gaps.length) {
+      const tighter=gaps.filter(r=>r.pricingGapBp>1+1e-9).length,easier=gaps.filter(r=>r.pricingGapBp< -1-1e-9).length;
+      section.append(el("p","Among the "+gaps.length+" comparable decisions, "+tighter+" delivered more tightening than priced, "+easier+" delivered more easing, and "+(gaps.length-tighter-easier)+" were within ±1 bp. Median absolute gap "+median(gaps.map(r=>Math.abs(r.pricingGapBp))).toFixed(2)+" bp.","sx-foot"));
+    }
+    if(evidence.length>priors.length)section.append(el("p",(evidence.length-priors.length)+" additional meetings have a reported pricing condition or outcome without a usable point estimate.","sx-foot"));
+    if(!evidence.length) {container.append(section);return;}
+    section.append(el("p",bank.id==="fed"?"The Fed prior is reconstructed from the announced target move and the published current-meeting futures surprise. Its timestamp describes the event window. The prior has no separately observed quote.":
+      "Each ECB observation names the meeting, rate, source and timing. Quoted bounds and outcome probabilities retain the source qualifier. Estimates read from research figures carry their own method and precision. A gap requires comparable policy rates. One-year OIS repricing appears separately.","sx-foot"));
+    const controls=el("div",undefined,"sx-controls"), output=el("div");
+    const preferred=bank.id==="fed"?"2022-11-02":"2023-06-15";
+    const record=evidence.find(r=>r.date===selected.priorDate)||evidence.find(r=>r.date===(params.get("sxDate")||params.get("date")))||
+      evidence.find(r=>r.date===preferred)||priors.at(-1)||evidence.at(-1);
+    labelled(controls,"Meeting with pre-decision pricing evidence",[...evidence].reverse().map(r=>[r.date,day(r.date)+" · "+r.leader+(isProxy(r)?" · chart estimate":"")]),record.date,v=>{
+      draw(evidence.find(r=>r.date===v));storeSelection();updateLinks();
+    });
+    function draw(r) {
+      if(!r)return;
+      selected.priorDate=r.date;output.replaceChildren();
+      const wrap=el("div",undefined,"sx-tablewrap"),table=el("table",undefined,"sx-table");
+      wrap.tabIndex=0;wrap.setAttribute("role","region");wrap.setAttribute("aria-label","Prior expectation and realised policy action");
+      table.append(el("caption",day(r.date)+" · "+(r.priorInstrument || (bank.id==="fed"?"Current FOMC policy-rate change":"Current ECB policy-rate change"))));
+      const head=el("thead"),labels=el("tr");
+      for(const t of ["Before the decision","Announced on the same instrument","Actual minus before"]){const th=el("th",t);th.scope="col";labels.append(th);}
+      head.append(labels);const body=el("tbody"),line=el("tr");
+      line.append(el("td",priorLabel(r)),el("td",bp(isNum(matchedGap(r))?r.actionBp:null)),el("td",bp(matchedGap(r))));
+      body.append(line);table.append(head,body);wrap.append(table);output.append(wrap);
+      priorProvenance(output,r,true);
+    }
+    section.append(controls,output);draw(record);container.append(section);
+  }
+  function priorLabel(r) {
+    if(isNum(r.priorMoveBp))return (isProxy(r)?"≈ ":"")+bp(r.priorMoveBp);
+    return ({minimum:"Bound only",probability:"Outcome probability only","near-full":"Near-fully priced"})[r.priorQuoteQualifier] || "Unavailable";
+  }
+  function priorProvenance(box,r,links) {
+    if(!isNum(r.priorMoveBp)&&!r.priorPricingNote&&!r.priorInstrument&&!r.priorPricingDate)return;
+    const method=r.priorMethod || (bank.id==="fed"?"Reconstructed from the current-meeting futures surprise (MP1).":"Source-reported meeting expectation.");
+    box.append(el("p",method,"sx-foot"));
+    if(isProxy(r) && isNum(r.priorToleranceBp))box.append(el("p","Approximate chart reading with ±"+r.priorToleranceBp+" bp digitisation tolerance. This tolerance covers the reading of the figure alone. The relation between the swap rate and the policy move introduces further uncertainty.","sx-foot"));
+    if(r.priorPricingDate)box.append(el("p","Observation timing · "+r.priorPricingDate,"sx-foot"));
+    if(r.priorPricingNote)box.append(el("p",r.priorPricingNote,"sx-foot"));
+    if(isNum(r.earlierPriorMoveBp)&&isNum(r.priorMoveBp)) {
+      const timeline=el("p",undefined,"sx-foot");
+      timeline.append(el("strong","Change before the decision · "),document.createTextNode(bp(r.earlierPriorMoveBp)+" on "+r.earlierPriorDate+" → "+bp(r.priorMoveBp)+
+        " in the later pre-meeting observation. The same meeting was repriced by "+bp(r.priorMoveBp-r.earlierPriorMoveBp)+" before the announcement."));
+      if(safeUrl(r.earlierPriorSource))timeline.append(document.createTextNode(" "),link("Earlier pricing source",r.earlierPriorSource));
+      box.append(timeline);
+      if(r.earlierPriorPricingNote)box.append(el("p",r.earlierPriorPricingNote,"sx-foot"));
+    }
+    if(isNum(matchedGap(r))&&r.pricingGapMethod)box.append(el("p",r.pricingGapMethod,"sx-foot"));
+    if(links) {
+      const nav=el("div",undefined,"sx-links");
+      if(safeUrl(r.priorPricingSource))nav.append(link("Pricing source",r.priorPricingSource));
+      const actualUrl=r.releaseUrl||r.url;
+      if(safeUrl(actualUrl))nav.append(link("Announced decision",actualUrl));
+      if(safeUrl(r.pricingGapSource)&&r.pricingGapSource!==r.priorPricingSource&&r.pricingGapSource!==actualUrl)nav.append(link("Comparable rate or surprise series",r.pricingGapSource));
+      box.append(nav);
+    }
+  }
+  function priorCurve(box,r) {
+    if(bank.id!=="ecb"||!curves)return;
+    const quote=curves.get(r.date);
+    if(!quote||quote.status!=="observed"||!isNum(quote.prior2yPct)||!isNum(quote.prior10yPct)) {
+      const reason={"before-series":"The ECB AAA yield series begins on 6 September 2004, after this meeting.","insufficient-history":"The five-interval window lacks sufficient paired fixings.","stale":"The latest available ECB AAA fixing is too old for this pre-meeting comparison."};
+      box.append(el("p",reason[quote?.status]||"An ECB AAA curve comparison is unavailable before this meeting.","sx-foot"));return;
+    }
+    const details=el("details",undefined,"sx-source");
+    details.open=full||view==="market";
+    details.append(el("summary","Euro-area AAA zero-coupon curve before the decision"));
+    const wrap=el("div",undefined,"sx-tablewrap"),table=el("table",undefined,"sx-table");
+    table.style.minWidth="275px";wrap.tabIndex=0;wrap.setAttribute("role","region");wrap.setAttribute("aria-label","Pre-meeting euro-area AAA yield curve");
+    table.append(el("caption","Last available fixing "+day(quote.priorEnd)+". "+(quote.priorStart?"Five fixing intervals from "+day(quote.priorStart)+" to "+day(quote.priorEnd)+".":"The comparison window is unavailable.")));
+    const head=el("thead"),header=el("tr");for(const t of ["Series","Prior level","Change"]){const th=el("th",t);th.scope="col";header.append(th);}head.append(header);
+    const body=el("tbody");
+    for(const [t,level,change] of [["2Y",quote.prior2yPct.toFixed(2)+"%",quote.change2yBp],["10Y",quote.prior10yPct.toFixed(2)+"%",quote.change10yBp],
+      ["2s10s (10Y minus 2Y)",bp(quote.priorSlopeBp),quote.changeSlopeBp]]) {
+      const row=el("tr"),th=el("th",t);th.scope="row";row.append(th,el("td",level),el("td",bp(change)));body.append(row);
+    }
+    table.append(head,body);wrap.append(table);details.append(wrap,el("p","Daily sovereign zero-coupon yields measure the broader curve. Meeting-specific policy expectations require separate pricing evidence.","sx-foot"));
+    const nav=el("div",undefined,"sx-links");nav.append(link("Download pre-meeting curve observations","data/ecb-prior-curve.json"));
+    const curveSource=curveData.sources?.curve;const url=typeof curveSource==="string"?curveSource:curveSource?.url;
+    if(safeUrl(url))nav.append(link("ECB yield curve source",url));
+    details.append(nav);box.append(details);
+  }
   function bandCheck(container) {
     const windows=bank.cycleComparison?.windows?.filter(w=>w.sensitivity?.length)||[];
     if(!windows.length)return;
@@ -362,7 +466,7 @@
     const box=el("details",undefined,"sx-source");box.append(el("summary","Definitions, coverage and sources"));
     const pieces=["The leader identifies who chaired the institution on the meeting date. The score describes the committee’s public guidance. Different tools, mandates and shocks also vary across tenures.",
       bank.cycleMethod,bank.policyPhaseMethod,bank.macroMethod,bank.marketMethod || bank.marketWindow,
-      bank.id==="fed"?"For the Fed, the estimated pre-decision move equals the announced move less the current-meeting futures surprise. It assumes a stable spread between the effective rate and the target. MP2 tracks changes in the expected rate at the following meeting.":"ECB actions use the deposit facility rate. Before the floor-system era, other key rates also mattered. Prior meeting pricing comes from identifiable readings in official accounts and bulletins. A one-year OIS spans several meetings.",
+      bank.id==="fed"?"For the Fed, the estimated pre-decision move equals the announced move less the current-meeting futures surprise. It assumes a stable spread between the effective rate and the target. MP2 tracks changes in the expected rate at the following meeting.":"ECB actions use the deposit facility rate. Before the floor-system era, other key rates also mattered. Each prior names its meeting, instrument, observation timing and source. Approximate rates reconstructed from charts, bounds and probability-qualified outcomes are identified on the record. The deposit-rate gap uses only comparable point readings. A one-year OIS spans several meetings.",
       "Missing wording or market observations are excluded from the corresponding statistic. The magnitude and horizon of each market series are specific to its central bank."];
     for(const item of pieces.filter(v=>typeof v==="string"&&v)) box.append(el("p",item));
     const anchors=el("div",undefined,"sx-links");
@@ -408,15 +512,15 @@
     const urls=el("div",undefined,"sx-links");
     if(safeUrl(r.url))urls.append(link("Official communication",r.url));
     if(safeUrl(r.releaseUrl)&&r.releaseUrl!==r.url)urls.append(link("Decision release",r.releaseUrl));
-    if(safeUrl(r.priorPricingSource))urls.append(link("Pre-decision pricing source",r.priorPricingSource));
     if(bank.id==="fed")urls.append(link("FOMC evidence and prior pricing","policy-stance.html?date="+r.date));
     if(safeUrl(r.marketUrl||r.marketSource||bank.marketUrl))urls.append(link("Market data",r.marketUrl||r.marketSource||bank.marketUrl));
     words.append(urls);
     const dl=el("dl");
     function value(k,v){dl.append(el("dt",k),el("dd",v));}
-    value(bank.id==="ecb"?"Deposit facility rate change":"Announced rate change",bp(r.actionBp));
-    value("Estimated move priced before decision",bp(r.priorMoveBp));
-    if(isNum(r.currentSurpriseBp))value("Current decision surprise",bp(r.currentSurpriseBp));
+    value(r.priorInstrument?"Before decision · "+r.priorInstrument:"Before the decision",priorLabel(r));
+    value(bank.id==="ecb"?"Announced deposit facility rate change":"Announced policy-rate change",bp(r.actionBp));
+    value("Actual minus before, same target",bp(matchedGap(r)));
+    if(isNum(r.currentSurpriseBp)&&!isNum(r.pricingGapBp))value("Current decision futures surprise (MP1)",bp(r.currentSurpriseBp));
     value(r.marketInstrument||bank.marketLabel||"Window change",bp(r.marketBp));
     if(r.sourceType==="conference" && isNum(r.releaseMeasures?.ois1yBp))value("1-year euro OIS at earlier decision release",bp(r.releaseMeasures.ois1yBp));
     if(isNum(r.prior2yBp))value("2Y before the statement",bp(r.prior2yBp));
@@ -425,7 +529,8 @@
     if(isNum(r.policyChangeBp))value("Policy move over preceding 180 days",bp(r.policyChangeBp));
     measurements.append(dl,el("p",r.marketWindow||bank.marketWindow||"","sx-foot"));
     if(r.priorStart&&r.priorEnd)measurements.append(el("p","Treasury comparison · "+day(r.priorStart)+" to "+day(r.priorEnd)+", before the statement.","sx-foot"));
-    if(r.priorPricingDate||r.priorPricingNote)measurements.append(el("p",[r.priorPricingDate,r.priorPricingNote].filter(Boolean).join(". "),"sx-foot"));
+    priorProvenance(measurements,r,true);
+    priorCurve(measurements,r);
     if(r.contextMonth && (isNum(r.inflationYoY)||isNum(r.unemploymentPct))) {
       const measures=[];
       if(isNum(r.inflationYoY))measures.push((bank.inflationLabel || (bank.id==="ecb"?"HICP":"CPI"))+" "+r.inflationYoY.toFixed(1)+"% year on year");
@@ -486,6 +591,7 @@
       const clear=el("button","Show all meetings for "+bank.label);clear.type="button";clear.onclick=()=>{moveBank(bank.id);period=null;render("bank");};mount.append(clear);
     } else {
       addFacts(mount,s);
+      if(full || view==="market")pricingCoverage(mount,rows);
       const content=el("div",undefined,full?"sx-split":"");
       const primary=el("div"),secondary=el("div");
       const comparison=el(full?"section":"details",undefined,"sx-compare");
@@ -503,7 +609,11 @@
           el("p","Median signed change "+bp(s.medianMarket)+". "+s.large+" observations moved by more than 1 bp. Of "+s.paired+" qualifying directional texts, "+s.opposing+" moved the other way.","sx-foot"));
         if(new Set(rows.filter(r=>isNum(r.marketBp)).map(r=>r.sourceType).filter(Boolean)).size>1)
           secondary.append(el("p","This selection combines communication types. Choose a communication window to compare a single event type.","sx-foot"));
-      } else primary.append(el("p",bank.marketLabel+" · "+(bank.marketWindow||"See each meeting for the observation window."),"sx-foot"));
+      } else {
+        primary.append(el("p",bank.marketLabel+" · "+(bank.marketWindow||"See each meeting for the observation window."),"sx-foot"));
+        if(view==="market"&&new Set(rows.filter(r=>isNum(r.marketBp)).map(r=>r.sourceType).filter(Boolean)).size>1)
+          primary.append(el("p","The selected dates include decision releases and conferences. Use the communication filter to compare a single primary window.","sx-foot"));
+      }
       content.append(primary);if(full)content.append(secondary);
       mount.append(content);reader(mount,rows);
     }
@@ -524,9 +634,11 @@
     if(focus) {selects[focus]?.focus({preventScroll:true});storeSelection();}
   }
   async function start() {
-    const [response,pairResponse,riskResponse]=await Promise.all([fetch("data/stance-cohorts.json"),
+    const [response,pairResponse,riskResponse,curveResponse]=await Promise.all([fetch("data/stance-cohorts.json"),
       (full||view==="market")?fetch("data/stance-window-pairs.json").catch(()=>null):null,
-      (full||view==="policy")?fetch("data/stance-risk-signals.json").catch(()=>null):null]);
+      (full||view==="policy")?fetch("data/stance-risk-signals.json").catch(()=>null):null,
+      fetch("data/ecb-prior-curve.json").catch(()=>null)]);
+    if(curveResponse?.ok)try{curveData=await curveResponse.json();if(Array.isArray(curveData.records))curves=new Map(curveData.records.map(r=>[r.date,r]));}catch{}
     if(riskResponse?.ok)try{riskData=await riskResponse.json();}catch{}
     if(pairResponse?.ok)try{pairData=await pairResponse.json();}catch{}
     if(!response.ok) throw Error("Cohort data unavailable");
@@ -549,7 +661,6 @@
       }
     }
     for(const k of Object.keys(seriesLabels)) if(!values(k).includes(selected[k]))selected[k]="";
-    if(view==="market" && bank.id==="ecb" && !params.has("sxWindow") && !selected.sourceType && values("sourceType").includes("conference"))selected.sourceType="conference";
     if(!selected.date && (full || view==="market")) selected.date=params.get("date")||"";
     if(!["leader","cycle","policyPhase"].includes(grouping))grouping="leader";
     render();

@@ -7,7 +7,7 @@ import argparse
 import bisect
 import json
 import math
-from datetime import date
+from datetime import date, datetime, timedelta
 from itertools import groupby
 from pathlib import Path
 from statistics import median
@@ -129,7 +129,11 @@ def summary(rows, label):
     actionable = [r for r in paired if market_sign(r['marketBp']) != 0]
     quotes = [r['marketBp'] for r in rows if r['marketBp'] is not None]
     steps = [r['actionBp'] for r in rows if r['actionBp'] is not None]
-    prior = [r['priorMoveBp'] for r in rows if r['priorMoveBp'] is not None]
+    priors = [r for r in rows if r['priorMoveBp'] is not None]
+    proxies = sum(r.get('priorIsProxy') is True for r in priors)
+    prior_types = {(r.get('priorInstrumentKey'),r.get('priorIsProxy') is True) for r in priors}
+    median_prior = median_or_none([r['priorMoveBp'] for r in priors]) if len(prior_types)==1 else None
+    gaps = [r['pricingGapBp'] for r in rows if r.get('pricingGapBp') is not None]
     same = sum(r['score']*market_sign(r['marketBp'])>0 for r in actionable)
     shifts = [r['shift'] for r in rows if r['shift'] is not None]
     return dict(label=label,n=len(rows),scored=len(scored),hawkish=sum(v>0 for v in scored),
@@ -139,7 +143,10 @@ def summary(rows, label):
                 pairedN=len(paired),comparable=len(actionable),same=same,opposite=len(actionable)-same,
                 flatMarket=len(paired)-len(actionable), outsideBandN=sum(market_sign(q)!=0 for q in quotes),
                 actionN=len(steps),medianActionBp=median_or_none(steps),
-                priorN=len(prior),medianPriorMoveBp=median_or_none(prior),
+                priorN=len(priors),priorProxyN=proxies,priorNonProxyN=len(priors)-proxies,medianPriorMoveBp=median_prior,
+                pricingGapN=len(gaps),medianPricingGapBp=median_or_none(gaps),medianAbsPricingGapBp=median_or_none([abs(v) for v in gaps]),
+                tighterThanPrior=sum(market_sign(v)>0 for v in gaps),withinPriorBand=sum(market_sign(v)==0 for v in gaps),
+                easierThanPrior=sum(market_sign(v)<0 for v in gaps),
                 shiftN=len(shifts),hawkishShifts=sum(s>0 for s in shifts),dovishShifts=sum(s<0 for s in shifts))
 
 
@@ -224,6 +231,42 @@ def lag_month(day):
     return f'{serial//12:04d}-{serial%12+1:02d}'
 
 
+def decision_pricing(bank, row, instrument_source, clock):
+    prior = row['priorMoveBp']
+    if prior is None:
+        return
+    if not math.isfinite(prior):
+        raise ValueError('Invalid priced policy move on '+row['date'])
+    if bank == 'fed':
+        row.update(priorInstrument='Current-meeting federal funds target change', priorInstrumentKey='FED_TARGET',
+                   priorMethod='Reconstructed from the announced target change and the MP1 federal funds futures surprise.',
+                   priorPricingAsOf=row['date'], priorPricingSource=FED_MARKET, priorApproximate=True, priorGapEligible=True, priorQuoteQualifier='point',
+                   priorPricingDate=row['date']+' · scheduled FOMC statement window (−10 to +20 minutes)',
+                   pricingGapSource=row['url'],
+                   pricingGapMethod='Announced target change minus the reconstructed prior. By construction this equals the current-meeting MP1 surprise.')
+        if clock:
+            published = datetime.strptime(clock,'%H:%M')
+            window = (published - timedelta(minutes=10)).strftime('%H:%M')+'–'+(published + timedelta(minutes=20)).strftime('%H:%M')
+            row.update(releaseTimeET=clock,priorPricingDate=f"{row['date']} · {window} ET futures window around the {clock} ET statement")
+    else:
+        earlier = row.get('earlierPriorMoveBp')
+        if earlier is not None:
+            if not math.isfinite(earlier) or not row.get('earlierPriorDate') or not row.get('earlierPriorSource'):
+                raise ValueError('Incomplete earlier pricing observation on '+row['date'])
+            if row['earlierPriorDate'] >= row['date']:
+                raise ValueError('Earlier observation is outside the pre-decision period on '+row['date'])
+            row['priorRepricingBp'] = round(prior - earlier, 8)
+        if row.get('priorInstrumentKey') != 'DFR' or row.get('priorGapEligible') is not True:
+            return
+        row.update(pricingGapSource=instrument_source,
+                   pricingGapMethod='Announced deposit facility rate change minus the market-implied change for this decision, using the source’s pre-decision observation.')
+    if row['actionBp'] is None:
+        return
+    row['pricingGapBp'] = round(row['actionBp'] - prior, 8)
+    if bank == 'fed' and not math.isclose(row['pricingGapBp'], row['currentSurpriseBp'], abs_tol=1e-7):
+        raise ValueError('Reconstructed current-meeting surprise mismatch on '+row['date'])
+
+
 def build_bank(bank, folder, rates_bundle):
     label, code, filename, leaders, dating, cycle_label = META[bank]
     raw = load(folder / filename)
@@ -235,10 +278,13 @@ def build_bank(bank, folder, rates_bundle):
                      source('Unemployment rate',macro['series']['unemployment']['sourceUrl'])]
     benchmark = next(r for r in rates_bundle['series'] if r['id']==code)
     rates = daily_rates(date.fromisoformat(rates_bundle['start']).toordinal(),benchmark)
-    quotes = {}
+    quotes, clocks = {}, {}
     if bank=='fed':
         val = load(folder / 'stance-validation.json')
         quotes = {r['date']:r for r in val['expectations']['observations']}
+        timing = load(folder/'fed-direction-study.json')
+        timing_rows = [dict(zip(timing['fields'],entry)) for entry in timing['rows']]
+        clocks = {event['date']:event['releaseTimeET'] for event in timing_rows if event['scheduled'] and event['releaseTimeET']}
     market, window, market_url = MARKETS[bank]
     rows = []
     for r in raw['records']:
@@ -267,13 +313,16 @@ def build_bank(bank, folder, rates_bundle):
         if isinstance(raw_url,dict):
             raw_url = raw_url.get('url')
         row['marketUrl'] = raw_url
-        for k in ['riskSignal','riskEvidence','instrument','topic','actionInstrument','actionLabel','publicationET','priorStart','priorEnd','releaseMeasures','marketMeasures','releaseReading','releaseUrl','evidenceKind','priorPricingDate','priorPricingNote','priorPricingSource','priorPricingHorizon']:
+        for k in ['riskSignal','riskEvidence','instrument','topic','actionInstrument','actionLabel','publicationET','priorStart','priorEnd','releaseMeasures','marketMeasures','releaseReading','releaseUrl','evidenceKind','effectiveDate']:
             if r.get(k) is not None:
                 row[k] = r[k]
+        if bank=='ecb':
+            row.update({k:v for k,v in r.items() if k.startswith(('prior','earlierPrior')) and v is not None})
         if estimate:
             for field in ['priorStart','priorEnd','prior2yBp','prior2s10sBp','yieldBp']:
                 if estimate.get(field) is not None:
                     row[field] = estimate[field]
+        decision_pricing(bank,row,raw.get('depositSource'),clocks.get(ds))
         if row['score'] not in [None,-2,-1,0,1,2]:
             raise ValueError('Unexpected score on '+ds)
         rows.append(row)

@@ -50,13 +50,6 @@ EARLY_REPLIES = {
     "2002-11-07": (-1, "the size nor the moment of a rate cut, I say again, sometime in the future", "Explaining why the Council had disclosed its discussion of a cut, Duisenberg referred to a possible future cut while leaving its size and timing open."),
     "2003-04-03": (0, "on the monetary policy stance, but without a bias in any direction", "Asked whether the Council had considered a cut, Duisenberg explicitly described its discussion as having no directional bias."),
 }
-PRE = {
-    "2015-12-03": (-10, "Pre-meeting briefing recorded in the December Governing Council account", "https://www.ecb.europa.eu/press/accounts/2016/html/mg160114.en.html", "The ECB reported that the EONIA forward curve fully priced a 10 bp deposit-rate cut at this meeting and a further 10 bp by September 2016. The exact quote time is unavailable."),
-    "2024-12-12": (-25, "11 December 2024, end of ECB bulletin review period", "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202408.en.html", "The ECB reported that market pricing on the preceding day fully incorporated a 25 bp December cut. The later bulletin identifies the date and the meeting."),
-    "2025-03-06": (-25, "5 March 2025, end of ECB bulletin review period", "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202502.en.html", "The ECB reported that the forward curve fully priced a 25 bp cut in March. The end-of-period observation precedes the meeting, while the bulletin was published afterwards."),
-    "2023-07-27": (25, "Pre-meeting market briefing summarised in the Governing Council account", "https://www.ecb.europa.eu/press/accounts/2023/html/ecb.mg230831~b04764f45f.en.html", "The ECB recorded market pricing for a 25 bp increase at this meeting and a 56% probability of a further 25 bp increase in September. The account was published on 31 August. The exact quote time is unavailable."),
-    "2024-09-12": (-25, "11 September 2024, end of ECB bulletin review period", "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202406.en.html", "The ECB reported that the €STR forward curve fully priced a 25 bp cut at the September meeting. The pricing date precedes the announcement. The bulletin reporting it was published afterwards."),
-}
 WINDOWS = {
     "release": ("13:25–13:35 to 14:00–14:10", "13:55–14:05 to 14:30–14:40"),
     "conference": ("14:15–14:25 to 15:40–15:50", "14:30–14:40 to 15:55–16:05"),
@@ -169,6 +162,32 @@ def source_file(src, typ, args):
         path.write_bytes(content)
     return path
 
+def meeting_priors():
+    direct = json.loads(Path(__file__).with_name("ecb-meeting-pricing.json").read_text())
+    early = json.loads(Path(__file__).with_name("ecb-early-pricing.json").read_text())
+    if direct.keys() & early["valuesBp"].keys():
+        raise ValueError("Two sources supply a primary prior for the same meeting")
+    estimates = {}
+    for day, move in early["valuesBp"].items():
+        estimates[day] = {
+            "priorMoveBp": move,
+            "priorPricingDate": "Previous trading observation in the study; exact timestamp unavailable",
+            "priorPricingAsOf": None,
+            "priorPricingSource": early["source"],
+            "priorPricingNote": early["sourceTitle"] + ". " + early["method"],
+            "priorInstrumentKey": "MRO",
+            "priorInstrument": "Two-week EONIA swap, estimated MRO move",
+            "priorMethod": "Working-paper estimate digitised from Figure 1, rounded to whole basis points",
+            "priorQuoteQualifier": "proxy",
+            "priorSourceKind": "digitised-figure",
+            "priorIsProxy": True,
+            "priorApproximate": True,
+            "priorToleranceBp": 1,
+            "priorGapEligible": False,
+        }
+    return {**direct, **estimates}
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--cache",required=True,type=Path)
@@ -182,6 +201,9 @@ def main():
     assert dates==sorted(set(dates))
     leaders=json.loads((DATA/"ecb-leadership.json").read_text())["profiles"]
     reviewed={(r["date"],r["sourceType"]):r for r in json.loads((DATA/"ecb-guidance.json").read_text())["observations"]}
+    priors = meeting_priors()
+    if missing := priors.keys() - set(dates):
+        raise ValueError(f"Market estimates without an archived meeting: {sorted(missing)}")
     markets=prices(args.workbook)
     fixes=load_fixes(args.deposit_csv)
     def build(i):
@@ -206,12 +228,8 @@ def main():
                 review=None
             r_score,r_rule,r_evidence,r_reason,r_kind=reading(source_file(src,"release",args),"release",day,review)
             row["releaseReading"]={"score":r_score,"rule":r_rule,"evidence":r_evidence,"rationale":r_reason,"evidenceKind":r_kind,"sourceUrl":src["release"],"marketBp":row["releaseMeasures"].get("ois1yBp"),"marketWindow":WINDOWS["release"][day>="2022-07-01"]+" Frankfurt time"}
-        if day in PRE:
-            step,asof,url,note=PRE[day]
-            row["priorMoveBp"]=step
-            row["priorPricingDate"]=asof
-            row["priorPricingSource"]=url
-            row["priorPricingNote"]=note
+        if day in priors:
+            row.update(priors[day])
         return row
     with ThreadPoolExecutor(max_workers=6) as pool:
         records=list(pool.map(build,range(len(manifest))))
@@ -220,7 +238,7 @@ def main():
         r["previousDate"]=prev["date"] if prev else None
         r["shift"]=(r["score"]-prev["score"]) if prev and prev["sourceType"]==r["sourceType"] and prev["score"] is not None and r["score"] is not None else None
     counts=Counter(r["sourceType"] for r in records)
-    result=dict(bank="ecb",source=ARCHIVE,conferenceSource=CONFERENCES,marketSource=MARKET,depositSource=DEPOSIT,marketSourceSha256=hashlib.sha256(args.workbook.read_bytes()).hexdigest(),depositSourceSha256=hashlib.sha256(args.deposit_csv.read_bytes()).hexdigest(),coverage={"decisions":len(records),"scored":sum(r["score"] is not None for r in records),"marketMatched":sum(r["marketBp"] is not None for r in records),"shifts":sum(r["shift"] is not None for r in records),"documentTypes":counts},method=["One observation per dated rate decision in the ECB monetary decisions archive. The primary text is the Council’s public opening statement where available, supplemented by individually checked official Q&A where the speaker explicitly described the Council’s view. Where no conference is archived, the decision release supplies the text. The change requires adjacent meetings with the same document type and two numeric scores.","Positive scores indicate tightening bias and negative scores easing bias or a low-rate commitment. Zero requires an explicit steady path or a balanced assessment of the future rate path. A ‘strong vigilance’ reading during Trichet’s presidency (2005–11) is coded +1. Generic warnings about inflation, asset purchases alone and a description of the policy just announced are insufficient.","The decision is the deposit facility rate change from the official daily series. The observation window runs from the prior day to the earlier of ten calendar days after the announcement or the day before the next decision. Before the floor-system era, other key rates also mattered.","Market readings are changes in the 1-year euro OIS in basis points around the selected release or conference. This tenor spans multiple policy meetings. A conference move starts after the earlier decision release. Each conference record carries a separate reading of the earlier decision release. Distinct decision-release and conference OIS and Bund changes are available where the EA-EMPD covers them. The sources state quote windows in Frankfurt time. Quoted meeting-specific prior expectations are recorded separately only when identified in official accounts or bulletins."],records=records)
+    result=dict(bank="ecb",source=ARCHIVE,conferenceSource=CONFERENCES,marketSource=MARKET,depositSource=DEPOSIT,marketSourceSha256=hashlib.sha256(args.workbook.read_bytes()).hexdigest(),depositSourceSha256=hashlib.sha256(args.deposit_csv.read_bytes()).hexdigest(),coverage={"decisions":len(records),"scored":sum(r["score"] is not None for r in records),"marketMatched":sum(r["marketBp"] is not None for r in records),"shifts":sum(r["shift"] is not None for r in records),"documentTypes":counts,"sourcedPricingReadings":sum("priorPricingSource" in r for r in records),"digitisedPricingProxies":sum(bool(r.get("priorIsProxy")) for r in records),"sameMeetingDfrPriors":sum(bool(r.get("priorGapEligible")) for r in records),"pairedPreDecisionReadings":sum("earlierPriorMoveBp" in r for r in records)},method=["One observation per dated rate decision in the ECB monetary decisions archive. The primary text is the Council’s public opening statement where available, supplemented by individually checked official Q&A where the speaker explicitly described the Council’s view. Where no conference is archived, the decision release supplies the text. The change requires adjacent meetings with the same document type and two numeric scores.","Positive scores indicate tightening bias and negative scores easing bias or a low-rate commitment. Zero requires an explicit steady path or a balanced assessment of the future rate path. A ‘strong vigilance’ reading during Trichet’s presidency (2005–11) is coded +1. Generic warnings about inflation, asset purchases alone and a description of the policy just announced are insufficient.","The decision is the deposit facility rate change from the official daily series. The observation window runs from the prior day to the earlier of ten calendar days after the announcement or the day before the next decision. Before the floor-system era, other key rates also mattered.","Market readings are changes in the 1-year euro OIS in basis points around the selected release or conference. This tenor spans multiple policy meetings. A conference move starts after the earlier decision release. Each conference record carries a separate reading of the earlier decision release. Distinct decision-release and conference OIS and Bund changes are available where the EA-EMPD covers them. The sources state quote windows in Frankfurt time. Prior expectations require published meeting-specific market pricing. Dated official bulletins, retrospective official meeting briefings and identified early Reuters EONIA reports carry distinct source and observation details. Earlier snapshots, qualitative amounts, bounds and different target instruments do not enter the deposit-rate action surprise. The early series uses chart-digitised estimates of MRO expectations from two-week EONIA swaps in ECB Working Paper 192. The chart-reading tolerance is about 1 bp. Uncertainty about the EONIA–MRO spread and the two-week horizon is additional."],records=records)
     (DATA/"ecb-stance-history.json").write_text(json.dumps(result,ensure_ascii=False,separators=(",",":"))+"\n")
     print(result["coverage"])
 
