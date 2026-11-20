@@ -20,8 +20,86 @@ function node(tag, text) {
 let selection = 0;
 const manuscripts = new Map();
 
+// Verified FOMC policy-statement documents. The generic monetary press-release
+// path is also used for minutes, facilities, projections and implementation notes.
+const fomcStatementDates = new Set(`20080916 20110126 20110315 20110427 20110622 20110809 20110921 20111102 20111213
+20120125 20120313 20120425 20120620 20120801 20120913 20121024 20121212 20130130
+20130320 20130501 20130619 20130731 20130918 20131030 20131218 20140129 20140319
+20140430 20140618 20140730 20140917 20141029 20141217 20150128 20150318 20150429
+20150617 20150729 20150917 20151028 20151216 20160127 20160316 20160427 20160615
+20160727 20160921 20161102 20161214 20170201 20170315 20170503 20170614 20170726
+20170920 20171101 20171213 20180131 20180321 20180502 20180613 20180801 20180926
+20181108 20181219 20190130 20190320 20190501 20190619 20190731 20190918
+20191030 20191211 20200129 20200303 20200315 20200323 20200429 20200610 20200729
+20200916 20201105 20201216 20210127 20210317 20210428 20210616 20210728 20210922
+20211103 20211215 20220126 20220316 20220504 20220615 20220727 20220921 20221102
+20221214 20230201 20230322 20230503 20230614 20230726 20230920 20231101 20231213
+20240131 20240320 20240501 20240612 20240731 20240918 20241107 20241218 20250129
+20250319 20250507 20250618 20250730 20250917 20251029 20251210 20260128 20260318
+20260429 20260617 20260729 20260916 20261028`.split(/\s+/));
+let eventBanks;
+
+function identifyEventSource(note) {
+  const source = new URL(note.url);
+  const stamp = note.date.replaceAll("-", "");
+  if (source.protocol !== "https:" || source.username || source.password || source.port) return;
+  if (source.hostname === "www.federalreserve.gov") {
+    if (fomcStatementDates.has(stamp) && source.pathname === "/newsevents/pressreleases/monetary" + stamp + "a.htm") {
+      return {bank: "fed", window: "statement"};
+    }
+    if (source.pathname === "/monetarypolicy/fomcpresconf" + stamp + ".htm" ||
+        source.pathname === "/mediacenter/files/FOMCpresconf" + stamp + ".pdf") {
+      return {bank: "fed", window: "conference"};
+    }
+  }
+  if (source.hostname !== "www.ecb.europa.eu") return;
+  const conference = /^\/press\/press_conference\/monetary-policy-statement\/(\d{4})\/html\/(?:ecb\.)?is(\d{6})(?:~[a-f0-9]+)?\.[a-z]{2}\.html$/.exec(source.pathname);
+  const statement = /^\/press\/pr\/date\/(\d{4})\/html\/ecb\.mp(\d{6})(?:~[a-f0-9]+)?\.[a-z]{2}\.html$/.exec(source.pathname);
+  const match = conference || statement;
+  if (match && match[1] === stamp.slice(0, 4) && match[2] === stamp.slice(2)) {
+    return {bank: "ecb", window: conference ? "conference" : "statement"};
+  }
+}
+
+async function showMarketWindow(note, revision) {
+  const identity = identifyEventSource(note);
+  if (!identity) return;
+  eventBanks ??= fetch("data/market-events.json").then(response => {
+    if (!response.ok) throw Error(response.status);
+    return response.json();
+  }).then(data => Array.isArray(data.banks) ? data.banks : []).catch(() => {
+    eventBanks = undefined;
+    return [];
+  });
+  const banks = await eventBanks;
+  if (selection !== revision) return;
+  const bank = banks.find(item => item.id === identity.bank);
+  if (!Array.isArray(bank?.events) || !Array.isArray(bank.assets) || !bank.windows?.[identity.window]) return;
+  const values = bank.events.find(event => event.date === note.date)?.windows?.[identity.window];
+  if (!values) return;
+  const instruments = bank.id === "fed" ? ["UST2Y", "UST10Y", "EURUSD", "SP500"] : ["DE2Y", "DE10Y", "EURUSD", "STOXX50"];
+  const measured = instruments.map(id => bank.assets.find(asset => asset.id === id))
+    .filter(asset => asset && Number.isFinite(values[asset.id]));
+  if (!measured.length) return;
+  const moves = document.createDocumentFragment();
+  for (const asset of measured) {
+    const cell = document.createElement("div");
+    const figure = new Intl.NumberFormat("en-GB", {minimumFractionDigits: 2, maximumFractionDigits: 2, signDisplay: "exceptZero"}).format(values[asset.id]);
+    cell.append(node("dt", asset.label), node("dd", figure + (asset.unit === "bp" ? " bp" : "%")));
+    moves.append(cell);
+  }
+  byId("note-moves").replaceChildren(moves);
+  byId("note-window").textContent = (identity.window === "conference" ? "Press conference" : "Policy statement") + " · " + bank.windows[identity.window];
+  byId("note-window-source").textContent = bank.sourceLabel;
+  byId("note-window-source").href = bank.source;
+  const params = new URLSearchParams({bank: bank.id, window: identity.window, date: note.date, asset: measured[0].id});
+  byId("note-event-link").href = "market-reactions.html?" + params;
+  byId("note-market").hidden = false;
+}
+
 async function showNote(header, unavailable = false) {
   const revision = ++selection;
+  byId("note-market").hidden = true;
   const status = byId("note-status");
   const article = byId("manuscript");
   article.hidden = true;
@@ -63,6 +141,7 @@ async function showNote(header, unavailable = false) {
     li.append(node("h4", item.question), node("p", item.detail));
     return li;
   }));
+  showMarketWindow(note, revision);
   const limitation = byId("note-limitation");
   limitation.hidden = !note.limitation;
   limitation.textContent = note.limitation ? "Coverage · " + note.limitation : "";

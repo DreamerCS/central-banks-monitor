@@ -315,6 +315,90 @@
     "file": "2026-01-02-a89182130b.json"
   },
   {
+    "title": "Pan identifies a short-rate anchor as China’s credit aggregates lose information",
+    "bank": "People’s Bank of China",
+    "date": "2024-06-19",
+    "url": "https://www.bis.org/review/r240621c.htm",
+    "file": "2024-06-19-f37e7952e2.json"
+  },
+  {
+    "title": "Japan exits negative rates while retaining a buyer for government bonds",
+    "bank": "Bank of Japan",
+    "date": "2024-03-19",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2024/k240319a.htm",
+    "file": "2024-03-19-3dc2330d53.json"
+  },
+  {
+    "title": "The Bank of England buys long gilts while keeping the inflation decision open",
+    "bank": "Bank of England",
+    "date": "2022-09-28",
+    "url": "https://www.bankofengland.co.uk/news/2022/september/bank-of-england-announces-gilt-market-operation",
+    "file": "2022-09-28-860008bf2f.json"
+  },
+  {
+    "title": "The Fed makes asset purchases depend on market functioning at the effective lower bound",
+    "bank": "Federal Open Market Committee",
+    "date": "2020-03-23",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323a.htm",
+    "file": "2020-03-23-2d11bbd51c.json"
+  },
+  {
+    "title": "Japan puts a price on ten-year money and a condition on the exit",
+    "bank": "Bank of Japan",
+    "date": "2016-09-21",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2016/k160921a.pdf",
+    "file": "2016-09-21-7007ea953c.json"
+  },
+  {
+    "title": "The ECB puts a monthly price on the fight against falling inflation expectations",
+    "bank": "European Central Bank",
+    "date": "2015-01-22",
+    "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2015/html/is150122.en.html",
+    "file": "2015-01-22-3bf8300f34.json"
+  },
+  {
+    "title": "The Fed waits for a recovery that can withstand higher mortgage rates",
+    "bank": "Federal Reserve",
+    "date": "2013-09-18",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20130918a.htm",
+    "file": "2013-09-18-f5f0de2b55.json"
+  },
+  {
+    "title": "Bernanke sets different tests for slowing purchases and raising rates",
+    "bank": "Federal Reserve",
+    "date": "2013-05-22",
+    "url": "https://www.federalreserve.gov/newsevents/testimony/bernanke20130522a.htm",
+    "file": "2013-05-22-0774a2364b.json"
+  },
+  {
+    "title": "What could the ECB remove from a sovereign spread?",
+    "bank": "European Central Bank",
+    "date": "2012-09-06",
+    "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2012/html/is120906.en.html",
+    "file": "2012-09-06-3929e40349.json"
+  },
+  {
+    "title": "The Fed targets mortgage spreads with up to $600 billion of agency purchases",
+    "bank": "Board of Governors of the Federal Reserve System",
+    "date": "2008-11-25",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm",
+    "file": "2008-11-25-3b8eb07a0a.json"
+  },
+  {
+    "title": "When money markets stop trading: Carney on credit supply and the need for further easing",
+    "bank": "Bank of Canada",
+    "date": "2008-11-19",
+    "url": "https://www.bankofcanada.ca/2008/11/building-continuous-markets/",
+    "file": "2008-11-19-f47b6c6ba1.json"
+  },
+  {
+    "title": "China changes how the renminbi can move from one trading day to the next",
+    "bank": "People’s Bank of China",
+    "date": "2005-07-21",
+    "url": "https://www.safe.gov.cn/safe/2005/0721/24199.html",
+    "file": "2005-07-21-b0b930454b.json"
+  },
+  {
     "title": "Moskow expects slower US spending to make room for stronger exports",
     "bank": "Federal Reserve Bank of Chicago",
     "date": "2000-01-12",

@@ -40,3 +40,12 @@
   .note-index ol{display:none}
 }
 @media print{.cbi-head,.note-index,.note-permalink,.skip-link{display:none}.note-layout:not([hidden]){display:block}.note-shell{padding:0}#manuscript{max-width:none}}
+
+.note-market{border-block:1px solid var(--line);padding:18px 0;margin:28px 0}
+.note-market h3{font:400 1.55rem/1.2 var(--serif);margin:0 0 8px}
+.note-market p,.note-market dt,.note-market a{color:var(--muted);font:.82rem/1.5 Arial,sans-serif}
+.note-market p{margin:5px 0}
+.note-market dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:10px 14px;margin:13px 0}
+.note-market dd{margin:2px 0;font:1.22rem/1.2 ui-monospace,monospace}
+.note-market>div{display:flex;flex-wrap:wrap;gap:12px 20px}
+.note-market a{text-underline-offset:3px}

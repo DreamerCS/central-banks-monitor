@@ -1,0 +1,27 @@
+{
+  "title": "The Fed targets mortgage spreads with up to $600 billion of agency purchases",
+  "bank": "Board of Governors of the Federal Reserve System",
+  "date": "2008-11-25",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm",
+  "summary": [
+    "At 8:15 a.m. Eastern on 25 November, the Federal Reserve announced a programme aimed at lowering the cost of credit for buying a home and making that credit easier to obtain. Its diagnosis was unusually specific. The spreads on housing agencies' own borrowing and on mortgages carrying agency guarantees had both widened. A mortgage borrower could consequently face higher financing costs relative to a benchmark even without a corresponding increase in that benchmark. The Fed chose securities linked directly to those two sources of pressure. It also saw a healthier housing market as a route to improving financial conditions more generally.",
+    "The larger commitment covered up to $500 billion of mortgage-backed securities backed by Fannie Mae, Freddie Mac and Ginnie Mae. The Fed intended to select asset managers competitively and aimed to begin purchases before year-end. The other commitment covered up to $100 billion of direct obligations issued by Fannie Mae, Freddie Mac and the Federal Home Loan Banks. Purchases in that programme were to start the following week through competitive auctions with primary dealers. Two names appear on both lists, but the securities play different roles. Buying an agency's own obligations addresses the market in which the institution funds itself. Buying mortgage pools addresses the market in which qualifying mortgages are sold to investors.",
+    "The distinction gives a researcher two separate transmission questions. If the additional buyer improves agency funding terms, how much of the benefit reaches the financing of housing? If investors accept lower yields on agency-backed mortgages, how much of that change do lenders reflect in new loan offers? The release specifies the desired outcomes of cheaper credit and greater availability. A fall in one price might coexist with little change in which households qualify or how many loans lenders are prepared to make. The two outcomes need separate measures.",
+    "The maximum amounts add to $600 billion, with five-sixths of the combined ceiling allocated to MBS. Both programmes were expected to run over several quarters, and the Fed left further operational details to consultation with market participants. The quantities therefore describe authorised scale and the intended allocation of purchases. The release records widening spreads before the decision and gives intended starting windows afterwards. It contains no observation of the subsequent change in yields, actual purchases or mortgage rates paid by borrowers. In a historical policy series the dated event is the announcement of prospective demand for these assets. Actual operations and changes in credit terms require their own observation dates."
+  ],
+  "questions": [
+    {
+      "question": "Did the announcement reprice the securities most directly affected?",
+      "detail": "Compare agency debt and mortgage security quotes immediately before and after 8:15 a.m. with contemporaneous benchmark yields, allowing for differences in maturity and the expected timing of mortgage repayments. Check the news calendar for overlapping announcements. A concentrated relative move in eligible securities would give more support to a targeted purchase channel than a parallel move across the full yield curve."
+    },
+    {
+      "question": "Would cheaper wholesale funding improve terms for the households seeking loans?",
+      "detail": "Compare mortgage rates, points, fees, approvals and amounts offered on otherwise similar applications. Separate rates quoted on new purchases from refinancing offers and track how long lenders take to update them. A falling MBS yield together with little change in loan offers would place the weak link between wholesale securities and mortgage origination. Broader approvals at comparable borrower risk would support the separate credit-availability objective."
+    },
+    {
+      "question": "Did the initial commitment and subsequent execution affect the market at different times?",
+      "detail": "Construct distinct dates for the announcement, auction schedules, first purchases and settlement of each programme. Compare responses before trading begins with changes around individual operations. The agency debt and MBS programmes had different proposed starts and buyers. Treating every change after 25 November as one event would obscure whether prices responded to expected future demand, actual trading, or unrelated developments during the following quarters."
+    }
+  ],
+  "limitation": ""
+}
