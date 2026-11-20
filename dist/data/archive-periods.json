@@ -1,4 +1,6 @@
 [
+  {"id": "jun", "label": "June", "start": "2026-06-01", "end": "2026-06-30"},
+  {"id": "jul", "label": "July", "start": "2026-07-01", "end": "2026-07-31"},
   {"id": "aug", "label": "August", "start": "2026-08-01", "end": "2026-08-31"},
   {"id": "sep", "label": "September", "start": "2026-09-01", "end": "2026-09-30"},
   {"id": "oct", "label": "October", "start": "2026-10-01", "end": "2026-10-31"},

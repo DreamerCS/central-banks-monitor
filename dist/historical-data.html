@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10283b">
+  <meta name="description" content="Compare central bank policy rates and explore publications by year, month, week or day.">
+  <title>Historical Data | Central Bank Intelligence</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="historical-data.css">
+  <script src="historical-data.js" type="module"></script>
+</head>
+<body class="history-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="shell history-nav">
+      <a href="./">Central Bank Intelligence</a>
+      <nav aria-label="Main navigation">
+        <a href="./#world-map">World map</a>
+        <a href="research-archive.html?month=jul#jul">Monthly archive</a>
+        <a href="historical-data.html" aria-current="page">Historical data</a>
+      </nav>
+    </div>
+  </header>
+  <main class="shell history-shell" id="main">
+    <div class="history-intro">
+      <div>
+        <p class="history-eyebrow">Policy and communications</p>
+        <h1>Central banks over time<span>.</span></h1>
+        <p>Compare policy cycles from 2000 through 2026, then zoom in to a month, week or day.</p>
+      </div>
+      <a href="research-archive.html?month=jun#jun">Explore the June–July archive</a>
+    </div>
+    <p id="history-load" class="history-load" role="status">Loading historical data…</p>
+    <div id="history-explorer" hidden>
+      <div class="history-metrics" role="group" aria-label="Chart metric">
+        <button type="button" data-metric="rates" aria-pressed="true">Policy rates</button>
+        <button type="button" data-metric="publications" aria-pressed="false">Archived publications</button>
+        <button type="button" data-metric="neer" aria-pressed="false">Singapore NEER</button>
+      </div>
+      <section class="history-panel" aria-labelledby="chart-title">
+        <div class="history-toolbar">
+          <div class="history-field">
+            <span id="grain-label">Frequency</span>
+            <div class="history-buttons" role="group" aria-labelledby="grain-label">
+              <button type="button" data-grain="year" aria-pressed="true">Year</button>
+              <button type="button" data-grain="month" aria-pressed="false">Month</button>
+              <button type="button" data-grain="week" aria-pressed="false">Week</button>
+              <button type="button" data-grain="day" aria-pressed="false">Day</button>
+            </div>
+          </div>
+          <label class="history-field">From <input type="date" id="history-from"></label>
+          <label class="history-field">To <input type="date" id="history-to"></label>
+          <div class="history-range" role="group" aria-label="Date range shortcuts">
+            <button type="button" data-range="all" aria-pressed="true">Full range</button>
+            <button type="button" data-range="five" aria-pressed="false">5 years</button>
+            <button type="button" data-range="recent" aria-pressed="false">Jun–Jul 2026</button>
+          </div>
+        </div>
+        <div class="history-body">
+          <div class="history-plot">
+            <div class="history-plot-header">
+              <div><h2 id="chart-title">Policy rates</h2><p id="chart-unit"></p></div>
+              <button id="history-export" class="history-export" type="button">Download CSV</button>
+            </div>
+            <div class="history-chart">
+              <canvas id="history-canvas" tabindex="0" aria-labelledby="chart-title" aria-describedby="chart-hint chart-status"></canvas>
+              <div id="history-cursor" aria-hidden="true" hidden></div>
+            </div>
+            <p id="chart-status" class="history-chart-status" role="status"></p>
+            <p id="chart-hint" class="history-chart-hint">Point to a period or use the left and right arrow keys to inspect values.</p>
+            <div class="history-inspector">
+              <div><h3 id="inspector-period"></h3><small id="inspector-label"></small></div>
+              <div id="inspector-values" class="history-values"></div>
+            </div>
+          </div>
+          <aside id="history-compare" class="history-compare" aria-labelledby="compare-title">
+            <h3 id="compare-title">Compare jurisdictions</h3>
+            <label class="history-field" for="bank-select">Add a jurisdiction</label>
+            <select id="bank-select"></select>
+            <ul id="history-legend" class="history-legend"></ul>
+          </aside>
+        </div>
+      </section>
+      <section class="history-method" aria-labelledby="history-method-title">
+        <div>
+          <h2 id="history-method-title">Data sources</h2>
+          <p id="history-method-note"></p>
+          <p id="history-series-note"></p>
+        </div>
+        <div id="history-sources" class="history-sources"></div>
+      </section>
+    </div>
+    <noscript><p>Enable JavaScript to explore the series or download them from the <a href="https://data.bis.org/topics/CBPOL">BIS Data Portal</a>.</p></noscript>
+  </main>
+</body>
+</html>

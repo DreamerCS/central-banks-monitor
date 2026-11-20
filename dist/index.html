@@ -8,20 +8,19 @@
   <title>Central Bank Intelligence — Source Atlas</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
-  <script src="app.js" defer></script>
+  <script src="app.js?v=2" defer></script>
   <link rel="stylesheet" href="world-map.css">
-  <script src="world-map.js" defer></script>
+  <script src="world-map.js?v=2" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="utility"><div class="shell utility-inner"><span class="signal"></span><span>THE POLICY RECORD, IN CONTEXT</span><span class="utility-date">PUBLIC RESEARCH PROTOTYPE / SOURCE ATLAS</span></div></div>
   <header class="masthead">
     <div class="shell masthead-inner">
       <a href="#top" class="brand" aria-label="Central Bank Intelligence home">
         <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M2 46V2h44"/><path d="m9 35 10-12 9 6 12-17"/><circle cx="40" cy="12" r="2"/></svg></span>
         <span><strong>Central Bank<br>Intelligence</strong><small>RESEARCH SOURCE ATLAS</small></span>
       </a>
-      <nav aria-label="Main navigation"><a href="#world-map">World map</a><a href="#coverage">Coverage</a><a href="#atlas">Sources</a><a href="#lab">Analysis</a><a href="#index">Index</a><a href="research-archive.html">Monthly archive</a></nav>
+      <nav aria-label="Main navigation"><a href="#world-map">World map</a><a href="#coverage">Coverage</a><a href="#atlas">Sources</a><a href="#index">U.S. rates</a><a href="research-archive.html">Monthly archive</a><a href="historical-data.html">Historical data</a></nav>
     </div>
   </header>
   <main id="main">
@@ -43,18 +42,15 @@
           <div id="map-selection" class="map-selection"></div>
         </div>
       </div>
-      <p class="map-footnote" id="map-feed-status"></p>
-      <p class="map-footnote"><a href="source-coverage.html">View official source checks and archive gaps</a></p>
       <p class="map-footnote"><a href="https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/" target="_blank" rel="noopener noreferrer">Map geometry: Natural Earth</a>. Pins follow the research register’s jurisdiction list.</p>
     </section>
     <section class="hero" id="top">
       <div class="shell hero-grid">
         <div class="hero-copy">
-          <div class="eyebrow"><span class="rule"></span> A RESEARCH WORKSPACE / 01</div>
           <h1>Central banks,<br><em>in context.</em></h1>
-          <p class="lead">Follow the official record behind monetary policy. Explore publications, speeches and research across the full 29-jurisdiction target universe.</p>
-          <p class="hero-note">A source atlas and transparent analysis prototype. Daily benchmark rates are dated; speech scores remain unpublished until the team's model is validated.</p>
+          <p class="lead">Explore central bank decisions, speeches and research across 29 jurisdictions. Compare policy rates and browse publications by date.</p>
           <a class="button" href="research-archive.html">Open the monthly archive <span aria-hidden="true">↗</span></a>
+          <a class="history-entry" href="historical-data.html">Compare historical policy rates</a>
         </div>
         <div class="hero-art" aria-label="Abstract line illustration of connected policy signals" role="img">
           <span class="art-top">POLICY / EVIDENCE / MARKETS</span>
@@ -66,20 +62,17 @@
             <g fill="#d0bd9a"><circle cx="253" cy="340" r="5"/><circle cx="436" cy="208" r="5"/></g>
             <circle cx="340" cy="270" r="8" fill="#d9ece8"/>
           </svg>
-          <div class="art-caption"><span>01 — PRIMARY SOURCES</span><strong>Trace the signal<br>to its origin.</strong></div>
+          <div class="art-caption"><strong>Central bank publications<br>and policy data.</strong></div>
         </div>
       </div>
     </section>
-    <div class="metric-band"><div class="shell metrics"><div><b id="source-total">105</b><span>SOURCE PAGES</span></div><div><b id="bank-total">45</b><span>INSTITUTIONS</span></div><div><b>29</b><span>JURISDICTIONS</span></div><p>Original register dated 26 October 2026<br><a href="source-coverage.html">Daily source checks and archive review</a></p></div></div>
+    <div class="metric-band"><div class="shell metrics"><div><b id="source-total">93</b><span>SOURCE PAGES</span></div><div><b id="bank-total">45</b><span>INSTITUTIONS</span></div><div><b>29</b><span>JURISDICTIONS</span></div><p><a href="source-coverage.html">Browse sources by jurisdiction</a></p></div></div>
     <section id="coverage" class="coverage shell">
-      <div class="section-kicker">RESEARCH UNIVERSE / 02</div>
-      <div class="section-heading"><div><h2>The coverage map<span>.</span></h2><p>The 29 jurisdictions requested for the sentiment index.</p></div><div class="section-number">29 LINKED / 29 TARGETS</div></div>
-      <div class="coverage-intro"><strong>29</strong><p>target jurisdictions have official directory links and dated research entries. See the <a href="source-coverage.html">source checks</a> for the publications the monitor can read and the gaps identified in the monthly archive.</p></div>
-      <div id="coverage-grid" class="coverage-grid" aria-label="Target jurisdictions and source status"></div>
+      <div class="section-heading"><div><h2>Jurisdiction coverage<span>.</span></h2><p>Central bank publication sources in the directory.</p></div></div>
+      <div id="coverage-grid" class="coverage-grid" aria-label="Jurisdictions and source counts"></div>
     </section>
     <section id="atlas" class="atlas shell">
-      <div class="section-kicker">EXPLORE SOURCES / 03</div>
-      <div class="section-heading"><div><h2>The source atlas<span>.</span></h2><p>Start from the institution, then follow the original publication page.</p></div><div class="section-number">105 / SOURCES</div></div>
+      <div class="section-heading"><div><h2>Central bank sources<span>.</span></h2><p>Find policy decisions, speeches and research at the issuing institution.</p></div></div>
       <div class="atlas-layout">
         <aside class="filters" aria-label="Filter sources">
           <label for="search">SEARCH THE DIRECTORY</label>
@@ -87,7 +80,6 @@
           <fieldset><legend>REGION</legend><div id="region-filters" class="filter-options"></div></fieldset>
           <fieldset><legend>PUBLICATION TYPE</legend><div id="category-filters" class="filter-options"></div></fieldset>
           <button id="reset" class="reset" type="button">Clear all filters ↗</button>
-          <div class="filter-note"><span class="status-dot"></span><strong>Coverage note</strong><p>The register combines catalogued and proposed links. Neither label confirms continuous monitoring, publication completeness or permission to republish source text.</p></div>
         </aside>
         <div class="results">
           <div class="result-toolbar"><p id="results-count" role="status" aria-live="polite">Loading sources…</p><label for="sort">SORT <select id="sort"><option value="institution">Institution A–Z</option><option value="country">Country A–Z</option><option value="category">Publication type</option></select></label></div>
@@ -96,16 +88,20 @@
         </div>
       </div>
     </section>
-    <section id="lab" class="lab"><div class="shell"><div class="section-kicker">ANALYSIS FRAMEWORK / 04</div><div class="section-heading"><div><h2>Read the source. Trace the view<span>.</span></h2><p>Apply the supplied source-only research prompt to reports and central-bank communication.</p></div></div>
-      <div class="analysis-grid"><article><span>01 / DOCUMENT RESEARCH</span><h3>Evidence and questions</h3><p>For reports, speeches and policy publications, use the supplied prompt's core checks: read the entire source, anchor forecasts to its date, distinguish the speaker's view from consensus and market pricing, inspect charts and qualifications, cite passages or pages, and rank the unresolved investment questions. Adapt the report-specific output length to the document type.</p><small>STATUS · SPECIFICATION DEFINED · DOCUMENT ANALYSIS BACKEND NOT CONNECTED</small></article><article><span>02 / CENTRAL BANK SPEECHES</span><h3>Stance and shift</h3><p>After source-grounded analysis, a separate validated rubric must score policy stance, change from prior communication and confidence. Keep speaker, original text, release time, quoted evidence, model version and analyst review status attached to every score.</p><small>STATUS · MODEL INTEGRATION PENDING · NO SCORES PUBLISHED</small></article></div>
-      <p class="analysis-note">The reference books guide questions about cycles, policy transmission, funding and cross-asset pricing; their empirical claims do not become facts in a source-only summary. A numeric hawkish/dovish score requires a separate rubric. Market observations are a later, timestamped evidence layer.</p>
-    </div></section>
-    <section id="index" class="index shell"><div class="section-kicker">MARKET EVENT STUDY / 05</div><div class="section-heading"><div><h2>Words and markets<span>.</span></h2><p>Align speech timestamps, sentiment scores and market observations before drawing conclusions.</p></div></div><div class="index-grid"><div><h3>What the index needs</h3><p>An event record should keep the speech URL, speaker, precise time and time zone, model version, level score, change from the speaker's prior speech, and whether the text was available before the market move.</p><p>For US speeches, compare the score with the 2-year Treasury yield and other selected assets using predeclared windows. A daily close may include many other news events, so it cannot isolate the speech reaction.</p></div><div class="index-panel"><span>INDEX STATUS</span><strong>Awaiting verified scores</strong><p>The Treasury daily benchmark below is a background series. A time-series sentiment index still requires the team's model output, reviewed speech records and timestamped intraday asset data.</p><div class="index-steps"><span>01 · VALIDATE MODEL</span><span>02 · ALIGN TIMESTAMPS</span><span>03 · ESTIMATE RESPONSE</span></div></div></div>
-      <div class="treasury-panel" aria-labelledby="treasury-title"><div class="treasury-heading"><div><span class="section-kicker">OFFICIAL DAILY BENCHMARK</span><h3 id="treasury-title">The U.S. rates backdrop.</h3><p>Two-year and ten-year Treasury par yields. The 2s10s spread is ten-year minus two-year. This is a daily close reference, not a live or intraday speech reaction.</p></div><a href="https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics" target="_blank" rel="noopener noreferrer">Treasury methodology ↗</a></div><div class="treasury-stats"><div><span>US 2Y</span><strong id="yield-2y">—</strong></div><div><span>US 10Y</span><strong id="yield-10y">—</strong></div><div><span>10Y − 2Y</span><strong id="yield-spread">—</strong></div></div><p id="treasury-asof" class="asof" role="status">Checking the dated Treasury series…</p><div id="treasury-chart" class="treasury-chart" role="img" aria-label="Daily two-year and ten-year Treasury yields over recent observations"></div><div class="chart-legend"><span><i></i> 2-year</span><span><i></i> 10-year</span></div></div>
+    <section id="index" class="index shell">
+      <div class="section-heading"><div><h2>U.S. Treasury yields<span>.</span></h2><p>Daily two-year and ten-year benchmark par yields.</p></div></div>
+      <div class="treasury-panel" aria-labelledby="treasury-title"><div class="treasury-heading"><div><h3 id="treasury-title">Treasury par yield curve</h3><p>The 2s10s spread is the ten-year yield minus the two-year yield.</p></div><a href="https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics" target="_blank" rel="noopener noreferrer">U.S. Treasury data</a></div><div class="treasury-stats"><div><span>US 2Y</span><strong id="yield-2y">—</strong></div><div><span>US 10Y</span><strong id="yield-10y">—</strong></div><div><span>10Y − 2Y</span><strong id="yield-spread">—</strong></div></div><p id="treasury-asof" class="asof" role="status">Loading Treasury yields…</p><div id="treasury-chart" class="treasury-chart" role="img" aria-label="Daily two-year and ten-year Treasury yields over recent observations"></div><div class="chart-legend"><span><i></i> 2-year</span><span><i></i> 10-year</span></div></div>
       <div class="event-tool"><div><span class="section-kicker">LOCAL EVENT CALCULATOR</span><h3>Before and after a speech.</h3><p>Load your own timestamped observations as a CSV with <code>timestamp_utc,asset,value</code>. This runs in your browser. For a yield in percentage points, the result is also shown in basis points.</p><a href="market-template.csv" download>Download blank CSV template ↧</a></div><div class="event-form"><label for="market-file">MARKET CSV</label><input id="market-file" type="file" accept=".csv,text/csv"><label for="event-time">SPEECH TIME (UTC)</label><input id="event-time" type="datetime-local"><label for="asset-filter">ASSET NAME IN CSV</label><input id="asset-filter" type="text" value="US 2Y yield"><label for="event-window">MAXIMUM GAP EACH SIDE</label><select id="event-window"><option value="60">60 minutes</option><option value="240">4 hours</option><option value="1440">24 hours</option><option value="4320">3 days</option></select><button id="run-event" class="button" type="button">Calculate change <span aria-hidden="true">→</span></button><p id="event-result" role="status" aria-live="polite">Add a CSV and event time to calculate.</p></div></div>
     </section>
-    <section id="method" class="method"><div class="shell"><div class="section-kicker light">THE RESEARCH LENS / 06</div><div class="method-grid"><div><h2>From policy words<br>to better questions<span>.</span></h2><p>Central bank publications are evidence. Market interpretation needs a separate, explicit step.</p></div><ol><li><span>01</span><div><h3>Find the original</h3><p>Read the dated statement, speech or research paper at the issuing institution.</p></div></li><li><span>02</span><div><h3>Separate level and change</h3><p>Distinguish the current policy stance from a shift relative to earlier communication.</p></div></li><li><span>03</span><div><h3>Test the market channel</h3><p>Form a hypothesis for rates, foreign exchange or risk assets, then check pricing and competing explanations.</p></div></li></ol></div></div></section>
-    <section id="about" class="about shell"><div class="section-kicker">ABOUT THIS EDITION / 07</div><div class="about-grid"><h2>A transparent<br>starting point<span>.</span></h2><div><p>This public prototype uses the 26 October 2026 source register snapshot, expanded on 18 November for all 29 requested jurisdictions. It links to external institutions; no central bank endorses this site.</p><p>The site's dated Treasury benchmark is fetched from an official daily feed. It does not publish the team's model, proprietary research, live policy scores, intraday market prices or a daily briefing. “RSS / Atom” identifies a feed URL in the register, not proof that the feed is working today. Always verify dates and content at the original source.</p><a href="https://github.com/DreamerCS/central-banks-monitor" id="repo-link" target="_blank" rel="noopener noreferrer">View the source code ↗</a></div></div></section>
+    <section id="about" class="about shell">
+      <div class="about-grid">
+        <h2>Data sources<span>.</span></h2>
+        <div>
+          <p>Central bank decisions, minutes, speeches and reports are linked to the issuing institution. The historical policy rate series draw on central bank data compiled by the Bank for International Settlements and the Taiwan central bank’s discount rate schedule.</p>
+          <a href="historical-data.html">Explore historical data</a>
+        </div>
+      </div>
+    </section>
   </main>
   <footer><div class="shell footer-inner"><div><strong>CBI<span>.</span></strong><small>Central Bank Intelligence · Source Atlas</small></div><p>Primary sources. Careful interpretation.</p><a href="#top">Back to top ↑</a></div></footer>
 </body>

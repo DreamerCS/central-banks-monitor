@@ -11,7 +11,6 @@
   const details = find("map-selection");
   const status = find("map-status");
   const datePicker = find("map-day");
-  const feedStatus = find("map-feed-status");
 
   const regions = {
     World: {bounds: [-180, -57, 180, 83], colour: "#406477"},
@@ -24,7 +23,7 @@
   };
   const dayIndex = new Map();
   const todayUtc = () => new Date().toISOString().slice(0, 10);
-  const state = {region: "World", bank: null, day: "", latest: "", map: null, checked: null, sources: {}, archivePeriods: []};
+  const state = {region: "World", bank: null, day: "", latest: "", map: null, revision: null, archivePeriods: []};
   let paths = [];
   let layoutSignature = "";
   let pulseDay = "";
@@ -85,7 +84,7 @@
       const row = element("li");
       row.append(element("small", item.type), link);
       const period = item.archive && state.archivePeriods.find(({start, end}) => start <= item.day && item.day <= end);
-      if (period) row.append(archiveLink(bank, period.id, "Read analysis", item.title));
+      if (period) row.append(archiveLink(bank, period.id, "Open in archive", item.title));
       list.append(row);
     }
     if (items.length > limit) {
@@ -156,12 +155,9 @@
       details.append(element("h4", bank.name));
       if (items.length) renderEvents(items, bank, 8);
       else details.append(element("p", "No publications recorded for this date."));
-      if (!state.sources[bank.name]?.[0]) {
-        details.append(element("p", "Activity shown here comes from the curated archive.", "map-scope"));
-      }
       const links = element("div", "", "map-archive-links");
       for (const period of state.archivePeriods) {
-        links.append(archiveLink(bank, period.id, `${period.label} analysis`));
+        links.append(archiveLink(bank, period.id, period.label));
       }
       details.append(links);
     } else {
@@ -172,14 +168,6 @@
     }
     paint();
 
-    if (state.checked) {
-      const feeds = Object.values(state.sources);
-      const ok = feeds.reduce((total, values) => total + values[0], 0);
-      const total = feeds.reduce((total, values) => total + values[1], 0);
-      const checked = new Date(state.checked);
-      const stale = Date.now() - checked.getTime() > 36 * 60 * 60 * 1000;
-      feedStatus.textContent = `${ok}/${total} official feeds and listings read across ${feeds.filter(([success]) => success > 0).length}/29 jurisdictions. Checked ${checked.toISOString().slice(0, 16).replace("T", " ")} UTC${stale ? " (older than 36 hours)" : ""}.`;
-    }
   }
 
   function fit(bounds, width, height) {
@@ -348,8 +336,7 @@
     const days = [...new Set([today, ...dayIndex.keys()])].filter((day) => day <= today).sort().reverse();
     state.latest = days.find((day) => dayIndex.has(day)) ?? today;
     state.day = keepOlderDay && days.includes(state.day) ? state.day : state.latest;
-    state.checked = snapshot.checkedAt;
-    state.sources = snapshot.sources;
+    state.revision = snapshot.revision;
     datePicker.replaceChildren();
     for (const day of days) {
       const note = day === today ? " · Today (UTC)" : day === state.latest ? " · Latest recorded" : "";
@@ -365,12 +352,12 @@
   async function refreshActivity() {
     try {
       const snapshot = await getJSON("data/world-map-activity.json");
-      if (snapshot.checkedAt !== state.checked || todayUtc() !== datePicker.options[0]?.value) {
+      if (snapshot.revision !== state.revision || todayUtc() !== datePicker.options[0]?.value) {
         useSnapshot(snapshot);
         render();
       }
-    } catch {
-      feedStatus.textContent = "The latest activity snapshot could not be refreshed.";
+    } catch (error) {
+      console.warn("Publication refresh unavailable", error);
     }
   }
 
@@ -389,10 +376,7 @@
       state.map = results[0].value;
       state.archivePeriods = results[2].value ?? [];
       if (results[1].status === "fulfilled") useSnapshot(results[1].value);
-      else {
-        state.day = todayUtc();
-        feedStatus.textContent = "Recent publications are temporarily unavailable. Archive links are still available.";
-      }
+      else state.day = todayUtc();
       render();
       new ResizeObserver(paint).observe(stage);
       setInterval(refreshActivity, 15 * 60 * 1000);

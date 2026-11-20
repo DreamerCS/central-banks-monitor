@@ -1,150 +1,51 @@
 "use strict";
 
-const select = (id) => document.getElementById(id);
-const params = new URLSearchParams(window.location.search);
-const monthFormatter = new Intl.DateTimeFormat("en-GB", {month: "long", timeZone: "UTC"});
-const monthName = (month) => monthFormatter.format(new Date(`${month}-01T00:00:00Z`));
-
-function node(tag, value) {
-  const element = document.createElement(tag);
-  if (value) element.textContent = value;
-  return element;
-}
-
-function primaryLink(url, label) {
-  const link = node("a", label);
-  link.href = url;
-  link.target = "_blank";
-  link.rel = "noopener noreferrer";
-  return link;
-}
-
-async function readData(path) {
-  const response = await fetch(`data/${path}.json`, {cache: "no-cache"});
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+async function loadCoverageData(name) {
+  const response = await fetch(`data/${name}.json`);
+  if (!response.ok) throw new Error(`${name} returned ${response.status}`);
   return response.json();
 }
 
-function table(headers, rows) {
-  const container = node("div");
-  container.className = "check-table";
-  const grid = node("table");
-  const heading = grid.createTHead().insertRow();
-  for (const text of headers) {
-    const header = node("th", text);
-    header.scope = "col";
-    heading.append(header);
+async function renderCoverage() {
+  const [{targets}, periods, records] = await Promise.all(
+    ["coverage", "archive-periods", "research-archive"].map(loadCoverageData),
+  );
+  const counts = new Map();
+  for (const {jurisdiction, date} of records) {
+    const key = `${jurisdiction}:${date.slice(0, 7)}`;
+    counts.set(key, (counts.get(key) ?? 0) + 1);
   }
-  const body = grid.createTBody();
-  for (const values of rows) {
+  const head = document.querySelector("#coverage-head");
+  for (const period of periods) {
+    const cell = document.createElement("th");
+    cell.scope = "col";
+    cell.textContent = period.label;
+    head.append(cell);
+  }
+  const body = document.querySelector("#coverage-rows");
+  const sorted = [...targets].sort((a, b) => a.name.localeCompare(b.name));
+  for (const target of sorted) {
     const row = body.insertRow();
-    for (const value of values) row.insertCell().append(value);
-  }
-  container.append(grid);
-  return container;
-}
-
-function renderChecks(targets, checks, months) {
-  const container = select("source-checks");
-  for (const bank of targets) {
-    const channels = checks.filter((channel) => channel.bank === bank);
-    const read = channels.filter((channel) => channel.status === "Read").length;
-    const details = node("details");
-    const summary = node("summary", bank);
-    summary.append(node("span", channels.length
-      ? `${read}/${channels.length} channels read`
-      : "Directory links and archive only"));
-    details.append(summary);
-    details.open = bank === params.get("bank");
-    if (channels.length) {
-      const rows = channels.map((channel) => {
-        const name = node("div");
-        name.append(primaryLink(channel.url, channel.label), node("small", channel.institution));
-        return [name, channel.method, channel.status, channel.last ?? "—"];
-      });
-      details.append(table(["Official channel", "Method", "Last check", "Latest item returned"], rows));
+    const name = document.createElement("th");
+    name.scope = "row";
+    name.textContent = target.name;
+    row.append(name);
+    row.insertCell().textContent = target.sourceCount;
+    for (const period of periods) {
+      const count = counts.get(`${target.name}:${period.start.slice(0, 7)}`) ?? 0;
+      const link = document.createElement("a");
+      const params = new URLSearchParams({month: period.id, bank: target.name});
+      link.href = `research-archive.html?${params}#${period.id}`;
+      link.textContent = count;
+      link.setAttribute("aria-label", `${target.name}, ${period.label}: ${count} publications`);
+      row.insertCell().append(link);
     }
-    for (const [month, review] of months) {
-      const stats = review.monthly[month];
-      details.append(node("small", `${monthName(month)} · ${stats.indexed[bank] ?? 0} indexed · ${stats.review[bank] ?? 0} to review`));
-    }
-    container.append(details);
   }
+  document.querySelector(".coverage-scroll").hidden = false;
+  document.querySelector("#coverage-load").hidden = true;
 }
 
-function renderEurope(sources, checks) {
-  const channels = new Map(checks.map((channel) => [channel.url, channel]));
-  const entries = sources.filter((source) => source.workbook?.includes("Europe Policies & Models"));
-  const rows = entries.map((source) => {
-    const channel = channels.get(source.feed) ?? channels.get(source.url);
-    const status = channel ? `${channel.method} · ${channel.status}` : "Directory link";
-    const name = primaryLink(source.url, source.institution);
-    return [name, source.category, source.sourceType, status];
-  });
-  select("europe-register").append(table(["Institution", "Category", "Register entry", "Monitoring"], rows));
-}
-
-function renderReview(months, targets) {
-  const month = select("review-month");
-  const bank = select("review-bank");
-  const type = select("review-type");
-  const entries = select("review-entries");
-  for (const id of months.keys()) month.add(new Option(monthName(id), id));
-  for (const name of targets) bank.add(new Option(name, name));
-  const allTypes = new Set([...new Set(months.values())].flatMap((review) => review.items.map((item) => item.type)));
-  for (const kind of [...allTypes].sort()) {
-    type.add(new Option(kind, kind));
-  }
-  if (targets.includes(params.get("bank"))) bank.value = params.get("bank");
-  month.value = months.has(params.get("month")) ? params.get("month") : [...months.keys()].at(-1);
-  const update = () => {
-    const review = months.get(month.value);
-    const stats = review.monthly[month.value];
-    const sum = (counts) => Object.values(counts).reduce((total, count) => total + count, 0);
-    select("review-count").textContent = `${monthName(month.value)} · ${sum(stats.indexed)} indexed publications · ${sum(stats.review)} unmatched official links.`;
-    select("review-scope").textContent = `Checked ${review.inputsChecked} official channels for ${review.start} to ${review.end} on ${review.checkedAt.slice(0, 10)} UTC.`;
-    const filtered = review.items.filter((item) => item.day.startsWith(month.value) &&
-      (!bank.value || item.bank === bank.value) && (!type.value || item.type === type.value));
-    select("review-selection").textContent = filtered.length
-      ? `${filtered.length} unmatched links in this view.`
-      : "This check found no unmatched links for the selected filters.";
-    entries.replaceChildren(...filtered.map((item) => {
-      const li = node("li");
-      li.append(primaryLink(item.url, item.title), node("small",
-        `${item.day} · ${item.bank} · ${item.institution} · ${item.type}`));
-      return li;
-    }));
-  };
-  select("review-filters").addEventListener("change", update);
-  select("review-filters").hidden = false;
-  update();
-}
-
-async function start() {
-  const results = await Promise.allSettled([
-    readData("coverage"), readData("sources"), readData("world-map-activity"), readData("archive-review"),
-    readData("archive-review-aug-sep"),
-  ]);
-  const [coverage, directory, snapshot, late, early] = results.map((result) => result.value);
-  const months = new Map([early, late].filter(Boolean).flatMap((review) =>
-    Object.keys(review.monthly).map((month) => [month, review])
-  ));
-  const targets = (coverage?.targets ?? []).map((target) => target.name);
-  const checks = snapshot?.checks ?? [];
-  if (checks.length) {
-    const rss = checks.filter((channel) => channel.method === "RSS");
-    const pages = checks.filter((channel) => channel.method === "Listing");
-    const count = (set) => set.filter((channel) => channel.status === "Read").length;
-    const active = new Set(checks.filter((channel) => channel.status === "Read").map((channel) => channel.bank));
-    select("coverage-check").textContent = `${count(rss)}/${rss.length} RSS feeds and ${count(pages)}/${pages.length} official listings read across ${active.size}/29 jurisdictions on ${snapshot.checkedAt.slice(0, 10)} UTC.`;
-    if (targets.length) renderChecks(targets, checks, months);
-  } else {
-    select("coverage-check").textContent = "Daily check results are unavailable.";
-  }
-  if (months.size && targets.length) renderReview(months, targets);
-  else select("review-count").textContent = "The archive comparison is unavailable.";
-  if (directory) renderEurope(directory.sources, checks);
-  else select("europe-register").textContent = "Register entries are unavailable.";
-}
-
-start();
+renderCoverage().catch(error => {
+  document.querySelector("#coverage-load").textContent = "Could not load publication counts. Refresh the page to try again.";
+  console.error(error);
+});

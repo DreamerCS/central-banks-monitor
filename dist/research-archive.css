@@ -25,6 +25,9 @@
   line-height: 1.05;
 }
 .archive-intro p, .month-title p, .missing, .archive-results { color: #506b78; line-height: 1.6; }
+.archive-months { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+.archive-months a { padding: 8px 12px; border: 1px solid #c4d5d0; color: #275269; text-decoration: none; font-size: .9rem; }
+.archive-months a[aria-current] { background: #244d59; border-color: #244d59; color: #fff; }
 .archive-filters:not([hidden]) {
   display: flex;
   flex-wrap: wrap;

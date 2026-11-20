@@ -1,5 +1,6 @@
 """Check the requested research universe before publishing."""
 import json
+import math
 from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
@@ -25,10 +26,13 @@ assert len({item["institution"] for item in sources}) == 45
 for item in sources:
     assert urlparse(item["url"]).scheme == "https", item["id"]
     assert not item["feed"] or urlparse(item["feed"]).scheme == "https", item["id"]
-assert sum("Europe Policies & Models" in item.get("workbook", []) for item in sources) == 69
+    assert item.keys() == {"id", "institution", "country", "region", "category", "sourceType", "url", "feed"}, item["id"]
 
 periods = json.loads((ROOT / "archive-periods.json").read_text())
 records = json.loads((ROOT / "research-archive.json").read_text())
+for row in records:
+    assert row.keys() <= {"jurisdiction", "date", "institution", "title", "type", "url", "related"}, row["url"]
+    assert all(link.keys() == {"label", "url"} for link in row.get("related", [])), row["url"]
 assert len({period["id"] for period in periods}) == len(periods)
 for period in periods:
     start, end = (date.fromisoformat(period[key]) for key in ("start", "end"))
@@ -36,6 +40,23 @@ for period in periods:
     covered = {row["jurisdiction"] for row in records if period["start"] <= row["date"] <= period["end"]}
     assert covered == expected, f"{period['label']} archive is missing {', '.join(sorted(expected - covered))}"
 assert all(a["end"] < b["start"] for a, b in zip(periods, periods[1:]))
+
+history = json.loads((ROOT / "historical-series.json").read_text())
+start = date.fromisoformat(history["start"])
+through = date.fromisoformat(history["through"])
+assert start == date(2000, 1, 1) and through >= start
+assert {series["name"] for series in history["series"]} == expected
+assert len({series["id"] for series in history["series"]}) == len(history["series"]) == 29
+for series in history["series"]:
+    assert series["metric"] == ("neer" if series["name"] == "Singapore" else "rates"), series["id"]
+    assert urlparse(series["source"]).scheme == "https" and series["institution"], series["id"]
+    assert series["observations"], series["id"]
+    previous_end = 0
+    for offset, length, value in series["observations"]:
+        assert type(offset) is int and type(length) is int and length > 0, series["id"]
+        assert previous_end <= offset and offset + length - 1 <= (through - start).days, series["id"]
+        assert math.isfinite(value), series["id"]
+        previous_end = offset + length
 
 channels = json.loads((Path(__file__).with_name("monitored-sources.json")).read_text())
 assert len({row["id"] for row in channels}) == len({row["url"] for row in channels}) == len(channels)
@@ -45,4 +66,4 @@ for row in channels:
         assert {"entry", "link", "date"} <= row["listing"].keys(), row["id"]
         assert "title" in row["listing"] or "titleText" in row["listing"], row["id"]
 
-print(f"OK: {coverage['linkedCount']}/{coverage['targetCount']} targets; {len(sources)} unique HTTPS source entries")
+print(f"OK: {coverage['linkedCount']}/{coverage['targetCount']} targets; {len(sources)} unique HTTPS source entries; {len(history['series'])} historical series")

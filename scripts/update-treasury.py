@@ -44,7 +44,7 @@ def main():
     try:
         for y in (year - 1, year):
             url = f"{BASE}?data=daily_treasury_yield_curve&field_tdr_date_value={y}"
-            request = urllib.request.Request(url, headers={"User-Agent": "CentralBankIntelligence/1.0 (public research prototype)", "Accept": "application/atom+xml, application/xml"})
+            request = urllib.request.Request(url, headers={"User-Agent": "CentralBankIntelligence/1.0", "Accept": "application/atom+xml, application/xml"})
             with urllib.request.urlopen(request, timeout=25) as response:
                 merged.update(records(response.read(5_000_000)))
         if len(merged) < 20:
@@ -60,7 +60,6 @@ def main():
         "unit": "percent per annum",
         "benchmark": "U.S. Treasury daily par yield curve",
         "asOfDate": rows[-1]["date"],
-        "fetchedAtUtc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "observations": rows,
     }
     OUT.write_text(json.dumps(snapshot, ensure_ascii=False, separators=(",", ":")) + "\n")

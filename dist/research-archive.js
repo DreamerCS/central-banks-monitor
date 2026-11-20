@@ -1,152 +1,162 @@
 "use strict";
 
-const form = document.querySelector("#archive-filters");
-const bankFilter = document.querySelector("#bank-filter");
-const typeFilter = document.querySelector("#type-filter");
-const queryFilter = document.querySelector("#query-filter");
-const notesFilter = document.querySelector("#notes-filter");
-const viewFilter = document.querySelector("#view-filter");
-const result = document.querySelector("#archive-results");
-const months = [...document.querySelectorAll(".archive-month")];
-const monthLinks = [...document.querySelectorAll(".archive-nav nav a")];
+const select = id => document.getElementById(id);
+const form = select("archive-filters");
+const bankFilter = select("bank-filter");
+const typeFilter = select("type-filter");
+const queryFilter = select("query-filter");
+const viewFilter = select("view-filter");
+const container = select("archive-month");
+const result = select("archive-results");
 const params = new URLSearchParams(location.search);
-const monthParam = params.get("month");
-const hashMonth = location.hash.slice(1).split("-")[0];
-const activeMonth = [monthParam, hashMonth, "oct"].find((id) => months.some((month) => month.id === id))
-  ?? months[0].id;
+const regions = ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"];
+const dateLabel = new Intl.DateTimeFormat("en-GB", {day: "numeric", month: "long", year: "numeric", timeZone: "UTC"});
+let month, targets, monthRecords;
 
-function savedView() {
-  try {
-    return sessionStorage.getItem("archive-view");
-  } catch {
-    return null;
+function element(name, text, cssClass) {
+  const node = document.createElement(name);
+  if (text) node.textContent = text;
+  if (cssClass) node.className = cssClass;
+  return node;
+}
+
+function sourceLink(text, url) {
+  const href = new URL(url);
+  if (href.protocol !== "https:" || href.username || href.password) throw new Error("Invalid publication URL");
+  const link = element("a", text);
+  link.href = href.href;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  return link;
+}
+
+function card(record) {
+  const row = element("article", "", "research-record");
+  const meta = element("div", "", "record-meta");
+  const timestamp = element("time", record.date);
+  timestamp.dateTime = record.date;
+  const issuer = element("p", record.institution, "record-issuer");
+  const links = element("p", "", "official-link");
+  links.append(sourceLink("Source document", record.url));
+  for (const related of record.related ?? []) {
+    links.append(document.createTextNode(" · "), sourceLink(related.label, related.url));
   }
+  meta.append(timestamp, element("span", record.type));
+  if (viewFilter.value === "time") meta.append(element("span", record.jurisdiction));
+  row.append(meta, element("h4", record.title), issuer, links);
+  return row;
 }
 
-if ([...bankFilter.options].some((option) => option.value === params.get("bank"))) {
-  bankFilter.value = params.get("bank");
-}
-queryFilter.value = params.get("q") || "";
-const initialView = params.get("view") || (location.hash.includes("-bank-") ? "region" : savedView());
-viewFilter.value = initialView === "time" ? "time" : "region";
-
-form.hidden = false;
-for (const month of months) month.hidden = month.id !== activeMonth;
-const current = document.getElementById(activeMonth);
-const regionView = current.querySelector(".archive-region-view");
-const timeline = current.querySelector(".archive-timeline");
-const groups = [...regionView.querySelectorAll(".bank-section")];
-const groupRecords = new Map(groups.map((group) => [group, [...group.querySelectorAll(".research-record")]]));
-const jumpItems = new Map([...regionView.querySelectorAll(".bank-jump li")].map((li) => [
-  li.querySelector("a").hash.slice(1), li,
-]));
-const records = groups.flatMap((group) => groupRecords.get(group).map((record) => ({record, group})));
-const chronological = [...records].sort((a, b) =>
-  b.record.dataset.date.localeCompare(a.record.dataset.date) ||
-  a.record.querySelector("h4").textContent.localeCompare(b.record.querySelector("h4").textContent)
-);
-let layout;
-
-for (const link of monthLinks) {
-  if (link.hash === `#${activeMonth}`) link.setAttribute("aria-current", "page");
-}
-
-function applyView() {
-  const byTime = viewFilter.value === "time";
-  if (layout === byTime) return;
-  layout = byTime;
-  regionView.hidden = byTime;
-  timeline.hidden = !byTime;
-  if (byTime) {
-    const fragment = document.createDocumentFragment();
-    let lastDay;
-    for (const {record, group} of chronological) {
-      const day = record.dataset.date;
-      if (day !== lastDay) {
-        const dayGroup = document.createElement("section");
-        dayGroup.className = "archive-timeline-day";
-        const header = document.createElement("h3");
-        const date = document.createElement("time");
-        date.dateTime = day;
-        date.textContent = new Intl.DateTimeFormat("en-GB", {
-          day: "numeric", month: "long", year: "numeric", timeZone: "UTC",
-        }).format(new Date(day));
-        header.append(date);
-        dayGroup.append(header);
-        fragment.append(dayGroup);
-        lastDay = day;
-      }
-      let bank = record.querySelector(".record-region-label");
-      if (!bank) {
-        bank = document.createElement("span");
-        bank.className = "record-region-label";
-        bank.textContent = group.dataset.bank;
-        record.querySelector(".record-meta").append(bank);
-      }
-      fragment.lastElementChild.append(record);
+function renderByRegion(records) {
+  const wrapper = element("div", "", "archive-region-view");
+  const locations = targets.filter(({name}) => records.some(record => record.jurisdiction === name));
+  for (const region of regions) {
+    const banks = locations.filter(bank => bank.region === region);
+    if (!banks.length) continue;
+    const block = element("section", "", "archive-region");
+    block.append(element("h3", region, "archive-region-title"));
+    const jump = element("ul", "", "bank-jump");
+    for (const bank of banks) {
+      const entries = records.filter(record => record.jurisdiction === bank.name);
+      const anchor = `${month.id}-bank-${bank.index}`;
+      const link = element("a", bank.name);
+      link.href = "#" + anchor;
+      link.append(element("span", String(entries.length)));
+      const listItem = element("li");
+      listItem.append(link);
+      jump.append(listItem);
+      const section = element("section", "", "bank-section");
+      section.id = anchor;
+      const title = element("div", "", "bank-title");
+      title.append(element("h3", bank.name));
+      section.append(title, ...entries.map(card));
+      block.append(section);
     }
-    timeline.replaceChildren(fragment);
-  } else {
-    for (const [group, entries] of groupRecords) {
-      const before = group.querySelector(".register-links");
-      for (const record of entries) group.insertBefore(record, before);
-    }
-    timeline.replaceChildren();
+    block.insertBefore(jump, block.children[1]);
+    wrapper.append(block);
   }
+  return wrapper;
 }
 
-function filterArchive() {
-  let visibleDocuments = 0;
-  let visibleBanks = 0;
+function renderByTime(records) {
+  const wrapper = element("div", "", "archive-timeline");
+  let day;
+  for (const record of records) {
+    if (record.date !== day) {
+      day = record.date;
+      const group = element("section", "", "archive-timeline-day");
+      const title = element("h3", dateLabel.format(new Date(day)));
+      group.append(title);
+      wrapper.append(group);
+    }
+    wrapper.lastElementChild.append(card(record));
+  }
+  return wrapper;
+}
+
+function render() {
   const query = queryFilter.value.trim().toLocaleLowerCase();
-  const filterDocuments = typeFilter.value || query || notesFilter.checked;
-  for (const group of groups) {
-    const bankSelected = !bankFilter.value || group.dataset.bank === bankFilter.value;
-    let matches = 0;
-    for (const record of groupRecords.get(group)) {
-      const show = bankSelected &&
-        (!typeFilter.value || record.dataset.type === typeFilter.value) &&
-        (!query || record.dataset.search.includes(query)) &&
-        (!notesFilter.checked || record.dataset.analysed === "true");
-      record.hidden = !show;
-      if (show) matches += 1;
-    }
-    const showBank = bankSelected && (!filterDocuments || matches > 0) && (!layout || matches > 0);
-    group.hidden = !showBank;
-    jumpItems.get(group.id).hidden = !showBank;
-    if (showBank) {
-      visibleBanks += 1;
-      visibleDocuments += matches;
-    }
-  }
-  for (const block of regionView.querySelectorAll(".archive-region, .archive-continent")) {
-    block.hidden = !block.querySelector(".bank-section:not([hidden]), .bank-jump li:not([hidden])");
-  }
-  for (const day of timeline.querySelectorAll(".archive-timeline-day")) {
-    day.hidden = !day.querySelector(".research-record:not([hidden])");
-  }
-  result.textContent = `${visibleDocuments} ${visibleDocuments === 1 ? "publication" : "publications"} · ${visibleBanks} ${visibleBanks === 1 ? "jurisdiction" : "jurisdictions"} shown`;
+  const records = monthRecords.filter(record =>
+    (!bankFilter.value || bankFilter.value === record.jurisdiction) &&
+    (!typeFilter.value || typeFilter.value === record.type) &&
+    (!query || [record.title, record.institution, record.date, record.type].some(text => text.toLocaleLowerCase().includes(query)))
+  );
+  const jurisdictions = new Set(records.map(record => record.jurisdiction)).size;
+  const total = records.length;
+  const summary = `${total} ${total === 1 ? "publication" : "publications"} · ${jurisdictions} ${jurisdictions === 1 ? "jurisdiction" : "jurisdictions"}`;
+  result.textContent = total ? summary : "No matching publications";
+  const title = element("div", "", "month-title");
+  const heading = element("h2", `${month.label} ${month.start.slice(0, 4)}`);
+  heading.id = "active-month-title";
+  title.append(heading, element("p", `${month.start} to ${month.end}`));
+  container.replaceChildren(title, viewFilter.value === "time" ? renderByTime(records) : renderByRegion(records));
 }
 
-form.addEventListener("input", (event) => {
-  if (event.target === viewFilter) {
-    try {
-      sessionStorage.setItem("archive-view", viewFilter.value);
-    } catch {
-      // The view still works when browser storage is unavailable.
-    }
-    applyView();
+async function load(name) {
+  const response = await fetch(`data/${name}.json`);
+  if (!response.ok) throw new Error(name + " returned " + response.status);
+  return response.json();
+}
+
+async function start() {
+  const [periods, map, records] = await Promise.all(["archive-periods", "world-map", "research-archive"].map(load));
+  targets = map.targets;
+  const hash = location.hash.slice(1);
+  month = [params.get("month"), hash.split("-")[0], "oct"].map(id => periods.find(period => period.id === id)).find(Boolean) ?? periods[0];
+  monthRecords = records.filter(record => month.start <= record.date && record.date <= month.end);
+  for (const period of periods) {
+    const link = element("a", period.label);
+    link.href = `?month=${period.id}#${period.id}`;
+    if (period.id === month.id) link.setAttribute("aria-current", "page");
+    select("archive-months").append(link);
   }
-  filterArchive();
+  bankFilter.append(new Option("All jurisdictions", ""), ...targets.map(bank => new Option(bank.name, bank.name)));
+  typeFilter.append(new Option("All types", ""), ...[...new Set(records.map(record => record.type))].sort().map(type => new Option(type, type)));
+  const bank = params.get("bank");
+  if (targets.some(target => target.name === bank)) bankFilter.value = bank;
+  queryFilter.value = params.get("q") ?? "";
+  let previousView;
+  try { previousView = sessionStorage.getItem("archive-view"); } catch {}
+  const initialView = params.get("view") ?? (hash.includes("-bank-") ? "region" : previousView);
+  viewFilter.value = initialView === "time" ? "time" : "region";
+  form.hidden = false;
+  form.addEventListener("input", event => {
+    if (event.target === viewFilter) {
+      try { sessionStorage.setItem("archive-view", viewFilter.value); } catch {}
+    }
+    render();
+  });
+  form.addEventListener("reset", event => {
+    event.preventDefault();
+    bankFilter.value = typeFilter.value = queryFilter.value = "";
+    render();
+  });
+  form.addEventListener("submit", event => event.preventDefault());
+  render();
+  if (hash.includes("-bank-")) select(hash)?.scrollIntoView();
+}
+
+start().catch(error => {
+  result.textContent = "Could not load the archive. Refresh the page to try again.";
+  console.error(error);
 });
-form.addEventListener("submit", (event) => event.preventDefault());
-form.addEventListener("reset", (event) => {
-  event.preventDefault();
-  bankFilter.value = "";
-  typeFilter.value = "";
-  queryFilter.value = "";
-  notesFilter.checked = false;
-  filterArchive();
-});
-applyView();
-filterArchive();

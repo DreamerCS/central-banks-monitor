@@ -5,176 +5,147 @@
     {
       "name": "United States",
       "region": "Americas",
-      "sourceCount": 14,
-      "status": "Proposed links"
+      "sourceCount": 14
     },
     {
       "name": "Euro area",
       "region": "Europe",
-      "sourceCount": 7,
-      "status": "Catalogued links"
+      "sourceCount": 24
     },
     {
       "name": "United Kingdom",
       "region": "Europe",
-      "sourceCount": 6,
-      "status": "Catalogued links"
+      "sourceCount": 5
     },
     {
       "name": "Sweden",
       "region": "Europe",
-      "sourceCount": 5,
-      "status": "Catalogued links"
+      "sourceCount": 4
     },
     {
       "name": "Norway",
       "region": "Europe",
-      "sourceCount": 6,
-      "status": "Catalogued links"
+      "sourceCount": 5
     },
     {
       "name": "Switzerland",
       "region": "Europe",
-      "sourceCount": 6,
-      "status": "Catalogued links"
+      "sourceCount": 5
     },
     {
       "name": "Canada",
       "region": "Americas",
-      "sourceCount": 2,
-      "status": "Proposed links"
+      "sourceCount": 2
     },
     {
       "name": "Australia",
       "region": "Asia-Pacific",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "New Zealand",
       "region": "Asia-Pacific",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "Japan",
       "region": "Asia-Pacific",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "Mexico",
       "region": "Americas",
-      "sourceCount": 2,
-      "status": "Proposed links"
+      "sourceCount": 2
     },
     {
       "name": "Colombia",
       "region": "Americas",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "Brazil",
       "region": "Americas",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "Argentina",
       "region": "Americas",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "Peru",
       "region": "Americas",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "Hungary",
       "region": "Europe",
-      "sourceCount": 6,
-      "status": "Catalogued links"
+      "sourceCount": 5
     },
     {
       "name": "Poland",
       "region": "Europe",
-      "sourceCount": 5,
-      "status": "Catalogued links"
+      "sourceCount": 4
     },
     {
       "name": "Czechia",
       "region": "Europe",
-      "sourceCount": 6,
-      "status": "Catalogued links"
+      "sourceCount": 5
     },
     {
       "name": "Türkiye",
       "region": "Europe",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "South Africa",
       "region": "Africa",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "China",
       "region": "Asia-Pacific",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "Taiwan",
       "region": "Asia-Pacific",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "South Korea",
       "region": "Asia-Pacific",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "Singapore",
       "region": "Asia-Pacific",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "India",
       "region": "Asia-Pacific",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "Indonesia",
       "region": "Asia-Pacific",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "Malaysia",
       "region": "Asia-Pacific",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "Philippines",
       "region": "Asia-Pacific",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     },
     {
       "name": "Thailand",
       "region": "Asia-Pacific",
-      "sourceCount": 1,
-      "status": "New official link · ingestion pending"
+      "sourceCount": 1
     }
   ]
 }

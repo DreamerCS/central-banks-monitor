@@ -3,54 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Official source checks and the August–November 2026 central bank archive review.">
+  <meta name="description" content="Central bank publication sources and monthly archives by jurisdiction.">
   <title>Source Coverage | Central Bank Intelligence</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="research-archive.css">
   <link rel="stylesheet" href="source-coverage.css">
-  <script src="source-coverage.js" defer></script>
+  <script src="source-coverage.js?v=2" defer></script>
 </head>
 <body class="archive-page">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="masthead">
     <div class="shell archive-nav">
       <a href="./">Central Bank Intelligence</a>
-      <nav aria-label="Research"><a href="index.html#atlas">Source atlas</a><a href="research-archive.html">Monthly research</a></nav>
+      <nav aria-label="Main navigation"><a href="index.html#atlas">Sources</a><a href="research-archive.html">Monthly archive</a><a href="historical-data.html">Historical data</a></nav>
     </div>
   </header>
   <main class="shell archive-shell" id="main">
     <div class="archive-intro">
       <h1>Source coverage</h1>
-      <p>The directory includes 69 entries from the Europe Policies &amp; Models worksheet. Policy frameworks and model reference pages sit alongside dated publication series.</p>
-      <p id="coverage-check" role="status">Loading official source checks…</p>
+      <p>Browse central bank source pages and the monthly publication archive by jurisdiction.</p>
     </div>
-
-    <section aria-labelledby="checks-title">
-      <h2 id="checks-title">Daily checks by jurisdiction</h2>
-      <p>Expand a jurisdiction to see its official feeds and listings, their latest dates and the result of the last check.</p>
-      <div id="source-checks"></div>
-    </section>
-
-    <section id="archive-review" aria-labelledby="review-title">
-      <h2 id="review-title">August–November 2026 archive review</h2>
-      <p id="review-count" role="status">Loading archive comparison…</p>
-      <p>The comparison uses the records returned by checked official feeds and listing pages. Sources can provide more material through older pages or other language editions. Unmatched links still need review for scope, duplicates and analysis.</p>
-      <form class="archive-filters" id="review-filters" aria-label="Filter unmatched publications" hidden>
-        <label>Month <select id="review-month"></select></label>
-        <label>Jurisdiction <select id="review-bank"><option value="">All 29</option></select></label>
-        <label>Publication type <select id="review-type"><option value="">All types</option></select></label>
-      </form>
-      <p id="review-scope"></p>
-      <p id="review-selection" role="status"></p>
-      <ul id="review-entries" class="review-entries"></ul>
-    </section>
-
-    <details class="europe-register">
-      <summary>69 entries in the original European register</summary>
-      <p>Check the original page and whether its exact page or feed appears in the daily monitor.</p>
-      <div id="europe-register"></div>
-    </details>
+    <p id="coverage-load" role="status">Loading sources…</p>
+    <div class="coverage-scroll" tabindex="0" aria-label="Publication counts by jurisdiction and month" hidden>
+      <table class="publication-coverage">
+        <thead><tr id="coverage-head"><th scope="col">Jurisdiction</th><th scope="col">Source pages</th></tr></thead>
+        <tbody id="coverage-rows"></tbody>
+      </table>
+    </div>
   </main>
 </body>
 </html>

@@ -2,7 +2,7 @@
 
 const state = { sources: [], region: "All", category: "All", query: "", sort: "institution" };
 const $ = (selector) => document.querySelector(selector);
-const categories = ["All", "Policy", "Speeches", "Research", "Models"];
+const categories = ["All", "Policy", "Speeches", "Research"];
 const regions = ["All", "Europe", "Americas", "Asia-Pacific", "Africa"];
 
 function groupFor(category) {
@@ -40,10 +40,7 @@ function sourceCard(source) {
   name.textContent = source.institution;
   const type = document.createElement("p");
   type.textContent = source.sourceType;
-  const badge = document.createElement("span");
-  badge.className = `badge ${source.status === "Proposed" ? "proposed" : ""}`;
-  badge.textContent = `${source.status} link · verify at source`;
-  content.append(meta, name, type, badge);
+  content.append(meta, name, type);
 
   const links = document.createElement("div");
   links.className = "source-links";
@@ -117,7 +114,6 @@ async function start() {
     state.sources = data.sources;
     $("#source-total").textContent = String(data.sources.length);
     $("#bank-total").textContent = String(new Set(data.sources.map((item) => item.institution)).size);
-    $("#atlas .section-number").textContent = `${data.sources.length} / SOURCES`;
     render();
   } catch (error) {
     $("#results-count").textContent = "Directory unavailable";
@@ -128,15 +124,13 @@ async function start() {
     const response = await fetch("data/coverage.json");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const coverage = await response.json();
-    $("#coverage .section-number").textContent = `${coverage.linkedCount} LINKED / ${coverage.targetCount} TARGETS`;
-    $(".coverage-intro strong").textContent = String(coverage.linkedCount);
     const fragment = document.createDocumentFragment();
     for (const target of coverage.targets) {
       const card = document.createElement("div");
-      card.className = `coverage-card ${target.sourceCount ? "linked" : "pending"}`;
+      card.className = "coverage-card linked";
       const name = document.createElement("strong"); name.textContent = target.name;
       const status = document.createElement("small");
-      status.textContent = target.sourceCount ? `${target.sourceCount} source link${target.sourceCount === 1 ? "" : "s"} · ${target.status}` : "TO BE CATALOGUED";
+      status.textContent = `${target.sourceCount} source ${target.sourceCount === 1 ? "page" : "pages"}`;
       card.append(name, status); fragment.append(card);
     }
     $("#coverage-grid").append(fragment);
@@ -165,8 +159,7 @@ async function loadTreasury() {
     $("#yield-2y").textContent = `${latest.twoYear.toFixed(2)}%`;
     $("#yield-10y").textContent = `${latest.tenYear.toFixed(2)}%`;
     $("#yield-spread").textContent = `${((latest.tenYear - latest.twoYear) * 100).toFixed(0)} bp`;
-    const ageDays = Math.floor((Date.now() - Date.parse(`${latest.date}T00:00:00Z`)) / 86400000);
-    status.textContent = `Observation date: ${latest.date} · U.S. Treasury daily par yield curve · ${ageDays > 4 ? "Older than four calendar days; verify at source." : "Not a live quote."}`;
+    status.textContent = `Observation date ${latest.date} · U.S. Treasury daily par yield curve`;
     const recent = rows.slice(-90);
     const ns = "http://www.w3.org/2000/svg";
     const svg = document.createElementNS(ns, "svg");

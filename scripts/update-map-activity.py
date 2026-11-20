@@ -4,6 +4,7 @@ from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from hashlib import sha256
 from html import unescape
 import json
 from pathlib import Path
@@ -189,7 +190,7 @@ def review_snapshot(window, checked, checks, rows, archive):
             "indexed": dict(Counter(r["bank"] for r in archive if period["start"] <= r["day"] <= period["end"])),
             "review": dict(Counter(r["bank"] for r in unmatched if period["start"] <= r["day"] <= period["end"])),
         }
-    write_json(DATA / output, dict(
+    write_json(SCRIPTS.parent / output, dict(
         checkedAt=checked, start=start, end=end, matched=len(official) - len(unmatched),
         inputsRead=sum(r["status"] == "Read" for r in checks), inputsChecked=len(checks),
         monthly=monthly, items=unmatched,
@@ -254,7 +255,9 @@ def main():
             by_link.pop(identity(related["url"]), None)
         by_link[identity(row["url"])] = row
     items = sorted(by_link.values(), key=lambda r: (r["day"], r["bank"], r["title"]), reverse=True)
-    write_json(DATA / "world-map-activity.json", dict(checkedAt=checked, sources=dict(sources), checks=daily_checks, items=items))
+    content = json.dumps(items, ensure_ascii=False, separators=(",", ":"))
+    revision = sha256(content.encode("utf-8")).hexdigest()
+    write_json(DATA / "world-map-activity.json", {"revision": revision, "items": items})
     print(f"Map activity: {len(items)} publications, {sum(ok for ok, _ in sources.values())}/{len(daily_checks)} sources read")
 
 
