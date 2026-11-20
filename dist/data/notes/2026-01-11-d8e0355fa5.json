@@ -1,0 +1,26 @@
+{
+  "title": "Powell defends how the Fed sets rates after grand jury subpoenas",
+  "bank": "Board of Governors of the Federal Reserve System",
+  "date": "2026-01-11",
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm",
+  "summary": [
+    "In a statement scheduled for 7:30 p.m. Eastern on Sunday, 11 January, Chair Jerome Powell said the Department of Justice had served the Federal Reserve with grand jury subpoenas the preceding Friday. He said they concerned testimony he had given to the Senate Banking Committee the previous June, part of which addressed renovations to historic Fed buildings. He described a threat of criminal indictment. The statement reports no indictment, finding of wrongdoing or legal outcome. It records the Chair's account of the episode at that point in time.",
+    "Powell argued that the threat arose from the Fed's decisions about interest rates and its refusal to follow the President's preferences. That account of motive is Powell's interpretation. He said the Fed had sought to inform Congress about the building project and reaffirmed both congressional oversight and accountability under law. The policy commitment he made was to continue making decisions in light of economic conditions and the Fed's employment and price-stability mandate. He did not supply a new view of inflation, employment, the current stance or the next meeting. Describing the statement as hawkish or dovish would convert a defence of the decision process into an unsupported forecast about its outcome.",
+    "Its research significance lies in how markets price confidence in that process. Investors who changed their view of future political influence might reprice the expected policy path, compensation for inflation uncertainty, or both. Those channels can move different maturities in different directions. The statement contains no market observations and attributes no yield change to its release. An event study would have to address the Sunday evening timing, the first liquid trading windows for individual instruments, and the possibility that reports had already conveyed some of the news."
+  ],
+  "questions": [
+    {
+      "question": "When did investors first receive information they could trade on?",
+      "detail": "Establish a timestamped sequence for the subpoenas becoming public, the release of the statement and other news before markets reopened. Identify trading hours and liquidity separately for rate futures, cash Treasuries and foreign exchange. Comparing only Friday's close with Monday's close would combine all weekend news and the full next trading day into a single return."
+    },
+    {
+      "question": "Did investors revise the next expected rate decisions or the compensation they required for longer-term inflation and institutional risk?",
+      "detail": "Compare contract-implied changes around upcoming meetings with longer-dated nominal yields, real yields and inflation compensation over aligned trading intervals. Check trading volumes and economic news in the same windows. Even a rise in long yields accompanied by lower near-term rate expectations would require additional evidence to distinguish inflation risk from changes in term or liquidity premia."
+    },
+    {
+      "question": "Did later policy communication offer evidence that the decision process changed?",
+      "detail": "Compare subsequent votes, statements and forecast revisions against the economic information actually available to the committee at each meeting. Identify differences in individual policymakers' stated reasoning and in how markets responded to similar data releases. Agreement between a later decision and a political preference, in isolation, would not establish which considerations determined the decision."
+    }
+  ],
+  "limitation": ""
+}

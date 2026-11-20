@@ -1,0 +1,27 @@
+{
+  "title": "Peru holds at 4.25% as headline and underlying inflation approach 2% from below",
+  "bank": "Banco Central de Reserva del Perú",
+  "date": "2026-01-08",
+  "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-01-08.pdf",
+  "summary": [
+    "On 8 January Peru’s central bank held its reference rate at 4.25%. Its case for waiting rested on where it expected inflation to go. Headline inflation ended December at 1.5%, up from 1.4% in November. Prices excluding food and energy were up 1.8% from a year earlier in both months. The Board expected headline inflation to move towards the middle of its target range in the coming months and the underlying measure to stay near 2% across the forecast horizon. On that outlook, some rise in the observed headline rate would be consistent with the policy objective. Its significance would depend on whether underlying prices and expectations rose further as well.",
+    "The monthly data in paragraph 2 tell a different part of the story. Prices rose 0.24% in December and the index excluding food and energy rose 0.45%. It is possible for a monthly underlying reading to exceed headline while annual underlying inflation stays unchanged. A twelve-month comparison drops the corresponding month of the previous year as it adds the new observation. The release gives neither a seasonal adjustment nor a detailed price decomposition, so annualising the December reading would confer undue weight on one month. The more relevant comparison for the next decision is whether a succession of underlying price readings remains consistent with the forecast.",
+    "Twelve-month inflation expectations fell from 2.2% to 2.1%. Using the simple difference between the policy rate and those expectations gives an indicative ex ante real rate of 2.15% at the time of the decision. This is a calculation from figures in the release. The Board supplies no estimate of the neutral rate against which to classify it as restrictive or accommodative. It judged economic activity to be close to potential, with forward indicators performing well and nearly all measures of current conditions and expectations in optimistic territory. The central bank also foresaw somewhat slower growth abroad than in 2025. Strong diffusion indicators establish that favourable assessments were widespread. They say less about the magnitude of growth or the degree of spare capacity. The Board identified underlying inflation, expectations and activity as inputs to any adjustment, without announcing the direction of its next move.",
+    "The operational terms in paragraph 4 matter for interpreting overnight money-market data. Deposits at the central bank paid 2.25%, two percentage points below the reference rate. The initial rate on eligible direct repo and monetary regulation credit operations was 4.75%, half a percentage point above the reference. The 4.75% applied to the first ten operations in a rolling three-month period. The operations committee sets the rate on additional transactions and may charge more depending on size. The standing facilities therefore give different incentives to a bank placing surplus funds and one repeatedly seeking liquidity. Their terms are not observations of what banks actually paid each other overnight. The next scheduled policy meeting was 12 February. A market event study would need traded rates around the January announcement and a pre-announcement expectation to identify a surprise."
+  ],
+  "questions": [
+    {
+      "question": "Was December’s monthly rise in underlying prices broad and persistent?",
+      "detail": "Annual underlying inflation held at 1.8% while its December monthly increase exceeded headline inflation. Look for detailed official price components, seasonal patterns and the diffusion of increases across services and goods in subsequent releases. A narrowly concentrated calendar effect would have different implications for the forecast than broad acceleration across several consecutive months."
+    },
+    {
+      "question": "Did lower expected inflation change financial conditions for households and firms?",
+      "detail": "With the nominal reference rate fixed, lower expected inflation raises a simple measure of the real policy rate. Borrowers, however, face their own lending rates and expected price changes. Compare official lending rates by term and borrower category with matching expectations and credit growth. This would clarify how much of the measured change in the policy rate’s purchasing-power equivalent passed through to financing conditions."
+    },
+    {
+      "question": "Where did overnight trading occur relative to the central bank’s facility rates?",
+      "detail": "The gap between deposit remuneration and the reference rate was larger than the spread on initial lending operations. Compare daily interbank rates and volumes with liquidity injections, withdrawals and available information on standing-facility use around the announcement. A spread caused by payment flows or scarce liquidity has a different interpretation for the expected policy path from a shift in rates extending across several maturities."
+    }
+  ],
+  "limitation": ""
+}

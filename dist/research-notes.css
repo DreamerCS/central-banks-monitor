@@ -9,7 +9,16 @@
 .note-index a[aria-current]{box-shadow:inset 2px 0 #935c3e}
 .note-index time,.note-byline,.note-source,.note-permalink{color:var(--muted);font:.8rem/1.6 ui-monospace,monospace}
 .note-index time{display:block}
-.note-index select{display:none}
+#note-select,.note-mobile-label{display:none}
+.note-filter label,.note-mobile-label,.note-matches{font:.82rem/1.4 Arial,sans-serif;color:var(--muted)}
+.note-filter label{display:block;min-width:0}
+.note-filter input,.note-filter select,#note-select{display:block;width:100%;padding:8px 7px;margin:3px 0 0;border:1px solid var(--line);background:#f9f7ef;color:var(--ink);font:1rem Arial,sans-serif}
+#note-select{display:none}
+.note-filter>div{display:grid;grid-template-columns:minmax(72px,.65fr) minmax(0,1.45fr);gap:8px;margin-top:9px}
+.note-matches{margin:12px 0 6px}
+#note-pager:not([hidden]){display:flex;gap:8px;margin:8px 0}
+#note-pager button{border:1px solid var(--line);background:transparent;padding:7px 12px;color:var(--ink)}
+#note-pager button:disabled{opacity:.45}
 #manuscript{width:100%;max-width:73ch}
 .note-byline{display:flex;align-items:baseline;gap:4px 18px;flex-wrap:wrap}
 #note-bank{color:#885738}
@@ -27,7 +36,7 @@
   .note-layout:not([hidden]){display:block;padding-top:16px}
   .note-index{margin-bottom:26px}
   .note-index .eyeline{margin-bottom:4px}
-  .note-index select{display:block;width:100%;padding:9px;background:#f9f7ef;border:1px solid var(--line);color:var(--ink)}
+  #note-select,.note-mobile-label{display:block}
   .note-index ol{display:none}
 }
 @media print{.cbi-head,.note-index,.note-permalink,.skip-link{display:none}.note-layout:not([hidden]){display:block}.note-shell{padding:0}#manuscript{max-width:none}}

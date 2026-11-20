@@ -23,9 +23,16 @@
   <p id="note-status" role="status">Loading research notes…</p>
   <div id="note-layout" class="note-layout" hidden>
     <nav class="note-index" aria-label="Research note index">
-      <label for="note-select" class="eyeline">Publication</label>
+      <form id="note-filter" class="note-filter" role="search" aria-label="Find research notes">
+        <label>Title <input id="note-query" type="search" placeholder="Search titles"></label>
+        <div><label>Year <select id="note-year"><option value="">All years</option></select></label>
+          <label>Institution <select id="note-institution"><option value="">All institutions</option></select></label></div>
+      </form>
+      <p id="note-matches" role="status" class="note-matches"></p>
+      <label for="note-select" class="note-mobile-label">Publication</label>
       <select id="note-select"></select>
       <ol id="note-index"></ol>
+      <div id="note-pager" hidden><button id="note-prev" type="button">Previous</button><button id="note-next" type="button">Next</button></div>
     </nav>
     <article id="manuscript" aria-labelledby="note-title">
       <div class="note-byline"><span id="note-bank"></span><time id="note-date"></time></div>
