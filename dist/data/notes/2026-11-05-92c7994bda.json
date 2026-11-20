@@ -1,0 +1,32 @@
+{
+  "title": "Why firms’ confidence in the inflation target matters more than a stable trust score",
+  "bank": "Reserve Bank of Australia",
+  "date": "2026-11-05",
+  "url": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-11-05.html",
+  "summary": [
+    "About 55 per cent of respondents to the RBA’s community survey reported high or moderately high trust in the Bank. Across four waves drawing on 12,000 Australians from February 2025 to September 2026, the headline measure held up even as interest rates and inflation rose. Deputy Governor Andrew Hauser identified a more consequential change underneath it. Confidence in the RBA’s recent and near-term ability to meet its objectives had fallen. Positive assessments of the evidence behind decisions, the Bank’s openness and its institutional values helped explain how the two findings could coexist. A survey of confidence in the institution and a forecast of how quickly it can bring inflation down answer different questions.",
+    "Two simulations illustrate exactly what is at stake. In the first, the cash rate follows the same realised path in both cases. When the public anticipates the persistence of tightening, spending and inflation fall earlier and further. In the second, an external cost increase hits an economy whose inflation is brought back along the same path in both cases. If price setters expect a timely response, firms pass through less of the cost and workers have less reason to press for compensating wages. Smaller rate increases and a smaller output loss can then deliver that same disinflation. The distinction between the two experiments matters. Holding rates fixed asks what policy achieves, while holding disinflation fixed asks how much tightening it requires. Neither simulation measures the number of basis points that Australia can save by raising trust.",
+    "The firm-level evidence gives the mechanism a testable implication. In a Macquarie University survey, firms expecting the RBA to restore price stability sooner planned to pass through less of the Middle East conflict’s cost shock. Households expressing greater trust in the RBA also tended to report lower short-term inflation expectations. Both relationships can run in more than one direction: people facing larger price increases may already be less confident in the Bank, and firms have different exposures to imported costs. Moreover, a planned price rise can evaporate if a customer refuses the quote. Realised selling prices and wage agreements are the stronger follow-up evidence.",
+    "Market measures told a more reassuring story than pricing firms. Long-run expectations from markets and professional forecasters remained around the 2–3 per cent target, and long-run market expectations had generally shown little response to policy news. A growing share of surveyed businesses, however, were uncertain that the RBA would hit the target over five to ten years. A rise in uncertainty is economically meaningful even if the median expected rate barely moves. Hauser said Australia lacked a reliable long-run household series at this point. Short-term household expectations, long-term compensation in a bond yield and a firm’s confidence in a range should not be spliced into one history.",
+    "There is also a horizon mismatch between public sentiment and the published inflation rate. The sum of inflation and unemployment was only a little above its pre-pandemic average while consumer sentiment was much weaker. The cumulative increase in the price level since COVID stood out against earlier tightening episodes under inflation targeting. Slower inflation does little to undo that past increase. Recent survey waves therefore cannot establish a stable threshold at which trust would break. And financial-market pricing can change much faster than households’ views about the rate outlook. Asked about a prior remark and a move in market pricing, Hauser explained that he had intended to describe his reading of the data and preserve the Board’s freedom to decide. He did not verify the questioner’s attribution of that move. The speech favors explaining how policy might respond under different conditions, without a dated rate commitment."
+  ],
+  "questions": [
+    {
+      "question": "Do firms that lose confidence actually pass more of an identical cost shock into selling prices?",
+      "detail": "Follow the same firms through their next price review. Compare businesses with similar import shares, demand, inventory and contract lengths that differed in their pre-shock confidence. Separate planned, quoted and realised prices. A lasting difference after costs have normalised would be much stronger evidence of persistence than an association in a single intentions survey."
+    },
+    {
+      "question": "Could uncertainty about the target rise before the median inflation expectation changes?",
+      "detail": "Track the proportions certain, uncertain and doubtful alongside a distribution of expected inflation rates. Record the horizon and the respondent group at every observation. Firms can become less certain of the 2–3 per cent range even when long-run market pricing stays near its midpoint. The policy relevance increases if that uncertainty reaches contracts or wage negotiations."
+    },
+    {
+      "question": "Does accumulated purchasing-power loss explain the gap between trust in the RBA and confidence in its results?",
+      "detail": "Compare households with similar incomes but different rent, mortgage and essential-goods exposures. Test whether cumulative price increases relative to income explain confidence after allowing for current inflation and employment. Repeated responses would help distinguish the effects of new price news from stable differences in how households judge public institutions."
+    },
+    {
+      "question": "When markets revise the expected rate path, do price setters revise their own decisions?",
+      "detail": "Line up dated statements, market pricing and the fieldwork windows for household and business surveys. Allow for other releases on the same dates. If a market rate moves immediately but pricing intentions and beliefs about the target do not, financial transmission and the public expectations channel are operating at different speeds."
+    }
+  ],
+  "limitation": ""
+}

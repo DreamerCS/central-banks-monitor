@@ -1,5 +1,31 @@
 [
   {
+    "title": "What an Australian rate vote reveals when members’ names stay confidential",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-11-20",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-mpb-2026-11-20-q-and-a-transcript.html",
+    "excerpt": "Asked whether Australia should identify each policymaker’s vote and reasoning, Renée Fry-McKibbin acknowledged the attraction of giving Board members a public voice.",
+    "file": "2026-11-20-db518560ee.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "type": "Speech",
+      "title": "Transcript of Question & Answer Session The Role of Research in Monetary Policymaking"
+    }
+  },
+  {
+    "title": "How an RBA Board member weighs the cost of bringing inflation back to target",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-11-20",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-mpb-2026-11-20.html",
+    "excerpt": "Renée Fry-McKibbin described a decision in which two policymakers could agree on where inflation should end up and still disagree about the cash rate today.",
+    "file": "2026-11-20-7bdde23f0b.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "type": "Speech",
+      "title": "The Role of Research in Monetary Policymaking"
+    }
+  },
+  {
     "title": "Christine Lagarde: Acting in time",
     "bank": "European Central Bank",
     "date": "2026-11-20",
@@ -34,6 +60,32 @@
       "jurisdiction": "Sweden",
       "type": "Speech",
       "title": "Executive Board in Finance Committee hearing on monetary policy"
+    }
+  },
+  {
+    "title": "Who gets the proceeds from the AI listing wave?",
+    "bank": "European Central Bank",
+    "date": "2026-11-18",
+    "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_03~46e116aeb8.en.html",
+    "excerpt": "A billion dollars of shares sold to the public can finance a company's next investment, pay an early shareholder for taking risk years ago, or do some of each.",
+    "file": "2026-11-18-30a53a99a9.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "type": "Research",
+      "title": "Financial stability risks from large IPOs, equity issuance and passive investing"
+    }
+  },
+  {
+    "title": "Where European finance would feel an AI shock first",
+    "bank": "European Central Bank",
+    "date": "2026-11-18",
+    "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_01~dd6e15a84a.en.html",
+    "excerpt": "Which balance sheet would absorb a disappointment in artificial intelligence earnings?",
+    "file": "2026-11-18-0854913254.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "type": "Research",
+      "title": "Financial stability implications of AI adoption in the financial industry and the real economy"
     }
   },
   {
@@ -106,6 +158,19 @@
     }
   },
   {
+    "title": "What the ECB tells markets when it does not publish a rate path",
+    "bank": "European Central Bank",
+    "date": "2026-11-17",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
+    "excerpt": "Philip Lane describes a practical choice facing the ECB.",
+    "file": "2026-11-17-0ee5b55c75.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "type": "Speech",
+      "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience"
+    }
+  },
+  {
     "title": "Waller puts settlement liquidity and legal finality at the centre of tokenised payments",
     "bank": "Federal Reserve Board",
     "date": "2026-11-17",
@@ -166,12 +231,38 @@
     "file": "2026-11-17-92ceb53b39.json"
   },
   {
+    "title": "Australia’s five rate rises and the price pressures housing could yet offset",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-11-17",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-11-17.html",
+    "excerpt": "At the ASIC forum, Governor Michele Bullock explained why the Reserve Bank had raised rates five times, by a total of 125 basis points, since the beginning of 2026.",
+    "file": "2026-11-17-f797e2c8d5.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "type": "Speech",
+      "title": "Michele Bullock: Panel at the ASIC Annual Forum"
+    }
+  },
+  {
     "title": "A widening gap between service prices and wages changes what supercore inflation signals",
     "bank": "Federal Reserve Bank of Richmond",
     "date": "2026-11-17",
     "url": "https://www.richmondfed.org/research/national_economy/macro_minute/2026/wages_are_cooling_while_supercore_inflation_isnt",
     "excerpt": "The cost of providing a service includes what the business buys from other firms as well as what it pays its employees.",
     "file": "2026-11-17-52feb74401.json"
+  },
+  {
+    "title": "What smaller banks would gain from fewer supervisory demands",
+    "bank": "European Central Bank",
+    "date": "2026-11-16",
+    "url": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261116_1~11dd7f62af.en.html",
+    "excerpt": "Frank Elderson wants to release staff time at small euro area banks without changing the safety standards applied to depositors.",
+    "file": "2026-11-16-2aabc39ce2.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "type": "Commentary",
+      "title": "Frank Elderson: Smart supervision for small banks"
+    }
   },
   {
     "title": "Warsh asks whether AI changes the rate of discovery as well as the cost of production",
@@ -403,6 +494,19 @@
     }
   },
   {
+    "title": "Lombardelli explains why weak hiring has yet to dislodge her case for another rise",
+    "bank": "Bank of England",
+    "date": "2026-11-10",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference",
+    "excerpt": "Clare Lombardelli sees a particular risk in treating rising UK unemployment as a reliable measure of forthcoming wage disinflation.",
+    "file": "2026-11-10-5537220d00.json",
+    "publication": {
+      "jurisdiction": "United Kingdom",
+      "type": "Speech",
+      "title": "The low-gear labour market — Clare Lombardelli"
+    }
+  },
+  {
     "title": "Five votes for Sweden’s November hike concealed different views of the next one",
     "bank": "Sveriges Riksbank",
     "date": "2026-11-10",
@@ -458,6 +562,19 @@
     }
   },
   {
+    "title": "What changed in the RBA’s forecast when the data centres showed up?",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-11-09",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-11-09-q-and-a-transcript.html",
+    "excerpt": "Sarah Hunter gave an unusually specific answer to a forecasting question: much of the revision to business investment was a higher level of activity already under way.",
+    "file": "2026-11-09-a08a3c5e71.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "type": "Speech",
+      "title": "Transcript of Question & Answer Session What Happens to the Economy as ‘Intelligence’ Gets Cheaper?"
+    }
+  },
+  {
     "title": "South Africa’s rand balance sheet expands as foreign-exchange assets outweigh lower-valued gold",
     "bank": "South African Reserve Bank",
     "date": "2026-11-09",
@@ -500,12 +617,64 @@
     }
   },
   {
+    "title": "Bailey sets out four ways an AI investment success could still disappoint investors",
+    "bank": "Bank of England",
+    "date": "2026-11-09",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series",
+    "excerpt": "Andrew Bailey’s opening remarks in Zurich separate two questions often conflated when markets price a new technology.",
+    "file": "2026-11-09-743fe406c5.json",
+    "publication": {
+      "jurisdiction": "United Kingdom",
+      "type": "Speech",
+      "title": "Central Bank independence in today’s world - Speech by Andrew Bailey"
+    }
+  },
+  {
+    "title": "Australia’s AI investment boom arrives before the productivity dividend",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-11-09",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-11-09.html",
+    "excerpt": "Sarah Hunter put a number on what the AI build-out currently means for Australia’s inflation forecast.",
+    "file": "2026-11-09-5a12ff6781.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "type": "Speech",
+      "title": "Sarah Hunter: What Happens to the Economy as ‘Intelligence’ Gets Cheaper?"
+    }
+  },
+  {
+    "title": "UK rates respondents expected a November rise, but differed on how long 4¼% would last",
+    "bank": "Bank of England",
+    "date": "2026-11-06",
+    "url": "https://www.bankofengland.co.uk/markets/market-intelligence/survey-results/2026/market-participants-survey-results-november-2026",
+    "excerpt": "An October poll of UK rates-market participants placed an average probability of 86.0% on Bank Rate reaching 4% at the 5 November meeting.",
+    "file": "2026-11-06-efebcda392.json",
+    "publication": {
+      "jurisdiction": "United Kingdom",
+      "type": "Research",
+      "title": "Market Participants Survey results - November 2026"
+    }
+  },
+  {
     "title": "Why the Bank of England raised rates before wage pressure was conclusive",
     "bank": "Bank of England",
     "date": "2026-11-05",
     "url": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/november/monetary-policy-report-november-2026.pdf",
     "excerpt": "The Bank raised Bank Rate to 4% because it judged that waiting for clear evidence of a wage and price response to the energy shock had become costly.",
     "file": "2026-11-05-bf9afb21c5.json"
+  },
+  {
+    "title": "Why firms’ confidence in the inflation target matters more than a stable trust score",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-11-05",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-11-05.html",
+    "excerpt": "About 55 per cent of respondents to the RBA’s community survey reported high or moderately high trust in the Bank.",
+    "file": "2026-11-05-92c7994bda.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "type": "Speech",
+      "title": "Andrew Hauser: Trust, Expectations and Monetary Policy"
+    }
   },
   {
     "title": "What a rise in ECB borrowing would tell us about banks",
@@ -520,6 +689,22 @@
       "title": "Navigating stormy waters: reflections on monetary policy — Isabel Schnabel",
       "aliases": [
         "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
+      ]
+    }
+  },
+  {
+    "title": "Thedéen would simplify bank capital rules while preserving the buffers that support lending",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-11-05",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/speeches-and-presentations/2026/erik-thedeen-simplify-banking-regulations--without-compromising-resilience/",
+    "excerpt": "Governor Erik Thedéen sees room to simplify Sweden’s banking rules without weakening the capacity of banks to keep lending under stress.",
+    "file": "2026-11-05-5b788c963d.json",
+    "publication": {
+      "jurisdiction": "Sweden",
+      "type": "Speech",
+      "title": "Erik Thedéen: Simplify banking regulations – without compromising resilience",
+      "aliases": [
+        "https://www.riksbank.se/sv/press-och-publicerat/tal-och-presentationer/2026/erik-thedeen-forenkla-bankreglerna--utan-att-aventyra-motstandskraften/"
       ]
     }
   },
@@ -563,6 +748,19 @@
       "jurisdiction": "Mexico",
       "title": "Anuncio de Política Monetaria",
       "type": "Decision"
+    }
+  },
+  {
+    "title": "Hauser on the inflation Australia chose to tolerate and the demand it underestimated",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-11-05",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-11-05-q-and-a-transcript.html",
+    "excerpt": "Asked how Australians could distinguish an inflation miss from a deliberate policy choice, Andrew Hauser gave two different accounts of the post-pandemic experience.",
+    "file": "2026-11-05-64590546b8.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "type": "Speech",
+      "title": "Transcript of Question & Answer Session Trust, Expectations and Monetary Policy"
     }
   },
   {
@@ -630,6 +828,40 @@
       "jurisdiction": "Sweden",
       "title": "Policy rate raised to 2 per cent",
       "type": "Decision"
+    }
+  },
+  {
+    "title": "Why SEK 200 billion of reserve borrowing would cut Sweden’s currency exposure by about SEK 100 billion",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-11-04",
+    "url": "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/261104_nr2/memorandum-financing-of-the-foreign-currency-reserve.pdf",
+    "excerpt": "The Riksbank’s Markets Department estimates that replacing roughly SEK 200 billion of reserve funding with foreign-currency loans would reduce the bank’s remaining currency exposure by around SEK 100 billion.",
+    "file": "2026-11-04-781e5d877c.json",
+    "publication": {
+      "jurisdiction": "Sweden",
+      "type": "Research",
+      "title": "Financing of the Foreign Currency Reserve",
+      "aliases": [
+        "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/261104_nr2/pm-finansiering-av-valutareserven.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Foreign-currency borrowing would change how Sweden funds its reserves",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-11-04",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/the-riksbank-plans-to-finance-part-of-the-foreign-currency-reserve-with-foreign-currency-loans-via-the-swedish-national-debt-office/",
+    "excerpt": "The Riksbank plans to borrow about SEK 200 billion in foreign currency through the Swedish National Debt Office.",
+    "file": "2026-11-04-695a911f3d.json",
+    "publication": {
+      "jurisdiction": "Sweden",
+      "type": "Release",
+      "title": "The Riksbank plans to finance part of the foreign currency reserve with foreign currency loans via the Swedish National Debt Office",
+      "aliases": [
+        "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/261104_nr2/prm-the-riksbank-plans-to-finance-part-of-the-foreign-currency-reserve-with-foreign-currency-loans-via-the-swedish-national-debt-office.pdf",
+        "https://www.riksbank.se/sv/press-och-publicerat/nyheter-och-pressmeddelanden/pressmeddelanden/2026/riksbanken-planerar-att-finansiera-en-del-av-valutareserven-med-valutalan-via-riksgalden/",
+        "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/261104_nr2/prm-riksbanken-planerar-att-finansiera-en-del-av-valutareserven-med-valutalan-via-riksgalden.pdf"
+      ]
     }
   },
   {
@@ -707,6 +939,64 @@
     "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
     "excerpt": "On November 3 the Monetary Policy Board raised the cash rate target to 4.85%, a 25-basis-point increase supported by six members.",
     "file": "2026-11-03-a6e32eb980.json"
+  },
+  {
+    "title": "Why faster clearing makes access to cash a matter of minutes",
+    "bank": "Federal Reserve Bank of Dallas",
+    "date": "2026-11-02",
+    "url": "https://www.dallasfed.org/news/speeches/speeches-leaders/2026/261102ssw",
+    "excerpt": "A clearinghouse can have enough assets to meet every obligation and still fail to deliver cash at the moment a payment falls due.",
+    "file": "2026-11-02-a1fdd9259e.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Speech",
+      "title": "Innovation in the relationships between central banks and central counterparties"
+    }
+  },
+  {
+    "title": "Texas payrolls lose 18,900 jobs while more firms report raising prices",
+    "bank": "Federal Reserve Bank of Dallas",
+    "date": "2026-11-02",
+    "url": "https://www.dallasfed.org/research/indicators/tei/2026/tei2609",
+    "excerpt": "September’s payroll decline interrupted an already slow quarter for Texas.",
+    "file": "2026-11-02-f0641b6fc9.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Research",
+      "title": "Texas Economic Indicators: September 2026"
+    }
+  },
+  {
+    "title": "El Niño raises a conditional inflation risk for 2027",
+    "bank": "Federal Reserve Bank of San Francisco",
+    "date": "2026-11-02",
+    "url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/2026/11/impact-of-el-nino-on-us-economy/",
+    "excerpt": "A weather cycle can lift prices in two distinct waves.",
+    "file": "2026-11-02-a7b1e7ed73.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Research",
+      "title": "The Impact of El Niño on the U.S. Economy",
+      "aliases": [
+        "https://www.frbsf.org/wp-content/uploads/el2026-31.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Bank loan demand weakens as lenders draw sharper lines between borrowers",
+    "bank": "Board of Governors of the Federal Reserve System",
+    "date": "2026-11-02",
+    "url": "https://www.federalreserve.gov/data/sloos/sloos-202610.htm",
+    "excerpt": "US banks saw weaker demand for both business loans and home mortgages during the third quarter.",
+    "file": "2026-11-02-9410e65097.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Research",
+      "title": "Senior Loan Officer Opinion Survey · October survey",
+      "aliases": [
+        "https://www.federalreserve.gov/data/documents/sloos-202610.pdf"
+      ]
+    }
   },
   {
     "title": "Japan holds at 1.25% and more than doubles planned ETF sales",

@@ -1,0 +1,32 @@
+{
+  "title": "Australia’s AI investment boom arrives before the productivity dividend",
+  "bank": "Reserve Bank of Australia",
+  "date": "2026-11-09",
+  "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-11-09.html",
+  "summary": [
+    "Sarah Hunter put a number on what the AI build-out currently means for Australia’s inflation forecast. In the questions after her address, the Assistant Governor confirmed that the Bank was still assuming medium-term productivity growth of 0.7 per cent a year over a forecast extending to the end of 2028. Greater capital spending had already become visible. A sufficiently broad improvement in output per hour to warrant raising the productivity assumption had yet to appear. And the higher oil price assumption accounted for a substantial part of the recent upward revision to inflation, particularly the headline measure. Those distinctions matter when attributing a change in the interest-rate outlook to technology.",
+    "The adoption figures show how much can happen inside firms before the aggregate measure moves. Among the RBA’s liaison respondents, the share reporting no AI use fell from 32 per cent in 2025 to less than 1 per cent in 2026. Yet 60 per cent reported only limited adoption in 2026, and roughly 10 per cent reported deep or transformative use. On a separate productivity question, 36 per cent reported no gains yet, compared with 12 per cent reporting significant gains. These are responses from business contacts. The survey does not weight a minute saved on a single task by the task’s share of national output. Reorganising workflows, training staff and checking output take resources before widespread gains can show up in GDP.",
+    "Hunter’s estimate of realised Australian data-centre investment had increased tenfold in three years from a very low base. The size of the order for a data centre and the addition to domestic income are different quantities. Many servers are imported. Local demand is more concentrated in construction, engineering, electricity generation and transmission, including trades that liaison contacts already regarded as stretched. Overseas, equipment exports from Taiwan and South Korea illustrate who can receive the corresponding manufacturing orders. In a forecaster’s accounts, recording gross investment without the associated imports overstates the direct contribution to Australian GDP. Applying the same import share to electricians and grid connections would understate local pressure.",
+    "The inflation comparison across Australia, Canada, the United Kingdom and the United States shows rapidly rising prices in some electronics categories. Their CPI weights are small. Repeated price and wage pressure in construction or electricity would be stronger evidence of transmission beyond those products. Further ahead, additional capacity could relieve bottlenecks as productivity improves. That prospect does not establish a persistent negative inflation impulse: households could spend more as their incomes rise, and a global investment boom could increase demand for savings. Hunter described the possible rise in the neutral interest rate as difficult to quantify. A rise in a bond yield alone cannot distinguish stronger capital demand from a change in risk compensation.",
+    "Household wealth introduces a route in both directions. Staff put exposure to AI-related equities at about 5 per cent of Australian household financial wealth, including holdings through superannuation. A valuation gain inside a retirement account need not produce the same consumption response as an increase in disposable income. Employment was similarly uneven. Roughly three quarters of liaison respondents reported no headcount effect. Among the remainder, slower hiring was more common than reducing existing staff. Younger workers in highly exposed occupations showed some relative weakness in advertising and employment, but the underlying differences were modest. Jobs and Skills Australia’s 4 per cent highly exposed to automation and 31 per cent highly exposed to augmentation describe the tasks in jobs. They give no direct estimate of jobs likely to disappear."
+  ],
+  "questions": [
+    {
+      "question": "How much Australian demand does a dollar of announced data-centre investment create, and when?",
+      "detail": "Break projects into imported equipment, site and building works, electrical installation, network connections and ongoing operation. Match goods arrivals to completed construction and paid local labour rather than treating the value of announced projects as immediate activity. Missed projects and cancelled proposals can move the estimated peak in opposite directions, a risk Hunter explicitly recognised in questions."
+    },
+    {
+      "question": "Which observation would warrant raising the 0.7 per cent productivity assumption?",
+      "detail": "Follow output per hour, adoption depth and implementation costs across consecutive quarters in similar industries. Demand that shifts toward more productive firms can improve a sector average without improving any given firm. A sustained increase after deployment within several industries would be more persuasive than a higher count of firms reporting some use."
+    },
+    {
+      "question": "Where is the marginal inflation risk visible outside computer equipment?",
+      "detail": "Apply actual CPI weights to changes in consumer electronics prices, then compare construction wages, engineering vacancies, network investment and electricity costs in areas with substantial data-centre work. Distinguish demand arriving from other infrastructure projects. This would reveal whether the price effect remains inside a narrow basket or is competing away capacity elsewhere."
+    },
+    {
+      "question": "Are employers reducing entry-level opportunities while keeping total employment steady?",
+      "detail": "Compare new hires, vacancies and employment for younger and established workers within similar occupations. Allow for the post-pandemic hiring cycle and other demand changes in technology-intensive firms. If advertised junior roles fall while experienced workers remain employed and productive, aggregate headcount would miss a loss of entry routes and the associated longer-run training costs."
+    }
+  ],
+  "limitation": ""
+}

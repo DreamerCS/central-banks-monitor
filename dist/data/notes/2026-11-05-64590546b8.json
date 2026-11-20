@@ -1,0 +1,28 @@
+{
+  "title": "Hauser on the inflation Australia chose to tolerate and the demand it underestimated",
+  "bank": "Reserve Bank of Australia",
+  "date": "2026-11-05",
+  "url": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-11-05-q-and-a-transcript.html",
+  "summary": [
+    "Asked how Australians could distinguish an inflation miss from a deliberate policy choice, Andrew Hauser gave two different accounts of the post-pandemic experience. After COVID, the then Reserve Bank Board knowingly raised rates less than some peers because it wanted to preserve employment gains, accepting that inflation could take longer to fall. In the more recent 12 to 18 months, however, the economy had more excess demand than the Bank anticipated. The first is a choice about losses the Board is willing to bear. The second is an error in its assessment of economic conditions. The same above-target inflation outcome can result from either, with different implications for the next decision.",
+    "Hauser set out three possible contributors to the error. The world economy proved more resilient than expected, possibly owing to AI spending and the adaptability of global supply chains. Domestic supply capacity may have been overestimated. Financial conditions also appeared easier than a short-term interest rate alone suggested. Which explanation carries the most weight matters for Australian rates. More foreign demand may fade, a downward revision to potential domestic output can leave a given level of spending persistently excessive, and easier financing can dilute the restraint associated with a high cash rate. He offered no numerical decomposition and left open which developments the Bank could reasonably have foreseen.",
+    "A question about the Bank’s revised estimate of the unemployment rate consistent with stable inflation exposed another source of ambiguity. Hauser said the adjustment was driven by a change on the labour-supply side. He emphasised that the Bank assesses full employment across several indicators. A change in that estimate does not by itself establish that employer demand is accelerating, and mechanically translating it into a number of 25 basis point moves would convey considerable false precision. His discussion of forecast intervals calibrated from historical errors made the same point. The uncertainty around an economic projection can be much wider than the difference between adjacent policy settings.",
+    "His answer on transmission gives an alternative to watching mortgage payments alone. He cited the stronger Australian dollar, its effect on the price of imported consumption goods and firms’ inputs, valuation changes and incentives to defer spending. Some models assign the largest contribution to the exchange-rate channel. Hauser observed that the currency’s appreciation that year was broadly consistent with higher interest rates. He did not separate the effect of domestic policy from external developments. On fiscal policy he preferred the RBA to take government policy as given in its forecasts in ordinary circumstances, while acknowledging unavoidable interactions in crises. That distinction makes a new budget an input to an updated demand outlook, without implying a coordinated choice of rates.",
+    "Hauser confirmed the 6–3 vote at that week’s policy decision and described active debate. He declined to describe an internal communications arrangement that would allow investors to treat earlier public comments as a collective signal. An audience member attributed a jump in the priced probability of a rise, from roughly 20 to 60 per cent, to his October remarks. That was the questioner’s attribution. Hauser described his purpose as explaining the data and preserving the Board’s room to decide. Establishing the market move would require dated prices, contract details and checks for other news."
+  ],
+  "questions": [
+    {
+      "question": "What part of the recent inflation miss was visible before the Board acted?",
+      "detail": "Recreate the data available at successive decisions, including trade-partner activity, labour supply and financing conditions. Replay the forecast with corrected assumptions one by one, keeping the contemporary model fixed. This separates a policy choice about the return horizon from information that arrived later and evidence that might reasonably have changed the original diagnosis."
+    },
+    {
+      "question": "Did the stronger Australian dollar tighten conditions as much as the cash rate suggested?",
+      "detail": "Compare trade-weighted exchange rates, landed import prices and input costs in industries with different import reliance. Identify the dates when expected Australian rates moved relative to foreign rates and check for simultaneous commodity or global news. Currency appreciation that eased imported inflation without restraining domestic demand would imply an uneven transmission of tightening."
+    },
+    {
+      "question": "How much should the 6–3 vote change expectations for the following meeting?",
+      "detail": "Use the collective decision and subsequent data to identify the state of the economy in which the majority might change. Anonymous vote totals reveal disagreement on that particular choice. With no individual vote identification or endorsed path, they cannot reveal the distance between members’ preferred rates or what share of the Board would move after a different inflation print."
+    }
+  ],
+  "limitation": ""
+}

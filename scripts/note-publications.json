@@ -823,6 +823,32 @@
     "title": "Monetary policy assessment of September 2026: Summary of discussion",
     "type": "Minutes"
   },
+  "2026-11-02-9410e65097.json": {
+    "jurisdiction": "United States",
+    "type": "Research",
+    "title": "Senior Loan Officer Opinion Survey · October survey",
+    "aliases": [
+      "https://www.federalreserve.gov/data/documents/sloos-202610.pdf"
+    ]
+  },
+  "2026-11-02-a1fdd9259e.json": {
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "title": "Innovation in the relationships between central banks and central counterparties"
+  },
+  "2026-11-02-a7b1e7ed73.json": {
+    "jurisdiction": "United States",
+    "type": "Research",
+    "title": "The Impact of El Niño on the U.S. Economy",
+    "aliases": [
+      "https://www.frbsf.org/wp-content/uploads/el2026-31.pdf"
+    ]
+  },
+  "2026-11-02-f0641b6fc9.json": {
+    "jurisdiction": "United States",
+    "type": "Research",
+    "title": "Texas Economic Indicators: September 2026"
+  },
   "2026-11-03-61453d1afc.json": {
     "jurisdiction": "Canada",
     "title": "Opening Statement before the House of Commons Standing Committee on Finance",
@@ -845,6 +871,24 @@
     "jurisdiction": "South Africa",
     "type": "Release",
     "title": "SARB revises Jibar cessation date to 31 May 2027"
+  },
+  "2026-11-04-695a911f3d.json": {
+    "jurisdiction": "Sweden",
+    "type": "Release",
+    "title": "The Riksbank plans to finance part of the foreign currency reserve with foreign currency loans via the Swedish National Debt Office",
+    "aliases": [
+      "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/261104_nr2/prm-the-riksbank-plans-to-finance-part-of-the-foreign-currency-reserve-with-foreign-currency-loans-via-the-swedish-national-debt-office.pdf",
+      "https://www.riksbank.se/sv/press-och-publicerat/nyheter-och-pressmeddelanden/pressmeddelanden/2026/riksbanken-planerar-att-finansiera-en-del-av-valutareserven-med-valutalan-via-riksgalden/",
+      "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/261104_nr2/prm-riksbanken-planerar-att-finansiera-en-del-av-valutareserven-med-valutalan-via-riksgalden.pdf"
+    ]
+  },
+  "2026-11-04-781e5d877c.json": {
+    "jurisdiction": "Sweden",
+    "type": "Research",
+    "title": "Financing of the Foreign Currency Reserve",
+    "aliases": [
+      "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/261104_nr2/pm-finansiering-av-valutareserven.pdf"
+    ]
   },
   "2026-11-04-9d2fe46301.json": {
     "aliases": [
@@ -876,10 +920,28 @@
       "https://www.banrep.gov.co/en/news/board-directors/minutes-october-2026"
     ]
   },
+  "2026-11-05-5b788c963d.json": {
+    "jurisdiction": "Sweden",
+    "type": "Speech",
+    "title": "Erik Thedéen: Simplify banking regulations – without compromising resilience",
+    "aliases": [
+      "https://www.riksbank.se/sv/press-och-publicerat/tal-och-presentationer/2026/erik-thedeen-forenkla-bankreglerna--utan-att-aventyra-motstandskraften/"
+    ]
+  },
+  "2026-11-05-64590546b8.json": {
+    "jurisdiction": "Australia",
+    "type": "Speech",
+    "title": "Transcript of Question & Answer Session Trust, Expectations and Monetary Policy"
+  },
   "2026-11-05-7b754e6fd7.json": {
     "jurisdiction": "Norway",
     "title": "Policy rate kept unchanged at 4.5 percent",
     "type": "Decision"
+  },
+  "2026-11-05-92c7994bda.json": {
+    "jurisdiction": "Australia",
+    "type": "Speech",
+    "title": "Andrew Hauser: Trust, Expectations and Monetary Policy"
   },
   "2026-11-05-97c78572a2.json": {
     "jurisdiction": "Brazil",
@@ -904,6 +966,11 @@
     "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
     "type": "Press conference"
   },
+  "2026-11-06-efebcda392.json": {
+    "jurisdiction": "United Kingdom",
+    "type": "Research",
+    "title": "Market Participants Survey results - November 2026"
+  },
   "2026-11-09-07ec85b0ec.json": {
     "jurisdiction": "South Africa",
     "type": "Release",
@@ -913,6 +980,21 @@
     "jurisdiction": "South Africa",
     "type": "Release",
     "title": "Information notice on the official gold and foreign exchange reserves of the South African Reserve Bank as at 31 October 2026"
+  },
+  "2026-11-09-5a12ff6781.json": {
+    "jurisdiction": "Australia",
+    "type": "Speech",
+    "title": "Sarah Hunter: What Happens to the Economy as ‘Intelligence’ Gets Cheaper?"
+  },
+  "2026-11-09-743fe406c5.json": {
+    "jurisdiction": "United Kingdom",
+    "type": "Speech",
+    "title": "Central Bank independence in today’s world - Speech by Andrew Bailey"
+  },
+  "2026-11-09-a08a3c5e71.json": {
+    "jurisdiction": "Australia",
+    "type": "Speech",
+    "title": "Transcript of Question & Answer Session What Happens to the Economy as ‘Intelligence’ Gets Cheaper?"
   },
   "2026-11-09-ab802616c4.json": {
     "jurisdiction": "Euro area",
@@ -944,6 +1026,11 @@
     "aliases": [
       "https://www.bcb.gov.br/publicacoes/atascopom/04112026"
     ]
+  },
+  "2026-11-10-5537220d00.json": {
+    "jurisdiction": "United Kingdom",
+    "type": "Speech",
+    "title": "The low-gear labour market — Clare Lombardelli"
   },
   "2026-11-10-7e8ebfec1b.json": {
     "jurisdiction": "United States",
@@ -1015,6 +1102,11 @@
     "type": "Speech",
     "title": "Kevin Warsh · Opening Remarks at the Productivity and Jobs Task Force Conference"
   },
+  "2026-11-16-2aabc39ce2.json": {
+    "jurisdiction": "Euro area",
+    "type": "Commentary",
+    "title": "Frank Elderson: Smart supervision for small banks"
+  },
   "2026-11-16-5a4ee6d389.json": {
     "jurisdiction": "Euro area",
     "type": "Research",
@@ -1034,6 +1126,11 @@
     "jurisdiction": "Euro area",
     "type": "Research",
     "title": "Fiscal Policy during the cost-of-living crisis"
+  },
+  "2026-11-17-0ee5b55c75.json": {
+    "jurisdiction": "Euro area",
+    "type": "Speech",
+    "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience"
   },
   "2026-11-17-1d9cb0b882.json": {
     "jurisdiction": "Euro area",
@@ -1055,10 +1152,25 @@
     "type": "Speech",
     "title": "Christopher Waller · Considerations at the Intersection of Payments and Tokenized Markets"
   },
+  "2026-11-17-f797e2c8d5.json": {
+    "jurisdiction": "Australia",
+    "type": "Speech",
+    "title": "Michele Bullock: Panel at the ASIC Annual Forum"
+  },
+  "2026-11-18-0854913254.json": {
+    "jurisdiction": "Euro area",
+    "type": "Research",
+    "title": "Financial stability implications of AI adoption in the financial industry and the real economy"
+  },
   "2026-11-18-23d7b9270f.json": {
     "jurisdiction": "Sweden",
     "type": "Speech",
     "title": "Monetary policy must be forward looking — Göran Hjelm"
+  },
+  "2026-11-18-30a53a99a9.json": {
+    "jurisdiction": "Euro area",
+    "type": "Research",
+    "title": "Financial stability risks from large IPOs, equity issuance and passive investing"
   },
   "2026-11-18-5936858f1a.json": {
     "aliases": [
@@ -1091,5 +1203,15 @@
     "jurisdiction": "Sweden",
     "type": "Speech",
     "title": "Executive Board in Finance Committee hearing on monetary policy"
+  },
+  "2026-11-20-7bdde23f0b.json": {
+    "jurisdiction": "Australia",
+    "type": "Speech",
+    "title": "The Role of Research in Monetary Policymaking"
+  },
+  "2026-11-20-db518560ee.json": {
+    "jurisdiction": "Australia",
+    "type": "Speech",
+    "title": "Transcript of Question & Answer Session The Role of Research in Monetary Policymaking"
   }
 }

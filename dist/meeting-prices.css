@@ -1,0 +1,4 @@
+#meeting{scroll-margin-top:1rem}
+.es-price-values{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding-top:14px;border-top:1px solid #708478;margin:12px 0 0}
+.es-price-values dt{color:#d9dece;font-size:.84rem}
+.es-price-values dd{font:400 clamp(1.1rem,2.1vw,1.7rem)/1.25 var(--serif);font-variant-numeric:tabular-nums;margin:2px 0 0}

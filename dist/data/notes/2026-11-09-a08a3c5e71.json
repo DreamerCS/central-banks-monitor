@@ -1,0 +1,28 @@
+{
+  "title": "What changed in the RBA’s forecast when the data centres showed up?",
+  "bank": "Reserve Bank of Australia",
+  "date": "2026-11-09",
+  "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-11-09-q-and-a-transcript.html",
+  "summary": [
+    "Sarah Hunter gave an unusually specific answer to a forecasting question: much of the revision to business investment was a higher level of activity already under way. Trade data had given staff an early read on a further step up in the September quarter. Beyond that, the November forecast allowed some more growth before the level flattened. A high, flat investment level means continuing expenditure and demand for resources, but a much smaller growth contribution after the initial step. An analyst extrapolating the past rate of growth would build a substantially different demand forecast from the one Hunter described.",
+    "Project schedules were one source of uncertainty. Firms might be unaware of the timing themselves because key decisions were contingent. Some projects already under way might be missing from the Bank’s view, raising the eventual level. Other plans could be scaled back or affected by regulation. Hunter called the risks on either side of the investment forecast broadly balanced and stressed that the range of plausible outcomes was wide. A smooth baseline represented the staff’s assessment of the pipeline and what the economy could deliver. It would be a poor benchmark for deciding that a single quarter of lumpy capital imports marked a new cycle.",
+    "Hunter identified two places where the work had reached the inflation forecast. Prices of some electronics, including mobile phones and game consoles, were rising sharply, though these items make up a small share of the CPI. Competition for construction resources could also feed into the new-dwelling construction component. More important for the revision to headline inflation was a higher assumed oil-price profile than in August. Underlying the wider assessment was demand still growing somewhat faster than supply. She gave no percentage-point decomposition. The answer establishes where staff saw pass-through and how they ranked its importance. It cannot justify attributing the whole forecast revision to AI.",
+    "When the moderator suggested that economists had brought forward the productivity dividend and then changed their minds, Hunter distinguished a demand surprise from a revision to the supply view. Business investment was substantially stronger than envisaged a year earlier. Staff had long expected meaningful productivity gains to take several years. Their ongoing 0.7 per cent annual growth assumption over the roughly two-year horizon through end-2028 included several influences, including the expected fading of temporary drags. It is a figure for total productivity growth. Treating it as an estimate of the contribution of AI would overstate the evidence and distort the base against which a future revision should be measured.",
+    "On the global neutral rate, Hunter noted that estimates in several economies had risen over years. A period of stronger growth and higher interest rates could be economically consistent, as in the late 1990s. She declined to quantify the AI component of an unobservable equilibrium rate. For a rates investor the transcript therefore changes the interpretation of the forecast more than it changes a rate target. It explains why a realised capital-spending revision can move the near-term assessment of demand while the longer-term supply assumption and the assessment of risk around the investment pipeline remain broadly unchanged."
+  ],
+  "questions": [
+    {
+      "question": "How much of the investment revision is a new starting level, and how much is additional future growth?",
+      "detail": "Compare August and November forecast levels for each quarter using the same price basis. Replace only the latest observed or estimated quarter first, then compare subsequent growth rates. A large revision to the base with smaller changes to the slope can lift spending for several quarters while producing a much smaller addition to future GDP growth."
+    },
+    {
+      "question": "Are imported servers arriving ahead of local spending on construction and power?",
+      "detail": "Match quarterly equipment imports with dated project works, grid connections and local subcontractor demand. A shipment before a site is commissioned can temporarily distort the apparent investment profile. Check whether a flatter level reflects completion of an earlier wave, delays or an omitted new project before interpreting a quarterly overshoot as a lasting domestic-demand surprise."
+    },
+    {
+      "question": "Can electronics or housing construction explain a measurable part of the CPI revision?",
+      "detail": "Estimate the direct electronics contribution with expenditure weights. Test the indirect route separately using new-dwelling prices, the costs of trades shared with data centres and geographic variation in construction activity. Hold the oil assumption constant in that exercise. The most informative result would be persistent pressure in a broader component that the electronics calculation misses."
+    }
+  ],
+  "limitation": ""
+}

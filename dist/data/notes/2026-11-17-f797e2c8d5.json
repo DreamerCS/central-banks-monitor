@@ -1,0 +1,32 @@
+{
+  "title": "Australia’s five rate rises and the price pressures housing could yet offset",
+  "bank": "Reserve Bank of Australia",
+  "date": "2026-11-17",
+  "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-11-17.html",
+  "summary": [
+    "At the ASIC forum, Governor Michele Bullock explained why the Reserve Bank had raised rates five times, by a total of 125 basis points, since the beginning of 2026. Inflation was already above target in the second half of 2025 and the Board had begun tightening before the Middle East conflict pushed oil prices higher. That sequence matters when evaluating the next inflation print. A reversal in fuel prices would remove a source of headline pressure. It would leave the original question open: has domestic spending slowed enough to relieve pressure on scarce resources?",
+    "Bullock identified three ways inflation could outlast the forecast. First, staff take the oil futures curve as a technical assumption. Successive expectations of cheaper oil had gone unfulfilled. A persistent gap between the assumed and realised oil price changes both the headline inflation outlook and household purchasing power. Second, AI-related capital spending, particularly data centres, was increasing demand for resources that Bullock judged already stretched. Third, some firms in the Bank’s liaison programme had begun to ask whether inflation around 3 or 3.5 per cent might be normal. She described these reports as tentative. They matter because a higher reference point could enter wage, price and investment decisions long after the initial fuel shock.",
+    "Housing supplied the clearest counterweight. Higher rates curb demand for mortgages and for goods and services associated with buying and furnishing a home. Bullock judged that the fall in housing had gone further than that channel alone could explain. She pointed to tax changes and uncertainty over the outlook. For someone interpreting Australian rates, the distinction affects the forecast after the next move: another rise may reinforce an existing pullback, while a decline driven partly by temporary uncertainty could moderate if confidence recovers. A single national house-price index cannot identify these channels.",
+    "The Governor’s account of household stress also complicates the reading of bank credit data. Liaison with community organisations brought her attention to low-paid renters with little discretionary spending. Some mortgagors were continuing to pay their loans by cutting food purchases or delaying utility bills. A stable mortgage-arrears rate could therefore coexist with a sharp adjustment in consumption. Renters and owner-occupiers also have different exposures to higher rates and to food and energy inflation. The aggregate household budget conceals which expenses have actually been cut.",
+    "Bullock placed the energy shock alongside earlier pandemic, trade and geopolitical disruptions. Supply chains had adapted more successfully than she had expected, even as firms reconsidered reliance on their cheapest supplier. That observation makes shipping delays and availability useful checks on a forecast that assumes a repeat of earlier bottlenecks. In payments she described a similar choice between speed and resilience: checks on particular high-risk transfers could coexist with rapid settlement elsewhere. The resilience of the payments system was one of her long-run tests of success, alongside low, stable inflation and a labour market able to adjust to AI. The forum supplied a view of the distribution of risks. It supplied neither a new rate decision nor a timetable for the next one."
+  ],
+  "questions": [
+    {
+      "question": "Would an oil-price undershoot be enough to change the domestic inflation outlook?",
+      "detail": "Rebuild the headline path first using the futures curve assumed in the forecast, then using a flat oil price. Track fuel prices, domestically supplied services and wage settlements separately. If household real incomes weaken while domestic prices keep rising, a favourable change in headline inflation alone gives little guidance about the amount of restraint still needed."
+    },
+    {
+      "question": "Is housing signalling monetary restraint, a change in tax incentives or a temporary pause in demand?",
+      "detail": "Compare new housing-finance commitments, turnover and furnishing expenditure across buyers and locations with different tax and mortgage exposures. Line them up against the timing of rate and tax changes. A broad fall in housing-related consumption would have different implications for aggregate demand from a redistribution of transactions between buyer groups."
+    },
+    {
+      "question": "Are firms building 3 to 3.5 per cent inflation into decisions they can no longer easily reverse?",
+      "detail": "Follow the same businesses from liaison into the next pricing or wage review. Record whether that number appears in multi-year contracts or in a one-off price reset, and whether firms expect competitors to follow. The most informative evidence would be wider adoption after fuel costs stabilise, especially in industries with little direct oil exposure."
+    },
+    {
+      "question": "Where would financial stress surface before it reaches mortgage arrears?",
+      "detail": "Compare essential consumption and late utility payments for low-income renters and mortgagors with similar incomes. A household protecting its mortgage payment by reducing food consumption can weaken retail activity without immediately worsening mortgage performance. Composition by tenure matters for both the consumption forecast and the interpretation of household-credit quality."
+    }
+  ],
+  "limitation": "The RBA transcript reproduces the Governor’s contributions and selected exchanges. Other portions of the multi-speaker panel are omitted."
+}

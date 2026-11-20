@@ -11,7 +11,7 @@
       "monetary": "On January 3, 2001, the FOMC cut the funds target by half a percentage point to 6 percent between scheduled meetings. On June 25, 2003, it cut a quarter point to 1 percent although spending and financial conditions had begun to improve. One voter preferred twice that cut. On June 30, 2004, the FOMC raised the rate a quarter point to 1.25 percent while still describing the resulting stance as supportive. It attributed part of the recent inflation rise to temporary influences.",
       "fiscal": "Congress and President George W. Bush changed household taxation in parallel. The June 2001 tax law introduced a 10 percent bracket and provided advance refunds. The May 2003 law accelerated specified individual tax reductions and reduced rates on qualifying dividends and capital gains. Those were choices about the tax code. The automatic loss of revenue when incomes decline is a separate channel through which the budget cushions a slowdown. To estimate their respective effects on spending, distinguish eligibility, actual payment and the taxpayer’s income path.",
       "communication": "The August 2003 statement signalled that accommodation could last a considerable time. The May 2004 statement instead discussed how gradually it could be removed, while leaving the rate at 1 percent. The change in wording gave investors information at a meeting with no rate change. The June hike still allowed a different pace if the outlook changed.",
-      "test": "On the June 2003 cut day, the two- and ten-year Treasury yields rose 16 and 9 basis points from the previous observation. On the June 2004 hike day, they fell 13 and 8. These daily observations run opposite to the announced target changes. Test whether the size or path surprise explains the difference using pre-announcement futures and intraday quotes, then check for unrelated releases.",
+      "test": "On the June 2003 cut day, the two- and ten-year Treasury yields rose 16 and 9 basis points from the previous observation. On the June 2004 hike day, they fell 13 and 8. These daily observations run opposite to the announced target changes. Test whether the size or path surprise explains the difference using pre-announcement futures and intraday quotes, then check for unrelated releases. The Fed’s paired statement and press conference price record begins in April 2011, after this term.",
       "episodes": [
         {
           "date": "2001-01-03",
@@ -73,10 +73,10 @@
       "role": "Chair, Board of Governors of the Federal Reserve System",
       "headline": "The policy rate reached its floor while the balance sheet kept changing.",
       "context": "By December 2008, employment, consumer spending, business investment and industrial production were deteriorating together. Credit conditions remained tight even as commodity prices fell. The FOMC’s problem was how to support lending and spending when little conventional rate-cutting room remained. By December 2013 the question had changed again. The labour market had improved while inflation remained below objective, and the Committee was deciding how to reduce the flow of new purchases without bringing forward a rate increase.",
-      "monetary": "On December 16, 2008, the FOMC set a range of 0–0.25 percent and emphasised agency debt and mortgage-backed securities to support mortgage markets. In December 2013 it announced that, starting in January, monthly additions would slow from $40 billion to $35 billion for agency mortgage-backed securities and from $45 billion to $40 billion for longer-term Treasuries. Holdings would still grow. A smaller flow of purchases and a shrinking balance sheet have different implications for duration risk held by private investors.",
+      "monetary": "On December 16, 2008, the FOMC set a range of 0–0.25 percent and emphasised agency debt and mortgage-backed securities to support mortgage markets. In December 2013 it announced that, starting in January, monthly additions would slow from $40 billion to $35 billion for agency mortgage-backed securities and from $45 billion to $40 billion for longer-term Treasuries. Holdings would still grow. A smaller flow of purchases and a shrinking balance sheet have different implications for duration risk held by private investors. In September 2013 the FOMC kept buying $40 billion of agency mortgage-backed securities and $45 billion of longer-term Treasuries each month. Unemployment had fallen from 8.1% to 7.3% over the year, but participation had also fallen and real wages had barely moved. Mortgage rates had risen. Bernanke told reporters that fiscal restraint could be costing a percentage point or more of that year’s growth. The committee wanted evidence that the recovery could withstand tighter financial conditions before it slowed purchases.",
       "fiscal": "In October 2008 Congress authorised up to $700 billion for the Treasury’s Troubled Asset Relief Program. Later legislation reduced the authority to $475 billion. Authority, disbursements and ultimate fiscal cost differ because assets could be repaid or sold. Congress and President Barack Obama also enacted the Recovery Act in February 2009, including state fiscal relief, tax measures and unemployment provisions. They added to the existing response of tax receipts and benefit payments to a weakening economy. The Fed’s securities portfolio and Treasury’s budget and equity investments require separate accounts.",
-      "communication": "In December 2012 the Committee attached conditions to its low-rate guidance. Unemployment above 6.5 percent, projected inflation no more than half a point above the 2 percent goal one to two years ahead, and anchored long-run expectations informed its assessment. In December 2013 it explicitly allowed low rates to persist after unemployment crossed 6.5 percent. The unemployment threshold therefore cannot be used as a mechanical hike trigger.",
-      "test": "From December 17 to 18, 2013, the two-year Treasury yield fell 2 basis points while the ten-year rose 4. Test whether the purchase slowdown and the longer low-rate guidance affected different maturities by comparing Treasury futures, expected short rates and mortgage spreads around the announcement. Daily Treasury changes alone cannot allocate the move between those two messages.",
+      "communication": "In December 2012 the Committee attached conditions to its low-rate guidance. Unemployment above 6.5 percent, projected inflation no more than half a point above the 2 percent goal one to two years ahead, and anchored long-run expectations informed its assessment. In December 2013 it explicitly allowed low rates to persist after unemployment crossed 6.5 percent. The unemployment threshold therefore cannot be used as a mechanical hike trigger. Bernanke distinguished a conditional plan to slow the flow of purchases from the conditions for raising the funds rate. June’s discussion of timing had assumed durable job growth and inflation moving back towards 2%. In September the committee remained concerned about recent financial tightening and the uncertain effects of fiscal restraint. The 6.5% unemployment threshold in its rate guidance did not oblige it to raise rates at that point. The distinction matters for a portfolio exposed both to next year’s cash rate and to a long-dated Treasury.",
+      "test": "From December 17 to 18, 2013, the two-year Treasury yield fell 2 basis points while the ten-year rose 4. Test whether the purchase slowdown and the longer low-rate guidance affected different maturities by comparing Treasury futures, expected short rates and mortgage spreads around the announcement. Daily Treasury changes alone cannot allocate the move between those two messages. Across the 12 paired meetings available for this term (2011-04-27 to 2013-12-18), the median absolute move in one-year OIS was 0.58 bp after the decision release and 0.32 bp during the press conference. The series starts in 2011 and covers only meetings that included a press conference. The market response was concentrated further along the curve. The current-meeting futures surprise was zero in both windows. The 10-year Treasury yield fell 11.08 bp in the statement window and a further 7.50 bp in the press conference. One-year OIS fell only 0.80 bp and 0.40 bp, respectively. An unchanged overnight target concealed substantial duration risk. These prices alone cannot establish how much came from revised expectations of future short rates, the expected supply of duration to private investors or a change in the compensation for holding it.",
       "episodes": [
         {
           "date": "2008-12-16",
@@ -92,6 +92,21 @@
           "date": "2013-12-18",
           "title": "The purchase pace falls while low-rate guidance persists",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20131218a.htm"
+        },
+        {
+          "date": "2013-09-18",
+          "title": "Why a steady purchase pace moved long yields · FOMC statement",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20130918a.htm"
+        },
+        {
+          "date": "2013-09-18",
+          "title": "Why a steady purchase pace moved long yields · Bernanke’s press conference, pp. 1–5",
+          "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20130918.pdf"
+        },
+        {
+          "date": "2013-09-18",
+          "title": "Market prices in the statement and conference windows",
+          "url": "https://dreamercs.github.io/central-banks-monitor/meeting-prices.html?bank=fed&date=2013-09-18#meeting"
         }
       ],
       "sources": [
@@ -118,6 +133,10 @@
         {
           "label": "Ten-year U.S. Treasury yield • daily H.15",
           "url": "https://fred.stlouisfed.org/series/DGS10"
+        },
+        {
+          "label": "San Francisco Fed · USMPD · meeting-day prices",
+          "url": "https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/"
         }
       ]
     },
@@ -131,7 +150,7 @@
       "monetary": "In October 2014 the FOMC ended net purchases while continuing to roll over maturing Treasuries and reinvest principal from agency securities. In December 2015 it lifted the funds range to 0.25–0.50 percent in anticipation of a return to 2 percent inflation over time. In September 2017 the Committee held the funds range at 1–1.25 percent and announced that balance-sheet reduction would start in October. The plan initially capped monthly runoff at $6 billion of Treasuries and $4 billion of agency debt and mortgage-backed securities. The caps limited the principal that would go unreinvested. They did not require sales of those amounts.",
       "fiscal": "Congress and President Barack Obama revised discretionary spending limits for fiscal 2016 and 2017 under the Bipartisan Budget Act of 2015. Those limits governed the room for appropriations, with actual spending still dependent on funding and execution. Late in Yellen’s tenure, Congress and President Donald Trump enacted the December 2017 tax law, setting the federal corporate income-tax rate at 21 percent for tax years beginning after December 31. The fiscal 2017 deficit had already reached $666 billion before that legislation was enacted. The timing rules it out as an explanation for that year’s realised deficit.",
       "communication": "In March 2015 Yellen described a gradual rate path as conditional on how output and inflation evolved. She distinguished the outlook for rates after liftoff from the precise date of the first increase. The 2017 plan made the balance-sheet path more predictable while leaving the funds rate available to respond to economic news.",
-      "test": "The two- and ten-year Treasury yields rose 4 and 2 basis points on the December 2015 hike day, and 5 and 4 on the September 2017 runoff announcement day. Compare short-rate futures with duration-sensitive yields and mortgage spreads around each release. The daily comparison documents the direction of repricing, while a narrower window and pre-meeting expectations are needed to isolate policy news.",
+      "test": "The two- and ten-year Treasury yields rose 4 and 2 basis points on the December 2015 hike day, and 5 and 4 on the September 2017 runoff announcement day. Compare short-rate futures with duration-sensitive yields and mortgage spreads around each release. The daily comparison documents the direction of repricing, while a narrower window and pre-meeting expectations are needed to isolate policy news. Across the 16 paired meetings available for this term (2014-03-19 to 2017-12-13), the median absolute move in one-year OIS was 1.08 bp after the decision release and 0.32 bp during the press conference.",
       "episodes": [
         {
           "date": "2014-10-29",
@@ -187,6 +206,10 @@
         {
           "label": "Ten-year U.S. Treasury yield • daily H.15",
           "url": "https://fred.stlouisfed.org/series/DGS10"
+        },
+        {
+          "label": "San Francisco Fed · USMPD · meeting-day prices",
+          "url": "https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/"
         }
       ]
     },
@@ -200,7 +223,7 @@
       "monetary": "On March 15, 2020, the FOMC cut the funds range to 0–0.25 percent. On March 23 it committed to buying Treasuries and agency mortgage-backed securities in the amounts needed to restore market functioning and policy transmission. The same release announced credit facilities supported by $30 billion of Treasury equity, with up to $300 billion in financing envisaged. These were financing capacities, not grants to households. By July 26, 2023, the FOMC had raised the funds range to 5.25–5.50 percent and continued reducing securities holdings.",
       "fiscal": "Congress and President Donald Trump enacted the CARES Act on March 27, 2020. Congress and President Joe Biden enacted the American Rescue Plan in March 2021. Treasury and the IRS delivered direct payments under the legislation, alongside other programmes. Transfers put money in recipients’ hands, whereas the March 23 credit facilities sought to preserve borrowing access. CBO recorded a $3.1 trillion fiscal 2020 deficit. That total included changes in underlying income and tax receipts as well as emergency legislation, and the 2021 Act postdated that fiscal year.",
       "communication": "The 2020 framework sought inflation averaging 2 percent over time and allowed a moderate overshoot after persistently low inflation. In August 2025 Powell explained why the FOMC had removed that makeup approach and returned to flexible inflation targeting. A phrase about inflation running above target therefore carried a different policy implication across these two versions of the framework.",
-      "test": "Between March 20 and 23, 2020, the two- and ten-year Treasury yields fell 9 and 16 basis points. Test market repair directly by comparing bid–ask spreads, trading depth and yields for closely matched Treasury issues around the announcement. Daily yield declines alone cannot distinguish liquidity relief from a deteriorating growth outlook, lower expected policy rates or simultaneous fiscal news.",
+      "test": "Between March 20 and 23, 2020, the two- and ten-year Treasury yields fell 9 and 16 basis points. Test market repair directly by comparing bid–ask spreads, trading depth and yields for closely matched Treasury issues around the announcement. Daily yield declines alone cannot distinguish liquidity relief from a deteriorating growth outlook, lower expected policy rates or simultaneous fiscal news. Across the 64 paired meetings available for this term (2018-03-21 to 2026-04-29), the median absolute move in one-year OIS was 1.70 bp after the decision release and 1.73 bp during the press conference.",
       "episodes": [
         {
           "date": "2020-03-15",
@@ -264,6 +287,10 @@
         {
           "label": "Ten-year U.S. Treasury yield • daily H.15",
           "url": "https://fred.stlouisfed.org/series/DGS10"
+        },
+        {
+          "label": "San Francisco Fed · USMPD · meeting-day prices",
+          "url": "https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/"
         }
       ]
     },
@@ -277,7 +304,7 @@
       "monetary": "June’s target range remained 3.50–3.75 percent. On September 16, the Committee raised it by 25 basis points to 3.75–4.00 percent, citing a more timely return of inflation to 2 percent. On October 28 it held that range. Lisa Cook and Beth Hammack dissented in favour of another quarter-point increase. The Committee continued to endorse ample reserves in the banking system. Its choice about the operating supply of reserves can coexist with disagreement about the price of overnight funds.",
       "fiscal": "The fiscal year ended on September 30 and spans parts of both Powell’s and Warsh’s tenures. In its November 9 summary, CBO reported a $2.0 trillion deficit, up $217 billion. Receipts rose $169 billion and outlays rose $386 billion. Increases in mandatory programmes, net interest and defence were prominent. Congress and President Donald Trump had already enacted Public Law 119-21 in July 2025. Under the tax provisions applicable to 2026, for example, the standard deduction for a married couple filing jointly is $32,200. Changes in tax law, indexed allowances, caseloads and debt-service costs enter the accounts differently. The full annual deficit cannot be attributed to the change of Fed chair or read as discretionary stimulus of the same size.",
       "communication": "At his September press conference, Warsh declined to provide a forward rate commitment and distinguished individual projections from the decision just taken. The October minutes, released November 18, show why the distinction matters. Several participants thought market expectations for further tightening made a hold easier to justify, and a few supporting the hold described it as a close call. The formal October vote, those participants’ arguments and Warsh’s personal comments convey different pieces of evidence.",
-      "test": "The two- and ten-year Treasury yields rose 7 and 1 basis points on the September increase day. On the October hold day they moved in opposite directions, down 3 and up 6. Compare the front-end rates and longer-term inflation compensation around each statement and press conference. Check energy-price news and Treasury financing announcements before attributing either daily change to the Committee.",
+      "test": "The two- and ten-year Treasury yields rose 7 and 1 basis points on the September increase day. On the October hold day they moved in opposite directions, down 3 and up 6. Compare the front-end rates and longer-term inflation compensation around each statement and press conference. Check energy-price news and Treasury financing announcements before attributing either daily change to the Committee. Across the 4 paired meetings available for this term (2026-06-17 to 2026-10-28), the median absolute move in one-year OIS was 5.99 bp after the decision release and 5.60 bp during the press conference. Four meetings give little basis for attributing the difference to the chair.",
       "episodes": [
         {
           "date": "2026-05-22",
@@ -337,6 +364,10 @@
         {
           "label": "Ten-year U.S. Treasury yield • daily H.15",
           "url": "https://fred.stlouisfed.org/series/DGS10"
+        },
+        {
+          "label": "San Francisco Fed · USMPD · meeting-day prices",
+          "url": "https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/"
         }
       ]
     }

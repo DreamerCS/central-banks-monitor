@@ -1,0 +1,27 @@
+{
+  "title": "Thedéen would simplify bank capital rules while preserving the buffers that support lending",
+  "bank": "Sveriges Riksbank",
+  "date": "2026-11-05",
+  "url": "https://www.riksbank.se/en-gb/press-and-published/speeches-and-presentations/2026/erik-thedeen-simplify-banking-regulations--without-compromising-resilience/",
+  "summary": [
+    "Governor Erik Thedéen sees room to simplify Sweden’s banking rules without weakening the capacity of banks to keep lending under stress. At the Swedish Bankers’ Association on 5 November, he singled out the number of capital requirements that operate in parallel and called for greater emphasis on common equity Tier 1 capital. For bank investors, the practical issue is which constraint binds and how clearly they can see it. The governor supports a more intelligible set of requirements while explicitly seeking to preserve capital levels and liquidity buffers. His remarks give no proposed reduction in a ratio, release of capital or basis for a higher bank distribution.",
+    "His argument turns on the supply of credit in a downturn. Looking back at the pandemic, Thedéen observed that banks continued lending to households and companies under severe economic strain. He attributed their greater resilience relative to the financial crisis to the higher capital and liquidity requirements put in place under Basel III. That is his interpretation of two episodes. The published remarks contain no bank-level comparison or estimate that separates the effect of regulation from other influences on lending. His reason for retaining internationally agreed minima is broader: financial stability depends on other jurisdictions maintaining them too, including within the EU.",
+    "The case for simplicity is therefore a question of design. A clearer common-equity requirement could make it easier to see where capacity to absorb losses sits. The governor does not specify which existing constraints should be combined or withdrawn. Nor does he suggest that supervision can become less demanding as intermediation evolves. Growth in non-bank finance and developments in artificial intelligence both feature in his list of uncertainties. He identifies neither a particular loss channel nor its magnitude in this address. In a separate market-infrastructure point, he encourages continued industry adoption of SWESTR, the transaction-based reference rate. His stated objectives are confidence in Swedish benchmarks and alignment with international practice.",
+    "The public record also includes a distinct comment on that day’s flash October inflation figure. The reading was appreciably below the Riksbank’s September forecast. This establishes a downside surprise against the bank’s own projection. Thedéen gave neither a numerical miss nor a comparison with a market consensus. He stressed monthly variability and the additional inflation observation, domestic releases and foreign developments due before the mid-December decision. An analyst assessing the prospective rate path has evidence of a forecast error and a clear account of what information the governor awaits. The address contains no revised inflation projection, rate-path commitment or committee vote."
+  ],
+  "questions": [
+    {
+      "question": "Which constraint would bind for an individual bank after simplification?",
+      "detail": "A reform can preserve aggregate capital while changing which balance sheets have room to expand lending or distribute earnings. Compare any formal proposal with bank-level common equity, risk-weighted assets, leverage requirements, liquidity ratios and disclosed management buffers. The speech supplies neither a proposed calibration nor a cross-bank distribution."
+    },
+    {
+      "question": "How much of the resilience of pandemic lending can be attributed to pre-existing buffers?",
+      "detail": "The governor points to continued lending under stress. To assess that channel, compare otherwise similar banks with different initial headroom and exposures to the same borrowers, taking account of swings in loan demand and public support. Supervisory credit-register data and official evaluations would be more informative than economy-wide loan growth alone."
+    },
+    {
+      "question": "Did the inflation shortfall change the medium-term outlook?",
+      "detail": "The relevant benchmark in these remarks is the September Riksbank forecast. Compare the detailed price components and revisions with that forecast, then look at the next inflation observation and the December projection. Persistence across relatively sticky components would have a different policy implication from a volatile one-month price change."
+    }
+  ],
+  "limitation": "The Riksbank publishes an account of the presentation and a separate inflation comment. Neither official language page includes a verbatim transcript, slide deck or audience questions."
+}

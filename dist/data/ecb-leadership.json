@@ -11,7 +11,7 @@
       "monetary": "On 5 October 2000 the Governing Council raised the minimum bid rate on its main refinancing operations by 25 basis points to 4.75%, bringing cumulative tightening since November 1999 to 225 basis points. On 5 June 2003 it cut its key rates by 50 basis points even though broad money, M3, continued to grow rapidly. Households and investors had shifted into liquid, relatively safe assets, and lending to the private sector was growing much more slowly than M3. The composition of bank balance sheets helped the Council distinguish a demand for safety from money about to be spent.",
       "fiscal": "National governments still set budgets under common fiscal rules. In January 2003 the Council of the EU determined that Germany had an excessive deficit. It questioned Germany’s growth assumption and identified health spending overruns alongside the cyclical slowdown. The German authorities had to decide how to implement the adjustment. Duisenberg’s June call for medium-term spending reform was a policy recommendation. A German budget change and an ECB rate cut therefore belong on different dates when identifying their effects on demand.",
       "communication": "The order of the president’s explanation changed during his term. In 2000 Duisenberg began the briefing with money growth. In May 2003 the Council put the analysis of near-term economic conditions first and used money and credit to check the longer-term conclusion. It retained its definition of price stability as inflation below 2% and clarified that it aimed close to that level, partly to allow a margin against deflation. The June briefing shows how the new order worked when money growth and the inflation forecast pointed in different directions.",
-      "test": "Did money-growth surprises still shift short euro rates once investors could see that deposits were rising faster than private credit? Match original M3 releases to their contemporary forecast medians. Compare the change in three-month Euribor futures on release with the change around the subsequent ECB briefing, separating episodes of weak credit growth. The size of a news surprise and the timing of other data releases matter more here than the recorded level of M3.",
+      "test": "Did money-growth surprises still shift short euro rates once investors could see that deposits were rising faster than private credit? Match original M3 releases to their contemporary forecast medians. Compare the change in three-month Euribor futures on release with the change around the subsequent ECB briefing, separating episodes of weak credit growth. The size of a news surprise and the timing of other data releases matter more here than the recorded level of M3. Across the 69 paired meetings available for this term (2000-01-05 to 2003-10-02), the median absolute move in one-year OIS was 1.00 bp after the decision release and 1.50 bp during the press conference.",
       "episodes": [
         {
           "date": "2000-10-05",
@@ -37,6 +37,10 @@
         {
           "label": "Council opinion on Germany’s budget and deficit, January 2003",
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32003A0204%2801%29"
+        },
+        {
+          "label": "European Central Bank · EA-EMPD · meeting-day prices",
+          "url": "https://www.ecb.europa.eu/press/research-publications/resbull/2020/html/ecb.rb200722~528ea64f0d.en.html"
         }
       ]
     },
@@ -50,7 +54,7 @@
       "monetary": "On 8 October 2008 the Council announced that its weekly refinancing operations would meet all eligible bids at a fixed rate, starting with settlement on 15 October. It also narrowed the standing facilities corridor from 200 to 100 basis points. In May 2010 it introduced the Securities Markets Programme to restore trading and transmission in impaired public and private debt markets. It planned to absorb the liquidity created by those purchases. For a bank, the offer of dependable refinancing changed its funding risk. For a government bond investor, purchases in a distressed market affected liquidity and the price of bearing that risk. Neither channel can be read directly from the announced policy rate.",
       "fiscal": "Greece’s May 2010 rescue had its own institutions and financing. Greece requested assistance and agreed on an adjustment programme. Euro-area governments provided bilateral loans pooled by the European Commission, with a separate IMF arrangement. On 18 May the governments disbursed €14.5 billion after the IMF had disbursed €5.5 billion. The ECB participated in programme discussions, while its bond purchases served the Council’s stated monetary transmission objective. A move in Greek yields around these dates could reflect both access to official financing and improved market liquidity.",
       "communication": "On 3 March 2011 Trichet used the phrase “strong vigilance” while leaving rates unchanged. In questions he said an increase at the next meeting was possible, and expressly left open the subsequent path. The Council raised rates by 25 basis points on 7 April. March was the moment an investor could reprice the probability of April action. Treating the April increase alone as the news would miss that sequence.",
-      "test": "Did the March 2011 press conference bring forward the expected date of tightening without materially raising the expected rate a year ahead? Measure the next-meeting and one-year overnight indexed swap rates separately around the unchanged decision and the subsequent questions. Compare with April’s announcement and with March meetings lacking that wording. A similar move at all horizons would weaken the interpretation that Trichet chiefly signalled timing.",
+      "test": "Did the March 2011 press conference bring forward the expected date of tightening without materially raising the expected rate a year ahead? Measure the next-meeting and one-year overnight indexed swap rates separately around the unchanged decision and the subsequent questions. Compare with April’s announcement and with March meetings lacking that wording. A similar move at all horizons would weaken the interpretation that Trichet chiefly signalled timing. Across the 96 paired meetings available for this term (2003-11-06 to 2011-10-06), the median absolute move in one-year OIS was 0.43 bp after the decision release and 2.10 bp during the press conference.",
       "episodes": [
         {
           "date": "2008-07-03",
@@ -86,6 +90,10 @@
         {
           "label": "European Commission account of the first Greek assistance programme",
           "url": "https://ec.europa.eu/economy_finance/publications/occasional_paper/2010/op61_en.htm"
+        },
+        {
+          "label": "European Central Bank · EA-EMPD · meeting-day prices",
+          "url": "https://www.ecb.europa.eu/press/research-publications/resbull/2020/html/ecb.rb200722~528ea64f0d.en.html"
         }
       ]
     },
@@ -96,10 +104,10 @@
       "role": "President of the European Central Bank",
       "headline": "The price investors put on a euro breakup",
       "context": "In London in July 2012 Draghi described an interbank market retreating behind national borders. A borrower’s country of residence increasingly affected the interest rate it faced, even when the common policy rate was unchanged. He identified a specific component of sovereign borrowing costs: investors were pricing the possibility that a claim payable in euros would be converted into another currency. If that premium impaired the transmission of a common monetary policy, the ECB had grounds to address it. This argument did not require every difference in sovereign borrowing costs to disappear.",
-      "monetary": "On 6 September the Governing Council specified how Outright Monetary Transactions could work. It could buy shorter-dated sovereign bonds in secondary markets, focusing on remaining maturities of one to three years, subject to an appropriate EFSF or ESM programme and its conditions. It set no advance quantity limit. By January 2015 the immediate concern was prolonged low inflation. The expanded purchase programme envisaged €60 billion a month across its public and private asset purchases. This broad easing of financing conditions had a different purpose from a contingent intervention directed at a particular sovereign market. The June 2014 decision to take the deposit facility rate to −0.10% also changed the return on short-term euro assets directly.",
+      "monetary": "On 6 September the Governing Council specified how Outright Monetary Transactions could work. It could buy shorter-dated sovereign bonds in secondary markets, focusing on remaining maturities of one to three years, subject to an appropriate EFSF or ESM programme and its conditions. It set no advance quantity limit. By January 2015 the immediate concern was prolonged low inflation. The expanded purchase programme envisaged €60 billion a month across its public and private asset purchases. This broad easing of financing conditions had a different purpose from a contingent intervention directed at a particular sovereign market. The June 2014 decision to take the deposit facility rate to −0.10% also changed the return on short-term euro assets directly. On 3 December 2015 the ECB cut the deposit facility rate by 10 bp to −0.30%. At the press conference Draghi kept monthly asset purchases at €60 billion, extended their intended duration to March 2017 or longer if needed, and announced reinvestment of maturing principal. Demand was recovering, helped by consumption and cheaper oil. Successive downward inflation revisions nevertheless worried the Council. Its staff projections already incorporated the easier market conditions that followed its earlier communications.",
       "fiscal": "Spain shows where the government’s balance sheet entered the picture. Its government requested external assistance for its banking system in June 2012. The subsequent ESM loan passed through the Spanish bank restructuring fund, FROB, which channelled resources to the institutions concerned. Spain remained responsible for repayment. Conditions addressed bank capital, restructuring and impaired assets. Those fiscal commitments could change the risks facing both Spanish banks and their sovereign independently of what Draghi said in London.",
-      "communication": "Draghi’s July assurance about preserving the euro was a presidential speech. The programme’s eligibility rules and maturities were Council decisions published in September. In July 2013 he used a different form of guidance, explaining that the Council expected rates to stay at their current or lower levels for an extended period given weak activity, credit and inflation. The first intervention addressed the currency in which contracts would be honoured. The second addressed the expected return on holding that currency over time.",
-      "test": "Was the largest effect concentrated where a backstop was most valuable? Altavilla, Giannone and Lenza estimated that the July–September 2012 announcements together reduced Italian and Spanish two-year yields by about two percentage points, with little change at that maturity in France and Germany. Replicate the three announcement windows separately, including 2 August, and compare two- and ten-year yields against matched German bonds. A large relative move at the short end fits the eventual purchase maturities. Common moves in all four markets would point toward a broader change in rate expectations.",
+      "communication": "Draghi’s July assurance about preserving the euro was a presidential speech. The programme’s eligibility rules and maturities were Council decisions published in September. In July 2013 he used a different form of guidance, explaining that the Council expected rates to stay at their current or lower levels for an extended period given weak activity, credit and inflation. The first intervention addressed the currency in which contracts would be honoured. The second addressed the expected return on holding that currency over time. A reporter asked whether the package had come in at the low end of what investors expected. Draghi defended extending purchases and reinvesting as ways of increasing support over time. The reporter’s premise and the price moves are consistent with disappointment about the scale or timing of easing. The available prices do not recover the expected purchase volume or distinguish its effect from investors’ reassessment of rates, growth and risk premia.",
+      "test": "Was the largest effect concentrated where a backstop was most valuable? Altavilla, Giannone and Lenza estimated that the July–September 2012 announcements together reduced Italian and Spanish two-year yields by about two percentage points, with little change at that maturity in France and Germany. Replicate the three announcement windows separately, including 2 August, and compare two- and ten-year yields against matched German bonds. A large relative move at the short end fits the eventual purchase maturities. Common moves in all four markets would point toward a broader change in rate expectations. Across the 77 paired meetings available for this term (2011-11-03 to 2019-10-24), the median absolute move in one-year OIS was 0.20 bp after the decision release and 0.41 bp during the press conference. Prices moved in the same direction in both windows. One-year euro OIS rose 5.46 bp after the rate release and a further 4.70 bp during the conference. EUR/USD rose 1.40% and 1.32%, respectively, while the Euro Stoxx 50 fell 1.13% and 2.40%. The long end moved more during the conference: the German 10-year yield rose 12.47 bp there, after 2.82 bp in the first window. A portfolio long euro area duration and equities faced losses on both exposures despite a cut in the policy rate.",
       "episodes": [
         {
           "date": "2012-07-26",
@@ -125,6 +133,21 @@
           "date": "2015-01-22",
           "title": "A €60 billion monthly asset purchase programme",
           "url": "https://www.ecb.europa.eu/press/pr/date/2015/html/pr150122_1.en.html"
+        },
+        {
+          "date": "2015-12-03",
+          "title": "Why the euro rose on a rate cut · Governing Council rate decision",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2015/html/pr151203.en.html"
+        },
+        {
+          "date": "2015-12-03",
+          "title": "Why the euro rose on a rate cut · Draghi’s opening statement and Q&A",
+          "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2015/html/is151203.en.html"
+        },
+        {
+          "date": "2015-12-03",
+          "title": "Market prices in the statement and conference windows",
+          "url": "https://dreamercs.github.io/central-banks-monitor/meeting-prices.html?bank=ecb&date=2015-12-03#meeting"
         }
       ],
       "sources": [
@@ -143,6 +166,10 @@
         {
           "label": "ECB working paper on OMT announcement effects, August 2014",
           "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1707.pdf"
+        },
+        {
+          "label": "European Central Bank · EA-EMPD · meeting-day prices",
+          "url": "https://www.ecb.europa.eu/press/research-publications/resbull/2020/html/ecb.rb200722~528ea64f0d.en.html"
         }
       ]
     },
@@ -156,7 +183,7 @@
       "monetary": "The March 2020 pandemic purchase programme had an initial €750 billion envelope. The Council allowed purchases to vary over time, by asset class and by country, giving it room to act where financing conditions were tightening fastest. In July 2022 it raised rates by 50 basis points and approved the Transmission Protection Instrument at the same meeting. Both decisions could serve the same aim: a tighter common policy can operate more evenly if disorderly sovereign markets do not impose an additional, country-specific tightening. In September 2026 the Council raised the deposit rate to 2.50%. Staff projected headline inflation of 3.0% in 2026, 2.5% in 2027 and 2.1% in 2028. October brought higher energy prices, broadly stable underlying inflation, little apparent wage response and tighter financial conditions. The Council held.",
       "fiscal": "The pandemic also brought a separate €750 billion decision. In July 2020 EU leaders agreed on NextGenerationEU, authorising the Commission to borrow on behalf of the Union up to that amount in 2018 prices. National governments prepared recovery plans, the Commission assessed them and the Council approved them. Payments depended on progress against agreed milestones. EU borrowing and national investment spending enter fiscal analysis at different dates. The ECB’s March envelope instead described potential securities purchases. Adding the two headline figures would confuse a financing intervention with public expenditure.",
       "communication": "The Council adopted a symmetric medium-term 2% target in 2021. Its 2025 assessment stressed forceful or persistent action against large, lasting deviations in either direction. Lagarde made the October 2026 decision more informative in questions: a hike had been discussed, the final hold was unanimous and forthcoming wage, underlying inflation and credit data would inform December’s discussion. She also announced that day that she would step down on 7 February 2027. She remained president at the November 2026 archive cutoff. In her 20 November Frankfurt speech she gave a different audience a different message. She argued that delaying common standards for tokenised assets could leave European financial markets divided across incompatible settlement systems.",
-      "test": "Did the October 2026 questions change the price of December policy even though the announced rate did not move? Measure the December meeting-dated €STR swap before the release, after the written decision and around Lagarde’s explanation of the debate. Compare it with the two-year swap and with Italian and French spreads to Germany. First timestamp the separate succession announcement and concurrent energy headlines. If they overlap the same window, the price move cannot identify a unique effect of the policy guidance.",
+      "test": "Did the October 2026 questions change the price of December policy even though the announced rate did not move? Measure the December meeting-dated €STR swap before the release, after the written decision and around Lagarde’s explanation of the debate. Compare it with the two-year swap and with Italian and French spreads to Germany. First timestamp the separate succession announcement and concurrent energy headlines. If they overlap the same window, the price move cannot identify a unique effect of the policy guidance. Across the 53 paired meetings available for this term (2019-12-12 to 2026-06-11), the median absolute move in one-year OIS was 1.33 bp after the decision release and 1.15 bp during the press conference.",
       "episodes": [
         {
           "date": "2020-03-18",
@@ -221,6 +248,10 @@
         {
           "label": "ECB notice of Lagarde’s announced departure",
           "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
+        },
+        {
+          "label": "European Central Bank · EA-EMPD · meeting-day prices",
+          "url": "https://www.ecb.europa.eu/press/research-publications/resbull/2020/html/ecb.rb200722~528ea64f0d.en.html"
         }
       ]
     }

@@ -1,0 +1,28 @@
+{
+  "title": "What an Australian rate vote reveals when members’ names stay confidential",
+  "bank": "Reserve Bank of Australia",
+  "date": "2026-11-20",
+  "url": "https://www.rba.gov.au/speeches/2026/sp-mpb-2026-11-20-q-and-a-transcript.html",
+  "summary": [
+    "Asked whether Australia should identify each policymaker’s vote and reasoning, Renée Fry-McKibbin acknowledged the attraction of giving Board members a public voice. She also explained why the RBA Review had opted for a vote count: it allows disagreement to be visible while reducing the risk that competing explanations obscure the collective decision. She did not propose changing the arrangement or identify an individual vote. For an investor reconstructing policy history, a published division establishes disagreement on the resolution put to the Board. It does not identify which economic assumption divided members, how strongly they differed, or what any named person will support at the next meeting.",
+    "The distinction also matters for a decision to leave rates steady. Fry-McKibbin defended the Governor’s practice of holding a press conference after every meeting because an unchanged rate is an active choice that can require explanation. Holding the rate can follow from a view that it is approximately right, or from substantial uncertainty about the costs of another move. Those interpretations can imply different reactions to the same subsequent data. A researcher can look for that difference in the Governor’s explanation and the collective record. An individual member’s answer at a university panel provides a narrower form of evidence.",
+    "A question about recent corporate announcements of job cuts brought out who does what inside the Bank. Fry-McKibbin said she values the business liaison programme because contacts describe current conditions and plans before they reach the national figures. Staff produce the forecasts and the Board subsequently sees them. She did not endorse the questioner’s premise that those particular job cuts were appearing in the forecast. An announced cut at a prominent employer can be genuine without telling us how much hiring elsewhere offsets it, when it will take place or how participation will adjust. The relevant market question is whether new information changes the aggregate assessment and, subsequently, whether the Board changes its judgment.",
+    "The Board member described a visit to Western Australia with other members and the Deputy Governor. Conversations with community groups and chambers of commerce exposed her to parts of the economy she does not encounter day to day. That illustrates the information moving in both directions when central bankers speak publicly. A contact’s observation may change the questions members bring back to staff. It need not be representative enough to enter the point forecast directly. Her discussion of universities, outside specialists and the value of opposing views made a related point: a source is valuable partly for the alternative explanation it allows a policymaker to test.",
+    "Fry-McKibbin argued that policymakers must use judgment with incomplete information and be prepared to change their minds when evidence changes. Her answers emphasised the selection of research questions, opportunities to challenge conclusions and transparency about the roles of outside experts. These are observable features of how a decision is reached. None supplies a directional view on the next cash-rate move. The transcript’s contribution to a policy archive is the boundary it draws between incoming evidence, staff forecasts, confidential individual deliberation and the collective explanation the public can actually scrutinise."
+  ],
+  "questions": [
+    {
+      "question": "Does the vote count add information beyond the collective explanation on unchanged-rate days?",
+      "detail": "Compare meetings with a similar inflation and employment outlook, holding the actual decision fixed. Code the reasons the Governor offers for waiting, then ask whether a disclosed split helps predict a different subsequent decision once intervening data are included. Adjacent votes can share a macroeconomic regime, so a handful of similar meetings would be a weak test."
+    },
+    {
+      "question": "When do public announcements of layoffs become evidence for the national employment forecast?",
+      "detail": "Track announcement, implementation and re-employment dates, distinguishing cuts to occupied positions from jobs left vacant. Compare these with vacancies, hours and hiring intentions in the same and other industries. A market forecast should be revised when the timing and breadth change the labour-market picture, without imputing an unpublished adjustment to RBA staff."
+    },
+    {
+      "question": "What evidence would make regional business intelligence a reliable leading indicator?",
+      "detail": "Date the observation and follow the same industry or region into later official releases. Test whether information about planned hiring or prices improves forecasts beyond the data available at the time. Rotating areas or groups may reveal blind spots but can also create false national turning points when the mix of respondents changes."
+    }
+  ],
+  "limitation": "The published transcript includes Fry-McKibbin’s answers and selected surrounding exchanges. The RBA marks omitted portions of the wider panel discussion."
+}
