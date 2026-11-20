@@ -17,7 +17,7 @@ body{background:var(--paper);color:var(--ink)}
 .cover-kicker:before{content:"";width:26px;height:1px;background:#d3ae82}
 .cover h1{color:inherit;font:400 clamp(3.6rem,6.8vw,7.2rem)/.93 var(--serif);letter-spacing:-.061em;margin:0}
 .cover h1 em{color:#ebd6b0}
-.cover-links{display:flex;gap:23px;align-items:center;margin-top:27px}
+.cover-links{display:flex;flex-wrap:wrap;gap:10px 23px;align-items:center;margin-top:27px}
 .cover-links a{font-size:.9rem;font-weight:600;text-decoration:none}
 .cover-links a:first-child{background:#f6f2e6;color:#1e2c22;padding:13px 16px}
 .cover-links a:first-child:hover{background:#fff}

@@ -8,7 +8,7 @@
   <title>Central Bank Intelligence</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
-  <script src="app.js?v=2" defer></script>
+  <script src="app.js?v=3" defer></script>
   <link rel="stylesheet" href="world-map.css">
   <script src="world-map.js?v=2" defer></script>
   <link rel="stylesheet" href="agenda.css">
@@ -23,7 +23,7 @@
 <img class="cover-img" src="https://images.unsplash.com/photo-1721763604802-21cc60882810?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=85&amp;w=2000" alt="" width="2000" height="1334" fetchpriority="high">
 <div class="shell cover-frame"><div class="cover-copy"><p class="cover-kicker">Global monetary policy</p>
 <h1 id="cover-title">Policy <em>&amp;</em><br>market reactions</h1>
-<div class="cover-links"><a href="market-reactions.html">Explore market reactions</a><a href="#market-history">Rates &amp; FX</a><a href="empirical-studies.html">Time-series studies</a></div></div>
+<div class="cover-links"><a href="market-reactions.html">Explore market reactions</a><a href="#market-history">Rates &amp; FX</a><a href="empirical-studies.html">Time-series studies</a><a href="casebook.html">Research casebook</a></div></div>
 <a class="cover-credit" href="https://unsplash.com/photos/uAnxVqzj8gk" aria-label="Lofoten photograph credit">Lofoten, Norway <span>/</span> Daniel Seßler / Unsplash</a></div></section>
 <div class="shell agenda-shell"><aside id="speech-agenda" aria-label="Speaking calendar"></aside></div><section class="shell market-tape" id="market-history" aria-labelledby="tape-title">
 <div class="tape-heading"><div><p class="eyeline">Market history</p><h2 id="tape-title">Rates &amp; FX</h2></div><a class="text-link" href="market-reactions.html">Explore policy events</a></div>
@@ -52,7 +52,48 @@
     </section>    <section id="index" class="index shell">
       <div class="section-heading"><div><h2>Treasury close</h2></div></div>
       <div class="treasury-panel" aria-labelledby="treasury-title"><div class="treasury-heading"><div><h3 id="treasury-title">Treasury par yield curve</h3><p>The 2s10s spread is the ten-year yield minus the two-year yield.</p></div><a href="https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics" target="_blank" rel="noopener noreferrer">U.S. Treasury data</a></div><div class="treasury-stats"><div><span>US 2Y</span><strong id="yield-2y">—</strong></div><div><span>US 10Y</span><strong id="yield-10y">—</strong></div><div><span>10Y − 2Y</span><strong id="yield-spread">—</strong></div></div><p id="treasury-asof" class="asof" role="status">Loading Treasury yields…</p><div id="treasury-chart" class="treasury-chart" role="img" aria-label="Daily two-year and ten-year Treasury yields over recent observations"></div><div class="chart-legend"><span><i></i> 2-year</span><span><i></i> 10-year</span></div></div>
-      <details class="calc"><summary>Event calculator · bring your own data</summary><div class="event-tool"><div><h3>Event window</h3><p>Load your own timestamped observations as a CSV with <code>timestamp_utc,asset,value</code>. </p><a href="market-template.csv" download>Download blank CSV template ↧</a></div><div class="event-form"><label for="market-file">MARKET CSV</label><input id="market-file" type="file" accept=".csv,text/csv"><label for="event-time">SPEECH TIME (UTC)</label><input id="event-time" type="datetime-local"><label for="asset-filter">ASSET NAME IN CSV</label><input id="asset-filter" type="text" value="US 2Y yield"><label for="event-window">MAXIMUM GAP EACH SIDE</label><select id="event-window"><option value="60">60 minutes</option><option value="240">4 hours</option><option value="1440">24 hours</option><option value="4320">3 days</option></select><button id="run-event" class="button" type="button">Calculate change</button><p id="event-result" role="status" aria-live="polite">Add a CSV and event time to calculate.</p></div></div>
+      <details class="calc" id="event-calculator">
+        <summary>Event calculator · bring your own data</summary>
+        <div class="event-tool">
+          <div>
+            <h3>Announcement windows</h3>
+            <p>Measure the change in a yield, exchange rate or price after a policy announcement. Your CSV stays in your browser.</p>
+            <p>Use the header <code>timestamp_utc,asset,value</code> and UTC timestamps such as <code>2026-01-28T19:14:00Z</code>. Enter yields in percent (4.25 for 4.25%).</p>
+            <a href="market-template.csv" download>Download blank CSV template</a>
+          </div>
+          <div class="event-form" id="event-form">
+            <label for="market-file">Market CSV</label>
+            <input id="market-file" type="file" accept=".csv,text/csv">
+            <label for="event-time">Announcement time (UTC)</label>
+            <input id="event-time" type="datetime-local" step="1">
+            <label for="asset-filter">Asset name in CSV</label>
+            <input id="asset-filter" type="text" value="US 2Y yield">
+            <label for="event-measure">Measure</label>
+            <select id="event-measure">
+              <option value="yield">Yield change (bp)</option>
+              <option value="return">FX or price return (%)</option>
+              <option value="level">Change in original units</option>
+            </select>
+            <label for="event-horizon">Reaction window</label>
+            <select id="event-horizon" aria-describedby="window-method">
+              <option value="15">15 minutes after announcement</option>
+              <option value="30">30 minutes after announcement</option>
+              <option value="nearest">Nearest quote on each side</option>
+            </select>
+            <div id="nearest-window" hidden>
+              <label for="event-window">Maximum gap on each side</label>
+              <select id="event-window">
+                <option value="60">60 minutes</option>
+                <option value="240">4 hours</option>
+                <option value="1440">24 hours</option>
+                <option value="4320">3 days</option>
+              </select>
+            </div>
+            <p id="window-method">Uses the last quote strictly before the announcement and the last quote at or before the target. Each quote can be up to two minutes old.</p>
+            <button id="run-event" class="button" type="button">Calculate change</button>
+            <p id="event-result" role="status" aria-live="polite">Add a CSV and event time to calculate.</p>
+          </div>
+        </div>
     </details></section><div class="shell directory-stats"><a href="source-coverage.html"><b id="source-total">93</b> source pages · <b id="bank-total">45</b> institutions · 29 jurisdictions</a></div>    <section id="atlas" class="atlas shell">
       <div class="section-heading"><div><h2>Source directory</h2></div></div>
       <div class="atlas-layout">

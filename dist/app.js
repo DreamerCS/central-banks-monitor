@@ -216,35 +216,138 @@ function parseCsvLine(line) {
     else if (ch === ',' && !quoted) { fields.push(value); value = ""; }
     else value += ch;
   }
-  fields.push(value); return fields.map((item) => item.trim());
+  if (quoted) return [];
+  fields.push(value);
+  return fields.map((item) => item.trim());
+}
+
+const minuteMs = 60_000;
+const quoteTolerance = 2 * minuteMs;
+
+function parseUtcTimestamp(stamp) {
+  if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2}(?:\.\d{1,3})?)?Z$/.test(stamp)) return NaN;
+  const time = Date.parse(stamp);
+  if (!Number.isFinite(time)) return NaN;
+  return new Date(time).toISOString().slice(0, 16) === stamp.slice(0, 16) ? time : NaN;
+}
+
+function eventObservations(csv, asset) {
+  const lines = csv.trim().split(/\r?\n/);
+  if (parseCsvLine(lines[0]).join(",").toLowerCase() !== "timestamp_utc,asset,value") {
+    throw new Error("The CSV header must be timestamp_utc,asset,value.");
+  }
+  const quotes = new Map();
+  for (const line of lines.slice(1)) {
+    const fields = parseCsvLine(line);
+    if (fields.length !== 3) continue;
+    const [stamp, name, raw] = fields;
+    if (name.toLowerCase() !== asset.toLowerCase() || !/^[+-]?(?:\d+\.?\d*|\.\d+)(?:e[+-]?\d+)?$/i.test(raw)) continue;
+    const time = parseUtcTimestamp(stamp);
+    const value = Number(raw);
+    if (!Number.isFinite(time) || !Number.isFinite(value)) continue;
+    const existing = quotes.get(time);
+    if (!existing) quotes.set(time, { time, value, stamp });
+    else if (existing.value !== value) existing.conflict = true;
+  }
+  return Array.from(quotes.values()).sort((first, second) => first.time - second.time);
+}
+
+function eventWindow(quotes, eventTime, horizon, nearestMinutes) {
+  if (quotes.length === 0) throw new Error("No matching quotes. Check the asset name, numeric values and UTC timestamps ending in Z.");
+  const nearest = horizon === "nearest";
+  const gap = nearest ? nearestMinutes * minuteMs : quoteTolerance;
+  const before = quotes.filter(quote => quote.time < eventTime && quote.time >= eventTime - gap).at(-1);
+  if (!before) throw new Error(`Missing baseline. Supply a quote strictly before the announcement, within ${gap / minuteMs} minutes.`);
+  let after;
+  if (nearest) {
+    after = quotes.find(quote => quote.time > eventTime && quote.time <= eventTime + gap);
+    if (!after) throw new Error(`Missing post-announcement quote within ${nearestMinutes} minutes.`);
+  } else {
+    const target = eventTime + Number(horizon) * minuteMs;
+    after = quotes.filter(quote => quote.time > eventTime && quote.time <= target && quote.time >= target - gap).at(-1);
+    if (!after) throw new Error(`No quote at +${horizon} minutes or in the preceding two minutes. Supply a quote for that window.`);
+  }
+  for (const quote of [before, after]) {
+    if (quote.conflict) throw new Error(`The CSV has conflicting prices for the selected asset at ${quote.stamp}. Keep one value for that time.`);
+  }
+  return { before, after };
+}
+
+function eventChange(before, after, measure) {
+  let value = after - before;
+  let digits = 4;
+  let suffix = " units";
+  if (measure === "yield") {
+    value *= 100;
+    digits = 2;
+    suffix = " bp";
+  } else if (measure === "return") {
+    if (before <= 0 || after <= 0) throw new Error("FX or price returns require positive quotes. Choose original units for a series that crosses zero.");
+    value = (after - before) / before * 100;
+    digits = 3;
+    suffix = "%";
+  }
+  if (!Number.isFinite(value)) throw new Error("The change exceeds the supported numeric range.");
+  return new Intl.NumberFormat("en-GB", {
+    signDisplay: "exceptZero", minimumFractionDigits: digits, maximumFractionDigits: digits
+  }).format(value) + suffix;
+}
+
+let eventRequest = 0;
+
+function clearEventResult() {
+  eventRequest++;
+  const output = $("#event-result");
+  output.className = "";
+  output.textContent = "Select Calculate change to see the result.";
+}
+
+function updateWindowFields() {
+  const nearest = $("#event-horizon").value === "nearest";
+  $("#nearest-window").hidden = !nearest;
+  $("#window-method").textContent = nearest
+    ? "Uses the last quote strictly before the announcement and the first quote strictly after it, within the maximum gap on each side."
+    : "Uses the last quote strictly before the announcement and the last quote at or before the target. Each quote can be up to two minutes old.";
 }
 
 async function runEvent() {
-  const output = $("#event-result"); output.className = "";
+  const request = ++eventRequest;
+  const output = $("#event-result");
   const file = $("#market-file").files?.[0];
-  const event = $("#event-time").value;
+  const eventTime = parseUtcTimestamp(`${$("#event-time").value}Z`);
   const asset = $("#asset-filter").value.trim();
-  if (!file || !event || !asset) { output.textContent = "Select a CSV, UTC event time and asset name."; output.className = "error"; return; }
-  if (file.size > 2_000_000) { output.textContent = "Choose a CSV smaller than 2 MB."; output.className = "error"; return; }
-  const lines = (await file.text()).replace(/^\uFEFF/, "").split(/\r?\n/).filter(Boolean);
-  if (lines[0]?.toLowerCase() !== "timestamp_utc,asset,value") { output.textContent = "The CSV header must be timestamp_utc,asset,value."; output.className = "error"; return; }
-  const observations = [];
-  for (const line of lines.slice(1)) {
-    const [stamp, label, raw] = parseCsvLine(line);
-    if (label?.toLowerCase() !== asset.toLowerCase() || !/^\d{4}-\d\d-\d\dT\d\d:\d\d(?::\d\d)?Z$/.test(stamp || "")) continue;
-    const time = Date.parse(stamp), value = Number(raw);
-    if (Number.isFinite(time) && raw !== "" && Number.isFinite(value)) observations.push({time,value,stamp});
+  const horizon = $("#event-horizon").value;
+  const measure = $("#event-measure").value;
+  const nearestMinutes = Number($("#event-window").value);
+  output.className = "";
+  try {
+    if (!file || !Number.isFinite(eventTime) || !asset) throw new Error("Select a CSV, UTC announcement time and asset name.");
+    if (file.size > 2_000_000) throw new Error("Choose a CSV of 2 MB or less.");
+    output.textContent = "Reading quotes…";
+    const csv = await file.text().catch(() => { throw new Error("Could not read this file. Select it again."); });
+    if (request !== eventRequest) return;
+    const quotes = eventObservations(csv, asset);
+    const { before, after } = eventWindow(quotes, eventTime, horizon, nearestMinutes);
+    const headline = document.createElement("strong");
+    const windowLabel = horizon === "nearest" ? "Nearest quotes" : `+${horizon} min`;
+    headline.textContent = `${asset} · ${windowLabel} · ${eventChange(before.value, after.value, measure)}`;
+    const detail = document.createElement("span");
+    detail.textContent = ` · ${before.value} at ${before.stamp} to ${after.value} at ${after.stamp}.`;
+    output.replaceChildren(headline, detail);
+  } catch (error) {
+    if (request !== eventRequest) return;
+    output.className = "error";
+    output.textContent = error.message;
   }
-  const eventTime = Date.parse(`${event}Z`), windowMs = Number($("#event-window").value) * 60_000;
-  const before = observations.filter((item) => item.time < eventTime && eventTime - item.time <= windowMs).sort((a,b) => b.time-a.time)[0];
-  const after = observations.filter((item) => item.time > eventTime && item.time - eventTime <= windowMs).sort((a,b) => a.time-b.time)[0];
-  if (!before || !after) { output.textContent = `No observation on both sides of the event within the chosen window (${observations.length} valid matching rows). Check UTC timestamps and asset name.`; output.className = "error"; return; }
-  const delta = after.value - before.value;
-  const yieldNote = /yield|rate/i.test(asset) ? ` (${(delta*100).toFixed(2)} bp if values are percentage points)` : "";
-  output.replaceChildren();
-  const headline = document.createElement("strong"); headline.textContent = `${asset}: ${delta >= 0 ? "+" : ""}${delta.toFixed(4)}${yieldNote}`;
-  const detail = document.createElement("span"); detail.textContent = ` · ${before.value} at ${before.stamp} → ${after.value} at ${after.stamp}. Descriptive change only; no causal attribution.`;
-  output.append(headline, detail);
 }
 
+$("#event-form").addEventListener("input", clearEventResult);
+$("#event-horizon").addEventListener("change", updateWindowFields);
 $("#run-event").addEventListener("click", runEvent);
+updateWindowFields();
+
+function openLinkedCalculator() {
+  if (location.hash === "#event-calculator") $("#event-calculator").open = true;
+}
+openLinkedCalculator();
+window.addEventListener("hashchange", openLinkedCalculator);
