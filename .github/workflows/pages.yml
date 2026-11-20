@@ -16,7 +16,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.retry_deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -53,4 +53,12 @@ jobs:
         with:
           path: dist
       - id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      # Pages occasionally lists zero artifacts immediately after a successful upload.
+      - name: Wait for the uploaded Pages artifact to become visible
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 20
+      - id: retry_deployment
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
