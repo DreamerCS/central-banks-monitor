@@ -1,0 +1,33 @@
+{
+  "title": "Philippine firms switch towards peso debt as global conditions tighten, but local borrowing still transmits US funding shocks",
+  "bank": "Bangko Sentral ng Pilipinas",
+  "date": "2026-11-03",
+  "url": "https://www.bsp.gov.ph/Sites/researchsite/Publications/BSP-Discussion-Papers/DP202608-1.pdf",
+  "summary": [
+    "Philippine listed companies shifted their borrowing towards pesos when global financial conditions tightened. That shift did not insulate them from higher US interest rates. In this October 2026 BSP discussion paper, Hazel Parcon-Santos and co-authors find that increases in the federal funds rate had the most consistent adverse association with corporate performance, working through higher interest expense and weaker net income. An increase in the dollar, increased uncertainty about its value and a rise in equity-market volatility produced different results. The research concerns historical exposure among firms, rather than a new BSP policy view or a forecast of the next rate decision.",
+    "The authors compare three kinds of evidence. Aggregate time-series estimates relate external private debt and corporate bond financing to global conditions. Firm-level panel regressions examine the relative growth of foreign-currency and domestic-currency borrowing. Finally, local projections trace operating income, interest expense and net income after changes in the global variables. The corporate data cover 160 listed firms from the first quarter of 2008 through the fourth quarter of 2022. The performance analysis distinguishes firms with no pre-existing foreign-currency debt from firms at the lower and upper quartiles among those with positive exposure. These are different questions about debt levels, currency mix and profitability. A result for one cannot automatically be read as a result for the others.",
+    "For aggregate private external debt, higher equity-market volatility, measured by the VIX, and greater volatility of the dollar were associated with lower outstanding debt. The estimated relationship with the dollar index itself was insignificant, as was the overall effect of the federal funds rate in the aggregate private-debt equation. At the firm level, tighter conditions were nevertheless associated with faster growth of domestic-currency debt relative to foreign-currency debt. Both can be true. A borrower can change its mix without reducing overall borrowing, and an aggregate external debt series records something different from a listed company’s debt-currency composition.",
+    "Larger companies and manufacturing firms generally showed a stronger tendency to change the currency mix. The paper tests differences using interactions as well as subsample estimates. The results vary by shock, firm group and lag. When the global variables enter jointly, the first lag of the federal funds rate remains significant across firm types, whereas the pattern for the volatility measures is less uniform. Companies’ ability to borrow domestically and their exposure to imported inputs are possible explanations. The data do not directly identify the actual hedges a company purchased or the terms offered by its bank.",
+    "The income-statement responses illustrate why a stronger dollar and greater dollar volatility should be separated. Dollar appreciation can increase the peso value of foreign interest obligations. Greater dollar volatility was associated with lower interest expense and sometimes higher net income, a result the authors interpret cautiously. Borrowers could have cut debt or postponed expenditure. A temporary improvement in net income under those conditions would not establish that uncertainty benefits the business. By contrast, a rise in US rates tended to increase financing costs, including for firms without foreign-currency debt. Domestic lenders’ own funding and repricing are plausible channels, though the study does not observe bank-level pricing decisions.",
+    "The authors favour deeper local funding markets and broader access to hedges as ways to improve resilience. They do not establish that a particular switch into peso debt caused a subsequent change in profits. The sample omits unlisted firms, and incomplete information about debt maturities, fixed versus floating rates, funding sources and foreign-currency revenues limits the ability to distinguish refinancing, natural hedges and demand effects."
+  ],
+  "questions": [
+    {
+      "question": "When US rates rise, which peso borrowers face the earliest increase in cash interest?",
+      "detail": "Match loan reset and maturity dates to firm statements, distinguish floating from fixed contracts and observe the rates banks actually charge. Compare firms with zero foreign-currency debt against otherwise similar firms with dollar liabilities. This tests whether domestic loan repricing transmits foreign rates even where there is no direct currency mismatch."
+    },
+    {
+      "question": "Does a smaller foreign-currency debt share represent hedging, refinancing or a loss of credit access?",
+      "detail": "Separate new peso borrowing, repayment of foreign debt, valuation and changes in overall debt. Compare firms with access to both markets against those with few alternatives. A company preserving investment with matched peso funding is in a different position from one forced to reduce its balance sheet."
+    },
+    {
+      "question": "Why can greater dollar volatility coincide with lower interest expense and higher net income?",
+      "detail": "Follow interest paid, foreign debt, investment and operating cash flow through the same episodes. Check whether improving net income accompanies lower productive expenditure or persistent gains in sales margins. Distinguish an adverse operating outlook with temporary interest savings from genuinely better returns."
+    },
+    {
+      "question": "Can the results be extended beyond stock-exchange-listed borrowers?",
+      "detail": "Repeat the analysis on unlisted firms where comparable financial records exist, matching industry, size and access to local credit. Include export revenues and contractual hedges when measuring net exposure. The difference between borrowers’ gross foreign debt and their unhedged currency position may be especially large in manufacturing."
+    }
+  ],
+  "limitation": "The study is the authors’ October 2026 discussion paper. The BSP research catalogue dates the edition to October; indexed BSP homepage announcements identify November 3. The estimated associations among listed firms do not establish that observed changes in debt currency caused subsequent earnings changes."
+}
