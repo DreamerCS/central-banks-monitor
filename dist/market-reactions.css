@@ -49,3 +49,13 @@
 .mr-help dt{font-weight:600}.mr-help dd{margin:0}
 .mr-method-links{font-size:13px;color:var(--dim)}.mr-daily{padding-bottom:24px}
 @media(max-width:600px){.mr-method-table{font-size:12px}.mr-method-table th,.mr-method-table td{padding:7px 5px}.mr-daily .mr-method-table{min-width:530px}.mr-help dl{display:block}.mr-help dt{margin-top:8px}}
+
+.mr-pair-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+.mr-pair-grid h3{font:normal 23px/1.25 var(--serif);margin:8px 0}
+.mr-matrix{table-layout:fixed}.mr-matrix button{color:var(--up);background:transparent;border:0;border-radius:0;font:inherit;font-weight:600;padding:5px 8px;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.mr-matrix button[aria-pressed="true"]{background:var(--ink);color:var(--surface)}
+.mr-matrix button:focus-visible,.mr-pair-picker select:focus-visible{outline:2px solid var(--up)}
+.mr-pair-picker{display:flex;gap:12px;align-items:end;flex-wrap:wrap;margin:12px 0;font-size:13px}
+.mr-pair-picker[hidden]{display:none}.mr-pair-picker label{display:grid;gap:3px}
+.mr-pair-picker select{width:100%;padding:4px 6px;font:inherit;color:inherit;background:var(--surface);border:1px solid var(--line)}
+@media(max-width:700px){.mr-pair-grid{grid-template-columns:1fr;gap:20px}}

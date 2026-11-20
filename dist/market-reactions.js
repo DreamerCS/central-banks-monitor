@@ -67,6 +67,7 @@ function update() {
   }));
   controls.date.disabled = !sample.length;
   el('export').disabled = !sample.length;
+  renderCoMovements();
   selectEvent();
 }
 function selectEvent() {
@@ -155,22 +156,17 @@ function renderWindowComparison(event) {
   el('window-definitions').replaceChildren(...definitions);
   const period = controls.year.value;
   const events = bank.events.filter(candidate => period === 'all' || candidate.date.startsWith(period));
-  const direction = value => {
-    if (!Number.isFinite(value)) return null;
-    const displayed = Math.abs(value).toFixed(asset.unit === 'bp' ? 1 : 2);
-    return Number(displayed) === 0 ? 0 : Math.sign(value);
-  };
   let pairs = 0;
   let reversals = 0;
   for (const candidate of events) {
-    const first = direction(candidate.windows.statement?.[asset.id]);
-    const second = direction(candidate.windows.conference?.[asset.id]);
+    const first = displayedDirection(candidate.windows.statement?.[asset.id], asset.unit);
+    const second = displayedDirection(candidate.windows.conference?.[asset.id], asset.unit);
     if (!first || !second) continue;
     pairs++;
     if (first !== second) reversals++;
   }
-  const first = direction(event.windows.statement?.[asset.id]);
-  const second = direction(event.windows.conference?.[asset.id]);
+  const first = displayedDirection(event.windows.statement?.[asset.id], asset.unit);
+  const second = displayedDirection(event.windows.conference?.[asset.id], asset.unit);
   const label = asset.label;
   let reading;
   if (first === null || second === null) reading = label + ' has no comparable pair of quoted moves for this meeting. A dash marks an unavailable observation.';
@@ -182,6 +178,127 @@ function renderWindowComparison(event) {
   el('window-pattern').textContent = reading + (pairs
     ? ' For this instrument ' + scope + ', ' + reversals + ' of ' + pairs + ' meetings with two nonzero reported moves had opposite signs.'
     : ' There are no meetings with two nonzero reported moves for this instrument ' + scope + '.');
+}
+
+
+function displayedDirection(value, unit) {
+  if (!Number.isFinite(value)) return null;
+  const magnitude = Math.abs(value).toFixed(unit === 'bp' ? 1 : 2);
+  return Number(magnitude) === 0 ? 0 : Math.sign(value);
+}
+
+function classifyMarketPairs(events, rate, stock, windowKey, year) {
+  const counts = {withoutWindow:0, missing:0, flat:0, dates:[[], [], [], []]};
+  for (const event of events) {
+    if (year !== 'all' && !event.date.startsWith(year + '-')) continue;
+    const prices = event.windows[windowKey];
+    if (!prices) {
+      counts.withoutWindow++;
+      continue;
+    }
+    const rateSign = displayedDirection(prices[rate.id], rate.unit);
+    const stockSign = displayedDirection(prices[stock.id], stock.unit);
+    if (rateSign === null || stockSign === null) counts.missing++;
+    else if (!rateSign || !stockSign) counts.flat++;
+    else counts.dates[(rateSign > 0 ? 0 : 2) + (stockSign > 0 ? 0 : 1)].push(event.date);
+  }
+  return counts;
+}
+
+let lastPairSample = '';
+function renderCoMovements() {
+  const year = controls.year.value;
+  const windowKey = controls.window.value;
+  const signature = year + '/' + windowKey;
+  if (signature === lastPairSample) return;
+  lastPairSample = signature;
+  el('comovement-scope').textContent = names[windowKey] + ' · ' + (year === 'all' ? 'All available years' : year) +
+    '. Each count pairs the two-year government yield with the local stock index in the same publication window. Select a nonzero count to inspect its dates.';
+  const grid = el('pair-grid');
+  grid.replaceChildren();
+  for (const source of banks) {
+    const pair = {fed:['UST2Y','SP500'], ecb:['DE2Y','STOXX50']}[source.id];
+    if (!pair) continue;
+    const panel = document.createElement('div');
+    const heading = document.createElement('h3');
+    heading.textContent = source.name;
+    panel.append(heading);
+    grid.append(panel);
+    const rate = source.assets.find(item => item.id === pair[0] && item.class === 'Rates');
+    const stock = source.assets.find(item => item.id === pair[1] && item.class === 'Equities');
+    if (!rate || !stock) {
+      const empty = document.createElement('p');
+      empty.textContent = 'The source panel does not contain both the two-year yield and the equity index.';
+      panel.append(empty);
+      continue;
+    }
+    const counts = classifyMarketPairs(source.events, rate, stock, windowKey, year);
+    const classified = counts.dates.reduce((n, group) => n + group.length, 0);
+    const covered = classified + counts.flat + counts.missing;
+    const table = document.createElement('table');
+    table.className = 'mr-method-table mr-matrix';
+    const caption = table.createCaption();
+    caption.textContent = rate.label + ' and ' + stock.label;
+    const header = table.createTHead().insertRow();
+    for (const label of ['Two-year yield', 'Stocks rose', 'Stocks fell']) {
+      const col = document.createElement('th');
+      col.scope = 'col';
+      col.textContent = label;
+      header.append(col);
+    }
+    const body = table.createTBody();
+    const picker = document.createElement('div');
+    picker.className = 'mr-pair-picker';
+    picker.hidden = true;
+    const buttons = [];
+    for (const [offset, label] of [[0,'Rose'], [2,'Fell']]) {
+      const row = body.insertRow();
+      const rowLabel = document.createElement('th');
+      rowLabel.scope = 'row';
+      rowLabel.textContent = label;
+      row.append(rowLabel);
+      for (const index of [offset, offset + 1]) {
+        const dates = counts.dates[index];
+        const cell = row.insertCell();
+        if (!dates.length) {
+          cell.textContent = '0';
+          continue;
+        }
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = String(dates.length);
+        const combination = 'yields ' + label.toLowerCase() + ', stocks ' + (index % 2 === 0 ? 'rose' : 'fell');
+        button.setAttribute('aria-label', dates.length + ' meetings: ' + combination + '. Inspect dates');
+        button.setAttribute('aria-pressed', 'false');
+        buttons.push(button);
+        button.addEventListener('click', () => {
+          for (const other of buttons) other.setAttribute('aria-pressed', String(other === button));
+          const choose = document.createElement('label');
+          choose.textContent = 'Dates when ' + combination + ' ';
+          const list = document.createElement('select');
+          for (const date of [...dates].reverse()) list.add(new Option(dateLabel(date), date));
+          choose.append(list);
+          const link = document.createElement('a');
+          link.textContent = 'Open meeting';
+          const sync = () => {
+            const query = new URLSearchParams({bank:source.id, window:windowKey, asset:rate.id, year, date:list.value});
+            link.href = '?' + query + '#mr-detail-title';
+          };
+          sync();
+          list.addEventListener('change', sync);
+          picker.replaceChildren(choose, link);
+          picker.hidden = false;
+          list.focus();
+        });
+        cell.append(button);
+      }
+    }
+    const detail = document.createElement('p');
+    detail.className = 'mr-footnote';
+    detail.textContent = covered + ' dates with a window: ' + classified + ' classified, ' + counts.flat +
+      ' flat at displayed precision and ' + counts.missing + ' missing a quote. ' + counts.withoutWindow + ' other event dates lack this window.';
+    panel.append(table, detail, picker);
+  }
 }
 
 function drawChart() {
