@@ -221,6 +221,22 @@
       {
         "label": "Federal Reserve Board · Term Securities Lending Facility",
         "url": "https://www.federalreserve.gov/monetarypolicy/tslf.htm"
+      },
+      {
+        "label": "FOMC · 16 September 2008 decision",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20080916a.htm"
+      },
+      {
+        "label": "Federal Reserve · 8 October coordinated decision",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081008a.htm"
+      },
+      {
+        "label": "Federal Reserve Board H.15 · two-year yield",
+        "url": "https://fred.stlouisfed.org/series/DGS2"
+      },
+      {
+        "label": "Federal Reserve Board H.15 · ten-year yield",
+        "url": "https://fred.stlouisfed.org/series/DGS10"
       }
     ],
     "details": [
@@ -231,6 +247,14 @@
       {
         "heading": "Five weeks of expansion",
         "text": "Between 10 September and 15 October 2008, Reserve Bank credit rose by $846.8bn, while outright holdings rose by $10.9bn. Term auction credit increased by $113.1bn, only part of the expansion. The term auction provided funding to depository institutions against collateral. Under the separate Term Securities Lending Facility, primary dealers could borrow Treasuries against other eligible securities, improving the collateral available for private funding. The securities-for-securities exchange would be missed by counting outright purchases alone. The weekly stocks establish the change in scale and instrument mix. They leave open how much private funding would have disappeared without the facilities and whether the ultimate borrowers were solvent."
+      },
+      {
+        "heading": "September and October 2008 through the Treasury curve",
+        "text": "On 16 September the FOMC held its target at 2%. Between the preceding and announcement dates, the two-year Treasury yield rose from 1.78% to 1.89% and the ten-year from 3.47% to 3.48%. Extending the window through 17 September changes the cumulative moves to −14 and −6 basis points. On 8 October the Fed cut its target by 50 basis points to 1.50% as part of a coordinated international easing. Yet the two-year yield rose from 1.47% to 1.65% and the ten-year from 3.50% to 3.72% between 7 and 8 October. By 9 October the cumulative moves were +18 and +34 basis points. A holder of long-duration Treasuries could face rising yields on a day the overnight target was cut."
+      },
+      {
+        "heading": "What the daily changes can identify",
+        "text": "These are nominal constant-maturity yields in the Federal Reserve Board’s H.15 series retrieved on 20 November 2026. Each baseline is the preceding quoted day. The daily observations combine policy expectations, term premia, liquidity demand and other crisis news. The October release also announced action by several central banks at once. Neither the 50-basis-point decision nor the observed change in Treasury yields measures the unanticipated US policy component. That requires pre-announcement pricing and a narrower window in an instrument linked to the expected policy rate."
       }
     ],
     "balanceSheet": {
