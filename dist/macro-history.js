@@ -148,6 +148,7 @@ function testSection(results) {
     el("p","Inputs are a November 2026 historical vintage. Earlier policymakers saw different releases and revisions. Monthly errors overlap, the crisis years influence the coefficients, and the evaluation covers few independent shocks. These are retrospective forecasting comparisons. A finding for inflation does not establish the best period for an FX, growth or rates forecast."),
     table(["Training sample","Fitted months","Intercept","Inflation","Change in unemployment"],results.models.filter(x=>x.n).map(m=>[m.name,m.n,...m.coefficients.map(x=>num(x,3))]),"Fitted coefficients"));
   block.append(controls,target,el("p","Including 2008 improves the pre-crisis model’s 2022–26 mean absolute error from 1.05 to 0.81 percentage points. In the pandemic evaluation, unchanged inflation outperforms every fitted model. The preferred comparison changes with the period being forecast."),details);
+  block.append(link("Compare rolling and real-time forecasts","empirical-studies.html?study=inflation#vintage-check"));
   return block;
 }
 async function cycles() {
@@ -157,7 +158,9 @@ async function cycles() {
   for(const ep of episodes) nav.append(navItem(ep.name,ep.period,local("cycles",{episode:ep.id}),item.id===ep.id));
   article.append(el("p","United States · "+item.period,"hs-kicker"),el("h2",item.name),el("p",item.headline,"hs-deck"),
     chart(history.rows.filter(r=>r.month>=item.start&&r.month<=item.end),history.series,item.anchor,history.geography,true),
-    el("p",item.analysis),el("h3","What would test the analogy?"),el("p",item.test),sourceList(item.sources),testSection(tests));
+    el("p",item.analysis));
+  for(const part of item.details || []) article.append(el("h3",part.heading),el("p",part.text));
+  article.append(el("h3","What would test the analogy?"),el("p",item.test),sourceList(item.sources),testSection(tests));
   return grid;
 }
 const signalLabels = {
@@ -230,7 +233,7 @@ async function guidance() {
   definitions.append(el("summary","How to read the four signals"));
   for(const [key,value] of Object.entries(panel.definitions)) definitions.append(el("h4",signalLabels[key]),el("p",value));
   definitions.append(el("p",panel.methodology.find(m=>m.includes("selected")||m.includes("interpolated"))||panel.methodology[0]),link("Official meeting archive",panel.calendarUrl));
-  page.append(definitions);
+  page.append(definitions,link("Compare market responses by guidance signal","empirical-studies.html?study=guidance"));
   return page;
 }
 async function main(){
@@ -334,7 +337,8 @@ async function leaders() {
       el("p", budget.label + " general government, calendar-year accrual balance. Negative values indicate borrowing. The annual figure reflects government finances and the economic cycle.", "hs-byline"));
   }
   article.append(el("h3", "Communication"), el("p", profile.communication),
-    el("h3", "What the market data can test"), el("p", profile.test));
+    el("h3", "What the market data can test"), el("p", profile.test),
+    link("Explore "+bank.name+" guidance and market repricing","empirical-studies.html?study=guidance&bank="+bank.id));
 
   const noteBySource = new Map();
   for (const note of notes) {

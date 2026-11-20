@@ -55,6 +55,28 @@
       {
         "label": "Federal Reserve History · 1981–82 recession",
         "url": "https://www.federalreservehistory.org/essays/recession-of-1981-82"
+      },
+      {
+        "label": "Federal Reserve · 6 October 1979 announcement and press conference",
+        "url": "https://fraser.stlouisfed.org/archival-collection/paul-a-volcker-papers-5297/federal-reserve-584880/fulltext"
+      },
+      {
+        "label": "FOMC · March 1980 policy record and credit measures",
+        "url": "https://fraser.stlouisfed.org/files/docs/historical/FOMC/meetingdocuments/19800318RoPA19800425.pdf"
+      }
+    ],
+    "details": [
+      {
+        "heading": "What changed on 6 October",
+        "text": "The Saturday announcement changed the way the Fed supplied reserves. The trading desk placed greater weight on the quantity of nonborrowed reserves available to banks and allowed the overnight funds rate to fluctuate more. The Board raised the discount rate from 11% to 12% and imposed an 8% marginal reserve requirement on increases in certain managed liabilities, a source of wholesale funding for banks. Volcker acknowledged that control over money growth would be imprecise even from month to month. The announcement therefore provides a date for a change in policy practice. It supplies no single funds-rate increase that can represent the whole intervention. The Iranian oil disruption was already affecting costs, and precautionary oil demand could also raise prices. Treating every increase in energy prices as a supply loss would overstate that channel."
+      },
+      {
+        "heading": "Two contractions with a recovery between them",
+        "text": "The March 1980 policy record documents another intervention. As part of President Carter’s anti-inflation programme, the Board announced voluntary credit restraint and required lenders to place special deposits equal to 15% of increases in certain consumer credit. That introduced a separate obstacle to financing purchases. In the revised monthly series, industrial production in July 1980 was 6.2% below the previous July and unemployment was 7.8%. By July 1981 production was 6.5% above its depressed year-earlier level. Its index, however, was still just below October 1979. The second contraction then pushed unemployment to 10.8% in November 1982. The Fed’s historical account identifies concentrated job losses in manufacturing, autos and construction. A comparison of the October 1979 and November 1982 endpoints misses the intervening recovery and the different exposure of those sectors to credit costs."
+      },
+      {
+        "heading": "How to distinguish the sources of disinflation",
+        "text": "A rise in oil prices can squeeze household purchasing power and lift the price of energy-intensive goods. A persistent tightening of credit should also weaken demand for purchases that require financing, including housing and vehicles. A third mechanism is a change in the inflation rates people build into wages and contracts. To discriminate among them, align the October policy announcement and the subsequent credit restrictions with dated survey forecasts, wage settlements, housing permits and auto orders. Compare energy-intensive industries with less energy-intensive ones and classify their dependence on borrowing before the shock. A sustained fall in longer-horizon inflation forecasts ahead of widespread layoffs would support an expectations channel. Weakness concentrated first in financed purchases would support a credit channel. Use the statistics available on each observation date for that timing test. The chart’s revised industrial and labour series describe the eventual path."
       }
     ]
   },
@@ -76,6 +98,40 @@
       {
         "label": "Federal Reserve History · housing and financial transmission",
         "url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath"
+      },
+      {
+        "label": "Federal Reserve · October 2007 bank lending survey",
+        "url": "https://www.federalreserve.gov/boarddocs/snloansurvey/200711/default.htm"
+      },
+      {
+        "label": "Federal Reserve · October 2008 bank lending survey",
+        "url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/200811/default.htm"
+      },
+      {
+        "label": "FOMC · 16 September 2008 decision",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20080916a.htm"
+      },
+      {
+        "label": "Federal Reserve · 7 October commercial paper facility",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081007c.htm"
+      },
+      {
+        "label": "Federal Reserve · 16 October industrial production release",
+        "url": "https://www.federalreserve.gov/releases/g17/20081016/"
+      }
+    ],
+    "details": [
+      {
+        "heading": "Orders and investment in 2001",
+        "text": "On 3 January 2001 the FOMC cut its funds target by half a percentage point to 6%. Its statement cited weakening sales and production, falling consumer confidence and high energy costs that squeezed purchasing power. It also reported continuing gains from technology and productivity. Firms can cut orders for new equipment because customers have slowed their spending even when that equipment remains productive. The two propositions have different implications for an investment recovery. The revised monthly series put industrial production 5.0% below its year-earlier level in November 2001 and unemployment at 5.5%, up from 3.9% in December 2000. Those outcomes were still in the future at the January meeting. A forecast made then could have tested the demand explanation against incoming orders, inventories and sales before assuming a deterioration in productive capacity."
+      },
+      {
+        "heading": "Credit supply and the demand to borrow",
+        "text": "In the October 2007 lending survey, domestic banks reported tighter standards across prime, nontraditional and subprime mortgages while demand for mortgages also weakened. A fall in originations would therefore combine tighter access and fewer willing borrowers. By December 2007 revised industrial output was still 2.2% above its year-earlier level, with unemployment at 5.0%. Annual output growth had turned negative by June 2008. On 16 September the FOMC held its funds target at 2%. On 7 October the Board announced a facility to finance purchases of eligible three-month commercial paper, addressing borrowers’ ability to refinance short-term debt. About 85% of domestic respondents to the October survey reported tightening standards for large and middle-market business borrowers, up from about 60% in July. Large banks also reported more use of pre-existing credit lines. Loan balances could rise while access to new commitments deteriorated."
+      },
+      {
+        "heading": "What September’s industrial collapse can tell us",
+        "text": "The Fed’s 16 October release initially put September production 2.8% below August and 4.5% below the previous September. It estimated that hurricanes accounted for about 2¼ percentage points of the monthly fall and the commercial-aircraft strike for another half point. The revised series now puts the annual decline at 8.1%. September’s aggregate alone is a poor measure of the contraction caused by financial stress. By December, industrial output stood 11.3% below a year earlier and unemployment had risen to 7.3%. For a test of credit transmission, compare order books and payrolls at firms with similar sales exposure but different pre-crisis dependence on wholesale financing. Separate new loan commitments from draws on old ones and exclude temporarily closed plants as a sensitivity check. Use each initial production release when reconstructing contemporary forecasts. Refit the historical comparison ending in 2007, then add 2008 to measure what the crisis months contribute."
       }
     ]
   },
