@@ -1,0 +1,28 @@
+{
+  "title": "How public debt can change the rate consistent with stable inflation",
+  "bank": "European Central Bank",
+  "date": "2026-11-02",
+  "url": "https://www.ecb.europa.eu/press/research-publications/resbull/2026/html/ecb.rb261102~023f804e59.en.html",
+  "summary": [
+    "Does high public debt leave a central bank unable to control inflation? Stéphane Dupraz and Anna Rogantini Picco give a qualified answer. Debt can raise households’ wealth and support spending when people do not fully offset a transfer by saving for future tax increases. In their model, that raises the interest rate needed to keep demand in line with productive capacity. The authors distinguish the conventional inflationary effect of additional demand from a much more extreme point at which rate increases would cease to restrain it. This research bulletin presents their analysis, not a Governing Council decision or a new policy rule.",
+    "Chart 1 shows that debt has risen in the United States and the euro area since the financial crisis. The US series is federal debt held by the public, while the euro area series is general government gross debt. The trends motivate the economic question, but differences in institutional coverage matter for comparing their levels. The chart cannot identify the effect of additional debt on inflation. Growth, fiscal policy and monetary policy can all respond to the same shock, and borrowers and savers need not react to a rise in rates in the same way.",
+    "The key behavioural assumption concerns the treatment of future taxes. A fully forward-looking household that treats public debt as a future liability saves the transfer. A household that faces borrowing constraints or will not live to pay all the future taxes may spend part of it. The bulletin cites evidence that US households spent 8–11% of their 2008 tax rebates on nondurable goods in the quarter of receipt. This illustrates a departure from full saving. The figure does not give the marginal propensity to consume for households receiving interest on public debt today.",
+    "Normally a higher rate dampens the extra spending. However, when households hold enough government debt, rising interest income can increasingly offset the incentive to postpone consumption. The authors’ main calibration places the extreme limit at debt of about 5.4 times annual GDP, well above the advanced-economy ratios they discuss. This is a conditional model result about the transmission of interest rates. It does not identify a safe borrowing capacity, a debt-sustainability limit or the level at which a government could lose market access. Those questions require evidence about fiscal backing and the terms on which debt can be rolled over.",
+    "A nearer-term issue is the timing of monetary policy. Raising rates only after inflation rises restrains demand initially, but can increase future debt servicing and the stock of debt. The associated wealth effect can prolong inflation or even increase cumulative inflation in the model. If greater asset supply pushes up the natural rate, policy that takes debt into account can respond earlier. The bulletin cites US estimates associating a one-percentage-point rise in debt relative to GDP with about three basis points on longer-term interest rates. Those rates also contain premia. The number is not an instruction to change the policy rate by a fixed amount for every point of public debt. For the authors, debt matters as one influence on the unobservable rate consistent with price stability."
+  ],
+  "questions": [
+    {
+      "question": "How much of the increase in rates following debt issuance reflects the natural rate rather than a term or credit premium?",
+      "detail": "Compare inflation-linked yields, expected short rates, maturity-specific term premia and announced issuance changes around fiscal news. Separate changes in expected growth from changes in the quantity and maturity of safe assets available to private holders. A higher long yield by itself would not identify the response needed to keep demand aligned with supply."
+    },
+    {
+      "question": "Who receives the interest income when policy rates rise, and how much of it is spent?",
+      "detail": "Combine the maturity and ownership of public debt with household balance sheets, tax exposure and consumption. Contrast constrained households receiving a transfer with households receiving additional interest on existing assets, and account for payments to foreign holders. Different spending behaviour in those groups would limit extrapolation from the 2008 rebate evidence."
+    },
+    {
+      "question": "Would reacting to debt earlier improve inflation outcomes across plausible fiscal responses?",
+      "detail": "Compare the authors’ debt-sensitive rule with an inflation-only rule under common shocks, varying how rapidly future taxes and government spending adjust to higher interest expenses. Track initial inflation, subsequent persistence, real activity and cumulative inflation. A rule that works only under one assumption about fiscal backing would be a weaker guide to policy elsewhere."
+    }
+  ],
+  "limitation": ""
+}

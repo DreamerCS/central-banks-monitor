@@ -823,6 +823,21 @@
     "title": "Monetary policy assessment of September 2026: Summary of discussion",
     "type": "Minutes"
   },
+  "2026-11-02-6be0606181.json": {
+    "jurisdiction": "Euro area",
+    "title": "Integrated, open and resilient: Europe’s strengths in a fragmenting world",
+    "type": "Speech"
+  },
+  "2026-11-02-82f3dea5e9.json": {
+    "jurisdiction": "Euro area",
+    "title": "ECB perception of non-banks: a machine learning-based approach",
+    "type": "Research"
+  },
+  "2026-11-02-886832771e.json": {
+    "jurisdiction": "Euro area",
+    "title": "When nonbanks dampen and when they amplify: A yield-curve view of the nonbank lending channel",
+    "type": "Research"
+  },
   "2026-11-02-9410e65097.json": {
     "jurisdiction": "United States",
     "type": "Research",
@@ -844,10 +859,30 @@
       "https://www.frbsf.org/wp-content/uploads/el2026-31.pdf"
     ]
   },
+  "2026-11-02-c48f7d4c57.json": {
+    "jurisdiction": "Euro area",
+    "title": "Catching the repricing wave: insights from daily online supermarket prices",
+    "type": "Research"
+  },
+  "2026-11-02-d8ab3182a9.json": {
+    "jurisdiction": "Euro area",
+    "title": "Monetary policy in times of high public debt",
+    "type": "Research"
+  },
   "2026-11-02-f0641b6fc9.json": {
     "jurisdiction": "United States",
     "type": "Research",
     "title": "Texas Economic Indicators: September 2026"
+  },
+  "2026-11-03-1f67cbdafc.json": {
+    "jurisdiction": "Euro area",
+    "title": "Debt maturity and government spending multipliers",
+    "type": "Research"
+  },
+  "2026-11-03-2675bee134.json": {
+    "jurisdiction": "Euro area",
+    "title": "Elastic in cash, inelastic in repo: hedge funds in the treasury and repo markets",
+    "type": "Research"
   },
   "2026-11-03-4767bed638.json": {
     "title": "SEPA: Europe’s unsung hero",
@@ -911,6 +946,11 @@
     "jurisdiction": "Türkiye",
     "type": "Research"
   },
+  "2026-11-04-5aa05a964a.json": {
+    "jurisdiction": "Euro area",
+    "title": "El acceso a la financiación bancaria siguió mejorando en el tercer trimestre de 2026, aunque levemente y menos que en los tres meses precedentes",
+    "type": "Release"
+  },
   "2026-11-04-695a911f3d.json": {
     "jurisdiction": "Sweden",
     "type": "Release",
@@ -969,6 +1009,11 @@
     "title": "Informe de Política Monetaria – octubre de 2026",
     "jurisdiction": "Colombia",
     "type": "Forecast"
+  },
+  "2026-11-04-e0fad9d183.json": {
+    "jurisdiction": "Euro area",
+    "title": "Deep-π*: a neural network estimate of trend inflation",
+    "type": "Research"
   },
   "2026-11-05-18e48acb55.json": {
     "jurisdiction": "Euro area",
@@ -1045,6 +1090,11 @@
     "jurisdiction": "Malaysia",
     "type": "Decision"
   },
+  "2026-11-05-a623d81c6f.json": {
+    "jurisdiction": "Euro area",
+    "title": "Shaping the future of money",
+    "type": "Speech"
+  },
   "2026-11-05-d72cd93eaa.json": {
     "jurisdiction": "Norway",
     "title": "We have kept the policy rate unchanged",
@@ -1068,6 +1118,11 @@
     "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
     "type": "Press conference"
   },
+  "2026-11-06-35d78d57b7.json": {
+    "jurisdiction": "Euro area",
+    "title": "Anatomy of a safe asset: Bund market structure and reform",
+    "type": "Research"
+  },
   "2026-11-06-6da1085141.json": {
     "jurisdiction": "Euro area",
     "title": "Perspectives on Iberian Economic Integration",
@@ -1085,6 +1140,15 @@
     "title": "Price efficiency in securities lending",
     "type": "Research",
     "jurisdiction": "United Kingdom"
+  },
+  "2026-11-06-93c3a8b2ab.json": {
+    "jurisdiction": "Euro area",
+    "title": "ECB publishes consolidated banking data for end-June 2026",
+    "type": "Release",
+    "aliases": [
+      "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/notas-prensa-bce/el-bce-publica-los-datos-bancarios-consolidados-correspondientes-a-junio-de-2026.html",
+      "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/ComunicadosBCE/NotasInformativasBCE/26/presbce2026-150.pdf"
+    ]
   },
   "2026-11-06-9891c11045.json": {
     "title": "Gabriel Cuadra · Crecimiento económico en México: retos y perspectivas",

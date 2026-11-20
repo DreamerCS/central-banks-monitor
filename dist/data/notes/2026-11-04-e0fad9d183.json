@@ -1,0 +1,28 @@
+{
+  "title": "Which indicators warned about persistent US inflation, and when?",
+  "bank": "European Central Bank",
+  "date": "2026-11-04",
+  "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3307~d3d2e0c5e4.en.pdf",
+  "summary": [
+    "A rise in inflation can change both the persistent component of prices today and the likely pace over the following year. An ECB working paper builds two US inflation trends that answer those questions separately. Deep-π* combines a model of a slow-moving trend and temporary inflation fluctuations with a neural network that reads 122 public macroeconomic indicators. The target is US consumer price inflation over 1970–2025. One estimation rewards a good fit to current inflation, the other a good prediction of inflation over the next year. Even with the same indicator panel, those objectives can yield different turning points.",
+    "The model groups inputs including employment, activity, housing, money and credit, interest and exchange rates, and prices. The author compares an encoder with an attention-based design, which can draw differently on the history of indicators. A Shapley decomposition apportions the estimated change among the input groups. The contributions explain how a particular estimated network used the data. They do not identify the effect of a policy intervention or show that a change in an input caused inflation. Two equally plausible forecasts can therefore imply different histories of the surge.",
+    "Both designs recover familiar historical episodes. Trend inflation reached roughly 13% around 1979–80, averaged about 3% during the Great Moderation and was close to 2% in the 2010s. The post-pandemic estimates reached 6.7–7.5%. In the specifications with time-varying volatility, the forward-looking trends peaked in March 2021, eight to twelve months before the current trends, and more than a year before the peak in observed inflation. These dates come from estimation over the full sample. An observer at the time would not have known that March was the peak.",
+    "Table 2 shows why the distinction matters. Employment accounts for 41–52% of the increase from January 2019 to the peak of the current trend in the main specifications. For the forward-looking trend, the encoder assigns 1.95 percentage points to real activity and 1.73 points to employment out of a 4.91-point increase. The attention network assigns 2.78 points to money and credit out of a 5.56-point increase. The price group, which includes energy and commodities, makes a comparatively small contribution. Supply disruptions could still have affected employment, activity or credit, so these results cannot be read as a structural demand-versus-supply decomposition.",
+    "The author re-estimates each month from December 2020 to November 2023 using a common September 2026 data vintage truncated at each date. This tests learning from a shorter history, while leaving out revisions to the indicators themselves. Early in 2021 the forward-looking trend pointed to nearly 4%, against a professional forecast around 2% and an eventual 7.3%. Forecasters caught the decline more accurately. Table 6 gives a 0.33-point forecast error in root-mean-square terms for the survey during the falling phase, against 2.13–2.25 points for the two forward-looking models. Across the full comparison their point forecasts perform about as well as an autoregression. The forecast distribution and the attribution of the rise are informative even where a simple model remains competitive on point accuracy for US consumer prices."
+  ],
+  "questions": [
+    {
+      "question": "Would the March 2021 signal have survived genuine release vintages?",
+      "detail": "Rebuild the 122 monthly indicators from the archived data available on each forecast date, respecting release delays, revisions and missing observations. Compare the forward-looking estimate and its uncertainty with the truncated-data exercise and the contemporaneous professional survey. Large changes in the timing of the rise would reduce the practical lead implied by the full-sample trend."
+    },
+    {
+      "question": "What observations distinguish the credit explanation from the activity and employment explanation?",
+      "detail": "Use episodes when credit and money growth diverged from real activity and hiring. Estimate both architectures without looking ahead and compare their twelve-month forecasts, including the uncertainty around them. Recompute group contributions with alternative groupings and reference values. A persistent forecasting advantage in these episodes would be more informative about the competing signals than their fitted shares in 2021."
+    },
+    {
+      "question": "Can the model detect when a tight labour market stops signalling further inflation?",
+      "detail": "Track errors in monthly inflation, wages and employment against the network’s predicted distribution as disinflation begins. Compare a specification allowing the relationship to change with the original model, the autoregression and professional forecasts in later untouched observations. Require a gain in turning-point timing without sacrificing calibration or simply raising forecasts on every expansion."
+    }
+  ],
+  "limitation": ""
+}

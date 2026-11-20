@@ -3638,6 +3638,19 @@
     }
   },
   {
+    "title": "Who supplies Bunds in a sell-off, and what could clearing save?",
+    "bank": "Deutsche Bundesbank",
+    "date": "2026-11-06",
+    "url": "https://www.bundesbank.de/en/publications/research/discussion-papers/anatomy-of-a-safe-asset-bund-market-structure-and-reform-1007074",
+    "excerpt": "A safe asset can change hands because someone needs cash, because investors seek protection or because the expected supply of bonds has changed.",
+    "file": "2026-11-06-35d78d57b7.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Anatomy of a safe asset: Bund market structure and reform",
+      "type": "Research"
+    }
+  },
+  {
     "title": "What does the collateral choice cost an equity borrower?",
     "bank": "Bank of England",
     "date": "2026-11-06",
@@ -3702,6 +3715,23 @@
       "type": "Research",
       "aliases": [
         "https://rbi.org.in/scriptS/BS_PressReleaseDisplay.aspx?prid=63941"
+      ]
+    }
+  },
+  {
+    "title": "EU bank balance sheets grew 5.18% as the non-performing loan ratio edged up",
+    "bank": "European Central Bank",
+    "date": "2026-11-06",
+    "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
+    "excerpt": "EU-headquartered credit institutions reported €34.99 trillion of total assets in June 2026, up from €33.27 trillion a year earlier.",
+    "file": "2026-11-06-93c3a8b2ab.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "ECB publishes consolidated banking data for end-June 2026",
+      "type": "Release",
+      "aliases": [
+        "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/notas-prensa-bce/el-bce-publica-los-datos-bancarios-consolidados-correspondientes-a-junio-de-2026.html",
+        "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/ComunicadosBCE/NotasInformativasBCE/26/presbce2026-150.pdf"
       ]
     }
   },
@@ -3776,6 +3806,19 @@
       "title": "Monetary Policy Statement",
       "jurisdiction": "Malaysia",
       "type": "Decision"
+    }
+  },
+  {
+    "title": "Where the Eurosystem’s new payment infrastructure is already settling money",
+    "bank": "European Central Bank",
+    "date": "2026-11-05",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
+    "excerpt": "Piero Cipollone distinguishes what people can use today from what the Eurosystem hopes to introduce over the rest of the decade.",
+    "file": "2026-11-05-a623d81c6f.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Shaping the future of money",
+      "type": "Speech"
     }
   },
   {
@@ -4007,6 +4050,19 @@
     }
   },
   {
+    "title": "Which indicators warned about persistent US inflation, and when?",
+    "bank": "European Central Bank",
+    "date": "2026-11-04",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3307~d3d2e0c5e4.en.pdf",
+    "excerpt": "A rise in inflation can change both the persistent component of prices today and the likely pace over the following year.",
+    "file": "2026-11-04-e0fad9d183.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Deep-π*: a neural network estimate of trend inflation",
+      "type": "Research"
+    }
+  },
+  {
     "title": "Türkiye’s October CPI rise was concentrated in energy and fresh food",
     "bank": "Central Bank of the Republic of Türkiye",
     "date": "2026-11-04",
@@ -4033,6 +4089,19 @@
       "aliases": [
         "https://www.snb.ch/en/publications/research/working-papers/2026/working_paper_2026_14"
       ]
+    }
+  },
+  {
+    "title": "Spanish firms reported fewer loan obstacles even as borrowing costs rose and loan applications fell",
+    "bank": "Banco de España",
+    "date": "2026-11-04",
+    "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-banco-espana/notas-banco-espana/el-acceso-a-la-financiacion-bancaria-siguio-mejorando-en-el-tercer-trimestre-de-2026-aunque-la-mejora-fue-muy-leve-y-menor-que-en-el-trimestre-anterior.html",
+    "excerpt": "Spanish firms reported a small further improvement in access to bank loans in the third quarter of 2026.",
+    "file": "2026-11-04-5aa05a964a.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "El acceso a la financiación bancaria siguió mejorando en el tercer trimestre de 2026, aunque levemente y menos que en los tres meses precedentes",
+      "type": "Release"
     }
   },
   {
@@ -4120,6 +4189,32 @@
       "jurisdiction": "Brazil",
       "title": "BC - Copom Comunicado - 282ª Reunião - Copom mantém a taxa Selic em 13,75% a.a.",
       "type": "Decision"
+    }
+  },
+  {
+    "title": "Why the maturity of US borrowing can change the spending multiplier",
+    "bank": "European Central Bank",
+    "date": "2026-11-03",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3306~028a82bc67.en.pdf",
+    "excerpt": "When the US government buys more goods and services, the change in GDP per additional dollar of purchases can depend on the debt it issues.",
+    "file": "2026-11-03-1f67cbdafc.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Debt maturity and government spending multipliers",
+      "type": "Research"
+    }
+  },
+  {
+    "title": "Why an expensive-to-borrow Bund can attract persistent hedge-fund demand",
+    "bank": "European Central Bank",
+    "date": "2026-11-03",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3305~877e68c2b7.en.pdf",
+    "excerpt": "When investors want a particular German government bond, the price of obtaining that security in the repo market can rise even if banks have ample central-bank reserves.",
+    "file": "2026-11-03-2675bee134.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Elastic in cash, inelastic in repo: hedge funds in the treasury and repo markets",
+      "type": "Research"
     }
   },
   {
@@ -4276,6 +4371,32 @@
     }
   },
   {
+    "title": "When a higher yield draws nonbank lenders in, and when it drives them out",
+    "bank": "Deutsche Bundesbank",
+    "date": "2026-11-02",
+    "url": "https://www.bundesbank.de/en/publications/research/discussion-papers/when-nonbanks-dampen-and-when-they-amplify-a-yield-curve-view-of-the-nonbank-lending-channel-1007926",
+    "excerpt": "A monetary surprise can move the overnight rate, expectations for the next few years or the long end of the yield curve.",
+    "file": "2026-11-02-886832771e.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "When nonbanks dampen and when they amplify: A yield-curve view of the nonbank lending channel",
+      "type": "Research"
+    }
+  },
+  {
+    "title": "What ECB speeches actually say about nonbanks",
+    "bank": "European Central Bank",
+    "date": "2026-11-02",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3304~9082a5f181.en.pdf",
+    "excerpt": "ECB researchers Ami Dalloul and Anisa Tiza Mimun construct an index of how ECB speakers talk about nonbank financial institutions.",
+    "file": "2026-11-02-82f3dea5e9.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "ECB perception of non-banks: a machine learning-based approach",
+      "type": "Research"
+    }
+  },
+  {
     "title": "Texas payrolls lose 18,900 jobs while more firms report raising prices",
     "bank": "Federal Reserve Bank of Dallas",
     "date": "2026-11-02",
@@ -4289,12 +4410,51 @@
     }
   },
   {
+    "title": "Supermarket prices rose more often after the March shock, but the repricing wave did not keep widening",
+    "bank": "European Central Bank",
+    "date": "2026-11-02",
+    "url": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261102~871cc494e2.en.html",
+    "excerpt": "A change in the food inflation rate can hide two different decisions in the supermarket aisle.",
+    "file": "2026-11-02-c48f7d4c57.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Catching the repricing wave: insights from daily online supermarket prices",
+      "type": "Research"
+    }
+  },
+  {
     "title": "Japan’s October outlook weighs AI exports, costly investment and persistent inflation",
     "bank": "Bank of Japan",
     "date": "2026-11-02",
     "url": "https://www.boj.or.jp/en/mopo/outlook/gor2610b.pdf",
     "excerpt": "The Bank of Japan’s full October Outlook, released on 2 November, explains why moderate growth could coexist with further increases in the policy rate.",
     "file": "2026-11-02-8b98d931fc.json"
+  },
+  {
+    "title": "How public debt can change the rate consistent with stable inflation",
+    "bank": "European Central Bank",
+    "date": "2026-11-02",
+    "url": "https://www.ecb.europa.eu/press/research-publications/resbull/2026/html/ecb.rb261102~023f804e59.en.html",
+    "excerpt": "Does high public debt leave a central bank unable to control inflation?",
+    "file": "2026-11-02-d8ab3182a9.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Monetary policy in times of high public debt",
+      "type": "Research"
+    }
+  },
+  {
+    "title": "How much of an external shock can Europe share internally?",
+    "bank": "European Central Bank",
+    "date": "2026-11-02",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
+    "excerpt": "ECB Vice-President Boris Vujčić uses Ireland’s exposure to trade and capital flows to pose a question for the European Union.",
+    "file": "2026-11-02-6be0606181.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Integrated, open and resilient: Europe’s strengths in a fragmenting world",
+      "type": "Speech"
+    }
   },
   {
     "title": "El Niño raises a conditional inflation risk for 2027",

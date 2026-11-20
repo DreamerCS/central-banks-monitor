@@ -1,0 +1,28 @@
+{
+  "title": "What ECB speeches actually say about nonbanks",
+  "bank": "European Central Bank",
+  "date": "2026-11-02",
+  "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3304~9082a5f181.en.pdf",
+  "summary": [
+    "ECB researchers Ami Dalloul and Anisa Tiza Mimun construct an index of how ECB speakers talk about nonbank financial institutions. The subject includes investment funds and insurers as well as other intermediaries outside traditional banking. The authors ask whether speeches emphasise the sector’s contribution to finance or its potential to transmit stress. Their index measures public language selected for particular occasions. It cannot directly reveal private Governing Council beliefs, the probability of a policy change or the level of objective risk in the financial system.",
+    "The paper describes its coverage as 1998–2025 in the abstract, while the methods section specifies 2,830 speeches from July 1998 through June 2024. The difference matters for anyone trying to replicate the most recent observations. The authors first identify sentences concerning nonbanks, then classify their tone. They manually label 4,000 sentences, including 1,300 relevant to nonbanks. The latter provide the examples for sentiment training and evaluation. On the separate relevance task, the selected classifier achieves 93% accuracy and identifies 15,017 relevant sentences among roughly 300,000 in the corpus. A model that recognises the topic accurately need not recognise the speaker’s assessment equally well.",
+    "Classification follows explicit rules. Concern about leverage, liquidity, interconnection or data gaps attracts a negative label. A specific call for stronger regulation also counts as negative, while a reference to regulation already implemented is positive. Descriptions of growth in the sector without an explicit judgement are neutral. Those choices help explain why a speech that stresses the need for action and another that welcomes a completed reform can generate opposite scores even if the speaker’s underlying view of the risk is unchanged. Window length also matters. Table 2 reports a weighted F1 score of 0.80 for the fine-tuned three-sentence model, against 0.70 when it sees only the individual sentence.",
+    "The index takes positive sentences minus negative ones and scales the difference by the sentence count specified in equation 1. A lower value can therefore reflect both the tone and the composition of communication. Figure 3 shows some positive years before the global financial crisis, followed by a predominantly negative annual series. The index falls to around −0.25 during the European sovereign debt crisis. Quarterly observations in Figure 4 show intervals of recovery, including around the implementation of post-crisis regulation. These movements should be read against the coding rules and the mix of issues included in speeches during each period.",
+    "Figure 5 separates the subjects associated with each sign. Earlier positive references emphasise access to markets, diversification and integration. Later negative passages increasingly discuss systemic vulnerabilities, connections to banks, leverage, gaps in data and new forms of finance including crypto-assets. The authors compare alternative sentiment models, context windows and ways of handling the smaller positive and neutral training classes. These checks test the stability of the linguistic result. They do not hold the policy agenda or the composition of speakers constant. The index is most informative alongside the original passages and a measure of how much attention the sector received in the first place."
+  ],
+  "questions": [
+    {
+      "question": "Did speakers turn more negative about each type of institution, or did they begin discussing riskier activities more often?",
+      "detail": "Build separate indices for insurers, investment funds and other intermediaries, then hold their topic and speaker weights fixed. Compare the result with the original annual and quarterly series. A declining aggregate alongside stable within-topic scores would point toward a changing communication agenda rather than increasingly negative assessments of each sector."
+    },
+    {
+      "question": "How much of the post-crisis rebound reflects the distinction between proposed and implemented regulation?",
+      "detail": "Have independent readers label matched passages about the same rule before and after adoption, first with the original rules and then with separate scores for perceived risk and approval of the policy response. Compare those alternatives around the 2013–15 positive episodes. This would identify gains attributable principally to the completion of a reform."
+    },
+    {
+      "question": "Does the index provide information beyond the number of nonbank speeches and the identity of the speaker?",
+      "detail": "Archive the exact speech inventory and reconcile the paper’s competing coverage endpoints, then replicate the series using a fixed denominator and documented release dates. Compare it with independently dated supervisory assessments while controlling for speech volume, topic and speaker. Examine whether the index moves before the assessment or mainly repeats language already made public."
+    }
+  ],
+  "limitation": ""
+}

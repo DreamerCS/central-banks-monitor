@@ -1,0 +1,28 @@
+{
+  "title": "How much of an external shock can Europe share internally?",
+  "bank": "European Central Bank",
+  "date": "2026-11-02",
+  "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
+  "summary": [
+    "ECB Vice-President Boris Vujčić uses Ireland’s exposure to trade and capital flows to pose a question for the European Union. How can an open economy absorb a geopolitical shock that affects its members differently? In his Dublin speech, resilience has two dimensions. Banks, funds and payment systems need to withstand losses, outflows and disruptions. Households and companies also need ways to share the economic losses across borders. Both dimensions matter when an external shock simultaneously raises energy costs, reduces investment and tightens financing. His proposed institutional changes address these channels and involve no announcement about policy rates.",
+    "Energy illustrates the difference between a common shock and a uniform outcome. The EU imports 57% of its energy and nearly all its oil and gas. Additional liquefied natural gas capacity reduced reliance on Russia after 2022, yet the later Middle East shock still reached European users. Slide 3 contrasts the prices paid by companies in Italy and Spain. The increase in Italy was larger and persisted longer. Spain’s higher renewable share is one explanation offered by the speaker. Diversifying suppliers, changing the generation mix and improving physical interconnections work through different channels. A fall in dependence on one supplier does not measure the sensitivity of the price paid for electricity.",
+    "Financial integration is also uneven. Since 2014, estimated tariff-equivalent frictions on cross-border equity holdings have fallen by around 12 percentage points inside the euro area and around 25 points between the euro area and the United States. These are inferred obstacles to holdings, not statutory charges. Slide 4 also shows US venture capital funds investing around six times as much as EU-based funds. International investors can finance European firms, but a reliance on one external market can affect where companies later locate intellectual property, headquarters or listings. The speech connects that choice to the depth of European markets.",
+    "Vujčić cites research estimating that markets and fiscal transfers absorb around 70% of state-level output shocks in the United States, compared with around 30% in the euro area. Capital markets account for only 5–10% of euro-area shocks. Slide 5 illustrates the proposed investment channel. European firms cut investment after an oil-price increase in the cited analysis, whereas US firms show no such reduction. Among European companies especially exposed to the pandemic shock, firms with predominantly domestic shareholders cut investment 20% more than peers with international ownership. The results concern different shocks and populations. They do not give a common coefficient for the effect of opening a capital market.",
+    "Slide 6 compares a hypothetical reduction of internal barriers with the projected cost of higher US tariffs. The speech suggests that a 2% cut in barriers to goods and services could eventually offset a projected GDP impact of around 0.7 percentage points over 2025–27. The gain is a long-run scenario, and its timing need not match the tariff impact. Vujčić proposes more interconnected power markets, a European deposit insurance scheme backed by effective crisis management, and fewer national differences in insolvency and withholding-tax procedures. Their common purpose is to keep capital, credit and electricity moving when a shock falls more heavily on one member than its neighbours."
+  ],
+  "questions": [
+    {
+      "question": "Which integration channel protects investment when an externally exposed region is hit?",
+      "detail": "Track firms with comparable energy intensity, size and pre-shock financing, separating international equity ownership from access to a cross-border banking group. Repeat the comparison for an energy shock and a demand shock. If investment protection appears only in internationally owned firms that also have diversified lenders, the shareholder comparison alone would exaggerate the independent equity channel."
+    },
+    {
+      "question": "Does renewable generation or access to neighbours account for the smaller electricity-price response?",
+      "detail": "Use hourly generation, prices, cross-border capacity and measured congestion to compare otherwise similar hours in Italy, Spain and neighbouring markets. Distinguish wholesale prices from the prices businesses actually pay under different contracts. Persistent insulation when interconnectors are congested would support a role for the domestic generation mix beyond the effect of imported power."
+    },
+    {
+      "question": "How quickly could reducing an internal barrier produce the gains in the speech’s scenario?",
+      "detail": "Choose a specific recognised reform in services, goods or capital markets and measure when it changes cross-border entry, sales, holdings or investment. Compare more and less exposed country pairs before and after implementation. Estimate adjustment over several years so that a long-run gain can be compared explicitly with the shorter 2025–27 tariff window."
+    }
+  ],
+  "limitation": ""
+}
