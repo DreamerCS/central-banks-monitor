@@ -14,7 +14,7 @@ from urllib.parse import parse_qsl, quote, unquote, urljoin, urlsplit, urlunspli
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 
-from publication_archive import VERIFIED_PUBLICATION_URLS
+from publication_archive import VERIFIED_PUBLICATION_URLS, correct_dated_publication
 
 SCRIPTS = Path(__file__).resolve().parent
 DATA = SCRIPTS.parent / "dist" / "data"
@@ -159,7 +159,8 @@ def collect(source, throttle):
                          if path.lower().startswith(prefix)), source["type"])
             row = dict(bank=source["bank"], institution=source["institution"], type=kind,
                        day=day.isoformat(), title=title, url=link, source=source["id"])
-            rows[identity(link)] = row
+            row = correct_dated_publication(row)
+            rows[identity(row["url"])] = row
         return list(rows.values())
     except (OSError, ET.ParseError, ValueError) as err:
         print(f"{source['id']}: {err}")
