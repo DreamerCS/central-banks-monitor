@@ -1,0 +1,6 @@
+trade_date,contract,settlement_price,reference_effr_effective_date,reference_effr_pct,december_mean_effr_pct,implied_dec10_31_effr_pct,implied_step_bp,cme_source
+2026-11-13,ZQZ6,95.9250,2026-11-12,3.88,4.0750,4.15477273,27.477273,https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/13/2026&pageSize=500&isProtected=false
+2026-11-16,ZQZ6,95.9350,2026-11-13,3.88,4.0650,4.14068182,26.068182,https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/16/2026&pageSize=500&isProtected=false
+2026-11-17,ZQZ6,95.9350,2026-11-16,3.88,4.0650,4.14068182,26.068182,https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/17/2026&pageSize=500&isProtected=false
+2026-11-18,ZQZ6,95.9300,2026-11-17,3.88,4.0700,4.14772727,26.772727,https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/18/2026&pageSize=500&isProtected=false
+2026-11-19,ZQZ6,95.9250,2026-11-18,3.88,4.0750,4.15477273,27.477273,https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/19/2026&pageSize=500&isProtected=false

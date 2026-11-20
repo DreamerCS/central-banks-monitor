@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#19251e">
+<meta name="description" content="Compare market expectations, policy implementation and economic outcomes using dated public data.">
+<title>Testing macro ideas · Central Bank Intelligence</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="macro-studies.css">
+<script type="module" src="curve-components.js"></script>
+</head>
+<body><a class="skip-link" href="#main">Skip to content</a>
+<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="./">Overview</a><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="research-notes.html">Research notes</a><a href="research-archive.html">Archive</a></nav></div></header>
+<main id="main" class="rs-wrap">
+<header class="rs-head"><p class="eyeline">Markets and monetary policy</p><h1>Testing macro ideas</h1><p>How much of a policy move was already priced? When did the central bank act, and what happened afterwards? Compare survey responses, market prices and official records on the same timeline.</p></header>
+<section id="rs-studies" class="rs-directory" aria-label="Empirical studies">
+<a href="market-reactions.html#speech-futures"><strong>What did futures already price before the speech?</strong><span>Track the next FOMC decision across timestamped Jackson Hole quotes and daily fed funds settlements.</span></a>
+<a href="external-vulnerability.html"><strong>Does short-term external debt predict currency losses?</strong><span>Rank 19 economies before three global shocks and compare their trade-weighted currencies and reserves.</span></a>
+<a href="dealer-absorption.html"><strong>Do large auction awards stay on dealers’ books?</strong><span>Follow weekly positions around 164 nominal ten-year Treasury auctions and compare the evidence for individual issues.</span></a>
+<a href="#curve-components"><strong>What moved the yield curve before a speech?</strong><span>Compare observed 2s10s with the expected short-rate and term-premium components. Inspect the two tenors separately.</span></a>
+<a href="market-reactions.html?dealerMeeting=2022-06-15#dealer-expectations"><strong>What probability did dealers put on the decision?</strong><span>Follow the survey deadline, probabilities assigned to each rate range and eventual FOMC decision across 24 meetings.</span></a>
+<a href="market-reactions.html#fed-direction-study"><strong>Does the announcement extend the earlier move?</strong><span>Across 230 FOMC statements, compare the four prior close-to-close changes with the two-year yield move in the statement window.</span></a>
+<a href="historical-data.html?liquidityEpisode=2023#fed-liquidity-stance"><strong>Does emergency lending mean the Fed is easing?</strong><span>Follow discount-window lending, market funding costs and the policy rate through three US funding disruptions.</span></a>
+<a href="oil-price-study.html?threshold=30&amp;measure=output&amp;horizon=12&amp;event=2014-12"><strong>Do cheaper oil prices lift industrial output?</strong><span>Compare US and euro-area energy prices, core inflation and industrial production following five large Brent declines.</span></a>
+<a href="yen-intervention.html"><strong>How long did Japan’s currency intervention last in the price?</strong><span>Trace the yen after official operations. Compare the moves with untreated dates and inspect the number of independent episodes.</span></a>
+</section>
+<section id="curve-components" class="rs-study" aria-labelledby="curve-title">
+<p class="eyeline">Market reactions · US Treasuries</p><h2 id="curve-title">What moved 2s10s before the Fed spoke?</h2>
+<p>A flatter curve before a Fed speech could reflect a change in expected short rates, the compensation investors require to hold longer bonds, or both. Compare the observed Treasury move with the two components of the New York Fed’s Adrian–Crump–Moench (ACM) model.</p>
+<p id="cc-status" role="status">Loading Treasury and term-premium observations…</p>
+<div id="cc-content" hidden>
+<div class="rs-controls">
+<label>Events<select id="cc-group"><option value="speeches">Federal Reserve Board speeches</option><option value="statements">FOMC statements</option></select></label>
+<label>Instrument<select id="cc-instrument"><option value="slope">2s10s · 10Y minus 2Y</option><option value="two">2-year Treasury</option><option value="ten">10-year Treasury</option></select></label>
+<label>Before the event<select id="cc-window"><option value="5">T−5 to T−1</option><option value="20">T−20 to T−1</option></select></label>
+<label>Period<select id="cc-era"><option value="all">All available years</option><option value="2000">2000–2009</option><option value="2010">2010–2019</option><option value="2020">2020–2026</option></select></label>
+<label>Window overlap<select id="cc-spacing"><option value="all">All dates</option><option value="spaced">Non-overlapping windows</option></select></label>
+</div>
+<p id="cc-count" role="status"></p><div id="cc-summary" class="rs-numbers"></div><p id="cc-opposition"></p>
+<details class="rs-details"><summary>Magnitude and direction across the sample</summary><div class="rs-table-wrap"><table><caption>Changes in basis points</caption><thead><tr><th scope="col">Measure</th><th scope="col">Median absolute move</th><th scope="col">Opposite sign to observed yield move</th></tr></thead><tbody id="cc-distribution"></tbody></table></div></details>
+<div class="rs-example"><h3>Inspect an event</h3><label for="cc-date">Event date<select id="cc-date"></select></label></div>
+<div id="cc-event" aria-live="polite"></div>
+<p class="rs-links">Powell at Jackson Hole <a href="?group=speeches&amp;date=2022-08-26#curve-components">2022</a><a href="?group=speeches&amp;date=2023-08-25#curve-components">2023</a><a href="?group=speeches&amp;date=2024-08-23#curve-components">2024</a></p>
+<details class="rs-details"><summary>Data, method and interpretation</summary>
+<p>The observed rates are US Treasury par yields. ACM fits zero-coupon yields. Its two additive components reconstruct the fitted yield, so a gap can remain between the observed and fitted moves. For 2s10s, subtract each two-year change from its corresponding ten-year change. For a single tenor, read the changes in that yield directly.</p>
+<p>Use the last jointly observed two- and ten-year Treasury closes strictly before the event. The five-quote option spans four close-to-close intervals. Both endpoints must have ACM estimates. Same-day speeches count once. The non-overlapping option works forward in time within the chosen sample, keeping the next window whose first quote follows the last retained endpoint.</p>
+<p>Correlations are Pearson correlations across the displayed dates. Direction counts exclude zero moves in either series. The ACM expected-rate component averages short rates over the selected bond’s life. Estimating the odds of the next FOMC decision requires a meeting-linked instrument or an explicitly identified survey. ACM fits Treasury yields, so the model and the observed slope share underlying market information. A high correlation can partly reflect that construction. The workbook contains revised model estimates, and overlapping windows share observations. The comparisons describe historical co-movement and leave the causal shock unidentified.</p>
+<p id="cc-vintage"></p><p class="rs-links"><a href="https://www.newyorkfed.org/research/data_indicators/term-premia-tabs">New York Fed · ACM model and workbook</a><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve">US Treasury · observed par yields</a><a href="https://www.federalreserve.gov/newsevents/speeches-testimony.htm">Board speeches</a><a href="https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/">San Francisco Fed · statement dates</a></p></details>
+</div></section>
+<section id="next-tests" class="rs-study" aria-labelledby="test-results-title"><p class="eyeline">Historical comparisons</p><h2 id="test-results-title">What survived the tests?</h2>
+<article class="rs-pending"><h3>Debt rollovers and currency losses</h3><p>Does short-term external debt help identify which currencies will fall furthest in a global shock? The relationship varies by episode. In 2008, the six economies with the highest debt-to-reserves ratios had a median three-month currency decline of 8.1%. In 2020 the rank correlation across the 19 matched economies was close to zero.</p><p><a href="external-vulnerability.html">Inspect each economy and change the horizon</a> · <a href="historical-data.html#dollar-swap-use">Compare swap capacity with actual dollar borrowing</a></p></article>
+<article class="rs-pending"><h3>Dealer inventory and secondary-market demand</h3><p>On 79 of 109 reopenings, dealers held a higher net position in the same ten-year note at the first report on or after settlement than at the preceding report. Two weeks later, the high-award group had a smaller median increase than the middle group. Dealers can sell in the when-issued market before an auction, distribute the bonds quickly and still finance a customer’s purchase afterwards.</p><p><a href="dealer-absorption.html">Follow positions before and after settlement</a> · <a href="https://www.federalreserve.gov/econres/notes/feds-notes/treasury-issuance-and-dealer-balance-sheets-20261030.html">Federal Reserve security-level evidence</a></p></article>
+</section>
+</main></body></html>
