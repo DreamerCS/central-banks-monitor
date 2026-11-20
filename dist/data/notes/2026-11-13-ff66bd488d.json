@@ -1,0 +1,27 @@
+{
+  "title": "HBZ’s R3 million supervisory penalty puts timeliness, missing reports and misclassification in separate categories",
+  "bank": "South African Reserve Bank",
+  "date": "2026-11-13",
+  "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/media-releases/2026/sanction-hbz",
+  "summary": [
+    "The South African Prudential Authority’s 13 November release detailed three reporting failures found during a 2023 Financial Intelligence Centre Act inspection at HBZ Bank. It imposed three cautions, one reprimand and a R3 million financial penalty. R2 million is conditionally suspended for 36 months from 19 May 2026. R1 million is the unsuspended amount at face value. The monetary penalty was assigned to the timeliness finding, rather than separately to every reported error.",
+    "HBZ submitted 8.85% of the sampled cash-threshold reports late. The Authority issued a caution and attached the full R3 million penalty, including its suspended part, to this finding. Separately, 4.5% of sampled cash-threshold reports were not submitted. That finding attracted a caution. A report that arrives late differs operationally from one that never reaches the Financial Intelligence Centre. The notice gives neither sample sizes nor typical delays, both of which matter in judging whether the bottleneck was a queue, an exception-handling problem or a failure to identify reportable events.",
+    "The third finding concerned report type. HBZ classified 78% of sampled transactions as Suspicious Activity Reports when Suspicious Transaction Reports were required. The sanction was a reprimand and a caution. This percentage refers to a different population from the cash-threshold findings. It does not imply that 78% of HBZ transactions were suspicious, nor is it a measure of confirmed criminal transactions. The regulator reported that the bank cooperated in remediation and did not quantify a change in client flows, deposit funding or credit availability.",
+    "For historical financial research, this is an institution-specific observation about regulatory data quality. An increase in the number of correctly classified reports after remediation can occur even if the underlying transaction mix is stable. Late records can also cause a jump in a reporting-period series when a backlog clears. Before comparing regulated entities or using reporting counts as indicators of financial stress, the relevant filing definitions, deadlines and effective control changes need to be aligned."
+  ],
+  "questions": [
+    {
+      "question": "Which reporting stage explains the late and omitted cash-threshold filings?",
+      "detail": "Reconcile transaction timestamps, threshold detection, creation of the report, submission and acknowledgement by the receiving authority. Record how long late reports were delayed and check the sampling frame. A missed trigger, a backlog and a transmission failure would call for different interpretation. The two percentages show distinct failures, but they do not identify their causes or the value of transactions involved."
+    },
+    {
+      "question": "How did misclassification affect trends in the two suspicious-report categories?",
+      "detail": "Reconstruct the correct category for the sampled transactions and compare aggregate counts before and after any documented remediation. Distinguish genuine changes in reported behaviour from relabelling, and check whether corrected filings appear in a later period. A sharp increase in one category alongside a decline in the other could arise without any increase in the underlying volume of suspicious transactions."
+    },
+    {
+      "question": "What does the conditional suspension reveal about realised financial cost and supervisory follow-up?",
+      "detail": "Locate subsequent confirmations of remediation, any conditions governing the R2 million suspended amount, and any available payment disclosures. Keep the public November announcement, the May start date and the earlier inspection distinct when studying the timing of market information. A face-value penalty alone cannot establish accounting recognition, client behaviour or a comparable burden across banks."
+    }
+  ],
+  "limitation": ""
+}

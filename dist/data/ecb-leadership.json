@@ -1,0 +1,228 @@
+{
+  "bank": "ecb",
+  "profiles": [
+    {
+      "name": "Wim Duisenberg",
+      "start": "1998-06-01",
+      "end": "2003-10-31",
+      "role": "President of the European Central Bank",
+      "headline": "When oil and money growth gave different rate signals",
+      "context": "Duisenberg faced two quite different readings of inflation in the euro’s early years. In October 2000, oil prices had risen more than expected, the weak euro amplified import costs and second-quarter growth had been strong. The concern was that import prices would influence wage bargains and price setting after the initial shock had passed. By June 2003 the euro had appreciated quickly, the economy had barely grown in the first quarter and private investment remained weak. Eurostat’s initial May inflation estimate was 1.9%. The same medium-term price stability objective could justify opposite decisions in those two settings.",
+      "monetary": "On 5 October 2000 the Governing Council raised the minimum bid rate on its main refinancing operations by 25 basis points to 4.75%, bringing cumulative tightening since November 1999 to 225 basis points. On 5 June 2003 it cut its key rates by 50 basis points even though broad money, M3, continued to grow rapidly. Households and investors had shifted into liquid, relatively safe assets, and lending to the private sector was growing much more slowly than M3. The composition of bank balance sheets helped the Council distinguish a demand for safety from money about to be spent.",
+      "fiscal": "National governments still set budgets under common fiscal rules. In January 2003 the Council of the EU determined that Germany had an excessive deficit. It questioned Germany’s growth assumption and identified health spending overruns alongside the cyclical slowdown. The German authorities had to decide how to implement the adjustment. Duisenberg’s June call for medium-term spending reform was a policy recommendation. A German budget change and an ECB rate cut therefore belong on different dates when identifying their effects on demand.",
+      "communication": "The order of the president’s explanation changed during his term. In 2000 Duisenberg began the briefing with money growth. In May 2003 the Council put the analysis of near-term economic conditions first and used money and credit to check the longer-term conclusion. It retained its definition of price stability as inflation below 2% and clarified that it aimed close to that level, partly to allow a margin against deflation. The June briefing shows how the new order worked when money growth and the inflation forecast pointed in different directions.",
+      "test": "Did money-growth surprises still shift short euro rates once investors could see that deposits were rising faster than private credit? Match original M3 releases to their contemporary forecast medians. Compare the change in three-month Euribor futures on release with the change around the subsequent ECB briefing, separating episodes of weak credit growth. The size of a news surprise and the timing of other data releases matter more here than the recorded level of M3.",
+      "episodes": [
+        {
+          "date": "2000-10-05",
+          "title": "Oil, the euro and a 25 basis point increase",
+          "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2000/html/is001005.en.html"
+        },
+        {
+          "date": "2003-05-08",
+          "title": "The Council clarifies the inflation aim and the role of money",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2003/html/pr030508_2.en.html"
+        },
+        {
+          "date": "2003-06-05",
+          "title": "A 50 basis point cut despite strong growth in broad money",
+          "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2003/html/is030605.en.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ECB handover notice recording Duisenberg’s full term",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2003/html/pr031101.en.html"
+        },
+        {
+          "label": "Council opinion on Germany’s budget and deficit, January 2003",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32003A0204%2801%29"
+        }
+      ]
+    },
+    {
+      "name": "Jean-Claude Trichet",
+      "start": "2003-11-01",
+      "end": "2011-10-31",
+      "role": "President of the European Central Bank",
+      "headline": "Inflation signals in a banking crisis",
+      "context": "The July and October 2008 meetings addressed different threats. On 3 July the Council saw rising inflation, vigorous credit growth and little evidence so far of a broad contraction in bank loan supply. Its 25 basis point increase aimed to keep commodity inflation from spreading through wages and pricing, even as it expected GDP growth to slow. Within three months the question had become whether a bank could reliably obtain funding at all. A rate series captures the price the ECB set. It misses the importance of how much banks could borrow at that price.",
+      "monetary": "On 8 October 2008 the Council announced that its weekly refinancing operations would meet all eligible bids at a fixed rate, starting with settlement on 15 October. It also narrowed the standing facilities corridor from 200 to 100 basis points. In May 2010 it introduced the Securities Markets Programme to restore trading and transmission in impaired public and private debt markets. It planned to absorb the liquidity created by those purchases. For a bank, the offer of dependable refinancing changed its funding risk. For a government bond investor, purchases in a distressed market affected liquidity and the price of bearing that risk. Neither channel can be read directly from the announced policy rate.",
+      "fiscal": "Greece’s May 2010 rescue had its own institutions and financing. Greece requested assistance and agreed on an adjustment programme. Euro-area governments provided bilateral loans pooled by the European Commission, with a separate IMF arrangement. On 18 May the governments disbursed €14.5 billion after the IMF had disbursed €5.5 billion. The ECB participated in programme discussions, while its bond purchases served the Council’s stated monetary transmission objective. A move in Greek yields around these dates could reflect both access to official financing and improved market liquidity.",
+      "communication": "On 3 March 2011 Trichet used the phrase “strong vigilance” while leaving rates unchanged. In questions he said an increase at the next meeting was possible, and expressly left open the subsequent path. The Council raised rates by 25 basis points on 7 April. March was the moment an investor could reprice the probability of April action. Treating the April increase alone as the news would miss that sequence.",
+      "test": "Did the March 2011 press conference bring forward the expected date of tightening without materially raising the expected rate a year ahead? Measure the next-meeting and one-year overnight indexed swap rates separately around the unchanged decision and the subsequent questions. Compare with April’s announcement and with March meetings lacking that wording. A similar move at all horizons would weaken the interpretation that Trichet chiefly signalled timing.",
+      "episodes": [
+        {
+          "date": "2008-07-03",
+          "title": "A rate rise against the risk of wage and price pass-through",
+          "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2008/html/is080703.en.html"
+        },
+        {
+          "date": "2008-10-08",
+          "title": "Full allotment for weekly bank refinancing",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2008/html/pr081008_2.en.html"
+        },
+        {
+          "date": "2010-05-10",
+          "title": "Securities purchases to repair impaired markets",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2010/html/pr100510.en.html"
+        },
+        {
+          "date": "2011-03-03",
+          "title": "A warning about the next meeting",
+          "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2011/html/is110303.en.html"
+        },
+        {
+          "date": "2011-04-07",
+          "title": "The Council raises rates by 25 basis points",
+          "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2011/html/is110407.en.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ECB record of presidential terms",
+          "url": "https://www.ecb.europa.eu/ecb/decisions/eb/html/executive-board-terms-of-office.en.html"
+        },
+        {
+          "label": "European Commission account of the first Greek assistance programme",
+          "url": "https://ec.europa.eu/economy_finance/publications/occasional_paper/2010/op61_en.htm"
+        }
+      ]
+    },
+    {
+      "name": "Mario Draghi",
+      "start": "2011-11-01",
+      "end": "2019-10-31",
+      "role": "President of the European Central Bank",
+      "headline": "The price investors put on a euro breakup",
+      "context": "In London in July 2012 Draghi described an interbank market retreating behind national borders. A borrower’s country of residence increasingly affected the interest rate it faced, even when the common policy rate was unchanged. He identified a specific component of sovereign borrowing costs: investors were pricing the possibility that a claim payable in euros would be converted into another currency. If that premium impaired the transmission of a common monetary policy, the ECB had grounds to address it. This argument did not require every difference in sovereign borrowing costs to disappear.",
+      "monetary": "On 6 September the Governing Council specified how Outright Monetary Transactions could work. It could buy shorter-dated sovereign bonds in secondary markets, focusing on remaining maturities of one to three years, subject to an appropriate EFSF or ESM programme and its conditions. It set no advance quantity limit. By January 2015 the immediate concern was prolonged low inflation. The expanded purchase programme envisaged €60 billion a month across its public and private asset purchases. This broad easing of financing conditions had a different purpose from a contingent intervention directed at a particular sovereign market. The June 2014 decision to take the deposit facility rate to −0.10% also changed the return on short-term euro assets directly.",
+      "fiscal": "Spain shows where the government’s balance sheet entered the picture. Its government requested external assistance for its banking system in June 2012. The subsequent ESM loan passed through the Spanish bank restructuring fund, FROB, which channelled resources to the institutions concerned. Spain remained responsible for repayment. Conditions addressed bank capital, restructuring and impaired assets. Those fiscal commitments could change the risks facing both Spanish banks and their sovereign independently of what Draghi said in London.",
+      "communication": "Draghi’s July assurance about preserving the euro was a presidential speech. The programme’s eligibility rules and maturities were Council decisions published in September. In July 2013 he used a different form of guidance, explaining that the Council expected rates to stay at their current or lower levels for an extended period given weak activity, credit and inflation. The first intervention addressed the currency in which contracts would be honoured. The second addressed the expected return on holding that currency over time.",
+      "test": "Was the largest effect concentrated where a backstop was most valuable? Altavilla, Giannone and Lenza estimated that the July–September 2012 announcements together reduced Italian and Spanish two-year yields by about two percentage points, with little change at that maturity in France and Germany. Replicate the three announcement windows separately, including 2 August, and compare two- and ten-year yields against matched German bonds. A large relative move at the short end fits the eventual purchase maturities. Common moves in all four markets would point toward a broader change in rate expectations.",
+      "episodes": [
+        {
+          "date": "2012-07-26",
+          "title": "London speech on convertibility risk and the euro",
+          "url": "https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html"
+        },
+        {
+          "date": "2012-09-06",
+          "title": "Conditional sovereign purchases and their maturities",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2012/html/pr120906_1.en.html"
+        },
+        {
+          "date": "2013-07-04",
+          "title": "Forward guidance on the expected path of rates",
+          "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2013/html/is130704.en.html"
+        },
+        {
+          "date": "2014-06-05",
+          "title": "The deposit facility moves below zero",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2014/html/pr140605.en.html"
+        },
+        {
+          "date": "2015-01-22",
+          "title": "A €60 billion monthly asset purchase programme",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2015/html/pr150122_1.en.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ECB record of presidential terms",
+          "url": "https://www.ecb.europa.eu/ecb/decisions/eb/html/executive-board-terms-of-office.en.html"
+        },
+        {
+          "label": "Memorandum on Spain’s financial-sector programme",
+          "url": "https://www.bde.es/f/webbde/GAP/Secciones/SalaPrensa/InformacionInteres/ReestructuracionSectorFinanciero/Ficheros/en/mou_en.pdf"
+        },
+        {
+          "label": "ESM account of the Spanish sovereign loan and its disbursements",
+          "url": "https://www.esm.europa.eu/system/files/document/faq_spain_archived.pdf"
+        },
+        {
+          "label": "ECB working paper on OMT announcement effects, August 2014",
+          "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1707.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Christine Lagarde",
+      "start": "2019-11-01",
+      "end": null,
+      "role": "President of the European Central Bank",
+      "headline": "When an energy shock calls for a hike, and when it calls for time",
+      "context": "Lagarde’s presidency spans the pandemic funding shock, the subsequent inflation surge and another energy shock in 2026. These episodes give opposite signs to apparently similar policy language. In March 2020 preserving access to finance was the immediate priority. By September 2023 the Council had raised the deposit rate to 4.00% as underlying price pressures remained elevated. In June 2024 it cut to 3.75% after nine months on hold, even as staff revised up their near-term inflation projections. By then the Council judged that earlier tightening had restrained demand and that inflation had fallen substantially. The level and duration of restriction mattered alongside the latest forecast revision.",
+      "monetary": "The March 2020 pandemic purchase programme had an initial €750 billion envelope. The Council allowed purchases to vary over time, by asset class and by country, giving it room to act where financing conditions were tightening fastest. In July 2022 it raised rates by 50 basis points and approved the Transmission Protection Instrument at the same meeting. Both decisions could serve the same aim: a tighter common policy can operate more evenly if disorderly sovereign markets do not impose an additional, country-specific tightening. In September 2026 the Council raised the deposit rate to 2.50%. Staff projected headline inflation of 3.0% in 2026, 2.5% in 2027 and 2.1% in 2028. October brought higher energy prices, broadly stable underlying inflation, little apparent wage response and tighter financial conditions. The Council held.",
+      "fiscal": "The pandemic also brought a separate €750 billion decision. In July 2020 EU leaders agreed on NextGenerationEU, authorising the Commission to borrow on behalf of the Union up to that amount in 2018 prices. National governments prepared recovery plans, the Commission assessed them and the Council approved them. Payments depended on progress against agreed milestones. EU borrowing and national investment spending enter fiscal analysis at different dates. The ECB’s March envelope instead described potential securities purchases. Adding the two headline figures would confuse a financing intervention with public expenditure.",
+      "communication": "The Council adopted a symmetric medium-term 2% target in 2021. Its 2025 assessment stressed forceful or persistent action against large, lasting deviations in either direction. Lagarde made the October 2026 decision more informative in questions: a hike had been discussed, the final hold was unanimous and forthcoming wage, underlying inflation and credit data would inform December’s discussion. She also announced that day that she would step down on 7 February 2027. She remained president at the November 2026 archive cutoff. In her 20 November Frankfurt speech she gave a different audience a different message. She argued that delaying common standards for tokenised assets could leave European financial markets divided across incompatible settlement systems.",
+      "test": "Did the October 2026 questions change the price of December policy even though the announced rate did not move? Measure the December meeting-dated €STR swap before the release, after the written decision and around Lagarde’s explanation of the debate. Compare it with the two-year swap and with Italian and French spreads to Germany. First timestamp the separate succession announcement and concurrent energy headlines. If they overlap the same window, the price move cannot identify a unique effect of the policy guidance.",
+      "episodes": [
+        {
+          "date": "2020-03-18",
+          "title": "Pandemic purchases with flexibility across countries",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2020/html/ecb.pr200318_1~3949d6f266.en.html"
+        },
+        {
+          "date": "2021-07-08",
+          "title": "The symmetric 2% inflation target",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2021/html/ecb.pr210708~dc78cc4b0d.en.html"
+        },
+        {
+          "date": "2022-07-21",
+          "title": "A 50 basis point rise and a transmission backstop",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.mp220721~53e5bdd317.en.html"
+        },
+        {
+          "date": "2023-09-14",
+          "title": "The deposit facility rate reaches 4.00%",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2023/html/ecb.mp230914~aab39f8c21.en.html"
+        },
+        {
+          "date": "2024-06-06",
+          "title": "The first cut after nine months on hold",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.mp240606~2148ecdb3c.en.html"
+        },
+        {
+          "date": "2025-06-30",
+          "title": "The Council reviews how to respond to persistent inflation gaps",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.pr250630~aabf988af8.en.html"
+        },
+        {
+          "date": "2026-09-10",
+          "title": "A 25 basis point increase as energy feeds into the outlook",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"
+        },
+        {
+          "date": "2026-10-29",
+          "title": "A hold at 2.50% amid tighter financing conditions",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html"
+        },
+        {
+          "date": "2026-10-29",
+          "title": "Lagarde explains the unanimous hold and the case for waiting",
+          "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html"
+        },
+        {
+          "date": "2026-11-20",
+          "title": "The cost of delaying integration in payments and capital markets",
+          "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ECB record of presidential terms",
+          "url": "https://www.ecb.europa.eu/ecb/decisions/eb/html/executive-board-terms-of-office.en.html"
+        },
+        {
+          "label": "European Council conclusions on the July 2020 recovery agreement",
+          "url": "https://www.consilium.europa.eu/media/45109/210720-euco-final-conclusions-en.pdf"
+        },
+        {
+          "label": "ECB notice of Lagarde’s announced departure",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
+        }
+      ]
+    }
+  ]
+}

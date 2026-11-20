@@ -1,0 +1,27 @@
+{
+  "title": "Macklem explains why Canadian inflation could persist even with spare capacity",
+  "bank": "Bank of Canada",
+  "date": "2026-11-03",
+  "url": "https://www.bankofcanada.ca/2026/11/opening-statement-house-commons-standing-committee-finance-2026-11-03/",
+  "summary": [
+    "Governor Tiff Macklem’s evidence to the Commons finance committee explains the October increase as insurance against a particular change in pricing behaviour. Businesses had absorbed much of the rise in their inputs. The risk was that a second year of expensive fuel would make absorbing the costs progressively harder, especially if demand recovered. The quarter-point increase to 2.5% had already taken place the previous week. This appearance put the reasoning before Parliament and discussed the possibility of additional tightening without announcing another decision. Macklem delivered the same prepared remarks to the Senate banking committee on November 5. The published openings contain no parliamentary questions or answers.",
+    "The October outlook had moved in two directions relative to July. Oil was expected to remain expensive for longer, and high refinery margins amplified the effect on Canadian gasoline, diesel and heating oil. At the same time, a modest improvement in growth prospects reduced the disinflationary pressure available to offset those costs. Higher energy prices therefore mattered twice. They raised the consumer price index directly and increased transport and production costs elsewhere. The second effect depends on how firms set their selling prices. Past experience and the Bank’s surveys suggested greater pass-through over the following year, although the Governor did not give an exact pass-through coefficient.",
+    "The macroeconomic data qualified that argument. GDP growth was 3.3% in the second quarter. Recent indicators pointed to about 2% for the third quarter, so the latter number remained an estimate. Consumer spending was solid, while exports and business investment had recovered. Unemployment had hovered around 6.5%, and a broader set of indicators still suggested spare capacity. The Bank expected new US tariffs to interrupt the recovery in the fourth quarter, then consumption, exports, investment and fiscal measures to support faster growth. The annual projection moved from 1% GDP growth in 2026 to about 2% in both 2027 and 2028. A weak quarter could coexist with an improving multiyear outlook.",
+    "Duration was central to the inflation argument. Headline inflation had been around 3% since April, a percentage point above target. The Governor expected about 3.5% at year-end and at least 3% through much of 2027, before a return near 2% in mid-2028. The projected deterioration from the recent rate to year-end was roughly half a percentage point. The more important change for policy was how long households and firms might experience above-target inflation. A rapid fall in energy prices, slower demand or less corporate pass-through could shorten that exposure. The Governor left the next decision contingent on incoming evidence, and explicitly acknowledged uncertainty over both trade and the Middle East. A higher-rate possibility was part of that conditional message, not a scheduled sequence."
+  ],
+  "questions": [
+    {
+      "question": "Which prices would establish that firms were passing more of the fuel shock on?",
+      "detail": "Separate direct movements in motor fuel and heating oil from changes in selling prices in other industries. Compare firms with large transportation or energy inputs to less exposed peers, and compare pricing intentions with actual selling prices. Rising food or goods prices alone would be difficult to attribute because US tariffs may affect those same categories. The claim to test is whether businesses that had absorbed costs were increasingly able or obliged to pass them through."
+    },
+    {
+      "question": "Would weaker growth in the fourth quarter invalidate the policy case?",
+      "detail": "Compare any downside surprise with the specific slowdown already built into the projection. The Bank anticipated a tariff-related interruption while projecting stronger annual growth later. Persistent falls in hiring, investment or consumer spending would challenge the premise that spare capacity would be absorbed more directly than one weak quarterly GDP release. A composition shift from export weakness to broad domestic weakness would change the interpretation further."
+    },
+    {
+      "question": "What information did the parliamentary appearance add for rates investors?",
+      "detail": "Distinguish the October increase from the November testimony. The Governor explained how long-lasting cost pressure and greater resilience could combine to require a further increase, but offered no threshold or timetable. Any hearing-day yield move would need to be compared with information in the earlier policy announcement and with other news on the day. Repeated, publicly known guidance is a different exposure from a newly announced change in rates."
+    }
+  ],
+  "limitation": ""
+}

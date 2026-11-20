@@ -8,6 +8,35 @@
     "file": "2026-11-20-104d1c291c.json"
   },
   {
+    "title": "South Africa holds by one vote as transport drives 40% of inflation and core prices trend up",
+    "bank": "South African Reserve Bank",
+    "date": "2026-11-19",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/statements/monetary-policy-statements/2026/november",
+    "excerpt": "South Africa’s Monetary Policy Committee held the rate at 7.25% on 19 November.",
+    "file": "2026-11-19-2e11ac8035.json",
+    "publication": {
+      "jurisdiction": "South Africa",
+      "type": "Decision",
+      "title": "Statement of the Monetary Policy Committee — November 2026",
+      "aliases": [
+        "https://www.resbank.co.za/content/dam/sarb/publications/statements/monetary-policy-statements/2026/november/november-statement.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Four readings of Swedish inflation explain Thedéen’s case to parliament",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-11-19",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/speeches-and-presentations/2026/executive-board-in-finance-committee-hearing-on-monetary-policy/",
+    "excerpt": "At the Riksdag Finance Committee on 19 November, Governor Erik Thedéen faced a straightforward question.",
+    "file": "2026-11-19-953d040efc.json",
+    "publication": {
+      "jurisdiction": "Sweden",
+      "type": "Speech",
+      "title": "Executive Board in Finance Committee hearing on monetary policy"
+    }
+  },
+  {
     "title": "October minutes reveal broad support for more tightening despite the hold",
     "bank": "Federal Open Market Committee",
     "date": "2026-11-18",
@@ -25,6 +54,84 @@
     }
   },
   {
+    "title": "How closely did Canada’s high-oil scenario track inflation? The evidence behind Gravelle’s speech",
+    "bank": "Bank of Canada",
+    "date": "2026-11-18",
+    "url": "https://www.bankofcanada.ca/2026/11/setting-the-scenario-monetary-policy-communications-in-uncertain-times/",
+    "excerpt": "In Edmonton, Deputy Governor Toni Gravelle offered a way to read a central-bank scenario as a testable conditional forecast.",
+    "file": "2026-11-18-cb89b041fc.json",
+    "publication": {
+      "jurisdiction": "Canada",
+      "title": "Setting the scenario: Monetary policy communications in uncertain times",
+      "type": "Speech"
+    }
+  },
+  {
+    "title": "Hjelm sets out when Sweden can look through a supply shock",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-11-18",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/speeches-and-presentations/2026/goran-hjelm-in-linkoping-monetary-policy-must-be-forward-looking/",
+    "excerpt": "At the East Sweden Chamber of Commerce in Linköping on 18 November, Deputy Governor Göran Hjelm identified what changed his view about the timing of a Swedish rate increase.",
+    "file": "2026-11-18-23d7b9270f.json",
+    "publication": {
+      "jurisdiction": "Sweden",
+      "type": "Speech",
+      "title": "Monetary policy must be forward looking — Göran Hjelm"
+    }
+  },
+  {
+    "title": "Barr links access to community capital with a conditional case for higher rates",
+    "bank": "Federal Reserve Board",
+    "date": "2026-11-18",
+    "url": "https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm",
+    "excerpt": "Governor Michael Barr opened with a distinct monetary-policy judgment before turning to community development.",
+    "file": "2026-11-18-91ef37faa9.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Speech",
+      "title": "Michael Barr · Investing in America’s Underserved Communities"
+    }
+  },
+  {
+    "title": "Why an AI productivity gain can raise inflation before it lowers costs",
+    "bank": "Banca d'Italia",
+    "date": "2026-11-17",
+    "url": "https://www.bancaditalia.it/pubblicazioni/qef/2026-1084/index.html",
+    "excerpt": "If households anticipate higher future incomes and companies invest ahead of future productivity gains, demand can strengthen before a new technology increases supply.",
+    "file": "2026-11-17-1d9cb0b882.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "type": "Research",
+      "title": "The macroeconomic effects of AI adoption: an assessment using a multi-country model"
+    }
+  },
+  {
+    "title": "Waller puts settlement liquidity and legal finality at the centre of tokenised payments",
+    "bank": "Federal Reserve Board",
+    "date": "2026-11-17",
+    "url": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
+    "excerpt": "Governor Christopher Waller asked what would make tokenised markets competitive with established payment and securities systems.",
+    "file": "2026-11-17-ea2cc2cb2e.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Speech",
+      "title": "Christopher Waller · Considerations at the Intersection of Payments and Tokenized Markets"
+    }
+  },
+  {
+    "title": "Spain’s inflation shock hit the shopping basket and the balance sheet",
+    "bank": "Banco de España",
+    "date": "2026-11-17",
+    "url": "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/documentos-trabajo/fiscal-policy-during-the-cost-of-living-crisis.html",
+    "excerpt": "A VAT cut makes essential purchases cheaper.",
+    "file": "2026-11-17-0bd5e1fb8c.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "type": "Research",
+      "title": "Fiscal Policy during the cost-of-living crisis"
+    }
+  },
+  {
     "title": "November minutes expose the disputed capacity estimate behind a 6–3 rise to 4.85%",
     "bank": "Reserve Bank of Australia",
     "date": "2026-11-17",
@@ -38,12 +145,155 @@
     }
   },
   {
+    "title": "Musalem sets a real-rate test for several increases before spring",
+    "bank": "Federal Reserve Bank of St. Louis",
+    "date": "2026-11-17",
+    "url": "https://www.stlouisfed.org/from-the-president/remarks/2026/remarks-on-us-economy-and-monetary-policy-argentina",
+    "excerpt": "St.",
+    "file": "2026-11-17-22e5f73082.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Speech",
+      "title": "Remarks on the U.S. Economy and Monetary Policy"
+    }
+  },
+  {
     "title": "Hungary holds at 5.50% ahead of a reassessment of taxes and spending",
     "bank": "Magyar Nemzeti Bank",
     "date": "2026-11-17",
     "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-17-november-2026",
     "excerpt": "The November 17 Monetary Council maintained the base rate at 5.50% and the overnight corridor at 4.50–6.50%.",
     "file": "2026-11-17-92ceb53b39.json"
+  },
+  {
+    "title": "Warsh asks whether AI changes the rate of discovery as well as the cost of production",
+    "bank": "Federal Reserve Board",
+    "date": "2026-11-16",
+    "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
+    "excerpt": "Chairman Kevin Warsh opened the Productivity and Jobs Task Force conference by asking whether advanced AI could accelerate the discovery of ideas.",
+    "file": "2026-11-16-298c3dc5fa.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Speech",
+      "title": "Kevin Warsh · Opening Remarks at the Productivity and Jobs Task Force Conference"
+    }
+  },
+  {
+    "title": "The order of rate increases matters when optimistic investors are leveraged",
+    "bank": "Banco de España",
+    "date": "2026-11-16",
+    "url": "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/documentos-trabajo/leaning-without-sowing-the-wind-optimal-monetary-policy-in-speculative-booms.html",
+    "excerpt": "Jonathan Goldberg and David López-Salido ask what happens when a central bank tries to restrain a speculative boom after investors have already borrowed against high asset valuations.",
+    "file": "2026-11-16-5a4ee6d389.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "type": "Research",
+      "title": "Leaning without Sowing the Wind: Optimal Monetary Policy in Speculative Booms"
+    }
+  },
+  {
+    "title": "Brazil’s Pix reaches 76 billion payments through October as merchant and corporate use diverge",
+    "bank": "Banco Central do Brasil",
+    "date": "2026-11-16",
+    "url": "https://www.bcb.gov.br/detalhenoticia/21320/noticia",
+    "excerpt": "Six years after Brazil introduced Pix, the central bank reported 76 billion transactions in the first ten months of 2026, up 17.6% on the same period a year earlier.",
+    "file": "2026-11-16-cf69e74b2f.json",
+    "publication": {
+      "jurisdiction": "Brazil",
+      "type": "Release",
+      "title": "Pix celebra 6 anos como motor de inclusão e eficiência financeira em todo o Brasil"
+    }
+  },
+  {
+    "title": "Barr traces how an AI investment loss could travel beyond its original lender",
+    "bank": "Federal Reserve Board",
+    "date": "2026-11-16",
+    "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+    "excerpt": "Governor Michael Barr distinguished the economic value of a technology from the returns that current investors can expect at current prices.",
+    "file": "2026-11-16-febf7b04e5.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Speech",
+      "title": "Michael Barr · Some Potential Financial Stability Implications of Artificial Intelligence"
+    }
+  },
+  {
+    "title": "What would turn Europe’s energy shock into another rate increase?",
+    "bank": "Deutsche Bundesbank",
+    "date": "2026-11-13",
+    "url": "https://www.bundesbank.de/en/press/speeches/navigating-new-economic-realities-europe-s-outlook-in-a-changing-global-landscape-964974",
+    "excerpt": "At the Siemens Bankers Conference in Munich, Bundesbank President Joachim Nagel described a conditional case for further ECB action.",
+    "file": "2026-11-13-e54933e72c.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "type": "Speech",
+      "title": "Navigating new economic realities: Europe’s outlook in a changing global landscape — Joachim Nagel"
+    }
+  },
+  {
+    "title": "Standard Bank’s R17 million sanction identifies separate gaps in transfer-client checks, records and training",
+    "bank": "South African Reserve Bank",
+    "date": "2026-11-13",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/media-releases/2026/sanction-sbsa",
+    "excerpt": "South Africa’s Prudential Authority disclosed on 13 November the outcome of a 2023 inspection of Standard Bank of South Africa under the Financial Intelligence Centre Act.",
+    "file": "2026-11-13-f808687dc0.json",
+    "publication": {
+      "jurisdiction": "South Africa",
+      "type": "Release",
+      "title": "Prudential Authority imposes administrative sanctions on The Standard Bank of South Africa Limited"
+    }
+  },
+  {
+    "title": "Jefferson sees AI investment lifting demand before productivity expands supply",
+    "bank": "Federal Reserve Board",
+    "date": "2026-11-13",
+    "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+    "excerpt": "Vice Chair Philip Jefferson separated two effects of a technological boom that arrive at different times.",
+    "file": "2026-11-13-efa384ae4c.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Speech",
+      "title": "Philip Jefferson · New Technology, Old Questions: Productivity Puzzles and the Macroeconomy"
+    }
+  },
+  {
+    "title": "HBZ’s R3 million supervisory penalty puts timeliness, missing reports and misclassification in separate categories",
+    "bank": "South African Reserve Bank",
+    "date": "2026-11-13",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/media-releases/2026/sanction-hbz",
+    "excerpt": "The South African Prudential Authority’s 13 November release detailed three reporting failures found during a 2023 Financial Intelligence Centre Act inspection at HBZ Bank.",
+    "file": "2026-11-13-ff66bd488d.json",
+    "publication": {
+      "jurisdiction": "South Africa",
+      "type": "Release",
+      "title": "Prudential Authority imposes administrative sanctions on HBZ Bank Limited"
+    }
+  },
+  {
+    "title": "Collins shows why raising rates can cool housing demand and slow construction together",
+    "bank": "Federal Reserve Bank of Boston",
+    "date": "2026-11-13",
+    "url": "https://www.bostonfed.org/-/media/Documents/Speeches/PDF/collins/2026/20261113-text.pdf",
+    "excerpt": "Boston Fed President Susan Collins used the housing market to explain a tension in monetary transmission.",
+    "file": "2026-11-13-1a3db45b66.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Speech",
+      "title": "Observations on Housing Market Challenges"
+    }
+  },
+  {
+    "title": "Seim explains why a predictable inflation response matters for wage bargains",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-11-12",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/speeches-and-presentations/2026/anna-seim-important-to-safeguard-the-role-of-the-inflation-target-as-a-nominal-anchor/",
+    "excerpt": "At the Arenagruppen labour-market conference on 12 November, Deputy Governor Anna Seim connected the Riksbank’s November rate increase to an audience facing a different decision: what assumption about future inflation should underpin wage negotiations?",
+    "file": "2026-11-12-490329d50b.json",
+    "publication": {
+      "jurisdiction": "Sweden",
+      "type": "Speech",
+      "title": "Anna Seim: Important to safeguard the role of the inflation target as a nominal anchor"
+    }
   },
   {
     "title": "Peru raises to 4.50% as strong demand makes persistent supply shocks harder to absorb",
@@ -56,6 +306,71 @@
       "jurisdiction": "Peru",
       "title": "Programa monetario de noviembre de 2026",
       "type": "Decision"
+    }
+  },
+  {
+    "title": "Bunge puts household demand at the centre of Sweden’s next rate decision",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-11-12",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/speeches-and-presentations/2026/aino-bunge-interest-rates-should-be-adjusted-gradually-in-an-uncertain-situation/",
+    "excerpt": "At Swedbank on 12 November, First Deputy Governor Aino Bunge explained why she supported raising Sweden’s policy rate to 2% and why she wanted to evaluate each subsequent step.",
+    "file": "2026-11-12-5b159c594e.json",
+    "publication": {
+      "jurisdiction": "Sweden",
+      "type": "Speech",
+      "title": "Aino Bunge: Interest rates should be adjusted gradually in an uncertain situation"
+    }
+  },
+  {
+    "title": "Barr asks who owns the gains from AI before forecasting who will earn them",
+    "bank": "Federal Reserve Board",
+    "date": "2026-11-12",
+    "url": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
+    "excerpt": "Governor Michael Barr began with the distribution of wealth before AI’s wider diffusion.",
+    "file": "2026-11-12-b22ed4f6f4.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Speech",
+      "title": "Michael Barr · American Inequality and the Future of AI"
+    }
+  },
+  {
+    "title": "Waller sets out a December hike preference and a test for going further",
+    "bank": "Federal Reserve Board",
+    "date": "2026-11-10",
+    "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+    "excerpt": "Before the October consumer price release, Governor Christopher Waller favoured a 25-basis-point December increase even if monthly inflation improved.",
+    "file": "2026-11-10-7e8ebfec1b.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Speech",
+      "title": "Christopher Waller · The Economic Outlook and Some Thoughts on Labor Market Dynamism"
+    }
+  },
+  {
+    "title": "South African export commodity prices fall in dollars and rise in rand in October",
+    "bank": "South African Reserve Bank",
+    "date": "2026-11-10",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/Sarb-ICP/sa-commodity-price-index-october-26",
+    "excerpt": "South Africa’s export commodity basket moved in opposite directions depending on the currency used to measure it.",
+    "file": "2026-11-10-a4fa1c417d.json",
+    "publication": {
+      "jurisdiction": "South Africa",
+      "type": "Release",
+      "title": "Index of Commodity Prices for South Africa – October 2026"
+    }
+  },
+  {
+    "title": "Paulson favours further tightening, with room to move gradually",
+    "bank": "Federal Reserve Bank of Philadelphia",
+    "date": "2026-11-10",
+    "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/261110-81st-annual-field-meeting-capstone-speech",
+    "excerpt": "Philadelphia Fed President Anna Paulson read the October rate hold as a choice about pace.",
+    "file": "2026-11-10-8aded06f31.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Speech",
+      "title": "Economic Outlook"
     }
   },
   {
@@ -72,12 +387,125 @@
     }
   },
   {
+    "title": "Five votes for Sweden’s November hike concealed different views of the next one",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-11-10",
+    "url": "https://www.riksbank.se/globalassets/media/dagordningar--protokoll/protokoll/penningpolitiskt/engelska/2026/minutes-of-the-monetary-policy-meeting-3-november-2026.pdf",
+    "excerpt": "All five Riksbank board members supported raising the policy rate from 1.75% to 2% on 3 November.",
+    "file": "2026-11-10-2a97c3d4a1.json",
+    "publication": {
+      "jurisdiction": "Sweden",
+      "type": "Minutes",
+      "title": "Minutes of the Monetary Policy Meeting of 3 November 2026"
+    }
+  },
+  {
+    "title": "Brazil’s split signal: weaker credit-sensitive demand and a higher inflation path leave the Selic at 13.75%",
+    "bank": "Banco Central do Brasil",
+    "date": "2026-11-10",
+    "url": "https://www.bcb.gov.br/content/copom/atascopom/Copom282-not20261104282.pdf",
+    "excerpt": "Brazil’s monetary policy committee unanimously held the Selic at 13.75% on 4 November.",
+    "file": "2026-11-10-4bbaa0ac3f.json",
+    "publication": {
+      "jurisdiction": "Brazil",
+      "type": "Minutes",
+      "title": "Minutes of the 282nd Copom meeting",
+      "aliases": [
+        "https://www.bcb.gov.br/publicacoes/atascopom/04112026"
+      ]
+    }
+  },
+  {
+    "title": "Brazil’s Open Finance rule separates company consent from approval and assigns responsibility for partner data",
+    "bank": "Banco Central do Brasil",
+    "date": "2026-11-10",
+    "url": "https://www.bcb.gov.br/detalhenoticia/21313/noticia",
+    "excerpt": "The Banco Central do Brasil’s 10 November release explains Joint Resolution 21, approved by the central bank and the National Monetary Council on 22 October.",
+    "file": "2026-11-10-16f82680a4.json",
+    "publication": {
+      "jurisdiction": "Brazil",
+      "type": "Release",
+      "title": "Novas regras reforçam segurança e ampliam uso do Open Finance por clientes pessoas jurídicas"
+    }
+  },
+  {
+    "title": "Bowman weighs broader inflation against tighter financing for housing and AI",
+    "bank": "Federal Reserve Board",
+    "date": "2026-11-10",
+    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
+    "excerpt": "Vice Chair for Supervision Michelle Bowman backed the October hold at 3.75–4.00 percent to allow time for the September increase and tighter financial conditions to work through the economy.",
+    "file": "2026-11-10-0040329e47.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "type": "Speech",
+      "title": "Michelle Bowman · The U.S. Economy and Considerations for Monetary Policy"
+    }
+  },
+  {
+    "title": "South Africa’s rand balance sheet expands as foreign-exchange assets outweigh lower-valued gold",
+    "bank": "South African Reserve Bank",
+    "date": "2026-11-09",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/statements/assets-and-liabilities/2026/statement-of-assets-and-liabilities-october-2026",
+    "excerpt": "The Reserve Bank’s balance sheet grew by R5.783 billion in October to R1.299 trillion.",
+    "file": "2026-11-09-07ec85b0ec.json",
+    "publication": {
+      "jurisdiction": "South Africa",
+      "type": "Release",
+      "title": "Statement of assets and liabilities October 2026"
+    }
+  },
+  {
+    "title": "South Africa’s dollar reserves fall mainly on gold while its net liquidity position declines less",
+    "bank": "South African Reserve Bank",
+    "date": "2026-11-09",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/Financial-Markets/Notices/Information-Notice/2026/information-notice-on-the-official-gold-and-foreign-exchange-res2",
+    "excerpt": "October’s US$916 million fall in South Africa’s gross reserves was almost entirely matched by the US$900 million decline in the dollar value of its gold reserves.",
+    "file": "2026-11-09-453ff07cef.json",
+    "publication": {
+      "jurisdiction": "South Africa",
+      "type": "Release",
+      "title": "Information notice on the official gold and foreign exchange reserves of the South African Reserve Bank as at 31 October 2026"
+    }
+  },
+  {
+    "title": "French factory orders improve as firms struggle to pass on costs",
+    "bank": "Banque de France",
+    "date": "2026-11-09",
+    "url": "https://www.banque-france.fr/fr/publications-et-statistiques/publications/enquete-mensuelle-de-conjoncture-debut-novembre-2026",
+    "excerpt": "French industrial output improved in October, yet capacity use edged down and manufacturers reported difficulty passing higher costs on to customers.",
+    "file": "2026-11-09-ab802616c4.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "type": "Research",
+      "title": "Monthly Business Survey — Start of November 2026",
+      "aliases": [
+        "https://www.banque-france.fr/en/publications-and-statistics/publications/monthly-business-survey-start-november-2026"
+      ]
+    }
+  },
+  {
     "title": "Why the Bank of England raised rates before wage pressure was conclusive",
     "bank": "Bank of England",
     "date": "2026-11-05",
     "url": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/november/monetary-policy-report-november-2026.pdf",
     "excerpt": "The Bank raised Bank Rate to 4% because it judged that waiting for clear evidence of a wage and price response to the energy shock had become costly.",
     "file": "2026-11-05-bf9afb21c5.json"
+  },
+  {
+    "title": "What a rise in ECB borrowing would tell us about banks",
+    "bank": "European Central Bank",
+    "date": "2026-11-05",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.ga.html",
+    "excerpt": "Isabel Schnabel offers a way to distinguish two very different uses of an ECB balance sheet.",
+    "file": "2026-11-05-18e48acb55.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "type": "Speech",
+      "title": "Navigating stormy waters: reflections on monetary policy — Isabel Schnabel",
+      "aliases": [
+        "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
+      ]
+    }
   },
   {
     "title": "The Czech November rate decision lifts the repo rate to 4.00%",
@@ -119,6 +547,35 @@
       "jurisdiction": "Mexico",
       "title": "Anuncio de Política Monetaria",
       "type": "Decision"
+    }
+  },
+  {
+    "title": "Colombia’s 4–3 pause conceals a preference to cut and a minority seeking to bring tightening forward",
+    "bank": "Banco de la República",
+    "date": "2026-11-05",
+    "url": "https://www.banrep.gov.co/es/noticias/junta-directiva/minutas-banrep-octubre-2026",
+    "excerpt": "Four Banco de la República directors voted to keep the policy rate at 12.25% and three voted to raise it by 25 basis points at the October meeting.",
+    "file": "2026-11-05-2d5c3664bd.json",
+    "publication": {
+      "jurisdiction": "Colombia",
+      "type": "Minutes",
+      "title": "October policy meeting minutes: hold at 12.25%",
+      "aliases": [
+        "https://www.banrep.gov.co/en/news/board-directors/minutes-october-2026"
+      ]
+    }
+  },
+  {
+    "title": "Brazil separates credit advertising, debt-capacity disclosure and borrowing at Pix checkout",
+    "bank": "Banco Central do Brasil",
+    "date": "2026-11-05",
+    "url": "https://www.bcb.gov.br/detalhenoticia/21310/noticia",
+    "excerpt": "The Banco Central do Brasil’s 5 November announcement described three approved rules targeting different stages of household borrowing.",
+    "file": "2026-11-05-97c78572a2.json",
+    "publication": {
+      "jurisdiction": "Brazil",
+      "type": "Release",
+      "title": "BC reforça proteção ao consumidor com novas regras para oferta e contratação de crédito"
     }
   },
   {
@@ -170,6 +627,61 @@
       "jurisdiction": "Brazil",
       "title": "BC - Copom Comunicado - 282ª Reunião - Copom mantém a taxa Selic em 13,75% a.a.",
       "type": "Decision"
+    }
+  },
+  {
+    "title": "South Africa’s benchmark transition carries over R98 trillion of Jibar derivatives and a clearing-date problem",
+    "bank": "South African Reserve Bank",
+    "date": "2026-11-03",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/speeches/speeches-by-governors/2026/cassim-mpg-conference",
+    "excerpt": "Deputy Governor Rashad Cassim’s 3 November remarks at the Market Practitioners Group conference put a scale on South Africa’s benchmark transition.",
+    "file": "2026-11-03-cd8594ec4d.json",
+    "publication": {
+      "jurisdiction": "South Africa",
+      "type": "Speech",
+      "title": "Rashad Cassim on the Jibar to ZARONIA transition"
+    }
+  },
+  {
+    "title": "South Africa moves Jibar’s final publication to May 2027 as legacy contracts await a legal fallback",
+    "bank": "South African Reserve Bank",
+    "date": "2026-11-03",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/media-releases/2026/jibar-date",
+    "excerpt": "On 3 November the South African Reserve Bank set 31 May 2027 as the final publication date for every tenor of Jibar.",
+    "file": "2026-11-03-da59454a5e.json",
+    "publication": {
+      "jurisdiction": "South Africa",
+      "type": "Release",
+      "title": "SARB revises Jibar cessation date to 31 May 2027"
+    }
+  },
+  {
+    "title": "Macklem explains why Canadian inflation could persist even with spare capacity",
+    "bank": "Bank of Canada",
+    "date": "2026-11-03",
+    "url": "https://www.bankofcanada.ca/2026/11/opening-statement-house-commons-standing-committee-finance-2026-11-03/",
+    "excerpt": "Governor Tiff Macklem’s evidence to the Commons finance committee explains the October increase as insurance against a particular change in pricing behaviour.",
+    "file": "2026-11-03-61453d1afc.json",
+    "publication": {
+      "jurisdiction": "Canada",
+      "title": "Opening Statement before the House of Commons Standing Committee on Finance",
+      "type": "Statement",
+      "aliases": [
+        "https://www.bankofcanada.ca/2026/11/opening-statement-standing-senate-committee-banking-commerce-and-economy-2026-11-05/"
+      ]
+    }
+  },
+  {
+    "title": "Brazil consults on deposit-product distribution fees and platforms’ control over issuers’ access",
+    "bank": "Banco Central do Brasil",
+    "date": "2026-11-03",
+    "url": "https://www.bcb.gov.br/detalhenoticia/21308/noticia",
+    "excerpt": "The Banco Central do Brasil’s 3 November article detailed a proposal opened for consultation on 23 October.",
+    "file": "2026-11-03-954b1ccd74.json",
+    "publication": {
+      "jurisdiction": "Brazil",
+      "type": "Release",
+      "title": "Consulta propõe mais transparência e priorização do interesse do cliente na distribuição de produtos de captação"
     }
   },
   {

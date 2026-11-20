@@ -1,0 +1,32 @@
+{
+  "title": "Barr traces how an AI investment loss could travel beyond its original lender",
+  "bank": "Federal Reserve Board",
+  "date": "2026-11-16",
+  "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+  "summary": [
+    "Governor Michael Barr distinguished the economic value of a technology from the returns that current investors can expect at current prices. AI might eventually raise productivity substantially and still disappoint investors if the revenues arrive too late or accrue to different companies. A reversal could depress GDP directly through reduced capital expenditure and indirectly through the effect of lower wealth on spending. He cited a historically low equity risk premium, while noting that it had been lower in the dot-com period. A low premium alone does not measure the probability or timing of a correction.",
+    "The speech identifies three links within data-centre financing. First, on-balance-sheet debt at the seven largest AI firms was expected to exceed $800 billion before year-end. Second, the Financial Stability Report put the maximum nominal value of other obligations, including multiyear leases, purchasing agreements and residual-value guarantees, above $3 trillion. That second number is the potential contractual total. It combines payments with different maturities and triggers and is not an estimate of the amount due in default. Third, large cloud and chip providers had invested more than $100 billion in model developers and computing startups. Some recipients spend those funds on products supplied by their investors. The key test of commercial viability is whether independent paying customers eventually replace the financing received from suppliers.",
+    "Risk can also return to a stronger firm indirectly. A smaller borrower can pledge equipment or a facility and receive a guarantee from a highly rated supplier on the collateral’s future resale value. If the borrower fails and equipment prices fall together, losses may move back to the guarantor. Barr noted that older chips’ lease rates had so far held up. That observation is compatible with continued demand for older equipment, but cannot settle how collateral would perform in a broad downturn. Grid connections or substations may have alternative uses, and their value depends on local demand and how long it takes to redeploy them.",
+    "Barr placed more weight on amplification than on immediate direct losses. Leveraged investors facing margin calls may sell unrelated positions. Dealer prime-brokerage exposures can then transmit stress to banks even when their direct holdings of AI debt are modest. He regarded capital at large banks as a buffer. The speech does not quantify a systemwide capital loss or claim that all guarantees will be called. For a stress test, the network of lenders, guarantors, counterparties and collateral matters more than a simple sum of the three headline amounts.",
+    "His discussion extends to the use of AI inside finance. Similar trading models can generate common positions and correlated reactions even as technology improves surveillance and access to market analysis. Shared service providers can concentrate operational risk. In consumer finance, price and product recommendations might serve an intermediary’s commercial interests, and information used about borrowers may be hard for them to inspect or contest. Automated movement of deposits could also compress the time institutions have to meet withdrawals. Barr presented these as risks to monitor as adoption progresses. The speech offers no rate recommendation, market intervention or finding that large-scale automated trading or a rapid deposit run was already underway."
+  ],
+  "questions": [
+    {
+      "question": "What loss would each layer of financing absorb under the same cash-flow shock?",
+      "detail": "Reconcile debt, supplier investments, leases and guarantees at project level. Apply separate assumptions to customer revenue, recovery of equipment and utilisation of electricity infrastructure. Stress the guarantee trigger and the guarantor together rather than treating nominal commitments as immediate loss."
+    },
+    {
+      "question": "How concentrated is dependence on supplier-funded demand?",
+      "detail": "Identify purchases from related investors, then compare with revenue from customers independently able to pay. Reconcile signed contracts, recognised revenue, actual cash receipts and cancellation rights before inferring that a project can refinance without further supplier support."
+    },
+    {
+      "question": "Could a repricing become a forced-sale cycle?",
+      "detail": "Combine gross and net hedge-fund positions, financing terms, dealer exposures and collateral liquidity. Look for common positions and margin calls across counterparties. A fall confined to exposed stocks is distinct from fire sales spilling into unrelated assets."
+    },
+    {
+      "question": "Does faster automated reallocation change banks’ effective liquidity need?",
+      "detail": "Compare intraday outflows, deposit concentration and access to immediately transferable funds across institutions. Supplement historical outflow rates with stress scenarios and evaluate recovery controls. The speed and synchronisation of withdrawals matter independently of their eventual total."
+    }
+  ],
+  "limitation": ""
+}

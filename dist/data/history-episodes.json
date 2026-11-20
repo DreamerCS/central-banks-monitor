@@ -1,0 +1,149 @@
+[
+  {
+    "id": "accord",
+    "period": "1948–1954",
+    "name": "The postwar yield peg",
+    "start": "1948-01",
+    "end": "1954-12",
+    "anchor": "1951-03",
+    "headline": "When the cost of financing the Treasury constrained monetary policy",
+    "analysis": "The wartime interest-rate peg committed the Federal Reserve to supporting government securities. Defending a yield could require buying the bonds investors wanted to sell, increasing bank reserves just as the Fed wanted to restrain inflation. The conflict intensified during the Korean War. The March 1951 Treasury–Fed Accord altered the allocation of responsibility for debt management and monetary policy. It was an institutional break, rather than an ordinary rate announcement. In the month of the accord, industrial output was nearly one-fifth above its level a year earlier. That growth rate compares two months and does not measure the effect of the agreement.",
+    "test": "To study a modern fiscal-financing constraint, identify an actual obligation to defend a yield, the duration supplied by the government and who absorbed it. Heavy issuance on its own does not reproduce the peg.",
+    "sources": [
+      {
+        "label": "Federal Reserve History · Treasury–Fed Accord",
+        "url": "https://www.federalreservehistory.org/essays/treasury-fed-accord"
+      }
+    ]
+  },
+  {
+    "id": "oil-embargo",
+    "period": "1972–1976",
+    "name": "The first oil shock",
+    "start": "1972-01",
+    "end": "1976-12",
+    "anchor": "1973-10",
+    "headline": "Prices accelerated as industrial activity turned down",
+    "analysis": "U.S. consumer prices were already 7.4% higher than a year earlier in September 1973, the month before the oil embargo. In October inflation reached 8.1%, while industrial production stood 7.2% above its year-earlier level. By December 1974 prices were up 12.1% and industrial production was down 8.4% year on year. Higher energy costs squeezed purchasing power and raised production costs at the same time. The pre-embargo reading shows how much inflation preceded that shock.",
+    "test": "An oil shock is a better analogue when the source of the oil move, the energy intensity of production and the scope for wages and margins to absorb higher costs resemble those of the comparison period. Compare core prices, wage settlements and output by industry before extrapolating headline CPI.",
+    "sources": [
+      {
+        "label": "Federal Reserve History · 1973–74 oil shock",
+        "url": "https://www.federalreservehistory.org/essays/oil-shock-of-1973-74"
+      }
+    ]
+  },
+  {
+    "id": "volcker",
+    "period": "1978–1984",
+    "name": "The Volcker disinflation",
+    "start": "1978-01",
+    "end": "1984-12",
+    "anchor": "1979-10",
+    "headline": "Inflation and unemployment peaked at different points in the disinflation",
+    "analysis": "The second oil shock was already under way when the FOMC changed its operating procedure on 6 October 1979. It placed more weight on restraining bank reserve growth and accepted wider fluctuations in the federal funds rate. Annual CPI inflation was 12.1% that October and rose further to 14.6% in March 1980. The eventual decline came with substantial real costs. In November 1982 inflation was 4.5%, unemployment was 10.8% and industrial output was 6.3% below its level a year earlier. Later vintages show these paths clearly. They do not separate weaker demand, oil prices, changes in expectations or the Fed’s independent contribution.",
+    "test": "Would an equally persistent shift in expected inflation have occurred with less unemployment under a different policy? Survey forecasts, wage contracts and real borrowing rates around separate announcements would help distinguish expectations from the effects of the recession. A subsequent fall in inflation alone cannot answer that counterfactual.",
+    "sources": [
+      {
+        "label": "Federal Reserve History · 1978–79 oil shock",
+        "url": "https://www.federalreservehistory.org/essays/oil-shock-of-1978-79"
+      },
+      {
+        "label": "Federal Reserve History · 6 October change",
+        "url": "https://www.federalreservehistory.org/essays/anti-inflation-measures"
+      },
+      {
+        "label": "Federal Reserve History · 1981–82 recession",
+        "url": "https://www.federalreservehistory.org/essays/recession-of-1981-82"
+      }
+    ]
+  },
+  {
+    "id": "credit-cycle",
+    "period": "2000–2008",
+    "name": "From the technology slowdown to housing stress",
+    "start": "2000-01",
+    "end": "2008-12",
+    "anchor": "2001-01",
+    "headline": "The same training window contains two different credit cycles",
+    "analysis": "In January 2001 the FOMC cut its funds target as sales and production weakened. It still saw favourable longer-run productivity prospects. The late part of the decade had a different transmission channel. Housing activity peaked, losses on mortgage exposures strained institutions and disrupted funding. A model fitted through December 2008 includes part of that financial crisis. A sample ending in 2007 already includes the onset of market stress, although it excludes the most acute phase in autumn 2008.",
+    "test": "Keep 2008 as a separate sensitivity check. For a technology or capital-spending slowdown, examine corporate orders, inventories and profits. For a housing-credit shock, examine collateral, mortgage performance, leverage and funding maturity. Similar GDP growth can conceal very different portfolio risks.",
+    "sources": [
+      {
+        "label": "FOMC · 3 January 2001 decision",
+        "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/default.htm"
+      },
+      {
+        "label": "Federal Reserve History · housing and financial transmission",
+        "url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath"
+      }
+    ]
+  },
+  {
+    "id": "financial-crisis",
+    "period": "2007–2010",
+    "name": "The financial crisis",
+    "start": "2007-01",
+    "end": "2010-12",
+    "anchor": "2008-09",
+    "headline": "Credit losses became a funding problem before unemployment peaked",
+    "analysis": "As mortgage losses impaired financial balance sheets, borrowers and intermediaries faced a simultaneous fall in collateral values and loss of funding. By June 2009 US industrial production was 15.3% below its level a year earlier. Unemployment stood at 9.5% and reached 10.0% that October, after the business-cycle trough. Once the policy rate reached its lower bound, balance-sheet actions and the prospective path of rates became particularly important to financial pricing.",
+    "test": "Distinguish losses that reduce net worth from a shortage of cash against sound collateral. Track market funding and loan conditions alongside the funds rate, and distinguish the month of the activity trough from the later peak in unemployment.",
+    "sources": [
+      {
+        "label": "Federal Reserve History · Great Recession",
+        "url": "https://www.federalreservehistory.org/essays/great-recession-of-200709"
+      },
+      {
+        "label": "FOMC · December 2008 decision",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm"
+      }
+    ]
+  },
+  {
+    "id": "pandemic",
+    "period": "2019–2021",
+    "name": "The pandemic and the credit backstop",
+    "start": "2019-01",
+    "end": "2021-12",
+    "anchor": "2020-04",
+    "headline": "Market-functioning measures and income support worked through different channels",
+    "analysis": "US unemployment rose from 3.5% in February 2020 to 14.8% in April. Industrial production was 17.3% below the previous April. A health shock closed or constrained businesses across sectors. The Fed’s 23 March measures supported securities market functioning and credit availability. Lending support could keep otherwise viable firms funded while revenues were interrupted. Household transfers and other fiscal programmes affected disposable income through a different channel. Combining every intervention under one measure of stimulus loses this distinction.",
+    "test": "Compare spreads, volumes and funding access around facility announcements with spending after fiscal disbursements. The speed of employment loss makes the usual unemployment–inflation relationship from a conventional downturn a particularly fragile forecast guide.",
+    "sources": [
+      {
+        "label": "Federal Reserve · 23 March credit measures",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm"
+      }
+    ]
+  },
+  {
+    "id": "recent-inflation",
+    "period": "2022–2026",
+    "name": "Inflation after reopening",
+    "start": "2022-01",
+    "end": "2026-10",
+    "anchor": "2022-06",
+    "headline": "A price shock met a different operating regime",
+    "analysis": "When the FOMC raised rates on June 15, 2022, the latest published U.S. headline CPI reading was May’s 8.6% year-on-year increase. The Committee cited pandemic-related imbalances, energy costs and broader price pressures, and anticipated further increases. June’s 9.1% headline reading arrived on July 13. The chart calculates year-on-year inflation from the seasonally adjusted index, yielding about 9.0% for June, when unemployment was 3.6%. The energy shock invites a comparison with the 1970s. In 2022, however, administered rates in an ample-reserves system carried the policy signal that the Fed had sought to convey through its reserve operations in October 1979.",
+    "test": "Separate the instrument from the economic shock. The inflation test below compares the same predictors across several training periods. For market pricing, compare changes in expected future rates and longer yields around the same announcement, rather than mapping the size of a rate change directly onto the bond return.",
+    "sources": [
+      {
+        "label": "FOMC · June 2022 decision",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm"
+      },
+      {
+        "label": "BLS · May CPI, released June 10, 2022",
+        "url": "https://www.bls.gov/news.release/archives/cpi_06102022.htm"
+      },
+      {
+        "label": "BLS · June CPI, released July 13, 2022",
+        "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm"
+      },
+      {
+        "label": "FOMC · operating framework",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190130c.htm"
+      }
+    ]
+  }
+]

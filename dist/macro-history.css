@@ -1,0 +1,41 @@
+.hist-body{background:#f5f2e9;color:#202b24;font:16px/1.55 Arial,sans-serif;--hs-rule:#c9cabc;--hs-accent:#985433}
+.hs-wrap{max-width:1400px;width:calc(100% - clamp(34px,9vw,150px));margin:0 auto 6rem}
+.hs-title{padding:clamp(30px,5.6vw,85px) 0 16px}
+.hs-title p,.hs-kicker,.hs-control,.hs-caption,.hs-table th,.hs-legend,.hs-sources summary{font:600 .72rem/1.55 ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase}
+.hs-title p,.hs-kicker{color:#576456;margin:0 0 .55rem}
+.hs-title h1{font:400 clamp(52px,7.5vw,110px)/.98 var(--serif);letter-spacing:-.06em;margin:0 0 12px}
+.hs-chapters{display:flex;gap:clamp(14px,4vw,62px);border-bottom:1px solid #546154;flex-wrap:wrap}
+.hs-chapters a{padding:12px 0 14px;text-decoration:none;color:inherit;font-weight:600}
+.hs-chapters a[aria-current]{box-shadow:inset 0 -3px var(--hs-accent)}
+.hs-grid{display:grid;grid-template-columns:minmax(170px,23%) minmax(0,1fr);gap:clamp(24px,4vw,74px);margin-top:32px}
+.hs-list{display:flex;flex-direction:column;align-self:start;border-top:1px solid var(--hs-rule)}
+.hs-list a,.hs-list .hs-group{display:block;border-bottom:1px solid var(--hs-rule);padding:12px 10px;color:inherit;text-decoration:none;line-height:1.35}
+.hs-list a small{display:block;color:#647062;font: .69rem/1.5 ui-monospace,monospace;letter-spacing:.04em;margin-bottom:3px}
+.hs-list a[aria-current]{background:#e7e6d9;border-left:3px solid var(--hs-accent);padding-left:7px}
+.hs-group{font:600 .75rem/1.5 ui-monospace,monospace;letter-spacing:.04em;text-transform:uppercase}
+.hs-article{min-width:0}
+.hs-article h2,.hs-wide h2{font:400 clamp(32px,3.75vw,62px)/1.06 var(--serif);letter-spacing:-.045em;margin:0 0 15px;color:inherit}
+.hs-article h3,.hs-wide h3{font:400 clamp(23px,2.25vw,36px)/1.12 var(--serif);letter-spacing:-.025em;margin:30px 0 10px;color:inherit}
+.hs-article p,.hs-wide p{max-width:85ch;margin:.65rem 0 1.15rem}.hs-deck{font:1.23rem/1.47 var(--serif)}
+.hs-figure{background:#20342a;color:#f1f1df;padding:clamp(16px,2.2vw,32px);margin:22px 0 18px}
+.hs-figure .hs-kicker,.hs-figure .hs-legend{color:#c8d2c3}.hs-figure figcaption{font:400 clamp(22px,2.2vw,34px)/1.15 var(--serif);margin-bottom:12px}
+.hs-figure select{background:#283e32;color:#f5f2de;border:1px solid #8f9c8f;padding:5px;max-width:100%;font:inherit}
+.hs-figure svg{display:block;width:100%;height:auto;overflow:visible}.hs-figure svg text{fill:#ccd2bf;font:12px ui-monospace,monospace}.hs-figure svg .tick{stroke:#8b9b86;stroke-opacity:.3}
+.hs-figure .hs-slider{display:block;width:100%;accent-color:#d8a879;margin:12px 0 6px}
+.hs-figure output{display:block;color:#f5e7c9;font: .86rem/1.55 ui-monospace,monospace}
+.hs-bars{display:flex;gap:14px;align-items:end;flex-wrap:wrap;margin:14px 0}
+.hs-control{display:flex;flex-direction:column;gap:5px;color:#4f5c4f}
+.hs-control select{font:normal .94rem Arial;color:#202b24;border:1px solid #93a08c;background:#faf9ef;min-width:110px;padding:9px}
+.hs-table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:.91rem}
+.hs-table :is(th,td){padding:9px 8px;text-align:left;border-bottom:1px solid var(--hs-rule);vertical-align:top}.hs-table th{color:#586653}
+.hs-table a,.hs-article a,.hs-wide a{color:#375947;text-underline-offset:3px}
+.hs-table .number{text-align:right}.hs-wide{margin-top:36px}
+.hs-scroll{overflow-x:auto}.hs-sources{border-top:1px solid var(--hs-rule);margin:20px 0}
+.hs-sources summary{cursor:pointer;padding:10px 0;color:#526250}
+.hs-links{padding-left:1.1rem}.hs-links li{margin-bottom:5px;overflow-wrap:anywhere}
+.hs-details{border-top:1px solid var(--hs-rule);padding-top:9px}.hs-details summary{cursor:pointer}
+.hs-guidance{display:grid;grid-template-columns:minmax(160px,24%) minmax(0,1fr);gap:24px}
+.hs-state{color:#854929;font:600 .84rem/1.5 ui-monospace,monospace}
+.hs-byline{color:#566354;font-size:.84rem}
+@media(max-width:820px){.hs-grid{display:block}.hs-list{margin:0 0 20px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0}.hs-list .hs-group{grid-column:1/-1}.hs-guidance{display:block}.hs-wrap{width:calc(100% - 36px)}}
+@media(max-width:480px){.hs-chapters{gap:12px}.hs-chapters a{font-size:.82rem}.hs-title h1{font-size:53px}.hs-figure{margin-inline:-4px}.hs-table{font-size:.8rem}.hs-table :is(th,td){padding:7px 3px}.hs-article p{line-height:1.55}}

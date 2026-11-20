@@ -1,0 +1,32 @@
+{
+  "title": "Musalem sets a real-rate test for several increases before spring",
+  "bank": "Federal Reserve Bank of St. Louis",
+  "date": "2026-11-17",
+  "url": "https://www.stlouisfed.org/from-the-president/remarks/2026/remarks-on-us-economy-and-monetary-policy-argentina",
+  "summary": [
+    "St. Louis Fed President Alberto Musalem judged that aggregate demand was strong enough to keep the economy operating at or above potential despite supply shocks. Over the 18 months he considered relevant for monetary transmission, the likelier of his two scenarios involved inflation remaining materially above 2 percent without additional tightening. His preferred timing was unusually explicit. He expected several rate increases before spring 2027, when he thought the real policy rate would need to stand solidly between 2 and 2.5 percent. He estimated the current real rate near the lower end of 1–1.5 percent. These are real-rate estimates. The nominal increases required would also depend on what happened to inflation.",
+    "Private demand had weathered substantial pressure. Consumer spending remained strong and AI investment was supporting double-digit nonresidential investment growth. Earnings and equity wealth supported demand. Musalem also regarded fiscal policy and deregulation as supportive, while still seeing housing affordability and mortgage financing as impediments. Credit spreads had widened for cyclical and weaker borrowers, particularly in AI-related infrastructure. Bank financing had strengthened as capital-market activity slowed. In his assessment the change in the overall availability of financing remained too small to restrain inflation. A wider spread for one borrower group and a generally accommodative monetary stance could coexist.",
+    "The labour market was close to balance. October unemployment was 4.1 percent, roughly aligned with the median longer-run FOMC participant projection, and there was about one opening per unemployed person. Musalem saw strong real wage gains in particular trades involved in data-centre construction but argued that average nominal pay had failed to keep up with inflation. His diagnosis of above-target inflation therefore did not rest on pervasive wage acceleration. Services inflation remained sticky above 3 percent, while the share of individual price categories rising faster than 3 percent exceeded the pattern seen when core PCE was near target. He used October CPI and producer prices to estimate possible headline and core PCE readings of 3.8 and 3.2 percent. Those were estimates, not published PCE outcomes.",
+    "The alternative scenario specifies what would change his mind. Lower shipping and energy costs or an improvement in potential supply could bring inflation back to target over 18 months without further tightening. A marked drop in data-centre demand, financial conditions or household spending out of wealth could also cool inflation, although via weaker demand. In his account long-run market expectations stayed anchored in part because traders expected policymakers to act. Taking those expectations as an argument for inaction would ignore that dependency.",
+    "Musalem compared erratic, often low real rates in the 1970s with real rates of around 3 percent and falling unemployment in the late 1990s. These historical contrasts motivate his argument for acting before inflation beliefs change. The comparison alone does not provide a causal estimate of the costs of tightening today. Neither his real-rate range nor his timing represents a Committee projection."
+  ],
+  "questions": [
+    {
+      "question": "Which inflation expectation produces Musalem’s current and prospective real rate?",
+      "detail": "Build several ex ante real-rate measures using surveys and market-based expectations with matched horizons. Compare the implied nominal paths under each. A fall in expected inflation can increase real restraint without the full adjustment coming through nominal hikes."
+    },
+    {
+      "question": "Has widening credit dispersion reduced aggregate demand?",
+      "detail": "Compare bank credit, capital-market issuance, lending spreads and actual capital expenditures across borrower quality. Attribute the slowdown in funding to changes in supply or borrowing appetite before inferring how much policy restraint is already in place."
+    },
+    {
+      "question": "What would invalidate the case for several increases?",
+      "detail": "Track shipping and energy costs, breadth of core price rises, household spending relative to income and financing of data centres. Falling inflation with stronger productivity is a different state from disinflation driven by an abrupt decline in demand."
+    },
+    {
+      "question": "Do anchored expectations depend on policy delivery?",
+      "detail": "Compare survey forecasts and market compensation around news that changes the expected rate path, checking inflation data and risk premia. This tests the conditional relationship Musalem invokes without attributing every movement in long yields to credibility."
+    }
+  ],
+  "limitation": ""
+}

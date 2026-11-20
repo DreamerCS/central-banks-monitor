@@ -1,0 +1,27 @@
+{
+  "title": "Hjelm sets out when Sweden can look through a supply shock",
+  "bank": "Sveriges Riksbank",
+  "date": "2026-11-18",
+  "url": "https://www.riksbank.se/en-gb/press-and-published/speeches-and-presentations/2026/goran-hjelm-in-linkoping-monetary-policy-must-be-forward-looking/",
+  "summary": [
+    "At the East Sweden Chamber of Commerce in Linköping on 18 November, Deputy Governor Göran Hjelm identified what changed his view about the timing of a Swedish rate increase. Initially, firms’ higher costs had made little discernible difference to inflation, and there was spare capacity in the labour market. With inflation expectations anchored, he judged there was room to wait. The recovery subsequently became clearer while cost pressures lasted longer. Against that background, raising the policy rate reduced the risk that those costs would spread more widely into consumer prices. The Riksbank’s published account presents a conditional shift in his assessment of the outlook (opening remarks and discussion of supply-driven inflation).",
+    "His distinction between cost pressure and consumer inflation gives the argument a testable sequence. Producers across a range of industries were raising prices, and companies’ plans indicated further price increases. So far the higher costs had only a limited visible effect on inflation paid by consumers. Hjelm nevertheless expected inflation to rise faster than usual as those pressures reached the retail level. Stronger resource utilisation in the following year would give companies greater opportunity to pass on costs, while the krona’s weakness over the course of the year added to the upside pressure. In this account the exchange rate, firms’ selling intentions and the utilisation of labour and productive capacity provide different information about the same prospective adjustment (discussion of producer and consumer prices).",
+    "A central bank that moves only after these pressures appear in underlying inflation risks acting late because monetary policy itself works with a lag. Yet Hjelm qualified the case for acting early. He regarded looking through supply-driven inflation as reasonable within limits while expectations remained anchored. The evidence that justified waiting earlier was genuine, and the evidence he cited for raising rates was forward-looking. The research question is whether prospective domestic pass-through had become more likely, given improving activity, before a significant effect could be measured in consumer prices. The short release does not quantify the pass-through or say that expectations had become unanchored.",
+    "On the rate path, Hjelm referred to the assessment he had made at the latest monetary policy meeting: another increase was likely on the outlook then prevailing. He left the extent of any additional tightening open. The date and wording matter. Reiterating a conditional judgement in Linköping was an individual communication after the meeting. It supplies neither a new collective rate decision nor an observed response of Swedish markets to the speech (closing paragraph)."
+  ],
+  "questions": [
+    {
+      "question": "Were producer-price increases spreading into prices paid by households?",
+      "detail": "Compare the breadth of producer increases and firms’ pricing plans with subsequent changes in goods and services inflation. A broader CPI response after stronger demand would support Hjelm’s mechanism more directly than a short-lived rise in imported input costs."
+    },
+    {
+      "question": "Did diminishing labour-market slack improve firms’ ability to pass on costs?",
+      "detail": "Compare measures of labour-market slack and resource utilisation available before the meeting with pricing behaviour across industries. Estimate separately the contribution from a weaker krona, which could raise input costs even where domestic demand remained soft."
+    },
+    {
+      "question": "Did the speech deliver new rate-path information?",
+      "detail": "Compare the conditional language with the last monetary policy meeting and align any intraday rate movements with the Linköping event and competing news. Distinguish a restated view that another increase was likely from a new signal about the size or date of a move."
+    }
+  ],
+  "limitation": ""
+}

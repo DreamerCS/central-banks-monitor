@@ -1,0 +1,27 @@
+{
+  "title": "Brazil’s Open Finance rule separates company consent from approval and assigns responsibility for partner data",
+  "bank": "Banco Central do Brasil",
+  "date": "2026-11-10",
+  "url": "https://www.bcb.gov.br/detalhenoticia/21313/noticia",
+  "summary": [
+    "The Banco Central do Brasil’s 10 November release explains Joint Resolution 21, approved by the central bank and the National Monetary Council on 22 October. It addresses two different links in the Open Finance chain. First, it makes a participating institution responsible for assessing a partner that will receive a customer’s financial data. Second, it enables technical standards for an approval process better suited to companies in which the person requesting a service cannot authorise data release alone.",
+    "The resolution defines the integrating institution as the participant that receives information with the customer’s consent and transmits it to a partner. Before an agreement, the integrator is to assess whether the partner can comply, protect data and maintain controls, with capability attested by an independent auditor registered with Brazil’s securities regulator, the CVM. Express permission must be obtained separately for each partner, in the integrating institution’s own environment. The agreement must allow sharing to stop promptly after a security incident or where compliance is constrained. Further delegation of the partnership and onward sharing with third parties are prohibited. These requirements locate consent and supervisory responsibility at an identifiable institution.",
+    "For a corporate client, the proposed operational improvement is separation in time and place. A request can begin with the institution seeking the data. Approval can take place later at the transmitting institution, potentially by a different user, without an automatic redirect. That accommodates a business whose employee orders a service and whose treasury signatory approves it. The article states that the regulations create the conditions for Open Finance governance bodies to define technical standards for this workflow. It does not establish how many banks already supported the feature or provide a go-live date across institutions.",
+    "The economic mechanism is an information cost in business finance. A firm that can share its banking history more easily may be able to seek quotes from more providers. Tighter partner controls may increase confidence and compliance costs at the same time. The result could differ for larger firms with several signatories and small firms with a single owner-manager. Evidence on completed consents, lender participation, successful credit applications and offered spreads would be needed to decide whether easier data portability translates into stronger competition for borrowers."
+  ],
+  "questions": [
+    {
+      "question": "Which companies actually complete more data-sharing authorisations under the decoupled workflow?",
+      "detail": "Use verified rollout dates at each institution, and measure initiation, approval, expiry and withdrawal separately. Compare businesses with multiple authorised signatories against similar single-signatory firms, controlling for bank, customer size and seasonality. A rise in starts with unchanged completions would imply that the new workflow addressed a different constraint from the one preventing data from reaching providers."
+    },
+    {
+      "question": "Do new data-sharing relationships expand the effective choice of lender?",
+      "detail": "Follow completed consents into product quotations and any resulting origination, controlling for borrower risk, maturity, collateral and the reference interest rate. Observe whether new competitors quote or the existing lender simply obtains richer data. The information-sharing reform can change screening or bargaining costs, but the release contains no observed borrowing-rate response and no evidence that all firms benefit equally."
+    },
+    {
+      "question": "Does separate consent for each partner improve customer control at a measurable cost to onboarding?",
+      "detail": "Compare consent granularity, audit findings, incident response and time to activate new partnerships. Distinguish a shorter approval path for an existing arrangement from the time required to establish one with a new partner. Partner-level permissions and independent capability assessments could affect the number and type of institutions willing to participate, a margin distinct from customer take-up."
+    }
+  ],
+  "limitation": ""
+}

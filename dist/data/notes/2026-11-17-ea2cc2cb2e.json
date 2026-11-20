@@ -1,0 +1,32 @@
+{
+  "title": "Waller puts settlement liquidity and legal finality at the centre of tokenised payments",
+  "bank": "Federal Reserve Board",
+  "date": "2026-11-17",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
+  "summary": [
+    "Governor Christopher Waller asked what would make tokenised markets competitive with established payment and securities systems. Representing a claim on a distributed ledger can permit continuous trading and conditional transfers. The economic question is whether participants can transfer the claim, pay for it with an asset accepted at par, and preserve enforceable ownership when platforms or intermediaries change. Waller favoured private experimentation, supported by central-bank settlement infrastructure, industry engagement and monitoring of stability risks. The speech makes no announcement about a policy rate, a new Fed settlement service or the legal treatment of any particular token.",
+    "Three models of competition appear in his account. Established firms may control their own networks, form consortia or partner with technology entrants. Entrants bring familiarity with the technology. Incumbents bring customers, network connections and experience maintaining trust. Waller expected different combinations to suit different transactions. An open system can permit wider experimentation, while an institution settling a large securities trade may put greater weight on control, confidentiality and reliability. The commercially relevant scale is therefore the number and quality of counterparties reachable for a particular transaction, not the total number of tokens or platforms.",
+    "A crucial distinction is between executing code and resolving a legal claim. A programme can transfer a security and its payment simultaneously when agreed conditions are met. Who owns an asset after a mistaken transfer, which party bears a loss, how an investor exercises a corporate action, and whether a creditor can enforce a claim during insolvency depend on governance and the applicable framework. Transfers across networks must preserve the economic terms of the original claim. Shared data standards and a dependable process for correcting errors influence the usefulness of the asset as collateral and its value to an institutional holder.",
+    "Waller identified payment instruments with different issuers and economic exposures, including stablecoins, tokenised bank deposits and tokenised money-market funds. Being programmable does not make them equivalent. A corporate treasurer paying overseas and a dealer settling large securities trades may choose different instruments. A client buying a security over the weekend might avoid one-sided delivery by exchanging cash and the asset at the same instant. Yet settling each trade in full can require more funds on hand. Net or batch settlement can conserve liquidity where a participant has many offsetting obligations. The size of any efficiency gain depends on when funds become available, the timing of margin needs and how readily institutions can convert instruments at par.",
+    "Traditional payment systems still connect private claims to central-bank money, including when funds enter or leave token-based arrangements. In Waller’s account the central bank need not be a party to every trade to provide an anchor for final settlement. Whether the new arrangements add resilience or fragment liquidity is an empirical question. The speech draws on conversations with market participants and examples of developing products. It supplies no transaction volumes, market-share forecast or estimate of the cost savings from tokenisation."
+  ],
+  "questions": [
+    {
+      "question": "When does simultaneous settlement reduce total cost after allowing for financing?",
+      "detail": "Compare failed trades, time to settlement, peak prefunding and intraday credit usage for matched transactions under atomic and net settlement. Speed alone can conceal the cost of keeping more cash available when offsetting trades cannot be netted."
+    },
+    {
+      "question": "Do different private tokenised claims really clear at par during stress?",
+      "detail": "Measure executable conversion prices, redemption time, fees and capacity across issuers inside and outside traditional operating hours. Accounting at one dollar per unit can coexist with expensive or delayed conversion into bank or central-bank money."
+    },
+    {
+      "question": "Which rights travel with an asset when it moves platforms?",
+      "detail": "Trace a corporate action, redemption, mistaken transfer and intermediary insolvency across custody arrangements. Compare the legal owner, the accessible evidence of title and the time or cost of recovery."
+    },
+    {
+      "question": "Can more providers coexist with a less competitive market?",
+      "detail": "Measure concentration in settlement liquidity, custody, data standards and access to established payment systems alongside the number of platforms. New interfaces can still depend on the same few providers for final funds settlement."
+    }
+  ],
+  "limitation": ""
+}

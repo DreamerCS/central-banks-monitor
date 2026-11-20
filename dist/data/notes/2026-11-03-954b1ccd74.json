@@ -1,0 +1,27 @@
+{
+  "title": "Brazil consults on deposit-product distribution fees and platforms’ control over issuers’ access",
+  "bank": "Banco Central do Brasil",
+  "date": "2026-11-03",
+  "url": "https://www.bcb.gov.br/detalhenoticia/21308/noticia",
+  "summary": [
+    "The Banco Central do Brasil’s 3 November article detailed a proposal opened for consultation on 23 October. It targets two relationships in the distribution of financial institutions’ funding products. A distributor can earn different amounts from recommending seemingly similar instruments to a customer. It can also control which issuing institutions appear on its platform and how prominently their products are displayed. A policy designed only to disclose customer fees would leave the second issue largely untouched.",
+    "On the customer side, the Bank recognises the commercial value of a common channel where savers can compare products from several issuers. The proposal would require suitability for a customer’s needs, objectives and risk profile, formal management of conflicts and greater transparency about incentives. A customer best-interest policy would cover how staff directly involved in distribution are paid. The draft contemplates deferred compensation and reversal of amounts not yet paid. Minimum sales quotas for specific products within a specified period are an example of practices that would be prohibited. The relevant distortion can operate through product characteristics or volume even when the saver pays no visible transaction fee.",
+    "On the issuer side, networks and control of access can give a platform bargaining power. The proposed distribution policy would specify selection, ranking, prominence, removal and remuneration criteria. The draft would prohibit discriminatory or unjustified restrictions on channels, including exclusivity arrangements. It would require information to be available to the central bank about amounts actually distributed, remuneration earned, the part of each issue covered by the credit guarantee fund, the distributor’s share of each issuer’s funding and agreed compensation by distributor. These quantities could help distinguish pricing driven by an issuer’s funding needs from the price of reaching investors through a particular platform.",
+    "The proposal assigns active oversight to boards and management and envisages different directors accountable for the best-interest and distribution policies. Responses were to be assessed before the central bank’s board and National Monetary Council considered a final act. Announcing consultation did not itself change binding terms or produce observed changes in deposit rates. A test of policy transmission would need to observe whether a change in the policy rate passes through differently to issuers dependent on large distributors, and how much of any higher gross funding cost reaches the saver."
+  ],
+  "questions": [
+    {
+      "question": "Do distributor fees alter product placement after controlling for the investor’s return and risk?",
+      "detail": "Compare ranking, prominence and completed sales for products of similar maturity, issuer credit characteristics and guarantee coverage. Where customer-level suitability differs, compare like investor profiles or changes within a platform. A positive relation between fees and placement is most informative when issuers’ contemporaneous need for funding and the attractiveness of offered rates can also be observed."
+    },
+    {
+      "question": "How dependent are individual issuers on each platform for marginal funding?",
+      "detail": "Use actual distributed volume as a share of issuer funding, the fees agreed with each channel, and comparable direct issuance. Investigate how platform access changes affect yields, maturity and total funding rather than presuming alternative channels are readily available. Small issuers may benefit more from distribution reach even while paying higher access costs, so both sides of the relationship need measurement."
+    },
+    {
+      "question": "Would incentive reform change pass-through from the Selic to saver returns?",
+      "detail": "Date any future final rule, effective provisions and adoption separately from the consultation. Compare changes in gross issuer expense, distributor remuneration and net investor yields over policy-rate movements. Check for migration into other instruments or compensation forms. A smaller observed fee on one product cannot establish improved pass-through if placement changes or issuers raise other charges."
+    }
+  ],
+  "limitation": ""
+}

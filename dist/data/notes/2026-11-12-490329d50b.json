@@ -1,0 +1,27 @@
+{
+  "title": "Seim explains why a predictable inflation response matters for wage bargains",
+  "bank": "Sveriges Riksbank",
+  "date": "2026-11-12",
+  "url": "https://www.riksbank.se/en-gb/press-and-published/speeches-and-presentations/2026/anna-seim-important-to-safeguard-the-role-of-the-inflation-target-as-a-nominal-anchor/",
+  "summary": [
+    "At the Arenagruppen labour-market conference on 12 November, Deputy Governor Anna Seim connected the Riksbank’s November rate increase to an audience facing a different decision: what assumption about future inflation should underpin wage negotiations? The 2% target can serve as a nominal anchor only if wage setters expect the Riksbank to act when projected inflation departs from it. Seim presented a predictable response to changing conditions as a way of giving wage setters a stable reference point. Her remarks explained her support for the increase to 2%, without specifying the rate at the next meeting (Riksbank’s published presentation, opening and discussion of wage formation).",
+    "A stronger economy and supply disruptions abroad had together increased the probability of above-target inflation. Stronger demand can give firms more scope to pass higher costs into selling prices. By the time the resulting price increases are fully reflected in consumer data, the effect of an interest-rate change on spending and prices is still ahead. Seim therefore argued for acting on the outlook. Her distributional point was explicit. Inflation erodes the purchasing power of nominal incomes, and households with limited means have the least capacity to absorb the loss. That is one reason she treated price stability as an economy-wide interest, including for the workers represented at the conference (discussion of the November decision).",
+    "The institutional timing is easy to overlook. When making an individual rate decision, the Riksbank takes prevailing fiscal policy and wage developments as inputs. It sets rates more often than governments set budgets or parties renegotiate collective wage agreements. As new information arrives, monetary policy can therefore adjust with the existing fiscal and wage decisions in place. In the other direction, communicating how it is likely to react under specified economic conditions gives wage setters a basis for judging the future purchasing power of a settlement. Seim described that interaction without prescribing a particular wage settlement or quantifying the effect of the latest hike on pay (section on fiscal policy, wages and the policy reaction).",
+    "Seim also separated several possible economic effects of artificial intelligence. Productivity improvements could change the neutral interest rate, which would affect how restrictive a given policy rate is. Easier price comparisons and dynamic pricing could change competitive behaviour and the speed at which prices adjust to new information. AI could also alter the operation of financial markets. Her remarks gave no sign or magnitude for the net effect on inflation. For researchers, the implication is that rising productivity, a change in the frequency of price adjustments and an increase in market sensitivity to news are separate hypotheses requiring different evidence. None can be inferred from the existence of an AI investment boom alone (closing discussion of AI)."
+  ],
+  "questions": [
+    {
+      "question": "Are wage setters using the inflation target as their reference point?",
+      "detail": "Compare expectations reported around wage negotiations with negotiated nominal pay and the inflation outlook available at the time. A target that continues to anchor medium-term expectations can coexist with a near-term settlement that reflects earlier losses in real wages."
+    },
+    {
+      "question": "How do changes in fiscal assumptions affect the expected Swedish rate path?",
+      "detail": "Isolate budget news from new inflation data and look at changes in near-term forward rates. Seim’s argument predicts that the policy outlook can adjust within an existing wage agreement. It gives no numerical offset between fiscal changes and the policy rate."
+    },
+    {
+      "question": "Which potential AI effect could the available data actually identify?",
+      "detail": "Separate evidence on output per hour from changes in the frequency and dispersion of retail repricing. The first bears on productive capacity and the neutral rate, while the second addresses pricing behaviour. Keep changes to financial-market functioning as a third question."
+    }
+  ],
+  "limitation": ""
+}

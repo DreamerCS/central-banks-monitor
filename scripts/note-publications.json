@@ -823,6 +823,29 @@
     "title": "Monetary policy assessment of September 2026: Summary of discussion",
     "type": "Minutes"
   },
+  "2026-11-03-61453d1afc.json": {
+    "jurisdiction": "Canada",
+    "title": "Opening Statement before the House of Commons Standing Committee on Finance",
+    "type": "Statement",
+    "aliases": [
+      "https://www.bankofcanada.ca/2026/11/opening-statement-standing-senate-committee-banking-commerce-and-economy-2026-11-05/"
+    ]
+  },
+  "2026-11-03-954b1ccd74.json": {
+    "jurisdiction": "Brazil",
+    "type": "Release",
+    "title": "Consulta propõe mais transparência e priorização do interesse do cliente na distribuição de produtos de captação"
+  },
+  "2026-11-03-cd8594ec4d.json": {
+    "jurisdiction": "South Africa",
+    "type": "Speech",
+    "title": "Rashad Cassim on the Jibar to ZARONIA transition"
+  },
+  "2026-11-03-da59454a5e.json": {
+    "jurisdiction": "South Africa",
+    "type": "Release",
+    "title": "SARB revises Jibar cessation date to 31 May 2027"
+  },
   "2026-11-04-9d2fe46301.json": {
     "aliases": [
       "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-raised-to-2-per-cent",
@@ -837,10 +860,31 @@
     "title": "BC - Copom Comunicado - 282ª Reunião - Copom mantém a taxa Selic em 13,75% a.a.",
     "type": "Decision"
   },
+  "2026-11-05-18e48acb55.json": {
+    "jurisdiction": "Euro area",
+    "type": "Speech",
+    "title": "Navigating stormy waters: reflections on monetary policy — Isabel Schnabel",
+    "aliases": [
+      "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
+    ]
+  },
+  "2026-11-05-2d5c3664bd.json": {
+    "jurisdiction": "Colombia",
+    "type": "Minutes",
+    "title": "October policy meeting minutes: hold at 12.25%",
+    "aliases": [
+      "https://www.banrep.gov.co/en/news/board-directors/minutes-october-2026"
+    ]
+  },
   "2026-11-05-7b754e6fd7.json": {
     "jurisdiction": "Norway",
     "title": "Policy rate kept unchanged at 4.5 percent",
     "type": "Decision"
+  },
+  "2026-11-05-97c78572a2.json": {
+    "jurisdiction": "Brazil",
+    "type": "Release",
+    "title": "BC reforça proteção ao consumidor com novas regras para oferta e contratação de crédito"
   },
   "2026-11-05-e59f3c0ab9.json": {
     "jurisdiction": "Mexico",
@@ -860,6 +904,62 @@
     "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
     "type": "Press conference"
   },
+  "2026-11-09-07ec85b0ec.json": {
+    "jurisdiction": "South Africa",
+    "type": "Release",
+    "title": "Statement of assets and liabilities October 2026"
+  },
+  "2026-11-09-453ff07cef.json": {
+    "jurisdiction": "South Africa",
+    "type": "Release",
+    "title": "Information notice on the official gold and foreign exchange reserves of the South African Reserve Bank as at 31 October 2026"
+  },
+  "2026-11-09-ab802616c4.json": {
+    "jurisdiction": "Euro area",
+    "type": "Research",
+    "title": "Monthly Business Survey — Start of November 2026",
+    "aliases": [
+      "https://www.banque-france.fr/en/publications-and-statistics/publications/monthly-business-survey-start-november-2026"
+    ]
+  },
+  "2026-11-10-0040329e47.json": {
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "title": "Michelle Bowman · The U.S. Economy and Considerations for Monetary Policy"
+  },
+  "2026-11-10-16f82680a4.json": {
+    "jurisdiction": "Brazil",
+    "type": "Release",
+    "title": "Novas regras reforçam segurança e ampliam uso do Open Finance por clientes pessoas jurídicas"
+  },
+  "2026-11-10-2a97c3d4a1.json": {
+    "jurisdiction": "Sweden",
+    "type": "Minutes",
+    "title": "Minutes of the Monetary Policy Meeting of 3 November 2026"
+  },
+  "2026-11-10-4bbaa0ac3f.json": {
+    "jurisdiction": "Brazil",
+    "type": "Minutes",
+    "title": "Minutes of the 282nd Copom meeting",
+    "aliases": [
+      "https://www.bcb.gov.br/publicacoes/atascopom/04112026"
+    ]
+  },
+  "2026-11-10-7e8ebfec1b.json": {
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "title": "Christopher Waller · The Economic Outlook and Some Thoughts on Labor Market Dynamism"
+  },
+  "2026-11-10-8aded06f31.json": {
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "title": "Economic Outlook"
+  },
+  "2026-11-10-a4fa1c417d.json": {
+    "jurisdiction": "South Africa",
+    "type": "Release",
+    "title": "Index of Commodity Prices for South Africa – October 2026"
+  },
   "2026-11-10-b8e7fd794e.json": {
     "jurisdiction": "Canada",
     "title": "Summary of Governing Council deliberations: Fixed announcement date of October 28, 2026",
@@ -870,10 +970,95 @@
     "title": "Programa monetario de noviembre de 2026",
     "type": "Decision"
   },
+  "2026-11-12-490329d50b.json": {
+    "jurisdiction": "Sweden",
+    "type": "Speech",
+    "title": "Anna Seim: Important to safeguard the role of the inflation target as a nominal anchor"
+  },
+  "2026-11-12-5b159c594e.json": {
+    "jurisdiction": "Sweden",
+    "type": "Speech",
+    "title": "Aino Bunge: Interest rates should be adjusted gradually in an uncertain situation"
+  },
+  "2026-11-12-b22ed4f6f4.json": {
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "title": "Michael Barr · American Inequality and the Future of AI"
+  },
+  "2026-11-13-1a3db45b66.json": {
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "title": "Observations on Housing Market Challenges"
+  },
+  "2026-11-13-e54933e72c.json": {
+    "jurisdiction": "Euro area",
+    "type": "Speech",
+    "title": "Navigating new economic realities: Europe’s outlook in a changing global landscape — Joachim Nagel"
+  },
+  "2026-11-13-efa384ae4c.json": {
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "title": "Philip Jefferson · New Technology, Old Questions: Productivity Puzzles and the Macroeconomy"
+  },
+  "2026-11-13-f808687dc0.json": {
+    "jurisdiction": "South Africa",
+    "type": "Release",
+    "title": "Prudential Authority imposes administrative sanctions on The Standard Bank of South Africa Limited"
+  },
+  "2026-11-13-ff66bd488d.json": {
+    "jurisdiction": "South Africa",
+    "type": "Release",
+    "title": "Prudential Authority imposes administrative sanctions on HBZ Bank Limited"
+  },
+  "2026-11-16-298c3dc5fa.json": {
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "title": "Kevin Warsh · Opening Remarks at the Productivity and Jobs Task Force Conference"
+  },
+  "2026-11-16-5a4ee6d389.json": {
+    "jurisdiction": "Euro area",
+    "type": "Research",
+    "title": "Leaning without Sowing the Wind: Optimal Monetary Policy in Speculative Booms"
+  },
+  "2026-11-16-cf69e74b2f.json": {
+    "jurisdiction": "Brazil",
+    "type": "Release",
+    "title": "Pix celebra 6 anos como motor de inclusão e eficiência financeira em todo o Brasil"
+  },
+  "2026-11-16-febf7b04e5.json": {
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "title": "Michael Barr · Some Potential Financial Stability Implications of Artificial Intelligence"
+  },
+  "2026-11-17-0bd5e1fb8c.json": {
+    "jurisdiction": "Euro area",
+    "type": "Research",
+    "title": "Fiscal Policy during the cost-of-living crisis"
+  },
+  "2026-11-17-1d9cb0b882.json": {
+    "jurisdiction": "Euro area",
+    "type": "Research",
+    "title": "The macroeconomic effects of AI adoption: an assessment using a multi-country model"
+  },
+  "2026-11-17-22e5f73082.json": {
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "title": "Remarks on the U.S. Economy and Monetary Policy"
+  },
   "2026-11-17-8aad871450.json": {
     "jurisdiction": "Australia",
     "title": "Minutes of the Monetary Policy Board meeting of 3 November 2026",
     "type": "Minutes"
+  },
+  "2026-11-17-ea2cc2cb2e.json": {
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "title": "Christopher Waller · Considerations at the Intersection of Payments and Tokenized Markets"
+  },
+  "2026-11-18-23d7b9270f.json": {
+    "jurisdiction": "Sweden",
+    "type": "Speech",
+    "title": "Monetary policy must be forward looking — Göran Hjelm"
   },
   "2026-11-18-5936858f1a.json": {
     "aliases": [
@@ -883,5 +1068,28 @@
     "jurisdiction": "United States",
     "title": "Minutes of the Federal Open Market Committee · 2026-10-28 meeting",
     "type": "Minutes"
+  },
+  "2026-11-18-91ef37faa9.json": {
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "title": "Michael Barr · Investing in America’s Underserved Communities"
+  },
+  "2026-11-18-cb89b041fc.json": {
+    "jurisdiction": "Canada",
+    "title": "Setting the scenario: Monetary policy communications in uncertain times",
+    "type": "Speech"
+  },
+  "2026-11-19-2e11ac8035.json": {
+    "jurisdiction": "South Africa",
+    "type": "Decision",
+    "title": "Statement of the Monetary Policy Committee — November 2026",
+    "aliases": [
+      "https://www.resbank.co.za/content/dam/sarb/publications/statements/monetary-policy-statements/2026/november/november-statement.pdf"
+    ]
+  },
+  "2026-11-19-953d040efc.json": {
+    "jurisdiction": "Sweden",
+    "type": "Speech",
+    "title": "Executive Board in Finance Committee hearing on monetary policy"
   }
 }

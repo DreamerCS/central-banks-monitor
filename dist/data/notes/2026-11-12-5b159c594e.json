@@ -1,0 +1,27 @@
+{
+  "title": "Bunge puts household demand at the centre of Sweden’s next rate decision",
+  "bank": "Sveriges Riksbank",
+  "date": "2026-11-12",
+  "url": "https://www.riksbank.se/en-gb/press-and-published/speeches-and-presentations/2026/aino-bunge-interest-rates-should-be-adjusted-gradually-in-an-uncertain-situation/",
+  "summary": [
+    "At Swedbank on 12 November, First Deputy Governor Aino Bunge explained why she supported raising Sweden’s policy rate to 2% and why she wanted to evaluate each subsequent step. The two positions follow from the same argument. A broadening recovery makes it easier for businesses to pass higher costs to customers. Swedish households’ sensitivity to interest rates also means that rapid increases could weaken the very demand on which those price increases depend. She judged another increase probable over the coming year if the inflation and activity outlook held. She gave neither a timetable nor an unconditional commitment (Riksbank’s published remarks, opening and closing paragraphs).",
+    "Her starting point was an economy approaching normal conditions. Disruption to energy markets, geopolitical tension and the krona’s weakness over the course of the year had raised the projected rates of both CPIF inflation and underlying inflation above the 2% target for the following year. Producers were already facing sharp price increases, and firms’ selling-price plans were elevated. These are different stages in the price chain. Upstream price increases establish a cost to be absorbed, while pricing plans give some indication of firms’ intentions. The strength of final demand determines how readily those intentions can be implemented. That distinction explains why her assessment of future inflation could rise even before the full effect appeared in the consumer index (discussion of the inflation outlook and companies’ price plans).",
+    "By the date of her remarks, October inflation had undershot the Riksbank’s forecast. Bunge acknowledged that surprise and said the details still needed examination. She put it alongside the continued pressure on producers and uncertainty over global energy prices, geopolitics and the economic consequences of the AI investment boom. The size of the forecast miss, its component breakdown and its persistence were not supplied in this release. For an analyst, the informative question is how the October outcome changes the probability of future pass-through given the state of demand. Simply labelling it a signal for a December hold would go beyond her remarks.",
+    "Bunge’s December decision rule allows the pace of tightening to vary in both directions. Strong consumer demand alongside elevated selling-price plans would reinforce her concern that more firms could pass on energy costs and alter their pricing behaviour. Weaker household spending would limit that scope and raise the real-economy cost of moving quickly. Her stated objective was to return inflation to target with the smallest feasible cost to activity. The distinction matters to rate markets because an expectation of additional tightening over a year conveys less information about the next meeting than a commitment to act in December. The remarks report her policy judgement and give no observed change in Swedish yields or the krona after publication (final discussion of the December assessment)."
+  ],
+  "questions": [
+    {
+      "question": "Did the October inflation surprise alter the projected path of underlying prices?",
+      "detail": "Separate volatile components from broadly based price movements and compare each with the forecast available when Bunge spoke. A miss concentrated in a small number of items would have different implications from weaker prices across household-facing services and goods."
+    },
+    {
+      "question": "Were firms with stronger demand better able to pass higher input costs on?",
+      "detail": "Track producer prices, business pricing intentions and realised selling prices across industries with different customer demand. Widespread intentions accompanied by weak actual price increases would challenge the inference that cost pressures alone require faster tightening."
+    },
+    {
+      "question": "How quickly was the November increase reaching household spending?",
+      "detail": "Compare interest-sensitive spending and household confidence with consumer-facing firms’ pricing plans. Use information available before each meeting to assess whether the recovery continued to support another increase, and distinguish that evolving outlook from the market response on the speech date."
+    }
+  ],
+  "limitation": ""
+}

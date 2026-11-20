@@ -1,0 +1,27 @@
+{
+  "title": "South Africa’s dollar reserves fall mainly on gold while its net liquidity position declines less",
+  "bank": "South African Reserve Bank",
+  "date": "2026-11-09",
+  "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/Financial-Markets/Notices/Information-Notice/2026/information-notice-on-the-official-gold-and-foreign-exchange-res2",
+  "summary": [
+    "October’s US$916 million fall in South Africa’s gross reserves was almost entirely matched by the US$900 million decline in the dollar value of its gold reserves. The Reserve Bank’s 9 November notice reports end-October gross reserves of US$74.513 billion, compared with US$75.429 billion in September. These are dollar-equivalent stocks, affected by market prices and exchange rates as well as transactions. Treating the monthly change as a dollar sale by the central bank would misidentify the dominant source of variation.",
+    "The table isolates three components. Gold declined from US$16.900 billion to US$16.000 billion, SDR holdings fell US$18 million to US$6.637 billion and the foreign-exchange reserve component rose US$2 million to US$51.876 billion. The dollar gold price fell 5.33%, from US$4,187.51 to US$3,964.34. The rand price of gold fell a smaller 3.75% as the dollar rose from R16.3910 to R16.6652. Even for an unchanged quantity of bullion, these moves would create different apparent reserve changes in the two currencies. The Bank identified the lower gold price and foreign payments made on behalf of government as the main reasons for the decline, with other currency and asset-price valuations providing a small offset. It did not publish the transaction-and-valuation split for each asset.",
+    "The international liquidity position fell only US$709 million, from US$72.258 billion to US$71.549 billion. The bridge is visible in the table. Foreign currency deposits received, which are deducted from gross reserves, went from US$3.758 billion to US$3.546 billion. That US$212 million reduction in the deduction offset part of the gross decline. The positive forward position decreased US$5 million to US$582 million. Applying both changes to the US$916 million fall reconciles exactly to the reported US$709 million decline at published precision.",
+    "The footnotes matter to interpretation. Gross foreign-exchange reserves already include the foreign-currency deposits received. The forward position includes swaps used for sterilisation and domestic liquidity management, in addition to other outstanding forwards. It is therefore not a simple directional currency bet. The release measures a month-end buffer and explains its accounting. It does not identify intervention around a policy announcement, a change in precautionary reserve targets or a causal response of exchange rates to reserve management."
+  ],
+  "questions": [
+    {
+      "question": "What fraction of the monthly change survives a constant-price revaluation?",
+      "detail": "Hold the September gold price and cross-rates fixed and apply them to comparable end-month asset quantities where available. Separate what can be calculated from what requires unpublished security or currency holdings. A price-neutral change is more relevant to reserve accumulation than the raw dollar total, but it can still include government payments, interest and other transactions."
+    },
+    {
+      "question": "Why did the net liquidity buffer move less than gross reserves?",
+      "detail": "Reconcile customer foreign-currency deposits and the forward position through several monthly releases. Match known government financing flows by date and currency where publicly identified. This would distinguish deposit withdrawals, valuation effects and changing forward exposures. The single-month arithmetic establishes the bridge, but not which transactions caused each underlying line to change."
+    },
+    {
+      "question": "Were liquidity-management swaps or sterilisation transactions the more important driver of changes in the forward book?",
+      "detail": "Compare disclosed operations, maturities and money-market liquidity around month-end, allowing for positions entered earlier and rolled forward. A small net change can hide offsetting maturities and new contracts. Identifying the purpose of individual transactions would be necessary before inferring whether changes in the forward balance had implications for policy transmission. Cross-check the separate dollar reserve and rand balance-sheet notices at matching month-end exchange rates."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Collins shows why raising rates can cool housing demand and slow construction together",
+  "bank": "Federal Reserve Bank of Boston",
+  "date": "2026-11-13",
+  "url": "https://www.bostonfed.org/-/media/Documents/Speeches/PDF/collins/2026/20261113-text.pdf",
+  "summary": [
+    "Boston Fed President Susan Collins used the housing market to explain a tension in monetary transmission. Higher mortgage rates make it harder to finance purchases, while higher borrowing costs for builders can delay additions to the housing stock. Both can reduce residential investment, yet their long-run implications for affordability differ. A fall in prices need not follow immediately if a constraint on new supply accompanies softer demand. Monetary policy seeks price stability across the economy. Zoning, permitting and housing-related fiscal spending are decisions for other authorities. The remarks offer no preferred policy-rate change.",
+    "Housing’s relatively small share of GDP can understate its contribution at turning points. Collins cited research attributing about 17 percent of output growth during the mid-2000s boom to housing and about 41 percent of the contraction during the ensuing bust. Those are contributions during particular historical intervals, not the housing share of GDP or stable multipliers for today. She connected the rise in mortgage rates since early 2022 with slower residential investment. Regional evidence suggested an additional labour-market channel. Employers described losing prospective hires because of local housing costs, while shortages of construction workers could themselves slow new projects. The reports document a possible feedback loop rather than a nationwide estimate of how much hiring was lost.",
+    "Collins also gave a striking cross-section from a Massachusetts household survey. Median net wealth was $790,500 among homeowners and $1,500 among renters. Those medians illustrate how different the financial positions of two groups can be when rates or prices change. They do not measure the wealth a particular renter would obtain by buying, since tenure choice, inheritance, age, income and the ability to qualify for a loan can differ between groups.",
+    "A longer-run supply puzzle is construction productivity. One estimate she cited put output from a given set of inputs about 40 percent lower in 2020 than in 1970, with further declines since the pandemic. Local restrictions shape what can physically be built, where and how quickly. New England’s ageing housing stock makes unit counts especially difficult to interpret. A footnote puts the median construction year at 1964 in Rhode Island, 1965 in Massachusetts and 1968 in Connecticut, against 1982 nationwide. An existing unit provides less effective housing if poor condition limits where or how it can be used.",
+    "The measurement discussion connects local supply to national inflation. In 2024 it was difficult to tell whether strong shelter inflation reflected new rent pressure or leases catching up to prior market changes. Official shelter measures rely heavily on rents even though many households own their homes. Collins also cited estimates of the national shortage ranging from multiple millions of units to none, with results changing across locations, age groups, incomes and measures of housing quality. She argued for examining these differences directly rather than treating an aggregate shortage estimate as a ready-made policy prescription."
+  ],
+  "questions": [
+    {
+      "question": "How much of a rate increase reaches builders before it reaches the stock of new homes?",
+      "detail": "Track construction lending rates, permits, starts, completions and cancellations by funding structure. Compare places with similar demand and different supply constraints. Falling transactions alone reveal little about which side of the market changed."
+    },
+    {
+      "question": "What part of shelter inflation reflects lease renewal rather than new demand?",
+      "detail": "Compare new-tenant and continuing-tenant rents with matched property characteristics and local vacancy data. Model the distribution of renewal dates to estimate the lag from an initial change in market rents to reported shelter inflation."
+    },
+    {
+      "question": "Would access to less expensive housing improve labour matching?",
+      "detail": "Compare accepted job offers, commuting, relocation and new construction across comparable local labour markets before and after changes in housing availability. Employer reports motivate the question, but changes in local industry demand could confound the result."
+    },
+    {
+      "question": "Does a unit count capture usable housing where it is needed?",
+      "detail": "Recalculate shortages by location, household size, income and physical condition. Treat uninhabitable, seasonally vacant and poorly located units separately and compare results with rents and overcrowding."
+    }
+  ],
+  "limitation": ""
+}

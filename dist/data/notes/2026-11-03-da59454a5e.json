@@ -1,0 +1,27 @@
+{
+  "title": "South Africa moves Jibar’s final publication to May 2027 as legacy contracts await a legal fallback",
+  "bank": "South African Reserve Bank",
+  "date": "2026-11-03",
+  "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/media-releases/2026/jibar-date",
+  "summary": [
+    "On 3 November the South African Reserve Bank set 31 May 2027 as the final publication date for every tenor of Jibar. The decision moved the previously announced 31 December 2026 date out by five months. The trigger was uncertainty about whether a legislative solution for difficult legacy contracts could both pass and become operational in time. The distinction matters for floating-rate assets and hedges. Publication can stop on a single day, while amending contracts, obtaining consent from several parties and updating the calculation and settlement systems can take months.",
+    "The issue concentrates where an agreement cannot readily be changed, particularly when it is part of a multi-party transaction. An ordinary borrower and its bank may be able to agree new terms before cessation. A complex structure with several required consents can remain dependent on the old fixing even after counterparties have converted their other positions. An extension reduces the immediate risk that an existing contract refers to a rate that has disappeared before its replacement can be used. The Bank nevertheless asked institutions to keep reducing their Jibar reliance and to use the extra time for contractual, operational and system changes. The release did not establish a new benchmark for all existing agreements on the announcement date.",
+    "The rate architecture is important. ZARONIA, the South African Rand Overnight Index Average, remains the preferred successor. Term ZARONIA is a forward-looking rate based on activity in ZARONIA overnight index swaps. In April the Market Practitioners Group appointed FTSE Russell to administer it. The release refers to consultations and a six-month prototype observation period, and says the Bank will specify the use cases. The Bank also intends to use Term ZARONIA to determine Synthetic Jibar as one possible designated replacement for tough legacy contracts. Intended use, permissible use and a functioning statutory fallback are different stages of the transition. The release supplies neither a final fallback spread nor a contractual conversion formula.",
+    "For rates research the clean event is a change in the expected date of benchmark discontinuation. A position referencing a reset between January and May 2027 would now potentially see actual Jibar fixings over dates that previously lay beyond the last publication. A contract already converted to overnight ZARONIA would face a different change in exposure. The economic effect depends on its reset calendar, fallback wording, spread and hedge. Treating the extension as a monetary policy rate decision would assign those differences to the wrong mechanism."
+  ],
+  "questions": [
+    {
+      "question": "Which contracts gained the most meaningful additional fixing dates?",
+      "detail": "Sort outstanding instruments by tenor, reset date, maturity and whether an agreed fallback was already effective. Compare positions with resets between the two cessation dates against those that mature beforehand. That exercise would quantify the number and value of affected cash flows, while separating operational relief from any change in expected interest costs. Aggregate notional alone cannot establish which positions face a different reset."
+    },
+    {
+      "question": "Did the announcement change the pricing of basis risk between Jibar and ZARONIA?",
+      "detail": "Use synchronous Jibar and overnight-index-swap quotes around the announcement and compare maturities with different exposure to the five-month extension. Record liquidity, bid–ask spreads, concurrent policy news and whether published rates were executable. A repricing concentrated in exposed maturities would strengthen the timing interpretation. The release does not report trading prices or establish the sign of a basis move."
+    },
+    {
+      "question": "Can the legal solution reach the contracts with the largest consent barriers?",
+      "detail": "Track statutory milestones, effective dates, eligible contract definitions, administrator publication and the operating procedures counterparties will actually use. Compare the timing of each against the final Jibar resets for different tenors. A passed law alone does not establish that cash-flow calculation, settlement and hedging are ready, particularly where several participants must implement the same fallback on the same date."
+    }
+  ],
+  "limitation": ""
+}

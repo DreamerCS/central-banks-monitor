@@ -1,0 +1,27 @@
+{
+  "title": "South Africa’s rand balance sheet expands as foreign-exchange assets outweigh lower-valued gold",
+  "bank": "South African Reserve Bank",
+  "date": "2026-11-09",
+  "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/statements/assets-and-liabilities/2026/statement-of-assets-and-liabilities-october-2026",
+  "summary": [
+    "The Reserve Bank’s balance sheet grew by R5.783 billion in October to R1.299 trillion. The 9 November statement provides an opportunity to distinguish changes in physical holdings, changes in valuation and movements between different forms of central-bank money. All balances are reported in rand, comparing 31 October with the preceding month-end. An increase in the rand value of foreign assets is not necessarily a foreign-currency inflow.",
+    "Gold is the clearest example. The quantity held rose by 64 fine ounces, from 4,035,828 to 4,035,892. Yet its rand valuation fell R10.372 billion, to R266.637 billion, as the price per fine ounce fell from R68,637.48 to R66,066.52. The balance moved down while the reported physical quantity moved up. In contrast, foreign-exchange reserves excluding SDRs rose R14.257 billion and SDR holdings rose R1.530 billion. Together these changes lifted total gold and foreign assets R5.415 billion to R1.242 trillion. Most of the balance-sheet expansion was therefore associated with foreign asset values, although this statement does not disaggregate transactions and revaluations for each currency or security.",
+    "The composition of liabilities changed more than total size. Currency in circulation increased R6.264 billion to R184.404 billion while bank deposits at SARB fell R6.158 billion to R364.865 billion. These nearly offsetting movements are consistent with the possibility that some reserve balances became cash. The balance sheet alone cannot match deposit changes to specific currency withdrawals. Government deposits, other deposits, foreign loans and the gold and foreign-exchange contingency reserve account also moved. The latter account rose R3.210 billion, so changes in foreign asset valuations cannot be mapped one-for-one into measured liquidity supplied to banks.",
+    "Domestic assets provide a cross-check on any inference of monetary accommodation. Reported repurchase agreements with banks were zero at both month-ends, while holdings of South African government securities rose R756 million. The statement does not attribute that increase to purchases, maturities or market valuation and does not describe a new purchase programme. For policy research, this document is most informative when its balance changes are paired with higher-frequency money-market operations and correctly denominated reserve figures. It cannot establish an adjustment to the policy rate or to the central bank’s desired policy stance."
+  ],
+  "questions": [
+    {
+      "question": "Can the movement in gold assets be reproduced from quantity and price alone?",
+      "detail": "Multiply the reported fine ounces by the month-end rand price, allowing for the rounding of unit prices, then decompose the change into a quantity effect, price effect and their interaction. This gives a transparent cross-check on the dominant gold movement and avoids misclassifying a lower valuation as a sale of reserves."
+    },
+    {
+      "question": "Were the changes in notes and bank deposits part of the same cash-demand episode?",
+      "detail": "Compare daily currency issuance, settlement balances and government cash flows around month-end, accounting for pay dates and any calendar effects. The nearly offsetting monthly changes are suggestive but not sufficient evidence. Gross flows or higher-frequency data would be needed to distinguish conversion of bank reserves into cash from unrelated changes of similar size."
+    },
+    {
+      "question": "How much of the increase in government securities reflected transactions rather than valuation?",
+      "detail": "Match the reported stock difference against disclosed purchase and maturity schedules and the accounting basis for the securities. Check whether any contemporaneous monetary operation had the necessary date and amount. A monthly balance-sheet increase can arise without a policy purchase, particularly where instruments are revalued or accrued interest changes the carrying amount. Use matched reporting dates when comparing measured balances with any subsequent operations."
+    }
+  ],
+  "limitation": ""
+}

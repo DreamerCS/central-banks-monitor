@@ -1,0 +1,32 @@
+{
+  "title": "Jefferson sees AI investment lifting demand before productivity expands supply",
+  "bank": "Federal Reserve Board",
+  "date": "2026-11-13",
+  "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+  "summary": [
+    "Vice Chair Philip Jefferson separated two effects of a technological boom that arrive at different times. Data-centre spending and wealth gains linked to enthusiasm about AI were already supporting demand. Large and lasting additions to productive capacity were plausible, but he expected them more gradually. Until supply caught up, the demand for scarce inputs such as memory chips could lift particular prices and pressure resources more broadly. He had supported the October rate hold. With employment near his assessment of maximum, he gave the inflation trajectory greater near-term weight and declined to specify a future rate change.",
+    "The comparison with earlier computing investment is a guide to measurement. In 1989, 32 percent of workers were using computers, yet the machines had limited capacity and spending on them was small. Research subsequently attributed about three-quarters of a percentage point of annual labour productivity growth in the late 1990s to investment in IT capital. A second stage came when businesses reorganised around cheaper computing, raising output per unit of combined inputs. Counting new equipment measures capital deepening. It does not capture all organisational gains, and recording an asset purchase does not establish that those gains have happened.",
+    "The evidence on current adoption depends on who is being surveyed and the intensity of use. Worker surveys put use at 40–50 percent of working adults, while daily use was much less prevalent. Roughly a quarter of U.S. firms reported use in at least one function, nearer 40 percent in knowledge-intensive activities and around 10 percent in mining and in leisure and hospitality. Large improvements on selected tasks can have only modest effects on company output if adoption is narrow or new checking and coordination costs absorb time saved. One management survey cited in the speech estimated only a half-percent gain in sales per employee over three years. That is a change in the level of one business measure, distinct from annual aggregate productivity growth.",
+    "Labour productivity grew 2.2 percent per year on average in 2020–25 against 1.5 percent in the previous business cycle. The improvement began before mainstream generative chatbots appeared, and new business formation was another candidate explanation. Jefferson consequently judged the contribution of AI to aggregate productivity so far limited and its future size uncertain. He also raised the question of the neutral real interest rate. If firms want more funds to invest while households save less against higher future income, the rate balancing the two could rise. The historical relationship between productivity and real rates is noisy, and he supplied no numerical change to the neutral rate.",
+    "Third-quarter GDP grew at a 3.4 percent rate and October unemployment stood at 4.1 percent. In the figures he cited, September headline and core twelve-month PCE inflation were 3.6 and 3.1 percent. Energy costs and technology-related input demand were visible in specific categories. Near-term expectations were elevated, while most measures of long-horizon expectations remained consistent with the objective. He judged growth and employment risks broadly balanced. His own medium-term baseline of growth near potential still left room for worker displacement faster than retraining, an outcome whose structural component could limit how much easier monetary policy could remedy."
+  ],
+  "questions": [
+    {
+      "question": "Are investment and consumption advancing faster than new productive capacity?",
+      "detail": "Compare data-centre construction and equipment orders with utilisation, measured output per hour, revisions to productivity and the diffusion of adoption across industries. Rising equipment prices can signal bottlenecks while broader productivity gains are still ahead."
+    },
+    {
+      "question": "What connects a successful task experiment to an improvement in a firm’s margins or output?",
+      "detail": "Measure total labour time including review, correction and reorganisation. Compare adopters with comparable firms and track adoption intensity and client outcomes. Surveyed use in one function and sustained cost savings across an enterprise are different results."
+    },
+    {
+      "question": "Is higher potential growth changing the neutral real rate or only current financing demand?",
+      "detail": "Track investment plans, saving behaviour and longer-horizon real yields across periods with different adoption intensity. Separate policy-rate expectations and term premia, and examine outcomes after construction has finished."
+    },
+    {
+      "question": "Could employment disruption be structural rather than cyclical?",
+      "detail": "Compare job-finding duration, vacancy requirements and wage changes for affected occupations with broader demand indicators. Changes in hiring beyond AI-exposed activities would make a sectoral mismatch an incomplete account."
+    }
+  ],
+  "limitation": ""
+}

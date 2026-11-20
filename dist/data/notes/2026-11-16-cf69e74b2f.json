@@ -1,0 +1,27 @@
+{
+  "title": "Brazil’s Pix reaches 76 billion payments through October as merchant and corporate use diverge",
+  "bank": "Banco Central do Brasil",
+  "date": "2026-11-16",
+  "url": "https://www.bcb.gov.br/detalhenoticia/21320/noticia",
+  "summary": [
+    "Six years after Brazil introduced Pix, the central bank reported 76 billion transactions in the first ten months of 2026, up 17.6% on the same period a year earlier. For context, the full year 2025 produced nearly 80 billion transactions and more than R$35 trillion in value, up 25.7% and 33.8% respectively on 2024. The different comparison periods are essential when interpreting momentum. The daily transaction-count record was 319.7 million on 6 November 2026. The value record, R$193.4 billion, was set on 19 December 2025. A peak in the number of payments need not coincide with a peak in their value.",
+    "The composition changed markedly. Transfers between individuals made up 85% of transactions in the first year. By October 2026, payments from individuals to businesses accounted for 45% of the count, while business-to-business transfers generated 52% of total value. These are shares of different denominators. A merchant purchase has a very different economic meaning from an intercompany transfer or a transfer between two accounts belonging to one individual. In 2025 the median person-to-merchant payment was R$25, versus R$50 for person-to-person transfers. For a consumer-spending indicator, the first category is a promising starting point. Counting all amounts transferred as retail purchases would seriously distort the interpretation.",
+    "The central bank reported 154 million individual users in October, equivalent to 89% of adults, and 14 million active legal entities. Registered keys exceeded one billion in 2026. A user can hold several keys, so keys are an identifier stock, not a user count. Usage penetration topped 80% in every region, with continued growth particularly among users earning up to five minimum wages. Among people over 60, usage reached 51%. These differences matter for sampling. Rapid uptake in a region or income group can lift measured payment counts even if its consumption is flat.",
+    "New services have changed which payments are visible. Contactless initiation and recurring payments launched in February and June 2025 respectively. The latter brings bills and subscriptions onto Pix. Fraud-dispute self-service started in October 2025, and 2026 rules enabled tracing and blocking through successive recipient accounts. Intended future developments include offline contactless use, partial recurring payments, instant invoice settlement and using future Pix receivables as collateral. A feasibility study was under way for a link to the European TIPS infrastructure. Those proposals should be dated to implementation before they are used to explain observed flows. The report offers operational and inclusion indicators, but no estimate of the effect of Pix on GDP, credit spreads or cash use."
+  ],
+  "questions": [
+    {
+      "question": "Can merchant Pix counts improve a monthly retail-sales nowcast after correcting for migration from other payment methods?",
+      "detail": "Compare merchant payment counts and values to official retail measures, card turnover and available indicators of cash use. Match calendar days, holiday timing, inflation and merchant category, and allow the share of merchants accepting Pix to change. Test the relationship on later releases without revising the inputs available at the forecast date. Rapid adoption can otherwise look like a surge in spending."
+    },
+    {
+      "question": "Which changes represent broader inclusion rather than a switch between accounts or identifiers?",
+      "detail": "Track distinct active people and businesses, repeat activity and usage frequency by region, age and income. Keep key registrations, account ownership and active usage separate. Where longitudinal information is available, distinguish first-time users from people adding another key or migrating an existing transaction. The national user count and subgroup penetration identify the scale of access, but do not alone measure incremental economic participation."
+    },
+    {
+      "question": "Do recurring payments and receivables-based finance change working capital for smaller merchants?",
+      "detail": "Start from verified service launch dates and adoption by merchant, then compare settlement timing, cash-flow volatility and borrowing terms with similar merchants before and after take-up. Separate invoices and subscriptions from ordinary point-of-sale purchases. The receivables collateral link was a prospective feature at the anniversary date, so its effects require subsequent implementation and loan-level evidence."
+    }
+  ],
+  "limitation": ""
+}

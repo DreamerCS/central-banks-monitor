@@ -1,0 +1,344 @@
+{
+  "bank": "fed",
+  "profiles": [
+    {
+      "name": "Alan Greenspan",
+      "start": "1987-08-11",
+      "end": "2006-01-31",
+      "role": "Chair, Board of Governors of the Federal Reserve System",
+      "headline": "A cut lifted Treasury yields. A hike lowered them.",
+      "context": "The closing years of Greenspan’s tenure span two different policy problems. In January 2001 the Committee saw weakening sales and production, lower consumer confidence, tightening conditions in parts of financial markets and high energy costs. By 2003 a further decline in already low inflation was itself a policy concern. By June 2004 the Committee was withdrawing accommodation as activity expanded and labour conditions improved. The instrument, the perceived risk and the expected path of rates moved on different clocks.",
+      "monetary": "On January 3, 2001, the FOMC cut the funds target by half a percentage point to 6 percent between scheduled meetings. On June 25, 2003, it cut a quarter point to 1 percent although spending and financial conditions had begun to improve. One voter preferred twice that cut. On June 30, 2004, the FOMC raised the rate a quarter point to 1.25 percent while still describing the resulting stance as supportive. It attributed part of the recent inflation rise to temporary influences.",
+      "fiscal": "Congress and President George W. Bush changed household taxation in parallel. The June 2001 tax law introduced a 10 percent bracket and provided advance refunds. The May 2003 law accelerated specified individual tax reductions and reduced rates on qualifying dividends and capital gains. Those were choices about the tax code. The automatic loss of revenue when incomes decline is a separate channel through which the budget cushions a slowdown. To estimate their respective effects on spending, distinguish eligibility, actual payment and the taxpayer’s income path.",
+      "communication": "The August 2003 statement signalled that accommodation could last a considerable time. The May 2004 statement instead discussed how gradually it could be removed, while leaving the rate at 1 percent. The change in wording gave investors information at a meeting with no rate change. The June hike still allowed a different pace if the outlook changed.",
+      "test": "On the June 2003 cut day, the two- and ten-year Treasury yields rose 16 and 9 basis points from the previous observation. On the June 2004 hike day, they fell 13 and 8. These daily observations run opposite to the announced target changes. Test whether the size or path surprise explains the difference using pre-announcement futures and intraday quotes, then check for unrelated releases.",
+      "episodes": [
+        {
+          "date": "2001-01-03",
+          "title": "An intermeeting cut to 6 percent",
+          "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/"
+        },
+        {
+          "date": "2003-06-25",
+          "title": "A 25-basis-point cut and a dissent for 50",
+          "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2003/20030625/default.htm"
+        },
+        {
+          "date": "2003-08-12",
+          "title": "A duration signal with the funds rate unchanged",
+          "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2003/20030812/default.htm"
+        },
+        {
+          "date": "2004-05-04",
+          "title": "A measured pace enters the statement",
+          "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2004/20040504/default.htm"
+        },
+        {
+          "date": "2004-06-30",
+          "title": "The first step away from 1 percent",
+          "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2004/20040630/default.htm"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Federal Reserve • official dates of service",
+          "url": "https://www.federalreserve.gov/aboutthefed/bios/board/boardmembership.htm"
+        },
+        {
+          "label": "Economic Growth and Tax Relief Reconciliation Act of 2001",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ16/pdf/PLAW-107publ16.pdf"
+        },
+        {
+          "label": "Jobs and Growth Tax Relief Reconciliation Act of 2003",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-108publ27/pdf/PLAW-108publ27.pdf"
+        },
+        {
+          "label": "CBO • how automatic stabilizers work",
+          "url": "https://www.cbo.gov/publication/60662"
+        },
+        {
+          "label": "Two-year U.S. Treasury yield • daily H.15",
+          "url": "https://fred.stlouisfed.org/series/DGS2"
+        },
+        {
+          "label": "Ten-year U.S. Treasury yield • daily H.15",
+          "url": "https://fred.stlouisfed.org/series/DGS10"
+        }
+      ]
+    },
+    {
+      "name": "Ben S. Bernanke",
+      "start": "2006-02-01",
+      "end": "2014-01-31",
+      "role": "Chair, Board of Governors of the Federal Reserve System",
+      "headline": "The policy rate reached its floor while the balance sheet kept changing.",
+      "context": "By December 2008, employment, consumer spending, business investment and industrial production were deteriorating together. Credit conditions remained tight even as commodity prices fell. The FOMC’s problem was how to support lending and spending when little conventional rate-cutting room remained. By December 2013 the question had changed again. The labour market had improved while inflation remained below objective, and the Committee was deciding how to reduce the flow of new purchases without bringing forward a rate increase.",
+      "monetary": "On December 16, 2008, the FOMC set a range of 0–0.25 percent and emphasised agency debt and mortgage-backed securities to support mortgage markets. In December 2013 it announced that, starting in January, monthly additions would slow from $40 billion to $35 billion for agency mortgage-backed securities and from $45 billion to $40 billion for longer-term Treasuries. Holdings would still grow. A smaller flow of purchases and a shrinking balance sheet have different implications for duration risk held by private investors.",
+      "fiscal": "In October 2008 Congress authorised up to $700 billion for the Treasury’s Troubled Asset Relief Program. Later legislation reduced the authority to $475 billion. Authority, disbursements and ultimate fiscal cost differ because assets could be repaid or sold. Congress and President Barack Obama also enacted the Recovery Act in February 2009, including state fiscal relief, tax measures and unemployment provisions. They added to the existing response of tax receipts and benefit payments to a weakening economy. The Fed’s securities portfolio and Treasury’s budget and equity investments require separate accounts.",
+      "communication": "In December 2012 the Committee attached conditions to its low-rate guidance. Unemployment above 6.5 percent, projected inflation no more than half a point above the 2 percent goal one to two years ahead, and anchored long-run expectations informed its assessment. In December 2013 it explicitly allowed low rates to persist after unemployment crossed 6.5 percent. The unemployment threshold therefore cannot be used as a mechanical hike trigger.",
+      "test": "From December 17 to 18, 2013, the two-year Treasury yield fell 2 basis points while the ten-year rose 4. Test whether the purchase slowdown and the longer low-rate guidance affected different maturities by comparing Treasury futures, expected short rates and mortgage spreads around the announcement. Daily Treasury changes alone cannot allocate the move between those two messages.",
+      "episodes": [
+        {
+          "date": "2008-12-16",
+          "title": "A 0–0.25 percent range and a balance-sheet response",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm"
+        },
+        {
+          "date": "2012-12-12",
+          "title": "Rate guidance tied to unemployment and inflation conditions",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20121212a.htm"
+        },
+        {
+          "date": "2013-12-18",
+          "title": "The purchase pace falls while low-rate guidance persists",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20131218a.htm"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Federal Reserve • official dates of service",
+          "url": "https://www.federalreserve.gov/aboutthefed/bios/board/boardmembership.htm"
+        },
+        {
+          "label": "Treasury • TARP authority, disbursements and recoveries",
+          "url": "https://home.treasury.gov/data/troubled-asset-relief-program"
+        },
+        {
+          "label": "American Recovery and Reinvestment Act of 2009",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-111publ5/pdf/PLAW-111publ5.pdf"
+        },
+        {
+          "label": "CBO • automatic responses of taxes and spending",
+          "url": "https://www.cbo.gov/publication/60662"
+        },
+        {
+          "label": "Two-year U.S. Treasury yield • daily H.15",
+          "url": "https://fred.stlouisfed.org/series/DGS2"
+        },
+        {
+          "label": "Ten-year U.S. Treasury yield • daily H.15",
+          "url": "https://fred.stlouisfed.org/series/DGS10"
+        }
+      ]
+    },
+    {
+      "name": "Janet L. Yellen",
+      "start": "2014-02-03",
+      "end": "2018-02-03",
+      "role": "Chair, Board of Governors of the Federal Reserve System",
+      "headline": "Three separate decisions defined normalisation.",
+      "context": "Yellen oversaw the transition from net asset purchases to a higher policy rate and, later, partial reinvestment. The October 2014 Committee judged that labour-market prospects had substantially improved since the purchase programme began. By September 2017 it still saw moderate growth and stronger employment, while both headline and underlying inflation were below 2 percent. This combination helps explain why progress on employment could support gradual normalisation while the inflation outlook continued to limit its pace. The Board register records a weekend gap before her appointment and another before Powell took office.",
+      "monetary": "In October 2014 the FOMC ended net purchases while continuing to roll over maturing Treasuries and reinvest principal from agency securities. In December 2015 it lifted the funds range to 0.25–0.50 percent in anticipation of a return to 2 percent inflation over time. In September 2017 the Committee held the funds range at 1–1.25 percent and announced that balance-sheet reduction would start in October. The plan initially capped monthly runoff at $6 billion of Treasuries and $4 billion of agency debt and mortgage-backed securities. The caps limited the principal that would go unreinvested. They did not require sales of those amounts.",
+      "fiscal": "Congress and President Barack Obama revised discretionary spending limits for fiscal 2016 and 2017 under the Bipartisan Budget Act of 2015. Those limits governed the room for appropriations, with actual spending still dependent on funding and execution. Late in Yellen’s tenure, Congress and President Donald Trump enacted the December 2017 tax law, setting the federal corporate income-tax rate at 21 percent for tax years beginning after December 31. The fiscal 2017 deficit had already reached $666 billion before that legislation was enacted. The timing rules it out as an explanation for that year’s realised deficit.",
+      "communication": "In March 2015 Yellen described a gradual rate path as conditional on how output and inflation evolved. She distinguished the outlook for rates after liftoff from the precise date of the first increase. The 2017 plan made the balance-sheet path more predictable while leaving the funds rate available to respond to economic news.",
+      "test": "The two- and ten-year Treasury yields rose 4 and 2 basis points on the December 2015 hike day, and 5 and 4 on the September 2017 runoff announcement day. Compare short-rate futures with duration-sensitive yields and mortgage spreads around each release. The daily comparison documents the direction of repricing, while a narrower window and pre-meeting expectations are needed to isolate policy news.",
+      "episodes": [
+        {
+          "date": "2014-10-29",
+          "title": "Net purchases end while reinvestment continues",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20141029a.htm"
+        },
+        {
+          "date": "2015-03-27",
+          "title": "Yellen explains the pace after liftoff",
+          "url": "https://www.federalreserve.gov/newsevents/speech/yellen20150327a.htm"
+        },
+        {
+          "date": "2015-12-16",
+          "title": "The funds range rises above the crisis setting",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20151216a.htm"
+        },
+        {
+          "date": "2017-06-14",
+          "title": "Runoff caps set out in advance",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20170614c.htm"
+        },
+        {
+          "date": "2017-09-20",
+          "title": "October start for balance-sheet normalisation",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20170920a.htm"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Federal Reserve • official dates of service",
+          "url": "https://www.federalreserve.gov/aboutthefed/bios/board/boardmembership.htm"
+        },
+        {
+          "label": "Bipartisan Budget Act of 2015 • section 101",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-114publ74/pdf/PLAW-114publ74.pdf"
+        },
+        {
+          "label": "December 2017 tax law • section 13001",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-115publ97/pdf/PLAW-115publ97.pdf"
+        },
+        {
+          "label": "CBO • fiscal year 2017 budget results",
+          "url": "https://www.cbo.gov/publication/53286"
+        },
+        {
+          "label": "Congressional Research Service • dates and vacancies",
+          "url": "https://www.congress.gov/crs_external_products/R/PDF/R48233/R48233.12.pdf"
+        },
+        {
+          "label": "Two-year U.S. Treasury yield • daily H.15",
+          "url": "https://fred.stlouisfed.org/series/DGS2"
+        },
+        {
+          "label": "Ten-year U.S. Treasury yield • daily H.15",
+          "url": "https://fred.stlouisfed.org/series/DGS10"
+        }
+      ]
+    },
+    {
+      "name": "Jerome H. Powell",
+      "start": "2018-02-05",
+      "end": "2026-05-22",
+      "role": "Chair, Board of Governors of the Federal Reserve System",
+      "headline": "Market repair, demand support and inflation restraint required different tools.",
+      "context": "Powell’s tenure included emergency intervention in the Treasury and mortgage markets, a fall in the policy rate to its effective floor, and a later tightening cycle in response to high inflation. These episodes carry very different information even when all are described as changes in the Fed’s stance. The Board named Powell chair pro tempore from February 5, 2022, while he awaited reconfirmation. He took the oath for his second term on May 23. He again served pro tempore after his chair term concluded on May 15, 2026, until Warsh took office on May 22.",
+      "monetary": "On March 15, 2020, the FOMC cut the funds range to 0–0.25 percent. On March 23 it committed to buying Treasuries and agency mortgage-backed securities in the amounts needed to restore market functioning and policy transmission. The same release announced credit facilities supported by $30 billion of Treasury equity, with up to $300 billion in financing envisaged. These were financing capacities, not grants to households. By July 26, 2023, the FOMC had raised the funds range to 5.25–5.50 percent and continued reducing securities holdings.",
+      "fiscal": "Congress and President Donald Trump enacted the CARES Act on March 27, 2020. Congress and President Joe Biden enacted the American Rescue Plan in March 2021. Treasury and the IRS delivered direct payments under the legislation, alongside other programmes. Transfers put money in recipients’ hands, whereas the March 23 credit facilities sought to preserve borrowing access. CBO recorded a $3.1 trillion fiscal 2020 deficit. That total included changes in underlying income and tax receipts as well as emergency legislation, and the 2021 Act postdated that fiscal year.",
+      "communication": "The 2020 framework sought inflation averaging 2 percent over time and allowed a moderate overshoot after persistently low inflation. In August 2025 Powell explained why the FOMC had removed that makeup approach and returned to flexible inflation targeting. A phrase about inflation running above target therefore carried a different policy implication across these two versions of the framework.",
+      "test": "Between March 20 and 23, 2020, the two- and ten-year Treasury yields fell 9 and 16 basis points. Test market repair directly by comparing bid–ask spreads, trading depth and yields for closely matched Treasury issues around the announcement. Daily yield declines alone cannot distinguish liquidity relief from a deteriorating growth outlook, lower expected policy rates or simultaneous fiscal news.",
+      "episodes": [
+        {
+          "date": "2020-03-15",
+          "title": "Emergency reduction to 0–0.25 percent",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm"
+        },
+        {
+          "date": "2020-03-23",
+          "title": "Treasury and mortgage purchases for market functioning",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm"
+        },
+        {
+          "date": "2020-08-27",
+          "title": "A framework allowing moderate overshoots",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200827a.htm"
+        },
+        {
+          "date": "2023-07-26",
+          "title": "The funds range reaches 5.25–5.50 percent",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm"
+        },
+        {
+          "date": "2025-08-22",
+          "title": "Powell explains the return to flexible inflation targeting",
+          "url": "https://www.federalreserve.gov/newsevents/speech/powell20250822a.htm"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Federal Reserve • official dates of service",
+          "url": "https://www.federalreserve.gov/aboutthefed/bios/board/boardmembership.htm"
+        },
+        {
+          "label": "Treasury • CARES Act fiscal programmes",
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-cares-act"
+        },
+        {
+          "label": "Treasury • American Rescue Plan fiscal programmes",
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-american-rescue-plan"
+        },
+        {
+          "label": "CBO • fiscal year 2020 budget results",
+          "url": "https://www.cbo.gov/publication/56746"
+        },
+        {
+          "label": "Board • February 2022 pro tempore appointment",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20220204a.htm"
+        },
+        {
+          "label": "Board • May 2022 second-term oath",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20220523a.htm"
+        },
+        {
+          "label": "Board • May 2026 pro tempore appointment",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260515a.htm"
+        },
+        {
+          "label": "Two-year U.S. Treasury yield • daily H.15",
+          "url": "https://fred.stlouisfed.org/series/DGS2"
+        },
+        {
+          "label": "Ten-year U.S. Treasury yield • daily H.15",
+          "url": "https://fred.stlouisfed.org/series/DGS10"
+        }
+      ]
+    },
+    {
+      "name": "Kevin Warsh",
+      "start": "2026-05-22",
+      "end": null,
+      "role": "Chair, Board of Governors of the Federal Reserve System",
+      "headline": "A September increase and an October hold reveal different views of inflation risk.",
+      "context": "Warsh took the oath as Board chair on May 22, 2026, and the FOMC separately elected him its chair that day. In June the Committee described investment and productivity as strong and employment growth as keeping up with the workforce. Energy and other supply shocks had raised prices in parts of the economy. The question was whether spending, pricing behaviour and expectations would allow those relative-price changes to spread. The evidence through November 20 covers only the opening months of his tenure.",
+      "monetary": "June’s target range remained 3.50–3.75 percent. On September 16, the Committee raised it by 25 basis points to 3.75–4.00 percent, citing a more timely return of inflation to 2 percent. On October 28 it held that range. Lisa Cook and Beth Hammack dissented in favour of another quarter-point increase. The Committee continued to endorse ample reserves in the banking system. Its choice about the operating supply of reserves can coexist with disagreement about the price of overnight funds.",
+      "fiscal": "The fiscal year ended on September 30 and spans parts of both Powell’s and Warsh’s tenures. In its November 9 summary, CBO reported a $2.0 trillion deficit, up $217 billion. Receipts rose $169 billion and outlays rose $386 billion. Increases in mandatory programmes, net interest and defence were prominent. Congress and President Donald Trump had already enacted Public Law 119-21 in July 2025. Under the tax provisions applicable to 2026, for example, the standard deduction for a married couple filing jointly is $32,200. Changes in tax law, indexed allowances, caseloads and debt-service costs enter the accounts differently. The full annual deficit cannot be attributed to the change of Fed chair or read as discretionary stimulus of the same size.",
+      "communication": "At his September press conference, Warsh declined to provide a forward rate commitment and distinguished individual projections from the decision just taken. The October minutes, released November 18, show why the distinction matters. Several participants thought market expectations for further tightening made a hold easier to justify, and a few supporting the hold described it as a close call. The formal October vote, those participants’ arguments and Warsh’s personal comments convey different pieces of evidence.",
+      "test": "The two- and ten-year Treasury yields rose 7 and 1 basis points on the September increase day. On the October hold day they moved in opposite directions, down 3 and up 6. Compare the front-end rates and longer-term inflation compensation around each statement and press conference. Check energy-price news and Treasury financing announcements before attributing either daily change to the Committee.",
+      "episodes": [
+        {
+          "date": "2026-05-22",
+          "title": "Warsh takes the oath and is elected FOMC chair",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm"
+        },
+        {
+          "date": "2026-06-17",
+          "title": "June hold with elevated energy-sector inflation",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+        },
+        {
+          "date": "2026-09-16",
+          "title": "A quarter-point hike on inflation concerns",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+        },
+        {
+          "date": "2026-10-28",
+          "title": "Two voters prefer another increase",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+        },
+        {
+          "date": "2026-11-18",
+          "title": "October meeting minutes reach the market",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Federal Reserve • official dates of service",
+          "url": "https://www.federalreserve.gov/aboutthefed/bios/board/boardmembership.htm"
+        },
+        {
+          "label": "September • Warsh’s press conference",
+          "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf"
+        },
+        {
+          "label": "October • minutes, including the policy discussion",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
+        },
+        {
+          "label": "CBO • fiscal 2026 budget outturn, published November 9",
+          "url": "https://www.cbo.gov/publication/61986"
+        },
+        {
+          "label": "Public Law 119-21 • enacted July 4, 2025",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf"
+        },
+        {
+          "label": "IRS • individual tax provisions applicable in 2026",
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts-individuals-and-workers"
+        },
+        {
+          "label": "Two-year U.S. Treasury yield • daily H.15",
+          "url": "https://fred.stlouisfed.org/series/DGS2"
+        },
+        {
+          "label": "Ten-year U.S. Treasury yield • daily H.15",
+          "url": "https://fred.stlouisfed.org/series/DGS10"
+        }
+      ]
+    }
+  ]
+}

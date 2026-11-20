@@ -1,0 +1,32 @@
+{
+  "title": "Bowman weighs broader inflation against tighter financing for housing and AI",
+  "bank": "Federal Reserve Board",
+  "date": "2026-11-10",
+  "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
+  "summary": [
+    "Vice Chair for Supervision Michelle Bowman backed the October hold at 3.75–4.00 percent to allow time for the September increase and tighter financial conditions to work through the economy. By November 10 she was giving inflation more weight as the labour market had stabilised. She incorporated the October CPI release into an estimate that twelve-month core PCE inflation had probably risen to 3.3 percent. That was a forecast of a different price index, with the official October PCE report still to come. She named no preferred December rate change.",
+    "Bowman saw robust spending and investment alongside a less buoyant picture for households relying on labour income. She cited 2.4 percent first-half GDP growth and estimated third-quarter growth above 3 percent. A footnote warns that first-half growth might have been overstated by about 0.3 percentage point because revised retail sales had yet to be incorporated. Unemployment was 4.1 percent in October and payroll gains averaged about 80,000 per month through then. Both hiring and layoffs were subdued. Twelve-month wage growth was 3.1 percent in the September employment cost index wage component and the October average hourly earnings measure. Given productivity gains, she saw little evidence that labour costs were the source of above-target inflation.",
+    "For the twelve months through September, Bowman attributed approximately one quarter each of the core PCE overshoot to tariffs, energy and AI-related pressure. She associated the remaining quarter with earlier inflation shocks. The denominator is inflation above target, not all inflation. She expected tariff effects to fade and, eventually, greater supply and productivity to damp prices. The risk was that strong demand for scarce chips and equipment, freight costs or energy pass-through would keep broadening before those mechanisms took hold. A sector-specific origin does not rule out economy-wide implications through expectations or input costs.",
+    "Her financial analysis presents an opposing force on demand. Higher mortgage rates had weighed on housing, corporate spreads had widened and the dollar had strengthened. AI investment was increasingly drawing on external finance. She said related debt was on course to exceed $800 billion this year and estimated potential payments on leases, contracts and residual-value guarantees at over three times the debt amount. These are different exposure measures. Guarantees can redistribute the same project risk, and potential future obligations are not outstanding debt due immediately. Higher financing costs and weaker equity values could slow construction and spending before hardware supply caught up.",
+    "Bowman saw a reason to guard against persistent inflation and a reason to weigh carefully what another hike would do to interest-sensitive sectors. Her conditional baseline was stable employment and core inflation moving closer to 2 percent next year as special factors waned. A renewed energy disruption could instead raise prices while reducing households’ purchasing power. Disappointing AI revenue could produce a different outcome, with lower investment and weaker price pressure together. The speech marks the October loan survey, forthcoming PCE data, November employment figures and private financing conditions as evidence that could change her judgment."
+  ],
+  "questions": [
+    {
+      "question": "Does Bowman’s inflation decomposition survive changes in category assignment?",
+      "detail": "Map tariff exposure, energy inputs and data-centre demand to price categories and account for overlaps. Calculate contributions to the excess over 2 percent. Use subsequent official PCE data to evaluate the October estimate separately from the September attribution."
+    },
+    {
+      "question": "Which AI financing obligations create independent losses?",
+      "detail": "Trace borrower, guarantor, collateral and revenue counterparties across debt, leases and guarantees. Compare stressed recoveries and obligations triggered by the same project failure. Adding nominal commitments mechanically can count overlapping risks more than once."
+    },
+    {
+      "question": "Would an energy shock become a broader inflation problem or a demand drag?",
+      "detail": "Track freight, insurance and refining margins alongside crude prices, consumer expectations and discretionary spending by income group. The sequence and breadth of these changes would help distinguish second-round pricing from a loss of real household purchasing power."
+    },
+    {
+      "question": "How much restraint was already passing through financial markets?",
+      "detail": "Compare mortgage rates, lending standards, spreads and investment plans across housing, small firms and large technology borrowers. Distinguish the speech’s afternoon information set from earlier same-day CPI and Fed communication before studying Treasury or equity prices."
+    }
+  ],
+  "limitation": ""
+}

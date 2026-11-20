@@ -1,0 +1,32 @@
+{
+  "title": "Barr asks who owns the gains from AI before forecasting who will earn them",
+  "bank": "Federal Reserve Board",
+  "date": "2026-11-12",
+  "url": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
+  "summary": [
+    "Governor Michael Barr began with the distribution of wealth before AI’s wider diffusion. In the 2025 Survey of Consumer Finances, the wealthiest tenth of households held close to three quarters of wealth and the top one percent held about one third. The entire lower half held around 2 percent. The highest-income tenth received almost half of income and the top one percent about one fifth. A footnote dates those income flows to 2024, the calendar year before the survey. The household groups ranked by income and by wealth need not be identical.",
+    "The assets behind these shares matter for transmission. A household at the threshold of the top one percent had about $16.3 million, compared with median wealth of $215,000. Wealth at the top is heavily exposed to business equity. Private equity accounted for 12 percent of assets among the richest one tenth of one percent. Many households between the median and 90th percentile owned publicly traded stock, often in retirement accounts, but together they held 17 percent of public stock by value. Widespread participation therefore need not imply that an equity rally benefits households proportionately. A separate Fed survey found 31 percent of respondents lacked the cash to cover an emergency expense of $500 or more.",
+    "Barr linked these stocks of wealth to the division of current income between labour and capital. In his cited series, labour’s share had been around 60–65 percent after World War II, started declining unevenly from 2001 and reached 52.8 percent in the second quarter of 2026. Classification issues affect the measured division between labour and capital. He nevertheless saw a downward trend after allowing for measurement concerns. His historical discussion includes tax and estate policy, access to education, worker bargaining power, market concentration and asset valuations. It does not establish that any one of them caused a specified fraction of the decline.",
+    "AI offers paths in opposing directions. Cheaper and widely accessible models could spread expertise to small firms, create complementary occupations and raise workers’ efficiency. Economies of scale in computing and data could instead allow a small group to capture much of the return. Productivity and employment could both increase at an adopting firm while capital income grows even faster and labour’s share falls. Workers performing reliably specifiable tasks and new labour-market entrants could experience displacement even where other workers gain bargaining power or earn higher wages.",
+    "Barr observed limited displacement in the aggregate so far and evidence of rising efficiency for some workers, alongside early indications of substitution in some occupations. The speed of adoption matters because training and job matching take time. His speech poses distributional scenarios and calls for attention to worker adjustment. It contains no estimate of AI’s contribution to the recorded labour-share decline, no numerical forecast for inequality and no preference for the next policy-rate decision."
+  ],
+  "questions": [
+    {
+      "question": "Do the gains from diffusion reach households outside the top wealth groups?",
+      "detail": "Use repeat household surveys with consistent definitions of direct shares, retirement accounts, housing, private businesses and debt. Track capital gains separately from cash income. A rise in the number owning shares does not show how much of a market gain those families receive."
+    },
+    {
+      "question": "Is a falling labour share driven by firms using less labour or by market share shifting toward capital-intensive firms?",
+      "detail": "Decompose changes within continuing firms and across firms and industries. Pay particular attention to the treatment of proprietors’ earnings, markups and depreciation so an accounting reclassification is not mistaken for worker displacement."
+    },
+    {
+      "question": "Are younger workers losing entry opportunities where AI use is highest?",
+      "detail": "Compare hires, wages, occupational mobility and new-task creation across adoption intensity within comparable businesses. Adjust for demand, experience and hiring cycles before attributing a shortfall in hiring to automation."
+    },
+    {
+      "question": "Could inexpensive models offset advantages of the largest providers?",
+      "detail": "Compare prices, contract terms, capability and actual uptake by small and large enterprises. Follow customers’ productivity and profits as well as suppliers’ margins to test whether competition transmits benefits beyond model owners."
+    }
+  ],
+  "limitation": ""
+}
