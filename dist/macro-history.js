@@ -342,11 +342,61 @@ function drawComparison(svg, paths, names, unit) {
   svg.setAttribute("aria-label", names.join(" compared with ") + ", changes in " + (unit === "pp" ? "percentage points" : "per cent") + " from six months before to 24 months after each anchor");
 }
 
+
+function goldComparison(pair, article) {
+  const heading = el("h2",pair.title);
+  article.append(el("p",pair.period,"hs-kicker"),heading,el("p",pair.lead,"hs-deck"),
+    el("h3","Britain leaves the old parity"),
+    el("p","On 21 September 1931 Parliament suspended the Bank of England’s obligation to supply gold bullion at the statutory price. Sterling could now move against currencies that remained convertible. Both dollar and franc quotations fell once the obligation ended."),
+    table(["1931 quotation period","US dollars per pound","French francs per pound"],[
+      ["Average through 18 September","4.859","124.057"],["Average from 21 September to year-end","3.694","94.016"]
+    ],"Bank of England averages before and after suspension"),
+    el("p","These are averages over two parts of the year. They show broad sterling weakness across currencies, without measuring the return earned on the announcement day.","hs-byline"),
+    el("h3","The United States changes the dollar’s gold price"),
+    el("p","The March 1933 bank holiday and restrictions on gold transactions preceded the administration’s April move away from the old parity. The January 1934 Gold Reserve Act transferred monetary gold to the Treasury. The new official price of $35 per fine troy ounce, compared with $20.67 previously, reduced the gold content of a dollar by about 41%. The 69% rise in the dollar price of an ounce and the 41% fall in gold per dollar describe the same change from opposite sides."));
+  const quotes = pair.prewarQuotes;
+  const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  const options = months.map((name,i)=>[String(i+1),name]);
+  function chosen(value,fallback) {
+    const v = Number(value);
+    return Number.isInteger(v) && v>=1 && v<=12 ? v : fallback;
+  }
+  let from = chosen(params.get("from"),1), to = chosen(params.get("to"),12);
+  if (to<from) to=from;
+  const controls=el("div",undefined,"hs-bars"), results=el("div");
+  const start=select("First month",options,String(from),v=>{
+    from=Number(v);
+    if (from>to) {to=from;end.querySelector("select").value=String(to);}
+    draw(true);
+  });
+  const end=select("Last month",options,String(to),v=>{
+    to=Number(v);
+    if (to<from) {from=to;start.querySelector("select").value=String(from);}
+    draw(true);
+  });
+  controls.append(start,end);
+  const raw=el("details",undefined,"hs-details");
+  raw.append(el("summary","View all 1933 monthly quotations"),table(["London quotation month","US dollars per pound","French francs per pound"],quotes.map(([dollar,franc],i)=>[months[i],num(dollar,3),num(franc,2)]),"Monthly London quotations in 1933"));
+  article.append(el("h3","Reprice a pound in two currencies"),controls,results,raw,
+    el("p","The Bank of England reports averages of the daily high and low quotations in London. Its dollar table records no quotations from 4 to 12 March. Each comparison uses published monthly means.","hs-byline"),
+    el("h3","What does the second currency tell us?"),
+    el("p","Sterling rose strongly against the dollar over 1933 but ended the year slightly weaker against the French franc than in January. France still adhered to gold. The choice of comparison currency changes the diagnosis: a broad recovery of sterling would have shown up against the franc too. The pattern is consistent with a dollar repricing. It cannot assign the entire movement to the April decision or isolate changes in British and French fundamentals."),
+    el("p","While convertibility held, domestic policy had to accommodate the demand to exchange currency for gold. Suspension gave each government more room to respond to the slump. To assess the effect on recovery, the next evidence would be domestic prices, production and interest rates around each exit, together with banking reforms and fiscal changes that occurred at the same time."),
+    sourceList(pair.sources));
+  function draw(update) {
+    const rows=["Dollars per pound","French francs per pound"].map((s,i)=>{
+      const first=quotes[from-1][i],last=quotes[to-1][i],change=100*(last/first-1),digits=i===0?3:2;
+      return [s,num(first,digits),num(last,digits),(change>0?"+":"")+num(change,2)+"%"];
+    });
+    results.replaceChildren(table(["London quotation",months[from-1]+" 1933",months[to-1]+" 1933","Change"],rows,"Sterling against two currencies"));
+    if(update) history.replaceState(null,"",local("compare",{pair:pair.id,from:String(from),to:String(to)}));
+  }
+  draw(false);
+}
+
 async function compare() {
   const settings = await read("episode-comparisons");
   const pair = settings.comparisons.find(p => p.id === params.get("pair")) || settings.comparisons[0];
-  const events = [settings.episodes[pair.left], settings.episodes[pair.right]];
-  const panels = await Promise.all(events.map(e => read(e.panel)));
   const {grid, nav, article} = layout();
   nav.setAttribute("aria-label", "Historical comparisons");
   let key = Object.hasOwn(comparisonMeasures, params.get("measure")) ? params.get("measure") : "cpiYoY";
@@ -355,6 +405,9 @@ async function compare() {
     return local("compare", {pair:id, measure:key, base:reference === -1 ? "prior" : "event"});
   }
   for (const p of settings.comparisons) nav.append(navItem(p.label, p.period, query(p.id), p.id === pair.id));
+  if (pair.prewarQuotes) {goldComparison(pair,article); return grid;}
+  const events = [settings.episodes[pair.left], settings.episodes[pair.right]];
+  const panels = await Promise.all(events.map(e => read(e.panel)));
   article.append(el("p",pair.period,"hs-kicker"), el("h2",pair.title), el("p",pair.lead,"hs-deck"),
     table(["Anchor month", "Dated event"], events.map(e => [e.month + " · " + e.name, e.action]), "Anchor dates and events"));
   const figure = el("figure", undefined, "hs-figure hs-compare"), title = el("figcaption"), controls = el("div", undefined, "hs-bars");

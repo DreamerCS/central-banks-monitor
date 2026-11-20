@@ -166,6 +166,85 @@
           "url": "https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.mp220721~53e5bdd317.en.html"
         }
       ]
+    },
+    {
+      "id": "gold-exits",
+      "label": "Leaving gold",
+      "period": "1931–34 · Britain and the United States",
+      "title": "Did sterling recover, or did the dollar fall?",
+      "lead": "A pound bought far fewer dollars after Britain suspended gold sales in 1931. It bought many more dollars during 1933, when the United States changed its own gold policy. The London quotations for French francs provide a second way to read that apparent recovery.",
+      "prewarQuotes": [
+        [
+          3.36,
+          86.06
+        ],
+        [
+          3.422,
+          87.23
+        ],
+        [
+          3.433,
+          87.42
+        ],
+        [
+          3.586,
+          87.22
+        ],
+        [
+          3.939,
+          85.6
+        ],
+        [
+          4.142,
+          86.08
+        ],
+        [
+          4.644,
+          85.26
+        ],
+        [
+          4.505,
+          83.86
+        ],
+        [
+          4.661,
+          80.35
+        ],
+        [
+          4.668,
+          80.25
+        ],
+        [
+          5.137,
+          82.12
+        ],
+        [
+          5.119,
+          83.62
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Bank of England · 1933 Statistical Summary, Foreign Exchanges, before and after British suspension",
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/archive/statistical-summary/1933-part1"
+        },
+        {
+          "label": "Bank of England · January 1934 Statistical Summary, table IV, monthly London quotations",
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/archive/statistical-summary/1934-part1.pdf"
+        },
+        {
+          "label": "UK Parliament · Gold Standard (Amendment) Act 1931, section 1",
+          "url": "https://www.legislation.gov.uk/ukpga/Geo5/21-22/46/pdfs/ukpga_19310046_en.pdf"
+        },
+        {
+          "label": "Federal Reserve History · Roosevelt’s gold programme",
+          "url": "https://www.federalreservehistory.org/essays/roosevelts-gold-program"
+        },
+        {
+          "label": "Federal Reserve History · Gold Reserve Act of 1934",
+          "url": "https://www.federalreservehistory.org/essays/gold-reserve-act"
+        }
+      ]
     }
   ]
 }
