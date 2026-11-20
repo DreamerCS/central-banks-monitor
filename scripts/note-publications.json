@@ -2249,9 +2249,12 @@
     "type": "Policy"
   },
   "2026-11-16-923b70744d.json": {
-    "title": "Project Simbolon",
+    "title": "Project Simbolon — Insights Note",
     "jurisdiction": "Singapore",
-    "type": "Research"
+    "type": "Research",
+    "aliases": [
+      "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/project-simbolon/project-simbolon-insights-note.pdf"
+    ]
   },
   "2026-11-16-9476e5d9ed.json": {
     "jurisdiction": "South Korea",
@@ -3038,5 +3041,21 @@
     "title": "Europe’s Natural Gas Outlook for the Upcoming Winter 2026/2027",
     "jurisdiction": "United States",
     "type": "Research"
+  },
+  "2026-11-18-8bbca11480.json": {
+    "title": "Project Simbolon — Cross-Border FX Settlement Connectivity Across Independent Digital Infrastructures: Project Report",
+    "jurisdiction": "Singapore",
+    "jurisdictions": [
+      "Singapore",
+      "Euro area"
+    ],
+    "institutions": [
+      "Monetary Authority of Singapore",
+      "Deutsche Bundesbank"
+    ],
+    "type": "Research",
+    "aliases": [
+      "https://www.bundesbank.de/resource/blob/929882/3c18c1dd167b86300db4710adf1f5d7f/472B63F073F071307366337C94F8C870/2026-11-18-simbolon-data.pdf"
+    ]
   }
 }

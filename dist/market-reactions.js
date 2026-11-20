@@ -17,8 +17,39 @@ function options(select, choices, preferred) {
   select.replaceChildren(...choices.map(([key,label]) => new Option(label,key)));
   if (choices.some(([key]) => key === preferred)) select.value = preferred;
 }
+function renderConferenceOffsets() {
+  const rows = [];
+  const shortYield = bank.id === 'fed' ? 'UST2Y' : 'DE2Y';
+  for (const [label, start, end] of [['2000–2008', 2000, 2008], ['2009 onwards', 2009, Infinity]]) {
+    const events = bank.events.filter(event => {
+      const year = Number(event.date.slice(0, 4));
+      return year >= start && year <= end;
+    });
+    for (const [instrument, id] of [['Two-year yield', shortYield], ['10Y minus 2Y', 'SLOPE']]) {
+      const paired = events.filter(event => Number.isFinite(event.windows.statement?.[id]) &&
+        Number.isFinite(event.windows.conference?.[id]));
+      const eligible = paired.filter(event => Math.abs(event.windows.statement[id]) >= 1);
+      const offsets = eligible.filter(event => Math.sign(event.windows.statement[id]) *
+        event.windows.conference[id] <= -1);
+      const full = offsets.filter(event => Math.abs(event.windows.conference[id]) >= Math.abs(event.windows.statement[id]));
+      const row = document.createElement('tr');
+      for (const [index, value] of [label, instrument, paired.length, eligible.length,
+        eligible.length ? offsets.length + ' (' + Math.round(100 * offsets.length / eligible.length) + '%)' : '—',
+        eligible.length ? full.length : '—'].entries()) {
+        const cell = document.createElement(index === 0 ? 'th' : 'td');
+        if (index === 0) cell.scope = 'row';
+        cell.textContent = value;
+        row.append(cell);
+      }
+      rows.push(row);
+    }
+  }
+  el('offset-rows').replaceChildren(...rows);
+}
+
 function chooseBank() {
   bank = banks.find(b => b.id === controls.bank.value);
+  renderConferenceOffsets();
   options(controls.window, Object.keys(bank.windows).map(id => [id,names[id]]), controls.window.value || params.get('window') || 'statement');
   options(controls.asset, bank.assets.map(a => [a.id,a.label]),controls.asset.value || params.get('asset'));
   const years = [...new Set(bank.events.map(e => e.date.slice(0,4)))].reverse();
@@ -110,8 +141,8 @@ function renderWindowComparison(event) {
   const periodKeys = ['statement', 'conference', 'meeting'];
   const fed = bank.id === 'fed';
   const rowIds = fed
-    ? ['MP1', 'MP2', 'OIS1Y', 'UST2Y', 'UST10Y', 'EURUSD', 'SP500']
-    : ['OIS_1M', 'OIS_1Y', 'DE2Y', 'DE10Y', 'EURUSD', 'STOXX50'];
+    ? ['MP1', 'MP2', 'OIS1Y', 'UST2Y', 'UST10Y', 'SLOPE', 'EURUSD', 'SP500']
+    : ['OIS_1M', 'OIS_1Y', 'DE2Y', 'DE10Y', 'SLOPE', 'EURUSD', 'STOXX50'];
   if (!rowIds.includes(asset.id)) rowIds.push(asset.id);
   const rows = rowIds.map(id => {
     const item = bank.assets.find(candidate => candidate.id === id);

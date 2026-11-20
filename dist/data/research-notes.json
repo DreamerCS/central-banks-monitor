@@ -1078,6 +1078,30 @@
     }
   },
   {
+    "title": "EUR/SGD settlement can protect principal while leaving cash temporarily unavailable",
+    "bank": "Deutsche Bundesbank and Monetary Authority of Singapore",
+    "date": "2026-11-18",
+    "url": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/project-simbolon/project-simbolon-report.pdf",
+    "excerpt": "Project Simbolon shows how two central banks could protect both sides of a foreign exchange payment without putting their currencies on the same ledger.",
+    "file": "2026-11-18-8bbca11480.json",
+    "publication": {
+      "title": "Project Simbolon — Cross-Border FX Settlement Connectivity Across Independent Digital Infrastructures: Project Report",
+      "jurisdiction": "Singapore",
+      "jurisdictions": [
+        "Singapore",
+        "Euro area"
+      ],
+      "institutions": [
+        "Monetary Authority of Singapore",
+        "Deutsche Bundesbank"
+      ],
+      "type": "Research",
+      "aliases": [
+        "https://www.bundesbank.de/resource/blob/929882/3c18c1dd167b86300db4710adf1f5d7f/472B63F073F071307366337C94F8C870/2026-11-18-simbolon-data.pdf"
+      ]
+    }
+  },
+  {
     "title": "Cross-border fast payments grew through regional networks with different designs",
     "bank": "Bank of Canada",
     "date": "2026-11-18",
@@ -1689,6 +1713,22 @@
     }
   },
   {
+    "title": "What payment-versus-payment could change for EUR/SGD funding",
+    "bank": "Monetary Authority of Singapore",
+    "date": "2026-11-16",
+    "url": "https://www.mas.gov.sg/publications/monographs-or-information-paper/2026/project-simbolon",
+    "excerpt": "The Deutsche Bundesbank and the Monetary Authority of Singapore demonstrated that two independently operated test ledgers could settle both sides of a EUR/SGD exchange to a common outcome.",
+    "file": "2026-11-16-923b70744d.json",
+    "publication": {
+      "title": "Project Simbolon — Insights Note",
+      "jurisdiction": "Singapore",
+      "type": "Research",
+      "aliases": [
+        "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/project-simbolon/project-simbolon-insights-note.pdf"
+      ]
+    }
+  },
+  {
     "title": "What a clearing house can do during its first year of live testing",
     "bank": "Bank of England",
     "date": "2026-11-16",
@@ -1786,19 +1826,6 @@
         "https://www.boj.or.jp/about/press/koen_2026/ko261116a.htm",
         "https://www.boj.or.jp/about/press/koen_2026/data/ko261116a1.pdf"
       ]
-    }
-  },
-  {
-    "title": "Project Simbolon settled two simulated currency legs across independent central bank ledgers",
-    "bank": "Monetary Authority of Singapore",
-    "date": "2026-11-16",
-    "url": "https://www.mas.gov.sg/publications/monographs-or-information-paper/2026/project-simbolon",
-    "excerpt": "Paying euros before receiving Singapore dollars exposes a bank to the loss of principal if its counterparty fails in between.",
-    "file": "2026-11-16-923b70744d.json",
-    "publication": {
-      "title": "Project Simbolon",
-      "jurisdiction": "Singapore",
-      "type": "Research"
     }
   },
   {

@@ -54,6 +54,15 @@
         <p>The whole-event column uses the source’s own observation. Quoting intervals, gaps and rounding can prevent exact addition. Rates are in basis points. A positive EUR/USD return means that the euro strengthened against the dollar. Concurrent economic news can affect these prices.</p>
       </details>
     </section>
+    <section class="mr-analysis" aria-labelledby="mr-offset-title">
+      <h2 id="mr-offset-title">How often did the conference offset the statement?</h2>
+      <p>A conference can move the two-year yield back towards its earlier level while the long end continues to adjust. Compare the two-year move with the change in the ten-year minus two-year spread for the selected central bank.</p>
+      <div class="mr-table-scroll" role="region" aria-label="Historical conference offsets" tabindex="0"><table class="mr-method-table">
+        <caption>All available meetings since 2000, grouped by period</caption>
+        <thead><tr><th>Period</th><th>Instrument</th><th>Paired quotes</th><th>Eligible statements</th><th>Opposite move</th><th>Fully offset</th></tr></thead>
+        <tbody id="mr-offset-rows"></tbody></table></div>
+      <p class="mr-footnote">Both windows must have observations. Eligible statements moved the instrument at least 1 bp. Percentages use those statements as the denominator. An opposite conference move must reach 1 bp. A full offset matches or exceeds the original move in the opposite direction. Intervening price changes can still affect the whole-event return. Conference availability and the mix of meetings differ across periods.</p>
+    </section>
     <section class="mr-analysis" id="mr-comovement" aria-labelledby="mr-comovement-title">
       <h2 id="mr-comovement-title">When do yields and equities move together?</h2>
       <p id="mr-comovement-scope"></p>
