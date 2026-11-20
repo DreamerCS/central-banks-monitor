@@ -1,0 +1,28 @@
+{
+  "title": "Supermarket prices rose more often after the March shock, but the repricing wave did not keep widening",
+  "bank": "European Central Bank",
+  "date": "2026-11-02",
+  "url": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261102~871cc494e2.en.html",
+  "summary": [
+    "A change in the food inflation rate can hide two different decisions in the supermarket aisle. Many retailers can raise prices a little, or a smaller number of products can undergo large increases. An ECB blog uses daily online prices to distinguish these channels after the 2026 Middle East energy shock. An initial increase in the share of food prices being raised in March did not develop into the persistent, widening wave seen following Russia’s invasion of Ukraine in 2022. The comparison runs through September 2026. It measures how the prices in the sample changed and leaves open how later cost increases will pass through.",
+    "The authors use the ECB’s Daily Price Dataset, developed through the PRISMA research network with the BIS Innovation Hub and the Deutsche Bundesbank under Project Spectrum. An automated classifier maps retailers’ product descriptions to consumption categories in the Harmonised Index of Consumer Prices. Daily collection makes it possible to update an estimate before the end of a month, even though the frequency of price adjustment is calculated month on month. Temporary sales are excluded from the analysis. Countries and product categories receive expenditure weights from the HICP, so a category’s contribution reflects its weight in household spending as well as the frequency of its price changes.",
+    "Chart 1 treats the number of increases separately from the average size of an increase. More prices began to rise in March 2026, but that increase in frequency was smaller than in 2022, and the gap between how frequently prices rose and fell remained relatively small. The average size of increases changed comparatively little in both episodes. Dotted lines show the monthly readings and solid lines their three-month moving averages. A higher average price can persist even after the number of new price increases stops rising. Stabilising repricing frequency does not imply that shoppers have recovered their earlier purchasing power.",
+    "Chart 2 asks how much of the consumption basket was affected. It groups food categories by the percentage of their individual prices that rose during the month. In 2022, categories where at least 10% of prices rose accounted for a growing share of the basket for several months. The later shock initially reached broadly across products but failed to produce that sustained pattern. The 10% threshold counts items with an increase. It does not mean that their prices rose by 10%, or that households spent 10% more on each of those categories.",
+    "Chart 3 checks whether a few exceptional categories drive this comparison. Its boxes span the middle half of categories and the whiskers trace the lowest and highest repricing frequencies. The 2026 distribution was generally narrower, with a lower maximum in most of the months compared. Food accounts for around one-fifth of the euro area HICP basket and more of lower-income households’ budgets. The results are consequently relevant to household experience and inflation expectations, but observed online supermarket prices do not cover the whole consumption basket. The article identifies a difference in retailers’ response across two episodes. It does not separately identify the effect of the shock’s composition, the stage of the business cycle or retail competition."
+  ],
+  "questions": [
+    {
+      "question": "Does the apparent stabilisation persist for the same products sold by the same retailers?",
+      "detail": "Track a fixed basket of product and retailer pairs after September, separately identifying entries, exits, changes in pack size and temporary discounts. Recalculate the frequency and size of increases with and without expenditure weights. If a matched basket continues to reprice rapidly while the headline measure stabilises, product composition would explain part of the reported result."
+    },
+    {
+      "question": "Which cost changes account for the contrast between 2022 and 2026?",
+      "detail": "Match categories to energy use, transport inputs, agricultural commodity costs and supplier contract renewal dates. Compare the timing of cost increases with the share of upward price resets and the size of those changes. A delayed increase concentrated at contract renewal would point toward staggered pass-through; a simultaneous increase across unrelated products would support a broader change in pricing behaviour."
+    },
+    {
+      "question": "How closely does the online signal predict the food costs faced by different households?",
+      "detail": "Compare daily online measures with official food price releases and in-store scanner observations for the same categories, adjusting weights for household income and purchase patterns. Examine unit prices, promotions and substitution separately. A shorter repricing wave in the headline basket could still leave households concentrated in frequently repriced essentials facing persistent pressure."
+    }
+  ],
+  "limitation": ""
+}
