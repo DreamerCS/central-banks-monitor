@@ -1529,5 +1529,79 @@
       "https://www.boj.or.jp/about/press/koen_2026/ko261116a.htm",
       "https://www.boj.or.jp/about/press/koen_2026/data/ko261116a1.pdf"
     ]
+  },
+  "2026-11-11-e5f2693338.json": {
+    "jurisdiction": "China",
+    "type": "Monetary Policy Report",
+    "title": "China Monetary Policy Report, Third Quarter 2026",
+    "aliases": [
+      "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111116292271519/2026111116285395566.pdf",
+      "https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/2026nhbzczxbg/2026111614185279792/index.html",
+      "https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/2026nhbzczxbg/2026111614185279792/2026111614185277483.pdf",
+      "https://jrj.sh.gov.cn/cmsres/36/363c21a847494552bc89c94d6139f61a/6f5f6281676a2dba5f9addf96a8249f4.pdf"
+    ]
+  },
+  "2026-11-18-e91496aacf.json": {
+    "title": "BI-Rate Raised 25 bps to 6.00%: Strengthening Stability, Supporting Economic Growth",
+    "jurisdiction": "Indonesia",
+    "type": "Decision",
+    "aliases": [
+      "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2825426.aspx"
+    ]
+  },
+  "2026-11-15-0cb2548d32.json": {
+    "title": "The Customer at the Centre: Building a Responsible, Resilient and Sustainable Microfinance Sector",
+    "jurisdiction": "India",
+    "type": "Speech",
+    "aliases": [
+      "https://rbi.org.in/scripts/BS_SpeechesView.aspx?Id=1590",
+      "https://rbidocs.rbi.org.in/rdocs/Speeches/PDFs/DGSCM151120262390CB6D90FD4D67BDBBF80D3FB445C1.PDF"
+    ]
+  },
+  "2026-11-18-b539bf9977.json": {
+    "title": "Household Credits in Q3 2026",
+    "jurisdiction": "South Korea",
+    "type": "Release",
+    "aliases": [
+      "https://www.bok.or.kr/fileSrc/eng/58c906d319b84d1381b309c713c99637/2/8f377772993741798f312ecaee145f4c.pdf"
+    ]
+  },
+  "2026-11-20-f50b5ec6dc.json": {
+    "title": "Borrower-Level Household Debt Statistics in Q3 2026",
+    "jurisdiction": "South Korea",
+    "type": "Release",
+    "aliases": [
+      "https://www.bok.or.kr/fileSrc/eng/456df9f959fc458092f082b10c6b8dd6/2/01a1cd49efa84cd9ad6212c7977f10e0.pdf"
+    ]
+  },
+  "2026-11-18-a584e8b634.json": {
+    "title": "The UK’s regional growth: unlocking the economy’s full potential — Andrew Bailey",
+    "jurisdiction": "United Kingdom",
+    "type": "Speech"
+  },
+  "2026-11-18-5d6689d8f7.json": {
+    "title": "Transparency and predictability: a foundation for future resilience − speech by Katharine Braddick",
+    "jurisdiction": "United Kingdom",
+    "type": "Speech"
+  },
+  "2026-11-19-dd40fc896b.json": {
+    "title": "Minutes of the Market Participants Group meeting – 18 November 2026",
+    "jurisdiction": "United Kingdom",
+    "type": "Minutes"
+  },
+  "2026-11-20-1d17e7243c.json": {
+    "jurisdiction": "Taiwan",
+    "type": "Statement",
+    "title": "BALANCE OF PAYMENTS (Q3 2026)"
+  },
+  "2026-11-07-45f23a7401.json": {
+    "jurisdiction": "Japan",
+    "type": "Speech",
+    "title": "Japan’s Current Account Surplus and Corporate Adjustment",
+    "aliases": [
+      "https://www.boj.or.jp/en/about/press/koen_2026/data/ko261107a1.pdf",
+      "https://www.boj.or.jp/about/press/koen_2026/ko261107a.htm",
+      "https://www.boj.or.jp/about/press/koen_2026/data/ko261107a1.pdf"
+    ]
   }
 }

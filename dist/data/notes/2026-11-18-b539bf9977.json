@@ -1,0 +1,28 @@
+{
+  "title": "Korean household credit growth slowed as non-housing loans contracted",
+  "bank": "Bank of Korea",
+  "date": "2026-11-18",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?menuNo=400423&nttId=11066749",
+  "summary": [
+    "Korean household credit increased by KRW 9.8 trillion in the third quarter, less than half its KRW 26.4 trillion rise in the second. The stock still rose 0.5% from end-June to KRW 2,030.5 trillion at end-September. The Bank of Korea’s November release shows that much of the slowdown was in non-housing loans. Housing-related loans continued to increase, while credit for purchases of merchandise accelerated. A single aggregate growth rate would obscure both developments (Household Credits, p. 1).",
+    "The loan book accounted for KRW 1,896.8 trillion of the end-September balance. It grew by KRW 4.7 trillion during the quarter, down from KRW 25.3 trillion in the previous three months. Housing-related loans rose KRW 9.6 trillion after a KRW 12.2 trillion increase. Other household loans went from expanding by KRW 13.1 trillion in the second quarter to shrinking by KRW 4.9 trillion in the third. Using the rounded table entries, that is a swing of KRW 18.0 trillion in the non-housing category out of a KRW 20.6 trillion deceleration in loans overall. Housing still added to exposure even as total lending lost momentum (Household Loans, p. 2).",
+    "Commercial and specialised banks increased household loans by KRW 8.1 trillion. Their housing loans rose KRW 9.0 trillion as their other household loans fell KRW 0.9 trillion. Lending contracted in both remaining groups. Non-bank depository institutions recorded a KRW 1.0 trillion decline, reversing a KRW 3.1 trillion increase. Other financial corporations went from adding KRW 8.9 trillion to reducing loans by KRW 2.4 trillion. Within the latter group the direction was uneven. Public financial institutions increased loans even as other financial intermediaries cut theirs. The data show a concentration of net growth at banks, but contain no borrower histories that establish a transfer of specific loans from one type of lender to another (p. 2 and notes 1–6).",
+    "Merchandise credit tells a different story. It rose KRW 5.0 trillion during the quarter, up from KRW 1.1 trillion in the second. Credit-specialised finance companies accounted for the reported increase, while the balance extended by merchandise companies such as department stores and car companies was flat at the precision shown. Merchandise credit represented only KRW 133.7 trillion of the total stock, yet contributed roughly half the quarterly increase in all household credit. Its 3.9% quarterly rise therefore carried more weight in the change than its small share of outstanding balances might suggest (pp. 1 and 3).",
+    "For investors assessing consumer lenders, the composition of this expansion matters as much as the headline slowdown. The preliminary tables measure changes in balances, which combine new lending with repayments and other movements in the outstanding stock. They do not report new originations, arrears, borrowers’ incomes or their reasons for using merchandise credit. The figures establish that housing and purchase-related exposures continued to build. Determining whether either development improved lenders’ cash flows or signalled pressure on households requires information beyond this release."
+  ],
+  "questions": [
+    {
+      "question": "Was the fall in non-housing loans caused by lower demand, tighter credit or repayments?",
+      "detail": "Non-housing balances swung from a KRW 13.1 trillion increase to a KRW 4.9 trillion decline. To distinguish weaker loan growth from deteriorating credit access, seek originations, repayments and lending standards by lender type and purpose. The Bank of Korea’s Economic Statistics System, flagged on page 3, and contemporary surveys of credit conditions are starting points. The distinction affects how an investor should interpret slower growth in lenders’ interest income."
+    },
+    {
+      "question": "How much of the housing increase was incremental system exposure to the same borrowers?",
+      "detail": "Commercial and specialised banks accounted for most of the increase in housing loans, while other groups showed smaller or negative moves. Compare new mortgages, refinancing and loan transfers across lenders with property transactions and borrower-level records. A rising bank balance after borrowers refinance existing debt elsewhere would have different implications for housing demand and leverage than fresh borrowing to acquire property. The sector totals do not identify either mechanism."
+    },
+    {
+      "question": "What drove merchandise credit to grow faster as other household loans fell?",
+      "detail": "Credit-specialised firms accounted for the rounded KRW 5.0 trillion increase. Compare card purchases and instalment balances with actual repayments, arrears and household consumption over the quarter. Payment-system statistics and finance-company disclosures could distinguish stronger purchases from slower settlement of existing obligations. The two would imply different revenue and loss prospects even if they produced similar end-quarter balances."
+    }
+  ],
+  "limitation": ""
+}

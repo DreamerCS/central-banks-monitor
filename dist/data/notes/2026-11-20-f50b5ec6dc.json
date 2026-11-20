@@ -1,0 +1,28 @@
+{
+  "title": "Korean borrowers took smaller new loans overall and larger mortgages",
+  "bank": "Bank of Korea",
+  "date": "2026-11-20",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11066825&menuNo=400069",
+  "summary": [
+    "South Korean borrowers taking out new household loans in the third quarter received an average of KRW 30.28 million, down KRW 3.86 million from the second quarter. Among those taking out mortgages, the average amount rose KRW 6.22 million to KRW 214.51 million. The Bank of Korea’s borrower-level figures separate the size of a new obligation from the total amount of lending. A fall in the overall average alongside more sizeable mortgages leaves open whether fewer people borrowed, the mix of products changed or lenders offered smaller amounts within particular categories.",
+    "The main table breaks the change down by product. The average new unsecured amount fell from KRW 19.70 million to KRW 16.42 million. Other secured lending outside mortgages also saw smaller advances. Jeonse loans, reported separately, edged up in average size. The amounts in the body of the table are in units of KRW 100,000. Its last column gives each category’s share of money lent. Mortgages accounted for 42.4% of new loan amounts. That figure cannot be used as the percentage of new borrowers who obtained a mortgage. Applying it as a borrower weight would distort attempts to reconcile the headline average with the much larger mortgage figure.",
+    "The slowdown in average new borrowing extended across all five age groups shown in the table. For borrowers in their forties it fell KRW 5.24 million, the largest absolute decline among those groups. The regional figures show why a large local decline need not dominate the national reading. Daegu-Gyeongbuk recorded a KRW 8.08 million fall and 6.2% of new lending by amount. Seoul metropolitan borrowers accounted for 61.1% of the money and saw a smaller KRW 3.41 million decline. Across provider categories, the average fell KRW 7.44 million for borrowers at non-bank financial institutions, compared with KRW 1.83 million at banks. These are separate breakdowns of the same lending. The release supplies no cross-tabulation showing whether the same customers drove the age, regional and lender differences.",
+    "Debt already accumulated followed a different path. The end-quarter household loan balance averaged KRW 97.98 million per borrower, slightly above the previous quarter. The corresponding mortgage balance rose KRW 1.47 million to KRW 163.40 million. With new mortgages averaging more than the outstanding mortgages, the credit exposure associated with a new mortgage borrower could differ from the existing book. These are averages across different populations. They provide no evidence that every existing mortgagor increased borrowing or that the people taking larger mortgages had become less able to repay.",
+    "The appendix describes a sample from NICE’s personal credit database covering 4.8% of adults aged 18 and over who possess credit information. An individual’s accounts may include some sole-proprietor business borrowing. The unit is a person, while household surveys use households and the Bank’s aggregate household credit statistics draw on comprehensive returns from institutions. The third-quarter sample figures were preliminary. The evidence is strongest on differences in the amounts associated with particular borrower and product groups. The publication leaves the number of new borrowers, their income and the quality of the resulting loans unresolved."
+  ],
+  "questions": [
+    {
+      "question": "How much of the fall in the overall average came from changes in who borrowed?",
+      "detail": "The amount per new borrower fell while the average new mortgage rose. Seek borrower counts and distributions by loan type alongside the amount shares reported in the main table. Recalculate the aggregate at the previous quarter’s borrower mix, allowing for people taking more than one product. The Bank’s Economic Statistics System and methodological releases are starting points. Separating composition from smaller advances within groups would sharpen estimates of new business available to lenders."
+    },
+    {
+      "question": "Could borrowers taking larger mortgages service them under less favourable rates?",
+      "detail": "New mortgages averaged KRW 214.51 million, but the report gives neither household income nor interest-rate structure. Match origination cohorts with debt-service ratios, loan-to-value ratios, rate fixation and property location where official supervisory data allow. Higher advances alongside higher incomes have different implications for bank losses from larger loans to similar-income borrowers. Comparing only new and outstanding average balances cannot distinguish the two."
+    },
+    {
+      "question": "Was the greater fall at non-bank lenders a supply constraint or a change in borrower demand?",
+      "detail": "The average new amount dropped more sharply at non-bank institutions. Compare application counts, approval rates, borrower credit grades and refinancing between banks and non-banks, controlling for region, age and loan purpose. Lender disclosures and surveys of credit conditions could show whether borrowers switched providers or sought smaller loans. This matters for forecasts of new lending revenue and for identifying concentrated credit risks among borrowers losing access to finance."
+    }
+  ],
+  "limitation": ""
+}

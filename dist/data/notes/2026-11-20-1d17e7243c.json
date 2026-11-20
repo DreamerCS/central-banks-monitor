@@ -1,0 +1,28 @@
+{
+  "title": "Taiwan’s export surplus rose sharply. Where did the proceeds go?",
+  "bank": "Central Bank of the Republic of China (Taiwan)",
+  "date": "2026-11-20",
+  "url": "https://www.cbc.gov.tw/en/cp-448-194217-51b8e-2.html",
+  "summary": [
+    "Taiwan earned a current account surplus of US$68.79 billion in the third quarter of 2026. The central bank attributes most of the rise from a year earlier to demand for technology-related exports. An investor following the Taiwan dollar also needs the other side of the accounts. Residents acquired foreign assets, nonresidents reduced their holdings of Taiwanese equities and exporters extended trade credit. The bank’s own reserve assets increased by US$3.10 billion in the quarter. For the first nine months, reserve assets actually declined by US$0.77 billion despite a cumulative current account surplus of US$188.92 billion. These totals cover transactions over their respective periods.",
+    "Table 1 shows how a strong expansion in both directions of trade produced the larger surplus. Goods exports rose by US$73.27 billion year on year to US$225.82 billion. Imports rose by US$52.33 billion to US$154.87 billion. The difference increased the goods balance by US$20.94 billion, accounting for roughly 95% of the US$22.04 billion increase in the current account surplus. Computer and information services also contributed. Higher receipts helped narrow the services deficit by US$0.79 billion, although it still stood at US$2.79 billion. Changes in primary and secondary income made smaller contributions. The bank reported lower outward payments of direct investment income to nonresidents and smaller outward family remittances by residents.",
+    "The largest component of the US$62.21 billion increase in net financial assets was other investment, at US$31.10 billion. The bank principally attributes that figure to trade credit extended by the private sector. An exporter can deliver goods and record a claim on an overseas buyer before receiving cash. This distinction matters when interpreting a large goods surplus as potential demand for the local currency. The release gives the net financial flows for the quarter, while the timing and currency of individual settlements remain open.",
+    "Portfolio investment added US$19.18 billion to net foreign assets through two channels. Residents increased their overseas portfolio assets by US$13.52 billion, including purchases of foreign debt securities by banks and foreign shares by the private sector. Nonresidents reduced their portfolio holdings in Taiwan by US$5.66 billion on balance. Table 1 separates that net withdrawal into US$10.64 billion of equity and fund-share sales and US$4.98 billion of debt securities purchases. Foreign investors therefore moved in opposite directions across the two asset classes during the same quarter. In direct investment, a US$15.51 billion increase in outward investment exceeded a US$4.31 billion increase in inward investment. The remaining US$0.73 billion net increase came through financial derivatives.",
+    "The figures reconcile once the residual is included. After financial transactions and the small capital-account deficit, the balance was US$6.57 billion. Net errors and omissions of minus US$3.48 billion brought that amount to the recorded reserve increase, using the unrounded table entries. The historical sheets label the third-quarter estimates preliminary and earlier quarters revised. Taken together, the tables show how the export surplus was matched by private financial transactions. They give neither the exchange rates at which firms converted their proceeds nor a measure of the central bank’s intervention at particular times."
+  ],
+  "questions": [
+    {
+      "question": "How much of the rise in export earnings generated near-term demand for Taiwan dollars?",
+      "detail": "Goods accounted for roughly 95% of the increase in the current account surplus, yet trade credit accounted for much of the rise in other investment. Timing matters for an FX position if sales are booked well ahead of settlement. Compare the next balance of payments release and trade-credit breakdown with export receipts and foreign-exchange settlement data, where available. Look for receivables running down as receipts arrive."
+    },
+    {
+      "question": "What explains nonresidents selling Taiwanese equities while buying local debt?",
+      "detail": "The quarterly tables distinguish US$10.64 billion of equity and fund-share sales from US$4.98 billion of debt purchases. They cannot establish whether the same investors switched assets or whether different holders drove each flow. Match securities transaction data and holdings by investor group to the quarter. A change in equity exposure and a broad withdrawal of foreign funding would carry quite different implications for local asset prices."
+    },
+    {
+      "question": "How durable is the technology contribution to the goods surplus?",
+      "detail": "The central bank links export growth to demand for emerging technology applications. Imports also rose by more than US$52 billion from a year earlier. Product-level export and import volumes, unit values and order data would help separate a persistent widening in net exports from price effects or the timing of imported inputs. Recheck the preliminary figures against the revised series before extrapolating the quarterly change."
+    }
+  ],
+  "limitation": "The current-quarter figures are preliminary. The release and its four statistical tables report transactions, without identifying their settlement currencies or individual counterparties."
+}

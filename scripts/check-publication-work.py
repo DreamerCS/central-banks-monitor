@@ -137,17 +137,26 @@ def include_supplements(publications, supplements):
         for field in ("workId", "candidateDate", "dateStatus", "confirmedDate", "dateEvidence"):
             if field in record:
                 item[field] = record[field]
+        if record.get("sourceUrls"):
+            item["sourceUrls"] = sorted(set(item.get("sourceUrls", [])) |
+                                        {key(a) for a in record["sourceUrls"]})
         editions.update({a: canonical for a in candidates})
     return editions
 
 
 def apply_source_versions(publications, editions, hashes):
+    owners = defaultdict(set)
+    for official, canonical in editions.items():
+        owners[official].add(canonical)
+    for canonical, item in publications.items():
+        for document in item.get("sourceUrls", []):
+            owners[document].add(canonical)
     versions = defaultdict(list)
     for url, checksum in hashes.items():
         if not isinstance(checksum, str) or not re.fullmatch("[0-9a-f]{64}", checksum):
             raise ValueError(f"Invalid source SHA-256: {url}")
-        if url in editions:
-            versions[editions[url]].append((url, checksum))
+        for owner in owners.get(url, []):
+            versions[owner].append((url, checksum))
     for url, pairs in versions.items():
         item = publications[url]
         item["revision"] = digest([item["revision"], sorted(pairs)])
@@ -177,6 +186,8 @@ def reconcile(catalogue, previous, from_date, prompt_hash, reviewed, disposition
     months = defaultdict(Counter)
     public_months = defaultdict(Counter)
     retired = set(ledger)
+    missing_public = []
+    prior_public_urls = {i["url"] for i in previous.get("items", []) if i.get("inPublicArchive")}
     for url, item in catalogue.items():
         prior = next((prior_editions[a] for a in (url, *item["aliases"]) if a in prior_editions), None)
         changed = prior is None or prior["revision"] != item["revision"]
@@ -184,6 +195,8 @@ def reconcile(catalogue, previous, from_date, prompt_hash, reviewed, disposition
         receipt = digest([prompt_hash, item["revision"]])
         accepted = (prior or {}).get("reviewReceipt")
         decision = (prior or {}).get("disposition") if (prior or {}).get("decisionReceipt") == receipt else None
+        if url in dispositions and item["noteFile"]:
+            raise ValueError(f"Source-only decision resolves to published manuscript {item['noteFile']}: {url}")
         if url in dispositions:
             assigned = True
             decision = dispositions[url]
@@ -193,7 +206,11 @@ def reconcile(catalogue, previous, from_date, prompt_hash, reviewed, disposition
             assigned = True
             accepted = receipt
             decision = None
-        state = {"revision": item["revision"], "assigned": assigned}
+        was_public = bool((prior or {}).get("everInPublicArchive") or url in prior_public_urls)
+        state = {"revision": item["revision"], "assigned": assigned,
+                 "everInPublicArchive": item["inPublicArchive"] or was_public}
+        if was_public and not item["inPublicArchive"]:
+            missing_public.append(url)
         if item["aliases"]:
             state["aliases"] = item["aliases"]
         if decision:
@@ -236,6 +253,7 @@ def reconcile(catalogue, previous, from_date, prompt_hash, reviewed, disposition
     return {"schemaVersion": 1, "fromDate": from_date, "promptSha256": prompt_hash,
             "counts": counts(totals), "months": {m: counts(c) for m, c in sorted(months.items())},
             "publicCounts": counts(public), "publicMonths": {m: counts(c) for m,c in sorted(public_months.items())},
+            "absentFromPublicIndex": sorted(set(missing_public) | {u for u in retired if ledger[u].get("everInPublicArchive") or u in prior_public_urls}),
             "absentFromIndex": sorted(retired), "absentItems": [i for i in prior_absent if i["url"] in retired],
             "items": work, "ledger": ledger}
 
@@ -305,6 +323,8 @@ def main():
         result.update(supplement=supplement, sourceFingerprints=hashes)
         save_private(state, result)
     print(json.dumps(result["counts"], sort_keys=True))
+    if result["absentFromPublicIndex"]:
+        print(f"{len(result['absentFromPublicIndex'])} prior public works are missing from this public archive and index.")
     if result["absentFromIndex"]:
         print(f"{len(result['absentFromIndex'])} prior source identities are absent from the supplied index; see private state.")
 
