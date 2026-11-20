@@ -324,6 +324,7 @@ function sources(lines) {
   if (metric === "rates") {
     note = "Observation dates vary by jurisdiction.";
     if (selected.rates.includes("AR")) note += " The BIS Argentina series ends on 10 July 2025.";
+    if (selected.rates.includes("CH")) note += " Until 12 June 2019, Switzerland’s series shows the midpoint of the target range. From 13 June it shows the SNB policy rate.";
     if (selected.rates.includes("CN")) note += " The BIS China series uses the one-year loan prime rate in recent years.";
     addSource("BIS instrument definitions and series breaks", "https://www.bis.org/pages/statistics/cbpol-doc.pdf");
     for (const {bank} of lines) addSource(bank.id === "TW" ? "Taiwan CBC discount rate schedule" : `${bank.name} · ${bank.institution} via BIS`, bank.source);
@@ -336,6 +337,57 @@ function sources(lines) {
     addSource("MAS monetary policy statements", "https://www.mas.gov.sg/monetary-policy/monetary-policy-statements");
   }
   ui["history-series-note"].textContent = note;
+}
+
+function ratePath(values, first, start, end) {
+  let priorDay, priorValue, firstSeen, lastSeen;
+  let rises = 0, cuts = 0, up = 0, down = 0, pairs = 0, gaps = 0;
+  for (let day = Math.max(first, start - 7); day <= end; day++) {
+    const value = values[day - first];
+    if (!Number.isFinite(value)) continue;
+    if (day >= start) {
+      firstSeen ??= day;
+      lastSeen = day;
+      if (priorDay !== undefined && day - priorDay <= 7) {
+        pairs++;
+        const bp = Math.round((value - priorValue) * 100 * 1e6) / 1e6;
+        if (bp > 0) { up += bp; rises++; }
+        if (bp < 0) { down += bp; cuts++; }
+      } else if (priorDay !== undefined) {
+        gaps++;
+      }
+    }
+    priorDay = day;
+    priorValue = value;
+  }
+  return {rises, cuts, up, down, pairs, gaps, firstSeen, lastSeen};
+}
+
+function showRatePaths(lines) {
+  ui["rate-path"].hidden = metric !== "rates";
+  if (metric !== "rates") return;
+  ui["rate-path-period"].textContent = dayLabel(from) + " – " + dayLabel(to);
+  const bp = value => (value > 0 ? "+" : "") + valueFormat.format(value) + " bp";
+  const rows = lines.map(({bank}) => {
+    const path = ratePath(bank.values, firstDay, from, to);
+    const row = element("tr"), name = element("th", bank.name);
+    name.scope = "row";
+    row.append(name);
+    const cells = path.pairs
+      ? [path.rises + " · " + bp(path.up), path.cuts + " · " + bp(path.down), bp(path.up + path.down)]
+      : ["—", "—", "—"];
+    for (const value of cells) row.append(element("td", value));
+    let coverage = "No observations";
+    if (path.firstSeen !== undefined) {
+      coverage = dayLabel(path.firstSeen);
+      if (path.lastSeen !== path.firstSeen) coverage += " – " + dayLabel(path.lastSeen);
+      if (!path.pairs) coverage += " · No comparable pair";
+      if (path.gaps) coverage += " · " + path.gaps + (path.gaps === 1 ? " gap" : " gaps");
+    }
+    row.append(element("td", coverage));
+    return row;
+  });
+  ui["rate-path-rows"].replaceChildren(...rows);
 }
 
 function render() {
@@ -358,6 +410,7 @@ function render() {
   ui["chart-status"].textContent = hasValues ? "" : "The selected series have no observations in this date range.";
   ui["history-export"].disabled = !hasValues;
   compare(lines);
+  showRatePaths(lines);
   sources(lines);
   inspect(hasValues ? lastObserved : periods.length - 1);
   draw();
@@ -454,6 +507,15 @@ async function start() {
     if (next === undefined) return;
     event.preventDefault();
     inspect(Math.min(last, Math.max(0, next)), true);
+  });
+  ui["chart-swiss-floor"].addEventListener("click", () => {
+    metric = "rates";
+    view = "level";
+    grain = "month";
+    selected.rates = ["CH"];
+    setRange(toDay("2011-09-01"), toDay("2015-01-30"));
+    render();
+    ui["chart-title"].focus();
   });
   ui["history-export"].addEventListener("click", exportCsv);
 }

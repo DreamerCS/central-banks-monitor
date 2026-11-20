@@ -94,3 +94,34 @@
   .history-range { grid-column: 1 / -1; }
   .history-field input { min-width: 0; }
 }
+
+.policy-path, .policy-episode { margin-top: clamp(26px, 4vw, 48px); }
+.policy-section-heading { display: flex; justify-content: space-between; align-items: end; gap: 12px 20px; flex-wrap: wrap; margin-bottom: 12px; }
+.policy-section-heading h2 { margin: 0; font: 400 clamp(1.7rem, 3.1vw, 2.5rem)/1.1 var(--serif); letter-spacing: -.035em; }
+.policy-date, #rate-path-period { margin: 0 0 5px; color: var(--quiet); font: .75rem/1.5 ui-monospace, monospace; }
+#rate-path-period { margin: 6px 0 0; }
+.policy-table-scroll { overflow-x: auto; }
+.policy-path-table { width: 100%; border-collapse: collapse; font-size: .86rem; font-variant-numeric: tabular-nums; }
+.policy-path-table th, .policy-path-table td { padding: .65rem .55rem; border-bottom: 1px solid var(--hairline); text-align: left; }
+.policy-path-table thead { color: var(--quiet); border-top: 1px solid var(--navy); }
+.policy-path-table td { white-space: nowrap; }
+.policy-path-table tbody th { min-width: 8rem; }
+.policy-footnote, .policy-reading p { max-width: 96ch; font-size: .83rem; line-height: 1.5; color: var(--quiet); }
+.policy-episode { padding-top: 22px; border-top: 1px solid var(--navy); }
+.policy-plot-link { padding: 9px 13px; border: 1px solid #486356; color: var(--navy); border-radius: 3px; font: inherit; font-size: .82rem; background: transparent; cursor: pointer; }
+.policy-plot-link:hover, .policy-plot-link:focus-visible { background: #e5e9de; }
+.policy-lede { max-width: 78ch; margin: 12px 0 22px; line-height: 1.55; }
+.policy-timeline { list-style: none; margin: 0; padding: 0; }
+.policy-timeline li { display: grid; grid-template-columns: minmax(6rem, .26fr) 1fr; gap: 8px 20px; padding-block: 13px; border-top: 1px solid var(--hairline); }
+.policy-timeline time { color: var(--quiet); font: .78rem/1.6 ui-monospace, monospace; }
+.policy-episode h3 { margin: 0 0 4px; font: 600 1.08rem/1.3 var(--serif); }
+.policy-timeline p, .policy-interpretation p { max-width: 77ch; margin: 0 0 5px; font-size: .91rem; line-height: 1.55; }
+.policy-episode a { color: #315e4f; text-underline-offset: .17em; font-size: .82rem; }
+.policy-interpretation { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 32px; padding: 18px 0; border-top: 1px solid var(--hairline); }
+.policy-reading { margin: 4px 0 20px; color: var(--quiet); font-size: .84rem; }
+.policy-reading summary { cursor: pointer; }
+@media (max-width: 600px) {
+  .policy-interpretation, .policy-timeline li { grid-template-columns: 1fr; }
+  .policy-timeline li { gap: 4px; }
+  .policy-path-table { font-size: .8rem; }
+}

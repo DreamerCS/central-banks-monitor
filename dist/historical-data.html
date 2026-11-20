@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#18251f">
-  <meta name="description" content="Compare central bank policy rates and explore publications by year, month, week or day.">
-  <title>Historical Data | Central Bank Intelligence</title>
+  <meta name="description" content="Trace changes in policy rates, compare jurisdictions and read the decisions behind Switzerland’s exchange-rate floor.">
+  <title>Policy History | Central Bank Intelligence</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="historical-data.css">
@@ -67,7 +67,7 @@
         <div class="history-body">
           <div class="history-plot">
             <div class="history-plot-header">
-              <div><h2 id="chart-title">Policy rates</h2><p id="chart-unit"></p></div>
+              <div><h2 id="chart-title" tabindex="-1">Policy rates</h2><p id="chart-unit"></p></div>
               <button id="history-export" class="history-export" type="button">Export CSV ↓</button>
             </div>
             <div class="history-chart">
@@ -88,6 +88,33 @@
             <ul id="history-legend" class="history-legend"></ul>
           </aside>
         </div>
+      </section>
+      <section id="rate-path" class="policy-path" aria-labelledby="rate-path-title">
+        <div class="policy-section-heading"><div><h2 id="rate-path-title">Rate moves in this window</h2><p id="rate-path-period"></p></div></div>
+        <div class="policy-table-scroll" tabindex="0" role="region" aria-label="Selected jurisdictions’ rate moves">
+          <table class="policy-path-table">
+            <thead><tr><th scope="col">Jurisdiction</th><th scope="col">Upward steps</th><th scope="col">Downward steps</th><th scope="col">Net move</th><th scope="col">Observations</th></tr></thead>
+            <tbody id="rate-path-rows"></tbody>
+          </table>
+        </div>
+        <p class="policy-footnote">Steps use daily observations at every chart frequency. Opposite moves within a month or year count separately. A comparison can start up to seven days before the window. Longer gaps break the chain. These are changes in the published instrument, which may include a change of benchmark.</p>
+      </section>
+      <section class="policy-episode" aria-labelledby="floor-title">
+        <div class="policy-section-heading">
+          <div><p class="policy-date">Switzerland · 2011–2015</p><h2 id="floor-title">The franc floor and the rate cut</h2></div>
+          <button id="chart-swiss-floor" type="button" class="policy-plot-link">Chart the Swiss episode ↑</button>
+        </div>
+        <p class="policy-lede">On 15 January 2015 the Swiss National Bank removed the franc’s floor against the euro and cut interest rates. The two decisions worked in different directions. Reading the rate line alone gives an incomplete account of the change in borrowing and trading conditions.</p>
+        <ol class="policy-timeline">
+          <li><time datetime="2011-09-06">6 Sep 2011</time><div><h3>A minimum price for the euro</h3><p>The SNB committed to buying foreign currency in unlimited quantities if one euro threatened to buy less than CHF 1.20. This put a ceiling on the franc’s strength against the euro. A rate-series observer saw no step that day. The commitment changed the price at which the central bank stood ready to trade.</p><a href="https://www.snb.ch/en/publications/communication/press-releases/2011/pre_20110906">Minimum exchange rate decision</a></div></li>
+          <li><time datetime="2014-12-18">18 Dec 2014</time><div><h3>A charge on eligible franc balances</h3><p>The SNB retained the floor and announced a −0.25% charge on sight deposits above an exemption threshold, originally scheduled to start on 22 January. It widened its three-month Libor target range to −0.75% to +0.25%. Its midpoint dropped from +0.125% to −0.25%. The chart records that December move even though the deposit charge had yet to take effect.</p><a href="https://www.snb.ch/public/publication/en/www-snb-ch/publications/communication/press-releases/2014/pre_20141218/publications0_en/pre_20141218.en.pdf">Decision and deposit terms</a></div></li>
+          <li><time datetime="2015-01-15">15 Jan 2015</time><div><h3>The floor ends and the rate falls again</h3><p>The bank ended the CHF 1.20 commitment immediately and shifted the Libor range to −1.25% to −0.25%. The midpoint fell another 50 basis points. It also set the sight-deposit charge at −0.75% for 22 January. Lower remuneration discouraged demand for francs while ending the floor allowed them to appreciate.</p><a href="https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/press-releases/2015/pre_20150115/publications0_en/pre_20150115.en.pdf">Discontinuation and new target range</a></div></li>
+        </ol>
+        <div class="policy-interpretation">
+          <div><h3>What changed outside the rate series?</h3><p>The SNB’s 2014 annual report records CHF 25.8 billion of foreign-currency purchases late that year. The 2015 report records CHF 86.1 billion across the full year, mostly in January. That total includes purchases on both sides of the regime change. Treating it all as the cost of defending the floor would overstate what the figure measures.</p><p class="policy-references"><a href="https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/annual-report/annrep_2014_komplett/publications0_en/annrep_2014_komplett.en.pdf">2014 annual report</a> · <a href="https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/annual-report/annrep_2015_komplett/publications0_en/annrep_2015_komplett.en.pdf">2015 annual report</a></p></div>
+          <div><h3>What would distinguish the explanations?</h3><p>A falling rate could be read as an independent response to a weakening domestic outlook. The joint announcement also supports an exchange-rate explanation. In April, the SNB said prolonged euro weakness would have required interventions of rapidly increasing size. Comparing franc rates and euro cross-rates with inflation expectations and Swiss credit terms would help separate the external pressure from domestic transmission. Two instruments changed together, so their separate effects cannot be recovered from this decision alone.</p><p class="policy-references"><a href="https://www.snb.ch/en/publications/communication/speeches/2015/ref_20150424_tjn">SNB’s April retrospective</a> · <a href="https://www.bis.org/pages/statistics/cbpol-doc.pdf">BIS instrument definition, p. 10</a></p></div>
+        </div>
+        <details class="policy-reading"><summary>Who faced the new interest rate?</summary><p>The SNB charged eligible sight-deposit balances above their exemption thresholds. To test how much of the charge reached households or firms, compare deposit and lending rates at banks with different amounts of exposed balances before and after 22 January.</p></details>
       </section>
       <details class="history-source-details">
         <summary>Sources &amp; series notes</summary>
