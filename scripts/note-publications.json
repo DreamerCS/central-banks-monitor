@@ -1127,7 +1127,10 @@
   "2026-11-16-5a4ee6d389.json": {
     "jurisdiction": "Euro area",
     "type": "Research",
-    "title": "Leaning without Sowing the Wind: Optimal Monetary Policy in Speculative Booms"
+    "title": "Leaning without Sowing the Wind: Optimal Monetary Policy in Speculative Booms",
+    "aliases": [
+      "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/26/Files/dt2641e.pdf"
+    ]
   },
   "2026-11-16-cf69e74b2f.json": {
     "jurisdiction": "Brazil",
@@ -1142,7 +1145,10 @@
   "2026-11-17-0bd5e1fb8c.json": {
     "jurisdiction": "Euro area",
     "type": "Research",
-    "title": "Fiscal Policy during the cost-of-living crisis"
+    "title": "Fiscal Policy during the cost-of-living crisis",
+    "aliases": [
+      "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/26/Files/dt2642e.pdf"
+    ]
   },
   "2026-11-17-0ee5b55c75.json": {
     "jurisdiction": "Euro area",
@@ -2093,5 +2099,20 @@
     "title": "Ensuring the resilience of CCPs: near-final policy statement",
     "jurisdiction": "United Kingdom",
     "type": "Policy"
+  },
+  "2026-11-20-104d1c291c.json": {
+    "jurisdiction": "Euro area",
+    "type": "Speech",
+    "title": "Christine Lagarde: Acting in time"
+  },
+  "2026-11-17-92ceb53b39.json": {
+    "title": "Monetary Council decision, 17 November 2026",
+    "type": "Decision",
+    "jurisdiction": "Hungary"
+  },
+  "2026-11-17-52feb74401.json": {
+    "jurisdiction": "United States",
+    "type": "Research",
+    "title": "Wages Are Cooling, While Supercore Inflation Isn't"
   }
 }

@@ -11,16 +11,16 @@
   ],
   "questions": [
     {
-      "question": "Were producer-price increases spreading into prices paid by households?",
-      "detail": "Compare the breadth of producer increases and firms’ pricing plans with subsequent changes in goods and services inflation. A broader CPI response after stronger demand would support Hjelm’s mechanism more directly than a short-lived rise in imported input costs."
+      "question": "Were producer-price increases reaching households in the categories most exposed to the shock?",
+      "detail": "Hjelm cites producer prices and pricing plans while acknowledging little direct impact on consumer inflation so far. Compare the relevant Swedish producer and consumer price indices with survey selling intentions, category by category and at plausible lags. For the front of the rate curve, an increase extending beyond the initial input-intensive goods would carry more weight than isolated retail price changes."
     },
     {
-      "question": "Did diminishing labour-market slack improve firms’ ability to pass on costs?",
-      "detail": "Compare measures of labour-market slack and resource utilisation available before the meeting with pricing behaviour across industries. Estimate separately the contribution from a weaker krona, which could raise input costs even where domestic demand remained soft."
+      "question": "Was stronger demand giving firms the ability to pass costs on?",
+      "detail": "The speaker connects higher resource utilisation next year with a broader price response. A weak krona could raise costs even for firms with little pricing power. Compare business surveys, employment and capacity data with margins and selling prices in domestic and import-intensive industries. That distinction changes the outlook for bank borrowers’ cash flows as well as for the rate path."
     },
     {
-      "question": "Did the speech deliver new rate-path information?",
-      "detail": "Compare the conditional language with the last monetary policy meeting and align any intraday rate movements with the Linköping event and competing news. Distinguish a restated view that another increase was likely from a new signal about the size or date of a move."
+      "question": "How much of another rate increase had markets already anticipated?",
+      "detail": "Hjelm describes the view he expressed at the previous meeting and leaves the extent of further tightening open. Compare the official meeting minutes with the speech and use dated Swedish overnight-indexed swap quotes around both events, allowing for simultaneous international news. This would show whether an investor received new information on the next decision or heard a familiar conditional judgment."
     }
   ],
   "limitation": ""
