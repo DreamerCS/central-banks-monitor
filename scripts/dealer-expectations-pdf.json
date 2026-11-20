@@ -1,0 +1,14 @@
+{
+  "2022-01-26":{"slug":"jan","sent":"2022-01-12","due":"2022-01-18","mode":"0.13","modeN":24,"modeQ":"3","probQ":"3d","reason":"The distribution question covers year-end levels."},
+  "2022-03-16":{"slug":"mar","sent":"2022-03-02","due":"2022-03-07","mode":"0.38","modeN":24,"modeQ":"2a","probQ":"2d","probN":21,"firstCutoff":0,"p":[0,4,87,8,0,0,0,0,0,0]},
+  "2022-05-04":{"slug":"may","sent":"2022-04-20","due":"2022-04-25","mode":"0.88","modeN":25,"modeQ":"2a","probQ":"2c","probN":22,"firstCutoff":0,"p":[0,0,0,6,88,5,0,0,0,0]},
+  "2022-06-15":{"slug":"jun","sent":"2022-06-01","due":"2022-06-06","mode":"1.38","modeN":25,"modeQ":"2a","probQ":"2c","probN":22,"firstCutoff":0.5,"p":[0,0,0,3,90,6,0,0,0,0]},
+  "2022-07-27":{"slug":"jul","sent":"2022-07-13","due":"2022-07-18","mode":"2.38","modeN":25,"modeQ":"3a","probQ":"3c","probN":21,"firstCutoff":1,"p":[0,0,0,0,0,2,79,19,0,0]},
+  "2022-09-21":{"slug":"sep","sent":"2022-09-07","due":"2022-09-12","mode":"3.13","modeN":25,"modeQ":"2a","probQ":"2c","probN":18,"firstCutoff":1.5,"p":[0,0,0,0,0,1,22,73,3,0]},
+  "2022-11-02":{"slug":"nov","sent":"2022-10-19","due":"2022-10-24","mode":"3.875","modeN":25,"modeQ":"3a","probQ":"3c","probN":19,"firstCutoff":2.5,"p":[0,0,0,0,1,9,84,6,0,0]},
+  "2022-12-14":{"slug":"dec","sent":"2022-11-30","due":"2022-12-05","mode":"4.38","modeN":25,"modeQ":"2a","probQ":"2c","reason":"December’s distribution is for the end of the year, after the meeting."},
+  "2023-02-01":{"slug":"jan-feb","sent":"2023-01-18","due":"2023-01-23","mode":"4.63","modeN":25,"modeQ":"3a","probQ":"3c","probN":24,"firstCutoff":3.5,"p":[0,0,0,0,2,85,13,0,0,0]},
+  "2023-03-22":{"slug":"mar","sent":"2023-03-08","due":"2023-03-14","mode":"4.88","modeN":25,"modeQ":"2a","probQ":"2c","probN":24,"firstCutoff":4.25,"p":[1,3,28,59,8,0,0,0,0,0]},
+  "2023-05-03":{"slug":"may","sent":"2023-04-19","due":"2023-04-24","mode":"5.13","modeN":25,"modeQ":"3a","probQ":"3c","probN":24,"firstCutoff":4.25,"p":[0,0,0,16,82,2,0,0,0,0]},
+  "2023-06-14":{"slug":"jun","sent":"2023-05-31","due":"2023-06-05","mode":"5.13","modeN":25,"modeQ":"2a","probQ":"2c","probN":25,"firstCutoff":4.25,"p":[0,0,0,0,67,33,0,0,0,0]}
+}

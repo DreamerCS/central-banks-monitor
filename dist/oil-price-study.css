@@ -1,0 +1,20 @@
+.oil-study{max-width:1200px;margin:0 auto 5rem;color:#223229;font:1rem/1.55 Arial,sans-serif}
+.oil-intro{padding:clamp(2.5rem,6vw,5.2rem) 0 1.1rem;border-bottom:1px solid #647567}
+.oil-intro p:first-child{font:.87rem/1.45 ui-monospace,monospace;color:#5a675a}
+.oil-intro h1{font:400 clamp(3.2rem,6.8vw,6.3rem)/.99 var(--serif);letter-spacing:-.055em;margin:.6rem 0 1.1rem}
+.oil-study p{max-width:84ch}.oil-intro p:last-child{max-width:70ch;font:400 1.15rem/1.5 var(--serif)}
+.oil-study h2{font:400 clamp(1.7rem,3vw,2.6rem)/1.13 var(--serif);margin:1.8rem 0 .6rem;letter-spacing:-.025em}
+.oil-study h3{font:600 1.15rem/1.3 var(--serif);margin:1.2rem 0 .4rem}
+.oil-controls,.oil-legend{display:flex;flex-wrap:wrap;gap:.75rem 1.5rem}
+.oil-controls label{display:grid;gap:.15rem;font-size:.9rem;font-weight:600}.oil-controls select{padding:.4rem;font:inherit;color:inherit}
+.oil-scroll{max-width:100%;overflow-x:auto}.oil-study table{width:100%;border-collapse:collapse;font-size:.91rem;font-variant-numeric:tabular-nums}
+.oil-study th,.oil-study td{text-align:left;padding:.45rem .7rem .45rem 0;border-bottom:1px solid #c5cabb}
+.oil-study tbody th,.oil-study td{white-space:nowrap}.oil-study caption{font-weight:600;text-align:left;padding:.4rem 0}
+.oil-study details{margin:1rem 0}.oil-study summary{cursor:pointer;font-weight:600}.oil-study a{color:#255644;text-underline-offset:.18em}
+.oil-study figure{margin:1rem 0}.oil-study svg{display:block;width:100%;max-width:810px}
+.oil-study svg text{font:13px Arial,sans-serif;fill:#405246}.oil-grid{stroke:#c9cebf}.oil-zero{stroke:#53675a;stroke-dasharray:2 3}.oil-trace{fill:none;stroke-width:2.5}
+.oil-trace.us{stroke:#255e50}.oil-trace.ea{stroke:#9a5337;stroke-dasharray:7 3}
+.oil-legend span::before{content:"";display:inline-block;width:1.6rem;border-top:3px solid #255e50;margin-right:.4rem;vertical-align:middle}
+.oil-legend span+span::before{border-top:3px dashed #9a5337}.oil-study figcaption,.oil-caption,.oil-legend{font-size:.9rem;color:#516052}
+.oil-method{padding-block:1rem;border-top:1px solid #657469}
+@media(max-width:550px){.oil-study svg text{font-size:17px}}

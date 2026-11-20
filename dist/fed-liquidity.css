@@ -1,0 +1,25 @@
+.fls-study { scroll-margin-top: 1.5rem; }
+.fls-study .fls-picker { display: grid; align-content: start; gap: .35rem; min-width: 0; font-size: .86rem; }
+.fls-study .fls-picker select { max-width: 100%; font: inherit; padding: .4rem .5rem; }
+.fls-study h3 { margin: 1.25rem 0 .5rem; }
+.fls-study h4 { margin: .9rem 0 .4rem; font-size: .9rem; }
+.fls-study .fls-figure { max-width: 46rem; margin: 1rem 0; }
+.fls-study .fls-figure small { font-weight: normal; margin-left: .5rem; }
+.fls-study .fls-bars { display: grid; gap: .42rem; }
+.fls-study .fls-bar-row { display: grid; grid-template-columns: 5.25rem minmax(0,1fr) 4.8rem; align-items: center; gap: .5rem; font-size: .82rem; font-variant-numeric: tabular-nums; }
+.fls-study .fls-bar-row strong { text-align: right; }
+.fls-study .fls-track { height: .65rem; background: color-mix(in srgb, currentColor 8%, transparent); }
+.fls-study .fls-bar { background: #417a66; height: 100%; min-width: 1px; }
+.fls-study .fls-table { font-variant-numeric: tabular-nums; width: 100%; }
+.fls-study .fls-table caption { text-align: left; padding: .6rem 0; font-size: .85rem; }
+.fls-study .fls-table td, .fls-study .fls-table th { text-align: right; }
+.fls-study .fls-table th:first-child { text-align: left; }
+.fls-study .fls-table tbody th { white-space: nowrap; }
+.fls-study .policy-reading { margin-top: .8rem; }
+.fls-study .policy-reading p, .fls-study .policy-reading ul { max-width: 76ch; }
+.fls-study [hidden] { display: none !important; }
+@media (max-width: 650px) {
+  .fls-study .policy-section-heading { display: block; }
+  .fls-study .fls-picker { max-width: 22rem; margin: .8rem 0; }
+  .fls-study .fls-table { min-width: 32rem; }
+}

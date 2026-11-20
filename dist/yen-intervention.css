@@ -1,0 +1,26 @@
+.yen-main{max-width:64rem;margin:0 auto;padding:2.5rem clamp(1rem,5vw,3.5rem) 5rem;color:#19251e}
+.yen-main h1,.yen-main h2,.yen-main h3{font-family:Georgia,serif;line-height:1.15;letter-spacing:-.025em;color:#19251e}
+.yen-main h1{max-width:16ch;font-size:clamp(2.5rem,6.5vw,5.4rem);margin:1.2rem 0}
+.yen-main h2{font-size:clamp(1.8rem,4vw,2.65rem);margin:0 0 .9rem}
+.yen-main h3{font-size:1.55rem;margin:2rem 0 .6rem}
+.yen-main p,.yen-main li{max-width:76ch;line-height:1.65;margin:0 0 1rem}
+.yen-main li{padding-left:.35rem}
+.yen-main .yen-lead{font-size:clamp(1.15rem,2.4vw,1.45rem);line-height:1.5;max-width:62ch}
+.yen-main section[id]{margin:2.5rem 0;scroll-margin-top:1rem}
+.yen-main a{color:#185a43;text-underline-offset:.18em}
+.yen-jumps{display:flex;flex-wrap:wrap;gap:.35rem 1.3rem;border-block:1px solid #b7c3b9;padding:.8rem 0}
+.yen-scroll{overflow-x:auto;border:1px solid #c2cdc3;border-radius:.3rem;margin:.9rem 0 1.3rem;background:#fff}
+.yen-scroll:focus-visible,.yen-main summary:focus-visible{outline:3px solid #236349;outline-offset:2px}
+.yen-main table{width:100%;border-collapse:collapse;font-size:.9rem;font-variant-numeric:tabular-nums;white-space:nowrap}
+.yen-main caption{text-align:left;padding:.8rem;font-weight:700;background:#edf2ec;color:#203829}
+.yen-main th,.yen-main td{text-align:right;padding:.55rem .65rem;border-bottom:1px solid #e3e9e2;vertical-align:top}
+.yen-main th:first-child,.yen-main td:first-child{text-align:left}
+.yen-main thead{color:#415547}
+.yen-main small{display:block;color:#4d5c50;font-size:.77rem;margin-top:.12rem}
+.yen-main .yen-note{font-size:.86rem;color:#425748}
+.yen-main details{border-top:1px solid #c4cec5;padding:.65rem .2rem;scroll-margin-top:.75rem}
+.yen-main details[open] summary{margin-bottom:.9rem}
+.yen-main summary{font-weight:650;cursor:pointer}
+.yen-main summary span{font-weight:400;color:#476451;margin-left:.55rem}
+@media(max-width:600px){.yen-main{padding-top:1.5rem}.yen-main section[id]{margin:1.8rem 0}.yen-main th,.yen-main td{padding:.5rem}.yen-main ol{padding-left:1.25rem}}
+@media print{.cbi-head,.yen-jumps{display:none}.yen-scroll{overflow:visible}.yen-main{max-width:100%;padding:0}.yen-main details{break-inside:avoid}}

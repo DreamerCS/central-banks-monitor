@@ -17,6 +17,8 @@
   <script type="module" src="policy-erm.js"></script>
   <link rel="stylesheet" href="policy-world-year.css">
   <script type="module" src="policy-world-year.js"></script>
+  <link rel="stylesheet" href="fed-liquidity.css">
+  <script type="module" src="fed-liquidity.js"></script>
 </head>
 <body class="history-page">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -37,7 +39,7 @@
       <h1>Policy <em>history</em></h1>
       <p class="history-dateline">Chart coverage · 2000 <span aria-hidden="true">—</span> 2026</p>
     </div>
-    <nav class="ledger-jump" aria-label="Policy history sections"><a href="#annual-policy-ledger">Compare policy decisions by year, 2000–2026 ↓</a> <a href="#policy-world-year">Compare rates across economies ↓</a></nav>
+    <nav class="ledger-jump" aria-label="Policy history sections"><a href="#fed-liquidity-stance">Emergency lending and the policy rate</a> · <a href="#annual-policy-ledger">Compare policy decisions by year, 2000–2026 ↓</a> <a href="#policy-world-year">Compare rates across economies ↓</a></nav>
     <p id="history-load" class="history-load" role="status">Loading historical data…</p>
     <div id="history-explorer" hidden>
       <div class="history-metrics" role="group" aria-label="Chart metric">
@@ -202,6 +204,62 @@
       <p>The operating rates shifted together while portfolio runoff continued. Monthly redemption caps remained $25 billion for Treasuries and $35 billion for agency debt and agency mortgage-backed securities combined. Actual redemptions depended on principal payments. The overnight observations establish immediate pass-through at the median. Assessing liquidity across borrowers would also require transaction volumes and the rate distribution.</p>
       <p class="policy-footnote"><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a1.htm">July operating directive</a> · <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a1.htm">September operating directive</a> · <a href="https://markets.newyorkfed.org/api/rates/unsecured/effr/search.json?startDate=09/17/2024&amp;endDate=09/20/2024&amp;type=rate">New York Fed effective rates</a> · <a href="casebook.html#fed-cut-september-2024">Announcement pricing and Treasury yields</a></p>
     </section>
+<section id="fed-liquidity-stance" class="policy-episode fls-study" aria-labelledby="fls-heading">
+  <div class="policy-section-heading">
+    <div><p class="policy-date">United States · 2008, 2020 and 2023</p><h2 id="fls-heading">When banks turn to the Fed, is monetary policy easing?</h2></div>
+    <label class="fls-picker">Funding episode
+      <select id="fls-episode">
+        <option value="2008">September 2008 · Lehman failure</option>
+        <option value="2020">March 2020 · Pandemic</option>
+        <option value="2023" selected>March 2023 · Bank failures</option>
+      </select>
+    </label>
+  </div>
+  <p>In March 2023, banks’ primary credit borrowing rose by $148.3 billion in one week. The Fed held its policy rate steady that week and raised it the next. Compare that sequence with the 2008 and 2020 crises.</p>
+  <div id="fls-body" hidden>
+    <h3 id="fls-caption" aria-live="polite"></h3>
+    <p id="fls-context"></p>
+    <div id="fls-figure" class="fls-figure" role="img" aria-label="Wednesday primary credit balances">
+      <h4>Primary credit outstanding <small>US$ billions</small></h4>
+      <div id="fls-bars" class="fls-bars" aria-hidden="true"></div>
+    </div>
+    <div class="policy-table-scroll" role="region" aria-label="Matched Wednesday policy and overnight market rates" tabindex="0">
+      <table class="policy-path-table fls-table"><caption>Wednesday balances and rates in force on the same date</caption>
+        <thead><tr><th scope="col">Date</th><th scope="col">Primary credit<br>US$ bn</th><th scope="col" id="fls-policy-label">Policy rate</th><th scope="col">Effective fed funds</th><th scope="col">Overnight AA financial paper</th><th scope="col">Paper less funds</th></tr></thead>
+        <tbody id="fls-rows"></tbody>
+      </table>
+    </div>
+    <p id="fls-reading"></p>
+    <details class="policy-reading"><summary>Check the three-month funding market</summary>
+      <div class="policy-table-scroll" role="region" aria-label="Three-month commercial paper and Treasury bill rates" tabindex="0">
+        <table class="policy-path-table fls-table"><caption>90-day AA financial paper less the three-month Treasury bill</caption>
+          <thead><tr><th scope="col">Date</th><th scope="col">Financial paper</th><th scope="col">Treasury bill</th><th scope="col">Spread</th></tr></thead><tbody id="fls-term"></tbody>
+        </table>
+      </div>
+      <p>A dash means the Federal Reserve reports no financial-paper rate for that date. Each spread uses two observations on the same Wednesday. A lower bill yield can widen the spread even if private borrowing costs fall.</p>
+    </details>
+    <details class="policy-reading"><summary>Compare all three episodes</summary>
+      <div class="policy-table-scroll" role="region" aria-label="Changes across all three funding episodes" tabindex="0">
+        <table class="policy-path-table fls-table"><caption>First week is the baseline Wednesday to the stress Wednesday. The last column runs from baseline to four weeks after the stress Wednesday.</caption>
+          <thead><tr><th scope="col">Episode</th><th scope="col">First-week change in primary credit</th><th scope="col">First-week policy change</th><th scope="col">Policy change by final observation</th></tr></thead>
+          <tbody id="fls-summary"></tbody>
+        </table>
+      </div>
+    </details>
+    <details class="policy-reading"><summary>How to read the comparison and verify the sources</summary>
+      <p>When banks lose access to private funding, eligible depository institutions can borrow against collateral at the discount window. The primary-credit balance measures their outstanding borrowing. Comparing that balance with the policy rate and commercial-paper spreads shows how the price of funding and the amount supplied moved through each episode.</p>
+      <p>The Fed’s H.4.1 return is normally released on Thursday. These are outstanding balances on Wednesday, in nominal dollars. The series excludes primary dealer credit, term-auction lending, the Bank Term Funding Program and credit extended to bridge banks. A balance measures take-up at prevailing terms and can change as loans mature. The banking system also changed size between episodes.</p>
+      <p>The policy reference is the FOMC’s point target in 2008 and its upper limit in 2020 and 2023, using the effective date. Effective federal funds is the rate on actual overnight transactions. In 2016 its calculation switched from a volume-weighted mean of broker data to a volume-weighted median of reported transactions. Overnight AA paper measures the issuance rates of highly rated financial firms, a different set of borrowers. Firms unable to issue leave no transaction price. The three-month comparison also captures Treasury demand, credit risk and differences in liquidity.</p>
+      <p>The stress Wednesday is the first Wednesday after the selected shock or intervention. The same weekday one week earlier is the baseline. The following Wednesday and the Wednesday four weeks later are checkpoints. Other news and policy tools also moved prices between these dates.</p>
+      <h4>Selected episode</h4><ul id="fls-event-sources"></ul>
+      <h4>Data and definitions</h4><ul id="fls-data-sources"></ul>
+      <p><a href="data/fed-liquidity.json">Download the twelve matched observations and source identifiers (JSON)</a>.</p>
+    </details>
+  </div>
+  <p id="fls-status" class="policy-footnote" role="status">Loading the dated observations…</p>
+  <noscript><p>On March 15, 2023 primary credit stood at $152.853 billion while the upper limit of the federal funds target remained 4.75%. <a href="https://www.federalreserve.gov/releases/h41/20230316/">Read the Federal Reserve release</a>.</p></noscript>
+</section>
+
     <section id="annual-policy-ledger" class="policy-episode" aria-labelledby="ledger-title">
       <div class="policy-section-heading">
         <div><p class="policy-date">United States · United Kingdom · euro area</p><h2 id="ledger-title">A year in monetary policy</h2></div>

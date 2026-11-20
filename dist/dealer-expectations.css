@@ -1,0 +1,16 @@
+#dealer-expectations select { max-width:100%; margin-left:.5rem; padding:.4rem .6rem; font:inherit; color:var(--ink); border:1px solid var(--line); background:transparent; }
+#dealer-expectations label { display:inline-block; font-weight:600; margin:.75rem 0 .3rem; }
+.dealer-stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,10rem),1fr)); gap:.6rem 1rem; margin:1rem 0; }
+.dealer-stats dt { color:var(--dim); font-size:.79rem; }
+.dealer-stats dd { margin:.2rem 0; font:normal 1.35rem/1.2 var(--serif); font-variant-numeric:tabular-nums; }
+#dealer-distribution { max-width:54rem; }
+#dealer-distribution table td, #dealer-distribution table th { white-space:normal; }
+#dealer-distribution tr.dealer-realised { background:#e5ece2; font-weight:600; }
+#dealer-distribution tr.dealer-realised th { color:#214b3c; }
+.dealer-bar { display:inline-block; vertical-align:middle; height:.5rem; width:clamp(3rem,10vw,6.8rem); background:#e1e1d7; margin-right:.6rem; }
+.dealer-bar > span { display:block; background:#59786a; height:100%; }
+#dealer-market { max-width:76ch; }
+#dealer-market h3 { margin-top:1.1rem; }
+#dealer-market p, #dealer-result p { max-width:77ch; font-size:.88rem; line-height:1.55; }
+#dealer-links { display:flex; flex-wrap:wrap; gap:.4rem 1rem; }
+#dealer-table a[aria-current] { font-weight:700; }

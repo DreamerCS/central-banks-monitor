@@ -20,13 +20,68 @@
   <script src="speech-intraday.js" defer></script>
   <link rel="stylesheet" href="annual-market-history.css">
   <script type="module" src="annual-market-history.js"></script>
+  <link rel="stylesheet" href="fed-direction-study.css">
+  <script type="module" src="fed-direction-study.js"></script>
+  <link rel="stylesheet" href="dealer-expectations.css">
+  <script defer src="dealer-expectations.js"></script>
 </head>
 <body class="reaction-page">
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="./">Overview</a><a href="market-reactions.html" aria-current="page">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="research-notes.html">Research notes</a><a href="research-archive.html">Archive</a></nav></div></header>
 <main id="main" class="mr-wrap">
   <div class="mr-intro"><p>Rates &nbsp;/&nbsp; FX &nbsp;/&nbsp; Equities</p><h1>Market reactions</h1></div>
-  <nav class="mr-jump" aria-label="Market studies"><a href="#annual-market-history">Annual comparisons, 2000–2026</a><a href="#uk-market-history">UK meeting windows</a><a href="#pre-event-curve">US pricing before a speech</a><a href="#mr-speech-intraday">US intraday speech moves</a><a href="#pre-speech-sonia">Sterling forward pricing</a><a href="#ecb-speech-windows">Euro-area speeches</a><a href="#mr-explorer">Meeting windows</a><a href="#mr-daily">Daily yield screen</a></nav>
+  <nav class="mr-jump" aria-label="Market studies"><a href="reading-studies.html#curve-components">What drove 2s10s?</a><a href="#fed-direction-study">Before and after the FOMC</a><a href="#dealer-expectations">Dealers’ meeting probabilities</a><a href="yen-intervention.html">Japanese FX intervention</a><a href="#annual-market-history">Annual comparisons, 2000–2026</a><a href="#uk-market-history">UK meeting windows</a><a href="#pre-event-curve">US pricing before a speech</a><a href="#mr-speech-intraday">US intraday speech moves</a><a href="#pre-speech-sonia">Sterling forward pricing</a><a href="#ecb-speech-windows">Euro-area speeches</a><a href="#mr-explorer">Meeting windows</a><a href="#mr-daily">Daily yield screen</a></nav>
+  <section class="mr-analysis fd-study" id="fed-direction-study" aria-labelledby="fd-title">
+    <h2 id="fd-title">Did the two-year yield keep moving in the same direction at the Fed statement?</h2>
+    <p>Compare the change in the two-year Treasury yield over the four trading-day intervals before an FOMC statement with its move around the release. The filters show whether the announcement extended or reversed the earlier move.</p>
+    <p id="fd-status" role="status">Loading matched statement dates…</p>
+    <div id="fd-content" hidden>
+      <p id="fd-finding"></p>
+      <div class="fd-controls">
+        <label>Period<select id="fd-era"><option value="all">All years</option><option value="2000-07">2000–2007</option><option value="2008-15">2008–2015</option><option value="2016-19">2016–2019</option><option value="2020-on">2020 onwards</option></select></label>
+        <label>Size of earlier move<select id="fd-size"><option value="all">Any magnitude</option><option value="small">Under 10 bp</option><option value="large">At least 10 bp</option></select></label>
+        <label>Small moves<select id="fd-rule"><option value="raw">Include all quoted changes</option><option value="one-bp">Both moves at least 1 bp</option></select></label>
+      </div>
+      <div class="fd-grid">
+        <div class="fd-distribution">
+          <table><caption>Meeting counts by yield direction</caption><thead><tr><th scope="col">Before the meeting</th><th scope="col">Statement ↑</th><th scope="col">Statement ↓</th><th scope="col">Flat</th></tr></thead><tbody id="fd-matrix"></tbody></table>
+          <p id="fd-counts" role="status"></p>
+        </div>
+        <div class="fd-reading"><h3>How often did the direction persist?</h3><p id="fd-share"></p><p id="fd-effect"></p><p id="fd-check"></p></div>
+      </div>
+      <details class="mr-help"><summary>Compare the four periods</summary><div class="mr-table-scroll" tabindex="0" role="region" aria-label="Direction counts by historical period"><table class="mr-method-table fd-eras"><caption>Current magnitude and small-move filters</caption><thead><tr><th scope="col">Years</th><th scope="col">Same</th><th scope="col">Opposite</th><th scope="col">Flat in either</th><th scope="col">Same / directional</th><th scope="col">Median aligned move</th></tr></thead><tbody id="fd-periods"></tbody></table></div></details>
+      <div class="fd-example"><div><label for="fd-event">Inspect a matched statement</label><select id="fd-event"></select></div><div><p id="fd-pair"></p><p class="fd-links" id="fd-pair-links"></p></div></div>
+      <details class="mr-help"><summary>The separate speech observation</summary><p id="fd-speech"></p></details>
+    </div>
+    <details class="mr-help"><summary>Event windows and interpretation</summary>
+      <p>The pre-meeting change runs from the fifth to the first jointly quoted Treasury close strictly before the event date, spanning four close-to-close changes. Daily Treasury par yields reflect indicative quotes around 15:30 New York time. USMPD measures the on-the-run two-year yield from 10 minutes before to 20 minutes after the statement. No intervening overnight or pre-release move is added.</p>
+      <p>The table counts every matched meeting in the selected sample. The directional share and aligned median use meetings with two non-zero moves. Alignment multiplies the statement move by the sign of the earlier move, so a negative value measures movement against the earlier direction. For the 1 bp sensitivity check both the earlier and the statement moves must reach 1 bp in absolute value. The latter condition is only known after the release.</p>
+      <p>The benchmark preserves the up and down totals on each side within each calendar year and calculates the average agreement across all possible within-year pairings. The leave-one-year-out range recalculates the observed share after omitting each year in turn. These comparisons describe the sample. Yields also reflect term premia and other economic news. Estimating the probability of a particular policy move requires a contract tied to the decision and assumptions about its possible outcomes.</p>
+      <p class="fd-links"><a href="https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/">San Francisco Fed · USMPD</a> <a href="https://www.frbsf.org/wp-content/uploads/wp2025-30.pdf#page=11">Acosta et al. · asset definitions</a> <a href="https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/treasury-yield-curve-methodology">Treasury · daily yield methodology</a></p>
+    </details>
+    <p class="fd-links"><a href="data/fed-direction-study.csv" download>Download all matched statements (CSV)</a></p>
+  </section>
+
+<section id="dealer-expectations" class="mr-analysis" aria-labelledby="dealer-title">
+  <h2 id="dealer-title">What did dealers expect the Fed to do?</h2>
+  <p>Before each scheduled FOMC meeting in 2022–24, New York Fed primary dealers reported their most likely target rate. Many surveys also asked how much probability dealers placed on each possible outcome. The replies predate the decisions. The New York Fed made the aggregates public after the minutes.</p>
+  <p id="dealer-status" role="status" class="mr-footnote">Loading the meeting surveys…</p>
+  <div id="dealer-content" hidden>
+    <label for="dealer-meeting">FOMC decision <select id="dealer-meeting"></select></label>
+    <div id="dealer-result" aria-live="polite"></div>
+    <div id="dealer-distribution"></div>
+    <div id="dealer-market"></div>
+    <p id="dealer-links" class="mr-method-links"></p>
+    <details class="mr-help"><summary>Compare all 24 meetings</summary><div id="dealer-table"></div></details>
+    <details class="mr-help"><summary>How the forecasts and errors are measured</summary>
+      <p>The dates are the survey’s distribution and response deadline. The New York Fed published aggregate results after the meeting minutes, so these are retrospective records of answers made before the decision. The tables use the original premeeting panel. The median of each dealer’s most likely midpoint and the average probability assigned to each bin answer different questions. Dealers can agree on a most likely outcome while assigning substantial probability elsewhere.</p>
+      <p>The signed error is the realised target-range midpoint minus the median modal forecast, in basis points, after rounding the realised midpoint to the survey’s published precision. A positive error means the target was higher than the forecast. Gross errors are compared with the simple forecast of an unchanged target. Probability bins retain the New York Fed’s published rounding and can total slightly more or less than 100%. One basis point equals 0.01 percentage point.</p>
+      <p>“Move on 25 bp grid” identifies the change from the premeeting midpoint that lands in a given bin, assuming quarter-point steps. The first and last bins may cover several changes. They are shown as tail ranges. A missing meeting distribution means the probability question asked about another horizon.</p>
+      <p>A dealer can expect substantial easing over the next twelve months while favouring a quarter-point cut at the first meeting. Use the September 2024 probability bins to examine expectations for that specific decision.</p>
+      <p><a href="https://www.newyorkfed.org/markets/primarydealer_survey_questions">New York Fed historical surveys</a> · <a href="https://www.newyorkfed.org/newsevents/events/regional_outreach/2012/0104_2012.html">Publication timing</a> · <a href="data/dealer-expectations.json">Download all observations</a></p>
+    </details>
+  </div>
+</section>
   <section class="mr-analysis amh" id="annual-market-history" aria-labelledby="amh-title">
     <h2 id="amh-title">Market reactions by year</h2>
     <p>Compare the typical announcement move across years, then open the meetings with the biggest price changes in any one year.</p>

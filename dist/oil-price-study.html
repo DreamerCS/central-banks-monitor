@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#1b2b23"><link rel="icon" href="favicon.svg" type="image/svg+xml">
+<title>After the oil price fell · Macro History</title>
+<meta name="description" content="Compare industrial output, energy inflation and core inflation in the US and euro area after sharp six-month declines in Brent crude.">
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="oil-price-study.css">
+<script type="module" src="oil-price-study.js"></script>
+</head>
+<body><a class="skip-link" href="#main">Skip to content</a>
+<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="macro-history.html">Macro history</a><a href="empirical-studies.html">Empirical studies</a><a href="historical-data.html">Policy history</a><a href="research-archive.html">Archive</a></nav></div></header>
+<main id="main" class="shell oil-study">
+<header class="oil-intro"><p>Macro history · United States and euro area</p><h1>After the oil price fell</h1>
+<p>Does cheaper oil lift industrial output? In December 2014, Brent averaged $62.34 a barrel, down from $111.80 six months earlier. Over the next year US industrial production fell 4.5% and euro-area production rose 1.6%. Both economies had near-zero benchmark policy rates.</p></header>
+<div id="oil-status" role="status">Loading the monthly observations…</div>
+<div id="oil-study" hidden>
+<section aria-labelledby="oil-sample"><h2 id="oil-sample">Compare the declines</h2>
+<p>The screen starts in January 2000. It selects the first month that Brent’s monthly average falls by the chosen percentage or more over six months. A fresh crossing must occur more than twelve months after the preceding retained event. The crossing month is the baseline for subsequent changes.</p>
+<div class="oil-controls">
+<label>Six-month Brent decline<select id="oil-threshold"><option value="25">At least 25%</option><option value="30" selected>At least 30%</option><option value="35">At least 35%</option></select></label>
+<label>Outcome<select id="oil-measure"><option value="output">Industrial production</option><option value="energy">Household energy inflation</option><option value="core">Core consumer inflation</option></select></label>
+<label>Months after crossing<select id="oil-horizon"><option>3</option><option>6</option><option selected>12</option></select></label></div>
+<p id="oil-sample-summary" class="oil-caption" aria-live="polite"></p><div id="oil-events"></div><div id="oil-rate-groups"></div>
+</section>
+<section aria-labelledby="oil-path"><h2 id="oil-path">Trace one episode</h2><div class="oil-controls"><label>Crossing month<select id="oil-event"></select></label></div>
+<figure><div class="oil-legend"><span>United States</span><span>Euro area</span></div><svg id="oil-plot" viewBox="0 0 670 210" role="img"></svg><figcaption id="oil-caption"></figcaption></figure>
+<details><summary>Monthly source observations</summary><div id="oil-raw"></div></details>
+</section>
+<section aria-labelledby="oil-reading"><h2 id="oil-reading">Why the two near-zero episodes differed</h2>
+<p>Cheaper oil reduces costs for firms that use it and reduces revenues for firms that produce it. A fall in demand can also pull oil prices and factory output down together. The Brent price alone cannot separate these channels. Comparing energy prices, core inflation and industrial output in the two economies shows which outcomes moved together after each decline.</p>
+<p>In the 30% sample, Brent was still 66.0% below its June 2014 level by December 2015. US core inflation edged up about 0.5 percentage points and euro-area core inflation rose 0.2 points. The US decline in industrial output coexisted with an expansion in the euro area. EIA’s December 2014 assessment identified rising US oil supply, weaker expected demand and OPEC’s decision to maintain its production target. Dollar depreciation or appreciation against the euro also alters the price paid by euro-area importers. <a href="https://www.eia.gov/outlooks/steo/archives/dec14.pdf">EIA December 2014 outlook</a> · <a href="https://www.ecb.europa.eu/pub/pdf/mobu/mb201412en.pdf">ECB December bulletin, indirect effects of oil prices</a></p>
+<p>By March 2021 Brent had exceeded its September 2019 price by 4.1%. Industrial output rose 1.0% in the US and 14.4% in the euro area from March 2020. From September 2019 to the March 2020 crossing, US production had already fallen 4.8% and euro-area production 12.0%. Use the six months before zero on the chart to see how choosing March as the starting point affects the comparison. The rebound cannot distinguish restored supply from the reopening of demand.</p>
+</section>
+<details class="oil-method"><summary>Definitions, coverage and sources</summary>
+<p>The Brent measure is EIA’s monthly Europe spot price, free on board, in US dollars per barrel. All observations were available by 20 November 2026. Macro series incorporate revisions. The reference price is the observed price six months before the crossing. Changing the threshold can change both the sample and the month used as zero. US and euro-area observations on one global price fall share the same event.</p>
+<p>Industrial production measures real output, seasonally adjusted in the US and seasonally and calendar-adjusted in the euro area. Charted changes compare index levels. Public price measures use annual inflation rates. Changes from the crossing month are in percentage points and can reflect last year’s prices dropping out of the comparison. Household energy also includes electricity and gas, with different local weights, taxes and tariffs. US core excludes food and energy. Euro-area core also excludes alcohol and tobacco.</p>
+<p>The euro-area series holds the current 21-country membership fixed across history. Eurostat flags earlier energy and core observations for a difference in historical definitions. In the 25% screen the March 2001 case has three missing euro-area inflation readings in its lead-in, September–November 2000. The source table shows the flags for each displayed observation. A missing source or horizon remains blank. Counts and medians use the available measurements.</p>
+<p>Month-end benchmark policy rates come from the BIS series based on central-bank sources. For these events the US rate is the federal funds target or target-range midpoint, and the euro-area rate is the main refinancing rate. The 0.25% screen describes these observed rates. Monetary constraints also depend on expectations, asset purchases and the ECB deposit facility.</p>
+<ul><li><a href="https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&amp;s=RBRTE&amp;f=M">EIA monthly Brent spot prices</a></li>
+<li>BLS US CPI-U, unadjusted · <a href="https://data.bls.gov/timeseries/CUUR0000SA0E">energy</a> · <a href="https://data.bls.gov/timeseries/CUUR0000SA0L1E">all items less food and energy</a></li>
+<li><a href="https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_minr/default/table?lang=en">Eurostat HICP, EA21, NRG and TOT_X_NRG_FOOD, published annual rates</a></li>
+<li><a href="https://www.federalreserve.gov/releases/g17/">Federal Reserve G.17 industrial production</a> · <a href="https://ec.europa.eu/eurostat/databrowser/view/sts_inpr_m/default/table?lang=en">Eurostat industrial output, NACE B–D</a></li>
+<li><a href="https://data.bis.org/topics/CBPOL/BIS%2CWS_CBPOL%2C1.0/D.US">BIS US policy rate</a> · <a href="https://data.bis.org/topics/CBPOL/BIS%2CWS_CBPOL%2C1.0/D.XM">BIS euro-area policy rate</a></li></ul>
+</details></div><noscript>Enable JavaScript to use the event and horizon comparisons.</noscript><p><a href="reading-studies.html">More empirical tests from the reading</a></p></main></body></html>

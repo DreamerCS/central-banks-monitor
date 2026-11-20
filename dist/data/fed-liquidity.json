@@ -1,0 +1,234 @@
+{
+  "sources": {
+    "WLCFLPCL": {
+      "label": "H.4.1 · Primary credit outstanding, Wednesday level",
+      "url": "https://fred.stlouisfed.org/series/WLCFLPCL",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WLCFLPCL&cosd=2008-09-01&coed=2023-04-30",
+      "sha256": "293d6b11171c8acc71d8089c1a7405314204df06a16d5b146927173c36d74d1d"
+    },
+    "DFEDTAR": {
+      "label": "FOMC · Federal funds point target through 2008",
+      "url": "https://fred.stlouisfed.org/series/DFEDTAR",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFEDTAR&cosd=2008-09-01&coed=2023-04-30",
+      "sha256": "ffe4458201920acb0f2ec1e8d9bf35b0ae1f6d2be32244c280b5e381d045e62e"
+    },
+    "DFEDTARU": {
+      "label": "FOMC · Upper limit of the target range",
+      "url": "https://fred.stlouisfed.org/series/DFEDTARU",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFEDTARU&cosd=2008-09-01&coed=2023-04-30",
+      "sha256": "4b48fdd6e69997a96642d2e9bd10bde161748cf489116a89b7115f22edc8313b"
+    },
+    "DFF": {
+      "label": "New York Fed · Effective federal funds rate",
+      "url": "https://fred.stlouisfed.org/series/DFF",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFF&cosd=2008-09-01&coed=2023-04-30",
+      "sha256": "8021e20881a150672792b51950349c177c34008c4b39e5f3a62fcb99a676ce7b"
+    },
+    "RIFSPPFAAD01NB": {
+      "label": "Federal Reserve · Overnight AA financial commercial paper",
+      "url": "https://fred.stlouisfed.org/series/RIFSPPFAAD01NB",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=RIFSPPFAAD01NB&cosd=2008-09-01&coed=2023-04-30",
+      "sha256": "81e2dd451028cd3cbf2a78ee0efba1a7842cb9d41b9394aa3a78a707c921728e"
+    },
+    "DCPF3M": {
+      "label": "H.15 · 90-day AA financial commercial paper",
+      "url": "https://fred.stlouisfed.org/series/DCPF3M",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCPF3M&cosd=2008-09-01&coed=2023-04-30",
+      "sha256": "9d090876590a8a76ae64536d369ab9c25565f3dfcd796d8d8be05f1676b6480f"
+    },
+    "DTB3": {
+      "label": "H.15 · Three-month Treasury bill, secondary market, discount basis",
+      "url": "https://fred.stlouisfed.org/series/DTB3",
+      "download": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTB3&cosd=2008-09-01&coed=2023-04-30",
+      "sha256": "31f936144ff15cf3c3c485bcb09854a5a5050d4481c94e64bb6d4352b94390c2"
+    }
+  },
+  "episodes": {
+    "2008": {
+      "anchor": "2008-09-17",
+      "label": "September 2008 · Lehman failure",
+      "context": "On September 16 the FOMC held its point target at 2%. The next day the effective funds rate reached 2.80%, while banks had $33.401 billion of primary credit outstanding. The same H.4.1 return showed a separate $59.780 billion loan balance at the Primary Dealer Credit Facility. These were different borrowers and facilities.",
+      "interpretation": "The 90-day paper–bill spread widened from 108 to 263 bp in the first week. The commercial-paper rate actually fell 4 bp. A 159 bp fall in the Treasury-bill yield accounted for the widening. A rush into bills can make this spread look worse even as the quoted price of private borrowing falls.",
+      "sources": [
+        [
+          "September 16 FOMC decision",
+          "https://www.federalreserve.gov/newsevents/pressreleases/monetary20080916a.htm"
+        ],
+        [
+          "September 18 H.4.1 release, including dealer lending",
+          "https://www.federalreserve.gov/releases/h41/20080918/h41.pdf"
+        ]
+      ],
+      "observations": [
+        {
+          "week": -1,
+          "date": "2008-09-10",
+          "primaryMillions": 23455,
+          "policyBp": 200,
+          "effectiveBp": 212,
+          "overnightPaperBp": 199,
+          "termPaperBp": 270,
+          "billBp": 162
+        },
+        {
+          "week": 0,
+          "date": "2008-09-17",
+          "primaryMillions": 33401,
+          "policyBp": 200,
+          "effectiveBp": 280,
+          "overnightPaperBp": 261,
+          "termPaperBp": 266,
+          "billBp": 3
+        },
+        {
+          "week": 1,
+          "date": "2008-09-24",
+          "primaryMillions": 39327,
+          "policyBp": 200,
+          "effectiveBp": 119,
+          "overnightPaperBp": 158,
+          "termPaperBp": 320,
+          "billBp": 50
+        },
+        {
+          "week": 4,
+          "date": "2008-10-15",
+          "primaryMillions": 101853,
+          "policyBp": 150,
+          "effectiveBp": 104,
+          "overnightPaperBp": 114,
+          "termPaperBp": 395,
+          "billBp": 22
+        }
+      ]
+    },
+    "2020": {
+      "anchor": "2020-03-18",
+      "label": "March 2020 · Pandemic",
+      "context": "On March 15 the Fed lowered its policy range to 0–0.25%. It also lowered the primary credit rate to 0.25% and offered terms as long as 90 days. Bank borrowing rose from $11 million on March 11 to $28.224 billion on March 18. Both the price and the term of the facility changed, so take-up reflects the terms on offer as well as banks’ need for cash.",
+      "interpretation": "By March 25 the overnight AA paper rate was 0.11%, only 1 bp above effective federal funds. The 90-day AA paper rate was 2.53%, against a three-month bill at −0.04%. The resulting 257 bp gap shows how a near-zero overnight rate could coexist with costly term funding. The March 18 term-paper observation is missing.",
+      "sources": [
+        [
+          "March 15 FOMC decision",
+          "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm"
+        ],
+        [
+          "March 15 discount-window terms",
+          "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315b.htm"
+        ],
+        [
+          "March 19 H.4.1 release",
+          "https://www.federalreserve.gov/releases/h41/20200319/"
+        ]
+      ],
+      "observations": [
+        {
+          "week": -1,
+          "date": "2020-03-11",
+          "primaryMillions": 11,
+          "policyBp": 125,
+          "effectiveBp": 109,
+          "overnightPaperBp": 109,
+          "termPaperBp": 93,
+          "billBp": 41
+        },
+        {
+          "week": 0,
+          "date": "2020-03-18",
+          "primaryMillions": 28224,
+          "policyBp": 25,
+          "effectiveBp": 25,
+          "overnightPaperBp": 13,
+          "termPaperBp": null,
+          "billBp": 2
+        },
+        {
+          "week": 1,
+          "date": "2020-03-25",
+          "primaryMillions": 50768,
+          "policyBp": 25,
+          "effectiveBp": 10,
+          "overnightPaperBp": 11,
+          "termPaperBp": 253,
+          "billBp": -4
+        },
+        {
+          "week": 4,
+          "date": "2020-04-15",
+          "primaryMillions": 36284,
+          "policyBp": 25,
+          "effectiveBp": 5,
+          "overnightPaperBp": 5,
+          "termPaperBp": null,
+          "billBp": 14
+        }
+      ]
+    },
+    "2023": {
+      "anchor": "2023-03-15",
+      "label": "March 2023 · Bank failures",
+      "context": "Primary credit rose from $4.581 billion on March 8 to $152.853 billion on March 15. Over those two Wednesdays the federal funds ceiling held at 4.75% and overnight AA financial paper traded 2 bp below effective federal funds on both dates. Distress at particular banks could coexist with stable overnight funding prices for highly rated issuers.",
+      "interpretation": "The FOMC announced a 25 bp increase on March 22, effective March 23. By April 12 primary credit had fallen to $67.633 billion, but lending through the separate Bank Term Funding Program had increased from $11.943 billion on March 15 to $71.837 billion. Some funding demand could shift across facilities. A decline in one loan category cannot establish that deposit pressure ended.",
+      "sources": [
+        [
+          "March 12 Bank Term Funding Program terms",
+          "https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20230312a1.pdf"
+        ],
+        [
+          "March 16 H.4.1 release",
+          "https://www.federalreserve.gov/releases/h41/20230316/"
+        ],
+        [
+          "March 22 FOMC decision and implementation note",
+          "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230322a.htm"
+        ],
+        [
+          "April 13 H.4.1 release",
+          "https://www.federalreserve.gov/releases/h41/20230413/"
+        ]
+      ],
+      "observations": [
+        {
+          "week": -1,
+          "date": "2023-03-08",
+          "primaryMillions": 4581,
+          "policyBp": 475,
+          "effectiveBp": 457,
+          "overnightPaperBp": 455,
+          "termPaperBp": null,
+          "billBp": 489
+        },
+        {
+          "week": 0,
+          "date": "2023-03-15",
+          "primaryMillions": 152853,
+          "policyBp": 475,
+          "effectiveBp": 458,
+          "overnightPaperBp": 456,
+          "termPaperBp": null,
+          "billBp": 459
+        },
+        {
+          "week": 1,
+          "date": "2023-03-22",
+          "primaryMillions": 110248,
+          "policyBp": 475,
+          "effectiveBp": 458,
+          "overnightPaperBp": 455,
+          "termPaperBp": null,
+          "billBp": 463
+        },
+        {
+          "week": 4,
+          "date": "2023-04-12",
+          "primaryMillions": 67633,
+          "policyBp": 500,
+          "effectiveBp": 483,
+          "overnightPaperBp": 480,
+          "termPaperBp": null,
+          "billBp": 487
+        }
+      ]
+    }
+  }
+}
