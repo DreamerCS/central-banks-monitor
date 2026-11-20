@@ -882,6 +882,15 @@
       "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/261104_nr2/prm-riksbanken-planerar-att-finansiera-en-del-av-valutareserven-med-valutalan-via-riksgalden.pdf"
     ]
   },
+  "2026-11-04-6d6e550abc.json": {
+    "jurisdiction": "Euro area",
+    "type": "Release",
+    "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
+    "aliases": [
+      "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/notas-prensa-bce/el-indicador-del-bce-de-seguimiento-de-los-salarios-apunta-a-un-crecimiento-salarial-en-los-tres-primeros-trimestres-de-2027-ligeramente-superior-al-del-conjunto-de-2026-.html",
+      "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/ComunicadosBCE/NotasInformativasBCE/26/presbce2026-149en.pdf"
+    ]
+  },
   "2026-11-04-781e5d877c.json": {
     "jurisdiction": "Sweden",
     "type": "Research",
@@ -932,6 +941,14 @@
     "jurisdiction": "Australia",
     "type": "Speech",
     "title": "Transcript of Question & Answer Session Trust, Expectations and Monetary Policy"
+  },
+  "2026-11-05-6f42778ba9.json": {
+    "jurisdiction": "Canada",
+    "type": "Release",
+    "title": "Joint Statement of the Government of Canada and the Bank of Canada on the Renewal of the Monetary Policy Framework",
+    "aliases": [
+      "https://www.banqueducanada.ca/2026/11/declaration-commune-du-gouvernement-du-canada-et-de-la-banque-du-canada-concernant-le-renouvellement-du-cadre-de-politique-monetaire-2026/"
+    ]
   },
   "2026-11-05-7b754e6fd7.json": {
     "jurisdiction": "Norway",

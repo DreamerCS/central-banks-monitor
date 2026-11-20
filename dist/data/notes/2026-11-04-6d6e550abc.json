@@ -1,0 +1,28 @@
+{
+  "title": "Signed wage agreements point to firmer underlying pay, with the weakest coverage furthest ahead",
+  "bank": "European Central Bank",
+  "date": "2026-11-04",
+  "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
+  "summary": [
+    "Euro area wage settlements signed by mid-October point to slightly stronger permanent pay increases in the first three quarters of 2027 than over 2026 as a whole. The ECB’s tracker excluding one-off payments averages 2.8% against 2.6% on that comparison. The apparent cooling at the far end of the series is harder to interpret. By the third quarter of 2027, the database covers less than a quarter of employees in participating countries. Its value is that it records pay changes already written into contracts. Future settlements can change both the measured growth rate and the population to which it applies.",
+    "The headline tracker spreads one-off payments over twelve months. On that measure, growth averages 2.3% for 2026, rises to 2.7% in the second half of the year and reaches 2.8% in the first half of 2027. These comparisons reflect the timing of past payments as well as more recent bargaining. Bonuses paid in the second half of 2024 and subsequently omitted still depressed the first half of 2026 mechanically. That effect has run off by the second half. It follows that the rise between the full-year 2026 figure and early 2027 overstates the acceleration between adjacent half-years. Relative to the September release, the ECB reports upward revisions of around 0.1 percentage points on average for the second half of 2026 and the first half of 2027.",
+    "The treatment of bonuses matters for both timing and levels. With one-offs left in the months when paid, 2026 wage growth averages 2.7% and the first half of 2027 also averages 2.7%. Table 1 gives an especially clear illustration for the first quarter of 2026: the headline, unsmoothed and excluding-one-offs readings were 1.8%, 2.9% and 2.7%, respectively. The ECB favours the smoothed measure for shorter-term dynamics and the unsmoothed one for annual comparisons. By the third quarter of 2027 the first two measures both read 2.4%, alongside 2.5% for permanent pay. The Bank reads the small gap as evidence of a limited role for one-offs in recent agreements. The revision panel in Chart 1 shows that the unsmoothed monthly series can still move substantially in opposite directions at adjoining dates.",
+    "Coverage is the crucial qualification. The grey area in Chart 1 uses a separate axis showing employees covered, while the wage lines show year-on-year growth. Coverage falls from 45.6% in the second half of 2026 to 31.8% in the first half of 2027 and 23.3% in the third quarter. Table 2 shows why it matters which employees remain. France falls from 46.8% coverage in the final quarter of 2026 to 1.3% in the third quarter of 2027. Finland moves from 60.7% to 59.1% over the same span. The nine countries’ contract records are first aggregated using national employee coverage. The euro area series then uses time-varying compensation weights. It would therefore be unsafe to read the last point as evidence that wage setters across the currency area have jointly agreed to slow pay growth. Many agreements in some countries are renegotiated early in the year.",
+    "For an inflation assessment the contracts establish a component of future labour costs, but do not determine compensation per employee, productivity or firms’ ability to absorb costs in margins. The separate staff projection cited in the release puts 2026 compensation-per-employee growth at 3.3%. It covers a different measure. Even the national-source negotiated wage indicator in Chart 1 can diverge from the tracker. The next stated opportunity to assess revisions is 18 December, when the ECB expects to extend the horizon through the end of 2027. The release provides neither a Governing Council view on rates nor market prices against which to measure a policy surprise."
+  ],
+  "questions": [
+    {
+      "question": "Does the decline in late-2027 growth survive when the same employers are compared across vintages?",
+      "detail": "The third-quarter reading is based on markedly narrower coverage, particularly in France. A lower number can reflect which agreements remain visible. Compare the next tracker vintage with the November release on a matched set of contracts and separately measure the contribution of newly signed agreements, using national bargaining records where accessible. Persistence in both comparisons would give the late-horizon signal greater weight."
+    },
+    {
+      "question": "How much of the change in permanent pay would reach domestic prices?",
+      "detail": "The tracker establishes negotiated increases but contains no estimate of productivity, margins or actual compensation outside those agreements. Compare the national accounts measures of compensation and output per worker with services-price and margin evidence in the ECB projections. Similar wage settlements can have different implications for policy if productivity absorbs more of the increase."
+    },
+    {
+      "question": "Which revisions reflect a new wage bargain and which reflect the month a bonus falls due?",
+      "detail": "The smoothed and unsmoothed series tell different stories about early 2026. Inspect their month-by-month revisions alongside the excluding-one-offs measure and the original national settlement schedules. For a rates investor, a rescheduled payment has different implications for persistent inflation from a lasting rise in contractual base pay."
+    }
+  ],
+  "limitation": ""
+}

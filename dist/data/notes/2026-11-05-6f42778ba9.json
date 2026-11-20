@@ -1,0 +1,27 @@
+{
+  "title": "Canada retains a symmetric 2% target and flexibility over the return horizon",
+  "bank": "Bank of Canada",
+  "date": "2026-11-05",
+  "url": "https://www.bankofcanada.ca/2026/11/joint-statement-of-the-government-of-canada-and-the-bank-of-canada-on-the-renewal-of-the-monetary-policy-framework-2026/",
+  "summary": [
+    "Canada’s government and central bank have renewed the inflation target through 31 December 2031. Their joint statement settles the objective against which future decisions should be judged: 2% for the twelve-month change in the consumer price index, at the midpoint of a 1%–3% control range. The agreement gives equal weight to misses above and below the target. The two institutions agree the framework together every five years. Responsibility for setting policy within it belongs independently to the Bank. A reader looking for a change in the reaction function should look to how the Bank assesses the persistence of shocks and how quickly it seeks to unwind them.",
+    "The signatories’ account of the previous five years explains the choice. Post-pandemic supply disruptions, sharp shifts in demand and geopolitical conflict pushed up inflation together. The Bank responded forcefully. Households and businesses bore adjustment costs, and the signatories report that inflation returned to target. They emphasise the distributional consequences of high inflation through lost purchasing power and the public’s perception of economic fairness. The Bank interprets its difficulty during the episode as one of implementing policy under unusually large shocks. That is the Bank’s assessment. The statement gives no counterfactual for inflation or employment under a different target, or under earlier action within the existing framework.",
+    "The practical change the Bank identifies is its work on how global and domestic supply disturbances pass through to Canadian prices, especially when they are unusually large or persistent. It situates the renewal amid changes in trade patterns, supply chains, international investment, demographics and the adoption of artificial intelligence. Those forces can alter productive capacity as well as demand. The release does not quantify their individual contributions or suggest that they warrant a common rate response. What matters for policy is which price changes persist and how the economy adjusts while inflation returns to target.",
+    "The agreement leaves the Bank flexibility to support growth and sustainable employment as it brings inflation back over time. It sets no fixed deadline for correcting a miss and attaches no numerical employment threshold to a rate decision. For a rates portfolio, the relevant distinction is between confidence in the long-run nominal anchor and uncertainty about the intervening path of short rates. That is an implication of the agreement’s terms. The statement supplies no observations on bond yields, inflation compensation or expectations around the release, and announces no change in the overnight rate."
+  ],
+  "questions": [
+    {
+      "question": "What would persuade the Bank that an initial supply shock requires a policy response?",
+      "detail": "The Bank says it has strengthened its analysis of pass-through. The statement gives no trigger for action. Compare the Bank’s dated projection assumptions and business surveys with subsequent measures of price breadth, wage growth and expectations. The answer matters for the front end of the curve even if the inflation target retains credibility."
+    },
+    {
+      "question": "How does the return horizon change when employment weakens while inflation is high?",
+      "detail": "The agreement allows flexibility and gives the two sides of an inflation miss equal emphasis. It does not specify the weight placed on output losses along the adjustment path. Compare projected inflation paths, measures of spare capacity and the reasoning in Governing Council deliberations across shocks with different expected durations."
+    },
+    {
+      "question": "Did the renewal change the price of longer-term inflation risk?",
+      "detail": "The institutions argue that a credible target supports investment and planning. The release contains no market evidence of an incremental credibility gain. Compare dated expectations surveys and inflation compensation at several horizons around the announcement, allowing for liquidity, risk premia and other news before interpreting a change as a shift in expected inflation."
+    }
+  ],
+  "limitation": ""
+}
