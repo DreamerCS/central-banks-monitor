@@ -146,6 +146,39 @@
   </section>
   <div id="mr-speech-intraday"></div>
   <section class="mr-analysis" id="pre-speech-sonia" aria-label="Sterling forward pricing before Bank of England speeches"></section>
+  <section class="mr-analysis" id="statement-risk" aria-labelledby="statement-risk-title">
+    <h2 id="statement-risk-title">Which history better predicted the size of the next rate move?</h2>
+    <p>A portfolio manager budgeting risk before a Fed statement would have made smaller errors overall using the typical two-year move from 2009–17. Its edge disappeared in 2022–26. At ECB decisions the two historical estimates were only 0.10 bp apart, and neither captured the larger German yield moves in the later years.</p>
+    <div class="mr-table-scroll" role="region" tabindex="0" aria-label="Mean absolute forecast error in basis points · smaller is closer"><table class="mr-method-table"><caption>Mean absolute forecast error in basis points · smaller is closer</caption><thead><tr><th scope="col">Instrument</th><th scope="col">Meetings</th><th scope="col">2000–08</th><th scope="col">2009–17</th><th scope="col">Prior 20</th></tr></thead><tbody>
+<tr><th scope="row">US two-year</th><td>77</td><td>2.823</td><td>2.404</td><td>2.56</td></tr>
+<tr><th scope="row">US 10Y − 2Y</th><td>77</td><td>1.686</td><td>1.583</td><td>1.723</td></tr>
+<tr><th scope="row">German two-year</th><td>68</td><td>2.074</td><td>2.107</td><td>2.091</td></tr>
+<tr><th scope="row">German 10Y − 2Y</th><td>68</td><td>0.84</td><td>0.84</td><td>0.857</td></tr>
+</tbody></table></div>
+    <p>The estimates use two nine-year training periods. Both face the same later meetings within each central bank. A third forecast takes the median of the latest 20 quoted announcements available before each meeting. All three predict the absolute size of a statement-window move. The 2s10s measure is the absolute change in the ten-year yield minus the two-year yield, calculated by differencing the signed moves first.</p>
+    <details class="mr-help"><summary>Training samples, periods and sensitivity</summary>
+    <div class="mr-table-scroll" role="region" tabindex="0" aria-label="Typical absolute statement move used as the fixed forecast"><table class="mr-method-table"><caption>Typical absolute statement move used as the fixed forecast</caption><thead><tr><th scope="col">Instrument</th><th scope="col">2000–08 quotes</th><th scope="col">Forecast (bp)</th><th scope="col">2009–17 quotes</th><th scope="col">Forecast (bp)</th></tr></thead><tbody>
+<tr><th scope="row">US two-year</th><td>80</td><td>3.49</td><td>73</td><td>1.62</td></tr>
+<tr><th scope="row">US 10Y − 2Y</th><td>80</td><td>2.105</td><td>73</td><td>1.58</td></tr>
+<tr><th scope="row">German two-year</th><td>133</td><td>0.6</td><td>95</td><td>0.5</td></tr>
+<tr><th scope="row">German 10Y − 2Y</th><td>133</td><td>0.5</td><td>95</td><td>0.5</td></tr>
+</tbody></table></div>
+    <div class="mr-table-scroll" role="region" tabindex="0" aria-label="Two-year yield forecast errors by evaluation period (bp)"><table class="mr-method-table"><caption>Two-year yield forecast errors by evaluation period (bp)</caption><thead><tr><th scope="col">Evaluation period</th><th scope="col">Instrument</th><th scope="col">Meetings</th><th scope="col">2000–08</th><th scope="col">2009–17</th><th scope="col">Prior 20</th></tr></thead><tbody>
+<tr><th scope="row">2018–2019</th><td>US two-year</td><td>17</td><td>2.165</td><td>1.718</td><td>1.891</td></tr>
+<tr><th scope="row">2020–2021</th><td>US two-year</td><td>21</td><td>2.843</td><td>1.528</td><td>1.411</td></tr>
+<tr><th scope="row">2022–2026</th><td>US two-year</td><td>39</td><td>3.099</td><td>3.175</td><td>3.471</td></tr>
+<tr><th scope="row">2018–2019</th><td>German two-year</td><td>16</td><td>0.618</td><td>0.606</td><td>0.628</td></tr>
+<tr><th scope="row">2020–2021</th><td>German two-year</td><td>16</td><td>0.903</td><td>0.884</td><td>0.908</td></tr>
+<tr><th scope="row">2022–2026</th><td>German two-year</td><td>36</td><td>3.241</td><td>3.318</td><td>3.267</td></tr>
+</tbody></table></div>
+    <p>Dropping one evaluation year at a time leaves the 2009–17 forecast ahead for the US two-year by 0.24–0.58 bp. The 2000–08 forecast keeps a 0.025–0.043 bp edge for the German two-year. These ranges measure sensitivity to individual years. The meetings within a policy cycle share economic shocks, and the ranges do not quantify sampling uncertainty.</p>
+    <p>Each quoted announcement gets equal weight. A zero is an observation. One of 96 ECB statements in 2009–17 lacks the German yield pair. US evaluation runs from 31 January 2018 to 28 October 2026, and ECB evaluation from 25 January 2018 to 11 June 2026. Results use the historical files available on 20 November 2026. Cutoffs were chosen retrospectively. Original release-day dataset vintages could differ.</p>
+    <p>The US window starts ten minutes before the statement and ends twenty minutes after. ECB observations compare median Frankfurt quotes at 13:25–13:35 and 14:00–14:10, shifting to 13:55–14:05 and 14:30–14:40 from July 2022. News released with the statement, the prevailing rate level and changes in meeting frequency can all affect the distribution. Attribution to a chair or a particular policy would require further evidence.</p>
+    </details>
+    <p>On 18 September 2024 the two-year Treasury fell 8.58 bp in the statement window. The 2000–08 benchmark missed its magnitude by 5.09 bp, against 6.96 bp for 2009–17. Both underestimated risk on a day when the decision and projections arrived together. The direction of that move was unknown to either forecast before the release.</p>
+    <p class="mr-method-links"><a href="casebook.html#fed-cut-september-2024">The September 2024 decision and its pricing</a> · <a href="macro-history.html?view=cycles">Compare inflation forecasts across periods</a> · <a href="data/statement-risk-forecasts.csv" download>Meeting-by-meeting forecasts (CSV)</a></p>
+    <p class="mr-method-links"><a href="https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/">San Francisco Fed · USMPD</a> · <a href="https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx">ECB · event-study workbook</a></p>
+  </section>
   <p id="mr-load" role="status">Loading event data…</p>
   <div id="mr-explorer" hidden>
     <h2>Decision and press conference windows</h2>

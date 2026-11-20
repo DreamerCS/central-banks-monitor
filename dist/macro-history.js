@@ -168,6 +168,7 @@ function testSection(results) {
     table(["Training sample","Fitted months","Intercept","Inflation","Change in unemployment"],results.models.filter(x=>x.n).map(m=>[m.name,m.n,...m.coefficients.map(x=>num(x,3))]),"Fitted coefficients"));
   block.append(controls,target,el("p","Including 2008 improves the pre-crisis model’s 2022–26 mean absolute error from 1.05 to 0.81 percentage points. In the pandemic evaluation, unchanged inflation outperforms every fitted model. The preferred comparison changes with the period being forecast."),horizons,details);
   block.append(link("Compare rolling and real-time forecasts","empirical-studies.html?study=inflation#vintage-check"));
+  block.append(link("Which period predicted announcement-day yield risk?","market-reactions.html#statement-risk"));
   return block;
 }
 async function cycles() {
