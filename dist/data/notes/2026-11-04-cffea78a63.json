@@ -1,0 +1,28 @@
+{
+  "title": "The same card lender passes through less of a rate cut in markets where it has a larger share",
+  "bank": "Federal Reserve Bank of New York",
+  "date": "2026-11-04",
+  "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/how-market-position-shapes-credit-card-interest-rates",
+  "summary": [
+    "An unexpected fall in funding costs can reach two otherwise similar credit card borrowers differently, even when both borrow from the same bank. Kyle Herkenhoff and Juan Morelli examine the annual percentage rate set when a new account is opened. Around a large monetary surprise in January 2008, a lender passed through less of the reduction in markets where it already earned a larger share of revenue. That distinction matters for the transmission of monetary policy. Existing variable-rate cards often adjust mechanically against a benchmark. New offers let a lender change the spread it charges as well as the rate that borrowers ultimately see.",
+    "The researchers divide the national card market into 960 segments. They combine four credit-score groups with card and product characteristics, acquisition channel and income groups based on the borrower’s ZIP code. A bank operates in about 200 segments in an average week and may have quite different positions across them. Its share is its revenue relative to all lender revenue in a segment. This is an economic definition of the alternatives facing particular borrowers. A count of bank branches in a neighbourhood or an issuer’s national rank would measure something different.",
+    "Confidential account records from the Office of the Comptroller of the Currency identify rates and characteristics of newly issued accounts. Federal Reserve data extend the analysis to further events through 2019, for a combined sample of roughly 14 million accounts. In the first chart, each dot groups accounts that look alike in credit score, income, card type and other observable dimensions. Average APR and issuing lenders’ average market share have a correlation of 0.54 across these groups. That figure describes a relationship between group averages. It cannot by itself distinguish pricing power from differences in applicant risk, product features or an issuer’s decision to target a particular group.",
+    "The event comparison gives a narrower test. The authors compare accounts originated immediately around an unexpected risk-free-rate movement, remove APR changes common to a lender across its markets, and adjust for observed borrower and product characteristics. They then compare the same lender across markets. High-share markets are those in the top 30 percent of the share distribution. Around the January 2008 event, the unexpected component of the federal funds rate movement was a 25 basis point decline. Two weeks later the estimated pass-through was about 20 percent lower in the bank’s high-share markets. The figure plots percentage changes in adjusted APRs relative to the lender’s lower-share markets. Its vertical scale is not a 20 percentage point difference in customers’ quoted rates.",
+    "The comparison still yields a substantial result when the authors combine large surprises during the rest of 2008. Including qualifying rate increases and decreases over 2008–19 produces a smaller, statistically significant estimate. That movement is important to interpretation. A crisis episode can illustrate how market position affects the discretion a lender exercises over pricing, while a broader sample offers a less dramatic estimate of its size. The outcomes also stop at account origination. The analysis does not follow a representative household’s eventual balance, interest payments or ability to obtain an offer elsewhere. Those margins determine how a difference in offered rates translates into a difference in household finances."
+  ],
+  "questions": [
+    {
+      "question": "What exactly would a new borrower pay after a funding shock?",
+      "detail": "Recover the change in quoted APR in percentage points for offers with comparable initial rates and terms. The relative change in adjusted APR shown in the event chart requires an initial level and a scaling by the monetary surprise before it can be converted into basis points. Actual interest expense also requires a revolving balance and the time for which it is outstanding."
+    },
+    {
+      "question": "Could changes in who accepts an offer account for some of the within-bank difference?",
+      "detail": "Compare applications and offers with opened accounts in the same market and week. A bank could change credit limits, promotional terms, rewards or approval standards at the same time as its APR. If these changes attract a different set of borrowers on unobserved characteristics, matching on credit score and card type will not remove the entire selection effect."
+    },
+    {
+      "question": "When should the January 2008 magnitude be used in policy analysis?",
+      "detail": "Estimate high- versus low-share pass-through separately for rises and falls, crisis and ordinary periods, and different market definitions. The smaller estimate in the full sample already suggests that the two-week crisis result is a poor constant to impose on every issuer or cycle. Comparing pricing responses with borrower switching would help distinguish persistent market power from temporary search frictions."
+    }
+  ],
+  "limitation": "The records cover newly issued accounts. The 25 basis points refer to the unexpected component used in the event study, and the 20 percent figure describes differential pass-through."
+}

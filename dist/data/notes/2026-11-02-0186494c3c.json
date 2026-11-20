@@ -1,0 +1,28 @@
+{
+  "title": "Supervisors help produce the capital figures on which US bank closures depend",
+  "bank": "Federal Reserve Bank of New York",
+  "date": "2026-11-02",
+  "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/how-do-banking-supervisors-deal-with-failing-banks",
+  "summary": [
+    "Of the 557 US commercial bank failures since 2000 counted by Sergio Correia, Stephan Luck and Emil Verner, only 28 occurred on a day other than Friday. The FDIC prefers Friday closures and often arranges a purchase by another institution before a failure becomes official. Bank failures in the historical comparison, drawn from national banks between 1865 and 1935, were spread much more evenly across weekdays. The contrast points to the importance of administrative decisions in setting the timing of modern failures. It also introduces a less obvious feature of supervision. The reported capital that supports a closure decision can itself change as a result of supervisory scrutiny.",
+    "Using commercial bank examinations from 2000 to 2023, the authors distinguish the production of information from the decision to act on it. Examiners can judge management and loan quality as well as verify accounting information. They can require loss recognition, seek recapitalisation or close a bank. A comparison of contemporary bank observations shows that failures over the following year become much more common at the lowest levels of reported capital. The chart places common equity tier 1 capital relative to risk-weighted assets on its horizontal axis. The article’s prose also discusses an equity-to-assets measure. Its approximate thresholds should therefore be read with the capital definition of the specific display in view.",
+    "The supervisory ratings tell a related story. CAMELS grades run from stronger to weaker assessments as the number rises and cover capital, assets, management, earnings, liquidity and sensitivity to market risk. For relatively well-capitalised banks the composite assessment lies closer to the management grade. At low reported capital the composite grade more closely tracks the capital assessment. A reader might conclude that supervision simply follows a public number. But a reporting requirement has little disciplinary effect if the number it acts on can remain out of date or if losses have yet to be recognised.",
+    "The authors compare the timing of on-site examinations with revisions to previously submitted regulatory reports. A bank becomes considerably more likely to revise earlier net income or book equity around the start of an examination and in the two months afterwards. The event chart includes bank and calendar-month effects and confidence intervals. Across the five years before failure, the typical failing bank’s equity-to-assets ratio falls by about 8 percentage points. Revisions to previous submissions account for nearly 3 points. This cumulative result describes the failing banks in the study. It does not mean a typical single examination produces a three-point capital adjustment.",
+    "A separate comparison during the global financial crisis exploits the quasi-random assignment of otherwise similar institutions to examiners with different degrees of strictness. Stricter examiners assign worse ratings for similar underlying conditions. Banks under stricter supervision recognised more losses, reported less capital and were more likely to fail. Resolution costs for the FDIC fell, but near-term credit supply also fell. Earlier recognition can prevent a troubled bank from taking further risks at the insurer’s expense. It can also tighten capital constraints while local borrowers already face difficult conditions. The evidence identifies that trade-off in a particular setting. Choosing the best intervention would require valuing both the savings at resolution and the effects on viable borrowers who lose credit."
+  ],
+  "questions": [
+    {
+      "question": "When do revisions reveal losses that already existed and when do they reflect new information?",
+      "detail": "Link revisions to the original reporting quarter, the timing of borrower distress and later loan outcomes. The concentration near an examination supports an information-production role, but deterioration may also prompt examination or become easier to verify at that date. Revisions to past reports and newly incurred losses have different implications for how early intervention was feasible."
+    },
+    {
+      "question": "How much does the result depend on the measure of capital used?",
+      "detail": "Repeat the closure and rating comparisons using book equity divided by total assets and common equity tier 1 divided by risk-weighted assets. The denominators can diverge with portfolio composition and the numerator adjustments differ. Matching the chart labels and reporting period is essential before treating any approximate point on a binned curve as a warning threshold."
+    },
+    {
+      "question": "What happened to creditworthy customers when stricter supervision reduced lending?",
+      "detail": "Follow borrowers across lenders and compare new loans, spreads and real activity where replacement finance was more or less available. Reduced lending at a distressed bank could eliminate poor loans, displace good loans to another bank, or constrain otherwise viable firms. Separating those outcomes would help put the estimated saving in resolution costs alongside the cost to the wider economy."
+    }
+  ],
+  "limitation": "The descriptive charts and the crisis-period assignment comparison answer different questions. The historical weekday pattern alone cannot isolate the effect of deposit insurance."
+}

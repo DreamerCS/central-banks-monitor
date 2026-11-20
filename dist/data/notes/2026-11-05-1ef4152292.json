@@ -1,0 +1,28 @@
+{
+  "title": "How an overnight clearing delay reached the Federal Reserve’s balance sheet",
+  "bank": "Federal Reserve Bank of Chicago",
+  "date": "2026-11-05",
+  "url": "https://www.chicagofed.org/publications/chicago-fed-insights/2026/trust-time-operational-resilience",
+  "summary": [
+    "At the end of a June 2026 trading day, a large US central counterparty had cash owed to it by clearing members but could not complete payments it owed them. A faulty trade submission delayed settlement until the next day. The institution left a large cash balance in its deposit account at the Federal Reserve. Short-term market rates did not move in response. In remarks adapted for Chicago Fed Insights, Cindy Hull uses the incident to explain why a settlement delay can matter for monetary policy implementation even when it leaves no visible trace in the effective federal funds rate.",
+    "A central counterparty stands between buyers and sellers and guarantees the performance of contracts. Certain institutions designated as systemically important financial market utilities can maintain accounts at the Fed. Cash held in such an account is a Fed liability, but belongs to a different category from a commercial bank’s reserve balance. Figure 1 holds the Fed’s assets fixed. If an additional dollar sits in the clearing utility’s account instead of reaching a bank reserve account, nonreserve liabilities rise and reserves fall by the same amount, all else equal. The shift in these two liabilities says nothing by itself about the solvency of the clearing utility or the market value of the underlying trades.",
+    "The second figure asks when the decline in reserves would affect borrowing rates. In the ample-reserves illustration, the intersection of supply and demand stays on a flat part of the reserve demand curve after supply shifts to the left. Banks can absorb the decline in balances without bidding up the effective federal funds rate. Closer to the steeper part of the curve, or with more institutions urgently seeking cash, the response could be different. The figure is a schematic. The article gives neither the dollar size of the actual drain nor a measured elasticity that would locate the next incident on the curve.",
+    "Hull offers a second explanation for the quiet market outcome. Counterparties expected payment to arrive the following day and were willing to allow time for resolution. Trust earned through previous performance may therefore have reduced the immediate demand for precautionary funding. The ample-reserves account and the trust account can operate together. One explains how the system can absorb a reserve drain. The other concerns whether firms facing a late receipt seek substitute funding at once. A single overnight episode cannot establish the separate contribution of either, especially if expectations about the duration of delays differ across institutions.",
+    "The governance implications extend beyond a clearing house’s own contractors. Many members may rely on the same provider even when the clearing house itself does not use it. An interruption can therefore arrive through several members at once. Hull calls for staff who can explain settlement requirements across trading, technology and legal teams, and for relationships that support timely coordination across firms. She also asks how a promise to wait until tomorrow would work in a market open around the clock. Moving tokenised collateral at weekends still requires agreement about who can make a final payment, who can accept one and when the obligation is legally discharged. Those questions arise even if the technical transfer is instantaneous."
+  ],
+  "questions": [
+    {
+      "question": "What would distinguish relief from ample reserves from confidence that the delay would last only one night?",
+      "detail": "Compare the timing and distribution of delayed receipts with changes in affected firms’ borrowing, payment sequencing and reserve balances. Stable aggregate rates can coexist with costly adjustments at individual participants. Firms that expected a longer interruption might have raised cash earlier, even if aggregate reserve supply would have accommodated that demand."
+    },
+    {
+      "question": "How well do exercises capture dependencies shared indirectly across clearing members?",
+      "detail": "Ask members which critical functions depend on common outside providers and whether the clearing house can see when several members depend on the same service. An exercise can track the time needed to agree on the status of obligations and inform affected participants. The relevant outcome is continuity of clearing and settlement across the network, including firms without a direct relationship with the provider."
+    },
+    {
+      "question": "What would replace an overnight extension in an always-open collateral market?",
+      "detail": "Set out the point at which payment is final, who has authority to grant more time and how time-zone and staffing differences affect coordination. Test how accrued obligations change while trading continues. The June case involved an expected next-day resolution, so it leaves open whether the same willingness to extend time would hold when delivery times are uncertain."
+    }
+  ],
+  "limitation": "The publication identifies a November 5 seminar and a November issue. The supply-and-demand figure and the discussion of trust are interpretations of one observed settlement delay."
+}
