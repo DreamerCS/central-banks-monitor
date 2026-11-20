@@ -137,6 +137,33 @@ const PublicationReader = (() => {
     ["https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm", "fed-cut-september-2024", "A Fed cut and a steeper Treasury curve"]
   ];
 
+  let sterlingSpeechList;
+  async function addPreSpeechLink(article, note) {
+    const source = new URL(note.url);
+    let text, href;
+    if (source.hostname === "www.federalreserve.gov" &&
+        /^\/newsevents\/speech\/[a-z0-9_-]+\.htm$/.test(source.pathname)) {
+      const params = new URLSearchParams({curveDate: note.date, curveEvent: note.url});
+      text = "View US yields, 2s10s and available policy pricing before this speech";
+      href = "market-reactions.html?" + params + "#pre-event-curve";
+    } else if (source.hostname === "www.bankofengland.co.uk" && source.pathname.startsWith("/speech/")) {
+      sterlingSpeechList ??= fetch("data/pre-speech-sonia.json").then(response => {
+        if (!response.ok) throw Error("Pricing cases unavailable");
+        return response.json();
+      }).then(data => data.events).catch(() => {sterlingSpeechList = undefined; return [];});
+      const cases = await sterlingSpeechList;
+      if (article.dataset.note !== note.url || !cases.some(row => row.date === note.date && row.url === note.url)) return;
+      text = "Compare sterling forward pricing before this speech";
+      href = "market-reactions.html?ukSpeech=" + note.date + "#pre-speech-sonia";
+    } else return;
+    const link = node("a", text);
+    link.className = "note-source";
+    link.href = href;
+    const paragraph = document.createElement("p");
+    paragraph.append(link);
+    article.querySelector("#note-source").after(paragraph);
+  }
+
   function addWorkedCase(article, url) {
     const match = workedCases.find(([source]) => source === url);
     if (!match) return;
@@ -175,6 +202,7 @@ const PublicationReader = (() => {
     article.querySelector("#note-title").textContent = note.title;
     article.querySelector("#note-source").href = note.url;
     addWorkedCase(article, note.url);
+    addPreSpeechLink(article, note);
     article.querySelector("#note-permalink").href = link;
     article.querySelector("#note-summary").replaceChildren(...note.summary.map(text => node("p",text)));
     article.querySelector("#note-questions").replaceChildren(...note.questions.map(item => {

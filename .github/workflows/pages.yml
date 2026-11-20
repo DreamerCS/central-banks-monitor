@@ -46,6 +46,9 @@ jobs:
         run: python3 scripts/update-market-history.py
       - name: Update daily Treasury benchmark
         run: python3 scripts/update-treasury.py
+      - name: Refresh pre-speech US yields and releases
+        continue-on-error: true
+        run: python3 scripts/build-pre-event-curve.py
       - name: Refresh speaking calendar
         run: python3 scripts/update-speaking-calendar.py
       - uses: actions/configure-pages@v5

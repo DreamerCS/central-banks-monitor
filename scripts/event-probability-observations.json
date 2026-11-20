@@ -1,0 +1,187 @@
+{
+  "2022-08-26": {
+    "meeting": "2022-09-21",
+    "outcome": "75 bp increase",
+    "earlier": [
+      "2022-08-24",
+      54.5
+    ],
+    "later": [
+      "2022-08-25",
+      60
+    ],
+    "approximate": true,
+    "note": "The Asian Development Bank’s September report records the August 24 futures pricing and assigns the remaining 45.5% to a 50 bp increase. Reuters reported the August 25 reading that day. The two sources give no common fixing time.",
+    "sources": [
+      [
+        "Asian Development Bank, September 2022, p. 2",
+        "https://asianbondsonline.adb.org/documents/abm/abm_sep_2022_global_regional_market_developments.pdf#page=2"
+      ],
+      [
+        "Reuters, August 25, via Financial Express",
+        "https://www.financialexpress.com/market/global-markets-stocks-euro-edge-higher-as-markets-await-jackson-hole-signals-2644229/"
+      ],
+      [
+        "Powell’s August 26 remarks",
+        "https://www.federalreserve.gov/newsevents/speech/powell20220826a.htm"
+      ]
+    ],
+    "impliedMove": "If the two possible increases were 50 and 75 bp, the August 25 weights imply an average increase of about 65 bp for September. The Asian Development Bank’s August 24 split implies 63.625 bp under the same calculation."
+  },
+  "2024-08-23": {
+    "meeting": "2024-09-18",
+    "outcome": "50 bp cut",
+    "earlier": [
+      "2024-08-21",
+      36.5
+    ],
+    "later": [
+      "2024-08-22",
+      24
+    ],
+    "approximate": false,
+    "note": "Fortune quoted CME FedWatch on Wednesday. MarketWatch recorded Thursday’s pricing in its Friday report and put the other 76% on a 25 bp cut. The comparison uses only readings from before Friday’s address. Exact quote times were unspecified.",
+    "sources": [
+      [
+        "Fortune, August 21",
+        "https://fortune.com/2024/08/21/interest-rate-cuts-all-but-guaranteed-fed-meeting-experts/"
+      ],
+      [
+        "MarketWatch, August 23, reporting the August 22 reading",
+        "https://www.marketwatch.com/story/bond-yields-steady-before-pivotal-powell-remarks-297be706"
+      ],
+      [
+        "Powell’s August 23 remarks",
+        "https://www.federalreserve.gov/newsevents/speech/powell20240823a.htm"
+      ]
+    ],
+    "impliedMove": "On Thursday, 76% on a 25 bp cut and 24% on a 50 bp cut implied a 31 bp probability-weighted reduction. Investors could therefore price a cut with considerable confidence while disagreeing on its size."
+  },
+  "2025-08-22": {
+    "meeting": "2025-09-17",
+    "outcome": "rate cut of any size",
+    "earlier": [
+      "2025-08-20",
+      82
+    ],
+    "later": [
+      "2025-08-21",
+      74
+    ],
+    "approximate": false,
+    "note": "Reuters reported both readings from CME FedWatch on August 21. In the same report, total easing priced through year-end fell from 54 to 49 bp. A separate Reuters report before Friday’s address put September cut odds at about 70%. These were intraday quotations.",
+    "sources": [
+      [
+        "Reuters, August 21, via Investing.com",
+        "https://www.investing.com/news/economy-news/dollar-drifts-as-investors-ponder-fed-independence-ahead-of-powell-speech-4203382"
+      ],
+      [
+        "Reuters morning report, August 22",
+        "https://www.reuters.com/business/finance/global-markets-view-usa-2025-08-22/"
+      ],
+      [
+        "Powell’s August 22 remarks",
+        "https://www.federalreserve.gov/newsevents/speech/powell20250822a.htm"
+      ]
+    ],
+    "eventDay": {
+      "label": "Same-day check after the August 22 speech",
+      "text": "Reuters reported that LSEG’s estimated chance of a 25 bp September cut moved from 70% before the speech to 89% by mid-morning, up 19 percentage points. These two readings concern the quarter-point outcome. The earlier FedWatch pair above concerns a cut of any size. Reuters gives no exact minute for either Friday quote. TD Economics independently charts the rebound using CME data.",
+      "sources": [
+        [
+          "Reuters, August 22, citing LSEG",
+          "https://www.kitco.com/news/off-the-wire/2025-08-22/powells-jackson-hole-address-fires-markets-dovish-tilt"
+        ],
+        [
+          "TD Economics, August 22, chart 1",
+          "https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/BottomLine_20250822.pdf#page=3"
+        ]
+      ]
+    }
+  },
+  "2024-09-18": {
+    "meeting": "2024-09-18",
+    "outcome": "50 bp cut",
+    "earlier": [
+      "2024-09-13",
+      45
+    ],
+    "later": [
+      "2024-09-16",
+      60
+    ],
+    "approximate": true,
+    "note": "Reuters reported LSEG’s federal funds futures calculations on Monday, two days before the decision. It described the Monday reading as nearly 60%. The sixteenth is the latest observation in this comparison.",
+    "sources": [
+      [
+        "Reuters, September 16",
+        "https://www.reuters.com/markets/rates-bonds/us-interest-rate-futures-see-higher-odds-super-sized-fed-move-2024-09-16/"
+      ],
+      [
+        "September 18 FOMC statement",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm"
+      ]
+    ]
+  },
+  "2026-11-19": {
+    "meeting": "2026-12-09",
+    "outcome": "25 bp increase",
+    "earlier": [
+      "2026-11-10",
+      88.8
+    ],
+    "later": [
+      "2026-11-18",
+      95.4
+    ],
+    "approximate": false,
+    "note": "Investing.com reported the November 10 CME FedWatch reading after the US inflation release. EconoTimes reported its November 18 reading at 06:30 UTC, before the October FOMC minutes appeared that afternoon. These are published intraday readings for the same December decision. The exact futures trade times are unavailable.",
+    "impliedMove": "The remaining probability was on a 50 bp increase in both reports: 11.2% on November 10 and 4.6% on November 18. Across those outcomes, the average implied increase fell from 27.8 to 26.15 bp even as the probability of the smaller hike rose.",
+    "sources": [
+      [
+        "Investing.com, November 10, citing CME FedWatch",
+        "https://www.investing.com/news/economy-news/fed-rate-hike-odds-in-december-at-88-after-hot-cpi-cme-fedwatch-5017585"
+      ],
+      [
+        "EconoTimes, November 18, citing CME FedWatch",
+        "https://econotimes.com/CME-FedWatch-Puts-December-Quarter-Point-Fed-Hike-Odds-at-95-4-1778809"
+      ],
+      [
+        "Jefferson’s November 19 remarks",
+        "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm"
+      ]
+    ]
+  },
+  "2026-11-20": {
+    "meeting": "2026-12-09",
+    "outcome": "25 bp increase",
+    "earlier": [
+      "2026-11-18",
+      95.4
+    ],
+    "later": [
+      "2026-11-19",
+      90.7
+    ],
+    "approximate": false,
+    "note": "EconoTimes published the first CME FedWatch reading at 06:30 UTC on Wednesday. MarketWatch reported the next reading early Thursday, after the FOMC minutes and before US jobless claims. The quoted outcome in each case was a quarter-point increase to 4.00–4.25%. The interval includes the minutes and other news. Both observations precede Friday’s speeches.",
+    "sources": [
+      [
+        "EconoTimes, November 18, citing CME FedWatch",
+        "https://econotimes.com/CME-FedWatch-Puts-December-Quarter-Point-Fed-Hike-Odds-at-95-4-1778809"
+      ],
+      [
+        "MarketWatch, November 19, early US market report",
+        "https://www.marketwatch.com/livecoverage/stock-market-today-nasdaq-leads-dow-sp500-higher-on-anthropic-ai-optimism-walmart-earnings/card/treasury-yields-nudge-higher-as-haven-demand-eases-4zcx4OGGC2Cn41PKoZne"
+      ],
+      [
+        "Cook’s November 20 remarks",
+        "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm"
+      ],
+      [
+        "Waller’s November 20 opening remarks",
+        "https://www.federalreserve.gov/newsevents/speech/waller20261120a.htm"
+      ]
+    ]
+  }
+}

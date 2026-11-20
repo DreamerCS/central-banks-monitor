@@ -5,20 +5,70 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#1b211e">
   <title>Market Reactions · Central Bank Intelligence</title>
-  <meta name="description" content="Explore changes in rates, currencies and equities around central bank decisions and press conferences.">
+  <meta name="description" content="Compare market pricing before central bank speeches with changes in yields, currencies and equities around speeches and decisions.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="market-reactions.css">
+  <link rel="stylesheet" href="pre-event-curve.css">
+  <link rel="stylesheet" href="pre-speech-sonia.css">
   <link rel="stylesheet" href="edition.css">
   <script type="module" src="market-reactions.js"></script>
+  <script type="module" src="ecb-speech-windows.js"></script>
+  <script type="module" src="pre-event-curve.js"></script>
+  <script type="module" src="pre-speech-sonia.js"></script>
+  <script type="module" src="event-expectations.js"></script>
+  <script src="speech-intraday.js" defer></script>
 </head>
 <body class="reaction-page">
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="./">Overview</a><a href="market-reactions.html" aria-current="page">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="research-notes.html">Research notes</a><a href="research-archive.html">Archive</a></nav></div></header>
 <main id="main" class="mr-wrap">
-  <div class="mr-intro"><p>Rates &nbsp;/&nbsp; FX &nbsp;/&nbsp; Equities</p><h1>Market reactions</h1><a class="text-link" href="empirical-studies.html?study=markets">Compare policy surprises across meetings</a> · <a class="text-link" href="casebook.html#fed-guidance-2011">Compare statement and full-day moves</a> · <a class="text-link" href="casebook.html#fed-cut-september-2024">Explore the September 2024 Fed cut</a> · <a class="text-link" href="#mr-daily">Test large daily yield moves</a></div>
+  <div class="mr-intro"><p>Rates &nbsp;/&nbsp; FX &nbsp;/&nbsp; Equities</p><h1>Market reactions</h1></div>
+  <nav class="mr-jump" aria-label="Market studies"><a href="#pre-event-curve">US pricing before a speech</a><a href="#mr-speech-intraday">US intraday speech moves</a><a href="#pre-speech-sonia">Sterling forward pricing</a><a href="#ecb-speech-windows">Euro-area speeches</a><a href="#mr-explorer">Meeting windows</a><a href="#mr-daily">Daily yield screen</a></nav>
+  <section class="mr-analysis pre-curve" id="pre-event-curve" aria-labelledby="pc-title">
+    <h2 id="pc-title">How did the US curve move before the event?</h2>
+    <p>Compare two- and ten-year Treasury yields over the sessions leading into a Fed speech or statement. A custom date uses the same comparison.</p>
+    <p class="mr-method-links"><a href="?curveDate=2025-08-22&amp;curveEvent=https%3A%2F%2Fwww.federalreserve.gov%2Fnewsevents%2Fspeech%2Fpowell20250822a.htm#pre-event-curve">Powell at Jackson Hole, August 2025</a> · <a href="?curveDate=2026-11-20&amp;curveEvent=https%3A%2F%2Fwww.federalreserve.gov%2Fnewsevents%2Fspeech%2Fwaller20261120a.htm#pre-event-curve">Waller at the College Fed Challenge, November 2026</a></p>
+    <p id="pc-status" role="status">Loading Treasury yields and events…</p>
+    <div id="pc-content" hidden>
+      <div class="pc-controls">
+        <label>Event type<select id="pc-kind"><option value="speech">Fed speeches</option><option value="statement">Fed statements</option><option value="custom">Custom date</option></select></label>
+        <label id="pc-year-field">Year<select id="pc-year"></select></label>
+        <label id="pc-search-field">Find a speech<input type="search" id="pc-search" placeholder="Speaker or title"></label>
+        <label id="pc-event-field">Event<select id="pc-event"></select></label>
+        <label id="pc-date-field" hidden>Event date (New York)<input type="date" id="pc-date"></label>
+      </div>
+      <p id="pc-event-note" aria-live="polite"></p>
+      <div id="pc-expectations"></div>
+      <div id="pc-results" hidden>
+        <div class="pc-figure">
+          <div class="pc-figure-head"><div><h3>Yields before the event</h3><p id="pc-period"></p></div><div class="pc-legend"><span>2-year</span><span>10-year</span></div></div>
+          <div id="pc-chart"></div>
+          <p id="pc-levels"></p>
+        </div>
+        <div class="mr-table-scroll" role="region" aria-label="US yield and spread changes" tabindex="0">
+          <table class="mr-method-table pc-table">
+            <caption>Changes in basis points. A positive 2s10s change means the curve steepened.</caption>
+            <thead><tr><th scope="col">Window</th><th scope="col">Quoted dates</th><th scope="col">2Y</th><th scope="col">10Y</th><th scope="col">2s10s</th></tr></thead>
+            <tbody id="pc-before"></tbody><tbody id="pc-after"></tbody>
+          </table>
+        </div>
+        <p id="pc-reading"></p>
+        <p id="pc-timing"></p>
+      </div>
+      <details class="mr-help"><summary>Window definitions and data sources</summary>
+        <p>Each pre-event window ends at the last jointly quoted close strictly before the event date. A five-session change compares that close with the fifth earlier quoted close. The spread is the ten-year yield minus the two-year yield. If both yields rise, the curve steepens when the ten-year rises by more. The event-date and following-close rows show changes from the immediately preceding quoted close. A dash marks an unavailable comparison. Weekends, holidays and missing joint observations are skipped when counting sessions.</p>
+        <p>US Treasury par yields use indicative quotes sampled at approximately 15:30 New York time. Yield levels reflect both expected future short rates and term premia. A change in slope alone cannot separate those contributions. A daily change can include other news. For minute-by-minute speech windows, use timestamped quotes in the <a href="./#event-calculator">event calculator</a>.</p>
+        <p class="pc-sources" id="pc-sources"></p>
+      </details>
+    </div>
+    <noscript>Selecting an event and calculating daily changes requires JavaScript. <a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml">Browse US Treasury data.</a></noscript>
+  </section>
+  <div id="mr-speech-intraday"></div>
+  <section class="mr-analysis" id="pre-speech-sonia" aria-label="Sterling forward pricing before Bank of England speeches"></section>
   <p id="mr-load" role="status">Loading event data…</p>
   <div id="mr-explorer" hidden>
+    <h2>Decision and press conference windows</h2>
     <div class="mr-controls">
       <label>Central bank<select id="mr-bank"></select></label>
       <label>Event window<select id="mr-window"></select></label>
@@ -73,8 +123,23 @@
         <p><a href="https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2133.en.pdf">Jarociński and Karadi · ECB Working Paper 2133</a> · <a href="https://www.ecb.europa.eu/press/research-publications/resbull/2018/html/ecb.rb180921.en.pdf">ECB research bulletin and euro-area example</a></p>
       </details>
     </section>
+    <p class="mr-method-links"><a href="empirical-studies.html?study=markets">Compare policy surprises across meetings</a> · <a href="casebook.html#fed-guidance-2011">Statement and full-day moves</a> · <a href="casebook.html#fed-cut-september-2024">September 2024 Fed cut</a></p>
     <div class="mr-sources"><strong>Source</strong><a id="mr-source" href=""></a><span id="mr-credit"></span></div>
   </div>
+  <section id="ecb-speech-windows" class="mr-analysis evidence-window" aria-labelledby="ecb-speech-heading">
+    <h2 id="ecb-speech-heading">Euro-area speech windows</h2>
+    <p data-es="scope" role="status">Loading ECB communication dates…</p>
+    <div data-es="controls" hidden>
+      <div class="evidence-controls"><label>Year<select data-es="year"></select></label><label>Speaker<select data-es="speaker"></select></label><label>Communication<select data-es="event"></select></label></div>
+      <h3 data-es="title"></h3><p data-es="release"></p><dl data-es="results" class="evidence-quotes"></dl>
+      <p data-es="reading" aria-live="polite"></p><a data-es="link">Link to this speech</a>
+    </div>
+    <details class="mr-help"><summary>Timing and spread definitions</summary>
+      <p>The ECB workbook compares median quotes 20–10 minutes before the start with quotes 10–20 minutes after an assumed 30-minute speech. The second interval is 40–50 minutes after the start. Other news and nearby speeches can fall inside that span.</p>
+      <p>OIS changes measure repricing of overnight rates over the named tenor. They do not report the pre-speech rate level. German 2s10s subtracts the change in the two-year yield from the change in the ten-year yield. The Italy–Germany spread subtracts the change in the German ten-year yield from the change in its Italian counterpart. Positive EUR/USD means euro appreciation.</p>
+    </details>
+    <p class="mr-method-links"><a href="https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx">ECB workbook and window definitions</a> · <a href="https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3157~f5789c7b8a.en.pdf">Altavilla et al., monetary transmission</a> · <a href="historical-data.html#ecb-omt">The 2012 sovereign bond commitment</a></p>
+  </section>
   <section class="mr-analysis mr-daily" id="mr-daily" aria-labelledby="mr-daily-title">
     <h2 id="mr-daily-title">Which 2024 Fed meetings moved the two-year yield unusually far?</h2>
     <p>The target fell 25 basis points on 18 December, yet the Treasury’s daily two-year yield rose 10 basis points. It was the only one of eight scheduled 2024 meetings to cross twice the previous month’s daily volatility. Twenty quoted days later the yield was 8 basis points below its meeting-day level.</p>

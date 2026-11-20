@@ -161,16 +161,21 @@ function renderWindowComparison(event) {
   }).filter(Boolean);
   el('compare-rows').replaceChildren(...rows);
 
-  const decision = fed && document.querySelector('[data-mr-meeting="' + event.date + '"]');
+  const screenRow = fed && document.querySelector('[data-mr-meeting="' + event.date + '"]');
   const surprise = event.windows.statement?.MP1;
   const intro = el('window-context');
-  if (decision && Number.isFinite(surprise)) {
-    const action = Number(decision.dataset.action);
-    const daily = Number(decision.dataset.daily);
+  if (fed && Number.isFinite(surprise) && (Number.isFinite(event.decision?.changeBp) || screenRow)) {
+    const action = event.decision?.changeBp ?? Number(screenRow.dataset.action);
     intro.textContent = 'The Fed ' + (action === 0 ? 'held its target range' : 'moved its target range by ' + formatted(action, 'bp')) +
       '. Current-meeting futures repriced by ' + formatted(surprise, 'bp') +
       ' around the statement. Subtracting that surprise from the decision gives approximately ' +
-      formatted(action - surprise, 'bp') + ' priced in beforehand, assuming a stable futures basis. The daily two-year Treasury move was ' + formatted(daily, 'bp') + '.';
+      formatted(action - surprise, 'bp') + ' for the signed change priced just beforehand. This retrospective estimate assumes a stable futures basis within the window.';
+    if (screenRow) intro.append(' The daily two-year Treasury move was ' + formatted(Number(screenRow.dataset.daily), 'bp') + '.');
+    if (event.decision?.url) {
+      const source = document.createElement('a');
+      source.href = event.decision.url; source.textContent = 'FOMC decision';
+      intro.append(' ', source);
+    }
   } else {
     intro.textContent = fed
       ? 'Current-meeting futures measure the unexpected part of the announcement. Next-meeting futures and one-year swaps show how pricing farther ahead changed. Longer yields can also reflect inflation compensation and term premia.'

@@ -1,0 +1,14 @@
+.erm-tape { border-block: 1px solid var(--hairline); padding-block: 1.1rem .75rem; }
+.erm-tape label { display: inline-block; margin: 0 .6rem .4rem 0; font-weight: 600; }
+.erm-tape label span { font-weight: 400; color: var(--quiet); }
+.erm-tape select { max-width: 100%; font: inherit; padding: .4rem .6rem; color: var(--navy); background: transparent; border: 1px solid var(--hairline); }
+.erm-facts { display: grid; grid-template-columns: 1fr 1fr 1.35fr; gap: .8rem; margin: 1rem 0 .6rem; }
+.erm-facts dt { color: var(--quiet); font-size: .88rem; }
+.erm-facts dd { margin: .25rem 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+#erm-snapshot { max-width: 80ch; line-height: 1.55; }
+.erm-compare td { white-space: normal; vertical-align: top; }
+.erm-compare caption { text-align: left; padding: .4rem 0 .65rem; color: var(--quiet); }
+@media(max-width: 640px) {
+  .erm-facts { grid-template-columns: 1fr; gap: .3rem; }
+  .erm-compare { min-width: 31rem; }
+}

@@ -1,3 +1,7 @@
+import {mountPricing} from "./uk-rate-pricing.js";
+
+mountPricing(document.querySelector("#uk-bank-rate-pricing"));
+
 const DAY = 86_400_000;
 const colours = ["#1b6156", "#a04d2a", "#3d6794", "#75568d", "#a32e61", "#5d6a1c", "#3b427e", "#7b5741"];
 const defaults = ["US", "XM", "GB", "JP"];
@@ -520,6 +524,7 @@ async function start() {
     });
   }
   ui["history-export"].addEventListener("click", exportCsv);
+  if (location.hash === "#uk-bank-rate-pricing") ui["uk-bank-rate-pricing"].scrollIntoView();
 }
 
 start().catch(error => {

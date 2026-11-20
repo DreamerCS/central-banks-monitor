@@ -1,0 +1,21 @@
+.uk-pricing { margin: 2rem 0; padding: 1.4rem 0; border-block-start: 1px solid #526258; color: #25352b; font-variant-numeric: tabular-nums; scroll-margin-top: 1rem; }
+.uk-pricing h2 { margin: 0 0 .7rem; font: 400 clamp(1.75rem, 3.2vw, 2.6rem)/1.12 var(--serif); letter-spacing: -.035em; }
+.uk-pricing h3 { margin: 1rem 0 .3rem; font: 600 1.15rem/1.35 var(--serif); }
+.uk-pricing p { max-width: 82ch; margin: .5rem 0 .85rem; line-height: 1.55; }
+.uk-pricing a { color: #2a5846; text-underline-offset: .2em; }
+.uk-controls { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.5rem; padding-block: .55rem; }
+.uk-controls label, .uk-pricing caption { font-weight: 600; }
+.uk-controls select { margin-inline-start: .3rem; padding: .3rem; font: inherit; color: inherit; }
+.uk-scroll { max-width: 100%; overflow: auto; }
+.uk-pricing table { width: 100%; border-collapse: collapse; font-size: .92rem; text-align: start; }
+.uk-pricing caption { text-align: start; padding: .6rem 0; }
+.uk-pricing th, .uk-pricing td { text-align: start; padding: .55rem .65rem .55rem 0; border-block-end: 1px solid #c7cabe; }
+.uk-pricing tbody th, .uk-pricing td { white-space: nowrap; }
+.uk-outcome { padding: .65rem .8rem; background: #e7ebdf; }
+.uk-pricing .uk-method, .uk-pricing details { font-size: .91rem; color: #4d5f53; }
+.uk-pricing details { margin-bottom: .8rem; }
+.uk-pricing summary { cursor: pointer; }
+.uk-stages { padding: 0; list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+.uk-stages li { padding-block: .5rem; border-top: 2px solid #88998b; }
+.uk-stages h3 { margin-top: 0; }
+@media (max-width: 650px) { .uk-stages { grid-template-columns: 1fr; gap: .75rem; } }

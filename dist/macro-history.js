@@ -1,3 +1,6 @@
+import {labourFlows} from "./labour-flows.js";
+import {ukCredit} from "./uk-rate-pricing.js";
+
 const root = document.querySelector("#study");
 const params = new URLSearchParams(location.search);
 const cache = new Map();
@@ -196,6 +199,7 @@ async function cycles() {
         rows.map(row => [link(row.date, row.url), num(row.credit, 2), num(row.outright, 2),
           row.auction === null ? "Before launch" : num(row.auction, 2)]), title));
   }
+  if (["financial-crisis","pandemic"].includes(item.id)) article.append(link("Compare US job losses and job finding",local("labour-flows")));
   if (item.studyLink) article.append(link(item.studyLink.label, item.studyLink.url));
   const comparisonIds = {"oil-embargo":"oil-reopening",volcker:"volcker-reopening","financial-crisis":"funding-runs",pandemic:"funding-runs","recent-inflation":"oil-reopening"};
   if (comparisonIds[item.id]) article.append(link("Compare the inflation, employment and output paths", local("compare",{pair:comparisonIds[item.id]})));
@@ -486,7 +490,8 @@ async function compare() {
 }
 
 async function main(){
-  const views={cycles,leaders,guidance,compare};
+  const views={cycles,leaders,guidance,compare,"uk-credit":ukCredit,
+    "labour-flows":async()=>labourFlows(await read("us-labour-flows"),{el,link,table,select,svgNode,sourceList},params)};
   const view=Object.hasOwn(views,params.get("view"))?params.get("view"):"cycles";
   document.querySelector('[data-view="'+view+'"]').setAttribute("aria-current","page");
   try {

@@ -1,0 +1,119 @@
+{
+  "timezone": "America/New_York",
+  "studies": {
+    "rosa": {
+      "citation": "Carlo Rosa, International Journal of Central Banking (2016)",
+      "url": "https://www.ijcb.org/sites/default/files/journal/v12n4/ijcb-v12n4-fedspeak-who-moves-us-asset-prices.pdf"
+    },
+    "chodorowReich": {
+      "citation": "Gabriel Chodorow-Reich, Brookings Papers on Economic Activity (2014)",
+      "url": "https://www.brookings.edu/wp-content/uploads/2016/07/2014a_ChodorowReich.pdf"
+    }
+  },
+  "events": [
+    {
+      "id": "2013-05-22-bernanke-economic-outlook",
+      "date": "2013-05-22",
+      "speaker": "Ben Bernanke",
+      "role": "Fed Chair",
+      "kind": "Congressional testimony",
+      "title": "The Economic Outlook",
+      "eventUrl": "https://www.federalreserve.gov/newsevents/testimony/bernanke20130522a.htm",
+      "context": "Bernanke told Congress that incoming employment and inflation data could justify changing the pace of asset purchases. In the hearing he raised the possibility of slowing purchases within a few meetings if conditions continued to improve. Two studies measured the Treasury reaction over different windows.",
+      "observations": [
+        {
+          "instrument": "5-year Treasury yield",
+          "value": 6.6,
+          "unit": "bp",
+          "window": "10:23–10:28 vs 10:48–10:53",
+          "method": "The study places the news at 10:30. It compares the yield on the current 5-year note using average indicative bid and ask prices in each interval.",
+          "study": "chodorowReich",
+          "locator": "Table 1, p. 168",
+          "pdfPage": 14
+        },
+        {
+          "instrument": "10-year Treasury yield",
+          "value": 10,
+          "unit": "bp",
+          "approximate": true,
+          "window": "One hour around the testimony",
+          "method": "Rosa gives an approximate change and describes the window as one hour around the event. The endpoints are unspecified.",
+          "study": "rosa",
+          "locator": "Introduction, p. 223",
+          "pdfPage": 1
+        }
+      ]
+    },
+    {
+      "id": "2008-12-01-bernanke-financial-crisis",
+      "date": "2008-12-01",
+      "speaker": "Ben Bernanke",
+      "role": "Fed Chair",
+      "kind": "Speech",
+      "title": "Federal Reserve Policies in the Financial Crisis",
+      "eventUrl": "https://www.federalreserve.gov/newsevents/speech/bernanke20081201a.htm",
+      "curveCatalogMatch": true,
+      "context": "Speaking in Austin, Bernanke described buying longer-term Treasury or agency securities as one way the Fed could lower borrowing costs as the policy rate approached zero.",
+      "observations": [
+        {
+          "instrument": "5-year Treasury yield",
+          "value": -9.2,
+          "unit": "bp",
+          "window": "13:38–13:43 vs 14:03–14:08",
+          "method": "The study places the speech at 13:45. It compares the yield on the current 5-year note using average indicative bid and ask prices in each interval.",
+          "study": "chodorowReich",
+          "locator": "Table 1, p. 168",
+          "pdfPage": 14
+        }
+      ]
+    },
+    {
+      "id": "2002-10-03-ferguson-business-continuity",
+      "date": "2002-10-03",
+      "speaker": "Roger Ferguson Jr.",
+      "role": "Fed Vice Chair",
+      "kind": "Speech",
+      "title": "Business Continuity after September 11",
+      "eventUrl": "https://www.federalreserve.gov/boarddocs/speeches/2002/20021003/default.htm",
+      "context": "Ferguson spoke in Geneva about how banks could keep payments flowing through a disruption. The US Census Bureau also scheduled its factory-orders release for 10 a.m. that day. Both events matter when interpreting the equity move.",
+      "observations": [
+        {
+          "instrument": "E-mini S&P 500 futures",
+          "value": 1.2,
+          "unit": "%",
+          "window": "10:00–10:10",
+          "method": "Rosa measures the price return on the nearest unexpired E-mini S&P 500 contract. This contract tracks US stocks.",
+          "study": "rosa",
+          "locator": "Table 3C, p. 233",
+          "pdfPage": 11
+        }
+      ],
+      "overlapSource": {
+        "label": "Census Bureau factory-orders release",
+        "url": "https://www.census.gov/manufacturing/m3/historical_data/pressreleases/prel/2002/aug02prel.pdf#page=1"
+      }
+    },
+    {
+      "id": "2002-01-11-greenspan-economy",
+      "date": "2002-01-11",
+      "speaker": "Alan Greenspan",
+      "role": "Fed Chair",
+      "kind": "Speech",
+      "title": "The Economy",
+      "eventUrl": "https://www.federalreserve.gov/boarddocs/speeches/2002/20020111/default.htm",
+      "context": "Greenspan told the Bay Area Council that signs of economic stabilization had emerged. He also described risks to the recovery, including weak business investment. Two-year yields fell in the first ten minutes.",
+      "observations": [
+        {
+          "instrument": "2-year Treasury yield",
+          "value": -13,
+          "unit": "bp",
+          "window": "13:45–13:55",
+          "method": "Rosa measures the yield on the current 2-year Treasury note using indicative dealer quotes at release time and ten minutes later.",
+          "study": "rosa",
+          "locator": "Table 3A, p. 233",
+          "pdfPage": 11
+        }
+      ]
+    }
+  ]
+}

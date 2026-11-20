@@ -1,0 +1,595 @@
+{
+  "curveSource": "https://www.bankofengland.co.uk/statistics/yield-curves",
+  "dailyArchive": "https://www.bankofengland.co.uk/-/media/boe/files/statistics/yield-curves/oisddata.zip",
+  "latestMonth": "https://www.bankofengland.co.uk/-/media/boe/files/statistics/yield-curves/latest-yield-curve-data.zip",
+  "months": [
+    3,
+    6,
+    12
+  ],
+  "events": [
+    {
+      "date": "2026-11-18",
+      "speaker": "Andrew Bailey",
+      "title": "The UK’s regional growth: unlocking the economy’s full potential",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-the-annual-institute-of-economic-development-conference-london",
+      "context": "Bailey explained the November increase to 4% and why the duration of the energy shock mattered for subsequent decisions.",
+      "note": "2026-11-18-a584e8b634",
+      "targets": [
+        "2027-02-18",
+        "2027-05-18",
+        "2027-11-18"
+      ],
+      "observations": [
+        {
+          "sessionsBefore": 1,
+          "date": "2026-11-17",
+          "rates": [
+            4.34530659,
+            4.65080481,
+            4.957881
+          ]
+        },
+        {
+          "sessionsBefore": 2,
+          "date": "2026-11-16",
+          "rates": [
+            4.35427999,
+            4.65611524,
+            4.95173894
+          ]
+        },
+        {
+          "sessionsBefore": 3,
+          "date": "2026-11-13",
+          "rates": [
+            4.33630328,
+            4.62978289,
+            4.94799305
+          ]
+        },
+        {
+          "sessionsBefore": 6,
+          "date": "2026-11-10",
+          "rates": [
+            4.30761817,
+            4.58563757,
+            4.84408589
+          ]
+        },
+        {
+          "sessionsBefore": 7,
+          "date": "2026-11-09",
+          "rates": [
+            4.24865831,
+            4.47851549,
+            4.6843371
+          ]
+        },
+        {
+          "sessionsBefore": 21,
+          "date": "2026-10-20",
+          "rates": [
+            4.27946906,
+            4.61367823,
+            4.97024477
+          ]
+        },
+        {
+          "sessionsBefore": 22,
+          "date": "2026-10-19",
+          "rates": [
+            4.2605417,
+            4.57703401,
+            4.90138401
+          ]
+        }
+      ],
+      "policyDates": [
+        {
+          "date": "2026-11-05",
+          "text": "The MPC raised Bank Rate by 25 basis points to 4%.",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "speaker": "Clare Lombardelli",
+      "title": "The low-gear labour market",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference",
+      "context": "Lombardelli saw a conditional case for another near-term increase, despite weaker hiring. She discussed whether that weakness would ease wage pressure.",
+      "note": "2026-11-10-5537220d00",
+      "targets": [
+        "2027-02-10",
+        "2027-05-10",
+        "2027-11-10"
+      ],
+      "observations": [
+        {
+          "sessionsBefore": 1,
+          "date": "2026-11-09",
+          "rates": [
+            4.22385353,
+            4.46320249,
+            4.68085272
+          ]
+        },
+        {
+          "sessionsBefore": 2,
+          "date": "2026-11-06",
+          "rates": [
+            4.22675557,
+            4.46647655,
+            4.72146171
+          ]
+        },
+        {
+          "sessionsBefore": 3,
+          "date": "2026-11-05",
+          "rates": [
+            4.22745645,
+            4.45926338,
+            4.69837138
+          ]
+        },
+        {
+          "sessionsBefore": 6,
+          "date": "2026-11-02",
+          "rates": [
+            4.18715673,
+            4.46416508,
+            4.73417195
+          ]
+        },
+        {
+          "sessionsBefore": 7,
+          "date": "2026-10-30",
+          "rates": [
+            4.19492084,
+            4.50570096,
+            4.83843938
+          ]
+        },
+        {
+          "sessionsBefore": 21,
+          "date": "2026-10-12",
+          "rates": [
+            4.24871202,
+            4.56616403,
+            4.91671702
+          ]
+        },
+        {
+          "sessionsBefore": 22,
+          "date": "2026-10-09",
+          "rates": [
+            4.22731111,
+            4.53265292,
+            4.87434933
+          ]
+        }
+      ],
+      "policyDates": [
+        {
+          "date": "2026-11-05",
+          "text": "The MPC raised Bank Rate by 25 basis points to 4%.",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "speaker": "Megan Greene",
+      "title": "Here we go again? Assessing the inflation risks of the recent energy shock",
+      "url": "https://www.bankofengland.co.uk/speech/2026/june/megan-greene-speech-at-university-of-derby-business-school",
+      "context": "Greene examined how the energy shock could pass into wages and prices, and what the evidence would mean for the policy response.",
+      "note": null,
+      "targets": [
+        "2026-09-02",
+        "2026-12-02",
+        "2027-06-02"
+      ],
+      "observations": [
+        {
+          "sessionsBefore": 1,
+          "date": "2026-06-01",
+          "rates": [
+            3.87560606,
+            4.09726614,
+            4.3040975
+          ]
+        },
+        {
+          "sessionsBefore": 2,
+          "date": "2026-05-29",
+          "rates": [
+            3.84022293,
+            3.99526857,
+            4.12538726
+          ]
+        },
+        {
+          "sessionsBefore": 3,
+          "date": "2026-05-28",
+          "rates": [
+            3.86158366,
+            4.03376238,
+            4.17632015
+          ]
+        },
+        {
+          "sessionsBefore": 6,
+          "date": "2026-05-22",
+          "rates": [
+            3.89802576,
+            4.1255594,
+            4.35860949
+          ]
+        },
+        {
+          "sessionsBefore": 7,
+          "date": "2026-05-21",
+          "rates": [
+            3.89552378,
+            4.11943209,
+            4.34313249
+          ]
+        },
+        {
+          "sessionsBefore": 21,
+          "date": "2026-04-30",
+          "rates": [
+            4.09272079,
+            4.35450768,
+            4.42481655
+          ]
+        },
+        {
+          "sessionsBefore": 22,
+          "date": "2026-04-29",
+          "rates": [
+            4.19852002,
+            4.46142603,
+            4.58207401
+          ]
+        }
+      ],
+      "policyDates": []
+    },
+    {
+      "date": "2024-08-23",
+      "speaker": "Andrew Bailey",
+      "title": "Reflecting on recent times",
+      "url": "https://www.bankofengland.co.uk/speech/2024/august/andrew-bailey-speech-federal-reserve-bank-of-kansas-annual-jackson-hole-economic-policy-symposium",
+      "context": "At Jackson Hole, Bailey judged inflation less persistent than previously feared, while arguing that policy still needed to remain restrictive.",
+      "note": null,
+      "targets": [
+        "2024-11-23",
+        "2025-02-23",
+        "2025-08-23"
+      ],
+      "observations": [
+        {
+          "sessionsBefore": 1,
+          "date": "2024-08-22",
+          "rates": [
+            4.7217534,
+            4.37462854,
+            3.89645826
+          ]
+        },
+        {
+          "sessionsBefore": 2,
+          "date": "2024-08-21",
+          "rates": [
+            4.70541834,
+            4.33997782,
+            3.86115117
+          ]
+        },
+        {
+          "sessionsBefore": 3,
+          "date": "2024-08-20",
+          "rates": [
+            4.71383048,
+            4.37211637,
+            3.90500327
+          ]
+        },
+        {
+          "sessionsBefore": 6,
+          "date": "2024-08-15",
+          "rates": [
+            4.71084852,
+            4.36814859,
+            3.8758278
+          ]
+        },
+        {
+          "sessionsBefore": 7,
+          "date": "2024-08-14",
+          "rates": [
+            4.67708563,
+            4.2941729,
+            3.80062566
+          ]
+        },
+        {
+          "sessionsBefore": 21,
+          "date": "2024-07-25",
+          "rates": [
+            4.84137799,
+            4.55998255,
+            4.12952661
+          ]
+        },
+        {
+          "sessionsBefore": 22,
+          "date": "2024-07-24",
+          "rates": [
+            4.8586249,
+            4.58306023,
+            4.18451323
+          ]
+        }
+      ],
+      "policyDates": [
+        {
+          "date": "2024-08-01",
+          "text": "The MPC cut Bank Rate by 25 basis points to 5%.",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2024/august-2024"
+        }
+      ]
+    },
+    {
+      "date": "2022-10-12",
+      "speaker": "Huw Pill",
+      "title": "Monetary policy: an anchor in challenging times",
+      "url": "https://www.bankofengland.co.uk/speech/2022/october/huw-pill-in-conversation-with-scdi",
+      "context": "Pill expected a significant policy response at the November meeting and distinguished that judgement from the Bank’s intervention in gilt markets.",
+      "note": null,
+      "targets": [
+        "2023-01-12",
+        "2023-04-12",
+        "2023-10-12"
+      ],
+      "observations": [
+        {
+          "sessionsBefore": 1,
+          "date": "2022-10-11",
+          "rates": [
+            4.44002154,
+            5.50982813,
+            5.78829238
+          ]
+        },
+        {
+          "sessionsBefore": 2,
+          "date": "2022-10-10",
+          "rates": [
+            4.48505786,
+            5.54606612,
+            5.89459922
+          ]
+        },
+        {
+          "sessionsBefore": 3,
+          "date": "2022-10-07",
+          "rates": [
+            4.44233164,
+            5.47260321,
+            5.76599444
+          ]
+        },
+        {
+          "sessionsBefore": 6,
+          "date": "2022-10-04",
+          "rates": [
+            4.31623565,
+            5.22872322,
+            5.39423198
+          ]
+        },
+        {
+          "sessionsBefore": 7,
+          "date": "2022-10-03",
+          "rates": [
+            4.39216651,
+            5.32214447,
+            5.55647379
+          ]
+        },
+        {
+          "sessionsBefore": 21,
+          "date": "2022-09-12",
+          "rates": [
+            3.5592216,
+            4.13507069,
+            4.27173751
+          ]
+        },
+        {
+          "sessionsBefore": 22,
+          "date": "2022-09-09",
+          "rates": [
+            3.56747734,
+            4.14295889,
+            4.28692069
+          ]
+        }
+      ],
+      "policyDates": [
+        {
+          "date": "2022-09-22",
+          "text": "The MPC raised Bank Rate by 50 basis points to 2.25%.",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2022/september-2022"
+        }
+      ]
+    },
+    {
+      "date": "2021-01-11",
+      "speaker": "Silvana Tenreyro",
+      "title": "Let’s talk about negative interest rates",
+      "url": "https://www.bankofengland.co.uk/speech/2021/january/silvana-tenreyro-lets-talk-about-negative-interest-rates",
+      "context": "Tenreyro examined negative policy rates as an option if further stimulus became necessary.",
+      "note": null,
+      "targets": [
+        "2021-04-11",
+        "2021-07-11",
+        "2022-01-11"
+      ],
+      "observations": [
+        {
+          "sessionsBefore": 1,
+          "date": "2021-01-08",
+          "rates": [
+            0.00539764,
+            -0.03335313,
+            -0.08738536
+          ]
+        },
+        {
+          "sessionsBefore": 2,
+          "date": "2021-01-07",
+          "rates": [
+            0.00735521,
+            -0.03483491,
+            -0.08735242
+          ]
+        },
+        {
+          "sessionsBefore": 3,
+          "date": "2021-01-06",
+          "rates": [
+            0.01098411,
+            -0.03407438,
+            -0.09637565
+          ]
+        },
+        {
+          "sessionsBefore": 6,
+          "date": "2020-12-31",
+          "rates": [
+            0.02103935,
+            -0.00996207,
+            -0.07125785
+          ]
+        },
+        {
+          "sessionsBefore": 7,
+          "date": "2020-12-30",
+          "rates": [
+            0.02373534,
+            -0.00480938,
+            -0.06668619
+          ]
+        },
+        {
+          "sessionsBefore": 21,
+          "date": "2020-12-08",
+          "rates": [
+            0.00936564,
+            -0.01776292,
+            -0.05973282
+          ]
+        },
+        {
+          "sessionsBefore": 22,
+          "date": "2020-12-07",
+          "rates": [
+            0.01171392,
+            -0.01348654,
+            -0.05847484
+          ]
+        }
+      ],
+      "policyDates": []
+    },
+    {
+      "date": "2013-08-28",
+      "speaker": "Mark Carney",
+      "title": "Speech and press conference at the East Midlands Conference Centre",
+      "url": "https://www.bankofengland.co.uk/speech/2013/mark-carney-speech-and-press-conference-east-midlands-conference-centre",
+      "context": "Carney explained that reaching the unemployment threshold would prompt a reassessment. It would not trigger an automatic increase in Bank Rate.",
+      "note": null,
+      "targets": [
+        "2013-11-28",
+        "2014-02-28",
+        "2014-08-28"
+      ],
+      "observations": [
+        {
+          "sessionsBefore": 1,
+          "date": "2013-08-27",
+          "rates": [
+            0.40395076,
+            0.40146538,
+            0.4625327
+          ]
+        },
+        {
+          "sessionsBefore": 2,
+          "date": "2013-08-23",
+          "rates": [
+            0.4051441,
+            0.40603143,
+            0.47957994
+          ]
+        },
+        {
+          "sessionsBefore": 3,
+          "date": "2013-08-22",
+          "rates": [
+            0.40367668,
+            0.40594963,
+            0.48314944
+          ]
+        },
+        {
+          "sessionsBefore": 6,
+          "date": "2013-08-19",
+          "rates": [
+            0.40899729,
+            0.4176053,
+            0.49824847
+          ]
+        },
+        {
+          "sessionsBefore": 7,
+          "date": "2013-08-16",
+          "rates": [
+            0.40693208,
+            0.41010555,
+            0.49405431
+          ]
+        },
+        {
+          "sessionsBefore": 21,
+          "date": "2013-07-29",
+          "rates": [
+            0.332958,
+            0.33264151,
+            0.36142089
+          ]
+        },
+        {
+          "sessionsBefore": 22,
+          "date": "2013-07-26",
+          "rates": [
+            0.34449081,
+            0.32729518,
+            0.35123568
+          ]
+        }
+      ],
+      "policyDates": [
+        {
+          "date": "2013-08-14",
+          "text": "The MPC published minutes setting out its conditional 7% unemployment threshold.",
+          "url": "https://www.bankofengland.co.uk/minutes/2013/monetary-policy-committee-august-2013"
+        }
+      ]
+    }
+  ]
+}

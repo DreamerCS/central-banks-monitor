@@ -9,7 +9,10 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="historical-data.css">
-  <script src="historical-data.js" type="module"></script>
+  <link rel="stylesheet" href="uk-rate-pricing.css">
+  <script src="historical-data.js?v=uk-rates-2024" type="module"></script>
+  <link rel="stylesheet" href="policy-erm.css">
+  <script type="module" src="policy-erm.js"></script>
 </head>
 <body class="history-page">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -28,7 +31,7 @@
   <main class="shell history-shell" id="main">
     <div class="history-intro">
       <h1>Policy <em>history</em></h1>
-      <p class="history-dateline">2000 <span aria-hidden="true">—</span> 2026</p>
+      <p class="history-dateline">Chart coverage · 2000 <span aria-hidden="true">—</span> 2026</p>
     </div>
     <p id="history-load" class="history-load" role="status">Loading historical data…</p>
     <div id="history-explorer" hidden>
@@ -99,7 +102,45 @@
         </div>
         <p class="policy-footnote">Steps use daily observations at every chart frequency. Opposite moves within a month or year count separately. A comparison can start up to seven days before the window. Longer gaps break the chain. These are changes in the published instrument, which may include a change of benchmark.</p>
       </section>
-      <nav class="policy-case-links" aria-label="Policy episodes"><a href="#swiss-franc-floor">Swiss franc floor, 2011–15</a><a href="#ecb-omt">ECB bond backstop, 2012</a></nav>
+      <nav class="policy-case-links" aria-label="Policy episodes"><a href="#uk-bank-rate-pricing">UK rate pricing, 2023–24</a><a href="#sterling-erm-tape">Sterling’s ERM exit, 1992</a><a href="#swiss-franc-floor">Swiss franc floor, 2011–15</a><a href="#ecb-omt">ECB bond backstop, 2012</a></nav>
+      <section id="sterling-erm-tape" class="policy-episode erm-evidence" aria-labelledby="erm-heading">
+        <div class="policy-section-heading"><div><p class="policy-date">United Kingdom, September 1992 · Switzerland, January 2015</p><h2 id="erm-heading">What was the policy rate when sterling left the ERM?</h2></div></div>
+        <p class="policy-lede">At 14:15 on 16 September the UK authorities announced a 15% minimum lending rate for the following day. Sterling was still under pressure. An investor recording 15% as the rate already in force would put tomorrow’s proposed defence into today’s return.</p>
+        <div class="erm-tape">
+          <label for="erm-asof">Read the UK record as of <span>(London time)</span></label>
+          <select id="erm-asof">
+            <option value="sep14">14 Sep · afternoon</option>
+            <option value="sep15">15 Sep · close</option>
+            <option value="0800">16 Sep · 08:00</option>
+            <option value="1100">16 Sep · 11:00</option>
+            <option value="1415" selected>16 Sep · 14:15</option>
+            <option value="1930">16 Sep · just after 19:30</option>
+            <option value="0930">17 Sep · 09:30</option>
+          </select>
+          <div id="erm-readout" aria-live="polite" aria-atomic="true">
+            <dl class="erm-facts"><div><dt>In force</dt><dd id="erm-effective">12% minimum lending rate</dd></div><div><dt>Announced for later</dt><dd id="erm-pending">15% from 17 September</dd></div><div><dt>Last sterling evidence</dt><dd id="erm-quote">At the DM 2.7780 lower limit</dd></div></dl>
+            <p id="erm-snapshot">The 14:15 announcement specified the effective date. The Bank describes sterling at its limit as the decision was announced. An investor could price a possible rate increase alongside the risk of a change in the currency regime.</p>
+            <p class="policy-footnote" id="erm-age">Intraday account around the announcement. The report describes the limit and supplies no separately timestamped trade.</p>
+          </div>
+        </div>
+        <div class="policy-interpretation">
+          <div><h3>How much room did the pound have?</h3><p>At the 15 September close one pound bought DM 2.7812. By 08:00 the next day it bought DM 2.7794. Relative to the bilateral intervention limit of DM 2.7780, the cushion fell from 0.115% to 0.050%. A spot quotation says how close the pound was to the boundary. It does not price the size of a loss if the boundary moves.</p>
+            <p>German rates help explain why the commitment mattered. On 16 July the Bundesbank raised its discount rate by 75 basis points to 8.75%. On 14 September it cut that rate by 50 basis points to 8.25%. The Bank of England reports the cut disappointed market hopes. Sterling’s afternoon rebound that day did little to resolve the UK’s weak domestic recovery.</p></div>
+          <div><h3>What could the forward rate tell an investor?</h3><p>Compare a dated one-year sterling forward with the ERM band in force on that date. With the quote in marks per pound, covered interest parity gives <i>F/S = (1 + i<sub>DE</sub>)/(1 + i<sub>UK</sub>)</i> for comparable one-year deposits. A higher sterling return therefore goes with a lower forward price of the pound.</p>
+            <p>Use the same date, maturity and funding terms on both sides. The German discount rate and the UK minimum lending rate in this chronology are different instruments. Using them as the two deposit rates would manufacture a forward quote. The spot cushion, or a forward inside the band, cannot separately identify the chance of exit, the possible devaluation and the risk premium.</p></div>
+        </div>
+        <h3>How should a policy database record the two exits?</h3>
+        <div class="policy-table-scroll"><table class="policy-path-table erm-compare">
+          <caption>Currency rule and interest-rate instrument, recorded on their effective dates</caption>
+          <thead><tr><th scope="col">Decision</th><th scope="col">Currency commitment</th><th scope="col">Rate record</th></tr></thead>
+          <tbody><tr><th scope="row">UK · 16–17 Sep 1992</th><td>The authorities bought sterling to defend its lower limit. ERM participation was suspended just after 19:30 on the 16th.</td><td>The minimum lending rate was set at 12% at 11:00 on the 16th. The proposed 15% was withdrawn that evening. The Bank cut the rate to 10% at 09:30 on the 17th.</td></tr>
+          <tr><th scope="row">Switzerland · 15–22 Jan 2015</th><td>The SNB ended its CHF 1.20 per euro floor immediately on 15 January, allowing the franc to strengthen.</td><td>The three-month Libor target range moved on 15 January. The −0.75% charge on eligible sight-deposit balances took effect on 22 January.</td></tr></tbody>
+        </table></div>
+        <p class="policy-footnote">The intervention directions were opposite. The UK bought its own currency to resist depreciation. Switzerland had bought foreign currency to resist appreciation. A rate-change count alone loses that distinction.</p>
+        <p class="policy-references"><a href="#swiss-franc-floor">Swiss floor and sight-deposit evidence</a> · <a href="macro-history.html?view=compare&amp;pair=gold-exits">Macro history: Britain and the US leave gold</a></p>
+        <details class="policy-reading"><summary>Sources and calculations</summary><p><a href="https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1992/operation-of-monetary-policy-qb-1992-q4.pdf#page=11">Bank of England, Quarterly Bulletin, 1992 Q4</a>, pp. 382–385 and 391–393, especially pp. 392–393 for the intraday chronology. The percentage distance is 100 × (spot / 2.7780 − 1), rounded to three decimals. A statement that sterling remained at the limit is labelled separately from a market quote. Times are London local time.</p><p><a href="https://www.snb.ch/en/the-snb/organisation/history/geld-und-waehrungspolitische-chronik">SNB monetary policy chronicle</a>, entries for December 2014 and January 2015.</p></details>
+      </section>
+
       <section id="swiss-franc-floor" class="policy-episode" aria-labelledby="floor-title">
         <div class="policy-section-heading">
           <div><p class="policy-date">Switzerland · 2011–2015</p><h2 id="floor-title">The franc floor and the rate cut</h2></div>
@@ -124,7 +165,7 @@
         </div>
         <p class="policy-lede">The ECB’s main refinancing rate stayed at 0.75% from 25 July to 10 September. During that interval the prospect of a conditional buyer changed what investors could expect if a sovereign bond sell-off threatened the transmission of monetary policy. Three announcements tell different parts of the story.</p>
         <ol class="policy-timeline">
-          <li><time datetime="2012-07-26">26 Jul 2012</time><div><h3>A commitment to preserve the euro</h3><p>In London, Mario Draghi distinguished the risk that debt could be repaid in a different currency from default and liquidity risk. He argued that a premium linked to the euro’s convertibility could obstruct common monetary policy. His speech signalled a willingness to act within the ECB’s mandate. It specified neither a purchase schedule nor which bonds could qualify.</p><a href="https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html">London remarks</a></div></li>
+          <li><time datetime="2012-07-26">26 Jul 2012</time><div><h3>A commitment to preserve the euro</h3><p>In London, Mario Draghi distinguished the risk that debt could be repaid in a different currency from default and liquidity risk. He argued that a premium linked to the euro’s convertibility could obstruct common monetary policy. His speech signalled a willingness to act within the ECB’s mandate. It specified neither a purchase schedule nor which bonds could qualify.</p><a href="https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html">London remarks</a> · <a href="market-reactions.html?ecbSpeech=7837548756#ecb-speech-windows">See the 20.35 bp narrowing in the Italy–Germany ten-year spread</a></div></li>
           <li><time datetime="2012-08-02">2 Aug 2012</time><div><h3>The Council describes a possible instrument</h3><p>The Governing Council said it could undertake outright operations to restore transmission. Governments would need to fulfil their commitments and seek the appropriate assistance through the euro-area rescue funds. Draghi explained that such action was a necessary precondition and the ECB would still decide independently whether to intervene. Design work continued.</p><a href="https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2012/html/is120802.en.html">Council statement and questions</a></div></li>
           <li><time datetime="2012-09-06">6 Sep 2012</time><div><h3>The purchase rules become public</h3><p>Outright Monetary Transactions could buy sovereign bonds on secondary markets, concentrating on maturities of one to three years. The ECB required an appropriate EFSF or ESM programme with enforceable conditions and retained discretion to start, suspend or stop purchases. It set no advance numerical limit, intended equal creditor treatment and would absorb the liquidity created. Existing Securities Markets Programme holdings remained on a separate book.</p><a href="https://www.ecb.europa.eu/press/pr/date/2012/html/pr120906_1.en.html">OMT technical features</a></div></li>
         </ol>
@@ -142,6 +183,7 @@
         <div id="history-sources" class="history-sources"></div></div>
       </details>
     </div>
+    <section id="uk-bank-rate-pricing" aria-label="UK market-implied policy rates"></section>
     <noscript><p>Enable JavaScript to explore the series or download them from the <a href="https://data.bis.org/topics/CBPOL">BIS Data Portal</a>.</p></noscript>
   </main>
 </body>
