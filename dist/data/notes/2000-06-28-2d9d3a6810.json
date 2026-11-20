@@ -1,0 +1,26 @@
+{
+  "title": "Tentative demand moderation lets the Fed hold at 6.50% despite unusually tight labour resources",
+  "bank": "Federal Open Market Committee",
+  "date": "2000-06-28",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20000628/",
+  "summary": [
+    "The Committee maintained its 6.50% federal funds target. It reported preliminary evidence that demand growth might be converging towards the economy's capacity to produce. That is a statement about the speed of expansion. It does not imply that demand had contracted, that output had dropped below potential or that spare labour capacity had been restored. Indeed the Committee said utilisation of the available workforce remained unusually high.",
+    "The inflation assessment had two apparently competing pieces. Core measures of prices were rising slightly faster than a year earlier, while rapid productivity advances were helping contain costs and the underlying pressure on prices. Higher output per hour can limit the increase in costs per unit produced even when workers are scarce. Observing a somewhat faster pace of core price increases therefore need not contradict the claim that productivity was cushioning the pressure. The release did not quantify how large either force was.",
+    "The target and the risk judgement pointed to different horizons. The Committee judged the evidence sufficient to hold the existing rate, but the signs of slower demand were too tentative to remove its concern about future inflation. The assessment remained tilted towards higher inflation pressures. A hold at this meeting should consequently not be entered as a judgement that risks had become balanced or that further restraint had been ruled out."
+  ],
+  "questions": [
+    {
+      "question": "Was the moderation in demand broad enough to persist beyond a few releases?",
+      "detail": "Inspect real consumption, investment, orders and inventories across sectors using contemporary vintages. Distinguish a shift in the timing of purchases from sustained slower growth. A moderation concentrated in a few erratic components would support the Committee's cautious description more than a general deceleration in final sales."
+    },
+    {
+      "question": "How much cost pressure was faster productivity absorbing?",
+      "detail": "Compare wage and benefit growth with output per hour and direct measures of unit labour costs. Examine whether firms maintained margins or passed costs through to prices. A weak link between wage growth and inflation would be less surprising where productivity improved most."
+    },
+    {
+      "question": "Did the hold change the expected policy path despite the continuing inflation-risk tilt?",
+      "detail": "Match near-dated rate changes to pre-release expectations for the decision and compare them with changes at longer horizons. Separate the announcement from data published on the same date. A hold that was widely anticipated might chiefly change investors' assessment of how much additional tightening was still possible."
+    }
+  ],
+  "limitation": ""
+}

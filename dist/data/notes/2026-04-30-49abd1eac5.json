@@ -1,0 +1,33 @@
+{
+  "title": "The hike the ECB debated but did not deliver in April",
+  "bank": "European Central Bank",
+  "date": "2026-04-30",
+  "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
+  "summary": [
+    "The April hold was unanimous, but it followed an extensive discussion of a rate increase. That detail from Christine Lagarde’s first answer changes the interpretation of the vote. Consensus on what to do on 30 April did not imply agreement that inflation risks were remote. Hard data still broadly matched the March projections. At the same time, the Council saw the economy moving away from the baseline as the energy shock persisted. With roughly six weeks until the next projection round, it preferred to examine more evidence on costs, prices, wages and activity before moving. Lagarde declined to locate the economy at a precise point between the adverse scenarios or to confirm a June decision.",
+    "The contemporaneous price data showed the source of the dilemma. Headline inflation rose from 1.9% in February to 2.6% in March and 3.0% in April. Energy inflation more than doubled from 5.1% in March to 10.9% in April. Yet inflation excluding food and energy fell from 2.3% to 2.2%, with services down from 3.2% to 3.0%. Goods inflation increased from 0.5% to 0.8%. Firms reported higher costs and higher expected selling prices, while wage indicators continued to point toward slower labour-cost growth. Lagarde saw direct effects and some indirect effects of energy, but reported no evidence at the time of second-round effects. The corporate telephone survey, for example, gave little indication that business leaders intended substantial wage increases.",
+    "That combination left room for very different market interpretations. A larger energy bill immediately raises the consumer price index. A manufacturer charging more after a rise in transport or energy costs would show indirect pass-through. Repeated changes in wages or pricing norms would make the shock more persistent. The ECB singled out wage agreements, hiring, selling-price revisions, commodity prices and supply disruptions as evidence that could distinguish those stages. Short-horizon inflation expectations had moved up significantly, while most longer-term measures remained around 2%. The point at which expectations changed across horizons mattered more for the policy outlook than the first jump in the energy index.",
+    "On growth, Eurostat’s preliminary first-quarter estimate was 0.1%, unemployment stood at 6.2% in March and labour demand was cooling. Delivery times were lengthening and input prices rising. The Council identified a possible shift from cost pressure to a shortage of physical inputs if major shipping routes stayed closed. Against that risk, household balance sheets and investment in infrastructure, defence and technology offered support. In discussing analogies with the 1970s, Lagarde cited growth of 0.9%, 1.3% and 1.4% across the projection years. The transcript footnotes identify those numbers as the March projections. They should be preserved in a historical dataset under that vintage, rather than treated as an April forecast update.",
+    "The market had already tightened some financing conditions. The cost of corporate market debt rose from 3.5% in February to 3.9% in March. The bank lending rate of 3.5% and mortgage rate of 3.4% cited in the same section came from February data recorded before the war. In the first-quarter lending survey banks tightened standards for firms as they reassessed borrower risk, while loan demand for fixed investment weakened. Vice-President de Guindos judged bank liquidity and capital adequate for lending. These observations can coexist. A bank can have ample funding while becoming more selective about borrowers whose cash flow is exposed to a supply shock.",
+    "The March baseline and alternatives had incorporated two rate increases implied by market pricing at the cut-off. Lagarde noted that the number priced in had fluctuated since then and that financial tightening was already doing some of the work. An assumed path used to construct a forecast does not create an obligation to implement a scheduled hike. She also rejected reading a single adverb in the statement as a coded rate signal. The economically material information was narrower and stronger. A hike had been seriously considered, evidence of economy-wide propagation was still incomplete, and both the duration of the conflict and the forthcoming projection round could alter the decision. Neither the market’s pre-meeting assumptions nor changes in financing costs between meetings measure the same-day surprise."
+  ],
+  "questions": [
+    {
+      "question": "Was the debate over an immediate hike a surprise?",
+      "detail": "Use timestamped near-meeting and later overnight-indexed swap quotes around the release and the first Q&A answer separately. Compare the move with the rate path in the March projection assumptions. This would distinguish news about Council deliberations from the effect of investors revising their view of energy prices."
+    },
+    {
+      "question": "Did the increase in expected selling prices reach wages?",
+      "detail": "Compare firm-level or sectoral selling-price surveys with subsequent consumer prices and wage settlements, taking bargaining dates into account. Evidence of higher selling prices alone establishes a different stage of propagation from a new pattern of wages feeding back into prices."
+    },
+    {
+      "question": "How much tightening did borrowers actually experience before June?",
+      "detail": "Track market debt yields alongside new bank loan rates and standards, using reference dates that include the war. Distinguish borrower-risk premia from changes in expected policy rates and separate weaker loan demand from reduced supply. This would test the proposition that tighter financing was already doing some of the policy work."
+    },
+    {
+      "question": "Where did supply bottlenecks constrain quantities as well as prices?",
+      "detail": "Match supplier delivery times and input inventories with industrial output in sectors reliant on disrupted routes. Look for production cuts after stocks were depleted. A shortage that curtails output has different consequences for borrowers and inflation than a shipment that arrives on time at a higher price."
+    }
+  ],
+  "limitation": ""
+}

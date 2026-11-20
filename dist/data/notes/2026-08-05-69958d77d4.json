@@ -1,0 +1,27 @@
+{
+  "title": "Brazil cuts to 14% despite an upside skew in inflation risks",
+  "bank": "Banco Central do Brasil",
+  "date": "2026-08-05",
+  "url": "https://www.bcb.gov.br/controleinflacao/comunicadoscopom/21215",
+  "summary": [
+    "Brazil’s monetary policy committee cut the Selic to 14.00% on 5 August. Seven members supported the decision. The unusual combination was a rate cut and an explicit judgment that unusually large inflation risks were tilted to the upside. The committee expected activity to slow gradually, though the level remained resilient, labour demand was strong and sectoral evidence was mixed. It treated the amount of restraint remaining after the cut as relevant to eventual inflation convergence. An upside skew in forecast errors is therefore not a mechanical prediction of an immediate increase in rates. It limits how confidently the next reduction can be extrapolated from this one.",
+    "The most recent headline reading had decelerated but remained above the upper tolerance limit. Underlying measures also slowed, reaching slightly below that limit. Focus respondents put annual inflation at 5.0% in 2026 and 4.2% in 2027. Copom’s Table 1 put the corresponding figures at 5.1% and 3.8%, with a projection of 3.2% for the four quarters to the first quarter of 2028, its relevant policy horizon. The ordering actually reverses: the committee’s forecast is a little higher than the survey for 2026, but lower for 2027. An analyst looking only at the current-year gap would miss the more consequential disagreement over the speed of disinflation. The 3.2% number ends a quarter later than the 2027 survey figure.",
+    "Table 1 also clarifies which prices do the work. Market-determined inflation falls from 5.1% in 2026 to 3.9% in 2027 and 3.1% at the 2028 horizon. Administered inflation falls from 4.9% to 3.5% and then stays at 3.5%. Thus the final stage of the baseline convergence depends especially on the market-determined component. The projections used the Focus survey’s Selic path, an exchange rate starting at BRL 5.10 per dollar and evolving according to purchasing power parity, oil futures for about six months followed by 2% annual rises, and yellow electricity tariff flags in December 2026 and 2027. The forecast therefore already incorporates assumptions about both near-term policy and key supply prices. It cannot reveal a unique future rate path preferred by the committee.",
+    "Its concern about longer-term expectations was direct. If firms and workers incorporate expected future oil or climate shocks in their own price setting, disinflation can become costlier even after the original supply impulse fades. The committee also identified stimulus to consumption as a risk to normal monetary transmission, and a persistently weaker exchange rate as a way domestic and foreign policies could raise inflation. Deeper domestic slowing, weaker international activity or falling commodity prices could offset these risks. The external backdrop combined Middle Eastern conflict with uncertainty about monetary policy in advanced economies. These channels can move the Brazilian curve independently of the domestic rate decision. Copom specified no overall size for the easing cycle and supplied no asset-price evidence on how investors received its decision."
+  ],
+  "questions": [
+    {
+      "question": "Why did the survey and committee forecasts cross between 2026 and 2027?",
+      "detail": "Compare expectations on identical calendar dates and examine dispersion, assumptions for administered prices, currency and oil, and the expected Selic path. A disagreement about when fuel prices normalise has different persistence implications from a disagreement about domestic services and the output gap. The first-quarter 2028 forecast must remain separate from the calendar-2027 comparison."
+    },
+    {
+      "question": "Did slowing underlying inflation reflect broader domestic cooling or a narrow easing of costs?",
+      "detail": "Track diffusion across services and market goods alongside wages, hours, credit and activity in cyclical sectors. Compare the incidence of small price changes with the contribution of a handful of large ones. This matters because the final stage of baseline disinflation relies on a further decline in market-determined prices."
+    },
+    {
+      "question": "How did the upside risk assessment affect pricing beyond the announced cut?",
+      "detail": "Measure near-meeting rates and farther forwards around publication, then compare inflation compensation and the currency while controlling for external yield and commodity changes. A reduction in the current rate can coincide with a higher expected terminal rate or higher inflation compensation. Only the maturity pattern and contemporaneous pricing can distinguish those readings. Record announcement time against the local trading session so the first price used actually includes the new policy information."
+    }
+  ],
+  "limitation": ""
+}

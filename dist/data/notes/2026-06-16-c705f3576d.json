@@ -1,0 +1,28 @@
+{
+  "title": "Japan’s JGB plan separates slower purchases from the run-off of holdings",
+  "bank": "Bank of Japan",
+  "date": "2026-06-16",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616b.pdf",
+  "summary": [
+    "The Bank of Japan’s June 16 bond decision sets a timetable for reducing its role as a regular buyer while retaining discretion to intervene in disorderly conditions. The Bank preferred long yields to be formed in the market. Yet it also wanted dealers to know how much demand they could expect at regular auctions and wanted to preserve a response to a rapid rise in yields. These objectives explain why the release contains both a numerical purchase path and an explicit exception. The Board approved the plan by seven votes to one, with Governor Kazuo Ueda absent (decision, p. 1).",
+    "The unit in the attachment is the gross amount bought per month within each calendar quarter. The monthly pace was about ¥2.7 trillion in April–June 2026. It was set to fall to ¥2.5 trillion in July–September, ¥2.3 trillion in October–December and ¥2.1 trillion in January–March 2027. From April 2027 the Bank intended to buy about ¥2 trillion a month. Thus the general reduction of around ¥200 billion each quarter applies to the monthly pace through the first quarter of 2027. It is neither a commitment to sell ¥200 billion of bonds nor a promise to reduce the monthly amount by that sum indefinitely. Auction dates, purchase sizes and remaining-maturity buckets would still be published separately in the quarterly purchase schedule (attachment, first table).",
+    "Gross purchases can remain positive while the stock of bonds on the Bank’s balance sheet falls. The second table illustrates what happens as earlier purchases mature. Holdings at face value were projected at about ¥480 trillion by March 2027, down some 17% from end-June 2024. By March 2028 they were put at ¥430–440 trillion, by March 2029 at ¥390–400 trillion and by March 2030 at ¥350–370 trillion. The latter range represented a 36–39% reduction from the same base. These are conditional estimates using a roughly unchanged maturity mix and a ¥2 trillion monthly purchase pace going forward, with no price revaluation of holdings. Using the ¥2 trillion flow as a forecast of monthly net balance-sheet change would miss the redemption profile entirely (attachment, second table and notes).",
+    "The distinction between routine operations and interventions matters for interpreting a rise in long yields. A rapid increase could prompt extra purchases, fixed-rate bond purchases outside the monthly schedule, or funding against pooled collateral. The decision gave no yield ceiling, automatic trigger, or commitment to buy a particular maturity in that event. It also ended formal interim assessments of the plan, while reserving the right to revise the pace at policy meetings if conditions warranted. An unscheduled operation responding to market stress and a lasting change to the planned purchase path would therefore carry different information for future bond supply (decision, sections 2–3).",
+    "Naoki Tamura preferred to continue reducing monthly purchases by about ¥200 billion each quarter until January–March 2028. His disagreement concerned where to stop reducing intervention and how much room to give private participants in price formation. The rate decision released at the same meeting also passed seven to one, but the dissenter on that vote was Toichiro Asada. The identical tallies conceal different coalitions and different risks. In a market study, assign the interest-rate decision and the purchase plan separate instrument fields under one meeting event. This allows the front end, long bonds and measures of cash-market liquidity to respond differently without counting the same announcement day twice (p. 1, voting note, and accompanying rate decision)."
+  ],
+  "questions": [
+    {
+      "question": "How much duration would private buyers need to absorb at each maturity?",
+      "detail": "Combine the Bank’s purchase schedule by residual maturity with official issuance and redemptions, retaining both face value and duration-weighted exposure. Compare scenarios in which the same ¥2 trillion monthly total is concentrated in different buckets. Aggregate holdings can fall along the projected path while the amount of interest-rate risk reaching the market differs substantially."
+    },
+    {
+      "question": "Did the smaller purchase programme improve price discovery or raise liquidity costs?",
+      "detail": "Follow executable bid–ask spreads, market depth, turnover and cash-versus-swap spreads near the affected maturities across consecutive quarters. Control for issuance, bond age, roll dates and global rate volatility. If prices become more responsive to information while transaction costs decline, the evidence differs from a rise in volatility accompanied by thinner trading."
+    },
+    {
+      "question": "Was the June yield response about expected short rates or bond supply?",
+      "detail": "Measure overnight-indexed swaps and government yields at matching maturities around the joint release. Check whether cash-bond moves relative to swaps line up with the maturity composition of purchases. Because the Bank also raised the overnight guideline, even a pronounced change in the ten-year yield alone cannot isolate the bond-plan effect."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,28 @@
+{
+  "title": "A five-to-four majority tightens as fuel prices add to domestic pressure",
+  "bank": "Reserve Bank of Australia",
+  "date": "2026-03-17",
+  "url": "https://www.rba.gov.au/media-releases/2026/mr-26-08.html",
+  "summary": [
+    "On March 17 five Australian Monetary Policy Board members voted for a 25-basis-point rise to 4.10% and four voted to stay at 3.85%. The February increase had been unanimous. The close March vote coincided with two distinct developments. Incoming data pointed to slightly tighter capacity and labour markets, while conflict in the Middle East lifted fuel prices sharply and short-term inflation expectations had already risen. The majority judged that inflation was at greater risk of remaining above target for longer. The statement records the minority’s preferred action without attributing specific arguments to individual members (decision and voting record).",
+    "The composition of the earlier upswing in private demand had changed. Total demand in the latter part of 2025 was stronger than expected when assessed against mid-2025 forecasts. In the December quarter, however, investment exceeded expectations while consumption undershot. Growth in unit labour costs declined. Unemployment was somewhat lower than forecast and labour underutilisation remained low, but the strength of the housing market over the preceding year had begun to moderate in early 2026. Together these observations support a narrower claim than uniformly accelerating demand. Capacity pressure could remain high even as some household spending indicators softened and labour-cost growth eased (decision, second substantive paragraph).",
+    "The first-round inflation mechanism was direct. More expensive fuel raises the price of a consumer item and the cost of moving goods. The further policy question was whether an extended conflict would constrain supply capacity or cause businesses and households to revise longer-term inflation expectations. Short-term expectations had risen. The statement described a rise in longer-term expectations as a risk, so treating both as observed would overstate the case for tightening. Higher prices and prolonged uncertainty could also weaken activity at home and in Australia’s principal trading partners. The same shock can initially raise measured inflation and subsequently reduce spending power and external demand (risk assessment).",
+    "The February hike had already begun to change financial conditions, yet policy restriction was difficult to quantify. Households and businesses continued to have ready access to credit, and some spending effects of the 2025 cuts were still in the pipeline. The Australian dollar, short rates and bond yields had risen in the preceding month. Other advanced economies’ rate expectations had risen too as investors reassessed the inflation consequences of the conflict. A higher Australian bond yield in this window does not by itself identify a domestic monetary surprise. It can embody a global inflation shock, revised expectations for the RBA or both (financial conditions paragraph).",
+    "The full decision is a useful test case for classifying policy tone. The instrument moved upward, the majority gave greater weight to inflation persistence and the vote showed almost half the Board preferred to wait. These are separate dimensions of the communication. An investor who already expected a hike could assign more importance to the split than to the realized move. The 2:30 p.m. Sydney release should be compared with market pricing immediately beforehand, taking account of Australian and foreign rate changes already embedded in the curve. Stocks sensitive to fuel costs may react to the conflict even over much shorter windows than a full month (March decision and official release schedule)."
+  ],
+  "questions": [
+    {
+      "question": "How much did the one-vote margin alter expectations about another increase?",
+      "detail": "Compare repricing of the current meeting and subsequent meetings in cash-rate futures, using a timestamp immediately before the official decision. Use survey expectations for the vote if available. A delivered increase and a decline in later forward rates are compatible if investors had expected a stronger majority or a more persistent sequence of moves."
+    },
+    {
+      "question": "Was the fuel shock spreading beyond transport costs?",
+      "detail": "Monitor retail fuel, freight-intensive goods, market services and firm selling-price intentions separately. Compare short-term household inflation expectations with longer-horizon measures measured over similar dates. A rise confined to fuel and near-term expectations differs from sustained repricing in services with little direct fuel exposure."
+    },
+    {
+      "question": "Was investment offsetting household weakness or creating new capacity?",
+      "detail": "Disaggregate capital spending by industry and purpose, compare it with consumption volumes and track capacity utilization over time. Investment can raise demand for inputs immediately and increase productive capacity after projects are completed. A rate decision based on rising current demand may have different medium-run implications depending on which mechanism dominates."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,26 @@
+{
+  "title": "A half-point increase targets demand growth that still exceeds productivity-driven supply",
+  "bank": "Federal Open Market Committee",
+  "date": "2000-05-16",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/",
+  "summary": [
+    "The FOMC raised the federal funds target by 50 basis points to 6.50%. The Board separately approved a half-point increase in the discount rate to 6.00% following requests from the Reserve Banks of Boston, Cleveland, Richmond and San Francisco. Both decisions raised the relevant rate by the same amount. The list of four Reserve Banks pertains to the Board's discount-rate action. The statement gives neither a tally of FOMC votes nor a list of dissenters.",
+    "The central economic claim was that spending had continued to grow faster than potential supply despite rapid productivity-driven increases in productive capacity. That disparity was already putting pressure on resources. The forward-looking concern was that it would persist long enough to generate inflationary imbalances and damage the expansion. The release thus distinguishes an observed judgement about resource use from a conditional risk concerning prices. It does not say that inflation had already risen by an amount proportional to the increase in the policy rate.",
+    "The half-point move is an unambiguous increase in restraint at the targeted short rate. It supplies no estimate of the neutral rate or how restrictive 6.50% was in real terms. Nor did the Committee indicate that future changes would follow in half-point steps. The communication leaves an empirical question about duration: whether the additional restraint would narrow the gap through slower demand, or whether a further increase in productive capacity might also contribute."
+  ],
+  "questions": [
+    {
+      "question": "What evidence showed that resource pressure had spread beyond a few capacity-constrained industries?",
+      "detail": "Compare order backlogs, capacity utilisation, labour availability and unit labour costs across sectors. Separate demand growth that can be supplied from abroad from pressure on domestic capacity. A broad rise across measures would support the argument for a demand imbalance more directly than one bottleneck."
+    },
+    {
+      "question": "How much of the half-point increase was anticipated and how much affected the expected path?",
+      "detail": "Recover the distribution of possible moves priced before the release. Compare the response in near-dated futures with maturities covering several subsequent meetings. The announced 50 basis points is the policy action. The market surprise depends on the probability previously assigned to each possible decision."
+    },
+    {
+      "question": "Through which borrowers would higher short rates first affect spending?",
+      "detail": "Separate floating-rate from fixed-rate borrowing and look at when loans reset, financing needs arise or credit lines are drawn. Observe margins as well as benchmark rates. A decline in demand soon after the meeting would be weak evidence of transmission unless its timing and exposure fit a plausible financing channel."
+    }
+  ],
+  "limitation": ""
+}

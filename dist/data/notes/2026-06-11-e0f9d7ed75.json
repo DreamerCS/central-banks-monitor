@@ -1,0 +1,28 @@
+{
+  "title": "Why the ECB raised rates into a weaker growth forecast",
+  "bank": "European Central Bank",
+  "date": "2026-06-11",
+  "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html",
+  "summary": [
+    "The ECB raised each of its three rates by 25 basis points on 11 June even as Eurosystem staff cut their growth outlook for 2026 and 2027. The Council’s argument was that pressure from the Middle East war was reaching enough of the inflation horizon to warrant action across a range of scenarios. A rate increase cannot lower the immediate world price of energy. It can affect financing, demand and the conditions under which firms and workers pass higher costs into later prices. Those are the parts of the shock most relevant to a central bank targeting inflation over the medium term.",
+    "The new baseline put annual headline inflation at 3.0% in 2026, 2.3% in 2027 and 2.0% in 2028. The higher expected path of energy prices led staff to raise their forecasts for both 2026 and 2027 relative to March. The figure for 2027 matters because the price pressure now extended beyond the current year. Even in 2028, when headline inflation returned to the target in the baseline, inflation excluding energy and food stood at 2.2%. The corresponding underlying measure was 2.5% in each of the two earlier years. This divergence gave the Council a reason to examine the composition of disinflation alongside its headline speed.",
+    "Staff expected some of the energy cost increases to spread to food, goods and services. There were two distinct uncertainties. The energy price path itself could become higher or last longer than assumed. A given path could also have a larger or smaller indirect impact on other prices and a different effect on subsequent wage and price setting. The staff scenarios illustrated a broad range of inflation and growth outcomes. The statement supplied no probabilities or scenario-specific policy paths. The Council’s description of a robust decision supports one increase under several plausible outcomes. It gives no comparable assurance about the next meeting.",
+    "Growth was projected to average 0.8% in 2026, 1.2% in 2027 and 1.5% in 2028. Staff attributed the weaker near-term outlook to the war’s effects on commodity markets, real income and confidence. The balance of risks around even that weaker forecast was to the downside for growth and to the upside for inflation. A research interpretation that treats the hike as evidence of unexpectedly strong aggregate demand would therefore misread the source. The document instead describes a central bank willing to raise rates in the face of lost purchasing power when the price shock could spread well beyond energy.",
+    "The operational distinction between announcement and implementation is explicit. On 17 June the deposit, main refinancing and marginal lending rates would become 2.25%, 2.40% and 2.65%. A daily event study should use the 11 June announcement to identify news and the effective date to track overnight market implementation. The existing securities portfolios continued to shrink through maturities, and the transmission backstop remained available. Neither changed the announced size of the hike. How much market pricing moved on the day would depend on how much of the decision and forecast revision investors had already anticipated."
+  ],
+  "questions": [
+    {
+      "question": "How much of the 25-basis-point decision was news?",
+      "detail": "Compare the pre-announcement expected overnight rate for the first post-implementation period with pricing immediately after release. Keep later forward rates separate and identify the press-conference window. A largely anticipated hike could still produce a material repricing of the future path if the forecasts changed perceptions of persistence."
+    },
+    {
+      "question": "Where was the projection most exposed to energy assumptions?",
+      "detail": "Compare the staff baseline with alternative energy paths, preserving both commodity prices and their assumed duration. Check the corresponding paths for headline and underlying inflation by forecast year. Energy-sensitive components and wage-sensitive services offer different tests of the projected propagation into 2027."
+    },
+    {
+      "question": "Did higher rates reinforce an already adverse income shock?",
+      "detail": "Track borrowers’ new lending rates, refinancing schedules, credit demand and household spending after implementation. Separate exposure to higher interest costs from exposure to higher energy bills. Identifying their overlap matters for judging whether the growth loss was likely to be larger in particular sectors or countries."
+    }
+  ],
+  "limitation": ""
+}

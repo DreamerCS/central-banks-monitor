@@ -1,0 +1,28 @@
+{
+  "title": "Australia pauses as mortgage-sensitive demand responds to three rate rises",
+  "bank": "Reserve Bank of Australia",
+  "date": "2026-06-16",
+  "url": "https://www.rba.gov.au/media-releases/2026/mr-26-15.html",
+  "summary": [
+    "The Australian Monetary Policy Board unanimously held the cash rate target at 4.35% on June 16. Three increases since February had raised it by a cumulative 75 basis points. The Board wanted to see how that tightening was passing through to the economy before acting again. Its reason for waiting was emerging evidence of weaker spending and housing activity. Both headline and underlying inflation remained too high, and the statement explicitly allowed for a further increase if required. A unanimous vote for an unchanged current rate therefore left open a materially different decision at a later meeting (opening paragraph and decision section).",
+    "Inflation was being pulled by forces operating on different schedules. Oil prices had recently eased, but energy and most related commodities remained above their pre-conflict levels. Fuel had already made a direct contribution to consumer inflation. Some firms facing higher costs were raising other prices, while others intended to do so. Even if the oil price stopped rising immediately, firms with inventories, contracts or infrequent price reviews could adjust their selling prices later. Short-term measures of inflation expectations had also eased, while remaining above levels seen earlier in the year. This gave the Board evidence of a smaller immediate shock but little reason to conclude that domestic pass-through had run its course (inflation assessment).",
+    "The domestic response to higher rates was most apparent in households and housing. Consumer spending growth showed signs of slowing, and dwelling prices were falling in some capital cities. Money-market rates and government bond yields had risen over the year and the Australian dollar had appreciated. April unemployment exceeded expectations, although other indicators of labour demand were more resilient. Business investment was still growing strongly, and credit remained available to households and businesses. A research design that infers equal monetary restraint across all sectors from the aggregate cash rate would overlook this divergence. Housing and discretionary spending can respond well before businesses cancel capital projects or banks change credit standards (decision, financial and real activity assessment).",
+    "June brought no new quarterly forecast table. The Board continued to refer to the May baseline, which assumed fuel prices would decline as the Middle East conflict was resolved. It observed that resolution was at an early stage and that disruptions to oil supply would take time to clear. One plausible scenario therefore combined higher inflation and weaker activity than the baseline. An extended period of uncertainty could depress Australian spending and external demand. Yet a permanent shift in wage or price decisions after the oil impulse would raise the cost of waiting. This was a policy problem with two potential forecast errors of opposite signs, rather than a new numerical staff projection (uncertainties and decision sections).",
+    "For the interest-rate curve, the question was how much of a pause was already priced. An investor expecting no change might still revise expectations for the next meeting after reading references to weaker housing and a possible future increase. The contemporaneous currency response could also reflect oil prices or a change in global risk appetite. Compare meeting-specific contracts priced just before 2:30 p.m. Sydney time with subsequent contracts and foreign yields over the same interval. Separately follow published mortgage rates, repayments and household expenditure to measure the slower transmission the Board was actually waiting to observe (decision section)."
+  ],
+  "questions": [
+    {
+      "question": "Did the initial housing slowdown spread to consumption?",
+      "detail": "Pair city-level dwelling prices and sales turnover with mortgage exposure and subsequent retail or consumption volumes. Distinguish homeowners with floating-rate debt, renters and outright owners where data permit. A decline concentrated among heavily indebted borrowers would support a cash-flow mechanism, while broad weakness could also reflect uncertainty or weaker real income."
+    },
+    {
+      "question": "Did the fall in crude prices halt retail price pass-through?",
+      "detail": "Track fuel at wholesale and retail levels alongside freight costs, producer prices and consumer categories with different energy intensity. Align the series with procurement and price-reset lags. Stable oil and rising non-fuel prices could fit delayed recovery of earlier costs, without implying that firms had increased markups or that longer-horizon expectations had shifted."
+    },
+    {
+      "question": "Was the surprise in April unemployment consistent with broader labour weakness?",
+      "detail": "Decompose the unemployment change into employment, participation and hours. Compare monthly readings with vacancies, hiring intentions and alternative measures of underutilisation. If unemployment rose with labour supply while firms kept hiring, that would call for a different interpretation from rising unemployment accompanied by falling hours and vacancies."
+    }
+  ],
+  "limitation": ""
+}

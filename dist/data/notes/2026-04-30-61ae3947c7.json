@@ -1,0 +1,27 @@
+{
+  "title": "Short-term inflation expectations rise while the ECB holds its longer horizon",
+  "bank": "European Central Bank",
+  "date": "2026-04-30",
+  "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260430~81b7179e6f.en.html",
+  "summary": [
+    "The ECB left all three policy rates unchanged on 30 April. The important distinction in the opening paragraph is between the central outlook and the risks around it. Incoming information had broadly matched the Council’s earlier assessment, yet the upside risks to inflation and downside risks to activity had both intensified. Both statements can hold if the most likely outcome has changed little but a longer interruption to energy supply has become more damaging. Reading the communiqué as a simple deterioration in a single economic indicator would miss the changed trade-off.",
+    "Energy prices had risen sharply following the war in the Middle East. Higher energy costs were already lifting inflation and weakening economic sentiment. The Council supplied a conditional mechanism for the months ahead. A larger or more persistent price increase would have more time to enter other production and distribution costs. Households and businesses could also adjust their expectations and price or wage decisions. The longer the war and the higher the level of energy prices, the larger the likely effects on broader prices and activity. The release did not supply an oil price or duration that would mechanically trigger a change in rates.",
+    "The most specific new signal involved the horizon of inflation expectations. Shorter-term expectations had increased significantly. Longer-term expectations remained anchored. That combination is consistent with people recognising the immediate cost of energy while still expecting the central bank to deliver price stability over time. The communiqué names neither a survey nor a numerical change, so it cannot resolve whether firms, households and financial-market participants had reacted alike. Nor does a rise at short horizons by itself establish that higher wages or repeated price increases had followed. It gave the Council a reason to watch those channels closely.",
+    "Recent economic resilience and the fact that inflation had been around 2% when the shock began shaped the decision to hold. The deposit rate remained 2.00%, the main refinancing rate 2.15% and the marginal lending rate 2.40%. The ECB continued to let its asset purchase programme and pandemic emergency purchase programme holdings mature without reinvestment. It retained its instrument for serious, disorderly disruptions to transmission across member countries. Neither section announced a fresh intervention. The margin on which the policy assessment could next change was the breadth and persistence of inflation, alongside the damage to spending and financing. For a market study, changes in expected future policy rates and changes in the compensation investors require for inflation risk are consequently separate outcomes to measure."
+  ],
+  "questions": [
+    {
+      "question": "Did the widening gap between short- and longer-horizon expectations persist?",
+      "detail": "Compare consistent series across horizons within the same household, professional or market source. Hold publication dates fixed and separate short-term energy sensitivity from changes farther out. A movement across all horizons would have different implications for the policy outlook from a brief near-term repricing."
+    },
+    {
+      "question": "How quickly did energy costs reach prices outside energy?",
+      "detail": "Map energy-intensive sectors to producer-price releases, consumer prices and firms’ selling-price expectations. Repeated revisions over later months would be more informative about persistence than one headline inflation print. Check when businesses reported reallocating costs between prices and margins."
+    },
+    {
+      "question": "Did weaker sentiment become weaker expenditure?",
+      "detail": "Compare confidence measures with subsequent consumption and investment volumes and distinguish households with different exposure to energy bills where possible. An immediate loss of confidence can precede, exceed or outlast changes in spending. Its conversion into actual demand matters for how much of the initial inflation shock policy can expect to reverse."
+    }
+  ],
+  "limitation": ""
+}

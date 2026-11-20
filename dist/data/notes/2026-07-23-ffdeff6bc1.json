@@ -1,0 +1,27 @@
+{
+  "title": "Matching the June energy baseline was enough for the ECB to wait",
+  "bank": "European Central Bank",
+  "date": "2026-07-23",
+  "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html",
+  "summary": [
+    "The ECB held its deposit rate at 2.25% on 23 July. Its central observation used two different benchmarks for energy. The outlook was close to the path assumed in the June Eurosystem staff projections but still far above levels from before the Middle East conflict. Measured against one benchmark, energy offered little fresh reason to alter policy immediately. Measured against the other, it remained a sizeable inflation shock whose full effects had yet to reach households and firms. A description of energy simply as stable would obscure both the volatility and the elevated level the Council highlighted.",
+    "A forecast can remain on track while the economy is still adjusting to the shock built into it. Suppliers can change prices at different intervals, and the effect of higher energy costs can spread beyond items directly linked to fuel. The Council singled out the intensity and duration of the shock, the indirect effects on broader prices and second-round effects. These distinctions explain why the absence of a fresh energy-price surprise did not establish that underlying inflation had peaked. They also give independent reasons why unchanged energy futures might eventually be accompanied by a change in policy.",
+    "The release contains no new numerical staff forecasts and no statement that the Council had completed its response. Its tests for subsequent decisions were the inflation outlook and its risks, the dynamics of underlying inflation, and transmission of policy to the economy. For market interpretation, each can move separately. A persistent rise in prices outside energy could increase concern about inflation even if the commodity path remained close to June’s assumption. Alternatively, tighter financing could restrain demand and price setting even with expensive energy. The document gives no numerical threshold or weights that resolve how the Council would respond to either development.",
+    "The main refinancing rate stayed at 2.40% and the marginal lending rate at 2.65%. The APP and PEPP portfolios continued to shrink because the Eurosystem no longer replaced principal repayments. The transmission backstop remained available if disorderly market dynamics seriously threatened the common stance. The ECB made no new market-operation announcement in those passages. For rates research, the most informative asset might therefore be a forward contract beyond the current meeting, where new information about persistence could affect the expected policy path. That is a proposition to test with prices around the release. The decision itself supplies no market return and no evidence that holding the rate came as a surprise."
+  ],
+  "questions": [
+    {
+      "question": "Did investors share the ECB’s June benchmark for energy?",
+      "detail": "Reconstruct the relevant energy futures curves at the projection cut-off and on 23 July, including their shape beyond the nearest contracts. Compare their movement with changes in market inflation compensation at matching horizons. A stable near-term average can conceal meaningful changes in expected persistence or volatility."
+    },
+    {
+      "question": "Could the shock still broaden as energy prices stopped surprising?",
+      "detail": "Follow producer-to-consumer pass-through in energy-intensive goods and services, then check wage settlements and firms’ expectations for subsequent price changes. A single price reset and repeated increases can produce similar initial readings but imply different policy responses."
+    },
+    {
+      "question": "Which part of the expected rate path moved around the hold?",
+      "detail": "Compare changes in overnight-indexed rates for the next meeting and later horizons. Separate the decision release from the following press conference and record what traders had already priced. That would distinguish an uneventful current-rate fix from material news about the outlook for future meetings."
+    }
+  ],
+  "limitation": ""
+}

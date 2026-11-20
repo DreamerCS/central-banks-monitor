@@ -1,0 +1,27 @@
+{
+  "title": "Three members seek an immediate hike while the majority holds at 3.50–3.75%",
+  "bank": "Federal Open Market Committee",
+  "date": "2026-07-29",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+  "summary": [
+    "The FOMC held its federal funds target at 3.50–3.75% by nine votes to three. Beth Hammack, Neel Kashkari and Lorie Logan preferred to raise the rate by a quarter of a percentage point at this meeting. Their alternative would have shifted the range to 3.75–4.00%. These were votes on an immediate change in the instrument. The same document therefore contains an unchanged policy setting and an observable minority preference for tighter policy. The quarter-point alternative is not the amount of a future increase to which the Committee committed.",
+    "The majority described solid activity, strong productivity growth and capital investment, job creation in line with workforce growth, and little change in unemployment. Taken together, those judgements do not identify an obvious shortage of jobs relative to the available workforce. They also do not establish that domestic demand was exceeding the economy's productive capacity. Strong investment can support spending today while adding capacity later. The timing and size of each effect matter when deciding whether an unchanged rate is sufficiently restrictive.",
+    "Inflation remained above the Committee's 2% goal. Supply shocks had contributed to price increases in particular sectors, with energy singled out, and conflict in the Middle East remained one source of uncertainty. The statement pairs that diagnosis with a commitment to price stability and continuation of ample reserves. Nothing in it assigns any one of those considerations to a particular dissenter. The published disagreement establishes that a material minority preferred tighter policy on 29 July. It does not establish whether they had different inflation forecasts, different views of demand or different tolerances for the risk of waiting.",
+    "The market question raised by the release concerns the distribution of possible future rates rather than the arithmetic of the vote alone. Three dissenters can change how investors assess that distribution even if the current target is widely anticipated. Quantifying the surprise requires prices or expectations recorded before the release. The statement supplies the decision and the explicit alternative, without supplying that counterfactual."
+  ],
+  "questions": [
+    {
+      "question": "Was the main surprise the unchanged rate or the strength of support for an increase?",
+      "detail": "Reconstruct pre-meeting expectations and compare the contract covering the decision with subsequent short-rate futures and options around 2 p.m. Eastern. A small move in the first contract alongside repricing in later maturities would be compatible with information about the possible policy path. The separate press conference requires a separate window."
+    },
+    {
+      "question": "Would a broader set of price increases support the case for earlier restraint?",
+      "detail": "Separate the contribution of energy and other affected sectors from recurring increases across less-exposed goods and services. Compare the breadth of inflation and evidence on expectations with changes in domestic spending. This would test the economic rationale for immediate tightening without attributing an unpublished argument to any named dissenter."
+    },
+    {
+      "question": "Did labour and productivity conditions permit continued solid growth without accumulating price pressure?",
+      "detail": "Compare hiring with workforce participation, hours worked and output per hour. Examine compensation against productivity to assess cost pressure per unit of output. Weakening productivity with firm wages would give the same rate of job growth different implications from sustained efficiency gains. Judgements should initially use information available when the vote was taken."
+    }
+  ],
+  "limitation": ""
+}

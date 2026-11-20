@@ -1,0 +1,28 @@
+{
+  "title": "Australia raises rates as private demand outruns the economy’s capacity",
+  "bank": "Reserve Bank of Australia",
+  "date": "2026-02-03",
+  "url": "https://www.rba.gov.au/media-releases/2026/mr-26-03.html",
+  "summary": [
+    "The Reserve Bank of Australia raised the cash rate target by 25 basis points to 3.85% on February 3. The decision was unanimous. Its starting point was a change in the explanation for inflation. Price growth had fallen substantially after 2022 but picked up in the second half of 2025. The Board still attributed some of the renewed pressure to temporary factors. Stronger private demand, firmer housing activity and lower-than-expected unemployment persuaded it that productive capacity was under greater strain than previously assessed. Waiting for individual price increases to unwind would therefore leave part of the problem unaddressed (February decision, opening assessment and decision section).",
+    "Both consumption and investment had surprised on the upside. Credit remained readily available to households and firms, and earlier reductions in interest rates had yet to affect spending, prices and wages in full. The Board was unsure whether the overall financial environment was still restrictive after conditions eased during 2025. A relatively high nominal cash rate could coexist with an impulse to spending from past cuts. Recent increases in the Australian dollar, money-market rates and government yields reflected expectations of higher future policy rates. Some tightening was already visible in market prices before the Board acted, which limits what an announcement-day rise or fall in yields alone can establish (decision, paragraphs on demand and financing).",
+    "The labour evidence reinforced the demand assessment without giving a single clear wage signal. Unemployment had been somewhat lower than expected and broader measures of underutilisation were low. Growth in the Wage Price Index had slowed from its peak, while broader wage measures remained strong and unit labour costs were still growing quickly. Unit labour costs also depend on productivity. An apparent slowdown in a wage index can therefore leave employers facing sustained cost pressure per unit of output. Overseas demand offered little offset at this point, as growth and trade in Australia’s major trading partners had exceeded expectations (decision, labour market and risk discussion).",
+    "The February Statement on Monetary Policy quantified the shift. Staff projected year-ended headline CPI inflation of 4.2% in June 2026 and 3.6% in December, up from 3.7% and 3.2% in the previous forecast. Trimmed mean inflation, which reduces the influence of unusually large individual price movements, was projected at 3.7% in June and 3.2% in December. Each figure was half a percentage point above its previous forecast. By December 2027 the two inflation measures were both projected at 2.7%, while unemployment was expected to average 4.5% that quarter. The numbers imply disinflation over time at the cost of some labour market slack, even with the stronger starting point for demand (February Statement on Monetary Policy, overview forecast table).",
+    "These forecasts incorporated financial market pricing as of January 28. The table’s assumed cash rate of 4.2% for December 2026 was a technical input to the outlook. It was neither the February policy setting nor a promised terminal rate. The Board specified the variables it would watch, including domestic demand, labour market outcomes and external financial conditions, and gave no calendar for subsequent moves. To measure the surprise, compare the decision with expectations immediately before the scheduled 2:30 p.m. Sydney announcement. The 25-basis-point rise and the move in yields needed to clear the market that afternoon need not have the same sign (decision section and February forecast table notes)."
+  ],
+  "questions": [
+    {
+      "question": "Which part of the demand surprise was most likely to persist?",
+      "detail": "Compare consumption volumes, business investment and housing turnover against the forecast vintages available before February. Separate spending financed through new credit from changes that could reverse when fiscal or temporary price effects fade. Persistent strength across several sectors would give more support to the capacity argument than a single strong quarterly expenditure figure."
+    },
+    {
+      "question": "Was productivity keeping labour costs high despite slower wage-index growth?",
+      "detail": "Reconcile growth in compensation per hour, hours worked and real output with the Wage Price Index and unit labour costs. Compare industries using consistent output and employment measures. A change in the mix of jobs can move aggregate compensation without giving a representative worker a larger raise, while weak output per hour can still raise production costs."
+    },
+    {
+      "question": "What part of the tightening arrived before the meeting?",
+      "detail": "Trace cash-rate futures, short government yields and the trade-weighted currency from the inflation release to the minutes immediately around the decision. Compare the timing with revisions to expected policy rates abroad. The change in the cash target identifies the action, while pre-announcement pricing is needed to estimate the unexpected component."
+    }
+  ],
+  "limitation": ""
+}

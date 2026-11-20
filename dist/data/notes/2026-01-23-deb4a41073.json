@@ -1,0 +1,28 @@
+{
+  "title": "A January hold leaves Japan’s next rate rise dependent on wages",
+  "bank": "Bank of Japan",
+  "date": "2026-01-23",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2026/k260123a.htm",
+  "summary": [
+    "The Bank of Japan voted 8–1 on January 23 to keep the uncollateralized overnight call rate near 0.75%. The disagreement was about whether the conditions for another increase were already present. Hajime Takata judged the inflation target broadly achieved and saw upside risks to Japanese prices as overseas economies recovered. He proposed 1.0%. The rest of the Board retained the existing guideline. The statement records their individual votes, while the outlook published at the same time sets out the majority’s broader assessment. The majority judged activity and inflation risks broadly balanced and continued to envisage rate increases if the outlook materialized (statement, voting note, and January Outlook, sections III–IV).",
+    "The near-term test was counterintuitive. The Bank expected inflation excluding fresh food to fall below 2% in the first half of the calendar year. Earlier food-price increases, notably for rice, would fade from annual comparisons. Changes to gasoline taxation, household energy relief and education measures would also restrain the price index. The outlook assumed roughly flat crude oil prices over its projection period. A softer headline print under those assumptions could arrive even while labour shortages and negotiated pay increases made it easier for firms to raise selling prices. The Bank expected both underlying inflation and CPI excluding fresh food to become broadly consistent with target in the second half of its projection period (January Outlook, sections I–II).",
+    "The fiscal-year forecast table makes the distinction measurable. Board members’ median forecast for fiscal 2026 GDP growth rose to 1.0% from 0.7% in October. Their CPI forecast excluding fresh food rose only one tenth, to 1.9%. The measure excluding both fresh food and energy reached 2.2%, up from 2.0%. The latter is an observed basket with particular exclusions. The Bank’s judgment of underlying inflation also considers wage-setting, inflation expectations and the persistence of individual prices. Treating 2.2% as a direct measure of the underlying rate would imply more precision than the Board claimed. The medians refer to annual growth, so 1.9% for the fiscal year is compatible with a temporary calendar-half undershoot (January Outlook, forecast appendix).",
+    "Government measures supported growth, helping bring forward some activity. The median growth forecast for fiscal 2027 fell from 1.0% to 0.8%, even as CPI excluding fresh food held at 2.0% for that year. This profile points to a change in the timing of growth. Upward revisions near the start of the projection did not extend uniformly across its horizon. There was also uncertainty about overseas trade policies, firms’ willingness to pass on costs and exchange-rate transmission. A weaker yen can alter observed goods prices before wage settlements or service prices respond. The same inflation reading could then carry different implications for domestic persistence (January Outlook, forecast appendix and section III).",
+    "Policy remained conditional on improvement in activity and prices. The majority judged real rates very low and expected to withdraw further accommodation if the outlook developed as projected. Takata’s alternative provided a concrete current-rate comparison of 25 basis points. It gave no estimate of how likely the other members were to support him at a subsequent meeting. To study whether the vote moved markets, the relevant timestamp is 12:07 Japan time, when both the statement and the Bank’s View were released. The full outlook followed on January 26. A change in the yen or the swap curve at 12:07 can be related to the combined news on forecasts and policy. Attributing it entirely to the rate vote would require additional evidence (statement, release reference)."
+  ],
+  "questions": [
+    {
+      "question": "Would the predicted sub-2% reading survive removal of temporary price measures?",
+      "detail": "Rebuild the contribution of rice, energy and affected administered items from the vintage available at each release. Compare the adjusted pattern with labour-intensive services and the distribution of item-level price changes. Before interpreting a difference from forecast as weaker underlying demand, check whether government relief or import costs differed from the assumptions in January."
+    },
+    {
+      "question": "How much of the better fiscal 2026 growth forecast was brought forward from fiscal 2027?",
+      "detail": "Compare quarterly expenditure paths around the introduction and expiry of fiscal support, separating investment, household demand and imports. Higher near-term activity with weaker subsequent growth would fit an expenditure-timing effect. Stronger private demand after support expired would suggest a more durable rise in incomes or investment."
+    },
+    {
+      "question": "Did the dissenter’s proposal alter the timing of tightening expected by markets?",
+      "detail": "Compare meeting-dated yen overnight-indexed swaps around 12:07 with later forward rates and the exchange rate. Record the announcement-day vintage of the forecast table alongside the vote. If only the next meeting contract moved, a timing interpretation is plausible. A parallel shift across maturities would also require considering the growth and inflation revisions."
+    }
+  ],
+  "limitation": ""
+}

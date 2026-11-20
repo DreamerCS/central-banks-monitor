@@ -1,0 +1,29 @@
+{
+  "title": "July minutes put a price on waiting as real yields rise before the Fed acts",
+  "bank": "Federal Open Market Committee",
+  "date": "2026-08-19",
+  "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm",
+  "summary": [
+    "The 19 August release records a disagreement over whether waiting for more inflation data would reduce uncertainty or make eventual tightening more costly. The 28–29 July vote kept the funds target at 3.50–3.75%, with nine in favour and three preferring a quarter-point hike. Beth Hammack, Neel Kashkari and Lorie Logan dissented. Several participants judged price pressure broad enough to justify a more restrictive rate. A few advocates of an increase argued that acting sooner could avoid a steeper sequence later. Most supported waiting because the next round of information could clarify whether some price increases were fading. The minutes distinguish the named voters from the wider group taking part in the discussion.",
+    "May year-over-year PCE inflation had been 4.1%, with core at 3.4%. From then-available data, staff estimated June inflation had slowed to 3.7%, with core at 3.3%. Slower energy inflation contributed to the headline drop. Staff expected inflation near 2% in 2028. Many participants were concerned about persistence nonetheless: repeated supply disturbances had delayed earlier forecasts, and after years of inflation above target another delay might change wage and price setting. Some firms had absorbed input costs by sacrificing margins. Continued pressure could force price increases even after the initial shock, while other contacts reported that customers would resist them. A fall in headline inflation was therefore compatible with a live disagreement over future pass-through.",
+    "Labour supply and demand appeared broadly balanced. June unemployment was 4.2%. Payroll growth slowed that month but average monthly gains over the first half exceeded their 2025 pace, and annual hourly earnings growth was 3.5%. Household spending and investment, including AI infrastructure, helped sustain economic activity. An immediate hike would address price risks in a labour market judged comparatively stable. The argument for a hold rested in part on the fact that financial conditions could tighten ahead of any official action if markets anticipated an increase.",
+    "The Desk report documents that channel. Treasury yields rose roughly 25–30 basis points over the intermeeting period, driven by higher real rates. Market prices still treated no change in July as the most likely outcome, with roughly a one-in-three chance of a hike. They fully priced a quarter-point increase by September and another by the end of the following first quarter. The median Desk survey respondent, however, expected no change in either 2026 or 2027 and a cut in early 2028. Near-term inflation compensation had declined after June's meeting and rose only marginally when oil prices increased. Market contacts attributed part of that resilience to their reading of June's communication. This is the manager's report of participants' explanations, not an independently identified communication effect.",
+    "The financial stability discussion placed the macro risks in a broader context. Staff found hedge fund leverage near historical highs and concentrated among large funds, while regulatory capital ratios at banks were high. Prices of securities exposed to AI infrastructure had outperformed for the year, yet credit spreads of large technology issuers had widened relative to investment-grade debt more generally. Participants saw a risk that heavy borrowing to finance construction could amplify the effects of disappointing earnings. The tail scenario involved both lenders and investors. It was distinct from the baseline of solid output growth.",
+    "Many participants continued to favour the target rate as the main instrument for adjusting the stance. A balance-sheet task force would inform a later discussion. The Chair also sought views on six regularly spaced meetings a year, but no decision was taken and the remainder of the 2026 schedule would be unaffected. The market movements inside these minutes occurred before July's meeting. Their inclusion on 19 August made the record public; it did not turn them into August announcement returns."
+  ],
+  "questions": [
+    {
+      "question": "Did the rise in real yields restrain demand before the policy rate moved?",
+      "detail": "Track real borrowing rates, duration-matched credit spreads and the terms available to rate-sensitive firms and households. Link changes in financing to orders or spending where repricing occurs quickly. A rise concentrated in government real yields could have a different effect from a simultaneous tightening of credit and collateral terms."
+    },
+    {
+      "question": "What would show that firms were exhausting their ability to absorb higher inputs?",
+      "detail": "Compare margins, selling prices, order volumes and investment in industries facing similar energy or tariff costs but different competitive conditions. Distinguish pass-through delayed by contracts from persistent broad pricing pressure. A near-term decline in headline inflation is insufficient to resolve that distinction."
+    },
+    {
+      "question": "How much did the timing of the hike advocates’ argument add at publication?",
+      "detail": "Measure rates and option-implied tails around 19 August, after accounting for July's publicly known 9–3 split and subsequent data. Compare the market's distribution with survey modes using consistent horizons. The earlier 25–30 basis point rise in Treasury yields is context for the decision, not a measure of the minutes' reception."
+    }
+  ],
+  "limitation": ""
+}

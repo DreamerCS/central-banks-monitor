@@ -1,0 +1,27 @@
+{
+  "title": "Why the ECB could wait while earlier rate cuts worked through the economy",
+  "bank": "European Central Bank",
+  "date": "2026-02-05",
+  "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260205~001d26959b.en.html",
+  "summary": [
+    "The ECB held its deposit rate at 2.00% on 5 February. The reason to wait was the combination of an inflation outlook consistent with the 2% medium-term target and an economy that was still absorbing the stimulus from previous cuts. Those statements describe different things. The target concerns the rate of consumer price inflation over time. The deposit rate is the nominal interest rate at which banks can place overnight funds with the Eurosystem. Their numerical equality says little by itself about how restrictive policy was for a firm taking out a multi-year loan.",
+    "The opening assessment identifies four sources of support for activity. Low unemployment supported the spending base. Healthy private-sector balance sheets gave households and firms some capacity to absorb shocks. Public spending on defence and infrastructure was being rolled out gradually. Earlier rate cuts were helping growth as their effects passed through the economy. The timing is important. A government expenditure plan can support future demand before all the spending appears in activity data. Borrowers that refinance gradually also receive rate relief at different times. An unchanged central-bank rate can therefore coincide with a changing impulse to activity.",
+    "The Council highlighted global trade-policy uncertainty and geopolitical tensions. It reported resilience in the face of those risks, without quantifying their expected growth or inflation effects. An investor inferring a forthcoming cut from the presence of trade uncertainty alone would have to supply an extra assumption about its impact. A shock that depresses investment and a shock that raises import costs could produce very different inflation outcomes. The ECB’s stated tests were the inflation outlook and its risks, underlying price pressures, and how strongly policy was reaching the economy. The communiqué gave no commitment about the direction or timing of the next rate change.",
+    "The operational sections held the main refinancing rate at 2.15% and the marginal lending rate at 2.40%. Meanwhile the two securities portfolios continued shrinking as the Eurosystem allowed principal repayments to run off. There was no new rate impulse or change to reinvestment policy in the release. The Council retained the Transmission Protection Instrument for disorderly markets that seriously obstruct policy across member countries. This makes two distinct market questions relevant. Expected overnight rates can move as investors revise the likely path of inflation, while national borrowing spreads can move as investors reassess how evenly the common stance reaches borrowers. The decision provides the reaction function against which to interpret either move. It contains no quotations showing that either occurred on announcement day."
+  ],
+  "questions": [
+    {
+      "question": "Where was the easing from past cuts still arriving?",
+      "detail": "Compare the interest rate on newly originated loans with the average rate outstanding across mortgages and corporate loans. Repricing dates and volumes would help identify how much relief borrowers had actually received. Monitoring loan demand alongside rates would help distinguish cheaper financing from a willingness to spend."
+    },
+    {
+      "question": "Was resilience being sustained by actual spending?",
+      "detail": "Track defence and infrastructure expenditure as disbursed, private investment and household consumption against the employment backdrop. Announcements, commitments and completed expenditure can have different timing. The distinction bears directly on how much support underlying demand would have if external trade weakened."
+    },
+    {
+      "question": "What did the market learn from leaving rates unchanged?",
+      "detail": "Use pre-release overnight-indexed swap pricing and timestamped revisions at several horizons. Separate the short decision release from the later press conference. A shift in forward rates despite an anticipated hold could reveal news about expected persistence or risk, which cannot be recovered from the level of the deposit rate alone."
+    }
+  ],
+  "limitation": ""
+}

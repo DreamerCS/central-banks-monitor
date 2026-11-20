@@ -1,0 +1,28 @@
+{
+  "title": "Brazil weighs the cost of reaching the inflation target one quarter earlier",
+  "bank": "Banco Central do Brasil",
+  "date": "2026-06-17",
+  "url": "https://www.bcb.gov.br/controleinflacao/comunicadoscopom/21165",
+  "summary": [
+    "The central question at Copom’s June meeting was unusually precise. Should it choose an interest-rate path that brought inflation to target by the fourth quarter of 2027 if that same path would then push inflation below target from the next relevant horizon onward? The committee’s simulations suggested exactly that trade-off. It saw alternative paths that could deliver convergence in the first quarter of 2028 with less variation in macroeconomic aggregates. Seven members voted to cut the Selic to 14.25%. This argument concerns the timing of convergence under uncertain supply shocks. It does not describe a new target or a guarantee that any particular interest-rate path would deliver the forecast.",
+    "The distinction matters because the published baseline is a separate simulation. Table 1 put four-quarter headline inflation at 5.2% in 2026 and 3.7% in the fourth quarter of 2027. It did not report a numerical first-quarter 2028 forecast. Market-determined prices were projected at 5.3% and 3.7%, and administered prices at 4.7% and 3.9%. The baseline used the interest-rate path in the Focus survey, an initial exchange rate of BRL 5.10 per dollar evolving by purchasing power parity, oil futures for about six months and 2% annual oil-price growth thereafter. Yellow electricity tariff flags were assumed for December 2026 and 2027. The committee discussed alternative interest-rate simulations in the text but did not publish their paths or the size of the later undershoot. Equating the 3.7% baseline with a path designed to hit target exactly would conflate the two exercises.",
+    "The justification for a cut was not an easing of current inflation pressure. The latest headline and underlying readings had accelerated, with the latest observation above the target’s upper limit. The Focus survey had inflation at 5.30% in 2026 and 4.10% in 2027. First-quarter activity accelerated, cyclical sectors regained significance and the labour market remained resilient. The committee nonetheless saw the recovery from late 2025 as compatible with slower growth over 2026 on balance. It argued that the restraint accumulated under earlier policy still affected activity, giving it a choice among future rate paths. That argument is sensitive to transmission lags and to whether observed strength in consumption represents temporary support or persistent excess demand.",
+    "Several risks could invalidate the smoother trajectory. Longer-term expectations might absorb second-round effects from oil, agricultural productivity or electricity costs. Services inflation could remain elevated under a stronger output gap, and stimulus to consumption could keep demand above potential and weaken familiar transmission channels. Domestic or external policies that produced a persistently weaker currency could reinforce imported inflation. Against these were a deeper domestic slowdown, weaker global growth after oil and trade shocks, or lower commodity prices. The committee noted that even the terms of a settlement to the foreign conflict and the consequences already in motion remained unclear. It judged risks on both sides unusually high without assigning probabilities.",
+    "For the yield curve, the unusual communication was the explicit distinction between two adjacent forecast horizons. An investor could reasonably infer that the committee cared about the path of activity and prices beyond the immediate target date. The text did not imply that policy would systematically permit a one-quarter postponement after every shock. Evidence for such an inference would require additional decisions under comparable conditions. An event study should therefore distinguish repricing of near-term cuts from compensation investors require for uncertainty about medium-term inflation."
+  ],
+  "questions": [
+    {
+      "question": "How sensitive was the projected later undershoot to supply and policy assumptions?",
+      "detail": "Reconstruct the published baseline first, then seek subsequent official scenarios that vary the Selic, oil or exchange-rate path. Keep the fourth quarter of 2027 and first quarter of 2028 separate. Without the unpublished counterfactual paths, any estimated cost of hitting the earlier date should be presented as a sensitivity exercise, not as a disclosed Copom estimate."
+    },
+    {
+      "question": "Was demand stimulus weakening the passage from high rates to consumption?",
+      "detail": "Compare household credit costs and lending standards with consumption, employment income and any identifiable fiscal support, particularly in interest-sensitive categories. A rise in spending alongside tight private credit could reflect government or labour income rather than failed bank transmission. Its durability matters to the committee’s claim that accumulated restraint permits several viable policy paths."
+    },
+    {
+      "question": "How did investors price the distinction between a slower convergence and a higher lasting inflation rate?",
+      "detail": "Compare meeting-sensitive rates, longer nominal forwards and available inflation-linked pricing around the announcement, accounting for concurrent external shocks and liquidity. A shift concentrated in near-term expected rates is different from higher distant inflation compensation. The statement identifies the timing trade-off but supplies no traded prices with which to settle the question."
+    }
+  ],
+  "limitation": ""
+}

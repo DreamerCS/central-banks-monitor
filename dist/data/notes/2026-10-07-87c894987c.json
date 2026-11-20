@@ -1,0 +1,29 @@
+{
+  "title": "September minutes separate the case for a hike in the baseline from insurance against worse inflation",
+  "bank": "Federal Open Market Committee",
+  "date": "2026-10-07",
+  "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
+  "summary": [
+    "The minutes published on 7 October document unanimous support at the 15–16 September meeting for raising the federal funds target by 25 basis points to 3.75–4.00%. The common action concealed two different reasons. Many participants wanted insurance against stronger-than-expected demand or a further adverse supply shock. Others thought a higher rate was necessary even if their most likely forecast materialised. A couple had raised their estimates of the neutral funds rate. In their view the same nominal setting would provide less restraint than previously thought. Those distinctions matter because an easing of tail risks could weaken the insurance case while leaving the baseline case intact.",
+    "Most participants judged another increase by year-end likely to be appropriate. This is a more specific description of the balance of views than the vote on September's increase. It remained a conditional assessment rather than a commitment to a particular meeting. Almost all judged risk to inflation tilted upwards while labour-market risks had diminished and were broadly balanced. Unemployment reached 4.1% in July and August, three-tenths below its average in the second half of 2025. Labour-force participation recovered in August and payroll gains broadened. At the same time, annual earnings growth slowed to 3.1% in August. The choice to tighten therefore did not require a judgement that rising wage inflation across the economy was the original source of price pressure.",
+    "A measurement change complicates comparisons across releases. Using then-available consumer and producer data and the existing methodology, staff estimated August PCE inflation at 3.8% and core inflation at 3.4%. Under the methodology the Bureau of Economic Analysis had announced for the end of September, the staff estimated 3.6% and 3.2% for the very same month. Replacing one pair with the other would mechanically create a two-tenths decline in each measure without any new month of disinflation. Both pairs still left inflation materially above 2%. Staff's forecast was higher for 2026–28 than in July and reached 2% in 2029.",
+    "Participants saw a resilient private economy alongside higher energy and technology costs. Trend productivity growth was generally thought close to its historical average and above pre-pandemic levels. Many expected gains from AI-related investment, but the magnitude and timing were uncertain and productivity trends are difficult to identify in real time. Present demand for equipment and power can support activity before productive capacity expands. A couple of participants specifically linked their preference for higher rates to the risk that initially concentrated energy or technology price increases would broaden.",
+    "The Desk's pre-meeting review makes clear why the full 25 basis points should not be called an announcement surprise. Market contacts and prices already assigned high odds to that move. Nominal yields rose about 35 basis points across the two- to ten-year part of the Treasury curve during the intermeeting period. The manager identified a higher expected policy path and strong data, while market commentary also pointed to Treasury buyback uncertainty, geopolitical risks and competition from heavy private debt issuance. A rise in near-term inflation compensation tracked oil, while longer-term expectations remained stable. These influences can coexist in yields of the same maturity.",
+    "In corporate markets, debt issued by large technology platforms carried relatively wide spreads amid substantial, long-dated issuance; companies benefiting directly from AI investment outperformed in equities. The manager attributed the year's overall rise in equity prices to realised and expected earnings while valuation multiples had fallen. An increase in the index therefore did not imply uniformly cheaper equity funding for all firms. The minutes also record interest in improving tools for Treasury market stress while limiting the Fed's footprint. That prospective planning was separate from implementation of the September rate hike and from any reaction to publication in October."
+  ],
+  "questions": [
+    {
+      "question": "How much of the year-end rate outlook depended on insurance rather than policymakers' central forecasts?",
+      "detail": "Follow subsequent communication and changes in options-implied inflation and rate tails alongside changes in the central expected path. A decline in the probability of adverse supply outcomes without materially weaker activity would create a more revealing comparison than a shock that changes both the baseline and the tails."
+    },
+    {
+      "question": "Did genuine inflation persistence or a change in measurement drive revisions?",
+      "detail": "Build like-for-like series using consistent definitions and release vintages. Compare sector contributions, prices of energy-sensitive and AI-intensive products, and longer-horizon expectations. Isolate the two-tenths methodological difference identified by the staff for August before interpreting any apparent progress towards 2%."
+    },
+    {
+      "question": "Did the release change expectations after the widely anticipated September hike?",
+      "detail": "Use 7 October as the event date and separate any surprise about the likelihood of another move from the already published decision and projections. Examine later contracts and options alongside front-end pricing. The intermeeting 35-basis-point Treasury increase predates the vote and cannot measure the response to this release."
+    }
+  ],
+  "limitation": ""
+}

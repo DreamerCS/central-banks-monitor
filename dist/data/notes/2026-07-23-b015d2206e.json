@@ -1,0 +1,33 @@
+{
+  "title": "A ceasefire, a reversal and the ECB’s choice to wait",
+  "bank": "European Central Bank",
+  "date": "2026-07-23",
+  "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+  "summary": [
+    "The six weeks before the ECB’s 23 July meeting contained two distinct episodes. A US–Iran memorandum and a ceasefire initially lowered crude prices more quickly than the ECB had expected. Renewed conflict then brought energy costs back toward the June forecast, at levels still well above those prevailing before the war. A comparison of two endpoints would miss that reversal. Lagarde also withdrew an intervening description of the risks as more balanced. By the press conference the ECB again saw upside risks to inflation and downside risks to growth. The hold was unanimous, although several governors had asked whether a further hike should be considered.",
+    "Headline inflation came in at 2.8% in June versus 3.3% anticipated in the June projection cited in the transcript footnote. In the current data vintage it had been 3.2% in May. Energy inflation slowed from 10.8% to 8.5%, food inflation from 1.9% to 1.5%, and inflation excluding food and energy from 2.6% to 2.4%. The lower underlying figure included declines in both services and goods inflation. For the ECB, that favourable surprise did not cancel the lagged impact of energy costs. It expected inflation to stay well above target into the first half of 2027. It also saw household and market expectations at shorter horizons as elevated, while most longer-term measures remained around 2%.",
+    "Lagarde separated direct energy costs, indirect effects already visible in transport, and a potential feedback into subsequent wages and prices. The corporate telephone survey gave little indication of a wage response beyond what the staff baseline already allowed. One-off compensation was possible, but compensation per employee growth had slowed from 3.8% to 3.5%. Wage agreements and the wage tracker also pointed toward moderation. Rising productivity had helped contain unit labour costs. The question was whether coming wage and employment information would change this picture. Before September the ECB expected two more inflation observations, second-quarter GDP, two consumer expectations releases, one compensation-per-employee observation and two purchasing managers’ surveys. Those releases covered different pieces of the propagation mechanism.",
+    "On activity, services had partially recovered after their initial setback and digital services were benefiting from AI-related demand. Manufacturing was supported by defence spending and precautionary stockbuilding against supply disruption. Unemployment was 6.2% in May, while job postings were falling and firms and households expected labour conditions to be weaker than before the conflict. An inventory build can sustain production despite uncertainty about future orders. The relative resilience of current output was therefore compatible with the ECB’s expectation of modest growth in the near term.",
+    "Credit demand told a similarly mixed story. Corporate bank lending grew 4.0% year on year in May, up from 3.4% in April, while bond issuance growth slowed from 4.5% to 3.4%. In the second-quarter lending survey, firms sought somewhat more bank credit for working capital and large firms also sought funding for fixed investment. Standards nevertheless tightened. New mortgage rates rose to 3.5% in May and mortgage loan growth edged up to 3.1%, but second-quarter standards tightened and mortgage demand fell. The May loan prices preceded June’s rate change. The ECB’s separate report of slightly tighter overall financial conditions since its previous meeting was the more timely observation on transmission.",
+    "The Q&A identifies a particular obstacle to measuring the July policy surprise. Reports of an incident affecting Saudi vessels appeared around 10 a.m. on the decision day, and the Council meeting ended around 10:15. Lagarde said the specific incident had not entered its decision and observed that Brent was changing almost by the hour. Investors already trading that news by the press conference were working with a different information set. A researcher attributing an entire day’s change in yields or oil to the hold would mix the policy announcement with a new supply disturbance. Lagarde also asked staff to examine gas, where inventories were relatively low, and refining margins as well as crude prices. Those distinctions offer a better way to track the shock facing actual users of energy."
+  ],
+  "questions": [
+    {
+      "question": "How much of the July price move reflected energy news outside the policy window?",
+      "detail": "Build a timeline of the shipping report, crude and gas futures changes, the release and the Q&A. Compare short-dated rates with inflation compensation around each event. The Council’s explicit timing makes this a useful test of whether daily market moves overstate the information conveyed by the policy decision."
+    },
+    {
+      "question": "Were refiners or gas markets amplifying the shock facing euro-area firms?",
+      "detail": "Compare crude prices, refined fuel spreads, gas prices and storage levels over both the ceasefire and its reversal. Check whether transport input prices and selling intentions followed refined products more closely than crude. That would affect how informative a single oil benchmark was for future core inflation."
+    },
+    {
+      "question": "Did new wage information move beyond the June baseline?",
+      "detail": "Align new wage settlements, compensation per employee and corporate survey responses by reference period. Separate permanent pay increases from lump-sum awards. A faster recurring pay response in energy-exposed sectors could be an early indication that firms and workers were changing the persistence of the initial shock."
+    },
+    {
+      "question": "Was the growth in bank lending replacing bond finance or funding new investment?",
+      "detail": "Compare net financing across instruments, inventory needs and fixed investment. Separate large firms able to switch markets from smaller firms dependent on banks. A shift in funding channel has different implications for future demand than a genuine increase in total borrowing for capital expenditure."
+    }
+  ],
+  "limitation": ""
+}

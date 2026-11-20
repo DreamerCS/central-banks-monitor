@@ -1,0 +1,26 @@
+{
+  "title": "Economic weakness becomes the dominant risk while the funds target remains at 6.50%",
+  "bank": "Federal Open Market Committee",
+  "date": "2000-12-19",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20001219/",
+  "summary": [
+    "The December FOMC left its federal funds target at 6.50% and judged economic weakness the more important risk in the foreseeable future. Holding the instrument and identifying downside risk were separate decisions. The statement signalled concern about activity without announcing a reduction, committing to a subsequent cut or providing a forecast for its size or timing.",
+    "Its evidence joined household, corporate and financial channels. Higher energy costs were restraining spending and profits. Consumer confidence was eroding, reports indicated substantial shortfalls in sales and earnings, and parts of financial markets were under stress. These observations suggested that economic growth might be slowing further. A fall short of expected earnings is different from a reported economy-wide decline in profits. Likewise, stress in some segments is a narrower statement than generalised dysfunction. The distinctions matter when converting qualitative language into indicators for a historical dataset.",
+    "Energy costs also illustrate the interaction of the two mandates. Rising prices for a necessary input can reduce purchasing power and margins even while posing a risk for inflation. Here the Committee judged remaining inflation risks diminished by more moderate activity and the absence of signs that longer-run expectations had risen. That released some of the constraint on a response to weakness. It did not establish that inflation had disappeared or that future weakness was certain. The release provides a clear downside assessment but gives no evidence of how financial markets priced it."
+  ],
+  "questions": [
+    {
+      "question": "Which evidence would distinguish a broad downturn from sector-specific earnings disappointments?",
+      "detail": "Compare sales volumes, real consumer spending, business investment, hours and orders across industries. Check reports of shortfalls against the forecasts being missed and against absolute levels. A widespread loss of activity across households and firms would support the downside assessment more strongly than a handful of otherwise expanding companies missing ambitious expectations."
+    },
+    {
+      "question": "Was the energy shock diminishing real demand without spilling into longer-term inflation expectations?",
+      "detail": "Trace households' energy expenditure shares, disposable purchasing power and margins in energy-intensive industries. Compare short- and longer-term inflation expectations and look for persistent wage or price revisions. The same energy price can squeeze real activity now and alter expectations later, so measurement windows matter."
+    },
+    {
+      "question": "Did investors interpret the risk judgement as bringing forward possible easing?",
+      "detail": "Recover pre-release probabilities of a rate change and compare contracts covering several meetings. Contrast changes in rate expectations with credit spreads associated with the reported market stress. An unchanged current rate combined with lower expected future rates would be compatible with a shift in the outlook. It would not identify a commitment by the Committee."
+    }
+  ],
+  "limitation": ""
+}

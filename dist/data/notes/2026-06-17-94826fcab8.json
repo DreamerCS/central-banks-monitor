@@ -1,0 +1,26 @@
+{
+  "title": "A unanimous hold links stable unemployment to the pace of workforce growth",
+  "bank": "Federal Open Market Committee",
+  "date": "2026-06-17",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+  "summary": [
+    "All twelve members approved a 3.50–3.75% federal funds target. The Committee reaffirmed that it would maintain ample reserves in the banking system and stated a firm commitment to price stability. These statements describe three different features of policy. The range is the current price of short-term money that the Committee is targeting. Ample reserves describe the operating environment in which it intends to maintain that target. The 2% inflation objective sets the destination for policy over time. The statement gives no new reserve quantity, asset purchase plan or path for the policy rate.",
+    "The distinctive economic judgement was that job gains had kept pace with the workforce. That comparison gives more information about labour-market balance than the absolute size of payroll growth alone. An economy with slower workforce growth can require fewer new jobs to keep unemployment broadly steady. The Committee reported little change in the unemployment rate alongside solid economic expansion. Strong productivity growth and capital investment offered a possible way to sustain output with measured hiring. The release supplies no estimates that would allocate growth between hours, productivity and capital, so that interpretation remains qualitative.",
+    "Inflation was elevated relative to 2%. The Committee attributed some sectoral increases, including in energy, to supply shocks, and identified conflict in the Middle East as one source of heightened uncertainty. An initial shift in relative prices and persistent inflation across the economy have different implications for the amount of restraint needed. The text recognises the first mechanism while committing to the inflation objective. It neither sets a deadline for disinflation nor says that supply-driven price increases will be disregarded. Unanimity establishes agreement on the statement issued on 17 June. It gives no information about how closely individual forecasts or preferred future rates were aligned."
+  ],
+  "questions": [
+    {
+      "question": "How sensitive was the conclusion of labour-market balance to measurement of the workforce?",
+      "detail": "Compare first-release payroll growth with household employment, participation, unemployment and subsequent revisions, keeping the initial and revised estimates separate. Examine hours as well as jobs. Stable unemployment could be consistent with firms adjusting hours or with labour-force growth differing from the initial estimate."
+    },
+    {
+      "question": "Were supply shocks changing a limited set of prices or contributing to continuing inflation?",
+      "detail": "Track energy and other affected categories against less-exposed services, compensation per unit of output and expectations. Examine how quickly the initial price change passes through. If subsequent readings broaden despite stable input prices, a purely sectoral account would explain less of the continuing pressure."
+    },
+    {
+      "question": "Did money-market conditions remain consistent with both the stated rate target and ample reserves?",
+      "detail": "Observe overnight funding rates and their dispersion relative to the target range, including around settlement dates. Distinguish changes at the short end associated with day-to-day funding from changes in forward rates associated with the inflation outlook. A reaffirmed reserve policy does not provide a numerical reserve target against which to equate every fluctuation."
+    }
+  ],
+  "limitation": ""
+}

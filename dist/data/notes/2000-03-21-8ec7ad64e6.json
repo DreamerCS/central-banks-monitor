@@ -1,0 +1,26 @@
+{
+  "title": "A second quarter-point step takes the funds target to 6% as the Fed keeps its February diagnosis",
+  "bank": "Federal Open Market Committee",
+  "date": "2000-03-21",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20000321/",
+  "summary": [
+    "The March statement raised the federal funds target by 25 basis points to 6.00%. The Board raised the discount rate by the same amount to 5.50%, approving requests from eleven regional Reserve Bank boards. The discount rate applied to short-term adjustment credit for depository institutions. These were simultaneous decisions by different Federal Reserve bodies. The list of regional banks records the discount-rate requests. It provides no individual roll call for the FOMC decision.",
+    "The Committee itself drew a comparison with February, saying the conditions it was addressing remained essentially the same. Continued excess growth of demand over potential supply could give rise to inflationary imbalances and threaten the expansion. A higher target under an unchanged diagnosis matters for interpreting repeated moves. Policy can respond to persistence of an imbalance even if the outlook has not worsened since the preceding meeting. A second step alone is consequently weak evidence that the Committee had sharply revised its estimate of inflation.",
+    "The release retained an assessment tilted towards future inflation pressure. It gave no measured size for the imbalance, no numerical estimate of potential growth and no guide to how many increases would suffice. The immediate setting and the asymmetry of future risks are observable. Whether the step was a surprise, or changed the expected terminal funds rate, depends on what investors had anticipated going into the release."
+  ],
+  "questions": [
+    {
+      "question": "Did repeated tightening reflect persistence of excess demand or a new deterioration in the underlying data?",
+      "detail": "Reconstruct spending, hiring and productivity information as it was released between the February and March meetings. Distinguish revisions to earlier levels from changes in growth. A stable estimate of the demand imbalance alongside a further move would support the interpretation the Committee gave in the statement."
+    },
+    {
+      "question": "Did the move alter the expected eventual rate or mainly bring an anticipated increase forward?",
+      "detail": "Compare changes at several short-rate horizons, allowing for the days each futures contract spends before and after the decision. If pricing beyond the next few meetings barely changes, a timing reassessment is more plausible than a major revision to the eventual policy setting."
+    },
+    {
+      "question": "Did credit conditions tighten beyond the change in the benchmark rate?",
+      "detail": "Track banks' funding costs, lending spreads, terms and loan demand after the decision. Separate effects on borrowers with short-rate exposure from those funded at longer maturities. A rise in borrowing costs in line with the benchmark gives different evidence from tighter credit standards or a widening premium over the benchmark."
+    }
+  ],
+  "limitation": ""
+}

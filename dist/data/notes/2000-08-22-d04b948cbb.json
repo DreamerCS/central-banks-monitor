@@ -1,0 +1,26 @@
+{
+  "title": "Higher potential growth gives the Fed room to wait even with scarce workers",
+  "bank": "Federal Open Market Committee",
+  "date": "2000-08-22",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20000822/",
+  "summary": [
+    "The FOMC kept its federal funds target at 6.50%. It judged that growth in demand was moderating towards a pace closer to the economy's productive capacity. The narrowing could come from both sides. Spending was increasing more slowly, while faster productivity growth was raising the pace of expansion the economy could sustain. Comparing recent GDP growth with an unchanged historical estimate of potential would miss the second mechanism.",
+    "Productivity was also restraining costs, giving the Committee a reason to distinguish scarce workers from immediate pressure on prices. Higher output per worker can accommodate stronger pay growth with a smaller increase in costs per unit of production. But unusually high use of available labour left less margin if demand growth continued to outpace supply. The Committee still saw a risk that this growth differential would persist. It gave no numerical estimate for either potential growth or the degree of labour-market tightness.",
+    "These judgements support a hold today alongside an assessment of risks still tilted towards future inflation. The targeted rate did not move. Expectations about its future path could nevertheless respond to the Committee's more detailed account of supply, demand and employment. The release contains no prices or pre-meeting forecasts with which to establish such a response."
+  ],
+  "questions": [
+    {
+      "question": "How much convergence came from slower demand and how much from higher potential growth?",
+      "detail": "Compare real final purchases and inventory accumulation with working hours, labour supply and productivity. Use data vintages available at the meeting. A convergence driven by stronger capacity could sustain employment and real incomes more readily than a sudden fall in spending."
+    },
+    {
+      "question": "Could high use of available labour coexist with contained unit costs for several more quarters?",
+      "detail": "Examine wage and benefit costs alongside output per hour and compare industries with different productivity performance. If productivity gains were concentrated in a few sectors, an aggregate measure might obscure pressure elsewhere. A broad improvement in output per hour would strengthen the supply interpretation."
+    },
+    {
+      "question": "Did investors change the horizon at which they expected further tightening?",
+      "detail": "Compare rate expectations before and after release at several maturities. Establish timing independently and control for other macroeconomic news. Differentiating expected next-meeting policy from medium-term rate expectations would help distinguish confidence in near-term restraint from a reassessment of the economy's sustainable growth rate."
+    }
+  ],
+  "limitation": ""
+}

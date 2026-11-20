@@ -1,0 +1,28 @@
+{
+  "title": "The second-year inflation forecast helps explain the September hike",
+  "bank": "European Central Bank",
+  "date": "2026-09-10",
+  "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+  "summary": [
+    "The ECB raised rates by 25 basis points on 10 September with its forecast of 2026 headline inflation unchanged from June. The news lay farther out. Staff raised the 2027 and 2028 headline forecasts and the Council warned of an extended period of well-above-target inflation. A market participant watching only the current-year inflation figure could therefore see little change in the information set even as the ECB saw greater persistence. The Council also identified a more resilient economy than it had previously expected, alongside downside risks to future growth.",
+    "In the staff baseline, headline inflation averaged 3.0% in 2026, 2.5% in 2027 and 2.1% in 2028. Inflation excluding energy and food was forecast at 2.5%, 2.6% and 2.3% in those years. The latter measure rose slightly between the first and second years despite the decline in headline inflation. By 2028 it still stood above the headline rate. The pattern is consistent with the Council looking past the direct impact of expensive energy to the speed at which broader price pressures would recede. It does not establish that any specific wage or services mechanism had already become dominant.",
+    "The growth baseline was 0.9% for 2026, 1.4% for 2027 and 1.5% for 2028. Staff lifted the first two years mainly because activity had held up better than expected. An upward revision to the central forecast can coexist with downside risks around it. The ECB continued to identify the energy shock as a source of adverse growth outcomes and of upside risks to prices. A longer or more intense disruption and stronger indirect or second-round effects could produce different combinations of output and inflation. The updated staff scenarios were intended to illustrate that range. The decision does not quantify a probability for any one of them.",
+    "All three administered rates rose together. The new deposit rate of 2.50%, main refinancing rate of 2.65% and marginal lending rate of 2.90% would take effect on 16 September. The announcement date and effective date serve different analytical purposes. A government bond can reprice immediately on the expected future overnight rate, while the administered rate feeding into short-term funding changes on the effective date. The decision gives the size and date of the policy change, but the surprise to markets depends on the increase already embedded in forward rates.",
+    "The ECB retained meeting-by-meeting decisions and continued to judge underlying inflation and transmission alongside the medium-term outlook. Its two purchase portfolios continued to run off without principal reinvestment. Its instrument to protect transmission across national markets remained available. The communiqué contains no commitment to a third move, no new asset purchase and no observed yield reaction. The clearest stance signal is the delivered 25-basis-point increase. The clearest information about the future is conditional, particularly the slower return of underlying inflation and the uncertainty over how far the energy shock would spread."
+  ],
+  "questions": [
+    {
+      "question": "Did the market reprice September or the rate path beyond it?",
+      "detail": "Measure the difference between the actual hike and the pre-release expected overnight rate, then examine forward rates six to eighteen months ahead. Separate the decision from the press conference. A stronger adjustment farther out would bear on the value investors attached to the revised 2027 inflation outlook."
+    },
+    {
+      "question": "Where did the extra persistence appear in the projections?",
+      "detail": "Compare June and September assumptions and the components of underlying inflation on a common forecast horizon. Check whether revised import costs, services prices or expected wage growth account for changes beyond 2026. The composition would affect how quickly subsequent commodity-price relief might reverse the increase."
+    },
+    {
+      "question": "How much room did growth resilience give the Council?",
+      "detail": "Identify which activity releases had surprised between projection rounds and compare demand-sensitive sectors with energy-exposed sectors. Pair those releases with lending rates and credit standards. Resilient aggregate growth can coexist with a concentrated deterioration among borrowers most exposed to energy and refinancing costs."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Stable inflation expectations are the hinge in the October decision to hold at 6.50%",
+  "bank": "Federal Open Market Committee",
+  "date": "2000-10-03",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20001003/",
+  "summary": [
+    "The FOMC held the federal funds target at 6.50%, judging that demand growth had moderated towards the higher growth rate of productive capacity. Continued gains in productivity were helping to contain costs. The Committee nonetheless retained its judgement that future risks were tilted towards inflation. High utilisation of workers was one reason. The possibility that energy prices would alter expectations was another.",
+    "The sequence of the energy channel matters. The rise in energy prices had so far had a limited effect on core price measures. The risk the Committee identified was prospective: persistently more expensive energy could raise expected inflation. Subdued expectations had helped support sustainable growth. A move in headline prices alone would therefore be incomplete evidence for the change the Committee feared. The relevant distinction is between a relative-price shock and a lasting change in how households and firms anticipate and set prices.",
+    "There was no numerical forecast of energy costs, inflation, expectations or the funds rate in the statement beyond the current target. It did not report that expectations had already risen or that demand had slowed below potential. Its inflation emphasis was compatible with an unchanged rate because the unfavourable consequences of the energy move were uncertain while there was evidence of a better balance between spending growth and capacity."
+  ],
+  "questions": [
+    {
+      "question": "Did higher energy prices alter longer-run expectations or only near-term inflation readings?",
+      "detail": "Compare household and professional expectations over distinct horizons, together with market-based indicators where available. Check whether moves persist after energy costs stabilise. Changes in market inflation compensation alone can include risk and liquidity premia, complicating a direct inference about expectations."
+    },
+    {
+      "question": "Was the modest core-price response broad or did it conceal offsetting movements?",
+      "detail": "Separate prices in energy-intensive sectors from other goods and services, allowing for lags in contracts and distribution. Compare changes in margins and quantities with changes in selling prices. Businesses absorbing higher costs in margins would generate different implications for future prices and employment from businesses with limited energy exposure."
+    },
+    {
+      "question": "Was the unchanged target already expected, and how much did the warning about expectations matter?",
+      "detail": "Reconstruct the path for short rates before the release, then compare maturities and inflation-sensitive instruments around the announcement. Isolate other news on energy or demand. The statement describes the transmission channel but supplies no measured response with which to identify its market importance."
+    }
+  ],
+  "limitation": ""
+}

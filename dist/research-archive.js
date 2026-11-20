@@ -11,8 +11,50 @@ const result = select("archive-results");
 const params = new URLSearchParams(location.search);
 const regions = ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"];
 const dateLabel = new Intl.DateTimeFormat("en-GB", {day: "numeric", month: "long", year: "numeric", timeZone: "UTC"});
-let month, targets, monthRecords;
-let noteSources = new Set();
+const yearFilter = select("year-filter");
+const dialog = select("archive-reader");
+const notesByUrl = new Map();
+const notesById = new Map();
+let records, targets, periods, month, scope, opener;
+let visibleCount = 60;
+let readRevision = 0;
+
+function sourceKey(raw) {
+  const url = new URL(raw);
+  // Some official HTML pages are indexed both with and without a trailing slash.
+  return url.origin + url.pathname.replace(/\/$/, "") + url.search + url.hash;
+}
+
+function noteFor(url) {
+  return notesByUrl.get(sourceKey(url));
+}
+
+function matchingNotes(record) {
+  const matches = [noteFor(record.url), ...(record.related || []).map(link => noteFor(link.url))];
+  return [...new Set(matches.filter(Boolean))];
+}
+
+function mergeEditions(publications) {
+  const seen = new Map();
+  for (const row of publications) {
+    const note = noteFor(row.url);
+    const key = note?.url || sourceKey(row.url);
+    const previous = seen.get(key);
+    if (!previous) {
+      seen.set(key, row);
+      continue;
+    }
+    const canonical = row.url === note?.url ? row : previous;
+    const other = canonical === row ? previous : row;
+    const links = new Map();
+    for (const link of [...(canonical.related || []), ...(other.related || []),
+      {label: "Publication notice", url: other.url}]) {
+      if (sourceKey(link.url) !== sourceKey(canonical.url)) links.set(sourceKey(link.url),link);
+    }
+    seen.set(key, {...canonical, related:[...links.values()]});
+  }
+  return [...seen.values()];
+}
 
 function element(name, text, cssClass) {
   const node = document.createElement(name);
@@ -38,18 +80,27 @@ function card(record) {
   timestamp.dateTime = record.date;
   const issuer = element("p", record.institution, "record-issuer");
   const links = element("p", "", "official-link");
+  const direct = noteFor(record.url);
+  if (direct) links.append(analysisLink(direct, "Read analysis"));
   links.append(sourceLink("Source document", record.url));
-  if (noteSources.has(record.url)) {
-    const note = element("a", "Research note");
-    note.href = "research-notes.html?" + new URLSearchParams({source:record.url});
-    links.append(document.createTextNode(" · "), note);
-  }
-  for (const related of record.related ?? []) {
-    links.append(document.createTextNode(" · "), sourceLink(related.label, related.url));
+  for (const related of record.related || []) {
+    const relatedNote = noteFor(related.url);
+    if (relatedNote && relatedNote !== direct) {
+      links.append(analysisLink(relatedNote, related.label + " analysis"));
+    }
+    links.append(sourceLink(related.label, related.url));
   }
   meta.append(timestamp, element("span", record.type));
   if (viewFilter.value === "time") meta.append(element("span", record.jurisdiction));
-  row.append(meta, element("h4", record.title), issuer, links);
+  const heading = element("h4");
+  if (direct) {
+    heading.append(analysisLink(direct, record.title, "record-title-link"));
+  } else {
+    heading.textContent = record.title;
+  }
+  row.append(meta, heading, issuer);
+  if (direct?.excerpt) row.append(element("p", direct.excerpt, "record-excerpt"));
+  row.append(links);
   return row;
 }
 
@@ -100,82 +151,230 @@ function renderByTime(records) {
   return wrapper;
 }
 
+function stateUrl() {
+  const url = new URL(location.href);
+  url.searchParams.delete("analysis");
+  url.searchParams.set("month", month.id);
+  url.searchParams.set("scope", scope);
+  for (const [key, input] of [["bank", bankFilter], ["type", typeFilter], ["q", queryFilter], ["view", viewFilter]]) {
+    if (input.value) url.searchParams.set(key, input.value);
+    else url.searchParams.delete(key);
+  }
+  return url;
+}
+
+function analysisLink(header, label, style = "analysis-action") {
+  const link = element("a", label, style);
+  const id = header.file.slice(0, -5);
+  const url = stateUrl();
+  url.searchParams.set("analysis", id);
+  link.href = url.href;
+  link.dataset.analysis = id;
+  link.setAttribute("aria-haspopup", "dialog");
+  return link;
+}
+
+async function readAnalysis(header) {
+  const revision = ++readRevision;
+  const article = select("manuscript");
+  const status = select("reader-status");
+  article.hidden = true;
+  status.hidden = false;
+  status.textContent = "Loading analysis…";
+  if (!dialog.open) dialog.showModal();
+  dialog.scrollTop = 0;
+  select("close-analysis").focus({preventScroll:true});
+  try {
+    const note = await PublicationReader.load(header);
+    if (revision !== readRevision || !dialog.open) return;
+    PublicationReader.render(article, note, location.href);
+    article.hidden = false;
+    status.hidden = true;
+  } catch {
+    if (revision !== readRevision || !dialog.open) return;
+    const retry = element("button", "Try again");
+    retry.type = "button";
+    retry.addEventListener("click", () => readAnalysis(header));
+    status.replaceChildren(document.createTextNode("Analysis could not be loaded. "), retry);
+  }
+}
+
+function dismissReader() {
+  ++readRevision;
+  if (dialog.open) dialog.close();
+  if (opener?.isConnected) opener.focus({preventScroll:true});
+}
+
+function closeReader() {
+  if (history.state?.archiveOverlay) {
+    history.back();
+  } else {
+    const url = new URL(location.href);
+    url.searchParams.delete("analysis");
+    history.replaceState(null, "", url);
+    dismissReader();
+  }
+}
+
+container.addEventListener("click", event => {
+  const link = event.target.closest("a[data-analysis]");
+  if (!link || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0) return;
+  const header = notesById.get(link.dataset.analysis);
+  if (!header) return;
+  event.preventDefault();
+  opener = link;
+  history.pushState({archiveOverlay:true}, "", link.href);
+  readAnalysis(header);
+});
+dialog.addEventListener("cancel", event => { event.preventDefault(); closeReader(); });
+dialog.addEventListener("click", event => { if (event.target === dialog) closeReader(); });
+select("close-analysis").addEventListener("click", closeReader);
+
 function render() {
   const query = queryFilter.value.trim().toLocaleLowerCase();
-  const records = monthRecords.filter(record =>
-    (!bankFilter.value || bankFilter.value === record.jurisdiction) &&
-    (!typeFilter.value || typeFilter.value === record.type) &&
-    (!query || [record.title, record.institution, record.date, record.type].some(text => text.toLocaleLowerCase().includes(query)))
-  );
-  const jurisdictions = new Set(records.map(record => record.jurisdiction)).size;
-  const total = records.length;
-  const summary = `${total} ${total === 1 ? "publication" : "publications"} · ${jurisdictions} ${jurisdictions === 1 ? "jurisdiction" : "jurisdictions"}`;
-  result.textContent = total ? summary : "No matching publications";
+  const filtered = records.filter(record => {
+    if (month.start > record.date || month.end < record.date ||
+      (bankFilter.value && bankFilter.value !== record.jurisdiction) ||
+      (typeFilter.value && typeFilter.value !== record.type)) return false;
+    const matches = matchingNotes(record);
+    if (scope === "analysis" && !matches.length) return false;
+    return !query || [record.title, record.institution, record.date, record.type,
+      ...(record.related || []).map(link => link.label),
+      ...matches.flatMap(note => [note.title, note.publication?.title || "", note.excerpt || ""])]
+      .some(text => text.toLocaleLowerCase().includes(query));
+  });
+  const jurisdictions = new Set(filtered.map(record => record.jurisdiction)).size;
+  result.textContent = filtered.length ? filtered.length + (filtered.length === 1 ? " publication" : " publications") +
+    " · " + jurisdictions + (jurisdictions === 1 ? " jurisdiction" : " jurisdictions") : "No matching publications";
   const title = element("div", "", "month-title");
-  const heading = element("h2", month.annual ? month.label : `${month.label} ${month.start.slice(0, 4)}`);
+  const heading = element("h2", month.annual ? month.label : month.label + " " + month.start.slice(0,4));
   heading.id = "active-month-title";
-  title.append(heading, element("p", `${month.start} to ${month.end}`));
-  container.replaceChildren(title, viewFilter.value === "time" ? renderByTime(records) : renderByRegion(records));
+  title.append(heading);
+  const timeline = viewFilter.value === "time";
+  select("archive-more").hidden = !timeline || visibleCount >= filtered.length;
+  container.replaceChildren(title, timeline ? renderByTime(filtered.slice(0, visibleCount)) : renderByRegion(filtered));
+  for (const button of select("archive-scope").querySelectorAll("button")) {
+    button.setAttribute("aria-pressed", String(button.dataset.scope === scope));
+  }
 }
 
 async function load(name) {
-  const response = await fetch(`data/${name}.json`);
+  const response = await fetch("data/" + name + ".json");
   if (!response.ok) throw new Error(name + " returned " + response.status);
   return response.json();
 }
 
+let ranges;
+function setPeriod(period) {
+  month = period;
+  const year = month.id === "all" ? "all" : month.start.slice(0,4);
+  yearFilter.value = year;
+  const nav = select("archive-months");
+  nav.replaceChildren();
+  nav.hidden = year === "all";
+  if (!nav.hidden) {
+    for (const item of ranges.filter(x => x.start.startsWith(year) && x.id !== "all")) {
+      const link = element("a", item.annual ? "Full year" : item.label.slice(0,3));
+      link.setAttribute("aria-label", item.annual ? "All of " + year : item.label + " " + year);
+      const url = stateUrl();
+      url.searchParams.set("month", item.id);
+      url.hash = "";
+      link.href = url;
+      if (item.id === month.id) link.setAttribute("aria-current", "page");
+      nav.append(link);
+    }
+  }
+}
+
+function filtersChanged() {
+  visibleCount = 60;
+  setPeriod(month);
+  const url = stateUrl();
+  url.hash = "";
+  history.replaceState(null,"",url);
+  render();
+}
+
 async function start() {
-  const [periods, map, records, notes] = await Promise.all([
-    load("archive-periods"), load("world-map"), load("research-archive"), load("research-notes").catch(() => [])
+  const [calendar, map, publications, notes] = await Promise.all([
+    load("archive-periods"), load("world-map"), load("research-archive"), PublicationReader.index().catch(() => null)
   ]);
-  noteSources = new Set(notes.map(note => note.url));
   targets = map.targets;
+  records = [...publications];
+  const known = new Set(publications.flatMap(row => [row.url,...(row.related || []).map(link => link.url)]).map(sourceKey));
+  for (const note of notes || []) {
+    const key = sourceKey(note.url);
+    const editions = [key,...(note.publication?.aliases || []).map(sourceKey)];
+    for (const edition of editions) notesByUrl.set(edition, note);
+    notesById.set(note.file.slice(0,-5), note);
+    if (!editions.some(edition => known.has(edition)) && note.publication) {
+      records.push({...note.publication, url:note.url, date:note.date, institution:note.bank});
+      known.add(key);
+    }
+  }
+  records = mergeEditions(records);
+  records.sort((a,b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
+  const periodsByYear = new Map(calendar.map(item => [item.start.slice(0,7), item]));
+  for (const record of records) {
+    const key = record.date.slice(0,7);
+    if (periodsByYear.has(key)) continue;
+    const label = new Intl.DateTimeFormat("en-GB",{month:"long", timeZone:"UTC"}).format(new Date(record.date));
+    const [year, number] = key.split("-").map(Number);
+    const end = new Date(Date.UTC(year,number,0)).toISOString().slice(0,10);
+    periodsByYear.set(key,{id:key,label,start:key+"-01",end});
+  }
+  periods = [...periodsByYear.values()].sort((a,b) => a.start.localeCompare(b.start));
+  const years = [...new Set(periods.map(p => p.start.slice(0,4)))].sort().reverse();
+  const annual = years.map(year => ({id:year === "2026" ? "year" : year, label:year, start:year+"-01-01",end:year+"-12-31",annual:true}));
+  const all = {id:"all",label:"All years",start:"0000",end:"9999",annual:true};
+  ranges = [all,...annual,...periods];
+  yearFilter.append(new Option("All years","all"),...years.map(year => new Option(year,year)));
+  bankFilter.append(new Option("All jurisdictions",""),...targets.map(bank => new Option(bank.name,bank.name)));
+  typeFilter.append(new Option("All types",""),...[...new Set(records.map(r => r.type))].sort().map(type => new Option(type,type)));
   const hash = location.hash.slice(1);
-  const years = new Map();
-  for (const period of periods) {
-    const year = period.start.slice(0, 4);
-    if (!years.has(year)) {
-      years.set(year, {id: year === "2026" ? "year" : year, label: year, start: period.start, end: period.end, annual: true});
-    }
-    years.get(year).end = period.end;
-  }
-  const ranges = [...years.values(), ...periods];
-  const hashPeriod = hash.split("-bank-")[0];
-  month = [params.get("month"), hashPeriod].map(id => ranges.find(period => period.id === id)).find(Boolean) ?? periods.at(-1);
-  monthRecords = records.filter(record => month.start <= record.date && record.date <= month.end);
-  const selectedYear = month.start.slice(0, 4);
-  for (const period of [...years.values(), ...periods.filter(item => item.start.startsWith(selectedYear))]) {
-    const link = element("a", period.annual ? period.label : period.label.slice(0, 3));
-    const context = years.size > 1 ? " " + selectedYear : "";
-    link.setAttribute("aria-label", period.annual ? `All of ${period.label}` : period.label + context);
-    link.href = `?month=${period.id}#${period.id}`;
-    if (period.id === month.id) link.setAttribute("aria-current", "page");
-    select("archive-months").append(link);
-  }
-  bankFilter.append(new Option("All jurisdictions", ""), ...targets.map(bank => new Option(bank.name, bank.name)));
-  typeFilter.append(new Option("All types", ""), ...[...new Set(records.map(record => record.type))].sort().map(type => new Option(type, type)));
-  const bank = params.get("bank");
-  if (targets.some(target => target.name === bank)) bankFilter.value = bank;
-  queryFilter.value = params.get("q") ?? "";
-  let previousView;
-  try { previousView = sessionStorage.getItem("archive-view"); } catch {}
-  const initialView = params.get("view") ?? (hash.includes("-bank-") ? "region" : previousView);
-  viewFilter.value = initialView === "time" ? "time" : "region";
+  const id = params.get("month") || hash.split("-bank-")[0];
+  scope = params.get("scope") === "all" || (!params.has("scope") && (id || params.has("bank") || params.has("q"))) || !notes ? "all" : "analysis";
+  const requested = notesById.get(params.get("analysis"));
+  const initial = ranges.find(period => period.id === id) || all;
+  bankFilter.value = targets.some(x => x.name === params.get("bank")) ? params.get("bank") : "";
+  typeFilter.value = [...typeFilter.options].some(o => o.value === params.get("type")) ? params.get("type") : "";
+  queryFilter.value = params.get("q") || "";
+  let saved;
+  try { saved = sessionStorage.getItem("archive-view"); } catch {}
+  const view = params.get("view") || (hash.includes("-bank-") ? "region" : saved);
+  viewFilter.value = view === "region" ? "region" : "time";
+  setPeriod(initial);
   form.hidden = false;
+  select("archive-scope").hidden = !notes;
+  select("archive-scope").addEventListener("click", event => {
+    const button = event.target.closest("button");
+    if (button) { scope=button.dataset.scope; filtersChanged(); }
+  });
   form.addEventListener("input", event => {
-    if (event.target === viewFilter) {
-      try { sessionStorage.setItem("archive-view", viewFilter.value); } catch {}
+    if (event.target === yearFilter) {
+      month = yearFilter.value === "all" ? all : annual.find(p => p.label === yearFilter.value);
     }
-    render();
+    if (event.target === viewFilter) {
+      try { sessionStorage.setItem("archive-view",viewFilter.value); } catch {}
+    }
+    filtersChanged();
   });
   form.addEventListener("reset", event => {
     event.preventDefault();
     bankFilter.value = typeFilter.value = queryFilter.value = "";
-    render();
+    month = all;
+    filtersChanged();
   });
-  form.addEventListener("submit", event => event.preventDefault());
+  form.addEventListener("submit", e => e.preventDefault());
+  select("archive-more").addEventListener("click", () => {visibleCount += 60; render();});
+  window.addEventListener("popstate", () => {
+    const header = notesById.get(new URLSearchParams(location.search).get("analysis"));
+    if (header) readAnalysis(header);
+    else dismissReader();
+  });
   render();
   if (hash.includes("-bank-")) select(hash)?.scrollIntoView();
+  if (requested) readAnalysis(requested);
 }
 
 start().catch(error => {

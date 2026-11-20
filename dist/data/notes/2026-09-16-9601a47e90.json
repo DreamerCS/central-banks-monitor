@@ -1,0 +1,28 @@
+{
+  "title": "Brazil eases to 13.75% as cyclical activity slows but services remain a risk",
+  "bank": "Banco Central do Brasil",
+  "date": "2026-09-16",
+  "url": "https://www.bcb.gov.br/controleinflacao/comunicadoscopom/21261",
+  "summary": [
+    "Copom reduced the Selic to 13.75% on 16 September with the support of all seven participants listed. Headline inflation and the average of the underlying measures had both decelerated to below the upper edge of the tolerance interval but remained above target. The distinction is material. Re-entering the band reduces one visible sign of stress without demonstrating that the expected path has returned to target or that the costs of doing so are falling. The committee maintained that the risks around its reference projection were larger than usual and tilted towards higher inflation. It left the eventual size of the rate adjustments dependent on new information.",
+    "The activity evidence offered an explanation for the move and a reservation. Moderation was especially evident in cyclical sectors, where interest-sensitive borrowing and spending can respond sooner to a high policy rate. The overall level of activity remained resilient, and the labour market was still strong. Copom viewed the indicators as consistent with slower growth over 2026. A strong labour market can sustain services prices while goods demand or investment cools. That uneven transmission helps explain why the committee could see scope to reduce a restrictive rate and still warn about persistent services inflation. The statement offered no measured contribution of interest rates to the slowdown and no estimate of the neutral Selic.",
+    "The reference scenario in Table 1 projected headline inflation of 5.2% in 2026, 3.9% in 2027 and 3.2% in the first quarter of 2028, the relevant four-quarter endpoint. Market-determined prices were projected at 5.2%, 4.1% and 3.2%; administered prices at 5.3%, 3.5% and 3.2%. The two components were expected to coincide at the far endpoint after taking different routes through 2027. The Focus survey put inflation at 4.9% and 4.3% for the two calendar years. In 2026 the committee was more pessimistic than survey respondents; in 2027 it projected a faster decline. Comparing the same vintages at the same endpoints exposes that disagreement more clearly than an unqualified statement that private forecasters expected higher inflation.",
+    "The interest-rate path used in the forecast came from Focus respondents. The exchange-rate assumption started at BRL 5.15 per dollar and then followed purchasing power parity. The oil path followed futures for approximately six months before rising 2% per year, and the assumed December electricity tariff flag was yellow in both 2026 and 2027. The committee identified additional uncertainties beyond these central inputs: oil supply and climate-related agricultural and energy costs could reach longer-term expectations; demand stimulus could weaken transmission; and domestic or external policies might leave the exchange rate persistently weaker. Conversely, domestic activity, international trade or commodity prices could fall more than projected.",
+    "For markets, this was a decision with a relatively clear near-term macro argument and an unsettled medium-term one. A cyclical slowdown supports gradual recalibration, but neither the strong labour market nor de-anchored longer-horizon expectations gives an endpoint for further cuts. The announcement contained no observation of a surprise in futures or bonds. Any attribution would need separate prices for the near meetings, the expected path farther out and inflation compensation, all timed against developments in oil and advanced-economy monetary policy."
+  ],
+  "questions": [
+    {
+      "question": "Was the cyclical slowdown spreading to employment and domestic services inflation?",
+      "detail": "Follow credit-dependent activity and interest-sensitive household purchases before examining wages, hours and services-price breadth. Distinguish a lower level of orders from a slower growth rate off a high base. A gap that remains positive despite softer cyclical sectors would support the committee’s concern about persistent services inflation after headline inflation returned inside the band."
+    },
+    {
+      "question": "What explains the different routes to the same 3.2% endpoint for free and administered prices?",
+      "detail": "Compare the calendar-2027 forecasts with the first-quarter 2028 values using exact four-quarter windows. Review regulated-price schedules, electricity assumptions and market-price base effects. A fall driven by which quarter drops out of the annual comparison has different implications from an acceleration of disinflation in the latest monthly data."
+    },
+    {
+      "question": "How much of the perceived room for further cuts depended on stable longer-term expectations?",
+      "detail": "Track changes in Focus vintages and inflation-linked bond compensation separately, including liquidity conditions. Compare those observations with repricing of the local rates curve across release windows. A stable survey median can coexist with wider disagreement or a rising risk premium, both relevant to the cost of maintaining the cut path. A wider spread of individual forecasts would also warrant checking whether disagreement concerns the policy response or the underlying supply shocks."
+    }
+  ],
+  "limitation": ""
+}

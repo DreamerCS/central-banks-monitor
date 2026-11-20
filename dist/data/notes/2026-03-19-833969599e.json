@@ -1,0 +1,28 @@
+{
+  "title": "An energy shock shifts the inflation and growth risks in opposite directions",
+  "bank": "European Central Bank",
+  "date": "2026-03-19",
+  "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260319~3057739775.en.html",
+  "summary": [
+    "On 19 March the ECB kept the deposit rate at 2.00% as the Middle East war pushed its inflation and growth assessments in opposite directions. More expensive energy would materially raise inflation in the near term. The open question concerned the period over which a change in interest rates could influence prices. The intensity and duration of the conflict, the pass-through of energy costs into other consumer prices and the impact on demand would determine that outcome. The Council entered the shock with inflation around target, anchored longer-term expectations and an economy that had shown resilience. Those starting conditions supported waiting for information, even as staff raised their inflation forecasts.",
+    "The March forecast is a distinct data vintage. Staff exceptionally included information through 11 March, later than the normal cut-off, in order to incorporate more of the shock. Their baseline annual headline inflation rates were 2.6% in 2026, 2.0% in 2027 and 2.1% in 2028. The upward revision against December was especially pronounced in 2026. In the baseline, therefore, a year of above-target inflation was followed by annual inflation very close to target. An annual average can mask substantial quarter-to-quarter variation. These figures neither identify the peak month nor specify when energy inflation would begin to fall.",
+    "The distinction between headline and underlying inflation was already material. Inflation excluding energy and food was projected at 2.3%, 2.2% and 2.1% in the three years. The 2027 figure sits above the headline forecast even after headline inflation returns to the target. Staff attributed the upward revision in this measure mainly to energy costs spreading beyond energy itself. A consumer basket that excludes fuel can still contain goods manufactured or transported with it and services that rely on power. An investor following underlying inflation therefore has to distinguish this indirect cost pass-through from persistent repricing or wage responses that might survive a reversal in energy prices.",
+    "Projected growth averaged 0.9%, 1.3% and 1.4% across the same years. Staff lowered their assessment, particularly for 2026, through commodity markets, lost real income and weaker confidence. Low unemployment, private balance sheets and public defence and infrastructure spending remained sources of support. The resulting policy problem is asymmetric across horizons. A supply shock can lower growth while raising prices immediately. Slower spending could subsequently restrain price growth, while stronger second-round effects would work against that adjustment. The decision gave neither force a fixed numerical weight.",
+    "The staff scenarios illustrate that tension. A prolonged disruption to oil and gas supply would put inflation above and growth below the baseline. For medium-term inflation, indirect and second-round effects were critical. The decision assigns no probability to these alternatives, so a baseline-weighted expected return cannot be recovered from it alone. The main refinancing and marginal lending rates remained at 2.15% and 2.40%, securities portfolios continued to run off, and the ECB promised no preset path. Market research can treat the decision as a reassessment of the distribution of outcomes while using market data separately to establish whether expected rates actually moved."
+  ],
+  "questions": [
+    {
+      "question": "How far did the 11 March cut-off shift the forecast?",
+      "detail": "Reconstruct oil and gas futures and market exchange rates prevailing at the usual and exceptional cut-offs. Compare the changes with the ECB projection assumptions as released. The exercise would help isolate information timing from a change in staff judgements about how a given energy shock reaches consumer prices."
+    },
+    {
+      "question": "Where would indirect cost pass-through become durable?",
+      "detail": "Track producer input costs and subsequent consumer-price revisions in energy-intensive goods and services. Add wage settlements and survey measures of pricing intentions. A temporary change in the price level and repeated price increases have different implications for the path of future policy."
+    },
+    {
+      "question": "Which leg of the shock did financial markets price?",
+      "detail": "Compare near-term inflation compensation, longer forward measures and overnight-indexed swap rates around the release. Watch real-rate and nominal-rate changes separately. Since energy risk and the growth outlook moved together, a single yield change cannot identify which side of the Council’s trade-off investors considered decisive."
+    }
+  ],
+  "limitation": ""
+}

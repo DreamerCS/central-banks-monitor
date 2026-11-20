@@ -1,0 +1,230 @@
+{
+  "2000-01-05-a41305cc9c.json": {
+    "jurisdiction": "Euro area",
+    "title": "Willem F. Duisenberg, Christian Noyer: Introductory statement with Q&A",
+    "type": "Press conference"
+  },
+  "2000-01-06-68564ef0ce.json": {
+    "jurisdiction": "United States",
+    "title": "Minehan asks how much faster America can grow before prices rise",
+    "type": "Speech"
+  },
+  "2000-01-07-d4a2d364c9.json": {
+    "jurisdiction": "United States",
+    "title": "Tale of two continents: A comparison of Asian and Latin American experiences during recent financial turmoil",
+    "type": "Speech"
+  },
+  "2000-01-08-600a1f5ada.json": {
+    "jurisdiction": "Euro area",
+    "title": "One year with the euro",
+    "type": "Speech"
+  },
+  "2000-01-10-da18af5d84.json": {
+    "jurisdiction": "Euro area",
+    "title": "Opening Remarks at a Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+    "type": "Speech"
+  },
+  "2000-01-12-79cdb15f35.json": {
+    "jurisdiction": "United States",
+    "title": "Moskow expects slower US spending to make room for stronger exports",
+    "type": "Speech"
+  },
+  "2000-01-12-d5223bd6a3.json": {
+    "jurisdiction": "United States",
+    "title": "Boehne explains why the Fed watches equity wealth when productivity accelerates",
+    "type": "Speech"
+  },
+  "2000-02-02-30eba51fd2.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2000-03-21-8ec7ad64e6.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2000-05-16-e801010187.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2000-06-28-2d9d3a6810.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2000-08-22-d04b948cbb.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2000-10-03-23e1467769.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2000-11-15-cfbe861012.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2000-12-19-173f8dcf78.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2005-07-21-b0b930454b.json": {
+    "jurisdiction": "China",
+    "title": "中国人民银行关于完善人民币汇率形成机制改革的公告",
+    "type": "Decision"
+  },
+  "2008-11-19-f47b6c6ba1.json": {
+    "jurisdiction": "Canada",
+    "title": "Building Continuous Markets",
+    "type": "Speech"
+  },
+  "2008-11-25-3b8eb07a0a.json": {
+    "jurisdiction": "United States",
+    "title": "Purchases of agency debt and agency mortgage-backed securities",
+    "type": "Release"
+  },
+  "2012-09-06-3929e40349.json": {
+    "jurisdiction": "Euro area",
+    "title": "Introductory statement to the press conference (with Q&A)",
+    "type": "Press conference"
+  },
+  "2013-05-22-0774a2364b.json": {
+    "jurisdiction": "United States",
+    "title": "The Economic Outlook",
+    "type": "Testimony"
+  },
+  "2013-09-18-f5f0de2b55.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2015-01-22-3bf8300f34.json": {
+    "jurisdiction": "Euro area",
+    "title": "Mario Draghi: Introductory statement to the press conference (with Q&A)",
+    "type": "Press conference"
+  },
+  "2016-09-21-7007ea953c.json": {
+    "jurisdiction": "Japan",
+    "title": "New Framework for Strengthening Monetary Easing: \"Quantitative and Qualitative Monetary Easing with Yield Curve Control\"",
+    "type": "Decision"
+  },
+  "2020-03-23-2d11bbd51c.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2022-09-28-860008bf2f.json": {
+    "jurisdiction": "United Kingdom",
+    "title": "Bank of England announces gilt market operation",
+    "type": "Release"
+  },
+  "2024-03-19-3dc2330d53.json": {
+    "jurisdiction": "Japan",
+    "title": "Changes in the Monetary Policy Framework",
+    "type": "Decision"
+  },
+  "2024-06-19-f37e7952e2.json": {
+    "jurisdiction": "China",
+    "title": "China's current monetary policy stance and evolution of monetary policy framework in the future",
+    "type": "Speech"
+  },
+  "2026-02-05-d03db1f7c1.json": {
+    "jurisdiction": "Euro area",
+    "title": "Monetary policy statement and press conference",
+    "type": "Press conference"
+  },
+  "2026-02-18-3917a61d9e.json": {
+    "aliases": [
+      "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260128.pdf",
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260218a.htm"
+    ],
+    "jurisdiction": "United States",
+    "title": "Minutes of the Federal Open Market Committee · 2026-01-28 meeting",
+    "type": "Minutes"
+  },
+  "2026-03-19-2aaa6d8a85.json": {
+    "jurisdiction": "Euro area",
+    "title": "Monetary policy statement and press conference",
+    "type": "Press conference"
+  },
+  "2026-04-08-071f339846.json": {
+    "aliases": [
+      "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260318.pdf",
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm"
+    ],
+    "jurisdiction": "United States",
+    "title": "Minutes of the Federal Open Market Committee · 2026-03-18 meeting",
+    "type": "Minutes"
+  },
+  "2026-04-30-49abd1eac5.json": {
+    "jurisdiction": "Euro area",
+    "title": "Monetary policy statement and press conference",
+    "type": "Press conference"
+  },
+  "2026-05-20-feb4037215.json": {
+    "aliases": [
+      "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260429.pdf",
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm"
+    ],
+    "jurisdiction": "United States",
+    "title": "Minutes of the Federal Open Market Committee · 2026-04-29 meeting",
+    "type": "Minutes"
+  },
+  "2026-06-16-c705f3576d.json": {
+    "jurisdiction": "Japan",
+    "title": "Plan for the Outright Purchases of Japanese Government Bonds [PDF 109KB]",
+    "type": "Decision"
+  },
+  "2026-07-08-68140c3276.json": {
+    "aliases": [
+      "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260617.pdf",
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm"
+    ],
+    "jurisdiction": "United States",
+    "title": "Minutes of the Federal Open Market Committee · 2026-06-17 meeting",
+    "type": "Minutes"
+  },
+  "2026-08-19-3a654fea6a.json": {
+    "aliases": [
+      "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260729.pdf",
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm"
+    ],
+    "jurisdiction": "United States",
+    "title": "Minutes of the Federal Open Market Committee · 2026-07-29 meeting",
+    "type": "Minutes"
+  },
+  "2026-09-10-8c58f97b29.json": {
+    "jurisdiction": "Euro area",
+    "title": "Monetary policy statement and press conference",
+    "type": "Press conference"
+  },
+  "2026-10-07-87c894987c.json": {
+    "aliases": [
+      "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260916.pdf",
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm"
+    ],
+    "jurisdiction": "United States",
+    "title": "Minutes of the Federal Open Market Committee · 2026-09-16 meeting",
+    "type": "Minutes"
+  },
+  "2026-11-04-a74dc165c5.json": {
+    "jurisdiction": "Brazil",
+    "title": "BC - Copom Comunicado - 282ª Reunião - Copom mantém a taxa Selic em 13,75% a.a.",
+    "type": "Decision"
+  },
+  "2026-11-18-5936858f1a.json": {
+    "aliases": [
+      "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20261028.pdf",
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+    ],
+    "jurisdiction": "United States",
+    "title": "Minutes of the Federal Open Market Committee · 2026-10-28 meeting",
+    "type": "Minutes"
+  }
+}

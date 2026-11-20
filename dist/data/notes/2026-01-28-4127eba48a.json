@@ -1,0 +1,26 @@
+{
+  "title": "Ten members back a hold as weak hiring coexists with steadier unemployment",
+  "bank": "Federal Open Market Committee",
+  "date": "2026-01-28",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
+  "summary": [
+    "The FOMC kept the federal funds target at 3.50–3.75%. Ten members supported the decision. Stephen Miran and Christopher Waller favoured a quarter-point cut, which would have taken the range to 3.25–3.50%. The clearest disagreement was about the rate appropriate at this meeting. Neither dissenter supplied a preferred path or explained how he weighed the economic evidence. The distribution of votes therefore gives information about support for immediate easing, without providing a schedule for a future cut.",
+    "The employment observations in the first paragraph help explain why the policy choice was less obvious than a weak hiring headline might suggest. Job gains were low, yet the unemployment rate was showing signs of stabilising. Hiring measures the flow into work, whereas unemployment records a share of the labour force. Slow job creation can coexist with stable unemployment under different combinations of labour supply, hiring and separations. The statement identifies that combination but supplies no breakdown. It also describes solid growth in economic activity. Taken together these observations left room for the majority to hold while continuing to monitor the employment objective.",
+    "Inflation was still somewhat elevated. The Committee maintained its commitment to bring it back to 2% over the longer run and judged uncertainty about the outlook elevated. Its willingness to adjust depended on new information about activity, inflation and the distribution of risks. Domestic financial and international developments, as well as inflation expectations, were explicitly part of that assessment. The statement gave no numerical forecast, threshold for intervention or deadline for returning to target. The majority's vote records an unchanged rate on 28 January. The two dissenting votes identify a specific easing alternative. The statement alone cannot establish whether either decision would have surprised market participants."
+  ],
+  "questions": [
+    {
+      "question": "Did weak job gains represent softer demand for labour or slower growth in the number of workers available?",
+      "detail": "Examine payroll releases alongside household employment, participation, hiring and separations, using the information available on the meeting date. Stable unemployment amid lower participation would have different implications from stable unemployment with steady labour-force growth and fewer layoffs. Separating those possibilities would clarify how much weight to put on weak net hiring."
+    },
+    {
+      "question": "What would show that above-target inflation had become persistent enough to constrain easing?",
+      "detail": "Look for breadth and persistence across prices and test whether measures of expected inflation move with current readings. Compare this evidence with employment conditions rather than applying an automatic rule to a single inflation release. The Committee identified both the longer-run objective and the risk to employment but supplied no mechanical trigger."
+    },
+    {
+      "question": "How much new information did the two votes for a cut convey to rates markets?",
+      "detail": "Establish the expected decision immediately before the 2 p.m. Eastern release and distinguish repricing around the statement from the subsequent press conference. Compare contracts covering this meeting with those covering later meetings. A change farther along the curve could reflect an altered expected path even with no surprise in the current target."
+    }
+  ],
+  "limitation": ""
+}

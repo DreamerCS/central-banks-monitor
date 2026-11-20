@@ -1,0 +1,26 @@
+{
+  "title": "The Fed holds as uncertainty about the Middle East complicates both sides of its mandate",
+  "bank": "Federal Open Market Committee",
+  "date": "2026-03-18",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+  "summary": [
+    "The FOMC maintained the federal funds target at 3.50–3.75%. The statement identified developments in the Middle East as a source of uncertainty for the US economy, while giving no estimate of their direction, magnitude or duration. Eleven voters backed the decision and Stephen Miran favoured a quarter-point cut. The statement specifies the dissenting action but gives no evidence that Miran's disagreement was primarily about the international outlook. It would be misleading to infer his reason from the proximity of the two passages.",
+    "The US starting point mattered for the interpretation. Economic activity was expanding solidly. Job gains had stayed low, and unemployment had changed little in recent months. Inflation remained somewhat elevated relative to a longer-run objective of 2%. An adverse international development need not affect both halves of the mandate in the same direction. It could raise some prices while weakening spending, or have little lasting effect on either. The Committee explicitly left that issue open. Neither a particular commodity price nor a forecast for domestic inflation appears in the statement.",
+    "The operative choice was to preserve the current range while continuing to assess the size and timing of possible adjustments. The statement includes labour-market readings, inflation pressures and expectations, and financial and international developments among the inputs. Their inclusion broadens the information relevant to the next decision. It does not rank one risk above the others. For a rates researcher, the meeting supplies a precise current setting and a single vote for a lower one. The text also supplies a reason why the uncertainty surrounding future settings could increase even when the current target is unchanged. It contains no asset prices with which to measure that uncertainty."
+  ],
+  "questions": [
+    {
+      "question": "Would an international shock transmit mainly through US prices or through weaker domestic demand?",
+      "detail": "Trace import and input prices, household purchasing power, orders and spending at consistent frequencies. A concentrated relative-price increase with stable underlying inflation would give a different signal from broad pass-through into prices and expectations. Establish when the information became available so later developments do not become an explanation for the March vote."
+    },
+    {
+      "question": "What would distinguish genuine labour-market resilience from a stable unemployment rate masking weaker hiring?",
+      "detail": "Compare flows into and out of employment, participation and the breadth of payroll gains. Check whether a small number of industries account for most of the change. A near-constant unemployment rate could reflect offsetting flows, and the statement gives no quantitative employment threshold for a policy response."
+    },
+    {
+      "question": "Did investors revise the expected level of short rates or the range of plausible outcomes?",
+      "detail": "Compare short-rate futures and the distribution inferred from options on consistent maturities immediately around the release. Control for overlapping international news, especially when examining a wider window. A shift in uncertainty without a comparable shift in the central expected path would be compatible with the Committee having flagged an unresolved risk."
+    }
+  ],
+  "limitation": ""
+}

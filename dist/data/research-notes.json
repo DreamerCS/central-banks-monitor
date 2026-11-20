@@ -4,76 +4,591 @@
     "bank": "European Central Bank",
     "date": "2026-11-20",
     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
+    "excerpt": "Christine Lagarde argues that the economic cost of delaying European integration can exceed the cost of investing before the need is obvious.",
     "file": "2026-11-20-104d1c291c.json"
+  },
+  {
+    "title": "October minutes reveal broad support for more tightening despite the hold",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-11-18",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+    "excerpt": "October's 10–2 hold at 3.75–4.00% understated the support for a higher policy rate.",
+    "file": "2026-11-18-5936858f1a.json",
+    "publication": {
+      "aliases": [
+        "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20261028.pdf",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+      ],
+      "jurisdiction": "United States",
+      "title": "Minutes of the Federal Open Market Committee · 2026-10-28 meeting",
+      "type": "Minutes"
+    }
   },
   {
     "title": "Why the Bank of England raised rates before wage pressure was conclusive",
     "bank": "Bank of England",
     "date": "2026-11-05",
     "url": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/november/monetary-policy-report-november-2026.pdf",
+    "excerpt": "The Bank raised Bank Rate to 4% because it judged that waiting for clear evidence of a wage and price response to the energy shock had become costly.",
     "file": "2026-11-05-bf9afb21c5.json"
+  },
+  {
+    "title": "All nine back tightening, with a split on the size of the first move",
+    "bank": "Bank of England",
+    "date": "2026-11-05",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026/",
+    "excerpt": "On 5 November the MPC published an 8–1 vote to raise Bank Rate from 3.75% to 4%.",
+    "file": "2026-11-05-ded2216b11.json"
+  },
+  {
+    "title": "Brazil pauses at 13.75% as inflation expectations rise despite sharper cyclical slowing",
+    "bank": "Banco Central do Brasil",
+    "date": "2026-11-04",
+    "url": "https://www.bcb.gov.br/controleinflacao/comunicadoscopom/21309",
+    "excerpt": "Brazil’s Copom held the Selic at 13.75% on 4 November.",
+    "file": "2026-11-04-a74dc165c5.json",
+    "publication": {
+      "jurisdiction": "Brazil",
+      "title": "BC - Copom Comunicado - 282ª Reunião - Copom mantém a taxa Selic em 13,75% a.a.",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Australia raises rates despite weakening housing as the inflation return slips into 2027",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-11-03",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
+    "excerpt": "On November 3 the Monetary Policy Board raised the cash rate target to 4.85%, a 25-basis-point increase supported by six members.",
+    "file": "2026-11-03-a6e32eb980.json"
+  },
+  {
+    "title": "Japan holds at 1.25% and more than doubles planned ETF sales",
+    "bank": "Bank of Japan",
+    "date": "2026-10-30",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf",
+    "excerpt": "The Bank of Japan made two decisions with different implementation dates on October 30.",
+    "file": "2026-10-30-0e819cf570.json"
+  },
+  {
+    "title": "Why another rise in energy prices did not trigger an October hike",
+    "bank": "European Central Bank",
+    "date": "2026-10-29",
+    "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+    "excerpt": "The ECB held the deposit rate at 2.50% on 29 October despite a further rise in energy prices.",
+    "file": "2026-10-29-1fb78f269e.json"
   },
   {
     "title": "Monetary policy statement and Q&A — Christine Lagarde and Boris Vujčić",
     "bank": "European Central Bank",
     "date": "2026-10-29",
     "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+    "excerpt": "A hold can preserve a tightening bias.",
     "file": "2026-10-29-27196b1f2b.json"
+  },
+  {
+    "title": "The Fed holds at 3.75–4.00% while two members seek a higher rate immediately",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-10-28",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "excerpt": "Ten members voted to keep the federal funds target at 3.75–4.00%.",
+    "file": "2026-10-28-a0c3e1be77.json"
+  },
+  {
+    "title": "Canada raises rates as firms signal that prolonged energy costs will reach customers",
+    "bank": "Bank of Canada",
+    "date": "2026-10-28",
+    "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/",
+    "excerpt": "The Bank of Canada raised its overnight rate 25 basis points to 2.50% on 28 October, setting the Bank Rate at 2.75% and the deposit rate at 2.45%.",
+    "file": "2026-10-28-df496099d2.json"
+  },
+  {
+    "title": "September minutes separate the case for a hike in the baseline from insurance against worse inflation",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-10-07",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
+    "excerpt": "The minutes published on 7 October document unanimous support at the 15–16 September meeting for raising the federal funds target by 25 basis points to 3.75–4.00%.",
+    "file": "2026-10-07-87c894987c.json",
+    "publication": {
+      "aliases": [
+        "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260916.pdf",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm"
+      ],
+      "jurisdiction": "United States",
+      "title": "Minutes of the Federal Open Market Committee · 2026-09-16 meeting",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "Australia resumes tightening as August’s inflation risks materialise",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-09-29",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
+    "excerpt": "The RBA raised its cash rate target by 25 basis points to 4.60% on September 29.",
+    "file": "2026-09-29-5a6a01fb3a.json"
   },
   {
     "title": "Switzerland holds at zero through a higher energy-inflation peak",
     "bank": "Swiss National Bank",
     "date": "2026-09-24",
     "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
+    "excerpt": "The Swiss National Bank kept its policy rate at 0% on 24 September.",
     "file": "2026-09-24-179fb98cdb.json"
+  },
+  {
+    "title": "Japan raises rates to 1.25% as producer costs begin reaching households",
+    "bank": "Bank of Japan",
+    "date": "2026-09-18",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf",
+    "excerpt": "The September 18 meeting raised the uncollateralized overnight call-rate guideline from about 1.0% to about 1.25%.",
+    "file": "2026-09-18-9e334c6656.json"
+  },
+  {
+    "title": "A 6–3 rate hold and a unanimous plan to unwind £368 billion of gilts",
+    "bank": "Bank of England",
+    "date": "2026-09-17",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+    "excerpt": "September produced two distinct decisions.",
+    "file": "2026-09-17-8c691a0ac9.json"
+  },
+  {
+    "title": "The FOMC raises rates a quarter point to bring inflation back to target sooner",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-09-16",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "excerpt": "The FOMC unanimously raised the federal funds target by 25 basis points to 3.75–4.00%.",
+    "file": "2026-09-16-da3bcbb85f.json"
+  },
+  {
+    "title": "Brazil eases to 13.75% as cyclical activity slows but services remain a risk",
+    "bank": "Banco Central do Brasil",
+    "date": "2026-09-16",
+    "url": "https://www.bcb.gov.br/controleinflacao/comunicadoscopom/21261",
+    "excerpt": "Copom reduced the Selic to 13.75% on 16 September with the support of all seven participants listed.",
+    "file": "2026-09-16-9601a47e90.json"
+  },
+  {
+    "title": "Why softer food prices and slower wages did not stop a September hike",
+    "bank": "European Central Bank",
+    "date": "2026-09-10",
+    "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+    "excerpt": "The 25-basis-point increase announced in Berlin on 10 September came despite lower-than-expected prices in some areas and little evidence that wages had responded to the energy shock.",
+    "file": "2026-09-10-8c58f97b29.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Monetary policy statement and press conference",
+      "type": "Press conference"
+    }
+  },
+  {
+    "title": "The second-year inflation forecast helps explain the September hike",
+    "bank": "European Central Bank",
+    "date": "2026-09-10",
+    "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+    "excerpt": "The ECB raised rates by 25 basis points on 10 September with its forecast of 2026 headline inflation unchanged from June.",
+    "file": "2026-09-10-e56d98dfaa.json"
+  },
+  {
+    "title": "Canada keeps rates steady as new tariffs put a broader recovery at risk",
+    "bank": "Bank of Canada",
+    "date": "2026-09-02",
+    "url": "https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/",
+    "excerpt": "The Bank of Canada left its overnight target at 2.25% on 2 September.",
+    "file": "2026-09-02-273c3da49d.json"
+  },
+  {
+    "title": "July minutes put a price on waiting as real yields rise before the Fed acts",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-08-19",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm",
+    "excerpt": "The 19 August release records a disagreement over whether waiting for more inflation data would reduce uncertainty or make eventual tightening more costly.",
+    "file": "2026-08-19-3a654fea6a.json",
+    "publication": {
+      "aliases": [
+        "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260729.pdf",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm"
+      ],
+      "jurisdiction": "United States",
+      "title": "Minutes of the Federal Open Market Committee · 2026-07-29 meeting",
+      "type": "Minutes"
+    }
   },
   {
     "title": "Norway holds at 4.25% as the inflation surprise tests the case for another rise",
     "bank": "Norges Bank",
     "date": "2026-08-13",
     "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/august-2026/",
+    "excerpt": "Norges Bank’s committee voted unanimously on 12 August to hold the policy rate at 4.25%.",
     "file": "2026-08-13-2000d3258e.json"
+  },
+  {
+    "title": "A second Australian pause weighs slower mortgage lending against persistent service costs",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-08-11",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-19.html",
+    "excerpt": "The Board unanimously held the cash rate target at 4.35% on August 11.",
+    "file": "2026-08-11-8ee3bcf653.json"
+  },
+  {
+    "title": "Brazil cuts to 14% despite an upside skew in inflation risks",
+    "bank": "Banco Central do Brasil",
+    "date": "2026-08-05",
+    "url": "https://www.bcb.gov.br/controleinflacao/comunicadoscopom/21215",
+    "excerpt": "Brazil’s monetary policy committee cut the Selic to 14.00% on 5 August.",
+    "file": "2026-08-05-69958d77d4.json"
+  },
+  {
+    "title": "A July pause follows Japan’s rate rise as AI demand enters the inflation outlook",
+    "bank": "Bank of Japan",
+    "date": "2026-07-31",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260731a.pdf",
+    "excerpt": "The Bank of Japan left the overnight call-rate guideline at around 1.0% on July 31, following the increase in June.",
+    "file": "2026-07-31-fa0e54d555.json"
+  },
+  {
+    "title": "A third vote for tightening while domestic inflation continues to ease",
+    "bank": "Bank of England",
+    "date": "2026-07-30",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026",
+    "excerpt": "The July MPC voted 6–3 to keep Bank Rate at 3.75%.",
+    "file": "2026-07-30-5032b8230b.json"
+  },
+  {
+    "title": "Three members seek an immediate hike while the majority holds at 3.50–3.75%",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-07-29",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+    "excerpt": "The FOMC held its federal funds target at 3.50–3.75% by nine votes to three.",
+    "file": "2026-07-29-e290aabba3.json"
+  },
+  {
+    "title": "Matching the June energy baseline was enough for the ECB to wait",
+    "bank": "European Central Bank",
+    "date": "2026-07-23",
+    "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html",
+    "excerpt": "The ECB held its deposit rate at 2.25% on 23 July.",
+    "file": "2026-07-23-ffdeff6bc1.json"
+  },
+  {
+    "title": "A ceasefire, a reversal and the ECB’s choice to wait",
+    "bank": "European Central Bank",
+    "date": "2026-07-23",
+    "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+    "excerpt": "The six weeks before the ECB’s 23 July meeting contained two distinct episodes.",
+    "file": "2026-07-23-b015d2206e.json"
+  },
+  {
+    "title": "Canada sees recovery broadening while gasoline explains most of the inflation overshoot",
+    "bank": "Bank of Canada",
+    "date": "2026-07-15",
+    "url": "https://www.bankofcanada.ca/2026/07/fad-press-release-2026-07-15/",
+    "excerpt": "Governing Council held the overnight rate at 2.25% on 15 July.",
+    "file": "2026-07-15-89fe5778ed.json"
   },
   {
     "title": "Monetary Policy at a Crossroads",
     "bank": "Federal Reserve",
     "date": "2026-07-13",
     "url": "https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm",
+    "excerpt": "Governor Christopher Waller saw two plausible paths for US monetary policy on 13 July.",
     "file": "2026-07-13-54abf9dfbf.json"
+  },
+  {
+    "title": "June minutes reveal opposite year-end rate paths beneath a unanimous hold",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-07-08",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm",
+    "excerpt": "All twelve voters at the 16–17 June meeting supported a 3.50–3.75% federal funds target.",
+    "file": "2026-07-08-68140c3276.json",
+    "publication": {
+      "aliases": [
+        "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260617.pdf",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm"
+      ],
+      "jurisdiction": "United States",
+      "title": "Minutes of the Federal Open Market Committee · 2026-06-17 meeting",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "A 7–2 hold as mortgage rates tighten and inflation undershoots the April forecast",
+    "bank": "Bank of England",
+    "date": "2026-06-18",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026",
+    "excerpt": "The June decision left Bank Rate at 3.75%.",
+    "file": "2026-06-18-96cc4daade.json"
+  },
+  {
+    "title": "Brazil weighs the cost of reaching the inflation target one quarter earlier",
+    "bank": "Banco Central do Brasil",
+    "date": "2026-06-17",
+    "url": "https://www.bcb.gov.br/controleinflacao/comunicadoscopom/21165",
+    "excerpt": "The central question at Copom’s June meeting was unusually precise.",
+    "file": "2026-06-17-9446dbe207.json"
+  },
+  {
+    "title": "A unanimous hold links stable unemployment to the pace of workforce growth",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-06-17",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+    "excerpt": "All twelve members approved a 3.50–3.75% federal funds target.",
+    "file": "2026-06-17-94826fcab8.json"
   },
   {
     "title": "Why the Bank of Japan raised rates with inflation below 2%",
     "bank": "Bank of Japan",
     "date": "2026-06-16",
     "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf",
+    "excerpt": "The Bank of Japan raised its overnight call-rate guideline to around 1.0% on 16 June.",
     "file": "2026-06-16-07d5a065cc.json"
+  },
+  {
+    "title": "Japan’s JGB plan separates slower purchases from the run-off of holdings",
+    "bank": "Bank of Japan",
+    "date": "2026-06-16",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616b.pdf",
+    "excerpt": "The Bank of Japan’s June 16 bond decision sets a timetable for reducing its role as a regular buyer while retaining discretion to intervene in disorderly conditions.",
+    "file": "2026-06-16-c705f3576d.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Plan for the Outright Purchases of Japanese Government Bonds [PDF 109KB]",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Australia pauses as mortgage-sensitive demand responds to three rate rises",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-06-16",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-15.html",
+    "excerpt": "The Australian Monetary Policy Board unanimously held the cash rate target at 4.35% on June 16.",
+    "file": "2026-06-16-b5629ae125.json"
+  },
+  {
+    "title": "Why the ECB raised rates into a weaker growth forecast",
+    "bank": "European Central Bank",
+    "date": "2026-06-11",
+    "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html",
+    "excerpt": "The ECB raised each of its three rates by 25 basis points on 11 June even as Eurosystem staff cut their growth outlook for 2026 and 2027.",
+    "file": "2026-06-11-e0f9d7ed75.json"
+  },
+  {
+    "title": "The June hike rested on cost pass-through already under way",
+    "bank": "European Central Bank",
+    "date": "2026-06-11",
+    "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
+    "excerpt": "When the ECB raised rates by 25 basis points on 11 June, the Council reached its decision unanimously without debating an alternative proposal.",
+    "file": "2026-06-11-92af6e58d5.json"
+  },
+  {
+    "title": "Canada looks through energy inflation as core prices and demand stay subdued",
+    "bank": "Bank of Canada",
+    "date": "2026-06-10",
+    "url": "https://www.bankofcanada.ca/2026/06/fad-press-release-2026-06-10/",
+    "excerpt": "The Bank of Canada held the overnight rate at 2.25% on 10 June, with the Bank Rate at 2.50% and the deposit rate at 2.20%.",
+    "file": "2026-06-10-6a7f206b14.json"
   },
   {
     "title": "The Opportunities and Risks AI Presents for the Economy and Financial System",
     "bank": "Federal Reserve",
     "date": "2026-05-27",
     "url": "https://www.federalreserve.gov/newsevents/speech/cook20260527a.htm",
+    "excerpt": "Governor Lisa Cook favoured holding rates steady on 27 May while judging the risks to be tilted towards higher inflation.",
     "file": "2026-05-27-e55b495ef9.json"
+  },
+  {
+    "title": "April minutes show support for two-sided guidance extended well beyond three formal dissents",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-05-20",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260429.htm",
+    "excerpt": "The 28–29 April meeting produced three different answers to the question of how divided the Fed was.",
+    "file": "2026-05-20-feb4037215.json",
+    "publication": {
+      "aliases": [
+        "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260429.pdf",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm"
+      ],
+      "jurisdiction": "United States",
+      "title": "Minutes of the Federal Open Market Committee · 2026-04-29 meeting",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "Australia’s third increase follows signs that firms are passing on fuel costs",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-05-05",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-12.html",
+    "excerpt": "The RBA raised its cash rate target by 25 basis points to 4.35% on May 5, its third increase in 2026.",
+    "file": "2026-05-05-a3b9392351.json"
+  },
+  {
+    "title": "The hike the ECB debated but did not deliver in April",
+    "bank": "European Central Bank",
+    "date": "2026-04-30",
+    "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260430~f99cb123a8.en.html",
+    "excerpt": "The April hold was unanimous, but it followed an extensive discussion of a rate increase.",
+    "file": "2026-04-30-49abd1eac5.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Monetary policy statement and press conference",
+      "type": "Press conference"
+    }
+  },
+  {
+    "title": "Short-term inflation expectations rise while the ECB holds its longer horizon",
+    "bank": "European Central Bank",
+    "date": "2026-04-30",
+    "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260430~81b7179e6f.en.html",
+    "excerpt": "The ECB left all three policy rates unchanged on 30 April.",
+    "file": "2026-04-30-61ae3947c7.json"
+  },
+  {
+    "title": "An 8–1 hold as energy prices rise ahead of the next wage round",
+    "bank": "Bank of England",
+    "date": "2026-04-30",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/april-2026",
+    "excerpt": "The Monetary Policy Committee held Bank Rate at 3.75% in April.",
+    "file": "2026-04-30-8534750f25.json"
+  },
+  {
+    "title": "Four dissents conceal broad agreement about the April rate and a sharper split over guidance",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-04-29",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+    "excerpt": "Eight members approved the FOMC's full statement and four dissented.",
+    "file": "2026-04-29-cd22c1d43e.json"
+  },
+  {
+    "title": "Brazil cuts to 14.50% while testing how far oil costs reach into expectations",
+    "bank": "Banco Central do Brasil",
+    "date": "2026-04-29",
+    "url": "https://www.bcb.gov.br/controleinflacao/comunicadoscopom/21107",
+    "excerpt": "Brazil’s Copom reduced the Selic to 14.50% on 29 April.",
+    "file": "2026-04-29-b3a6b3cb62.json"
   },
   {
     "title": "Bank of Canada maintains policy rate at 2¼%",
     "bank": "Bank of Canada",
     "date": "2026-04-29",
     "url": "https://www.bankofcanada.ca/2026/04/fad-press-release-2026-04-29/",
+    "excerpt": "The Bank of Canada held its overnight target at 2.25% on 29 April because it expected the oil-price shock to lift near-term inflation while leaving enough spare capacity in the economy to contain the pressure over time.",
     "file": "2026-04-29-4ca8f575f8.json"
+  },
+  {
+    "title": "Three members seek a rate rise as oil cuts Japan’s growth outlook",
+    "bank": "Bank of Japan",
+    "date": "2026-04-28",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260428a.pdf",
+    "excerpt": "The Bank of Japan kept the overnight call-rate guideline near 0.75% on April 28.",
+    "file": "2026-04-28-61c6962bee.json"
+  },
+  {
+    "title": "March minutes trace how one oil shock could produce either a rate cut or a hike",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-04-08",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260318.htm",
+    "excerpt": "The record published on 8 April covers the 17–18 March meeting, when the Committee held at 3.50–3.75% with Stephen Miran favouring a quarter-point cut.",
+    "file": "2026-04-08-071f339846.json",
+    "publication": {
+      "aliases": [
+        "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260318.pdf",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm"
+      ],
+      "jurisdiction": "United States",
+      "title": "Minutes of the Federal Open Market Committee · 2026-03-18 meeting",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "Japan holds at 0.75% as oil threatens to reverse the fall in inflation",
+    "bank": "Bank of Japan",
+    "date": "2026-03-19",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2026/k260319a.htm",
+    "excerpt": "The March 19 decision left the uncollateralized overnight call rate at about 0.75%.",
+    "file": "2026-03-19-4fd68b3bec.json"
+  },
+  {
+    "title": "How to read an ECB energy scenario with no extra policy response",
+    "bank": "European Central Bank",
+    "date": "2026-03-19",
+    "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260319~93b1cbad97.en.html",
+    "excerpt": "The most consequential qualification in the 19 March press conference came in its final answer.",
+    "file": "2026-03-19-2aaa6d8a85.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Monetary policy statement and press conference",
+      "type": "Press conference"
+    }
+  },
+  {
+    "title": "An energy shock shifts the inflation and growth risks in opposite directions",
+    "bank": "European Central Bank",
+    "date": "2026-03-19",
+    "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260319~3057739775.en.html",
+    "excerpt": "On 19 March the ECB kept the deposit rate at 2.00% as the Middle East war pushed its inflation and growth assessments in opposite directions.",
+    "file": "2026-03-19-833969599e.json"
   },
   {
     "title": "A unanimous UK hold masks two very different paths for rates",
     "bank": "Bank of England",
     "date": "2026-03-19",
     "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/march-2026",
+    "excerpt": "The MPC unanimously held Bank Rate at 3.75% after disruption to Middle Eastern energy supply changed its near-term inflation outlook.",
     "file": "2026-03-19-f74eb8c93a.json"
+  },
+  {
+    "title": "The Fed holds as uncertainty about the Middle East complicates both sides of its mandate",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-03-18",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+    "excerpt": "The FOMC maintained the federal funds target at 3.50–3.75%.",
+    "file": "2026-03-18-459ed78faf.json"
+  },
+  {
+    "title": "Canada holds as an energy shock interrupts disinflation and weakens the growth outlook",
+    "bank": "Bank of Canada",
+    "date": "2026-03-18",
+    "url": "https://www.bankofcanada.ca/2026/03/fad-press-release-2026-03-18/",
+    "excerpt": "The Bank of Canada held its overnight target at 2.25% on 18 March, with a 2.50% Bank Rate and a 2.20% deposit rate.",
+    "file": "2026-03-18-dd8dcd0b3c.json"
+  },
+  {
+    "title": "Brazil starts easing despite greater uncertainty around the inflation forecast",
+    "bank": "Banco Central do Brasil",
+    "date": "2026-03-18",
+    "url": "https://www.bcb.gov.br/controleinflacao/comunicadoscopom/21055",
+    "excerpt": "The Brazilian monetary policy committee cut the Selic to 14.75% on 18 March.",
+    "file": "2026-03-18-4b94ddf252.json"
+  },
+  {
+    "title": "A five-to-four majority tightens as fuel prices add to domestic pressure",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-03-17",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-08.html",
+    "excerpt": "On March 17 five Australian Monetary Policy Board members voted for a 25-basis-point rise to 4.10% and four voted to stay at 3.85%.",
+    "file": "2026-03-17-9d107af9b9.json"
+  },
+  {
+    "title": "January minutes expose a disagreement about how restrictive policy already was",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-02-18",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260128.htm",
+    "excerpt": "The minutes released on 18 February explain the 27–28 January decision to hold at 3.50–3.75%.",
+    "file": "2026-02-18-3917a61d9e.json",
+    "publication": {
+      "aliases": [
+        "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260128.pdf",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260218a.htm"
+      ],
+      "jurisdiction": "United States",
+      "title": "Minutes of the Federal Open Market Committee · 2026-01-28 meeting",
+      "type": "Minutes"
+    }
   },
   {
     "title": "Canada's January deliberations explain why Council kept both policy directions open",
     "bank": "Bank of Canada",
     "date": "2026-02-11",
     "url": "https://www.bankofcanada.ca/2026/02/summary-governing-council-deliberations-fixed-announcement-date-of-january-28-2026/",
+    "excerpt": "The record of discussions leading to the Bank of Canada's 28 January decision explains how Governing Council could view 2.25% as stimulative relative to its estimated neutral range and still choose to wait.",
     "file": "2026-02-11-da65680815.json"
   },
   {
@@ -81,13 +596,23 @@
     "bank": "Czech National Bank",
     "date": "2026-02-06",
     "url": "https://www.cnb.cz/en/about_cnb/cnblog/The-CNB-left-interest-rates-unchanged-inflation-will-be-below-2-this-year-and-very-close-to-the-target-next-year/",
+    "excerpt": "The Czech National Bank’s 6 February explanation of its winter forecast brings together two outcomes that normally pull a rates view in opposite directions.",
     "file": "2026-02-06-ae79637c4a.json"
+  },
+  {
+    "title": "Why the ECB could wait while earlier rate cuts worked through the economy",
+    "bank": "European Central Bank",
+    "date": "2026-02-05",
+    "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260205~001d26959b.en.html",
+    "excerpt": "The ECB held its deposit rate at 2.00% on 5 February.",
+    "file": "2026-02-05-341115e91b.json"
   },
   {
     "title": "Mexico pauses at 7% as core inflation shifts the convergence date",
     "bank": "Banco de México",
     "date": "2026-02-05",
     "url": "https://www.banxico.org.mx/publicaciones-y-prensa/anuncios-de-las-decisiones-de-politica-monetaria/%7B318D71D0-F37D-869C-E8B4-8E58FD9D3648%7D.pdf",
+    "excerpt": "Banco de México unanimously interrupted its rate-cutting cycle on 5 February, keeping the overnight target at 7.00%.",
     "file": "2026-02-05-ed93ef9000.json"
   },
   {
@@ -95,6 +620,7 @@
     "bank": "Banco de la República",
     "date": "2026-02-05",
     "url": "https://www.banrep.gov.co/en/news/board-directors/minutes-january-2026",
+    "excerpt": "Four Colombian directors voted for a 100 basis point increase to 10.25% at the January meeting, two wanted to cut by 50 basis points and one preferred to hold.",
     "file": "2026-02-05-4847141160.json"
   },
   {
@@ -102,20 +628,44 @@
     "bank": "Bank of England",
     "date": "2026-02-05",
     "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/february-2026",
+    "excerpt": "The Monetary Policy Committee kept Bank Rate at 3.75% by five votes to four.",
     "file": "2026-02-05-0cd50138b0.json"
+  },
+  {
+    "title": "A 1.7% inflation print was consistent with an unchanged ECB outlook",
+    "bank": "European Central Bank",
+    "date": "2026-02-05",
+    "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260205~50858cb986.en.html",
+    "excerpt": "January inflation was 1.7%, yet Christine Lagarde described the Council’s 5 February decision to leave rates unchanged as unanimous.",
+    "file": "2026-02-05-d03db1f7c1.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Monetary policy statement and press conference",
+      "type": "Press conference"
+    }
   },
   {
     "title": "Brazil sets out why the first cut can precede the end of restrictive policy",
     "bank": "Banco Central do Brasil",
     "date": "2026-02-03",
     "url": "https://www.bcb.gov.br/publicacoes/atascopom/28012026",
+    "excerpt": "The minutes of Copom’s 27–28 January meeting, released on 3 February, explain how Brazil’s central bank could leave the Selic at 15.00% and envisage starting to cut at its next meeting.",
     "file": "2026-02-03-d4baa0adaf.json"
+  },
+  {
+    "title": "Australia raises rates as private demand outruns the economy’s capacity",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-02-03",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-03.html",
+    "excerpt": "The Reserve Bank of Australia raised the cash rate target by 25 basis points to 3.85% on February 3.",
+    "file": "2026-02-03-7c153c6119.json"
   },
   {
     "title": "Valencia’s floods show why a GDP rebound can coexist with lasting losses",
     "bank": "Banco de España",
     "date": "2026-01-29",
     "url": "https://www.bis.org/review/r260218i.htm",
+    "excerpt": "Soledad Núñez estimates that the October 2024 flash floods reduced Spanish GDP growth in the fourth quarter of that year by only 0.1–0.2 percentage points.",
     "file": "2026-01-29-588800f4d0.json"
   },
   {
@@ -123,13 +673,23 @@
     "bank": "Banca d’Italia",
     "date": "2026-01-29",
     "url": "https://www.bis.org/review/r260218e.htm",
+    "excerpt": "Paolo Angelini argues that international central-bank cooperation retains economic value even when governments disagree on broader policy.",
     "file": "2026-01-29-363e2977f9.json"
+  },
+  {
+    "title": "Ten members back a hold as weak hiring coexists with steadier unemployment",
+    "bank": "Federal Open Market Committee",
+    "date": "2026-01-28",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
+    "excerpt": "The FOMC kept the federal funds target at 3.50–3.75%.",
+    "file": "2026-01-28-4127eba48a.json"
   },
   {
     "title": "Elderson on faster supervision and the risks that still require bank-level scrutiny",
     "bank": "European Central Bank",
     "date": "2026-01-28",
     "url": "https://www.bis.org/review/r260218g.htm",
+    "excerpt": "Frank Elderson wants to shorten supervisory processes while concentrating more attention on the risks most likely to interrupt banking services or impair bank balance sheets.",
     "file": "2026-01-28-cf0ece7a4d.json"
   },
   {
@@ -137,6 +697,7 @@
     "bank": "Bank of Canada",
     "date": "2026-01-28",
     "url": "https://www.bankofcanada.ca/2026/01/fad-press-release-2026-01-28/",
+    "excerpt": "The Bank of Canada left its overnight rate target at 2.25% on 28 January, alongside a Bank Rate of 2.5% and a deposit rate of 2.20%.",
     "file": "2026-01-28-1d22c51a5a.json"
   },
   {
@@ -144,6 +705,7 @@
     "bank": "Bank of Canada",
     "date": "2026-01-28",
     "url": "https://www.bankofcanada.ca/2026/01/opening-statement-2026-01-28/",
+    "excerpt": "Governor Tiff Macklem explained the Governing Council’s decision to keep the policy rate at 2.25% as a judgement about an economy undergoing structural adjustment.",
     "file": "2026-01-28-7641d20da6.json"
   },
   {
@@ -151,6 +713,7 @@
     "bank": "Banco Central do Brasil",
     "date": "2026-01-28",
     "url": "https://www.bcb.gov.br/controleinflacao/comunicadoscopom/21008",
+    "excerpt": "Brazil’s monetary policy committee kept the Selic at 15.00% per year on 28 January.",
     "file": "2026-01-28-709e1aabb7.json"
   },
   {
@@ -158,6 +721,7 @@
     "bank": "European Central Bank",
     "date": "2026-01-27",
     "url": "https://www.ecb.europa.eu/press/research-publications/resbull/2026/html/ecb.rb260127~200fea7da0.en.html",
+    "excerpt": "Mishel Ghassibe and Anton Nakov argue that the speed and breadth of post-pandemic euro area inflation are easier to explain when firms buy inputs from one another and choose when to reset prices.",
     "file": "2026-01-27-e4c27e987b.json"
   },
   {
@@ -165,6 +729,7 @@
     "bank": "Magyar Nemzeti Bank",
     "date": "2026-01-27",
     "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-27-january-2026",
+    "excerpt": "Hungary’s Monetary Council held the base rate at 6.50% on 27 January.",
     "file": "2026-01-27-a8cba7abe5.json"
   },
   {
@@ -172,13 +737,23 @@
     "bank": "Bank of England",
     "date": "2026-01-23",
     "url": "https://www.bankofengland.co.uk/bank-insights/2026/what-were-the-drivers-of-uk-long-term-interest-rates-in-2025",
+    "excerpt": "The small net change in long gilt yields over 2025 conceals a marked change in who was willing to take duration risk and at what price.",
     "file": "2026-01-23-824609699f.json"
+  },
+  {
+    "title": "A January hold leaves Japan’s next rate rise dependent on wages",
+    "bank": "Bank of Japan",
+    "date": "2026-01-23",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2026/k260123a.htm",
+    "excerpt": "The Bank of Japan voted 8–1 on January 23 to keep the uncollateralized overnight call rate near 0.75%.",
+    "file": "2026-01-23-deb4a41073.json"
   },
   {
     "title": "Canadian firms see a floor under sales, with little appetite to expand payrolls",
     "bank": "Bank of Canada",
     "date": "2026-01-19",
     "url": "https://www.bankofcanada.ca/2026/01/business-outlook-survey-fourth-quarter-of-2025/",
+    "excerpt": "Canadian firms entered 2026 expecting a modest improvement in sales after a weak year, but their hiring and investment plans gave little indication of a broad expansion.",
     "file": "2026-01-19-8a59386c30.json"
   },
   {
@@ -186,6 +761,7 @@
     "bank": "Bank of Korea",
     "date": "2026-01-15",
     "url": "https://www.bok.or.kr/eng/bbs/E0000627/view.do?nttId=10095712&menuNo=400022",
+    "excerpt": "The Bank of Korea’s Monetary Policy Board unanimously retained the 2.50% Base Rate on 15 January.",
     "file": "2026-01-15-bb95d8c599.json"
   },
   {
@@ -193,6 +769,7 @@
     "bank": "Bank of England",
     "date": "2026-01-14",
     "url": "https://www.bis.org/review/r260217p.htm",
+    "excerpt": "Deputy Governor Dave Ramsden argues that the UK can calibrate capital requirements more proportionately because it has a credible way to deal with bank failure.",
     "file": "2026-01-14-8ec998762d.json"
   },
   {
@@ -200,6 +777,7 @@
     "bank": "European Central Bank",
     "date": "2026-01-14",
     "url": "https://www.bis.org/review/r260218c.htm",
+    "excerpt": "Luis de Guindos judged euro area inflation broadly on course to stabilise at 2% over the medium term.",
     "file": "2026-01-14-abc4ec054a.json"
   },
   {
@@ -207,6 +785,7 @@
     "bank": "Bank Negara Malaysia",
     "date": "2026-01-13",
     "url": "https://www.bnm.gov.my/-/dgaz-spch-wb-isdb-rpt",
+    "excerpt": "Bank Negara Malaysia Deputy Governor Adnan Zaylani argued that Islamic finance could fund a greater share of climate investment if institutions could redistribute the risks that deter private capital at the outset.",
     "file": "2026-01-13-2a50735596.json"
   },
   {
@@ -214,6 +793,7 @@
     "bank": "Board of Governors of the Federal Reserve System",
     "date": "2026-01-11",
     "url": "https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm",
+    "excerpt": "In a statement scheduled for 7:30 p.m. Eastern on Sunday, 11 January, Chair Jerome Powell said the Department of Justice had served the Federal Reserve with grand jury subpoenas the preceding Friday.",
     "file": "2026-01-11-d8e0355fa5.json"
   },
   {
@@ -221,6 +801,7 @@
     "bank": "Federal Reserve Bank of Dallas",
     "date": "2026-01-09",
     "url": "https://www.dallasfed.org/research/forecast/2026/emp260109",
+    "excerpt": "The Dallas Fed's 9 January estimate put Texas payroll growth close to zero over 2025.",
     "file": "2026-01-09-95cb0f073c.json"
   },
   {
@@ -228,6 +809,7 @@
     "bank": "Reserve Bank of India",
     "date": "2026-01-09",
     "url": "https://www.bis.org/review/r260218b.htm",
+    "excerpt": "Deputy Governor Shirish Chandra Murmu argued that rapid digital adoption gives the RBI earlier sight of some risks while shortening the time in which it can respond.",
     "file": "2026-01-09-3b4d2e9309.json"
   },
   {
@@ -235,6 +817,7 @@
     "bank": "European Central Bank",
     "date": "2026-01-09",
     "url": "https://www.bis.org/review/r260217o.htm",
+    "excerpt": "Philip Lane sees room for a larger international role for the euro while expecting the dollar to remain the dominant international currency.",
     "file": "2026-01-09-eb1061c12c.json"
   },
   {
@@ -242,6 +825,7 @@
     "bank": "Bank of England",
     "date": "2026-01-09",
     "url": "https://www.bankofengland.co.uk/bank-insights/2026/planning-to-fail-what-resolution-is-and-why-it-matters",
+    "excerpt": "Ruth Smith, the Bank of England's Executive Director for Resolution, argues that preserving a failing bank's critical functions requires more than a stock of loss-absorbing debt.",
     "file": "2026-01-09-bcaa278829.json"
   },
   {
@@ -249,6 +833,7 @@
     "bank": "Banque de France",
     "date": "2026-01-09",
     "url": "https://www.bis.org/review/r260218o.htm",
+    "excerpt": "Denis Beau supports the European Commission’s proposed revision of securitisation rules because he thinks well-designed transactions can expand lending capacity and connect bank balance sheets to capital-market investors.",
     "file": "2026-01-09-442050e401.json"
   },
   {
@@ -256,6 +841,7 @@
     "bank": "Reserve Bank of India",
     "date": "2026-01-09",
     "url": "https://www.bis.org/review/r260218a.htm",
+    "excerpt": "A bank can meet its capital and liquidity requirements while remaining exposed to a disruption that reaches customers within hours.",
     "file": "2026-01-09-d09c98ac23.json"
   },
   {
@@ -263,6 +849,7 @@
     "bank": "Banco Central de Reserva del Perú",
     "date": "2026-01-08",
     "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-01-08.pdf",
+    "excerpt": "On 8 January Peru’s central bank held its reference rate at 4.25%.",
     "file": "2026-01-08-b49710ce44.json"
   },
   {
@@ -270,6 +857,7 @@
     "bank": "Reserve Bank of Australia",
     "date": "2026-01-08",
     "url": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-01-08.html",
+    "excerpt": "Deputy Governor Andrew Hauser considered a further near-term rate cut unlikely on the information available on 8 January.",
     "file": "2026-01-08-2991da4be8.json"
   },
   {
@@ -277,6 +865,7 @@
     "bank": "Federal Reserve Bank of New York",
     "date": "2026-01-08",
     "url": "https://libertystreeteconomics.newyorkfed.org/2026/01/measuring-labor-market-tightness-data-update-and-new-web-feature/",
+    "excerpt": "The Heise–Pearce–Weber indicator placed US labour-market pressure on wages very close to its historical average in November 2025.",
     "file": "2026-01-08-8e92b972fc.json"
   },
   {
@@ -284,6 +873,7 @@
     "bank": "Federal Reserve Bank of New York",
     "date": "2026-01-07",
     "url": "https://libertystreeteconomics.newyorkfed.org/2026/01/what-can-undermine-a-carbon-tax/",
+    "excerpt": "A domestic carbon price can reduce the emissions attributed to European production while preserving demand for the underlying carbon-intensive inputs.",
     "file": "2026-01-07-5d0fdc173f.json"
   },
   {
@@ -291,6 +881,7 @@
     "bank": "Federal Reserve Bank of New York",
     "date": "2026-01-07",
     "url": "https://libertystreeteconomics.newyorkfed.org/2026/01/what-is-a-carbon-tariff-and-why-is-the-eu-imposing-one/",
+    "excerpt": "A border charge on carbon-intensive imports makes the EU's domestic carbon price more effective in the authors' simulation, but also raises the cost of manufactured goods faced by French households.",
     "file": "2026-01-07-b492783bd5.json"
   },
   {
@@ -298,6 +889,7 @@
     "bank": "Board of Governors of the Federal Reserve System",
     "date": "2026-01-07",
     "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260107a.htm",
+    "excerpt": "Vice Chair for Supervision Michelle Bowman described two distinct ways regulation could affect markets.",
     "file": "2026-01-07-3c3070a9f0.json"
   },
   {
@@ -305,6 +897,7 @@
     "bank": "Federal Reserve Bank of New York",
     "date": "2026-01-05",
     "url": "https://libertystreeteconomics.newyorkfed.org/2026/01/which-entrepreneurs-boost-productivity/",
+    "excerpt": "The number of firms being founded is a poor guide to the supply of innovation in the Danish evidence assembled by Akcigit, Alp, Pearce and Prato.",
     "file": "2026-01-05-ba31a8dd75.json"
   },
   {
@@ -312,6 +905,7 @@
     "bank": "Bank of Korea",
     "date": "2026-01-02",
     "url": "https://www.bok.or.kr/eng/bbs/E0002382/view.do?nttId=10095507&menuNo=400074",
+    "excerpt": "Governor Chang Yong Rhee entered 2026 expecting Korean growth to return close to its potential rate and inflation to stay near target.",
     "file": "2026-01-02-a89182130b.json"
   },
   {
@@ -319,132 +913,350 @@
     "bank": "People’s Bank of China",
     "date": "2024-06-19",
     "url": "https://www.bis.org/review/r240621c.htm",
-    "file": "2024-06-19-f37e7952e2.json"
+    "excerpt": "Speaking in Shanghai on 19 June 2024, PBoC Governor Pan Gongsheng described two developments that could look contradictory in market data.",
+    "file": "2024-06-19-f37e7952e2.json",
+    "publication": {
+      "jurisdiction": "China",
+      "title": "China's current monetary policy stance and evolution of monetary policy framework in the future",
+      "type": "Speech"
+    }
   },
   {
     "title": "Japan exits negative rates while retaining a buyer for government bonds",
     "bank": "Bank of Japan",
     "date": "2024-03-19",
     "url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2024/k240319a.htm",
-    "file": "2024-03-19-3dc2330d53.json"
+    "excerpt": "On 19 March 2024 the Bank of Japan put the overnight call rate back at the centre of monetary policy.",
+    "file": "2024-03-19-3dc2330d53.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Changes in the Monetary Policy Framework",
+      "type": "Decision"
+    }
   },
   {
     "title": "The Bank of England buys long gilts while keeping the inflation decision open",
     "bank": "Bank of England",
     "date": "2022-09-28",
     "url": "https://www.bankofengland.co.uk/news/2022/september/bank-of-england-announces-gilt-market-operation",
-    "file": "2022-09-28-860008bf2f.json"
+    "excerpt": "The Bank of England announced on 28 September 2022 that it would buy long-dated UK government bonds to restore orderly trading.",
+    "file": "2022-09-28-860008bf2f.json",
+    "publication": {
+      "jurisdiction": "United Kingdom",
+      "title": "Bank of England announces gilt market operation",
+      "type": "Release"
+    }
   },
   {
     "title": "The Fed makes asset purchases depend on market functioning at the effective lower bound",
     "bank": "Federal Open Market Committee",
     "date": "2020-03-23",
     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323a.htm",
-    "file": "2020-03-23-2d11bbd51c.json"
+    "excerpt": "At 8 a.m. Eastern on 23 March, the Federal Open Market Committee directed the New York Fed to buy Treasury securities and agency mortgage-backed securities in quantities determined by how much support those markets needed.",
+    "file": "2020-03-23-2d11bbd51c.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement",
+      "type": "Decision"
+    }
   },
   {
     "title": "Japan puts a price on ten-year money and a condition on the exit",
     "bank": "Bank of Japan",
     "date": "2016-09-21",
     "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2016/k160921a.pdf",
-    "file": "2016-09-21-7007ea953c.json"
+    "excerpt": "On 21 September 2016 the Bank of Japan gave two signals to different parts of the market.",
+    "file": "2016-09-21-7007ea953c.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "New Framework for Strengthening Monetary Easing: \"Quantitative and Qualitative Monetary Easing with Yield Curve Control\"",
+      "type": "Decision"
+    }
   },
   {
     "title": "The ECB puts a monthly price on the fight against falling inflation expectations",
     "bank": "European Central Bank",
     "date": "2015-01-22",
     "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2015/html/is150122.en.html",
-    "file": "2015-01-22-3bf8300f34.json"
+    "excerpt": "A decline in expected inflation can tighten policy even while the central bank holds its nominal rate at the lower bound.",
+    "file": "2015-01-22-3bf8300f34.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Mario Draghi: Introductory statement to the press conference (with Q&A)",
+      "type": "Press conference"
+    }
   },
   {
     "title": "The Fed waits for a recovery that can withstand higher mortgage rates",
     "bank": "Federal Reserve",
     "date": "2013-09-18",
     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20130918a.htm",
-    "file": "2013-09-18-f5f0de2b55.json"
+    "excerpt": "On 18 September the Federal Open Market Committee kept monthly purchases of agency mortgage-backed securities at $40 billion and longer-term Treasuries at $45 billion.",
+    "file": "2013-09-18-f5f0de2b55.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement",
+      "type": "Decision"
+    }
   },
   {
     "title": "Bernanke sets different tests for slowing purchases and raising rates",
     "bank": "Federal Reserve",
     "date": "2013-05-22",
     "url": "https://www.federalreserve.gov/newsevents/testimony/bernanke20130522a.htm",
-    "file": "2013-05-22-0774a2364b.json"
+    "excerpt": "A payroll gain could bring the Federal Reserve closer to buying fewer bonds while leaving the case for a rate increase little changed.",
+    "file": "2013-05-22-0774a2364b.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "The Economic Outlook",
+      "type": "Testimony"
+    }
   },
   {
     "title": "What could the ECB remove from a sovereign spread?",
     "bank": "European Central Bank",
     "date": "2012-09-06",
     "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2012/html/is120906.en.html",
-    "file": "2012-09-06-3929e40349.json"
+    "excerpt": "On 6 September the ECB offered to buy short-dated government bonds in circumstances where fear of a euro exit was disrupting lending across the currency union.",
+    "file": "2012-09-06-3929e40349.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Introductory statement to the press conference (with Q&A)",
+      "type": "Press conference"
+    }
   },
   {
     "title": "The Fed targets mortgage spreads with up to $600 billion of agency purchases",
     "bank": "Board of Governors of the Federal Reserve System",
     "date": "2008-11-25",
     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081125b.htm",
-    "file": "2008-11-25-3b8eb07a0a.json"
+    "excerpt": "At 8:15 a.m. Eastern on 25 November, the Federal Reserve announced a programme aimed at lowering the cost of credit for buying a home and making that credit easier to obtain.",
+    "file": "2008-11-25-3b8eb07a0a.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "Purchases of agency debt and agency mortgage-backed securities",
+      "type": "Release"
+    }
   },
   {
     "title": "When money markets stop trading: Carney on credit supply and the need for further easing",
     "bank": "Bank of Canada",
     "date": "2008-11-19",
     "url": "https://www.bankofcanada.ca/2008/11/building-continuous-markets/",
-    "file": "2008-11-19-f47b6c6ba1.json"
+    "excerpt": "In London on 19 November 2008, Governor Mark Carney put two seemingly inconsistent observations together.",
+    "file": "2008-11-19-f47b6c6ba1.json",
+    "publication": {
+      "jurisdiction": "Canada",
+      "title": "Building Continuous Markets",
+      "type": "Speech"
+    }
   },
   {
     "title": "China changes how the renminbi can move from one trading day to the next",
     "bank": "People’s Bank of China",
     "date": "2005-07-21",
     "url": "https://www.safe.gov.cn/safe/2005/0721/24199.html",
-    "file": "2005-07-21-b0b930454b.json"
+    "excerpt": "The People’s Bank of China made two decisions on 21 July 2005.",
+    "file": "2005-07-21-b0b930454b.json",
+    "publication": {
+      "jurisdiction": "China",
+      "title": "中国人民银行关于完善人民币汇率形成机制改革的公告",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Economic weakness becomes the dominant risk while the funds target remains at 6.50%",
+    "bank": "Federal Open Market Committee",
+    "date": "2000-12-19",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20001219/",
+    "excerpt": "The December FOMC left its federal funds target at 6.50% and judged economic weakness the more important risk in the foreseeable future.",
+    "file": "2000-12-19-173f8dcf78.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Fed keeps its inflation-risk tilt even as demand and financial conditions weaken",
+    "bank": "Federal Open Market Committee",
+    "date": "2000-11-15",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20001115/",
+    "excerpt": "The November FOMC held the funds-rate target at 6.50%.",
+    "file": "2000-11-15-cfbe861012.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Stable inflation expectations are the hinge in the October decision to hold at 6.50%",
+    "bank": "Federal Open Market Committee",
+    "date": "2000-10-03",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20001003/",
+    "excerpt": "The FOMC held the federal funds target at 6.50%, judging that demand growth had moderated towards the higher growth rate of productive capacity.",
+    "file": "2000-10-03-23e1467769.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Higher potential growth gives the Fed room to wait even with scarce workers",
+    "bank": "Federal Open Market Committee",
+    "date": "2000-08-22",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20000822/",
+    "excerpt": "The FOMC kept its federal funds target at 6.50%.",
+    "file": "2000-08-22-d04b948cbb.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Tentative demand moderation lets the Fed hold at 6.50% despite unusually tight labour resources",
+    "bank": "Federal Open Market Committee",
+    "date": "2000-06-28",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20000628/",
+    "excerpt": "The Committee maintained its 6.50% federal funds target.",
+    "file": "2000-06-28-2d9d3a6810.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "A half-point increase targets demand growth that still exceeds productivity-driven supply",
+    "bank": "Federal Open Market Committee",
+    "date": "2000-05-16",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/",
+    "excerpt": "The FOMC raised the federal funds target by 50 basis points to 6.50%.",
+    "file": "2000-05-16-e801010187.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "A second quarter-point step takes the funds target to 6% as the Fed keeps its February diagnosis",
+    "bank": "Federal Open Market Committee",
+    "date": "2000-03-21",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20000321/",
+    "excerpt": "The March statement raised the federal funds target by 25 basis points to 6.00%.",
+    "file": "2000-03-21-8ec7ad64e6.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Fed raises the funds rate to 5.75% even after allowing for faster productivity growth",
+    "bank": "Federal Open Market Committee",
+    "date": "2000-02-02",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20000202/",
+    "excerpt": "The FOMC raised its federal funds target by a quarter point to 5.75%.",
+    "file": "2000-02-02-30eba51fd2.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement",
+      "type": "Decision"
+    }
   },
   {
     "title": "Moskow expects slower US spending to make room for stronger exports",
     "bank": "Federal Reserve Bank of Chicago",
     "date": "2000-01-12",
     "url": "https://fraser.stlouisfed.org/files/docs/historical/frbchi/speeches/moskow_20000112.pdf",
-    "file": "2000-01-12-79cdb15f35.json"
+    "excerpt": "Chicago Fed President Michael Moskow's 12 January outlook required two things to happen together.",
+    "file": "2000-01-12-79cdb15f35.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "Moskow expects slower US spending to make room for stronger exports",
+      "type": "Speech"
+    }
   },
   {
     "title": "Boehne explains why the Fed watches equity wealth when productivity accelerates",
     "bank": "Federal Reserve Bank of Philadelphia",
     "date": "2000-01-12",
     "url": "https://fraser.stlouisfed.org/files/docs/historical/frbphi/presidents/boehne/boehne_speech_20000112.pdf",
-    "file": "2000-01-12-d5223bd6a3.json"
+    "excerpt": "Why should a central bank pay attention to rising equity prices when the profits behind them may reflect a genuine improvement in productivity?",
+    "file": "2000-01-12-d5223bd6a3.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "Boehne explains why the Fed watches equity wealth when productivity accelerates",
+      "type": "Speech"
+    }
   },
   {
     "title": "Issing’s case for looking beyond a benign euro-area inflation forecast",
     "bank": "European Central Bank",
     "date": "2000-01-10",
     "url": "https://www.ecb.europa.eu/press/key/date/2000/html/sp000110.en.html",
-    "file": "2000-01-10-da18af5d84.json"
+    "excerpt": "Otmar Issing considered a euro area recovery with stable prices a plausible baseline, conditional on wage moderation, supportive financing conditions and stronger external demand.",
+    "file": "2000-01-10-da18af5d84.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Opening Remarks at a Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+      "type": "Speech"
+    }
   },
   {
     "title": "One year of the euro revealed where currency union had integrated markets",
     "bank": "European Central Bank",
     "date": "2000-01-08",
     "url": "https://www.ecb.europa.eu/press/key/date/2000/html/sp000108.en.html",
-    "file": "2000-01-08-600a1f5ada.json"
+    "excerpt": "Sirkka Hämäläinen judged that the euro’s first year had created a functioning area-wide money market and an important international currency of issuance, while leaving investors, collateral markets and retail banking considerably more segmented.",
+    "file": "2000-01-08-600a1f5ada.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "One year with the euro",
+      "type": "Speech"
+    }
   },
   {
     "title": "Ferguson traces why Asia’s financial shock cut output more sharply than Latin America’s",
     "bank": "Board of Governors of the Federal Reserve System",
     "date": "2000-01-07",
     "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/20000107.htm",
-    "file": "2000-01-07-d4a2d364c9.json"
+    "excerpt": "Vice Chairman Roger Ferguson used the 1997–99 crises to ask why a region with high savings, low inflation and a record of rapid growth suffered the larger downturn.",
+    "file": "2000-01-07-d4a2d364c9.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "Tale of two continents: A comparison of Asian and Latin American experiences during recent financial turmoil",
+      "type": "Speech"
+    }
   },
   {
     "title": "Minehan asks how much faster America can grow before prices rise",
     "bank": "Federal Reserve Bank of Boston",
     "date": "2000-01-06",
     "url": "https://fraser.stlouisfed.org/files/docs/historical/frbbos/speeches/minehan_20000106.pdf",
-    "file": "2000-01-06-68564ef0ce.json"
+    "excerpt": "Boston Fed President Cathy Minehan saw a reasonable chance that US growth could slow from above 4% and carry on expanding.",
+    "file": "2000-01-06-68564ef0ce.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "Minehan asks how much faster America can grow before prices rise",
+      "type": "Speech"
+    }
   },
   {
     "title": "The ECB drains year-end liquidity while keeping its policy rate at 3%",
     "bank": "European Central Bank",
     "date": "2000-01-05",
     "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2000/html/is000105.en.html",
-    "file": "2000-01-05-a41305cc9c.json"
+    "excerpt": "The ECB’s first press conference of 2000 combined a sizeable withdrawal of money-market liquidity with unchanged policy rates.",
+    "file": "2000-01-05-a41305cc9c.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Willem F. Duisenberg, Christian Noyer: Introductory statement with Q&A",
+      "type": "Press conference"
+    }
   }
 ]

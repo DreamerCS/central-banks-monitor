@@ -1,0 +1,28 @@
+{
+  "title": "Why another rise in energy prices did not trigger an October hike",
+  "bank": "European Central Bank",
+  "date": "2026-10-29",
+  "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+  "summary": [
+    "The ECB held the deposit rate at 2.50% on 29 October despite a further rise in energy prices. The Council described a larger and longer shock that was likely to raise inflation and reduce activity, while also reporting tighter financing conditions since the last meeting. The two developments pointed in the same direction for growth but in opposite directions for inflation. A hold preserved time to learn which force would dominate over the horizon on which policy works.",
+    "The distinction between pressures already visible and pressures still to come is central to the statement. Underlying inflation had remained broadly stable so far. Wages showed no material response at this stage. Those observations weakened the immediate evidence for a self-reinforcing wage and price response. They did not resolve the eventual effect of energy costs on other prices. Firms can face higher input costs before they reset retail prices, and workers can negotiate compensation after the initial change in their cost of living. The Council therefore continued to see upside risks to inflation even with little visible change yet in these indicators.",
+    "Tighter financing conditions were likely to weigh on both spending and prices. For a borrower, the cost and availability of credit can change between ECB decisions as lenders reassess funding costs, credit risk and future policy. The release gives the direction of financial conditions in aggregate. It does not identify which components tightened most or how much came from the preceding decision, market repricing or bank behaviour. It would be premature to translate that qualitative assessment into an equivalent number of basis points of ECB tightening.",
+    "The nominal rate settings were 2.50% on deposits, 2.65% on main refinancing and 2.90% on marginal lending. The Eurosystem continued reducing both APP and PEPP holdings through maturities. The Council remained ready to act against serious, disorderly disruptions to transmission across jurisdictions. Tighter financial conditions as part of the inflation outlook and a breakdown of transmission warranting intervention are different claims. The release reported the former and reiterated the availability of a tool for the latter.",
+    "The Council did not attach a policy path to the hold. Stronger evidence of wage or broad price pass-through would change the medium-term inflation picture, while a stronger contraction in borrowing and spending could restrain it. These conditional readings have distinct implications for expected official rates and for the credit premium a borrower pays over them. Studying both matters because a decline in expected future policy rates would not necessarily make finance cheaper if credit premia widened at the same time. The communiqué contains neither an event-window price movement nor a decomposition of the tightening it observed."
+  ],
+  "questions": [
+    {
+      "question": "What actually tightened between the two meetings?",
+      "detail": "Compare overnight-indexed rates, bank funding spreads, corporate yields and rates on newly originated loans. Distinguish market prices recorded promptly from bank data released with a lag. The effect on demand depends on the all-in cost and availability of finance, not just the expected policy-rate component."
+    },
+    {
+      "question": "When would a wage response become visible?",
+      "detail": "Match wage settlement and contract renewal dates to the timing of the energy shock and distinguish one-off compensation from permanent pay increases. Check whether unit labour costs and services prices moved in tandem. Wage observations known on 29 October should be kept separate from subsequently available information."
+    },
+    {
+      "question": "Which industries passed on costs instead of absorbing them?",
+      "detail": "Compare input prices, output prices, margins and production across sectors with different energy exposure and financing needs. Margin compression could limit consumer-price effects immediately while increasing the hit to output. Repeated increases in selling prices would imply a different balance of risks for later meetings."
+    }
+  ],
+  "limitation": ""
+}

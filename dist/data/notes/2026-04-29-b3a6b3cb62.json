@@ -1,0 +1,28 @@
+{
+  "title": "Brazil cuts to 14.50% while testing how far oil costs reach into expectations",
+  "bank": "Banco Central do Brasil",
+  "date": "2026-04-29",
+  "url": "https://www.bcb.gov.br/controleinflacao/comunicadoscopom/21107",
+  "summary": [
+    "Brazil’s Copom reduced the Selic to 14.50% on 29 April. Six members were listed as voting for the decision. The statement recorded two uncomfortable developments: headline and underlying inflation had accelerated away from target, and current activity had recovered from the final quarter of 2025. The committee nonetheless saw the activity data as consistent with slower growth over 2026 as a whole. It judged that the extended period of restrictive rates had already changed economic behaviour enough to permit a further adjustment. It left both the speed and the extent of subsequent reductions dependent on the incoming evidence.",
+    "The inflation numbers distinguish a near-term shock from the persistence problem. In Table 1 the reference scenario put four-quarter headline inflation at 4.6% in 2026 and 3.5% in the fourth quarter of 2027, the relevant policy horizon. Market-determined prices were projected at 4.5% and 3.5%; administered prices at 4.8% and 3.6%. Both components were expected to slow materially. The model projected only a small difference between their rates at the horizon, so continuing above-target inflation could not be ascribed entirely to one price-setting regime. Focus survey expectations stood at 4.9% in 2026 and 4.0% in 2027. Both periods align with the year-end projection figures in this release. The survey was thus 0.3 and 0.5 percentage point above the committee’s corresponding numbers. These gaps compare somebody else’s forecast with the committee’s, not two different inflation indices.",
+    "Oil supplies and refined products featured prominently in the risk assessment. The committee was concerned that shortages could feed into expectations at longer horizons. Direct changes in fuel prices are visible quickly, while a firm facing recurring freight costs may reprice other goods later. If the resulting price increases then influence how firms and workers set prices and wages, the impact may last after commodity markets stabilise. Copom also identified persistently weaker exchange rates and greater services inflation under a more positive output gap as upside risks. Domestic cooling, a stronger global slowdown driven by oil or trade disruptions, and lower commodity prices remained downside risks. The release offered no probability for either side of that distribution.",
+    "The reference path depends on assumptions that are particularly sensitive to the conflict’s duration. Copom took the Selic trajectory from Focus. It set the initial exchange rate at BRL 5.00 per dollar and evolved it by purchasing power parity, followed oil futures for roughly six months and assumed subsequent growth of 2% per year. December electricity tariffs in 2026 and 2027 were calculated under a yellow flag. A different sequence of oil or currency prices would alter the conditional inflation outlook even with the same interest-rate setting. One therefore cannot recover the committee’s preferred future Selic path by reading the inflation table backwards.",
+    "The committee continued to monitor how fiscal policy affects both financial assets and monetary transmission against resilient employment and unanchored expectations. The communication gave a reason to move at this meeting without accepting an obligation to keep moving at that pace. For an investor, the distinction matters if a rate reduction was already priced but the scope for further cuts was in doubt. Only pricing around the announcement, aligned with changes in external rates and oil, could establish that market reaction."
+  ],
+  "questions": [
+    {
+      "question": "How far had oil-related costs entered expectations beyond the year of the shock?",
+      "detail": "Compare changes in dated Focus expectations for 2026, 2027 and longer horizons with daily changes in crude, refined products and the exchange rate. Keep horizons fixed across survey releases. A change that persists in farther years after oil falls would carry different information about de-anchoring from a revision confined to the nearest year."
+    },
+    {
+      "question": "Was the recovery from late 2025 concentrated in activity sensitive to interest rates?",
+      "detail": "Separate credit-financed spending and investment from inventories, externally driven production and labour-intensive services. Compare sector output with hours and financing conditions using real-time releases. This would establish whether earlier restraint was still passing through despite a quarterly rebound, or whether the rebound challenged the committee’s full-year slowdown assessment."
+    },
+    {
+      "question": "Why did the survey and reference projections differ more for 2027 than for 2026?",
+      "detail": "Start with identical year-end definitions, then compare the assumptions used for oil, the currency, administered prices and the Selic. Examine dispersion as well as the medians. A gap attributable to input assumptions has a different implication for policy credibility from one that remains after forecasters are put on comparable scenarios. Where individual assumptions are unavailable, report how large an oil or currency difference would be needed to reconcile the forecasts."
+    }
+  ],
+  "limitation": ""
+}

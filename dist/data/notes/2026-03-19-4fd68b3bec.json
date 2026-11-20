@@ -1,0 +1,29 @@
+{
+  "title": "Japan holds at 0.75% as oil threatens to reverse the fall in inflation",
+  "bank": "Bank of Japan",
+  "date": "2026-03-19",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2026/k260319a.htm",
+  "summary": [
+    "The March 19 decision left the uncollateralized overnight call rate at about 0.75%. The Board had to look through two opposing influences on households’ energy bills. Government relief had helped bring CPI inflation excluding fresh food back to around 2%. Meanwhile, tensions in the Middle East had lifted crude oil prices substantially and unsettled financial markets. The majority still expected further rate increases if the January outlook was realized. A temporary undershoot in recorded inflation could therefore arrive alongside upward pressure on the expected policy path (sections 1–3).",
+    "The timing of inflation mattered. Food, particularly rice, had helped drive earlier increases. The comparison with those prices a year earlier would fade, and official measures to ease the cost of living would restrain the index. The Board expected inflation excluding fresh food first to slip below 2% and subsequently to face upward pressure from oil. This sequence makes a single headline reading particularly difficult to interpret. Higher crude prices can raise the import bill before they reach retail energy prices. Subsidies can alter what the household pays while leaving the underlying cost shock in place. The statement gave no numerical estimate of these separate contributions (pp. 1–2).",
+    "The case for a further rate rise depended on a broader domestic mechanism. Employers were passing higher wage costs into their selling prices, and inflation expectations had risen moderately. The Board expected a growing sense of labour scarcity and higher medium- to long-term expectations to reinforce one another. In its baseline, underlying CPI inflation reached a rate broadly consistent with target in the second half of the January projection period. The oil shock complicated this assessment. An initial jump in energy costs could depress household purchasing power. A subsequent round of price or wage increases across sectors could instead strengthen domestic persistence. Immediate headline inflation gives an incomplete answer to which of these forces dominates (section 2).",
+    "Activity left room for both outcomes. Exports and industrial production were broadly flat. Manufacturers were reporting tariff pressure even as profits across the economy remained high and business investment continued to increase moderately. Better employment and incomes supported consumption, though consumers were feeling higher prices. Housing investment was declining. The Board expected a strengthening cycle from income to expenditure, helped by government measures and accommodative financing. These distinctions matter when testing the policy signal. Strong corporate profits can coexist with squeezed real household income, while changes in energy costs, tariffs and demand can affect manufacturers differently (p. 1).",
+    "Eight members backed the hold. Hajime Takata preferred an immediate move to 1.0%, pointing to the risk of second-round effects from external price increases and judging the price target broadly achieved. Naoki Tamura voted for the hold but objected to the majority’s inflation timeline. He expected underlying inflation to be broadly consistent with target from the beginning of fiscal 2026. An analyst tracking disagreement would count one policy dissenter and two disagreements with the price outlook. Coding only the rate vote would miss the view that the domestic inflation threshold could be reached earlier without requiring an increase at this meeting (p. 2, notes 1 and 2).",
+    "For a rates or currency study the public event occurred at 11:46 Japan time, seven minutes after the meeting ended. The date of the subsequently published minutes is irrelevant to the March announcement window. A curve move immediately after 11:46 would reflect both an unchanged current rate and the majority’s language about future increases. A yen move over the whole day could also reflect crude oil or broader risk sentiment. The decision gives a way to distinguish those hypotheses by maturity and timing, while realized returns and their statistical attribution require separate market observations (release reference)."
+  ],
+  "questions": [
+    {
+      "question": "Did the hold defer the next increase, or leave the expected path intact?",
+      "detail": "Match meeting-dated overnight-indexed swap quotes and the yen immediately before and after 11:46 Japan time. Compare the current intermeeting contract with later contracts and retain quote times. A change concentrated at later horizons would suggest the guidance mattered even if the March decision itself had been widely anticipated."
+    },
+    {
+      "question": "How much of the projected inflation dip came from food comparisons and policy relief?",
+      "detail": "Reconstruct year-on-year contributions of rice, consumer energy and other items using the released CPI weights. Track government relief start and expiry dates and the lag from crude oil in yen to retail prices. Test whether services inflation and the breadth of price increases behaved differently as the temporary components faded."
+    },
+    {
+      "question": "Were rising oil costs becoming embedded outside energy-intensive activities?",
+      "detail": "Compare selling-price expectations and wage plans across firms with high versus low direct energy exposure. Adjust for tariffs and exchange-rate movements affecting inputs. A price rise concentrated in energy-intensive firms points to cost recovery. Broader wage and service-price responses persisting after oil stabilized would better support Takata’s second-round concern."
+    }
+  ],
+  "limitation": ""
+}

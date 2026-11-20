@@ -1,0 +1,27 @@
+{
+  "title": "The Fed holds at 3.75–4.00% while two members seek a higher rate immediately",
+  "bank": "Federal Open Market Committee",
+  "date": "2026-10-28",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+  "summary": [
+    "Ten members voted to keep the federal funds target at 3.75–4.00%. Lisa Cook and Beth Hammack preferred a quarter-point increase at this meeting, which would have put the range at 4.00–4.25%. The majority explained that accumulating more information would help it determine the stance needed to get inflation back to 2% in a timely way. Waiting was therefore a choice about when to decide on further restraint. It did not establish that the current rate was the final one required, and the dissenting preference did not commit the Committee to a hike at the next meeting.",
+    "The reason to wait was not a weak headline assessment of activity. The Committee described strong growth and resilient domestic spending alongside robust capital investment and strong productivity growth. Job gains had kept up with the workforce, leaving unemployment little changed. That combination complicates the reading of demand. Strong spending can sustain pressure on prices. Higher productivity and new productive capital can increase the amount of demand the economy can accommodate. The statement gives no estimates of either effect, so it cannot establish that strong activity by itself warrants higher rates.",
+    "Inflation remained elevated and the Committee retained its price-stability commitment. Geopolitical developments accounted for part of the uncertainty in the outlook. The statement did not isolate a particular source of inflation or say which upcoming observation would resolve the policy question. The disagreement was nevertheless concrete. Two members preferred immediate restraint, while ten approved the decision to hold and gather information. Their individual forecasts and reasons for dissent are absent. It would be an overinterpretation to assign the two voters a shared theory about energy, wages or demand.",
+    "The continued policy of ample reserves concerned the operating framework alongside the rate decision. The release announced no change to that framework. For markets, two separate pieces of news could matter even with the target unchanged: the majority's willingness to wait and the minority's preferred rate today. Which mattered more can only be established against what investors expected before the release. There is no observed change in an asset price in the statement itself."
+  ],
+  "questions": [
+    {
+      "question": "What information would distinguish a case for immediate tightening from one for holding steady?",
+      "detail": "Observe actual demand relative to available capacity, the breadth of inflation and its persistence over successive releases. Follow productivity, compensation and unit labour costs together. Resilient spending with widening price increases would carry a different implication from strong real growth accompanied by falling unit costs. The Committee names no single threshold that could resolve the choice."
+    },
+    {
+      "question": "Did the hold or the dissent drive repricing along the expected rate path?",
+      "detail": "Compare pre-release estimates of the decision with the change in contracts spanning this and subsequent meetings. Record when the statement and press conference each reached the market, and check contemporaneous news. If the current target was already expected, later-maturity repricing might indicate news about future choices rather than the unchanged rate itself."
+    },
+    {
+      "question": "Could stable unemployment conceal a change in either labour demand or labour supply relevant to inflation?",
+      "detail": "Compare employment with participation, changes in hours and transitions into and out of work. Look for whether wage growth is concentrated in a few industries or broad enough to push up unit costs. That evidence would help judge how long an economy with strong output growth could sustain a stable jobless rate without adding price pressure."
+    }
+  ],
+  "limitation": ""
+}

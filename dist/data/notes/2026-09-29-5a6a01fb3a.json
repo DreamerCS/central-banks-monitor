@@ -1,0 +1,28 @@
+{
+  "title": "Australia resumes tightening as August’s inflation risks materialise",
+  "bank": "Reserve Bank of Australia",
+  "date": "2026-09-29",
+  "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
+  "summary": [
+    "The RBA raised its cash rate target by 25 basis points to 4.60% on September 29. The vote was unanimous, following unanimous holds in June and August. The Board had explicitly left open another increase if upside risks materialised. By September global energy prices exceeded the August forecast assumptions, domestic inflation had surprised on the upside and June-quarter output had been somewhat stronger than expected. The move illustrates a change of assessment within the same policy framework: the condition attached to the earlier pause had now been met in the Board’s judgment (decision, opening and final sections).",
+    "Three price forces need separate treatment. A wider Middle East conflict led to further disruption in oil supply, lifting fuel prices and partially passing through to other goods and services. Rapid global AI-related demand raised technology-goods prices, adding a second external source of pressure. Domestic capacity remained constrained, with firms reporting both actual price increases and intentions to raise prices in response to costs. Short-term inflation expectations were elevated. The statement gave no estimate of the individual contributions or evidence that longer-term expectations had already become unanchored. These distinctions matter for persistence: annual fuel inflation can decline mechanically after a price-level increase while wage-setting or repeated service price changes can outlast it (inflation and decision paragraphs).",
+    "Output growth was slowing, but from a slightly stronger position than staff had anticipated. June-quarter activity exceeded expectations at the margin. Consumer spending growth was easing gradually, house prices had fallen in most capital cities and new mortgage lending had declined noticeably. Labour conditions eased broadly as expected, while leading indicators were broadly stable. Business investment and debt, by contrast, continued to grow strongly. The Board did not need an acceleration in every sector to conclude that additional restraint was warranted. Strong capital demand can keep some labour or inputs scarce while indebted households cut discretionary purchases (activity assessment).",
+    "The external outlook also had mixed implications. Australia’s major trading partners had so far grown faster than expected because investment related to AI had more than offset the adverse effects of the Middle East conflict. That observation applied to realised activity to date. It was not a forecast that an extended disruption to energy or uncertainty would leave trading-partner demand unaffected. Domestically, weak productivity growth limited the increase in output sustainable without rising costs. There was also uncertainty about how much a downturn in housing would reduce spending and activity. Together these channels explain how headline growth could decelerate and inflation risks nonetheless become more acute relative to the previous forecast (outlook and risks).",
+    "The remaining policy question was how much further restraint was needed. The Board assessed that the first three increases had tightened financial conditions and slowed the economy, but concluded that the new inflation information justified a fourth increase. It preserved the possibility of further action. This release was between quarterly forecast rounds. Treat the August projections as an explicit baseline against which September data were judged, not as a fresh set of forecasts issued in September. The correct policy-surprise measure is the unexpected part of the decision and guidance at the scheduled 2:30 p.m. Sydney release. The 25-basis-point change is the size of the policy action irrespective of what the market had already priced (decision section)."
+  ],
+  "questions": [
+    {
+      "question": "Which August assumptions were most responsible for the September change in assessment?",
+      "detail": "Build a release-by-release surprise chronology using energy prices, domestic CPI and the June-quarter GDP vintage actually available to the Board. Compare each outcome with the August assumptions and forecasts. A large upward revision in oil in Australian dollars can coexist with small positive surprises in domestic activity, and their inflation effects operate with different lags."
+    },
+    {
+      "question": "Was global technology demand lifting Australian capacity pressure or primarily import prices?",
+      "detail": "Compare component prices in foreign currency and Australian dollars with trading-partner technology output, Australian investment volumes and domestic wages in bottleneck occupations. Imported equipment becoming more expensive is a different inflation channel from strong investment drawing labour, materials and energy away from other domestic uses."
+    },
+    {
+      "question": "Was the fourth increase a one-meeting adjustment or a revision to the expected cycle?",
+      "detail": "Check the path of meeting-dated cash-rate futures before and after the announcement, then compare with longer government yields and the Australian dollar. Use foreign curves to account for global tightening expectations. An increase in later forwards after adjusting for the current decision would suggest a broader reassessment of policy persistence."
+    }
+  ],
+  "limitation": ""
+}

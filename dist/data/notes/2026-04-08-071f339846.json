@@ -1,0 +1,29 @@
+{
+  "title": "March minutes trace how one oil shock could produce either a rate cut or a hike",
+  "bank": "Federal Open Market Committee",
+  "date": "2026-04-08",
+  "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260318.htm",
+  "summary": [
+    "The record published on 8 April covers the 17–18 March meeting, when the Committee held at 3.50–3.75% with Stephen Miran favouring a quarter-point cut. It sets out two paths from a prolonged Middle East conflict to US policy. Higher energy costs could erode purchasing power, damage foreign growth, tighten financial conditions and weaken hiring enough to warrant cuts. Alternatively, extended increases in input costs could spread to core inflation or change longer-term expectations, prompting rate increases. The majority of participants judged that risks to both mandates had risen with the conflict. The vote to wait reflected uncertainty about which path would dominate.",
+    "The Desk supplied evidence on the horizon over which investors expected the price shock to matter. Front-month crude futures rose roughly 50% over the intermeeting period, far more than distant contracts. One-year inflation swaps rose nearly 50 basis points, while compensation beyond one year changed little. US Treasury yields rose more at shorter maturities and broad equity prices fell about 5%. The manager judged that shifts in term premia and positioning likely contributed to yield movements. The oil curve and inflation swaps were consistent with a sizeable but relatively short-lived price shock. They were market prices bearing risk premia and did not establish when energy prices would peak.",
+    "Policy expectations depended on both the instrument and observation date. Futures did not fully price a cut until December. The most likely path inferred from options moved from one quarter-point cut to no change over 2026. The options-implied probability of hikes through early the following year rose to about 30%. The median most-likely path in the Desk survey still showed two cuts, but responses came early in the conflict. Some respondents appeared to revise towards fewer cuts after the survey. The March record therefore offers a reason for the divergence besides a disagreement between respondents and traded prices: they were not all measured at the same moment.",
+    "At the meeting the latest January PCE readings showed headline inflation of 2.8% and core inflation of 3.1%. Housing disinflation and lower expected tariff effects still supported a gradual return towards target. But nonhousing core services and goods prices remained sources of pressure. The staff projected inflation near 2% by the end of the following year as tariff and oil effects waned. That projection incorporated only a small activity effect from lower equities and higher oil. Many participants saw greater downside risk to demand if the conflict persisted. A baseline with limited spillovers was compatible with heightened concern about much more adverse outcomes.",
+    "February unemployment was 4.4%, unchanged from September 2025. Weak payroll growth partly reflected a health-care strike and severe weather. Many saw little evidence of a broad labour imbalance given slower workforce growth. Others stressed that job gains were concentrated in relatively few sectors, that perceptions of job availability had weakened and that weak hiring left little buffer against a fall in demand. The same shock could affect inflation before it appeared in unemployment, leaving uncertainty about which adjustment horizon mattered for policy.",
+    "The Desk's funding review also prevents broad financial stress from being mistaken for dysfunction in overnight dollars. The funds rate held one basis point below interest on reserves. Standing repo usage reached $30 billion on a heavy settlement day, but the manager judged that broader conditions remained consistent with ample reserves. Weakness in software loans and redemptions at some private credit funds concerned different borrowers and balance sheets. None of the intermeeting prices or facility usage is evidence of a reaction to the public minutes on 8 April."
+  ],
+  "questions": [
+    {
+      "question": "Was investors' short-lived energy scenario supported by physical supply and domestic pricing?",
+      "detail": "Compare the futures curve with changes in deliveries, energy-intensive input costs, margins, consumer prices and expectations at each horizon. Establish whether changes in near-term inflation compensation exceeded changes in expected realised prices because of risk premia. A broadening of price pressure after spot oil stabilised would challenge the temporary-shock interpretation."
+    },
+    {
+      "question": "How much of the divergence between the survey and options reflected timing?",
+      "detail": "Align survey submission dates with futures and options snapshots, comparing modes with modes rather than means. Keep risk-neutral option probabilities distinct from real-world probabilities. Reconstructing the distribution as the conflict unfolded would better identify whether the reported difference came from later information, risk compensation or genuine disagreement."
+    },
+    {
+      "question": "Would weakening hiring or broadening inflation resolve the policy dilemma first?",
+      "detail": "Track labour-market flows after strike and weather effects unwind, together with demand indicators and underlying services prices. For a release-event study compare market pricing around 8 April with what investors knew then, including intervening news. The increases in crude and swap rates in the minutes refer to a different period."
+    }
+  ],
+  "limitation": ""
+}

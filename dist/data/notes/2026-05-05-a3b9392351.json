@@ -1,0 +1,28 @@
+{
+  "title": "Australia’s third increase follows signs that firms are passing on fuel costs",
+  "bank": "Reserve Bank of Australia",
+  "date": "2026-05-05",
+  "url": "https://www.rba.gov.au/media-releases/2026/mr-26-12.html",
+  "summary": [
+    "The RBA raised its cash rate target by 25 basis points to 4.35% on May 5, its third increase in 2026. Eight members supported the rise and one preferred to hold at 4.10%. This was stronger agreement than March’s five-to-four decision. By May high fuel and related commodity prices were already contributing to inflation, and firms experiencing higher costs were indicating that they planned to raise selling prices. The Board was responding to the possibility that a visible external shock would reinforce domestic price pressures that predated the conflict. It did not claim that every proposed price rise had already reached customers (decision, economic assessment and vote).",
+    "The baseline forecast deliberately assumed a relatively favourable resolution of the external shock. Staff assumed that the conflict would be resolved soon and fuel prices would decline. Even so, underlying inflation was expected to peak above the level envisaged in February. Higher interest rates were projected to slow demand and ease capacity pressure over time. A longer conflict could weaken growth in Australia and its trading partners while prolonging higher prices. Pass-through into general selling prices and a rise in longer-term inflation expectations would make the inflation effect more durable. The release observed an increase in short-term expectations, leaving the longer-horizon response open (decision, forecast and risk paragraphs).",
+    "The simultaneous Statement on Monetary Policy illustrates the difference between a temporary headline peak and persistent inflation. Staff projected year-ended CPI inflation of 4.8% for June 2026, up from 4.2% in February, and 4.0% for December, up from 3.6%. The corresponding trimmed mean forecasts were 3.8% and 3.5%. By June 2027 headline CPI inflation was forecast at 2.4%, while trimmed mean inflation was still 3.1%. A return of headline inflation inside the target range could therefore precede a return of underlying pressures. The comparison reflects expected changes in year-on-year contributions as the initial price shock falls out of the comparison period, alongside limits on domestic capacity (May Statement on Monetary Policy, overview forecast table).",
+    "The activity projections also shifted. Year-ended GDP growth for December 2026 was lowered from 1.8% to 1.3%. The exchange rate had appreciated and both money-market and government bond yields had risen, while credit remained readily available. Those facts can coexist. A household may still qualify for a loan yet decide to borrow or spend less at the new interest rate. Similarly, a firm may retain access to finance while facing higher costs for working capital. The staff projections incorporated market-implied cash rates observed on April 29. Their assumed December 2026 rate of 4.7% was an input to the forecast, separate from the Board’s decision to set the current target at 4.35% (decision, financial conditions paragraph, and May forecast table notes).",
+    "The policy statement gave no commitment to a fourth move. It judged that the three rises already delivered placed policy in a position to respond as evidence accumulated. The key question for a market reader was whether the extra tightening and wider vote margin conveyed a later peak in rates, or whether the accompanying growth downgrade reduced that possibility. The announcement also contained revised inflation and activity projections, requiring separate attention to immediate meeting-dated pricing and longer forwards. A fuel-driven rise in inflation compensation alone would be difficult to interpret as a change in confidence in the inflation target (decision section and May outlook)."
+  ],
+  "questions": [
+    {
+      "question": "Can the forecast divergence between headline and trimmed mean inflation be reproduced?",
+      "detail": "Build vintage-specific contributions from motor fuel, other energy, freight-sensitive goods and market services. Track the quarterly inflation rate alongside the year-ended rate to locate base effects. A headline fall toward 2.4% in June 2027 would provide little evidence of broad disinflation if the trimmed mean still tracked the projected 3.1%."
+    },
+    {
+      "question": "Did pricing intentions become actual selling-price increases?",
+      "detail": "Link firm survey responses or liaison evidence to subsequent producer and consumer prices for comparable sectors. Examine timing, customer contracts and energy intensity. An intention to reprice can be abandoned if sales weaken or margins absorb costs, and the pass-through rate can differ sharply between firms selling to households and those selling intermediate inputs."
+    },
+    {
+      "question": "How much of the May revision reflected a different expected cash-rate path?",
+      "detail": "Compare the February and May technical assumptions for market rates and the exchange rate alongside the oil assumptions and forecast errors. Build scenarios that change one input at a time. Since the rate path responds to inflation news, a simultaneous upward revision to rates and prices should not be interpreted as tightening causing higher inflation."
+    }
+  ],
+  "limitation": ""
+}

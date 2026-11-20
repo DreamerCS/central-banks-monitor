@@ -4,12 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Browse central bank publications by month and jurisdiction.">
-  <title>Monthly Publication Archive | Central Bank Intelligence</title>
+  <title>Publication Archive | Central Bank Intelligence</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="research-archive.css">
-  <script src="research-archive.js?v=3" defer></script>
   <link rel="stylesheet" href="edition.css">
+  <link rel="stylesheet" href="research-notes.css?v=995a7217c06f">
+  <link rel="stylesheet" href="research-archive.css?v=995a7217c06f">
+  <script src="publication-reader.js?v=995a7217c06f" defer></script>
+  <script src="research-archive.js?v=995a7217c06f" defer></script>
 </head>
 <body class="archive-page">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -17,10 +19,14 @@
   <main class="shell archive-shell" id="main">
     <div class="archive-intro">
       <h1>Publication archive</h1>
-      <p>Decisions, speeches, minutes, forecasts and research across 29 jurisdictions.</p>
+    </div>
+    <div id="archive-scope" class="archive-scope" role="group" aria-label="Publications to show" hidden>
+      <button type="button" data-scope="analysis" aria-pressed="true">With analysis</button>
+      <button type="button" data-scope="all" aria-pressed="false">All publications</button>
     </div>
     <nav id="archive-months" class="archive-months" aria-label="Archive months"></nav>
     <form id="archive-filters" class="archive-filters" aria-label="Filter publications" hidden>
+      <label>Year <select id="year-filter"></select></label>
       <label>View <select id="view-filter"><option value="region">By region</option><option value="time">By time</option></select></label>
       <label>Jurisdiction <select id="bank-filter"></select></label>
       <label>Publication type <select id="type-filter"></select></label>
@@ -29,6 +35,14 @@
     </form>
     <p id="archive-results" class="archive-results" role="status">Loading publications…</p>
     <section id="archive-month" class="archive-month" aria-labelledby="active-month-title"></section>
+    <button type="button" id="archive-more" hidden>Show more publications</button>
   </main>
+  <dialog id="archive-reader" aria-label="Publication analysis">
+    <div class="reader-toolbar"><span>Publication analysis</span><button type="button" id="close-analysis" autofocus>Close</button></div>
+    <div class="reader-sheet">
+      <p id="reader-status" role="status"></p>
+      <article id="manuscript" aria-labelledby="note-title" hidden></article>
+    </div>
+  </dialog>
 </body>
 </html>

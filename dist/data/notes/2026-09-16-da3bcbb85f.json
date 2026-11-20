@@ -1,0 +1,27 @@
+{
+  "title": "The FOMC raises rates a quarter point to bring inflation back to target sooner",
+  "bank": "Federal Open Market Committee",
+  "date": "2026-09-16",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+  "summary": [
+    "The FOMC unanimously raised the federal funds target by 25 basis points to 3.75–4.00%. Its stated reason was that the action would help inflation return to 2% sooner. That identifies the policy concern more precisely than an inference from the change in the rate alone. The Committee judged the timing of disinflation important enough to tighten, even as it recognised elevated uncertainty linked partly to geopolitical developments. It did not specify the date by which it expected to reach 2%, the inflation path under an unchanged rate or the size of any further adjustment.",
+    "The spending assessment is central to that judgement. Domestic spending had proved resilient and overall activity was expanding solidly. Productivity growth was strong and investment robust. Job gains had kept up with the workforce and unemployment had changed little. Stronger productive capacity can support spending without an equivalent increase in inflationary pressure, but the release gives no estimate of potential output or of a gap between demand and supply. It does not present rising unemployment or an overheating labour market as the immediate reason for the move. Instead it connects elevated inflation to the benefit of acting sooner.",
+    "The Committee also continued its policy of maintaining ample reserves in the banking system. The combination illustrates why the price of overnight funds and the operating framework deserve separate entries in a policy history. The rate target rose while the stated approach to reserve availability continued. The release makes no commitment to a specific reserve stock, asset sale or balance-sheet contraction. Treating tightening as an across-the-board withdrawal of liquidity would add an instrument change the Committee did not report.",
+    "The twelve votes show agreement on this quarter-point increase and the accompanying statement. They reveal neither the extent of agreement on the eventual peak rate nor whether another hike would be appropriate if the same growth pattern continued. The document supplies the signed policy action. To turn it into a monetary surprise or an estimate of its impact on bond yields would require pre-release expectations and observed prices."
+  ],
+  "questions": [
+    {
+      "question": "Was the 25-basis-point increase already reflected in short-rate pricing?",
+      "detail": "Compare high-frequency changes in near-term contracts with their implied pre-release probability of an increase, allowing for differences in contract settlement. Examine later contracts separately. A fully expected hike could leave the front contract nearly unchanged while the statement's emphasis on the timing of disinflation shifted pricing farther out."
+    },
+    {
+      "question": "What evidence would distinguish a faster return to 2% from a temporary fall in a few prices?",
+      "detail": "Follow the breadth and persistence of inflation, expectations at different horizons and domestic spending as new data arrive. Compare against forecasts available before the meeting. A slowing of demand and a sustained slowing in prices have different implications from a one-off reversal in volatile categories. The statement supplies no timetable that can be used as a fixed benchmark."
+    },
+    {
+      "question": "Could strong productivity and investment make domestic resilience less inflationary than it appeared?",
+      "detail": "Decompose real growth into hours and output per hour and examine how employment compares with workforce growth. Track wage costs per unit of output and whether investment is adding usable capacity or principally supporting current spending. This evidence can test the supply interpretation without assuming the Committee had estimated a particular sustainable growth rate."
+    }
+  ],
+  "limitation": ""
+}

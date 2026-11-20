@@ -1,0 +1,26 @@
+{
+  "title": "The Fed keeps its inflation-risk tilt even as demand and financial conditions weaken",
+  "bank": "Federal Open Market Committee",
+  "date": "2000-11-15",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20001115/",
+  "summary": [
+    "The November FOMC held the funds-rate target at 6.50%. Its risk judgement retained an inflation tilt even though the Committee saw grounds for growth to run below potential for a time. Business and household demand had softened, financial conditions had tightened and productivity had improved the economy's ability to expand. Weak demand and stronger capacity can both widen a shortfall of growth relative to potential. The release does not say either that output had already fallen or that a recession was the central forecast.",
+    "Two inflation risks still mattered. Available workers remained unusually highly utilised. Rising energy prices had done little so far to core prices, but could still raise inflation expectations. This was a risk of a change in behaviour, not a finding that expectations had already become unanchored. A slowdown forecast over the next several quarters could coexist with current labour scarcity and lingering price risks. The Committee judged that easing demand pressures had yet to become strong enough to change the overall balance of risks.",
+    "The market relevance lies partly in the treatment of tighter financial conditions as an input to the outlook. Such tightening could reduce financing and spending independently of any change in the current policy target. The Committee did not specify a particular security, credit spread or measure of financial stress. Assigning its assessment to one asset class, or projecting an immediate cut, would go beyond its words."
+  ],
+  "questions": [
+    {
+      "question": "How much of the slowing in demand reflected the tightening of financial conditions?",
+      "detail": "Compare spending by firms and households with differing needs to refinance. Track spreads, credit availability and loan terms separately from benchmark rates. Weakening demand can itself tighten credit conditions, so the timing of credit-supply changes and subsequent spending responses is important."
+    },
+    {
+      "question": "Would growth below potential translate into lower resource utilisation soon enough to change the inflation outlook?",
+      "detail": "Compare the growth rate of output with estimates of capacity but also track the levels of unemployment, hours and vacancies. A short interval of below-potential growth can produce little spare capacity when labour utilisation begins high. Subsequent wage and unit-cost behaviour would help distinguish the cases."
+    },
+    {
+      "question": "Were inflation expectations responding to energy prices even while core inflation appeared insulated?",
+      "detail": "Observe short- and longer-horizon expectations alongside energy input prices and firm pricing plans. A rise limited to near-term expectations would give weaker support to a lasting inflation concern than a shift at several horizons. Consider other macroeconomic news when interpreting financial-market proxies."
+    }
+  ],
+  "limitation": ""
+}

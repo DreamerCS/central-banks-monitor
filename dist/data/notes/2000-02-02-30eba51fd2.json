@@ -1,0 +1,26 @@
+{
+  "title": "The Fed raises the funds rate to 5.75% even after allowing for faster productivity growth",
+  "bank": "Federal Open Market Committee",
+  "date": "2000-02-02",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2000/20000202/",
+  "summary": [
+    "The FOMC raised its federal funds target by a quarter point to 5.75%. The Board of Governors also raised the discount rate by a quarter point to 5.25%, approving requests from ten Reserve Bank boards. The two policy rates increased by the same amount, leaving their difference at 50 basis points. The distinction matters when reconstructing this episode. The FOMC set a point target for the funds rate. The discount rate governed short-term adjustment credit that depository institutions borrowed from their district Reserve Banks. The release does not specify the market rate at which funds actually traded.",
+    "The Committee acknowledged a pronounced acceleration in productivity. That observation strengthened its assessment of potential supply. Its concern was that demand could continue to grow even faster than that enlarged capacity. Tightening in the face of productivity gains is therefore consistent with the Committee's own account. The relevant variable was the difference between two growth rates. Strong supply growth taken alone would give the wrong sign for the policy decision if demand were accelerating faster still.",
+    "The judgement was explicitly forward-looking. The Committee saw the greater risk in conditions that might generate inflationary pressure and undermine the expansion. It did not report a particular inflation rate, quantify the excess of demand over potential, or promise to repeat the increase. Counting an additional hike as already decided would confuse the direction of the risk assessment with a policy instruction."
+  ],
+  "questions": [
+    {
+      "question": "How large was the demand–supply growth differential in the information available in February?",
+      "detail": "Compare real spending and output with the contemporary estimates of hours, labour supply and productivity that underpinned estimates of potential. Use several quarters and retain the original vintages. A later revision to productivity can change a historical estimate of excess demand without changing what policymakers knew when they voted."
+    },
+    {
+      "question": "Was the quarter-point step anticipated, and did rates farther out respond to the inflation-risk assessment?",
+      "detail": "Separate the price of a contract covering the current decision from yields or futures covering later meetings. Establish release timing independently before defining a narrow event window, since this release provides a date and immediate-release instruction. Other same-day news could affect longer maturities."
+    },
+    {
+      "question": "Did the higher price of short-term adjustment credit affect banks separately from the funds-rate move?",
+      "detail": "Compare bank borrowing at the discount window with alternative funding rates and availability. Both administered decisions moved by the same amount. Their separate effects will be difficult to identify from a common date without differences in bank exposure or access to private funding."
+    }
+  ],
+  "limitation": ""
+}

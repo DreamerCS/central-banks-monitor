@@ -1,0 +1,27 @@
+{
+  "title": "Four dissents conceal broad agreement about the April rate and a sharper split over guidance",
+  "bank": "Federal Open Market Committee",
+  "date": "2026-04-29",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+  "summary": [
+    "Eight members approved the FOMC's full statement and four dissented. Yet eleven of the twelve supported leaving the funds rate at 3.50–3.75% that day. Stephen Miran preferred a quarter-point cut. Beth Hammack, Neel Kashkari and Lorie Logan agreed with the hold and objected to the easing bias in the communication. Counting all four as advocates of a different current rate would misread the decision. Treating the three objections as votes for an immediate hike would also give the dissenters a position they did not express.",
+    "The distinction has consequences for the expected rate path. The majority retained language that left the extent and timing of further adjustments dependent on incoming data, the outlook and risks. Three members were willing to endorse the prevailing rate while resisting the implication of a preference about its next move. That is an identifiable division over guidance even though today’s rate command had broad support. The dissent paragraph does not specify replacement language, the three members' individual forecasts or what development would induce them to support higher rates.",
+    "The economic assessment makes clear why both employment risk and price risk remained relevant. Activity was expanding solidly. Job growth had been low on average and unemployment little changed. The Committee attributed part of elevated inflation to a recent rise in global energy prices and said Middle East developments were contributing to high uncertainty about the outlook. The qualifier matters. The text does not establish that energy explains all the inflation, that its effects will quickly reverse or that it will necessarily feed into broader pricing. With a longer-run inflation goal of 2%, the appropriate rate response depends on evidence about persistence as well as the effect on activity.",
+    "For policy history, the decision therefore carries two separate observations. The range and the distribution of current-rate preferences identify the action. The formal vote and the dissenters' stated objection identify a communication choice that could affect expectations beyond this meeting. Neither observation establishes the size or sign of a market reaction. That requires knowing what participants expected the Committee to say as well as what rate they expected it to set."
+  ],
+  "questions": [
+    {
+      "question": "Did the three objections to the easing bias move pricing beyond the current meeting?",
+      "detail": "Compare changes across contracts spanning this meeting and the following decisions around the 2 p.m. Eastern release. Establish how much easing had been priced beforehand. Repricing in later contracts alongside little movement at the front would be consistent with news about guidance, although the vote and economic assessment arrived together."
+    },
+    {
+      "question": "How far did higher energy prices pass through to the inflation outlook relevant to the Committee?",
+      "detail": "Follow energy-intensive goods and services, broader inflation measures and expectations at multiple horizons. Distinguish an increase in the price level from repeated increases that raise the inflation rate over time. Check household spending and employment alongside prices. Rising energy costs could simultaneously weaken purchasing power."
+    },
+    {
+      "question": "What evidence could distinguish a lasting split in the Committee from a dispute over the wording of one release?",
+      "detail": "Compare subsequent individual explanations, votes on actual rate changes and responses to common data surprises. Preserve the distinction between the member who sought a cut and the three who supported the hold. Without that separation, a tally of formal dissents would overstate the dispersion of current-rate preferences."
+    }
+  ],
+  "limitation": ""
+}

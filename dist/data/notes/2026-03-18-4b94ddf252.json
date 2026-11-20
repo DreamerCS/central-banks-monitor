@@ -1,0 +1,28 @@
+{
+  "title": "Brazil starts easing despite greater uncertainty around the inflation forecast",
+  "bank": "Banco Central do Brasil",
+  "date": "2026-03-18",
+  "url": "https://www.bcb.gov.br/controleinflacao/comunicadoscopom/21055",
+  "summary": [
+    "The Brazilian monetary policy committee cut the Selic to 14.75% on 18 March. Seven members voted for the decision. The reason for beginning to ease was evidence that a long period of restrictive rates was already slowing the economy. The committee did not claim that the inflation outlook had improved sufficiently on every measure. On the contrary, it said its projection at the relevant policy horizon had moved further from target, and uncertainty around that projection had risen considerably. These two judgments can coexist: when past tightening is still working through activity, a small rate reduction can preserve considerable restraint even as an external shock increases the risk surrounding a point forecast.",
+    "The domestic evidence was uneven. Growth had moderated, including in the indicators from late 2025. The labour market remained resilient. Headline and underlying inflation had cooled to some degree in the latest readings, while both still exceeded target. The committee regarded employment pressures, elevated projections and unanchored expectations as continuing concerns. It put weight on separating the transmission already visible in output from the slower response of employment and prices. An easing move based on evidence of earlier policy transmission therefore carries a different implication from one based on a collapse in labour demand or an inflation undershoot.",
+    "The escalation of conflict in the Middle East widened the range of plausible outcomes in both directions. Supply disruptions and commodity prices could pass into Brazilian inflation directly or through production costs. A persistently weaker exchange rate, sticky services inflation if spare capacity was smaller than assumed, or prolonged de-anchoring of expectations could aggravate the effects. A deeper slowdown at home or abroad, trade shocks or lower commodity prices could pull the outlook the other way. The statement also highlighted the interaction of domestic fiscal policy, financial assets and monetary policy. It did not report an observed response in local bond prices or the exchange rate to the announcement. The direction of the policy action alone cannot establish whether investors received it as a surprise.",
+    "Table 1 puts numerical bounds on the central scenario. It projected four-quarter headline IPCA of 3.9% in 2026 and 3.3% in the third quarter of 2027, the horizon the committee treated as relevant. Market-determined prices were projected at 3.7% and 3.3% in the same periods; administered prices at 4.3% and 3.2%. The nearer-term figure is more exposed to administered prices. Focus respondents expected 4.1% for calendar 2026 and 3.8% for calendar 2027. Only the 2026 survey and model numbers share the same endpoint. The model used the Focus interest-rate path, an initial BRL 5.20 per dollar with subsequent purchasing-power-parity evolution, six months of the oil futures curve and 2% annual oil-price growth thereafter. It assumed yellow electricity tariff flags in December 2026 and 2027. Those inputs matter because different assumptions about the duration of a supply disruption can move the projection without any change in the committee’s tolerance for inflation.",
+    "The committee explicitly reserved scope to change the speed of further reductions as it learned more about the depth and duration of the conflict. For the next meeting, the principal signal was willingness to adjust a still-restrictive rate in light of transmission. It gave no numerical pace for subsequent moves. The interpretation of forward rates would consequently turn on whether pricing changed for the first few meetings, the eventual size of the easing cycle, or compensation for taking inflation risk farther out."
+  ],
+  "questions": [
+    {
+      "question": "Where did accumulated tightening show up first in activity?",
+      "detail": "Compare investment, credit-sensitive production and household demand with services employment and wages in the releases available at the meeting. Check movements across release vintages and sectors. Slower activity confined to a few interest-sensitive categories would suggest different future inflation pressure from a broad drop in labour demand and consumption."
+    },
+    {
+      "question": "Which part of the oil shock could survive at the third-quarter 2027 horizon?",
+      "detail": "Track administered fuel and electricity prices separately from freight-intensive market goods and services. Match these with oil futures and the exchange rate assumed in the reference projection. The duration of elevated input prices and the frequency of firms’ price resets determine whether an initial relative-price shock still matters at the committee’s decision horizon."
+    },
+    {
+      "question": "Was the first cut a surprise about timing, or about how far rates might fall?",
+      "detail": "Use meeting-sensitive local rates before and after publication, comparing near meetings with longer forwards and checking foreign-rate, currency and oil news. The statement began an easing cycle while leaving its future pace open. A small first-meeting reaction and a large change farther out could therefore be telling quite different stories. Compare the previous day’s close with the last tradable price before publication to assess how much apparent surprise arose earlier."
+    }
+  ],
+  "limitation": ""
+}
