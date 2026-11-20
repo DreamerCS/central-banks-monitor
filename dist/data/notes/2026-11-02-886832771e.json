@@ -1,0 +1,28 @@
+{
+  "title": "When a higher yield draws nonbank lenders in, and when it drives them out",
+  "bank": "Deutsche Bundesbank",
+  "date": "2026-11-02",
+  "url": "https://www.bundesbank.de/en/publications/research/discussion-papers/when-nonbanks-dampen-and-when-they-amplify-a-yield-curve-view-of-the-nonbank-lending-channel-1007926",
+  "summary": [
+    "A monetary surprise can move the overnight rate, expectations for the next few years or the long end of the yield curve. The German evidence in this Bundesbank study shows why that distinction matters for firms with access to both banks and nonbanks. The authors combine supervisory credit records for 2019–23 with unexpected changes in market rates around ECB announcements. They compare lenders serving the same firm in the same quarter. This holds common borrower demand relatively steady while examining changes in the supply of credit. Their 15.7 million observations describe lender–firm–quarter relationships. Reporting depends on exposure to a connected borrower group, limiting what can be inferred about the smallest borrowers.",
+    "A one-standard-deviation short-end surprise increases lending by nonbanks by 0.32% relative to banks. A surprise at medium or long maturities reduces it by 0.36% or 0.34% respectively. The research summary’s first figure traces the relative response across maturities. It approaches zero around the one-year rate before turning negative. These comparisons concern unexpected movements in rates and differences across lenders. A positive difference can arise if one lender contracts less than another, even when the borrower’s total borrowing falls. The full paper therefore also estimates firm-level credit outcomes.",
+    "Leasing and factoring companies are especially important to the short-end result. These financial service institutions obtain around 85% of their funding from banks. Their lending after a short-end surprise rises by 0.87% relative to banks. The apparent substitute for bank credit can itself depend on bank balance sheets. Banks with less capital reallocate credit toward these institutions, which have lower recorded probabilities of default than non-financial firms. This can economise on regulatory capital when margins are under pressure. The full paper’s Table 5 and Figure 6 link the reallocation to differences in banks’ starting capital. The pattern disappears further out on the yield curve.",
+    "Insurance companies can move in the opposite direction. A rise in medium- or longer-term rates reduces the present value of their liabilities. If their liabilities have longer duration than their assets, the resulting improvement in solvency can support additional lending. Tables 6 and 7 compare solvency and lending across life and non-life insurers. Life insurers, with longer-dated commitments, experience larger improvements and expand lending more strongly. This lending tends to reach larger firms. Leasing and factoring institutions are more important for small and medium-sized firms at the short end. The authors find no systematic shift toward riskier businesses.",
+    "For firms with an existing nonbank relationship, total credit after a short-end surprise is 0.79% higher relative to firms without such a relationship. The differences are negative after medium- and long-end surprises. Applying these estimates to the covered credit exposures gives illustrative amounts of €10.7 billion more following the short shock, €18.0 billion less after the medium shock and €15.9 billion less after the long shock. These are scaled estimates, not observed cash flows from a particular ECB meeting. Their cross-country relevance depends on who supplies nonbank credit, which institutions fund those lenders and how exposed borrowers are to each of them."
+  ],
+  "questions": [
+    {
+      "question": "Does the maturity of the surprise still predict total credit once firms’ access to each nonbank type is measured separately?",
+      "detail": "Use pre-announcement links to leasing and factoring companies, life insurers and non-life insurers in the credit register. Compare otherwise similar firms with different lender combinations. If the one-year reversal disappears for insurer-only borrowers but persists in the aggregate, lender composition would account for an important part of the result."
+    },
+    {
+      "question": "Is regulatory capital relief the reason banks redirect funding to leasing and factoring institutions?",
+      "detail": "Match changes in bank-to-intermediary exposures to the originating bank’s capital headroom, the estimated risk weights on competing loans and funding maturities. Compare banks facing similar short-rate surprises but different capital constraints. A change concentrated in low-capital banks with a material risk-weight advantage would be more persuasive than a general rise in intermediary borrowing."
+    },
+    {
+      "question": "When does an improvement in insurers’ solvency become an increase in credit to firms?",
+      "detail": "Link asset and liability duration, liquid assets, solvency ratios and new lending at individual insurers. Compare life and non-life companies with similar initial solvency but different duration gaps following long-end surprises. A solvency gain accompanied only by bond purchases would qualify the inference about support for corporate borrowers in the credit register."
+    }
+  ],
+  "limitation": ""
+}
