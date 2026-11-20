@@ -1,8 +1,12 @@
 import { renderVintageCheck } from './vintage-check.js';
+import { buildPatternViews } from './empirical-patterns.js';
 
 const content = document.querySelector("#es-content");
 const query = new URLSearchParams(location.search);
-const studies = {inflation:"inflation-study", markets:"event-study", guidance:"guidance-study"};
+const studies = {
+  inflation:"inflation-study", markets:"event-study", guidance:"guidance-study",
+  composition:"inflation-composition", signals:"signal-mix"
+};
 const requested = query.get("study");
 const current = Object.hasOwn(studies, requested) ? requested : "inflation";
 const ink = {gold:"#edc398", blue:"#91cad1", green:"#a6c493", white:"#f2efda", coral:"#e6a493"};
@@ -382,7 +386,14 @@ function guidance(d){
   box.append(details("Sample construction and data",...sentences(d.method),sources([{label:bank.sourceLabel,url:bank.source}])));
   return box;
 }
-const views={inflation,markets,guidance};
+const views = {
+  inflation, markets, guidance,
+  ...buildPatternViews({
+    el, anchor, pick, select, table, details, sources, summaryFacts, plot, legend,
+    nfmt, signed, interval, limits, ticks, svg, monthNumber, monthTicks, monthReadout,
+    resultPair, addInputs, sentences, ink
+  })
+};
 let dataset;
 function paint(focus) {
   content.replaceChildren(views[current](dataset));

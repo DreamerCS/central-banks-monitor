@@ -74,16 +74,16 @@ function svgNode(tag,attributes={}) {
   for (const [k,v] of Object.entries(attributes)) n.setAttribute(k,v);
   return n;
 }
-function chart(rows, series, anchor, geography, recessions) {
+function chart(rows, series, anchor, geography, recessions, options = {}) {
   const figure=el("figure",undefined,"hs-figure"), heading=el("figcaption"), controls=el("div",undefined,"hs-bars");
   const graphic=svgNode("svg",{viewBox:"0 0 760 190","aria-hidden":"true"}),slider=el("input",undefined,"hs-slider"),output=el("output");
-  let key="cpiYoY", index=Math.max(0,rows.findIndex(d=>d.month===anchor));
+  const names=options.names || {cpiYoY:"Consumer price inflation · year on year",unemployment:"Unemployment rate",industrialProductionYoY:"Industrial production · year on year"};
+  let key=Object.keys(names)[0], index=Math.max(0,rows.findIndex(d=>d.month===anchor));
   if(!rows.length)return el("p","No published monthly observations in this period.");
   slider.type="range";slider.min=0;slider.max=rows.length-1;slider.step=1;slider.value=index;
   slider.setAttribute("aria-label","Observation month");
-  const names={cpiYoY:"Consumer price inflation · year on year",unemployment:"Unemployment rate",industrialProductionYoY:"Industrial production · year on year"};
   controls.append(select("Indicator",Object.entries(names),key,value=>{key=value;draw();}));
-  const hint=el("div",recessions?"Shading indicates US recession months, dated retrospectively.":"Euro area · fixed EA21 membership.","hs-legend");
+  const hint=el("div",options.hint || (recessions?"Shading indicates US recession months, dated retrospectively.":"Euro area · fixed EA21 membership."),"hs-legend");
   const credits=el("p",undefined,"hs-legend");
   figure.append(el("div",geography+" · monthly observations","hs-kicker"),heading,controls,graphic,slider,output,hint,credits);
   function draw() {
@@ -119,6 +119,7 @@ function chart(rows, series, anchor, geography, recessions) {
     const value=rows[index][key];
     if(Number.isFinite(value)) graphic.append(svgNode("circle",{cx:x(index),cy:y(value),r:4,fill:colours.point}));
     output.textContent=rows[index].month+"  ·  "+(Number.isFinite(value)?num(value,2)+"%":"No observation");
+    if (Number.isInteger(rows[index].n)) output.textContent += "  ·  " + rows[index].n + " matched daily returns";
     slider.setAttribute("aria-valuetext",output.textContent);
     const s=series[key];credits.replaceChildren(link(s.source,s.sourceUrl));
     credits.firstChild.style.color="inherit";
@@ -156,11 +157,34 @@ async function cycles() {
   const item=episodes.find(x=>x.id===params.get("episode"))||episodes.find(x=>x.id==="volcker");
   const {grid,nav,article}=layout();nav.setAttribute("aria-label","Historical episodes");
   for(const ep of episodes) nav.append(navItem(ep.name,ep.period,local("cycles",{episode:ep.id}),item.id===ep.id));
-  article.append(el("p","United States · "+item.period,"hs-kicker"),el("h2",item.name),el("p",item.headline,"hs-deck"),
-    chart(history.rows.filter(r=>r.month>=item.start&&r.month<=item.end),history.series,item.anchor,history.geography,true),
-    el("p",item.analysis));
+  article.append(el("p",(item.geography || "United States")+" · "+item.period,"hs-kicker"),el("h2",item.name),el("p",item.headline,"hs-deck"));
+  if (item.id === "bretton-woods-floats") {
+    const fx = await read("historical-fx");
+    article.append(chart(fx.rows, fx.series, item.anchor, item.geography, false, {
+      names: {dem:"Deutsche mark · mean absolute daily move", gbp:"Sterling · mean absolute daily move"},
+      hint:"Daily log changes against the US dollar, averaged by calendar month on common observation dates."
+    }));
+    const rows = fx.windows.slice(0, 3).map(({label, main}) => [
+      label, main.firstReturnEnd + " to " + main.lastReturnEnd, main.n,
+      num(main.currency.gbp.meanAbsolutePct, 3) + "%", num(main.currency.dem.meanAbsolutePct, 3) + "%"
+    ]);
+    article.append(el("h3","How much did each currency move?"),
+      table(["Exchange-rate arrangement","Return dates","Days","Sterling · mean absolute move","Mark · mean absolute move"],rows,"Mean absolute daily log returns against the dollar"));
+  } else {
+    article.append(chart(history.rows.filter(r=>r.month>=item.start&&r.month<=item.end),history.series,item.anchor,history.geography,true));
+  }
+  article.append(el("p",item.analysis));
   for(const part of item.details || []) article.append(el("h3",part.heading),el("p",part.text));
-  article.append(el("h3","What would test the analogy?"),el("p",item.test),sourceList(item.sources),testSection(tests));
+  if (item.balanceSheet) {
+    const {title, note, rows} = item.balanceSheet;
+    article.append(el("h3", title), el("p", note),
+      table(["Wednesday observation", "Reserve Bank credit", "Securities held outright", "Term auction credit"],
+        rows.map(row => [link(row.date, row.url), num(row.credit, 2), num(row.outright, 2),
+          row.auction === null ? "Before launch" : num(row.auction, 2)]), title));
+  }
+  if (item.studyLink) article.append(link(item.studyLink.label, item.studyLink.url));
+  article.append(el("h3","What would test the analogy?"),el("p",item.test),sourceList(item.sources));
+  if (item.id !== "bretton-woods-floats") article.append(testSection(tests));
   return grid;
 }
 const signalLabels = {

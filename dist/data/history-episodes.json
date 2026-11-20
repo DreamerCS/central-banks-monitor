@@ -17,6 +17,50 @@
     ]
   },
   {
+    "id": "bretton-woods-floats",
+    "period": "1971–1974",
+    "name": "When the dollar bands gave way",
+    "geography": "United Kingdom and West Germany",
+    "start": "1971-01",
+    "end": "1974-12",
+    "anchor": "1973-03",
+    "headline": "Sterling floated nine months before the Deutsche mark joined the European float against the dollar.",
+    "analysis": "The August 1971 suspension of official dollar-to-gold convertibility left a separate question open. Which exchange rates would central banks still defend? The December Smithsonian settlement reset parities and widened trading margins. Britain announced a sterling float on 23 June 1972. In March 1973 several European currencies began floating together against the dollar while retaining a band among themselves. Markets officially reopened on 19 March. Each step changed a different constraint for a trader hedging a dollar liability.",
+    "details": [
+      {
+        "heading": "The mark moved more even on a typical day",
+        "text": "From July 1972 to January 1973, sterling’s mean absolute daily move against the dollar was 0.118% and the mark’s was 0.079%. From late March to September 1973, the averages reached 0.204% and 0.600% on the same 128 observation days. For the mark the median rose from 0.063% to 0.369%. Ending the latter window on 22 June, before the late-June mark realignment, gives 0.412% over 62 days. Extending the window to the end of 1974 gives 0.525% over 423 days. Sterling also moved more despite already floating during both periods. A broader change in dollar conditions accompanied the change in the mark’s regime."
+      },
+      {
+        "heading": "What the quotes measure",
+        "text": "The series use the New York noon buying rates. Sterling is quoted in dollars per pound. The German quote is inverted so both returns measure local-currency appreciation against the dollar. The chart averages absolute daily log changes over each month. The table uses interior windows and omits the transition crises. Each daily return requires both currencies to be observed on the date and preceding weekday. Friday to Monday is eligible, holidays with missing observations are not bridged, and unchanged quotes remain in the sample. Two large reversing mark moves in March 1972 influence the first window’s mean. Dropping the two returns touching 17 March reduces that mean from 0.181% to 0.129%."
+      }
+    ],
+    "test": "A defended spot rate can conceal pressure in reserve losses, forward discounts or overnight rates. A stronger comparison would measure reserve intervention net of valuation and borrowing, as well as forward rates and dealer spreads, on either side of the regime changes. Volatility in the same dollar pair can reflect a change in the exchange-rate rules, in US news, or in dealer liquidity. These window comparisons do not separate those causes.",
+    "sources": [
+      {
+        "label": "Federal Reserve History · Smithsonian Agreement",
+        "url": "https://www.federalreservehistory.org/essays/smithsonian-agreement"
+      },
+      {
+        "label": "UK Parliament · sterling float announced on 23 June 1972",
+        "url": "https://api.parliament.uk/historic-hansard/lords/1972/jun/23/sterling-floating-pound-decision"
+      },
+      {
+        "label": "Federal Reserve Bank of New York · July 1973 exchange operations report",
+        "url": "https://www.newyorkfed.org/medialibrary/media/research/monthly_review/1973_pdf/07_3_73.pdf"
+      },
+      {
+        "label": "Federal Reserve H.10 · sterling",
+        "url": "https://www.federalreserve.gov/releases/h10/hist/dat89_uk.txt"
+      },
+      {
+        "label": "Federal Reserve H.10 · Deutsche mark",
+        "url": "https://www.federalreserve.gov/releases/h10/hist/dat89_ge.txt"
+      }
+    ]
+  },
+  {
     "id": "oil-embargo",
     "period": "1972–1976",
     "name": "The first oil shock",
@@ -153,8 +197,67 @@
       {
         "label": "FOMC · December 2008 decision",
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm"
+      },
+      {
+        "label": "Federal Reserve Board · Term Auction Facility",
+        "url": "https://www.federalreserve.gov/monetarypolicy/taf.htm"
+      },
+      {
+        "label": "Federal Reserve Board · Term Securities Lending Facility",
+        "url": "https://www.federalreserve.gov/monetarypolicy/tslf.htm"
       }
-    ]
+    ],
+    "details": [
+      {
+        "heading": "Before Lehman, the mix of credit changed first",
+        "text": "From 8 August 2007 to 10 September 2008, Reserve Bank credit grew by $55.6bn. Over the same interval the Fed’s outright securities holdings fell by $311.0bn, from 93% to 53% of Reserve Bank credit. By March 2008, banks had already borrowed $80bn through the Term Auction Facility. This change in the mix of the Fed’s claims matters for a lender assessing whether a borrower can roll its funding. The headline stock of central bank credit reveals little about which institutions could borrow, against what collateral, or for how long."
+      },
+      {
+        "heading": "Five weeks of expansion",
+        "text": "Between 10 September and 15 October 2008, Reserve Bank credit rose by $846.8bn, while outright holdings rose by $10.9bn. Term auction credit increased by $113.1bn, only part of the expansion. The term auction provided funding to depository institutions against collateral. Under the separate Term Securities Lending Facility, primary dealers could borrow Treasuries against other eligible securities, improving the collateral available for private funding. The securities-for-securities exchange would be missed by counting outright purchases alone. The weekly stocks establish the change in scale and instrument mix. They leave open how much private funding would have disappeared without the facilities and whether the ultimate borrowers were solvent."
+      }
+    ],
+    "balanceSheet": {
+      "title": "The Fed’s crisis balance sheet",
+      "note": "Wednesday observations from the original H.4.1 releases, US$ billions. Reserve Bank credit is the aggregate in table 1. Securities held outright and term auction credit are components. The term auction began in December 2007.",
+      "rows": [
+        {
+          "date": "2007-08-08",
+          "credit": 851.16,
+          "outright": 790.82,
+          "auction": null,
+          "url": "https://www.federalreserve.gov/releases/h41/20070809/"
+        },
+        {
+          "date": "2008-03-19",
+          "credit": 873.017,
+          "outright": 660.484,
+          "auction": 80,
+          "url": "https://www.federalreserve.gov/releases/h41/20080320/"
+        },
+        {
+          "date": "2008-09-10",
+          "credit": 906.793,
+          "outright": 479.782,
+          "auction": 150,
+          "url": "https://www.federalreserve.gov/releases/h41/20080911/"
+        },
+        {
+          "date": "2008-10-15",
+          "credit": 1753.599,
+          "outright": 490.66,
+          "auction": 263.092,
+          "url": "https://www.federalreserve.gov/releases/h41/20081016/"
+        },
+        {
+          "date": "2008-12-17",
+          "credit": 2294.626,
+          "outright": 493.759,
+          "auction": 447.959,
+          "url": "https://www.federalreserve.gov/releases/h41/20081218/"
+        }
+      ]
+    }
   },
   {
     "id": "pandemic",
@@ -200,6 +303,10 @@
         "label": "FOMC · operating framework",
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190130c.htm"
       }
-    ]
+    ],
+    "studyLink": {
+      "label": "Explore monthly supply and demand contributions to PCE inflation",
+      "url": "empirical-studies.html?study=composition"
+    }
   }
 ]

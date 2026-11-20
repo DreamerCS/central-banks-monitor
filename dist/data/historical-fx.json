@@ -1,0 +1,849 @@
+{
+  "series": {
+    "gbp": {
+      "label": "Pound sterling",
+      "source": "Federal Reserve Board · H.10",
+      "sourceUrl": "https://www.federalreserve.gov/releases/h10/hist/dat89_uk.txt",
+      "unit": "Percent",
+      "rawQuoteUnit": "US dollars per pound",
+      "sha256": "fb2c22fc26ed13f688debf087d7f1061b15abda5f7100c4cdfa9ad555bbd38fa"
+    },
+    "dem": {
+      "label": "Deutsche mark",
+      "source": "Federal Reserve Board · H.10",
+      "sourceUrl": "https://www.federalreserve.gov/releases/h10/hist/dat89_ge.txt",
+      "unit": "Percent",
+      "rawQuoteUnit": "Deutsche marks per US dollar",
+      "sha256": "8cfc4aae7f3bd0c646da10aa694d52f90063fc9dd12ffbb4a7bbdf499346ffe6"
+    }
+  },
+  "statistic": "Mean absolute daily log change against the US dollar, percent",
+  "observation": "New York noon buying rate for cable transfers",
+  "calendar": "Each return requires both currencies on consecutive weekdays. Friday to Monday qualifies. Missing quotes are never carried forward. Repeated quotes remain in the main estimates.",
+  "monthlyRule": "All matched returns are assigned to the month of their ending quote, including transitions. Both endpoints must lie inside each regime window.",
+  "coverage": {
+    "firstQuote": "1971-01-04",
+    "lastQuote": "1974-12-31",
+    "weekdayRows": 1042,
+    "matchedReturns": 954
+  },
+  "rows": [
+    {
+      "month": "1971-01",
+      "gbp": 0.06214043,
+      "dem": 0.02691071,
+      "n": 19
+    },
+    {
+      "month": "1971-02",
+      "gbp": 0.0406444,
+      "dem": 0.02380728,
+      "n": 17
+    },
+    {
+      "month": "1971-03",
+      "gbp": 0.02696658,
+      "dem": 0.02621665,
+      "n": 23
+    },
+    {
+      "month": "1971-04",
+      "gbp": 0.03517394,
+      "dem": 0.04537923,
+      "n": 22
+    },
+    {
+      "month": "1971-05",
+      "gbp": 0.02129363,
+      "dem": 0.35526282,
+      "n": 20
+    },
+    {
+      "month": "1971-06",
+      "gbp": 0.0177198,
+      "dem": 0.11801784,
+      "n": 21
+    },
+    {
+      "month": "1971-07",
+      "gbp": 0.0142648,
+      "dem": 0.0801719,
+      "n": 20
+    },
+    {
+      "month": "1971-08",
+      "gbp": 0.16158683,
+      "dem": 0.24152874,
+      "n": 16
+    },
+    {
+      "month": "1971-09",
+      "gbp": 0.08598393,
+      "dem": 0.18409852,
+      "n": 20
+    },
+    {
+      "month": "1971-10",
+      "gbp": 0.09864356,
+      "dem": 0.12518006,
+      "n": 17
+    },
+    {
+      "month": "1971-11",
+      "gbp": 0.01738139,
+      "dem": 0.1103493,
+      "n": 18
+    },
+    {
+      "month": "1971-12",
+      "gbp": 0.10273437,
+      "dem": 0.23042024,
+      "n": 21
+    },
+    {
+      "month": "1972-01",
+      "gbp": 0.11199916,
+      "dem": 0.16415864,
+      "n": 21
+    },
+    {
+      "month": "1972-02",
+      "gbp": 0.10865795,
+      "dem": 0.23969697,
+      "n": 19
+    },
+    {
+      "month": "1972-03",
+      "gbp": 0.16947628,
+      "dem": 0.39526637,
+      "n": 23
+    },
+    {
+      "month": "1972-04",
+      "gbp": 0.0488412,
+      "dem": 0.10010937,
+      "n": 20
+    },
+    {
+      "month": "1972-05",
+      "gbp": 0.0326253,
+      "dem": 0.06723218,
+      "n": 21
+    },
+    {
+      "month": "1972-06",
+      "gbp": 0.38571476,
+      "dem": 0.19675945,
+      "n": 22
+    },
+    {
+      "month": "1972-07",
+      "gbp": 0.16726201,
+      "dem": 0.08305901,
+      "n": 19
+    },
+    {
+      "month": "1972-08",
+      "gbp": 0.05519087,
+      "dem": 0.08961942,
+      "n": 23
+    },
+    {
+      "month": "1972-09",
+      "gbp": 0.07991823,
+      "dem": 0.06313016,
+      "n": 19
+    },
+    {
+      "month": "1972-10",
+      "gbp": 0.24170793,
+      "dem": 0.10965763,
+      "n": 18
+    },
+    {
+      "month": "1972-11",
+      "gbp": 0.17747757,
+      "dem": 0.07233776,
+      "n": 18
+    },
+    {
+      "month": "1972-12",
+      "gbp": 0.10302538,
+      "dem": 0.06551514,
+      "n": 19
+    },
+    {
+      "month": "1973-01",
+      "gbp": 0.08325139,
+      "dem": 0.14162777,
+      "n": 21
+    },
+    {
+      "month": "1973-02",
+      "gbp": 0.48419355,
+      "dem": 0.81681501,
+      "n": 16
+    },
+    {
+      "month": "1973-03",
+      "gbp": 0.25220222,
+      "dem": 0.44490803,
+      "n": 22
+    },
+    {
+      "month": "1973-04",
+      "gbp": 0.07881541,
+      "dem": 0.27323325,
+      "n": 21
+    },
+    {
+      "month": "1973-05",
+      "gbp": 0.32146277,
+      "dem": 0.37921626,
+      "n": 21
+    },
+    {
+      "month": "1973-06",
+      "gbp": 0.13366488,
+      "dem": 0.77207519,
+      "n": 21
+    },
+    {
+      "month": "1973-07",
+      "gbp": 0.27218651,
+      "dem": 1.075814,
+      "n": 20
+    },
+    {
+      "month": "1973-08",
+      "gbp": 0.26806183,
+      "dem": 0.7230328,
+      "n": 23
+    },
+    {
+      "month": "1973-09",
+      "gbp": 0.15725911,
+      "dem": 0.44872819,
+      "n": 18
+    },
+    {
+      "month": "1973-10",
+      "gbp": 0.21348116,
+      "dem": 0.26437252,
+      "n": 19
+    },
+    {
+      "month": "1973-11",
+      "gbp": 0.26956471,
+      "dem": 0.57928233,
+      "n": 18
+    },
+    {
+      "month": "1973-12",
+      "gbp": 0.18947297,
+      "dem": 0.27386611,
+      "n": 19
+    },
+    {
+      "month": "1974-01",
+      "gbp": 0.66463184,
+      "dem": 0.94373351,
+      "n": 21
+    },
+    {
+      "month": "1974-02",
+      "gbp": 0.46190671,
+      "dem": 0.43020774,
+      "n": 16
+    },
+    {
+      "month": "1974-03",
+      "gbp": 0.49795529,
+      "dem": 0.63303659,
+      "n": 21
+    },
+    {
+      "month": "1974-04",
+      "gbp": 0.30634706,
+      "dem": 0.49403212,
+      "n": 22
+    },
+    {
+      "month": "1974-05",
+      "gbp": 0.24812356,
+      "dem": 0.68757479,
+      "n": 21
+    },
+    {
+      "month": "1974-06",
+      "gbp": 0.22777311,
+      "dem": 0.4406883,
+      "n": 20
+    },
+    {
+      "month": "1974-07",
+      "gbp": 0.12975895,
+      "dem": 0.39997895,
+      "n": 21
+    },
+    {
+      "month": "1974-08",
+      "gbp": 0.25363811,
+      "dem": 0.32405873,
+      "n": 22
+    },
+    {
+      "month": "1974-09",
+      "gbp": 0.11876866,
+      "dem": 0.2006036,
+      "n": 19
+    },
+    {
+      "month": "1974-10",
+      "gbp": 0.1457642,
+      "dem": 0.34301207,
+      "n": 21
+    },
+    {
+      "month": "1974-11",
+      "gbp": 0.20934404,
+      "dem": 0.9402904,
+      "n": 15
+    },
+    {
+      "month": "1974-12",
+      "gbp": 0.24601519,
+      "dem": 0.48642479,
+      "n": 20
+    }
+  ],
+  "windows": [
+    {
+      "label": "Smithsonian bands",
+      "permittedQuoteRange": [
+        "1971-12-21",
+        "1972-06-16"
+      ],
+      "main": {
+        "firstReturnEnd": "1971-12-22",
+        "lastReturnEnd": "1972-06-16",
+        "n": 124,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.09307003,
+            "medianAbsolutePct": 0.03674297,
+            "rootMeanSquarePct": 0.15977434,
+            "zeroMoves": 6,
+            "maxAbsolutePct": 0.69838953
+          },
+          "dem": {
+            "meanAbsolutePct": 0.18053781,
+            "medianAbsolutePct": 0.06747907,
+            "rootMeanSquarePct": 0.46735995,
+            "zeroMoves": 5,
+            "maxAbsolutePct": 3.46055292
+          }
+        }
+      },
+      "common100": {
+        "firstReturnEnd": "1971-12-22",
+        "lastReturnEnd": "1972-05-11",
+        "n": 100,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.10243425,
+            "medianAbsolutePct": 0.04601143,
+            "rootMeanSquarePct": 0.17056016,
+            "zeroMoves": 5,
+            "maxAbsolutePct": 0.69838953
+          },
+          "dem": {
+            "meanAbsolutePct": 0.20676647,
+            "medianAbsolutePct": 0.07867497,
+            "rootMeanSquarePct": 0.51852663,
+            "zeroMoves": 3,
+            "maxAbsolutePct": 3.46055292
+          }
+        }
+      },
+      "bothQuotesChanged": {
+        "firstReturnEnd": "1971-12-22",
+        "lastReturnEnd": "1972-06-16",
+        "n": 113,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.10002688,
+            "medianAbsolutePct": 0.03828484,
+            "rootMeanSquarePct": 0.16678997,
+            "zeroMoves": 0,
+            "maxAbsolutePct": 0.69838953
+          },
+          "dem": {
+            "meanAbsolutePct": 0.19568362,
+            "medianAbsolutePct": 0.07886809,
+            "rootMeanSquarePct": 0.48943963,
+            "zeroMoves": 0,
+            "maxAbsolutePct": 3.46055292
+          }
+        }
+      },
+      "noMondays": {
+        "firstReturnEnd": "1971-12-22",
+        "lastReturnEnd": "1972-06-16",
+        "n": 101,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.09390432,
+            "medianAbsolutePct": 0.03823361,
+            "rootMeanSquarePct": 0.16090369,
+            "zeroMoves": 4,
+            "maxAbsolutePct": 0.69838953
+          },
+          "dem": {
+            "meanAbsolutePct": 0.16085428,
+            "medianAbsolutePct": 0.06417603,
+            "rootMeanSquarePct": 0.3972761,
+            "zeroMoves": 5,
+            "maxAbsolutePct": 3.46055292
+          }
+        }
+      },
+      "excludingMarch17Fixing": {
+        "firstReturnEnd": "1971-12-22",
+        "lastReturnEnd": "1972-06-16",
+        "n": 122,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.09130425,
+            "medianAbsolutePct": 0.03674297,
+            "rootMeanSquarePct": 0.15730434,
+            "zeroMoves": 6,
+            "maxAbsolutePct": 0.69838953
+          },
+          "dem": {
+            "meanAbsolutePct": 0.12857702,
+            "medianAbsolutePct": 0.06657671,
+            "rootMeanSquarePct": 0.19446017,
+            "zeroMoves": 5,
+            "maxAbsolutePct": 0.91765461
+          }
+        }
+      }
+    },
+    {
+      "label": "Sterling floating, mark in dollar band",
+      "permittedQuoteRange": [
+        "1972-07-03",
+        "1973-01-19"
+      ],
+      "main": {
+        "firstReturnEnd": "1972-07-06",
+        "lastReturnEnd": "1973-01-19",
+        "n": 128,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.11844227,
+            "medianAbsolutePct": 0.06126702,
+            "rootMeanSquarePct": 0.19252277,
+            "zeroMoves": 3,
+            "maxAbsolutePct": 0.72263864
+          },
+          "dem": {
+            "meanAbsolutePct": 0.07913672,
+            "medianAbsolutePct": 0.06323465,
+            "rootMeanSquarePct": 0.1057316,
+            "zeroMoves": 8,
+            "maxAbsolutePct": 0.39521369
+          }
+        }
+      },
+      "common100": {
+        "firstReturnEnd": "1972-07-06",
+        "lastReturnEnd": "1972-12-06",
+        "n": 100,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.13058941,
+            "medianAbsolutePct": 0.06118706,
+            "rootMeanSquarePct": 0.21173631,
+            "zeroMoves": 2,
+            "maxAbsolutePct": 0.72263864
+          },
+          "dem": {
+            "meanAbsolutePct": 0.08603123,
+            "medianAbsolutePct": 0.06576168,
+            "rootMeanSquarePct": 0.1136418,
+            "zeroMoves": 6,
+            "maxAbsolutePct": 0.39521369
+          }
+        }
+      },
+      "bothQuotesChanged": {
+        "firstReturnEnd": "1972-07-06",
+        "lastReturnEnd": "1973-01-19",
+        "n": 117,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.12457595,
+            "medianAbsolutePct": 0.06123074,
+            "rootMeanSquarePct": 0.2002177,
+            "zeroMoves": 0,
+            "maxAbsolutePct": 0.72263864
+          },
+          "dem": {
+            "meanAbsolutePct": 0.08454874,
+            "medianAbsolutePct": 0.06602424,
+            "rootMeanSquarePct": 0.10913424,
+            "zeroMoves": 0,
+            "maxAbsolutePct": 0.39521369
+          }
+        }
+      },
+      "noMondays": {
+        "firstReturnEnd": "1972-07-06",
+        "lastReturnEnd": "1973-01-19",
+        "n": 105,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.11670993,
+            "medianAbsolutePct": 0.06388552,
+            "rootMeanSquarePct": 0.18537004,
+            "zeroMoves": 2,
+            "maxAbsolutePct": 0.72263864
+          },
+          "dem": {
+            "meanAbsolutePct": 0.07594576,
+            "medianAbsolutePct": 0.06256452,
+            "rootMeanSquarePct": 0.10411357,
+            "zeroMoves": 8,
+            "maxAbsolutePct": 0.39521369
+          }
+        }
+      }
+    },
+    {
+      "label": "Both floating against dollar, before October oil shock",
+      "permittedQuoteRange": [
+        "1973-03-26",
+        "1973-09-28"
+      ],
+      "main": {
+        "firstReturnEnd": "1973-03-27",
+        "lastReturnEnd": "1973-09-28",
+        "n": 128,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.20412981,
+            "medianAbsolutePct": 0.12288274,
+            "rootMeanSquarePct": 0.30147007,
+            "zeroMoves": 5,
+            "maxAbsolutePct": 1.10892225
+          },
+          "dem": {
+            "meanAbsolutePct": 0.60034573,
+            "medianAbsolutePct": 0.36878796,
+            "rootMeanSquarePct": 0.86952213,
+            "zeroMoves": 3,
+            "maxAbsolutePct": 2.98711633
+          }
+        }
+      },
+      "common100": {
+        "firstReturnEnd": "1973-03-27",
+        "lastReturnEnd": "1973-08-17",
+        "n": 100,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.20965267,
+            "medianAbsolutePct": 0.11845784,
+            "rootMeanSquarePct": 0.31408506,
+            "zeroMoves": 3,
+            "maxAbsolutePct": 1.10892225
+          },
+          "dem": {
+            "meanAbsolutePct": 0.60720549,
+            "medianAbsolutePct": 0.37975278,
+            "rootMeanSquarePct": 0.87949415,
+            "zeroMoves": 2,
+            "maxAbsolutePct": 2.98711633
+          }
+        }
+      },
+      "bothQuotesChanged": {
+        "firstReturnEnd": "1973-03-27",
+        "lastReturnEnd": "1973-09-28",
+        "n": 120,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.21380684,
+            "medianAbsolutePct": 0.12985863,
+            "rootMeanSquarePct": 0.3103059,
+            "zeroMoves": 0,
+            "maxAbsolutePct": 1.10892225
+          },
+          "dem": {
+            "meanAbsolutePct": 0.62981106,
+            "medianAbsolutePct": 0.39436452,
+            "rootMeanSquarePct": 0.89573562,
+            "zeroMoves": 0,
+            "maxAbsolutePct": 2.98711633
+          }
+        }
+      },
+      "noMondays": {
+        "firstReturnEnd": "1973-03-27",
+        "lastReturnEnd": "1973-09-28",
+        "n": 104,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.20534274,
+            "medianAbsolutePct": 0.13741666,
+            "rootMeanSquarePct": 0.29123145,
+            "zeroMoves": 4,
+            "maxAbsolutePct": 0.97982363
+          },
+          "dem": {
+            "meanAbsolutePct": 0.53799537,
+            "medianAbsolutePct": 0.34682045,
+            "rootMeanSquarePct": 0.77106094,
+            "zeroMoves": 3,
+            "maxAbsolutePct": 2.93991515
+          }
+        }
+      }
+    },
+    {
+      "label": "Both floating, through end 1974",
+      "permittedQuoteRange": [
+        "1973-03-26",
+        "1974-12-31"
+      ],
+      "main": {
+        "firstReturnEnd": "1973-03-27",
+        "lastReturnEnd": "1974-12-31",
+        "n": 423,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.25680977,
+            "medianAbsolutePct": 0.16708442,
+            "rootMeanSquarePct": 0.38608501,
+            "zeroMoves": 10,
+            "maxAbsolutePct": 2.19886705
+          },
+          "dem": {
+            "meanAbsolutePct": 0.5248022,
+            "medianAbsolutePct": 0.36877233,
+            "rootMeanSquarePct": 0.75688007,
+            "zeroMoves": 7,
+            "maxAbsolutePct": 3.70831388
+          }
+        }
+      },
+      "common100": {
+        "firstReturnEnd": "1973-03-27",
+        "lastReturnEnd": "1973-08-17",
+        "n": 100,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.20965267,
+            "medianAbsolutePct": 0.11845784,
+            "rootMeanSquarePct": 0.31408506,
+            "zeroMoves": 3,
+            "maxAbsolutePct": 1.10892225
+          },
+          "dem": {
+            "meanAbsolutePct": 0.60720549,
+            "medianAbsolutePct": 0.37975278,
+            "rootMeanSquarePct": 0.87949415,
+            "zeroMoves": 2,
+            "maxAbsolutePct": 2.98711633
+          }
+        }
+      },
+      "bothQuotesChanged": {
+        "firstReturnEnd": "1973-03-27",
+        "lastReturnEnd": "1974-12-31",
+        "n": 406,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.26562271,
+            "medianAbsolutePct": 0.16867818,
+            "rootMeanSquarePct": 0.39372686,
+            "zeroMoves": 0,
+            "maxAbsolutePct": 2.19886705
+          },
+          "dem": {
+            "meanAbsolutePct": 0.54062631,
+            "medianAbsolutePct": 0.37764467,
+            "rootMeanSquarePct": 0.77104844,
+            "zeroMoves": 0,
+            "maxAbsolutePct": 3.70831388
+          }
+        }
+      },
+      "noMondays": {
+        "firstReturnEnd": "1973-03-27",
+        "lastReturnEnd": "1974-12-31",
+        "n": 340,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.25417368,
+            "medianAbsolutePct": 0.16782054,
+            "rootMeanSquarePct": 0.37026423,
+            "zeroMoves": 6,
+            "maxAbsolutePct": 1.93337183
+          },
+          "dem": {
+            "meanAbsolutePct": 0.48215335,
+            "medianAbsolutePct": 0.35567535,
+            "rootMeanSquarePct": 0.67931997,
+            "zeroMoves": 7,
+            "maxAbsolutePct": 2.93991515
+          }
+        }
+      }
+    },
+    {
+      "label": "Before May 1971 mark float, contextual",
+      "permittedQuoteRange": [
+        "1971-01-04",
+        "1971-04-30"
+      ],
+      "main": {
+        "firstReturnEnd": "1971-01-05",
+        "lastReturnEnd": "1971-04-30",
+        "n": 81,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.04031705,
+            "medianAbsolutePct": 0.02480261,
+            "rootMeanSquarePct": 0.05915706,
+            "zeroMoves": 7,
+            "maxAbsolutePct": 0.20793487
+          },
+          "dem": {
+            "meanAbsolutePct": 0.03107844,
+            "medianAbsolutePct": 0.01652619,
+            "rootMeanSquarePct": 0.04632581,
+            "zeroMoves": 7,
+            "maxAbsolutePct": 0.18134862
+          }
+        }
+      },
+      "common100": null,
+      "bothQuotesChanged": {
+        "firstReturnEnd": "1971-01-05",
+        "lastReturnEnd": "1971-04-29",
+        "n": 70,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.04505633,
+            "medianAbsolutePct": 0.03516129,
+            "rootMeanSquarePct": 0.06274664,
+            "zeroMoves": 0,
+            "maxAbsolutePct": 0.20793487
+          },
+          "dem": {
+            "meanAbsolutePct": 0.03474525,
+            "medianAbsolutePct": 0.02612323,
+            "rootMeanSquarePct": 0.04918546,
+            "zeroMoves": 0,
+            "maxAbsolutePct": 0.18134862
+          }
+        }
+      },
+      "noMondays": {
+        "firstReturnEnd": "1971-01-05",
+        "lastReturnEnd": "1971-04-30",
+        "n": 66,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.03805302,
+            "medianAbsolutePct": 0.02481544,
+            "rootMeanSquarePct": 0.05431064,
+            "zeroMoves": 6,
+            "maxAbsolutePct": 0.20793487
+          },
+          "dem": {
+            "meanAbsolutePct": 0.02972393,
+            "medianAbsolutePct": 0.0165246,
+            "rootMeanSquarePct": 0.04347777,
+            "zeroMoves": 7,
+            "maxAbsolutePct": 0.14861297
+          }
+        }
+      }
+    },
+    {
+      "label": "Early joint float, ahead of June mark realignment",
+      "permittedQuoteRange": [
+        "1973-03-26",
+        "1973-06-22"
+      ],
+      "main": {
+        "firstReturnEnd": "1973-03-27",
+        "lastReturnEnd": "1973-06-22",
+        "n": 62,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.18164999,
+            "medianAbsolutePct": 0.11627912,
+            "rootMeanSquarePct": 0.28634883,
+            "zeroMoves": 1,
+            "maxAbsolutePct": 1.10892225
+          },
+          "dem": {
+            "meanAbsolutePct": 0.41184984,
+            "medianAbsolutePct": 0.23460531,
+            "rootMeanSquarePct": 0.61930676,
+            "zeroMoves": 2,
+            "maxAbsolutePct": 2.6938675
+          }
+        }
+      },
+      "common100": null,
+      "bothQuotesChanged": {
+        "firstReturnEnd": "1973-03-27",
+        "lastReturnEnd": "1973-06-22",
+        "n": 59,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.18530211,
+            "medianAbsolutePct": 0.11621152,
+            "rootMeanSquarePct": 0.2918549,
+            "zeroMoves": 0,
+            "maxAbsolutePct": 1.10892225
+          },
+          "dem": {
+            "meanAbsolutePct": 0.43135199,
+            "medianAbsolutePct": 0.2539057,
+            "rootMeanSquarePct": 0.63476035,
+            "zeroMoves": 0,
+            "maxAbsolutePct": 2.6938675
+          }
+        }
+      },
+      "noMondays": {
+        "firstReturnEnd": "1973-03-27",
+        "lastReturnEnd": "1973-06-22",
+        "n": 51,
+        "currency": {
+          "gbp": {
+            "meanAbsolutePct": 0.16807775,
+            "medianAbsolutePct": 0.11666344,
+            "rootMeanSquarePct": 0.24740929,
+            "zeroMoves": 1,
+            "maxAbsolutePct": 0.97982363
+          },
+          "dem": {
+            "meanAbsolutePct": 0.3526035,
+            "medianAbsolutePct": 0.1995275,
+            "rootMeanSquarePct": 0.49426294,
+            "zeroMoves": 2,
+            "maxAbsolutePct": 1.22888239
+          }
+        }
+      }
+    }
+  ]
+}
