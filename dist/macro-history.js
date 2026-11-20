@@ -197,6 +197,9 @@ async function cycles() {
           row.auction === null ? "Before launch" : num(row.auction, 2)]), title));
   }
   if (item.studyLink) article.append(link(item.studyLink.label, item.studyLink.url));
+  const comparisonIds = {"oil-embargo":"oil-reopening",volcker:"volcker-reopening","financial-crisis":"funding-runs",pandemic:"funding-runs","recent-inflation":"oil-reopening"};
+  if (comparisonIds[item.id]) article.append(link("Compare the inflation, employment and output paths", local("compare",{pair:comparisonIds[item.id]})));
+
   article.append(el("h3","What would test the analogy?"),el("p",item.test),sourceList(item.sources));
   if (item.id !== "bretton-woods-floats") article.append(testSection(tests));
   return grid;
@@ -277,8 +280,138 @@ async function guidance() {
   page.append(definitions,link("Compare market responses by guidance signal","empirical-studies.html?study=guidance"));
   return page;
 }
+const comparisonMeasures = {
+  cpiYoY: {label: "Annual consumer inflation", unit: "pp", raw: "% year on year"},
+  unemployment: {label: "Unemployment rate", unit: "pp", raw: "% of the labour force"},
+  industrialProduction: {label: "Industrial production level", unit: "%", raw: "index"},
+  cpi: {label: "Consumer price level", unit: "%", raw: "index"}
+};
+
+function relativeMonth(anchor, offset) {
+  const [year, month] = anchor.split("-").map(Number);
+  const serial = year * 12 + month - 1 + offset;
+  return Math.floor(serial / 12) + "-" + String(serial % 12 + 1).padStart(2, "0");
+}
+
+function comparisonPath(rows, anchor, key, reference) {
+  const byMonth = new Map(rows.map(row => [row.month, row[key]]));
+  const base = byMonth.get(relativeMonth(anchor, reference));
+  return Array.from({length: 31}, (_, i) => {
+    const offset = i - 6, month = relativeMonth(anchor, offset);
+    const observed = byMonth.get(month);
+    let change = null;
+    if (Number.isFinite(base) && Number.isFinite(observed)) {
+      if (comparisonMeasures[key].unit === "pp") change = observed - base;
+      else if (base !== 0) change = 100 * (observed / base - 1);
+    }
+    return {offset, month, observed, change};
+  });
+}
+
+function drawComparison(svg, paths, names, unit) {
+  svg.replaceChildren();
+  const values = paths.flatMap(path => path.map(point => point.change)).filter(Number.isFinite);
+  if (!values.length) return;
+  const left = 50, right = 710, top = 16, bottom = 178;
+  const low = Math.min(0, ...values), high = Math.max(0, ...values);
+  const padding = Math.max(0.1, (high - low) * 0.09);
+  const x = offset => left + (offset + 6) * (right - left) / 30;
+  const y = value => top + (high + padding - value) * (bottom - top) / (high - low + 2 * padding);
+  for (const v of new Set([low, 0, high])) {
+    svg.append(svgNode("line", {x1: left, x2: right, y1: y(v), y2: y(v), class: "tick"}));
+    const text = svgNode("text", {x: left - 5, y: y(v) + 4, "text-anchor": "end"});
+    text.textContent = num(v, 1);
+    svg.append(text);
+  }
+  for (const offset of [-6, 0, 6, 12, 18, 24]) {
+    const text = svgNode("text", {x: x(offset), y: 202, "text-anchor": "middle"});
+    text.textContent = offset > 0 ? "+" + offset : String(offset);
+    svg.append(text);
+  }
+  svg.append(svgNode("line", {x1:x(0), x2:x(0), y1:top, y2:bottom, class:"hs-event-line"}));
+  paths.forEach((path, i) => {
+    let d = "", connected = false;
+    for (const p of path) {
+      if (!Number.isFinite(p.change)) { connected = false; continue; }
+      d += (connected ? " L " : " M ") + x(p.offset).toFixed(2) + " " + y(p.change).toFixed(2);
+      connected = true;
+    }
+    const line = svgNode("path", {d, fill:"none", class:"hs-pair-line hs-pair-" + i});
+    svg.append(line);
+  });
+  svg.setAttribute("aria-label", names.join(" compared with ") + ", changes in " + (unit === "pp" ? "percentage points" : "per cent") + " from six months before to 24 months after each anchor");
+}
+
+async function compare() {
+  const settings = await read("episode-comparisons");
+  const pair = settings.comparisons.find(p => p.id === params.get("pair")) || settings.comparisons[0];
+  const events = [settings.episodes[pair.left], settings.episodes[pair.right]];
+  const panels = await Promise.all(events.map(e => read(e.panel)));
+  const {grid, nav, article} = layout();
+  nav.setAttribute("aria-label", "Historical comparisons");
+  let key = Object.hasOwn(comparisonMeasures, params.get("measure")) ? params.get("measure") : "cpiYoY";
+  let reference = params.get("base") === "prior" ? -1 : 0;
+  function query(id) {
+    return local("compare", {pair:id, measure:key, base:reference === -1 ? "prior" : "event"});
+  }
+  for (const p of settings.comparisons) nav.append(navItem(p.label, p.period, query(p.id), p.id === pair.id));
+  article.append(el("p",pair.period,"hs-kicker"), el("h2",pair.title), el("p",pair.lead,"hs-deck"),
+    table(["Anchor month", "Dated event"], events.map(e => [e.month + " · " + e.name, e.action]), "Anchor dates and events"));
+  const figure = el("figure", undefined, "hs-figure hs-compare"), title = el("figcaption"), controls = el("div", undefined, "hs-bars");
+  const graphic = svgNode("svg", {viewBox:"0 0 760 215", role:"img"});
+  const legend = el("div", undefined, "hs-pair-legend"), raw = el("details", undefined, "hs-details");
+  events.forEach((e, i) => legend.append(el("span", e.name + " · " + e.month, "hs-swatch hs-swatch-" + i)));
+  const output = el("div",undefined,"hs-pair-values"), rawBody = el("div");
+  raw.append(el("summary","View underlying observations and dates"),rawBody);
+  controls.append(select("Measure", Object.entries(comparisonMeasures).map(([id,m]) => [id,m.label]), key, v => { key=v; draw(true); }),
+    select("Reference for changes", [["event","Anchor month"],["prior","Month before anchor"]], reference === -1 ? "prior" : "event", v => { reference=v==="prior"?-1:0; draw(true); }));
+  figure.append(title, controls, legend, graphic, el("p","Horizontal axis: months from each dated event. The vertical line marks month zero.","hs-legend"));
+  article.append(figure, output, raw, el("h3","Why compare these episodes?"), el("p",pair.interpretation),
+    el("h3","How to distinguish the explanations"),el("p",pair.test),el("p",pair.limit));
+  const sourceRows = [...pair.sources];
+  const sourceKeys = new Set(sourceRows.map(s => s.url));
+  for (const panel of panels) {
+    for (const measure of Object.keys(comparisonMeasures)) {
+      const s = panel.series[measure];
+      if (!sourceKeys.has(s.sourceUrl)) {
+        sourceKeys.add(s.sourceUrl);
+        sourceRows.push({label:panel.geography + " · " + s.label + " · " + s.source, url:s.sourceUrl});
+      }
+    }
+  }
+  article.append(el("p","Monthly observations use the historical series available in this edition. Subsequent revisions may be included. A policy decision during a month could not have used the complete reading for that month.","hs-byline"),sourceList(sourceRows));
+  const further = el("p");
+  for (const id of pair.episodeIds) {
+    if (further.childNodes.length) further.append(document.createTextNode(" · "));
+    further.append(link("Read " + ({volcker:"the Volcker chronology","oil-embargo":"the oil-shock chronology","financial-crisis":"the financial crisis chronology",pandemic:"the pandemic chronology","recent-inflation":"the reopening chronology"}[id] || "episode"),local("cycles",{episode:id})));
+  }
+  article.append(further);
+  function draw(updateUrl) {
+    const measure = comparisonMeasures[key], names = events.map(e=>e.name);
+    const paths = panels.map((panel,i) => comparisonPath(panel.rows,events[i].month,key,reference));
+    const offsets = [...new Set([-6, reference, 0, 1, 6, 12, 24])].sort((a,b)=>a-b);
+    const signed = value => Number.isFinite(value) ? (value > 0 ? "+" : "") + num(value,2) + " " + measure.unit : "Unavailable";
+    const offsetName = offset => (offset > 0 ? "+" : "") + offset + (offset === reference ? " · reference" : "");
+    title.textContent = measure.label + " · change from " + (reference === -1 ? "the preceding month" : "the anchor month");
+    drawComparison(graphic, paths, names, measure.unit);
+    const results = offsets.map(o => [offsetName(o),...paths.map(p => signed(p[o+6].change))]);
+    output.replaceChildren(table(["Month from anchor",...names],results,measure.label + " compared at equal horizons"));
+    rawBody.replaceChildren(table(["Month from anchor",...names],offsets.map(o=>[offsetName(o),...paths.map(p=>{
+      const {month,observed} = p[o+6];
+      return month + " · " + (Number.isFinite(observed) ? num(observed,2) + " " + measure.raw : "Unavailable");
+    })]),"Calendar-month observations"));
+    rawBody.append(el("p", panels.map((p,i)=>events[i].name + " · " + p.series[key].definition).filter((_,i)=>i===0||events[i].panel!==events[0].panel).join("  "), "hs-byline"));
+    if (updateUrl) {
+      history.replaceState(null,"",query(pair.id));
+      [...nav.querySelectorAll("a")].forEach((a,i)=>{a.href=query(settings.comparisons[i].id);});
+    }
+  }
+  draw(false);
+  return grid;
+}
+
 async function main(){
-  const views={cycles,leaders,guidance};
+  const views={cycles,leaders,guidance,compare};
   const view=Object.hasOwn(views,params.get("view"))?params.get("view"):"cycles";
   document.querySelector('[data-view="'+view+'"]').setAttribute("aria-current","page");
   try {

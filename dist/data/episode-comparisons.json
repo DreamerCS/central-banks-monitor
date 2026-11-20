@@ -1,0 +1,171 @@
+{
+  "episodes": {
+    "oil": {
+      "name": "US oil embargo",
+      "month": "1973-10",
+      "panel": "cycle-context",
+      "action": "19 October 1973. Arab oil producers impose an embargo on the United States. Oil had already become more expensive, and US inflation had already risen."
+    },
+    "vol": {
+      "name": "Volcker operating change",
+      "month": "1979-10",
+      "panel": "cycle-context",
+      "action": "6 October 1979. The Fed places greater emphasis on reserves and money growth, accepting more variation in short-term rates."
+    },
+    "jun": {
+      "name": "US tightening",
+      "month": "2022-06",
+      "panel": "cycle-context",
+      "action": "15 June 2022. The FOMC raises the funds-rate target range by 75 basis points. The June CPI report is released on 13 July, after this decision."
+    },
+    "leh": {
+      "name": "Lehman and money funds",
+      "month": "2008-09",
+      "panel": "cycle-context",
+      "action": "15–19 September 2008. Lehman files for bankruptcy, a large prime money fund breaks the dollar, and the Fed opens a facility to fund eligible asset-backed commercial paper purchases."
+    },
+    "dash": {
+      "name": "The dash for cash",
+      "month": "2020-03",
+      "panel": "cycle-context",
+      "action": "23 March 2020. The FOMC commits to Treasury and agency mortgage-backed securities purchases in amounts needed to restore market functioning."
+    },
+    "fed": {
+      "name": "United States",
+      "month": "2022-07",
+      "panel": "cycle-context",
+      "action": "27 July 2022. The Fed raises its target range a further 75 basis points, to 2.25–2.50%."
+    },
+    "ecb": {
+      "name": "Euro area",
+      "month": "2022-07",
+      "panel": "euro-cycle-context",
+      "action": "21 July 2022. The ECB raises its three key rates by 50 basis points and approves a separate instrument to protect policy transmission across member states."
+    }
+  },
+  "comparisons": [
+    {
+      "id": "oil-reopening",
+      "label": "Oil and reopening",
+      "period": "1973 and 2022 · United States",
+      "title": "Did the inflation of 2022 follow the first oil shock?",
+      "left": "oil",
+      "right": "jun",
+      "episodeIds": [
+        "oil-embargo",
+        "recent-inflation"
+      ],
+      "lead": "Energy prices mattered in both periods. If that alone made them close historical analogues, inflation persistence and the loss of output might have followed similar paths. Start with the year after each anchor, then check the preceding six months.",
+      "interpretation": "US inflation was already rising when the 1973 embargo began. The six preceding months help establish how much of the price increase was under way before the oil shock. The 2022 Fed statement identified energy, pandemic supply restrictions and demand imbalances together. A common commodity shock can coexist with different domestic propagation.",
+      "test": "Compare the direction of inflation with the level of industrial output and the change in unemployment. For an energy explanation, examine energy prices and their pass-through. For a persistent domestic component, look for wage and services-price pressure after energy prices turn. Headline CPI alone cannot separate those channels.",
+      "limit": "The first anchor dates an external disruption. The second dates a policy meeting during an inflation episode. June 2022 is close to the inflation peak ex post. Switch the reference month and inspect the pre-event path before treating the subsequent decline as evidence about the hike.",
+      "sources": [
+        {
+          "label": "Federal Reserve History · October 1973 embargo, oil prices and competing pressures",
+          "url": "https://www.federalreservehistory.org/essays/oil-shock-of-1973-74"
+        },
+        {
+          "label": "FOMC · 15 June 2022 decision",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm"
+        },
+        {
+          "label": "Bureau of Labor Statistics · June 2022 CPI, released 13 July",
+          "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm"
+        }
+      ]
+    },
+    {
+      "id": "volcker-reopening",
+      "label": "Two US disinflations",
+      "period": "1979 and 2022 · United States",
+      "title": "Did disinflation require the same loss of employment?",
+      "left": "vol",
+      "right": "jun",
+      "episodeIds": [
+        "volcker",
+        "recent-inflation"
+      ],
+      "lead": "The Federal Reserve confronted high inflation in both periods, with different operating procedures. How much did consumer prices continue to rise, and what happened to employment, while the inflation rate fell?",
+      "interpretation": "How costly was disinflation in the early 1980s? A rapid policy shift could have brought inflation expectations down sooner. Slower tightening or a change in wage bargaining might have reduced the initial employment loss. Those are competing accounts of the counterfactual, even when economists agree on the observed unemployment rate.",
+      "test": "Look at inflation relative to its starting rate alongside industrial output and unemployment. Then switch to the price level. Lower inflation can accompany a permanently higher cost of living. To evaluate the credibility account, one would also need expectations measured at the time and an account of changing energy supply.",
+      "limit": "October 1979 marks a change in operating procedure and June 2022 a target-range increase in an existing hiking cycle. Neither anchor is the first inflation news. Output, credit controls and oil prices evolved during the following two years. The paths do not identify the effect of either decision.",
+      "sources": [
+        {
+          "label": "Federal Reserve History · October 1979 operating change",
+          "url": "https://www.federalreservehistory.org/essays/anti-inflation-measures"
+        },
+        {
+          "label": "Federal Reserve History · 1978–79 oil shock",
+          "url": "https://www.federalreservehistory.org/essays/oil-shock-of-1978-79"
+        },
+        {
+          "label": "FOMC · 15 June 2022 decision",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm"
+        },
+        {
+          "label": "Bureau of Labor Statistics · June 2022 CPI, released 13 July",
+          "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm"
+        }
+      ]
+    },
+    {
+      "id": "funding-runs",
+      "label": "Funding runs and market liquidity",
+      "period": "2008 and 2020 · United States",
+      "title": "When did the scramble for cash turn into lost output?",
+      "left": "leh",
+      "right": "dash",
+      "episodeIds": [
+        "financial-crisis",
+        "pandemic"
+      ],
+      "lead": "In September 2008 a private default damaged a money fund. In March 2020 investors sold US government securities to raise cash. Both put pressure on dealers, but the initial asset, sellers and connection to the real economy differed.",
+      "interpretation": "To measure funding stress, check how much cash a holder can borrow against the asset. To measure market liquidity, look at the amount it can sell near the quoted price. In 2008 redemptions concentrated in prime money funds exposed to private credit, curtailing financing for commercial-paper issuers. In 2020 even Treasuries became hard to sell in size: market depth in the new ten-year note fell to roughly a tenth of its preceding level.",
+      "test": "For a credit-loss explanation compare prime money funds with government funds and examine their underlying paper. For a dealer-capacity explanation compare old and newly issued Treasuries, quoted depth and spreads. A ten-year yield by itself cannot distinguish expected short rates from a forced sale.",
+      "limit": "The monthly chart measures what followed. Pandemic shutdowns and reopening also moved output and employment directly. A larger subsequent recovery cannot measure the relative effectiveness of the 2008 and 2020 funding facilities.",
+      "sources": [
+        {
+          "label": "Federal Reserve · emergency funding for asset-backed commercial paper, 19 September 2008",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20080919a.htm"
+        },
+        {
+          "label": "Federal Reserve staff · which money funds experienced runs",
+          "url": "https://www.federalreserve.gov/pubs/feds/2010/201051/index.html"
+        },
+        {
+          "label": "Federal Reserve · market-functioning purchases, 23 March 2020",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323a.htm"
+        },
+        {
+          "label": "Lael Brainard · Treasury market depth in March 2020",
+          "url": "https://www.federalreserve.gov/newsevents/speech/brainard20210301a.htm"
+        }
+      ]
+    },
+    {
+      "id": "atlantic-2022",
+      "label": "One inflation year, two economies",
+      "period": "July 2022 · United States and euro area",
+      "title": "Did US and euro-area inflation unwind together?",
+      "left": "fed",
+      "right": "ecb",
+      "episodeIds": [
+        "recent-inflation"
+      ],
+      "lead": "Use the same calendar month for both economies. The Fed was already tightening. The ECB made its first increase of this cycle and addressed the possibility that financial conditions would diverge across member states.",
+      "interpretation": "A common rise in energy prices can reach domestic consumers at different times. Compare when inflation turned, how production changed and where each central bank was in its tightening cycle. July synchronises the calendar while preserving the difference in each bank’s stage of tightening.",
+      "test": "Compare the twelve-month movements in consumer inflation and production, then the 24-month price-level change. An account based on imported energy would need country-specific exposure and retail pass-through. An account based on domestic demand would also need services inflation and labour-cost evidence.",
+      "limit": "The US CPI series is seasonally adjusted, while the euro-area HICP is unadjusted and uses a different consumption basket. Short-horizon price-level changes are especially sensitive to seasonality. The euro-area data use fixed EA21 membership throughout. The two industrial indices cover industrial sectors, not the whole economy.",
+      "sources": [
+        {
+          "label": "FOMC · 27 July 2022 rate decision",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220727a.htm"
+        },
+        {
+          "label": "ECB · 21 July 2022 rate decision and transmission instrument",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.mp220721~53e5bdd317.en.html"
+        }
+      ]
+    }
+  ]
+}
