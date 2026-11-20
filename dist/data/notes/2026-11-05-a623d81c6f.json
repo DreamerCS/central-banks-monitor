@@ -1,0 +1,28 @@
+{
+  "title": "Where the Eurosystem’s new payment infrastructure is already settling money",
+  "bank": "European Central Bank",
+  "date": "2026-11-05",
+  "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
+  "summary": [
+    "Piero Cipollone distinguishes what people can use today from what the Eurosystem hopes to introduce over the rest of the decade. Cash is already public money in the hands of households. A digital euro would extend that option online. Pontes already settles certain wholesale transactions in central bank money, while Appia is a project to design how tokenised markets could operate together. Links between existing instant payment systems address a fourth problem, the time and cost of crossing borders. These initiatives share an interest in settlement at par, but they serve different users and are at different stages of development.",
+    "Cash remains significant. More than 31 billion euro banknotes worth over €1.6 trillion were in circulation. Almost ten million people responded to a survey on future banknote designs, with two-thirds of responses coming from people under 35. The Eurosystem expected the new notes to enter circulation gradually from the early 2030s. Digital payments present a different challenge. In 13 euro area countries, in-store card payments rely entirely on non-European companies. Cipollone argues that common acceptance and open standards could give European payment providers a way to offer services across borders while retaining their relationships with customers.",
+    "The proposed digital euro would support in-person, online and person-to-person payments, with basic use free to consumers. Offline transactions would give the payer and payee cash-like privacy. Banks and supervised providers would distribute it. Individual holding limits and zero remuneration are intended to reduce its attractiveness as an investment. A linked bank account would allow payments larger than the holding limit. The planned pilot would run for twelve months beginning in the second half of 2027, with 36 providers selected from more than 50 applicants. Readiness for a possible first issue in 2029 remained conditional on the legislative process finishing by the end of 2026.",
+    "The wholesale work is further advanced in one respect. Pontes launched on 21 September, connecting market distributed ledgers to the Eurosystem’s TARGET services for settlement in central bank money. The 2024 exploration had brought together 64 participants for more than 50 trials and experiments settling nearly €1.6 billion. Cipollone gives a separate live-market example, a €1 billion European Stability Mechanism bond transaction. Longer opening hours and continuous availability in 2028 are prospective improvements. Neither the trial total nor a single benchmark issuance establishes ongoing market-wide demand for tokenised settlement.",
+    "Appia concerns how ownership, custody, settlement finality, collateral movements and common standards would work across platforms. Its consultation received 127 responses, and 90% of respondents proposed a contribution. That describes participating respondents, not a commitment to transact. A blueprint is due in 2028. In cross-border payments, TIPS already settles euros, Swedish kronor and Danish kroner. Bosnia and Herzegovina and Montenegro had separately launched a service using TIPS technology, which approached 30,000 transactions on the cited Monday. Operating a related domestic platform is different from an active link to the euro area. Cipollone distinguishes work underway with India from exploratory links with other systems. For users the relevant test will be whether accessible payment services settle reliably at lower all-in cost."
+  ],
+  "questions": [
+    {
+      "question": "Would a common digital-euro acceptance layer materially change merchant costs and who supplies checkout services?",
+      "detail": "Follow participants in the twelve-month pilot across countries, merchant sizes and payment channels. Compare integration costs, completion rates, settlement time, fees and use of a second provider before and after adoption. A lower scheme charge alone would say little about total costs if the costs of distribution and checkout integration increased."
+    },
+    {
+      "question": "Can Pontes attract repeat issuance and sustained secondary activity once experimentation gives way to commercial decisions?",
+      "detail": "Track the ESM issue and subsequent comparable issues across settlement arrangements, including participants, traded volumes, operational cut-offs, settlement failures and collateral eligibility. Distinguish gains from central bank money from changes caused by a new issuance platform. A successful first large transaction validates feasibility but leaves repeat demand and the value of longer hours open."
+    },
+    {
+      "question": "Which cross-border transfers actually benefit when instant systems are linked?",
+      "detail": "Measure the amount available to the beneficiary, settlement time and rejection rates for identical amounts and currency pairs, separating transfer fees from conversion spreads. Compare new links with technically similar domestic platforms and with earlier correspondent routes. Restrict the comparison to institutions that can send and receive the payments, since announced geographic coverage may exceed actual customer access."
+    }
+  ],
+  "limitation": ""
+}
