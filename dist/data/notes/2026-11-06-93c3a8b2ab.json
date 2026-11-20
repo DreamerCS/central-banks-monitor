@@ -1,0 +1,28 @@
+{
+  "title": "EU bank balance sheets grew 5.18% as the non-performing loan ratio edged up",
+  "bank": "European Central Bank",
+  "date": "2026-11-06",
+  "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
+  "summary": [
+    "EU-headquartered credit institutions reported €34.99 trillion of total assets in June 2026, up from €33.27 trillion a year earlier. The increase of €1.72 trillion, or 5.18%, gives the scale of the balance-sheet expansion. It does not establish how much additional credit banks provided to households and firms. A larger portfolio of securities, a change in liquid assets or a change in which institutions report can also increase the total. Chart 1 of the ECB release compares the national aggregates at the two June dates. The largest banking systems carry more weight in the European total than smaller ones.",
+    "The ECB’s consolidated data cover 336 banking groups and 2,283 stand-alone credit institutions, alongside non-EU-controlled subsidiaries and branches operating in the EU. The reporting population accounts for nearly all of the EU banking sector’s balance sheet. Consolidating a group removes the double counting that would arise if one treated a bank’s claims on another member of the same group like claims on an outside borrower. There is also a difference between the population covered by the dataset and the EU-headquartered institutions identified in the headline charts. Uncritically combining different populations or national measures would alter the ratios.",
+    "Asset quality moved very little at the aggregate level. The non-performing loan ratio increased by 0.03 percentage points over the year to 1.99%. Its denominator includes cash balances at central banks and other demand deposits. Those items can move without a change in the performance of customer loans. Chart 2 gives a large spread across countries, so the small year-on-year movement in the aggregate also need not be typical of individual banks. A deterioration in a particular part of a loan book could coexist with a stable published ratio.",
+    "The aggregate return on equity was 5.31% in June. This is the profit or loss accumulated in the first six months divided by total equity. The ECB explicitly leaves the ratio unannualised. Reading it as a full-year rate would misstate how much income the institutions had earned by midyear. Chart 3 shows considerable variation across countries, with the Czech Republic near the upper end and Slovakia near the lower end. These are national banking aggregates. A country’s ranking cannot by itself identify the underlying contributions from interest margins, credit losses, fees or the amount of equity backing the assets.",
+    "Capital provides a separate measure. The Common Equity Tier 1 ratio was 16.43%, calculated against risk exposure rather than total assets. Chart 4 shows a different ordering, with Bulgaria at the top of the displayed CET1 comparison and Spain at the bottom. The release gives neither individual requirements nor cash available for distribution. A change in capital and a change in risk-weighted assets can move the same ratio in opposite directions. The quarterly release also revises some earlier observations and contains less detail than the year-end dataset. Most reporters use international accounting and supervisory standards, but some smaller institutions can use national standards. These qualifications matter when assessing apparently small differences in profitability, credit quality or capital across two reporting dates."
+  ],
+  "questions": [
+    {
+      "question": "What powered the growth in bank balance sheets?",
+      "detail": "Break the €1.72 trillion increase into customer credit, securities, central-bank balances, valuation changes and any reporting-population changes. Compare the consolidated ECB series with banks’ interim statements, then examine interest income alongside funding costs. Lending that adds recurring margin has different implications for bank equity and debt holders from a larger pool of lower-yielding liquid assets."
+    },
+    {
+      "question": "Where could the small movement in the non-performing loan ratio conceal deterioration?",
+      "detail": "Compare non-performing balances, gross customer lending, new defaults, cures, write-offs and provisions by country and borrower sector. Recalculate comparable ratios with and without the specified cash balances where data allow. A larger denominator could mask worsening credit performance, while asset sales could improve the published ratio without improving borrowers’ capacity to pay."
+    },
+    {
+      "question": "Which banks have distributable earnings and genuinely usable capital headroom?",
+      "detail": "Reconcile half-year profit with cost of risk and recurring income, then compare CET1 with risk-weighted assets, bank-specific requirements and announced capital distributions. Supervisory disclosures and interim accounts would make those comparisons possible. The aggregate figures alone cannot establish whether a bank can distribute earnings or support substantially more lending through an adverse credit cycle. Repeat the comparison under the same loan-loss assumptions across the banks."
+    }
+  ],
+  "limitation": ""
+}
