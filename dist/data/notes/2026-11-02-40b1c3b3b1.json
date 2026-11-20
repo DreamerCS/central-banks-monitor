@@ -1,0 +1,28 @@
+{
+  "title": "Schoolwide free meals increased access to revolving credit in exposed neighbourhoods",
+  "bank": "Federal Reserve Bank of Atlanta",
+  "date": "2026-11-02",
+  "url": "https://www.atlantafed.org/research-and-data/publications/working-papers/2026/11/02/18-free-school-meals-credit-access-and-household-debt",
+  "summary": [
+    "When a school begins serving free meals to every student, families that previously bought meals have a recurring expense removed from their budget. Orgul Ozturk and M. Melinda Pitts ask what happens to their access to credit. Adults living in areas exposed to the Community Eligibility Provision became more likely to hold a credit account when the programme arrived. The clearest lasting gain was in revolving credit, which allows a household to choose when to borrow. The standard Equifax risk score barely moved. This combination suggests that a modest improvement in available cash can encourage credit take-up without a corresponding improvement in the score that lenders see.",
+    "The US programme began with selected states in the 2011–12 school year and became available nationwide in 2014–15. Eligible schools or districts could elect to provide meals to every student without household applications. The analysis combines school participation records with the New York Fed/Equifax Consumer Credit Panel. The authors match census tracts to nearby elementary, middle and high schools in districts serving the area. They then weight coverage by the local school-age population. Credit records identify adults aged 25 to 54 living in these areas. They do not identify a child’s school or whether an adult has a child eating a particular meal. The estimated effect is therefore for area exposure, which can dilute effects on families directly receiving a benefit.",
+    "Adoption took place at different times and credit use was already trending up before adoption. The authors show event studies, comparisons using alternative estimators and checks for the usual start-of-school-year pattern. For the probability of having any credit account, the immediate step around adoption is 1.01 percentage points in their two-quarter comparison. The increase above the normal seasonal step is 0.77 percentage points. The pre-existing trend was about 0.056 percentage points a quarter. It could account for part of a change over several years more readily than for a sudden increase around an area’s first exposure.",
+    "Account counts rose over the following year. Two years out, the seasonally adjusted estimate puts revolving access 0.94 percentage points above its comparison path and the number of accounts 0.062 higher. The effects tend to be greatest where relatively few students had already qualified for free or reduced-price meals. In those areas the introduction of a universal benefit removes an expense for more families. The composition of balances changed little. Greater access to an account need not mean every additional account carried debt or that households suddenly became more creditworthy.",
+    "Severe delinquency is the more ambiguous outcome. Some specifications show a modest rise, particularly after allowing for pre-adoption trends. It does not appear among people with an uninterrupted credit file before and after adoption. People entering the credit panel or holding less established files can change the composition of the observed group. The appendix compares definitions, estimators and outcome-specific trajectories rather than treating all measures of distress as interchangeable. The authors interpret the broader credit participation as more consistent with households electing to use credit when their budgets loosen than with an improvement in score-based credit offers. They cannot observe discarded offers, applications or the value of a newly available credit line to a particular family."
+  ],
+  "questions": [
+    {
+      "question": "Which people actually received the budget relief associated with area exposure?",
+      "detail": "Match school attendance and prior meal eligibility to household records under appropriate privacy safeguards. Adults without school-age children can appear in an exposed tract, and families may attend a different school from the geographic match. Comparing actual recipients with the area estimates would show whether dilution or other local changes account for the observed credit response."
+    },
+    {
+      "question": "Did households seek credit, or did lenders change the terms they offered?",
+      "detail": "Compare credit inquiries, approvals by score band and changes in limits on existing accounts. A nearly unchanged risk score is consistent with greater demand for credit, but lenders can use other information or alter their marketing. A new account with no balance also serves a different liquidity purpose from additional interest-bearing debt on an old account."
+    },
+    {
+      "question": "How sensitive are signs of financial distress to entry into credit records?",
+      "detail": "Follow the same consumers over a fixed window and compare them with people entering or leaving the file, allowing for pre-existing trends in delinquency for each group. A policy that draws new borrowers into the credit system changes who can register a delinquency. Comparing account-level arrears, balances and continuing borrowers would help separate a change in coverage from deterioration in household finances."
+    }
+  ],
+  "limitation": "School exposure is inferred from geography. Adoption was voluntary, and the study cannot identify individual meal take-up, rejected credit offers or net household welfare."
+}
