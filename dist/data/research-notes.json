@@ -2925,7 +2925,10 @@
     "publication": {
       "jurisdiction": "United States",
       "type": "Speech",
-      "title": "Economic Outlook"
+      "title": "Economic Outlook",
+      "aliases": [
+        "https://www.philadelphiafed.org/-/media/FRBP/Assets/Institutional/speeches/paulson/2026/261110-81st-Annual-Field-Meeting-Capstone-Speech.pdf"
+      ]
     }
   },
   {
@@ -3371,7 +3374,8 @@
       "type": "Research",
       "title": "Monthly Business Survey — Start of November 2026",
       "aliases": [
-        "https://www.banque-france.fr/en/publications-and-statistics/publications/monthly-business-survey-start-november-2026"
+        "https://www.banque-france.fr/en/publications-and-statistics/publications/monthly-business-survey-start-november-2026",
+        "https://www.banque-france.fr/system/files/2026-11/EMC_debut_novembre_2026.pdf"
       ]
     }
   },

@@ -1024,7 +1024,8 @@
     "type": "Research",
     "title": "Monthly Business Survey — Start of November 2026",
     "aliases": [
-      "https://www.banque-france.fr/en/publications-and-statistics/publications/monthly-business-survey-start-november-2026"
+      "https://www.banque-france.fr/en/publications-and-statistics/publications/monthly-business-survey-start-november-2026",
+      "https://www.banque-france.fr/system/files/2026-11/EMC_debut_novembre_2026.pdf"
     ]
   },
   "2026-11-10-0040329e47.json": {
@@ -1063,7 +1064,10 @@
   "2026-11-10-8aded06f31.json": {
     "jurisdiction": "United States",
     "type": "Speech",
-    "title": "Economic Outlook"
+    "title": "Economic Outlook",
+    "aliases": [
+      "https://www.philadelphiafed.org/-/media/FRBP/Assets/Institutional/speeches/paulson/2026/261110-81st-Annual-Field-Meeting-Capstone-Speech.pdf"
+    ]
   },
   "2026-11-10-a4fa1c417d.json": {
     "jurisdiction": "South Africa",
