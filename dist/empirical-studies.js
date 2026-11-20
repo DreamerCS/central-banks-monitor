@@ -1,11 +1,14 @@
 import { renderVintageCheck } from './vintage-check.js';
 import { buildPatternViews } from './empirical-patterns.js';
+import { buildRepricingView } from './meeting-repricing-view.js';
+import { buildCurveView } from './curve-timing-view.js';
 
 const content = document.querySelector("#es-content");
 const query = new URLSearchParams(location.search);
 const studies = {
   inflation:"inflation-study", markets:"event-study", guidance:"guidance-study",
-  composition:"inflation-composition", signals:"signal-mix"
+  composition:"inflation-composition", signals:"signal-mix",
+  repricing:"guidance-repricing", curve:"curve-timing"
 };
 const requested = query.get("study");
 const current = Object.hasOwn(studies, requested) ? requested : "inflation";
@@ -368,7 +371,7 @@ function guidance(d){
   if(bank.examples?.length){
     const examples=el("ul");
     for(const example of bank.examples){
-      const li=el("li");li.append(anchor(example.date,"macro-history.html?"+new URLSearchParams({view:"guidance",bank:bid,date:example.date}))," · "+example.note);examples.append(li);
+      const li=el("li");li.append(anchor(example.date,"macro-history.html?"+new URLSearchParams({view:"guidance",bank:bid,window:example.window||bank.events.find(e=>e.date===example.date)?.window||wid,date:example.date}))," · "+example.note);examples.append(li);
     }
     box.append(details("Documented policy episodes",...sentences(bank.findings),examples));
   }
@@ -378,7 +381,7 @@ function guidance(d){
       if(e.noteFile)source.append(" · ",anchor("Archive analysis","research-archive.html?analysis="+encodeURIComponent(e.noteFile.replace(/\.json$/,""))));
       const change=e.values[aid];
       const price=Number.isFinite(change)?anchor(signed(change)+" "+asset.unit,"market-reactions.html?"+new URLSearchParams({bank:bid,date:e.date,year:e.date.slice(0,4),window:wid,asset:aid})):"—";
-      const description=anchor(e.date,"macro-history.html?"+new URLSearchParams({view:"guidance",bank:bid,date:e.date}));
+      const description=anchor(e.date,"macro-history.html?"+new URLSearchParams({view:"guidance",bank:bid,window:e.window,date:e.date}));
       return [description,word[e.state],Number.isFinite(e.rateChangeBps)?signed(e.rateChangeBps,0)+" bp":e.action,price,source];
     });
     box.append(details("Individual releases and observed moves",table("Policy releases and exact market windows",["Date","Signal","Rate decision","Market change","Source"],recordRows)));
@@ -386,13 +389,14 @@ function guidance(d){
   box.append(details("Sample construction and data",...sentences(d.method),sources([{label:bank.sourceLabel,url:bank.source}])));
   return box;
 }
+const ui = {
+  el, anchor, pick, select, table, details, sources, summaryFacts, plot, legend, nfmt,
+  signed, interval, limits, ticks, svg, monthNumber, monthTicks, monthReadout, resultPair,
+  addInputs, sentences, ink, word
+};
 const views = {
-  inflation, markets, guidance,
-  ...buildPatternViews({
-    el, anchor, pick, select, table, details, sources, summaryFacts, plot, legend,
-    nfmt, signed, interval, limits, ticks, svg, monthNumber, monthTicks, monthReadout,
-    resultPair, addInputs, sentences, ink
-  })
+  inflation, markets, guidance, ...buildPatternViews(ui),
+  repricing:buildRepricingView(ui), curve:buildCurveView(ui)
 };
 let dataset;
 function paint(focus) {

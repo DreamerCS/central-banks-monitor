@@ -101,21 +101,22 @@ def releases(panel, bank, notes):
     result = []
     for obs in panel["observations"]:
         day = obs["date"]
-        if day in seen or obs["bank"] != bank["id"]:
-            raise ValueError(f"Invalid institution or repeated release on {day}")
         if obs["state"] not in STATES or obs["action"] not in ACTIONS[1:]:
             raise ValueError(f"Unrecognised action or guidance on {day}")
         if bank["id"] == "ecb":
             window = {"decision-release": "statement", "press-conference": "conference"}[obs["sourceType"]]
         else:
             window = "statement"
+        key = (day, window)
+        if key in seen or obs["bank"] != bank["id"]:
+            raise ValueError(f"Invalid institution or repeated {window} on {day}")
         market = events.get(day, {}).get(window)
         prior = obs.get("priorDate")
         shift = obs.get("shift")
         change = "uncompared"
         if prior:
-            previous = seen[prior]
-            if previous["window"] != window or bool(shift) != (previous["state"] != obs["state"]):
+            previous = seen[(prior, window)]
+            if bool(shift) != (previous["state"] != obs["state"]):
                 raise ValueError(f"Inconsistent guidance pair on {day}")
             change = "unchanged"
             if shift:
@@ -131,7 +132,7 @@ def releases(panel, bank, notes):
         event.update(window=window, hasWindow=market is not None, priorDate=prior,
                      shift=shift, change=change, noteFile=notes.get((day, obs["url"])),
                      values={a: (market or {}).get(a) for a in ASSETS[bank["id"]]})
-        seen[day] = event
+        seen[key] = event
         result.append(event)
     return result
 
@@ -176,8 +177,10 @@ def build_bank(panel, market, notes):
             "sourceLabel": market["sourceLabel"], "marketThrough": market["events"][-1]["date"],
             "selected": len(events), "matched": sum(e["hasWindow"] for e in events), "windows": windows,
             "assets": asset_list, "groups": groups, "contrasts": contrasts, "events": events, "changes": changes,
-            "examples": [{"date": e["date"], "note": EXAMPLE_NOTES[bank_id][e["date"]]} for e in events
-                         if e["date"] in EXAMPLE_NOTES[bank_id]]}
+            "examples": [{"date": e["date"], "window": e["window"], "note": EXAMPLE_NOTES[bank_id][e["date"]]}
+                         for e in events if e["date"] in EXAMPLE_NOTES[bank_id]
+                         and e["window"] == ("conference" if bank_id == "ecb" and e["date"] in
+                                              ("2011-03-03", "2013-07-04") else "statement")]}
     if bank_id == "fed":
         holds = [e for e in events if e["action"] == "hold"]
         near = [e for e in holds if e["values"]["MP1"] is not None and abs(e["values"]["MP1"]) <= 2]
@@ -227,7 +230,7 @@ def findings(bank):
         f'guidance ({hi["n"]} releases) and {med(lo)} with easing guidance ({lo["n"]}). '
         f'Among actual holds the medians were {med(a)} ({a["n"]}) and {med(b)} ({b["n"]}), respectively.',
         f'Conference-window medians were {med(ch)} for tightening ({ch["n"]}) and {med(cl)} for easing '
-        f'({cl["n"]}). Each directional group represents a different presidency and calendar date.',
+        f'({cl["n"]}). Conference observations can include an answer that qualifies the opening statement.',
         f'The ECB market series used here ends on {bank["marketThrough"]}. Later selected decisions retain '
         'their guidance labels and have an empty market value.',
     ]

@@ -47,3 +47,7 @@
 #vintage-check .es-links{display:block;margin-top:18px}
 .vc-field{display:inline-flex;flex-direction:column;gap:5px;font-weight:600;color:#50604f;font-size:.84rem;margin:8px 0}
 .vc-field select{font:400 .99rem/1.4 Arial,sans-serif;color:#233328;background:#f9f7ef;border:1px solid #919b8a;border-radius:0;padding:.45rem .6rem}
+.es-release{display:grid;grid-template-columns:minmax(0,1fr) minmax(190px,27%);gap:clamp(18px,3vw,40px);border-top:2px solid #62715e;padding:17px 0 12px}
+.es-release h3{margin:0 0 6px}.es-release dl{margin:0}.es-release dt{font-size:.84rem;color:#566652}.es-release dd{margin:0 0 8px;font:400 1.18rem/1.4 var(--serif)}
+.es-signal{font-weight:600;color:#784926}
+@media(max-width:720px){.es-release{grid-template-columns:1fr;gap:0}.es-release dl{display:flex;gap:10px 28px;flex-wrap:wrap}}

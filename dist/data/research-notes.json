@@ -166,6 +166,14 @@
     "file": "2026-11-17-92ceb53b39.json"
   },
   {
+    "title": "A widening gap between service prices and wages changes what supercore inflation signals",
+    "bank": "Federal Reserve Bank of Richmond",
+    "date": "2026-11-17",
+    "url": "https://www.richmondfed.org/research/national_economy/macro_minute/2026/wages_are_cooling_while_supercore_inflation_isnt",
+    "excerpt": "The cost of providing a service includes what the business buys from other firms as well as what it pays its employees.",
+    "file": "2026-11-17-52feb74401.json"
+  },
+  {
     "title": "Warsh asks whether AI changes the rate of discovery as well as the cost of production",
     "bank": "Federal Reserve Board",
     "date": "2026-11-16",
@@ -229,6 +237,14 @@
       "type": "Speech",
       "title": "Navigating new economic realities: Europe’s outlook in a changing global landscape — Joachim Nagel"
     }
+  },
+  {
+    "title": "The Fed traces how an investment setback could reach lenders through leases, collateral and funding",
+    "bank": "Board of Governors of the Federal Reserve System",
+    "date": "2026-11-13",
+    "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+    "excerpt": "An investment disappointment becomes a financial-stability problem when the people who must absorb losses also have to raise cash or cut credit.",
+    "file": "2026-11-13-f8c0a66c91.json"
   },
   {
     "title": "Standard Bank’s R17 million sanction identifies separate gaps in transfer-client checks, records and training",

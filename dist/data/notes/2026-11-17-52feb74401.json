@@ -1,0 +1,28 @@
+{
+  "title": "A widening gap between service prices and wages changes what supercore inflation signals",
+  "bank": "Federal Reserve Bank of Richmond",
+  "date": "2026-11-17",
+  "url": "https://www.richmondfed.org/research/national_economy/macro_minute/2026/wages_are_cooling_while_supercore_inflation_isnt",
+  "summary": [
+    "The cost of providing a service includes what the business buys from other firms as well as what it pays its employees. John O’Trakoun argues that this distinction matters for interpreting US inflation in late 2026. Nonhousing core services prices continued to rise briskly while wage growth in the service sector cooled. If the persistence of wages was the reason to give this part of the consumption basket special weight, a change in the source of cost pressure changes how informative it is about inflation ahead.",
+    "Figure 1 compares the Atlanta Fed’s services Wage Growth Tracker with the year-over-year change in the nonhousing core services PCE price index. The two moved closely together over 2015–24. Even in that period prices moved first in 2021. Wage growth subsequently stayed strong in 2022–23, creating a risk that service inflation would take longer to recede. The series have diverged since 2025. The graph uses separate vertical scales. It shows changes in their timing and direction, without implying that each percentage point of wage growth passes through into prices. The historical co-movement also leaves open the possibility that both series reacted to the same economic news.",
+    "Figures 2 and 3 move one step back from consumer prices to the inputs of service providers closest to final demand. The first is the producer price index for their goods inputs, excluding food and energy. Materials, components and supplies can become more expensive even as payroll pressure subsides. Growth in this input index began rising in the first quarter of 2024. The second covers services bought by service providers, excluding trade, transportation and warehousing. Advertising, data processing, telecommunications and insurance are examples. Inflation in these purchased services began to rise in early 2025. By September 2026 the index stood 5.5% above a year earlier, compared with average annual growth of 2.1% in 2010–19. The series offer two candidates for pass-through with different starting dates. Neither graph gives the expenditure share of each input or estimates the increase that firms passed to customers.",
+    "Figure 4 changes both the question and the frequency. It compares standard deviations of annualized quarter-to-quarter growth during 2010–26. The two input-price series registered 3.2 and 3.1 percentage points, close to the 3.4 points for PCE food prices. The figures for core PCE, supercore PCE and service-industry compensation were 1.3, 1.2 and 1.1 respectively. Energy prices were much more volatile at 19.3. This comparison explains why removing the most volatile components of an input index can still leave a noisy measure. The wage series in this comparison is an employment cost measure, distinct from the monthly Wage Growth Tracker used in Figure 1.",
+    "For a policy reader, the open question is persistence. If intermediate input prices turn down while wage pressure stays modest, elevated service inflation could ease faster than a wage-led episode. Conversely, a lasting rise in purchased services or a later acceleration in compensation would weaken the case for looking through it. A high standard deviation measures the size of fluctuations. It gives no estimate of how long a typical increase lasts. The 17 November article sets out this conditional interpretation in the author’s own capacity. It contains no Committee rate guidance or observed market response."
+  ],
+  "questions": [
+    {
+      "question": "Did nonlabour inputs improve forecasts once wage growth and prior inflation were known?",
+      "detail": "Forecast nonhousing core services inflation first with its own lags and the services wage measure, then add the two Stage 4 input indexes. Fit on earlier releases, test on the period of divergence and align the original release dates. Gains that depend on using revised data would have been unavailable to a contemporary policy reader."
+    },
+    {
+      "question": "Which purchases plausibly pass through, and after what lag?",
+      "detail": "Compare service categories with differing exposure to purchased goods and business services. Track their prices against the corresponding producer indexes over several quarters. A cost explanation predicts an earlier or larger response among more exposed firms. Common demand, changing margins or sectoral composition could otherwise produce closely tracking aggregate series."
+    },
+    {
+      "question": "Are volatile readings genuinely short-lived enough to look through?",
+      "detail": "Estimate the persistence of input-price increases separately from their dispersion. Compare the time it takes for an input shock to fade with subsequent changes in compensation and final service prices. The relevant policy distinction is whether consumer inflation remains high after inputs normalize, particularly if wage growth has also picked up."
+    }
+  ],
+  "limitation": ""
+}

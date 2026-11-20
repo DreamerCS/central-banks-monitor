@@ -198,10 +198,13 @@ function policyAction(o) {
   if (o.rateChangeBps === 0 || !Number.isFinite(o.rateChangeBps)) return verb;
   return verb + " · " + Math.abs(o.rateChangeBps) + " bp";
 }
+function releaseWindow(observation) {
+  return observation.sourceType === "press-conference" ? "conference" : "statement";
+}
 function marketSection(events, bankId, observation) {
   const section=el("section");
   const bank=events?.banks.find(b=>b.id===bankId);
-  const windowId=observation.sourceType==="press-conference"?"conference":"statement";
+  const windowId=releaseWindow(observation);
   const change=bank?.events.find(e=>e.date===observation.date)?.windows[windowId];
   section.append(el("h3","What moved in the release window?"));
   if (!change) {
@@ -221,7 +224,7 @@ async function guidance() {
   const [panel,market,notes]=await Promise.all([read(bankId==="fed"?"policy-guidance":"ecb-guidance"),read("market-events").catch(()=>null),read("research-notes").catch(()=>[])]);
   const sorted=[...panel.observations].sort((a,b)=>b.date.localeCompare(a.date));
   const years=[...new Set(sorted.map(o=>o.date.slice(0,4)))];
-  const requested=sorted.find(o=>o.date===params.get("date"));
+  const requested=sorted.find(o=>o.date===params.get("date")&&(!params.has("window")||params.get("window")===releaseWindow(o)));
   const year=["all",...years].includes(params.get("year"))?params.get("year"):requested?.date.slice(0,4)||years[0];
   const state=Object.hasOwn(signalLabels,params.get("signal"))?params.get("signal"):"all";
   const subset=sorted.filter(o=>(year==="all"||o.date.startsWith(year))&&(state==="all"||state===o.state));
@@ -229,7 +232,7 @@ async function guidance() {
   const page=el("article",undefined,"hs-article hs-wide"),controls=el("div",undefined,"hs-bars");
   page.append(el("p","2000–2026 · Selected policy meetings","hs-kicker"),el("h2","Reading the policy signal"),
     el("p","Did policymakers signal a change in the next rate decision? Read the guidance alongside the rate action they took and what markets priced in the same release window."));
-  const address=(y,s,d)=>local("guidance",{bank:bankId,year:y,signal:s,...(d?{date:d}:{})});
+  const address=(y,s,o)=>local("guidance",{bank:bankId,year:y,signal:s,...(o?{date:o.date,window:releaseWindow(o)}:{})});
   controls.append(select("Institution",[["fed","Federal Reserve"],["ecb","European Central Bank"]],bankId,b=>location.assign(local("guidance",{bank:b}))),
     select("Year",[["all","All years"],...years.map(y=>[y,y])],year,y=>location.assign(address(y,state))),
     select("Guidance",[["all","All signals"],...Object.entries(signalLabels)],state,s=>location.assign(address(year,s))));
@@ -242,16 +245,16 @@ async function guidance() {
     detail.append(el("p",dateTitle(chosen.date)+" · "+label,"hs-kicker"),el("h3",signalLabels[chosen.state]),el("p",policyAction(chosen)+" on the day · "+(chosen.voice||"Federal Open Market Committee"),"hs-byline"),el("p",chosen.evidence,"hs-deck"),el("p",chosen.analysis));
     if(chosen.balanceSheet) detail.append(el("p",chosen.balanceSheet));
     if(chosen.priorDate) {
-      const prior=sorted.find(o=>o.date===chosen.priorDate);
+      const prior=sorted.find(o=>o.date===chosen.priorDate&&releaseWindow(o)===releaseWindow(chosen));
       if(prior){
         const p=el("p",undefined,"hs-byline");
-        p.append("Previous meeting · ",link(dateTitle(prior.date),address(prior.date.slice(0,4),"all",prior.date))," · "+signalLabels[prior.state]);
+        p.append("Previous meeting · ",link(dateTitle(prior.date),address(prior.date.slice(0,4),"all",prior))," · "+signalLabels[prior.state]);
         if(chosen.shift) p.append(chosen.shift.kind==="explicitness"?" · Change in explicitness":" · Change in rate guidance");
         detail.append(p);
       }
     }
     detail.append(original,marketSection(market,bankId,chosen));
-    page.append(detail,el("h3","Release record"),table(["Date","Rate action","Forward guidance"],subset.map(o=>[link(o.date,address(year,state,o.date)),policyAction(o),signalLabels[o.state]]),"Selected policy releases"));
+    page.append(detail,el("h3","Release record"),table(["Date","Communication","Rate action","Forward guidance"],subset.map(o=>[link(o.date,address(year,state,o)),releaseWindow(o)==="conference"?"Press conference":"Decision statement",policyAction(o),signalLabels[o.state]]),"Selected policy releases"));
   } else page.append(el("p","No documented release matches this selection."));
   const definitions=el("details",undefined,"hs-details");
   definitions.append(el("summary","How to read the four signals"));
