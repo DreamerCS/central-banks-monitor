@@ -1,0 +1,28 @@
+{
+  "title": "Why the maturity of US borrowing can change the spending multiplier",
+  "bank": "European Central Bank",
+  "date": "2026-11-03",
+  "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3306~028a82bc67.en.pdf",
+  "summary": [
+    "When the US government buys more goods and services, the change in GDP per additional dollar of purchases can depend on the debt it issues. This ECB working paper compares episodes in which financing tilted toward securities with less than one year to maturity with episodes in which it tilted toward longer debt. The empirical distinction concerns changes in the maturity mix of outstanding debt. It does not require that a specific Treasury bill can be traced to an individual expenditure item. The authors then construct a model in which short government paper offers households a way to meet unexpected spending needs.",
+    "The first approach uses US quarterly observations from 1954 Q3 to 2015 Q4. Military spending news provides an instrument for government purchases in a structural vector autoregression. An increase in the ratio of short to long debt identifies the short-financing case and a decrease the long-financing case. The second approach uses local projections and interacts spending shocks with the previously observed ratio. Persistence in the maturity structure helps predict how the government will finance spending. The two methods rely on different timing assumptions, an important check when debt managers can change issuance in response to conditions around the shock.",
+    "Table 1 gives the size and uncertainty of the first set of estimates. The impact output multiplier is 1.48 with short financing and 1.08 with long financing. Its difference on impact has a one-standard-deviation band including zero. At four quarters the cumulative multipliers are 1.85 and 0.42 respectively, and at twelve quarters 1.91 and 0.55. The difference is clearer at these longer horizons. The estimates are ratios of cumulative changes in output and purchases. They are not annualised growth rates or estimates of the Treasury’s cost of financing the spending.",
+    "Household consumption accounts for much of the divergence. At four quarters the estimated consumption multiplier is 1.31 under short financing and approximately zero under long financing. The local projections also show consumption responding more to short financing. Investment results differ more across approaches, so the evidence for consumption is more consistent. Controls for wages, debt levels and short and long interest rates leave the main ordering intact. Military news helps identify spending shocks, but does not turn the observed maturity mix into a randomly assigned financing choice.",
+    "The authors interpret the results with a New Keynesian model in which households face differing, uncertain expenditure needs. Short bonds supply liquid assets that can be used to pay for an unexpected purchase. Increasing their supply can relax a current spending constraint and reduce the incentive to save against a future one. Longer bonds provide less of this service in the baseline. Figure 6’s calibrated economy produces an impact output multiplier around 2.0 under short financing and 0.5 under long financing. The size varies with the interest-rate rule, fiscal backing and how much liquidity the long bond supplies. The estimated output benefit is therefore one input into a maturity decision. The paper does not compute a debt manager’s optimal trade-off between the liquidity service of bills, future refinancing costs and exposure to changes in short rates."
+  ],
+  "questions": [
+    {
+      "question": "Is the key variable the maturity of Treasury issuance or the amount of liquid debt that reaches households?",
+      "detail": "Combine auction and maturity records with holdings by households, funds, banks and the central bank. Separate bills issued for new spending from those replacing a maturing bill. A stronger consumption response when private holders receive a larger net addition of liquid assets would favour the proposed mechanism."
+    },
+    {
+      "question": "How far does the difference survive a cleaner separation of expenditure news from debt-management decisions?",
+      "detail": "Use dated military spending announcements, previously published borrowing plans and auction surprises to separate expected issuance from a change in financing after the news. Check whether short- and long-financed episodes have comparable tax expectations, monetary responses and expenditure paths. Compare the resulting cumulative consumption multipliers at four and twelve quarters, including the uncertainty in their difference."
+    },
+    {
+      "question": "Does short financing add less to consumption when a close liquid substitute is already abundant?",
+      "detail": "Compare episodes with different supplies of deposits and other short safe instruments, then allow long bonds to provide partial liquidity as in Figure 8. Test consumption most directly among households with variable expenditure needs and limited liquid wealth. A flat response in that group alongside a large aggregate output response would point to an additional transmission channel."
+    }
+  ],
+  "limitation": ""
+}
