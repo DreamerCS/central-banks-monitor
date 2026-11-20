@@ -1,0 +1,28 @@
+{
+  "title": "Texas hiring rebounded in October as the leading index lost ground",
+  "bank": "Federal Reserve Bank of Dallas",
+  "url": "https://www.dallasfed.org/research/forecast/2026/emp261120",
+  "date": "2026-11-20",
+  "summary": [
+    "Texas added 41,400 jobs in October, but the Dallas Fed’s 20 November forecast still points to a year of below-average employment growth. Its four models imply a gain of 163,000 jobs between December 2025 and December 2026, taking payrolls to 14.5 million. The central estimate is 1.1% growth, with an 80% confidence band of 0.9% to 1.3%. The 2% long-run average cited by senior business economist Luis Torres provides a historical comparison. The report gives no market consensus against which to measure a surprise.",
+    "October’s 3.5% figure is a one-month growth rate expressed at an annual rate. September was revised upwards but still showed a 1.4% annualised contraction. The October rebound took reported year-to-date growth to 1.1%. That number and the full-year forecast happen to coincide, although their end dates differ. Chart 1 distinguishes seasonally adjusted payrolls, measured in millions on the left axis, from the Texas Leading Index, measured against a 1987 base of 100 on the right. Only the short extension of the employment line represents the forecast. The shared chart cannot establish a fixed lag between a turn in the index and a turn in hiring.",
+    "The October gain extended beyond energy. Professional and business services, construction, trade and transportation services, and manufacturing led the increase. Other services and government shed jobs. Torres attributes some of this year’s slower hiring to reduced labour supply following a sharp fall in immigration. He also identifies AI investment and oil and gas activity as supports. The release gives neither sector job counts nor a decomposition of employment growth into labour supply and demand. A state can add fewer workers because firms have fewer vacancies or because willing employers struggle to fill them. Those explanations have different implications for wages and capacity.",
+    "The leading indicators offer evidence on both sides. Chart 2 puts the seasonally adjusted July-to-October decline in the Texas Leading Index at 0.33%. Higher new unemployment claims and shorter average weekly hours were the largest drags, with contributions of −0.44 and −0.42 percentage points. A higher Texas dollar index and lower equity and US leading indexes also weighed. The real oil price contributed +0.35 points, the help-wanted index +0.32 and well permits +0.24. Firms were advertising for workers even as average hours fell. The net decline was modest beside the chart’s 2.3% historical standard deviation of three-month changes over 2001–25, excluding 2020. That comparison describes the size of the movement and does not yield a probability of recession.",
+    "The forecast averages three vector autoregressions and one distributed-lag model (Methodology). The first three use lagged WTI prices, the US leading index and the Texas Leading Index respectively alongside employment dynamics. The fourth includes payroll lags, GDP growth and WTI prices, and Texas COVID-19 hospitalisations through March 2023. Its forward inputs include Blue Chip forecasts for US GDP growth and oil futures prices. All four models include indicators for March–June 2020. Oil therefore enters both directly and through components of the state index. Agreement among models would provide limited independent confirmation of an oil-driven outlook. The release gives the combined projection without individual model forecasts. For a portfolio exposed to Texas activity, the evidence favours distinguishing energy-sensitive demand from the broader hiring cycle before extrapolating October’s pace."
+  ],
+  "questions": [
+    {
+      "question": "Is the labour supply constraint binding in the sectors that led October’s hiring?",
+      "detail": "Torres identifies reduced immigration as a constraint, while stronger recruitment advertising coincided with shorter hours. The distinction matters for whether firms face wage pressure or weakening utilisation. Compare contemporaneous Texas labour-force participation, employment, wages and hours with vacancies and hiring by industry, using workforce agency and federal labour statistics. Check whether the tightness appears in construction and services as well as energy."
+    },
+    {
+      "question": "How much of the year-end forecast depends on the assumed oil path?",
+      "detail": "The forecast uses oil futures and historical oil relationships, and energy also contributes to the state leading index. It gives no model-specific sensitivity. A portfolio exposed to energy services and regional lenders might therefore have overlapping risks. Consult the Dallas Fed’s published forecast methodology and component series, then compare conditional projections under alternative WTI paths while holding the US GDP assumption fixed."
+    },
+    {
+      "question": "Does October’s rebound survive revisions and extend beyond one month?",
+      "detail": "September’s upward revision still left a contraction. The report identifies the leading sectors but gives no job counts for their individual contributions. The breadth and persistence of hiring would affect the case for extrapolating it to regional revenues. Compare the next payroll release, scheduled for 18 December, with archived first estimates and subsequent industry-level revisions, retaining each release vintage."
+    }
+  ],
+  "limitation": "Chart 2’s embedded title, bars and figure note support the decrease described in the text. The web image’s alternative text describes an increase."
+}
