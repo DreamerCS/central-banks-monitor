@@ -32,7 +32,7 @@ function update() {
   sample = bank.events.filter(e => (year === 'all' || e.date.startsWith(year)) && e.windows[window]);
   history = sample.filter(e => Number.isFinite(e.windows[window][asset.id]));
   const previous = selectedDate || params.get('date');
-  const date = history.find(e => e.date === previous)?.date || history.at(-1)?.date || sample.at(-1)?.date;
+  const date = sample.find(e => e.date === previous)?.date || history.at(-1)?.date || sample.at(-1)?.date;
   options(controls.date,[...sample].reverse().map(e => [e.date,dateLabel(e.date)]), date);
   selectedDate = controls.date.value;
   el('title').textContent = asset.label;
@@ -97,8 +97,93 @@ function selectEvent() {
     panels.append(section);
   }
   el('detail-note').textContent = event ? dateLabel(event.date) + ' · ' + names[controls.window.value] + (bank.assets.some(a => !Number.isFinite(record[a.id])) ? ' · — indicates no observation.' : '') : 'No observations in this sample.';
+  renderWindowComparison(event);
   drawChart();
 }
+
+function renderWindowComparison(event) {
+  const section = el('windows');
+  section.hidden = !event;
+  if (!event) return;
+  el('compare-date').textContent = bank.name + ' · ' + dateLabel(event.date);
+  const periodKeys = ['statement', 'conference', 'meeting'];
+  const fed = bank.id === 'fed';
+  const rowIds = fed
+    ? ['MP1', 'MP2', 'OIS1Y', 'UST2Y', 'UST10Y', 'EURUSD', 'SP500']
+    : ['OIS_1M', 'OIS_1Y', 'DE2Y', 'DE10Y', 'EURUSD', 'STOXX50'];
+  if (!rowIds.includes(asset.id)) rowIds.push(asset.id);
+  const rows = rowIds.map(id => {
+    const item = bank.assets.find(candidate => candidate.id === id);
+    if (!item) return null;
+    const tr = document.createElement('tr');
+    const label = document.createElement('th');
+    label.scope = 'row';
+    label.textContent = item.label;
+    tr.append(label);
+    for (const key of periodKeys) {
+      const cell = document.createElement('td');
+      cell.textContent = formatted(event.windows[key]?.[id], item.unit);
+      tr.append(cell);
+    }
+    return tr;
+  }).filter(Boolean);
+  el('compare-rows').replaceChildren(...rows);
+
+  const decision = fed && document.querySelector('[data-mr-meeting="' + event.date + '"]');
+  const surprise = event.windows.statement?.MP1;
+  const intro = el('window-context');
+  if (decision && Number.isFinite(surprise)) {
+    const action = Number(decision.dataset.action);
+    const daily = Number(decision.dataset.daily);
+    intro.textContent = 'The Fed ' + (action === 0 ? 'held its target range' : 'moved its target range by ' + formatted(action, 'bp')) +
+      '. Current-meeting futures repriced by ' + formatted(surprise, 'bp') +
+      ' around the statement. Subtracting that surprise from the decision gives approximately ' +
+      formatted(action - surprise, 'bp') + ' priced in beforehand, assuming a stable futures basis. The daily two-year Treasury move was ' + formatted(daily, 'bp') + '.';
+  } else {
+    intro.textContent = fed
+      ? 'Current-meeting futures measure the unexpected part of the announcement. Next-meeting futures and one-year swaps show how pricing farther ahead changed. Longer yields can also reflect inflation compensation and term premia.'
+      : 'The one-month euro overnight index swap reflects near-term overnight-rate pricing, including days outside this meeting. It is a proxy for short-rate expectations. The one-year swap captures pricing farther ahead, while German government yields also contain risk premia.';
+  }
+
+  const definitions = periodKeys.flatMap(key => {
+    const term = document.createElement('dt');
+    const definition = document.createElement('dd');
+    term.textContent = names[key];
+    definition.textContent = bank.windows[key] || 'Window unavailable.';
+    return [term, definition];
+  });
+  el('window-definitions').replaceChildren(...definitions);
+  const period = controls.year.value;
+  const events = bank.events.filter(candidate => period === 'all' || candidate.date.startsWith(period));
+  const direction = value => {
+    if (!Number.isFinite(value)) return null;
+    const displayed = Math.abs(value).toFixed(asset.unit === 'bp' ? 1 : 2);
+    return Number(displayed) === 0 ? 0 : Math.sign(value);
+  };
+  let pairs = 0;
+  let reversals = 0;
+  for (const candidate of events) {
+    const first = direction(candidate.windows.statement?.[asset.id]);
+    const second = direction(candidate.windows.conference?.[asset.id]);
+    if (!first || !second) continue;
+    pairs++;
+    if (first !== second) reversals++;
+  }
+  const first = direction(event.windows.statement?.[asset.id]);
+  const second = direction(event.windows.conference?.[asset.id]);
+  const label = asset.label;
+  let reading;
+  if (first === null || second === null) reading = label + ' has no comparable pair of quoted moves for this meeting. A dash marks an unavailable observation.';
+  else if (!first || !second) reading = label + ' was flat at displayed precision in at least one of the two windows.';
+  else reading = label + (first !== second
+    ? ' moved in opposite directions around the statement and the conference.'
+    : ' moved in the same direction around the statement and the conference.');
+  const scope = period === 'all' ? 'over the available sample' : 'in ' + period;
+  el('window-pattern').textContent = reading + (pairs
+    ? ' For this instrument ' + scope + ', ' + reversals + ' of ' + pairs + ' meetings with two nonzero reported moves had opposite signs.'
+    : ' There are no meetings with two nonzero reported moves for this instrument ' + scope + '.');
+}
+
 function drawChart() {
   const box = el('chart');
   box.replaceChildren();
