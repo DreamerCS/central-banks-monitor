@@ -124,6 +124,9 @@ const PublicationReader = (() => {
   }
 
   const workedCases = [
+    ["https://www.snb.ch/public/asset/en/www-snb-ch/publications/research/working-papers/2026/working_paper_2026_14/publications0_en/working_paper_2026_14.pdf","swiss-inflation-horizons-2026","Swiss inflation forecasts against a seasonal benchmark"],
+    ["https://www.snb.ch/en/publications/research/working-papers/2026/working_paper_2026_14","swiss-inflation-horizons-2026","Swiss inflation forecasts against a seasonal benchmark"],
+    ["https://www.boj.or.jp/en/mopo/outlook/gor2610b.pdf","japan-investment-adoption-2026","Japan’s investment plans and the cost of delay"],
     ["https://www.dallasfed.org/news/speeches/logan/2026/lkl261113", "tips-liquidity-2008-2020", "When ten-year breakevens fall in a Treasury sell-off"],
     ["https://www.bancaditalia.it/pubblicazioni/rapporto-stabilita/2026-2/index.html?com.dotmarketing.htmlpage.language=1", "italian-btp-repo-2026", "Italian BTP repo and rollover funding"],
     ["https://www.bundesbank.de/en/press/speeches/statement-on-the-publication-of-the-financial-stability-review-2026-of-the-deutsche-bundesbank-1014858", "italian-btp-repo-2026", "Italian BTP repo and rollover funding"],
