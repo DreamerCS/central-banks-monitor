@@ -134,9 +134,17 @@ def include_supplements(publications, supplements):
             item = dict(official, url=url, aliases=sorted(candidates - {url}), noteFile=None,
                         revision=digest(record), inPublicArchive=False)
             publications[url] = item
-        for field in ("workId", "candidateDate", "dateStatus", "confirmedDate", "dateEvidence"):
+        # Keep the canonical publication identity when an additional edition is
+        # processed later. A dated original outranks an undated catalogue copy.
+        primary = supplements.get(canonical, {})
+        for field in ("workId", "candidateDate"):
             if field in record:
-                item[field] = record[field]
+                item[field] = primary.get(field, record[field])
+        date_record = primary if primary.get("confirmedDate") else record
+        if date_record.get("confirmedDate") or not item.get("confirmedDate"):
+            for field in ("dateStatus", "confirmedDate", "dateEvidence"):
+                if field in date_record:
+                    item[field] = date_record[field]
         if record.get("sourceUrls"):
             item["sourceUrls"] = sorted(set(item.get("sourceUrls", [])) |
                                         {key(a) for a in record["sourceUrls"]})
