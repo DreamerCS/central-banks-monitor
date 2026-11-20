@@ -1782,7 +1782,10 @@
     "publication": {
       "jurisdiction": "South Africa",
       "type": "Release",
-      "title": "Prudential Authority imposes administrative sanctions on The Standard Bank of South Africa Limited"
+      "title": "Prudential Authority imposes administrative sanctions on The Standard Bank of South Africa Limited",
+      "aliases": [
+        "https://www.resbank.co.za/content/dam/sarb/publications/media-releases/2026/sanction-sbsa.pdf"
+      ]
     }
   },
   {
@@ -1847,7 +1850,10 @@
     "publication": {
       "jurisdiction": "South Africa",
       "type": "Release",
-      "title": "Prudential Authority imposes administrative sanctions on HBZ Bank Limited"
+      "title": "Prudential Authority imposes administrative sanctions on HBZ Bank Limited",
+      "aliases": [
+        "https://www.resbank.co.za/content/dam/sarb/publications/media-releases/2026/sanction-hbz.pdf"
+      ]
     }
   },
   {
@@ -2243,16 +2249,19 @@
     }
   },
   {
-    "title": "South African export commodity prices fall in dollars and rise in rand in October",
+    "title": "South Africa’s commodity price index fell in dollars and rose in rand in October",
     "bank": "South African Reserve Bank",
     "date": "2026-11-10",
     "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/Sarb-ICP/sa-commodity-price-index-october-26",
-    "excerpt": "South Africa’s export commodity basket moved in opposite directions depending on the currency used to measure it.",
+    "excerpt": "South Africa’s commodity price index moved in opposite directions depending on the currency used to measure it.",
     "file": "2026-11-10-a4fa1c417d.json",
     "publication": {
       "jurisdiction": "South Africa",
       "type": "Release",
-      "title": "Index of Commodity Prices for South Africa – October 2026"
+      "title": "Index of Commodity Prices for South Africa – October 2026",
+      "aliases": [
+        "https://www.resbank.co.za/content/dam/sarb/publications/sarb-icp/sarb-ico-oct-26-release.pdf"
+      ]
     }
   },
   {
@@ -2479,7 +2488,10 @@
     "publication": {
       "jurisdiction": "South Africa",
       "type": "Release",
-      "title": "Statement of assets and liabilities October 2026"
+      "title": "Statement of assets and liabilities October 2026",
+      "aliases": [
+        "https://www.resbank.co.za/content/dam/sarb/publications/statements/assets-and-liabilities/2026/October%202026.pdf"
+      ]
     }
   },
   {
@@ -2492,7 +2504,10 @@
     "publication": {
       "jurisdiction": "South Africa",
       "type": "Release",
-      "title": "Information notice on the official gold and foreign exchange reserves of the South African Reserve Bank as at 31 October 2026"
+      "title": "Information notice on the official gold and foreign exchange reserves of the South African Reserve Bank as at 31 October 2026",
+      "aliases": [
+        "https://www.resbank.co.za/content/dam/sarb/publications/financial-markets/notices/information-notice/2026/information-notice-gold-and-foreign-exchange-reserves-october-2026.pdf"
+      ]
     }
   },
   {

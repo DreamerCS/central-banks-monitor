@@ -991,12 +991,18 @@
   "2026-11-09-07ec85b0ec.json": {
     "jurisdiction": "South Africa",
     "type": "Release",
-    "title": "Statement of assets and liabilities October 2026"
+    "title": "Statement of assets and liabilities October 2026",
+    "aliases": [
+      "https://www.resbank.co.za/content/dam/sarb/publications/statements/assets-and-liabilities/2026/October%202026.pdf"
+    ]
   },
   "2026-11-09-453ff07cef.json": {
     "jurisdiction": "South Africa",
     "type": "Release",
-    "title": "Information notice on the official gold and foreign exchange reserves of the South African Reserve Bank as at 31 October 2026"
+    "title": "Information notice on the official gold and foreign exchange reserves of the South African Reserve Bank as at 31 October 2026",
+    "aliases": [
+      "https://www.resbank.co.za/content/dam/sarb/publications/financial-markets/notices/information-notice/2026/information-notice-gold-and-foreign-exchange-reserves-october-2026.pdf"
+    ]
   },
   "2026-11-09-5a12ff6781.json": {
     "jurisdiction": "Australia",
@@ -1062,7 +1068,10 @@
   "2026-11-10-a4fa1c417d.json": {
     "jurisdiction": "South Africa",
     "type": "Release",
-    "title": "Index of Commodity Prices for South Africa – October 2026"
+    "title": "Index of Commodity Prices for South Africa – October 2026",
+    "aliases": [
+      "https://www.resbank.co.za/content/dam/sarb/publications/sarb-icp/sarb-ico-oct-26-release.pdf"
+    ]
   },
   "2026-11-10-b8e7fd794e.json": {
     "jurisdiction": "Canada",
@@ -1107,12 +1116,18 @@
   "2026-11-13-f808687dc0.json": {
     "jurisdiction": "South Africa",
     "type": "Release",
-    "title": "Prudential Authority imposes administrative sanctions on The Standard Bank of South Africa Limited"
+    "title": "Prudential Authority imposes administrative sanctions on The Standard Bank of South Africa Limited",
+    "aliases": [
+      "https://www.resbank.co.za/content/dam/sarb/publications/media-releases/2026/sanction-sbsa.pdf"
+    ]
   },
   "2026-11-13-ff66bd488d.json": {
     "jurisdiction": "South Africa",
     "type": "Release",
-    "title": "Prudential Authority imposes administrative sanctions on HBZ Bank Limited"
+    "title": "Prudential Authority imposes administrative sanctions on HBZ Bank Limited",
+    "aliases": [
+      "https://www.resbank.co.za/content/dam/sarb/publications/media-releases/2026/sanction-hbz.pdf"
+    ]
   },
   "2026-11-16-298c3dc5fa.json": {
     "jurisdiction": "United States",
