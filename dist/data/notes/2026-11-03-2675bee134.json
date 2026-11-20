@@ -1,0 +1,28 @@
+{
+  "title": "Why an expensive-to-borrow Bund can attract persistent hedge-fund demand",
+  "bank": "European Central Bank",
+  "date": "2026-11-03",
+  "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3305~877e68c2b7.en.pdf",
+  "summary": [
+    "When investors want a particular German government bond, the price of obtaining that security in the repo market can rise even if banks have ample central-bank reserves. This ECB working paper studies the link between cash bonds and secured financing. In the paper’s convention, specialness is the wedge between the policy rate and a bond’s repo rate. A lower repo rate means the party lending cash accepts less interest in return for receiving the scarce security. That makes the bond more expensive to borrow. The authors ask which participants set this wedge and which are willing to absorb the change.",
+    "Some investors need the physical security, for example to satisfy a mandate or match an obligation. When the cash price is high relative to the value implied by a futures contract, a hedge fund can sell the bond, buy the futures contract and borrow the bond through repo to deliver it. The size of the cash-market opportunity can then determine how many securities the fund needs to borrow. A fund can be sensitive to mispricing when deciding which cash position to take and relatively insensitive to the repo price while maintaining that position. This mechanism concerns the direction observed in German bonds. A basis position in another sovereign market can have the opposite legs.",
+    "The researchers use regulatory reports covering repos with a euro-area counterparty, reconstructing ultimate borrowers and lenders behind central counterparties and removing duplicate reports. The sample extends from January 2021 through June 2024. Figures 2–4 contrast sizable gross positions with net transfer of securities. Public institutions, including the German debt management office and the Eurosystem, account for around 60% of net lending. Offshore hedge funds account for 50–80% of net borrowing. Euro-area dealers often intermediate both sides. Transactions between two non-euro-area counterparties are outside the reporting requirement, making the net position of offshore dealers harder to interpret.",
+    "Price and quantity move together, so simply relating observed repo volumes to specialness would confound supply and demand. The paper uses sector-specific shocks to instrument for changes in the price faced by other sectors. This relies on the shocks being independent of the other sectors’ demand after common influences are removed. Table 3 estimates a hedge-fund elasticity of 0.11. A 10% increase in borrowing cost reduces demand by roughly 1%. The market-wide elasticity is about 1.2, with suppliers contributing about 87%. The German debt management office supplies broadly, while the Eurosystem lending facility responds more strongly as the price of borrowing rises.",
+    "Figure 12 relates the widening cash–futures basis to the expansion of hedge-fund securities borrowing in 2022. Both the opportunity and borrowing later receded. The authors’ decomposition in Figure 8 estimates that public securities lending reduced specialness by around 15 basis points at the peak of the episode. This is an inferred counterfactual, not a change observed after switching off both facilities. The paper shows why specialness can convey information about demand for physical bonds and the supply available to dealers. Interpreting a widening wedge as a pure signal of aggregate reserve scarcity would miss both sides of this trade."
+  ],
+  "questions": [
+    {
+      "question": "Can the observed cash–futures basis predict which individual bonds become expensive to borrow?",
+      "detail": "Follow deliverable and otherwise comparable non-deliverable Bunds around changes in relative cash prices, controlling for maturity, issuance, official holdings and quarter-end effects. Compare the timing of repo borrowing and specialness with the timing of the basis. If specialness leads the cash-market opportunity consistently, the proposed direction of transmission needs closer examination."
+    },
+    {
+      "question": "How much of the estimated 15-basis-point offset comes from pricing rather than the quantity of securities available?",
+      "detail": "Use official securities-lending terms, bond-level facility utilisation and the debt office’s retained holdings to compare periods when a specific security is eligible but differently priced or supplied. Measure the response of private lenders as well. Their entry or withdrawal can change the net market effect of an increase in public lending capacity."
+    },
+    {
+      "question": "How sensitive is hedge-fund demand to borrowing costs once its hedged cash position stops being profitable?",
+      "detail": "Compare matched cash, futures and repo positions as implied returns approach financing costs. Test for a sharper adjustment around that threshold than the pooled 0.11 elasticity implies. Replicate on consistently reported counterparties and treat unobserved foreign-to-foreign trades separately before interpreting a sharp withdrawal as a market-wide change in liquidity in German sovereign bonds."
+    }
+  ],
+  "limitation": ""
+}
