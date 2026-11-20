@@ -42,6 +42,22 @@
     }
   },
   {
+    "title": "Five Indian states offer to exchange near-dated debt for longer maturities",
+    "bank": "Reserve Bank of India",
+    "date": "2026-11-20",
+    "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64017",
+    "excerpt": "Five Indian state governments are offering to exchange up to ₹10,800 crore of existing securities, measured at the face value of the bonds tendered.",
+    "file": "2026-11-20-96f3c55842.json",
+    "publication": {
+      "title": "Conversion/Switch of State Government Securities",
+      "type": "Release",
+      "jurisdiction": "India",
+      "aliases": [
+        "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR153980EC0AE092E14AE6963872D7C9520E39.PDF"
+      ]
+    }
+  },
+  {
     "title": "Christine Lagarde: Acting in time",
     "bank": "European Central Bank",
     "date": "2026-11-20",
@@ -914,6 +930,19 @@
     }
   },
   {
+    "title": "Europe’s summer heat exposed a gap between cheap daytime power and evening supply",
+    "bank": "European Central Bank",
+    "date": "2026-11-04",
+    "url": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261104~78299c3eaf.en.html",
+    "excerpt": "Christine Lagarde sees a modest, mostly temporary effect of the summer’s extreme weather on aggregate euro area activity, alongside potentially lasting losses where damage is concentrated.",
+    "file": "2026-11-04-bb134bb3bd.json",
+    "publication": {
+      "title": "Christine Lagarde: A warning from Europe's hot summer",
+      "jurisdiction": "Euro area",
+      "type": "Research"
+    }
+  },
+  {
     "title": "Brazil pauses at 13.75% as inflation expectations rise despite sharper cyclical slowing",
     "bank": "Banco Central do Brasil",
     "date": "2026-11-04",
@@ -924,6 +953,19 @@
       "jurisdiction": "Brazil",
       "title": "BC - Copom Comunicado - 282ª Reunião - Copom mantém a taxa Selic em 13,75% a.a.",
       "type": "Decision"
+    }
+  },
+  {
+    "title": "What cheaper euro transfers could actually save remittance recipients",
+    "bank": "European Central Bank",
+    "date": "2026-11-03",
+    "url": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261103~b8d18d23bf.en.html",
+    "excerpt": "The Single Euro Payments Area gives households a way to send euros across borders on terms comparable to a domestic payment.",
+    "file": "2026-11-03-4767bed638.json",
+    "publication": {
+      "title": "SEPA: Europe’s unsung hero",
+      "jurisdiction": "Euro area",
+      "type": "Research"
     }
   },
   {

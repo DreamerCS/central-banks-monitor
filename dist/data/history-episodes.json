@@ -107,12 +107,28 @@
       {
         "label": "FOMC · March 1980 policy record and credit measures",
         "url": "https://fraser.stlouisfed.org/files/docs/historical/FOMC/meetingdocuments/19800318RoPA19800425.pdf"
+      },
+      {
+        "label": "Federal Reserve Board H.15 via FRED · two-year Treasury constant maturity",
+        "url": "https://fred.stlouisfed.org/series/DGS2"
+      },
+      {
+        "label": "Federal Reserve Board H.15 via FRED · ten-year Treasury constant maturity",
+        "url": "https://fred.stlouisfed.org/series/DGS10"
       }
     ],
     "details": [
       {
         "heading": "What changed on 6 October",
         "text": "The Saturday announcement changed the way the Fed supplied reserves. The trading desk placed greater weight on the quantity of nonborrowed reserves available to banks and allowed the overnight funds rate to fluctuate more. The Board raised the discount rate from 11% to 12% and imposed an 8% marginal reserve requirement on increases in certain managed liabilities, a source of wholesale funding for banks. Volcker acknowledged that control over money growth would be imprecise even from month to month. The announcement therefore provides a date for a change in policy practice. It supplies no single funds-rate increase that can represent the whole intervention. The Iranian oil disruption was already affecting costs, and precautionary oil demand could also raise prices. Treating every increase in energy prices as a supply loss would overstate that channel."
+      },
+      {
+        "heading": "How the Treasury curve moved across the announcement",
+        "text": "On Friday 5 October 1979, the two-year Treasury constant-maturity yield was 10.39% and the ten-year was 9.60%. The next common H.15 observation was Tuesday 9 October, after the Saturday announcement. The two-year rose 73 basis points to 11.12% and the ten-year rose 33 to 9.93%. The ten-year minus two-year spread went from −79 to −119 basis points. A long position in either maturity faced rising yields even as the curve became more inverted. From 4 September through 5 October, the median absolute change between consecutive common observations was 4 basis points at both maturities. The largest among the 23 changes was 20 basis points at two years and 11 at ten. The announcement window spans a long weekend, so these descriptive comparisons use different lengths of calendar time."
+      },
+      {
+        "heading": "How sensitive is the result to the end date?",
+        "text": "From the same Friday baseline through 12 October the two- and ten-year increases were 78 and 55 basis points. Extending the window to 19 October gives 176 and 108 basis points. The shorter yield rose more at every endpoint, but the size of the move depends strongly on the window. These are nominal constant-maturity yields from the Federal Reserve Board’s H.15 series, retrieved on 20 November 2026. They combine revisions to expected short rates and compensation for bearing risk. Daily observations cannot separate the reserve procedure, discount-rate increase and marginal reserve requirement, recover a market-implied probability before the announcement, or exclude other news. A move in basis points also cannot be read as a bond holding-period return."
       },
       {
         "heading": "Two contractions with a recovery between them",
