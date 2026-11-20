@@ -30,8 +30,12 @@ for item in sources:
 
 periods = json.loads((ROOT / "archive-periods.json").read_text())
 records = json.loads((ROOT / "research-archive.json").read_text())
+from publication_archive import VERIFIED_PUBLICATION_URLS
+
 for row in records:
-    assert row.keys() <= {"jurisdiction", "date", "institution", "title", "type", "url", "related", "sourcePage"}, row["url"]
+    assert row.keys() <= {"jurisdiction", "date", "institution", "title", "type", "url", "related", "sourcePage", "previousUrls"}, row["url"]
+    for old in row.get("previousUrls", []):
+        assert VERIFIED_PUBLICATION_URLS.get(old) == row["url"], old
     assert all(link.keys() == {"label", "url"} for link in row.get("related", [])), row["url"]
 assert len({period["id"] for period in periods}) == len(periods)
 for period in periods:
