@@ -1,0 +1,28 @@
+{
+  "title": "Who receives tariff revenue can reverse the long-run effect on global real rates",
+  "bank": "Deutsche Bundesbank",
+  "date": "2026-11-17",
+  "url": "https://www.bundesbank.de/en/publications/research/discussion-papers/tariffs-cohort-redistribution-and-the-world-real-interest-rate-1007836",
+  "summary": [
+    "A tariff can lower the world real interest rate on impact and raise it over time, according to Anne Ernst, Matthias Schön and Nikolai Stähler. The first response comes from weaker investment demand. The second depends on who receives the tariff revenue and how much they save. In the authors’ model a permanent tariff can raise or lower the long-run interest rate even when the trade restriction itself is identical. The results describe a market-clearing real return across three model economies. They are neither a forecast of central bank policy nor an estimate of a specific country’s bond yield (Sections 1 and 4).",
+    "The experiment begins with an unexpected permanent 25% tariff applied by one region to consumption and investment goods imported from a second. A third region remains outside the dispute. After the initial surprise all participants foresee the transition. The tariff both raises the importing region’s cost of foreign capital goods and weakens demand for the targeted region’s exports. In the benchmark the government uses half of its tariff receipts to cut payroll contributions and half to increase pensions. Workers and retirees have different saving horizons. Their responses affect net foreign assets and the real interest rate needed to clear global asset markets. Each region’s external position can adjust without being tied to a predetermined target (Sections 2–4).",
+    "Under the benchmark unilateral tariff, long-run output falls 0.29% in the imposing region and 0.47% in the targeted region relative to their initial steady states. Consumption in the imposing region nevertheless rises 0.25%. A movement in relative prices and a redistribution of purchasing power can support spending even when domestic production falls. The targeted region’s consumption falls 1.97%. The third region initially benefits from trade diversion, but its output gain fades. If the targeted region retaliates with the same tariff, the imposing region’s long-run consumption instead falls 0.74%, and output losses in both trading partners deepen (Table 4 and Figure 1).",
+    "The world rate falls immediately in the benchmark as desired investment contracts. Falling investment costs then cushion that contraction. Over time, the accumulating change in desired saving raises the equilibrium real rate above its original level. That higher return affects the income of creditors and discourages further capital accumulation. The imposing region’s net foreign asset position deteriorates persistently under the unilateral benchmark. Rising consumption at home and the presence of tariff receipts are therefore compatible with a deterioration in the country’s external balance sheet (Figures 1–2).",
+    "How revenue is distributed is decisive. With the unilateral tariff, an allocation entirely to payroll-tax reductions puts the long-run world rate 1.18 percentage points below its initial level. Benchmark recycling puts it 0.39 points above, and an allocation entirely to pension benefits puts it 1.86 points above. The corresponding retaliation cases are −1.27, +1.07 and +3.29 percentage points. These are model-implied changes in a rate. The output and consumption entries in the same table are percentage deviations in quantities. The authors use polar fiscal rules to identify the channel and explicitly avoid matching today’s global external imbalances. Applying the magnitudes would require evidence on actual revenue use, investment exposure and the distribution of saving propensities (Table 4, Section 5 and symmetric-calibration appendix)."
+  ],
+  "questions": [
+    {
+      "question": "Who would receive the marginal tariff revenue in the economy under study?",
+      "detail": "The results change sign across payroll-tax and pension-benefit rules, while the model balances the fiscal budget period by period. Trace enacted spending, contributions, transfers and borrowing through budget documents and national accounts. An announcement about gross customs receipts alone reveals little about household disposable income or the sign of the long-run saving response."
+    },
+    {
+      "question": "How much investment is exposed to the tariff before new suppliers can be found?",
+      "detail": "The initial rate decline is driven by weaker investment demand, including higher costs of imported capital goods. Compare import composition, capital-goods prices and firms’ investment plans with the model’s consumption and investment import shares. The extent of substitution through a third market would matter for the size and duration of the initial decline."
+    },
+    {
+      "question": "How sensitive is the world-rate result to actual creditor positions and household balance sheets?",
+      "detail": "The authors deliberately use a mechanism-oriented calibration and allow external assets to adjust freely. Compare cohort saving rates, net foreign asset positions and the currency and maturity of claims in sector and international investment accounts. Different starting wealth or valuation effects could change both the income received from higher real rates and the subsequent path of spending."
+    }
+  ],
+  "limitation": ""
+}

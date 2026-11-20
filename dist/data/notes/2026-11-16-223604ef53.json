@@ -1,0 +1,28 @@
+{
+  "title": "How a clearing house can seek relief from a Bank of England rule",
+  "bank": "Bank of England",
+  "date": "2026-11-16",
+  "url": "https://www.bankofengland.co.uk/paper/2026/sop/statement-of-policy-the-boes-approach-to-rule-permissions-waivers",
+  "summary": [
+    "A rule permission can change what one financial market infrastructure must do, with the rest of the rulebook continuing to apply. The Bank’s 16 November statement explains the evidence on which it intends to make that decision. A clearing member assessing an infrastructure provider therefore needs the actual terms of any permission that affects its service. The existence of a power to grant relief says little about which firms will obtain it. The statement extends to specified clearing houses and securities depositories and to designated critical third parties. For a critical third party with parallel applications to the FCA and PRA, the Bank expects to coordinate with those authorities.",
+    "The statement distinguishes two routes. The general waiver or modification power under section 138A of the Financial Services and Markets Act has statutory criteria. The section 138BA permission is assessed against published Bank policy. Where there is a statement for the particular rule, it sets out the relevant test. In other cases the Bank gives substantial weight to whether the unmodified rule would be unduly burdensome or would fail to achieve its purpose, and whether granting relief would impede the Bank’s financial stability objective. The burden assessment can take account of improvements in the quality, efficiency and economy of infrastructure services that compliance would prevent. An applicant must substantiate that claim.",
+    "An applicant is encouraged to speak to its supervisory contact and then register electronically. The initial form generates a reference number. A subsequent submission supplies the completed application, including any relevant precedent. Firms must notify the Bank immediately of developments that could change the appropriateness of the request or a condition attached to it. An earlier permission given to another operator can help identify the question the Bank examined, but the statement calls for evidence about the particular applicant and arrangement.",
+    "Unless a subject-specific timetable applies, the Bank generally expects a decision within 80 business days of a completed application, or 120 business days for a more complex case. Exceptional cases can take longer. Counting starts on the business day after submission of the completed application. If further information is requested, the count pauses until it arrives and ten business days are added. Subsequent requests do not extend the deadline again. An operator forecasting a launch date needs to allow for the time it takes to prepare a complete application and respond, as well as the authority’s assessment time.",
+    "The Bank communicates its decision in writing and gives reasons for a refusal or conditions. Certain decisions can be referred to the Upper Tribunal. A permission may need to be paired with a separate requirement on the firm. Approved permissions generally become public, although publication can be unnecessary or inappropriate and an abridged notice may be considered. The Bank plans to report performance against its own decision timetables, subject to confidentiality where volumes are low. A firm’s systems, conditions and ongoing reporting duties are therefore relevant when judging the effect of relief. A headline permission, or the absence of a published average decision time, cannot establish the resulting level of risk."
+  ],
+  "questions": [
+    {
+      "question": "Which requirement would the applicant replace, and what would deliver its original safeguard?",
+      "detail": "The Bank considers the effect of unmodified compliance and the implications for financial stability. A clearing member reviewing a proposed service needs more than the operator’s estimated saving. Compare the rule text with the applicant’s proposed alternative, the specific burden it identifies and any conditions in the written decision. Examine whether the replacement safeguard still operates when volumes rise or an important operational assumption fails."
+    },
+    {
+      "question": "How much of the launch timetable falls outside the published decision clock?",
+      "detail": "The general assessment periods start with a completed submission and the first further-information request can pause and extend them. The statement gives no distribution of time spent preparing incomplete or complex applications. A participant allocating systems and testing resources should obtain the submission and information-request dates and check any applicable subject-specific timetable. Recalculate the critical path under both a prompt reply and a delayed response."
+    },
+    {
+      "question": "What would invalidate the permission after it was granted?",
+      "detail": "A firm must report relevant changes, while public notices may omit commercially sensitive details. A creditor assessing continuing exposure should compare the permission and conditions with the operator’s current service and dependencies, then identify any change that calls its eligibility into question. The public decision, subsequent variations and the firm’s disclosures give a better basis for this assessment than the fact that relief was once obtained."
+    }
+  ],
+  "limitation": "This statement describes the prospective assessment framework. It gives no decision on an individual application or sample of realised processing times."
+}

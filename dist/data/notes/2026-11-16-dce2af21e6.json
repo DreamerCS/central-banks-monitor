@@ -1,0 +1,28 @@
+{
+  "title": "Government bonds account for a growing share of China’s financing as household loans contract",
+  "bank": "People’s Bank of China",
+  "date": "2026-11-16",
+  "url": "https://jrj.sh.gov.cn/SCGK194/20261116/00d09e641a1148d5bdee81e3f0f483de.html",
+  "summary": [
+    "China’s October financial statistics show why the stock of financing can keep growing even while new bank credit falls short of the previous year’s pace. The stock of aggregate financing to the real economy reached RMB469.16 trillion at end-October, 7.2% above a year earlier. Government bonds outstanding grew 14.4%, over three times the 4.6% growth in outstanding renminbi loans to the real economy. The government bond share reached 22.7%, up 1.4 percentage points over the year. The renminbi loan share fell 1.5 points to 59.5%. Both stocks grew, but public borrowing accounted for an increasing share of the financing mix.",
+    "The January–October figures show what changed at the margin. Aggregate financing increased RMB28.61 trillion, RMB2.29 trillion less than in the same ten months of 2025. Renminbi loans to the real economy contributed RMB10.91 trillion, RMB3.61 trillion less than a year earlier. Net corporate bond financing rose to RMB3.10 trillion, up RMB1.27 trillion. Government bond net financing reached RMB11.49 trillion, exceeding new renminbi loans to the real economy in this period. Yet it too was below its own year-earlier flow, by RMB459.2 billion. A larger share of the stock and slower new government financing than last year are compatible.",
+    "A separate banking-system measure in the release shows renminbi loans increasing RMB11.42 trillion during the first ten months. The borrower mix is more revealing than the total. Household loans contracted RMB1.46 trillion, of which RMB1.41 trillion was short-term. Loans to enterprises and public institutions increased RMB12.39 trillion, including RMB6.69 trillion in medium- and long-term credit. The PBoC includes nonfinancial firms and public bodies in this borrower category. It does not separate state and private firms or identify the uses of their new borrowing. The banking measure also covers a different population from loans to the real economy within aggregate financing.",
+    "Deposit growth continued alongside the contraction in household borrowing. Renminbi deposits rose RMB21.97 trillion in the first ten months, including RMB8.47 trillion for households and RMB5.99 trillion for non-bank financial institutions. At end-October broad money grew 7.1% year on year and narrow money 4.4%. The footnotes matter for historical comparisons: the PBoC changed its M1 definition in January 2025 to include personal demand deposits and payment institutions’ customer reserve funds. The publication provides a comparable series for 2024. It also identifies a separate, earlier expansion in the set of institutions included in financial statistics.",
+    "October’s money-market data add a price dimension. The weighted average interbank lending rate fell ten basis points from September to 1.30%, and the pledged repo rate fell seven basis points to 1.33%. Those monthly observations cannot show whether easier funding translated into stronger household demand over the ten-month period. For the same reason, October’s RMB1.90 trillion of cross-border renminbi settlement on the current account measures transactions in that month, not a contribution to the year-to-date domestic credit figures. The bank marks the release preliminary."
+  ],
+  "questions": [
+    {
+      "question": "What accounts for the contraction in household borrowing?",
+      "detail": "Short-term loans accounted for almost all of the ten-month fall, while household deposits rose. Outstanding balances alone do not distinguish fewer new loan applications from faster repayments or the expiry of earlier lending. Compare monthly household borrowing by maturity with gross originations, repayments and loan pricing where available. A demand slowdown and a refinancing change could have different consequences for consumption and bank interest income."
+    },
+    {
+      "question": "Where is the shift from bank to bond finance taking place?",
+      "detail": "Corporate bond net financing rose from a year earlier while new renminbi lending to the real economy slowed. The totals do not identify whether the same borrowers substituted bonds for bank credit. Compare issuer-level financing, sector ownership, maturities and spreads with bank loan composition. The resulting distinction matters for whether a credit investor is seeing cheaper funding for existing issuers or broader access for previously constrained firms."
+    },
+    {
+      "question": "How far do lower interbank rates reach new borrowers?",
+      "detail": "October’s traded funding rates fell while the ten-month credit figures diverged sharply by sector. Examine the official monthly series at the same frequency, then compare new-loan rates and volumes for households and enterprises against money-market conditions. Distinguish new activity from changes in balances. That provides a more direct test of transmission than comparing one month of funding prices with accumulated borrowing."
+    }
+  ],
+  "limitation": "The official Shanghai financial administration republishes the PBoC’s preliminary release. Monetary aggregates and aggregate financing use the definitions in its methodological notes."
+}

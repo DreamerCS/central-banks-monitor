@@ -1,0 +1,27 @@
+{
+  "title": "Indonesia’s external balance turned positive as the current-account gap narrowed",
+  "bank": "Bank Indonesia",
+  "date": "2026-11-20",
+  "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2825526.aspx",
+  "summary": [
+    "Indonesia recorded a balance-of-payments surplus of USD 0.1 billion in the third quarter, following a USD 0.9 billion deficit in the second. The striking change in Bank Indonesia’s 20 November release is the composition of that small surplus. The current-account deficit contracted from USD 12.6 billion, or 3.4% of GDP, to USD 2.0 billion, or 0.5%. The capital and financial account still supplied financing, but its surplus was lower than in the preceding quarter. A recovery in the overall balance therefore coincided with less support from that account.",
+    "Several current-account components improved together. Higher prices for Indonesia’s export commodities supported the value of non-oil and gas exports and increased the non-energy trade surplus. Lower oil and gas imports narrowed the energy trade deficit. Visitors from abroad helped reduce the services deficit, while lower payments of investment income to foreign investors narrowed the primary income deficit. Secondary income changed little. These drivers have different implications for persistence. Commodity price gains can increase receipts without a rise in export volumes, and lower investment income payments can improve the quarterly balance without adding productive capacity. The release does not quantify the contribution of either mechanism.",
+    "The capital and financial account recorded USD 2.1 billion of net inflows. Direct investment was in surplus, which Bank Indonesia interpreted as reflecting confidence in domestic prospects. Other investment also produced a surplus after a deficit in the second quarter, chiefly because residents withdrew currency and deposits previously held abroad. That change in residents’ asset positions matters for a rupiah investor. It can provide external financing in the quarter in which it occurs, but it does not represent a commitment by foreigners to continue financing Indonesia. Portfolio investment remained in deficit, with weaker foreign inflows into domestic debt securities amid global uncertainty.",
+    "At end-September, reserve assets stood at USD 146.3 billion. The Bank compared that stock with 5.4 months of imports or 5.2 months after adding government external debt service to the denominator. The latter comparison captures an extra claim on foreign currency, although it still does not show when individual liabilities mature. The Bank expected the current-account deficit to stay low on the assumption of firm trading-partner demand and high commodity prices. Its projection of continued financial inflows rested partly on the attractiveness of yields on Indonesian instruments. The quarter’s weak portfolio result shows why that expectation is conditional, particularly for investors assessing the local bond market."
+  ],
+  "questions": [
+    {
+      "question": "How much of the current-account improvement would survive a reversal in commodity prices?",
+      "detail": "Use the quarterly balance-of-payments tables identified in the release and customs values, volumes and commodity prices available at publication. Decompose the change in non-oil exports and energy imports, then compare it with tourism receipts and the timing of investment income payments. This would distinguish improvements in external purchasing power that depend on prices from those supported by export volumes or services."
+    },
+    {
+      "question": "Could portfolio funding strengthen without further repatriation of residents’ deposits?",
+      "detail": "Other investment benefited from residents drawing down assets abroad while portfolio investment remained in deficit. Compare the financial-account breakdown by instrument and resident sector with foreign holdings of local debt and the government’s issuance calendar. The balance-of-payments release does not identify the currency, maturity or expected persistence of those flows. A shift back toward foreign borrowing could alter the sensitivity of local bond yields and the rupiah to external conditions."
+    },
+    {
+      "question": "What foreign-currency calls fall inside the reserve cover measure?",
+      "detail": "The Bank’s import and government debt-service ratios give a scale for reserves, but the quarterly release does not map payments by date. Compare the published external debt maturity schedule and currency composition with reserve liquidity disclosures and seasonal import needs. That would help judge how much room there is to absorb a reversal in portfolio financing without having to infer daily liquidity from a quarterly aggregate."
+    }
+  ],
+  "limitation": ""
+}

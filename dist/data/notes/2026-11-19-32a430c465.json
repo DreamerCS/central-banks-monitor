@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-19",
+  "bank": "Banco de España",
+  "url": "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/documentos-trabajo/perceived-versus-realized-income-dynamics-evidence-from-subjective-expectations.html",
+  "title": "Spanish households expect income shocks to last longer but fluctuate less",
+  "summary": [
+    "A household that expects a pay cut to persist has reason to adjust spending promptly. A household that expects little variation in future income has less reason to maintain a large precautionary balance. This Banco de España working paper finds both beliefs in Spanish household survey data. Against income histories for the same population, perceived income is more persistent, much less dispersed and less sensitive to the household’s starting position. When the authors let households plan on those beliefs but expose them to shocks drawn from the historical process, their model implies weaker consumption insurance than either process suggests on its own.",
+    "The authors use the Spanish Survey of Household Finances for 2014, 2017, 2020 and 2022. The estimation sample contains 8,823 household-wave observations. Respondents allocate ten probability points across five ranges for household income growth over the next twelve months. Over 40% place all their points in the central range. Taking such responses literally would treat a reporting convention as a precise forecast. The paper estimates a model that separates a tendency to select the middle bin from underlying uncertainty. A parallel house-price question helps identify that tendency, conditional on the assumption that the common behaviour reflects how people respond rather than a shared economic risk affecting both forecasts.",
+    "Table 4 puts the headline difference in scale. In a simple autoregressive model, estimated income persistence averages about 0.69 for realised income and nearly one for expectations. Perceived dispersion is roughly an order of magnitude smaller in the baseline. The more flexible quantile estimates show that the shape of actual risk changes with the income level and the size and direction of the shock. Perceived persistence is much flatter across states. Skewness is a qualification: allowing for clustered answers brings the estimated subjective asymmetry closer to the realised pattern. The probability ranges identify the distribution at their cutoffs. Its shape within each range relies on the estimated model.",
+    "Two checks qualify the size of the gap. Income histories are themselves survey reports. At an illustrative reliability ratio of 0.80, allowing for classical measurement error narrows the persistence difference by roughly 46% and the dispersion difference by 57%. It does not remove either. Realised panel incomes are often observed three years apart while the survey asks for a one-year expectation. A comparison using Spain’s Living Conditions Survey indicates that the horizon effect is small relative to the measured difference. Reporting corrections, alternative specifications and bootstrap uncertainty are examined in the appendices.",
+    "In the life-cycle experiment, households facing the more volatile realised process build larger precautionary buffers, particularly at high incomes. Under fixed preferences, the narrower subjective process produces less wealth and a tighter wealth distribution. Table 5 shows why similar average consumption responses can mask different vulnerabilities. The insurance coefficient is 0.781 with shocks and beliefs based on realised dynamics and 0.779 when both use focal-adjusted subjective dynamics. It drops to 0.653 when beliefs are subjective but shocks are realised. These figures describe simulations. The authors cannot determine how far narrower expectations represent private knowledge of future earnings or mistaken beliefs. That unresolved distinction matters for mapping a labour-market shock into consumer spending."
+  ],
+  "questions": [
+    {
+      "question": "Do households know something about future income that the historical model misses?",
+      "detail": "The estimates establish a difference conditional on information observed by the researchers. Contracts, scheduled bonuses or an anticipated job change might already be known to the household. Match expectation responses to subsequent payroll or tax records and to identified, pre-announced earnings changes. This would help a consumer-sector investor decide how much measured volatility really represents a surprise to spending."
+    },
+    {
+      "question": "Which households would cut expenditure most after an unexpectedly persistent loss?",
+      "detail": "Table 5 quantifies the aggregate insurance penalty in a model, while the underlying wealth and income states govern individual responses. Examine linked evidence on liquid balances, arrears, income and spending around a common labour-market shock. Separate households with similar incomes but different buffers. The outcome would refine exposure estimates for lenders and for businesses selling discretionary goods."
+    },
+    {
+      "question": "How sensitive is the inferred buffer shortfall to the survey’s reporting format?",
+      "detail": "The authors test alternative distortions and reporting-error assumptions, but five income bins still limit identification within intervals. Compare repeated surveys using finer probability ranges and elicited quantiles with administrative outcomes for the same households. Evidence on whether middle-bin responses change with the question design would determine how much weight to place on the numerical model gap."
+    }
+  ],
+  "limitation": ""
+}

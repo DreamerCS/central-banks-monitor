@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-20",
+  "bank": "Banco de España",
+  "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-banco-espana/intervenciones-publicas/subgobernadora-ix-foro-de-bancaeleconomista-fortaleza-bancaria-y-riesgos-para-la-estabilidad-financiera-.html",
+  "title": "Spanish banks can absorb losses, but headline earnings overstate the improvement",
+  "summary": [
+    "Spanish banks entered the second half of 2026 with high earnings, more risk-weighted capital and healthier loan books. The Deputy Governor’s caution concerns what happens if a new funding shock also weakens borrowers. Banks might earn more on their assets initially and subsequently lose considerably more through impairments. Banco de España stress exercises produce material declines in profitability in adverse scenarios. Current returns provide a cushion, but the observed increase in returns should not be carried forward mechanically.",
+    "Consider June’s return on assets of 1.1%, up from 0.97% a year earlier. On page 2, Soledad Núñez attributes much of the increase to gains on corporate transactions. Without them, the measure would have held at its June 2025 level. Consolidated net interest income rose 4.8% and the domestic business recorded a 1.9% increase. In both, volume growth outweighed a narrowing spread between asset and funding rates. Fees increased 8.2%, helping absorb operating expense growth of 4.7% and the effect of an 8.1% larger asset base. Maintaining the rate of earnings therefore requires sufficient activity as well as manageable credit costs.",
+    "The same expansion produces different signals about capital. Retained earnings helped lift common equity Tier 1 to 14.1%, up 0.4 percentage points over the year. The unweighted leverage ratio slipped 0.1 points to 5.6% as the balance sheet expanded. In the bank’s scenarios the sector generally withstands shocks associated with geopolitical conflict and uncertainty over AI, although tighter financing conditions can erode the capital ratio. The exercise gives an aggregate assessment. The distribution of losses matters for holders of an individual bank’s debt.",
+    "Credit growth was uneven. August’s three-month annualised momentum reached 4.1% for households and the self-employed and 4.2% for firms, yet real credit outstanding fell 0.2% year on year in Spain. Large firms saw credit rise 8.9% while lending to smaller firms, microbusinesses and the self-employed fell 0.8%. Problem loan ratios eased to 1.9% for households and 3.4% for companies. Households’ low debt-service burden and real income gains support repayment. The outlook is less comfortable for heavily indebted, energy-intensive or low-profit firms. House prices rose 12.2% nominally in the second quarter. Núñez judges affordability strained while mortgage volumes, origination standards and lending to property businesses still point to contained systemic risk.",
+    "Funding averages also conceal a turn. Consolidated liabilities cost 2.5% in the first half, below the year-earlier level. Between March and August domestic household and business deposit rates rose 13 and 22 basis points respectively. The combined cost of senior unsecured and senior non-preferred issuance rose 42 basis points in the second quarter. Banks brought forward issuance, raising first-half unsecured volumes 23.8%. The timing buys protection, although the future cost of replacing that funding remains open.",
+    "The speech ends with connections that can amplify shocks. Banks’ direct exposures to nonbanks rose on both sides of the balance sheet, and shared sovereign holdings create another route for forced sales to affect valuations. A further energy shock could raise rates while slowing activity. A repricing of AI expectations could hit equities and corporate debt together. In either scenario a bank’s interest sensitivity, wholesale maturities and vulnerable borrowers must be examined together."
+  ],
+  "questions": [
+    {
+      "question": "Which banks can preserve recurring earnings if loan growth slows?",
+      "detail": "June’s reported return includes transaction gains, and rising volumes have offset a narrower spread. To judge how much of that return supports future distributions, compare bank-level recurring earnings, domestic and overseas loan volumes, deposit repricing and management rate sensitivities. Recalculate the earnings bridge under subdued volume growth and distinguish fee income that persists from fees tied to new transactions."
+    },
+    {
+      "question": "When does a funding shock become a borrower-loss shock?",
+      "detail": "The speaker identifies energy-sensitive firms and smaller borrowers even as reported doubtful loans fall. Credit investors need to know which banks have both an imminent funding reset and concentrated exposure to those firms. Read maturity ladders alongside sector credit disclosures, early arrears, Stage 2 migrations and stress-test impairments. Test whether the capital cushion survives both pressures arriving in the same quarters."
+    },
+    {
+      "question": "How large could losses on common sovereign exposures become?",
+      "detail": "Direct nonbank claims understate the link if banks and funds hold the same paper. The speech gives aggregate exposure shares without quantifying sales under stress. Compare bank holdings by maturity with funds’ liquidity disclosures, relevant redemption assumptions and market depth. An estimate of simultaneous sales would help decide whether apparently diversified financial holdings carry a common spread risk."
+    }
+  ],
+  "limitation": ""
+}

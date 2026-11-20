@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-18",
+  "bank": "Banco de España",
+  "url": "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/documentos-trabajo/stress-testing-fixed-income-portfolios-a-proxy-bond-approach.html",
+  "title": "Two synthetic cash-flow schedules put bounds on bond losses under a parallel rate shock",
+  "summary": [
+    "A bond portfolio’s duration tells an investor how its price responds to a small rate change. Under a large shock, extending that local relationship can seriously distort the estimated loss, especially on a long bond. This Banco de España working paper shows how to use a few aggregate characteristics to construct simple hypothetical bonds whose cash flows can be repriced directly. For a common parallel shock, two of them enclose the true stressed value. For historical Treasury curve changes, the average of those two estimates reduces valuation error materially in the authors’ simulated portfolio. The distinction matters: the bound follows from mathematics under specified conditions, while performance under a changing curve is an empirical result.",
+    "The procedure uses a simple fact about conventional fixed cash flows. Their discounted values add to the current price. The timing of those same cash flows determines duration and convexity. Many schedules can have the same price and sensitivities. By placing payments at carefully chosen dates, the authors construct extreme schedules consistent with the information supplied. A single-payment proxy uses duration. The two-payment alternatives, called barbells in the paper, also match convexity, and the construction can use the latest possible payment date. Repricing the synthetic payments retains the curvature of the discounting relationship at large yield changes. A linear or quadratic extrapolation around the starting yield can progressively lose that relationship.",
+    "Figure 1 illustrates the difference for a 30-year annual-coupon bond with a 6% coupon trading at par. Around the starting yield, several estimates look close. As the shock grows, the linear estimate can imply a dramatically low valuation and the quadratic estimate can bend upwards even as yields continue to rise. The proxy valuations track the actual price much more closely over the illustrated range. The methods also apply to a portfolio using market-value-weighted duration and convexity. Splitting it into maturity bands further constrains where the cash flows can fall and can tighten the bounds. This makes the method relevant for an investor or supervisor who receives portfolio characteristics but lacks the complete schedule.",
+    "The empirical test uses historical movements in the US Treasury curve from 1985 to 2025 to reprice a simulated portfolio with about nine years’ average duration. The benchmark is full repricing of the constructed holdings. Relative to conventional duration or duration-and-convexity methods, the average barbell reduces the magnitude of error by 72% to 95%, depending on aggregation and the error statistic. Figures 9–13 compare pricing at the level of individual securities, maturity buckets and the whole portfolio. The percentages apply to approximation error. They do not describe a reduction in the bonds’ economic exposure or the loss an investor would realise.",
+    "The most important exception is curve shape. A large twist, a steep starting curve or a change concentrated at particular maturities can leave two otherwise similar portfolios with different returns. Appendix H explains why modest changes approximated by a combination of a level and a slope movement are more tractable. The appendices also explore higher moments, extreme errors and the simulated holdings. A desk with reliable cash flows can benchmark the shortcut against direct repricing. Neither calculation by itself identifies margin calls, market liquidity, default losses or the funding available to hold a bond through the shock."
+  ],
+  "questions": [
+    {
+      "question": "How much error survives under the particular curve shapes that threaten the portfolio?",
+      "detail": "The paper gives rigorous bounds for parallel shifts and strong historical average results. A concentrated steepening or curve kink could matter more to a specific position. Reprice the actual holdings against key-rate scenarios, compare proxy and full prices, and examine the largest errors in basis points of asset value. Those outcomes would show whether the proxy is suitable for setting limits."
+    },
+    {
+      "question": "How much additional position data would materially tighten the stress estimate?",
+      "detail": "Maturity buckets improve accuracy in the paper’s examples, but institutions pay to collect and reconcile more detailed information. Compare one portfolio-wide calculation with successive maturity splits using risk-system holdings, testing each against full cash-flow repricing. An investor relying on limited disclosure can then judge whether requesting a few extra aggregates would change the expected loss range."
+    },
+    {
+      "question": "Does a valuation loss become a cash requirement before securities mature?",
+      "detail": "The formulas estimate rate-driven market values and do not model how positions are financed. For a bank, fund or insurer, combine the price scenarios with collateral terms, margin schedules, deposit or redemption stress and cash buffers. The additional information would distinguish an economically material but absorbable mark from a shock that forces a sale at a poor price."
+    }
+  ],
+  "limitation": ""
+}

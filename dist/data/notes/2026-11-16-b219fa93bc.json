@@ -1,0 +1,28 @@
+{
+  "title": "Indonesia’s external debt rose as sovereign borrowing outweighed a decline in private debt",
+  "bank": "Bank Indonesia",
+  "date": "2026-11-16",
+  "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2825126.aspx",
+  "summary": [
+    "Indonesia’s external debt rose to USD 458.9 billion at end-September from USD 455.4 billion at end-June, a 7.2% annual increase. Bank Indonesia’s 16 November release attributes the quarterly rise primarily to the government. The sovereign’s external liabilities increased by USD 3.9 billion while private external liabilities fell by USD 0.4 billion. Those are changes in outstanding positions. They do not measure gross issuance, and the two sector balances do not represent the entire stock of external debt.",
+    "Government external debt reached USD 220.2 billion. The Bank cited nonresident investment in government securities and loan drawdowns as the main drivers and interpreted them as evidence of continuing investor confidence. The distinction between investor residence and debt currency matters. The release identifies foreign holdings of government securities but gives no currency split. An investor cannot treat every dollar of the reported increase as an additional dollar-denominated obligation. Government external debt was entirely long term on the Bank’s classification.",
+    "The release assigns the largest shares of the government debt to health and social activities, at 22.0%, and public administration, defence and compulsory social security, at 20.8%. Education accounted for another 16.2%. The government described this borrowing as supporting productive activities while maintaining scheduled payments. The sectoral allocations document the uses associated with the debt. They provide no estimates of the timing of fiscal receipts or the cash return on individual projects.",
+    "Private external debt fell to USD 196.3 billion from USD 196.7 billion as both financial and nonfinancial companies reduced their positions. Manufacturing, finance and insurance, electricity and gas, and mining together accounted for 80.5% of that stock. A sector concentration of this size matters for credit exposure, but the release does not identify which industries generated the quarterly decline, how much debt they hedged or whether borrowers earned revenues in the currency of their liabilities.",
+    "External debt was 30.9% of GDP. Long-term debt accounted for 84.3% of the total and 76.6% of private external debt. Bank Indonesia judged the structure sound and emphasised coordination with the government. The shares provide a starting point for assessing refinancing exposure. They also imply that the private sector had a larger short-term share than the aggregate. Maturity categories alone cannot show the amount of principal or interest falling due soon on existing long-term loans, or whether the companies facing near-term payments can obtain the currency they need."
+  ],
+  "questions": [
+    {
+      "question": "Which borrowers face the largest near-term refinancing needs?",
+      "detail": "The release reports a high long-term share but gives no payment calendar. Consult the November external debt statistics identified in the release and the government’s debt-service schedule for obligations by remaining maturity, currency and sector. For private borrowers, add the timing of interest payments and available foreign-currency cash flows. This would identify pressures obscured by the economy-wide maturity mix."
+    },
+    {
+      "question": "How much of the rise in government external debt exposed the budget to currency risk?",
+      "detail": "Nonresident purchases of government securities and loan drawdowns both contributed to the increase. Compare debt-portfolio disclosures by denomination, instrument and holder with government issuance and redemption data. External debt in local currency creates a different immediate cash-flow obligation from foreign-currency borrowing, even though changes in nonresident demand could still affect domestic yields in both cases."
+    },
+    {
+      "question": "What explains the small fall in private debt despite the concentration in four industries?",
+      "detail": "A lower balance could reflect repayments, limited access to new funds or valuation changes. Compare gross borrowing and amortisation from the official debt statistics with financial statements from companies in the main borrowing sectors. Currency matching, hedges and the maturity of export receipts would help determine whether the fall in the stock corresponds to a material improvement in repayment capacity."
+    }
+  ],
+  "limitation": ""
+}

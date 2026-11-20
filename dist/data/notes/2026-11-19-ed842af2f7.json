@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-19",
+  "bank": "European Central Bank",
+  "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/notas-prensa-bce/el-bce-mantiene-basicamente-estables-los-requerimientos-de-capital-para-2027-y-centra-sus-prioridades-en-la-resiliencia-financiera-y-operativa-de-las-entidades-de-credito.html",
+  "title": "Stable ECB capital guidance masks a shift toward bank-specific risks",
+  "summary": [
+    "The ECB’s 2026 supervisory review leaves aggregate capital expectations for 2027 nearly unchanged while sharpening the link between each bank’s risks and its requirements. Overall common equity Tier 1 requirements and guidance reached 11.3% of risk-weighted assets, against 11.2% for 2026. A bank with credit, data or operational shortcomings can nevertheless face additional capital or binding remediation. For an investor comparing bank securities, the important distinction is between an average across institutions and the decision that governs the individual issuer.",
+    "The starting balance sheets are strong. In the second quarter of 2026, supervised banks’ aggregate total capital ratio was 20.1% and their fully phased-in leverage ratio 5.8%. Liquidity coverage of 155% and net stable funding of 125% exceeded their respective minima. Annualised return on equity increased to almost 11%, compared with 9.5% in 2025. Fees, larger loan books and better interest margins supported revenue, and the cost-to-income ratio fell from 55% to 53%. Non-performing loans were 1.9% of lending and the Stage 2 share declined. The ECB nevertheless identifies consumer credit and small-business portfolios as vulnerable. Geopolitical strains can reach accounts with a lag, and signs of stabilisation in commercial property leave meaningful downside.",
+    "The review distinguishes mandatory capital from guidance. The CET1 component of the bank-specific Pillar 2 requirement moved from 1.1% to 1.2%. Non-binding Pillar 2 guidance stayed at 1.1%. In total-capital terms the overall requirement plus guidance reached 15.7%, from 15.6%. Separately, 14 banks received binding additional leverage requirements and five received non-binding leverage guidance. These ratios refer to different capital concepts. Subtracting a CET1 requirement from the reported total capital ratio would give a misleading estimate of distribution capacity.",
+    "The average supervisory score stayed at 2.5 and 86% of institutions kept their prior score. Supervisors directed new qualitative measures at 78 banks, with roughly half as many new measures as the previous year. The ECB attributes the reduction to greater attention to material problems. About one-third of new measures concerned credit risk, 24% governance and 12% operational risk. Some 92% of significant institutions showed deficiencies in cyber, third-party or technology controls. Poor data quality, fragmented systems and manual reporting can make it difficult for boards to identify their risks in time. Persistent failings can trigger enforcement.",
+    "For 2027–29, supervision will examine underwriting and risk-based loan pricing, exposures to nonbanks including private markets, significant risk transfer transactions and the implementation of standardised credit and operational risk weights. Climate transition planning and physical risk remain on the agenda. Technology supervision includes third-party dependencies and remediation of inadequate risk reporting. The revised Pillar 2 approach also addresses overlaps with minimum requirements under the final Basel III rules. Where a Pillar 1 increase captured an already covered risk, supervisors could reduce Pillar 2 case by case. That can redistribute capital expectations across banks while leaving the system total stable. The ECB expects a period of greater methodological stability after the revised liquidity approach takes effect in 2027."
+  ],
+  "questions": [
+    {
+      "question": "Which issuers have less usable capital headroom following their individual decision?",
+      "detail": "The sector requirement moved very little, but the revised methodology explicitly reallocates requirements by risk. For a bank’s distributions or subordinated debt, compare its own CET1, applicable buffers, Pillar 2 components and leverage requirement with its disclosed starting capital. Reconcile changes against revised risk weights, and test whether the leverage or risk-weighted measure would bind first."
+    },
+    {
+      "question": "Could profits and asset quality weaken together before current supervisory ratios signal it?",
+      "detail": "Good second-quarter returns coexist with concerns about consumers, small firms and commercial property. Compare lender disclosures on underwriting vintages, repricing, Stage 2 transfers and collateral assumptions with the sensitivities in its own capital plan. That would help distinguish banks whose margins offset early losses from those whose portfolios and revenue depend on the same borrowers."
+    },
+    {
+      "question": "Which operational shortcomings carry material remediation costs or capital consequences?",
+      "detail": "The release identifies widespread weaknesses and fewer, more targeted measures, without disclosing any one bank’s deadlines. Compare public supervisory decisions, bank risk reports, remediation budgets and incidents for repeated deficiencies in reporting or third-party resilience. For holders of equity and junior debt, durable spending commitments and enforceable restrictions matter more than the sector-wide count of findings."
+    }
+  ],
+  "limitation": ""
+}

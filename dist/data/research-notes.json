@@ -68,6 +68,52 @@
     }
   },
   {
+    "title": "Spanish banks can absorb losses, but headline earnings overstate the improvement",
+    "bank": "Banco de España",
+    "date": "2026-11-20",
+    "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-banco-espana/intervenciones-publicas/subgobernadora-ix-foro-de-bancaeleconomista-fortaleza-bancaria-y-riesgos-para-la-estabilidad-financiera-.html",
+    "excerpt": "Spanish banks entered the second half of 2026 with high earnings, more risk-weighted capital and healthier loan books.",
+    "file": "2026-11-20-5525950983.json",
+    "publication": {
+      "title": "Subgobernadora. IX Foro Banca/elEconomista. Fortaleza bancaria y riesgos para la estabilidad financiera",
+      "jurisdiction": "Euro area",
+      "type": "Release",
+      "aliases": [
+        "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/IntervencionesPublicas/Subgobernador/IIPP-2026-11-20-nunez-es-or.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Malaysia’s governor asks what ASEAN’s Islamic finance growth has actually funded",
+    "bank": "Bank Negara Malaysia",
+    "date": "2026-11-20",
+    "url": "https://www.bnm.gov.my/-/g-spch-piff26",
+    "excerpt": "In Manila, Governor Abdul Rasheed Ghaffour made the case that the next stage of ASEAN Islamic finance should be judged by the businesses, livelihoods and investment it supports.",
+    "file": "2026-11-20-3e4e8afe0b.json",
+    "publication": {
+      "jurisdiction": "Malaysia",
+      "type": "Speech",
+      "title": "Governor's Keynote Address at the Philippine Islamic Finance Forum 2026"
+    }
+  },
+  {
+    "title": "Malaysia and the Philippines agree a framework for payments and local-currency cooperation",
+    "bank": "Bank Negara Malaysia and Bangko Sentral ng Pilipinas",
+    "date": "2026-11-20",
+    "url": "https://www.bnm.gov.my/-/mou-bspbnm-1126",
+    "excerpt": "Bank Negara Malaysia and Bangko Sentral ng Pilipinas signed a memorandum of understanding on 20 November.",
+    "file": "2026-11-20-370a2f54db.json",
+    "publication": {
+      "jurisdiction": "Malaysia",
+      "type": "Release",
+      "title": "Bank Negara Malaysia and Bangko Sentral ng Pilipinas Strengthen Cooperation on Central Banking and Financial Sector Development",
+      "jurisdictions": [
+        "Malaysia",
+        "Philippines"
+      ]
+    }
+  },
+  {
     "title": "Korean borrowers took smaller new loans overall and larger mortgages",
     "bank": "Bank of Korea",
     "date": "2026-11-20",
@@ -81,6 +127,19 @@
       "aliases": [
         "https://www.bok.or.kr/fileSrc/eng/456df9f959fc458092f082b10c6b8dd6/2/01a1cd49efa84cd9ad6212c7977f10e0.pdf"
       ]
+    }
+  },
+  {
+    "title": "Indonesia’s external balance turned positive as the current-account gap narrowed",
+    "bank": "Bank Indonesia",
+    "date": "2026-11-20",
+    "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2825526.aspx",
+    "excerpt": "Indonesia recorded a balance-of-payments surplus of USD 0.1 billion in the third quarter, following a USD 0.9 billion deficit in the second.",
+    "file": "2026-11-20-49d6d0b91f.json",
+    "publication": {
+      "jurisdiction": "Indonesia",
+      "type": "Release",
+      "title": "Indonesia’s Balance of Payments Records Surplus in the Third Quarter of 2026, External Resilience Maintained"
     }
   },
   {
@@ -121,6 +180,35 @@
     "file": "2026-11-20-104d1c291c.json"
   },
   {
+    "title": "China’s overnight funding eased in October as government bond financing rose",
+    "bank": "People’s Bank of China",
+    "date": "2026-11-20",
+    "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112015225760018/index.html",
+    "excerpt": "The People’s Bank of China reports that overnight secured borrowing by deposit-taking institutions cost an average of 1.28% in October, ten basis points less than in September.",
+    "file": "2026-11-20-3e63c49e40.json",
+    "publication": {
+      "jurisdiction": "China",
+      "type": "Release",
+      "title": "2026年10月金融市场运行情况"
+    }
+  },
+  {
+    "title": "Why the same energy shock can deliver a different inflation outcome",
+    "bank": "Banca d’Italia",
+    "date": "2026-11-19",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261119-altimari/index.html?com.dotmarketing.htmlpage.language=1",
+    "excerpt": "At a conference in Rome on 19 November, Banca d’Italia Deputy Governor Sergio Nicoletti Altimari explained why the euro area’s renewed energy shock had so far spread less widely through consumer prices than in 2021–22.",
+    "file": "2026-11-19-ef7081bf5a.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "What Does Monetary Policy Need to Know Now?",
+      "type": "Speech",
+      "aliases": [
+        "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261119-altimari/altimari-19.11.2026.pdf?language_id=1"
+      ]
+    }
+  },
+  {
     "title": "What UK market participants saw in the energy shock after the November rate increase",
     "bank": "Bank of England",
     "date": "2026-11-19",
@@ -150,6 +238,54 @@
     }
   },
   {
+    "title": "Stable ECB capital guidance masks a shift toward bank-specific risks",
+    "bank": "European Central Bank",
+    "date": "2026-11-19",
+    "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/notas-prensa-bce/el-bce-mantiene-basicamente-estables-los-requerimientos-de-capital-para-2027-y-centra-sus-prioridades-en-la-resiliencia-financiera-y-operativa-de-las-entidades-de-credito.html",
+    "excerpt": "The ECB’s 2026 supervisory review leaves aggregate capital expectations for 2027 nearly unchanged while sharpening the link between each bank’s risks and its requirements.",
+    "file": "2026-11-19-ed842af2f7.json",
+    "publication": {
+      "title": "ECB keeps capital requirements broadly stable for 2027, focuses its priorities on banks’ financial and operational resilience",
+      "jurisdiction": "Euro area",
+      "type": "Release",
+      "aliases": [
+        "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/ComunicadosBCE/NotasInformativasBCE/26/presbce2026-152en.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Spanish households expect income shocks to last longer but fluctuate less",
+    "bank": "Banco de España",
+    "date": "2026-11-19",
+    "url": "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/documentos-trabajo/perceived-versus-realized-income-dynamics-evidence-from-subjective-expectations.html",
+    "excerpt": "A household that expects a pay cut to persist has reason to adjust spending promptly.",
+    "file": "2026-11-19-32a430c465.json",
+    "publication": {
+      "title": "Working Papers. Perceived versus realized income dynamics: Evidence from subjective expectations",
+      "jurisdiction": "Euro area",
+      "type": "Research",
+      "aliases": [
+        "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/26/Files/dt2644e.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Spain and GFTN set out what a Europe–Latin America payments partnership would have to deliver",
+    "bank": "Banco de España and Global Finance & Technology Network",
+    "date": "2026-11-19",
+    "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-banco-espana/notas-banco-espana/el-banco-de-espana-y-la-red-gftn-situan-a-madrid-en-el-nucleo-de-una-nueva-alianza-financiera-entre-europa-y-latinoamerica.html",
+    "excerpt": "Banco de España and the Global Finance & Technology Network have signed an agreement to develop a Madrid summit on financial cooperation between Europe and Latin America.",
+    "file": "2026-11-19-80fa12fc7e.json",
+    "publication": {
+      "title": "The Banco de España and GFTN put Madrid at the heart of a new Europe–Latin America financial partnership",
+      "jurisdiction": "Euro area",
+      "type": "Release",
+      "aliases": [
+        "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/NotasInformativas/26/presbe2026-109en.pdf"
+      ]
+    }
+  },
+  {
     "title": "South Africa holds by one vote as transport drives 40% of inflation and core prices trend up",
     "bank": "South African Reserve Bank",
     "date": "2026-11-19",
@@ -162,6 +298,22 @@
       "title": "Statement of the Monetary Policy Committee — November 2026",
       "aliases": [
         "https://www.resbank.co.za/content/dam/sarb/publications/statements/monetary-policy-statements/2026/november/november-statement.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Korea’s net external asset position rebounded as foreign-held equity liabilities fell",
+    "bank": "Bank of Korea",
+    "date": "2026-11-19",
+    "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11066813&menuNo=400069",
+    "excerpt": "Korea’s net international investment position improved by USD 280.7 billion to USD 344.8 billion at end-September.",
+    "file": "2026-11-19-b217c9bc6f.json",
+    "publication": {
+      "jurisdiction": "South Korea",
+      "type": "Release",
+      "title": "International Investment Position in Q3 2026 (preliminary)",
+      "aliases": [
+        "https://www.bok.or.kr/fileSrc/eng/7dac14296fff47fc929eda5284544525/2/47b00655de4147ffbb18be58f8a6f609.pdf"
       ]
     }
   },
@@ -179,6 +331,20 @@
     }
   },
   {
+    "title": "Italy’s current-account surplus narrowed even as foreign investors bought government debt",
+    "bank": "Banca d’Italia",
+    "date": "2026-11-19",
+    "url": "https://www.bancaditalia.it/pubblicazioni/bilancia-pagamenti/2026-bilancia-pagamenti/en_statistiche_BDP_20261119.pdf?language_id=1",
+    "excerpt": "Italy recorded a €12.3bn current-account surplus in the twelve months to September 2026, equivalent to 0.5% of GDP.",
+    "file": "2026-11-19-b54c0c5173.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Balance of Payments and International Investment Position - September 2026 [pdf, 1.0 MB]",
+      "type": "Statistics",
+      "aliases": []
+    }
+  },
+  {
     "title": "Four readings of Swedish inflation explain Thedéen’s case to parliament",
     "bank": "Sveriges Riksbank",
     "date": "2026-11-19",
@@ -189,6 +355,22 @@
       "jurisdiction": "Sweden",
       "type": "Speech",
       "title": "Executive Board in Finance Committee hearing on monetary policy"
+    }
+  },
+  {
+    "title": "Europe’s external surplus narrows as overseas demand for its debt strengthens",
+    "bank": "European Central Bank",
+    "date": "2026-11-19",
+    "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/euro-area-monthly-balance-of-payments-september-2026.html",
+    "excerpt": "The euro area ran a €12 billion current-account surplus in September 2026, essentially unchanged from August.",
+    "file": "2026-11-19-171096e48f.json",
+    "publication": {
+      "title": "Euro area monthly balance of payments: September 2026",
+      "jurisdiction": "Euro area",
+      "type": "Release",
+      "aliases": [
+        "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/ComunicadosBCE/NotasInformativasBCE/26/presbce2026-153en.pdf"
+      ]
     }
   },
   {
@@ -231,6 +413,66 @@
     }
   },
   {
+    "title": "US branch deposit rates respond to competition in socially connected counties",
+    "bank": "Deutsche Bundesbank",
+    "date": "2026-11-18",
+    "url": "https://www.bundesbank.de/en/publications/research/discussion-papers/beyond-local-deposit-markets-social-spillovers-in-deposit-pricing-1016068",
+    "excerpt": "A small US bank can face pressure to raise deposit rates when competition changes in a distant county, even without a competing branch opening nearby.",
+    "file": "2026-11-18-f7bd1e8e19.json",
+    "publication": {
+      "title": "Beyond local deposit markets: Social spillovers in deposit pricing | Sofia Anyfantaki, Panagiotis Avramidis, Natalya Martynova",
+      "jurisdiction": "Euro area",
+      "type": "Research",
+      "aliases": [
+        "https://www.bundesbank.de/resource/blob/1016068/46401e50cd21e483d820169240abe3a6/472B63F073F071307366337C94F8C870/2026-11-18-dkp-41-data.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Two synthetic cash-flow schedules put bounds on bond losses under a parallel rate shock",
+    "bank": "Banco de España",
+    "date": "2026-11-18",
+    "url": "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/documentos-trabajo/stress-testing-fixed-income-portfolios-a-proxy-bond-approach.html",
+    "excerpt": "A bond portfolio’s duration tells an investor how its price responds to a small rate change.",
+    "file": "2026-11-18-49ddd1a0d4.json",
+    "publication": {
+      "title": "Working Papers. Stress testing fixed-income portfolios: A proxy bond approach",
+      "jurisdiction": "Euro area",
+      "type": "Research",
+      "aliases": [
+        "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/26/Files/dt2643e.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Theurer links AI adoption to deposit competition and long-lived technology risks",
+    "bank": "Deutsche Bundesbank",
+    "date": "2026-11-18",
+    "url": "https://www.bundesbank.de/de/presse/reden/innovation-braucht-resilienz-ki-und-quantencomputing-im-finanzsektor-1016246",
+    "excerpt": "Michael Theurer urged banks to evaluate artificial intelligence and quantum computing on different timelines.",
+    "file": "2026-11-18-fb9c893286.json",
+    "publication": {
+      "title": "Innovation braucht Resilienz: KI und Quantencomputing im Finanzsektor | Euro Finance Week",
+      "jurisdiction": "Euro area",
+      "type": "Speech",
+      "aliases": []
+    }
+  },
+  {
+    "title": "The ECB’s briefing charts compare who would bear losses from AI and sovereign repricing",
+    "bank": "European Central Bank",
+    "date": "2026-11-18",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
+    "excerpt": "The ECB’s 18 November press briefing shows how an asset-price correction could become a funding problem.",
+    "file": "2026-11-18-65e2fa1a9c.json",
+    "publication": {
+      "title": "Boris Vujčić: Financial Stability Review - November 2026",
+      "jurisdiction": "Euro area",
+      "type": "Speech",
+      "aliases": []
+    }
+  },
+  {
     "title": "The ECB traces how an AI earnings disappointment could reach bondholders",
     "bank": "European Central Bank",
     "date": "2026-11-18",
@@ -244,6 +486,22 @@
       "aliases": [
         "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/notas-prensa-bce/los-riesgos-derivados-de-las-valoraciones-de-las-empresas-del-sector-de-la-ia-los-desequilibrios-fiscales-y-las-tensiones-geoeconomicas-lastran-las-perspectivas-de-estabilidad-financiera.html",
         "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/ComunicadosBCE/NotasInformativasBCE/26/presbce2026-151en.pdf"
+      ]
+    }
+  },
+  {
+    "title": "The ECB traces how AI and sovereign losses could reach the same balance sheets",
+    "bank": "European Central Bank",
+    "date": "2026-11-18",
+    "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/html/ecb.fsr202611~e03b919d36.en.html",
+    "excerpt": "The ECB’s November Financial Stability Review identifies a risk that an equity correction, a sovereign bond sell-off and pressure on short-term funding could reinforce one another.",
+    "file": "2026-11-18-0a9b4092d8.json",
+    "publication": {
+      "title": "Financial Stability Review — November 2026",
+      "jurisdiction": "Euro area",
+      "type": "Research",
+      "aliases": [
+        "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/pdf/ecb.fsr202611~e03b919d36.en.pdf"
       ]
     }
   },
@@ -294,6 +552,19 @@
     }
   },
   {
+    "title": "Malaysia’s exports strengthened in the third quarter, while cheaper fuel masked higher electricity costs",
+    "bank": "Bank Negara Malaysia",
+    "date": "2026-11-18",
+    "url": "https://www.bnm.gov.my/-/gdp3q26pr",
+    "excerpt": "Malaysia’s economy grew 5.5% from a year earlier in the third quarter, down from 6.0% in the second.",
+    "file": "2026-11-18-2ab289ea97.json",
+    "publication": {
+      "jurisdiction": "Malaysia",
+      "type": "Statement",
+      "title": "Economic and Financial Developments in Malaysia in the Third Quarter of 2026"
+    }
+  },
+  {
     "title": "Korean household credit growth slowed as non-housing loans contracted",
     "bank": "Bank of Korea",
     "date": "2026-11-18",
@@ -306,6 +577,22 @@
       "type": "Release",
       "aliases": [
         "https://www.bok.or.kr/fileSrc/eng/58c906d319b84d1381b309c713c99637/2/8f377772993741798f312ecaee145f4c.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Italy’s estate agents report weaker demand and fewer homes coming to market",
+    "bank": "Banca d’Italia",
+    "date": "2026-11-18",
+    "url": "https://www.bancaditalia.it/pubblicazioni/sondaggio-abitazioni/2026-sondaggio-abitazioni/03/index.html?com.dotmarketing.htmlpage.language=1",
+    "excerpt": "Italian estate agents reported that the rise in selling prices lost momentum in the third quarter of 2026.",
+    "file": "2026-11-18-392e0fd505.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Italian Housing Market Survey. Short-term Outlook - 2026 Q3",
+      "type": "Research",
+      "aliases": [
+        "https://www.bancaditalia.it/pubblicazioni/sondaggio-abitazioni/2026-sondaggio-abitazioni/03/statistiche_SAB_20261118.pdf?language_id=1"
       ]
     }
   },
@@ -352,6 +639,70 @@
     }
   },
   {
+    "title": "Hedge funds helped Canada absorb larger bond auctions, increasing dependence on repo finance",
+    "bank": "Bank of Canada",
+    "date": "2026-11-18",
+    "url": "https://www.bankofcanada.ca/2026/11/staff-analytical-paper-2026-55",
+    "excerpt": "Government of Canada nominal bond issuance at auction rose from C$122 billion in fiscal 2019–20 to C$313 billion in 2025–26.",
+    "file": "2026-11-18-f9213dddb1.json",
+    "publication": {
+      "title": "Hedge Funds and Rising Government Debt Issuance: Evidence from Government of Canada Bond Auctions",
+      "jurisdiction": "Canada",
+      "type": "Research",
+      "aliases": [
+        "https://www.bankofcanada.ca/2026/11/staff-analytical-paper-2026-55/",
+        "https://www.bankofcanada.ca/wp-content/uploads/2026/11/sap2026-55.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Cross-border fast payments grew through regional networks with different designs",
+    "bank": "Bank of Canada",
+    "date": "2026-11-18",
+    "url": "https://www.bankofcanada.ca/2026/11/staff-analytical-paper-2026-56",
+    "excerpt": "Cam Donohoe, Oliver Junye Xu and Youming Liu compile 62 operational arrangements connecting payment systems across 124 jurisdictions.",
+    "file": "2026-11-18-245164802b.json",
+    "publication": {
+      "title": "Connecting the dots: A new dataset on global payment system interlinking",
+      "jurisdiction": "Canada",
+      "type": "Research",
+      "aliases": [
+        "https://www.bankofcanada.ca/2026/11/staff-analytical-paper-2026-56/",
+        "https://www.bankofcanada.ca/wp-content/uploads/2026/11/sap2026-56.pdf"
+      ]
+    }
+  },
+  {
+    "title": "China and Canada set out which financial links they will test next",
+    "bank": "People’s Bank of China",
+    "date": "2026-11-18",
+    "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111809190698994/index.html",
+    "excerpt": "China and Canada have agreed how their joint financial working group will operate.",
+    "file": "2026-11-18-a43afe0587.json",
+    "publication": {
+      "jurisdiction": "China",
+      "type": "Release",
+      "title": "中国人民银行与加拿大财政部、加拿大央行共同签署《中加金融工作组工作规范》"
+    }
+  },
+  {
+    "title": "Canadian tax records show how tightening changes the distribution of income growth",
+    "bank": "Bank of Canada",
+    "date": "2026-11-18",
+    "url": "https://www.bankofcanada.ca/2026/11/staff-working-paper-2026-42",
+    "excerpt": "Yaz Terajima and Carolyn Wilkins find that Canadian households’ market incomes respond unevenly to monetary policy.",
+    "file": "2026-11-18-f5841b15bd.json",
+    "publication": {
+      "title": "Cyclicality of Income-Growth Distribution and the Role of Monetary Policy",
+      "jurisdiction": "Canada",
+      "type": "Research",
+      "aliases": [
+        "https://www.bankofcanada.ca/2026/11/staff-working-paper-2026-42/",
+        "https://www.bankofcanada.ca/wp-content/uploads/2026/11/swp2026-42.pdf"
+      ]
+    }
+  },
+  {
     "title": "Braddick links clearer capital supervision to a new forum for system-wide resilience",
     "bank": "Bank of England",
     "date": "2026-11-18",
@@ -391,16 +742,49 @@
     }
   },
   {
+    "title": "A shrinking labour force helps explain the Rio Grande Valley’s falling unemployment rate",
+    "bank": "Federal Reserve Bank of Dallas",
+    "date": "2026-11-18",
+    "url": "https://www.dallasfed.org/research/indicators/rgv/2026/rgv2604",
+    "excerpt": "Employment and unemployment both fell in the Rio Grande Valley.",
+    "file": "2026-11-18-f23cd527d5.json",
+    "publication": {
+      "title": "Rio Grande Valley Economic Indicators",
+      "jurisdiction": "United States",
+      "type": "Research"
+    }
+  },
+  {
     "title": "Why an AI productivity gain can raise inflation before it lowers costs",
-    "bank": "Banca d'Italia",
+    "bank": "Banca d’Italia",
     "date": "2026-11-17",
     "url": "https://www.bancaditalia.it/pubblicazioni/qef/2026-1084/index.html",
     "excerpt": "If households anticipate higher future incomes and companies invest ahead of future productivity gains, demand can strengthen before a new technology increases supply.",
     "file": "2026-11-17-1d9cb0b882.json",
     "publication": {
       "jurisdiction": "Euro area",
+      "type": "Working paper",
+      "title": "No. 1084 - The macroeconomic effects of AI adoption: an assessment using a multi-country model",
+      "aliases": [
+        "https://www.bancaditalia.it/pubblicazioni/qef/2026-1084/index.html?com.dotmarketing.htmlpage.language=1",
+        "https://www.bancaditalia.it/pubblicazioni/qef/2026-1084/QEF_1084_26.pdf?language_id=1"
+      ]
+    }
+  },
+  {
+    "title": "Who receives tariff revenue can reverse the long-run effect on global real rates",
+    "bank": "Deutsche Bundesbank",
+    "date": "2026-11-17",
+    "url": "https://www.bundesbank.de/en/publications/research/discussion-papers/tariffs-cohort-redistribution-and-the-world-real-interest-rate-1007836",
+    "excerpt": "A tariff can lower the world real interest rate on impact and raise it over time, according to Anne Ernst, Matthias Schön and Nikolai Stähler.",
+    "file": "2026-11-17-8f086a37f6.json",
+    "publication": {
+      "title": "Tariffs, cohort redistribution, and the world real interest rate | Anne Ernst, Matthias Schön, Nikolai Stähler",
+      "jurisdiction": "Euro area",
       "type": "Research",
-      "title": "The macroeconomic effects of AI adoption: an assessment using a multi-country model"
+      "aliases": [
+        "https://www.bundesbank.de/resource/blob/1007836/15f3e1cce4fcd319a01486dd23b40e15/472B63F073F071307366337C94F8C870/2026-11-17-dkp-40-data.pdf"
+      ]
     }
   },
   {
@@ -443,6 +827,22 @@
     }
   },
   {
+    "title": "Spain’s debt ratio falls while the amount outstanding rises",
+    "bank": "Banco de España",
+    "date": "2026-11-17",
+    "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-banco-espana/deuda-aapp-septiembre26.html",
+    "excerpt": "Spain’s advance estimate for September puts consolidated general government debt at €1,767 billion, up 3.4% year on year.",
+    "file": "2026-11-17-ddff0e8bdf.json",
+    "publication": {
+      "title": "General government debt according to the Excessive Deficit Procedure (September 2026)",
+      "jurisdiction": "Euro area",
+      "type": "Release",
+      "aliases": [
+        "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/NotasInformativas/26/presbe2026-106.pdf"
+      ]
+    }
+  },
+  {
     "title": "November minutes expose the disputed capacity estimate behind a 6–3 rise to 4.85%",
     "bank": "Reserve Bank of Australia",
     "date": "2026-11-17",
@@ -453,6 +853,22 @@
       "jurisdiction": "Australia",
       "title": "Minutes of the Monetary Policy Board meeting of 3 November 2026",
       "type": "Minutes"
+    }
+  },
+  {
+    "title": "New Zealand’s banks could keep lending in a severe downturn, but dividends and funding would come under pressure",
+    "bank": "Reserve Bank of New Zealand",
+    "date": "2026-11-17",
+    "url": "https://www.rbnz.govt.nz/financial-stability/financial-stability-report/financial-stability-reports/2026/nov/financial-stability-report-november-2026/web-version",
+    "excerpt": "New Zealand’s financial system remained able to support the economy, in the Reserve Bank’s assessment on 17 November, even as the risk of a significant external shock rose.",
+    "file": "2026-11-17-66a958b961.json",
+    "publication": {
+      "jurisdiction": "New Zealand",
+      "type": "Research",
+      "title": "Financial Stability Report, November 2026",
+      "aliases": [
+        "https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/financial-stability-reports/2026/november/financial-stability-report-november-2026.pdf"
+      ]
     }
   },
   {
@@ -469,6 +885,54 @@
     }
   },
   {
+    "title": "Italy’s expanded first-home guarantee brought additional young borrowers into the mortgage market",
+    "bank": "Banca d’Italia",
+    "date": "2026-11-17",
+    "url": "https://www.bancaditalia.it/pubblicazioni/qef/2026-1082/index.html?com.dotmarketing.htmlpage.language=1",
+    "excerpt": "A Banca d’Italia study finds that the 2021 expansion of Italy’s First-Home Guarantee Fund, combined with tax incentives, increased new mortgage lending to young borrowers by about 36% relative to other borrowers.",
+    "file": "2026-11-17-59154aee80.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "No. 1082 - The role of Italy's First-Home Guarantee Fund in mortgage lending to young borrowers",
+      "type": "Research",
+      "aliases": [
+        "https://www.bancaditalia.it/pubblicazioni/qef/2026-1082/QEF_1082_26.pdf?language_id=1"
+      ]
+    }
+  },
+  {
+    "title": "Italian exporters recovered sales after new controls, but their customers changed",
+    "bank": "Banca d’Italia",
+    "date": "2026-11-17",
+    "url": "https://www.bancaditalia.it/pubblicazioni/qef/2026-1085/index.html?com.dotmarketing.htmlpage.language=1",
+    "excerpt": "New EU export controls reduced the value of Italy’s exports of affected products by roughly 10–20% in the quarters immediately following listing.",
+    "file": "2026-11-17-e9bd0a6888.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "No. 1085 - The cost of security: evidence on the impact of dual-use export controls on Italian exports",
+      "type": "Research",
+      "aliases": [
+        "https://www.bancaditalia.it/pubblicazioni/qef/2026-1085/QEF_1085_26.pdf?language_id=1"
+      ]
+    }
+  },
+  {
+    "title": "Inheritance can narrow Italy’s generational wealth gap while preserving advantages of family origin",
+    "bank": "Banca d’Italia",
+    "date": "2026-11-17",
+    "url": "https://www.bancaditalia.it/pubblicazioni/qef/2026-1088/index.html?com.dotmarketing.htmlpage.language=1",
+    "excerpt": "Banca d’Italia researchers use Italian household surveys to show why the wealth held by older generations cannot be explained by ageing alone.",
+    "file": "2026-11-17-1723a414a3.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "No. 1088 - Wealth, inheritance, and generational gaps in Italy",
+      "type": "Research",
+      "aliases": [
+        "https://www.bancaditalia.it/pubblicazioni/qef/2026-1088/QEF_1088_26.pdf?language_id=1"
+      ]
+    }
+  },
+  {
     "title": "In the 2023 bank run, the funding facility mattered for how equities priced bank risk",
     "bank": "Federal Reserve Bank of New York",
     "date": "2026-11-17",
@@ -482,12 +946,41 @@
     }
   },
   {
+    "title": "In Italy’s climate credit test, interest costs matter more than energy bills through 2030",
+    "bank": "Banca d’Italia",
+    "date": "2026-11-17",
+    "url": "https://www.bancaditalia.it/pubblicazioni/qef/2026-1087/index.html?com.dotmarketing.htmlpage.language=1",
+    "excerpt": "Italian companies’ modelled probability of default changes relatively little across the climate scenarios examined by Banca d’Italia researchers through 2030.",
+    "file": "2026-11-17-bdbc38072b.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "No. 1087 - Climate scenarios and firms' financial vulnerability",
+      "type": "Research",
+      "aliases": [
+        "https://www.bancaditalia.it/pubblicazioni/qef/2026-1087/QEF_1087_26.pdf?language_id=1"
+      ]
+    }
+  },
+  {
     "title": "Hungary holds at 5.50% ahead of a reassessment of taxes and spending",
     "bank": "Magyar Nemzeti Bank",
     "date": "2026-11-17",
     "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-17-november-2026",
     "excerpt": "The November 17 Monetary Council maintained the base rate at 5.50% and the overnight corridor at 4.50–6.50%.",
     "file": "2026-11-17-92ceb53b39.json"
+  },
+  {
+    "title": "Dependence on bank credit makes the innovation cost of euro-area tightening more persistent",
+    "bank": "European Central Bank",
+    "date": "2026-11-17",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3311~66cc2a4d65.en.pdf",
+    "excerpt": "A euro-area firm that finances research with bank loans may experience a longer innovation slowdown after monetary tightening than a comparable firm able to raise equity.",
+    "file": "2026-11-17-b085c8ff5d.json",
+    "publication": {
+      "title": "Monetary policy, segmented capital markets and innovation",
+      "jurisdiction": "Euro area",
+      "type": "Research"
+    }
   },
   {
     "title": "Australia’s five rate rises and the price pressures housing could yet offset",
@@ -509,6 +1002,23 @@
     "url": "https://www.richmondfed.org/research/national_economy/macro_minute/2026/wages_are_cooling_while_supercore_inflation_isnt",
     "excerpt": "The cost of providing a service includes what the business buys from other firms as well as what it pays its employees.",
     "file": "2026-11-17-52feb74401.json"
+  },
+  {
+    "title": "Younger workers’ job-finding expectations fell behind realized hiring rates after the pandemic",
+    "bank": "Federal Reserve Bank of New York",
+    "date": "2026-11-16",
+    "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/can-workers-predict-job-finding-and-job-loss",
+    "excerpt": "New York Fed researchers compare two answers to the same practical question.",
+    "file": "2026-11-16-d7a71c5068.json",
+    "publication": {
+      "title": "Can Workers Predict Job Finding and Job Loss?",
+      "jurisdiction": "United States",
+      "type": "Research",
+      "aliases": [
+        "https://libertystreeteconomics.newyorkfed.org/2026/11/can-workers-predict-job-finding-and-job-loss/",
+        "https://doi.org/10.59576/lse.20261116"
+      ]
+    }
   },
   {
     "title": "Why £100 million of CCP capital can absorb different expected losses",
@@ -537,6 +1047,58 @@
     }
   },
   {
+    "title": "Which parts of the Bank’s new permissions regime changed after consultation?",
+    "bank": "Bank of England",
+    "date": "2026-11-16",
+    "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-approach-to-rule-permissions-and-waivers-ps",
+    "excerpt": "The Bank of England’s consultation response explains why it altered the proposed test for an individual rule permission and retained much of the rest of the framework.",
+    "file": "2026-11-16-de085def88.json",
+    "publication": {
+      "title": "The Bank of England’s approach to rule permissions and waivers: Policy statement",
+      "jurisdiction": "United Kingdom",
+      "type": "Policy"
+    }
+  },
+  {
+    "title": "Which clearing-house model changes need a fresh permission?",
+    "bank": "Bank of England",
+    "date": "2026-11-16",
+    "url": "https://www.bankofengland.co.uk/paper/2026/sop/near-final-statement-of-policy-the-boes-approach-to-supervisory-processes-and-margin-permissions",
+    "excerpt": "The Bank’s November statement distinguishes three decisions that can arise when a CCP changes its business.",
+    "file": "2026-11-16-e8059f03f6.json",
+    "publication": {
+      "title": "Near-final statement of policy: The Bank of England’s approach to supervisory processes (model changes, recognition orders and variations of recognition orders) and margin permissions",
+      "jurisdiction": "United Kingdom",
+      "type": "Policy"
+    }
+  },
+  {
+    "title": "When an overseas clearing house becomes systemically important to the UK",
+    "bank": "Bank of England",
+    "date": "2026-11-16",
+    "url": "https://www.bankofengland.co.uk/paper/2026/sop/near-final-statement-of-policy-the-boes-approach-to-tiering-non-uk-ccps",
+    "excerpt": "The size of a UK clearing member’s exposure is the starting point for overseas supervision, but it does not settle which authority will oversee the clearing house most closely.",
+    "file": "2026-11-16-8efe73e037.json",
+    "publication": {
+      "title": "Near-final statement of policy: The Bank of England’s approach to tiering non-UK CCPs",
+      "jurisdiction": "United Kingdom",
+      "type": "Policy"
+    }
+  },
+  {
+    "title": "When UK supervisors would accept a systemic overseas CCP’s home rules",
+    "bank": "Bank of England",
+    "date": "2026-11-16",
+    "url": "https://www.bankofengland.co.uk/paper/2026/sop/near-final-statement-of-policy-the-boes-approach-to-comparable-compliance",
+    "excerpt": "A systemic overseas central counterparty could meet specified UK requirements through compliance with its home framework if the Bank agrees that the supervisory outcomes are comparable.",
+    "file": "2026-11-16-9d5f465c7c.json",
+    "publication": {
+      "title": "Near-final statement of policy: The Bank of England’s approach to comparable compliance permissions",
+      "jurisdiction": "United Kingdom",
+      "type": "Policy"
+    }
+  },
+  {
     "title": "What smaller banks would gain from fewer supervisory demands",
     "bank": "European Central Bank",
     "date": "2026-11-16",
@@ -550,6 +1112,19 @@
     }
   },
   {
+    "title": "What a clearing house can do during its first year of live testing",
+    "bank": "Bank of England",
+    "date": "2026-11-16",
+    "url": "https://www.bankofengland.co.uk/paper/2026/sop/the-boes-approach-to-requirements-and-permissions-to-facilitate-mobilisation-of-new-ccps",
+    "excerpt": "A newly recognised UK central counterparty may be permitted to conduct a small amount of real business while it completes its operational build-out.",
+    "file": "2026-11-16-a1642d9f9a.json",
+    "publication": {
+      "title": "Statement of Policy: The Bank of England's approach to using its requirements and permissions powers to facilitate mobilisation of new CCPs",
+      "jurisdiction": "United Kingdom",
+      "type": "Policy"
+    }
+  },
+  {
     "title": "Warsh asks whether AI changes the rate of discovery as well as the cost of production",
     "bank": "Federal Reserve Board",
     "date": "2026-11-16",
@@ -560,6 +1135,33 @@
       "jurisdiction": "United States",
       "type": "Speech",
       "title": "Kevin Warsh · Opening Remarks at the Productivity and Jobs Task Force Conference"
+    }
+  },
+  {
+    "title": "Vujčić argues that expanding market finance requires safeguards for forced selling",
+    "bank": "European Central Bank",
+    "date": "2026-11-16",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+    "excerpt": "Europe needs a larger role for market financing, Boris Vujčić argued on 16 November, but the benefits would be harder to sustain if non-banks responded to a common shock by selling the same assets.",
+    "file": "2026-11-16-c04c35da48.json",
+    "publication": {
+      "title": "Boris Vujčić: Risks and resilience in the euro area financial system",
+      "jurisdiction": "Euro area",
+      "type": "Speech",
+      "aliases": []
+    }
+  },
+  {
+    "title": "Three clearing-house permissions put different risks before the Bank",
+    "bank": "Bank of England",
+    "date": "2026-11-16",
+    "url": "https://www.bankofengland.co.uk/paper/2026/sop/near-final-sop-boes-approach-to-permissions-in-relation-to-ccp-rules",
+    "excerpt": "A clearing house wanting to withhold information, outsource an important activity or link its clearing service to another venue would face three separate tests under the Bank’s proposed rulebook.",
+    "file": "2026-11-16-9bc8d2f8e0.json",
+    "publication": {
+      "title": "Near-final Statement of Policy: The Bank of England’s approach to permissions in relation to CCP rules (disclosure, outsourcing and interoperability arrangements permissions)",
+      "jurisdiction": "United Kingdom",
+      "type": "Policy"
     }
   },
   {
@@ -594,6 +1196,49 @@
     }
   },
   {
+    "title": "Mauderer distinguishes falling German exports from German companies’ sales in China",
+    "bank": "Deutsche Bundesbank",
+    "date": "2026-11-16",
+    "url": "https://www.bundesbank.de/en/press/speeches/europe-and-china-a-changing-relationship-in-a-changing-world-1016076",
+    "excerpt": "Sabine Mauderer’s 16 November keynote identifies a change in the basis of trade between Europe and China.",
+    "file": "2026-11-16-1d9bd47a13.json",
+    "publication": {
+      "title": "Europe and China: A changing relationship in a changing world | Keynote speech at 12th China Day, DFV Euro Finance Group",
+      "jurisdiction": "Euro area",
+      "type": "Speech",
+      "aliases": []
+    }
+  },
+  {
+    "title": "Korea’s September report links its rate hikes to the spillover from semiconductor income",
+    "bank": "Bank of Korea",
+    "date": "2026-11-16",
+    "url": "https://www.bok.or.kr/eng/bbs/E0000628/view.do?menuNo=400025&nttId=11066668",
+    "excerpt": "The Bank of Korea’s September Monetary Policy Report explained two consecutive summer rate increases by reference to a stronger domestic economy, inflation persistence and financial stability risks.",
+    "file": "2026-11-16-9476e5d9ed.json",
+    "publication": {
+      "jurisdiction": "South Korea",
+      "type": "Research",
+      "title": "Monetary Policy Report (September 2026, English edition)",
+      "aliases": [
+        "https://www.bok.or.kr/fileSrc/eng/f61e158f472d4d96a418e0e129990783/1/4d35fab8b8cf4110af66bc140b25c6df.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Indonesia’s external debt rose as sovereign borrowing outweighed a decline in private debt",
+    "bank": "Bank Indonesia",
+    "date": "2026-11-16",
+    "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2825126.aspx",
+    "excerpt": "Indonesia’s external debt rose to USD 458.9 billion at end-September from USD 455.4 billion at end-June, a 7.2% annual increase.",
+    "file": "2026-11-16-b219fa93bc.json",
+    "publication": {
+      "jurisdiction": "Indonesia",
+      "type": "Release",
+      "title": "Indonesia’s External Debt Maintained in the Third Quarter of 2026"
+    }
+  },
+  {
     "title": "How much margin relief can a clearing member count on in stress?",
     "bank": "Bank of England",
     "date": "2026-11-16",
@@ -604,6 +1249,45 @@
       "title": "Near-final supervisory statement on CCP margin",
       "type": "Research",
       "jurisdiction": "United Kingdom"
+    }
+  },
+  {
+    "title": "How consultation changed the safeguards around a new clearing house",
+    "bank": "Bank of England",
+    "date": "2026-11-16",
+    "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-approach-to-requirements-and-permissions-to-facilitate-mobilisation-of-new-ccps-ps",
+    "excerpt": "The Bank’s November response to consultation explains what it changed before establishing a mobilisation regime for new clearing houses.",
+    "file": "2026-11-16-bb0b14909e.json",
+    "publication": {
+      "title": "The Bank of England’s approach to using its requirements and permissions powers to facilitate mobilisation of new CCPs: Policy statement",
+      "jurisdiction": "United Kingdom",
+      "type": "Policy"
+    }
+  },
+  {
+    "title": "How a clearing house can seek relief from a Bank of England rule",
+    "bank": "Bank of England",
+    "date": "2026-11-16",
+    "url": "https://www.bankofengland.co.uk/paper/2026/sop/statement-of-policy-the-boes-approach-to-rule-permissions-waivers",
+    "excerpt": "A rule permission can change what one financial market infrastructure must do, with the rest of the rulebook continuing to apply.",
+    "file": "2026-11-16-223604ef53.json",
+    "publication": {
+      "title": "Statement of policy: The Bank of England’s approach to rule permissions and waivers",
+      "jurisdiction": "United Kingdom",
+      "type": "Policy"
+    }
+  },
+  {
+    "title": "Government bonds account for a growing share of China’s financing as household loans contract",
+    "bank": "People’s Bank of China",
+    "date": "2026-11-16",
+    "url": "https://jrj.sh.gov.cn/SCGK194/20261116/00d09e641a1148d5bdee81e3f0f483de.html",
+    "excerpt": "China’s October financial statistics show why the stock of financing can keep growing even while new bank credit falls short of the previous year’s pace.",
+    "file": "2026-11-16-dce2af21e6.json",
+    "publication": {
+      "jurisdiction": "China",
+      "type": "Statement",
+      "title": "October 2026 Financial Statistics"
     }
   },
   {

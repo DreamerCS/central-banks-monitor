@@ -1,0 +1,28 @@
+{
+  "title": "When UK supervisors would accept a systemic overseas CCP’s home rules",
+  "bank": "Bank of England",
+  "date": "2026-11-16",
+  "url": "https://www.bankofengland.co.uk/paper/2026/sop/near-final-statement-of-policy-the-boes-approach-to-comparable-compliance",
+  "summary": [
+    "A systemic overseas central counterparty could meet specified UK requirements through compliance with its home framework if the Bank agrees that the supervisory outcomes are comparable. The near-final November statement describes how the Bank would make that judgement for a particular operator. This is a decision taken after identifying the CCP as systemic to the UK. It does not undo that designation. For a participant assessing overlapping regulatory obligations, the relevant question is which requirements a permission covers and what rules still apply directly in the UK. At publication the statement remained conditional on the Treasury making the legislation for the replacement CCP regime.",
+    "The application can concern all or some requirements specified by rule 3.1 of the Overseas CCPs Part of the proposed rulebook. An applicant should set out how the home framework satisfies the relevant requirements. Internal policies and descriptions of governance can help show how the framework works at that firm. The Bank can ask the operator or its home authority for more information, including legal opinions, supervisory material or a letter confirming its standing. It intends to reuse information already supplied during assessment of the overseas jurisdiction or the operator’s tier, where appropriate. That can reduce duplication but does not give the firm an automatic permission.",
+    "The Bank then conducts a qualitative assessment. Similar legal wording can produce different results if supervision, enforcement or the operator’s own arrangements differ. Conversely, several home requirements may collectively achieve an outcome addressed by a single UK rule. The Bank examines the requirements together, how the home authority applies them, and whether supervisory cooperation gives it sufficient continuing visibility. The statement identifies international assessments as possible supplementary material. It leaves the UK decision with the Bank and gives no numerical score or presumption that every operator from the same country would receive the same treatment.",
+    "A decision can therefore divide responsibility by subject. Where comparable outcomes are established, the Bank can modify or waive the relevant application of rule 3.1 and rely on compliance with the corresponding home requirements. Where comparability is not established, the applicable UK rules remain in force and the Bank supervises against them directly. The operator receives information about the reasons for the decision. The statement also addresses cases in which applying a particular requirement would be ineffective or inappropriate, including a conflict with home law. Such a problem needs to be evidenced in the application. A conflict on one provision does not establish equivalence of the rest of the regime.",
+    "Reliance continues only while the assessment remains valid. Changes at the CCP, in the home supervisory framework or in information-sharing arrangements can trigger review. The Bank expects timely notification and may ask for updated evidence. Before withdrawing permission it would endeavour to inform the operator and its home authority. For a clearing member, the continuing quality of supervision and access to information are consequently part of the risk assessment even if the operator’s product range is unchanged. The statement contains no finding of comparability for a named country or clearing house."
+  ],
+  "questions": [
+    {
+      "question": "Which UK obligations would still be supervised directly after a permission?",
+      "detail": "The Bank assesses individual requirements and can reach different conclusions across obligations for the same operator. A member reviewing the legal basis of its safeguards needs the scope of the actual permission. Map the written determination to rule 3.1 and the corresponding home requirements. Trace a specific exposure, such as how a control is supervised and reported, across the provisions retained in each jurisdiction."
+    },
+    {
+      "question": "How would the applicant demonstrate comparable outcomes where the rules use different designs?",
+      "detail": "The Bank can consider multiple home provisions together and asks how they operate in practice. A textual concordance alone would be weak evidence for a board relying on the permission. Examine enforcement and supervisory records alongside the relevant provisions, the operator’s procedures and the evidence submitted by its home authority. Identify what would establish the same outcome under stress, when contractual differences become consequential."
+    },
+    {
+      "question": "What change would trigger a reassessment of reliance on the home authority?",
+      "detail": "The framework names changes in the CCP, the home regime and cooperation, with ongoing access to information essential. Withdrawal could affect compliance work and service continuity for members. Compare subsequent home rule changes and supervisory information arrangements with the assumptions in the permission. Ask the operator which changes it must notify, how it detects them and what timetable it could follow if UK requirements applied directly again."
+    }
+  ],
+  "limitation": "This near-final statement describes firm-specific proposed permissions and ongoing review. It reports no permission granted and no prospective recognition date."
+}

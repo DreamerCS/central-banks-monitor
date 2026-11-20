@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-19",
+  "bank": "European Central Bank",
+  "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/euro-area-monthly-balance-of-payments-september-2026.html",
+  "title": "Europe’s external surplus narrows as overseas demand for its debt strengthens",
+  "summary": [
+    "The euro area ran a €12 billion current-account surplus in September 2026, essentially unchanged from August. The annual position tells a different story. In the twelve months to September, the surplus fell to €248 billion, or 1.5% of GDP, from €279 billion, or 1.8%, one year earlier. Meanwhile non-residents increased their purchases of euro area debt securities considerably. The ECB’s release separates two questions that matter to investors. The region earned a smaller surplus on its current transactions, while cross-border investors changed what they chose to hold.",
+    "The month’s trade and income components moved differently. Services delivered a €16 billion surplus and goods €14 billion, offset by deficits of €16 billion on secondary income and €1 billion on primary income. Rounding affects the sum. Over twelve months the goods surplus fell from €324 billion to €277 billion and the secondary-income deficit widened from €181 billion to €208 billion. The services surplus grew from €140 billion to €161 billion, and primary income shifted from a €4 billion deficit to an €18 billion surplus. Chart 1 and Table 1 therefore describe a narrower annual surplus with substantial offsets. The flat monthly headline gives little indication of the composition of that change.",
+    "On the financial side, residents acquired €660 billion of securities issued outside the euro area over twelve months. Non-residents acquired €1,044 billion of securities issued inside it. Foreign purchases of euro area debt rose from €360 billion to €644 billion, while foreign equity purchases eased from €433 billion to €401 billion. Residents also bought fewer foreign securities than in the previous year, reducing purchases of foreign debt from €663 billion to €527 billion and equities from €316 billion to €133 billion. Table 2 measures transactions. An increase in purchases gives a bond portfolio manager evidence about past demand, without identifying buyers’ future hedging needs or the yields at which they would keep buying.",
+    "Direct investment moved in a different direction. Residents’ foreign investment reached €435 billion, up from €220 billion, while non-resident investment in euro area assets fell from €131 billion to €83 billion. Other investment also expanded on both sides. Chart 3 brings these flows together from the perspective of monetary financial institutions. Their adjusted net external assets rose €264 billion over twelve months. The current and capital account surplus and nonbank portfolio inflows contributed, with net direct-investment outflows by nonbank residents providing an offset. The chart uses a separate presentation and sign convention, important when comparing it with the financial-account table.",
+    "End-September reserve assets stood at €1,808.9 billion, down from €1,858.8 billion in August. Table 3 attributes €56.3 billion of the fall to adverse price changes, principally gold. Asset sales of €2.0 billion were much smaller, while exchange-rate movements added €8.5 billion. Most of the change in this stock therefore arose through valuation. Current-account data are seasonally and working-day adjusted, whereas capital and financial transactions are unadjusted. The release also incorporates July and August revisions which the ECB says did not materially change the earlier figures."
+  ],
+  "questions": [
+    {
+      "question": "How durable is foreign demand for euro area debt, and which issuers benefit?",
+      "detail": "The ECB records €644 billion of net foreign purchases over twelve months, without allocating that demand across particular sovereigns, banks or companies in the headline. Compare official flows by issuer sector, maturity and holder with issuance calendars. For duration and spread positioning, distinguishing purchases of longer-dated bonds from reinvestment in short paper matters at least as much as the aggregate inflow."
+    },
+    {
+      "question": "What is behind the smaller goods surplus?",
+      "detail": "The trade balance explains much of the annual narrowing, but these values alone cannot distinguish weaker export volumes, changes in import prices and changing demand. Consult the underlying balance-of-payments credits and debits together with official price, volume and partner breakdowns for the same period. Those distinctions would change the read-through for manufacturers’ revenues and margins."
+    },
+    {
+      "question": "How exposed is the overall surplus to reversal of the offsetting income and service flows?",
+      "detail": "The recovery in primary income and larger services surplus cushioned the goods decline. Their persistence is uncertain from one release. Break down primary income by instrument and geography, and services by category, using official accounts and subsequent detail available for this reference period. A concentrated gain would imply a different external financing outlook from a broad improvement in export earnings."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Hedge funds helped Canada absorb larger bond auctions, increasing dependence on repo finance",
+  "bank": "Bank of Canada",
+  "date": "2026-11-18",
+  "url": "https://www.bankofcanada.ca/2026/11/staff-analytical-paper-2026-55",
+  "summary": [
+    "Government of Canada nominal bond issuance at auction rose from C$122 billion in fiscal 2019–20 to C$313 billion in 2025–26. Adam Epp and Jeffrey Gao ask who absorbed that additional supply and what made bidders willing to do so. Hedge funds increased both the volume and the share of their bids. They won 44% of allocations in 2024, 45% in 2025 and 41% in the first half of 2026. For an issuer concerned with funding costs, that demand supported auction performance as borrowing rose. For market participants concerned with liquidity, the same development increased the importance of the financing behind those bids (sections 2–3 and 6).",
+    "The authors explain the connection through the way hedge funds trade. A small perceived mispricing can be profitable if the fund can take a large position, finance it affordably and exit at low cost. A larger government bond stock makes more bonds available to acquire and pledge as collateral. It can also make entering and closing positions easier. Gross hedge fund repo borrowing rose from C$41 billion at the start of 2020 to C$114 billion at the end of 2025. Chart 3 shows a positive association between the bond stock and the share of bids submitted by funds. Neither that chart nor the borrowing totals establish how much an extra dollar of issuance causes a fund to bid (section 3).",
+    "Submitting more bids and winning more bonds are distinct. Section 4 compares bidding behaviour using the yields and quantities submitted at each auction. The authors estimate a demand curve for each investor group and weight bidders by their maximum bid. A lower slope under their convention indicates less change in bid quantities as yields vary. Hedge funds generally have the lowest estimated slopes across the maturities shown in chart 4. Their willingness to submit competitive bids helps explain why allocations rose alongside the volume of bidding. The charts end in June 2026 and distinguish two-, five-, ten- and thirty-year bonds.",
+    "The cost comparison in section 5 is deliberately mechanical. The authors remove hedge fund bids from each auction while preserving other investors’ submitted bids. Actual auction coverage remained relatively stable. Without hedge fund bids the reconstructed coverage ratio declines, particularly after 2020, and reconstructed average auction yields rise. The contrast becomes larger as issuance and fund participation grow (charts 6–7). Other investors could change their bidding in an auction where funds were expected to be absent. The exercise quantifies the contribution of bids actually received, rather than predicting the borrowing cost of a permanently different market structure.",
+    "The outstanding stock of government bonds increased by over 20% between 2024 and the first half of 2026 even as funds’ allocation share stopped climbing. The authors point to limits on dealer balance sheets and the cost of repo financing as possible constraints on additional demand. Funds may also need to cut correlated positions when refinancing becomes expensive or their margins rise. Sections 6–8 discuss a more diverse investor base, competition among dealers and collateral-management arrangements that could ease financing frictions. The paper documents the usefulness of fund demand in ordinary auctions alongside a vulnerability that could become visible when that financing is under stress. It does not estimate a threshold at which funding conditions would trigger sales."
+  ],
+  "questions": [
+    {
+      "question": "How much auction demand would other bidders supply if hedge funds temporarily withdrew?",
+      "detail": "The counterfactual holds every other submitted bid fixed. Investors who expected weaker competition or higher yields could change both their prices and quantities. Compare auctions with similar issuance but different fund participation, examining subsequent dealer inventories and redistribution to final holders. This would put bounds on the borrowing-cost sensitivity implied by the mechanical results in charts 6 and 7."
+    },
+    {
+      "question": "Which repo conditions constrain the next increment of hedge fund bidding?",
+      "detail": "Gross financing grew alongside the bond stock, but allocation shares later levelled off. Separate financing cost, collateral haircuts, tenor and dealer capacity by fund and security. Connect those conditions immediately before an auction with the full schedule of bids and ultimate allocations. That would show whether the apparent constraint is concentrated in a particular maturity or reflects broad limits to dealer intermediation."
+    },
+    {
+      "question": "Would stress cause funds to sell the same bonds at the same time?",
+      "detail": "Section 6 discusses correlated deleveraging without estimating its likely size. Measure the overlap in collateral, positions and financing counterparties and examine how those exposures change around stressed auctions. Combine those observations with rollover schedules and available collateral. The resulting distribution would be more informative about potential secondary-market sales than aggregate auction allocations alone."
+    }
+  ],
+  "limitation": ""
+}

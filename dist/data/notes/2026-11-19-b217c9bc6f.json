@@ -1,0 +1,27 @@
+{
+  "title": "Korea’s net external asset position rebounded as foreign-held equity liabilities fell",
+  "bank": "Bank of Korea",
+  "date": "2026-11-19",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11066813&menuNo=400069",
+  "summary": [
+    "Korea’s net international investment position improved by USD 280.7 billion to USD 344.8 billion at end-September. Both sides of the balance sheet contributed. Korean residents’ financial assets abroad rose USD 137.9 billion, while the value of foreign investment in Korea fell USD 142.9 billion. The Bank of Korea’s November release measures holdings at quarter-end market prices and exchange rates. A higher net external asset position is therefore compatible with transactions, valuation changes or both. It does not establish a capital outflow of the same size (pp. i and v).",
+    "Portfolio equity liabilities are the most important entry for interpreting the swing. The value of foreign investors’ holdings of Korean equity securities fell USD 188.8 billion. Their holdings of debt securities rose USD 24.5 billion, and inward direct investment increased USD 38.0 billion. Thus the broad decrease in foreign claims coexisted with an increase in both debt securities and direct investment liabilities. To establish whether foreigners had sold Korean shares, an investor would also need transactions stripped of changes in equity prices and the value of the won. The long-run chart on page i and Appendix 1 show the scale of the prior swing as well. The net position had fallen from USD 753.6 billion in the first quarter to just USD 64.0 billion in the second. The third-quarter rebound recovered only part of that decline.",
+    "On the asset side, outward portfolio investment rose USD 40.1 billion and other investment rose USD 40.8 billion. Reserve assets grew USD 13.2 billion to USD 440.6 billion. These positions confer different kinds of financial flexibility. A resident’s equity holding abroad is a financial asset in the national accounts, but its value and available proceeds can change quickly. It is also held by a different institution from the central bank’s reserves. The net national position therefore tells little on its own about an individual borrower’s access to foreign currency when a payment falls due.",
+    "The narrower debt measure moved much less. Korea’s net external assets in debt instruments increased USD 49.0 billion to USD 416.8 billion. That series excludes equity, investment fund shares, derivatives and certain other equity interests. External debt itself rose USD 17.7 billion to USD 830.6 billion. Short-term debt fell USD 9.5 billion while long-term debt grew USD 27.2 billion. Short-term external debt equalled 42.9% of reserves, down from 46.5% in the previous quarter. Both a smaller short-term debt stock and higher reserves helped improve that ratio (p. ii and Appendix 2). These preliminary figures show a larger aggregate cushion relative to short-term debt. They leave the currency, ownership and timing of the assets available to meet a particular funding need unresolved."
+  ],
+  "questions": [
+    {
+      "question": "How much of the equity liability decline came from transactions?",
+      "detail": "Appendix 1 records a USD 188.8 billion drop at market value. Reconcile it with balance-of-payments portfolio transactions, equity-market valuations and the period-end exchange rate. The compilation notes identify prices and currency translation as sources of change but give no complete reconciliation. A valuation-driven fall would have different implications for demand for the won and foreign investors’ positioning than outright sales."
+    },
+    {
+      "question": "Whose liquid foreign assets can meet the short-term debt?",
+      "detail": "Compare external debt by residual maturity, currency and borrower with the reserve liquidity template and banks’ own foreign-currency liquidity disclosures. National net debt assets and the ratio to reserves are aggregate measures. Cash held by a nonfinancial exporter or claims with limited market liquidity may provide little immediate protection to another resident facing a wholesale funding maturity."
+    },
+    {
+      "question": "Which part of the improvement could reverse if Korean equities recovered?",
+      "detail": "Foreign equity liabilities fell even as foreign holdings of Korean debt securities rose. Use the instrument and sector tables with exchange-rate and equity-price sensitivities to estimate how gross assets and liabilities would revalue under the same scenario. Keep that exercise separate from a forecast of actual flows. This would clarify the extent to which the headline improvement reflects a change in the balance sheet’s resilience to shocks."
+    }
+  ],
+  "limitation": ""
+}

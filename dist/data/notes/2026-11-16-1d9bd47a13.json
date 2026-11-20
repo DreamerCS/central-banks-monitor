@@ -1,0 +1,28 @@
+{
+  "title": "Mauderer distinguishes falling German exports from German companies’ sales in China",
+  "bank": "Deutsche Bundesbank",
+  "date": "2026-11-16",
+  "url": "https://www.bundesbank.de/en/press/speeches/europe-and-china-a-changing-relationship-in-a-changing-world-1016076",
+  "summary": [
+    "Sabine Mauderer’s 16 November keynote identifies a change in the basis of trade between Europe and China. European firms once saw China chiefly as a manufacturing base and then as a rapidly growing customer. They now face Chinese firms as competitors at home, in China and in third countries. Mauderer argued that Europe should preserve opportunities for trade and investment while addressing critical dependencies and the conditions under which companies compete. She supported diversification and cooperation together, without proposing a tariff or setting a target for the bilateral balance (Sections 1–2).",
+    "Goods trade illustrates the change, although it understates some firms’ exposure. From 2015 to 2025 the value of EU goods imports from China increased by more than 90%, while EU exports to China rose by 37%. In 2025 imports exceeded €574 billion and exports were around €200 billion. German trade figures cover a different geographical unit. Germany imported roughly €177 billion from China in 2025 and exported €81 billion, with German exports down almost a quarter between 2022 and 2025. Comparing the first nine months of 2026 with the same period a year earlier, German exports fell more than 13% to €53.4 billion, while imports rose 10% to nearly €145 billion (Section 2 and footnotes 1–3).",
+    "Those values measure goods crossing a border. German-owned plants also produce in China for Chinese customers. Replacing exports with local production can reduce the recorded flow without reducing the enterprise’s local sales by an equivalent amount. A loss of customers to a competitor could also reduce exports, with very different consequences for group earnings. Mauderer did not quantify the relative contributions. She recalled that some foreign companies establishing production in China were asked to cooperate with local partners, whereas Europe had not demanded an equivalent local-production approach. The conditions attached to market access therefore form part of the argument alongside the trade figures.",
+    "The pressure to export also has a domestic Chinese dimension. In some sectors production capacity has expanded more quickly than domestic demand. Mauderer pointed to property-market conditions, demographic change and households saving for healthcare and retirement as structural influences. Selling abroad can absorb some of the gap, increasing competition in other markets. The speech identifies electric vehicles, batteries, solar panels, advanced manufacturing and AI as examples of China’s industrial and technological progress. Strong competition can benefit consumers through innovation and choice. In Mauderer’s account, the distribution of those benefits depends partly on transparent rules, predictable treatment of firms and the international effects of industrial policy (Sections 3–4).",
+    "Europe’s own response would draw on skills, research institutions, industrial capacity and private savings. Mauderer advocated investment in European research and innovation and wider use of the single market, alongside diversifying supply chains for critical goods. Her three priorities were continued access to trade and investment, dependable conditions for businesses on both sides and support for international rules. For assessing a European exporter, the unresolved issue is where its value is created and where it faces competition. The aggregate bilateral goods balance cannot answer that firm-level question (Section 5)."
+  ],
+  "questions": [
+    {
+      "question": "How much of the fall in German exports reflects production moving closer to Chinese customers?",
+      "detail": "The speech identifies local production as a limitation of trade data but provides no reconciliation with company earnings. Compare firms’ disclosures on sales, subsidiary production and margins by destination with the official product-level trade series cited in the footnotes. A fall in exports alongside stable local sales would imply a different exposure for shareholders than a loss of customers across both channels."
+    },
+    {
+      "question": "Where does weak domestic Chinese demand turn additional capacity into export competition?",
+      "detail": "Mauderer identifies several industrial sectors and plausible reasons for high saving, without estimating their relative contributions. Compare domestic orders, utilisation, exports and prices by product using company filings and sector statistics available at the speech date. That comparison could distinguish a cyclical demand shortfall from a lasting change in relative industrial capabilities."
+    },
+    {
+      "question": "Which European supply dependencies would actually be costly to replace?",
+      "detail": "A large bilateral import value does not show that another supplier is unavailable, or how quickly one could qualify. Examine the supplier concentration, certification requirements, inventory cover and substitution costs reported by firms in critical supply chains. This would help identify where diversification buys meaningful protection and where new sourcing might raise costs without materially reducing interruption risk."
+    }
+  ],
+  "limitation": ""
+}

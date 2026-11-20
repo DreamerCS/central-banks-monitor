@@ -1,0 +1,28 @@
+{
+  "title": "Theurer links AI adoption to deposit competition and long-lived technology risks",
+  "bank": "Deutsche Bundesbank",
+  "date": "2026-11-18",
+  "url": "https://www.bundesbank.de/de/presse/reden/innovation-braucht-resilienz-ki-und-quantencomputing-im-finanzsektor-1016246",
+  "summary": [
+    "Michael Theurer urged banks to evaluate artificial intelligence and quantum computing on different timelines. AI was already shaping how institutions make decisions and how customers might manage their money. The broad commercial use of quantum computing in banking remained prospective. Yet a bank with records that must stay confidential for decades cannot defer all its security planning until the technology matures. These were the Bundesbank board member’s supervisory considerations for Euro Finance Week on 18 November. The address gives neither a date for a technological breakthrough nor a new regulatory requirement (Sections 1 and 3–4).",
+    "AI can already support fraud detection, risk management, customer communications and anti-money-laundering work. Models can also summarise documents and help employees use internal knowledge. Faster processing or better pattern recognition can improve a service, but neither establishes that an automated recommendation is reliable enough for a specific decision. Theurer connected the quality of training and operating data with the possibility of biased or erroneous results. Institutions need to know who is responsible, where a model is being used and how it behaves after deployment. Management remains accountable when an external service or an automated recommendation forms part of a banking decision (Sections 2 and 5).",
+    "The more unusual business-model question concerns customers’ use of the same technology. A customer who delegates routine financial choices to an AI agent could become less loyal to an incumbent bank. If deposits moved more readily, a funding source historically treated as stable and relatively inexpensive could become more costly or less dependable. A bank might try to replace the lost margin by taking greater risks. Theurer presented this as a possible incentive and called instead for a sustainable adjustment to the business model. He offered no estimates of agent adoption, deposit sensitivity or incremental funding costs, so the speech supplies a mechanism to investigate rather than an estimate of future margins (Section 2).",
+    "Quantum applications in optimisation, simulation and risk modelling are possible, although their cost, readiness and practical advantages remain uncertain. Security investment involves a different calculation. In Theurer’s illustrative example a bank has information requiring 20 years of confidentiality and needs five years to change its protection across systems. If migration ended in 2031, some records created during the transition would still need protection through 2051. Taking 2037 as a hypothetical date for the arrival of a sufficiently capable machine produces a 14-year overlap. These dates illustrate how retention periods and implementation lead times interact. They are assumptions chosen for the example (Sections 3–4).",
+    "The practical challenge lies in coordinating institutions, infrastructure operators and service providers while maintaining functioning financial services. Smaller institutions may have fewer people and technical resources to manage changes of this scale. Theurer argued for a board-level view of dependencies, tested human intervention in sensitive AI uses, and the ability to replace cryptographic methods without disrupting critical processes. Shared standards and coordination matter because a firm can depend on systems outside its own control. The speech judges innovation by whether a bank can keep services reliable as it adopts it, without giving an estimate of the net efficiency gain or the migration cost (Sections 4–6)."
+  ],
+  "questions": [
+    {
+      "question": "Would customer agents materially change deposit pricing or balances?",
+      "detail": "Theurer describes a plausible reduction in loyalty but supplies no evidence about its scale. Examine deposit retention, rates paid and switching behaviour for comparable customer groups with and without automated financial management. Bank funding disclosures and customer surveys could help assess whether any higher cost comes from repricing existing balances or replacing deposits that actually leave."
+    },
+    {
+      "question": "Which advertised AI savings survive the costs of control and correction?",
+      "detail": "The speech lists current banking applications alongside requirements for data quality, testing and human intervention. Compare processing time and error costs before and after rollout, including supervision, exception handling and provider charges. Management’s operating disclosures and independent assurance reports would help distinguish a repeatable productivity improvement from a transfer of work to reviewers."
+    },
+    {
+      "question": "What determines whether a bank can finish a major security migration within its planning horizon?",
+      "detail": "The example shows how a five-year migration interacts with a twenty-year confidentiality obligation. Actual timelines depend on the age of systems, contracts and providers’ ability to change shared infrastructure. Examine retention schedules, funded migration milestones, recovery testing and vendor dependencies. This would identify institutions for which implementation capacity is a more pressing risk than the uncertain date of a technological breakthrough."
+    }
+  ],
+  "limitation": ""
+}

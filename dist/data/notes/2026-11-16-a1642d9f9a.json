@@ -1,0 +1,28 @@
+{
+  "title": "What a clearing house can do during its first year of live testing",
+  "bank": "Bank of England",
+  "date": "2026-11-16",
+  "url": "https://www.bankofengland.co.uk/paper/2026/sop/the-boes-approach-to-requirements-and-permissions-to-facilitate-mobilisation-of-new-ccps",
+  "summary": [
+    "A newly recognised UK central counterparty may be permitted to conduct a small amount of real business while it completes its operational build-out. The Bank’s mobilisation statement makes the limits on that business central to the arrangement. The entrant applies to operate under a binding voluntary requirement, called a VREQ, and can ask for temporary modifications to specified rules. The Bank expects relief to be tied to successful application for the limits. For a prospective clearing member, the practical question is how much risk the operator can actually take and which ordinary safeguards are still being completed.",
+    "Mobilisation follows recognition. The prospective operator typically sends provisional submissions alongside its recognition application, but cannot legally apply for the VREQ or a permission until recognised. Figure 1 shows a route that supplies the detailed limit proposal at the outset and another that allows the operator to follow an initial commitment with its proposal within 60 business days. The diagram separately identifies the recognition decision. Neither early engagement nor submission of a form allows a prospective operator to begin clearing. The relevant decision, activity limits and permissions must be in place for live testing.",
+    "Limits are set for the business concerned. They can address products, volumes, membership or measures of potential loss. Initial margin or notional amounts are examples. A limit suitable for a service with relatively stable exposures may leave a different risk profile for one with positions that jump in stressed markets. The application must explain why its chosen measures constrain risk to what is required for live testing. A commercial launch plan built on acquiring ordinary production volumes during this stage would conflict with the purpose of the arrangement.",
+    "The application form calls for board-backed plans, a business case explaining each requested modification and evidence of progress towards compliance. The Bank gives examples involving capital, contributions to the default waterfall, governance appointments and operational readiness. These examples are possible subjects of an application. A firm can expect neither blanket relief nor approval of a large collection of exceptions. The business must have enough capital to cover its operating costs during mobilisation. A temporarily reduced rule requirement and the resources needed to keep paying staff, technology providers and other operating expenses are distinct issues.",
+    "The Bank expects mobilisation to last up to 12 months. Exit depends on completing the build-out and meeting the unmodified requirements. Missing an agreed milestone calls for engagement with supervisors. A change to the VREQ requires a decision, and a breach can prompt additional requirements or disclosure to members. The Bank intends to publish the mobilisation status of a recognised clearing house. Current and prospective clearing members and, where feasible, clients should receive relevant information about the limits and permissions. For a participant comparing venues, recognition, permission to test and permission to expand are three different milestones. The operator’s published status and the actual terms disclosed to participants provide a stronger basis for an exposure decision than a planned launch date in its business model."
+  ],
+  "questions": [
+    {
+      "question": "Would the operator’s proposed limits still cap a member’s exposure during a market move?",
+      "detail": "The statement leaves the choice of measures to the individual service and mentions both margin and notional. A member needs to know whether prices, concentration or a change in the number of counterparties can increase exposure while volumes remain small. Obtain the agreed VREQ and stress the proposed contracts under its precise definitions. Compare the result with the member’s own clearing limits before committing capacity."
+    },
+    {
+      "question": "What would give the board enough evidence to exit mobilisation on time?",
+      "detail": "The operator must complete its build-out and meet the ordinary rules, even if it demonstrates a successful small trade early on. For a client that depends on a full launch, compare each temporary permission with its owner, funding, test evidence and exit milestone in the board-approved plan. Seek a supervisory decision on lifting the limits before treating a projected completion date as additional available capacity."
+    },
+    {
+      "question": "Which changes would a client learn about if the CCP breached or revised its limits?",
+      "detail": "The Bank plans to publish mobilisation status, while more detailed communication travels through the clearing house and its members. That distinction matters to a client exposed through an intermediary. Examine the member agreement, normal disclosure route and notification conditions attached to the VREQ. Establish who must notify whom and what information the client receives before it adds new positions."
+    }
+  ],
+  "limitation": "The statement establishes a framework for individual decisions. Example limits and possible qualifications do not describe an actual clearing house or permission."
+}

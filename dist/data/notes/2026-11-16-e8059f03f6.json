@@ -1,0 +1,28 @@
+{
+  "title": "Which clearing-house model changes need a fresh permission?",
+  "bank": "Bank of England",
+  "date": "2026-11-16",
+  "url": "https://www.bankofengland.co.uk/paper/2026/sop/near-final-statement-of-policy-the-boes-approach-to-supervisory-processes-and-margin-permissions",
+  "summary": [
+    "The Bank’s November statement distinguishes three decisions that can arise when a CCP changes its business. A risk model may need amendment, the activities permitted by its recognition order may need to change, and a particular margin treatment may require permission. A new product can raise all three issues. A scheduled recalibration of an existing model can raise none of them. The near-final document gives criteria and forms intended to let the Bank focus its review on changes that alter risk. For a clearing member, the distinction matters to both the launch date of a product and the collateral it may have to supply.",
+    "The starting point is the design already approved. Updating a parameter under a documented calibration procedure is different from changing the procedure. The examples include updating margin inputs to reflect current markets, resizing a default fund under its approved calibration model and incorporating a new expiry for an existing futures contract. An operator has to record and justify how its change fits. A new form of collateral can introduce different credit, currency or other risks, even when it looks similar operationally. The nature of the change and the materiality thresholds in Annex 2 determine how much further review follows.",
+    "For a change requiring notification, the CCP submits the Model Change Notification Form in Annex 1 unless the change is handled as part of an application to vary its recognition order. The form asks about the trigger, the product and the operator’s own materiality assessment. On receipt of a completed form the Bank has ten working days to confirm in writing whether it considers the change material. A change confirmed to be non-material can be implemented. For a material change the CCP generally needs a separate permission. The ten-day period is therefore a classification deadline. A member cannot infer that the full model has been approved merely because the notification was filed ten days ago.",
+    "A recognition order describes which activities, classes of instrument or other products the operator can clear. Before proposing an addition outside its order, the CCP must assess whether any materiality criterion applies. The documentation requested increases if a material addition involves new or materially changed models. Even the basic application calls for a description, implementation plan, target launch range and governance evidence. Pairing the model review with the order variation should allow the Bank to study related risks together. The source does not promise that every product described in a CCP’s commercial plan will enter service.",
+    "The margin section illustrates a separate consequence for the allocation of losses. A CCP seeking portfolio margining across instruments covered by different default funds must demonstrate how potential losses would be allocated across them and document that allocation in its rules. Other permissions address the conditions for specified liquidation horizons. For a member comparing a lower initial margin estimate with a possible share of mutualised losses, both sides of the proposal matter. The model output is only one piece of evidence. The recognition order, relevant fund rules and written permission show where the risks and obligations would ultimately sit."
+  ],
+  "questions": [
+    {
+      "question": "Would this product change the approved model design or merely supply fresh inputs?",
+      "detail": "The statement distinguishes routine calibration and some minor product updates from model changes requiring notification. That distinction affects whether a member can rely on a proposed start date and how much time it has to adapt funding. Compare the documented model, approval conditions and configuration for the new product. Check the Annex 2 criteria and the Bank’s written materiality determination whenever notification is required."
+    },
+    {
+      "question": "Would a reduction in margin also change which default fund could bear losses?",
+      "detail": "For portfolio margining across different funds, the applicant must show how losses would be allocated. A member considering an apparent collateral saving therefore needs to compare its initial margin benefit with its possible exposure through mutualised resources. Examine the CCP’s proposed fund rules and loss calculations for the same portfolio under stressed scenarios. Determine whether the participant belongs to one fund or several."
+    },
+    {
+      "question": "Which outstanding decision controls the earliest credible clearing date?",
+      "detail": "The Bank distinguishes notification, model permission and a variation of the recognition order. The short materiality decision window covers only part of that sequence. For a participant booking implementation work, compare the product with the operator’s current order and map all required decisions against complete application dates. Check whether the operator has obtained the written decision and conditions relevant to the actual service being offered."
+    }
+  ],
+  "limitation": "These are near-final proposed processes. No individual model, launch or margin reduction is approved by the statement itself."
+}

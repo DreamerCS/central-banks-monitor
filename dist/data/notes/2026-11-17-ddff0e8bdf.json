@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-17",
+  "bank": "Banco de España",
+  "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-banco-espana/deuda-aapp-septiembre26.html",
+  "title": "Spain’s debt ratio falls while the amount outstanding rises",
+  "summary": [
+    "Spain’s advance estimate for September puts consolidated general government debt at €1,767 billion, up 3.4% year on year. The same debt fell to 100.3% of nominal GDP, 2.7 percentage points below its year-earlier ratio. The distinction matters to a sovereign investor. A smaller ratio can coexist with a growing face value of claims that must eventually be serviced or refinanced. The release measures outstanding debt under the Excessive Deficit Procedure and contains neither a fiscal forecast nor a gross issuance calendar.",
+    "The chart on page 2 makes the divergence visible by placing the level in euros and the percentage of GDP on separate axes. The denominator is accumulated nominal output over the preceding four quarters at a quarter-end. Banco de España explains that estimates consistent with its projections can be used where the relevant official GDP observation is unavailable. The first estimate can also be revised as debt data are reconciled, including changes to the public-sector perimeter. These qualifications matter when comparing a preliminary monthly ratio with a subsequent quarterly release.",
+    "The central state dominates the stock, with €1,617 billion, 91.8% of GDP, up 3.8% year on year. Other central-government units held €32 billion, down 5.7%. Regional governments’ debt rose 2.3% to €347 billion, while local governments’ debt declined 5.2% to €21 billion. Social security administrations owed €136 billion, up 7.9%. The release links that increase to loans from the state to the social security treasury to finance its budgetary imbalance. That is a meaningful funding relationship within government. Counting both the issuing state’s external debt and its claim on social security as separate claims on the consolidated public sector would overstate its liability to outside creditors.",
+    "Consolidation removes €386 billion of debt held by other units inside general government, equivalent to 21.9% of GDP. The amount removed grew 4.3% over the year. Pages 3–5 show how this adjustment affects both the levels and the changes. Relative to December, total debt rose €68.8 billion. State debt alone rose €68 billion and regional debt rose €5 billion, while an increase in intergovernmental positions reduced the total by €4 billion through consolidation. The subsector increases therefore do not translate one for one into financing raised from investors.",
+    "Maturity and instrument mix add a separate qualification. Page 6 reports year-on-year growth of 3.2% for long-term securities and 23.4% for instruments maturing in less than a year, while loans with maturities above one year fell 3.9%. The chart shows that longer-term securities remain the largest stock. Rapid growth from a smaller short-term base points to an area to check in the refinancing calendar. The release does not quantify interest expense, the average cost of new issues, who bought the instruments or how much of any subsequent auction will refinance maturities. Those questions determine the path from a higher stock to cash demands on the budget."
+  ],
+  "questions": [
+    {
+      "question": "How much of the fall in the debt ratio depends on nominal GDP growth?",
+      "detail": "The release places a growing nominal stock beside a falling ratio and describes how the denominator is calculated. For a medium-term sovereign exposure, reconstruct the ratio with the statistical office’s nominal GDP vintages and official debt series. Then compare changes in the primary balance, interest costs and stock-flow adjustments in the fiscal accounts to identify which forces could persist."
+    },
+    {
+      "question": "Does the growth in short-term instruments materially increase near-term rollover sensitivity?",
+      "detail": "The short-term category rose rapidly but represents a smaller base than long-term securities. Consult the Treasury’s instrument-level issuance and redemption schedule, outstanding bills and cash buffers. Estimate gross refinancing at the prevailing yield curve under alternative maturities, paying attention to the dates when payments cluster. This would help assess liquidity exposure separately from the long-run debt ratio."
+    },
+    {
+      "question": "Which public bodies generate financing that must reach the external market?",
+      "detail": "State loans to social security and the €386 billion consolidation adjustment show why subsector stocks cannot be summed. Compare intra-government creditor tables, treasury lending plans, regional borrowing schedules and actual investor holdings. The resulting net market supply by issuer would better inform Spanish sovereign and regional spread positioning than the unconsolidated growth rates alone."
+    }
+  ],
+  "limitation": ""
+}

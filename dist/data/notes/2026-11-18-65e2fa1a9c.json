@@ -1,0 +1,29 @@
+{
+  "title": "The ECB’s briefing charts compare who would bear losses from AI and sovereign repricing",
+  "bank": "European Central Bank",
+  "date": "2026-11-18",
+  "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
+  "summary": [
+    "The ECB’s 18 November press briefing shows how an asset-price correction could become a funding problem. The institutions that hold AI equities are increasingly also buying AI firms’ bonds. Non-banks hold sovereign duration, finance trading positions and supply funding to banks. A correction could therefore reach several portfolios at once and generate a demand for cash. The slides set this possibility against evidence of bank capital headroom and continued economic resilience. They assemble evidence for a stress scenario and leave its probability open (slides 2–4 and 9–12).",
+    "The economic surprise indices on slide 2 measure actual releases relative to prior expectations. A run of upside surprises through much of the latter part of the year shows that activity proved more resilient than expected. It does not measure the growth rate. Trade-policy uncertainty had eased from its peak, while energy supply disruptions remained a concern. Slide 3 also juxtaposes reported workplace AI use with estimated hours saved, the evolving incident count and banks’ technology providers. Sector differences in survey responses are evidence of adoption. They do not tell investors how much of a productivity gain an individual technology supplier can earn.",
+    "On the valuation side, slide 5 separates expected earnings, discount rates and the residual contribution attributed to the equity risk premium in a model of cumulative S&P 500 returns. Long-term earnings expectations had climbed particularly far for technology companies. The final panel plots model usage for a particular platform and a cost index on separate scales. Higher traffic need not imply higher revenue when the cost of processing that traffic falls. Record debt issuance by a group of five major infrastructure providers has also put more of the outlook for future cash flows into bond portfolios. Slide 6 distinguishes that flow of issuance from the market value of outstanding components of a euro investment-grade benchmark.",
+    "Governments face a changing investor base. Slide 8 shows that central banks’ share of euro area sovereign debt securities fell from 34.9% in 2022 to 21.5% in the second quarter of 2026, while foreign investors’ share rose from 20.0% to 25.1%. These are shares of holdings at two dates. They do not identify how much any group would bid for another long bond at prevailing yields. France’s spread to Germany had risen sharply, with the briefing pointing to political uncertainty and weak fiscal fundamentals. The historical comparison of global yields on slide 7 also shows why the level of borrowing costs and a country’s spread are separate sources of risk.",
+    "Slide 9 compares the sensitivity of non-banks’ portfolios to a one percentage point rise in rates, their exposure to AI firms and banks’ funding from non-banks. Price sensitivity differs across investment funds, insurers and pension funds. An institution able to hold assets through a decline faces a different liquidity problem from a fund meeting redemptions or margin calls. Bank credit risk can also surface with a lag. On slide 10 the estimated effect of an oil supply shock on non-performing loan ratios rises over several years. The early estimates are statistically less conclusive than the later ones. A healthy loan book at the time of the briefing offers incomplete evidence about the eventual cost of a persistent energy shock.",
+    "The ECB favours preserving releasable capital buffers and borrower-based measures. In non-bank finance it emphasises liquidity mismatches, leverage, margin preparedness and information about cross-border hedge funds. The final inventory identifies seven analytical boxes and three special features in the full Review. The briefing itself provides selected comparative charts, with no recommendation for a particular security or portfolio allocation (slides 11–14)."
+  ],
+  "questions": [
+    {
+      "question": "Which portfolios would turn a mark-to-market loss into an immediate need for cash?",
+      "detail": "Slide 9 compares interest sensitivity and AI holdings across sectors, while bank funding from non-banks is measured separately. The data do not establish whether a particular investor faces redemptions or collateral calls while its assets fall. Examine fund terms, derivatives margin arrangements and cash holdings alongside the securities holdings used in the briefing to assess the potential for forced sales."
+    },
+    {
+      "question": "How much of the earnings outlook depends on price rather than usage?",
+      "detail": "The briefing sets optimistic long-term earnings expectations against rising platform traffic and declining model costs. Token volume on one platform is an incomplete proxy for demand across the industry. Compare providers’ revenue per unit, contracted sales, supplier financing and capital expenditure in their contemporaneous filings. Profitability would depend on whether lower prices generate enough independent paid demand to cover the investment."
+    },
+    {
+      "question": "Who would absorb additional long-dated sovereign issuance in stress?",
+      "detail": "Holdings shares on slide 8 show a smaller official-sector footprint and a larger foreign share. They do not reveal new buyers’ maturity preferences or the durability of leveraged positions. Compare subsequent auction allotments across tenors with the sectoral holdings and repo data described in the Review. Strong demand for bills could coexist with a substantial increase in the cost of issuing long bonds."
+    }
+  ],
+  "limitation": ""
+}

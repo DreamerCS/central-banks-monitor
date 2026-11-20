@@ -1,0 +1,28 @@
+{
+  "title": "China’s overnight funding eased in October as government bond financing rose",
+  "bank": "People’s Bank of China",
+  "date": "2026-11-20",
+  "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026112015225760018/index.html",
+  "summary": [
+    "The People’s Bank of China reports that overnight secured borrowing by deposit-taking institutions cost an average of 1.28% in October, ten basis points less than in September. The seven-day rate for the same class of institutions fell six basis points to 1.34%. For investors in government bonds, the important combination was cheaper short-term funding and substantially greater government net borrowing. Government bond net financing reached RMB1.184 trillion in the month, about RMB698 billion more than a year earlier. The difference between ten-year and one-year government yields still widened only two basis points from September, to 48 basis points. The bulletin records these outcomes together without assigning the curve move to supply.",
+    "The report distinguishes overnight funding across counterparties. DR001 covers pledged repo between deposit-taking institutions against rate bonds. Its average daily spread to the central bank’s seven-day reverse repo rate was minus 12 basis points in October. R001, the broader interbank overnight pledged repo rate, averaged 1.32%, four basis points above DR001. Figure 2 gives a different comparison period: over January–October, 49% of trading days had a DR001–policy-rate gap within five basis points. October’s average does not describe the typical daily gap over all ten months. Interbank unsecured lending turnover fell 10.8% from a year earlier while interbank bond repo turnover rose 2.0%.",
+    "Government yields and market activity give different measures of conditions. The ten-year yield ended October at 1.65%. Cash bond transactions were RMB33.6 trillion, up 12.5% year on year, yet the monthly turnover ratio in the interbank cash market fell two percentage points from September. The active ten-year government bond’s bid–ask spread was 0.34 basis points. The spread of three-year AAA medium-term notes over government debt was roughly flat at 35 basis points. The PBoC explicitly retains the effects of differential tax treatment in that comparison, so the full spread cannot be read as compensation for credit risk.",
+    "The investor data also qualify what liquid government bonds tell us about corporate paper. At month-end the 50 largest holders accounted for 54.1% of interbank corporate credit bond holdings. Across individual bonds the median holder count was 12, and 87.3% had at most 20 holders. The 50 most active investors accounted for 60.7% of that month’s turnover. The rankings measure different things and the report counts proprietary and client-investment businesses separately. A deep benchmark government market can therefore coexist with corporate issues held by a small number of accounts.",
+    "Elsewhere in the report, the one-year FR007 swap rate ended five basis points lower at 1.38%. The renminbi appreciated 0.75% against the US dollar and its CFETS index rose 0.55% from end-September. Domestic equities and gold moved differently: Shanghai’s main stock index fell 6.3%, Shenzhen’s component index fell 15.9%, and the Shanghai Gold Exchange’s deferred-delivery Au(T+D) contract fell 5.9% in renminbi terms. These are month-end changes. The report supplies no intraday evidence linking any of them to a particular central bank operation."
+  ],
+  "questions": [
+    {
+      "question": "How much of the overnight funding discount persisted beyond October?",
+      "detail": "The mean DR001 discount to the seven-day policy rate was 12 basis points in October, while the longer-window chart counts individual trading days. Inspect daily DR001, DR007 and R001 alongside dated PBoC operations and maturities. A brief month-end imbalance would imply different carry and rollover risks for a leveraged bond position from a discount that persisted across settlement dates and counterparties."
+    },
+    {
+      "question": "Who absorbed the increase in government bond net financing?",
+      "detail": "The bulletin gives net borrowing, the slope of the curve and a bid–ask spread for the active ten-year bond. It gives no maturity-adjusted measure of supply and no buyer breakdown for new government issuance. Compare the issuance and redemption calendars, maturity distribution, auction prices and custody flows by institution. That would help explain how funding conditions and the term structure accommodated the additional borrowing."
+    },
+    {
+      "question": "Does the benchmark bond’s liquidity say anything about executable prices for corporate issues?",
+      "detail": "A tight government bid–ask spread sits alongside concentrated corporate holdings. For a credit portfolio, the relevant issue is the cost of reducing exposure when several holders want to sell. Compare turnover, trade sizes and bid–ask quotes for individual notes, matched by tenor and tax treatment, against government instruments. Look for differences between frequently traded bonds and the issues with few holders."
+    }
+  ],
+  "limitation": ""
+}

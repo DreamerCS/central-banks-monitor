@@ -1,0 +1,28 @@
+{
+  "title": "When an overseas clearing house becomes systemically important to the UK",
+  "bank": "Bank of England",
+  "date": "2026-11-16",
+  "url": "https://www.bankofengland.co.uk/paper/2026/sop/near-final-statement-of-policy-the-boes-approach-to-tiering-non-uk-ccps",
+  "summary": [
+    "The size of a UK clearing member’s exposure is the starting point for overseas supervision, but it does not settle which authority will oversee the clearing house most closely. The Bank’s near-final statement combines measures of exposure with an assessment of what would happen if clearing were disrupted and how much assurance it can obtain from the home supervisor. The classification applies to individual non-UK central counterparties seeking or holding recognition. A determination that an operator is non-systemic for UK purposes would say little about its importance to its home market. The proposed statement was subject to Treasury legislation at publication.",
+    "Figure 1 shows the first stage. Initial indicators include holding at least £10 billion of initial margin from UK clearing members or at least £1 billion of their default fund contributions at any point in the preceding five calendar years. The document specifies a £5 billion threshold for operators holding the two resources in one fund. The UK measures include relevant non-UK subsidiaries of UK-headquartered firms. The initial margin measure uses amounts before haircuts. Interoperability with a UK clearing house also triggers scrutiny. The Bank retains judgement near the numerical thresholds, including when exposures are trending up or down.",
+    "The next question is the share of the overseas CCP’s business represented by UK members. For a CCP screened in on financial exposures alone, the Bank tests initial margin and default fund contributions separately. If both UK shares are below 20%, a satisfactory first-level assessment of reliance on the home supervisor can lead to a non-systemic designation. At or above 20% for either share, or with insufficient assurance about home supervision, the process moves to a fuller review. A clearing house interoperating with a UK CCP goes straight to the advanced assessment. A simple ranking by gross initial margin therefore misses a direct route by which overseas disruption could reach UK infrastructure.",
+    "The advanced assessment considers products, collateral, loss-sharing resources, access arrangements, alternatives and links to other financial institutions. If those factors indicate potential UK systemic importance, the Bank tests more demanding arrangements for reliance on the home authority. Annex 1 distinguishes ordinary information exchange from arrangements such as advance notice of material changes and regular discussion of supervisory priorities. Even a potentially systemic operator can be designated non-systemic if the Bank considers the deeper cooperation sufficient. The conclusion depends on the practical ability to obtain information and respond to risk, as well as the legal framework.",
+    "For a clearing member, substitutability matters alongside current balances. A service that looks small in its portfolio may be difficult to replace at short notice. Conversely, large gross activity can coexist with effective home supervision and established coordination. The Bank intends to revisit a designation after a significant change in the operator’s risk profile or relevant supervisory arrangements. It would allow an appropriate adjustment period when moving a non-systemic CCP into the systemic category. The statement makes no current designation of a named operator and supplies no probability of future reclassification."
+  ],
+  "questions": [
+    {
+      "question": "How close is a clearing service to the relevant exposure tests through the cycle?",
+      "detail": "The financial indicators use past peaks as well as the share attributable to UK groups. A dealer estimating the likelihood of closer oversight needs the right entities, collateral basis and funding structure. Assemble five years of initial margin and default fund contributions by member group, then compare both absolute peaks and proportions with the statement. Separate a combined fund from one reporting these resources individually."
+    },
+    {
+      "question": "Could members move their positions if the overseas service stopped clearing?",
+      "detail": "Alternative venues and interoperability enter the advanced assessment, but the statement gives no estimate of capacity or time needed to move a portfolio. Those details affect disruption losses and a member’s reliance on a single provider. Review eligible products, memberships and collateral at competing services. Test a transfer under stressed conditions, allowing for product differences, replacement margin and access by clients as well as direct members."
+    },
+    {
+      "question": "Which change in home supervision could alter a UK designation without any increase in clearing volumes?",
+      "detail": "The reliance assessments depend on continuing access to information and effective cooperation. A member planning future activity needs to understand the risk of a changed supervisory perimeter. Compare the current cooperation arrangements with Annex 1, especially advance notification and contact during stress. Revisit the assessment after a home-country rule change or a material change in the ability to share information."
+    }
+  ],
+  "limitation": "This near-final framework sets out a proposed process. Its thresholds and cooperation tests do not identify the tier of any particular CCP."
+}

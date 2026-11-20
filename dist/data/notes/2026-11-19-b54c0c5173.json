@@ -1,0 +1,27 @@
+{
+  "title": "Italy’s current-account surplus narrowed even as foreign investors bought government debt",
+  "bank": "Banca d’Italia",
+  "date": "2026-11-19",
+  "url": "https://www.bancaditalia.it/pubblicazioni/bilancia-pagamenti/2026-bilancia-pagamenti/en_statistiche_BDP_20261119.pdf?language_id=1",
+  "summary": [
+    "Italy recorded a €12.3bn current-account surplus in the twelve months to September 2026, equivalent to 0.5% of GDP. The comparable surplus a year earlier was €15.3bn. Banca d’Italia attributes most of the narrowing to a wider primary-income deficit. The goods surplus continued to contribute positively in the current-account chart. It would therefore be misleading to read the €3bn decline as evidence that the merchandise trade balance deteriorated by that amount. The chart reports rolling twelve-month flows and will absorb a monthly change only as the corresponding observation from a year earlier drops out (p. 1).",
+    "Flows on both sides of the financial account were much larger than the net current-account surplus. Over the same twelve months, Italian residents acquired €152bn in foreign financial assets, while non-residents increased their exposure to Italy by €142bn. Portfolio investment accounted for much of the increase on each side. The second chart on page 2 also separates movements in Banca d’Italia’s TARGET balance from other loans and deposits. Its negative TARGET balance improved during the period. Gross cross-border portfolio purchases can therefore coexist with a comparatively small current-account surplus. The report does not disclose which investor sectors drove all of these flows, their hedges or the returns they expected (p. 2).",
+    "For sovereign-debt investors the reporting horizon changes the apparent signal. Non-residents sold a net €7.3bn of Italian government securities in September, a month when aggregate net issuance was also negative. Across the twelve months to September they bought €100.7bn, compared with net issuance of €109.3bn. September’s disposal consequently provides little basis for extrapolating a wholesale retreat. The annual figures also cannot identify which maturities foreigners bought, whether demand came at primary auctions or in secondary markets, or the price concession required to attract it (p. 3).",
+    "Italy’s latest international investment position belongs to a different quarter. At end-June, external financial assets exceeded liabilities by €335bn, or 14.6% of GDP, up from 14.4% at end-March. That stock measure includes the effect of changes in security prices and exchange rates in addition to recorded transactions. Its improvement cannot be attributed to September’s sovereign trades. Taken together, the release shows a net external creditor with sizeable two-way investment and foreign participation in government debt, while leaving the distribution of currency, duration and refinancing risk open (pp. 2–3)."
+  ],
+  "questions": [
+    {
+      "question": "Did foreign government-bond sales in September reflect redemptions or weaker willingness to hold Italian duration?",
+      "detail": "Monthly net sales and negative aggregate issuance can occur together when debt matures, even with unchanged appetite for new bonds. Compare the Treasury’s redemption and auction calendar, maturity distribution, allocations and subsequent non-resident flows with changes in spreads. Auction results and securities holdings by sector provide complementary checks. The distinction matters for whether the Treasury will pay a higher concession when net supply turns positive."
+    },
+    {
+      "question": "Which component of the primary-income deficit drove the narrowing in the current account?",
+      "detail": "The release identifies the income account as the principal contributor but does not allocate the change between dividends, reinvested earnings and interest. Examine the detailed balance-of-payments database, alongside external debt and asset maturities. A persistent rise in interest payments would have different consequences for the external balance from a seasonal distribution of dividends."
+    },
+    {
+      "question": "How much of the improvement in the net international investment position came from valuation?",
+      "detail": "September flow totals and the June stock describe different periods. Consult the quarterly international investment position reconciliation by instrument and currency to separate transactions, exchange-rate movements and other price changes. An improvement concentrated in valuation could reverse even if residents continue to buy foreign assets."
+    }
+  ],
+  "limitation": ""
+}

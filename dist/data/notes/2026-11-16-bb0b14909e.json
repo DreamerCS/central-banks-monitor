@@ -1,0 +1,28 @@
+{
+  "title": "How consultation changed the safeguards around a new clearing house",
+  "bank": "Bank of England",
+  "date": "2026-11-16",
+  "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-approach-to-requirements-and-permissions-to-facilitate-mobilisation-of-new-ccps-ps",
+  "summary": [
+    "The Bank’s November response to consultation explains what it changed before establishing a mobilisation regime for new clearing houses. The policy addresses a practical difficulty for an entrant. Certain arrangements are hard to demonstrate without live activity, while members need safeguards before entrusting positions to a new venue. The Bank retained a period of strictly limited real activity after recognition and clarified how a breach, proposed extension or change of limits would be handled. This is the account of the feedback and the Bank’s choices. Its reference to a final mobilisation policy did not mean the statutory powers and replacement CCP rules were already in force on 16 November.",
+    "One change appears small in drafting but matters to the economics of entry. The final wording more clearly ties temporary permissions to a successful application to operate under minimal limits. The linked application form now makes that relationship explicit. A prospective CCP cannot base its plan on receiving relief while retaining the freedom to build ordinary trading volumes. The Bank also clarified that it expects evidence of sufficient capital to meet operational funding needs during mobilisation. Reduced application of a particular rule does not make an unfinished clearing service self-financing.",
+    "A new chapter addresses variations of the voluntary requirement and the possible consequences of exceeding the approved limits. The consultation response records requests for clearer disclosure by the CCP and by the Bank. The Bank will publish a recognised entrant’s mobilisation status. It generally expects the VREQ to require the firm to explain its status, limits, permissions and subsequent variations to existing and prospective clearing members and, where feasible, clients. The Bank retains discretion over publication of details of the requirement. A participant seeking the precise perimeter of a proposed service should consequently obtain the firm’s own disclosures as well as the regulator’s public notice.",
+    "Extensions prompted a further change. The Bank added room to consider exceptional circumstances, while expecting firms to raise difficulties in good time. The recommended period for approaching the Bank before a key deadline became ideally three months. It retained the option of up to 60 business days for submitting a detailed provisional proposal for limits following an initial commitment. This gives the two sides time to settle controls in light of a final recognition application. It is a preparation period. The response does not grant a partly prepared applicant a right to clear trades during that interval.",
+    "Two respondents asked whether the same approach could be extended to an established CCP bringing a new product to market, or whether innovation at existing firms deserved its own statement. The Bank directed established operators to existing supervisory contacts, variations to recognition orders and applicable permissions. It also explained the transition for entrants applying before the new rules take effect. Existing UK EMIR authorisation and onboarding arrangements remained available, but did not include the new rule permissions. The Bank expected the final rules and supporting legislation by the end of the first quarter of 2027, subject to the stated implementation period and Treasury action. That distinction matters to any entrant scheduling a launch across the changeover."
+  ],
+  "questions": [
+    {
+      "question": "Which outstanding safeguard would an entrant need to demonstrate with real trades?",
+      "detail": "The response makes relief conditional on acceptance of minimal activity. For an investor funding an entrant, the business case depends on what can be learned at that scale and whether the operator can fund the remaining work. Compare the application’s requested permissions with the evidence each live test is designed to produce, the funding plan and the member commitments available within the proposed limits."
+    },
+    {
+      "question": "How would a member distinguish an agreed change to limits from a breach?",
+      "detail": "Consultation prompted a new chapter on variations and more explicit disclosure expectations. The difference matters because a member can face a different service perimeter or a supervisory response if activity exceeds authority. Request the current VREQ, the record of any approval and the firm’s proposed notification procedure. Test whether members and underlying clients would receive sufficiently timely information to control their positions."
+    },
+    {
+      "question": "Which legal route applies to an entrant whose launch spans the transition?",
+      "detail": "A business could begin recognition under UK EMIR yet plan to rely on temporary relief under the future rulebook. The paper specifies dependencies without confirming their actual commencement. Compare the planned recognition and launch dates with the Treasury instrument, the effective date of the final rules and any decision issued to the applicant. Refresh the launch budget if the assumed permission is available later than expected."
+    }
+  ],
+  "limitation": "This consultation response records changes to the proposed regime. The timing given for the legislation and rules was an expectation at publication."
+}

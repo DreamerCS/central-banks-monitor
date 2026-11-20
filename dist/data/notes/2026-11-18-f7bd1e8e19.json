@@ -1,0 +1,28 @@
+{
+  "title": "US branch deposit rates respond to competition in socially connected counties",
+  "bank": "Deutsche Bundesbank",
+  "date": "2026-11-18",
+  "url": "https://www.bundesbank.de/en/publications/research/discussion-papers/beyond-local-deposit-markets-social-spillovers-in-deposit-pricing-1016068",
+  "summary": [
+    "A small US bank can face pressure to raise deposit rates when competition changes in a distant county, even without a competing branch opening nearby. Sofia Anyfantaki, Panagiotis Avramidis and Natalya Martynova attribute this partly to customers becoming aware of better offers through social contacts. For a twelve-month, $10,000 deposit, the authors estimate that a one-standard-deviation increase in exposure to rate changes in socially connected counties raises the local small-bank rate by about 19 basis points. The estimate concerns a specific change in exposure. It does not imply that a one-point increase in a distant bank’s rate generates a 19 basis point increase everywhere (Table 1).",
+    "The mechanism starts with limited attention. Depositors who do not actively compare rates give an incumbent bank room to pay less. A rate change in a connected market can prompt people to search. As more depositors take competing offers seriously, banks have a stronger incentive to raise the rates they quote locally. Customers need not move their accounts to the county that originally experienced the shock. The theory predicts more transmission where social ties are stronger and where financial sophistication reduces the cost of acting on information. The paper tests these implications with branch rates and county-level characteristics. It does not follow individual conversations, searches or transfers (Sections 2–3).",
+    "The data cover US brick-and-mortar branches over 2015–23, excluding online banks. The main specifications use changes, so the effective window begins in 2016 and the final-year comparison uses third-quarter observations. Facebook friendship links measure social proximity. To identify a change in the competitive environment, the authors use large-bank branch closures associated with mergers within a two-year window. Small banks in affected local markets raise their rates, whereas large banks’ rates change little, consistent with larger institutions setting prices across multiple markets. A focal county’s exposure is the weighted change in rates elsewhere, instrumented with merger-related closures in those connected counties. The approach excludes locations within 25 miles and controls separately for economic and geographic ties (Sections 3–4 and Table 2).",
+    "The response appears for several deposit sizes and maturities. It is stronger in counties scoring higher on a measure of financial sophistication built from education and stock-market participation. A placebo exercise assigning comparable weights to weakly connected counties fails to reproduce the result. Both geography and economic ties still matter in their own right. The additional social effect therefore extends the competitive area of a small branch without showing that local market conditions have become irrelevant (Tables 1, 3 and 4).",
+    "Over time, small banks’ rates also converge more rapidly across connected places. Large-bank rates show weaker additional convergence associated with the social measure, consistent with their already more uniform pricing. The authors acknowledge other explanations for the broader convergence in rates, including consolidation and online competition. For bank earnings, the implication is that historical local pricing power may be vulnerable to changes in customers’ attention. The study measures quoted deposit rates and does not estimate the resulting changes in balances, retention or net interest margin (Table 5 and conclusion)."
+  ],
+  "questions": [
+    {
+      "question": "When does a change in the quoted rate become a material funding cost?",
+      "detail": "Table 1 concerns offers for specific deposit products. It does not reveal the fraction of existing balances that reprice or the deposits retained as a result. Compare branch and bank disclosures on maturity, rate tiers, new inflows and renewals around the merger-driven shocks. These quantities would determine whether the observed response affects aggregate interest expense appreciably."
+    },
+    {
+      "question": "Is the information channel stronger than switching into a new local bank?",
+      "detail": "The instrument and placebo separate distant social links from geography and economic proximity, but the study does not observe household search directly. Compare survey evidence on where depositors learned about offers with account-opening and transfer records in the same counties. The answer would help distinguish a defensive rise in incumbent rates from an expansion in the set of banks that customers actually use."
+    },
+    {
+      "question": "Does the effect vary when policy rates are stable, rising or falling?",
+      "detail": "The sample spans different rate environments and the authors identify an average response to local competition shocks. Re-estimate the branch-level comparisons by starting rate gap and policy environment, using the paper’s product definitions. A bank exposed to customers’ search during a large gap could have a materially different funding sensitivity from one already paying close to competing offers."
+    }
+  ],
+  "limitation": ""
+}

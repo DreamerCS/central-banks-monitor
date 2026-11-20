@@ -1,0 +1,28 @@
+{
+  "title": "A shrinking labour force helps explain the Rio Grande Valley’s falling unemployment rate",
+  "bank": "Federal Reserve Bank of Dallas",
+  "date": "2026-11-18",
+  "url": "https://www.dallasfed.org/research/indicators/rgv/2026/rgv2604",
+  "summary": [
+    "Employment and unemployment both fell in the Rio Grande Valley. The Dallas Fed’s third-quarter regional report records an annualized 0.6% decrease in employment over the three months through September, equivalent to about 700 jobs. Texas employment grew at a 0.2% annualized rate and US employment at 0.4% over the same period. Meanwhile, the local unemployment rates finished more than a percentage point below their levels at the end of last year. Employers cutting jobs and a falling unemployment rate can coexist if fewer people are in the labour force. The report points to that explanation without estimating exactly how much of the decline it accounts for (dashboard and charts 1–3).",
+    "The regional total conceals differences across places and industries. The dashboard records a 2.8% annualized decline in Brownsville employment and a 0.6% rise in McAllen. Across the Valley, manufacturing, professional and business services, and mining and construction added employment. Losses were particularly noticeable in information, financial activities, other services, and the grouping that includes trade, transportation and utilities. Taking a longer view, employment had changed little in most major industries since the beginning of the year. Thus a quarterly contraction in a few sectors need not imply a general retreat by employers across the region (dashboard and chart 1).",
+    "The contraction in labour supply was larger in Brownsville. Its smoothed labour force was 2.1% smaller than a year earlier in September, against a decline of 0.1% in McAllen and little change statewide. Brownsville’s September unemployment rate was 6.0%, against 5.8% in McAllen and 4.4% across Texas. These statistics answer different questions. The labour-force growth comparison is year over year, whereas the employment change covers the third quarter and is annualized. The unemployment rate measures the share of the labour force looking for work. Reading them together reveals the risk of treating the fall in unemployment as evidence of stronger hiring (charts 2–3).",
+    "Pay also moved differently in the two metros. Brownsville’s three-month average nominal hourly earnings fell to $22.54 in September, although they were still up 3.6% on a year earlier. McAllen earnings rose to $22.14 and exceeded their year-earlier level by 6.7%. Statewide earnings averaged $36.34 and were up 5.3% year over year. These are average nominal wages. The chart supplies neither an adjustment for local purchasing power nor a comparison following the same worker through time. Changes in the mix of jobs could therefore affect how closely the figures track the experience of individual households (chart 4).",
+    "The last two charts describe conditions specific to the border economy. Reservoir storage rose 10.6 percentage points from the beginning of the quarter to 39.2% of capacity after bouts of heavy rain, leaving it below the historical average. Cross-border traffic continued to grow year over year, but its pace slowed to 3.2% for travellers and 2.8% for conveyances in September. The Dallas Fed identifies uncertainty about renewal of the US–Mexico–Canada Agreement as affecting supply chains and trade. The release does not quantify that effect or assign the local job losses to it. It notes that earlier observations can change with revisions (charts 5–6)."
+  ],
+  "questions": [
+    {
+      "question": "How much of the decrease in unemployment reflects people leaving the labour force?",
+      "detail": "Chart 2 points to a sharper reduction in Brownsville’s workforce than in McAllen, while chart 3 shows declining unemployment in both places. To judge whether demand for labour is improving, reconcile employment and participation on matching dates and geographic definitions. Examine movements into employment, unemployment and inactivity if available, and distinguish those transitions from changes in the size of the working-age population."
+    },
+    {
+      "question": "Did comparable workers receive different pay increases in Brownsville and McAllen?",
+      "detail": "Brownsville has a higher hourly earnings level but a slower annual gain. The aggregate measure combines workers from industries whose employment is changing at different rates. Compare within-industry pay, hours and employment weights in both metros, preserving the three-month moving average used in chart 4. A change in job mix would carry different implications for household income than a broad increase in wage rates."
+    },
+    {
+      "question": "How much of the moderation in border traffic is tied to trade-policy uncertainty?",
+      "detail": "Chart 6 counts travellers and conveyances without measuring shipment values, intentions or the reason for travel. Compare crossings, shipment values and volumes by commodity and mode, using the same months and relevant crossings. Check whether particular supply chains changed before or after developments in the trade review. This would test whether weaker traffic is indicating lower demand, rerouting or a change in shipment size."
+    }
+  ],
+  "limitation": ""
+}

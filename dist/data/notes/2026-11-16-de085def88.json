@@ -1,0 +1,28 @@
+{
+  "title": "Which parts of the Bank’s new permissions regime changed after consultation?",
+  "bank": "Bank of England",
+  "date": "2026-11-16",
+  "url": "https://www.bankofengland.co.uk/paper/2026/ps/the-boes-approach-to-rule-permissions-and-waivers-ps",
+  "summary": [
+    "The Bank of England’s consultation response explains why it altered the proposed test for an individual rule permission and retained much of the rest of the framework. Four parties responded to the consultation, which ran from 18 July to 18 November 2025. They broadly supported flexibility but raised questions about innovation, decision times, cross-border oversight and the relationship with existing approvals. The resulting statement was final as a policy document. On 16 November the Bank still expected Treasury regulations activating the power in early 2027. Firms could not infer from publication alone that a waiver of a future Bank rule was already available.",
+    "The main substantive change concerns an application for which the Bank has provided no subject-specific test. A respondent wanted more weight on innovation. The Bank added an explicit consideration of whether compliance prevents improvements in the quality, efficiency or economy of infrastructure services. This forms part of deciding whether compliance would impose an undue burden. It sits alongside the judgement about the Bank’s financial stability objective. A new product with an expected commercial return would still need evidence of what the unmodified requirement prevents and how the proposed arrangement protects the system. The paper leaves the merits of any such product to the individual decision.",
+    "The response also explains where existing supervisory practice will survive. A non-objection records a supervisory assessment of compliance. Section 138BA provides a statutory means to modify or disapply a rule for an individual recipient. Some existing non-objections associated with formal validation or approval will give way to permissions, with material outsourcing given as an example. Where a supervisory discussion is unconnected with a specific rule requiring that approval, the Bank expects non-objection to remain relevant. An infrastructure operator planning a change consequently needs to identify the rule and the effective date before choosing the route.",
+    "Respondents asked about the time required for cases without a tailored timetable. The Bank retained the proposed approach, explaining that an application might concern any part of the rulebook and require detailed assessment. It characterised the stated times as intended maximums, subject to exceptions. The Bank clarified when counting begins, on the business day after a complete submission, and how applicants obtain a unique reference before sending their form. It also said that low volumes of publicly disclosed applications could prevent publication of an average processing time. Public reporting may therefore say little about a specialised case even after the power starts to be used.",
+    "Transitional cases illustrate the difference between preparing an application and granting legal effect to it. A firm considering a final rule that had yet to take effect was encouraged to speak to its supervisor. The Bank would examine the proposed effective date and the status of the Treasury instrument in deciding how to proceed. Relief from a rule replacing UK EMIR requirements can only be granted once the underlying Bank rule is in force. The response maintains the earlier cost-benefit assessment in light of the limited changes. It contains no figures for time saved, applications approved or investment enabled by the revised test."
+  ],
+  "questions": [
+    {
+      "question": "Which planned service improvements would benefit from the revised innovation test?",
+      "detail": "The response adds a consideration to the undue-burden assessment while retaining the stability condition. An operator estimating the value of the change needs to identify the rule that obstructs its proposal and quantify the benefit to users. Compare the consultation wording and final test with the firm’s alternative controls, then look for a published decision on a comparable service once applications can be determined."
+    },
+    {
+      "question": "Would a planned transaction require a statutory permission or the existing supervisory process?",
+      "detail": "The Bank expects formal permissions to replace certain approvals while leaving other non-objections in place. Choosing the wrong route can change when a participant can rely on the service. Check the applicable rule, commencement instrument and intended transaction date, then obtain the supervisor’s view on the transitional route. A permission for one type of outsourcing would not settle an unrelated change in how a service is operated."
+    },
+    {
+      "question": "Can subsequent reporting show whether the new process is more predictable?",
+      "detail": "The Bank clarified the starting point for its decision clock but may withhold averages where disclosure would compromise confidentiality. Firms budgeting resources need evidence on elapsed time, case complexity and delays before a complete application. Compare published performance measures with dated application and decision notices where available. Distinguish quicker processing from a change in the mix of cases submitted or disclosed."
+    }
+  ],
+  "limitation": "This is the response to four consultation submissions. It records the Bank’s rationale and implementation expectations at publication, not post-implementation outcomes."
+}

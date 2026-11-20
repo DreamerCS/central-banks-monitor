@@ -1151,8 +1151,12 @@
   },
   "2026-11-17-1d9cb0b882.json": {
     "jurisdiction": "Euro area",
-    "type": "Research",
-    "title": "The macroeconomic effects of AI adoption: an assessment using a multi-country model"
+    "type": "Working paper",
+    "title": "No. 1084 - The macroeconomic effects of AI adoption: an assessment using a multi-country model",
+    "aliases": [
+      "https://www.bancaditalia.it/pubblicazioni/qef/2026-1084/index.html?com.dotmarketing.htmlpage.language=1",
+      "https://www.bancaditalia.it/pubblicazioni/qef/2026-1084/QEF_1084_26.pdf?language_id=1"
+    ]
   },
   "2026-11-17-22e5f73082.json": {
     "jurisdiction": "United States",
@@ -1603,5 +1607,317 @@
       "https://www.boj.or.jp/about/press/koen_2026/ko261107a.htm",
       "https://www.boj.or.jp/about/press/koen_2026/data/ko261107a1.pdf"
     ]
+  },
+  "2026-11-18-f23cd527d5.json": {
+    "title": "Rio Grande Valley Economic Indicators",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-16-d7a71c5068.json": {
+    "title": "Can Workers Predict Job Finding and Job Loss?",
+    "jurisdiction": "United States",
+    "type": "Research",
+    "aliases": [
+      "https://libertystreeteconomics.newyorkfed.org/2026/11/can-workers-predict-job-finding-and-job-loss/",
+      "https://doi.org/10.59576/lse.20261116"
+    ]
+  },
+  "2026-11-18-f9213dddb1.json": {
+    "title": "Hedge Funds and Rising Government Debt Issuance: Evidence from Government of Canada Bond Auctions",
+    "jurisdiction": "Canada",
+    "type": "Research",
+    "aliases": [
+      "https://www.bankofcanada.ca/2026/11/staff-analytical-paper-2026-55/",
+      "https://www.bankofcanada.ca/wp-content/uploads/2026/11/sap2026-55.pdf"
+    ]
+  },
+  "2026-11-18-245164802b.json": {
+    "title": "Connecting the dots: A new dataset on global payment system interlinking",
+    "jurisdiction": "Canada",
+    "type": "Research",
+    "aliases": [
+      "https://www.bankofcanada.ca/2026/11/staff-analytical-paper-2026-56/",
+      "https://www.bankofcanada.ca/wp-content/uploads/2026/11/sap2026-56.pdf"
+    ]
+  },
+  "2026-11-18-f5841b15bd.json": {
+    "title": "Cyclicality of Income-Growth Distribution and the Role of Monetary Policy",
+    "jurisdiction": "Canada",
+    "type": "Research",
+    "aliases": [
+      "https://www.bankofcanada.ca/2026/11/staff-working-paper-2026-42/",
+      "https://www.bankofcanada.ca/wp-content/uploads/2026/11/swp2026-42.pdf"
+    ]
+  },
+  "2026-11-17-b085c8ff5d.json": {
+    "title": "Monetary policy, segmented capital markets and innovation",
+    "jurisdiction": "Euro area",
+    "type": "Research"
+  },
+  "2026-11-20-49d6d0b91f.json": {
+    "jurisdiction": "Indonesia",
+    "type": "Release",
+    "title": "Indonesia’s Balance of Payments Records Surplus in the Third Quarter of 2026, External Resilience Maintained"
+  },
+  "2026-11-16-b219fa93bc.json": {
+    "jurisdiction": "Indonesia",
+    "type": "Release",
+    "title": "Indonesia’s External Debt Maintained in the Third Quarter of 2026"
+  },
+  "2026-11-17-66a958b961.json": {
+    "jurisdiction": "New Zealand",
+    "type": "Research",
+    "title": "Financial Stability Report, November 2026",
+    "aliases": [
+      "https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/financial-stability-reports/2026/november/financial-stability-report-november-2026.pdf"
+    ]
+  },
+  "2026-11-19-b217c9bc6f.json": {
+    "jurisdiction": "South Korea",
+    "type": "Release",
+    "title": "International Investment Position in Q3 2026 (preliminary)",
+    "aliases": [
+      "https://www.bok.or.kr/fileSrc/eng/7dac14296fff47fc929eda5284544525/2/47b00655de4147ffbb18be58f8a6f609.pdf"
+    ]
+  },
+  "2026-11-16-9476e5d9ed.json": {
+    "jurisdiction": "South Korea",
+    "type": "Research",
+    "title": "Monetary Policy Report (September 2026, English edition)",
+    "aliases": [
+      "https://www.bok.or.kr/fileSrc/eng/f61e158f472d4d96a418e0e129990783/1/4d35fab8b8cf4110af66bc140b25c6df.pdf"
+    ]
+  },
+  "2026-11-18-0a9b4092d8.json": {
+    "title": "Financial Stability Review — November 2026",
+    "jurisdiction": "Euro area",
+    "type": "Research",
+    "aliases": [
+      "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/pdf/ecb.fsr202611~e03b919d36.en.pdf"
+    ]
+  },
+  "2026-11-18-65e2fa1a9c.json": {
+    "title": "Boris Vujčić: Financial Stability Review - November 2026",
+    "jurisdiction": "Euro area",
+    "type": "Speech",
+    "aliases": []
+  },
+  "2026-11-16-c04c35da48.json": {
+    "title": "Boris Vujčić: Risks and resilience in the euro area financial system",
+    "jurisdiction": "Euro area",
+    "type": "Speech",
+    "aliases": []
+  },
+  "2026-11-16-1d9bd47a13.json": {
+    "title": "Europe and China: A changing relationship in a changing world | Keynote speech at 12th China Day, DFV Euro Finance Group",
+    "jurisdiction": "Euro area",
+    "type": "Speech",
+    "aliases": []
+  },
+  "2026-11-18-fb9c893286.json": {
+    "title": "Innovation braucht Resilienz: KI und Quantencomputing im Finanzsektor | Euro Finance Week",
+    "jurisdiction": "Euro area",
+    "type": "Speech",
+    "aliases": []
+  },
+  "2026-11-18-f7bd1e8e19.json": {
+    "title": "Beyond local deposit markets: Social spillovers in deposit pricing | Sofia Anyfantaki, Panagiotis Avramidis, Natalya Martynova",
+    "jurisdiction": "Euro area",
+    "type": "Research",
+    "aliases": [
+      "https://www.bundesbank.de/resource/blob/1016068/46401e50cd21e483d820169240abe3a6/472B63F073F071307366337C94F8C870/2026-11-18-dkp-41-data.pdf"
+    ]
+  },
+  "2026-11-17-8f086a37f6.json": {
+    "title": "Tariffs, cohort redistribution, and the world real interest rate | Anne Ernst, Matthias Schön, Nikolai Stähler",
+    "jurisdiction": "Euro area",
+    "type": "Research",
+    "aliases": [
+      "https://www.bundesbank.de/resource/blob/1007836/15f3e1cce4fcd319a01486dd23b40e15/472B63F073F071307366337C94F8C870/2026-11-17-dkp-40-data.pdf"
+    ]
+  },
+  "2026-11-18-392e0fd505.json": {
+    "jurisdiction": "Euro area",
+    "title": "Italian Housing Market Survey. Short-term Outlook - 2026 Q3",
+    "type": "Research",
+    "aliases": [
+      "https://www.bancaditalia.it/pubblicazioni/sondaggio-abitazioni/2026-sondaggio-abitazioni/03/statistiche_SAB_20261118.pdf?language_id=1"
+    ]
+  },
+  "2026-11-19-ef7081bf5a.json": {
+    "jurisdiction": "Euro area",
+    "title": "What Does Monetary Policy Need to Know Now?",
+    "type": "Speech",
+    "aliases": [
+      "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261119-altimari/altimari-19.11.2026.pdf?language_id=1"
+    ]
+  },
+  "2026-11-19-b54c0c5173.json": {
+    "jurisdiction": "Euro area",
+    "title": "Balance of Payments and International Investment Position - September 2026 [pdf, 1.0 MB]",
+    "type": "Statistics",
+    "aliases": []
+  },
+  "2026-11-17-59154aee80.json": {
+    "jurisdiction": "Euro area",
+    "title": "No. 1082 - The role of Italy's First-Home Guarantee Fund in mortgage lending to young borrowers",
+    "type": "Research",
+    "aliases": [
+      "https://www.bancaditalia.it/pubblicazioni/qef/2026-1082/QEF_1082_26.pdf?language_id=1"
+    ]
+  },
+  "2026-11-17-1723a414a3.json": {
+    "jurisdiction": "Euro area",
+    "title": "No. 1088 - Wealth, inheritance, and generational gaps in Italy",
+    "type": "Research",
+    "aliases": [
+      "https://www.bancaditalia.it/pubblicazioni/qef/2026-1088/QEF_1088_26.pdf?language_id=1"
+    ]
+  },
+  "2026-11-17-e9bd0a6888.json": {
+    "jurisdiction": "Euro area",
+    "title": "No. 1085 - The cost of security: evidence on the impact of dual-use export controls on Italian exports",
+    "type": "Research",
+    "aliases": [
+      "https://www.bancaditalia.it/pubblicazioni/qef/2026-1085/QEF_1085_26.pdf?language_id=1"
+    ]
+  },
+  "2026-11-17-bdbc38072b.json": {
+    "jurisdiction": "Euro area",
+    "title": "No. 1087 - Climate scenarios and firms' financial vulnerability",
+    "type": "Research",
+    "aliases": [
+      "https://www.bancaditalia.it/pubblicazioni/qef/2026-1087/QEF_1087_26.pdf?language_id=1"
+    ]
+  },
+  "2026-11-20-3e63c49e40.json": {
+    "jurisdiction": "China",
+    "type": "Release",
+    "title": "2026年10月金融市场运行情况"
+  },
+  "2026-11-16-dce2af21e6.json": {
+    "jurisdiction": "China",
+    "type": "Statement",
+    "title": "October 2026 Financial Statistics"
+  },
+  "2026-11-18-a43afe0587.json": {
+    "jurisdiction": "China",
+    "type": "Release",
+    "title": "中国人民银行与加拿大财政部、加拿大央行共同签署《中加金融工作组工作规范》"
+  },
+  "2026-11-18-2ab289ea97.json": {
+    "jurisdiction": "Malaysia",
+    "type": "Statement",
+    "title": "Economic and Financial Developments in Malaysia in the Third Quarter of 2026"
+  },
+  "2026-11-20-370a2f54db.json": {
+    "jurisdiction": "Malaysia",
+    "type": "Release",
+    "title": "Bank Negara Malaysia and Bangko Sentral ng Pilipinas Strengthen Cooperation on Central Banking and Financial Sector Development",
+    "jurisdictions": [
+      "Malaysia",
+      "Philippines"
+    ]
+  },
+  "2026-11-20-3e4e8afe0b.json": {
+    "jurisdiction": "Malaysia",
+    "type": "Speech",
+    "title": "Governor's Keynote Address at the Philippine Islamic Finance Forum 2026"
+  },
+  "2026-11-20-5525950983.json": {
+    "title": "Subgobernadora. IX Foro Banca/elEconomista. Fortaleza bancaria y riesgos para la estabilidad financiera",
+    "jurisdiction": "Euro area",
+    "type": "Release",
+    "aliases": [
+      "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/IntervencionesPublicas/Subgobernador/IIPP-2026-11-20-nunez-es-or.pdf"
+    ]
+  },
+  "2026-11-19-32a430c465.json": {
+    "title": "Working Papers. Perceived versus realized income dynamics: Evidence from subjective expectations",
+    "jurisdiction": "Euro area",
+    "type": "Research",
+    "aliases": [
+      "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/26/Files/dt2644e.pdf"
+    ]
+  },
+  "2026-11-19-ed842af2f7.json": {
+    "title": "ECB keeps capital requirements broadly stable for 2027, focuses its priorities on banks’ financial and operational resilience",
+    "jurisdiction": "Euro area",
+    "type": "Release",
+    "aliases": [
+      "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/ComunicadosBCE/NotasInformativasBCE/26/presbce2026-152en.pdf"
+    ]
+  },
+  "2026-11-19-171096e48f.json": {
+    "title": "Euro area monthly balance of payments: September 2026",
+    "jurisdiction": "Euro area",
+    "type": "Release",
+    "aliases": [
+      "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/ComunicadosBCE/NotasInformativasBCE/26/presbce2026-153en.pdf"
+    ]
+  },
+  "2026-11-19-80fa12fc7e.json": {
+    "title": "The Banco de España and GFTN put Madrid at the heart of a new Europe–Latin America financial partnership",
+    "jurisdiction": "Euro area",
+    "type": "Release",
+    "aliases": [
+      "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/NotasInformativas/26/presbe2026-109en.pdf"
+    ]
+  },
+  "2026-11-18-49ddd1a0d4.json": {
+    "title": "Working Papers. Stress testing fixed-income portfolios: A proxy bond approach",
+    "jurisdiction": "Euro area",
+    "type": "Research",
+    "aliases": [
+      "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/26/Files/dt2643e.pdf"
+    ]
+  },
+  "2026-11-17-ddff0e8bdf.json": {
+    "title": "General government debt according to the Excessive Deficit Procedure (September 2026)",
+    "jurisdiction": "Euro area",
+    "type": "Release",
+    "aliases": [
+      "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/NotasInformativas/26/presbe2026-106.pdf"
+    ]
+  },
+  "2026-11-16-223604ef53.json": {
+    "title": "Statement of policy: The Bank of England’s approach to rule permissions and waivers",
+    "jurisdiction": "United Kingdom",
+    "type": "Policy"
+  },
+  "2026-11-16-de085def88.json": {
+    "title": "The Bank of England’s approach to rule permissions and waivers: Policy statement",
+    "jurisdiction": "United Kingdom",
+    "type": "Policy"
+  },
+  "2026-11-16-a1642d9f9a.json": {
+    "title": "Statement of Policy: The Bank of England's approach to using its requirements and permissions powers to facilitate mobilisation of new CCPs",
+    "jurisdiction": "United Kingdom",
+    "type": "Policy"
+  },
+  "2026-11-16-bb0b14909e.json": {
+    "title": "The Bank of England’s approach to using its requirements and permissions powers to facilitate mobilisation of new CCPs: Policy statement",
+    "jurisdiction": "United Kingdom",
+    "type": "Policy"
+  },
+  "2026-11-16-8efe73e037.json": {
+    "title": "Near-final statement of policy: The Bank of England’s approach to tiering non-UK CCPs",
+    "jurisdiction": "United Kingdom",
+    "type": "Policy"
+  },
+  "2026-11-16-9d5f465c7c.json": {
+    "title": "Near-final statement of policy: The Bank of England’s approach to comparable compliance permissions",
+    "jurisdiction": "United Kingdom",
+    "type": "Policy"
+  },
+  "2026-11-16-9bc8d2f8e0.json": {
+    "title": "Near-final Statement of Policy: The Bank of England’s approach to permissions in relation to CCP rules (disclosure, outsourcing and interoperability arrangements permissions)",
+    "jurisdiction": "United Kingdom",
+    "type": "Policy"
+  },
+  "2026-11-16-e8059f03f6.json": {
+    "title": "Near-final statement of policy: The Bank of England’s approach to supervisory processes (model changes, recognition orders and variations of recognition orders) and margin permissions",
+    "jurisdiction": "United Kingdom",
+    "type": "Policy"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "title": "Malaysia’s exports strengthened in the third quarter, while cheaper fuel masked higher electricity costs",
+  "bank": "Bank Negara Malaysia",
+  "date": "2026-11-18",
+  "url": "https://www.bnm.gov.my/-/gdp3q26pr",
+  "summary": [
+    "Malaysia’s economy grew 5.5% from a year earlier in the third quarter, down from 6.0% in the second. Output still rose 1.5% on a seasonally adjusted quarterly basis, following 2.5% growth. Bank Negara Malaysia reports a stronger export performance and continued expansion in domestic demand. The two comparisons answer different questions. The annual comparison for household spending was affected by unusually large cash transfers a year earlier, while the quarterly series also shows a slowing pace of expansion. After growth of 5.6% in the first nine months, the governor expected full-year growth above 5%.",
+    "External demand was concentrated in technology-related products. Global investment in artificial intelligence supported Malaysian electrical and electronics producers and also benefited other exporters in the technology supply chain. Business services contributed to services growth. Improved palm oil yields helped agriculture, whereas planned maintenance reduced oil and natural gas production. The slides identify stronger technology exports and tourism as upside risks, and a prolonged Middle East conflict and weaker commodity production as downside risks. A strong aggregate export number therefore offers different signals for electronics producers, travel services and extractive industries.",
+    "Domestic spending continued to expand. Employment and income growth supported households, and businesses invested in structures and machinery. The bank expects multi-year projects and the conversion of approved investments into actual expenditure to sustain investment. A project approval is an input to this forecast; expenditure appears in measured activity when the project proceeds. The slide deck puts the projected 2027 GDP growth range at 4.2–5.2%. The release also anticipates support for household spending from the labour market and measures in the 2027 budget.",
+    "Headline inflation held at 1.9%. Core inflation eased from 1.9% to 1.7%, partly for item-specific reasons. Higher electricity charges following fuel-adjustment surcharges offset some of the relief from subsidised diesel. Fuel inflation slowed from 4.7% to 1.8% while electricity charges went from a 3.7% annual decline to a 2.0% rise. The share of CPI items registering monthly price increases rose from 45.5% to 48.3%, above its 45.6% historical average. Much of that increase occurred in July and the measure eased over the following two months. The bank sees delayed input-cost pass-through lifting inflation towards year-end, with subsidies and domestic demand conditions limiting the rise.",
+    "Financing also changed composition. Private non-financial credit growth edged down to 6.3%, yet business loan growth accelerated from 7.3% to 8.8%, driven mainly by working capital. Corporate bonds outstanding grew 5.7%, down from 8.1%, and household loan growth remained 5.3%. Faster bank lending to firms therefore gives a stronger signal about near-term operating finance than it does about an acceleration in capital expenditure. The ringgit slipped 0.2% against the dollar during the quarter. The bank expects external developments to remain important to the exchange rate and reiterates its commitment to orderly market functioning. The release contains no exchange-rate target."
+  ],
+  "questions": [
+    {
+      "question": "How much of the export upswing is turning into sustained domestic income?",
+      "detail": "The release links electrical and electronics exports to global AI demand and shows a stronger contribution from business services. To test how widely the gains spread, examine export volumes by product, imported intermediate inputs, skilled employment and wages over subsequent quarters. That distinction matters for investors assessing whether Malaysia’s growth outlook remains dependent on a small group of external customers."
+    },
+    {
+      "question": "Will electricity costs or fuel subsidies dominate the next inflation readings?",
+      "detail": "Annual headline inflation stayed at 1.9% despite large changes within the energy basket, while the share of prices rising increased in July and then eased. Compare the timing of fuel-adjustment surcharges, diesel subsidy eligibility and input-price increases with monthly CPI components and business pricing surveys. Persistent increases outside directly affected items would strengthen the case for delayed pass-through into core inflation."
+    },
+    {
+      "question": "Is loan growth financing new capacity or covering operating costs?",
+      "detail": "Bank credit to businesses accelerated even as growth in corporate bonds outstanding slowed. The report identifies working capital as the main source of bank demand, while the growth outlook assumes approved investments are executed. Compare loan-purpose data, gross fixed capital formation, machinery imports and project completion schedules. A rise in construction or machinery spending would establish a firmer link to future productive capacity."
+    }
+  ],
+  "limitation": ""
+}
