@@ -213,7 +213,10 @@
     "publication": {
       "jurisdiction": "India",
       "type": "Release",
-      "title": "RBI imposes monetary penalty on Fusion Finance Limited"
+      "title": "RBI imposes monetary penalty on Fusion Finance Limited",
+      "aliases": [
+        "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR15371CFC7ACEA1EB441DAABD793CBC2F8C7D.PDF"
+      ]
     }
   },
   {
