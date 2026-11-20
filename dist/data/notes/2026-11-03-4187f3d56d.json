@@ -1,0 +1,25 @@
+{
+  "title": "Why a Swiss exporter’s invoicing currency matters for its margins",
+  "bank": "Swiss National Bank",
+  "date": "2026-11-03",
+  "url": "https://www.snb.ch/de/publications/communication/speeches/2026/ref_20261103_msl",
+  "summary": [
+    "Martin Schlegel’s St Gallen presentation shows how the same franc appreciation can affect two exporters differently. About half of the firms shown on slide 9 reported pressure on margins. Lower sales were another response. Roughly one in ten reported a gain through costs.",
+    "Slides 10–11 present shares of export value by sector and invoicing currency. Pharma accounted for 47% of the total shown, followed by machinery, electrical goods and metals at 24%. The dollar share was 31%, the euro share 25% and the franc share 42%. These are different breakdowns of the same exports."
+  ],
+  "questions": [
+    {
+      "question": "Why can margins fall before the sales price changes?",
+      "detail": "If a contract fixes a euro price, each euro buys fewer francs after an appreciation. Swiss payroll can stay unchanged while franc revenue per unit falls. A cheaper imported component offsets part of the loss."
+    },
+    {
+      "question": "What makes the sector distribution relevant?",
+      "detail": "A large pharmaceutical share gives that industry substantial weight in aggregate exports. A manufacturer that competes intensely on price can face much greater pressure than the headline total suggests."
+    },
+    {
+      "question": "Can the two charts identify Swiss exporters’ exposure to the dollar?",
+      "detail": "The shares describe billing currency and sector separately. A joint breakdown, imported-input costs, repricing terms and hedges would be needed to estimate a particular sector’s net currency exposure."
+    }
+  ],
+  "limitation": "The presentation reports rounded aggregate shares and firms’ responses. It supplies neither a sector-by-currency table nor an estimate of the effect of a 1% appreciation on profits."
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Japan’s investment plans and what firms could actually install",
+  "bank": "Bank of Japan",
+  "date": "2026-11-02",
+  "url": "https://www.boj.or.jp/en/mopo/outlook/gor2610b.pdf",
+  "summary": [
+    "Box 2 of the Bank of Japan’s October Outlook compares investment spending with the quantity of assets businesses acquired. Against January–March 2021, nominal investment rose about 30% while real investment rose slightly less than 10%. Equipment and construction costs absorbed much of the spending increase.",
+    "The full report, released on 2 November, discusses labour shortages, delayed projects and strong plans for software. Japan’s April–June GDP release also recorded a sale of patent rights abroad that depressed measured R&D investment. This gives two quite different reasons for a weak quarter in the aggregate series."
+  ],
+  "questions": [
+    {
+      "question": "Which assets drive the gap between spending and volumes?",
+      "detail": "Machinery and construction accounted for just over 60% of fiscal 2025 business investment. For those assets, separate purchase and installation prices from volumes when interpreting a larger capital budget."
+    },
+    {
+      "question": "How would an installation constraint show up?",
+      "detail": "A contractor can have a full order book and complete less work than planned. Compare contracts, cancellations and completed work with the backlog in Chart B2-5. A growing backlog alongside rising prices is consistent with capacity pressure."
+    },
+    {
+      "question": "Why might a labour shortage stimulate demand for one investment and delay another?",
+      "detail": "Higher wages make some labour-saving software more attractive. Building or installing equipment can itself require the scarce workers. The same shortage can therefore raise a project’s expected savings while delaying its payoff."
+    }
+  ],
+  "limitation": "The report combines realised GDP, business plans and order indicators with different reporting dates. Its account of the investment mechanism does not attribute the slowdown to one cause or quantify a separate market reaction to the full report."
+}
