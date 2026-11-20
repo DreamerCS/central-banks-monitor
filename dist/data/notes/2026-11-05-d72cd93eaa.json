@@ -1,0 +1,28 @@
+{
+  "title": "Norges Bank’s hold keeps the option of a further increase open",
+  "bank": "Norges Bank",
+  "date": "2026-11-05",
+  "url": "https://www.norges-bank.no/en/news-events/news/Speeches/2026/2026-11-05-pc/",
+  "summary": [
+    "Holding the Norwegian policy rate at 4.5% preserved a restrictive stance after the September increase. In her introductory statement on 5 November, Governor Ida Wolden Bache said the news received since September had left the outlook broadly intact. The Committee still expected that rates would probably need to stay elevated for some time, and it remained prepared to raise the rate if bringing inflation back to target within a reasonable period required it. The speech gives the reason for holding at this meeting and the condition for moving again. The December meeting was due to bring a fresh forecast.",
+    "Domestic inflation was central to the judgement. The latest twelve-month increase in the consumer price index was 3.4%. CPI adjusted for tax changes and excluding energy products rose 3.0%. The bank targets inflation close to 2% over time. The accompanying presentation plots both actual inflation series against that target and shows how far they had declined from earlier peaks while continuing to run above target at the end of the sample (slide 3). Domestically produced goods and services were recording the fastest price increases, and high labour cost growth in preceding years was expected to keep pressure on prices. Even a favourable development in imported prices would leave a domestic question to resolve.",
+    "External developments pointed in different directions. Oil spot prices had fallen since September, but futures prices for oil, gas and electricity were higher. The Committee therefore had reason to distinguish the price of energy for immediate delivery from the outlook implied by contracts for later delivery. Meanwhile, an appreciation of the krone would, taken separately, dampen inflation. The speech gives no numerical estimate of the combined impact, or of how much of the currency move would reach retail prices. Abroad, several central banks had tightened since the summer and further increases were expected. Long-term interest rates had retreated somewhat in recent weeks after a marked rise earlier in the autumn.",
+    "The labour market allowed the Committee to retain restraint. Bache characterised unemployment as neither especially high nor unusually low and said employment appeared to have continued rising. The latest 2.0% unemployment figure corresponds to registered unemployment in the slide deck. The Labour Force Survey series plotted alongside it has a higher level (slide 4). Treating the two series as interchangeable could turn a difference in measurement into a spurious change in activity. The Committee’s emphasis was on the relative stability of unemployment since its preceding meeting.",
+    "Norges Bank also has a mandate to support high employment and economic stability. Against the observed labour-market backdrop, the immediate concern was the cost of allowing persistent above-target inflation to become harder to reverse. The final policy chart displays the realised policy rate through the latest decision (slide 5). Its title announces readiness to tighten further, but the plotted line contains no projected December rate. A rates investor can use the speech to identify what would challenge the hold: signs of domestic price pressure lasting longer than expected, set against new evidence on activity. It provides neither a probability for the next move nor evidence of the market response to the statement."
+  ],
+  "questions": [
+    {
+      "question": "Are domestic labour costs still propagating into prices at the same pace?",
+      "detail": "Bache linked high labour cost growth in past years to continuing domestic inflation. She did not quantify the lag or the extent to which firms could absorb costs in margins. That difference matters for how long a restrictive rate might be needed. Examine domestic goods and services price components, pay data, productivity and business surveys covering costs and selling prices."
+    },
+    {
+      "question": "How much of the energy outlook could a stronger krone offset?",
+      "detail": "The speech distinguishes falling spot oil prices from rising energy futures and identifies appreciation as a potential disinflationary force. It gives no common-horizon estimate of their impact. To assess the outlook for Norwegian rates and currency exposure, compare energy contracts by delivery period with exchange-rate changes and the assumptions in the bank’s previous forecast, allowing for tax and energy exclusions in the underlying inflation measure."
+    },
+    {
+      "question": "Which labour indicator would signal sufficient weakening to change the trade-off?",
+      "detail": "Registered unemployment was little changed and employment appeared to be increasing, while the presentation also showed a higher survey-based unemployment level. Those signals require comparable timing and definitions. Compare movements within each official series, together with employment and participation measures, before interpreting a single monthly observation as a reason for the Committee to change its stance."
+    }
+  ],
+  "limitation": ""
+}

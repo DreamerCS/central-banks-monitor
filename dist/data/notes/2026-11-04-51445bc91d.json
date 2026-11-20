@@ -1,0 +1,28 @@
+{
+  "title": "Türkiye’s October CPI rise was concentrated in energy and fresh food",
+  "bank": "Central Bank of the Republic of Türkiye",
+  "date": "2026-11-04",
+  "url": "https://www.tcmb.gov.tr/wps/wcm/connect/7e9a7146-8c69-492f-8834-15ee5098fd12/mpriceoctober26.pdf?MOD=AJPERES",
+  "summary": [
+    "The Central Bank of the Republic of Türkiye reads October’s inflation release as consistent with the recent easing in underlying inflation. Prices rose 2.58% during the month and were 29.77% higher than a year earlier. Energy and unprocessed food did much of the work in the monthly headline number. The average of the bank’s seasonally adjusted underlying measures rose only from 1.74% in September to 1.76% in October, while its three-month average edged down from 1.80% to 1.79%. The bank is describing a broadly stable recent pace after earlier moderation. The figures give little support to a claim that every underlying measure fell again in October (summary, Charts 1–6 and Table 2).",
+    "The distinction is visible within core inflation. The three-month averages for both the B and C exclusion measures declined. The median measure, however, rose on both a monthly and a three-month basis, and the monthly dynamic factor measure was unchanged. Comparing a single month’s unadjusted headline increase with the adjusted trend series would mix two measures. Another example is clothing and footwear. Prices rose 12.75% in October as the new season began, close to the rise in October a year earlier. Core goods as a whole registered a 3.92% increase before seasonal adjustment, while their seasonally adjusted monthly increase weakened. The report links subdued underlying core goods pressure to demand conditions (p. 2 and Tables 1–2).",
+    "Energy prices rose 4.92% on the month, lifting their annual inflation rate to 51.37%. Fuel, bottled gas and solid fuel contributed, while residential electricity prices barely changed. Fresh fruit and vegetables also contributed to the rise in food prices as cultivation shifted from open fields to greenhouses. These are different possible sources of persistence. A seasonal food movement can influence the headline rate at a particular time of year. Repeated fuel price increases could stay relevant across a longer period. The bank documents the October movements without estimating how much either will contribute in later months (Chart 9 and the evaluations on p. 2).",
+    "Services provide a useful check on the interpretation. Prices rose 0.99% before seasonal adjustment, and annual inflation fell 1.09 percentage points to 36.56%, with declines in annual inflation across the service subgroups. Even within restaurants and hotels, food and beverage services rose 1.65% during the month while accommodation fell 3.19%. The combined group’s modest increase therefore cannot be read as uniform weakness across both activities. Annual rent inflation continued to decline but remained 39.71%. A slower rate of price increase can coexist with a much higher annual level than in core goods (Chart 7 and Table 1).",
+    "Producer prices rose 1.65% in the month and annual producer inflation was broadly stable at 27.41%. Intermediate goods recorded a 2.00% increase. This establishes that some upstream pressures remained, but the report contains no estimate of the share firms will pass through to final prices. For a rates reader, the stronger headline and the steadier underlying measures give different information about policy-relevant persistence. This publication supplies an initial assessment of the inflation data. It contains neither a policy decision nor a comparison with prevailing market expectations (p. 1 and Table 3)."
+  ],
+  "questions": [
+    {
+      "question": "Will the increase in energy prices spread beyond the items directly exposed?",
+      "detail": "The bank identifies a sizeable rise in fuel and related items while residential electricity was broadly unchanged. It does not estimate how transport or production costs feed into later price resets. That uncertainty matters for the duration of inflation exposure. Compare subsequent detailed CPI and producer-price releases with the chronology of fuel and administered-price changes, keeping contemporaneously available data separate from later outcomes."
+    },
+    {
+      "question": "Is the modest increase in the median measure a sign of broader pricing pressure?",
+      "detail": "The median strengthened while several exclusion measures weakened on a three-month basis. Different baskets and aggregation rules can produce that divergence. It would matter for a rates view if price increases were spreading across categories even as volatile items unwound. The next evidence would be the distribution of item-level price changes, the share of items rising quickly and the bank’s methodological description of its underlying indicators."
+    },
+    {
+      "question": "What explains the divergence within services as annual inflation declines?",
+      "detail": "Rents, food service and accommodation show different near-term price movements. A temporary fall in accommodation prices has different implications from a sustained slowdown in rent resets. To judge how long services disinflation might last, check official service subindices and seasonal patterns, plus evidence on contract renewal timing where available. This release gives subgroup outcomes but cannot attribute their evolution to demand alone."
+    }
+  ],
+  "limitation": ""
+}

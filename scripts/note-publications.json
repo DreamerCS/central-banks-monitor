@@ -1256,5 +1256,278 @@
     "aliases": [
       "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR153980EC0AE092E14AE6963872D7C9520E39.PDF"
     ]
+  },
+  "2026-11-16-022de6b6ac.json": {
+    "title": "Act now or wait? How monetary policy should respond to supply shocks",
+    "jurisdiction": "Canada",
+    "type": "Research"
+  },
+  "2026-11-19-1aaf5e3c7a.json": {
+    "title": "Jefferson, Monetary Policy amid Frequent and Complex Shocks",
+    "jurisdiction": "United States",
+    "type": "Speech"
+  },
+  "2026-11-09-ffce838833.json": {
+    "title": "FEDS Note: The Effect of Oil Prices on Core Inflation: Recent Evidence from the Advanced Economies",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-09-f177205bc1.json": {
+    "title": "FEDS Note: A Common Pattern behind Diverging Fortunes: U.S. Tariffs and Exports from Canada and Mexico",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-09-a6efb6c4f0.json": {
+    "title": "FEDS Note: Gold Reserve Relocations: Are They Always Bad News for U.S. Dollar Reserves?",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-09-d1bc815892.json": {
+    "title": "Inflation Expectations Stable; Labor Market Expectations Mixed",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-17-b078b9bf83.json": {
+    "title": "Does the Stock Market Stigmatize Banks that Borrow from the Fed?",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-10-85f4ef7bd1.json": {
+    "title": "A Look at the Wider Divide in Credit Card Delinquency by Income",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-18-87e28b9dd5.json": {
+    "title": "Omar Mejía · Perspectivas de política monetaria",
+    "jurisdiction": "Mexico",
+    "type": "Speech"
+  },
+  "2026-11-06-9891c11045.json": {
+    "title": "Gabriel Cuadra · Crecimiento económico en México: retos y perspectivas",
+    "jurisdiction": "Mexico",
+    "type": "Speech"
+  },
+  "2026-11-04-ca8263dea5.json": {
+    "title": "Informe de Política Monetaria – octubre de 2026",
+    "jurisdiction": "Colombia",
+    "type": "Forecast"
+  },
+  "2026-11-11-21cb47c8d5.json": {
+    "title": "Informe Monetario Mensual – October 2026",
+    "jurisdiction": "Argentina",
+    "type": "Research"
+  },
+  "2026-11-19-7fa6871ac7.json": {
+    "title": "Académicos, expertos financieros y autoridades de bancos centrales enriquecieron el debate sobre los desafíos del crecimiento, la productividad y la inflación",
+    "jurisdiction": "Argentina",
+    "type": "Release"
+  },
+  "2026-11-19-bdc846beab.json": {
+    "jurisdiction": "Japan",
+    "type": "Testimony",
+    "title": "Statement by UEDA Kazuo, Governor of the Bank of Japan, concerning the Bank’s Semiannual Report on Currency and Monetary Control before the Committee on Financial Affairs, Senate",
+    "aliases": [
+      "https://www.boj.or.jp/en/mopo/diet/d_state/dst261119a.htm"
+    ]
+  },
+  "2026-11-10-aa8be60b8c.json": {
+    "jurisdiction": "Japan",
+    "type": "Minutes",
+    "title": "Summary of Opinions at the Monetary Policy Meeting on October 29 and 30, 2026"
+  },
+  "2026-11-03-6a784d7152.json": {
+    "jurisdiction": "Australia",
+    "type": "Press conference",
+    "title": "Media Conference: Monetary Policy Decision – 3 November 2026"
+  },
+  "2026-11-10-db72d21910.json": {
+    "jurisdiction": "New Zealand",
+    "type": "Speech",
+    "title": "How is the New Zealand economy tracking? Speaking notes for the UBS Australasia Conference"
+  },
+  "2026-11-11-4d8e0052ae.json": {
+    "jurisdiction": "Thailand",
+    "type": "Minutes",
+    "title": "Edited Minutes of Monetary Policy Committee Meeting (No. 5/2026)"
+  },
+  "2026-11-13-ba117fa97e.json": {
+    "jurisdiction": "Philippines",
+    "type": "Statement",
+    "title": "Joint statement on cooperation under the Local Currency Transaction Framework",
+    "aliases": [
+      "https://www.bot.or.th/content/dam/bot/documents/en/news-and-media/news/2026/news-20261113.pdf",
+      "https://www.bnm.gov.my/-/mou_lctf26",
+      "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2824926.aspx"
+    ],
+    "jurisdictions": [
+      "Indonesia",
+      "Malaysia",
+      "Thailand",
+      "Philippines"
+    ]
+  },
+  "2026-11-10-6504ccfeda.json": {
+    "jurisdiction": "Singapore",
+    "type": "Statement",
+    "title": "MAS Launches Central Bank Gold Vaulting Service and Announces Enhanced Tax Framework for Wholesale Gold Activities in Singapore"
+  },
+  "2026-11-18-44a98a78f0.json": {
+    "jurisdiction": "Euro area",
+    "title": "“Turn the interest rate screw” | Interview with tagesschau.de",
+    "type": "Interview",
+    "aliases": [
+      "https://www.bundesbank.de/de/presse/interviews/-an-der-zinsschraube-drehen--1016502"
+    ]
+  },
+  "2026-11-07-5f308cfde1.json": {
+    "jurisdiction": "Euro area",
+    "title": "Interview with Yomiuri Shimbun",
+    "type": "Interview"
+  },
+  "2026-11-06-e08179d530.json": {
+    "jurisdiction": "Czechia",
+    "title": "The CNB increased interest rates, inflation will rise at the start of next year but will then start to decline thanks to tight monetary policy",
+    "type": "Research"
+  },
+  "2026-11-09-27ab0b3f67.json": {
+    "jurisdiction": "Czechia",
+    "title": "CNB adds corporate bonds to its reserve portfolio and changes its MBS management approach",
+    "type": "Release"
+  },
+  "2026-11-18-6b544768d9.json": {
+    "jurisdiction": "Euro area",
+    "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+    "type": "Release",
+    "aliases": [
+      "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/notas-prensa-bce/los-riesgos-derivados-de-las-valoraciones-de-las-empresas-del-sector-de-la-ia-los-desequilibrios-fiscales-y-las-tensiones-geoeconomicas-lastran-las-perspectivas-de-estabilidad-financiera.html",
+      "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/ComunicadosBCE/NotasInformativasBCE/26/presbce2026-151en.pdf"
+    ]
+  },
+  "2026-11-13-84a5483e04.json": {
+    "jurisdiction": "Czechia",
+    "title": "Minutes of the Bank Board meeting on 5 November 2026",
+    "type": "Minutes"
+  },
+  "2026-11-05-d72cd93eaa.json": {
+    "jurisdiction": "Norway",
+    "title": "We have kept the policy rate unchanged",
+    "type": "Speech"
+  },
+  "2026-11-12-5007f99904.json": {
+    "jurisdiction": "South Africa",
+    "title": "Lesetja Kganyago | Sunday Times Top 100 Companies Awards acceptance speech",
+    "type": "Speech",
+    "aliases": [
+      "https://www.resbank.co.za/content/dam/sarb/publications/speeches/speeches-by-governors/2026/kganyago-sunday-times-awards.pdf"
+    ]
+  },
+  "2026-11-04-1830cea199.json": {
+    "jurisdiction": "Hungary",
+    "title": "Abridged minutes of the Monetary Council meeting on 20 October 2026",
+    "type": "Minutes"
+  },
+  "2026-11-05-84e78393fa.json": {
+    "jurisdiction": "Switzerland",
+    "title": "Transmission and conduct of monetary policy in Switzerland",
+    "type": "Speech",
+    "aliases": [
+      "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/speeches/2026/ref_20261105_msl/publications0_en/ref_20261105_msl_1.en.pdf"
+    ]
+  },
+  "2026-11-10-cd17db23cd.json": {
+    "jurisdiction": "Switzerland",
+    "title": "The Swiss National Bank, its monetary policy and the Swiss economy",
+    "type": "Speech",
+    "aliases": [
+      "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/speeches/2026/ref_20261110_anmar/publications0_en/ref_20261110_anmar.en.pdf"
+    ]
+  },
+  "2026-11-10-3f4d9809b1.json": {
+    "title": "Asset Purchase Facility Quarterly Report - 2026 Q3",
+    "type": "Research",
+    "jurisdiction": "United Kingdom"
+  },
+  "2026-11-13-0ab42b7795.json": {
+    "title": "Project Meridian FX APAC: Policy Report",
+    "type": "Research",
+    "jurisdiction": "United Kingdom"
+  },
+  "2026-11-13-eb9ccd20f7.json": {
+    "title": "Project Meridian FX APAC: Technical Report",
+    "type": "Research",
+    "jurisdiction": "United Kingdom"
+  },
+  "2026-11-20-38bc0e8002.json": {
+    "title": "When vacancies become cheap: vacancy posting costs and equilibrium labour market tightness",
+    "type": "Research",
+    "jurisdiction": "United Kingdom"
+  },
+  "2026-11-20-e4423b0e08.json": {
+    "title": "Occasional Papers. Descomposición de la inflación en el área del euro y España entre perturbaciones de oferta y de demanda",
+    "type": "Research",
+    "jurisdiction": "Euro area"
+  },
+  "2026-11-16-c92aadaa23.json": {
+    "title": "Near-final supervisory statement on CCP margin",
+    "type": "Research",
+    "jurisdiction": "United Kingdom"
+  },
+  "2026-11-16-bf4a4f33f0.json": {
+    "title": "The impact of default waterfall positioning on pro-rata second skin-in-the-game requirements for central counterparties",
+    "type": "Research",
+    "jurisdiction": "United Kingdom"
+  },
+  "2026-11-06-858510279c.json": {
+    "title": "Price efficiency in securities lending",
+    "type": "Research",
+    "jurisdiction": "United Kingdom"
+  },
+  "2026-11-05-9ccfd57235.json": {
+    "title": "Monetary Policy Statement",
+    "jurisdiction": "Malaysia",
+    "type": "Decision"
+  },
+  "2026-11-04-51445bc91d.json": {
+    "title": "Monthly Price Developments (October 2026)",
+    "jurisdiction": "Türkiye",
+    "type": "Research"
+  },
+  "2026-11-11-0928285286.json": {
+    "title": "Press Release on Macroprudential Framework (2026-49)",
+    "jurisdiction": "Türkiye",
+    "type": "Release"
+  },
+  "2026-11-12-033d1da33f.json": {
+    "title": "Governor Fatih Karahan's Speech at the Briefing on Inflation Report 2026-IV (İstanbul)",
+    "jurisdiction": "Türkiye",
+    "type": "Speech",
+    "aliases": [
+      "https://tcmb.gov.tr/wps/wcm/connect/6995ca32-dead-4908-8630-510a69985923/SpeechG12_11_2026.pdf?CACHEID=ROOTWORKSPACE-6995ca32-dead-4908-8630-510a69985923-q7ePhDc&MOD=AJPERES"
+    ]
+  },
+  "2026-11-12-463f6ea3cd.json": {
+    "title": "Governor Fatih Karahan's Presentation at the Briefing on Inflation Report 2026-IV (İstanbul)",
+    "jurisdiction": "Türkiye",
+    "type": "Speech"
+  },
+  "2026-11-12-5425bee3a7.json": {
+    "jurisdiction": "Japan",
+    "type": "Speech",
+    "title": "Economic Activity, Prices, and Monetary Policy in Japan: Speech at a Meeting with Local Leaders in Nagasaki",
+    "aliases": [
+      "https://www.boj.or.jp/en/about/press/koen_2026/data/ko261112a1.pdf",
+      "https://www.boj.or.jp/about/press/koen_2026/ko261112a.htm",
+      "https://www.boj.or.jp/about/press/koen_2026/data/ko261112a1.pdf"
+    ]
+  },
+  "2026-11-16-8016430830.json": {
+    "jurisdiction": "Japan",
+    "type": "Speech",
+    "title": "Economic Activity, Prices, and Monetary Policy in Japan: Japan’s Money and Capital Market Transformation — Will a Paradigm Shift Occur?",
+    "aliases": [
+      "https://www.boj.or.jp/en/about/press/koen_2026/data/ko261116a1.pdf",
+      "https://www.boj.or.jp/about/press/koen_2026/ko261116a.htm",
+      "https://www.boj.or.jp/about/press/koen_2026/data/ko261116a1.pdf"
+    ]
   }
 }

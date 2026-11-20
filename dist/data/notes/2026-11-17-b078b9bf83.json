@@ -1,0 +1,28 @@
+{
+  "title": "In the 2023 bank run, the funding facility mattered for how equities priced bank risk",
+  "bank": "Federal Reserve Bank of New York",
+  "date": "2026-11-17",
+  "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/does-the-stock-market-stigmatize-banks-that-borrow-from-the-fed/",
+  "summary": [
+    "US bank equity investors became more sensitive to uninsured deposits and capital weakness after a bank first used the Federal Reserve’s discount window during the March 2023 panic. Natalia Fischl-Lanzoni, Martin Hiti and Asani Sarkar find no statistically significant counterpart among banks using only the new Bank Term Funding Program (BTFP). They interpret the asymmetry as evidence consistent with a stigma surrounding the window. Their comparison between the two groups is itself statistically inconclusive, however. The study measures how investors priced particular vulnerabilities, and does not establish how much an individual bank’s share price fell because it borrowed.",
+    "The terms offered a reason for investors to distinguish the facilities. The window accepted a broad range of collateral, including illiquid loans, for short-term funding against market value. The BTFP, announced on 12 March 2023, lent for up to a year against the face value of qualifying Treasuries, agency debt and agency mortgage-backed securities. For a bank whose eligible bonds traded below par, that meant more funding against the same securities. The BTFP rate was typically lower as well. Resorting to the window might therefore indicate a different collateral mix or that preferable funding sources had been exhausted. The window also had a history of borrower reluctance. Both contract terms and reputation could affect which banks chose to use it.",
+    "The first chart follows portfolios constructed to isolate uninsured deposits, unrealised securities losses, cash and capital. A bank’s estimated beta captures the sensitivity of its stock return to the relevant portfolio. These sensitivities rose around the run. They are market measures of exposure, rather than deposit withdrawals or accounting losses. The distinction matters when interpreting a subsequent increase: bank shares can come under closer scrutiny for a given stock of uninsured deposits even before a new balance sheet records any change in that stock.",
+    "The analysis then compares a bank’s first loan with its own earlier experience and with 207 banks using neither facility. During 8–31 March, 34 sampled banks first drew on the BTFP and 33 on the window, including ten that used both. The facility-specific chart excludes the dual users. The authors align seven trading days before and after each bank’s first use to allow for different borrowing dates. The plotted changes are relative, with confidence intervals. In days four to seven the window borrowers’ increased sensitivity to uninsured deposits and capital is statistically significant. The early zero-to-three-day capital marker is hollow, even though the prose also describes elevated capital sensitivity over the seven-day period. The chart therefore supports a particularly clear claim for the later interval. Neither facility shows a significant change in cash-risk sensitivity in the two displayed intervals.",
+    "Borrowers’ identities were not disclosed publicly until two years later. Investors could have reacted to signs of the same weakness that prompted borrowing. Consequently the observed pattern cannot by itself establish that the market learned of a loan and then punished its recipient. The samples are small, the observation window brief, and a difference in significance against the non-borrowing comparison group does not establish a significant difference between the two borrowing groups. The authors’ practical implication is conditional: a facility tailored to a specific funding problem, with more favourable terms and no history of stigma, may be easier for banks to use when a panic makes liquidity most valuable."
+  ],
+  "questions": [
+    {
+      "question": "What contemporaneous information could have revealed bank weakness when borrower identities were confidential?",
+      "detail": "The relative equity sensitivity changed after a first window loan. Identification depends on whether investors could infer the draw or simply observed the deterioration that also caused it. Search contemporaneous bank disclosures and deposit-flow or funding announcements, then compare the timing with the ex post loan records. The distinction affects whether a facility’s disclosure design could reduce the cost of using it."
+    },
+    {
+      "question": "Can collateral eligibility explain which institutions borrowed from each programme?",
+      "detail": "Banks with eligible bonds could raise funding at par under the BTFP; other assets could be pledged only at the window. A comparison at similar collateral quality and borrowing capacity would help distinguish contract design from reputation. Link pre-run securities portfolios and uninsured deposits from the cited regulatory filings to facility use, then test whether the equity result persists in that narrower sample."
+    },
+    {
+      "question": "Does the change in equity risk sensitivity persist long enough to affect private funding?",
+      "detail": "The second chart covers seven trading days on either side, and the head-to-head comparison is inconclusive. For assessing bank funding or capital costs, seek longer follow-up and measures of deposit retention and wholesale borrowing terms. The underlying paper cited in the post is the first place to check for additional windows, sensitivity tests and evidence on banks using both facilities."
+    }
+  ],
+  "limitation": ""
+}

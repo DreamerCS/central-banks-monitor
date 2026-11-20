@@ -1,0 +1,28 @@
+{
+  "title": "Jefferson separates the immediate inflation cost of AI investment from its possible productivity gain",
+  "bank": "Board of Governors of the Federal Reserve System",
+  "date": "2026-11-19",
+  "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm",
+  "summary": [
+    "Federal Reserve Vice Chair Philip Jefferson sees the US investment buildout for artificial intelligence adding to demand and inflation now, while the productivity gains it might bring could ease inflation pressure later. His remarks in Brasília on 19 November place this timing difference alongside an energy shock that raises prices while squeezing real incomes. Read together, the examples explain why a single inflation or activity reading gives an incomplete signal of how Jefferson would want policy to respond. He offers his own assessment in a panel speech, with no committee vote, rate forecast or timetable for an adjustment (opening remarks and footnote 1).",
+    "The starting point is the distinction between a change in expenditure and a change in how much the economy can sustainably produce. Household, business or government spending can shift while underlying productive capacity stays the same. Supply disturbances can change the labour or capital available or the productivity of either input. As footnote 3 explains, what matters for demand pressure is output relative to an estimate of potential. Strong output growth alone is consequently ambiguous in the framework: it could reflect demand pushing beyond capacity, an increase in capacity, or both. The potential-output comparison also makes duration important. The same observed change in activity can have different policy implications if its supply effect is still to come.",
+    "The energy example gives that framework an immediate policy application. Jefferson says the rise in oil prices associated with the Middle East conflict came when US inflation was already above the 2% target. More expensive energy pushes prices higher while eroding purchasing power and spending. Supporting employment and bringing inflation back to target can then point towards different degrees of restraint. He puts weight on the risk to the anchor for inflation expectations. If that anchor is threatened, he sees a case for a stronger inflation response. If the price pressure stays contained, he would give more weight to employment downside. The speech gives these as conditional responses; it reports no measure establishing that expectations have already become unanchored.",
+    "AI presents a different sequencing problem. Jefferson describes adoption as having risen considerably over the previous two years. He attributes stronger business investment in data centres, advanced computing equipment and related products to optimism about the technology. He envisages automation of some tasks and improvements in the productivity of others, potentially raising the growth rate of sustainable output. If that materialises, activity could keep expanding as inflation pressure eases. The speech gives neither an implementation horizon nor evidence that these prospective gains already offset the demand impulse. Workers whose tasks disappear can suffer losses even as new businesses and jobs emerge. Jefferson leaves both the magnitude and the composition of those changes open.",
+    "Finally, the policymaker must assess energy, trade and technological change together. Jefferson names trade as a concurrent shock without assigning it a numerical contribution. For an investor, the inference is that information about the breadth of capacity growth or the behaviour of inflation expectations could change the reading of a given growth print. It would take separate evidence on those mechanisms and on market expectations to translate the remarks into an assessment of repricing. Neither the speech nor its footnotes supplies a measure of what was priced."
+  ],
+  "questions": [
+    {
+      "question": "What would count as damage to the inflation-expectations anchor?",
+      "detail": "Jefferson makes the balance between inflation and employment risks conditional on this judgement, yet provides no threshold. A change in long-horizon beliefs would have different implications for expected rates from a rise confined to near-term energy costs. Examine the contemporaneous term structure and dispersion of household and business surveys alongside inflation compensation, accounting for the risk premium in the latter."
+    },
+    {
+      "question": "When could AI adoption move potential output as much as investment is moving demand?",
+      "detail": "The speech identifies the capital expenditure first and a possible productivity dividend later. For duration and cyclical exposure, the time between the two matters. Seek national accounts and productivity releases separating capital deepening from output-per-hour gains, with business surveys of adoption and actual task reorganisation. Look for a widening of gains beyond the suppliers of computing equipment."
+    },
+    {
+      "question": "How would policymakers distinguish energy-related demand weakness from AI-related labour reallocation?",
+      "detail": "Both could weaken employment indicators while implying different paths for productive capacity. Jefferson identifies displacement and real-income losses but does not apportion them. Compare sectoral employment flows, hours and business hiring intentions with spending in energy-sensitive households. His July Stanford speech, cited in footnote 2, is a starting point for checking how he would interpret conflicting evidence."
+    }
+  ],
+  "limitation": ""
+}

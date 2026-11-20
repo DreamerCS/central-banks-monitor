@@ -1,0 +1,28 @@
+{
+  "title": "Türkiye raised eight-week credit growth limits and changed reserve remuneration",
+  "bank": "Central Bank of the Republic of Türkiye",
+  "date": "2026-11-11",
+  "url": "https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb+en/main+menu/announcements/press+releases/2026/ano2026-49",
+  "summary": [
+    "Türkiye’s central bank changed two parts of its macroprudential framework on 11 November. It raised four eight-week loan growth limits by half a percentage point each and introduced lira remuneration on required reserves maintained against specified long-maturity liabilities. The bank presents both decisions as supporting macrofinancial stability and the transmission of monetary policy. The announcement changes constraints facing lenders on both sides of their balance sheets. It reports no change to the policy rate and offers no estimate of how much additional lending or funding the measures will produce.",
+    "On the asset side, the ceiling for general-purpose consumer loans rose from 3% to 3.5% over eight weeks. The same change applied to consumer vehicle loans. For Turkish lira loans to small and medium-sized enterprises, the limit rose from 5% to 5.5%. The comparable limit for lira lending to other enterprises rose from 2% to 2.5%. These are permitted growth rates for specified categories over the table’s eight-week window. They describe neither the level of loan interest rates nor the lending growth already achieved. The report does not supply the outstanding stock of each category, so a common half-point change cannot be translated into a common amount of new credit (growth limits table).",
+    "The changes also preserve the existing ranking of the enterprise limits. SMEs retain the higher ceiling and the gap between the two enterprise rates remains three percentage points. Interpreting the changes in portfolio terms requires knowing which limits constrained banks before the announcement. A lender already close to a ceiling could have more room to meet existing demand. A lender well below its ceiling might see little immediate change. This distinction is an inference from how a ceiling works. The bank supplies neither utilisation figures nor an account of which type of borrower had been rationed.",
+    "On the funding side, eligibility for remuneration depends on the liability’s type and maturity. The change covers reserves that banks and financing companies maintain against non-deposit liabilities denominated in lira or foreign currency with maturities longer than one year. The remuneration is paid in Turkish lira. A foreign-currency liability can therefore be in scope even though the payment is in lira. The release specifies neither the remuneration rate nor the relevant institutions’ funding amounts, currency exposures or hedges (reserve requirement paragraph).",
+    "One possible transmission channel is the relative cost of longer-term funding. Interest on associated required reserves could alter that cost relative to alternatives, depending on the rate paid and the institution’s ability to raise funds at the relevant maturity. That is a research hypothesis. The announcement does not establish that banks extended the maturity of their liabilities, that customers borrowed more, or that any particular funding spread moved. The distinction between a change in regulatory capacity and an observed balance-sheet response is the central point for interpreting both measures."
+  ],
+  "questions": [
+    {
+      "question": "Which of the four loan limits was actually binding?",
+      "detail": "The release specifies the ceilings and their eight-week horizon. It does not report utilisation before the change, so the loan category with the largest stock need not see the largest response. That affects sectoral credit and bank-earnings assumptions. Useful next evidence would be supervisory data on outstanding eligible loans and bank-level growth relative to the old caps, aligned to the same measurement window."
+    },
+    {
+      "question": "How valuable is reserve remuneration relative to the extra cost of term funding?",
+      "detail": "Eligibility is defined, but the remuneration rate, funding volumes and marginal price of longer maturities are absent. These inputs determine whether issuing or rolling an eligible liability becomes attractive. Consult the central bank’s implementing instructions for the rate and applicable reserve ratios, then compare the result with bank disclosures on currency, maturity and funding costs."
+    },
+    {
+      "question": "Will lenders expand total credit or change its composition?",
+      "detail": "The higher caps leave room for either response, and the announcement contains no demand estimates. The distinction matters for aggregate financial conditions and for exposures to SME or consumer borrowers. To test it, compare subsequent new lending and repayments across the affected categories with overall loan growth, and consult credit-condition surveys for borrower demand. Outstanding balances alone would leave refinancing and changes in repayments difficult to distinguish."
+    }
+  ],
+  "limitation": ""
+}

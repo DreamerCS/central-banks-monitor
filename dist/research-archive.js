@@ -40,18 +40,21 @@ function mergeEditions(publications) {
     const note = noteFor(row.url);
     const key = note?.url || sourceKey(row.url);
     const previous = seen.get(key);
+    const jurisdictions = [...new Set([row.jurisdiction, ...(note?.publication?.jurisdictions || []),
+      ...(previous?.jurisdictions || [])])];
+    const institutions = [...new Set([...(previous?.institutions || []), row.institution])];
     if (!previous) {
-      seen.set(key, row);
+      seen.set(key, {...row, jurisdictions, institutions});
       continue;
     }
     const canonical = row.url === note?.url ? row : previous;
     const other = canonical === row ? previous : row;
     const links = new Map();
     for (const link of [...(canonical.related || []), ...(other.related || []),
-      {label: "Publication notice", url: other.url}]) {
+      {label: other.institution === canonical.institution ? "Publication notice" : other.institution + " edition", url: other.url}]) {
       if (sourceKey(link.url) !== sourceKey(canonical.url)) links.set(sourceKey(link.url),link);
     }
-    seen.set(key, {...canonical, related:[...links.values()]});
+    seen.set(key, {...canonical, jurisdictions, institutions, related:[...links.values()]});
   }
   return [...seen.values()];
 }
@@ -78,25 +81,30 @@ function card(record) {
   const meta = element("div", "", "record-meta");
   const timestamp = element("time", record.date);
   timestamp.dateTime = record.date;
-  const issuer = element("p", record.institution, "record-issuer");
-  const links = element("p", "", "official-link");
   const direct = noteFor(record.url);
+  const byline = direct?.bank || record.institutions.join(" · ");
+  const issuer = element("p", byline, "record-issuer");
+  const links = element("p", "", "official-link");
+  const linked = new Set([direct]);
   if (direct) links.append(analysisLink(direct, "Read analysis"));
   links.append(sourceLink("Source document", record.url));
   for (const related of record.related || []) {
     const relatedNote = noteFor(related.url);
-    if (relatedNote && relatedNote !== direct) {
+    if (relatedNote && !linked.has(relatedNote)) {
+      linked.add(relatedNote);
       links.append(analysisLink(relatedNote, related.label + " analysis"));
     }
     links.append(sourceLink(related.label, related.url));
   }
   meta.append(timestamp, element("span", record.type));
-  if (viewFilter.value === "time") meta.append(element("span", record.jurisdiction));
+  if (viewFilter.value === "time") meta.append(element("span", record.jurisdictions.join(" · ")));
   const heading = element("h4");
   if (direct) {
     heading.append(analysisLink(direct, record.title, "record-title-link"));
   } else {
-    heading.textContent = record.title;
+    const original = sourceLink(record.title, record.url);
+    original.className = "record-title-link";
+    heading.append(original);
   }
   row.append(meta, heading, issuer);
   if (direct?.excerpt) row.append(element("p", direct.excerpt, "record-excerpt"));
@@ -106,7 +114,8 @@ function card(record) {
 
 function renderByRegion(records) {
   const wrapper = element("div", "", "archive-region-view");
-  const locations = targets.filter(({name}) => records.some(record => record.jurisdiction === name));
+  const locations = targets.filter(({name}) => (!bankFilter.value || bankFilter.value === name)
+    && records.some(record => record.jurisdictions.includes(name)));
   for (const region of regions) {
     const banks = locations.filter(bank => bank.region === region);
     if (!banks.length) continue;
@@ -114,7 +123,7 @@ function renderByRegion(records) {
     block.append(element("h3", region, "archive-region-title"));
     const jump = element("ul", "", "bank-jump");
     for (const bank of banks) {
-      const entries = records.filter(record => record.jurisdiction === bank.name);
+      const entries = records.filter(record => record.jurisdictions.includes(bank.name));
       const anchor = `${month.id}-bank-${bank.index}`;
       const link = element("a", bank.name);
       link.href = "#" + anchor;
@@ -187,7 +196,10 @@ async function readAnalysis(header) {
   try {
     const note = await PublicationReader.load(header);
     if (revision !== readRevision || !dialog.open) return;
-    PublicationReader.render(article, note, location.href);
+    const permalink = new URL("research-archive.html", location.href);
+    permalink.searchParams.set("month", header.date.slice(0, 7));
+    permalink.searchParams.set("analysis", header.file.slice(0, -5));
+    PublicationReader.render(article, note, permalink.href);
     article.hidden = false;
     status.hidden = true;
   } catch {
@@ -232,18 +244,23 @@ select("close-analysis").addEventListener("click", closeReader);
 
 function render() {
   const query = queryFilter.value.trim().toLocaleLowerCase();
-  const filtered = records.filter(record => {
+  const selected = records.filter(record => {
     if (month.start > record.date || month.end < record.date ||
-      (bankFilter.value && bankFilter.value !== record.jurisdiction) ||
+      (bankFilter.value && !record.jurisdictions.includes(bankFilter.value)) ||
       (typeFilter.value && typeFilter.value !== record.type)) return false;
     const matches = matchingNotes(record);
-    if (scope === "analysis" && !noteFor(record.url)) return false;
-    return !query || [record.title, record.institution, record.date, record.type,
+    return !query || [record.title, ...record.institutions, ...record.jurisdictions, record.date, record.type,
       ...(record.related || []).map(link => link.label),
-      ...matches.flatMap(note => [note.title, note.publication?.title || "", note.excerpt || ""])]
+      ...matches.flatMap(note => [note.title, note.bank, note.publication?.title || "", note.excerpt || ""])]
       .some(text => text.toLocaleLowerCase().includes(query));
   });
-  const jurisdictions = new Set(filtered.map(record => record.jurisdiction)).size;
+  // A note on an attachment does not provide analysis of the parent publication.
+  const analysed = selected.filter(record => noteFor(record.url));
+  const filtered = scope === "analysis" ? analysed : selected;
+  select("all-count").textContent = selected.length;
+  select("analysis-count").textContent = analysed.length;
+  const jurisdictions = bankFilter.value ? Number(filtered.length > 0)
+    : new Set(filtered.flatMap(record => record.jurisdictions)).size;
   result.textContent = filtered.length ? filtered.length + (filtered.length === 1 ? " publication" : " publications") +
     " · " + jurisdictions + (jurisdictions === 1 ? " jurisdiction" : " jurisdictions") : "No matching publications";
   const title = element("div", "", "month-title");
@@ -333,6 +350,13 @@ async function start() {
     periodsByYear.set(key,{id:key,label,start:key+"-01",end});
   }
   periods = [...periodsByYear.values()].sort((a,b) => a.start.localeCompare(b.start));
+  const latest = periodsByYear.get(records[0]?.date.slice(0, 7));
+  if (latest) {
+    const jump = select("latest-publications");
+    jump.href = "research-archive.html?" + new URLSearchParams({month: latest.id, scope: "all"});
+    jump.textContent = latest.label + " " + latest.start.slice(0,4) + " publications";
+    jump.hidden = false;
+  }
   const years = [...new Set(periods.map(p => p.start.slice(0,4)))].sort().reverse();
   const annual = years.map(year => ({id:year === "2026" ? "year" : year, label:year, start:year+"-01-01",end:year+"-12-31",annual:true}));
   const all = {id:"all",label:"All years",start:"0000",end:"9999",annual:true};
@@ -344,7 +368,8 @@ async function start() {
   const id = params.get("month") || hash.split("-bank-")[0];
   scope = params.get("scope") === "all" || (!params.has("scope") && (id || params.has("bank") || params.has("q"))) || !notes ? "all" : "analysis";
   const requested = notesById.get(params.get("analysis"));
-  const initial = ranges.find(period => period.id === id) || all;
+  const initial = ranges.find(period => period.id === id) || periodsByYear.get(id) ||
+    (requested && periodsByYear.get(requested.date.slice(0, 7))) || all;
   bankFilter.value = targets.some(x => x.name === params.get("bank")) ? params.get("bank") : "";
   typeFilter.value = [...typeFilter.options].some(o => o.value === params.get("type")) ? params.get("type") : "";
   queryFilter.value = params.get("q") || "";

@@ -1,0 +1,28 @@
+{
+  "title": "Hungary held rates as low domestic inflation met external and budget risks",
+  "bank": "Magyar Nemzeti Bank",
+  "date": "2026-11-04",
+  "url": "https://www.mnb.hu/letoltes/en-roviditett-jegyzokonyv-a-monetaris-tanacs-2026-oktober-20-i-uleserol.pdf",
+  "summary": [
+    "The Magyar Nemzeti Bank’s Monetary Council considered one proposal at its 20 October meeting. All ten members present voted to retain the 5.50% base rate, the 4.50% overnight deposit rate and the 6.50% overnight collateralised lending rate. The minutes, released on 4 November, explain why an unusually low domestic inflation reading did not lead the Council to debate an immediate reduction. Members wanted more evidence on both the international interest rate environment and the inflationary implications of Hungary’s announced budget plans. The vote concerns the October meeting (pp. 2–4).",
+    "Hungarian inflation was 1.6% in September, below the central bank’s tolerance band and the EU average. Members also described inflation expectations as moderate. Chart 6 compares September inflation across countries with their August readings. The measures of underlying domestic inflation in Chart 8 qualify the headline comparison. All three were below their earlier peaks, but sticky-price inflation and core inflation excluding processed food ended the series above core inflation adjusted for indirect taxes. The aggregate reading could therefore give the Council confidence about recent disinflation while leaving open how quickly individual prices would adjust to the next shock (pp. 5–6).",
+    "Energy was central to that question. Members saw Hungary’s significant energy exposure as a reason that persistently high global prices could matter even while inflation at home remained low. Chart 16 indexes Brent crude oil and European TTF gas to the start of 2024. Gas had risen much more steeply over the latest part of the chart. The chart compares price changes from a common starting point. It does not show the cost of Hungary’s actual import basket or establish the fraction passed on to households. Rising international food prices provided a further potential source of pressure (pp. 2, 7).",
+    "Financial conditions provided a second reason for caution. Long-term developed-market yields had risen further from historically high levels, with French sovereign markets under tension. Chart 17 shows market pricing for additional US and euro area monetary tightening following the September decisions. Those paths describe investors’ expectations. Members separately identified US corporate reports and the forthcoming midterm elections as possible influences on sentiment. Within Hungary, risk premia remained relatively stable and the exchange rate continued to restrain inflation. Some members observed that the domestic real interest rate exceeded regional peers’ rates and emphasised the importance of a stable foreign exchange market for price stability (pp. 2–3, 7–8).",
+    "The budget affected the calculation in two ways. Its measures could change the domestic inflation outlook, while investors’ reception of the fiscal path could affect borrowing costs and the forint. At the meeting the Council lacked enough evidence to evaluate either effect comprehensively. Members also identified expectations about euro adoption and international conditions as influences on Hungary’s perceived risk. A move in the currency alone would therefore reveal little about which influence had changed. The Council judged that keeping rates steady was consistent with achieving the inflation target sustainably and reserved future decisions for incoming evidence. The minutes also record the move to a 2.5% inflation target from 1 January 2028, a separate institutional change with a specified future start date (pp. 2–3)."
+  ],
+  "questions": [
+    {
+      "question": "Could the budget alter the inflation outlook through both spending and the forint?",
+      "detail": "The Council could assess neither the macroeconomic effects of the announced plans nor their reception in markets at the October meeting. Compare the implementation dates of specific fiscal measures with subsequent inflation forecasts, government yields and EUR/HUF. A change in yields alongside developed-market yields would carry a different interpretation from a Hungary-specific adjustment coinciding with budget news."
+    },
+    {
+      "question": "Which domestic prices would provide the earliest evidence of renewed energy pass-through?",
+      "detail": "Chart 16 shows a particularly large rise in gas relative to the start of 2024, while the September headline inflation rate remained below the tolerance band. Compare subsequent fuel, household energy, food and sticky-price measures with the exchange rate and the imported energy bill. The sequence matters for distinguishing direct import costs from a broader change in domestic price setting."
+    },
+    {
+      "question": "How dependent was domestic disinflation on the prevailing exchange rate?",
+      "detail": "Members explicitly credited the exchange rate with restraining inflation and reported relatively stable domestic risk premia. Compare forint-sensitive prices across periods of appreciation and stability, together with forward rates and implied volatility in Chart 19. If imported disinflation fades as the currency stops appreciating, relative stability in financial markets could coincide with an increase in inflation pressure."
+    }
+  ],
+  "limitation": ""
+}

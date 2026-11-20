@@ -1,0 +1,26 @@
+{
+  "title": "Singapore offers allocated gold custody and sets out a timetable for wholesale market infrastructure",
+  "bank": "Monetary Authority of Singapore",
+  "date": "2026-11-10",
+  "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-central-bank-gold-vaulting-services-enhanced-tax-framework-for-wholesale-gold-activities",
+  "summary": [
+    "The Monetary Authority of Singapore has opened an allocated gold custody service for foreign central banks, international financial institutions and sovereign entities. It will also offer accounts to selected Singapore-based bullion banks that provide those institutions with services and trading liquidity. The distinction between the vault and the market is important. National vault capacity of up to 500 tonnes describes the space available, with possible expansion. It gives no measure of gold deposited, transactions completed or additional reserve purchases (paragraphs 2–3).",
+    "The announced tax change applies to part of the institutional supply chain. Imports and local supplies of qualifying investment precious metals already benefited from a GST exemption, and certain transactions among approved refiners and consolidators already received relief. MAS and the Ministry of Finance planned to extend a waiver to specified wholesale services, including eligible vaulting, refining or recasting, assaying and broking. Further details were due at Budget 2027, with the framework expected to take effect in April. A participant assessing the potential saving would have to identify both qualifying services and eligible counterparties (paragraphs 4–5 and footnotes).",
+    "Custody was available at the announcement, while the trading infrastructure remained at different stages of development. Testing for over-the-counter clearing had been completed, the rulebook was still to be finalised, and the exchange and six founding banks expected operations in the first quarter of 2027. A separate physically deliverable kilobar futures contract was targeted for the second quarter. MAS expected liquidity to build over time. Its argument concerns where gold can be held, delivered and traded during Asian hours. The release contains neither a forecast for the gold price nor results showing that tighter spreads or lower hedging costs have already followed (paragraphs 6–7)."
+  ],
+  "questions": [
+    {
+      "question": "How much of the vault’s capacity will translate into immediately tradable inventory?",
+      "detail": "Allocated custody gives reserve managers a new location for their metal, while the announcement reports no deposits, turnover or availability for trading. Those distinctions matter when assessing potential market depth. Seek custody utilisation, settlement volumes and participation data from MAS or the clearing banks, with separate measures for metal held in custody and metal made available for transactions."
+    },
+    {
+      "question": "Which costs actually fall for a wholesale participant after the proposed tax change?",
+      "detail": "The new relief covers specified services between eligible institutions and follows earlier relief on qualifying metal. The effect on a trade depends on the services it uses and how much any tax benefit is passed through. Consult the announced 2027 budget details, implementing guidance and comparable dealer fee schedules before estimating a change in delivered or hedged cost."
+    },
+    {
+      "question": "Can the cash market and deliverable futures support the same hedge?",
+      "detail": "OTC clearing and kilobar futures have different prospective launch dates. A local holder needs to know the delivery terms, contract size, settlement dates and market depth to judge any mismatch. The SGX rulebook and eventual contract specifications, together with actual two-way quotations during Asian hours, would help establish whether a quoted hedge can be executed for the desired size."
+    }
+  ],
+  "limitation": ""
+}

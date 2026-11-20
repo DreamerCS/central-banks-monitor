@@ -1,0 +1,28 @@
+{
+  "title": "The CNB changes how it earns credit exposure in its international reserves",
+  "bank": "Czech National Bank",
+  "date": "2026-11-09",
+  "url": "https://www.cnb.cz/en/cnb-news/press-releases/CNB-adds-corporate-bonds-to-its-reserve-portfolio-and-changes-its-MBS-management-approach/",
+  "summary": [
+    "The Czech National Bank retained the ability to invest in US mortgage-backed securities after disappointing results under external management. It also introduced investment-grade corporate bonds into its foreign reserves. Both positions can now be obtained through exchange-traded funds and derivatives linked to bond indices. The 9 November release discloses an implementation decision already substantially in effect: the Board approved the changes on 23 April, and most took place in the third quarter of 2026. The announcement date alone would therefore be a poor proxy for the date on which purchases reached the market.",
+    "The external MBS mandates had operated since the end of 2019 and represented less than 10% of the US dollar bond portfolio. The managers underperformed the benchmark, and the returns after fees disappointed the bank. There was also a distinct market effect. The sharp increase in interest rates during 2022 and 2023 hurt MBS, which the CNB says lose more value than conventional bonds in such an environment. Performance relative to a benchmark, the cost of an external mandate and losses on the underlying asset class measure different things. The release gives reasons to change the first two without assuming that internal management removes the third.",
+    "The CNB still saw scope for MBS to earn more than US Treasuries over a long horizon, citing a historical return advantage of 30–75 basis points. An internal team can vary exposure as conditions change while reducing costs. The equity portfolio had already moved in-house in 2023, making MBS the last externally managed portfolio. The release gives no target weight for MBS and no estimate of the fee saving. The bank is retaining the option to take the exposure when compensation looks worthwhile.",
+    "Corporate bonds broaden the same choice. The CNB cites 1994–2024 data in which average annual corporate bond returns exceeded US Treasury returns by 75–135 basis points. It also cites favourable historical risk-adjusted performance and describes investment-grade corporate exposure as a common practice among central banks. The historical return figures are comparisons over a sample. They do not specify an entry spread, the return available on the announcement date, or the extra return the CNB expects to realise after implementation costs. The proposed portfolio construction uses broad indices, limiting the impact of an individual default on the whole position.",
+    "The binding size information is a combined ceiling. Corporate bonds and MBS together may account for up to 10% of the relevant portfolio, and the CNB gives no allocation target for corporate bonds. Reading that ceiling as planned purchases would overstate the decision. The release places it within a wider diversification strategy in which gold holdings are moving towards 100 tonnes and equities towards a 30% share of reserves. The reported 10.3% return for the entire reserves portfolio in 2025 predates the new corporate bond allocation. It cannot establish the profitability of that change. The bank directs readers to quarterly reserve reports for the evolution of actual holdings. The separately published asset-class analysis provides the investment background to the Board’s decision."
+  ],
+  "questions": [
+    {
+      "question": "How much of the earlier MBS shortfall could internal management plausibly recover?",
+      "detail": "The release identifies the broad market drawdown, benchmark underperformance and disappointing returns after fees, but gives no attribution across them. For an investor assessing the change, avoiding a management fee has different implications from changing the amount of mortgage risk held through a rate cycle. Start with the MBS programme evaluation in the accompanying asset-class analysis and compare mandate, benchmark and after-fee returns over matched intervals."
+    },
+    {
+      "question": "How large is the allocation in practice?",
+      "detail": "A combined 10% limit establishes maximum exposure, while the macro consequences of the change depend on the size, timing and currency of actual positions. Examine the quarterly reserves report cited in the release, distinguishing exposure acquired through funds from exposure acquired through derivatives. Compare implementation dates with the April approval, the third-quarter transition and the November disclosure before relating holdings to any market developments."
+    },
+    {
+      "question": "What compensation remains after the costs of using indices?",
+      "detail": "Historical excess returns and diversification across issuers support the CNB’s case, but they leave open the returns available at a specific entry price. A comparison of eligible index yields and durations, fund fees, tracking differences and derivative financing terms would help distinguish credit compensation from the cost of obtaining it. The relevant evidence would come from index documentation, fund disclosures and the bank’s published performance reports."
+    }
+  ],
+  "limitation": "This note covers the 9 November decision release. Its references to historic performance use the definitions and precision given in that release. The separately published 60-page investment study and quarterly reserves report are distinct publications."
+}

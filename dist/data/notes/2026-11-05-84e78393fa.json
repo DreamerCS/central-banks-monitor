@@ -1,0 +1,28 @@
+{
+  "title": "How the franc changes monetary transmission in Switzerland",
+  "bank": "Swiss National Bank",
+  "date": "2026-11-05",
+  "url": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261105_msl",
+  "summary": [
+    "A rise in Swiss interest rates can reduce inflation before weaker domestic spending reaches retailers. It can strengthen the franc and lower the franc price of imports, which account for a quarter of the consumer basket. It can also change exports, imports and aggregate demand, influencing inflation a second way. In Zurich on 5 November, Swiss National Bank Chairman Martin Schlegel explained how the same exchange rate channel that transmits a rate decision also carries shocks from abroad. The SNB uses the policy rate as its main instrument and can supplement it with foreign exchange operations (pp. 2–5, slide 6).",
+    "Investors’ willingness to accept lower yields for safety helps explain why long Swiss rates have historically been low. When other countries cut rates, holding francs involves giving up less interest income. A simultaneous flight to safety can therefore intensify appreciation. Slide 4 tracks the franc around five episodes of global uncertainty. After the April 2025 US tariff announcement it gained more than 4% within five trading days. The paths differ across events. Slide 5 instead uses large increases in the VIX to compare currencies. The franc, yen and US dollar tended to appreciate, while the Norwegian and Swedish currencies tended to weaken. Trade openness alone cannot explain these differences (pp. 2–3).",
+    "Schlegel distinguished an immediate market reaction from the eventual effect on output and prices. Following the larger-than-expected 50 basis point hike announced at 9.30 a.m. in June 2022, Swiss medium- and long-term rates rose, equities fell and the franc strengthened against the euro and dollar. Slide 8 extends the analysis across announcements. Its left panel scales a surprise to a ten basis point rise in the two-year overnight indexed swap rate and reports positive responses in the ten-year rate and nominal effective franc. Its right panel uses a different experiment. After a temporary one percentage point policy rate increase, the mean of internal models puts real output around 0.8% lower and annual inflation around 0.35 percentage points lower after one year. The vertical bars on the right show variation across models, while those on the left are statistical confidence intervals (p. 5 and slide 8).",
+    "The historical examples show why foreign exchange operations can work in either direction. As global rates fell and investors sought safety during and after the financial crisis, the nominal effective franc rose more than 40% between summer 2007 and summer 2011. The SNB bought foreign currency and introduced a minimum euro exchange rate in September 2011. After the pandemic, rising foreign prices called for the opposite response. The Bank first reduced purchases and allowed appreciation, then raised its policy rate from June 2022 and began selling foreign currency in the second half of the year. By the end of 2023 its sales totalled CHF 161 billion, close to 20% of GDP. The policy rate had reached 1.75% in June 2023 after tightening by 2.5 percentage points over a year (pp. 6–7, slides 9–10).",
+    "The common objective was to keep inflation between 0% and 2% over the medium term. The historical record on slide 11 includes periods above and below that range. Schlegel’s account allows temporary deviations and gives the exchange rate a role through its consequences for domestic prices and activity. He specified no current franc level that would trigger intervention."
+  ],
+  "questions": [
+    {
+      "question": "How much can an announcement-window franc move explain about subsequent inflation?",
+      "detail": "Slide 8 estimates the immediate response to a surprise scaled using the two-year swap rate, then uses a larger temporary policy rate change in separate models for the one-year effects. To connect them, compare the persistence of the franc response, import prices and the quantities of traded goods. The different shock sizes and time horizons rule out reading an inflation sensitivity directly from the two plotted bars."
+    },
+    {
+      "question": "Does a smaller foreign interest premium consistently amplify the franc’s safe-haven response?",
+      "detail": "Schlegel argues that the opportunity cost of holding francs falls when interest differentials compress. Compare high- and low-differential periods around similar volatility shocks. Slide 4’s event paths illustrate why the starting yield gap, trade exposure and the specific news that caused the shock need to be identified before attributing a stronger franc to demand for safety."
+    },
+    {
+      "question": "Did foreign-currency sales and rate rises restrain different components of inflation?",
+      "detail": "Both instruments tightened Swiss monetary conditions in 2022–23. Compare imported and domestically produced prices, adjusting the timeline for the earlier slowdown in purchases, the beginning of rate increases and the start of sales. Changes in foreign energy prices can also shift imported inflation. The chronology provides evidence about sequence, while the combined policy response limits what any one episode can establish about the contribution of each instrument."
+    }
+  ],
+  "limitation": ""
+}

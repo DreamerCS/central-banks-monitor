@@ -129,7 +129,9 @@ const PublicationReader = (() => {
       <div class="note-byline"><span id="note-bank"></span><time id="note-date"></time></div>
       <h2 id="note-title"></h2>
       <a id="note-source" class="note-source" target="_blank" rel="noopener noreferrer">Source document</a>
-      <div id="note-summary"></div>
+      <section class="note-summary" aria-labelledby="note-summary-title">
+        <h3 id="note-summary-title">Summary</h3><div id="note-summary"></div>
+      </section>
       <section class="note-questions"><h3>Questions for further research</h3><ol id="note-questions"></ol></section>
       <p class="note-limitation" id="note-limitation" hidden></p>
       <aside id="note-market" class="note-market" aria-labelledby="note-market-title" hidden>

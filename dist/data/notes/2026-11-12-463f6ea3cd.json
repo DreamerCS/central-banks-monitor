@@ -1,0 +1,28 @@
+{
+  "title": "The assumptions behind Türkiye’s November inflation forecast, chart by chart",
+  "bank": "Central Bank of the Republic of Türkiye",
+  "date": "2026-11-12",
+  "url": "https://www.tcmb.gov.tr/wps/wcm/connect/d2c83421-95b0-455a-8a20-4fbcd617ff29/RemarksG12_11_2026.pdf?MOD=AJPERES",
+  "summary": [
+    "The November briefing slides locate the change in Türkiye’s inflation outlook in energy, other import prices and food. Slide 47 leaves the export-weighted global growth index unchanged against the previous report at 1.6% for 2026 and 2.5% for 2027. By contrast, the assumed annual-average oil price for 2027 rises from USD 76.4 to USD 86.7, and assumed year-end food inflation rises from 19% to 24%. These are inputs with different units and measurement periods. Neither change translates one-for-one into the forecast for annual consumer price inflation. Slide 48 puts that forecast at 29.5% at end-2026, 21% at end-2027 and 13.5% at end-2028.",
+    "The energy chart illustrates how the shock reached different parts of the domestic basket. Slide 26 places annual percentage changes on the left and a set of price indices on the right. October energy inflation on the left was 51.4% year on year. On the right, setting February to 100 puts October energy at 143, transport services at 128, overall services at 122, the underlying measure at 117 and core goods at 111. The latter figures give cumulative changes since the common starting month. They show exposure to the same period of rising costs varied across categories, but do not estimate a pass-through coefficient. A change in demand over those months could also affect the different price paths.",
+    "Demand appears soft across several charts. Final domestic demand grew 2.2% year on year in the second quarter, against 2.3% for GDP. Retail sales excluding gold continued to grow more slowly, and recent real card spending was weak. Slide 18 summarises a range of estimated output gaps. The dark line is the average across methods and the shaded area spans their lowest and highest estimates. Neither the data point for the third quarter nor the band is a direct measurement of spare capacity. The band also has a different interpretation from the uncertainty around the inflation forecast on slide 48.",
+    "Funding costs and market prices moved unevenly. Slide 38 traces the bank’s weighted average funding cost from 40% on 7 August through 37% on 16 October to 36% on 6 November, alongside separate changes in deposit and loan rates. Slide 43 compares yield curves across report vintages. The short end fell further while the longer end edged higher. Those comparisons cover the interval between two reports. They do not identify an announcement-window response. Likewise, slide 9 compares market pricing for future US and euro-area policy meetings across vintages. Those lines describe prices available at the time and are distinct from the Turkish central bank’s domestic inflation forecast.",
+    "The distribution of risks matters for the path from the near-term forecast to the longer-term targets. The risk table on slide 49 allows oil prices on either side of the baseline and fresh food supply to surprise in either direction. It also flags risks from repeated supply shocks and a stronger demand contraction as earlier monetary tightening works through. On slide 48 the output gap uses the right-hand axis. Near-term interim targets and the inflation forecast are labelled separately. These features matter to a portfolio reader trying to distinguish a forecast revision from a policy commitment or an observed price change."
+  ],
+  "questions": [
+    {
+      "question": "How much of the revised inflation forecast can be attributed to oil, food and other imports separately?",
+      "detail": "The revision table identifies changed assumptions and their units, but the CPI effect depends on pass-through, interactions and policy. This uncertainty affects the durability of the change in long-term inflation exposure. The appropriate follow-up is the forecasting discussion and sensitivity analysis in the contemporaneous inflation report. Look for effects on the forecast conditional on other inputs as well as the total revision."
+    },
+    {
+      "question": "Does the evidence on demand depend on one method of estimating the output gap?",
+      "detail": "The range on slide 18 and the activity data on slides 13–17 support a softer-demand interpretation but leave room for different estimates of slack. The answer matters for how much scope the bank has to absorb a further supply shock. Compare the constituent output-gap methods, real-time historical revisions and timely activity indicators. A cross-method range is different from a statistical forecast interval."
+    },
+    {
+      "question": "What explains the divergence between short and long bond yields?",
+      "detail": "Slide 43 records their movement across report vintages. It does not decompose the long end into expected policy rates, inflation compensation and risk premia. That distinction matters for choosing duration or a curve exposure. Use contemporaneous yield observations, inflation-expectation releases and pricing around individual decisions as follow-up evidence. A chart sampled across reports cannot by itself isolate a policy surprise."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Colombian staff raise inflation forecasts as earthquake damage reduces productive capacity",
+  "bank": "Banco de la República",
+  "date": "2026-11-04",
+  "url": "https://banrep.gov.co/es/publicaciones-investigaciones/informe-politica-monetaria/octubre-2026",
+  "summary": [
+    "Banco de la República’s October Monetary Policy Report, released on 4 November, raises the staff inflation forecast even as it cuts the outlook for output. The central forecast puts year-end inflation at 7.1% in 2026 and 4.8% in 2027, up from 6.9% and 4.3% in July. Staff see inflation approaching the 3% target in 2028. They cut projected real GDP growth from 2.5% to 2.0% in 2026 and from 1.9% to 1.7% in 2027. Part of the August earthquake’s damage fell on the economy’s ability to produce, which helps explain how weaker growth can coexist with continuing excess demand. The forecasts are the technical staff’s. The Board raised the policy rate by 25 basis points in September and held it at 12.25% in October (sections 1.1–1.2, charts 1.1–1.4).",
+    "Annual headline inflation reached 6.3% in September, up from 6.1% in June, while the measure excluding food and regulated prices held around 6.0%. Regulated prices and, to a lesser extent, market services drove the quarterly rise in headline inflation. A separate comparison asks what surprised staff relative to July. Adverse weather raised perishable food prices more than expected. The peso strengthened more than projected and helped contain prices of goods, while services including meals away from home also surprised to the downside. These comparisons explain different parts of the forecast revision and should be distinguished when interpreting the latest inflation print (section 1.1 and chapter 3).",
+    "The revised path gives El Niño a larger role in food, gas and electricity costs. Staff also allow for possible utility adjustments and the effects of indexation on urban transport, education and parking charges. A higher inflation reading at the end of 2026 can influence price resets in 2027. Staff put end-2027 inflation excluding food and regulated items at 4.6%, compared with 4.2% in July. They expect fading weather effects, slower demand and exchange-rate pressures that lower prices to support disinflation over time. The balance of risks remains material. The report assigns a 22% probability to headline inflation falling below 4% in the fourth quarter of 2027, compared with 33% for the core measure (charts 1.1–1.2, chapter 2 risk assessment and annex 2).",
+    "Annual real GDP grew 3.4% in the second quarter, supported by household and public spending and investment in machinery and equipment. The August earthquake then interrupted activity and damaged productive capital. Box 1 compares three methods for estimating the immediate effect, including tracing sectors’ input purchases and examining components of demand. Across the exercises, the estimated drag on third-quarter annual GDP growth ranges from 0.10 to 0.83 percentage points relative to the July forecast of 2.2% under a scenario without the earthquake. This is an estimated loss against a counterfactual, distinct from the change in the level of GDP over the quarter.",
+    "Reconstruction raises spending as well as restoring productive capacity. The two need not recover together. Staff see the output gap closing around mid-2027, and their estimate of potential growth is lower than in July through late 2027. For a reader assessing Colombian rates, the policy question turns on whether moderation in spending is sufficient to relieve pressure on remaining capacity while indexed prices reset. The report identifies fiscal developments, the exchange rate, the Middle East conflict and the intensity and duration of El Niño as further sources of uncertainty. Its forecast distributions and annex tables give a range of outcomes for that assessment, without committing the Board to a rate path."
+  ],
+  "questions": [
+    {
+      "question": "Will higher end-2026 inflation feed into a broad round of service-price resets in 2027?",
+      "detail": "The revision to next year’s core inflation rests partly on indexation. Measure price changes around scheduled adjustments for education, urban transport and other named items, separately from market services with more flexible prices. Compare both the size and timing of resets with the assumptions in the October projection. That distinction matters for judging how long core inflation might persist after food pressure eases."
+    },
+    {
+      "question": "How quickly is damaged productive capacity returning relative to reconstruction spending?",
+      "detail": "An earlier rebound in spending than in supply could delay closure of the output gap even alongside weaker headline growth. Box 1 offers a range of immediate GDP effects but lacks a direct measure of the pace of rebuilding. Compare production, business reopenings and investment in affected municipalities with unaffected areas, then check whether the resulting national estimates warrant revising the potential-output path."
+    },
+    {
+      "question": "How exposed is the disinflation forecast to the assumed duration of El Niño?",
+      "detail": "Food and regulated energy costs contributed to the upward forecast revision, while normalization later helps bring inflation down. Trace the evolution of rainfall, agricultural supply and energy costs against the original forecast vintage. Estimate the separate contributions of temporary prices and indexed follow-on adjustments. A surprise in one of these components would carry different implications for policy persistence and short-dated inflation exposure."
+    }
+  ],
+  "limitation": ""
+}

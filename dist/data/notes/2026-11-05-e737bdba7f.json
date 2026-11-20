@@ -1,24 +1,24 @@
 {
-  "title": "The Czech November rate decision lifts the repo rate to 4.00%",
+  "title": "The Czech National Bank raised all three rates by 25 basis points",
   "bank": "Czech National Bank",
   "date": "2026-11-05",
   "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1793865600000",
   "summary": [
-    "The CNB raised the two-week repo rate by 25 basis points to 4.00% on November 5. It also increased the discount rate to 3.00% and the Lombard rate to 5.00% by the same amount. The changes moved the corridor upward in parallel, with the repo rate one percentage point from each boundary.",
-    "The new rates took effect on November 6. Distinguish the public decision on November 5 from its application to central-bank operations the next day. A surprise in financial prices depends on what was expected before the 14:30 announcement, while the later press conference provides a separate information event. The initial notice confirms the instrument changes and effective date without supplying the vote or rationale."
+    "The Czech National Bank’s 5 November decision raised the two-week repo rate to 4.00%, the discount rate to 3.00% and the Lombard rate to 5.00%. Each moved up by 25 basis points. The repo rate therefore remained at the midpoint of a two-percentage-point corridor. The terms changed the level at which the three instruments operated while preserving the distance between them.",
+    "All three rates took effect on 6 November. The dated decision notice records the instrument settings and effective date. It links separately to the Board’s press-conference statement, presentation, Q&A and meeting minutes. Investors assessing the surprise on announcement day need the prior expected rate and the timing of the initial release. The notice itself gives neither, and the vote and reasoning belong to the separately identified documents."
   ],
   "questions": [
     {
       "question": "How much of the 25-basis-point increase was unexpected?",
-      "detail": "Compare the expected pre-release repo rate with 4.00%, adjusting derivatives for the effective date and any remaining days before the new rate applies."
+      "detail": "Use timestamped CNB announcement records and pre-release CZK overnight-indexed swap quotes to establish the event window and expected repo setting. An instrument spanning 6 November will contain days at the old and new rates. Account for that split before estimating the surprise."
     },
     {
-      "question": "Did the short end and the koruna respond at the same time?",
-      "detail": "Use synchronized executable quotes after 14:30 but before the later press conference, checking foreign rates and currency moves over the same interval."
+      "question": "Did short rates and the koruna react to the decision or to the subsequent explanation?",
+      "detail": "Compare synchronised executable rates and FX quotes around the confirmed decision timestamp, then around the press-conference statement and Q&A. Common European rate or currency moves in the same interval can distort the attribution. The decision notice on its own establishes no market reaction."
     },
     {
-      "question": "How did overnight implementation compare with the new corridor?",
-      "detail": "Observe the effective market rate on November 6 relative to the 3.00%, 4.00% and 5.00% settings. Keep the operational response distinct from the previous day’s information surprise."
+      "question": "How closely did overnight market rates follow the parallel shift?",
+      "detail": "Compare the official overnight reference rate and trading volumes immediately before and after the 6 November effective date. The corridor kept the same width, so a change in the market rate’s distance from the repo midpoint would warrant checking liquidity conditions and use of standing facilities."
     }
   ],
   "limitation": ""

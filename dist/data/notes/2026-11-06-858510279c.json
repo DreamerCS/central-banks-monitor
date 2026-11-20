@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-06",
+  "bank": "Bank of England",
+  "url": "https://www.bankofengland.co.uk/working-paper/2026/price-efficiency-in-securities-lending",
+  "title": "What does the collateral choice cost an equity borrower?",
+  "summary": [
+    "The same share can command different lending terms depending on whether the borrower posts cash or another security. The Bank of England working paper measures how far apart the lender’s two returns are when both types of loan trade on the same day. Across roughly 1.46 million observations for individual securities and dates, the median absolute difference is 9.54 basis points and the mean is 23.09. That gap contains payment for contractual rights as well as the effects of market segmentation. Knowing its size alone would leave a dealer unable to tell which way to trade or what it would earn.",
+    "The evidence comes from about 16.5 million newly established dollar-denominated equity loans between 1 April 2022 and 31 December 2025. The UK reporting regime captures loans with at least one UK-based counterparty. The sample covers 21,947 securities over 869 trading days. Figure 1 shows daily new loan volume growing from about $25–50 billion in mid-2022 to $50–75 billion by late 2025. Securities posted as collateral account for around two-thirds of volume. The authors separately put the outstanding stock covered by the sample at around $460 billion in December 2025.",
+    "A borrower posting securities pays an explicit fee. A borrower posting cash receives a rebate, and the lender keeps what it earns reinvesting the cash above that rebate. The study uses the Secured Overnight Financing Rate as a proxy for reinvestment. It averages returns within each segment by loan volume before comparing the same share on a given date. Figure 9 shows why timing matters. The benchmark can move faster than rebates in weeks when the Federal Reserve changes rates, briefly lifting the measured cash return. Outside those episodes, the daily median cash return was generally four to five basis points below the daily median fee. Those segment-wide medians and the matched absolute differences answer different questions.",
+    "The right to reuse securities collateral also changes the bargain. A pledge leaves the collateral unavailable for the lender to deploy elsewhere. A transfer can let the dealer reuse it for funding or delivery, which can justify a lower lending fee. Exercising that right can consume balance sheet, however, and the estimated fee discount diminishes as dealers become more constrained. The paper uses dealer book leverage to proxy that constraint. It finds that loans of riskier or less liquid shares generally command higher lender returns, consistent with greater expense or risk in sourcing and holding those shares.",
+    "At the security-day level, larger gaps are associated with less liquid shares, tighter dealer constraints and a greater share of loans permitting reuse. The relationship with share-price risk weakens when the previous day’s gap enters the regression. Where more non-dealer participants are active in both segments, prices tend to be closer. For a securities finance desk deciding whether to switch collateral, that makes access, contractual rights and funding terms central to interpreting a quoted spread. The report identifies the share being lent but cannot see exactly which security was posted against it. It also filters extreme prices that can include genuinely scarce shares, limiting what its estimates say about the costliest loans."
+  ],
+  "questions": [
+    {
+      "question": "How much of the gap could a desk retain at executable prices?",
+      "detail": "The paper’s median absolute difference combines trades within a security-day and imputes the cash reinvestment rate. A desk choosing collateral needs the sign of the spread, its own reinvestment rate and a comparison at the size and time it could transact. Match two firm quotes for the same share, term and size to actual funding and execution costs. Repeat around policy-rate changes to separate rebate-reset delays from longer-lived price differences."
+    },
+    {
+      "question": "When does the right to reuse collateral justify accepting a lower fee?",
+      "detail": "The fee discount depends on dealer leverage, but leverage only approximates the marginal balance-sheet cost and the dataset does not identify the collateral security. A lender deciding which agreement to offer needs to value its particular collateral and the likelihood of using it. Compare matched pledge and title-transfer terms with the desk’s actual reuse records, funding value and balance-sheet charges under both normal and constrained conditions."
+    },
+    {
+      "question": "Would enabling a client to trade in both segments improve its financing terms?",
+      "detail": "The association between shared participation and smaller gaps could also reflect which clients and shares already attract activity in both venues. For a borrower assessing the cost of a second collateral arrangement, compare its own quotes and executed fees around the date it gains access, alongside similar borrowers whose access stays constant. The original trade-level reports and the client’s agreements would help distinguish a change in access from a change in collateral demand."
+    }
+  ],
+  "limitation": "The results cover new USD equity loans with a UK reporting counterparty. Reinvestment returns are proxied, collateral securities are unidentified, and the absolute spread does not measure an executable arbitrage profit."
+}

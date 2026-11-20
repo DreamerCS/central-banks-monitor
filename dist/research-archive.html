@@ -8,10 +8,10 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="edition.css">
-  <link rel="stylesheet" href="research-notes.css?v=06d4053754ac">
-  <link rel="stylesheet" href="research-archive.css?v=06d4053754ac">
-  <script src="publication-reader.js?v=06d4053754ac" defer></script>
-  <script src="research-archive.js?v=06d4053754ac" defer></script>
+  <link rel="stylesheet" href="research-notes.css?v=15783fd10987">
+  <link rel="stylesheet" href="research-archive.css?v=15783fd10987">
+  <script src="publication-reader.js?v=15783fd10987" defer></script>
+  <script src="research-archive.js?v=15783fd10987" defer></script>
 </head>
 <body class="archive-page">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -19,10 +19,11 @@
   <main class="shell archive-shell" id="main">
     <div class="archive-intro">
       <h1>Publication archive</h1>
+      <a id="latest-publications" class="text-link" hidden></a>
     </div>
     <div id="archive-scope" class="archive-scope" role="group" aria-label="Publications to show" hidden>
-      <button type="button" data-scope="analysis" aria-pressed="true">With analysis</button>
-      <button type="button" data-scope="all" aria-pressed="false">All publications</button>
+      <button type="button" data-scope="analysis" aria-pressed="true">With analysis (<span id="analysis-count">0</span>)</button>
+      <button type="button" data-scope="all" aria-pressed="false">All publications (<span id="all-count">0</span>)</button>
     </div>
     <nav id="archive-months" class="archive-months" aria-label="Archive months"></nav>
     <form id="archive-filters" class="archive-filters" aria-label="Filter publications" hidden>

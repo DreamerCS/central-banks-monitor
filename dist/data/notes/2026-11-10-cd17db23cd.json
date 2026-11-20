@@ -1,0 +1,28 @@
+{
+  "title": "Swiss inflation, the franc and the September forecast at a zero policy rate",
+  "bank": "Swiss National Bank",
+  "date": "2026-11-10",
+  "url": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261110_anmar",
+  "summary": [
+    "Antoine Martin’s 10 November presentation in Berne explains how the Swiss National Bank could maintain a zero policy rate while energy costs rose and interest rates abroad were higher. The latest policy decision in the slides dates to September. The Bank’s conditional inflation forecast then put annual average inflation at 0.7% in 2026, 0.8% in 2027 and 0.8% in 2028, assuming an unchanged policy rate of 0%. The September path rises above the June projection in the near term and then moves closer to it. Both projections use the same policy rate assumption. The difference therefore reflects changes in the outlook at a given rate (slides 20 and 32).",
+    "The inflation measure is the annual change in the Swiss consumer price index. The SNB seeks to keep that rate between 0% and 2% over the medium term while taking economic developments into account. Slide 21 shows how closely SARON, the secured Swiss franc overnight rate, has tracked the policy setting. For the years before 13 June 2019, the figure uses the aim within the former three-month Swiss franc Libor target range. This distinction matters when reading the chart as a long series. The contemporary policy-rate comparison on slide 27 adds market expectations for Swiss, US and euro area rates, while the inflation comparison uses consensus forecasts. Those market and consensus series have a different status from the Governing Board’s constant-rate inflation projection.",
+    "Switzerland’s exposure to international prices and trade is considerable. The composition of goods exports on slide 10 makes the United States and several European markets visible separately, while the 2025 sector breakdown on slide 11 puts manufacturing at 19.1% of GDP. Slide 26 tracks oil alongside plastics, fertiliser and aluminium. The series use different units: dollars per barrel for Brent and indices set to 100 on 27 February 2026 for the inputs. Large price changes abroad need not turn into identical changes in Swiss consumer prices. The exchange rate also changes the price paid in francs. Slide 28 links wider two-year interest rate differentials to franc depreciation over part of 2026. The series subsequently diverge, with the bilateral franc recovering some ground as the interest differential remains wide.",
+    "The US trade evidence warrants a similarly careful reading. Slide 29 places the estimated effective US tariff under then-current policy at its highest since the mid-1940s. The final point is an estimate using 2024 weights. Slide 30 shows a recovery in Swiss shipments to the United States after the sharp fall in 2025. Its destination comparison excludes chemicals and pharmaceuticals, uses an index based on 2022–24 averages and is seasonally unadjusted. The adjoining chart reports seasonally adjusted franc values by product category. Chemicals and pharmaceuticals show much larger swings than exports excluding them. A rebound in one of these series cannot establish that all Swiss exporters had recovered equally.",
+    "Against that backdrop, the September projections shown on slide 31 imply moderate Swiss growth in 2026 and 2027. The wider presentation explains why the Swiss policy setting can diverge from the US setting. Martin points to differences in mandates, historical inflation and instruments, including the SNB’s ability to use foreign exchange operations alongside its policy rate. The November slides interpret the existing assessment. They give neither an updated decision nor a new rate path from the Governing Board (slides 18, 22–24 and 31–32)."
+  ],
+  "questions": [
+    {
+      "question": "Which prices account for the larger near-term inflation projection at the same zero policy rate?",
+      "detail": "The June and September conditional paths on slide 32 can be compared without changing the assumed Swiss policy rate. To evaluate the revision, separate imported energy, other imported goods and domestic services in the CPI. Compare their timing with the input-price surge and subsequent changes in the franc. A temporary increase in one category poses a different question from broader persistence."
+    },
+    {
+      "question": "When did the two-year interest rate differential cease to explain the franc’s movement?",
+      "detail": "On slide 28 the differential and the bilateral exchange rate broadly move together through much of the year, then separate towards the end of the sample. Examine changes around Swiss and euro area policy news alongside indicators of safe-haven demand. Use the CHF-per-euro quotation consistently and distinguish bilateral moves from a change in the trade-weighted exchange rate relevant for import costs."
+    },
+    {
+      "question": "How broad was the recovery in shipments to the United States?",
+      "detail": "The destination series on slide 30 excludes chemicals and pharmaceuticals and contains seasonal variation. The product series uses a different adjustment and covers all destinations. Compare like-for-like destination and product data in quantities and francs to establish whether the rebound reached a range of exporters. Comparing export values alone could mix volumes with exchange rate or price effects."
+    }
+  ],
+  "limitation": "The original consists of 33 presentation slides. It reports the September assessment and displays external forecasts as labelled. It provides no transcript or November update to the conditional forecast."
+}

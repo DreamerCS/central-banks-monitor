@@ -1,0 +1,28 @@
+{
+  "title": "Why the Czech inflation forecast rises towards 4% before returning to target",
+  "bank": "Czech National Bank",
+  "date": "2026-11-06",
+  "url": "https://www.cnb.cz/en/about_cnb/cnblog/The-CNB-increased-interest-rates-inflation-will-rise-at-the-start-of-next-year-but-will-then-start-to-decline-thanks-to-tight-monetary-policy/",
+  "summary": [
+    "The November forecast envisaged a pronounced rise in inflation just as Czech monetary policy was becoming more restrictive. Zdeněk Pikhart’s 6 November explainer sets out the timing behind that result. A change in the treatment of an energy charge, higher retail gas and electricity prices, and the expected turn in food prices would affect near-term inflation. Higher interest rates would lean against the subsequent spread of energy costs and the pressure from domestic demand. The Board had just increased its two-week repo rate by 25 basis points to 4% and judged the balance of risks to its inflation objective to be on the upside.",
+    "Annual inflation had been slightly below target in the summer and reached 2.5% in September. The early increase came chiefly from fuel in the context of the Middle East conflict. Falling food prices had cushioned it, but a poor European harvest and dearer production inputs pointed to renewed food price increases. Moving the supported energy sources fee wholly onto the state budget had lowered measured inflation in 2026. As that effect faded, retail energy costs would matter more for the annual comparison. The central path in the inflation chart peaks just below 4% early in 2027. The shaded intervals widen appreciably further out. The line approaches the 2% target in early 2028, with the introduction of ETS2 expected to keep inflation slightly above it that year.",
+    "The accompanying table uses annual figures, which smooth that early peak. It puts headline inflation at 2.1% in 2026, 3.2% in 2027 and 2.3% in 2028. The 2027 figure is 0.7 percentage points above the previous forecast. Strong unit labour cost growth and imputed rent help explain why the concern extends beyond energy. Even within housing costs, prices for new property were rising more slowly while the price of construction work and materials continued to rise unusually quickly.",
+    "The CNB forecast real GDP growth of 1.7% in 2026 and 2.5% in each of the following two years. Those figures describe a recovery from weaker net exports and inventories. Household consumption would benefit from real wage gains and easy fiscal policy. Robust credit supported domestic spending, while German fiscal expansion and a recovery abroad would support private investment. EU funding was also lifting government investment in 2026. As external trade began to contribute modestly to growth, output would gradually rise above potential. The forecast combines this recovery with higher interest rates because the income, fiscal and external impulses continue to support demand.",
+    "The table puts annual average three-month PRIBOR at 4.1% in 2027 and 3.6% in 2028. Those figures describe short market rates consistent with the forecast, whereas the Board’s 4% announcement concerns its two-week instrument. Higher yields further along the curve reinforce the tightening. The forecast keeps the koruna broadly stable as faster domestic cost growth limits appreciation. More persistent service inflation, faster lending, a wider public deficit or renewed wage pressure could require a different policy path. Weakness elsewhere in Europe or a global correction in asset prices could instead dampen inflation. The forecast therefore gives investors both a sequence to monitor and identifiable ways the sequence could break down."
+  ],
+  "questions": [
+    {
+      "question": "How much of the early-2027 increase would persist once the energy-related base effect passed?",
+      "detail": "The explainer identifies the fee transfer, new retail tariffs and higher food costs but gives no numerical decomposition of the peak. For the expected duration of restrictive policy, the contribution from services and labour costs matters more than a predictable change in the annual comparison. Consult the forecast’s detailed inflation tables and official price-component releases, matching tariff reset dates to the relevant months."
+    },
+    {
+      "question": "Would household demand remain strong after lending rates rose?",
+      "detail": "Consumption is supported by real pay and easier fiscal policy even as the stance tightens. What remains uncertain is which households receive that income and how soon borrowers face higher payments. Compare official household credit flows, refinancing dates, retail activity and real wage distributions. A slowdown concentrated among indebted households would have different implications for the consumption forecast from weakness across income groups."
+    },
+    {
+      "question": "How much tightening had longer yields already delivered?",
+      "detail": "The report says the long end reinforced the policy increase. Establishing the size and timing of that effect would help assess exposure to movements in koruna rates beyond the next meeting. Start with Box 1 in the monetary policy report, then compare changes in mortgage and corporate borrowing rates by fixed-rate term, lending volumes, and the maturity distribution of existing debt."
+    }
+  ],
+  "limitation": ""
+}

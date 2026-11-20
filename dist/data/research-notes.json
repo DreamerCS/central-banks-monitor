@@ -1,5 +1,31 @@
 [
   {
+    "title": "Which part of post-pandemic core inflation looked demand-driven in Spain?",
+    "bank": "Banco de España",
+    "date": "2026-11-20",
+    "url": "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/documentos-ocasionales/descomposicion-de-la-inflacion-en-el-area-del-euro-y-espana-entre-perturbaciones-de-oferta-y-de-demanda.html",
+    "excerpt": "Supply disturbances appear to have made the larger average contribution to post-pandemic core inflation in both Spain and the euro area.",
+    "file": "2026-11-20-e4423b0e08.json",
+    "publication": {
+      "title": "Occasional Papers. Descomposición de la inflación en el área del euro y España entre perturbaciones de oferta y de demanda",
+      "type": "Research",
+      "jurisdiction": "Euro area"
+    }
+  },
+  {
+    "title": "When cheaper job adverts change the UK wage-pressure signal",
+    "bank": "Bank of England",
+    "date": "2026-11-20",
+    "url": "https://www.bankofengland.co.uk/working-paper/2026/when-vacancies-become-cheap-vacancy-posting-costs-and-equilibrium-labour-market-tightness",
+    "excerpt": "Michal Stelmach, James Kensett and Philip Schnattinger argue that the same number of vacancies per unemployed worker means something different in an economy where employers can keep adverts open cheaply.",
+    "file": "2026-11-20-38bc0e8002.json",
+    "publication": {
+      "title": "When vacancies become cheap: vacancy posting costs and equilibrium labour market tightness",
+      "type": "Research",
+      "jurisdiction": "United Kingdom"
+    }
+  },
+  {
     "title": "What an Australian rate vote reveals when members’ names stay confidential",
     "bank": "Reserve Bank of Australia",
     "date": "2026-11-20",
@@ -66,6 +92,22 @@
     "file": "2026-11-20-104d1c291c.json"
   },
   {
+    "title": "Ueda explains why inflation near target still leaves room to raise rates",
+    "bank": "Bank of Japan",
+    "date": "2026-11-19",
+    "url": "https://www.boj.or.jp/en/mopo/diet/d_state/data/dst261119a.pdf",
+    "excerpt": "Governor Kazuo Ueda told the Senate on 19 November that the Bank of Japan intended to keep withdrawing monetary accommodation.",
+    "file": "2026-11-19-bdc846beab.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "type": "Testimony",
+      "title": "Statement by UEDA Kazuo, Governor of the Bank of Japan, concerning the Bank’s Semiannual Report on Currency and Monetary Control before the Committee on Financial Affairs, Senate",
+      "aliases": [
+        "https://www.boj.or.jp/en/mopo/diet/d_state/dst261119a.htm"
+      ]
+    }
+  },
+  {
     "title": "South Africa holds by one vote as transport drives 40% of inflation and core prices trend up",
     "bank": "South African Reserve Bank",
     "date": "2026-11-19",
@@ -82,6 +124,19 @@
     }
   },
   {
+    "title": "Jefferson separates the immediate inflation cost of AI investment from its possible productivity gain",
+    "bank": "Board of Governors of the Federal Reserve System",
+    "date": "2026-11-19",
+    "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm",
+    "excerpt": "Federal Reserve Vice Chair Philip Jefferson sees the US investment buildout for artificial intelligence adding to demand and inflation now, while the productivity gains it might bring could ease inflation pressure later.",
+    "file": "2026-11-19-1aaf5e3c7a.json",
+    "publication": {
+      "title": "Jefferson, Monetary Policy amid Frequent and Complex Shocks",
+      "jurisdiction": "United States",
+      "type": "Speech"
+    }
+  },
+  {
     "title": "Four readings of Swedish inflation explain Thedéen’s case to parliament",
     "bank": "Sveriges Riksbank",
     "date": "2026-11-19",
@@ -92,6 +147,19 @@
       "jurisdiction": "Sweden",
       "type": "Speech",
       "title": "Executive Board in Finance Committee hearing on monetary policy"
+    }
+  },
+  {
+    "title": "Argentina’s central bank asks how disinflation could translate into lasting investment",
+    "bank": "Banco Central de la República Argentina",
+    "date": "2026-11-19",
+    "url": "https://www.bcra.gob.ar/noticias/jornadas-monetarias-bancarias-2026-crecimiento-productividad-inflacion/",
+    "excerpt": "At Argentina’s 2026 Monetary and Banking Conference, BCRA President Santiago Bausili posed a question that an inflation reading alone cannot settle.",
+    "file": "2026-11-19-7fa6871ac7.json",
+    "publication": {
+      "title": "Académicos, expertos financieros y autoridades de bancos centrales enriquecieron el debate sobre los desafíos del crecimiento, la productividad y la inflación",
+      "jurisdiction": "Argentina",
+      "type": "Release"
     }
   },
   {
@@ -121,6 +189,23 @@
     }
   },
   {
+    "title": "The ECB traces how an AI earnings disappointment could reach bondholders",
+    "bank": "European Central Bank",
+    "date": "2026-11-18",
+    "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+    "excerpt": "The ECB’s 18 November financial stability release identified two ways a repricing could travel beyond the market where it began.",
+    "file": "2026-11-18-6b544768d9.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "type": "Release",
+      "aliases": [
+        "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/notas-prensa-bce/los-riesgos-derivados-de-las-valoraciones-de-las-empresas-del-sector-de-la-ia-los-desequilibrios-fiscales-y-las-tensiones-geoeconomicas-lastran-las-perspectivas-de-estabilidad-financiera.html",
+        "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/ComunicadosBCE/NotasInformativasBCE/26/presbce2026-151en.pdf"
+      ]
+    }
+  },
+  {
     "title": "October minutes reveal broad support for more tightening despite the hold",
     "bank": "Federal Open Market Committee",
     "date": "2026-11-18",
@@ -135,6 +220,35 @@
       "jurisdiction": "United States",
       "title": "Minutes of the Federal Open Market Committee · 2026-10-28 meeting",
       "type": "Minutes"
+    }
+  },
+  {
+    "title": "Nagel keeps another rate rise open as energy costs feed through",
+    "bank": "Deutsche Bundesbank",
+    "date": "2026-11-18",
+    "url": "https://www.bundesbank.de/en/press/interviews/-turn-the-interest-rate-screw--964984",
+    "excerpt": "Joachim Nagel thought euro area inflation would most likely ease gradually towards 2% when looking into 2027 and beyond.",
+    "file": "2026-11-18-44a98a78f0.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "“Turn the interest rate screw” | Interview with tagesschau.de",
+      "type": "Interview",
+      "aliases": [
+        "https://www.bundesbank.de/de/presse/interviews/-an-der-zinsschraube-drehen--1016502"
+      ]
+    }
+  },
+  {
+    "title": "Mejía weighs Mexico’s persistent food-service inflation against weaker demand",
+    "bank": "Banco de México",
+    "date": "2026-11-18",
+    "url": "https://www.banxico.org.mx/publicaciones-y-prensa/presentaciones/%7B9F2D661E-34CD-0BF3-F089-DEA43EFA206E%7D.pdf",
+    "excerpt": "Deputy Governor Omar Mejía Castelazo sees less risk that the latest energy shock will feed through to Mexican inflation than during the 2022 commodity shock.",
+    "file": "2026-11-18-87e28b9dd5.json",
+    "publication": {
+      "title": "Omar Mejía · Perspectivas de política monetaria",
+      "jurisdiction": "Mexico",
+      "type": "Speech"
     }
   },
   {
@@ -255,6 +369,19 @@
     }
   },
   {
+    "title": "In the 2023 bank run, the funding facility mattered for how equities priced bank risk",
+    "bank": "Federal Reserve Bank of New York",
+    "date": "2026-11-17",
+    "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/does-the-stock-market-stigmatize-banks-that-borrow-from-the-fed/",
+    "excerpt": "US bank equity investors became more sensitive to uninsured deposits and capital weakness after a bank first used the Federal Reserve’s discount window during the March 2023 panic.",
+    "file": "2026-11-17-b078b9bf83.json",
+    "publication": {
+      "title": "Does the Stock Market Stigmatize Banks that Borrow from the Fed?",
+      "jurisdiction": "United States",
+      "type": "Research"
+    }
+  },
+  {
     "title": "Hungary holds at 5.50% ahead of a reassessment of taxes and spending",
     "bank": "Magyar Nemzeti Bank",
     "date": "2026-11-17",
@@ -282,6 +409,32 @@
     "url": "https://www.richmondfed.org/research/national_economy/macro_minute/2026/wages_are_cooling_while_supercore_inflation_isnt",
     "excerpt": "The cost of providing a service includes what the business buys from other firms as well as what it pays its employees.",
     "file": "2026-11-17-52feb74401.json"
+  },
+  {
+    "title": "Why £100 million of CCP capital can absorb different expected losses",
+    "bank": "Bank of England",
+    "date": "2026-11-16",
+    "url": "https://www.bankofengland.co.uk/paper/2026/the-impact-of-default-waterfall-positioning-on-pro-rata-second-ssitg-requirements-for-ccp",
+    "excerpt": "The Bank of England’s analysis of a clearing house’s second contribution of its own capital to the default waterfall asks how much economic exposure a stated amount actually creates.",
+    "file": "2026-11-16-bf4a4f33f0.json",
+    "publication": {
+      "title": "The impact of default waterfall positioning on pro-rata second skin-in-the-game requirements for central counterparties",
+      "type": "Research",
+      "jurisdiction": "United Kingdom"
+    }
+  },
+  {
+    "title": "Why waiting for certainty can make a supply shock more expensive",
+    "bank": "Bank of Canada",
+    "date": "2026-11-16",
+    "url": "https://www.bankofcanada.ca/2026/11/sparks-at-bank-article-2026-25/",
+    "excerpt": "Stephen Murchison finds that a central bank can reduce the cost of an unexpectedly persistent foreign supply shock by allowing for that possibility early.",
+    "file": "2026-11-16-022de6b6ac.json",
+    "publication": {
+      "title": "Act now or wait? How monetary policy should respond to supply shocks",
+      "jurisdiction": "Canada",
+      "type": "Research"
+    }
   },
   {
     "title": "What smaller banks would gain from fewer supervisory demands",
@@ -323,6 +476,37 @@
     }
   },
   {
+    "title": "Takata explains his 1.5% vote and the signs that would change his mind",
+    "bank": "Bank of Japan",
+    "date": "2026-11-16",
+    "url": "https://www.boj.or.jp/en/about/press/koen_2026/ko261116a.htm",
+    "excerpt": "Bank of Japan Policy Board member Hajime Takata proposed raising the policy rate to 1.5% at the October meeting.",
+    "file": "2026-11-16-8016430830.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "type": "Speech",
+      "title": "Economic Activity, Prices, and Monetary Policy in Japan: Japan’s Money and Capital Market Transformation — Will a Paradigm Shift Occur?",
+      "aliases": [
+        "https://www.boj.or.jp/en/about/press/koen_2026/data/ko261116a1.pdf",
+        "https://www.boj.or.jp/about/press/koen_2026/ko261116a.htm",
+        "https://www.boj.or.jp/about/press/koen_2026/data/ko261116a1.pdf"
+      ]
+    }
+  },
+  {
+    "title": "How much margin relief can a clearing member count on in stress?",
+    "bank": "Bank of England",
+    "date": "2026-11-16",
+    "url": "https://www.bankofengland.co.uk/paper/2026/ss/near-final-supervisory-statement-on-ccp-margin",
+    "excerpt": "The Bank of England’s near-final supervisory statement explains how it expects central counterparties to limit destabilising jumps in initial margin while retaining sufficient collateral to cover a member default.",
+    "file": "2026-11-16-c92aadaa23.json",
+    "publication": {
+      "title": "Near-final supervisory statement on CCP margin",
+      "type": "Research",
+      "jurisdiction": "United Kingdom"
+    }
+  },
+  {
     "title": "Brazil’s Pix reaches 76 billion payments through October as merchant and corporate use diverge",
     "bank": "Banco Central do Brasil",
     "date": "2026-11-16",
@@ -346,6 +530,19 @@
       "jurisdiction": "United States",
       "type": "Speech",
       "title": "Michael Barr · Some Potential Financial Stability Implications of Artificial Intelligence"
+    }
+  },
+  {
+    "title": "Who bears the risk when separate currency systems settle one FX trade?",
+    "bank": "Bank of England",
+    "date": "2026-11-13",
+    "url": "https://www.bankofengland.co.uk/payments/payments-innovation/wholesale-experiments-programme/project-meridian-fx-apac-policy-report",
+    "excerpt": "Project Meridian FX APAC found that a common operator could co-ordinate payment-versus-payment across three differently designed central bank test systems.",
+    "file": "2026-11-13-0ab42b7795.json",
+    "publication": {
+      "title": "Project Meridian FX APAC: Policy Report",
+      "type": "Research",
+      "jurisdiction": "United Kingdom"
     }
   },
   {
@@ -396,6 +593,19 @@
     }
   },
   {
+    "title": "How much liquidity could a synchronised FX trade still tie up?",
+    "bank": "Bank of England",
+    "date": "2026-11-13",
+    "url": "https://www.bankofengland.co.uk/payments/payments-innovation/wholesale-experiments-programme/project-meridian-fx-apac-technical-report",
+    "excerpt": "The technical experiment connected a simulated UK real-time gross settlement system, Thailand’s Project SAN and a non-production version of Singapore’s SGD Testnet.",
+    "file": "2026-11-13-eb9ccd20f7.json",
+    "publication": {
+      "title": "Project Meridian FX APAC: Technical Report",
+      "type": "Research",
+      "jurisdiction": "United Kingdom"
+    }
+  },
+  {
     "title": "HBZ’s R3 million supervisory penalty puts timeliness, missing reports and misclassification in separate categories",
     "bank": "South African Reserve Bank",
     "date": "2026-11-13",
@@ -409,6 +619,30 @@
     }
   },
   {
+    "title": "Four central banks broaden cooperation on settling regional transactions in local currencies",
+    "bank": "Bank Indonesia, Bank Negara Malaysia, Bank of Thailand and Bangko Sentral ng Pilipinas",
+    "date": "2026-11-13",
+    "url": "https://www.bot.or.th/en/news-and-media/news/news-20261113.html",
+    "excerpt": "Bank Indonesia, Bank Negara Malaysia, the Bank of Thailand and Bangko Sentral ng Pilipinas signed a common agreement on 13 November to facilitate settlement in local currencies.",
+    "file": "2026-11-13-ba117fa97e.json",
+    "publication": {
+      "jurisdiction": "Philippines",
+      "type": "Statement",
+      "title": "Joint statement on cooperation under the Local Currency Transaction Framework",
+      "aliases": [
+        "https://www.bot.or.th/content/dam/bot/documents/en/news-and-media/news/2026/news-20261113.pdf",
+        "https://www.bnm.gov.my/-/mou_lctf26",
+        "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2824926.aspx"
+      ],
+      "jurisdictions": [
+        "Indonesia",
+        "Malaysia",
+        "Thailand",
+        "Philippines"
+      ]
+    }
+  },
+  {
     "title": "Collins shows why raising rates can cool housing demand and slow construction together",
     "bank": "Federal Reserve Bank of Boston",
     "date": "2026-11-13",
@@ -419,6 +653,32 @@
       "jurisdiction": "United States",
       "type": "Speech",
       "title": "Observations on Housing Market Challenges"
+    }
+  },
+  {
+    "title": "A four-to-three Czech rate vote turned on when to act against energy pass-through",
+    "bank": "Czech National Bank",
+    "date": "2026-11-13",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1793865600000/?tab=record",
+    "excerpt": "The Czech National Bank Board agreed on more than its four-to-three vote might suggest.",
+    "file": "2026-11-13-84a5483e04.json",
+    "publication": {
+      "jurisdiction": "Czechia",
+      "title": "Minutes of the Bank Board meeting on 5 November 2026",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "The assumptions behind Türkiye’s November inflation forecast, chart by chart",
+    "bank": "Central Bank of the Republic of Türkiye",
+    "date": "2026-11-12",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/d2c83421-95b0-455a-8a20-4fbcd617ff29/RemarksG12_11_2026.pdf?MOD=AJPERES",
+    "excerpt": "The November briefing slides locate the change in Türkiye’s inflation outlook in energy, other import prices and food.",
+    "file": "2026-11-12-463f6ea3cd.json",
+    "publication": {
+      "title": "Governor Fatih Karahan's Presentation at the Briefing on Inflation Report 2026-IV (İstanbul)",
+      "jurisdiction": "Türkiye",
+      "type": "Speech"
     }
   },
   {
@@ -448,6 +708,38 @@
     }
   },
   {
+    "title": "Kganyago on how public scrutiny sustains central bank independence",
+    "bank": "South African Reserve Bank",
+    "date": "2026-11-12",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/speeches/speeches-by-governors/2026/kganyago-sunday-times-awards",
+    "excerpt": "Lesetja Kganyago used his acceptance speech at the Sunday Times Top 100 Companies Awards in Johannesburg on 12 November to explain why the South African Reserve Bank depends on a credible press.",
+    "file": "2026-11-12-5007f99904.json",
+    "publication": {
+      "jurisdiction": "South Africa",
+      "title": "Lesetja Kganyago | Sunday Times Top 100 Companies Awards acceptance speech",
+      "type": "Speech",
+      "aliases": [
+        "https://www.resbank.co.za/content/dam/sarb/publications/speeches/speeches-by-governors/2026/kganyago-sunday-times-awards.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Karahan raised Türkiye’s inflation path while describing demand as disinflationary",
+    "bank": "Central Bank of the Republic of Türkiye",
+    "date": "2026-11-12",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb+en/main+menu/announcements/remarks+by+governor/2026/speechg12_11_2026",
+    "excerpt": "Governor Fatih Karahan said the disinflation process had slowed, even though domestic demand was exerting more downward pressure on prices.",
+    "file": "2026-11-12-033d1da33f.json",
+    "publication": {
+      "title": "Governor Fatih Karahan's Speech at the Briefing on Inflation Report 2026-IV (İstanbul)",
+      "jurisdiction": "Türkiye",
+      "type": "Speech",
+      "aliases": [
+        "https://tcmb.gov.tr/wps/wcm/connect/6995ca32-dead-4908-8630-510a69985923/SpeechG12_11_2026.pdf?CACHEID=ROOTWORKSPACE-6995ca32-dead-4908-8630-510a69985923-q7ePhDc&MOD=AJPERES"
+      ]
+    }
+  },
+  {
     "title": "Bunge puts household demand at the centre of Sweden’s next rate decision",
     "bank": "Sveriges Riksbank",
     "date": "2026-11-12",
@@ -474,6 +766,89 @@
     }
   },
   {
+    "title": "Asada wants stronger household demand before the next rate rise",
+    "bank": "Bank of Japan",
+    "date": "2026-11-12",
+    "url": "https://www.boj.or.jp/en/about/press/koen_2026/ko261112a.htm",
+    "excerpt": "Bank of Japan Policy Board member Toichiro Asada would look for stronger evidence that higher wages were generating household demand and, through that demand, sustained price increases before supporting another rate rise.",
+    "file": "2026-11-12-5425bee3a7.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "type": "Speech",
+      "title": "Economic Activity, Prices, and Monetary Policy in Japan: Speech at a Meeting with Local Leaders in Nagasaki",
+      "aliases": [
+        "https://www.boj.or.jp/en/about/press/koen_2026/data/ko261112a1.pdf",
+        "https://www.boj.or.jp/about/press/koen_2026/ko261112a.htm",
+        "https://www.boj.or.jp/about/press/koen_2026/data/ko261112a1.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Türkiye raised eight-week credit growth limits and changed reserve remuneration",
+    "bank": "Central Bank of the Republic of Türkiye",
+    "date": "2026-11-11",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb+en/main+menu/announcements/press+releases/2026/ano2026-49",
+    "excerpt": "Türkiye’s central bank changed two parts of its macroprudential framework on 11 November.",
+    "file": "2026-11-11-0928285286.json",
+    "publication": {
+      "title": "Press Release on Macroprudential Framework (2026-49)",
+      "jurisdiction": "Türkiye",
+      "type": "Release"
+    }
+  },
+  {
+    "title": "Thailand’s MPC held at 1% as stronger technology exports did little for household demand",
+    "bank": "Bank of Thailand",
+    "date": "2026-11-11",
+    "url": "https://www.bot.or.th/content/dam/bot/documents/en/research-and-publications/reports/monetary-policy/minutes-mpc/mpc-minutes-2026-5.pdf",
+    "excerpt": "All six members present at the Bank of Thailand’s 22 and 28 October meeting voted to keep the policy rate at 1.00%.",
+    "file": "2026-11-11-4d8e0052ae.json",
+    "publication": {
+      "jurisdiction": "Thailand",
+      "type": "Minutes",
+      "title": "Edited Minutes of Monetary Policy Committee Meeting (No. 5/2026)"
+    }
+  },
+  {
+    "title": "Argentina’s October money growth came from term deposits and renewed commercial lending",
+    "bank": "Banco Central de la República Argentina",
+    "date": "2026-11-11",
+    "url": "https://www.bcra.gob.ar/publicaciones/informe-monetario-mensual-octubre-de-2026/",
+    "excerpt": "Argentina’s central bank reports that private-sector peso money balances grew in October even as the balances most readily used for payments fell.",
+    "file": "2026-11-11-21cb47c8d5.json",
+    "publication": {
+      "title": "Informe Monetario Mensual – October 2026",
+      "jurisdiction": "Argentina",
+      "type": "Research"
+    }
+  },
+  {
+    "title": "Why Conway favoured an immediate New Zealand rate rise despite weak household spending",
+    "bank": "Reserve Bank of New Zealand",
+    "date": "2026-11-10",
+    "url": "https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/events/2026/paul-conway-speaking-notes-ubs-australasia-conference-2026.pdf",
+    "excerpt": "Paul Conway put his disagreement with October’s decision in terms of timing.",
+    "file": "2026-11-10-db72d21910.json",
+    "publication": {
+      "jurisdiction": "New Zealand",
+      "type": "Speech",
+      "title": "How is the New Zealand economy tracking? Speaking notes for the UBS Australasia Conference"
+    }
+  },
+  {
+    "title": "Which gilts will reach the market as the Bank unwinds its purchases?",
+    "bank": "Bank of England",
+    "date": "2026-11-10",
+    "url": "https://www.bankofengland.co.uk/asset-purchase-facility/2026/2026-q3",
+    "excerpt": "The Bank of England’s September decision gives gilt investors a timetable for unwinding its monetary-policy purchases, while leaving an important part of the supply outlook open.",
+    "file": "2026-11-10-3f4d9809b1.json",
+    "publication": {
+      "title": "Asset Purchase Facility Quarterly Report - 2026 Q3",
+      "type": "Research",
+      "jurisdiction": "United Kingdom"
+    }
+  },
+  {
     "title": "Waller sets out a December hike preference and a test for going further",
     "bank": "Federal Reserve Board",
     "date": "2026-11-10",
@@ -487,6 +862,22 @@
     }
   },
   {
+    "title": "Swiss inflation, the franc and the September forecast at a zero policy rate",
+    "bank": "Swiss National Bank",
+    "date": "2026-11-10",
+    "url": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261110_anmar",
+    "excerpt": "Antoine Martin’s 10 November presentation in Berne explains how the Swiss National Bank could maintain a zero policy rate while energy costs rose and interest rates abroad were higher.",
+    "file": "2026-11-10-cd17db23cd.json",
+    "publication": {
+      "jurisdiction": "Switzerland",
+      "title": "The Swiss National Bank, its monetary policy and the Swiss economy",
+      "type": "Speech",
+      "aliases": [
+        "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/speeches/2026/ref_20261110_anmar/publications0_en/ref_20261110_anmar.en.pdf"
+      ]
+    }
+  },
+  {
     "title": "South African export commodity prices fall in dollars and rise in rand in October",
     "bank": "South African Reserve Bank",
     "date": "2026-11-10",
@@ -497,6 +888,19 @@
       "jurisdiction": "South Africa",
       "type": "Release",
       "title": "Index of Commodity Prices for South Africa – October 2026"
+    }
+  },
+  {
+    "title": "Singapore offers allocated gold custody and sets out a timetable for wholesale market infrastructure",
+    "bank": "Monetary Authority of Singapore",
+    "date": "2026-11-10",
+    "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-central-bank-gold-vaulting-services-enhanced-tax-framework-for-wholesale-gold-activities",
+    "excerpt": "The Monetary Authority of Singapore has opened an allocated gold custody service for foreign central banks, international financial institutions and sovereign entities.",
+    "file": "2026-11-10-6504ccfeda.json",
+    "publication": {
+      "jurisdiction": "Singapore",
+      "type": "Statement",
+      "title": "MAS Launches Central Bank Gold Vaulting Service and Announces Enhanced Tax Framework for Wholesale Gold Activities in Singapore"
     }
   },
   {
@@ -539,6 +943,19 @@
     }
   },
   {
+    "title": "Japan’s October policy debate turns on how quickly to approach neutral",
+    "bank": "Bank of Japan",
+    "date": "2026-11-10",
+    "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/opinion_2026/opi261030.pdf",
+    "excerpt": "The opinions submitted after the Bank of Japan’s 29–30 October meeting reveal a dispute about how much accommodation remained.",
+    "file": "2026-11-10-aa8be60b8c.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "type": "Minutes",
+      "title": "Summary of Opinions at the Monetary Policy Meeting on October 29 and 30, 2026"
+    }
+  },
+  {
     "title": "Five votes for Sweden’s November hike concealed different views of the next one",
     "bank": "Sveriges Riksbank",
     "date": "2026-11-10",
@@ -549,6 +966,19 @@
       "jurisdiction": "Sweden",
       "type": "Minutes",
       "title": "Minutes of the Monetary Policy Meeting of 3 November 2026"
+    }
+  },
+  {
+    "title": "Credit card delinquency is easing unevenly as pandemic accounts age",
+    "bank": "Federal Reserve Bank of New York",
+    "date": "2026-11-10",
+    "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/a-look-at-the-wider-divide-in-credit-card-delinquency-by-income/",
+    "excerpt": "The rise in US credit card delinquency after 2022 was particularly large in lower-income neighbourhoods.",
+    "file": "2026-11-10-85f4ef7bd1.json",
+    "publication": {
+      "title": "A Look at the Wider Divide in Credit Card Delinquency by Income",
+      "jurisdiction": "United States",
+      "type": "Research"
     }
   },
   {
@@ -594,6 +1024,19 @@
     }
   },
   {
+    "title": "When an oil shock can reach core inflation for several years",
+    "bank": "Board of Governors of the Federal Reserve System",
+    "date": "2026-11-09",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-effect-of-oil-prices-on-core-inflation-recent-evidence-from-the-advanced-economies-20261109.html",
+    "excerpt": "Oil can affect core inflation through two separate mechanisms.",
+    "file": "2026-11-09-ffce838833.json",
+    "publication": {
+      "title": "FEDS Note: The Effect of Oil Prices on Core Inflation: Recent Evidence from the Advanced Economies",
+      "jurisdiction": "United States",
+      "type": "Research"
+    }
+  },
+  {
     "title": "What changed in the RBA’s forecast when the data centres showed up?",
     "bank": "Reserve Bank of Australia",
     "date": "2026-11-09",
@@ -604,6 +1047,32 @@
       "jurisdiction": "Australia",
       "type": "Speech",
       "title": "Transcript of Question & Answer Session What Happens to the Economy as ‘Intelligence’ Gets Cheaper?"
+    }
+  },
+  {
+    "title": "US households kept their inflation medians steady as perceived payment risk rose",
+    "bank": "Federal Reserve Bank of New York",
+    "date": "2026-11-09",
+    "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261109.html",
+    "excerpt": "The New York Fed’s October Survey of Consumer Expectations found unchanged median inflation expectations at all three horizons, alongside a rise in the perceived risk of missing a debt payment.",
+    "file": "2026-11-09-d1bc815892.json",
+    "publication": {
+      "title": "Inflation Expectations Stable; Labor Market Expectations Mixed",
+      "jurisdiction": "United States",
+      "type": "Research"
+    }
+  },
+  {
+    "title": "The CNB changes how it earns credit exposure in its international reserves",
+    "bank": "Czech National Bank",
+    "date": "2026-11-09",
+    "url": "https://www.cnb.cz/en/cnb-news/press-releases/CNB-adds-corporate-bonds-to-its-reserve-portfolio-and-changes-its-MBS-management-approach/",
+    "excerpt": "The Czech National Bank retained the ability to invest in US mortgage-backed securities after disappointing results under external management.",
+    "file": "2026-11-09-27ab0b3f67.json",
+    "publication": {
+      "jurisdiction": "Czechia",
+      "title": "CNB adds corporate bonds to its reserve portfolio and changes its MBS management approach",
+      "type": "Release"
     }
   },
   {
@@ -630,6 +1099,32 @@
       "jurisdiction": "South Africa",
       "type": "Release",
       "title": "Information notice on the official gold and foreign exchange reserves of the South African Reserve Bank as at 31 October 2026"
+    }
+  },
+  {
+    "title": "Moving gold out of New York is a poor signal of a reserve manager’s dollar allocation",
+    "bank": "Board of Governors of the Federal Reserve System",
+    "date": "2026-11-09",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/gold-reserve-relocations-are-they-always-bad-news-for-u-s-dollar-reserves-20261109.html",
+    "excerpt": "A central bank can move physical gold out of the United States and retain a large allocation to dollar assets.",
+    "file": "2026-11-09-a6efb6c4f0.json",
+    "publication": {
+      "title": "FEDS Note: Gold Reserve Relocations: Are They Always Bad News for U.S. Dollar Reserves?",
+      "jurisdiction": "United States",
+      "type": "Research"
+    }
+  },
+  {
+    "title": "Mexico’s server exports conceal a tariff drag shared with Canada",
+    "bank": "Board of Governors of the Federal Reserve System",
+    "date": "2026-11-09",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/a-common-pattern-behind-diverging-fortunes-u-s-tariffs-and-exports-from-canada-and-mexico-20261109.html",
+    "excerpt": "Canada’s goods exports to the United States fell about 10% while Mexico’s rose about 16%, comparing the twelve months to April 2026 with calendar 2024.",
+    "file": "2026-11-09-f177205bc1.json",
+    "publication": {
+      "title": "FEDS Note: A Common Pattern behind Diverging Fortunes: U.S. Tariffs and Exports from Canada and Mexico",
+      "jurisdiction": "United States",
+      "type": "Research"
     }
   },
   {
@@ -675,6 +1170,45 @@
     }
   },
   {
+    "title": "Lagarde looks for a broadening of the energy shock beneath 4% inflation",
+    "bank": "European Central Bank",
+    "date": "2026-11-07",
+    "url": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
+    "excerpt": "Euro area inflation of 4% in October raised the stakes for the ECB, but the release offered no clear evidence yet that energy costs were feeding broadly into wages and underlying prices.",
+    "file": "2026-11-07-5f308cfde1.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Interview with Yomiuri Shimbun",
+      "type": "Interview"
+    }
+  },
+  {
+    "title": "Why the Czech inflation forecast rises towards 4% before returning to target",
+    "bank": "Czech National Bank",
+    "date": "2026-11-06",
+    "url": "https://www.cnb.cz/en/about_cnb/cnblog/The-CNB-increased-interest-rates-inflation-will-rise-at-the-start-of-next-year-but-will-then-start-to-decline-thanks-to-tight-monetary-policy/",
+    "excerpt": "The November forecast envisaged a pronounced rise in inflation just as Czech monetary policy was becoming more restrictive.",
+    "file": "2026-11-06-e08179d530.json",
+    "publication": {
+      "jurisdiction": "Czechia",
+      "title": "The CNB increased interest rates, inflation will rise at the start of next year but will then start to decline thanks to tight monetary policy",
+      "type": "Research"
+    }
+  },
+  {
+    "title": "What does the collateral choice cost an equity borrower?",
+    "bank": "Bank of England",
+    "date": "2026-11-06",
+    "url": "https://www.bankofengland.co.uk/working-paper/2026/price-efficiency-in-securities-lending",
+    "excerpt": "The same share can command different lending terms depending on whether the borrower posts cash or another security.",
+    "file": "2026-11-06-858510279c.json",
+    "publication": {
+      "title": "Price efficiency in securities lending",
+      "type": "Research",
+      "jurisdiction": "United Kingdom"
+    }
+  },
+  {
     "title": "UK rates respondents expected a November rise, but differed on how long 4¼% would last",
     "bank": "Bank of England",
     "date": "2026-11-06",
@@ -685,6 +1219,19 @@
       "jurisdiction": "United Kingdom",
       "type": "Research",
       "title": "Market Participants Survey results - November 2026"
+    }
+  },
+  {
+    "title": "Cuadra traces Mexico’s growth constraints to productivity, investment and labour supply",
+    "bank": "Banco de México",
+    "date": "2026-11-06",
+    "url": "https://www.banxico.org.mx/publicaciones-y-prensa/presentaciones/%7B93DED036-5130-4DB6-3FFE-E5257E067CE4%7D.pdf",
+    "excerpt": "Deputy Governor José Gabriel Cuadra García uses a long-run growth accounting exercise to explain why Mexican output has grown slowly despite gains in labour, skills and capital.",
+    "file": "2026-11-06-9891c11045.json",
+    "publication": {
+      "title": "Gabriel Cuadra · Crecimiento económico en México: retos y perspectivas",
+      "jurisdiction": "Mexico",
+      "type": "Speech"
     }
   },
   {
@@ -706,6 +1253,32 @@
       "jurisdiction": "Australia",
       "type": "Speech",
       "title": "Andrew Hauser: Trust, Expectations and Monetary Policy"
+    }
+  },
+  {
+    "title": "Why Norges Bank held at 4.5% despite stronger domestic inflation",
+    "bank": "Norges Bank",
+    "date": "2026-11-05",
+    "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-11-05-rate/",
+    "excerpt": "Norges Bank kept its policy rate at 4.5% on 4 November, following September’s increase.",
+    "file": "2026-11-05-7b754e6fd7.json",
+    "publication": {
+      "jurisdiction": "Norway",
+      "title": "Policy rate kept unchanged at 4.5 percent",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Why Bank Negara Malaysia kept the OPR at 2.75% despite stronger growth",
+    "bank": "Bank Negara Malaysia",
+    "date": "2026-11-05",
+    "url": "https://www.bnm.gov.my/-/pernyataan-dasar-monetari-05112026",
+    "excerpt": "Bank Negara Malaysia judged that an overnight policy rate of 2.75% remained consistent with price stability and sustainable growth on 5 November.",
+    "file": "2026-11-05-9ccfd57235.json",
+    "publication": {
+      "title": "Monetary Policy Statement",
+      "jurisdiction": "Malaysia",
+      "type": "Decision"
     }
   },
   {
@@ -741,11 +1314,11 @@
     }
   },
   {
-    "title": "The Czech November rate decision lifts the repo rate to 4.00%",
+    "title": "The Czech National Bank raised all three rates by 25 basis points",
     "bank": "Czech National Bank",
     "date": "2026-11-05",
     "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1793865600000",
-    "excerpt": "The CNB raised the two-week repo rate by 25 basis points to 4.00% on November 5.",
+    "excerpt": "The Czech National Bank’s 5 November decision raised the two-week repo rate to 4.00%, the discount rate to 3.00% and the Lombard rate to 5.00%.",
     "file": "2026-11-05-e737bdba7f.json",
     "publication": {
       "aliases": [
@@ -757,16 +1330,16 @@
     }
   },
   {
-    "title": "Norway’s 4.5% hold concealed stronger domestic price pressure",
+    "title": "Norges Bank’s hold keeps the option of a further increase open",
     "bank": "Norges Bank",
     "date": "2026-11-05",
-    "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-11-05-rate/",
-    "excerpt": "Norges Bank left its policy rate at 4.5% at its meeting on 4 November.",
-    "file": "2026-11-05-7b754e6fd7.json",
+    "url": "https://www.norges-bank.no/en/news-events/news/Speeches/2026/2026-11-05-pc/",
+    "excerpt": "Holding the Norwegian policy rate at 4.5% preserved a restrictive stance after the September increase.",
+    "file": "2026-11-05-d72cd93eaa.json",
     "publication": {
       "jurisdiction": "Norway",
-      "title": "Policy rate kept unchanged at 4.5 percent",
-      "type": "Decision"
+      "title": "We have kept the policy rate unchanged",
+      "type": "Speech"
     }
   },
   {
@@ -780,6 +1353,22 @@
       "jurisdiction": "Mexico",
       "title": "Anuncio de Política Monetaria",
       "type": "Decision"
+    }
+  },
+  {
+    "title": "How the franc changes monetary transmission in Switzerland",
+    "bank": "Swiss National Bank",
+    "date": "2026-11-05",
+    "url": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261105_msl",
+    "excerpt": "A rise in Swiss interest rates can reduce inflation before weaker domestic spending reaches retailers.",
+    "file": "2026-11-05-84e78393fa.json",
+    "publication": {
+      "jurisdiction": "Switzerland",
+      "title": "Transmission and conduct of monetary policy in Switzerland",
+      "type": "Speech",
+      "aliases": [
+        "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/speeches/2026/ref_20261105_msl/publications0_en/ref_20261105_msl_1.en.pdf"
+      ]
     }
   },
   {
@@ -866,7 +1455,7 @@
     "bank": "Sveriges Riksbank",
     "date": "2026-11-04",
     "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-raised-to-2-per-cent/",
-    "excerpt": "The Riksbank raised its policy rate by 25 basis points to 2% on 4 November.",
+    "excerpt": "The Riksbank announced a 25-basis-point increase to 2% on 4 November with Swedish inflation below target.",
     "file": "2026-11-04-9d2fe46301.json",
     "publication": {
       "aliases": [
@@ -895,6 +1484,19 @@
     }
   },
   {
+    "title": "Türkiye’s October CPI rise was concentrated in energy and fresh food",
+    "bank": "Central Bank of the Republic of Türkiye",
+    "date": "2026-11-04",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/7e9a7146-8c69-492f-8834-15ee5098fd12/mpriceoctober26.pdf?MOD=AJPERES",
+    "excerpt": "The Central Bank of the Republic of Türkiye reads October’s inflation release as consistent with the recent easing in underlying inflation.",
+    "file": "2026-11-04-51445bc91d.json",
+    "publication": {
+      "title": "Monthly Price Developments (October 2026)",
+      "jurisdiction": "Türkiye",
+      "type": "Research"
+    }
+  },
+  {
     "title": "Signed wage agreements point to firmer underlying pay, with the weakest coverage furthest ahead",
     "bank": "European Central Bank",
     "date": "2026-11-04",
@@ -912,11 +1514,24 @@
     }
   },
   {
+    "title": "Hungary held rates as low domestic inflation met external and budget risks",
+    "bank": "Magyar Nemzeti Bank",
+    "date": "2026-11-04",
+    "url": "https://www.mnb.hu/letoltes/en-roviditett-jegyzokonyv-a-monetaris-tanacs-2026-oktober-20-i-uleserol.pdf",
+    "excerpt": "The Magyar Nemzeti Bank’s Monetary Council considered one proposal at its 20 October meeting.",
+    "file": "2026-11-04-1830cea199.json",
+    "publication": {
+      "jurisdiction": "Hungary",
+      "title": "Abridged minutes of the Monetary Council meeting on 20 October 2026",
+      "type": "Minutes"
+    }
+  },
+  {
     "title": "Foreign-currency borrowing would change how Sweden funds its reserves",
     "bank": "Sveriges Riksbank",
     "date": "2026-11-04",
     "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/the-riksbank-plans-to-finance-part-of-the-foreign-currency-reserve-with-foreign-currency-loans-via-the-swedish-national-debt-office/",
-    "excerpt": "The Riksbank plans to borrow about SEK 200 billion in foreign currency through the Swedish National Debt Office.",
+    "excerpt": "The Riksbank plans to borrow roughly SEK 200 billion in foreign currency through the Swedish National Debt Office.",
     "file": "2026-11-04-695a911f3d.json",
     "publication": {
       "jurisdiction": "Sweden",
@@ -940,6 +1555,19 @@
       "title": "Christine Lagarde: A warning from Europe's hot summer",
       "jurisdiction": "Euro area",
       "type": "Research"
+    }
+  },
+  {
+    "title": "Colombian staff raise inflation forecasts as earthquake damage reduces productive capacity",
+    "bank": "Banco de la República",
+    "date": "2026-11-04",
+    "url": "https://banrep.gov.co/es/publicaciones-investigaciones/informe-politica-monetaria/octubre-2026",
+    "excerpt": "Banco de la República’s October Monetary Policy Report, released on 4 November, raises the staff inflation forecast even as it cuts the outlook for output.",
+    "file": "2026-11-04-ca8263dea5.json",
+    "publication": {
+      "title": "Informe de Política Monetaria – octubre de 2026",
+      "jurisdiction": "Colombia",
+      "type": "Forecast"
     }
   },
   {
@@ -1008,6 +1636,19 @@
       "aliases": [
         "https://www.bankofcanada.ca/2026/11/opening-statement-standing-senate-committee-banking-commerce-and-economy-2026-11-05/"
       ]
+    }
+  },
+  {
+    "title": "Bullock explains the fifth increase and the case for waiting",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-11-03",
+    "url": "https://www.rba.gov.au/speeches/2026/mc-gov-2026-11-03.html",
+    "excerpt": "The Reserve Bank of Australia lifted the cash rate to 4.85% on 3 November, its fifth increase of the year.",
+    "file": "2026-11-03-6a784d7152.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "type": "Press conference",
+      "title": "Media Conference: Monetary Policy Decision – 3 November 2026"
     }
   },
   {

@@ -1,0 +1,28 @@
+{
+  "title": "A four-to-three Czech rate vote turned on when to act against energy pass-through",
+  "bank": "Czech National Bank",
+  "date": "2026-11-13",
+  "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1793865600000/?tab=record",
+  "summary": [
+    "The Czech National Bank Board agreed on more than its four-to-three vote might suggest. All seven members wanted to maintain comparatively tight monetary conditions, accepted that a modest increase could help contain second-round effects from energy prices, and agreed that an increase at this meeting would not mark the beginning of a new hiking cycle. They divided over the value of acting before those effects became clearly visible. Aleš Michl, Jan Kubíček, Jan Procházka and Jakub Seidler voted for an increase of 0.25 percentage points. Eva Zamrazilová, Jan Frait and Karina Kubelková preferred unchanged rates (minutes of the 5 November meeting, closing discussion and vote).",
+    "The forecast presented at the meeting put inflation temporarily higher in early 2027 and back near 2% in early 2028 under restrictive policy. The Board saw the risks around the inflation objective as skewed upwards. Domestic demand had so far remained resilient to higher energy prices, but significant second-round effects were also largely absent from consumer inflation. The members differed in what they inferred from that combination. Seidler considered some pass-through hard to avoid after a shock of this size and duration. Policy could still influence its scale and persistence. Procházka read a small increase in goods inflation as a possible early sign rather than proof.",
+    "The case for waiting included more than uncertainty about the conflict. Zamrazilová saw relative prices changing in a way consistent with a low-inflation environment. She judged that real interest rates would remain positive even if the Board waited. Frait observed that dearer energy was moving into longer-term contracts, yet also reducing the real incomes of households and firms. He questioned whether the economy was overheating given growth relative to its estimated potential. Kubelková thought energy prices could stay high even as they fluctuated, but preferred another month of information, including forthcoming decisions by other central banks. In her view, past investment in energy efficiency could help explain why Czech activity had withstood the shock.",
+    "Members agreed that elevated longer-term rates were already restraining financial conditions. Its strength and reach were open to interpretation. Frait saw signs of a mortgage slowdown and expected restraint to spread. Zamrazilová saw little extra effect on imputed rents from an immediate policy increase after longer rates had already tightened the mortgage market. Kubíček also saw restraint in mortgages, but pointed to lending shifting towards non-financial businesses. Procházka considered core inflation, wages and lending insufficiently subdued and regarded an immediate move as safer. Strong domestic demand despite disappointing aggregate growth weighed in Seidler’s assessment as well.",
+    "Expectations offered another reason for a close vote. Kubelková and Seidler thought expectations anchored while recognising household sensitivity to food and energy prices. Procházka already saw signs of an increase in household expectations. For someone judging the next meeting, the minutes make clear why one more strong headline number need not settle the question. The composition of prices, the degree of credit restraint beyond mortgages, and whether household perceptions become persistent could alter how the same members weigh the cost of waiting. The published vote settles what happened in November. It gives no assurance of another increase."
+  ],
+  "questions": [
+    {
+      "question": "What evidence would distinguish broader pass-through from relative price changes?",
+      "detail": "The minutes record both a possible early increase in goods inflation and the view that the consumer basket still behaved as it would in a low-inflation environment. Whether higher prices spread beyond energy-intensive items matters for the next short-rate decision. Examine detailed official consumer and producer price releases, including the breadth and persistence of increases and the timing of energy contract resets."
+    },
+    {
+      "question": "How far was the long-end tightening reaching beyond mortgages?",
+      "detail": "Members saw mortgage restraint but also pointed to corporate borrowing. For an assessment of aggregate financial conditions, it matters whether existing borrowers faced higher costs, new mortgage demand declined, or firms continued to borrow readily. Compare new and outstanding lending rates, volumes and refinancing schedules for households and businesses, and consult contemporary bank credit surveys on both demand and lending standards."
+    },
+    {
+      "question": "Could higher food and energy costs unanchor expectations even if real demand weakened?",
+      "detail": "The Board recognised both households’ sensitivity to salient prices and the loss of real purchasing power, without quantifying which mechanism would dominate. The answer changes how persistent a rates investor should expect any tightening to be. Compare short- and longer-horizon household surveys with pay settlements, household spending and the CNB’s underlying inflation indicators, testing whether an increase in expectations continues beyond the initial price shock."
+    }
+  ],
+  "limitation": ""
+}

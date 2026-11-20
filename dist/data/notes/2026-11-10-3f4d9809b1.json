@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-10",
+  "bank": "Bank of England",
+  "url": "https://www.bankofengland.co.uk/asset-purchase-facility/2026/2026-q3",
+  "title": "Which gilts will reach the market as the Bank unwinds its purchases?",
+  "summary": [
+    "The Bank of England’s September decision gives gilt investors a timetable for unwinding its monetary-policy purchases, while leaving an important part of the supply outlook open. The Monetary Policy Committee intends to sell £20 billion a year alongside maturities, reducing the relevant stock at an average annual pace of £46 billion through end-2034. As of the report date, the Bank and Treasury had yet to agree who would buy the gilts designated for sale. Translating the annual rundown into an equivalent amount of long-dated bonds that private investors must absorb would therefore miss both the composition of the portfolio and the proposed method of disposal.",
+    "Of the portfolio identified in the section on unwinding the APF, £222 billion of gilts maturing before 2035 are to mature in the facility. A further £120 billion of the longest bonds will remain there to maturity to back present and future banknotes indirectly. That formalises an arrangement that developed as the Bank expanded the APF instead of running a separate gilt purchase programme for banknote backing. The £146 billion earmarked for sale, measured at purchase proceeds, matures between 2035 and 2049. One option under discussion was for the APF to sell to the government. Operational details were due by April 2027. The distinction matters for which maturities might reach the market and when.",
+    "The quarter’s operations still implemented the previous September’s decision. Five sales reduced holdings by £4.3 billion, while maturities took off another £29.3 billion. At 30 September the stock stood at £488.1 billion. Table A measures settled holdings at their original purchase price, so the balance is unsuitable as an estimate of what an auction would raise today. Some gilts remained available for lending to the Debt Management Office. Daily lending averaged £2.8 billion in Q3. Chart 3 shows a rise from Q2 even though lending was below the late-2025 peak.",
+    "The Treasury indemnity gives a different view of the programme. Net cumulative cash transfers from the APF to the Treasury peaked at £123.9 billion in September 2022. The first payment in the other direction followed in October. By end-Q3 2026 the cumulative net amount was still £13.1 billion in the Treasury’s favour, although the Bank anticipated further Treasury payments. Higher Bank Rate raises interest due on the APF’s loan, while a higher yield curve can also reduce what the APF receives on a bond sale. With the rundown timetable now specified, the report’s two scenarios chiefly test alternative policy-rate paths.",
+    "Chart 1 broadens the calculation to include estimated savings on government issuance and income associated with backing banknotes. Its bars are annual amounts on the left axis and its line is a cumulative present value on the right. The Bank estimates that net borrowing-cost savings from QE and QT could total £50 billion to £120 billion. It attributes around £25 billion in past and £100 billion in projected seigniorage to the relevant holdings, while acknowledging that some seigniorage would have accrued anyway. The combined estimate for transfers, financing savings and seigniorage is positive by £40 billion to £130 billion across scenarios. This is a counterfactual calculation extending well beyond the quarterly accounts. It omits wider effects on activity and employment, which the Bank regards as the most important consequences of QE."
+  ],
+  "questions": [
+    {
+      "question": "How much duration would private investors actually have to absorb under each sale mechanism?",
+      "detail": "The £146 billion portfolio and its maturity range are specified. The route to disposal and any corresponding change to government issuance remain open. That distinction matters for the yield concession an investor might require in the 2035–49 sector. Compare the announced sales with the DMO’s issuance and redemption schedule under each option. The operational decision due by April 2027 and subsequent DMO financing remits are the primary sources to consult."
+    },
+    {
+      "question": "How sensitive is the Treasury’s cumulative funding need to the shape of the yield curve?",
+      "detail": "The report identifies both the variable interest bill on the APF loan and the proceeds from gilt sales. Its broad scenarios leave open how much each contributes at particular dates and what happens if long yields and Bank Rate move differently. A cash-flow schedule by year and maturity, reconciled to the indemnity transfers, would help assess refinancing needs. Start with the Bank’s published methodology and the quarterly APF accounts it references."
+    },
+    {
+      "question": "How persistent would the assumed government borrowing-cost savings have to be?",
+      "detail": "The Bank’s chart uses a four-year taper of the estimated yield effect. Its footnote says a one-year taper reduces the benefit. That horizon changes how much cheaper funding stays locked into future budgets and how to interpret the positive combined range. Recalculate the savings against actual DMO issuance by tenor under both taper assumptions, using the QE yield-impact methodology in the 2025 Q3 report and the dates of the relevant gilt issues."
+    }
+  ],
+  "limitation": ""
+}

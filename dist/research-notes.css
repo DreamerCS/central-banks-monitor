@@ -24,7 +24,10 @@
 #note-bank{color:#885738}
 #note-title{font:400 clamp(2.1rem,4vw,4rem)/1.06 var(--serif);letter-spacing:-.05em;margin:12px 0}
 .note-source,.note-permalink{text-underline-offset:4px}
-#note-summary{margin-top:25px}
+.note-summary{margin-top:25px}
+.note-summary h3{font:400 1.9rem/1.2 var(--serif);letter-spacing:-.035em;margin:0 0 14px}
+.note-questions ol{padding-inline-start:1.6rem;list-style:decimal}
+.note-questions li::marker{color:var(--muted);font:600 1rem/1.4 var(--serif)}
 #note-summary p,.note-questions p{font:1.12rem/1.63 var(--serif);margin:0 0 1.05em}
 #note-summary p:first-child{font-size:1.27rem;line-height:1.5}
 .note-questions{border-top:1px solid var(--line);margin-top:35px;padding-top:24px}

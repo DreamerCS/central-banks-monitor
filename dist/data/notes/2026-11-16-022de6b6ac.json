@@ -1,0 +1,28 @@
+{
+  "title": "Why waiting for certainty can make a supply shock more expensive",
+  "bank": "Bank of Canada",
+  "date": "2026-11-16",
+  "url": "https://www.bankofcanada.ca/2026/11/sparks-at-bank-article-2026-25/",
+  "summary": [
+    "Stephen Murchison finds that a central bank can reduce the cost of an unexpectedly persistent foreign supply shock by allowing for that possibility early. Waiting for proof supports spending at first. It can also change what businesses and consumers expect policy to do, leaving a larger inflation problem for the central bank to resolve once it accepts that the shock will last. The result comes from a simulation published in the Bank of Canada’s independent Sparks at Bank series. It expresses the author’s assessment of risks facing a policymaker and gives no guidance about the Governing Council’s next decision.",
+    "The impulse in the experiment is an unanticipated rise in the price of foreign commodities and imported intermediate goods. Monetary policy has no direct way to bring lost supply back into production. It can temper domestic spending, and the resulting disinflation takes time. In the simplified version of the Bank’s Terms-of-Trade Economic Model, the full effect arrives in 12 to 18 months. This lag matters in both directions. Tightening against a brief disruption could restrain demand after the initial pressure has gone. Waiting until a persistent disruption is beyond doubt can allow price increases and expectations to adjust before monetary restraint takes effect.",
+    "Chart 1 establishes the benchmark in which businesses, households and the central bank all know the duration of the disturbance. The simulated policy rate stays flat throughout a temporary shock. For a persistent shock, firms have a stronger reason to adjust prices. The central bank tightens, the output gap turns negative and inflation returns towards target. The rate panel reaches 75 basis points above baseline in this particular persistent case. That number describes the model’s response to its specified shock. The article supplies no conversion from an observed rise in oil or import prices to a policy move of that size.",
+    "In the more realistic exercise, agents have to learn. Temporary shocks have historically been more frequent in the setting Murchison describes, so incoming price rises receive substantial weight as temporary events. A sequence of reversals or further elevated readings then changes that assessment. Chart 2 holds the true shock temporary and varies what people know. Giving some weight to persistence lifts the simulated policy rate by up to 25 basis points, compared with zero under full information. The additional output cost is small and short-lived in this experiment and the inflation paths remain close. The central bank can unwind its response as the temporary nature of the shock becomes apparent.",
+    "Chart 3 asks the more consequential question when the shock actually persists. Under an early, revisable response the rate peaks 50 basis points above baseline. When the authorities treat the shock as temporary for a year and communicate accordingly, the peak adjustment reaches 75 basis points. Output initially holds up better in the latter case as businesses and consumers expect less restraint. Inflation rises further and the later contraction is deeper. These are two policy paths under the same persistent shock, distinct from the full-information comparison in Chart 1. For a rates investor the inference is that the timing of revisions to the bank’s assessment can matter even if its inflation objective is unchanged. The paper presents no market prices or estimate of what investors expected in November."
+  ],
+  "questions": [
+    {
+      "question": "What evidence would cause policymakers to revise the expected duration of the shock early?",
+      "detail": "The model uses incoming price observations to learn whether the disturbance will last. It supplies no real-time threshold for judgement. A revision several quarters earlier would change the distribution of future short rates. Compare the evolution of import costs, supplier delivery expectations and business pricing intentions in successive official releases, using the information that would have been available at each meeting."
+    },
+    {
+      "question": "How large is the cost of precautionary tightening when demand is already weakening?",
+      "detail": "The extra contraction is mild in Chart 2 for the temporary foreign input shock considered. That result carries much of the case for early action. To judge exposure to a simultaneous slowdown, seek model simulations that vary initial slack, interest sensitivity and the lag to peak restraint. Report the output-gap trough and its duration as well as the peak rate response."
+    },
+    {
+      "question": "What information does the central bank transmit by calling a shock temporary?",
+      "detail": "Chart 3 combines a delayed reassessment with communication that leads households and businesses to expect a softer response. The article does not quantify their separate contributions. For a meeting-sensitive position, compare model experiments that hold the instrument path fixed and vary communication, alongside dated central-bank forecasts and surveys of expected policy, pricing intentions and inflation."
+    }
+  ],
+  "limitation": ""
+}
