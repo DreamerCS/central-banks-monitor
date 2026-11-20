@@ -1,0 +1,172 @@
+{
+  "rubricVersion": "fed-speech-direction-v1",
+  "periodStart": "2026-11-16",
+  "periodEnd": "2026-11-20",
+  "catalogue": "https://www.federalreserve.gov/newsevents/speech/2026-speeches.htm",
+  "cases": {
+    "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm": {
+      "id": "cook20261120",
+      "date": "2026-11-20",
+      "speaker": "Lisa D. Cook",
+      "title": "The U.S. Economy in Global Context",
+      "status": "directional",
+      "score": 2,
+      "label": "Hawkish · supports further tightening",
+      "evidence": "I am skeptical that September's single 1/4 point rate increase will be enough to change the path of inflation.",
+      "rationale": "Cook judged financial conditions too accommodative and said waiting carried inflation risks. She had preferred another quarter-point increase in October. The size and number of future moves still depended on the data.",
+      "releaseTimeET": "12:15 p.m.",
+      "releaseTimeSource": "https://www.federalreserve.gov/newsevents/speech/files/cook20261120a.pdf"
+    },
+    "https://www.federalreserve.gov/newsevents/speech/waller20261120a.htm": {
+      "id": "waller20261120",
+      "date": "2026-11-20",
+      "speaker": "Christopher J. Waller",
+      "title": "Opening Remarks at the 2026 College Fed Challenge Finals",
+      "status": "no-guidance",
+      "score": null,
+      "label": "No rate guidance · student competition",
+      "evidence": "The challenge is to prepare and present a monetary policy recommendation",
+      "rationale": "Waller described the decision students would present at the College Fed Challenge. The assignment expresses no personal preference for the next policy decision.",
+      "releaseTimeET": "8:25 a.m.",
+      "releaseTimeSource": "https://www.federalreserve.gov/newsevents/speech/files/waller20261120a.pdf"
+    },
+    "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm": {
+      "id": "jefferson20261119",
+      "date": "2026-11-19",
+      "speaker": "Philip N. Jefferson",
+      "title": "Monetary Policy amid Frequent and Complex Shocks",
+      "status": "two-sided",
+      "score": null,
+      "label": "Two-sided conditions · no preferred direction",
+      "evidence": "If price pressures are contained, it may be prudent to prioritize downside risks to employment.",
+      "rationale": "Jefferson would respond more strongly to inflation if expectations risked becoming unanchored. Contained price pressure would give more weight to employment. He did not choose between the scenarios or advocate holding rates.",
+      "releaseTimeET": "9:25 a.m.",
+      "releaseTimeSource": "https://www.federalreserve.gov/newsevents/speech/files/jefferson20261119a.pdf"
+    },
+    "https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm": {
+      "id": "barr20261118",
+      "date": "2026-11-18",
+      "speaker": "Michael S. Barr",
+      "title": "Investing in America’s Underserved Communities",
+      "status": "directional",
+      "score": 1,
+      "label": "Hawkish lean · conditional on his forecast",
+      "evidence": "If the economy evolves as I currently forecast, I expect it will be appropriate to raise rates further",
+      "rationale": "In a speech mainly about community investment, Barr included a personal policy outlook. His forecast points to further increases, with timing and size left open.",
+      "releaseTimeET": "1:35 p.m.",
+      "releaseTimeSource": "https://www.federalreserve.gov/newsevents/speech/files/barr20261118a.pdf"
+    },
+    "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm": {
+      "id": "waller20261117",
+      "date": "2026-11-17",
+      "speaker": "Christopher J. Waller",
+      "title": "Considerations at the Intersection of Payments and Tokenized Markets",
+      "status": "no-guidance",
+      "score": null,
+      "label": "No rate guidance · payment systems",
+      "evidence": "The Federal Reserve can support these solutions by providing core payment and settlement infrastructure upon which the private sector can innovate",
+      "rationale": "Waller discussed how settlement infrastructure and tokenization could affect payments. He did not give a current preference for the federal funds rate.",
+      "releaseTimeET": "9:10 a.m.",
+      "releaseTimeSource": "https://www.federalreserve.gov/newsevents/speech/files/waller20261117a.pdf"
+    },
+    "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm": {
+      "id": "warsh20261116",
+      "date": "2026-11-16",
+      "speaker": "Kevin Warsh",
+      "title": "Opening Remarks at the Productivity and Jobs Task Force Conference",
+      "status": "no-guidance",
+      "score": null,
+      "label": "No rate guidance · productivity research",
+      "evidence": "Will this new technology deliver a rise in total factor productivity?",
+      "rationale": "Warsh described possible productivity and employment outcomes and their longer-run implications for monetary policy. The remarks did not specify a preferred current rate path.",
+      "releaseTimeET": "12:00 p.m.",
+      "releaseTimeSource": "https://www.federalreserve.gov/newsevents/speech/files/warsh20261116a.pdf"
+    },
+    "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm": {
+      "id": "barr20261116",
+      "date": "2026-11-16",
+      "speaker": "Michael S. Barr",
+      "title": "Some Potential Financial Stability Implications of Artificial Intelligence",
+      "status": "no-guidance",
+      "score": null,
+      "label": "No rate guidance · financial stability",
+      "evidence": "In addition to the question of equity valuations, the AI buildout has been increasingly funded by debt.",
+      "rationale": "Barr examined leverage in data centers and vulnerabilities linked to AI adoption. The risks he discussed concern financial stability and carry no explicit recommendation for the policy rate.",
+      "releaseTimeET": "5:00 a.m.",
+      "releaseTimeSource": "https://www.federalreserve.gov/newsevents/speech/files/barr20261116a.pdf"
+    }
+  },
+  "pricing": {
+    "meeting": "2026-12-09",
+    "contract": "ZQZ6",
+    "settlementCutoffET": "3:00 p.m.",
+    "referenceEffrPct": 3.88,
+    "methodUrl": "market-reactions.html#speech-futures",
+    "settlementsCsv": "data/fed-futures-nov-2026.csv",
+    "settlementRule": "https://www.cmegroup.com/notices/ser/2018/04/SER-8105.pdf",
+    "windows": {
+      "2026-11-16": {
+        "priorDate": "2026-11-13",
+        "context": "Both Barr and Warsh spoke during this Friday-to-Monday interval.",
+        "priorPrice": "95.9250",
+        "priorStepBp": 27.477273,
+        "priorSource": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/13/2026&pageSize=500&isProtected=false",
+        "afterPrice": "95.9350",
+        "afterStepBp": 26.068182,
+        "changeBp": -1.409091,
+        "afterSource": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/16/2026&pageSize=500&isProtected=false",
+        "summary": "13 Nov settlement 95.9250 implied +27.48 bp at the 9 December decision. 16 Nov settlement 95.9350 implied +26.07 bp. Daily change -1.41 bp."
+      },
+      "2026-11-17": {
+        "priorDate": "2026-11-16",
+        "context": "These daily prices span news before and after the remarks.",
+        "priorPrice": "95.9350",
+        "priorStepBp": 26.068182,
+        "priorSource": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/16/2026&pageSize=500&isProtected=false",
+        "afterPrice": "95.9350",
+        "afterStepBp": 26.068182,
+        "changeBp": 0.0,
+        "afterSource": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/17/2026&pageSize=500&isProtected=false",
+        "summary": "16 Nov settlement 95.9350 implied +26.07 bp at the 9 December decision. 17 Nov settlement 95.9350 implied +26.07 bp. Daily change 0.00 bp."
+      },
+      "2026-11-18": {
+        "priorDate": "2026-11-17",
+        "context": "The October FOMC minutes appeared at 2:00 p.m. ET, between Barr’s remarks and settlement.",
+        "contextSource": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+        "priorPrice": "95.9350",
+        "priorStepBp": 26.068182,
+        "priorSource": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/17/2026&pageSize=500&isProtected=false",
+        "afterPrice": "95.9300",
+        "afterStepBp": 26.772727,
+        "changeBp": 0.704545,
+        "afterSource": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/18/2026&pageSize=500&isProtected=false",
+        "summary": "17 Nov settlement 95.9350 implied +26.07 bp at the 9 December decision. 18 Nov settlement 95.9300 implied +26.77 bp. Daily change +0.70 bp."
+      },
+      "2026-11-19": {
+        "priorDate": "2026-11-18",
+        "context": "Weekly jobless claims appeared at 8:30 a.m. ET, before Jefferson spoke.",
+        "contextSource": "https://oui.doleta.gov/press/2026/111926.pdf",
+        "priorPrice": "95.9300",
+        "priorStepBp": 26.772727,
+        "priorSource": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/18/2026&pageSize=500&isProtected=false",
+        "afterPrice": "95.9250",
+        "afterStepBp": 27.477273,
+        "changeBp": 0.704546,
+        "afterSource": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/19/2026&pageSize=500&isProtected=false",
+        "summary": "18 Nov settlement 95.9300 implied +26.77 bp at the 9 December decision. 19 Nov settlement 95.9250 implied +27.48 bp. Daily change +0.70 bp."
+      },
+      "2026-11-20": {
+        "priorDate": "2026-11-19",
+        "context": "Waller spoke in the morning and Cook spoke at midday.",
+        "priorPrice": "95.9250",
+        "priorStepBp": 27.477273,
+        "priorSource": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/19/2026&pageSize=500&isProtected=false",
+        "afterPrice": null,
+        "afterStepBp": null,
+        "changeBp": null,
+        "afterSource": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/20/2026&pageSize=500&isProtected=false",
+        "summary": "19 Nov settlement 95.9250 implied +27.48 bp at the 9 December decision. Post-speech quote unavailable. CME’s final report for 20 Nov supplied no settlement to compute the change."
+      }
+    }
+  }
+}

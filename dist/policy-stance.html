@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#20342b">
+  <meta name="description" content="Explore hawkish and dovish guidance in Federal Reserve statements, the rate decision at each meeting and the Treasury market response.">
+  <title>Hawkish or dovish? · Central Bank Intelligence</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="edition.css">
+  <link rel="stylesheet" href="empirical-studies.css">
+  <link rel="stylesheet" href="policy-stance.css">
+  <script defer src="policy-stance.js"></script>
+</head>
+<body class="es-page stance-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="cbi-head"><div class="shell cbi-bar">
+    <a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a>
+    <nav aria-label="Main navigation"><a href="./">Overview</a><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="policy-stance.html" aria-current="page">Statement scores</a><a href="research-archive.html">Archive</a></nav>
+  </div></header>
+  <main id="main" class="es-wrap stance-wrap">
+    <header class="score-heading">
+      <p class="institution">Federal Reserve · FOMC statements</p>
+      <h1>Hawkish or dovish?</h1>
+      <p class="score-lead">What did the Fed signal about its next move? Compare the wording of each statement with the rate move futures had priced in, the decision the Fed announced and the repricing of the next meeting.</p>
+      <p id="score-coverage" class="score-coverage" aria-live="polite"></p>
+      <nav class="section-nav" aria-label="Explore policy communication"><a href="#statements">Statement explorer</a><a href="#market-check">Market check</a><a href="#scoring">Scoring method</a><a href="jackson-hole-stance.html">Powell at Jackson Hole</a><a href="fed-speech-week.html">Fed speeches, 16–20 Nov 2026</a></nav>
+    </header>
+    <noscript>Enable JavaScript to explore the statements, or <a href="data/fed-statement-stance.json">open the full score dataset</a>.</noscript>
+    <section id="statements" class="stance-section" aria-labelledby="statements-title">
+      <h2 id="statements-title">Statement explorer</h2>
+      <p id="score-status" role="status">Loading statements…</p>
+      <div id="score-explorer" hidden>
+        <div class="filter-bar">
+          <label>Year<select id="year-filter"><option value="">All years</option></select></label>
+          <label>Guidance<select id="score-filter">
+            <option value="">All guidance</option><option value="hawkish">Hawkish</option><option value="dovish">Dovish</option><option value="steady">Explicit wait or hold</option><option value="unscored">Unscored</option>
+          </select></label>
+          <label>Rate decision<select id="action-filter">
+            <option value="">All decisions</option><option value="hike">Increase</option><option value="hold">Hold</option><option value="cut">Cut</option><option value="unknown">Unavailable</option>
+          </select></label>
+          <label>Next meeting vs pricing<select id="pricing-filter">
+            <option value="">All repricing</option><option value="1">More hawkish than priced</option><option value="-1">More dovish than priced</option><option value="0">Within 1 bp</option><option value="unknown">Unavailable</option>
+          </select></label>
+          <button class="reset-link" type="button" id="reset-filters" hidden>Clear filters</button>
+        </div>
+        <p id="filter-count" class="result-count" aria-live="polite"></p>
+        <div id="matched-content">
+          <section class="reading-section" id="statement-evidence" aria-labelledby="evidence-heading">
+            <div class="reader-heading"><div><h3 id="evidence-heading">Read a statement</h3><p id="example-links"></p></div>
+              <label class="meeting-label">Meeting date<select id="case-select"></select></label></div>
+            <div id="statement-card" class="statement-card" aria-live="polite"></div>
+          </section>
+          <div class="score-overview">
+            <figure class="time-chart"><figcaption>Guidance through time</figcaption>
+              <div id="time-plot"></div>
+              <div class="scale-legend"><span><i class="hawk-dot"></i>Hawkish</span><span><i class="steady-dot"></i>Wait or hold</span><span><i class="dove-dot"></i>Dovish</span><span><i class="missing-dot"></i>Unscored</span></div>
+            </figure>
+            <section class="distribution" aria-labelledby="distribution-label"><h3 id="distribution-label">Score distribution</h3><p>Statements in this selection</p><div id="distribution-list"></div></section>
+          </div>
+          <details class="meeting-table"><summary>Browse the meeting ledger</summary>
+            <div class="table-scroll" tabindex="0" role="region" aria-label="Meeting ledger"><table class="es-table">
+              <thead><tr><th scope="col">Meeting</th><th scope="col">Guidance score</th><th scope="col">Score change</th><th scope="col">Rate decision</th><th scope="col">Move priced in</th><th scope="col">Next meeting repricing</th></tr></thead><tbody id="meeting-rows"></tbody>
+            </table></div>
+            <div class="pager"><button id="recent-rows" type="button">More recent</button><span id="page-range" aria-live="polite"></span><button id="older-rows" type="button">Older</button></div>
+          </details>
+        </div>
+      </div>
+    </section>
+    <section id="market-check" class="stance-section" aria-labelledby="market-heading">
+      <h2 id="market-heading">How did markets read the Fed?</h2>
+      <p>Compare the direction of guidance with next-meeting futures repricing. Then check how changes in the language line up with two-year Treasury yields across scheduled statements.</p>
+      <div id="validation-result" aria-live="polite"><p>Loading market observations…</p></div>
+    </section>
+    <section id="scoring" class="stance-section" aria-labelledby="method-heading">
+      <h2 id="method-heading">How scoring works</h2>
+      <p>The score describes the direction of forward-looking policy guidance. The change compares it with the preceding eligible statement. A move from −2 to −1 is a hawkish shift within dovish guidance.</p>
+      <div class="method-layout"><div id="score-method"></div><div id="score-scale"></div></div>
+      <p class="method-links"><a href="data/fed-statement-stance.json" download>Download scores, evidence and rules (JSON)</a> <a href="historical-data.html">Policy rate history</a> <a href="macro-history.html?view=guidance">Historical guidance</a> <a href="market-reactions.html#speech-futures">Futures pricing before speeches</a></p>
+    </section>
+  </main>
+</body>
+</html>

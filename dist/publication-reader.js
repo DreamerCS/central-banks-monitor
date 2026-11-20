@@ -164,6 +164,45 @@ const PublicationReader = (() => {
     article.querySelector("#note-source").after(paragraph);
   }
 
+  let weeklySpeechReviews;
+  async function addSpeechReview(article, note) {
+    if (note.date < "2026-11-16" || note.date > "2026-11-20" ||
+        !note.url.startsWith("https://www.federalreserve.gov/newsevents/speech/")) return;
+    weeklySpeechReviews ??= fetch("data/fed-speech-week.json" + release).then(response => {
+      if (!response.ok) throw Error("Speech reviews unavailable");
+      return response.json();
+    }).catch(() => {
+      weeklySpeechReviews = undefined;
+      return null;
+    });
+    const study = await weeklySpeechReviews;
+    const review = study?.cases[note.url];
+    if (article.dataset.note !== note.url || review?.date !== note.date) return;
+
+    const section = document.createElement("aside");
+    section.className = "note-market";
+    section.setAttribute("aria-label", "Policy direction in this speech");
+    const heading = node("h3", "Policy direction in this speech");
+    const label = review.score === null ? review.label :
+      (review.score > 0 ? "+" : "") + review.score + " · " + review.label;
+    const judgement = node("p", "");
+    judgement.append(node("strong", label));
+    const evidence = node("p", "“" + review.evidence + "”");
+    const link = node("a", "See the scoring scale and this week’s seven speeches");
+    link.href = "fed-speech-week.html#" + review.id;
+    const window = study.pricing.windows[note.date];
+    section.append(heading, judgement, node("p", review.rationale), evidence);
+    section.append(node("h4", "Pricing for the December meeting"));
+    section.append(node("p", "Remarks at " + review.releaseTimeET + " ET. " + window.summary));
+    section.append(node("p", window.context));
+    const calculation = node("a", "December futures observations and calculation");
+    calculation.href = study.pricing.methodUrl;
+    const links = document.createElement("div");
+    links.append(link, calculation);
+    section.append(links);
+    article.querySelector(".note-summary").before(section);
+  }
+
   function addWorkedCase(article, url) {
     const match = workedCases.find(([source]) => source === url);
     if (!match) return;
@@ -202,6 +241,7 @@ const PublicationReader = (() => {
     article.querySelector("#note-title").textContent = note.title;
     article.querySelector("#note-source").href = note.url;
     addWorkedCase(article, note.url);
+    addSpeechReview(article, note);
     addPreSpeechLink(article, note);
     article.querySelector("#note-permalink").href = link;
     article.querySelector("#note-summary").replaceChildren(...note.summary.map(text => node("p",text)));
