@@ -1,0 +1,28 @@
+{
+  "title": "Korean government bonds rallied while short-term corporate funding became more expensive",
+  "bank": "Bank of Korea",
+  "date": "2026-11-11",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11066517&menuNo=400069",
+  "summary": [
+    "Korea’s government bond rally in October coincided with a rise in short-term market rates and continued demand for bank loans. In the Bank of Korea’s table on page 1, the three-year Treasury yield fell from 4.01% at the end of September to 3.72% at the end of October. The ten-year fell further, from 4.41% to 4.01%. The Bank cites lower foreign sovereign yields, stronger demand for safety as equities fell and reduced government issuance. A corporate treasurer rolling short-term debt faced a different market. Yields on 91-day A1 commercial paper rose from 3.42% to 3.84%, and the 91-day certificate of deposit rate rose from 3.22% to 3.32%.",
+    "The distinction matters when reading the equity figures alongside rates. The KOSPI fell from 6,838 to 5,731 during October, then to 5,239 on 10 November. The 23.4% decline in the table’s final column runs from end-September to 10 November. The commentary discusses concerns about the pace of AI investment and competition in semiconductors as well as concerns about data-centre regulation following the 3 November US elections. Those election-related concerns belong to the report’s November update. They cannot explain the October closing price. The Bank also associates the short-rate increases with expectations about the Base Rate and additional bank funding, without attributing the Treasury rally to an expected easing.",
+    "Bank household loans rose KRW 5.0 trillion in October, up from 0.5 trillion in September. Mortgages accelerated moderately, from 2.9 trillion to 3.3 trillion, as group lending for intermediate payments and moving costs increased. Leasehold deposit loans continued to fall. The larger change was in other household credit, which swung from a 2.3 trillion contraction to a 1.7 trillion increase. The Bank identifies quarter-end write-offs, holiday bonuses in September and stock purchases by individuals as relevant. Treating the full acceleration as demand for new homes would misread the category split on page 2.",
+    "Bank lending to businesses increased KRW 10.2 trillion after 10.7 trillion the previous month. Loans to smaller firms rose 6.2 trillion, reflecting banks’ willingness to lend and cash needed for an October VAT payment. Large firms borrowed another 4.0 trillion, including for bond redemptions. Publicly offered corporate bonds recorded 1.7 trillion in net redemptions. An increase in bank exposure can therefore partly replace a claim previously held by capital-market investors. It measures a change in the source of funding as well as any change in financing needed for ongoing activity.",
+    "The deposit figures on page 4 explain why banks could be attracting funds even with total deposits rising KRW 30.4 trillion. Transferable deposits fell 15.5 trillion as quarter-end corporate cash reversed and taxes came due. Time deposits rose 24.1 trillion and bank debentures rose 15.4 trillion as institutions prepared for maturities. Money market funds meanwhile regained 31.5 trillion after losing 25.6 trillion in September. The aggregate inflows thus contain liability replacement and cash moving back after quarter-end. Their composition offers a stronger guide to banks’ marginal funding cost than their sum."
+  ],
+  "questions": [
+    {
+      "question": "Does the divergence between Treasury and commercial paper yields indicate lasting pressure on short-term borrowers?",
+      "detail": "Follow the three-month commercial paper, certificate of deposit and bank debenture series alongside overnight repo and three-year government yields. The same table contains October closes and later November observations, so compare matching endpoints. Persistence after the corporate deposit maturities would carry more information about the cost of rolling credit than one government bond rally."
+    },
+    {
+      "question": "How much corporate borrowing has migrated from securities markets to banks?",
+      "detail": "Compare net corporate bond redemptions with large-company loan growth and publication of subsequent issuance. Smaller firms’ October VAT payments give a second, shorter-lived explanation for the overall increase. Separate the two borrower groups when assessing banks’ credit exposure and look for repayment after the tax date before inferring that investment demand has strengthened."
+    },
+    {
+      "question": "Which parts of household credit will recur after the September base effect passes?",
+      "detail": "Track group mortgages, leasehold deposit loans and other loans independently, and compare the next release with the September and October changes. October’s other-loan swing accounted for much of the headline acceleration. Its persistence would have a different implication for household leverage from a temporary reversal of holiday-related cash inflows and quarterly write-offs."
+    }
+  ],
+  "limitation": ""
+}

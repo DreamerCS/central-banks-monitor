@@ -1,0 +1,28 @@
+{
+  "title": "Taiwan’s October reserve money fell as bank reserves outweighed higher currency demand",
+  "bank": "Central Bank of the Republic of China (Taiwan)",
+  "date": "2026-11-11",
+  "url": "https://www.cbc.gov.tw/en/cp-448-194170-a4885-2.html",
+  "summary": [
+    "Taiwan’s average reserve-money balance fell NT$76.5 billion in October to NT$7,610.1 billion. The two components moved in opposite directions. Currency in circulation rose NT$10.5 billion, while reserves deposited at the central bank fell NT$87.0 billion. The identity reconciles the full monthly change. Bank reserves therefore accounted for more than the net fall, as the additional currency partly offset it. The central bank describes several Treasury and liquidity-management flows behind the result. It gives no indication of a change to an administered interest rate.",
+    "The sources of liquidity matter because the same monthly fall could otherwise invite very different policy interpretations. Government bond interest, Treasury-bill redemptions, repayments of government debt, disbursements of subsidies and the distribution of tax receipts all provided liquidity during the month. A net reduction in central-bank certificates of deposit also worked in that direction. Against these, tax remittances to the Treasury, new government bond issues and government borrowing absorbed liquidity. The Bank attributes the net fall to this latter group outweighing the expansionary flows. The release does not publish each flow in dollars, so it cannot support a ranking of tax collections, issuance and borrowing by contribution.",
+    "The annual comparison answers a different question. Reserve money still grew 6.80% relative to October 2025, down from 8.03% in September. Across the first ten months of 2026 its average annual growth rate was 7.20%, above the 5.84% reported for the corresponding period in 2025. A monthly drop, slower twelve-month growth and faster average growth across the year to date can therefore coexist. The September-to-October change describes the near-term availability of base money. The annual rate depends on the level in the comparison month a year earlier and supplies little information about exactly when within October the drains took place.",
+    "The accompanying balance-sheet table illustrates why the observation convention must be checked. In its September and October month-end rows, reserve deposits were NT$3,678.082 billion and NT$3,859.320 billion, respectively. Government deposits rose from NT$941.566 billion to NT$1,139.826 billion. These are snapshots taken on two dates. The increase in reserve deposits between the snapshots coexists with the fall in their average across the month. Treating the endpoint change as a measure of the monthly-average contribution would reverse the sign. The annex also distinguishes reserve deposits from other deposits of financial institutions.",
+    "A rates desk would want to know whether these drains briefly tightened banks’ access to funds and how much they had anticipated. A monthly quantity alone cannot answer that. Treasury receipts can shift the timing of reserves and subsequent expenditure can reverse the move. The release includes neither daily settlement balances nor overnight borrowing prices. It establishes a composition and a timing issue for liquidity analysis, without giving a signal of a lasting shift in the central bank’s rate stance."
+  ],
+  "questions": [
+    {
+      "question": "When during October did banks face the reserve drain?",
+      "detail": "Reconcile dated tax receipts, government bond settlements, maturities and public disbursements with daily reserve balances. Compare overnight interbank rates around the largest net drain days and their reversals. A short-lived funding squeeze matters to a different position from sustained upward pressure on the policy path."
+    },
+    {
+      "question": "Did the reduction in central-bank certificates cushion the pressure on particular banks?",
+      "detail": "Match certificate issuance and maturities to reserve-account changes across participants, where available. Compare banks that received maturing funds with otherwise similar banks that did not. Aggregate offsetting flows can conceal a shortage for institutions with less access to secured or interbank funding."
+    },
+    {
+      "question": "How much of the slowdown in annual growth came from the comparison base?",
+      "detail": "Recreate the twelve-month series from monthly average currency and reserve deposits in the Bank’s statistics. Keep those averages separate from the month-end balance sheet, and examine the two components over several months. That would distinguish a reversal in current liquidity demand from arithmetic caused by the previous October’s level."
+    }
+  ],
+  "limitation": ""
+}

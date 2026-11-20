@@ -1,0 +1,28 @@
+{
+  "title": "Reddit discussions reveal which risks are changing retail investor sentiment",
+  "bank": "European Central Bank",
+  "date": "2026-11-12",
+  "url": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261112~a4c8b903d9.en.html",
+  "summary": [
+    "Fabian Wagner and Julian Metzler use the language of investing forums to track how a speculative segment of retail investors responds to news. Their indicator measures whether favourable or unfavourable posts have become unusually prominent relative to the previous year. Because it is available at high frequency and can be broken down by subject, it can show whether a decline in confidence came from worries about growth, tariffs or a particular investment. It observes public discussion by users of selected forums. It does not count buy orders, identify household portfolio weights or establish how representative vocal users are of all investors.",
+    "Chart 1 sets out the construction. A language model classifies the title and body of a post as positive, negative or neutral, assigns a topic and identifies relevant tickers or asset classes. Context helps with slang, abbreviated names and informal references that a keyword search might miss. The authors give more weight to posts attracting comments and votes, using logarithms to limit the influence of high-engagement posts. They standardise the weighted positive and negative post series separately against rolling 365-day histories and subtract the latter from the former. A positive value therefore measures unusual optimism relative to that forum's recent past. It need not mean that a majority of users are optimistic.",
+    "Chart 2 shows how different topics contribute to the aggregate. In quieter markets, equity and options discussions often drive much of the movement. During the pandemic, macroeconomic discussions made a large negative contribution. In April 2025, tariff-related posts helped push the aggregate sharply lower. Chart 3 goes a step further by following particular topics over time. Russia's invasion of Ukraine depressed the geopolitics measure immediately, while the macroeconomic measure weakened later as attention shifted to energy costs and inflation. The announcement of US reciprocal tariffs elicited a much stronger response in macroeconomics than in geopolitics. A similar aggregate decline can therefore correspond to quite different expectations about companies and the wider economy.",
+    "Chart 4 compares two market-specific indicators with prices. Sentiment about the seven large US technology firms selected as an AI basket generally improved when those equities rose, and the association appeared closer in stressed markets. The discussion series was more volatile than prices. Bitcoin sentiment worsened during the 2017–18 and 2022–23 downturns, but diverged more often from the market price and fluctuated more sharply than the AI series. This makes the choice of market and period material to any use of the indicator. One ticker can be prominent on Reddit without the narrative carrying the same information as it does for another asset.",
+    "The authors also report an association between changes in sentiment and next-day equity returns, especially in downturns. The blog points to a companion paper for the complete empirical estimates. Its own figures illustrate the timing and content of discussion and give no trading-cost-adjusted return, out-of-sample hit rate or evidence that online comments caused prices to move. For a market monitor, the strongest immediately observable result is the ability to identify which concerns surfaced first and where a broad price move coincided with a shift in attention. The survey comparison concerns timeliness. Each source still represents a different group and a different question."
+  ],
+  "questions": [
+    {
+      "question": "Does the next-day association survive a strict real-time information cutoff?",
+      "detail": "Fix the time at which a post, its comments and its votes become observable, calculate sentiment using only information then available, and test subsequent returns separately during declines and calmer periods. Compare the signal with the previous day's return and volatility. This would show how much the index adds after public price information and engagement accumulated after the cutoff are excluded."
+    },
+    {
+      "question": "Can a shift from geopolitical to macroeconomic discussion anticipate changes in earnings expectations?",
+      "detail": "Identify episodes similar to the sequence following the invasion of Ukraine, record the order and persistence of topic-specific declines and compare them with subsequent revisions in energy-sensitive sectors. Use the tariff episode as a different sequence. The test would establish whether the mix of topics carries information beyond the size of the aggregate sentiment move."
+    },
+    {
+      "question": "How much of the AI and bitcoin divergence comes from forum composition?",
+      "detail": "Recompute each series with equal post weights, constant community weights and a common smoothing window. Compare the resulting market correlations with Chart 4 and review a sample of ambiguous ticker or sentiment labels. An apparent difference that disappears with a fixed user-community mix would call for a different interpretation from one that persists within the same forums."
+    }
+  ],
+  "limitation": ""
+}

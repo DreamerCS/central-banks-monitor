@@ -1,0 +1,28 @@
+{
+  "title": "Who funds a cheque-clearing shortfall under India’s uniform clearing-house rules?",
+  "bank": "Reserve Bank of India",
+  "date": "2026-11-13",
+  "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?Id=24100",
+  "summary": [
+    "A cheque can reach the clearing system through a bank with its own identifier yet still settle through another bank’s account. The Reserve Bank of India’s November version of the uniform clearing-house regulations makes that distinction central to understanding access and liquidity risk. Direct members need their own RBI settlement accounts. Both classes of sub-member send and receive instruments through a sponsor and settle in the sponsor’s account. The distinction between the classes is whether the sub-member uses the sponsor’s magnetic ink character recognition code or a separately allotted code. A separate code is therefore no evidence of independent settlement capacity.",
+    "Regulation 4 sets financial and operational conditions for direct membership. At application, the minimum capital-to-risk-weighted-assets ratio is 9%, net non-performing assets must be below 5% on the latest audited balance sheet, and the institution needs core banking or a centralised processing system. The regulation also calls for a supervisory recommendation, with a specific provision for newly licensed banks applying before starting banking services. Continued membership may be permitted on a supervisory recommendation if financial metrics later deteriorate. Regulation 6 puts ongoing emphasis on the ability to meet clearing obligations on time. An analyst cannot infer immediate exclusion simply from a reported ratio crossing its entry threshold.",
+    "Rule 10 explains where an intraday failure becomes a settlement problem. The clearing house publicises when it determines the net position and when the settlement bank will post it. Members must have funds in their RBI accounts at posting, within any stipulated window. Debits and credits settle the clearing balances, and the rule describes a completed transfer as final and irrevocable under Section 23 of the Payment and Settlement Systems Act. Failure to fund the account activates the applicable default-handling procedure. Counting payment instruments presented during a day therefore gives a different picture from measuring the net amount a bank must have ready at the settlement deadline.",
+    "The rule distinguishes between failures requiring recalculation on three or fewer occasions in a calendar month and those requiring it on more than three. The latter are classified as permanent for this purpose and prompt a review of continuing eligibility. Membership termination has its own hearing, decision and RBI notification provisions. An operational threshold should not be confused with automatic termination on the fourth occasion. There is a separate dependency for sponsored institutions. Regulation 17 says a sub-member whose sponsor ceases to be a member loses its participation until it obtains a new sponsor. Regulation 15 requires prior approvals and 14 days’ notice for an ordinary change of sponsor.",
+    "This framework is relevant to bank treasury and operational resilience because the number of institutions ultimately relying on one settlement account may exceed the number whose own accounts appear in the clearing. It also leaves important parameters to separate notices. Rule 2 refers to presentation and confirmation times communicated by RBI, and Regulation 7 allows instrument caps based on deposit liabilities without fixing a universal amount. The commencement date in Regulation 2 of the published form is blank. The 13 November publication date establishes when this version appeared and does not establish a new settlement timetable."
+  ],
+  "questions": [
+    {
+      "question": "Which sponsors carry the greatest concentration of intraday clearing obligations?",
+      "detail": "Link sub-member activity to the sponsor’s settlement account, including sub-members with separate MICR codes. Compare the resulting net debits with liquid balances available at the relevant posting times. An estimate based only on the number of direct members or the face value of all cheques could miss both the concentration and the offsetting credits that determine actual funding needs."
+    },
+    {
+      "question": "How frequently do delayed payments require a formal recalculation of obligations?",
+      "detail": "Rule 10’s distinction turns on recalculations in a calendar month. Separate these from processing delays that are resolved inside the permitted window, then examine whether the same member appears repeatedly and what its eligibility review finds. The distinction matters when deciding whether an incident indicates an operational interruption, a liquidity shortage or a threat to continued participation."
+    },
+    {
+      "question": "How quickly could a sponsored institution maintain service after its sponsor leaves?",
+      "detail": "Use the change-of-sponsor and cessation provisions to identify approvals, technical mapping and replacement settlement arrangements. The ordinary notice period and the consequence of a sponsor’s loss of membership serve different purposes. A tested contingency plan and observed transfer times would tell customers more about service continuity than the mere existence of an alternative sponsor."
+    }
+  ],
+  "limitation": "This analysis uses RBI’s published regulatory and operating text. Its separately linked forms and default-handling annex are unavailable for independent inspection."
+}

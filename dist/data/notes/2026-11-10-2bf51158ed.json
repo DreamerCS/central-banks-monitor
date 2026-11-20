@@ -1,0 +1,28 @@
+{
+  "title": "A digital euro pilot has a timetable, while first issuance still depends on legislation",
+  "bank": "European Central Bank",
+  "date": "2026-11-10",
+  "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110~9422461bad.en.html",
+  "summary": [
+    "Piero Cipollone's 10 November statement to the European Parliament distinguishes three stages in the digital euro: agreeing the legal basis, testing a limited pilot and deciding when a first issuance can take place. Parliament had adopted its position on the Single Currency Package on 9 July and negotiations with the other EU institutions were continuing. Cipollone supported agreement by the end of the year under the One Europe, One Market roadmap. He said a first issuance date could be set only after adoption of the regulation. The statement is therefore evidence of preparatory work and a legislative dependency, rather than confirmation that a public launch had been approved.",
+    "The pilot is scheduled to start in the second half of 2027. A beta version without legal tender status would allow Eurosystem staff, participating payment service providers and selected merchants to test everyday payments, initially in settings such as central bank canteens. The ECB selected 36 banks and non-bank providers from more than 50 applicants, covering different sizes, business models and locations. A further call in September invited online and mobile merchants to test remote payments, with the selection due early in 2027. The trial is intended to check technical functions, operating procedures and user experience together. Participation demonstrates an interest in testing. It cannot establish how widely consumers or merchants would use a live product.",
+    "Cipollone envisages a distinction between what the system can do and how quickly shops can offer it. The Eurosystem plans to make person-to-person, e-commerce and point-of-sale payments technically available from first issuance. Feedback from market participants favours a gradual introduction in shops, giving providers and merchants time to adapt. A scheme rulebook would supply common rules, standards and procedures for basic payment services. Its final design still depends on the legal framework. A separate innovation programme scheduled for January to June 2027 would experiment with features such as electronic receipts and conditional payments and explore uses of AI in payments. These are areas for investigation rather than commitments on the features of a first public release.",
+    "Wholesale settlement is further along. Pontes, launched in September, connects market distributed-ledger platforms to Eurosystem TARGET Services for settlement in central bank money. Eighteen market participants and platform operators joined on the first day. On 2 November it settled the European Stability Mechanism's first digitally native benchmark bond, a €1 billion issue. This is concrete evidence that central bank money was used for a tokenised securities transaction. It concerns a wholesale settlement service with different users and infrastructure from the proposed means of payment for households and merchants.",
+    "Cash remains part of the same legislative agenda. Almost ten million responses were received on ten designs for the next banknote series. The Governing Council expected to choose a final design concept around the end of 2026, with the first denominations entering circulation in the early 2030s. Cipollone also argued for mandatory acceptance, access to cash and resilient cash infrastructure. His case for a digital euro rests on extending the availability of European public money as payments move online and reducing reliance on foreign providers. The speech supplies milestones against which to judge those ambitions, while leaving merchant adoption, operating costs and the date of public issuance to future decisions and evidence."
+  ],
+  "questions": [
+    {
+      "question": "Which pilot results would establish readiness for remote and in-person payments?",
+      "detail": "Separate completion rates, recovery after failed payments, operating effort and user experience for canteen purchases, remote merchants and person-to-person transfers. Compare large banks, smaller providers and non-bank participants among the 36 selected. This would reveal whether a smooth staff payment in a controlled setting translates into consistent service across the use cases expected at first issuance."
+    },
+    {
+      "question": "How would a phased shop rollout affect the gap between technical availability and practical acceptance?",
+      "detail": "Track the share of participating merchants able to accept payments, the time and cost of integration, and repeat use after acceptance begins. Compare those results with merchants entering later. If consumers can access a wallet before nearby shops can accept it, wide technical availability could coexist with low practical usefulness during the early rollout."
+    },
+    {
+      "question": "Where would digital euro use add an independent European payment option?",
+      "detail": "In the pilot, record what payment method each transaction would otherwise have used, alongside cash access and acceptance at the same locations. This would help distinguish displacement of other European instruments from substitution for foreign providers. Evaluate the wholesale Pontes transaction separately, since its demonstrated settlement capability does not measure the proposed retail instrument's contribution to payment autonomy."
+    }
+  ],
+  "limitation": ""
+}

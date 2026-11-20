@@ -1,0 +1,28 @@
+{
+  "title": "Singapore’s transition funds have raised US$1 billion. How much has reached a project?",
+  "bank": "Monetary Authority of Singapore",
+  "date": "2026-11-11",
+  "url": "https://www.mas.gov.sg/news/speeches/2026/from-execution-to-impact---financing-asias-transition-and-resilience",
+  "summary": [
+    "For a bank deciding whether to finance an Asian energy or transport project, a taxonomy can settle a question about eligibility. It cannot make the cash flows bankable or guarantee that a borrower will deliver projected emissions savings. Abigail Ng, Chief Sustainability Officer at the Monetary Authority of Singapore, gave a concrete comparison in her Singapore Pavilion Finance Day remarks. Three funds under the Financing Asia’s Transition Partnership, FAST-P, had collectively raised more than US$1 billion. At project level she identified US$50 million in financing announced for Candi Solar. One figure measures money raised across funds and the other a specific financing transaction. Neither is a measure of emissions already avoided.",
+    "The revised Singapore-Asia Taxonomy addresses the eligibility question. Paragraph 7 describes the second edition’s changes in energy, maritime, data centres, and iron and steel, including guidance on activities that enable transition and on equity financing. The Fund for Energy Efficiency Technologies plans to use the updated criteria when investing in measures such as wind-assisted propulsion. For a shipowner, eligible investment can therefore include equipment that reduces fuel use on an existing vessel. The test is what emissions saving the retrofit delivers, over what operating life, and against what baseline.",
+    "The financing partnerships address different problems. Clifford Capital manages a programme covering grids and replacement of coal generation with lower-emission alternatives. For industrial transformation, the Asian Development Bank, AIA and Japan International Cooperation Agency had signed commitments to an infrastructure credit fund. ADB’s commitment includes funds managed on behalf of Australia and Canada. Pentagreen Capital’s Green Investments Partnership focuses on mid-sized developers across Southeast Asia and India. Its Candi Solar financing aims to widen access to solar and battery storage for underserved Indian businesses, including smaller firms. The expected annual saving of about 400,000 tonnes of carbon dioxide is a project estimate, with performance still to be observed.",
+    "Financial institutions are also investing in the capacity to assess and allocate risk. Standard Chartered is expanding its Singapore-based carbon market operations, including financing for developers. WWF-Singapore and Great Eastern plan to pilot insurance for nature-based carbon projects. Protecting against project or credit-delivery problems could change what a lender is willing to fund. The remarks describe the pilot’s aim without specifying an insurance limit, price or underwriting result.",
+    "Adaptation poses a different measurement problem. Prevented flood damage, continued food production and the ability to insure a site depend on local conditions. MAS is comparing existing ways to assess resilience and identify gaps. Ng cited Zurich’s plan for a Singapore resilience centre in the first quarter of 2027 as an opportunity to bring insurance data and experience to design and construction decisions before losses occur. Under the new SPIRE Asia programme, a proposed blended-finance fund of up to US$500 million would target agri-food resilience. Paragraphs 25–26 invite catalytic capital providers, technical partners and managers. Its proposed size therefore belongs in a prospective pipeline, separate from the US$1 billion already raised by the three transition funds."
+  ],
+  "questions": [
+    {
+      "question": "How much of the capital raised becomes financing for completed, operating assets?",
+      "detail": "Track the three FAST-P partnerships separately from fund close through commitments, drawdowns and project operation. Candi Solar provides an identifiable starting point. Comparing financing actually deployed with generation, storage use and observed emissions savings would show where the bottleneck lies. The distinction matters for lenders assessing how soon fund commitments become revenue-producing assets."
+    },
+    {
+      "question": "Which risks can an insurance policy transfer at a price a project can bear?",
+      "detail": "The Great Eastern and WWF-Singapore pilot targets project and carbon-credit delivery risks. Examine which events trigger payment, exclusions, coverage periods and the party retaining uncovered losses. An improvement in credit terms or evidence that a previously unfinanceable project can proceed would speak more directly to the proposed mechanism than the existence of a pilot alone."
+    },
+    {
+      "question": "How will an agri-food resilience fund compare projects exposed to different physical hazards?",
+      "detail": "Look for site-specific baselines, the loss or disruption each intervention is expected to prevent, and evidence on continued access to insurance. Compare those measures with the capital and risk each proposed investor would provide. This would help determine whether SPIRE Asia can assemble a portfolio with a defensible resilience objective while respecting the local nature of adaptation outcomes."
+    }
+  ],
+  "limitation": ""
+}

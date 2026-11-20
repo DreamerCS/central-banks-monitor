@@ -1,0 +1,28 @@
+{
+  "title": "Japan’s September spending rebound did not recover the third-quarter loss",
+  "bank": "Bank of Japan",
+  "date": "2026-11-09",
+  "url": "https://www.boj.or.jp/en/research/research_data/cai/index.htm",
+  "summary": [
+    "The Bank of Japan’s Consumption Activity Index shows a small September recovery inside a weaker third quarter. Real consumption rose 0.2% from August on both the headline and travel-adjusted measures. For the quarter as a whole, headline activity fell 0.7% and travel-adjusted activity fell 0.6%, following increases of 0.8% and 0.7% respectively in the second quarter. Reading September alone would therefore overstate the strength of the turn. July had been positive, but the decline in August was substantially larger than the September gain (chart 1, seasonally adjusted).",
+    "The release offers two different views of who is doing the spending. The travel-adjusted measure excludes spending by visitors to Japan and includes Japanese residents’ spending abroad. The unadjusted headline retains the domestic-location basis. The quarterly fall is visible in both, with travel adjustment making the decline about one tenth of a percentage point smaller. This comparison narrows the interpretation: shifts between inbound and outbound travel do not remove the weak quarterly picture. The difference in growth rates does not give the value of tourism receipts or separate visitor numbers from spending per visitor.",
+    "The composition was uneven. From the quarterly data in the published workbook, real durable-goods activity fell about 7.1% between the second and third quarters, non-durables fell about 1.6% and services rose about 1.0%. The chart gives 2020 weights of 8.6%, 44.3% and 47.1%, respectively. The large percentage fall in durables therefore occurred in the smallest group. The more moderate fall in non-durables applied to a much larger share of the index, while services provided an offset. These are index movements; multiplying each by a base weight gives only an approximation to its contribution to the change in the aggregate.",
+    "September also differed across categories. Calculations from the monthly sheet show real durables falling another 1.4%, while non-durables rose about 0.4% and services about 0.3%. On the headline, nominal consumption rose about 0.7% against about 0.2% in real terms. Nominal growth measures the change in spending at current prices. It can therefore give a stronger impression of demand than the change in the volume of goods and services purchased. The difference here is an implied aggregate price-and-composition effect; it is not the published consumer price inflation rate.",
+    "The index is designed as a timely indicator. The note beneath chart 1 states that components lacking a final observation for the latest month are extrapolated from the previous month. Later source releases can consequently change both the month’s movement and the quarter-end starting point. Nor does the release identify a reason for the durable-goods decline: expenditure might have shifted across months or demand might have weakened more persistently. The Bank publishes no monetary-policy conclusion in this statistical release. For a policy or earnings view, the practical test is whether the next observations confirm wider weakness or a narrow reversal in the more volatile goods categories."
+  ],
+  "questions": [
+    {
+      "question": "Is the durable-goods fall persistent or a shift in the timing of purchases?",
+      "detail": "Compare the monthly and quarterly workbook with primary vehicle registrations and other product-level sales available for the same period. Look for an earlier spike followed by a reversal, and compare categories with different replacement cycles. Persistence would have different implications for discretionary-sector revenues and the policy outlook."
+    },
+    {
+      "question": "How much of the September improvement could be revised?",
+      "detail": "Keep the 9 November vintage and identify components for which the Bank carried forward the previous observation. Recalculate monthly growth and the quarterly average as new source data arrive. For judging a turning point, the size and direction of revisions matter more than an extra decimal place in the current headline."
+    },
+    {
+      "question": "Can services offset weak goods consumption for residents?",
+      "detail": "Compare the travel-adjusted series with the headline and use service-industry releases and official travel receipts to separate residents’ domestic purchases from visitor demand. Look at real and nominal measures together. An increase confined to visitor spending or prices would offer weaker evidence of an improvement in domestic purchasing power."
+    }
+  ],
+  "limitation": ""
+}

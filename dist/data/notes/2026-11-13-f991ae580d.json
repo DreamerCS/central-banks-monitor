@@ -1,0 +1,28 @@
+{
+  "title": "Taxing capital, rewarding labor? The international and generational dimensions",
+  "bank": "Deutsche Bundesbank",
+  "date": "2026-11-13",
+  "url": "https://www.bundesbank.de/en/publications/research/discussion-papers/taxing-capital-rewarding-labor-the-international-and-generational-dimensions-1008210",
+  "summary": [
+    "Matthias Schön and Nikolai Stähler find that shifting tax from labour to capital has no single implication for German growth. A levy on households’ savings income, a levy on capital employed by firms and a tax on unintended bequests can finance the same labour-tax cut while producing different paths for jobs, investment and external liabilities. Their comparison is a calibrated model experiment for Germany and the rest of the EU. It does not estimate an announced reform, its political probability or its effect on an identified traded security.",
+    "In every experiment, the German government permanently cuts the labour-income tax rate by five percentage points. The replacement tax adjusts in each model period to maintain a fixed public debt stock. This constraint matters: borrowing cannot postpone the funding cost for current households. The two regions can exchange differentiated goods and capital. Households differ by age, employment status and their position in the saving cycle; wages are bargained and jobs take time to match. One model period lasts five years. Readers should interpret the initial response as a change at that frequency, rather than project it onto next quarter’s growth or public revenue.",
+    "In the benchmark, higher taxation of savings income allows the labour-tax cut to raise take-home pay while reducing gross labour costs. Firms employ more workers, and non-participation falls. The employment rate rises by more than 2.5 percentage points and output initially increases by around 2.5% (Figures 1 and 3). Those similarly sized numbers refer to different variables and units. Higher labour demand initially supports investment, but the lower after-tax return to financial wealth weakens private saving. Aggregate saving eventually falls by more than 1.5% relative to its pre-reform level. International capital mobility allows domestic investment and saving to diverge, producing a deterioration in Germany’s net foreign asset position. The immediate employment result therefore gives an incomplete guide to the stock of claims Germans hold on future income.",
+    "Taxing productive capital instead raises the cost of using capital in German production. Companies accumulate less of it, reducing the amount available per worker and weakening output. Long-run output is about 3% below its initial level in the comparison. A tax on accidental bequests avoids that direct increase in the cost of productive capital. It delivers a stronger aggregate activity profile, but strong investment alongside weaker long-run saving requires financing from abroad. The paper’s intergenerational comparisons show why maximising measured domestic activity need not maximise welfare for each cohort.",
+    "Incidence depends on when households encounter the reform. People near or beyond retirement hold assets accumulated under the previous tax system and have fewer working years in which to benefit from lower labour taxation. Future entrants can adjust work, consumption and saving throughout their lives; in the benchmark, sufficiently distant future cohorts gain more than 1.25% in lifetime consumption-equivalent terms. That measure is a uniform hypothetical change in baseline consumption giving the same lifetime welfare, rather than an annual income gain. The benchmark saving tax offers the authors’ preferred trade-off for future cohorts within the model, while bequest taxation makes incidence more uneven. Their ranking is conditional on the model’s fixed population structure and focus on differences between cohorts. Wealth and income inequality among people of the same age and a changing demographic structure could alter the distribution in an actual reform."
+  ],
+  "questions": [
+    {
+      "question": "Which effective tax base would the legislation change?",
+      "detail": "The model separates household asset returns, firms’ user cost of capital and accidental transfers. A statutory rate alone cannot identify the relevant mechanism. Review the proposed base, exemptions, deductibility and ownership of taxed instruments in fiscal documentation. For earnings and capex exposure, estimate how much of the burden reaches operating companies rather than household investors."
+    },
+    {
+      "question": "How much of a German saving shortfall would foreign investors finance?",
+      "detail": "Integrated capital markets allow investment and domestic saving to diverge. The model describes the resulting external position but gives no market price for the actual flows a reform might induce. Compare flow-of-funds accounts, cross-border ownership and foreign investment in affected industries. The financing response matters for domestic investment and for who ultimately receives the associated income."
+    },
+    {
+      "question": "Would the estimated incidence survive realistic heterogeneity within cohorts?",
+      "detail": "Age drives the paper’s welfare comparison, while pension portfolios, housing wealth, taxable savings and intended inheritances can vary substantially within an age group. Household balance-sheet surveys and fiscal microsimulation could map the replacement taxes onto actual asset owners. That evidence would affect both the sustainability of the reform and any ranking based on future-cohort welfare. Model the fiscal transition separately from its steady state."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Geopolitische Umbrüche – Wie bleibt Europas Wirtschaft stabil?",
+  "bank": "Deutsche Bundesbank",
+  "date": "2026-11-12",
+  "url": "https://www.bundesbank.de/de/presse/reden/geopolitische-umbrueche-wie-bleibt-europas-wirtschaft-stabil--964978",
+  "summary": [
+    "Joachim Nagel’s argument at the Talking Heads event is that European companies and governments face different decisions when a supplier fails. Each firm has an incentive to protect its own production. A government also has to consider the damage a disruption at one firm can cause to customers, infrastructure and the rest of the economy. Nagel sees a case for targeted intervention where those losses are substantial or where security is at stake. His starting point remains international openness: investment, access to ideas and trade are among the advantages Europe would sacrifice by treating every foreign supplier as a threat.",
+    "For a manufacturer, the first task is to identify the component, supplier, country or transport route whose interruption can stop production. Exposure measured simply by purchase value would miss the role of an input that is cheap but indispensable. Multiple suppliers can raise purchasing and logistics costs in ordinary times, while reducing the loss in the unusual event of a major interruption. Nagel likens the ongoing cost to an insurance premium. There is no single commercially sensible form of insurance. A deeper European supplier network may work in one sector, reliable partners spread across regions in another. Where the consequences of an interruption are especially severe, a company might build capacity of its own. The speech gives no cost threshold for choosing among these alternatives.",
+    "Digital infrastructure provides an example of how the public calculation can differ from the private one. Nagel mentions advanced AI models, computing capacity, data centres and AI-assisted cybersecurity as services whose disruption can spread beyond their direct purchaser. He asks policymakers to evaluate the benefits of intervention alongside its cost and possible distortions to competition. Public procurement could require European data processing for a critical service or stipulate designs that are easy to transfer to another provider. Those are possible procurement choices, each intended to keep a service running if a supplier becomes unavailable. The speech does not announce a contract or a localisation rule.",
+    "Nagel gives policymakers three broader priorities. Cross-border expansion still exposes firms to different national rules, administrative work and extra costs. A more integrated internal market for energy, computing and data storage would enlarge the set of viable suppliers and customers and improve conditions for investment. Deeper capital markets would also give young companies better access to equity and venture funding as they scale. Investors in those instruments take a share of the business risk. More European financing options could let a firm fund subsequent growth rounds within Europe, even when outside funding would otherwise be its only practical route.",
+    "The third priority is payments. Businesses and households depend on payment services every day, so a concentration of providers outside the region can also become an economy-wide exposure. Nagel argues for stronger European alternatives and presents the digital euro as a potential payment instrument for the public and a contribution to resilience. For investors, the implementation distinction runs through all three policy areas: access to a broader supplier, funding or payment network creates an option. Whether firms use it and what they are willing to pay depend on their individual exposure to disruption. Nagel specifies neither an implementation timetable nor a costed programme."
+  ],
+  "questions": [
+    {
+      "question": "Which supply interruptions justify paying a recurring diversification premium?",
+      "detail": "The speech identifies dependencies that can halt production and allows for very different solutions by sector. To value a second supplier, compare procurement and logistics costs with inventory coverage, supplier qualification times and lost contribution margins during an outage. Company procurement disclosures and operational-risk scenarios would help distinguish a material earnings hedge from a costly supplier duplication."
+    },
+    {
+      "question": "Would European risk capital actually change which companies can fund a later round?",
+      "detail": "Nagel links market integration to a broader choice of equity funding, while leaving the identity of constrained firms open. Compare follow-on rounds by size, sector and investor residence with the terms offered to otherwise similar firms. Venture fund disclosures and official financing surveys could identify whether the shortfall concerns available capital, investor risk appetite or the business prospects of the companies seeking it."
+    },
+    {
+      "question": "Which critical services can realistically be moved to another provider?",
+      "detail": "A contract may require portability while technology or operational procedures still make switching slow. Review public tender specifications, continuity exercises, standards for data transfer and evidence on recovery times. For valuations of suppliers and customers, distinguish resilience achieved through an alternative service from revenue redirected by a rule about the location of data processing."
+    }
+  ],
+  "limitation": ""
+}

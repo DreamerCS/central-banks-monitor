@@ -1,0 +1,28 @@
+{
+  "title": "Government hiring led Las Cruces payroll growth as copper and potash prices diverged",
+  "bank": "Federal Reserve Bank of Dallas",
+  "date": "2026-11-10",
+  "url": "https://www.dallasfed.org/research/indicators/snm/2026/snm2603",
+  "summary": [
+    "Payrolls in Las Cruces expanded at a 7.8% annualized rate over the three months to September, outpacing the 3.7% pace across New Mexico. The Dallas Fed’s third-quarter report shows how dependent that apparent strength was on the composition of employment. Government jobs rose sharply, two sizable service industries contracted, the unemployment rate held steady, and local hourly earnings edged down over the quarter. Statewide oil production and copper prices provided additional signs of strength in the regional economy. They measure different activities, over different periods, from the city payroll figures.",
+    "The first chart compares seasonally adjusted employment levels indexed to February 2020. The Las Cruces series ended at 114.7, compared with 105.0 for New Mexico and 104.6 nationally. Those are levels relative to a common base. The separate 7.8% figure expresses a recent three-month change at an annual rate. The national comparison of 1.0% annualized uses the three months ending in October, a month later than the local and state observations. Across the year to September, the city added 3.4% to payrolls. Each of these measures tells a different part of the story about the pace or cumulative extent of hiring (charts 1–2).",
+    "Government employed 26.4% of local workers in the sector chart and posted an 11.3% year-over-year increase. Financial activities grew 3.7%, but represented just 3.3% of total employment. Trade, transportation and utilities, a much larger sector, grew 3.2%. Education and health services, with 22.9% of jobs, expanded 2.1%. Leisure and hospitality contracted 3.3% and professional and business services shrank 2.6%. Together those two declining categories accounted for nearly a fifth of employment. For a reader assessing private demand, the growth rate in the largest expanding industry carries a different significance from growth distributed evenly across local employers.",
+    "Quarter-end unemployment was 5.4% in Las Cruces, unchanged since June and above New Mexico’s 4.7% in September and the national 4.1% in October. The local labour force grew at an annualized 0.8% over the quarter. The wage series covers private employers and uses a seasonally adjusted, three-month moving average. Nominal hourly earnings slipped from $25.88 in June to $25.67 in September, yet stood 4.0% above their year-earlier level. Statewide earnings grew 7.7% year over year, while the national increase was 3.1% in October. The release does not report hours, household income or local inflation, which limits what an hourly-pay comparison says about purchasing power (charts 3–4).",
+    "In New Mexico as a whole, August crude oil output reached 2.4 million barrels per day, up 8.9% year over year. The rig count, measured on the other axis of chart 5, rose from 96 in July to 98 in October. Output and rigs refer to different endpoints. Commodity prices also diverged. The three-week average copper spot price rose from $6.33 per pound in late July to $6.56 in late October, 30% above a year earlier. Potassium chloride fell from $386.67 to $368.88 per metric ton between July and October, still 1.5% above a year earlier (chart 6). These benchmarks give a direction for prices facing regional producers. Production volumes, hedges and operating costs would be needed to turn them into estimates of company cash flow."
+  ],
+  "questions": [
+    {
+      "question": "How durable is the government hiring that drove the local employment gain?",
+      "detail": "Public employers represent more than a quarter of local jobs and their payrolls grew considerably faster than total employment. Seek the underlying metropolitan employment series and staffing or budget releases from the relevant public employers. Distinguish recurring positions from temporary hiring or revisions. That distinction affects assumptions about recurring household income, commercial occupancy and sales in the city."
+    },
+    {
+      "question": "Do local households still have increasing income available to spend?",
+      "detail": "The release combines a strong payroll reading with unchanged unemployment and a decline in the smoothed private hourly wage since June. Consult local payroll estimates, labour-force tables and available administrative wage records for hours, employment and earnings by industry. Align the months and distinguish government from private employment. A change in hours or the mix of workers could alter the implication for local consumption."
+    },
+    {
+      "question": "Which commodity price gains can regional producers actually realize?",
+      "detail": "The charts show spot copper, a potash benchmark, statewide oil production and active rigs, all on different reporting schedules. Review producer filings, realized sales prices, sales volumes, hedging disclosures and state production records available with the report. Compare quantities and costs with the benchmark movements. That would permit a cash-flow estimate by producer or commodity rather than assuming all regional extraction businesses experienced the copper price increase."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Korea’s broad money grew while balances available for immediate use fell",
+  "bank": "Bank of Korea",
+  "date": "2026-11-13",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11066554&menuNo=400069",
+  "summary": [
+    "Korea’s September monetary statistics show how differently households and businesses can experience liquidity depending on which balances they hold. Seasonally adjusted broad money, M2, averaged KRW 4,283.9 trillion, up KRW 17.1 trillion or 0.4% on August. Narrow money, M1, fell KRW 2.4 trillion to 1,355.2 trillion. It was the third consecutive monthly fall in M1. The combination matters for anyone using deposits as a guide to spending capacity. An increase in bank and fund balances need not put an equivalent amount into immediately accessible transaction accounts.",
+    "The instruments in Table 1.1 explain the divergence. Demand deposits increased from KRW 396.8 trillion to 400.1 trillion, but transferable savings deposits fell from KRW 755.3 trillion to 750.8 trillion and currency in circulation fell from 205.5 trillion to 204.3 trillion. Those movements account for the fall in narrow money. Outside this narrow group, money market fund shares rose from KRW 201.0 trillion to 209.1 trillion, and short-term time and savings deposits increased from 1,816.1 trillion to 1,824.2 trillion. Each of those increases was more than three times the net decline in M1. Short-term money held in trust moved in the opposite direction, falling about KRW 10 trillion. An unqualified claim that savers moved from one product into a particular other product would go beyond these net stock changes.",
+    "The difference between the monthly move and the twelve-month trend is equally important. Broad money grew 5.5% from a year earlier in the original series, down slightly from 5.6% in August. Narrow money remained 3.4% above a year earlier even after its monthly declines, compared with 10.0% in June. In the headline table, parentheses report monthly changes in seasonally adjusted stocks, whereas square brackets compare unadjusted observations with a year earlier. Applying the two growth rates to the same denominator would give an incorrect reconciliation.",
+    "The wider measures provide another check on whether the decline in transaction balances amounted to a general withdrawal of liquidity. Financial-institution liquidity, Lf, averaged KRW 6,410.0 trillion, up 0.4% during the month and 6.8% from a year earlier. The widest measure, L, was KRW 8,129.1 trillion and also gained 0.4% in September, with annual growth of 7.0%. Its observation is taken at month-end. Subtracting the published Lf average from the L month-end value would therefore mix changes in instrument coverage with differences in observation dates.",
+    "For a reader assessing funding conditions, the tables establish a rise in broader balances alongside a shift in their composition. They do not establish who bought a particular fund share from whom, what the funds were used for, or which change came from a transaction rather than other adjustments to stocks. Table 1.1 also carries a separate historical-definition M2 series. Its September increase of 0.5% differs from the current headline’s 0.4%. Keeping instrument definitions and observation windows fixed is especially important when comparing September with older editions of the release."
+  ],
+  "questions": [
+    {
+      "question": "Will the loss of transaction balances persist after September?",
+      "detail": "Compare currency, demand deposits and transferable savings deposits in both period-average and period-end Tables 1.1 and 1.2. A continuing decline across both timings would be stronger evidence of a sustained reduction in immediately available balances. A movement visible only at month-end could instead reflect the timing of payments. Different implications for spending and near-term bank funding follow from the two patterns."
+    },
+    {
+      "question": "How much of broad-money growth continues to come from interest-bearing instruments?",
+      "detail": "Track the absolute changes in time and savings deposits, money market fund shares and money in trust together. September's first two increases were large, but they coincided with a substantial fall in the third category. Compare several months in the same adjusted series before attributing the broad-money increase to a persistent change in investor preference or estimating its effect on banks’ funding mix."
+    },
+    {
+      "question": "How sensitive is the liquidity signal to the aggregate an investor normally follows?",
+      "detail": "Repeat the comparison using current-definition M2 and Lf at the same observation frequency, then examine L using period-end data throughout. Report both the monthly changes and the unadjusted year-on-year rates. This would show whether an apparent slowdown survives the choice of instruments, seasonal adjustment and timing, rather than arising from one particular headline."
+    }
+  ],
+  "limitation": ""
+}

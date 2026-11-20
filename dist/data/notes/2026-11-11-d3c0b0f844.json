@@ -1,0 +1,28 @@
+{
+  "title": "Britain’s retail payments blueprint leaves the boundary of the common core open",
+  "bank": "Bank of England",
+  "date": "2026-11-11",
+  "url": "https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london",
+  "summary": [
+    "A choice about which services every payment provider must share sits at the centre of Victoria Cleland’s account of the UK’s next retail payments infrastructure. Most respondents to the June consultation supported a relatively thin common core, leaving room for competing services above it. They differed on which capabilities belonged in that core. For banks, merchants and prospective entrants, the difference matters. A common service can save each participant the cost of building it, but making it compulsory also determines what every provider must use and where new providers can differentiate their products.",
+    "Cleland chairs the Retail Payments Infrastructure Board, which is turning the authorities’ policy objectives into a high-level design for clearing and messaging. It received 121 responses from financial institutions, payments and technology firms, merchants, consumers, trade bodies and others. Roundtables provided additional evidence. The speech reports areas of support and disagreement. It supplies neither a vote by customer segment nor a representative survey of likely transaction volumes. Support for account-to-account payments at the point of sale, for instance, shows why the architecture should accommodate that use. It does not establish how many merchants or customers would adopt it.",
+    "The Board wants one set of common capabilities to support several kinds of payment. Respondents backed familiar journeys alongside instant payments using aliases, delegated or deferred payments and transfers between different forms of money. The ambition is for a payer using one form of money to transfer value at par to a recipient using another. Cleland gives faster payments, stablecoins and programmable payments as examples of what the core could support. A connection to the Bank’s real-time gross settlement system would provide final settlement in central bank money. These are distinct promises: a common settlement asset can support confidence, while achieving a simple at-par experience for the customer also depends on the services surrounding the core.",
+    "Respondents supported modular design, common interfaces and consistent use of ISO 20022 messaging. They also wanted controls against fraud and financial crime to be considered at the design stage. Some responsibilities will sit above the shared infrastructure. Rules on consumer protection and liability, commercial incentives, acceptance by merchants, fair access and services for vulnerable customers all affect whether an available payment method becomes a usable one. Responsibility for resolving a failed or disputed transaction therefore matters alongside the speed at which a successful one clears.",
+    "The next milestone is a handover, not a launch. The Board, the Design Authority, the industry-led Delivery Company and industry experts are to develop the blueprint together. In spring 2027 the Delivery Company is due to receive it and take forward detailed design, procurement, construction and implementation. Pay.UK continues to operate the existing systems. Cleland says migration planning depends on knowing the target design, while other innovation can continue during that work. The speech offers a basis for assessing which investments depend on shared specifications and which providers can make independently. It gives no project budget, date for switching off existing services or forecast of fees and merchant volumes."
+  ],
+  "questions": [
+    {
+      "question": "Which services will the blueprint require every participant to share?",
+      "detail": "Compare the consultation response and eventual blueprint with the operating rules and interface specifications. Identify which functions must be procured centrally, which can be supplied competitively and who bears the cost of changes. This determines whether a prospective provider can reuse the core, whether smaller providers incur duplicate fixed costs and where an incumbent can retain a differentiated service."
+    },
+    {
+      "question": "Will a viable merchant and consumer proposition follow from technical interoperability?",
+      "detail": "For account-to-account retail payments, look for scheme terms on acceptance, refunds, liability, pricing and accessibility. Evidence from merchant trials and user testing could distinguish interest in a new option from an intention to use it at checkout. A common message standard or at-par settlement alone provides little evidence about conversion, revenue per payment or the economics of offering protection."
+    },
+    {
+      "question": "How will participants finance and manage the transition while existing systems remain available?",
+      "detail": "Follow the Delivery Company’s implementation plans and Pay.UK’s operational updates for testing, coexistence and migration dates. Identify which providers need to run two systems and for how long, and the conditions for moving the next customers. The duration of parallel operations could change investment returns and service continuity even if the end-state architecture is economical."
+    }
+  ],
+  "limitation": ""
+}

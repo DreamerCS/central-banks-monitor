@@ -1,0 +1,28 @@
+{
+  "title": "Only about half the euro area jobs added in public services since 2008 are estimated to be on public payrolls",
+  "bank": "European Central Bank",
+  "date": "2026-11-12",
+  "url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202607_03~efdc9cea95.en.html",
+  "summary": [
+    "Public services accounted for more than one third of euro area employment growth over the last three years despite accounting for less than a quarter of employment. The ECB box asks who actually employed the people filling those jobs. Industry statistics group together activities such as schools, hospitals and care homes by the service delivered. A worker at a private nursing home and one at a public facility can therefore appear under the same industry heading. Treating every job in that heading as a government hire would materially overstate the growth of direct public employment.",
+    "Chart A puts the recent figures in a longer perspective. At the end of 2025 the public-services share of employment was 0.8 percentage points above its 2019 level. The peak in 2021 partly reflects the drop in employment elsewhere during the pandemic. Over the period examined, health and social work grew by around 2% per year, compared with 1.2% in education and 0.8% in public administration and defence. Its faster growth predates the pandemic. Between 2008 and 2025, health and social work accounted for around 4.8 million of the 6.9 million jobs added across the public-services industries, about seven out of ten.",
+    "Chart B uses the ECB Consumer Expectations Survey to put an institutional employer behind those totals. Around 85% of people in education or public administration and defence report working for a public employer. Fewer than 40% do so in health and social work. Applying the survey proportions to the jobs added since 2008 puts only around 1.9 million of the additional 4.8 million health and social jobs directly on public payrolls. The remainder are with private or non-profit providers. Combined with education and administration, public employers account for roughly half the total increase. This estimates the provider employing the worker. A government can still pay for services delivered by a private provider.",
+    "The calculation extrapolates. Employer-type questions started in 2022, so the author applies average 2022–26 survey shares to historical employment in each industry. This assumes both a broadly stable mix of providers over time and that the mix among new hires resembles the mix among existing workers. Country differences give a sense of how much the distinction matters. Around 64% of people in health and social work in Finland report a public employer, against around 30% in Germany and Belgium. An identical increase in the demand for care can therefore produce quite different changes in the public wage bill across countries.",
+    "Chart C narrows the analysis to the work being done. Residential care and social work gained more than 2.6 million workers since 2008, compared with about 2.1 million in human health. More detailed industry codes connect much of the former expansion to care of older people and people with disabilities. Countries with larger increases in the share of residents aged 65 or older generally saw faster growth in these activities. Coverage of detailed industry codes varies across countries, and the cross-country comparison establishes an association. The distinction matters for interpreting resilient hiring: a lasting rise in demand for care can underpin employment even when direct public-sector staffing is relatively stable."
+  ],
+  "questions": [
+    {
+      "question": "How sensitive is the public-payroll estimate to the historical ownership assumption?",
+      "detail": "Rebuild the employer split by country and service using historical payroll or provider registers where available. Compare the growth rates of new public and private jobs with the shares of the existing workforce that the box applies retrospectively. The resulting range around the estimated 1.9 million public health and social jobs would show where changes in provider ownership matter most."
+    },
+    {
+      "question": "Does growth in privately delivered care shift public spending from wages to purchases?",
+      "detail": "Compare countries with similar population ageing but markedly different shares of public health employment, including Finland and Germany. Track direct compensation alongside publicly financed purchases of care from other providers. Similar total spending growth alongside different payroll paths would show why direct hiring and budget pressure can move differently even when governments face comparable demographic demand."
+    },
+    {
+      "question": "How much of the association in Chart C survives a common observation window?",
+      "detail": "Restrict the comparison to countries with consistent three-digit industry detail from 2008 and distinguish residential from non-residential care. Test whether changes in the older population predict hours as well as headcount, and whether the relationship persists after accounting for initial staffing levels. That would help distinguish an increase in labour used to deliver care from a change in how jobs are counted."
+    }
+  ],
+  "limitation": ""
+}

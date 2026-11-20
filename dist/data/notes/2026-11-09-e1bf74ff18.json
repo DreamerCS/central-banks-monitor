@@ -1,0 +1,28 @@
+{
+  "title": "Cross-predictability of returns: An equilibrium perspective",
+  "bank": "Deutsche Bundesbank",
+  "date": "2026-11-09",
+  "url": "https://www.bundesbank.de/en/publications/research/discussion-papers/cross-predictability-of-returns-an-equilibrium-perspective-992016",
+  "summary": [
+    "Patrick Konermann and Christoph Meinerding show that the past return of one asset can help predict the subsequent relative return of a fundamentally connected asset even when investors know the links and price all available information immediately. The result matters for interpreting cross-momentum strategies that select an investment using returns on a related firm, industry or country. A positive historical relationship is sometimes read as evidence that markets initially paid too little attention to the link. In the authors’ model part of that relationship reflects systematic differences in compensation for bearing risk. The paper establishes the existence of that channel. It does not estimate what proportion of a real trading strategy’s returns it explains.",
+    "Consider two pairs of assets. A cash-flow shock at a member of one pair propagates more strongly than an otherwise comparable shock at its counterpart in the other. The asset that spreads shocks more widely is more exposed to aggregate consumption risk and earns a different equilibrium premium. Thus a comparison of past realised returns on the two signal assets can contain information about how their risks differ, even when neither price is slow to adjust. An observation of one signal asset outperforming the other need not be news about an unexploited error in the price of a related security.",
+    "The investment assets have a corresponding difference in expected returns, reached through two mechanisms. A receiver exposed to a stronger link faces a greater change in the risk of its own future cash flows after the originating shock. Its valuation responds immediately to that exposure. Meanwhile an asset relatively sheltered from the propagation becomes more valuable as a hedge, compressing its required return. In the model the receiving and hedging effects reinforce one another across the paired assets. Consequently the same differences in link strength help determine the ranking of expected returns among signal assets and among investment assets. When the relevant link strengths are identical, the proposed source of cross-predictability disappears.",
+    "The authors formalise the argument in a consumption-based equilibrium model in which jumps in individual cash flows can affect aggregate consumption. Investors have full information and can trade in complete, frictionless markets. Physical propagation through a supplier or customer may take time; the effect of known risk on asset values need not wait for the downstream cash flow to be reported. The theoretical result can hold for favourable as well as adverse shocks and across different lengths of signal and investment windows. Those findings concern the sign of the mechanism under the model assumptions. They do not establish a particular return, optimal holding period or executable strategy after costs.",
+    "For empirical work the paper separates covariance in expected returns from covariance involving unexpected returns (equations 28–32). Researchers would need to measure variation in the strength of links as well as identify whether a link exists. The authors suggest estimating directional cash-flow connections, while acknowledging that sufficiently frequent granular cash-flow measures are difficult to obtain. Their tractable model also keeps the relative strength of connections fixed and therefore produces little portfolio turnover; they acknowledge that actual rankings can change. Assessing an observed strategy requires evidence on changes in those exposures, financing and transaction costs, and how much of the apparent signal remains after allowing for different required returns."
+  ],
+  "questions": [
+    {
+      "question": "Does cross-momentum remain after controlling for the strength of the underlying cash-flow connection?",
+      "detail": "The theoretical result depends on unequal links. A binary supplier or customer flag leaves that variation in the residual. Compare estimates based on sales concentration, input dependence and directional cash-flow shocks with subsequent returns. Company filings and detailed customer–supplier datasets would help separate compensation for persistent risk from a potential forecasting edge."
+    },
+    {
+      "question": "How much of a real strategy’s turnover comes from changing links rather than noisy returns?",
+      "detail": "The model fixes link strengths and produces stable rankings, whereas an implemented strategy may replace holdings often. Track changes in revenue dependence, supplier relationships, realised scores and actual trades. Compare the returns from fixed and refreshed portfolios net of execution and financing costs before interpreting turnover as evidence of profitable adaptation."
+    },
+    {
+      "question": "Which events would distinguish prompt risk repricing from a delayed downstream price response?",
+      "detail": "The paper allows cash-flow effects to arrive with a lag even in efficient markets. Examine time-stamped supplier or customer news that changes the magnitude of a known exposure, then measure downstream returns at announcement and subsequent reporting dates. Repeated lagged reactions after conditioning on risk and public exposure would be informative for the investment interpretation. The relevant timing must match when investors could learn the news."
+    }
+  ],
+  "limitation": ""
+}

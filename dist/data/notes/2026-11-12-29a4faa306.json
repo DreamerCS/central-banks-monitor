@@ -1,0 +1,27 @@
+{
+  "title": "Chinese financial regulators tie technology adoption to data quality and model risk",
+  "bank": "People’s Bank of China",
+  "date": "2026-11-12",
+  "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111210072039722/index.html",
+  "summary": [
+    "A meeting to select China’s financial technology development award winners also set out priorities for banks, securities firms and insurers. The People’s Bank of China and the securities regulator highlighted the use of artificial intelligence in financial management and customer services. They coupled that encouragement with an explicit call to manage risks from the models themselves, strengthen technology governance and improve underlying data. The release reports an awards decision and policy priorities. It gives no implementation deadline, technology spending target, contractual award or change in prudential requirements.",
+    "The judging body recognised 297 projects for the 2025 awards: one special prize, 19 first prizes, 105 second prizes, 152 third prizes and 20 awards for small-scale innovation. The examples are described by theme rather than by firm. They cover work on core technologies developed domestically, digital applications that change how business is conducted, and closer integration of data and technology. These counts describe the projects selected by the judging panel. The release gives neither the population of applicants nor a breakdown by institution, technology supplier or commercial deployment. It cannot establish an adoption rate or a supplier’s market share.",
+    "The meeting took place early in the fifteenth five-year planning period. Speakers called for continued investment in financial technology and put emphasis on making domestically controlled tools usable, stable and effective. There is an economic distinction here between having an independent technical capability and operating it reliably at scale. A bank might fund additional development, validation and data controls well before a tool reduces its cost per transaction. The award criteria provide a reason to investigate that distinction, but the short communiqué supplies no measure of savings, capital expenditure or operational losses.",
+    "For investors the most specific lead is the connection between experimentation and governance. A new application can improve access to services or accelerate a process while increasing dependence on particular data or model judgements. The regulators described both improved service and risk prevention as objectives. The next evidence would have to come from procurement disclosures, actual deployment and incidents, or a formal supervisory instrument. The communiqué records no instruction to increase lending, no rate action, and no basis for assigning a revenue benefit to any named company."
+  ],
+  "questions": [
+    {
+      "question": "Which projects moved from award to sustained production use?",
+      "detail": "Match the awards list, if published, to dated filings or technical reports from the participating institutions. Check users, transaction volumes, total operating cost and whether the previous system was retired. A formal award is evidence of recognition; recurring use would be stronger evidence of a commercially material change."
+    },
+    {
+      "question": "How are institutions controlling model risk as they deploy new systems?",
+      "detail": "Look for bank or insurer disclosures on validation, data controls, manual overrides and service interruptions. Compare governance and observed outcomes across applications with different stakes for customers. This would help distinguish a durable cost saving from a project that merely moves costs into monitoring or remediation."
+    },
+    {
+      "question": "Does the priority for domestically controlled technology alter supplier economics?",
+      "detail": "Examine procurement terms, migration dates and recurring support fees alongside the cost of switching and maintaining two systems during transition. Distinguish a change in who supplies a service from an increase in the amount the institution spends. The meeting identifies a policy preference but supplies no supplier-level contract evidence."
+    }
+  ],
+  "limitation": ""
+}

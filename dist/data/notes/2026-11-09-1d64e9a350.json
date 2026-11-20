@@ -1,0 +1,28 @@
+{
+  "title": "Indonesian consumers grew more confident in October while saving more of their income",
+  "bank": "Bank Indonesia",
+  "date": "2026-11-09",
+  "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2824526.aspx",
+  "summary": [
+    "Bank Indonesia’s October Consumer Confidence Index increased from 118.1 to 119.9, but the surveyed households allocated a smaller share of their income to consumption. Current conditions and expectations both improved. The clearest change in respondents’ assessment of the present was the greater availability of jobs. Prospective income was more buoyant than current income, particularly among younger respondents. For a business forecasting demand, the survey offers evidence that households feel more secure. The spending and saving answers give a reason to be cautious about translating that improvement directly into immediate purchases.",
+    "The current conditions index rose from 107.5 to 109.1. Graph 4 in the underlying October report shows the job availability component moving from 101.1 to 105.5, while the current income component edged up from 114.6 to 114.9. The index for purchases of durable goods was broadly stable at 106.7. In the six-month outlook, all three components improved. The income expectation index rose to 138.6 from 136.9, expected job availability to 129.3 from 127.7, and expected business activity to 124.3 from 121.5. The resulting expectations index was 130.7, compared with 128.7 in September. The 21.6-point difference between expected and current conditions measures the spread between two sets of survey responses. It cannot be interpreted as a forecast growth rate.",
+    "The income allocation figures show where part of the extra confidence went. Respondents put an average 73.6% of income toward consumption, down from 74.9% in September. The share allocated to saving rose from 15.4% to 16.4%, while that used for debt instalments moved from 9.7% to 10.1%. Graphs 19 and 20 show the lower consumption and higher saving shares extended across spending brackets. A smaller share is compatible with an increase in money spent if income grows sufficiently, and the release contains no corresponding measure of realised spending volumes. The change is more informative about household budget choices than about the level of retail sales.",
+    "Conditions also differed across consumers. Respondents spending more than Rp5 million per month had the highest confidence reading, 123.0, and a durable-goods purchase index of 114.6. Current income assessments were pessimistic among those spending Rp1–2 million a month, even though six-month income expectations were optimistic across all spending groups. Respondents aged 20–30 recorded the highest confidence, 125.2, and the strongest future-income reading, 142.5. Regionally, Makassar, Bandung and Banten had the largest increases in confidence. Neither a strong reading for younger households nor gains in those three places imply uniform demand for big-ticket items.",
+    "The methodology specifies a stratified household survey and a net balance plus 100 to construct the index. Above 100 indicates optimism. Thus 119.9 does not say that 19.9% more goods were bought, and a one-point gain need not correspond to a constant number of additional purchases. The press release on 9 November gives the headline indexes. The underlying survey tables, including allocations and respondent composition, provide the necessary context for deciding which categories of consumer demand the change might reach."
+  ],
+  "questions": [
+    {
+      "question": "Will the improvement in perceived job availability translate into current income and purchases of durables?",
+      "detail": "Follow the three current-condition components over successive releases, especially the October divergence between jobs and durable buying. Compare the pattern across spending brackets as well as for younger respondents. Sustained gains in income and durable purchases alongside jobs would give a consumer-facing business a stronger demand signal than confidence measured only in aggregate."
+    },
+    {
+      "question": "Does higher saving reflect a temporary budget choice or a lasting change in the way households finance spending?",
+      "detail": "Review the income shares for consumption, saving and debt instalments together and compare similar groups over time. A lower spending share alone does not reveal whether the amount spent rose or fell. Persistence alongside weak current-income readings in the lowest spending bracket would have different implications from a broad increase in income that lets households spend and save more."
+    },
+    {
+      "question": "How concentrated is the improvement in expectations across cities and age groups?",
+      "detail": "Use the city and respondent tables to test whether the increases extend beyond Makassar, Bandung and Banten and whether the gap between current and expected conditions narrows for younger respondents. Cross-check the composition of the sample across observations. This would help distinguish an improvement an individual retailer might see locally from a stronger national index driven by particular respondents."
+    }
+  ],
+  "limitation": ""
+}

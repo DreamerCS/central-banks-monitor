@@ -1,0 +1,28 @@
+{
+  "title": "The CNB settles tokenised koruna bonds with a domestic bank",
+  "bank": "Czech National Bank",
+  "date": "2026-11-10",
+  "url": "https://www.cnb.cz/en/cnb-news/press-releases/CNB-issues-its-first-DLT-bond",
+  "summary": [
+    "The Czech National Bank reports completing purchases, sales, transfers and repos of its own tokenised koruna debt with a domestic commercial bank. Settlement was nearly instantaneous in transactions conducted during October and November. The amount was only in the tens of thousands of koruna. The release therefore demonstrates that the issuer, counterparty and infrastructure could complete the specified transactions at test size. It leaves open the cost, reliability and liquidity of doing so across a sizeable market.",
+    "The choice of issuer and infrastructure matters. The Central Securities Depository operates the distributed ledger, records the bonds and settles trades. Access is limited to approved financial institutions, and the transaction record is visible to the parties concerned. Instead of requiring separate records to be reconciled after a trade, the parties use synchronised records and rules encoded in the security. The CNB tested the contracts, procedures and portfolio accounting as well as the technology. That is important for interpreting the result: a working transfer on a ledger says little about whether a regulated investor can legally book the acquired asset, pledge it and recover it at the end of a repo.",
+    "The three types of transaction answer different questions. A transfer tests movement of ownership. A purchase or sale against payment also requires a cash leg. A repo adds a financing relationship in which a security changes hands and must eventually be returned. These operations are relevant to the instruments central banks already use to manage liquidity. A shorter interval before settlement can reduce the time either side awaits performance. Whether counterparties then need more or less cash on hand depends on how trades are funded and whether offsetting obligations can still be netted. The release gives no funding profile from which to calculate those savings.",
+    "Governor Aleš Michl said he wanted central-bank money at the centre of settlement and a more liquid market in koruna assets. He used the ease of trading German Bunds as an ambition for that market. A pilot with one counterparty measures neither comparative bid–ask spreads nor the depth available to other investors. Likewise, the capacity to settle at any hour is an infrastructure feature. The release reports no weekend volumes or evidence on how banks will obtain funds outside ordinary operating hours.",
+    "A second operation concerns management of the CNB’s international reserves. The Bank reports purchasing a euro-denominated government bond that exists only on a distributed ledger. This makes the CNB an investor in another issuer’s debt, distinct from issuing its own koruna instrument. The earlier experimental portfolio of bitcoin, a stablecoin and tokenised deposits also has a different purpose. The November release reports no change to the repo rate or reserve-allocation target. For a holder of koruna debt the unresolved issue is whether market makers and cash providers will use the new infrastructure repeatedly at normal sizes, and at what cost."
+  ],
+  "questions": [
+    {
+      "question": "What does settlement save once the cost of cash is counted?",
+      "detail": "Ask the depository and participant banks for settlement times, fails, peak cash balances and financing terms on matched tokenised and conventional trades. Extend the comparison to more counterparties and larger orders. A shorter delay can have genuine value even when prefunding offsets part of the saving."
+    },
+    {
+      "question": "Could the bonds support a liquid repo market outside the test?",
+      "detail": "Check the eligibility schedule, haircut, maturity, treatment of default and access to cash around weekends. Compare executed size and bid–ask spreads with similar conventional collateral in ordinary and stressed sessions. One successful transfer establishes the mechanics, while repeated executable prices would establish how much liquidity the mechanism supplies."
+    },
+    {
+      "question": "How transferable is the reserve-management experiment?",
+      "detail": "Review the euro bond’s custody terms, cash settlement route, valuation source and exit arrangements. Compare its all-in cost and executable liquidity with a conventional issue of similar maturity and credit quality. A legally valid holding can still be difficult to hedge, finance or sell at the desired time."
+    }
+  ],
+  "limitation": ""
+}

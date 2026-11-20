@@ -1,0 +1,28 @@
+{
+  "title": "How unusual is the combined growth and inflation path in an ECB energy scenario?",
+  "bank": "European Central Bank",
+  "date": "2026-11-12",
+  "url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202607_01~63d20abac5.en.html",
+  "summary": [
+    "The ECB authors propose a way of checking what a scenario implies for the economy without pretending to know the probability of the event that sets it in motion. A disruption could be unprecedented while its effect on output and prices resembles earlier shocks. Conversely, a familiar story could produce a sequence of growth and inflation readings unlike any seen together in the historical record. The box tests the economic paths in the September 2026 ECB staff projections for the Middle East conflict. Its baseline is the most likely trajectory conditional on the projection assumptions. Policy staff still have to judge whether those assumptions and the narratives are credible.",
+    "The first step is to keep both the sequencing and the interaction of the outcomes. How fast inflation subsides after the first year matters, as does what happens to growth in the same year. The authors construct joint distributions for GDP growth and HICP inflation, centring the most likely outcome on the baseline. One approach uses Bayesian quantile regressions to estimate conditional distributions and then combines them. Another pairs individual distributions with historical patterns of dependence through a copula. Its inputs can come from historical outcomes or the Survey of Professional Forecasters. This gives the comparison one version that incorporates forecasters' own assessments of uncertainty.",
+    "The second step asks how dense the distribution is at the entire scenario path relative to the baseline. The authors run the comparison over rolling 20-year windows starting in the early 1980s and keep the highest relative score. Thus a scenario gets the benefit of the historical period that resembles it most. A reading of 100 means the path matches the baseline's empirical plausibility on that scale. Zero means there is virtually no precedent. A score of 56 cannot be read as a 56% chance of the conflict developing as described, and the scores across scenarios need not sum to 100.",
+    "Chart A compares three paths with different assumptions for energy prices, uncertainty and the propagation of inflation. Their cumulative absolute deviations from the baseline range from 0.2 to 1.2 percentage points for growth and 1.0 to 4.3 points for inflation. The milder scenario scores 82–96, depending on the method, and the adverse one 56–85. The severe scenario scores substantially lower across approaches. This does not disqualify the severe path as a stress test. It establishes that its combination of outcomes would be unusual in the available record, including the historical window most favourable to it.",
+    "Table A shows why a simple measure of distance from the baseline loses information. Holding both variables flat at their respective three-year baseline averages produces roughly the same cumulative severity as the adverse Middle East scenario. The full regression-based scores are nevertheless 0.1 for the flat path and 55.7 for the adverse one. Looking only at 2027 gives the flat path a joint score of 99.4. Looking at 2028 alone gives it 96.6. The sequence becomes implausible when the early-year movement and both variables are considered together. The exercise flags an unusual result for review, while leaving open whether its source is an unprecedented shock, a change in transmission or a misspecified model."
+  ],
+  "questions": [
+    {
+      "question": "Which year and cross-variable interaction drive the severe scenario's low score?",
+      "detail": "Repeat the Table A comparisons for the severe path, dropping each year or variable in turn and reporting the window in which the maximum is attained. This would show whether the rarity lies chiefly in the initial inflation jump, the persistence of prices or the subsequent growth response. The answer would identify which part of a portfolio stress test most depends on an unusual outcome."
+    },
+    {
+      "question": "How sensitive is the ranking to selecting the most favourable historical window?",
+      "detail": "Alongside the maximum likelihood ratio, compute the median score and the distribution of scores across rolling windows for each narrative. Identify whether the adverse path looks familiar in several periods or mainly in one. Two scenarios with the same published score could have very different historical support if one relies on a single episode."
+    },
+    {
+      "question": "When do survey-based distributions change the policy interpretation?",
+      "detail": "Hold the assumed scenario paths fixed, compare the historical and forecaster-based marginal distributions and then vary only the dependence structure. Locate the years and variables responsible for the 56–85 range in the adverse scenario. This would help distinguish disagreement about the size of ordinary forecast errors from disagreement about how inflation and growth normally evolve together."
+    }
+  ],
+  "limitation": ""
+}

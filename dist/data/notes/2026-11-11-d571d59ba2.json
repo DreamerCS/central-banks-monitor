@@ -1,0 +1,28 @@
+{
+  "title": "China expanded targeted credit support while its quoted lending rates stayed flat",
+  "bank": "People’s Bank of China",
+  "date": "2026-11-11",
+  "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111116304170164/index.html",
+  "summary": [
+    "China’s monetary-policy chronology for January to September 2026 shows why the headline lending quotes alone give an incomplete account of credit policy. Every monthly entry lists the one-year loan prime rate at 3.0% and the five-year-and-over rate at 3.5%. Yet the central bank repeatedly changed the price, eligible uses and amount of its lending to financial institutions. It also altered the way institutions could obtain and return short-term liquidity. The document, published in November, records actions already taken. The entries establish when terms changed, with less information on actual borrowing or the response of final borrowers.",
+    "On 15 January the People’s Bank of China announced a 25 basis point reduction in relending and rediscount rates effective 19 January. Three-month, six-month and one-year relending for agriculture and small businesses moved to 0.95%, 1.15% and 1.25%, respectively. The Bank increased the quota for those programmes by RMB500 billion and allowed it to be used together with the rediscount quota. It also added RMB400 billion to the technology and equipment-upgrade facility, bringing that quota to RMB1.2 trillion. Private small and medium-sized firms with sufficiently high research spending became eligible. A separate RMB1 trillion facility for private enterprises was established within the agriculture and small-business relending framework. These amounts concern different parts and levels of the framework; summing them as new loans to firms would double-count support and assume full take-up.",
+    "September widened and deepened that support. The Bank announced another RMB200 billion increase in the technology and equipment-upgrade quota and raised the share eligible for support from 60% to 100%. An additional RMB500 billion in agriculture and small-business relending included RMB300 billion for the private-enterprise facility. Pledged supplementary lending was cut by 25 basis points to 1.50% and extended to six infrastructure networks, among them water, power, computing and logistics. A funding rule can alter banks’ willingness to make an eligible loan even if the headline lending benchmark is unchanged. The entries give no realised margin, default experience or final borrower rate.",
+    "Money-market implementation evolved on a different timetable. On 17 June the Bank adjusted afternoon temporary repo and reverse-repo operations to a 15:00–15:30 window, with rates respectively 25 basis points below and above the seven-day reverse-repo rate, and clarified when the operations could be activated. On 29 June it added overnight reverse repos at a fixed rate through quantity tenders. The chronology also records an avenue for eligible overseas central-bank institutions to obtain renminbi liquidity through repo. These changes concern access to funding at particular times and maturities. Their existence does not tell the reader which instruments actually set the marginal overnight borrowing cost on any given day.",
+    "The chronology distinguishes two housing channels. January’s minimum 30% down payment concerned purchases of commercial property, including mixed-use premises. In September a separate measure authorised interest subsidies for qualifying household purchases of commercial housing, starting on 1 October for a provisionally one-year scheme. Cross-border measures included renewed swap agreements, additional offshore clearing banks and a national framework for multinational groups’ cash pools effective 14 September. Authorised swap lines are capacity, not drawdowns. For research on the stance, this chronology is most useful as a dated map of eligible borrowers, intermediaries and funding instruments; loan volumes, funding prices and use of the facilities would establish the scale of the transmission."
+  ],
+  "questions": [
+    {
+      "question": "Did expanded relending reach firms that would otherwise have paid more or borrowed less?",
+      "detail": "Compare the dated eligibility and funding changes with actual PBoC facility balances and participating banks’ loan origination reports. Track borrower rates, amounts and maturities for eligible versus similar ineligible projects. Separate newly financed activity from substitution for existing bank loans before interpreting the quotas as incremental demand."
+    },
+    {
+      "question": "Did the new operating arrangements change the distribution of overnight funding costs?",
+      "detail": "Reconstruct June’s implementation dates using the Bank’s transaction notices, and obtain interbank rates and quantities by time and collateral. Compare ordinary days with tax dates and quarter-end. A narrower late-day rate range when liquidity is scarce would be stronger evidence of a backstop than routine use at times of abundant reserves."
+    },
+    {
+      "question": "Which housing exposure benefits from each measure?",
+      "detail": "Use implementing circulars and lender disclosures to distinguish commercial premises from qualifying household purchases and to identify who receives the interest subsidy. Compare transactions and lending after eligibility starts with the relevant pre-policy period. An easing of developers’ funding, a change in buyer cash flow and substitution across property categories would imply different credit risks."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,28 @@
+{
+  "title": "A lower crude oil price can still leave the euro area facing higher fuel inflation",
+  "bank": "European Central Bank",
+  "date": "2026-11-11",
+  "url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202607_05~d82730508f.en.html",
+  "summary": [
+    "The input price for petrol, diesel and heating oil is only one component of the price households pay. During the Middle East conflict, obtaining crude and processing or importing a particular finished fuel became separate constraints. By the end of October the front-month Brent price was above USD 110 per barrel, close to 60% above its pre-conflict level. The ECB authors show why the price of diesel could rise by still more, and why a change in projections based on crude futures alone could point in the wrong direction for euro area energy inflation.",
+    "Chart A traces the physical constraints. Refineries in the Middle East faced restrictions on exports, while Asian processors that relied on Gulf crude had difficulty finding economical substitutes. China restricted fuel exports to protect domestic supply and only temporarily eased restrictions in July and August. Russian refining capacity and export availability also declined. By the end of September, EU seaborne imports of diesel were down 56% from pre-conflict levels and petrol imports were down 52%. Those are import flows by sea, rather than estimates of the decline in total fuel consumption. They show how little alternative supply arrived by that route when multiple producing regions were affected.",
+    "The price difference between a refined product and crude oil is the crack spread. It includes costs such as labour, insurance and transport as well as the refiner's margin, so it cannot be read directly as profit per barrel. Chart B shows European diesel spreads reaching roughly three times their pre-conflict levels. Petrol spreads widened until September before falling sharply in October. A single assumed markup on crude would miss this divergence. Historically, wide spreads can encourage refineries to produce more of the scarce product. Damaged capacity, export restrictions and difficulties sourcing appropriate crude can delay that adjustment.",
+    "Chart C decomposes retail liquid fuel prices in real euro cents per litre and the contributions to annual inflation. Refining costs and margins fell during the pandemic and surged after Russia's invasion of Ukraine, peaking in early 2023 before moving back towards pre-pandemic levels in the second half of 2024. They rose again after February 2026. During a crisis their contribution to liquid fuel inflation can approach that of crude. Distribution costs and margins have also moved with refining margins since 2022. Excise duty reductions in 2026 were small relative to these increases. Even with an unchanged VAT rate, the cash amount of VAT rises as the taxable fuel price increases.",
+    "Chart D compares two runs of the short-term energy inflation model using information available on 21 May and 19 August, the June and September projection cutoffs. The latter set of assumptions had lower crude oil prices but implied higher energy inflation, largely because the price of refined products had risen relative to crude. Adding refined petrol and diesel futures gave small forecasting gains over the full evaluation sample, especially three to eleven months ahead, and at one month before the pandemic. The gains were less evident during high inflation, when futures tended to undershoot subsequent outcomes. The model comparison identifies an economically material source of forecast revisions without making today's futures curve a reliable prediction of the end of the disruption."
+  ],
+  "questions": [
+    {
+      "question": "How much information about near-term HICP do diesel and petrol futures provide independently of Brent?",
+      "detail": "For a common set of real-time forecast vintages, update only crude assumptions, then only the two product spreads, holding the other inputs fixed. Compare revisions and realised forecast errors for transport and heating fuels separately. This would show where the refined-product signal improves on crude and whether the benefit disappears at the disruption's most extreme observations."
+    },
+    {
+      "question": "What would indicate that the exceptional diesel spread can normalise?",
+      "detail": "Track regional refinery runs, EU seaborne imports by origin and relative diesel and petrol spreads from Chart B. Test whether volumes recover before the spread narrows and whether substitution by other suppliers offsets lost flows. A lower Brent price without recovery in finished diesel availability would give a different cash-flow and inflation signal from genuine relief at refineries."
+    },
+    {
+      "question": "Which retail price components absorb a change in the refined-product spread?",
+      "detail": "Reconstruct consumer prices by country from crude, refining, distribution, excise and VAT around the observed spread increases and subsequent declines. Compare the timing and size of pass-through in diesel, petrol and heating fuel. That would clarify how much of the wholesale move reaches measured inflation quickly and how much is temporarily absorbed by distribution or fiscal measures."
+    }
+  ],
+  "limitation": ""
+}

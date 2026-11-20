@@ -1,0 +1,28 @@
+{
+  "title": "The Treasury cuts the APF ceiling while the destination of future gilt sales remains open",
+  "bank": "Bank of England",
+  "date": "2026-11-10",
+  "url": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026",
+  "summary": [
+    "The Treasury reduced the maximum authorised size of the Bank of England’s Asset Purchase Facility to £482.4 billion on 10 November. That matched the gilts in the portfolio on 4 November. The previous ceiling, confirmed in May, was £524.9 billion. The £42.5 billion difference resets an authorisation following a reduction that had already occurred. Reading it as a new instruction to sell that amount in November would give a gilt investor the wrong supply figure. The two signed letters also identify a decision that was genuinely still to come: who would buy the gilts scheduled for active sale.",
+    "Chancellor John Healey divided the new ceiling into £362.4 billion authorised for monetary policy and £120 billion authorised to back current and future banknotes indirectly. The latter consists of the longest-dated gilts retained in the facility. Keeping those two amounts separate matters when estimating the duration that private investors might eventually have to absorb. The Bank Executive had already announced that it would not sell bonds redeeming before 2035. From the January 2022 peak of £894.9 billion to 4 November 2026, the recorded stock fell by £412.5 billion, or 46%. This cumulative change and the six-month reduction in the ceiling cover different periods.",
+    "The Monetary Policy Committee chose the multi-year unwind in September. The Chancellor describes an annual sales pace of £20 billion in purchase-proceeds terms until the monetary-policy portfolio has been unwound by end-2034. Including the maturity profile produces an average annual decline in the stock of £46 billion. The latter combines sales and redemptions. It cannot be used as annual auction supply, nor does an average determine the profile in any individual year. The purchase-proceeds measure also matters when comparing the target with quoted current gilt prices or cash raised on sale.",
+    "Governor Andrew Bailey states the Executive’s intention to implement the remaining active sales through transfers to the Government, subject to final Treasury agreement. Officials were still developing that option. The Chancellor wanted progress reviewed before April 2027 so that implementation, if agreed, could fit into the Debt Management Office’s annual financing remit. The Governor undertook to announce operational details by April whatever the final decision. For a portfolio manager, the distinction matters because a direct transfer changes where an existing bond goes first. The financing remit will help determine what securities, with what maturities, private buyers are subsequently offered. The letters contain neither a revised issuance calendar nor a quantified estimate of the yield effect.",
+    "The institutional responsibilities remain different. The MPC sets the unwind target. The Executive implements it while seeking to minimise lifetime cost and risk subject to the MPC’s objectives. The Treasury sets the authorised ceiling, indemnifies the APF under arrangements dating from 2009 and monitors the resulting exposure with the Bank. Any future cash transfers remain subject to that indemnity. Neither the change in the ceiling nor the stock split measures an indemnity payment. The next six-month exchange and the associated APF quarterly report are the stated opportunities to reconcile the authorisation with the portfolio again."
+  ],
+  "questions": [
+    {
+      "question": "How much duration would private buyers actually be asked to absorb under sales to the Government?",
+      "detail": "Start with the Bank’s promised operational announcement and the DMO financing remit available at the decision date. Reconcile maturities and amounts of any bonds transferred, retired or subsequently issued against the alternative of market sales. Distinguish a change in aggregate financing needs from a change in the mix of gilts offered. Those differences bear directly on long-end relative value."
+    },
+    {
+      "question": "How reliably can the annual stock reduction be translated into cash flows?",
+      "detail": "Use the APF quarterly report and official maturity schedule to separate redemptions from active sales. Calculate face value, purchase proceeds and cash received at the relevant prices for each measure. The Chancellor provides an average stock decline, while coupons, purchase prices and maturity dates differ by bond. A hedge or cash forecast built on a single £46 billion issuance assumption would ignore that variation."
+    },
+    {
+      "question": "What does the new portfolio split imply for Treasury exposure over time?",
+      "detail": "Consult the indemnity terms, APF accounts and future exchanges for how funding costs, gilt receipts and cash transfers are attributed between the retained and unwinding holdings. Compare their timing under different rate paths. The authorised £120 billion identifies the purpose of the retained bonds. It supplies neither a forecast of cash losses nor a valuation of the banknote backing."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Malaysia’s orderly bond market masks a more expensive corner of bank funding",
+  "bank": "Bank Negara Malaysia",
+  "date": "2026-11-13",
+  "url": "https://www.bnm.gov.my/-/dgaz-spch-ppkm26",
+  "summary": [
+    "Higher three-month KLIBOR was consistent with adequate liquidity across Malaysia’s banking system, Deputy Governor Adnan Zaylani told the Malaysian financial markets association in Kuala Lumpur. He distinguished stable secured funding from upward pressure on unsecured term funding. A bank holding eligible collateral can access funding by repo while another institution may still pay more to borrow unsecured for three months. This distinction also informs Bank Negara Malaysia’s proposed redesign of its operating framework. The objective is to keep the average overnight interbank rate close to the policy rate while giving banks more reason to distribute available liquidity among themselves.",
+    "The Deputy Governor placed the pressure in a market that continued to transact through overseas volatility. Government securities yields had adjusted as global yields rose, while daily bond turnover held around RM7 billion and non-residents held about 21% of government bonds. Domestic banks and institutional investors continued to anchor government auctions. The ringgit had appreciated 10% in 2025 and another 4.3% against the dollar in the first two months of 2026, before some gains unwound as the Middle East conflict intensified and expectations about US rates changed. These figures describe a liquid market with moving prices. They provide no estimate of the price at which a foreign investor could liquidate a particularly large holding.",
+    "In the final section of his speech, Zaylani identified three proposals under consultation. A seven-day reverse repo would become the principal instrument for routine liquidity injections. Money Market Principal Dealers would take a larger role in intermediation. A tiered deposit system would change the treatment of overnight surpluses. The intended effect is to encourage trading between banks and improve collateralised price discovery, with the central bank continuing to anchor overnight rates. The proposals were open for feedback. Under existing arrangements, he encouraged banks to use reverse repos, the standing facility and their own liquidity buffers when needed, including accepting the resulting fluctuations in regulatory liquidity ratios.",
+    "There was concrete evidence of the ringgit’s wider use. In the third quarter, ringgit and baht settled 17.4% of Malaysia’s trade with Thailand, worth RM8.6 billion, and ringgit and rupiah settled 21.8% with Indonesia, worth RM10.4 billion. Onshore foreign-exchange turnover averaged about US$21.1 billion daily in 2026, compared with US$19.8 billion in 2025. The Qualified Resident Investor pilot had facilitated more than US$2.5 billion in inflows since April 2024 by pairing repatriation with flexibility for future outward investment. These are different measures: turnover counts dealing activity, settlement shares refer to bilateral trade, and the pilot figure accumulates flows over multiple years.",
+    "The value of outstanding MYOR- and MYOR-i-linked transactions had reached RM37 billion by the third quarter. Compounded rates and indices were available, and Cagamas had issued a MYOR-i-linked sukuk with an Islamic profit rate swap. Market conventions for cash products were still due for consultation, while BNM was exploring benchmark-linked floating-rate issuance. For a borrower considering new financing, an available reference rate does not by itself guarantee a liquid hedge. The speech identifies Islamic swap market-making and greater clarity over its Shariah treatment as practical conditions for more competitive pricing."
+  ],
+  "questions": [
+    {
+      "question": "Would the operating framework reduce persistent differences in secured and unsecured funding costs?",
+      "detail": "Look for interbank volumes, tenor and counterparty participation alongside overnight-rate deviations, use of standing facilities and three-month KLIBOR. A more active collateralised market can improve distribution without eliminating a term or credit premium. Evidence that more banks transact regularly with one another would be a better test of the consultation's objective than an isolated fall in a three-month fixing."
+    },
+    {
+      "question": "Are local-currency transactions reducing unhedged exposures for businesses on both sides of the trade?",
+      "detail": "The Thai and Indonesian settlement shares measure use, while market turnover can include repeated dealer trades. Compare settlement currency with the currency of invoicing, financing and operating costs, and examine the availability of forwards at the maturities firms require. Higher settlement shares would have different balance-sheet implications for naturally matched exporters and for borrowers still servicing dollar debt."
+    },
+    {
+      "question": "Can borrowers obtain usable hedges at the same tenors as new MYOR and MYOR-i financing?",
+      "detail": "Track primary issues, secondary turnover, executable swap quotations and bid–ask spreads around the named transactions and any future central bank issue. The outstanding RM37 billion records adoption across products, but it does not identify how much trades regularly. The proposed conventions and the work on Shariah treatment offer specific milestones against which to assess progress."
+    }
+  ],
+  "limitation": ""
+}

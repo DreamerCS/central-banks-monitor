@@ -1,0 +1,28 @@
+{
+  "title": "Ninth District farm lenders report rising collateral values alongside weaker repayment",
+  "bank": "Federal Reserve Bank of Minneapolis",
+  "date": "2026-11-12",
+  "url": "https://www.minneapolisfed.org/article/2026/farm-bankers-cautiously-optimistic-despite-a-tough-few-years",
+  "summary": [
+    "Farmers in the Ninth Federal Reserve District entered the harvest with weaker earnings and greater need for credit. In the Minneapolis Fed’s October survey, 51% of agricultural lenders said third-quarter net farm income had fallen from a year earlier. The result was an improvement on previous quarters. The chart shows the share reporting steady or rising incomes climbing from 24% in the first quarter of 2026 to 43% in the second and 49% in the third. Those are shares of lenders describing conditions in their markets. They cannot be used to estimate the percentage change in farm income.",
+    "Returns varied with weather and the cost of producing a saleable crop or animal. One Minnesota lender anticipated strong production and a more favourable commodity price trend. A North Dakota lender described expensive inputs and disappointing yields after drought. Even an operation selling into a strong market could struggle. A Montana respondent said rising costs were squeezing cattle producers despite high livestock prices. The spending figures show where some adjustment was taking place. Fifty-four percent of lenders reported lower investment in farm buildings and equipment. For farm household spending, 39% reported an increase and 15% a decline (farm income and spending section and state fact sheet).",
+    "Credit helped bridge the pressure on income. Twenty-nine percent reported higher loan demand, against 10% reporting lower demand. Thirty-four percent reported more renewals or extensions, compared with 5% reporting fewer. Repayment slowed at 34% of surveyed lenders and collateral requirements rose at 22%. None reported refusing a loan for lack of funds. These answers distinguish a borrower finding it harder to repay from a lender running out of money to lend. The interest-rate table shows modest increases from the previous survey across operating, machinery and real-estate loans. Fixed operating rates rose from 7.3% in July to 7.5% in October, still below 7.7% a year earlier.",
+    "Collateral values provided a different picture from current cash earnings. Average nonirrigated and irrigated cropland values increased 2.5% and 2.4% year over year, respectively. Ranch and pastureland gained 13%. Rents rose by 1% for nonirrigated land, 5.7% for irrigated land and over 6% for ranchland. A Minnesota banker attributed strong purchase prices locally to established operators with sizable cash balances. That observation offers a possible explanation for transactions at high prices while other operators needed extensions. The survey does not establish who set prices across the district (cash rents and land values section).",
+    "The fourth-quarter outlook is harder to interpret. The narrative reports that 39% expected higher incomes and 32% lower incomes than a year earlier. The accompanying outlook fact sheet instead gives 49% as the district share expecting lower incomes over the next three months. It supplies no matching district share for expected income increases or reconciliation of the figures. Both presentations point to continuing credit needs. The outlook table records 49% expecting higher loan demand, 37% more renewals or extensions and 61% lower capital spending. Only 3% anticipated increased referrals to other lenders. These are expectations gathered before borrowers knew all their harvest outcomes. They support monitoring operating cash flow and refinancing separately from reported land values."
+  ],
+  "questions": [
+    {
+      "question": "How much of the increase in renewals reflects a cash shortfall that will persist after harvest?",
+      "detail": "The survey records weaker repayment together with more extensions. An extension can also bridge a temporary delay in sale proceeds. Obtain participating lenders’ agricultural loan reviews, extension histories and post-harvest repayment schedules, grouped by crop and county. Compare outstanding principal and interest collected after scheduled marketing dates. That evidence would distinguish seasonal working-capital exposure from the need to provision against repeated operating losses."
+    },
+    {
+      "question": "How much protection do reported farmland gains provide for the borrowers seeking more credit?",
+      "detail": "Land-price growth varied materially between pasture and cropland, while some purchases were attributed to cash-rich established operators. County deed records, appraisals, cash leases and loan-level collateral schedules could show whether prices paid for the land that changed hands apply to properties actually securing extensions. This matters for recovery assumptions if a borrower must sell into a thinner market than the district average suggests."
+    },
+    {
+      "question": "Which income outlook did lenders report, and how sensitive was it to local conditions?",
+      "detail": "The text and outlook table give different shares expecting lower income, and respondents describe both drought and strong production. Request the survey questionnaire, reference periods, response counts and state-level tabulations from the Minneapolis Fed. Compare weighted and unweighted results before interpreting the sign of the district outlook. Resolving the discrepancy would improve forecasts for farm equipment demand as well as agricultural lending."
+    }
+  ],
+  "limitation": ""
+}

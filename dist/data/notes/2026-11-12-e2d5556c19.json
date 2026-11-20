@@ -1,0 +1,28 @@
+{
+  "title": "European firms that discuss concrete AI uses trade at higher valuations and narrower credit spreads",
+  "bank": "European Central Bank",
+  "date": "2026-11-12",
+  "url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202607_06~a36e367caf.en.html",
+  "summary": [
+    "The rise in technology stocks since late 2022 is easy to see in the US and European equity indices. The ECB authors ask whether financial markets also reward businesses using AI in their products and operations, including firms outside the technology sector. Among large European listed firms, they find an association on both sides of the balance sheet. Quarters with a concrete AI disclosure carry higher stock returns, and exposed non-financial issuers typically have slightly narrower credit spreads. The data measure how investors price these firms before the eventual business returns are known.",
+    "The starting point is what management says to investors. The authors classify quarterly earnings calls of STOXX Europe 600 firms from 2017 onwards. A model looks for specific statements about supplying infrastructure, enhancing products or improving processes, and excludes general statements unconnected to performance. Chart B shows that interest appeared early in information technology and broadened across sectors after 2022. Of calls that mention AI, about three quarters discuss product innovation or growth and half discuss productivity. One call can do both. Those percentages describe the content of calls. They give no direct measure of capital spending, adoption across Europe's smaller businesses or how much output the technology has produced.",
+    "For equities, Chart C distinguishes the distribution of observed returns and price/earnings multiples from the regression result. Comparing the same firm across quarters and accounting for sector-wide quarterly movements, earnings surprises, firm characteristics and sector trends, the authors estimate a return differential of around 1.3 percentage points in a quarter with a qualifying disclosure. The result survives excluding the information technology sector. Higher valuation multiples for exposed firms are consistent with investors placing value on profits expected further in the future. A gain while investors revise their expectations cannot be taken as the excess return available to someone who buys at the higher price.",
+    "Corporate debt provides a separate reading. Across 2019–26, quarterly option-adjusted spreads on bonds of exposed non-financial companies are roughly five basis points tighter after accounting for bond and issuer characteristics. Chart D shows lower spreads across much of the distribution and a greater share of issuance at maturities beyond ten years. Non-exposed issuers concentrate more of their issuance at intermediate maturities. Longer debt and tighter spreads together suggest comparatively favourable access to market financing. The estimated discount is modest and relates to the spread over a benchmark. The individual disclosure categories do not separately produce significant spread discounts, making it difficult to say which application creditors value most.",
+    "The interpretation hinges on what future profits can justify today. Successful applications could increase cash flows and the capacity to service debt. Financing the investment can also add debt before firms realise those gains. The same fact that supports longer-duration equity valuations today can make those valuations vulnerable to disappointing earnings later. The concern extends beyond the index leaders because the estimated equity association persists outside information technology. Translating the company-level estimates into a change in European financing conditions would require evidence on issuance weights, revisions to expected earnings and whether the same patterns hold among firms outside this listed sample."
+  ],
+  "questions": [
+    {
+      "question": "Do higher valuations anticipate additional earnings or mainly a change in the multiple?",
+      "detail": "Track the first qualifying disclosure for each issuer and compare subsequent earnings surprises and valuation multiples with peers in the same sector and quarter. Separate calls about new products from calls about cost reductions, allowing for overlap. A sustained increase in earnings following the initial return would carry a different valuation implication from an unchanged earnings path and a persistently higher multiple."
+    },
+    {
+      "question": "Does the five-basis-point spread difference survive a comparison at the point of issuance?",
+      "detail": "Match new exposed and unexposed bonds by maturity, seniority, industry and issue quarter, and repeat separately for maturities beyond ten years. Compare the resulting new-issue discount with the secondary-market option-adjusted spread in Chart D. This would establish how much of the apparent pricing advantage an issuer could actually lock in when raising longer-term funds."
+    },
+    {
+      "question": "Which non-technology sectors would drive a broad repricing if expected returns on AI fell?",
+      "detail": "Group firms by exposure category before an earnings disappointment and measure subsequent changes in their equity multiples and credit spreads relative to sector peers. Weight the moves by market value and debt outstanding. This would test whether sensitivity is dispersed among users of AI, or whether widespread statistical exposure translates into a comparatively concentrated market loss."
+    }
+  ],
+  "limitation": ""
+}

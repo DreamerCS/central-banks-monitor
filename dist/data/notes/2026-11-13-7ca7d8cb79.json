@@ -1,0 +1,28 @@
+{
+  "title": "The Czech forecast puts the inflation peak after the rate rise",
+  "bank": "Czech National Bank",
+  "date": "2026-11-13",
+  "url": "https://www.cnb.cz/en/monetary-policy/monetary-policy-reports/Monetary-Policy-Report-Autumn-2026",
+  "summary": [
+    "The Czech National Bank raised its two-week repo rate by 25 basis points to 4%. The November decision came before the inflation peak projected by its staff. The autumn report puts headline inflation just below 4% at the beginning of 2027, with annual inflation above 3% for much of that year and near the 2% target in early 2028. The Board judged the risks to meeting the target tilted towards higher inflation. The quarterly forecast and the Board’s judgement have different jobs: the staff specify a path consistent with the outlook, while the Board decides whether to follow it as new evidence arrives.",
+    "The revision is sizeable even though expected growth was cut. The forecast summary raises average 2027 inflation to 3.2%, 0.7 percentage points higher than in summer, and lowers GDP growth to 2.5%, down 0.2 points. September’s 2.5% inflation reflected higher fuel prices as conflict in the Middle East kept energy expensive. The transfer of a renewable-energy charge to the state budget had depressed the 2026 price level. Its comparison effect fades in 2027, when the staff also expect higher retail gas and electricity prices. Food prices, previously a drag, are expected to rise after a poor European harvest and higher input costs. These effects lift the annual comparison even before allowing for any change in underlying demand.",
+    "The case for tightening rests on what could propagate that initial rise. Wage growth, services prices and construction costs keep core inflation elevated. Imputed rent can remain under pressure even as prices of new properties slow. Households have rising real incomes, fixed investment is supported by EU funds and trade is expected to make a modest positive contribution further out. Staff see growth rising from 1.7% in 2026 to 2.5% in each of the following two years. Public borrowing, credit growth and more persistent wage pressure could keep inflation higher. Conversely, an extended energy shock could squeeze household spending and firms’ investment enough to weaken inflation further out.",
+    "Financing conditions are already tightening beyond the policy rate. Box 1 reports that koruna swap rates had risen by as much as 1.2 percentage points since the start of the year. Changes in longer-dated koruna and euro swaps are closely related, particularly over twenty-day windows. New corporate borrowing costs had reached 5.6% in September. Mortgage borrowers refinancing at higher rates face a separate squeeze. The forecast makes an additional allowance for the effect of long rates on investment, with a smaller effect on consumption. A long-end sell-off is therefore capable of reinforcing the Board’s action even when part of that sell-off originates abroad.",
+    "For interpreting the market, three numbers refer to different objects. The Board set the two-week rate at 4%. The staff forecast average three-month PRIBOR of 4.1% in 2027 and 3.6% in 2028. In the pre-meeting survey, most analysts expected a November hike, while their one-year repo-rate estimates ranged from 3% to 4.25%, with a median of 4% (section 4 and Table 4.1). A hike consistent with the majority’s view can still move longer yields if guidance changes. The survey does not establish a traded probability or the size of an announcement-window surprise. The report was approved on 12 November and mostly uses information available by 23 October."
+  ],
+  "questions": [
+    {
+      "question": "How much of the 2027 peak would change the policy path?",
+      "detail": "Rebuild the monthly CPI contributions using the CNB’s underlying forecast tables, separating administered energy, the comparison effect and the path of services. Compare comparable published wage settlements, margins and service-price releases with the assumptions. Persistent new price increases would have a different implication for the front end from an anniversary effect that fades on schedule."
+    },
+    {
+      "question": "Did the decision itself move the Czech curve beyond what was priced?",
+      "detail": "The survey establishes a majority expecting a rise, but leaves a wide range a year ahead. Obtain timestamped koruna short-rate quotes before the decision and after the statement and press conference, with the relevant contracts and fixing conventions. Compare the domestic move with euro rates over the same windows before attributing the change to the Board."
+    },
+    {
+      "question": "Could foreign long rates do more of the tightening than the forecast allows?",
+      "detail": "Link the CNB’s corporate lending and mortgage data to loan-reset dates, new-loan spreads and investment by interest-sensitive firms. Compare borrowers facing early resets with borrowers whose funding stays fixed. Borrowing volumes alone can fall because either banks cut supply or firms shelve projects; the distinction matters for credit exposures and the future need for tighter policy."
+    }
+  ],
+  "limitation": ""
+}

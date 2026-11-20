@@ -1,0 +1,28 @@
+{
+  "title": "Euro area stablecoin exposure is small but concentrated among other crypto holdings",
+  "bank": "European Central Bank",
+  "date": "2026-11-11",
+  "url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202607_08~f4ddf0117c.en.html",
+  "summary": [
+    "How much could a stablecoin shock reach euro area households? The ECB authors combine market data with two experimental household survey modules. The global stablecoin market grew rapidly from 2020 before levelling off, while the supply of euro-denominated tokens remained comparatively small. Chart A tracks circulating supply through September 2026. Household evidence comes from August and November 2025 in 11 euro area countries. That difference in timing matters: the survey describes who reported holdings at those dates, while the more recent chart describes market size worldwide. A change in dollar token supply cannot directly update the household ownership estimate.",
+    "Chart B puts ownership in perspective. In November 2024, 9.8% of consumers reported that their household owned crypto-assets. In August 2025 the figure was 13%, including about 5% of all consumers who reported stablecoins. This places stablecoins in over a third of households with crypto exposure. The distribution is tilted towards smaller positions, but close to 10% of stablecoin owners were estimated to hold at least €10,000 in November. This last percentage is conditional on ownership. Treating it as a share of all consumers would greatly exaggerate the number of large positions.",
+    "Position sizes themselves are estimates. In November, respondents indicated how much of their household's crypto portfolio was in stablecoins using a five-point scale. The authors assigned portfolio weights in quarter steps and applied them to reported crypto investment. Chart C relates the resulting estimates to consumers' wider financial assets. In August, 1,286 respondents with crypto holdings answered the asset-type question and could choose multiple holdings. Among them 63% reported bitcoin, 36% ether and 22% XRP. For stablecoins, 17% reported USDT, 12% USDC and 10% EURC. These are overlapping ownership frequencies. They indicate a preference for dollar-denominated tokens without establishing the aggregate euro value invested in each currency.",
+    "Most owners also hold other crypto-assets, consistent with using stablecoins to move between tokens or fiat money. The survey does not observe transactions. Respondents born abroad were 2.1 percentage points more likely to report stablecoins after the authors adjusted for other characteristics. This is consistent with a role for cross-border transfers, alongside other possible explanations. It provides no direct count of remittances or evidence that households are replacing their everyday euro payment instrument. Distinguishing these uses matters because widespread substitution out of bank deposits would have different funding implications from occasional trading in existing crypto portfolios.",
+    "The box outlines three conditional financial stability risks. Losing confidence in redemption at par could prompt redemptions, reducing household wealth and potentially requiring issuers to liquidate reserve assets in traditional markets. A shock elsewhere in crypto could also prompt sales of stablecoins through common holders. Wider everyday use of non-euro tokens could eventually change demand for euro-denominated deposits and affect bank funding and monetary transmission. Current survey exposures suggest limited immediate risk on that last channel. Europe’s regulatory framework mitigates several risks, although cross-border exposures and use of unauthorised tokens remain relevant. The dividing line for monitoring is whether tokens acquire users, balances and payment functions beyond the existing crypto market."
+  ],
+  "questions": [
+    {
+      "question": "How concentrated are aggregate balances among households above the €10,000 threshold?",
+      "detail": "Re-estimate the share of total stablecoin value held by that group under alternative allocations within the survey's five portfolio bands. Compare balances with liquid financial assets as well as total portfolios. This would reveal whether a relatively small number of holders could account for most household losses following a de-pegging, and how robust that inference is to the survey's measurement method."
+    },
+    {
+      "question": "Are foreign-born holders using stablecoins for remittances or primarily for trading?",
+      "detail": "Compare transfer frequency, destination, holding period and holdings of other crypto-assets for foreign-born and domestic respondents with comparable characteristics. The reported 2.1-point ownership difference could reflect either use. Evidence of repeated cross-border payments independent of trading would support a different estimate of exposure to payment disruptions from one based solely on wallet ownership."
+    },
+    {
+      "question": "Does a rise in stablecoin balances come from bank deposits or other crypto-assets?",
+      "detail": "Follow the same households over acquisition episodes and compare deposit balances, euro and dollar tokens, and other crypto positions. Test whether the funding source changes when consumers start using tokens for ordinary payments. A rotation within a crypto portfolio would have different aggregate consequences from recurrent withdrawals of deposits by households acquiring dollars in token form."
+    }
+  ],
+  "limitation": ""
+}

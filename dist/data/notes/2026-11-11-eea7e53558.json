@@ -1,0 +1,28 @@
+{
+  "title": "Euro area wealth inequality mostly reversed after 2014, except in the countries hardest hit by the debt crisis",
+  "bank": "European Central Bank",
+  "date": "2026-11-11",
+  "url": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261111~ee77dcd0d0.en.html",
+  "summary": [
+    "A euro area average conceals two very different recoveries from the sovereign debt crisis. The authors use the Eurosystem Household Finance and Consumption Survey, based on around 90,000 interviews in 22 countries, to compare net wealth across survey waves from 2010 to 2023. At the euro area level, the Gini coefficient was almost back to its starting point by the final wave. In the six countries most affected by the crisis, it remained considerably higher. The comparison concerns the distribution of assets less debts. Households can all lose purchasing power while measured inequality falls, and different parts of the distribution can recover at different speeds.",
+    "Table 1 gives four ways to see this. Between 2010 and 2014, the euro area Gini rose from 68.2 to 69.7 on a scale of zero to 100. The wealthiest tenth's share of net wealth increased from 50.8% to 52.6%, while the bottom half's share declined from 6.0% to 5.4%. The household at the 90th percentile held 5.0 times median wealth in 2014, up from 4.7 in 2010. By 2023 the Gini had fallen to 68.5 and the bottom half held 6.2%. Yet the top tenth still held 51.8%, one percentage point more than in 2010, and the 90th-percentile-to-median ratio was still 5.0. A nearly unchanged aggregate measure therefore does not imply a return to the original distribution.",
+    "Table 2 groups Cyprus, Greece, Ireland, Italy, Portugal and Spain separately from the other euro area countries covered. In the six-country group, the Gini rose from 61.5 in 2010 to 64.7 in 2014, reached 65.9 in 2021 and stayed there in 2023. In the other group it rose from 71.8 to 72.2, then fell to 69.7 by 2023. The harder-hit group started from a lower measured level and experienced a much larger, more persistent increase. Its bottom half's share fell from 10.4% to 8.3% by 2014 and recovered only to 9.0% in 2023.",
+    "Housing explains why the initial losses and subsequent recoveries were asymmetric. A decline in a homeowner's property value leaves the outstanding mortgage in place, so net wealth falls particularly sharply for a leveraged owner. The recession also depleted lower-wealth households' savings, while equity prices recovered sooner, benefiting households higher in the distribution. In the crisis countries, weaker incomes and property prices persisted. Homeownership declined, particularly for younger households. When house prices eventually recovered, fewer families shared in the gains and poorer households had more difficulty rebuilding liquid buffers.",
+    "The authors describe different mechanisms for the later shocks. Fiscal support helped keep inequality relatively stable during the pandemic. During the 2021–23 inflation surge, essential spending absorbed more of poorer households' budgets, forcing some to draw down savings. Higher prices also eroded real asset values, including deposits, and reduced the real burden of debt. Alongside targeted support, the latter balance-sheet effects meant more highly leveraged households recorded smaller losses or slight gains in relative terms. The survey waves show the net distributional changes and balance-sheet exposures. They do not directly quantify a separate causal contribution for each mechanism in each country."
+  ],
+  "questions": [
+    {
+      "question": "How much of the persistent gap is attributable to households losing access to the housing recovery?",
+      "detail": "Use survey microdata to compare younger renters, leveraged owners and debt-free owners in the two country groups. Reweight the post-crisis population to the earlier distribution of housing tenure, then recalculate the bottom-half share and Gini. This would test whether changes in who owned property explain more of the divergence than different price changes experienced by continuing owners."
+    },
+    {
+      "question": "Did the apparent improvement during the inflation surge coincide with weaker liquidity?",
+      "detail": "Compare changes in deposits, debt and spending on essentials for households with similar initial net wealth but different leverage. Recalculate their ranking using liquid assets as well as total wealth. Households gaining relative net wealth because the real value of debt fell could still face deteriorating short-term spending capacity, which matters for consumption and credit risk."
+    },
+    {
+      "question": "How sensitive are the country-group results to aggregation and the choice of inequality measure?",
+      "detail": "Recalculate the Table 2 comparisons country by country, holding household weights fixed, and examine the top tenth, bottom half and median separately. Determine whether one large country's housing cycle dominates the pooled Gini or whether the direction persists across the six. This would clarify how far the survey can support a common recovery narrative."
+    }
+  ],
+  "limitation": ""
+}

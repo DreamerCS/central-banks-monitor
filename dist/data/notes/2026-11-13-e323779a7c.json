@@ -1,0 +1,28 @@
+{
+  "title": "Meridian separates the promise of atomic FX settlement from the obligations of the operator",
+  "bank": "Bank of England · Monetary Authority of Singapore · Bank of Thailand",
+  "date": "2026-11-13",
+  "url": "https://www.bankofengland.co.uk/payments/payments-innovation/wholesale-experiments-programme/project-meridian-fx-apac-executive-summary-and-introduction",
+  "summary": [
+    "A bank that pays away one currency before receiving the other can lose the principal of its trade if the counterparty fails in between. The three central banks behind Project Meridian FX APAC asked whether existing and emerging domestic settlement systems could coordinate the two transfers while each continued to settle in its own central bank money. Their executive report concludes that a single shared technology is unnecessary. It also shows why a common instruction to settle is insufficient: each system must be able to reserve the right funds and provide enough information for participants to know the outcome.",
+    "The experiment linked three simulated wholesale environments through a prototype synchronisation operator developed with Partior. For an individual trade, the operator coordinated payment versus payment, so the two corresponding legs completed together or neither proceeded independently. It also coordinated a batch of eligible trades across all three systems. A bank that owes and is owed the same currency can use its offsetting obligations to reduce the net amount it must fund. To secure that benefit across currencies, however, each system had to settle a consistent set of trades while the required funds remained available. The diagrams in the technical volume describe the sequence. They do not measure the reduction in peak balances for a live dealer.",
+    "What appears to be one service to the participants took different forms underneath. Where an authorised third party could reserve funds and initiate a transfer, the operator could coordinate without holding participants’ money. The Singapore test environment lacked the required reservation function, so the prototype used a dedicated escrow account there. That was a way to demonstrate the experiment in that environment. Carrying it into a live service would change the functions performed by the operator and the responsibilities that overseers and participants would need to examine. The systems also differed in how they accepted net settlement instructions, affecting which calculations were performed centrally and where failures could be identified.",
+    "The project included selected cases of insufficient funds, invalid account details and temporary unavailability. Within the experiments, linked settlement either completed or was unwound without an individual payment leg settling alone. Reliable status information was important when the operator had to determine whether processing had already occurred. Non-overlapping operating hours, expiring reservations and prolonged outages remain open issues. The central banks did not use live participants or reproduce the full FX trade lifecycle. For a treasury desk, retaining a reservation until uncertainty is resolved can tie up usable cash even when a principal loss has been prevented.",
+    "The companion policy analysis treats legal finality, access, oversight, governance and data sharing as separate questions. Technical coordination alone cannot establish when two different legal systems regard a payment as irrevocable, or who has authority to decide what happens when their rules diverge. The report suggests that international principles could help authorities assess operators doing comparable things, while leaving room for different local arrangements. Its table of implications asks infrastructure operators, oversight authorities and potential participants to examine their own capabilities and exposures. The report offers no estimate of trading-volume uptake, settlement fees or realized funding savings, and makes no common implementation recommendation."
+  ],
+  "questions": [
+    {
+      "question": "Which FX flows would become safer, and what would those participants pay for the service?",
+      "detail": "Compare eligible currencies, trade types and participant access against the payment-versus-payment services banks actually use. Seek settlement data broken down by product and by counterparty size. The experiment established a new technical route, but incremental principal-risk reduction depends on which trades currently settle without protection. Replacing one protected route with another has a different commercial value from extending coverage."
+    },
+    {
+      "question": "How much usable intraday liquidity would multilateral netting release?",
+      "detail": "Obtain anonymised timestamped payments, currency balances and operating hours from participants in a prospective pilot. Replay the same flows with and without netting, including the time for which balances are reserved, delayed trades and the cost of alternative funding. Measure peak needs by currency and institution before aggregating. Average net savings could conceal a longer funding gap for a smaller participant."
+    },
+    {
+      "question": "What claim would the participant have if settlement stalled after funds had been reserved?",
+      "detail": "Read the domestic system rules, the operator agreement and legal opinions on finality and insolvency. Map who owns or controls funds in each design, who can release them and how conflicting instructions are resolved. The experimental escrow and direct reservation models have different accountability implications even when both deliver the same successful transaction in a test."
+    }
+  ],
+  "limitation": ""
+}

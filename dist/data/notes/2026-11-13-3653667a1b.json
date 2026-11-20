@@ -1,0 +1,28 @@
+{
+  "title": "Korea could buy more imports with its exports even as the October price advantage narrowed",
+  "bank": "Bank of Korea",
+  "date": "2026-11-13",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11066543&menuNo=400069",
+  "summary": [
+    "Korea’s preliminary October indexes show an unusually large improvement in the purchasing power of export receipts alongside a more modest change in the price obtained per unit shipped. Export volume rose 43.9% on a year earlier, while import volume increased 14.9%. The net barter terms of trade, which measure how much a unit of exports buys in imports, were 21.3% above a year earlier. Combining that price advantage with the larger volume shipped lifted the income terms of trade by 74.6%. That last figure concerns the international purchasing power of gross goods exports. It does not measure growth in Korean households’ income or the domestic value added retained by exporters.",
+    "October was less favourable on a sequential basis. The net barter index fell 2.0% from September and its year-on-year growth eased from 25.4% to 21.3%. Yet export volume growth accelerated from 32.2% to 43.9%, lifting income terms-of-trade growth from 65.8% to 74.6%. The identities below the table on page 2 explain how all four movements can coexist. For an exporter, a retreat in the price advantage from the preceding month can matter for margins even when the quantity of imported goods the country could buy with a year’s growth in exports rises dramatically.",
+    "The prices received and paid in won offer a separate perspective. Export prices rose 0.7% in October and import prices fell 1.8%. Measured in the currencies specified in contracts, the changes were +2.4% and −0.2%. Currency conversion therefore damped the increase on the export side and enlarged the fall on the import side. These series answer a different question from the dollar-based trade indexes. Dividing the two monthly won price changes would not reproduce the published change in the net barter index.",
+    "Manufacturing dominates the export price sample, accounting for 996.6 of its 1,000 weight units. The industry tables show computer, electronic and optical equipment export prices in won rose 3.7% on the month, compared with a 1.8% fall in electrical equipment. The trade indexes show the volume of computer, electronic and optical exports was 51.2% above a year earlier and their value 214.8% higher. The wider manufacturing sector recorded 44.1% export volume growth. Agricultural, forestry and marine export volumes, in contrast, fell 18.7%. The headline strength therefore gives poor guidance to an exporter whose product mix looks very different from the weighted basket.",
+    "On imports, all four end-use groups registered monthly price declines. Raw materials fell 3.0% but still cost 36.2% more in won than a year earlier. Capital goods were 1.8% cheaper over the month and 4.2% cheaper on the year. For a manufacturer importing equipment and commodities, October offered some immediate relief on both bills, against very different twelve-month starting points. Page 2 flags that customs information can revise the volume and value series, with annual figures finalised in the following March release. October’s figures provide an early breakdown of the gains and cost pressures, with particular uncertainty around the size of unusually large annual changes."
+  ],
+  "questions": [
+    {
+      "question": "How much of the gain in export purchasing power will survive a smaller electronics contribution?",
+      "detail": "Use the industry's volume and value indexes together with the aggregate net barter and income measures. A slowdown in unit prices with continued volume growth would have different implications for exporter revenue than a drop in units shipped. Recalculate the changes after revisions and compare with industries outside computer, electronic and optical equipment before extrapolating the October pace."
+    },
+    {
+      "question": "Which price measure best captures pressure on Korean importers’ cash flows?",
+      "detail": "Place the contract-currency and won versions of import prices alongside one another by end use. The October headline falls of 0.2% and 1.8% answer different questions for buyers with different currency exposure. Several months of sustained easing in the raw-material series would give stronger evidence of durable input-cost relief than the latest won translation alone."
+    },
+    {
+      "question": "Does the improvement in purchasing power extend to the kinds of goods firms need to import?",
+      "detail": "Compare capital goods, intermediates and raw materials with export industries’ volume changes. A rise in the quantity of imports purchasable at the aggregate price can coexist with a particularly expensive input basket for individual producers. The detailed tables and the next customs revisions can help distinguish that sectoral exposure from a countrywide terms-of-trade gain."
+    }
+  ],
+  "limitation": ""
+}

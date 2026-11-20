@@ -1,0 +1,28 @@
+{
+  "title": "Czech GDP nowcasts narrowly favour judgement, and the ranking depends on the data vintage",
+  "bank": "Czech National Bank",
+  "date": "2026-11-13",
+  "url": "https://www.cnb.cz/en/about_cnb/cnblog/How-accurate-are-AI-models-at-nowcasting-GDP",
+  "summary": [
+    "The Czech National Bank’s forecast combining models and staff judgement narrowly beat its best standalone machine-learning model in predicting the first estimate of quarterly GDP. From early 2023, the root mean squared error was 0.21 percentage points for the combined forecast against 0.22 for Random Forest. Botka, Michálek, Michl and Šarboch therefore make a narrower claim than the headline question suggests. The machine is competitive on recent first releases. The small numerical difference gives little basis for declaring either method durably superior, and the result does not identify the value of an interest-rate trade.",
+    "The comparison is disciplined about what forecasters knew. The authors take the last estimate before the CNB forecasting cut-off, roughly two weeks after each quarter has ended. Industrial and construction output, retail sales and services data for the last month may still be missing. Chart 1 compares the predictions with four versions of the outcome, from the flash release through the latest revised estimate. Chart 2 ranks errors against the flash figure. A forecasting desk trading the release wants that first target; a researcher explaining the underlying cycle may care about a later one. A revision can alter the apparent miss even if the forecast and the information originally available have not changed.",
+    "The tools have different strengths. Electricity consumption and the high-frequency Rushin index helped track a fall of more than 8% in GDP in the second quarter of 2020 and the subsequent rebound. The dynamic factor model can attribute a change since the previous forecast to incoming releases and revisions. Random Forest and the other machine-learning models broaden the set of relationships that can be fitted. Economists can adjust the combined result when an identifiable event has yet to appear in the data. In the recent, calmer sample, the weighted model average ranks just below Random Forest. The authors do not give a test demonstrating that a one-hundredth-of-a-point advantage in this short period would survive another sample.",
+    "The benchmark helps distinguish better prediction from a quieter economy. Chart 4 compares the CNB’s error with a model that uses the preceding quarter’s growth. Before the pandemic the CNB forecast improved on that benchmark by about 15%. Its relative advantage was roughly 80% in 2020–22, even though its absolute errors rose. From 2023 the improvement was almost 35%, with much lower absolute errors. The crisis comparison illustrates why these measures can tell different stories: a large reversal in output is particularly hard to forecast by projecting its recent past. The exercise also spans changes in the available indicators and the forecasting process, so the whole improvement cannot be allocated to machine learning alone.",
+    "Chart 3 describes a prospective change to the way forecasts are combined. Weights previously depended on results from a period including the pandemic. The authors propose recalculating them each quarter on recent performance and taking crisis experience into account if the economy becomes turbulent again. An adaptive scheme could stop rewarding a model for a shock that has passed. A small recent sample also leaves it vulnerable to promoting the winner of a few quarters by chance. The results reported for the old process supply a benchmark for the new one, rather than a test of its future returns."
+  ],
+  "questions": [
+    {
+      "question": "Would the 0.01-point gap persist under a genuinely prospective comparison?",
+      "detail": "Preserve the forecast available on each cut-off date and use the statistical office’s corresponding flash estimate. Compare paired errors and their dispersion, including when GDP changes sign. Run the dynamic weighting rule using only results known at the time. A sustained reduction in large misses would justify more confidence in it than a small change in the average ranking."
+    },
+    {
+      "question": "Does an improvement against flash GDP translate into a price-relevant surprise?",
+      "detail": "Match the frozen nowcasts to a dated consensus survey, the release timestamp and nearby liquid koruna rates. A model can be accurate when everyone makes the same forecast. Check both the dispersion of prior beliefs and other announcements in the window before treating the model’s difference from consensus as a tradable signal."
+    },
+    {
+      "question": "When does judgement add information that the model has not yet seen?",
+      "detail": "Obtain successive CNB forecast vintages, the dates of staff adjustments and the statistical release calendar. Separate late-arriving information from discretionary interpretation, then examine episodes when the models disagree most. Compare early and revised national accounts to learn whether an adjustment improved the forecast of the first print, the later activity measure, or both."
+    }
+  ],
+  "limitation": ""
+}
