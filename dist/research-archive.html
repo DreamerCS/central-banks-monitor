@@ -8,10 +8,10 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="edition.css">
-  <link rel="stylesheet" href="research-notes.css?v=db5eacd80693">
-  <link rel="stylesheet" href="research-archive.css?v=db5eacd80693">
-  <script src="publication-reader.js?v=db5eacd80693" defer></script>
-  <script src="research-archive.js?v=db5eacd80693" defer></script>
+  <link rel="stylesheet" href="research-notes.css?v=fb9101c833b8">
+  <link rel="stylesheet" href="research-archive.css?v=fb9101c833b8">
+  <script src="publication-reader.js?v=fb9101c833b8" defer></script>
+  <script src="research-archive.js?v=fb9101c833b8" defer></script>
 </head>
 <body class="archive-page">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -31,6 +31,8 @@
       <label>View <select id="view-filter"><option value="region">By region</option><option value="time">By time</option></select></label>
       <label>Jurisdiction <select id="bank-filter"></select></label>
       <label>Publication type <select id="type-filter"></select></label>
+      <label>From <input id="from-filter" type="date" max="9999-12-31" aria-label="From date"></label>
+      <label>To <input id="to-filter" type="date" max="9999-12-31" aria-label="To date"></label>
       <label>Search <input id="query-filter" type="search"></label>
       <button type="reset">Clear filters</button>
     </form>

@@ -38,11 +38,13 @@
   margin: 24px 0 8px;
 }
 .archive-filters label { font-size: .82rem; color: var(--navy); font-weight: 700; }
-.archive-filters select, .archive-filters input[type="search"] {
+.archive-filters select, .archive-filters input {
   display: block;
   margin-top: 5px;
   min-height: 40px;
   width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
   border: 1px solid #9eb3b6;
   padding: 7px 9px;
   background: white;
@@ -134,7 +136,7 @@
 .archive-scope button:first-child {padding-left: 0}
 .archive-page .archive-filters {background: transparent; border-bottom: 1px solid var(--line); padding: 0 0 16px; margin: 19px 0 10px}
 .archive-filters label {min-width: 5rem}
-.archive-filters label:has(input) {flex: 1 1 15rem}
+.archive-filters label:has(input[type="search"]) {flex: 1 1 15rem}
 .archive-shell .month-title {border-bottom: 1px solid var(--ink); padding: 0 0 9px}
 .archive-shell .research-record {padding-block: 17px 19px}
 .research-record .official-link {display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center}
@@ -157,7 +159,7 @@ body:has(#archive-reader[open]) {overflow: hidden}
 @media (max-width: 620px) {
   .archive-page .archive-filters {display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px}
   .archive-filters label {min-width: 0}
-  .archive-filters label:has(input) {grid-column: 1/-1}
+  .archive-filters label:has(input[type="search"]) {grid-column: 1/-1}
   .archive-filters button {justify-self: start}
   #archive-reader {border: 0}
   .reader-toolbar {padding-top: max(9px,env(safe-area-inset-top))}

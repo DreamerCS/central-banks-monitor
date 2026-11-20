@@ -5,6 +5,8 @@ const form = select("archive-filters");
 const bankFilter = select("bank-filter");
 const typeFilter = select("type-filter");
 const queryFilter = select("query-filter");
+const fromFilter = select("from-filter");
+const toFilter = select("to-filter");
 const viewFilter = select("view-filter");
 const container = select("archive-month");
 const result = select("archive-results");
@@ -165,7 +167,8 @@ function stateUrl() {
   url.searchParams.delete("analysis");
   url.searchParams.set("month", month.id);
   url.searchParams.set("scope", scope);
-  for (const [key, input] of [["bank", bankFilter], ["type", typeFilter], ["q", queryFilter], ["view", viewFilter]]) {
+  for (const [key, input] of [["bank", bankFilter], ["type", typeFilter], ["q", queryFilter], ["view", viewFilter],
+    ["from", fromFilter], ["to", toFilter]]) {
     if (input.value) url.searchParams.set(key, input.value);
     else url.searchParams.delete(key);
   }
@@ -196,8 +199,9 @@ async function readAnalysis(header) {
   try {
     const note = await PublicationReader.load(header);
     if (revision !== readRevision || !dialog.open) return;
-    const permalink = new URL("research-archive.html", location.href);
-    permalink.searchParams.set("month", header.date.slice(0, 7));
+    const hasRange = fromFilter.value || toFilter.value;
+    const permalink = hasRange ? stateUrl() : new URL("research-archive.html", location.href);
+    if (!hasRange) permalink.searchParams.set("month", header.date.slice(0, 7));
     permalink.searchParams.set("analysis", header.file.slice(0, -5));
     PublicationReader.render(article, note, permalink.href);
     article.hidden = false;
@@ -244,8 +248,19 @@ select("close-analysis").addEventListener("click", closeReader);
 
 function render() {
   const query = queryFilter.value.trim().toLocaleLowerCase();
-  const selected = records.filter(record => {
+  const from = fromFilter.value;
+  const to = toFilter.value;
+  const reversed = Boolean(from && to && from > to);
+  const invalidDate = !fromFilter.validity.valid || !toFilter.validity.valid;
+  for (const input of [fromFilter, toFilter]) {
+    const invalid = !input.validity.valid || (input === toFilter && reversed);
+    input.setAttribute("aria-invalid", String(invalid));
+    if (invalid) input.setAttribute("aria-describedby", "archive-results");
+    else input.removeAttribute("aria-describedby");
+  }
+  const selected = invalidDate || reversed ? [] : records.filter(record => {
     if (month.start > record.date || month.end < record.date ||
+      (from && record.date < from) || (to && record.date > to) ||
       (bankFilter.value && !record.jurisdictions.includes(bankFilter.value)) ||
       (typeFilter.value && typeFilter.value !== record.type)) return false;
     const matches = matchingNotes(record);
@@ -263,8 +278,16 @@ function render() {
     : new Set(filtered.flatMap(record => record.jurisdictions)).size;
   result.textContent = filtered.length ? filtered.length + (filtered.length === 1 ? " publication" : " publications") +
     " · " + jurisdictions + (jurisdictions === 1 ? " jurisdiction" : " jurisdictions") : "No matching publications";
+  if (invalidDate) result.textContent = "Enter a complete date with a four-digit year.";
+  else if (reversed) result.textContent = "The end date must be on or after the start date.";
   const title = element("div", "", "month-title");
-  const heading = element("h2", month.annual ? month.label : month.label + " " + month.start.slice(0,4));
+  let label = month.annual ? month.label : month.label + " " + month.start.slice(0,4);
+  if (!invalidDate && !reversed) {
+    if (from && to) label = dateLabel.formatRange(new Date(from), new Date(to));
+    else if (from) label = "From " + dateLabel.format(new Date(from));
+    else if (to) label = "Through " + dateLabel.format(new Date(to));
+  }
+  const heading = element("h2", label);
   heading.id = "active-month-title";
   title.append(heading);
   const timeline = viewFilter.value === "time";
@@ -367,7 +390,12 @@ async function start() {
   typeFilter.append(new Option("All types",""),...[...new Set(records.map(r => r.type))].sort().map(type => new Option(type,type)));
   const hash = location.hash.slice(1);
   const id = params.get("month") || hash.split("-bank-")[0];
-  scope = params.get("scope") === "all" || (!params.has("scope") && (id || params.has("bank") || params.has("q"))) || !notes ? "all" : "analysis";
+  // Date inputs also reject impossible calendar dates such as 30 February.
+  for (const [key, input] of [["from", fromFilter], ["to", toFilter]]) {
+    const value = params.get(key) || "";
+    if (/^\d{4}-\d{2}-\d{2}$/.test(value)) input.value = value;
+  }
+  scope = params.get("scope") === "all" || (!params.has("scope") && (id || params.has("bank") || params.has("q") || fromFilter.value || toFilter.value)) || !notes ? "all" : "analysis";
   const requested = notesById.get(params.get("analysis"));
   const initial = ranges.find(period => period.id === id) || periodsByYear.get(id) ||
     (requested && periodsByYear.get(requested.date.slice(0, 7))) || all;
@@ -396,7 +424,7 @@ async function start() {
   });
   form.addEventListener("reset", event => {
     event.preventDefault();
-    bankFilter.value = typeFilter.value = queryFilter.value = "";
+    bankFilter.value = typeFilter.value = queryFilter.value = fromFilter.value = toFilter.value = "";
     month = all;
     filtersChanged();
   });
