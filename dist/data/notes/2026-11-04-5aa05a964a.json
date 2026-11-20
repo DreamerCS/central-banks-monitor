@@ -1,0 +1,28 @@
+{
+  "title": "Spanish firms reported fewer loan obstacles even as borrowing costs rose and loan applications fell",
+  "bank": "Banco de España",
+  "date": "2026-11-04",
+  "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-banco-espana/notas-banco-espana/el-acceso-a-la-financiacion-bancaria-siguio-mejorando-en-el-tercer-trimestre-de-2026-aunque-la-mejora-fue-muy-leve-y-menor-que-en-el-trimestre-anterior.html",
+  "summary": [
+    "Spanish firms reported a small further improvement in access to bank loans in the third quarter of 2026. Only a net 2% of respondents reported better availability, down eight percentage points from the previous quarter. At the same time, the proportion applying for loans fell ten points to 18%, and more firms reported higher interest rates. These results can coexist. Willingness to lend, demand for funds, approval of an application and the price a borrower pays describe different parts of the financing decision. Banco de España’s release of 4 November covers Spain’s quarterly respondents to the euro area SAFE survey, whose aggregate results the ECB had published in October.",
+    "The firms entered that decision with weaker reported profitability. In Chart 1, a net 6% reported higher sales, 18 points below the previous quarter. A net 55% reported higher labour costs, down from 65%, while the balance for other costs fell from 74% to 65%. Costs were still rising for many firms. The net share reporting profit growth was minus 12.7%, its third consecutive negative reading and the lowest since quarterly observations began in early 2024. It turned negative for large companies for the first time in that short series. These are employment-size-weighted differences between shares reporting an increase and a decrease. A reading of minus 12.7% is not a 12.7% fall in aggregate earnings.",
+    "The survey also identifies shifts in borrowers’ own financing choices. A net 13% reported a lower debt-to-assets ratio, up from 5%, with net declines in leverage among both small and large businesses. Firms reported slightly lower financing needs. On the supply side, a net 15% saw banks’ willingness to lend as favourable, and 14% cited their credit histories positively. Against this, 34% assessed the economic outlook as impairing access, seven points more than in the previous quarter, and 10% cited deterioration related to their own position. Chart 2 tracks the distinction between availability and the need for funds.",
+    "Among firms that considered seeking bank credit, the share encountering an obstacle fell to 2.5%, the lowest recorded. Chart 3 shows why the aggregate improved. Rejected applications fell from 1.3% to 0.2% on this survey denominator. More firms nevertheless reported two other obstacles. Discouragement increased 0.2 point, and partial awards increased 0.5 point. Chart 4 records a net 46% reporting higher rates, against 41% previously. A net 30% reported higher non-interest costs. Collateral requirements increased, while available amounts and maturities improved slightly. For the fourth quarter, only a net 1% expected better access.",
+    "A reduction in rejected applications on a smaller applicant base cannot establish that every firm preferred the terms it could obtain. Some may have chosen to reduce borrowing as sales and profits weakened. Others may have avoided an application because the cost, collateral or outlook made a loan unattractive. The survey distinguishes some of these outcomes at an aggregate level, without following each firm from its financing decision to the eventual loan terms. The Spanish breakdown therefore adds information about bank credit conditions even where its indicators move in opposite directions."
+  ],
+  "questions": [
+    {
+      "question": "Would the shift in loan applications survive a constant-sample comparison?",
+      "detail": "Compare the same firms across adjacent SAFE waves, holding employment size and sector constant. Separate continuing applicants from previous borrowers that stopped applying despite a financing need. A fall concentrated among businesses with declining sales or investment plans would point toward weaker demand, while discouraged firms reporting tighter collateral or higher rates would raise a different question about supply."
+    },
+    {
+      "question": "Which borrowers could obtain credit but chose not to accept the terms?",
+      "detail": "Match quoted bank rates, fees, collateral and maturities to applications, partial awards and rejected offers where possible. Compare new loan contracts with the survey shares for enterprises reporting higher costs. A declining rejection rate could coexist with higher all-in costs if firms facing the most expensive offers withdraw before a lender records a formal rejection."
+    },
+    {
+      "question": "Do reported profit pressures imply a future increase in credit losses?",
+      "detail": "Compare the survey balances on sales, labour and other input costs with company accounts, the credit register and the subsequent repayment records of borrowers of similar size. Follow debt reduction separately from a loss of access to refinancing. Sustained margin pressure among firms with upcoming maturities has different implications for credit quality than an orderly reduction in leverage by profitable firms."
+    }
+  ],
+  "limitation": ""
+}
