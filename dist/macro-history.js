@@ -598,6 +598,10 @@ async function leaders() {
     el("h3", "What the market data can test"), el("p", profile.test),
     link("Explore "+bank.name+" guidance and market repricing","empirical-studies.html?study=guidance&bank="+bank.id));
 
+  if (["Jean-Claude Trichet", "Mario Draghi"].includes(profile.name)) {
+    article.append(link("October–December 2011 · The policy handover in swap prices", "historical-data.html#ecb-handover-2011"));
+  }
+
   const noteBySource = new Map();
   for (const note of notes) {
     for (const url of [note.url, ...(note.publication?.aliases || [])]) {
