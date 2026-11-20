@@ -137,10 +137,24 @@ function testSection(results) {
   block.append(el("p","Historical forecast test · United States","hs-kicker"),el("h2","Which decade travels best?"),
     el("p","Each model predicts US year-on-year CPI inflation six months ahead using the inflation rate and the twelve-month change in unemployment at the forecast origin. Only the historical training sample changes. The benchmark carries current inflation forward."));
   const controls=el("div",undefined,"hs-bars"),target=el("div");
+  block.id="forecast-comparison";
+  const horizons=el("div",undefined,"hs-section");
   function show(period) {
     const t=results.tests.find(x=>x.period===period);
     target.replaceChildren(el("p",t.n+" matched target months · "+t.firstTarget+" to "+t.lastTarget+". Errors are in percentage points; smaller values indicate closer forecasts.","hs-byline"),
       table(["Training sample","Mean absolute error","Root mean squared error"],t.scores.map(r=>[r.name,num(r.mae,2),num(r.rmse,2)]),"Six-month inflation forecast errors"));
+    if (results.equalWindows) {
+      const matched = results.equalWindows.filter(r => r.period === period);
+      horizons.replaceChildren(el("h3","Does the result hold at other horizons?"),
+        el("p","Two nine-year training windows. Each row compares mean absolute inflation forecast errors on the same target months, in percentage points."),
+        table(["Horizon","Target months","2000–2008","2011–2019","Unchanged inflation"],
+          matched.map(r => [r.monthsAhead+" months",r.first+" to "+r.last+" (n = "+r.n+")",
+            num(r.early,3),num(r.late,3),num(r.unchanged,3)]),"Inflation forecast errors by horizon"),
+        el("p", period === "2022–2026"
+          ? "The 2000–08 fit improves on unchanged inflation at six months. At three and twelve months, carrying the last inflation reading forward gives a slightly smaller error."
+          : "For the twelve target months in 2021, the 2011–19 fit beats the 2000–08 fit at the one-year horizon. Unchanged inflation has a lower error than either. Overlapping targets capture much of the same shock."));
+    }
+
   }
   const last=results.tests.at(-1);
   controls.append(select("Evaluation targets",results.tests.map(x=>[x.period,x.period]),last.period,show));show(last.period);
@@ -148,7 +162,7 @@ function testSection(results) {
   details.append(el("summary","Specification and interpretation"),el("p","Direct OLS with an intercept, one equation per training sample. Both the forecast origin and its six-month outcome fall within training dates. Evaluation origins start in January 2020. Each model uses the same non-missing evaluation months. Six-month-ahead year-on-year inflation shares six underlying price months with today’s year-on-year reading."),
     el("p","Inputs are a November 2026 historical vintage. Earlier policymakers saw different releases and revisions. Monthly errors overlap, the crisis years influence the coefficients, and the evaluation covers few independent shocks. These are retrospective forecasting comparisons. A finding for inflation does not establish the best period for an FX, growth or rates forecast."),
     table(["Training sample","Fitted months","Intercept","Inflation","Change in unemployment"],results.models.filter(x=>x.n).map(m=>[m.name,m.n,...m.coefficients.map(x=>num(x,3))]),"Fitted coefficients"));
-  block.append(controls,target,el("p","Including 2008 improves the pre-crisis model’s 2022–26 mean absolute error from 1.05 to 0.81 percentage points. In the pandemic evaluation, unchanged inflation outperforms every fitted model. The preferred comparison changes with the period being forecast."),details);
+  block.append(controls,target,el("p","Including 2008 improves the pre-crisis model’s 2022–26 mean absolute error from 1.05 to 0.81 percentage points. In the pandemic evaluation, unchanged inflation outperforms every fitted model. The preferred comparison changes with the period being forecast."),horizons,details);
   block.append(link("Compare rolling and real-time forecasts","empirical-studies.html?study=inflation#vintage-check"));
   return block;
 }

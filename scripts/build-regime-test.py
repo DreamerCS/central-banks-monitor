@@ -10,15 +10,15 @@ TRAIN = (("1973–1982", 1973, 1982), ("2000–2007", 2000, 2007),
 TEST = (("2020–2021", 2020, 2021), ("2022–2026", 2022, 2026))
 
 
-def pairs(rows):
+def pairs(rows, horizon=6):
     """Dates are calendar months. Never bridge gaps in the input releases."""
     observations = []
-    for t in range(12, len(rows) - 6):
+    for t in range(12, len(rows) - horizon):
         r = rows[t]
         pi, u, last_u, target = (r["cpiYoY"], r["unemployment"],
-                                 rows[t-12]["unemployment"], rows[t+6]["cpiYoY"])
+                                 rows[t-12]["unemployment"], rows[t+horizon]["cpiYoY"])
         if None not in (pi, u, last_u, target):
-            observations.append((r["month"], rows[t+6]["month"], pi, u-last_u, target))
+            observations.append((r["month"], rows[t+horizon]["month"], pi, u-last_u, target))
     return observations
 
 
@@ -34,6 +34,26 @@ def coefficients(sample):
         raise ValueError("Historical regressors are collinear")
     b, c = (xy*zz-zy*xz)/det, (zy*xx-xy*xz)/det
     return [y-b*x-c*z, b, c]
+
+
+def matched_windows(source):
+    comparisons = []
+    for horizon in (3, 6, 12):
+        observations = pairs(source["rows"], horizon)
+        fits = {}
+        for name, start, end in (("early", "2000", "2008"), ("late", "2011", "2019")):
+            training = [r for r in observations if start <= r[0][:4] and r[1][:4] <= end]
+            fits[name] = coefficients(training)
+        fits["unchanged"] = (0, 1, 0)
+        for period, start, end in TEST:
+            targets = [r for r in observations
+                       if r[0] >= "2020-01" and start <= int(r[1][:4]) <= end]
+            errors = {name: round(mean(abs(a+b*pi+c*du-y) for _, _, pi, du, y in targets), 3)
+                      for name, (a, b, c) in fits.items()}
+            comparisons.append({"period": period, "monthsAhead": horizon,
+                                "first": targets[0][1], "last": targets[-1][1],
+                                "n": len(targets), **errors})
+    return comparisons
 
 
 def main():
@@ -55,7 +75,8 @@ def main():
                            "rmse": round(sqrt(mean(e*e for e in errors)), 3)})
         evaluations.append({"period": label, "firstTarget": sub[0][1], "lastTarget": sub[-1][1],
                             "n": len(sub), "scores": scores})
-    result = {"vintage": source["asOf"], "horizonMonths": 6, "models": models, "tests": evaluations}
+    result = {"vintage": source["asOf"], "horizonMonths": 6, "models": models, "tests": evaluations,
+              "equalWindows": matched_windows(source)}
     (DATA / "regime-test.json").write_text(json.dumps(result, ensure_ascii=False, indent=2)+"\n")
 
 

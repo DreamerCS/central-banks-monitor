@@ -114,5 +114,67 @@
         }
       ]
     }
+  ],
+  "equalWindows": [
+    {
+      "period": "2020–2021",
+      "monthsAhead": 3,
+      "first": "2020-04",
+      "last": "2021-12",
+      "n": 21,
+      "early": 2.382,
+      "late": 3.131,
+      "unchanged": 1.173
+    },
+    {
+      "period": "2022–2026",
+      "monthsAhead": 3,
+      "first": "2022-01",
+      "last": "2026-09",
+      "n": 55,
+      "early": 0.689,
+      "late": 0.9,
+      "unchanged": 0.672
+    },
+    {
+      "period": "2020–2021",
+      "monthsAhead": 6,
+      "first": "2020-07",
+      "last": "2021-12",
+      "n": 18,
+      "early": 3.164,
+      "late": 4.504,
+      "unchanged": 1.885
+    },
+    {
+      "period": "2022–2026",
+      "monthsAhead": 6,
+      "first": "2022-01",
+      "last": "2026-09",
+      "n": 55,
+      "early": 0.806,
+      "late": 1.693,
+      "unchanged": 1.07
+    },
+    {
+      "period": "2020–2021",
+      "monthsAhead": 12,
+      "first": "2021-01",
+      "last": "2021-12",
+      "n": 12,
+      "early": 6.806,
+      "late": 4.949,
+      "unchanged": 3.738
+    },
+    {
+      "period": "2022–2026",
+      "monthsAhead": 12,
+      "first": "2022-01",
+      "last": "2026-09",
+      "n": 56,
+      "early": 2.066,
+      "late": 3.18,
+      "unchanged": 2.047
+    }
   ]
 }
