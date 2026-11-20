@@ -385,6 +385,22 @@
     }
   },
   {
+    "title": "What a collateral taker actually receives when securities are tokenised",
+    "bank": "Monetary Authority of Singapore",
+    "date": "2026-11-19",
+    "url": "https://www.mas.gov.sg/publications/monographs-or-information-paper/2026/guardian-tokenised-collateral-framework",
+    "excerpt": "A Singapore clearing member could hold US Treasuries worth more than its margin call and still be unable to deliver them before the deadline.",
+    "file": "2026-11-19-c0513c15ea.json",
+    "publication": {
+      "title": "Guardian Tokenised Collateral Framework",
+      "jurisdiction": "Singapore",
+      "type": "Research",
+      "aliases": [
+        "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/guardian/guardian-tokenised-collateral-framework---market-landscape-and-implementation-considerations.pdf"
+      ]
+    }
+  },
+  {
     "title": "What UK market participants saw in the energy shock after the November rate increase",
     "bank": "Bank of England",
     "date": "2026-11-19",
@@ -612,6 +628,22 @@
       "jurisdiction": "Sweden",
       "type": "Speech",
       "title": "Executive Board in Finance Committee hearing on monetary policy"
+    }
+  },
+  {
+    "title": "Following a digital payment to the obligation that actually settles",
+    "bank": "Monetary Authority of Singapore",
+    "date": "2026-11-19",
+    "url": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom_field_guide.pdf",
+    "excerpt": "Two institutions can both describe a transaction as an instant digital payment while settling materially different obligations.",
+    "file": "2026-11-19-1e463909ae.json",
+    "publication": {
+      "title": "A Field Guide to Extending Settlement Capabilities",
+      "jurisdiction": "Singapore",
+      "type": "Research",
+      "aliases": [
+        "https://www.mas.gov.sg/publications/monographs-or-information-paper/2026/bloom-field-guide"
+      ]
     }
   },
   {
@@ -1757,6 +1789,19 @@
     }
   },
   {
+    "title": "Project Simbolon settled two simulated currency legs across independent central bank ledgers",
+    "bank": "Monetary Authority of Singapore",
+    "date": "2026-11-16",
+    "url": "https://www.mas.gov.sg/publications/monographs-or-information-paper/2026/project-simbolon",
+    "excerpt": "Paying euros before receiving Singapore dollars exposes a bank to the loss of principal if its counterparty fails in between.",
+    "file": "2026-11-16-923b70744d.json",
+    "publication": {
+      "title": "Project Simbolon",
+      "jurisdiction": "Singapore",
+      "type": "Research"
+    }
+  },
+  {
     "title": "Mauderer distinguishes falling German exports from German companies’ sales in China",
     "bank": "Deutsche Bundesbank",
     "date": "2026-11-16",
@@ -2362,6 +2407,20 @@
       "title": "Box 1.1 Outright Purchases and Bond Markets",
       "type": "Research",
       "jurisdiction": "Türkiye"
+    }
+  },
+  {
+    "title": "What Treasury buybacks changed about liquidity and the convenience yield",
+    "bank": "Federal Reserve Bank of St. Louis",
+    "date": "2026-11-12",
+    "url": "https://www.stlouisfed.org/on-the-economy/2026/nov/treasury-buybacks-convenience-yield",
+    "excerpt": "In September the US Treasury doubled the maximum size of a liquidity-support buyback for longer-dated securities.",
+    "file": "2026-11-12-85ed5f99aa.json",
+    "publication": {
+      "title": "Treasury Buybacks and the Convenience Yield",
+      "jurisdiction": "United States",
+      "type": "Research",
+      "aliases": []
     }
   },
   {
@@ -3280,6 +3339,23 @@
       "type": "Research",
       "aliases": [
         "https://www.federalreserve.gov/econres/ifdp/files/ifdp1450.pdf"
+      ]
+    }
+  },
+  {
+    "title": "Data-centre builders borrowed more as chipmakers repaid debt during the AI investment boom",
+    "bank": "Federal Reserve Bank of St. Louis",
+    "date": "2026-11-10",
+    "url": "https://www.stlouisfed.org/publications/review/2026/nov/financing-artificial-intelligence-cash-debt-corporate-investment",
+    "excerpt": "Did the firms building artificial intelligence infrastructure borrow to pay for it, or did they spend cash that was already on their balance sheets?",
+    "file": "2026-11-10-d86b25395e.json",
+    "publication": {
+      "title": "Financing Artificial Intelligence: Cash, Debt, and Corporate Investment",
+      "jurisdiction": "United States",
+      "type": "Research",
+      "aliases": [
+        "https://www.stlouisfed.org/-/media/project/frbstl/stlouisfed/publications/review/pdfs/2026/nov/financing-artificial-intelligence-cash-debt-corporate-investment.pdf",
+        "https://doi.org/10.20955/r.2026.13"
       ]
     }
   },

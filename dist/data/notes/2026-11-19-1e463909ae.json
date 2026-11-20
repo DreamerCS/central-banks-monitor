@@ -1,0 +1,28 @@
+{
+  "title": "Following a digital payment to the obligation that actually settles",
+  "bank": "Monetary Authority of Singapore",
+  "date": "2026-11-19",
+  "url": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom_field_guide.pdf",
+  "summary": [
+    "Two institutions can both describe a transaction as an instant digital payment while settling materially different obligations. A corporate client may see funds immediately, the originating bank may still owe the receiving bank money, and the receiving institution may ultimately obtain conventional currency. The BLOOM Field Guide, prepared by industry participants and published by the Monetary Authority of Singapore, follows those obligations across an entire transaction. Its four-part framework examines the functions performed, the structure of the liabilities, the connections between institutions and the controls for which each party is responsible.",
+    "The starting point is to name the issuer whose claim the payer holds before the payment and the claim the beneficiary receives afterwards. The guide distinguishes a common issuer, multiple issuers operating under common rules, and interconnected issuer arrangements. For each structure a second question follows. When an inter-institution obligation arises, what asset discharges it, on which record, and at what point is that discharge final? An instruction accepted by a network, a change visible on a ledger and the settlement of a claim between two banks can mark different events. Those distinctions also determine whose funds remain unavailable if a transaction stalls.",
+    "Chapter 7 illustrates the difference with the connection between DBS and Kinexys by J.P. Morgan for US dollar transfers between Singapore and the United States. Each bank issues its own tokenised deposits and maintains its own environment. The transaction changes the liability from the sending bank’s to the beneficiary bank’s. The original token does not travel from one ledger to the other. Partior coordinates the transfer and resulting interbank settlement alongside the underlying correspondent arrangements. Each bank retains its customer and compliance responsibilities. Round-the-clock movement of customer liquidity can therefore coexist with several institutions and records supporting the transfer.",
+    "The Nium–Visa example narrows the boundary further. In this pilot USDC was used on the issuer-to-Visa leg of card settlement, with the obligation denominated in US dollars and Visa ultimately receiving fiat currency. Authorisation, clearing and transaction processing continued through Visa’s existing infrastructure. Settlement from Visa to the acquirer also remained on the existing fiat channels. A stablecoin transfer observed on a ledger therefore identifies a specific part of the card payment chain. It cannot establish that a merchant received stablecoins, that the entire network settled the same day or that liquidity and compliance costs fell across all participants.",
+    "A cross-border merchant-payment example shows the converse. A traveller pays through a wallet against a merchant-presented QR code and the merchant receives local fiat currency. Stablecoins can support transfers among participating intermediaries even though the end users do not handle them. A further case shows how a shared record can coordinate payment commitments while the settlement of resulting interbank obligations takes place separately. The practical comparison is between the timing, cost and reliability of equivalent end-to-end services, including conversion and redemption. The guide presents industry implementations at different stages. Its cases supply a vocabulary for asking who owes what to whom, and evidence about specific arrangements. They do not establish comparable transaction volumes, financial savings or regulatory approval for the instruments described."
+  ],
+  "questions": [
+    {
+      "question": "At which point is the recipient’s balance usable without a remaining claim on another institution?",
+      "detail": "Trace one transaction from instruction and validation through beneficiary credit, interbank discharge and any redemption. Identify both the authoritative record and who owes the money at each stage. If the recipient can spend before the banks settle, a fast customer experience can coexist with a credit exposure that matters to the participating institutions."
+    },
+    {
+      "question": "Does weekend settlement reduce overall prefunding or shift it to a different participant?",
+      "detail": "Compare the liquidity held by the issuer, settlement provider, conversion agent and beneficiary institution over the same holiday or weekend. In the Nium–Visa pilot, separate the stablecoin-funded leg from the continuing fiat leg to the acquirer. Include the cost and timing of converting the asset before treating reduced prefunding by one participant as a system-wide saving."
+    },
+    {
+      "question": "What would a comparable performance test have to hold fixed across the four cases?",
+      "detail": "Use the same amount, corridor, currency conversion, customer eligibility and start and end events. Report exceptions, failed payments and final availability as well as the median time for successful transfers. A corporate dollar transfer, a card issuer’s net obligation and a retail QR payment serve different parties, so a single ledger confirmation time would compare different services."
+    }
+  ],
+  "limitation": "The guide describes different stages of implementation and offers no common cost or throughput benchmark. Its functional classifications do not determine an instrument’s legal or regulatory status."
+}

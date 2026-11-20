@@ -1,0 +1,28 @@
+{
+  "title": "What a collateral taker actually receives when securities are tokenised",
+  "bank": "Monetary Authority of Singapore",
+  "date": "2026-11-19",
+  "url": "https://www.mas.gov.sg/publications/monographs-or-information-paper/2026/guardian-tokenised-collateral-framework",
+  "summary": [
+    "A Singapore clearing member could hold US Treasuries worth more than its margin call and still be unable to deliver them before the deadline. US securities systems and Asian markets keep different hours. The Guardian Tokenised Collateral Workgroup asks whether moving a token representing an immobilised Treasury position could make that collateral available sooner. Its November framework starts with a more demanding question than how fast a transfer executes. If the clearing member defaults, what asset can the recipient control, sell or finance, and when does it receive usable cash?",
+    "The answer depends on the records and contracts behind the token. Table 2 and Figure 2 distinguish three arrangements. A digital twin links a token to an underlying register or securities position. In a custodian-sponsored arrangement, an intermediary holds or records the interest and the token holder obtains rights under that arrangement. With digitally native issuance, the ledger is intended to serve as, or form part of, the issuance or holding record. Even within a category the controlling record and the holder’s rights depend on the documents and applicable law. A transferee can have evidence that a token moved while still needing to establish which securities interest moved with it.",
+    "The workgroup follows collateral from eligibility and delivery through the life of the trade, return and enforcement. It covers bilateral and tri-party repos, variation and initial margin for uncleared derivatives, and collateral posted to a central counterparty. A repo can transfer title. A pledge requires an effective security interest and a basis for priority over competing claims. Clearing rules, custody and client segregation introduce further conditions. The operational work continues after delivery. Someone must mark assets to market, apply haircuts and concentration limits, pass on income, handle substitutions and reconcile the records. Meeting a margin call today is insufficient if the recipient cannot enforce its rights tomorrow.",
+    "The Treasury example separates an existing market from a proposed use. Conventional Treasuries are already accepted as non-cash collateral by SGX under its rules. The framework illustrates a model in which securities sit in an authorised control location while permitted collateral movements occur through a tokenised position. An overnight tri-party repo involving tokenised Treasuries provides evidence that such assets have been used in a transaction. It does not establish that the illustrative clearing workflow is in production or that every token representing Treasuries meets SGX’s criteria. Faster transfer during Asian hours also leaves a question about the price and timing at which the position could be realised when the underlying market is closed.",
+    "The analysis changes again for a money market fund. A token can represent a fund interest, with access restricted to eligible investors and redemption governed by the fund documents. Moving an existing interest to another eligible holder differs from redeeming it for cash. Valuation times, transfer restrictions and the availability of buyers can therefore enter a collateral taker’s liquidity calculation even when a token moves immediately. The report also examines Singapore dollar fixed-income securities. Across these examples, its contribution is a set of decisions that can be tested asset by asset. It reports no general reduction in haircuts, release of regulatory capital or measured saving from adopting the framework."
+  ],
+  "questions": [
+    {
+      "question": "How much usable liquidity would the Treasury workflow deliver during Asian hours?",
+      "detail": "Record the time between a margin call, acceptance of the token, control of the underlying interest and access to cash from a sale or financing. Compare it with the conventional workflow for the same member, security and deadline. A faster posting can avert a failed call even when the recipient still needs overnight cash to manage a subsequent default."
+    },
+    {
+      "question": "Which record would determine priority if the wallet and the custodian’s books disagreed?",
+      "detail": "Identify the governing agreement, securities account and jurisdiction for each link in the holding chain. Test a reconciliation break and a custodian insolvency with the parties charged with correcting the records. Evidence of a timely token transfer answers a narrower question than whether a collateral taker can enforce its claim ahead of another creditor."
+    },
+    {
+      "question": "When could a fund token count as immediately available collateral in a stress test?",
+      "detail": "Check eligible transferees, the fund’s valuation and redemption schedule, and any secondary market that remains open at the assumed default time. Compare the cash raised under stressed conditions with the amount credited after the haircut. If valuation and redemption resume much later than the margin deadline, a normal-times token transfer speed will overstate the protection available."
+    }
+  ],
+  "limitation": "The industry workgroup distinguishes demonstrated practice from proposed workflows. Eligibility, priority, custody and realisation depend on each asset, agreement, market infrastructure and applicable law."
+}

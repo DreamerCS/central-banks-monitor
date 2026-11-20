@@ -1660,6 +1660,15 @@
       "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/speeches/2026/ref_20261110_anmar/publications0_en/ref_20261110_anmar.en.pdf"
     ]
   },
+  "2026-11-10-d86b25395e.json": {
+    "title": "Financing Artificial Intelligence: Cash, Debt, and Corporate Investment",
+    "jurisdiction": "United States",
+    "type": "Research",
+    "aliases": [
+      "https://www.stlouisfed.org/-/media/project/frbstl/stlouisfed/publications/review/pdfs/2026/nov/financing-artificial-intelligence-cash-debt-corporate-investment.pdf",
+      "https://doi.org/10.20955/r.2026.13"
+    ]
+  },
   "2026-11-10-db72d21910.json": {
     "jurisdiction": "New Zealand",
     "type": "Speech",
@@ -1879,6 +1888,12 @@
     "title": "The macroeconomic effects of defence spending: what impact beyond GDP?",
     "jurisdiction": "Euro area",
     "type": "Research"
+  },
+  "2026-11-12-85ed5f99aa.json": {
+    "title": "Treasury Buybacks and the Convenience Yield",
+    "jurisdiction": "United States",
+    "type": "Research",
+    "aliases": []
   },
   "2026-11-12-89859c4e22.json": {
     "title": "Box 2.2 Recent Developments in Mutual Funds",
@@ -2232,6 +2247,11 @@
     "title": "Near-final statement of policy: The Bank of England’s approach to tiering non-UK CCPs",
     "jurisdiction": "United Kingdom",
     "type": "Policy"
+  },
+  "2026-11-16-923b70744d.json": {
+    "title": "Project Simbolon",
+    "jurisdiction": "Singapore",
+    "type": "Research"
   },
   "2026-11-16-9476e5d9ed.json": {
     "jurisdiction": "South Korea",
@@ -2722,6 +2742,14 @@
     "jurisdiction": "United States",
     "type": "Speech"
   },
+  "2026-11-19-1e463909ae.json": {
+    "title": "A Field Guide to Extending Settlement Capabilities",
+    "jurisdiction": "Singapore",
+    "type": "Research",
+    "aliases": [
+      "https://www.mas.gov.sg/publications/monographs-or-information-paper/2026/bloom-field-guide"
+    ]
+  },
   "2026-11-19-2e11ac8035.json": {
     "jurisdiction": "South Africa",
     "type": "Decision",
@@ -2799,6 +2827,14 @@
     "title": "Statement by UEDA Kazuo, Governor of the Bank of Japan, concerning the Bank’s Semiannual Report on Currency and Monetary Control before the Committee on Financial Affairs, Senate",
     "aliases": [
       "https://www.boj.or.jp/en/mopo/diet/d_state/dst261119a.htm"
+    ]
+  },
+  "2026-11-19-c0513c15ea.json": {
+    "title": "Guardian Tokenised Collateral Framework",
+    "jurisdiction": "Singapore",
+    "type": "Research",
+    "aliases": [
+      "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/guardian/guardian-tokenised-collateral-framework---market-landscape-and-implementation-considerations.pdf"
     ]
   },
   "2026-11-19-c4a592cd77.json": {

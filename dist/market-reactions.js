@@ -268,7 +268,7 @@ function renderCoMovements() {
         button.type = 'button';
         button.textContent = String(dates.length);
         const combination = 'yields ' + label.toLowerCase() + ', stocks ' + (index % 2 === 0 ? 'rose' : 'fell');
-        button.setAttribute('aria-label', dates.length + ' meetings: ' + combination + '. Inspect dates');
+        button.setAttribute('aria-label', dates.length + (dates.length === 1 ? ' meeting: ' : ' meetings: ') + combination + '. Inspect dates');
         button.setAttribute('aria-pressed', 'false');
         buttons.push(button);
         button.addEventListener('click', () => {

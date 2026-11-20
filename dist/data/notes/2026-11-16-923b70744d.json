@@ -1,0 +1,28 @@
+{
+  "title": "Project Simbolon settled two simulated currency legs across independent central bank ledgers",
+  "bank": "Monetary Authority of Singapore",
+  "date": "2026-11-16",
+  "url": "https://www.mas.gov.sg/publications/monographs-or-information-paper/2026/project-simbolon",
+  "summary": [
+    "Paying euros before receiving Singapore dollars exposes a bank to the loss of principal if its counterparty fails in between. Payment-versus-payment addresses that problem by making final settlement of each currency conditional on settlement of the other. Project Simbolon asked whether two central banks could coordinate a single settlement outcome while retaining separate ledgers. The Monetary Authority of Singapore and the Deutsche Bundesbank published their initial insights on 16 November. Their detailed report, scheduled for 18 November, describes the test environment, gives the results of the individual scenarios and identifies issues a live system would still have to resolve.",
+    "DBS and Deutsche Bank participated as commercial banks, with Partior as technology provider. The experiment used simulated wholesale central bank digital currencies, one denominated in euros and the other in Singapore dollars. Each central bank maintained its own test environment. The parties matched payment instructions and conditionally locked the two currencies. Cryptographic proofs allowed evidence that the required conditions had been met in one environment to be verified in the other. A coordination service recorded whether the transaction should settle or abort. Each ledger retained control of the release or refund of its own currency. The model avoids putting both currencies on a common ledger but still relies on parties able to generate, convey and verify settlement evidence.",
+    "Table 2 records five groups of functional tests. Both beneficiaries received the simulated funds in the successful case, and both parties recovered locked funds in the abort case. The remaining tests covered rejection of invalid evidence, duplicate messages and the recovery of an interrupted supporting service. The scenarios produced the expected outcomes. Completion did not require both releases to appear at precisely the same instant. Once settlement had been committed, a currency leg that remained temporarily locked could only complete the release. It could no longer be refunded while the other party retained the currency already released. That property protects the paired outcome while allowing a delay to leave an institution short of usable liquidity.",
+    "End-to-end processing took approximately five minutes in the test, most of it spent generating proofs. The experiment ran for twelve weeks, from 10 August to 30 October 2026. Transactions were processed individually on a gross basis using fixed configurations. The teams set no performance or throughput target. They describe ways the processing time might be reduced but did not demonstrate those gains. The observed time is therefore evidence about one implementation. It is a poor basis for estimating the liquidity required to handle a busy settlement period or for comparing gross settlement with a netted service.",
+    "The commercial illustrations explain why institutions might value such a link. Securities settling the next business day can leave a bank little time to obtain another currency across time zones. An intraday FX swap could also allow a bank to bridge a temporary Singapore dollar shortage using available euros and reverse the exchange later that day. Neither illustration measured a reduction in financing costs. The experiment used no customer funds, and technical agreement between the ledgers did not establish legal finality in either jurisdiction. A live arrangement would also need enforceable rules, clear responsibility for outages and the ability to provide liquidity while a committed transfer awaits completion."
+  ],
+  "questions": [
+    {
+      "question": "How much liquidity remains tied up after the paired outcome becomes irreversible?",
+      "detail": "Record the time of the decision to settle and the time each beneficiary can use its currency. Compare typical cases with an interruption that delays only one release. A design can protect both parties from loss of principal while leaving one of them unable to make another payment on time. That delay matters especially around a securities-settlement cutoff."
+    },
+    {
+      "question": "Would the five-minute result survive realistic payment volumes and funding constraints?",
+      "detail": "Use a representative distribution of sizes and arrival times, including peaks, and state whether settlement is gross or net. Measure queueing, proof-processing time and peak funds locked in each currency. An improvement in a single processing component need not produce a proportional fall in end-to-end time or the commercial banks’ intraday liquidity needs."
+    },
+    {
+      "question": "Which legal event makes the matched outcome binding on both sides of the border?",
+      "detail": "Map the technical decision and each local release to the rules of the euro and Singapore dollar arrangements, including an insolvency between the releases. Identify the operator responsible for completing an outstanding leg and the evidence available to participants. A successful test of coordinated outcomes leaves these questions open until the relevant legal and operating arrangements are established."
+    }
+  ],
+  "limitation": "The six-page Insights Note carries the 16 November date and announced the detailed report for 18 November. All test balances were simulated. Throughput, costs, legal finality and commercial benefits remained outside the experiment."
+}

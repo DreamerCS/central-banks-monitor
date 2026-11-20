@@ -1,0 +1,28 @@
+{
+  "title": "What Treasury buybacks changed about liquidity and the convenience yield",
+  "bank": "Federal Reserve Bank of St. Louis",
+  "date": "2026-11-12",
+  "url": "https://www.stlouisfed.org/on-the-economy/2026/nov/treasury-buybacks-convenience-yield",
+  "summary": [
+    "In September the US Treasury doubled the maximum size of a liquidity-support buyback for longer-dated securities. Long-term Treasury yields rose anyway. Paulina Restrepo-Echavarría and Bontu Ankit Patro examine why those results can coexist. A dealer may find it easier to sell an older bond back to the Treasury even as investors demand a higher return to hold long-dated government debt generally. Their November 12 analysis follows market prices through October 1 and was completed before the November 4 quarterly refunding announcement. It concerns Treasury debt management, a different operation from a Federal Reserve purchase to change the stance of monetary policy.",
+    "Two numbers describe different parts of the programme. In its August 5 refunding announcement, the Treasury anticipated buying $38 billion of older securities through October for cash management. Separately, on September 9 it raised the maximum size of its long-term liquidity-support operations from $2 billion to $4 billion each. A ceiling gives the Treasury scope to buy more during a particular operation. It does not establish that the full amount was purchased, or that the Treasury retired that amount of debt on net. The immediate beneficiaries of better trading conditions may be holders of the specific older issues eligible for repurchase.",
+    "Treasuries are useful as collateral, can be traded readily and are valued for their relative safety. Investors may accept a lower yield on them than on a comparable asset in return for those benefits. That yield concession is called the convenience yield. It cannot be observed separately in a Treasury quote. The first figure uses Moody’s seasoned Aaa corporate bond yield less the ten-year Treasury yield as a proxy. Its linked FRED series stood at 1.12 percentage points on September 9 and 1.03 on October 1. The authors contrast the narrower spread with levels above 1.40 points for much of the early 2010s. A change in the corporate yield can also move this spread, which is one reason to examine a second measure.",
+    "The other two figures subtract a Treasury yield from the overnight index swap rate of the same maturity. A negative value means that investors earned a higher yield on the Treasury than the corresponding swap rate. The longer history, starting in December 2018, shows a pronounced separation by maturity. The event-window chart makes the difference concrete. On September 9 the one-year spread was about +2 basis points, compared with −27 at five years, −38 at ten and −68 at thirty. On September 30 the corresponding spreads were approximately zero, −28, −39 and −68. Day-to-day movements occurred without a sustained reversal across maturities.",
+    "The evidence is stronger about what did change than about what would have happened without buybacks. The charts show that a larger operation ceiling coincided with little improvement in these broad measures. They do not estimate its causal effect on individual bonds or on the benchmark yield. Long yields also reflect the expected path of short rates and investors’ compensation for taking duration risk. Oil prices, resilient activity and heavier issuance were moving at the same time. The authors consequently see scope for buybacks to improve liquidity in older bonds even if the overall premium investors attach to Treasuries continues to decline."
+  ],
+  "questions": [
+    {
+      "question": "Did the eligible older bonds become easier to trade when the operation limit increased?",
+      "detail": "Use the Treasury’s security-level offers and accepted amounts to identify the issues actually purchased. Compare their bid–ask spreads, quoted depth and transaction sizes before and after each operation with similar-maturity issues that were eligible but received no purchase. Because the Treasury can select bonds precisely when conditions are poor, examine pre-operation trends before attributing an improvement to the buyback."
+    },
+    {
+      "question": "Which part of the long-end yield movement is consistent with a shrinking convenience premium?",
+      "detail": "Track maturity-matched swap and Treasury rates separately rather than looking only at their difference. Compare the announcement window with oil-price and macroeconomic news, expected short rates and the size and maturity of new issuance. A movement concentrated in individual off-the-run prices would support a narrower liquidity channel than a persistent change in the thirty-year spread across issues."
+    },
+    {
+      "question": "Do the corporate and swap measures agree when the comparison assets change in value?",
+      "detail": "Rebuild the daily Aaa corporate–Treasury spread alongside the one-, five-, ten- and thirty-year swap measures. Document changes in corporate credit spreads and retain the same observation dates for all four maturities. Compare subsequent refunding windows under those definitions. Divergence driven by the corporate series or a particular swap maturity would weaken a claim that the market-wide convenience value of Treasuries had changed."
+    }
+  ],
+  "limitation": ""
+}
