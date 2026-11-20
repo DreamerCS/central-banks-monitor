@@ -1,0 +1,31 @@
+{
+  "title": "The Bank of Japan ends zero rates after judging demand-driven deflation risk to have receded",
+  "bank": "Bank of Japan",
+  "date": "2000-08-11",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000811.htm",
+  "summary": [
+    "A majority changed the intermeeting instruction on August 11 to aim for an average unsecured overnight call rate around 0.25 percent. The decision replaced the exceptional setting introduced in February 1999. In April of that year the Bank had said it would maintain zero rates until concern over deflation had passed. The central analytical claim of the August announcement is that this economic condition had now been satisfied. It identifies neither a numerical inflation trigger nor a fixed timetable for further increases.",
+    "The Board traced the improvement to several forces over roughly a year and a half. It cited macroeconomic policy support, world recovery, less anxiety about the financial system and advances in information and communications technology. Firms’ investment provided the main prospective support to gradual expansion. Its inflation inference was narrower than a claim that all price measures were rising. As demand firmed, the downward pressure on prices attributable to weak demand had receded sufficiently for the Board to act. The statement gives neither a numerical estimate of that pressure nor the individual contributions of policy, global conditions and technology.",
+    "The specific risk checked since mid-July was the failure of Sogo Department Store. Paragraph 4 reports the Bank’s assessment that the case had so far produced little wider alarm about the financial system or material deterioration in market sentiment. This is a contemporaneous official judgment about the period before the policy decision. It is not an observed market reaction to the exit. No funding-spread series, security prices or transaction window accompanies the assessment.",
+    "The Bank described a limited reduction in accommodation and emphasised that the overnight rate would remain very low. Its prospective commitment was to adapt policy to the economic recovery and price stability. The choice of an average near 0.25 percent also leaves room for trades on either side of the guide. The reference section records a 5:18 p.m. meeting end and schedules the next economic assessment for August 15. Measuring a surprise on August 11 requires prices taken before public dissemination, not an assumption that the full change from the previous instruction surprised markets."
+  ],
+  "questions": [
+    {
+      "question": "How much of the exit had markets anticipated?",
+      "detail": "Recover dealer expectations and prices for contracts spanning the decision before the first public release. Compare overnight implementation with forward yen rates. An announcement of a quarter-percent operating level can contain a much smaller, or differently signed, surprise about the subsequent path."
+    },
+    {
+      "question": "Was stronger demand sufficient to relieve deflationary pressure?",
+      "detail": "Use the data releases then available on profits, capital spending, household demand and prices. Separate privately generated spending from external support and distinguish demand-sensitive prices from prices affected chiefly by productivity or imports. Later revisions should be recorded as later evidence."
+    },
+    {
+      "question": "Did the evidence support the judgment on Sogo?",
+      "detail": "Compare pre-announcement credit spreads, bank equities, funding volumes and business sentiment for highly exposed and less exposed borrowers. Common market moves and exposure-specific losses answer different questions. A post-announcement rally or decline cannot validate the earlier judgment on its own."
+    },
+    {
+      "question": "Did the overnight market implement the guide without disrupting funding?",
+      "detail": "Examine the weighted average, dispersion and transaction volumes after the change, as well as secured rates and term spreads. Holding the average near the guide and preserving broad access to short-term funds are distinct tests."
+    }
+  ],
+  "limitation": ""
+}

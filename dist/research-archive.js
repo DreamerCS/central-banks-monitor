@@ -237,7 +237,7 @@ function render() {
       (bankFilter.value && bankFilter.value !== record.jurisdiction) ||
       (typeFilter.value && typeFilter.value !== record.type)) return false;
     const matches = matchingNotes(record);
-    if (scope === "analysis" && !matches.length) return false;
+    if (scope === "analysis" && !noteFor(record.url)) return false;
     return !query || [record.title, record.institution, record.date, record.type,
       ...(record.related || []).map(link => link.label),
       ...matches.flatMap(note => [note.title, note.publication?.title || "", note.excerpt || ""])]
@@ -300,18 +300,27 @@ async function start() {
     load("archive-periods"), load("world-map"), load("research-archive"), PublicationReader.index().catch(() => null)
   ]);
   targets = map.targets;
-  records = [...publications];
-  const known = new Set(publications.flatMap(row => [row.url,...(row.related || []).map(link => link.url)]).map(sourceKey));
+  const primaryUrls = new Set(publications.map(row => sourceKey(row.url)));
+  const additional = [];
   for (const note of notes || []) {
     const key = sourceKey(note.url);
     const editions = [key,...(note.publication?.aliases || []).map(sourceKey)];
     for (const edition of editions) notesByUrl.set(edition, note);
     notesById.set(note.file.slice(0,-5), note);
-    if (!editions.some(edition => known.has(edition)) && note.publication) {
-      records.push({...note.publication, url:note.url, date:note.date, institution:note.bank});
-      known.add(key);
+    if (note.publication && !editions.some(edition => primaryUrls.has(edition))) {
+      additional.push({...note.publication, url:note.url, date:note.date, institution:note.bank});
     }
   }
+  records = publications.map(row => {
+    const note = noteFor(row.url);
+    if (!note) return row;
+    const publication = note.publication;
+    if (publication && publication.type !== row.type) {
+      return {...row, date:note.date, type:publication.type, title:publication.title};
+    }
+    return row.date !== note.date ? {...row, date:note.date} : row;
+  });
+  records.push(...additional);
   records = mergeEditions(records);
   records.sort((a,b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
   const periodsByYear = new Map(calendar.map(item => [item.start.slice(0,7), item]));

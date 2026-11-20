@@ -1,0 +1,25 @@
+{
+  "title": "April bill-purchase terms separate the funding term from the collateral horizon",
+  "bank": "Bank of Japan",
+  "date": "2000-04-27",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/mok0004b.htm",
+  "summary": [
+    "From April 27 the Bank’s head office could buy accepted bills issued by a financial institution to itself. The maturity of the purchased bill could run to three months, counted from the day after purchase. The discount rate came from a competitive auction. The Bank would choose the date, amount and counterparties of each operation in light of financial conditions. Eligibility for selection extended beyond banks to specified securities firms, securities finance firms and money-market dealers.",
+    "Sections 7–8 distinguish the instrument bought from the collateral securing it. A qualifying bill pledged as collateral could have up to a year to mature. Domestic bills were valued at face amount, whereas a foreign-currency bill could receive at most 75 percent of its yen-equivalent face value. The securities table sets other caps against face value. A treasury or financing bill could receive up to 100/110 of face. Interest-bearing government bonds received up to 100/120 through ten years and 100/130 for the stated longer band. These rules govern the amount of security recognised by the Bank. They do not give an auction amount, award rate or realised borrowing cost for any institution."
+  ],
+  "questions": [
+    {
+      "question": "Which constraint limited financing capacity?",
+      "detail": "For a given tender, compare eligible collateral holdings at the published valuations with the amount each participant sought and received. A rejected bid can reflect its price rather than insufficient collateral."
+    },
+    {
+      "question": "What risks explain different collateral values?",
+      "detail": "Compare yen-equivalent protection under currency and interest-rate moves across the listed instruments. The rules apply to face amounts, so an analyst cannot substitute a market-price haircut without a separate valuation step."
+    },
+    {
+      "question": "What did the auction reveal about term funding demand?",
+      "detail": "Collect dates, maturity, bids, allocations and award rates, then match a comparable private funding instrument. The three-month maturity limit describes what was possible, while auction records establish which terms were used."
+    }
+  ],
+  "limitation": ""
+}

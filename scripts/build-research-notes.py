@@ -37,8 +37,7 @@ def build():
     revision = sha256()
     publications = json.loads(Path(__file__).with_name("note-publications.json").read_text())
     archive = json.loads((DATA / "research-archive.json").read_text())
-    archived = {source_key(url) for row in archive
-                for url in [row["url"], *(link["url"] for link in row.get("related", []))]}
+    archived = {source_key(row["url"]) for row in archive}
     jurisdictions = {item["name"] for item in json.loads((DATA / "coverage.json").read_text())["targets"]}
     for file in sorted((DATA / "notes").glob("*.json")):
         manuscript = file.read_bytes()

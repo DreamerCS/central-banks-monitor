@@ -1,0 +1,27 @@
+{
+  "title": "The SNB’s inflation forecast turns higher near term and lower farther out",
+  "bank": "Swiss National Bank",
+  "date": "2026-03-19",
+  "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260319",
+  "summary": [
+    "On 19 March the SNB kept its policy rate at 0% and increased its willingness to intervene against a rapid and excessive appreciation of the franc. The combination addressed two different exposures. More expensive energy was likely to lift Swiss consumer inflation in the coming quarters, while a stronger franc was restraining the medium-term forecast. The Bank judged inflation to remain within its price-stability range throughout the forecast horizon. A willingness to intervene conditioned on the speed and extent of currency appreciation is not an observation of an intervention trade, and the release names no exchange-rate level that would trigger one.",
+    "The conditional forecast chart and tables show why annual inflation alone is an incomplete guide to the decision. Both the March and December paths assume a 0% SNB policy rate throughout. For 2026 the March annual average was 0.5%, up from 0.3% in December. For 2027 it was 0.5%, down from 0.6%. The new forecast for 2028 was 0.6%. Within 2026 the forecast moved from 0.2% in the first quarter to 0.5% in the second and 0.6% in both the third and fourth. The earlier projection had placed the second quarter at only 0.2%. Beyond that initial hump, the new curve ran slightly below the earlier one for much of their remaining overlap. Comparing like-for-like rate assumptions helps isolate the changed economic assessment. It does not identify a market expectation that the SNB would maintain zero throughout (chart, p. 2, and forecast table, p. 3).",
+    "The price shock started from a low base. Observed twelve-month inflation had increased from 0.0% in November to 0.1% in February, driven particularly by goods. The historical table gives Swiss inflation of 0.2% on average in 2025, following 1.1% in 2024. An increase in the annual forecast from those levels need not imply a loss of price stability. The monetary implementation details also mattered. Sight deposits up to the applicable threshold continued to earn the 0% policy rate. Above it, the remuneration discount remained 0.25 percentage points, equivalent to −0.25% at the announced setting. Those are bank reserve terms, separate from the conditional inflation forecast and from the exchange-rate intervention option.",
+    "Global growth had been solid in the fourth quarter, but the SNB expected higher energy prices to raise near-term inflation abroad and temporarily slow growth. A more severe energy increase or disruption to supply chains could do more damage, and trade policy remained uncertain. Swiss output had returned to growth in the fourth quarter after contracting in the previous quarter. February unemployment was unchanged from the last assessment. The Bank projected around 1% GDP growth in 2026 and 1.5% in 2027, with subdued near-term activity and some subsequent recovery. Sensitivity to foreign demand helps explain why an energy shock could raise current inflation while leaving the SNB attentive to renewed franc appreciation and medium-term downside risks (economic assessment, p. 2)."
+  ],
+  "questions": [
+    {
+      "question": "How did the balance between energy and currency effects change along the forecast horizon?",
+      "detail": "Compare quarterly Swiss energy inflation, import prices and effective franc movements with the overlapping March and December forecast vintages. The near-term upward revision and later downward revision carry different implications for front-end rates. The assessment gives the direction but does not quantify the individual contributions."
+    },
+    {
+      "question": "Did the increased willingness to intervene change the risk priced into the franc?",
+      "detail": "Compare pre- and post-release franc option skew and spot/forward changes across relevant currencies. Actual intervention would require independent official balance-sheet or transaction evidence and careful timing. A change in perceived upside protection can affect market pricing even in the absence of a reported purchase."
+    },
+    {
+      "question": "How exposed was the Swiss growth forecast to a sharper global slowdown?",
+      "detail": "Track export orders, production and foreign demand by sector as well as actual energy costs. The Bank identified external conditions as the principal risk to growth. Distinguishing weaker orders from an exchange-rate competitiveness effect would clarify the source of changes in export-sensitive asset prices."
+    }
+  ],
+  "limitation": ""
+}

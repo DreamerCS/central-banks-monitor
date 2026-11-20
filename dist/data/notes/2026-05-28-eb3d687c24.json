@@ -1,0 +1,28 @@
+{
+  "title": "Korea’s chip boom outweighs the oil shock and brings a rate rise into view",
+  "bank": "Bank of Korea",
+  "date": "2026-05-28",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000627/view.do?nttId=10098189&menuNo=400022",
+  "summary": [
+    "Five Board members held Korea’s Base Rate at 2.50% on May 28. Chang Yongsung and Ryoo Sangdai preferred 2.75%. The Governor said a rate increase would be needed at an appropriate time, with its timing and pace dependent on inflation, domestic growth and financial stability. April’s hold had left policy direction open while the Bank investigated an external supply shock. May brought evidence that export and investment strength was outweighing a material part of the economic cost of that shock. The unchanged instrument thus conveyed different information to a reader tracking the expected path of rates (decision and concluding remarks).",
+    "The new growth forecast of 2.6% for 2026 was 0.6 percentage points above February. The Governor attributed an estimated minus 0.4 points to the conflict, plus 0.7 to stronger semiconductors and associated IT exports, plus 0.2 to the supplementary budget and plus 0.1 to favourable equity conditions supporting spending and investment. These estimates sum to the forecast revision. They reconcile an external drag with a stronger overall outlook without implying that oil had become beneficial to Korea. First-quarter growth rebounded to 1.7%. Strong exports and investment continued into April and consumption held up, while the expected duration of the global semiconductor upswing remained a major source of uncertainty (opening remarks, activity and forecasts).",
+    "April headline inflation rose to 2.6% on petroleum costs, while core inflation excluding food and energy remained at 2.2%. Short-term public expectations were in the upper 2% range. Staff raised the annual CPI forecast from 2.2% to 2.7%, and core inflation from 2.1% to 2.4%. The cost shock had yet to show a clear broad spillover in observed core inflation. The concern was forward-looking: higher costs could reach non-petroleum manufactured goods and services as improving activity increased firms’ scope to charge more. Measures to stabilize domestic prices could moderate the direct effect without eliminating the risk from a longer interruption to energy supply (decision and forecast discussion).",
+    "Financial stability added weight to the case for eventual tightening. In the Seoul area, concerns about limited housing supply pushed up prices for sales, monthly rentals and jeonse lease deposits, and expectations of further price increases strengthened. Aggregate household loan growth remained limited, but housing lending accelerated somewhat with sales of lower- and middle-priced homes. Korean Treasury yields had risen with inflation concerns and expectations of tighter monetary policy. The won per dollar returned to around 1,500 amid renewed dollar strength and sizable sales of Korean stocks by foreign investors. These flows can put pressure on the currency even while the semiconductor sector generates strong export revenue (opening remarks, financial developments).",
+    "The majority wanted more evidence that the expansion and the projected inflation pass-through would persist. The two dissenters put a concrete immediate alternative on record. The statement does not assign each dissenter a separate motivation. The range of positions should therefore be measured through the reported votes and the common forward guidance rather than through guessed individual preferences. A market response would depend on what investors already expected of the vote, the growth upgrade and the guidance. The announcement supplies no realized return that could isolate one of them (decision and closing remarks)."
+  ],
+  "questions": [
+    {
+      "question": "Did the four components of the growth upgrade materialize independently?",
+      "detail": "Track semiconductor export prices and volumes, supplementary-budget disbursements, realized consumption and investment, and the effects of high energy costs. Compare actual changes with the forecast vintage. Separate a stock-price wealth effect from the effect of chip earnings on both equity valuations and income to avoid double counting."
+    },
+    {
+      "question": "When did imported costs become visible in core consumer prices?",
+      "detail": "Follow non-petroleum manufactured goods, personal services and price breadth alongside won-denominated import prices. Separate energy-intensive items from those where rising demand or wages are more plausible. April’s flat core reading provides a starting observation for testing forecast pass-through rather than proof that it had already happened."
+    },
+    {
+      "question": "Was the credit response concentrated in the less expensive end of the Seoul market?",
+      "detail": "Link transactions by price tier to new housing loans, jeonse deposits and monthly rents, controlling for supply announcements and macroprudential rules. Compare the behaviour of mortgage lending with other household borrowing. The aggregate debt series alone cannot identify which segment was adding to financial stability concerns."
+    }
+  ],
+  "limitation": ""
+}

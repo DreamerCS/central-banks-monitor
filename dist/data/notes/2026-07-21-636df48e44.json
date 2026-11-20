@@ -1,0 +1,28 @@
+{
+  "title": "Hungary cuts again while food and service prices tell different stories",
+  "bank": "Magyar Nemzeti Bank",
+  "date": "2026-07-21",
+  "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-21-july-2026",
+  "summary": [
+    "Hungary reduced its base rate from 6.00% to 5.75% on July 21. The overnight deposit and collateralised lending rates fell to 4.75% and 6.75%. The Council acted on the conditional summer guidance issued in June. Incoming inflation had undershot the new projection and Hungary’s lower risk premium had persisted. This combination mattered because global oil and European gas prices had started rising again as uncertainty over the Middle East conflict increased. A more difficult external backdrop did not yet outweigh domestic disinflation and stable local financial conditions (decision and international assessment).",
+    "June headline inflation fell to 1.7%, with slower food inflation the main reason. Core inflation remained at 2.0%. Prices for tradables were 1.2% higher than a year earlier, while market services inflation stood at 4.9%, unchanged from the previous month. The gap between those rates limits the conclusion one can draw from the headline undershoot. A household buying services faced quite different price growth from the purchaser of a traded good. A decline in aggregate food inflation can create room for a rate cut without demonstrating that persistent services repricing has gone away (inflation assessment).",
+    "Household inflation expectations had declined since the beginning of the year. Businesses expected smaller retail price changes than a month earlier but slightly greater increases in services. The MNB still foresaw inflation below the then-current 3% target over the rest of 2026 and throughout 2027, returning to target during the first half of 2028. With policy set well above expected inflation, a modest nominal cut could preserve a positive forward-looking real rate. The Council did not quantify its preferred real rate, and subtracting the latest annual headline reading from the new base rate would use mismatched horizons (outlook and guidance).",
+    "Real activity was broadly consistent with June projections. Industrial production and retail sales had increased in May. Private nominal wage growth was slower than in previous years, yet real wages rose strongly as consumer inflation fell. Historically high long yields abroad, new energy uncertainty and expectations that the ECB and Federal Reserve might each raise rates by year-end provided external counterweights. The statement reported these as market expectations. It continued to identify domestic fiscal credibility, prospects of euro adoption and the geopolitical outlook as important for Hungary’s risk assessment (real and financial developments).",
+    "The Council again indicated that another summer cut was possible if favourable conditions persisted. September’s Inflation Report remained the point for deciding how to proceed thereafter. This divides future pricing into a near-term question about another step and a medium-term question about whether the easing phase would continue. For analysis of the forint, compare domestic forwards with foreign curves and contemporaneous energy prices. Policy divergence and a decline in the domestic risk premium can move the exchange rate in opposite directions (closing guidance)."
+  ],
+  "questions": [
+    {
+      "question": "Did the inflation undershoot persist once food prices stopped slowing?",
+      "detail": "Decompose monthly and annual CPI into food, traded goods and market services, then compare with the June forecast vintage. Use the frequency of individual repricing as well as aggregate rates. Persistently high services inflation could be hidden by a particularly favourable food base effect."
+    },
+    {
+      "question": "Did the summer signal affect August more than later meetings?",
+      "detail": "Compare meeting-specific contracts before and after the decision and across the September forecast checkpoint. Control for equivalent euro rates and regional peers. A repricing concentrated in the next meeting would be consistent with conditional near-term guidance without a changed view of the eventual rate."
+    },
+    {
+      "question": "Why did service firms’ price expectations rise while retail expectations fell?",
+      "detail": "Match expectations to wage costs, input composition and subsequent selling prices by sector. Separate high-contact services from retail categories most sensitive to the exchange rate and imported food. Monitor whether improving real wages also strengthened the demand side of services pricing."
+    }
+  ],
+  "limitation": ""
+}

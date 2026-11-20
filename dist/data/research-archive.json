@@ -741,7 +741,13 @@
     "institution": "Norges Bank",
     "title": "Rate decision November 2026",
     "type": "Decision",
-    "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/november-2026/"
+    "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/november-2026/",
+    "related": [
+      {
+        "label": "Decision release",
+        "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-11-05-rate/"
+      }
+    ]
   },
   {
     "jurisdiction": "Colombia",
@@ -1991,7 +1997,13 @@
     "institution": "Norges Bank",
     "title": "Rate decision September 2026",
     "type": "Decision",
-    "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/september-2026/?tabs=164685"
+    "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/september-2026/?tabs=164685",
+    "related": [
+      {
+        "label": "Decision release",
+        "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-09-24-rate/"
+      }
+    ]
   },
   {
     "jurisdiction": "Sweden",
@@ -3097,7 +3109,13 @@
     "institution": "Norges Bank",
     "title": "Rate decision August 2026",
     "type": "Decision",
-    "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/august-2026/"
+    "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/august-2026/",
+    "related": [
+      {
+        "label": "Decision release",
+        "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-08-13-rate/"
+      }
+    ]
   },
   {
     "jurisdiction": "Türkiye",
@@ -4723,7 +4741,13 @@
     "type": "Decision",
     "title": "Norges Bank holds at 4.25% and projects a higher path",
     "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/june-2026/",
-    "institution": "Norges Bank"
+    "institution": "Norges Bank",
+    "related": [
+      {
+        "label": "Decision release",
+        "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-06-18-rate/"
+      }
+    ]
   },
   {
     "jurisdiction": "Norway",

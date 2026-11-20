@@ -1,0 +1,27 @@
+{
+  "title": "Why the Riksbank could wait as the risk of higher inflation grew",
+  "bank": "Sveriges Riksbank",
+  "date": "2026-05-07",
+  "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-13.75-per-cent",
+  "summary": [
+    "On 7 May the Riksbank held at 1.75% even though it judged the risk of higher inflation from the Middle East war to have increased somewhat. The reason lay in where Sweden entered the shock. Recent inflation readings had undershot the March projections both including and excluding energy, and there were signs that growth at the start of the year was weaker than expected. A worse upside risk and a weaker observed inflation path can coexist. In the Board’s judgement, the latter and the soft starting level of activity bought time to see which way the shock would propagate.",
+    "Higher domestic fuel prices were the most visible consequence. Oil was still expensive and volatile, other commodities had been affected and surveys showed parts of the business sector facing higher input costs. But the release reported that markets still expected oil prices to fall during the year. A temporary rise in fuel can lift the price level before households and businesses alter the rate at which they subsequently raise wages or prices. The Board identified a broad and persistent increase in inflation following a more damaging global disruption as grounds for tightening. It supplied no oil-price threshold for such a decision.",
+    "The growth side of the trade-off was already changing. The March assessment had assumed a gradual domestic recovery with some near-term damage from the war. By May, the weaker early-year activity data added to the evidence of low domestic inflation pressure. An importer facing higher costs might absorb part of the increase in margins if its customers were reluctant to spend. The release offered business cost surveys and softer activity as inputs to that question, without claiming that margin absorption had already been measured.",
+    "No new numerical forecasts were issued at this meeting. The decision took effect on 13 May and the next projection round was due on 17 June. The release therefore provides a changed assessment of risk around the March outlook and an unchanged instrument setting. To identify any market reaction, the relevant comparison would be the change in expected future krona rates as the new wording became public. The oil-price trajectory described in the release was already part of the information available to markets."
+  ],
+  "questions": [
+    {
+      "question": "Did soft inflation extend beyond the most volatile components?",
+      "detail": "Compare the March projections with newly released CPIF measures, energy-excluding components and the breadth of monthly price changes. Broad weakness would support the Board’s patience even if fuel prices rose further. Weakness concentrated in a few items would give a narrower cushion."
+    },
+    {
+      "question": "Were firms passing higher input costs into selling prices?",
+      "detail": "Track purchasing costs, selling-price intentions and realised output prices for energy-intensive businesses alongside order volumes. Weak demand can impede pass-through even as costs rise. Evidence of repeated revisions would matter more for the rate outlook than a one-off adjustment in fuel prices."
+    },
+    {
+      "question": "How sensitive was the hold to expected oil-price normalisation?",
+      "detail": "Reconstruct the futures curve available on 7 May and compare revisions at several maturities with Swedish inflation compensation and near-term policy forwards. A persistent shift farther out would test a different assumption from a volatile move confined to spot oil."
+    }
+  ],
+  "limitation": ""
+}

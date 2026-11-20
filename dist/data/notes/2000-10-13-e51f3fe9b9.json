@@ -1,0 +1,25 @@
+{
+  "title": "Revised bill purchases make pooled collateral and branch operations explicit",
+  "bank": "Bank of Japan",
+  "date": "2000-10-13",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/mok0010b.htm",
+  "summary": [
+    "The October decision incorporates pooled collateral into the operative bill-purchase rules. The restated terms permit purchases through the Bank’s head office or branches and bring the collateral under the separately approved eligibility guidelines. The amendment removes the old article devoted to collateral valuation. For a participant, the relevant question becomes how much collateral the common pool makes available after applying the applicable rules.",
+    "The annex preserves the transaction mechanics. The Bank purchases a financial institution’s accepted, self-issued bill with a remaining term within the stated three-month limit. A competitive discount auction prices the purchase. The Bank sets the amount, date and participating counterparties for each operation in light of conditions. Under the supplementary provision the new terms take effect with real-time gross settlement of transfers among accounts at the Bank. Purchases made before that date remain subject to the prior terms. The decision expands the operative rulebook without reporting a single new allotment or branch transaction."
+  ],
+  "questions": [
+    {
+      "question": "Did pooled collateral change the maximum funding a firm could obtain?",
+      "detail": "Revalue participants’ collateral under the applicable guidelines and account for other uses of the pool. Compare available capacity with actual bids before judging whether a constraint eased."
+    },
+    {
+      "question": "When did branch access become economically meaningful?",
+      "detail": "Find the first eligible tender and first successful allocation for branch counterparties. Permission in the rules and first practical use can occur on different dates."
+    },
+    {
+      "question": "How did grandfathered purchases affect transition measures?",
+      "detail": "Tag each outstanding purchase by its origination and governing rules. Measuring every purchase on the switchover date with the new rule would misstate the terms of earlier contracts."
+    }
+  ],
+  "limitation": ""
+}

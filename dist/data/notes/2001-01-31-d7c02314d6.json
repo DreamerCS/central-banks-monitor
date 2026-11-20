@@ -1,0 +1,26 @@
+{
+  "title": "The Fed cuts to 5.50% as technology accelerates an inventory and capital correction",
+  "bank": "Federal Open Market Committee",
+  "date": "2001-01-31",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010131/",
+  "summary": [
+    "The FOMC cut the funds target by 50 basis points to 5.50%, and the Board reduced the discount rate by the same amount to 5%. The public justification for a forceful response connected energy prices to two distinct spending decisions. Higher energy costs reduced consumers' purchasing power and squeezed business profit margins. As confidence fell, retail sales and purchases of capital equipment weakened. Manufacturers then curtailed production sharply.",
+    "Technology played two roles in the diagnosis. The Committee thought new technologies had accelerated the adjustment of production and demand when stocks of merchandise and capital equipment appeared excessive. A faster correction can produce an abrupt fall in output or orders without implying that the underlying advantage of the technology has disappeared. Indeed the Committee continued to see few signs that long-run productivity gains had weakened. It expected those gains and lower rates to support growth over time, even while it judged the immediate balance of risks tilted towards weakness.",
+    "The announcement gives no estimate of excess stocks, no separate measure of output lost to inventory correction and no guarantee that lower rates would immediately turn capital spending around. A business with available capacity and falling margins may have little reason to purchase equipment even after financing becomes cheaper."
+  ],
+  "questions": [
+    {
+      "question": "Was the manufacturing cutback a quick adjustment to stocks, or a signal that end demand was still deteriorating?",
+      "detail": "Compare inventories relative to final sales with orders, shipments and cancellations. A falling stock-to-sales ratio accompanied by stable sales implies a different production path from inventories remaining excessive because customers keep cutting purchases."
+    },
+    {
+      "question": "How much investment weakness came from lower profitability rather than financing costs?",
+      "detail": "Compare project orders in industries with different energy exposure, profit margins, spare capacity and reliance on floating-rate debt. Lower borrowing rates will be less informative where firms already have more equipment than they expect to need."
+    },
+    {
+      "question": "Did the productivity evidence support the distinction between faster adjustment and diminished trend growth?",
+      "detail": "Separate reduced hours and temporary plant utilisation from efficiency changes in industries adopting inventory technology. Preserve release vintages. Productivity measured during a rapid output contraction can differ sharply from the underlying rate relevant to capacity."
+    }
+  ],
+  "limitation": ""
+}

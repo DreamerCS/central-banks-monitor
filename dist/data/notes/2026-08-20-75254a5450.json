@@ -1,0 +1,27 @@
+{
+  "title": "Stronger summer data left Sweden’s case for a hike alive but unconfirmed",
+  "bank": "Sveriges Riksbank",
+  "date": "2026-08-20",
+  "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-15.75-per-cent",
+  "summary": [
+    "The Riksbank held its policy rate at 1.75% on 20 August. Growth and inflation had both been higher over the summer than the June forecast had implied, which could have strengthened the case for an immediate increase. Yet global supply disruptions had eased, firms’ pricing plans were subdued and the Swedish labour market had been weaker than expected. The Board continued to see a probability of increasing rates later in the year and left open a tighter response if the inflation surprise became broader and longer lasting. It did not describe the summer data as sufficient evidence that this was already happening.",
+    "The level and the surprise in inflation need to be distinguished. Measured inflation was still low because of temporary fiscal measures. The more underlying measure, which excluded energy and the direct effects of those measures, was close to 2%. Inflation could exceed the June forecast without underlying pressure already being materially above the target. At the same time, stronger GDP growth and improved sentiment suggested more room for costs to reach retail prices if they remained high. Persistently high unemployment and weaker-than-expected labour developments pointed in the opposite direction.",
+    "The source of the shock and its immediate severity also differed. With no peace agreement in place, the cause of the supply disruption persisted. Oil and some other commodity prices had nevertheless fallen from their spring levels. Businesses and markets appeared to have adapted, and economic effects so far were smaller than initially feared. Lower spot prices or shorter delivery times were evidence about current costs. They did not settle whether firms would become more inclined to raise prices after another setback to supply. The subdued pricing plans were particularly relevant to that distinction.",
+    "August’s update contained no new forecasts. The benchmark for the reported surprises and for the chance of a subsequent hike was still the June forecast, with a new projection round due on 24 September. The 1.75% setting applied from 26 August. In a study of how investors responded, the release supplies the ingredients of a conditional upward bias but no numerical probability of a hike, no new quarterly rate path and no observation of the actual announcement-window price movement."
+  ],
+  "questions": [
+    {
+      "question": "Did the summer overshoot extend to measures adjusted for temporary fiscal effects?",
+      "detail": "Compare June forecast vintages with both measured CPIF and components that exclude direct tax effects and energy. A surprise caused by a few transient components has a different implication for the expected policy path than broad pressure near the point at which firms revise prices."
+    },
+    {
+      "question": "Was stronger GDP feeding into demand for labour?",
+      "detail": "Follow output, employment, vacancies and hours together. Improved sentiment and faster output alongside a softer labour market could reflect temporary production rather than more persistent demand. The distinction matters for how much pricing power firms were likely to have after supply disruptions eased."
+    },
+    {
+      "question": "Did pricing intentions stay subdued when supply conditions changed again?",
+      "detail": "Compare firms’ planned selling prices, actual price revisions and delivery indicators by industry. Benchmark exposure to oil and other inputs. A rise in intentions despite easing supply bottlenecks would challenge the interpretation that businesses were absorbing or adapting to the shock."
+    }
+  ],
+  "limitation": ""
+}

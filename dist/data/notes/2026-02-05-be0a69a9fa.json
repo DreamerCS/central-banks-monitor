@@ -1,0 +1,25 @@
+{
+  "title": "The Czech February rate decision leaves the repo rate at 3.50%",
+  "bank": "Czech National Bank",
+  "date": "2026-02-05",
+  "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1770278400000",
+  "summary": [
+    "At 14:30 on February 5 the Czech National Bank announced an unchanged two-week repo rate of 3.50%, discount rate of 2.50% and Lombard rate of 4.50%. This gives the February observation for each of the three instruments. The difference between the upper and lower rates was two percentage points, with the repo rate midway between them.",
+    "For an announcement study, the policy action was zero basis points for all three rates. The unexpected component is a different quantity: a hold could tighten financial pricing if investors had assigned a meaningful probability to a cut. The release gives no price or expectation from which to calculate that component. Use the scheduled 15:00 press conference as the end of the decision-only information window."
+  ],
+  "questions": [
+    {
+      "question": "What probability of a rate change was priced immediately before 14:30?",
+      "detail": "Compare the implied policy path with the announced 3.50% using contemporaneous money-market quotes. Allow for the portion of any contract falling before the meeting."
+    },
+    {
+      "question": "Which maturity reacted to the announcement?",
+      "detail": "Compare the first liquid quotes after the release across short rates and later forwards, before the press conference. Keep bid–ask spreads to assess whether a small move is distinguishable from noise."
+    },
+    {
+      "question": "Did overnight pricing remain at a similar position within the corridor?",
+      "detail": "Compare effective short rates with 2.50%, 3.50% and 4.50% before and after the meeting, controlling for ordinary liquidity fluctuations."
+    }
+  ],
+  "limitation": ""
+}

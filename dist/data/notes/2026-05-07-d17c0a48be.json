@@ -1,0 +1,27 @@
+{
+  "title": "Mexico cuts to 6.50% and declares the easing cycle complete",
+  "bank": "Banco de México",
+  "date": "2026-05-07",
+  "url": "https://www.banxico.org.mx/publicaciones-y-prensa/anuncios-de-las-decisiones-de-politica-monetaria/%7B8A05C722-0A97-4527-2166-0CE802CE6838%7D.pdf",
+  "summary": [
+    "Banxico’s majority cut its overnight rate by 25 basis points to 6.50%, effective 8 May, and explicitly described the cut as completing the cycle that began in March 2024. Victoria Rodríguez Ceja, José Gabriel Cuadra García and Omar Mejía Castelazo supported the reduction; Galia Borja Gómez and Jonathan Heath preferred 6.75%. The combination of a lower current rate and guidance that maintaining the new level would be appropriate has a distinct implication for market research. A lower overnight rate today does not require investors to price an uninterrupted run of further cuts. What matters for the curve is what part of both the action and the end-of-cycle guidance was already expected.",
+    "The immediate economic case rested on the first-quarter contraction. Banxico now expected more spare capacity than before and saw substantial downside risks to activity. It judged that the economy was generating no demand-side pressure on inflation, and also cited the observed exchange-rate level and accumulated monetary restraint. The peso had appreciated since the previous decision. Mexican short- and medium-term sovereign yields had fallen while longer yields rose. US government rates had moved by relatively little and the dollar weakened. Those changes in the shape of the Mexican curve describe developments leading up to the meeting; the statement supplies no intraday yields or measure of investors’ reaction afterwards.",
+    "Price changes and forecast revisions moved in opposite directions without a contradiction. Headline inflation fell from 4.63% in the first half of March to 4.45% in April, alongside a decline in core inflation from 4.46% to 4.26%. But the non-core prices already observed or expected for the next two quarters were higher than the previous baseline assumed. The Board consequently raised the 2026 Q2 and Q3 headline projections from 4.0% and 3.7% to 4.1% and 3.8%. An observed decline in the latest annual figure and an upward revision relative to an earlier forecast answer different questions. The Board still saw no second-round effects from the tax measures introduced at the start of the year.",
+    "The quarterly-average core forecast stayed unchanged, reaching 4.1% in 2026 Q2, 3.7% in Q3 and 3.4% in Q4. Headline was projected at 3.5% in Q4 and both measures reached 3.0% in 2027 Q2. The table’s separate sequential figures, including 4.6% annualised headline momentum in 2026 Q2 followed by 2.5% in Q3, illustrate that a smooth twelve-month path can hide a more uneven quarter-to-quarter transition. Expectations for end-2026 had risen, while the longer-horizon readings were relatively stable above the target. The Board still viewed risks to inflation as tilted up. It judged that holding the new rate could meet those risks, including the consequences of prolonged conflict, without ignoring the weakness in domestic demand."
+  ],
+  "questions": [
+    {
+      "question": "Did the end-of-cycle language offset the easing signal of the immediate cut?",
+      "detail": "Compare pre-meeting pricing for the current decision with changes in subsequent meeting rates at the announcement. Track both the nearer and later forwards. The announcement identifies a cut and a reason to hold afterwards, so the market could revise those horizons in different directions even if the immediate action was exactly anticipated."
+    },
+    {
+      "question": "Was the first-quarter contraction translating into lower price-setting power?",
+      "detail": "Follow domestic demand, employment and services inflation at the sector level rather than relying on the GDP total. Compare observed prices with Banxico’s unchanged core forecast and with evidence about firms’ pricing intentions. A concentration of weakness in sectors with small consumer-price weights could leave the core inflation path less responsive than the headline output number suggests."
+    },
+    {
+      "question": "Was the non-core forecast revision likely to outlast the two quarters affected?",
+      "detail": "Trace food, energy and other volatile items against the assumptions implicit in the March and May projections, alongside the peso and relevant international input prices. Check whether increases reached core services or market goods through production costs. The unchanged end point depends partly on separation between a temporary non-core disturbance and broader repeated price setting. Look for revisions at unchanged horizons when the next detailed forecast becomes available."
+    }
+  ],
+  "limitation": ""
+}

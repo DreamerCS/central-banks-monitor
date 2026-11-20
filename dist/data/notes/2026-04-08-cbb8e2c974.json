@@ -1,0 +1,28 @@
+{
+  "title": "New Zealand looks through a near-term fuel shock while testing its limits",
+  "bank": "Reserve Bank of New Zealand",
+  "date": "2026-04-08",
+  "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/04/ocr-on-hold-at-2-25",
+  "summary": [
+    "The April 8 committee reached consensus to hold the OCR at 2.25% even as it revised the near-term inflation outlook sharply higher. The February baseline had assumed a return inside the target band during the March quarter. April’s updated forecast instead put annual CPI inflation at 3.0% in March and 4.2% in June. It assumed that Dubai crude would fall below US$100 per barrel by the end of June, informed by volatile futures prices. The members saw upside risk to oil and gave no claim that this conditional forecast represented the worst case. Their decision turned on the medium-term response of inflation to a shock that also weakened demand (April decision and meeting record).",
+    "The input shock extended beyond petrol. Reduced Middle Eastern shipments through the Strait of Hormuz affected oil, gas, refined products and fertilisers. Transport, agriculture and packaging all rely on these inputs. The Committee expected the first domestic pass-through in transport, air travel and food. Some firms were introducing temporary fuel surcharges while others reported that weak demand prevented them from recovering costs. Those responses imply different persistence even with identical oil exposure. A separately identified surcharge may disappear when fuel normalizes. A change to the general price list can remain until the next review, particularly if firms also expect their competitors to reprice (meeting record, global and domestic supply discussion).",
+    "The pre-shock starting point shaped the decision. December-quarter GDP rose only 0.2%, as consumption and business investment underperformed. Early indicators for January and February were stronger before confidence and business activity weakened in March. The Bank believed significant spare productive capacity remained, unlike the strong demand environment during the pandemic recovery and the 2022 energy shock. Supply disruption could itself lower potential output, making a GDP slowdown an imperfect indicator of disinflationary slack. A lasting shortfall in consumption and investment would nevertheless constrain firms’ ability to pass through higher costs and could raise unemployment (meeting record, activity and medium-term risks).",
+    "The market had already delivered some tightening. New Zealand wholesale rates rose partly because investors anticipated higher policy rates and partly because illiquidity magnified movements in swaps. Two-year mortgage rates rose around 20 basis points. The increase reduced the payment relief expected from borrowers refinancing at lower rates. Deposit rates, especially the popular six-month term, moved less. The trade-weighted New Zealand dollar depreciated, raising local import prices while supporting export receipts. These channels could work in opposite directions across households, banks and exporters. Describing all wholesale repricing as a change in the expected OCR would overlook both liquidity and the international source of the shock (meeting record, financial conditions).",
+    "The Committee’s condition for looking through the fuel increase was specific. Core prices and wages needed to remain contained and longer-horizon expectations close to 2%. Evidence of broader repricing would warrant faster action, while an adverse demand response could justify continued support. Members planned to use business visits, surveys and high-frequency price and activity information because quarterly GDP and annual CPI would arrive too slowly to distinguish these cases. The decision established a contingent response to new evidence, with gradual movement toward neutral appropriate if near-term inflation proved temporary. The release contains no numerical estimate of the neutral rate (decision and meeting record, concluding discussion)."
+  ],
+  "questions": [
+    {
+      "question": "Which fuel exposures were turning into persistent general price changes?",
+      "detail": "Separate explicit surcharges from revised base prices in freight, food and other energy-intensive industries. Follow each price when wholesale fuel costs fall. Compare with less energy-intensive services and wage settlements to distinguish direct input recovery from wider changes in pricing behaviour."
+    },
+    {
+      "question": "How large was the portion of swap repricing attributable to liquidity?",
+      "detail": "Compare matched-tenor swaps with overnight-indexed forwards, government yields, trading volumes and bid–ask spreads. Examine whether the largest intraday moves persisted after liquidity improved. Then compare mortgage and deposit repricing by term to determine how much of the wholesale movement reached household balance sheets."
+    },
+    {
+      "question": "Did the oil shock reduce both actual and potential production?",
+      "detail": "Compare output volumes, capacity utilization, delivery times, inventories and labour hours in sectors reliant on imported fuel, fertiliser or packaging. Measure household spending and business orders separately. If demand fell while input scarcity also constrained available production, the change in GDP alone would give an ambiguous estimate of the output gap."
+    }
+  ],
+  "limitation": ""
+}

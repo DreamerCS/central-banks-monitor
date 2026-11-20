@@ -1,0 +1,25 @@
+{
+  "title": "February 24 leaves the operating instruction open on quantities",
+  "bank": "Bank of Japan",
+  "date": "2000-02-24",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000224.htm",
+  "summary": [
+    "A majority retained zero rates. The Bank again asked its operators to supply sufficient funds flexibly and take the unsecured overnight rate as low as possible. The short release describes a policy to continue easing already in train. It contains no reserve quantity, term-rate target or date by which the policy would change.",
+    "The Bank identifies the meeting as running from 9:03 a.m. to 1:06 p.m. and scheduled the minutes for March 29. Attendance by representatives of the Ministry of Finance and Economic Planning Agency is documented. Their presence alone says nothing about their preferred stance or the size of the Policy Board majority."
+  ],
+  "questions": [
+    {
+      "question": "Did the market expect zero rates to persist for longer?",
+      "detail": "Compare short yen interest-rate contracts of different maturities before and after the verified announcement. The overnight rate could remain near its floor while expected rates farther ahead change."
+    },
+    {
+      "question": "Did quoted funding rates describe executable trades?",
+      "detail": "Pair indicative quotations with volumes and transaction rates. An unchanged average based on sparse transactions tells less about effective access to liquidity than an actively traded rate."
+    },
+    {
+      "question": "What explains the majority vote?",
+      "detail": "Use the March 29 minutes to identify motions and positions, then record those details at their publication date. The February notice supplies the vote outcome without identifying a dissenting proposal."
+    }
+  ],
+  "limitation": ""
+}

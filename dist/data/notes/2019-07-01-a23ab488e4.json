@@ -1,0 +1,26 @@
+{
+  "title": "Why the PBoC let reverse repos mature on 1 July",
+  "bank": "People’s Bank of China",
+  "date": "2019-07-01",
+  "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/3851240/index.html",
+  "summary": [
+    "The PBoC conducted no reverse repo on 1 July. Its operations desk gave a specific reason. It considered aggregate banking-system liquidity sufficiently high to absorb the effects of maturing central-bank reverse repos, settlement payments on government bond issuance and other factors. The day’s zero was therefore an observation about the flow of new central-bank funding. The desk described a stock of liquidity already available to banks that, in its judgement, could accommodate the expected calls on cash.",
+    "The two drains have different implications for analysing funding conditions. When an earlier reverse repo matures, the cash previously supplied by the central bank comes due. A government bond purchaser also has to deliver cash on the settlement date, which can matter for banks’ immediate funding needs even if the bond auction took place earlier. The notice puts both in the same day’s liquidity assessment. It gives no size for either, no balance for reserves after settlement and no division of liquidity between individual banks. A bank facing a settlement payment need not be the bank holding the excess cash.",
+    "For a rates investor, the judgement to test is whether reserves were sufficiently usable across the system that scheduled drains could clear without undue pressure in short-term funding. A deduction of tighter policy from a day with zero new operations would require additional evidence. The notice announces no change in an administered rate and gives no interbank fixing, trading volume or price response. It also makes no commitment about operations once these particular drains have passed."
+  ],
+  "questions": [
+    {
+      "question": "How large was the funding need the desk expected banks to absorb?",
+      "detail": "Reconstruct the maturity of outstanding PBoC operations and the cash payable on government bond settlements for 1 July. Separate payments due that day from the face value of all auctions announced that week. Those series would reveal whether doing nothing left a material reserve drain to be absorbed."
+    },
+    {
+      "question": "Could liquidity reach the institutions that needed it at settlement?",
+      "detail": "Compare intraday funding volumes, secured repo rates and differences across borrowing institutions around the settlement window. Stable aggregate rates can coexist with pressure on a subset of banks. The distribution matters for any position exposed to money-market spreads."
+    },
+    {
+      "question": "Did investors already expect the absence of a reverse repo?",
+      "detail": "Use contemporaneous dealer previews and money-market quotes time-stamped before and after the announcement. A widely anticipated day with zero new operations carries a different repricing implication from an unexpected decision to let a large maturity run off."
+    }
+  ],
+  "limitation": ""
+}

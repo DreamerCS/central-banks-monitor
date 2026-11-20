@@ -1,0 +1,26 @@
+{
+  "title": "Japan’s July hold turns on households and the fallout from Sogo",
+  "bank": "Bank of Japan",
+  "date": "2000-07-17",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000717b.htm",
+  "summary": [
+    "On July 17 the Board held the overnight policy at zero while explaining why a majority saw the economy approaching the condition for exit. Its reasoning in paragraphs 2–4 starts with firms. Profits and capital spending were rising, and continued investment offered a route to gradual recovery if no major adverse shock arrived from abroad. As demand recovered, it was putting appreciably less downward pressure on prices. The relevant condition was the removal of concern about deflation. The Board described the economy as approaching that point, leaving room for a different decision even with a broadly favourable central outlook.",
+    "Paragraph 5 identifies two uncertainties about that judgment. Some wanted more assurance about employment and household income. An investment-led upswing could therefore be credible while its passage to households remained uncertain. Separately, the start of reconstruction proceedings at Sogo raised a question about markets and business confidence. The release asks how far the case might spread. It offers no measured change in confidence, funding costs or systemwide solvency.",
+    "The hold in paragraph 6 resolves the immediate decision but gives no numerical inflation threshold, probability of exit or calendar deadline. The document also gives no vote count. Its distinction between a forward-looking assessment and an unchanged instrument matters for historical analysis. A rate-change series correctly records a hold. A text measure can separately record the majority’s assessment of progress and the specific evidence still being sought."
+  ],
+  "questions": [
+    {
+      "question": "Was corporate strength reaching household income?",
+      "detail": "Compare real-time releases on employment and labour income with profit and business investment estimates available to the Board. A rise in capital spending alongside persistently weak household income would preserve the key uncertainty it identified."
+    },
+    {
+      "question": "Did Sogo’s proceedings produce wider contagion?",
+      "detail": "Trace funding spreads, the cross-section of exposed lenders and contemporaneous business surveys around the news. Compare directly exposed firms with otherwise similar firms. Broad repricing beyond exposed names would indicate a different risk from an isolated credit loss."
+    },
+    {
+      "question": "Did investors change the expected exit date despite the hold?",
+      "detail": "Use successive yen money-market maturities around verified publication of the July decision and explanation. A move mainly in future-starting rates would be consistent with revised duration expectations, though premia and co-released information require separate checks."
+    }
+  ],
+  "limitation": ""
+}

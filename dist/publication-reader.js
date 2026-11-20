@@ -50,6 +50,15 @@ const PublicationReader = (() => {
   20240131 20240320 20240501 20240612 20240731 20240918 20241107 20241218 20250129
   20250319 20250507 20250618 20250730 20250917 20251029 20251210 20260128 20260318
   20260429 20260617 20260729 20260916 20261028`.split(/\s+/));
+  const archivedFomcStatements = new Set();
+  for (const [directory, dates] of [
+    ["general", "20000202 20000321 20000516 20000628 20000822 20001003 20001115 20001219 20010103 20010131 20010320 20010418 20010515 20010627 20010821 20010917 20011002 20011106 20011211 20020130 20020319"],
+    ["monetary", "20020507 20020626 20020813 20020924 20021106 20021210"]
+  ]) {
+    for (const date of dates.split(" ")) {
+      archivedFomcStatements.add("/boarddocs/press/" + directory + "/" + date.slice(0,4) + "/" + date + "/");
+    }
+  }
   let eventBanks;
 
   function identifyEventSource(note) {
@@ -57,6 +66,10 @@ const PublicationReader = (() => {
     const stamp = note.date.replaceAll("-", "");
     if (source.protocol !== "https:" || source.username || source.password || source.port) return;
     if (source.hostname === "www.federalreserve.gov") {
+      const archivedPath = source.pathname.replace(/\/default\.htm$/, "/");
+      if (archivedFomcStatements.has(archivedPath) && archivedPath.endsWith("/" + stamp + "/")) {
+        return {bank: "fed", window: "statement"};
+      }
       if (fomcStatementDates.has(stamp) && source.pathname === "/newsevents/pressreleases/monetary" + stamp + "a.htm") {
         return {bank: "fed", window: "statement"};
       }

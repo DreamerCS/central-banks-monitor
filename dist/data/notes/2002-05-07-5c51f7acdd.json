@@ -1,0 +1,26 @@
+{
+  "title": "The Fed keeps accommodation as inventories lift activity ahead of evidence on final buyers",
+  "bank": "Federal Open Market Committee",
+  "date": "2002-05-07",
+  "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20020507/",
+  "summary": [
+    "All ten listed voters maintained the 1.75% funds target. Information since the previous meeting confirmed that a pronounced change in inventory investment was contributing substantially to growth. The Committee's uncertainty lay in what would take over when that contribution faded. Stronger purchases by final customers were necessary for sustained expansion, but their size over the coming quarters remained unclear.",
+    "This distinction follows from the arithmetic of stocks and flows. Firms can boost output by slowing the pace at which they run down inventories. Once that adjustment finishes, the same rate of final sales produces a smaller contribution to GDP growth from inventories. The release confirmed the current impulse; it neither quantified it nor said that the stock of inventories had already returned to a desired level.",
+    "The Committee described policy as accommodative and judged risks to price stability and sustainable growth balanced. An unchanged low rate in that setting preserved support for final spending while policymakers waited for confirmation. The release reported neither a commitment to tighten upon a particular GDP reading nor market evidence about when investors expected the first increase."
+  ],
+  "questions": [
+    {
+      "question": "Were firms rebuilding stocks against actual orders or merely slowing earlier liquidation?",
+      "detail": "Compare changes in inventory investment with sales, backlogs and inventory-to-sales ratios. Distinguish outright accumulation from a smaller drawdown and identify whether the movement was voluntary or associated with weaker-than-expected sales."
+    },
+    {
+      "question": "Which categories of final demand could sustain production as inventory support faded?",
+      "detail": "Track real consumer purchases, residential activity, equipment and software spending and exports. Look at breadth and persistence rather than one unusually strong category. A rebound confined to household durable goods could be vulnerable to purchases being pulled forward."
+    },
+    {
+      "question": "Did markets change their expected date of tightening on the confirmation of stronger activity?",
+      "detail": "Use pre-announcement pricing and a verified time window for rate futures. Separate the information in the confirmed inventory contribution from the continuing uncertainty about final sales; neither quantity is given as a numerical surprise in the statement."
+    }
+  ],
+  "limitation": ""
+}

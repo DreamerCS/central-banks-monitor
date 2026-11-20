@@ -1,0 +1,27 @@
+{
+  "title": "Sweden holds today and raises the expected rate path for 2027",
+  "bank": "Sveriges Riksbank",
+  "date": "2026-09-24",
+  "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-16.75-per-cent",
+  "summary": [
+    "The Riksbank kept the policy rate at 1.75% on 24 September but expected increases to start before year-end if its outlook held. The logic involved demand as well as supply. The global economy had partly adapted to the Middle East disruption, but oil, fuel and electricity prices had recently risen and the krona had weakened further. At the same time, Sweden’s recovery had broadened and confidence had improved. The Board saw stronger demand making it easier for suppliers to pass higher costs on to customers. That combination warranted more tightening over time than the June forecast envisaged.",
+    "The evidence for waiting was also explicit. Spare capacity remained, and measures of underlying inflation adjusted for temporary fiscal effects were close to 2%. August inflation was in line with the June forecast. Measured inflation remained low largely because temporary fiscal measures depressed the index directly. GDP had grown faster than expected in the second quarter, although the Board judged some of the strength temporary. Labour-market indicators showed some improvement. Taken together, these observations supported a forward revision without requiring immediate action.",
+    "The tables give the scale and timing. Annual CPIF forecasts rose from 1.1% to 1.5% in 2026 and from 1.7% to 2.1% in 2027. The 2028 forecast fell from 2.8% to 2.4%. GDP growth was revised from 2.2% to 2.8% for 2026 and from 2.3% to 2.4% for 2027. The unemployment forecast remained at 8.6% for 2026 before falling to 8.1% in 2027. The Board projected a steeper policy rate path alongside more near-term inflation and growth. The lower 2028 inflation forecast should be read together with that revised trajectory and the changing temporary effects on the index, rather than attributed mechanically to any one factor.",
+    "The change in projected rates was more consequential farther out than at the next meeting. The fourth-quarter 2026 average rose to 1.85% from 1.82%. The first quarter of 2027 rose to 2.07% from 1.89%, and the third quarter of 2027 to 2.38% from 1.97%. The latter difference was 41 basis points, compared with only three in the fourth quarter of 2026. These are quarterly averages and cannot by themselves identify a specific sequence of meeting decisions. A sufficiently broad and persistent inflation rise would warrant faster action. The unchanged current rate became effective on 30 September (forecast tables and final policy assessment)."
+  ],
+  "questions": [
+    {
+      "question": "How much near-term tightening was already priced before the forecast?",
+      "detail": "Compare Swedish forward rates in matching quarterly averages, and split the immediate window from the following press conference. The 41-basis-point revision at the third quarter of 2027 was much larger than the adjustment in late 2026. The location of market repricing would reveal which part of the news moved expectations."
+    },
+    {
+      "question": "Did higher demand actually increase pass-through?",
+      "detail": "Compare energy and exchange-rate cost exposure across sectors with different order growth, and measure subsequent selling prices. Rising costs alone cannot identify the demand mechanism the Board highlighted. Stronger price transmission where orders were robust would support that interpretation."
+    },
+    {
+      "question": "Was the second-quarter growth surprise persistent enough to alter resource utilisation?",
+      "detail": "Separate temporary contributors to GDP from consumption, investment and labour demand, retaining the forecast vintage. Compare actual employment and unemployment developments with indicators available in September. Sustained strength across those measures would change the balance between spare capacity and upside inflation risk."
+    }
+  ],
+  "limitation": ""
+}

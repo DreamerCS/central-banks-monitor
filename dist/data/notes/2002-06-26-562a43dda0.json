@@ -1,0 +1,26 @@
+{
+  "title": "Growth continues, but momentum in inventories and final demand moderates together",
+  "bank": "Federal Open Market Committee",
+  "date": "2002-06-26",
+  "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20020626/",
+  "summary": [
+    "The FOMC held its target at 1.75% with all ten voting members in favour. Incoming information confirmed that activity was increasing. Both the upward contribution from the swing in inventory investment and growth in final demand appeared to have moderated, however. The release described slower growth in both components, not a contraction in final purchases or an outright return to destocking.",
+    "The Committee expected final demand growth to pick up in subsequent quarters, supported in part by robust underlying productivity growth. Higher sustainable output can raise the income and returns available to households and firms, but it does not specify when they will place orders or undertake investment. The size of the expected pickup remained uncertain. That distinction between a favourable supply trend and the timing of actual spending helps explain why continued expansion did not automatically lead to removing accommodation.",
+    "Risks remained balanced against the two long-run goals and the Fed continued to regard the stance as accommodative. The statement supplied neither a measured output gap nor an estimated neutral rate. A balanced risk assessment should therefore be read separately from the level of restraint or stimulus policymakers attributed to the prevailing setting."
+  ],
+  "questions": [
+    {
+      "question": "Was the slowdown in the inventory contribution an anticipated end to restocking or a response to weakening sales?",
+      "detail": "Compare output, final sales, new orders and inventories by industry. Faster involuntary accumulation alongside disappointing sales points to a different next-quarter production path from an orderly wind-down of deliberate stockbuilding."
+    },
+    {
+      "question": "Did underlying productivity gains translate into stronger final expenditure?",
+      "detail": "Examine real income, margins, investment plans and firms' expected returns, alongside output per hour. Distinguish gains available to workers and consumers from gains retained by firms that already had unused capacity. The transmission need not be immediate."
+    },
+    {
+      "question": "Did the moderation in final demand change the expected path without changing the current target?",
+      "detail": "Compare policy pricing with prior expectations and inspect maturities beyond the next meeting. Improving productivity can affect both sustainable growth and inflation risk, so a change in a long yield alone would not identify which implication investors emphasised."
+    }
+  ],
+  "limitation": ""
+}

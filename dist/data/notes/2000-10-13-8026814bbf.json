@@ -1,0 +1,33 @@
+{
+  "title": "Collateral reform changes how much Bank credit different assets can support",
+  "bank": "Bank of Japan",
+  "date": "2000-10-13",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/mok0010a.htm",
+  "summary": [
+    "The October 13 decision establishes common eligibility and valuation rules for assets securing central-bank credit, plus a method for assessing corporate obligors. The Board wanted more consistent treatment across lending operations as it prepared for real-time gross settlement. It also decided to replace separate basic lending-rate categories with a common rate set at the prevailing rate for the specified government-bond, commercial-bill and related category. Loans backed by loans on deeds would receive the same rate. The notice gives no numerical level for that rate. It leaves the possible abolition of certain preferential bill schemes for further consideration.",
+    "Attachment 1 separates eligibility from valuation. Assets generally had to be denominated in yen, issued domestically, subject to Japanese law and capable of being realised without legal obstacles. The Bank would assess credit quality and marketability, drawing on ratings, market prices and public information. For many assets a counterparty maintaining a current account could request an eligibility assessment. A security can meet a rating or legal criterion without providing credit equal to its market value. Table 1 gives the conversion from an accepted asset into recognised collateral value.",
+    "For ordinary government bonds that conversion fell from 99 percent of market price at one year or less to 90 percent beyond twenty years. A corporate bond with up to five years remaining received 96 percent of market value, falling to 80 percent at maturities over twenty years. Bills including commercial paper were valued at 95 percent of face, while loans on deeds were valued at 80 percent of outstanding principal. These bases are distinct. Applying the percentage for a loan to a bond’s face amount would misstate available funding even before considering market prices.",
+    "Credit and legal restrictions limit which assets can benefit. Table 2 requires eligible asset-backed securities to satisfy tests covering the underlying cash flow, validity of the asset transfer in insolvency, independence of the issuing vehicle and fallback collection arrangements. It also requires an AAA rating. For corporate bonds, an A or higher rating is one factor in the Bank’s credit assessment. Attachment 2 directs the Bank to consider net worth, cash-flow stability, profitability, asset soundness, industry position and other information. Consolidated accounts are preferred where available. Corporate reviews are ordinarily annual, with extra reviews possible as needed. An external rating alone cannot establish the size of the eligible pool.",
+    "Rules on connected issuers address a separate risk. Counterparties’ own obligations and guarantees face restrictions and specified exceptions. Obligations of a controlling holding company are generally ineligible. Those of a closely connected company generally cannot secure credit to the related counterparty. The distinction matters for a group with claims issued both inside and outside its own banking network.",
+    "The effective date is linked to the introduction of real-time gross settlement. Some previously eligible assets retained temporary protection until March 31, 2001. Interest-bearing and discount bank debentures had that expiry date, while a further specified bond category remained eligible until March 31, 2002. The close-affiliate rule had its own October 1, 2001 start. The transition for certain foreign-currency bills set their value at 85 percent of yen-equivalent face and excluded their use for loans on bills. These dates and exceptions change which assets could support a given facility over time. They do not reveal the amount pledged, the credit actually extended or the response of private collateral prices."
+  ],
+  "questions": [
+    {
+      "question": "Who gained or lost usable collateral capacity?",
+      "detail": "Revalue each institution’s holdings with the maturity buckets and valuation bases in Table 1, then apply issuer restrictions and transitional dates. Compare the resulting capacity with actual credit use. A large calculated change can have little effect if the prior constraint never bound."
+    },
+    {
+      "question": "Did assets close to an eligibility boundary acquire a funding premium?",
+      "detail": "Compare eligible and closely matched ineligible issues around announcement and implementation. Match issuer risk, liquidity and maturity, and check whether the asset was actually held by institutions with access to Bank credit."
+    },
+    {
+      "question": "Did the affiliate restriction reduce concentrated counterparty risk?",
+      "detail": "Map issuer, guarantor, parent and pledging institution to the same corporate groups. The relevant comparison is between assets usable by independent counterparties and the same assets presented by the affiliated borrower."
+    },
+    {
+      "question": "Did the valuation schedule change maturity choices?",
+      "detail": "Examine collateral substitution across maturity buckets, especially near the thresholds, while controlling for yield-curve movements and changing holdings. A decline in pledged long bonds can reflect repricing, eligibility or a deliberate switch to assets with higher collateral value."
+    }
+  ],
+  "limitation": ""
+}

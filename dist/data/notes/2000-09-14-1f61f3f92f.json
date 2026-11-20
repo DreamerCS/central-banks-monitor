@@ -1,0 +1,25 @@
+{
+  "title": "September 14 retains the quarter-percent overnight guide",
+  "bank": "Bank of Japan",
+  "date": "2000-09-14",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000914.htm",
+  "summary": [
+    "A majority kept the average unsecured overnight call rate objective around 0.25 percent for the period before the next meeting. The wording allows individual trades and daily observations to vary around the guide. The notice contains no new forecast, commitment about the following meeting or instruction to force every transaction to 25 basis points.",
+    "The meeting closed at 2:38 p.m. The reference section records that Deputy Governor Fujiwara temporarily chaired while Governor Hayami attended a ministerial meeting. It records attendance and the majority outcome without attributing a policy preference to either official. The Bank scheduled its economic view for September 18 and the minutes for October 18."
+  ],
+  "questions": [
+    {
+      "question": "How tightly did the effective rate track the new operating level?",
+      "detail": "Compare daily rates, trade ranges and volumes with 0.25 percent across the intermeeting period. Report average deviations separately from occasional trades well away from the guide."
+    },
+    {
+      "question": "Did investors expect a further increase?",
+      "detail": "Compare changes in rates for future settlement with changes in current overnight funding. Changes farther along the curve may reflect expected policy or compensation for uncertainty."
+    },
+    {
+      "question": "What was knowable at the September meeting?",
+      "detail": "Time the release of the economic report and the minutes separately. Attendance and temporary chairmanship do not reveal individual votes or views on the future rate path."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,25 @@
+{
+  "title": "July 17 retains the zero-rate instruction at the trading desk",
+  "bank": "Bank of Japan",
+  "date": "2000-07-17",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000717.htm",
+  "summary": [
+    "The decision notice records a majority vote to keep zero rates and continue supporting the transmission of existing easing. For operations it directs the Bank to supply ample liquidity flexibly and guide the unsecured overnight call rate as low as practicable. It contains no schedule for a rate increase. The text alone cannot establish how close a majority felt to changing course.",
+    "The meeting ended at 4:01 p.m. The Bank announced publication of its economic assessment for July 19 and scheduled release of its minutes for September 20. The hold is identifiable on the day. An account of why officials considered an alternative requires a separate source and publication time."
+  ],
+  "questions": [
+    {
+      "question": "Could a hold still surprise the term-rate market?",
+      "detail": "Recover expectations formed before July 17 and compare quotations spanning the following meetings. The surprise is measured against what was priced, even when the operating instruction is renewed verbatim."
+    },
+    {
+      "question": "Can the price response to the decision be separated from the explanation?",
+      "detail": "Retrieve timestamps for the decision and any accompanying Board communication. If they reached traders together, a narrow event study can identify only their combined effect."
+    },
+    {
+      "question": "Did July 19 bring independent economic news?",
+      "detail": "Compare the Bank’s assessment with what was public after the meeting. Test for repricing at that publication and reserve the September minutes for a separate event."
+    }
+  ],
+  "limitation": ""
+}

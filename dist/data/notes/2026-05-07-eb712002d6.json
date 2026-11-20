@@ -1,0 +1,27 @@
+{
+  "title": "Norway delivered the hike signalled in March as the wage settlement confirmed its premise",
+  "bank": "Norges Bank",
+  "date": "2026-05-07",
+  "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-05-07-rate/",
+  "summary": [
+    "Norges Bank raised the policy rate from 4% to 4.25% at its 6 May meeting, announcing the decision on 7 May. March had already identified the likely need for an increase at one of the next meetings. The important claim in May was that incoming information confirmed the earlier diagnosis. The calendar timing had changed from prospective to actual even though the Committee judged the broader outlook little changed. In an event study, the 25-basis-point action must therefore be distinguished from the smaller or larger surprise to what investors had previously priced.",
+    "March headline inflation reached 3.6%, while CPI adjusted for tax changes and excluding energy products, CPI-ATE, held at 3%. Both were broadly in line with projections. The manufacturing wage settlement set a norm close to the March forecast for growth in economy-wide annual pay. A manufacturing norm and the final national wage outcome measure different things, but the agreement offered timely evidence against a rapid collapse in domestic cost growth. The krone had appreciated more than assumed, helping to dampen import-price inflation. That offset could coexist with persistent pressure in domestic prices after several years above target.",
+    "The external picture was more varied than the headline oil price suggested. A temporary ceasefire had yet to restore normal shipping through the Strait of Hormuz. Oil spot prices remained elevated, oil futures had changed little since March, gas prices had fallen and some other commodities had become more expensive. The Committee judged overall external price pressure slightly stronger than forecast. Comparing imported inflation with oil alone would therefore ignore both the composition of inputs and the stronger exchange rate.",
+    "Domestic capacity remained close to normal. Preliminary salaried employment had risen, registered unemployment was unchanged and the labour-force survey showed a small increase in unemployment during the year. These measures did not point uniformly to a materially weaker economy. The March projection still indicated 4.25%–4.5% by year-end, leaving open the possibility of more tightening from the newly achieved lower end. No new forecasts were produced in May. The next round was due on 18 June. The release gives a discrete rate change and conditional guidance, but no forward quote from which to infer the probability that traders assigned to another hike."
+  ],
+  "questions": [
+    {
+      "question": "Was 4.25% already priced by the time of the decision?",
+      "detail": "Compare the interest rate implied for the period after the meeting immediately before and after the release, alongside longer forwards. If timing was anticipated, the main price response could have come from how investors read the statement on further tightening."
+    },
+    {
+      "question": "How predictive was the manufacturing wage norm for economy-wide costs?",
+      "detail": "Compare subsequent settlements, actual compensation and productivity with the forecast available in March. Separate negotiated rates from wage drift. A settlement close to forecast could still underestimate unit costs if productivity or pay outside manufacturing differed from assumptions."
+    },
+    {
+      "question": "Could currency strength offset the renewed external cost pressure?",
+      "detail": "Construct import prices in kroner for fuels, other commodities and final goods. Compare these with domestic selling prices and distinguish commodity-specific shocks from currency pass-through. That would clarify whether incoming inflation validated the high end of the year-end range."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,26 @@
+{
+  "title": "A unanimous half-point cut makes the post-action balance of risks more even",
+  "bank": "Federal Open Market Committee",
+  "date": "2002-11-06",
+  "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20021106/",
+  "summary": [
+    "The FOMC cut its funds target by half a percentage point to 1.25%. All twelve voting members supported the move. The Board also reduced the discount rate by 50 basis points to 0.75%, on requests from the Dallas and New York Reserve Banks. The Committee then described the risks to price stability and sustainable growth as balanced with the new policy in place. In this release a sizeable easing and a balanced risk assessment express different stages of the decision: the risks after providing support were the ones being assessed.",
+    "The announced rationale focused on uncertainty that was inhibiting spending, production and employment, partly because of geopolitical developments. Incoming data had reinforced that assessment. The FOMC credited existing accommodation and robust underlying productivity with supporting activity. It therefore did not interpret continued softness as proof that earlier support had been ineffective. The relevant counterfactual was how the economy would have performed without it, which the release did not quantify.",
+    "Both inflation and expected inflation were described as contained. This gave policymakers room to supply further accommodation while the economy worked through its weak patch. The release does not specify how much growth the cut would generate, an expected end date for weakness or a commitment to a future reversal. The unanimous vote records agreement on this decision alone."
+  ],
+  "questions": [
+    {
+      "question": "Was the cut changing the price of finance for the borrowers whose activity was being restrained?",
+      "detail": "Track credit spreads, loan rates, approvals and rollover terms alongside the decline in the target. A lower benchmark can coexist with a higher risk premium or firms remaining unwilling to borrow under uncertainty."
+    },
+    {
+      "question": "Did uncertainty primarily affect spending, production schedules or employment decisions?",
+      "detail": "Compare sales, orders, inventories, hours and hiring intentions across differently exposed industries. The ordering matters. If production and employment respond after spending, the case for a demand transmission differs from one in which firms independently delay both hiring and investment."
+    },
+    {
+      "question": "Did markets receive news mainly from the 50-basis-point action or from the balanced post-action assessment?",
+      "detail": "Separate pricing for the decision from the expected subsequent path. A larger-than-expected cut can coincide with less expected additional easing. An observed change at a single maturity would not identify both components."
+    }
+  ],
+  "limitation": ""
+}

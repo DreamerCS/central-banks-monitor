@@ -1,0 +1,25 @@
+{
+  "title": "November 17 preserves the average overnight target",
+  "bank": "Bank of Japan",
+  "date": "2000-11-17",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k001117.htm",
+  "summary": [
+    "The Bank maintained an average unsecured overnight call rate around 0.25 percent. A majority approved the intermeeting guideline. The announcement does not publish an expected future path, a tolerance band around the average or the quantity of reserves required to implement the target. Those distinctions matter when using the notice to label daily market observations.",
+    "The Bank recorded the meeting closing at 2:44 p.m. Its economic assessment was scheduled for November 20, with the English background later in November and minutes on December 20. These separate releases offer ways to test when the market learnt about the economic reasoning behind the decision."
+  ],
+  "questions": [
+    {
+      "question": "Could transaction weights move the average while borrowing conditions held steady?",
+      "detail": "Recalculate the mean using constant counterparty or trade-size weights if the data permit. The volume-weighted series and the median trade can give different signals."
+    },
+    {
+      "question": "Did term spreads imply that stability would persist?",
+      "detail": "Compare rates for successive future periods and check their liquidity. Persistent overnight conditions alone do not reveal the rate expected at a more distant date."
+    },
+    {
+      "question": "Did November 20 generate more news than November 17?",
+      "detail": "Match pre-release market expectations to each timestamp and record overlapping news. Comparing the two windows helps identify whether the economic assessment added information to the rate hold."
+    }
+  ],
+  "limitation": ""
+}

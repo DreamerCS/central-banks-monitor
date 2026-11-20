@@ -1,0 +1,27 @@
+{
+  "title": "Why Sweden raised rates with CPIF inflation still at 1.5%",
+  "bank": "Sveriges Riksbank",
+  "date": "2026-11-04",
+  "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-raised-to-2-per-cent/",
+  "summary": [
+    "The Riksbank raised its policy rate by 25 basis points to 2% on 4 November. September CPIF inflation was only 1.5%, but the Board judged that a recovery in activity, higher costs from supply disruption and a weaker krona would push both CPIF and underlying inflation above 2% in the following year. The hike implemented the sort of increase envisaged in September. Further increases over the coming year remained likely only if the outlook for activity and inflation held.",
+    "Three inflation readings in the communiqué refer to different baskets. The reported 1.5% CPIF figure was in line with the forecast. Removing the direct effect of temporary fiscal measures put CPIF at 3%. Removing energy as well gave 1.6%, slightly below expectations. The 1.5 percentage point gap between measured and fiscally adjusted CPIF gives a sense of the size of the direct fiscal distortion that month. The 1.4 percentage point difference between the two adjusted measures shows the importance of energy in the comparison. Neither calculation measures an increase in persistent domestic inflation. The remaining concern came from above-normal cost indicators and the likelihood of future pass-through as demand recovered.",
+    "There were domestic grounds for expecting more pass-through, although the evidence was uneven. Preliminary data showed both GDP and employment rising in the third quarter in line with the forecast. Company sentiment improved further in October while household sentiment weakened. The Board expected economic conditions to reach a normal level in 2027 and the labour market to continue improving. A faster-than-expected recovery could amplify inflation pressure, but uncertainty remained around labour-market strength. External risks also included geopolitical uncertainty, doubts about AI investment and weak public finances in some countries, any of which could weaken demand.",
+    "The new rate took effect on 11 November. No fresh numerical forecasts accompanied the decision, so September’s conditional path remained the correct comparison for policy expectations. A researcher should mark 4 November as the announcement, 10 November as the scheduled release of the minutes and 11 November as implementation. Separating those dates matters when an anticipated policy action still changes investors’ views about how far rates will rise or how rapidly borrowers will feel the change."
+  ],
+  "questions": [
+    {
+      "question": "Would the apparent overshoot survive adjustment for taxes and energy?",
+      "detail": "Rebuild the three CPIF readings using the same vintage and monitor which non-energy components subsequently accelerate. This checks whether concerns about future underlying prices were borne out, instead of treating the 3% tax-adjusted reading as the domestic inflation rate."
+    },
+    {
+      "question": "Did stronger activity translate into pricing power before employment fully recovered?",
+      "detail": "Compare firms’ orders, capacity use and selling-price plans with vacancies, employment and household consumption. Contrasting household and corporate sentiment offers a way to test whether the expected return to normal activity was broad enough to support sustained pass-through."
+    },
+    {
+      "question": "Did the hike add anything to the policy path announced in September?",
+      "detail": "Compare meeting-dated and longer krona forwards before the decision and after its announcement. Identify what investors already priced for November and keep the later minutes separate. A fully anticipated increase could still convey meaningful news about the probability of further increases in 2027."
+    }
+  ],
+  "limitation": ""
+}

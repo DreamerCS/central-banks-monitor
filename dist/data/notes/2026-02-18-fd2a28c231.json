@@ -1,0 +1,28 @@
+{
+  "title": "New Zealand holds at 2.25% as spare capacity outweighs an inflation overshoot",
+  "bank": "Reserve Bank of New Zealand",
+  "date": "2026-02-18",
+  "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/02/ocr-on-hold-at-2-25-with-inflation-expected-to-fall",
+  "summary": [
+    "The Monetary Policy Committee reached consensus on February 18 to keep the official cash rate (OCR) at 2.25%. Annual consumer price inflation was 3.1% in the December quarter, just above the 1–3% band. Yet the Committee expected it to return inside the band in the March quarter and approach the 2% midpoint over the following year. Both the composition of inflation and the amount of unused capacity mattered. The Bank judged that withdrawing support prematurely could interrupt an early recovery and eventually push inflation below target (February decision and meeting record).",
+    "Much of the recent inflation news came from food, international airfares and overseas accommodation. Appreciating exchange rates and stable import prices were expected to reduce tradables inflation over the next year. Among non-tradables, administered prices included delayed responses to earlier inflation and structural changes. The Committee anticipated smaller increases in some electricity network, university and vehicle licensing fees. More interest-sensitive non-tradables inflation had already returned to around its historical average. Most measures of core inflation remained above 2% but within the band. Forecasters and businesses reported slightly higher inflation expectations across horizons, while their long-run expectations remained near the midpoint and household expectations continued falling. A single category labelled inflation expectations would conceal these differences (meeting record, inflation assessment).",
+    "Staff estimated the December-quarter output gap at minus 1.5% of potential GDP. Unemployment rose to 5.4% even as several measures of employment improved. September GDP had grown 1.1% after a 1.0% contraction in June, but measurement issues and temporary factors made the rebound an unreliable guide to its pace. Investment and building consents were recovering from low levels. Agricultural exporters and rural regions benefited from strong commodity prices, whereas households faced weak employment-income growth and falling real house prices. The Committee highlighted a distributional uncertainty: proceeds from the sale of Fonterra’s consumer brands might boost spending among dairy farmers, while other households could retain high precautionary savings (meeting record, capacity, economic activity and risks).",
+    "Financial conditions had tightened since November despite the unchanged current policy rate. Wholesale rates beyond twelve months rose with global yields and investor expectations of future domestic increases. Banks passed part of the change into fixed mortgage rates. The average rate on outstanding mortgages had fallen to 5.1%, but a larger flow of borrowers had chosen one- to two-year terms and staff expected less further relief than previously assumed. A rate on a new mortgage offer can rise while the average interest bill on loans already outstanding continues falling. This lag helps explain why the Committee paid attention to household incomes and the timing of refinancing alongside the OCR (meeting record, domestic financial conditions).",
+    "Consensus on holding did not eliminate differences over timing. One member considered that stimulus could be withdrawn somewhat earlier if activity recovered as expected. Another warned that a quick policy response to firms’ stated pricing intentions might itself reinforce perceptions of strong demand. Members agreed that policy would need to remain accommodative for a time, with gradual normalization as the recovery strengthened. For market interpretation, the relevant surprise could therefore lie in the timing inferred from the forward OCR path, even if the current decision was widely anticipated. The release gives no subsequent exchange-rate or yield response (meeting record, final discussion)."
+  ],
+  "questions": [
+    {
+      "question": "Was inflation falling in the components monetary policy could influence?",
+      "detail": "Build vintage-consistent baskets of administered prices, volatile traded items and domestically priced services. Check price breadth and wage-sensitive service costs as well as annual contributions. A decline concentrated in foreign travel would carry different information about slack from a sustained moderation in market services."
+    },
+    {
+      "question": "How much easing was still reaching existing mortgage borrowers?",
+      "detail": "Compare advertised rates by fixed term, the distribution of loans approaching expiry and the effective rate on outstanding mortgages. Identify cohorts refinancing into lower rates despite the increase in new longer-term offers. Link the resulting payment changes to household spending rather than inferring transmission from the OCR alone."
+    },
+    {
+      "question": "Was the recovery broadening beyond export regions?",
+      "detail": "Compare rural and urban spending, employment income, building consents and investment using release vintages available to the Committee. Isolate the effects of commodity export receipts and Fonterra-related capital returns. Sustained improvement in non-export regions would give stronger evidence of a broad recovery than a single rebound in national GDP."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,25 @@
+{
+  "title": "June 12 continues discretionary funding under a zero-rate policy",
+  "bank": "Bank of Japan",
+  "date": "2000-06-12",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000612.htm",
+  "summary": [
+    "The Bank kept the unsecured overnight call rate as low as possible by retaining its instruction to make funds available flexibly. A majority supported continuity to allow easing to transmit further. The obligation runs to the next meeting. The release neither fixes a future path for rates nor specifies how the Bank would respond to a particular reading of prices or activity.",
+    "The meeting ended at 3:48 p.m. The Bank scheduled its economic view for June 14, the remaining English background for the end of June and the minutes for July 21. The release provides the mandate for operations, but no realised funding rates or assessment of the decision by market participants."
+  ],
+  "questions": [
+    {
+      "question": "Which maturities were sensitive to the expected duration of zero rates?",
+      "detail": "Measure repricing across successive money-market contracts around the verified release. A steeper or flatter curve can arise from term and liquidity premia as well as expected policy."
+    },
+    {
+      "question": "Did funding conditions differ across secured and unsecured markets?",
+      "detail": "Match transaction times and maturities before comparing rates. A divergence confined to unsecured borrowing would call for investigation of counterparty risk or market depth."
+    },
+    {
+      "question": "What did the later economic assessment add?",
+      "detail": "Separate the June 14 information window and compare it with the June 12 decision window. Then identify which contemporaneous indicators could support any change in the expected policy horizon."
+    }
+  ],
+  "limitation": ""
+}

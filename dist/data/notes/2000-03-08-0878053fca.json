@@ -1,0 +1,25 @@
+{
+  "title": "March 8 keeps the funding instruction in place ahead of fiscal year-end",
+  "bank": "Bank of Japan",
+  "date": "2000-03-08",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000308.htm",
+  "summary": [
+    "The majority reaffirmed the zero-rate policy to let existing easing reach the economy. The next intermeeting period would be managed by providing funds flexibly so the unsecured overnight call rate could fall as low as practicable. The notice contains no special year-end commitment and assigns no numerical allotment. A funding-rate move later in March would therefore require evidence on operations and private demand before it could be linked to a change of stance.",
+    "The meeting concluded at 3:37 p.m. The Bank listed March 10 for the release of its economic view, the end of March for the English background and April 13 for the minutes. These publication dates define different bodies of publicly available evidence."
+  ],
+  "questions": [
+    {
+      "question": "Did forward rates spanning the end of March carry a premium?",
+      "detail": "Compare instruments maturing immediately before and after the fiscal year-end, with similar credit exposure. This can separate a premium specific to those days from broader repricing of expected policy."
+    },
+    {
+      "question": "Was any additional liquidity temporary?",
+      "detail": "Trace the settlement and expiry dates of the Bank’s operations against overnight market conditions. Funds offered across a reporting date need separate treatment from a persistent increase."
+    },
+    {
+      "question": "What information arrived on March 10?",
+      "detail": "Map contemporaneous news and market quotes to the economic report’s scheduled release. Using the entire week as a decision window would mix policy, report and unrelated news."
+    }
+  ],
+  "limitation": ""
+}

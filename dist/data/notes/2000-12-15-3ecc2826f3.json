@@ -1,0 +1,25 @@
+{
+  "title": "December 15 keeps the quarter-percent guide ahead of year-end",
+  "bank": "Bank of Japan",
+  "date": "2000-12-15",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k001215.htm",
+  "summary": [
+    "A majority retained the average unsecured overnight call rate guide around 0.25 percent. It remained the guideline for the intermeeting period. The release specifies no year-end liquidity operation and offers no numerical path for the following year. The target can be used to benchmark overnight outcomes, while the price of borrowing across the year-end boundary is a separate market observation.",
+    "The meeting ended at 2:31 p.m. Deputy Governor Fujiwara chaired during Governor Hayami’s temporary absence earlier in the morning. The Bank scheduled the economic view for December 18, the English background within a few business days of that release, and the minutes for January 24, 2001."
+  ],
+  "questions": [
+    {
+      "question": "Was any turn-of-year funding premium confined to contracts crossing year-end?",
+      "detail": "Compare rates on otherwise similar instruments with different settlements around December 31. Match maturities and credit exposure before linking a premium to year-end demand."
+    },
+    {
+      "question": "Did any change in the expected path survive the economic report?",
+      "detail": "Compare the curve immediately after the decision and around the December 18 publication. The two windows distinguish news about the rate setting from the later economic assessment."
+    },
+    {
+      "question": "How should simultaneous publication of meeting records be handled?",
+      "detail": "Check the January 24 release list and timestamp each record. If several were made available together, prices can identify only the combined information in that publication window."
+    }
+  ],
+  "limitation": ""
+}

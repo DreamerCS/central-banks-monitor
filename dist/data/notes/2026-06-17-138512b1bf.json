@@ -1,0 +1,27 @@
+{
+  "title": "A small change in Sweden’s projected rate conceals a larger change in the energy risk",
+  "bank": "Sveriges Riksbank",
+  "date": "2026-06-17",
+  "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-14.75-per-cent",
+  "summary": [
+    "The June decision kept the policy rate at 1.75% but increased the assessed probability of a rise later in 2026. Swedish activity remained somewhat below normal, underlying inflation was low and the labour-market recovery was tentative. Yet the disruption to supplies around the Strait of Hormuz had lasted almost four months. Higher international inflation and higher Swedish business costs created a route from fuel prices into the broader basket. The longer it took for supply to normalise, the more scope firms had to change how and when they reset prices.",
+    "A footnote makes the information vintage critical. The forecasts and reasoning in the report used information available on 11 June. They therefore excluded subsequent developments, particularly the US–Iran Memorandum of Understanding that the press release itself mentioned. The Board considered the report a sound basis for the decision. An event study should not assume that the published forecast incorporated the agreement simply because readers learned about both in the same communiqué. The baseline used oil futures indicating an early improvement in supply and falling oil prices. Limited import and consumer-price pass-through depended in part on that assumption (opening account and footnote 1).",
+    "Near-term inflation revisions were more complex than the shift in policy risk suggests. CPIF inflation in 2026 was revised down to 1.1% from 1.5% in March, while 2027 was raised to 1.7% from 1.3%. Fiscal measures were suppressing current measured inflation. For 2028 CPIF was projected at 2.8%, followed by 2.0% in the second quarter of 2029. Growth projections moved down to 2.2% and 2.3% for 2026 and 2027 from 2.5% and 2.6%. The unemployment forecast for 2026 rose from 8.4% to 8.6%. Solid increases in household consumption and purchasing power nevertheless supported a continued recovery. A weaker starting economy and higher projected inflation in the following year could therefore still warrant a modest upward adjustment in the rate path.",
+    "The fourth-quarter 2026 policy-rate average rose from 1.77% to 1.82% and the first quarter of 2027 from 1.81% to 1.89%. The corresponding annual policy-rate averages rounded to 1.8% and 1.9%, identical to the rounded March figures. Relying on the annual table alone would miss the more informative quarterly revisions. The decision to hold applied from 24 June. The forward path was conditional on commodity prices, domestic spending and pricing behaviour and did not specify a meeting at which rates would rise (two forecast tables)."
+  ],
+  "questions": [
+    {
+      "question": "What changed between the 11 June cut-off and the decision?",
+      "detail": "Reconstruct the dated oil curves and compare them with the staff assumptions before and after the memorandum. Then examine Swedish market pricing on both dates. Distinguishing a forecast produced on earlier information from a Board decision made later is essential for identifying the actual policy news."
+    },
+    {
+      "question": "How much of the downward 2026 CPIF revision unwound in 2027?",
+      "detail": "Decompose fiscal effects, direct energy costs and the remaining basket at the quarterly frequency. Compare those paths with business selling-price plans and actual repricing. This would test whether the revised timing reflected temporary fiscal arithmetic or a more persistent increase in domestic prices."
+    },
+    {
+      "question": "Did markets react primarily at the near or more distant meetings?",
+      "detail": "Measure the response of meeting-dated rates and quarterly forward averages, retaining the June forecast’s precision rather than the rounded annual figures. A change concentrated later could reflect the risk that slower energy normalisation would prolong pass-through despite soft near-term growth."
+    }
+  ],
+  "limitation": ""
+}

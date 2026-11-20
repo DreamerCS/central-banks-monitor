@@ -1,0 +1,25 @@
+{
+  "title": "Bill sales give the Bank a short-term instrument for absorbing funds",
+  "bank": "Bank of Japan",
+  "date": "2000-04-27",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/mok0004a.htm",
+  "summary": [
+    "The April 27 rules govern sales of bills issued and accepted by the Bank itself. A buyer exchanges funds for a central-bank claim until the bill matures. The three-month limit runs from the day after the sale. Eligible counterparties are selected from specified groups including financial institutions, domestic and foreign securities firms, securities finance firms and money-market dealers. The rules locate the operation at the head office.",
+    "The Bank would sell the bills at a discount through competitive bidding and determine each operation’s timing, amount and participants in light of market conditions. These are operating powers effective on April 27. They do not order a particular sale or report how much liquidity was absorbed. For research purposes the effect on funds outstanding depends on settlement of new bills and repayments as existing bills mature."
+  ],
+  "questions": [
+    {
+      "question": "When did bill sales actually withdraw funds?",
+      "detail": "Use issue-level settlement and redemption records to reconstruct net cash flows by day. An announcement of terms, the award date and the settlement date can all differ."
+    },
+    {
+      "question": "How were Bank bills priced relative to other short government-sector claims?",
+      "detail": "Match maturity, settlement conventions and secondary-market liquidity. Compare auction discount rates with like-dated instruments without treating every spread as a premium for default risk."
+    },
+    {
+      "question": "Did auction participation concentrate absorption at a handful of firms?",
+      "detail": "Where awards by participant are available, compare amounts and bidding rates across eligible groups. Eligibility by category does not show who bid or how concentrated awards were."
+    }
+  ],
+  "limitation": ""
+}

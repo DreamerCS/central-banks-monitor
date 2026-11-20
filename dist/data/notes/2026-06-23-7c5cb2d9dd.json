@@ -1,0 +1,28 @@
+{
+  "title": "Hungary resumes easing after a two-point reduction in its 2026 inflation forecast",
+  "bank": "Magyar Nemzeti Bank",
+  "date": "2026-06-23",
+  "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-23-june-2026",
+  "summary": [
+    "On June 23 the MNB cut the base rate by 25 basis points to 6.00% and shifted the overnight corridor to 5.00–7.00%. The June Inflation Report changed the case for holding at 6.25%. Staff now projected average inflation of 1.8% in 2026, down from 3.8% in March, and 2.3% in 2027, down from 3.7%. The 2028 forecast was 3.0%. These are annual changes in price levels, not a projected fall in prices. The Council indicated conditional room for further cuts over the summer and reserved a broader review for September (June decision and forecast).",
+    "Three inputs changed the projected path: a stronger forint, lower energy prices and cheaper food. The Bank said market fuel prices were falling below the regulated ceilings as geopolitical tensions eased. A ceiling above the market price ceases to bind. Staff also judged that immediate removal of retail price-margin caps would still leave inflation below 3%. These were separate judgments about separate interventions; the second was a scenario rather than an announcement abolishing the rules. In May headline inflation had fallen to 1.8% and core inflation to 2.0%. Household expectations declined significantly, although firms’ expectations edged up following the prolonged conflict (price assessment).",
+    "The June release also closed part of the emergency foreign-exchange response. The MNB judged that euro sales to cover energy-import needs had supported market stability early in the conflict and would remain available through June 30. This was a decision about the availability of a specific instrument, separate from the reduction in the policy corridor. A fall in importer demand for emergency foreign currency can be consistent both with lower international energy costs and with improved access to currency through private markets. The statement did not quantify each effect or announce a general exchange-rate intervention target (foreign-exchange facility discussion).",
+    "The Council’s risk assessment shifted to broadly balanced inflation risks and upside growth risks. First-quarter output rose 1.7%, with domestic demand contributing most and net exports subtracting. The Bank forecast growth of 2.0% in 2026, 3.0% in 2027 and 2.9% in 2028. Consumption benefited from strong real wage increases; EU funds might lift investment over time. The Bank cited agreement with the European Commission over funds as one reason lower domestic risk premia had persisted, even as international long yields remained high. A temporary current-account deterioration was expected, followed by a balance near equilibrium (outlook and risks).",
+    "Two pieces of guidance mattered for the curve. The immediate increase in policy room depended on both domestic inflation and lower country risk, while the next stage of easing depended on their persistence. Investors could revise near-term summer contracts more than longer forwards even if the quarter-point cut itself was expected. The appropriate market test compares local pricing around the release with foreign benchmarks and the forint; a monthly fall in yields alone could also reflect anticipation of EU funds or changes in energy conditions (concluding guidance)."
+  ],
+  "questions": [
+    {
+      "question": "How much of the two-point 2026 inflation revision reflected oil, food or currency pass-through?",
+      "detail": "Rebuild the March and June assumptions for import prices in forint and compare them with realized consumer prices by category. Identify where fuel ceilings bound in each vintage. A price cap’s removal has little direct impact when the freely traded price is already below it."
+    },
+    {
+      "question": "Did ending the energy-import currency facility alter market liquidity?",
+      "detail": "Examine spot turnover, forward spreads, bid–ask spreads and importer settlement patterns around June 30, controlling for changes in the energy bill and global risk. Separate the operational expiry from the June 23 rate announcement and check for anticipatory moves."
+    },
+    {
+      "question": "Did Hungary’s risk premium or expected domestic rates account for lower yields?",
+      "detail": "Compare government bonds with matched local swaps and foreign sovereign benchmarks, then track the currency around the EU-funds agreement and the monetary decision. A decline in the country spread and a downward revision to short policy rates are economically distinct even when both lower bond yields."
+    }
+  ],
+  "limitation": ""
+}

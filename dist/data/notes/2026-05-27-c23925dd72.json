@@ -1,0 +1,28 @@
+{
+  "title": "A casting vote keeps New Zealand’s first increase on hold",
+  "bank": "Reserve Bank of New Zealand",
+  "date": "2026-05-27",
+  "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/05/ocr-held-at-2-25-percent",
+  "summary": [
+    "The May 27 meeting produced a three-to-three split between holding the OCR at 2.25% and raising it to 2.50%. Governor Anna Breman’s casting vote kept the rate unchanged. All six members agreed on the central projected policy path and judged that increases would likely be required at upcoming meetings. Their disagreement concerned the cost of delaying the first move. This matters for historical policy scoring: the cash rate did not move, but there was considerably more agreement about removing stimulus than the split on the current rate might suggest (May decision and attributed meeting record).",
+    "The March quarter showed 3.1% annual inflation, higher than expected in February largely because of fuel prices. Measures of core inflation had continued to ease, averaging 2.3%, and annual wage inflation was 2%. Staff estimated the output gap at minus 1.3% of potential output. The forecast still put the near-term headline peak at 4.3% in the September quarter, with a return to 2% in mid-2027. It incorporated futures pricing that put Dubai oil at US$96 per barrel at year-end. Shorter-term inflation expectations rose, while longer-horizon measures remained near 2%. Treat the peak as a conditional forecast rather than a reading already observed (meeting record, price and capacity assessments).",
+    "Higher fuel prices cut household purchasing power and squeezed margins. Electronic card transactions and confidence measures pointed to weaker demand. Staff expected annual GDP growth in 2026 to be 0.9 percentage points lower than in the February projection. New Zealand and foreign wholesale rates had already risen, feeding through more strongly to fixed mortgage offers than to deposit rates. The average rate on outstanding mortgages had still declined to 4.9% in March, but the Bank expected it to reach 5.3% over the next twelve months. That forecast describes the stock of existing loans as contracts reset, rather than another change in the OCR (meeting record, outlook and financial conditions).",
+    "Breman, Karen Silk and Paul Conway favoured waiting. The higher projected inflation rate would call for eventual action, but weaker spending indicators, continued slack and contained wage and core inflation provided a reason to collect more evidence. They also emphasized uncertainty over the neutral rate, and hence over how much stimulus remained. Carl Hansen, Hayley Gourley and Prasanna Gai preferred to increase the OCR immediately. They put more weight on broad petrochemical exposures, rising two-year expectations in several surveys and the possibility that firms could coordinate on persistent price increases even after the initial shock faded. If fuel prices fell, a rapid recovery in confidence might also support demand. Hansen emphasized that moving immediately would retain the option of tightening again in July (meeting record, named positions).",
+    "Both camps considered the interaction of prices and activity. Thin margins could accelerate pass-through if firms had little capacity to absorb costs, yet weak demand might prevent customers from accepting higher prices. Stronger migration could ease local labour shortages. Global AI and manufacturing investment might support New Zealand’s export demand even as energy shocks hurt some trading partners, although a reassessment of elevated technology valuations could reverse that support. The Committee used three alternative scenarios to examine the trade-off, without assigning any of them the status of a promised interest-rate path. For markets, the useful distinction is repricing in the immediate meeting contract versus the change in later forwards implied by broad agreement on future tightening (meeting record, risks and final decision)."
+  ],
+  "questions": [
+    {
+      "question": "Did the casting vote delay tightening without changing its expected endpoint?",
+      "detail": "Compare prices for the next meeting with the expected cash rate several meetings ahead, using quotes recorded before and after publication. Estimate the hold probability beforehand. A surprise at the front of the curve alongside little change farther out would fit the members’ agreement on the path and disagreement over timing."
+    },
+    {
+      "question": "Which pricing decisions showed signs of becoming persistent before longer-term expectations moved?",
+      "detail": "Use price-setting surveys and firm-level observations to distinguish temporary fuel surcharges, permanent list-price changes and revisions in wage budgets. Compare firms with narrow margins against those with more room to absorb costs. The speed and breadth of a second price change after energy stabilized would be particularly informative."
+    },
+    {
+      "question": "How quickly was mortgage repricing reducing disposable household income?",
+      "detail": "Reconstruct a weighted path for the effective mortgage rate using the timing of fixed-term expiries and quoted replacement rates. Compare it with the rise from 4.9% to 5.3% contemplated in the record and with high-frequency consumption. Separate the loss of purchasing power from fuel costs from the change in debt service."
+    }
+  ],
+  "limitation": ""
+}

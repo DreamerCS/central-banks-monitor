@@ -1,0 +1,28 @@
+{
+  "title": "Peru holds despite a broad March inflation spike linked to gas and fuel disruption",
+  "bank": "Banco Central de Reserva del Perú",
+  "date": "2026-04-09",
+  "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-04-09.pdf",
+  "summary": [
+    "Peru’s central bank held its reference rate at 4.25% on 9 April after both headline and underlying inflation moved above the target range. March prices rose 2.38% in a single month. Even after excluding food and energy, the monthly increase was 2.07%. On a twelve-month basis, headline inflation jumped from 2.2% to 3.8% and the underlying rate from 2.2% to 3.7%. The Board attributed the move to simultaneous supply shocks: international fuel prices, a complete interruption to domestic natural gas and natural-gas liquids supply in the first half of March, and adverse weather. The size of the underlying reading made this a test of whether a supply disruption would propagate or fade, not just a question about the gasoline component.",
+    "An exclusion-based inflation measure removes the direct prices of food and energy but retains the prices of activities that consume them. A service provider forced to use a more expensive alternative fuel can raise its final price even when energy is excluded from the index being measured. The April release identifies multiple shocks but gives no component weights or attribution for the 2.07% monthly underlying increase. Inferring broad excess demand from that single observation would therefore go beyond the evidence. Conversely, the higher underlying measure means the immediate effect was already more extensive than direct food and energy prices alone.",
+    "The Board forecast a return of both measures to the target range towards year-end and to around 2% in 2027, conditional on the supply effects dissipating. This separates two milestones: getting back inside the permitted interval and reaching its midpoint. The statement put twelve-month inflation expectations at 2.5%, up from 2.1% in February but still inside the target range. Subtracting those survey values from the unchanged policy rate gives a simple prospective real-rate measure that falls from 2.15% to 1.75%. This is an implication of higher expected inflation at a fixed nominal setting, not an estimate by the Board of the neutral rate or a change in the quoted overnight target.",
+    "Activity remained around potential. March forward indicators continued to perform well and most current and expectations indicators remained optimistic. At the same time, global financial volatility and international oil prices were elevated, although the Board continued to view world growth positively and Peru’s terms of trade favourably. An improving export-price environment can cushion national income even when domestic consumers face high fuel costs. The release did not quantify either effect on GDP. It added the duration of supply shocks to the conditions it was watching alongside underlying inflation, expectations and activity.",
+    "Standing deposit and lending terms remained 2.25% and an initial 4.75% respectively, with the stated frequency and size conditions applying to domestic lending operations. The most informative new policy evidence at the next meeting would be whether easing shortages caused a reversal in affected prices, whether the price increase stayed in the level while monthly changes normalised, or whether firms continued to reprice. All three can produce high annual inflation in the short run, but they imply different paths back towards target."
+  ],
+  "questions": [
+    {
+      "question": "Did restoration of gas supply reverse the prices that rose during the outage?",
+      "detail": "Identify transport and other services with direct operational exposure, then compare their March changes with those in the months after supply resumed. Distinguish an actual fall in the price level from zero inflation at a newly elevated level. Both can lower monthly inflation, while only the former quickly reverses the initial contribution to the annual rate."
+    },
+    {
+      "question": "Did the increase in twelve-month expectations extend into wage or pricing decisions?",
+      "detail": "Track subsequent expectations by horizon and group alongside wage settlements, intended selling prices and sectoral margins. At the April meeting expectations still sat inside the range, so their rise alone cannot establish lasting de-anchoring. The issue is whether a temporary cost shock began to influence contracts covering periods after supply normalisation."
+    },
+    {
+      "question": "How much did the fall in a prospective real rate reach borrowers?",
+      "detail": "Compare market lending and deposit rates in soles at matched maturities before pairing them with expectations, and consider differences between consumer and business borrowers. The policy rate less expected inflation is a diagnostic, not an observed financing cost. Credit standards or risk premiums could offset a fall in that simple measure while the nominal policy rate remained fixed."
+    }
+  ],
+  "limitation": ""
+}

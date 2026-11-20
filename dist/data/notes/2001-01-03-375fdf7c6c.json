@@ -1,0 +1,26 @@
+{
+  "title": "An intermeeting cut responds to weakening sales while leaving the productivity outlook intact",
+  "bank": "Federal Open Market Committee",
+  "date": "2001-01-03",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/default.htm",
+  "summary": [
+    "The FOMC cut its federal funds target by half a percentage point to 6%. Its immediate concern was a simultaneous weakening in sales and production. Lower confidence, tight financing in parts of the market and high energy costs were placing pressure on household and business purchasing power. Contained inflation gave the Committee room to act. The release spoke of tightness in certain financial segments rather than market-wide dysfunction, and it did not quantify the role of any single factor in the decision.",
+    "There were two different discount-rate decisions embedded in the wording. The Board approved an immediate quarter-point reduction to 5.75%, as requested by seven Reserve Banks. It also expressed readiness to approve a further quarter-point reduction to 5.50% on receipt of requests. Only the first step was approved in this announcement. Coding the full indicated discount-rate move as an immediate half-point cut would erase the difference between a decision and a conditional intention. The 50-basis-point change to the funds target was effective policy without that qualification.",
+    "The Committee still saw favourable longer-run technological progress and productivity gains. The easing addressed weakness in current spending and production, not a reversal of its view about productive capacity. Risks remained tilted towards economic weakness even after the cut. That gives a direction to its risk assessment, without specifying the size or timing of another move."
+  ],
+  "questions": [
+    {
+      "question": "Had the weakness in sales translated into cuts in production independently of inventory adjustment?",
+      "detail": "Compare final sales, orders, inventories and output in the releases available on 3 January. Falling output alongside resilient final sales would suggest a different demand outlook from a decline extending to new orders and household purchases."
+    },
+    {
+      "question": "Which financial segments were restricting access to credit?",
+      "detail": "Examine spreads, issuance, lending standards and actual borrowing for firms of different sizes. The release does not name a market or report an observed funding premium. Test whether reduced borrowing reflected scarce credit, fewer profitable projects, or both."
+    },
+    {
+      "question": "How much of the half-point move was unanticipated?",
+      "detail": "Establish the actual release time from separate time evidence before using intraday quotes. Separate the funds-target surprise from the conditional discount-rate signal and compare nearer contracts with subsequent meetings. The announced change alone cannot supply an event return."
+    }
+  ],
+  "limitation": ""
+}

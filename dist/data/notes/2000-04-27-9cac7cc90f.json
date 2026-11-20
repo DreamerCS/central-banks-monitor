@@ -1,0 +1,25 @@
+{
+  "title": "April 27 maintains zero rates without fixing the amount of funding",
+  "bank": "Bank of Japan",
+  "date": "2000-04-27",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000427.htm",
+  "summary": [
+    "The Bank retained zero rates by majority vote. It instructed the trading desk to provide ample funds flexibly and keep the unsecured overnight call rate as low as possible until the next meeting. The operating target in this notice is the price of overnight funds. The volume or maturity of any individual bill operation cannot be read from it.",
+    "The meeting ran until 1:23 p.m. and minutes were scheduled for June 15. The decision releases the immediate operating instruction without describing collateral rules, auction outcomes or a revised assessment of inflation."
+  ],
+  "questions": [
+    {
+      "question": "Which part of the money market was directly targeted?",
+      "detail": "Compare the unsecured overnight rate with secured rates and longer maturities in separate series. A spread change away from overnight unsecured borrowing needs a mechanism of its own."
+    },
+    {
+      "question": "Could same-day operational news explain some repricing?",
+      "detail": "Establish the release sequence for the decision and any separate April 27 notices. Compare instruments affected by changes in operations with instruments chiefly sensitive to the expected overnight path."
+    },
+    {
+      "question": "Did execution change although the rate objective held?",
+      "detail": "Check published tender terms, allocations and maturities before and after the meeting. A different choice of auctions can implement the same price objective."
+    }
+  ],
+  "limitation": ""
+}

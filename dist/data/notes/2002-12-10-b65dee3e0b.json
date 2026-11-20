@@ -1,0 +1,26 @@
+{
+  "title": "A unanimous hold preserves support while the Fed waits for firmer evidence beyond the soft patch",
+  "bank": "Federal Open Market Committee",
+  "date": "2002-12-10",
+  "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20021210/",
+  "summary": [
+    "The twelve voting members kept the federal funds target at 1.25%. The Committee considered the rate accommodative and credited it, together with underlying productivity growth, with supporting activity. Because the November meeting was recent, only limited new information was available. The committee's specific judgement was that the indicators were compatible with the economy working through its soft patch. Compatibility with that interpretation is weaker than confirmation that the weak patch was over.",
+    "The release did not identify particular sectors, give a new forecast for employment or output, or attach a date to the expected improvement. Its risk assessment remained balanced between price stability and sustainable economic growth. That balance describes the outlook under an accommodative stance. It does not mean the rate was estimated to be neutral or that the next move would have equal probabilities in both directions.",
+    "The unanimous hold therefore leaves the principal research question at a different horizon: whether incoming final spending and hiring would begin to validate the recovery assessment before weakness became more persistent. At this date the Committee made a limited inference from a sparse information set, without reporting a market price response or a vote for a different target."
+  ],
+  "questions": [
+    {
+      "question": "Which releases actually added information between the November and December decisions?",
+      "detail": "Assemble a real-time calendar of economic releases and revisions, distinguishing genuinely new months from revised historical observations. A model based on a complete quarter of later data would give the December Committee information it did not possess."
+    },
+    {
+      "question": "What would establish recovery in demand independently of productivity-driven output growth?",
+      "detail": "Compare final sales, new orders, hours and hiring with productivity and inventory changes. Output can improve without a comparable rise in employment, especially if firms have spare capacity or are still correcting stocks. Broader final expenditure would provide stronger confirmation."
+    },
+    {
+      "question": "Did the hold change expectations for the duration of accommodation?",
+      "detail": "Compare rates implied for several future meetings before and after a verified announcement window. A steady target with sparse incoming information could primarily influence uncertainty about how long the current setting would last, rather than the expected direction of the next step."
+    }
+  ],
+  "limitation": ""
+}

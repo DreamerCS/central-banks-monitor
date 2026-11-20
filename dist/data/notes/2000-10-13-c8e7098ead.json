@@ -1,0 +1,25 @@
+{
+  "title": "The October bill-sale amendment narrows a clause and retains the auction design",
+  "bank": "Bank of Japan",
+  "date": "2000-10-13",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/mok0010c.htm",
+  "summary": [
+    "The stated amendment removes the opening qualification that allowed other stipulations to override the bill-sale terms. The annex continues to locate sales at the head office. The bills are issued and accepted by the Bank, with maturities limited to three months from the day after sale. Competitive bidding determines the discount rate, and operation-specific decisions determine the amount, timing and counterparties.",
+    "The supplementary provision ties effectiveness to the start of real-time gross settlement for transfers among current accounts at the Bank. October 13 is therefore the announcement date for the revision. Neither the amendment nor the restated terms announce the sale of a specified amount. A study of liquidity absorption needs the records of individual operations to establish what actually happened."
+  ],
+  "questions": [
+    {
+      "question": "Did removal of the qualification affect any real transaction?",
+      "detail": "Compare the previously applicable exceptions, if documented, with tenders after the effective date. A drafting change can have little economic effect where past operations already followed the standard terms."
+    },
+    {
+      "question": "Did the maturities or pricing of bill sales change?",
+      "detail": "Match auction records before and after implementation by term, size and market conditions. The revised text leaves room for different outcomes within the same stated auction process."
+    },
+    {
+      "question": "How much liquidity was withdrawn on settlement?",
+      "detail": "Net new bill settlements against maturing Bank bills and other same-day flows. The face amount issued can overstate the change in available funds when instruments mature together."
+    }
+  ],
+  "limitation": ""
+}

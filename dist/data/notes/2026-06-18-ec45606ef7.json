@@ -1,0 +1,25 @@
+{
+  "title": "The Czech June decision raises the full corridor by 25 basis points",
+  "bank": "Czech National Bank",
+  "date": "2026-06-18",
+  "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1781766000000",
+  "summary": [
+    "On June 18 the Bank Board announced a quarter-percentage-point increase in its two-week repo rate to 3.75%. The discount rate rose to 2.75% and the Lombard rate to 4.75%, also by 25 basis points. The three rates therefore moved in parallel, preserving a corridor two percentage points wide.",
+    "The notice specified June 19 as the date when the new levels came into effect. June 18 identifies the public announcement for an event study; June 19 identifies the operational change in a daily policy-rate series. The 25-basis-point increase measures the Board’s action. Its unexpected component and any realized response in the koruna or bond yields require additional pre- and post-release observations."
+  ],
+  "questions": [
+    {
+      "question": "What proportion of the 25-basis-point increase had markets priced?",
+      "detail": "Compare contracts immediately before 14:30 on June 18 with the 3.75% effective rate and with the change in contract pricing after release."
+    },
+    {
+      "question": "Did short-term market implementation align with the June 19 value date?",
+      "detail": "Check dated overnight and repo observations on the two days, preserving transaction versus settlement dates and the distinction between market and administered rates."
+    },
+    {
+      "question": "Did markets revise only the current setting or also later expectations?",
+      "detail": "Compare short and forward rates inside the announcement-only interval, then start a new window when the press conference begins at 15:00."
+    }
+  ],
+  "limitation": ""
+}

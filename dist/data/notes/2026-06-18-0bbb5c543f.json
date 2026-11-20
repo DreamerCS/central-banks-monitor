@@ -1,0 +1,27 @@
+{
+  "title": "Norway raised its projected policy path even as oil and gas prices eased",
+  "bank": "Norges Bank",
+  "date": "2026-06-18",
+  "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-06-18-rate/",
+  "summary": [
+    "Norges Bank held the rate at 4.25% on 17 June and said on 18 June that another increase at a forthcoming meeting was likely. Its new year-end projection stood just above 4.5%, compared with a March range of 4.25%–4.5%. The May hike had already brought the rate to the lower end of that earlier range. The June decision combined an unchanged current rate and a higher expected trajectory, even though spot and futures prices for oil and gas had fallen since March. The remaining concern was the persistence and breadth of business costs.",
+    "Several observations explain that apparently counterintuitive combination. External price impulses to imported goods were a little stronger than anticipated, with aluminium and copper among the commodities that had risen. The exchange rate was broadly consistent with the March assumption. Current inflation and expected 2026 wage growth were broadly in line with the forecast, but expectations of wage growth in 2027 had increased in the Bank’s Expectations Survey and Regional Network. Recent high costs could remain relevant to prices even after the original input stopped becoming more expensive. Before the announcement, market-implied policy expectations had fallen a little both at home and abroad. The difference between that market backdrop and the Committee’s forecast is potentially informative, although the release gives no precise event-window repricing.",
+    "The case for restraint on the pace of tightening was likewise specific. Mainland growth had been slightly weaker than projected. Registered unemployment was stable but survey unemployment had risen, and businesses said it was easier to hire. At the same time, vacancies and employment had increased and contacts saw scope for a small pickup in activity over summer. Capacity was thought to be near normal but drifting down, close to the March assessment. Overly tight policy could therefore cool an already softening economy, while inadequate restraint risked making above-target inflation more persistent.",
+    "In the forecast, inflation began to decline in 2027 and reached 2% in 2029, conditional on the projected policy path. Registered unemployment would edge up to slightly above pre-pandemic levels. A recent US–Iran agreement providing for reopening the Strait of Hormuz offered one route to weaker external prices if energy markets normalised quickly. Domestic inflation would still depend on the krone’s response. The release did not promise a particular next meeting or an unbroken sequence of increases. It described a modest upward revision to a conditional trajectory and the domestic and external evidence that could overturn it."
+  ],
+  "questions": [
+    {
+      "question": "What explained the higher 2027 wage expectations?",
+      "detail": "Compare the survey and Regional Network measures with new wage settlements and productivity forecasts. A change in expected compensation for recent inflation could be more persistent than high wage growth concentrated in a few occupations. The difference bears on how long the Bank would keep rates elevated."
+    },
+    {
+      "question": "Did weaker oil and gas reduce costs after conversion into kroner?",
+      "detail": "Match energy and industrial-metal futures with the krone and measures of imported goods prices. Distinguish a change in the marginal cost of the next shipment from the lagged effect of earlier purchases. This would test the Committee’s observation that aggregate external price pressure had strengthened."
+    },
+    {
+      "question": "Did the market revise the expected peak or the duration of restraint?",
+      "detail": "Compare meeting-dated and later forward rates before and after the release with March’s year-end range and June’s higher forecast. Track foreign rates at the same time. A slightly higher projected peak and a longer period near it have different effects on longer-term financing."
+    }
+  ],
+  "limitation": ""
+}

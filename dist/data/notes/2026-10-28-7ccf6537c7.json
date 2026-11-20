@@ -1,0 +1,28 @@
+{
+  "title": "Four members hold New Zealand’s OCR as the inflation surprise changes composition",
+  "bank": "Reserve Bank of New Zealand",
+  "date": "2026-10-28",
+  "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/ocr-held-at-2-75-percent",
+  "summary": [
+    "The October 28 committee voted four to three to keep the OCR at 2.75%. Anna Breman, Carl Hansen, Prasanna Gai and Rebecca Williams supported the hold. Paul Conway, Hayley Gourley and Karen Silk preferred 3.0%. All members agreed on the overall inflation outlook and considered tighter policy likely, conditional on what happened next. They disagreed about whether the information likely to arrive before December was worth waiting for. The split was especially informative because the latest headline inflation reading was lower than expected while price increases had spread across more of the consumption basket (October decision and attributed meeting record).",
+    "Annual CPI inflation fell from 4.1% in June to 3.7% in September. Tradables inflation slowed from 4.9% to 4.3%, although it was slightly higher than expected. Inflation excluding vehicle fuels increased to 3.0%, while non-tradables inflation came in weaker than forecast at 3.3%, partly reflecting elevated government charges. Core measures approached the upper edge of the target band. On a weighted basis, 56% of the CPI basket had risen by more than 3% over the past year. This is a share of expenditure weights, not a count of individual products. Staff expected annual headline inflation to rise again, to 4.4% in the December quarter, largely on the basis of fuel futures (meeting record, inflation assessment).",
+    "The currency added another source of uncertainty. The trade-weighted New Zealand dollar had declined around 3% since the September statement. Higher global yields could indicate higher neutral rates or risk premia in a world with more borrowing and investment. They could also make a global downturn more likely, in which case the neutral rate could decline abruptly. Gai and Breman attached material weight to this possibility, making a point estimate of neutral an inadequate guide to the immediate decision. A weaker currency also has distributional effects, raising local costs of imports while increasing New Zealand-dollar export receipts (meeting record, currency, global risks and policy).",
+    "Activity through the first half of the year had exceeded expectations, but the aggregate disguised weak household consumption. The saving rate was estimated at 3.7%, compared with a ten-year average of 1%. The Committee considered whether strength in export-facing activity would spread to households and businesses in domestic sectors. It also identified structural adjustments in land use, energy and technology that could temporarily reduce capacity as labour and other resources changed activities, or eventually raise productivity. A shortfall in consumption therefore had to be assessed together with margins, investment and the labour market rather than being used alone to infer the inflation outlook (meeting record, domestic activity and recovery risks).",
+    "The majority considered two recent increases sufficient to allow more time. Medium-term expectations remained stable, wage growth was subdued, and the record saw little evidence so far that firms were using the shock to expand margins. Some indirect fuel effects had been smaller than feared. The three members preferring an immediate increase placed greater weight on persistently high core inflation, resilient aggregate activity and risks from freight, energy and broader repricing. They judged that an earlier move could reduce the amount of tightening required later. The Committee also envisaged the possibility of easing if a sharp global downturn greatly weakened demand and inflation. For markets, that range of conditional responses makes repricing beyond the current meeting more informative than simply labelling the hold a signal of future cuts (meeting record, concluding discussion and vote)."
+  ],
+  "questions": [
+    {
+      "question": "Did the wider distribution of price increases reflect common costs or independent price-setting?",
+      "detail": "Compare expenditure-weighted price breadth with item counts and remove categories tied to fuel, government fees and exchange-rate exposure. Match the timing of increases to input prices and margins. Broad measured inflation can arise from a shared input shock even without firms increasing margins or changing longer-run wage targets."
+    },
+    {
+      "question": "Did households with high savings rates have room to support the recovery?",
+      "detail": "Break down the saving rate by income, housing tenure, employment security and region where possible. Compare export receipts, consumer confidence and spending over time. If precautionary saving declines as employment strengthens, domestic demand may rebound even while the aggregate price level remains high."
+    },
+    {
+      "question": "How did markets price the option to delay another increase?",
+      "detail": "Use meeting-specific overnight-indexed swaps to compare December pricing with longer forwards around the October announcement. Check currency movements and relative overseas rates. A higher probability of a December increase and a lower expected peak are compatible if investors put more weight on the possibility of a later external downturn."
+    }
+  ],
+  "limitation": ""
+}

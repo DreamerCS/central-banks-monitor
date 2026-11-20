@@ -1,0 +1,25 @@
+{
+  "title": "March 24 keeps the overnight directive through the end of March",
+  "bank": "Bank of Japan",
+  "date": "2000-03-24",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000324.htm",
+  "summary": [
+    "The Bank voted by majority to maintain zero interest rates. The operative instruction was to provide ample funds flexibly and guide unsecured overnight money as low as feasible. A change in the supply of funds around the end of March would be consistent with this standing instruction. The announcement makes no judgment about particular institutions’ funding needs or the level of term spreads.",
+    "The meeting ended at 1:13 p.m. and the minutes were scheduled for May 2. The available policy signal on March 24 is the renewal of the instruction. The later record is the appropriate source for the arguments that accompanied the vote."
+  ],
+  "questions": [
+    {
+      "question": "Did funding pressure concentrate at the fiscal-year boundary?",
+      "detail": "Compare the overnight rate, term instruments crossing March 31 and instruments maturing beforehand. Rate differences need accompanying volumes and matching credit quality to support an interpretation."
+    },
+    {
+      "question": "How much net funding actually remained outstanding?",
+      "detail": "Subtract maturing operations from new settlements and examine the maturity profile. Announced gross auction sizes alone cannot establish a persistent expansion."
+    },
+    {
+      "question": "Did the market distinguish a temporary premium from an exit expectation?",
+      "detail": "Compare the change in a contract exposed to the reporting date with one that begins afterwards. A relative move concentrated in the first contract would support a calendar effect."
+    }
+  ],
+  "limitation": ""
+}

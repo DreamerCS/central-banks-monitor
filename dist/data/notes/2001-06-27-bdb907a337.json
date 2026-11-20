@@ -1,0 +1,26 @@
+{
+  "title": "A quarter-point cut brings cumulative easing to 275 basis points as profits and capex weaken",
+  "bank": "Federal Open Market Committee",
+  "date": "2001-06-27",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010627/",
+  "summary": [
+    "The Committee cut the federal funds target by 25 basis points to 3.75%, bringing the cumulative decline since the beginning of 2001 to 275 basis points. The Board reduced the discount rate by 25 basis points to 3.25%. The distinction between the latest increment and the cumulative change matters. The statement supplies both numbers, but no estimate of how much of the cumulative support had reached household and business spending by June.",
+    "The pattern weighing on activity combined declining profits and capital spending, weak growth in consumption and slower growth abroad. Weak expansion of consumption still means growth. Equating it with an outright decline would overstate the household contribution to the slowdown. Firms faced a more persistent challenge: weaker profits impaired their capacity or incentive to invest even as the financing benchmark declined. The Committee considered its long-term productivity outlook favourable, leaving the near-term question centred on spending rather than a deterioration in productive potential.",
+    "The easing of pressure on labour and product markets was expected to contain inflation. The Fed continued to see prospective weakness as the larger risk. A smaller increment of easing therefore did not amount to a declaration that risks were balanced or that earlier cuts had completed their work."
+  ],
+  "questions": [
+    {
+      "question": "Had the cumulative easing reached the borrowers reducing spending?",
+      "detail": "Compare effective borrowing costs and new loans with the funds target across bank-dependent firms, households and bond issuers. Identify refinancing dates and existing capacity before treating the cumulative 275 basis points as an equally large change in the cost of every project."
+    },
+    {
+      "question": "Which component was keeping consumption growth weak?",
+      "detail": "Decompose spending by category and examine income, labour conditions, wealth and credit availability. A slowdown confined to durables would give different evidence about interest-rate transmission from a broad deterioration across necessities and services."
+    },
+    {
+      "question": "Did the quarter-point increment change expectations about the remaining cycle?",
+      "detail": "Estimate how much easing investors had anticipated at this meeting and beyond. Distinguish a different cadence of cuts from a revision to the ultimate rate path. The statement provides the cumulative move, not investors' prior distribution."
+    }
+  ],
+  "limitation": ""
+}

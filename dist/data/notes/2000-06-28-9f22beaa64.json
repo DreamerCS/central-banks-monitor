@@ -1,0 +1,25 @@
+{
+  "title": "June 28 carries the zero-rate instruction across midyear",
+  "bank": "Bank of Japan",
+  "date": "2000-06-28",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000628.htm",
+  "summary": [
+    "The Board maintained the zero-rate setting by majority vote and directed the Bank to provide enough funds, with flexibility, to guide unsecured overnight money as low as possible. The intermeeting instruction operates across the end of June. It sets no quarter-end allotment and describes no new pressure in funding markets. An end-of-quarter change in overnight activity would therefore need a test against seasonal patterns.",
+    "The meeting ended at 12:56 p.m. The Bank scheduled publication of the minutes for August 16. Evidence about the discussion disclosed then belongs to the August information set, even though it concerns the June meeting."
+  ],
+  "questions": [
+    {
+      "question": "Was any quarter-end premium unusually large?",
+      "detail": "Compare rates on borrowing across June 30 with adjacent dates and other quarter-ends. Match credit exposure and trading volume to avoid attributing a compositional change to funding scarcity."
+    },
+    {
+      "question": "Did dealers extend the expected duration of zero rates?",
+      "detail": "Use money-market contracts starting beyond quarter-end to reduce direct exposure to settlement demand. Check pre-meeting expectations before treating a change as a surprise."
+    },
+    {
+      "question": "How sensitive is the reaction estimate to its event clock?",
+      "detail": "Locate the first public dissemination of the statement and compare narrow intraday returns with daily close-to-close changes. The announced meeting end is a separate timestamp."
+    }
+  ],
+  "limitation": ""
+}

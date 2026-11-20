@@ -1,0 +1,25 @@
+{
+  "title": "February 10 renews flexible funding under zero rates",
+  "bank": "Bank of Japan",
+  "date": "2000-02-10",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000210.htm",
+  "summary": [
+    "The Bank retained its instruction to provide ample liquidity on terms flexible enough to keep the unsecured overnight call rate as low as possible. The majority described continued transmission of existing easing as the reason to maintain the policy. It left the amount, composition and maturity of operations open. A large operation under this instruction could reflect funding demand without signaling a new policy objective.",
+    "The meeting ended at 4:01 p.m. The Bank scheduled its economic assessment for February 15 and publication of the minutes for March 13. The reference section gives a meeting end time, which needs independent confirmation before it can stand in for the time the market received the statement."
+  ],
+  "questions": [
+    {
+      "question": "Did the funding need change under the same instruction?",
+      "detail": "Match operations, their maturities and settlements with autonomous reserve flows. Gross funds supplied can rise as earlier operations mature even when net provision changes little."
+    },
+    {
+      "question": "Did dealers anticipate a different decision?",
+      "detail": "Use expectations recorded before the meeting and yen money-market quotes around the verified release. A widely expected hold makes a small contemporaneous rate change difficult to interpret as a policy shock."
+    },
+    {
+      "question": "Was the economic report a second pricing event?",
+      "detail": "Compare quotes on February 15 with the decision window and flag other announcements. The later report can reveal the economic assessment underlying a previously announced hold."
+    }
+  ],
+  "limitation": ""
+}

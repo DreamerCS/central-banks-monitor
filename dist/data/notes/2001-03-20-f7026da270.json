@@ -1,0 +1,26 @@
+{
+  "title": "A half-point cut separates progress on inventories from persistent excess capacity",
+  "bank": "Federal Open Market Committee",
+  "date": "2001-03-20",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010320/",
+  "summary": [
+    "The funds target fell to 5% and the discount rate to 4.50%, both cuts of 50 basis points. The Board approved discount-rate requests from all twelve Reserve Banks. That geographical breadth applies to the discount decision. The statement did not publish an individual FOMC vote on the target.",
+    "The release describes a chain from profits to both business and household demand. Pressure on margins was restraining investment; lower equity wealth was also weighing on consumption. The buildup in unsold goods prompted a rapid response in manufacturing output, and somewhat firmer spending meant that the inventory adjustment appeared well advanced. But clearing existing stocks is different from absorbing excess productive capacity. Firms with unused equipment can remain reluctant to invest even after inventory-to-sales ratios normalise. Possible weakness abroad added another reason for caution about demand.",
+    "The Committee retained a favourable assessment of long-term productivity while worrying about an extended period of weak production. Sustainable output can rise even as firms temporarily operate below it. The policy communication conveyed downside risk and the need to monitor a fast-moving situation, without giving a floor for the funds rate or promising an intermeeting action."
+  ],
+  "questions": [
+    {
+      "question": "Were inventories returning to normal while equipment utilisation remained depressed?",
+      "detail": "Match inventories and final sales with industrial capacity utilisation and new capital-goods orders. A recovery in production to replenish stocks could lift GDP briefly without producing a durable increase in business investment."
+    },
+    {
+      "question": "Could falling equity wealth explain weaker consumer spending apart from the income outlook?",
+      "detail": "Compare spending by groups with different equity exposure while accounting for changes in employment, expected income and financing. Corporate profit weakness can affect all of these, so coincident falls in equities and consumption do not identify a pure wealth effect."
+    },
+    {
+      "question": "How important was external demand to the risk of persistent unused capacity?",
+      "detail": "Compare export orders and capacity utilisation across sectors with different foreign sales exposure. Look for foreign demand weakening independently of the domestic inventory cycle before attributing additional production losses to the international channel."
+    }
+  ],
+  "limitation": ""
+}

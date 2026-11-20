@@ -1,0 +1,26 @@
+{
+  "title": "The Fed balances its risk assessment and begins publishing individual votes at decision time",
+  "bank": "Federal Open Market Committee",
+  "date": "2002-03-19",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2002/20020319/",
+  "summary": [
+    "The Committee unanimously maintained the 1.75% target. Its economic assessment identified a strong current expansion supported by a sharp swing in inventory investment. A manufacturer that moves from rapid destocking to smaller reductions can make a positive contribution to measured GDP before households or firms appreciably increase their final purchases. The Committee regarded stronger final demand as essential to a lasting expansion but remained uncertain how much it would improve. Despite describing the stance as accommodative, it judged risks to its goals of price stability and sustainable growth balanced. That was a risk judgement, not a declaration that interest rates were at neutral.",
+    "The meeting also changed the public information set. Future decision announcements would include the FOMC roll call and the policy preferences of dissenters, information previously disclosed with a lag in the minutes. The Board would similarly publish its roll call and dissenters' preferences for any discount-rate vote. This release lists ten supporters of the FOMC decision. It does not announce a discount-rate change.",
+    "For historical analysis this disclosure change matters independently of the rate hold. A contemporaneous investor could now observe whether there was disagreement about the instrument. Missing roll calls in earlier statements should not be coded as unanimous votes. Conversely, future vote data describe actual choices at the meeting; they still do not reveal the complete distribution of views about the expected path."
+  ],
+  "questions": [
+    {
+      "question": "How much of the reported expansion would remain if inventory investment stopped accelerating?",
+      "detail": "Decompose output growth into final sales and changes in inventory investment, keeping preliminary data separate from subsequent revisions. Check consumer spending and capital-goods orders for evidence that final buyers could sustain production once the stock adjustment ran its course."
+    },
+    {
+      "question": "How does earlier publication of the roll call change a historical communication measure?",
+      "detail": "Reconstruct the data available on each decision date. Keep missing historical votes distinct from affirmative votes and date earlier dissent information to the later minutes release. Otherwise a mechanical increase in vote visibility could look like a change in policy disagreement."
+    },
+    {
+      "question": "Did the balanced-risk language change return expectations even with a unanimous hold?",
+      "detail": "Compare current-meeting pricing with contracts for subsequent meetings and identify competing macroeconomic releases. A fall in the probability of another cut would have a different interpretation from evidence that markets now expected a sequence of increases."
+    }
+  ],
+  "limitation": ""
+}

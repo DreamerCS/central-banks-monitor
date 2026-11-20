@@ -1,0 +1,28 @@
+{
+  "title": "Czech rate setters look through a fiscal reduction in household electricity bills",
+  "bank": "Czech National Bank",
+  "date": "2026-02-05",
+  "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1770278400000/?tab=statement",
+  "summary": [
+    "All seven Czech National Bank Board members kept the two-week repo rate at 3.50% on February 5. The Monetary Department forecast that headline inflation would remain below 2% throughout 2026, averaging 1.6%, before averaging 2.1% in 2027. Yet the Board said a relatively tight setting remained necessary. A transfer of the renewable-energy fee to the state budget would lower prices paid by households this year. That change affects the measured price of electricity and the year-on-year comparison. It provides much less information about how rapidly labour costs or prices set by private service providers are rising (decision and outlook).",
+    "The case for holding lay mainly in domestic demand. The preliminary estimate put fourth-quarter GDP growth at 0.5% from the previous quarter and 2.4% from a year earlier, taking full-year 2025 growth to 2.5%. Consumption was the principal driver, while private investment was sluggish. Unemployment was low and wages had risen 7.1% year on year in the third quarter. Pay was rising particularly fast in services, where labour costs have a direct bearing on firms’ prices. Property prices were also climbing. A weaker headline inflation reading could therefore sit alongside persistent costs in labour-intensive activities and rising housing-related prices (economic developments).",
+    "Credit was central to the Board’s explanation of monetary transmission. Growth in lending was gradually accelerating, adding to money in the economy. Above-average public spending or faster lending to government and households could add further pressure. A change in who pays for electricity creates a particularly useful distinction here. A lower household bill can reduce published inflation immediately while the fiscal impact works through a different channel and on a different schedule. Whether there is a material demand effect depends on the financing, household consumption and the response of saving and investment. The statement supplied no estimate of that separate effect (decision and risks).",
+    "The forecast envisaged 2.9% real GDP growth in both 2026 and 2027. The Board considered the risks to its inflation objective broadly balanced. Against the persistence of wage, service and imputed-rent pressures stood a potentially stronger koruna, weak activity in parts of the euro area, higher trade barriers and the possibility of a global asset correction. A balanced risk assessment did not require the policy rate to be neutral. It was an assessment made with current monetary restraint in place. The statement gave no promise that rates would decline when the headline reading crossed below 2% (outlook and risks).",
+    "A historical event study should use the CNB’s two release times. The rate announcement is scheduled at 14:30 Prague time and the more detailed statement with the voting outcome is released with the 15:00 press conference. A move at 14:30 measures the price of the rate decision given prevailing expectations. Subsequent repricing can incorporate the vote, the electricity-fee assumption and the emphasis on monetary and credit growth. Monthly or daily comparisons should also distinguish the outlook known in February from later revisions to fourth-quarter GDP (official publication schedule and economic developments)."
+  ],
+  "questions": [
+    {
+      "question": "How much of the inflation undershoot came from moving the renewable-energy fee?",
+      "detail": "Estimate the direct contribution using electricity weights, tariff schedules and effective dates, then trace when the change drops out of annual comparisons. Compare the residual inflation profile with market services and wage growth. Separately assess any change in household cash flow and public borrowing."
+    },
+    {
+      "question": "Did household borrowing strengthen domestic demand while business investment remained subdued?",
+      "detail": "Break down new loan volumes, interest rates and balances by mortgages, consumer credit and business borrowing. Compare issue dates with consumption, housing transactions and capital spending. A faster stock of household debt could reflect refinancing or house purchases without an equal increase in current consumption."
+    },
+    {
+      "question": "Did the market react to the hold or to the Board’s interpretation of low inflation?",
+      "detail": "Collect two separate intraday windows around 14:30 and 15:00 local time. Compare near-term rate contracts, the koruna and longer government yields with euro-area benchmarks. An unchanged short contract followed by repricing of later maturities would direct attention toward the outlook and guidance."
+    }
+  ],
+  "limitation": ""
+}

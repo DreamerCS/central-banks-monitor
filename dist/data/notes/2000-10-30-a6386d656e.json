@@ -1,0 +1,25 @@
+{
+  "title": "October 30 leaves the overnight guide at a quarter percent",
+  "bank": "Bank of Japan",
+  "date": "2000-10-30",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k001030.htm",
+  "summary": [
+    "The Board renewed its direction to keep the average unsecured overnight call rate near 0.25 percent. The vote was by majority. The release gives the operational setting for the interval ahead, with no change in the rate, no numerical growth or inflation assessment and no commitment about subsequent meetings. Market participants could learn something from the confirmation if another outcome had been expected.",
+    "The meeting ended at 2:27 p.m. The Bank scheduled the minutes for December 5. An analysis dated to October 30 can use the setting announced that day and contemporaneous expectations. Explanations first published in the minutes become available later."
+  ],
+  "questions": [
+    {
+      "question": "Was the hold already incorporated in forward rates?",
+      "detail": "Recover expectations before the announcement and compare the front of the curve with later maturities. The estimated surprise depends on the alternative investors thought possible."
+    },
+    {
+      "question": "Was a daily price move concentrated in the announcement window?",
+      "detail": "Compare intraday yen rates and bond prices with daily closes, marking other macro releases. A large daily move can occur outside the interval in which markets learnt the decision."
+    },
+    {
+      "question": "Which part of the December minutes was genuinely new?",
+      "detail": "Compare each explanation first disclosed on December 5 with the public October decision and intervening communications before interpreting it as new information for rates."
+    }
+  ],
+  "limitation": ""
+}

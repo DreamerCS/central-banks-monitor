@@ -1,0 +1,27 @@
+{
+  "title": "Mexico holds at 6.50% as a lower headline print comes with a later return to target",
+  "bank": "Banco de México",
+  "date": "2026-08-06",
+  "url": "https://www.banxico.org.mx/publicaciones-y-prensa/anuncios-de-las-decisiones-de-politica-monetaria/%7B8DA3F519-341F-480E-1D4E-1AEE71DD08DA%7D.pdf",
+  "summary": [
+    "On 6 August all members of Banxico’s Board agreed to leave the overnight target at 6.50%. The most recent headline inflation observation had fallen to 3.10%, yet the Bank moved its projected return to the 3% target from the second to the fourth quarter of 2027. A single half-month reading close to target and a sustained return of quarterly-average inflation are different outcomes. The change was visible mainly in the 2027 forecast; the Bank also expected better near-term headline numbers. Reading the entire curve of inflation projections matters more here than reading the latest print or the policy action in isolation.",
+    "Between the first halves of June and July, headline inflation fell from 3.55% to 3.10% and core inflation from 4.12% to 3.95%. Both core and non-core prices contributed to the headline decline. Expectations for inflation at year-end also fell, while longer-term expectations stayed above target. Banxico expected the economy to continue operating with spare capacity despite a second-quarter rebound from the first-quarter contraction. The Board considered the exchange-rate level, absence of demand pressure and degree of monetary restraint sufficient to retain the existing rate. It ranked the persistence of core inflation first among the upside risks listed in the release.",
+    "The second-page forecast table shows how the revision takes effect. The Q3 2026 headline estimate fell from 3.8% to 3.5%; Q4 remained 3.5%. But Q1, Q2 and Q3 of 2027 were now at 3.4%, 3.3% and 3.2%, against 3.2%, 3.0% and 3.0% in June. The core projection for the corresponding 2027 quarters rose from 3.1%, 3.0% and 3.0% to 3.4%, 3.3% and 3.2%. Both series reached 3.0% in Q4. Lower starting headline inflation was thus outweighed by slower projected disinflation in the year that followed. The memorandum’s seasonally adjusted annualised quarter-on-quarter rates measure shorter-run momentum and cannot be substituted for the annual rate in determining the Bank’s stated convergence date.",
+    "Between meetings, Mexican short- and medium-term government yields moved little while longer yields rose. The peso appreciated despite broad commodity price increases when the Middle East conflict escalated again. US yields also rose, especially at long maturities, and the US dollar weakened. These comparisons make clear why a long-yield increase should not automatically be attributed to expected Banxico hikes. Higher international yields, uncertainty surrounding core inflation or term premiums could affect long bonds despite a unanimous hold. The press release records those intermeeting conditions but offers no quoted market reaction to the new forecast. The Bank continued to judge a sustained hold appropriate even while acknowledging that its expected return to target would take longer."
+  ],
+  "questions": [
+    {
+      "question": "What lengthened the 2027 core disinflation path despite an unchanged Q4 2026 core forecast?",
+      "detail": "Compare the June and August quarterly projections for goods and services where later official detail permits, distinguishing the new forecast start from changes in persistence. Compare monthly momentum and annual base effects. A longer period of modest recurring price increases has different implications for the duration of a hold than one large price change remaining in the comparison."
+    },
+    {
+      "question": "Did the fall in near-term headline inflation change wage and price expectations?",
+      "detail": "Separate year-end expectations, fixed-horizon expectations and longer-term survey responses before comparing them with wage settlements or firms’ intended selling prices. The release describes a fall at the short end with longer expectations still above target. The policy significance of 3.10% headline inflation depends partly on whether private price-setting behaviour changed as well."
+    },
+    {
+      "question": "How did the market value the later convergence date independently of higher global long yields?",
+      "detail": "Compare local short forwards and long nominal and inflation-linked rates around the publication, while tracking maturity-matched US yields and the peso. Use an explicit pre-release forecast baseline. A subdued front-end response with a larger move in inflation compensation would suggest a different reading from broad repricing of the expected path of overnight rates."
+    }
+  ],
+  "limitation": ""
+}

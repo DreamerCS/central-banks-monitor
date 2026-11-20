@@ -1,0 +1,26 @@
+{
+  "title": "The Fed holds at 1.75% as signs of recovery become more frequent but its risks remain asymmetric",
+  "bank": "Federal Open Market Committee",
+  "date": "2002-01-30",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2002/20020130/",
+  "summary": [
+    "The Committee left the funds target at 1.75%. It saw more widespread indications that demand weakness was abating and overall activity beginning to firm. Diminishing headwinds, favourable longer-run productivity prospects and a policy stance it regarded as accommodative made recovery look more promising. The language supported leaving the rate in place rather than extrapolating the previous weakness indefinitely.",
+    "What remained uncertain was the strength of business capital spending and household outlays. Activity can firm before firms are willing to expand capacity or consumers can sustain higher purchases. The Committee therefore kept its risk assessment weighted towards economic weakness. An improving central outlook and an asymmetric risk distribution are compatible: policymakers can assign greater probability to recovery while remaining more concerned about the consequences of renewed weakness.",
+    "This was a hold in a point target, not a declaration that the monetary stance had returned to neutral. The release supplied no quantitative growth forecast, no inflation trigger and no firm date for withdrawing accommodation. It also did not report a roll call. An unchanged rate establishes the decision but not an individual vote count."
+  ],
+  "questions": [
+    {
+      "question": "Were the improving indicators concentrated in production or present in final spending as well?",
+      "detail": "Compare final sales, residential expenditure, durable purchases and equipment orders with manufacturing output. A recovery driven by ending inventory liquidation would warrant less confidence in sustained demand than simultaneous strengthening of household and capital spending."
+    },
+    {
+      "question": "Was the prevailing 1.75% target providing comparable support to households and firms?",
+      "detail": "Follow rates offered, lending standards, refinancing and capital expenditure intentions across borrower groups. A low short rate can have less effect where borrowers expect weak sales or lenders perceive high credit risk."
+    },
+    {
+      "question": "Did the improved assessment shift expectations even though downside risks remained?",
+      "detail": "Compare pricing for future meetings immediately around a verified release time with expectations formed beforehand. Distinguish a lower probability of further cuts from a shift towards imminent hikes. The release did not commit to either."
+    }
+  ],
+  "limitation": ""
+}

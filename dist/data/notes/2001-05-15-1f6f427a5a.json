@@ -1,0 +1,26 @@
+{
+  "title": "The funds target falls to 4% while equipment investment remains the weak link",
+  "bank": "Federal Open Market Committee",
+  "date": "2001-05-15",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010515/",
+  "summary": [
+    "The FOMC lowered its target by half a point to 4%. The Board approved an equal discount-rate cut to 3.50%. A substantial inventory correction was well advanced and households had continued to consume and purchase housing, although spending in those areas had flattened. Equipment investment was still contracting. The release placed particular weight on the deterioration in current and prospective profitability and on uncertainty about the business outlook.",
+    "A reduction in excess inventories can support the level of production once firms no longer need to cut their stockpiles. It does not by itself give a business reason to expand its stock of equipment. That decision depends on expected sales, margins, financing and the usefulness of capacity already installed. Previous equity wealth losses and the risk of weaker foreign activity could depress demand even if consumption had been fairly resilient to date. The Committee kept its risk assessment tilted towards economic weakness.",
+    "First-quarter measured productivity growth had stalled, while the Committee still regarded the underlying rate of improvement as largely intact. Together with diminishing pressure in labour and product markets, that assessment made contained inflation a plausible forecast. The release reported no observed effect on market yields or on borrowers’ willingness to spend."
+  ],
+  "questions": [
+    {
+      "question": "Could a rebound in output from the inventory cycle disguise continuing weakness in fixed investment?",
+      "detail": "Separate inventory investment from final domestic demand and trace equipment orders into deliveries. A lower rate of inventory liquidation can contribute positively to growth while firms continue to cancel capital projects."
+    },
+    {
+      "question": "Which borrowers had projects whose return would clear the financing hurdle after the cut?",
+      "detail": "Compare borrowing terms, spare capacity, profit expectations and investment intentions at firms with different leverage and external finance needs. Stronger credit supply will have little effect on investment when expected project returns are falling at the same time."
+    },
+    {
+      "question": "Did the first-quarter productivity stall persist once firms adjusted labour input?",
+      "detail": "Examine hours, capacity utilisation and output in subsequent releases while retaining the vintage available in May. Changes in output per hour during a sharp production cutback may be poor evidence about productivity growth over a full cycle."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Why stronger Swedish spending and a softer inflation print led to the same rate forecast",
+  "bank": "Sveriges Riksbank",
+  "date": "2026-01-29",
+  "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-1.75-per-cent",
+  "summary": [
+    "The Riksbank held its policy rate at 1.75% on 29 January and continued to expect it to stay there for some time. The underlying news pulled in opposite directions. Household consumption had continued to increase, and the economy had finished the previous year somewhat stronger than expected. December inflation had disappointed to the downside and was close to the 2% target. The Board saw little reason to revise its assessment of the combination of activity and future inflation. A stronger activity release by itself would therefore give an incomplete account of why the Riksbank held.",
+    "Labour demand had not yet caught up with the broader recovery. The Board still described the labour market as weak, albeit with clearer signs of improvement. Keeping rates at their current level was intended to support activity while allowing inflation to stabilise around target further out. The distinction matters for market analysis. Spending that recovers while resource utilisation remains weak presents a different inflation risk from equally rapid spending once firms have little capacity to expand output. The release gave no numerical estimate of how much slack remained.",
+    "The international risks also worked through more than one channel. Despite volatility and dramatic changes in US foreign policy, financial markets had reacted relatively little overall. The dollar continued to weaken, including against the krona. A stronger Swedish currency could influence import costs, while the Board still faced uncertainty over how much exchange-rate changes would affect inflation. Higher tariffs and geopolitical uncertainty had so far been compatible with Swedish resilience, but the Board highlighted the possibility of rapid deterioration in household or business sentiment. Fiscal expansion in Sweden and elsewhere added a potential source of demand whose eventual strength was uncertain.",
+    "January brought an update to the assessment rather than a fresh forecast. The expectation of a prolonged hold referred to the December path. The 1.75% rate applied from 4 February, and the next forecast was due on 19 March. A daily comparison of market prices would therefore need to identify news about the Board’s assessment on 29 January separately from implementation in February. The release described financial developments preceding the announcement but supplied no event-window return."
+  ],
+  "questions": [
+    {
+      "question": "Did a stronger krona explain the downside inflation surprise?",
+      "detail": "Compare effective and bilateral exchange rates with import and retail goods prices over their relevant lags. The press release highlights uncertainty about pass-through. Disaggregating goods from domestically produced services would help establish whether December’s surprise changed the case for prolonged stability in rates."
+    },
+    {
+      "question": "Was household spending improving enough to absorb labour-market slack?",
+      "detail": "Track consumption volumes, employment, hours and hiring intentions by the dates available. A recovery funded by rising real incomes has different implications for persistence from a transient improvement in sentiment. The interaction matters for how quickly stronger spending could raise underlying inflation."
+    },
+    {
+      "question": "Did the January assessment alter expected rates beyond the decision date?",
+      "detail": "Compare meeting-dated krona rates before and after the release against the December forecast. Monitor global exchange rates in the same window. This would separate an anticipated hold from a revision to how long the market expected 1.75% to last."
+    }
+  ],
+  "limitation": ""
+}

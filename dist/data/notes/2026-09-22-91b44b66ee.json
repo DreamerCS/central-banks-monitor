@@ -1,0 +1,28 @@
+{
+  "title": "Hungary pauses its easing cycle and announces a lower inflation target for 2028",
+  "bank": "Magyar Nemzeti Bank",
+  "date": "2026-09-22",
+  "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-22-september-2026",
+  "summary": [
+    "The September 22 Monetary Council held the base rate at 5.50% after three consecutive summer cuts, retaining overnight facilities at 4.50% and 6.50%. It also stated that the inflation target would become 2.5% on January 1, 2028. The target for the current period remained 3%. These are separate policy events with different horizons: the rate decision applies from the next day, while the announced target change can affect expectations before its formal effective date. A historical comparison of Hungarian inflation gaps must preserve both dates (September decision and mandate statement).",
+    "The forecast review promised during the summer was important even though August CPI had again undershot both analysts’ expectations and the June forecast. Headline inflation was 1.3% and core inflation 2.0%. Food inflation eased while annual price growth in tradables and market services increased. A monthly rise in the index partly corrected a July decline, leaving the several-month pattern subdued. Firms’ and households’ expectations remained below their levels at the start of the year. Thus the pause was taken in an environment of low realized inflation; the reason for caution lay in the forward path and financial conditions (inflation assessment).",
+    "The September projection retained 1.8% average inflation in 2026 but raised 2027 inflation from June’s 2.3% to 3.1%. Faster transmission of the spring appreciation of the forint offset higher fuel prices in the 2026 average. Higher energy prices and a change in tobacco excise accounted for the upward revision for 2027. Staff expected convergence to the new 2.5% target by the end of the policy horizon. The 2027 figure refers to an annual average before the target change takes effect. Measuring its deviation from 2.5% as though that were already the statutory target would introduce a misleading historical policy gap (September forecast).",
+    "GDP grew by 1.7% year on year in the second quarter, supported by services and industry but restrained by agriculture. Drought lowered agricultural output, while higher industrial exports offered some offset. The new growth projections were 1.8%, 2.9% and 2.8% for 2026–28, respectively, with the current account near balance in 2026 and slightly in surplus thereafter. The Council viewed risks to growth and inflation as broadly balanced. It considered scenarios involving persistently expensive energy and food, strong wages and service prices, lower domestic risk premia and weaker foreign activity (activity and risk assessment).",
+    "Foreign monetary conditions had diverged from the domestic summer policy path. The Bank reported September rate increases by the ECB, the Federal Reserve and the Bank of Japan and high long yields abroad. A further Hungarian cut could affect the interest differential and the forint, potentially undoing part of the currency-related disinflation. The statement did not set a minimum differential or announce an exchange-rate target. For market research, the short end of the curve is more directly exposed to the pause, while the new inflation anchor and changing sovereign premia may also affect longer yields. The immediate vote cannot by itself identify either effect (external developments and closing guidance)."
+  ],
+  "questions": [
+    {
+      "question": "Can the effect of the future target change be distinguished from the rate pause?",
+      "detail": "Compare inflation compensation and nominal forwards spanning dates before and after January 2028, controlling for liquidity and inflation risk premia. Examine timing of the associated target announcement and domestic versus foreign rate changes. A long-horizon shift is more informative about the anchor than an immediate policy-rate contract."
+    },
+    {
+      "question": "Why did a sizeable 2027 forecast revision leave the 2026 average unchanged?",
+      "detail": "Rebuild fuel, tobacco duty and currency-sensitive component contributions for both years using the September vintage. Preserve the distinction between calendar-year averages and monthly rates around the tax change. A numerical decomposition should allow currency effects and fuel costs to offset in 2026 but diverge in 2027."
+    },
+    {
+      "question": "Did drought shift inflation risks as well as real growth?",
+      "detail": "Compare agricultural output, imported food prices and retail food categories with industrial exports and international farm prices. Separate a domestic quantity shortfall from price changes set on world markets. A loss of agricultural GDP does not automatically imply an equal increase in local consumer food inflation."
+    }
+  ],
+  "limitation": ""
+}

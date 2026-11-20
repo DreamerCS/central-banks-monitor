@@ -25,6 +25,53 @@
     }
   },
   {
+    "title": "November minutes expose the disputed capacity estimate behind a 6–3 rise to 4.85%",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-11-17",
+    "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-11-03.html",
+    "excerpt": "At its 2–3 November meeting the Board voted 6–3 to raise the cash rate from 4.60% to 4.85%.",
+    "file": "2026-11-17-8aad871450.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "title": "Minutes of the Monetary Policy Board meeting of 3 November 2026",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "Hungary holds at 5.50% ahead of a reassessment of taxes and spending",
+    "bank": "Magyar Nemzeti Bank",
+    "date": "2026-11-17",
+    "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-17-november-2026",
+    "excerpt": "The November 17 Monetary Council maintained the base rate at 5.50% and the overnight corridor at 4.50–6.50%.",
+    "file": "2026-11-17-92ceb53b39.json"
+  },
+  {
+    "title": "Peru raises to 4.50% as strong demand makes persistent supply shocks harder to absorb",
+    "bank": "Banco Central de Reserva del Perú",
+    "date": "2026-11-12",
+    "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-11-12.pdf",
+    "excerpt": "Peru’s Board increased the reference rate by 25 basis points to 4.50% on 12 November.",
+    "file": "2026-11-12-1c28c3e9e3.json",
+    "publication": {
+      "jurisdiction": "Peru",
+      "title": "Programa monetario de noviembre de 2026",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "October deliberations show why Canada raised rates while core inflation was still near 2%",
+    "bank": "Bank of Canada",
+    "date": "2026-11-10",
+    "url": "https://www.bankofcanada.ca/2026/11/summary-of-governing-council-deliberations-fixed-announcement-date-of-october-28-2026/",
+    "excerpt": "On 28 October Governing Council raised the overnight rate by a quarter point to 2.5%.",
+    "file": "2026-11-10-b8e7fd794e.json",
+    "publication": {
+      "jurisdiction": "Canada",
+      "title": "Summary of Governing Council deliberations: Fixed announcement date of October 28, 2026",
+      "type": "Minutes"
+    }
+  },
+  {
     "title": "Why the Bank of England raised rates before wage pressure was conclusive",
     "bank": "Bank of England",
     "date": "2026-11-05",
@@ -33,12 +80,84 @@
     "file": "2026-11-05-bf9afb21c5.json"
   },
   {
+    "title": "The Czech November rate decision lifts the repo rate to 4.00%",
+    "bank": "Czech National Bank",
+    "date": "2026-11-05",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1793865600000",
+    "excerpt": "The CNB raised the two-week repo rate by 25 basis points to 4.00% on November 5.",
+    "file": "2026-11-05-e737bdba7f.json",
+    "publication": {
+      "aliases": [
+        "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1793865600000/"
+      ],
+      "jurisdiction": "Czechia",
+      "title": "CNB Board decisions",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Norway’s 4.5% hold concealed stronger domestic price pressure",
+    "bank": "Norges Bank",
+    "date": "2026-11-05",
+    "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-11-05-rate/",
+    "excerpt": "Norges Bank left its policy rate at 4.5% at its meeting on 4 November.",
+    "file": "2026-11-05-7b754e6fd7.json",
+    "publication": {
+      "jurisdiction": "Norway",
+      "title": "Policy rate kept unchanged at 4.5 percent",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Mexico cuts to 6.25% as slack is expected to limit peso pass-through",
+    "bank": "Banco de México",
+    "date": "2026-11-05",
+    "url": "https://www.banxico.org.mx/publicaciones-y-prensa/anuncios-de-las-decisiones-de-politica-monetaria/%7B43236252-D06E-5231-27E8-058810A86A52%7D.pdf",
+    "excerpt": "A three-member majority of Banxico’s Board cut the overnight target by 25 basis points to 6.25%, effective 6 November.",
+    "file": "2026-11-05-e59f3c0ab9.json",
+    "publication": {
+      "jurisdiction": "Mexico",
+      "title": "Anuncio de Política Monetaria",
+      "type": "Decision"
+    }
+  },
+  {
     "title": "All nine back tightening, with a split on the size of the first move",
     "bank": "Bank of England",
     "date": "2026-11-05",
     "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026/",
     "excerpt": "On 5 November the MPC published an 8–1 vote to raise Bank Rate from 3.75% to 4%.",
     "file": "2026-11-05-ded2216b11.json"
+  },
+  {
+    "title": "A four-to-three Czech vote raises rates over second-round inflation risks",
+    "bank": "Czech National Bank",
+    "date": "2026-11-05",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1793865600000/?tab=statement",
+    "excerpt": "The Czech Bank Board raised the two-week repo rate by 25 basis points to 4.00% on November 5, with other key rates rising by the same amount.",
+    "file": "2026-11-05-f41f3b39d0.json",
+    "publication": {
+      "jurisdiction": "Czechia",
+      "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+      "type": "Press conference"
+    }
+  },
+  {
+    "title": "Why Sweden raised rates with CPIF inflation still at 1.5%",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-11-04",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-raised-to-2-per-cent/",
+    "excerpt": "The Riksbank raised its policy rate by 25 basis points to 2% on 4 November.",
+    "file": "2026-11-04-9d2fe46301.json",
+    "publication": {
+      "aliases": [
+        "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-raised-to-2-per-cent",
+        "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/261104_nr1-upp/prm-4-november-2026-policy-rate-raised-to-2-per-cent.pdf"
+      ],
+      "jurisdiction": "Sweden",
+      "title": "Policy rate raised to 2 per cent",
+      "type": "Decision"
+    }
   },
   {
     "title": "Brazil pauses at 13.75% as inflation expectations rise despite sharper cyclical slowing",
@@ -94,12 +213,65 @@
     "file": "2026-10-28-a0c3e1be77.json"
   },
   {
+    "title": "Four members hold New Zealand’s OCR as the inflation surprise changes composition",
+    "bank": "Reserve Bank of New Zealand",
+    "date": "2026-10-28",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/ocr-held-at-2-75-percent",
+    "excerpt": "The October 28 committee voted four to three to keep the OCR at 2.75%.",
+    "file": "2026-10-28-7ccf6537c7.json"
+  },
+  {
     "title": "Canada raises rates as firms signal that prolonged energy costs will reach customers",
     "bank": "Bank of Canada",
     "date": "2026-10-28",
     "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/",
     "excerpt": "The Bank of Canada raised its overnight rate 25 basis points to 2.50% on 28 October, setting the Bank Rate at 2.75% and the deposit rate at 2.45%.",
     "file": "2026-10-28-df496099d2.json"
+  },
+  {
+    "title": "Why the SNB saw easier monetary conditions as Swiss bond yields rose",
+    "bank": "Swiss National Bank",
+    "date": "2026-10-22",
+    "url": "https://www.snb.ch/en/publications/communication/summaries/zus_20261022",
+    "excerpt": "A central bank can judge monetary conditions to have eased even as its government bond yields rise.",
+    "file": "2026-10-22-75153840b4.json",
+    "publication": {
+      "aliases": [
+        "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/summaries/zus_20261022/publications0_en/zus_20261022.en.pdf"
+      ],
+      "jurisdiction": "Switzerland",
+      "title": "Monetary policy assessment of September 2026: Summary of discussion",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "Korea pauses at 3.00% while retaining the prospect of further increases",
+    "bank": "Bank of Korea",
+    "date": "2026-10-22",
+    "url": "https://www.bok.or.kr/eng/bbs/E0000627/view.do?menuNo=400022&nttId=11065824",
+    "excerpt": "All seven Monetary Policy Board members supported keeping the Base Rate at 3.00% on October 22.",
+    "file": "2026-10-22-e85181f65c.json"
+  },
+  {
+    "title": "Hungary holds as foreign yields rise and domestic core prices remain subdued",
+    "bank": "Magyar Nemzeti Bank",
+    "date": "2026-10-20",
+    "url": "https://mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-20-october-2026",
+    "excerpt": "The Monetary Council left Hungary’s base rate at 5.50% on October 20.",
+    "file": "2026-10-20-c6a6773f12.json"
+  },
+  {
+    "title": "September minutes connect a fourth rate rise to services inflation, AI investment and the real yield curve",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-10-13",
+    "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-09-29.html",
+    "excerpt": "The Monetary Policy Board voted unanimously on 29 September to raise the cash rate from 4.35% to 4.60%.",
+    "file": "2026-10-13-b23c090b41.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "title": "Minutes of the Monetary Policy Board meeting of 29 September 2026",
+      "type": "Minutes"
+    }
   },
   {
     "title": "September minutes separate the case for a hike in the baseline from insurance against worse inflation",
@@ -119,6 +291,35 @@
     }
   },
   {
+    "title": "Peru keeps 4.25% as inflation expectations stay above the band for a second month",
+    "bank": "Banco Central de Reserva del Perú",
+    "date": "2026-10-07",
+    "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-10-07.pdf",
+    "excerpt": "Peru’s Board held the reference rate at 4.25% on 7 October.",
+    "file": "2026-10-07-5a51c60174.json",
+    "publication": {
+      "jurisdiction": "Peru",
+      "title": "Programa monetario de octubre de 2026",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "What moved in Swiss markets while the policy rate stayed at zero",
+    "bank": "Swiss National Bank",
+    "date": "2026-09-30",
+    "url": "https://www.snb.ch/en/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett",
+    "excerpt": "Switzerland’s overnight rate was still close to zero in September, but its ten-year bond yield had risen, the franc had fallen and banks were still expanding their mortgage books.",
+    "file": "2026-09-30-52839a5c4c.json",
+    "publication": {
+      "aliases": [
+        "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf"
+      ],
+      "jurisdiction": "Switzerland",
+      "title": "Quarterly Bulletin 3/2026 — Monetary policy report and business cycle signals",
+      "type": "Forecast"
+    }
+  },
+  {
     "title": "Australia resumes tightening as August’s inflation risks materialise",
     "bank": "Reserve Bank of Australia",
     "date": "2026-09-29",
@@ -132,7 +333,65 @@
     "date": "2026-09-24",
     "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260924",
     "excerpt": "The Swiss National Bank kept its policy rate at 0% on 24 September.",
-    "file": "2026-09-24-179fb98cdb.json"
+    "file": "2026-09-24-179fb98cdb.json",
+    "publication": {
+      "aliases": [
+        "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/press-releases-restricted/pre_20260924/publications0_en/pre_20260924.en.pdf"
+      ],
+      "jurisdiction": "Switzerland",
+      "title": "Monetary policy assessment of 24 September 2026",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Sweden holds today and raises the expected rate path for 2027",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-09-24",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-16.75-per-cent",
+    "excerpt": "The Riksbank kept the policy rate at 1.75% on 24 September but expected increases to start before year-end if its outlook held.",
+    "file": "2026-09-24-a7aeb5678f.json",
+    "publication": {
+      "aliases": [
+        "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/260924/prm-24-september-2026-policy-rate-unchanged-at-1.75-per-cent.pdf"
+      ],
+      "jurisdiction": "Sweden",
+      "title": "Policy rate unchanged at 1.75 per cent",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Mexico keeps its rate unchanged after the Fed hikes and sets out its own policy test",
+    "bank": "Banco de México",
+    "date": "2026-09-24",
+    "url": "https://www.banxico.org.mx/publicaciones-y-prensa/anuncios-de-las-decisiones-de-politica-monetaria/%7B7D0BDB6E-E519-9C69-04AA-ABD4D31E4850%7D.pdf",
+    "excerpt": "Banxico voted unanimously to hold its overnight interbank target at 6.50% on 24 September.",
+    "file": "2026-09-24-99d5a09633.json",
+    "publication": {
+      "jurisdiction": "Mexico",
+      "title": "Anuncio de Política Monetaria",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "A softer summer core reading changed the timing, not Norway’s case for restraint",
+    "bank": "Norges Bank",
+    "date": "2026-09-24",
+    "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-09-24-rate/",
+    "excerpt": "At its 23 September meeting Norges Bank raised the policy rate from 4.25% to 4.50%, announcing the decision on 24 September.",
+    "file": "2026-09-24-7da099a8c0.json",
+    "publication": {
+      "jurisdiction": "Norway",
+      "title": "Policy rate raised to 4.50%",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Hungary pauses its easing cycle and announces a lower inflation target for 2028",
+    "bank": "Magyar Nemzeti Bank",
+    "date": "2026-09-22",
+    "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-22-september-2026",
+    "excerpt": "The September 22 Monetary Council held the base rate at 5.50% after three consecutive summer cuts, retaining overnight facilities at 4.50% and 6.50%.",
+    "file": "2026-09-22-91b44b66ee.json"
   },
   {
     "title": "Japan raises rates to 1.25% as producer costs begin reaching households",
@@ -141,6 +400,35 @@
     "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf",
     "excerpt": "The September 18 meeting raised the uncollateralized overnight call-rate guideline from about 1.0% to about 1.25%.",
     "file": "2026-09-18-9e334c6656.json"
+  },
+  {
+    "title": "The Czech September notice leaves the repo rate and corridor in place",
+    "bank": "Czech National Bank",
+    "date": "2026-09-17",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1789628400000",
+    "excerpt": "On September 17 the CNB announced no change in the two-week repo rate of 3.75%, the discount rate of 2.75% or the Lombard rate of 4.75%.",
+    "file": "2026-09-17-913fb09d44.json",
+    "publication": {
+      "aliases": [
+        "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1789628400000/"
+      ],
+      "jurisdiction": "Czechia",
+      "title": "CNB Board decisions",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Czech Board narrows the next decision to a hold or a rise",
+    "bank": "Czech National Bank",
+    "date": "2026-09-17",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1789628400000/?tab=statement",
+    "excerpt": "The CNB left the two-week repo rate at 3.75% by unanimous vote on September 17.",
+    "file": "2026-09-17-7f2590b671.json",
+    "publication": {
+      "jurisdiction": "Czechia",
+      "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+      "type": "Press conference"
+    }
   },
   {
     "title": "A 6–3 rate hold and a unanimous plan to unwind £368 billion of gilts",
@@ -157,6 +445,19 @@
     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
     "excerpt": "The FOMC unanimously raised the federal funds target by 25 basis points to 3.75–4.00%.",
     "file": "2026-09-16-da3bcbb85f.json"
+  },
+  {
+    "title": "September deliberations weigh new US tariffs against persistent fuel costs at 2.25%",
+    "bank": "Bank of Canada",
+    "date": "2026-09-16",
+    "url": "https://www.bankofcanada.ca/2026/09/summary-of-governing-council-deliberations-fixed-announcement-date-of-september-2-2026/",
+    "excerpt": "In the deliberations published on 16 September, Governing Council explained why it maintained the overnight rate at 2.25% on 2 September even though both sets of risks surrounding the July outlook had worsened.",
+    "file": "2026-09-16-0839280423.json",
+    "publication": {
+      "jurisdiction": "Canada",
+      "title": "Summary of Governing Council deliberations – September 2, 2026",
+      "type": "Minutes"
+    }
   },
   {
     "title": "Brazil eases to 13.75% as cyclical activity slows but services remain a risk",
@@ -188,12 +489,78 @@
     "file": "2026-09-10-e56d98dfaa.json"
   },
   {
+    "title": "Peru flags near-term policy adjustments as expectations cross the target range",
+    "bank": "Banco Central de Reserva del Perú",
+    "date": "2026-09-10",
+    "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-09-10.pdf",
+    "excerpt": "The Peruvian Board held the reference rate at 4.25% on 10 September, yet its closing guidance explicitly contemplated adjustments in the short term as new evidence arrived.",
+    "file": "2026-09-10-feace9118a.json",
+    "publication": {
+      "jurisdiction": "Peru",
+      "title": "Programa monetario de setiembre de 2026",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "New Zealand raises rates by consensus despite a split over inflation risks",
+    "bank": "Reserve Bank of New Zealand",
+    "date": "2026-09-02",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/09/ocr-increased-by-25-basis-points-to-2-75",
+    "excerpt": "The September 2 meeting raised the OCR from 2.50% to 2.75% by consensus.",
+    "file": "2026-09-02-db318ab1b1.json"
+  },
+  {
     "title": "Canada keeps rates steady as new tariffs put a broader recovery at risk",
     "bank": "Bank of Canada",
     "date": "2026-09-02",
     "url": "https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/",
     "excerpt": "The Bank of Canada left its overnight target at 2.25% on 2 September.",
     "file": "2026-09-02-273c3da49d.json"
+  },
+  {
+    "title": "Korea raises the Base Rate again while preserving targeted SME funding",
+    "bank": "Bank of Korea",
+    "date": "2026-08-27",
+    "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?menuNo=400069&nttId=11064193&programType=newsDataEng",
+    "excerpt": "The Monetary Policy Board voted six to one on August 27 to raise the Base Rate from 2.75% to 3.00%.",
+    "file": "2026-08-27-6820a1b7a1.json"
+  },
+  {
+    "title": "Hungary takes a third consecutive summer cut before the September forecast",
+    "bank": "Magyar Nemzeti Bank",
+    "date": "2026-08-25",
+    "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-25-august-2026",
+    "excerpt": "On August 25 the MNB lowered the base rate by 25 basis points to 5.50%, the third consecutive monthly reduction.",
+    "file": "2026-08-25-a50bbcfe3a.json"
+  },
+  {
+    "title": "August minutes weigh an insurance hike against early evidence that housing and demand are cooling",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-08-25",
+    "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-08-11.html",
+    "excerpt": "The 10–11 August meeting ended in a unanimous hold at 4.35%.",
+    "file": "2026-08-25-b922739f01.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "title": "Minutes of the Monetary Policy Board meeting of 11 August 2026",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "Stronger summer data left Sweden’s case for a hike alive but unconfirmed",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-08-20",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-15.75-per-cent",
+    "excerpt": "The Riksbank held its policy rate at 1.75% on 20 August.",
+    "file": "2026-08-20-75254a5450.json",
+    "publication": {
+      "aliases": [
+        "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/260820/prm-20-august-2026-policy-rate-unchanged-at-1.75-per-cent.pdf"
+      ],
+      "jurisdiction": "Sweden",
+      "title": "Policy rate unchanged at 1.75 per cent",
+      "type": "Decision"
+    }
   },
   {
     "title": "July minutes put a price on waiting as real yields rise before the Fed acts",
@@ -213,12 +580,33 @@
     }
   },
   {
+    "title": "Peru holds as expected inflation reaches the upper limit and transport dominates core prices",
+    "bank": "Banco Central de Reserva del Perú",
+    "date": "2026-08-13",
+    "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-08-13-1.pdf",
+    "excerpt": "The BCRP Board held its reference rate at 4.25% on 13 August even as twelve-month inflation expectations increased from 2.8% to 3.0%, the upper boundary of the inflation target range.",
+    "file": "2026-08-13-34bfc71c0e.json",
+    "publication": {
+      "jurisdiction": "Peru",
+      "title": "Programa monetario de agosto de 2026",
+      "type": "Decision"
+    }
+  },
+  {
     "title": "Norway holds at 4.25% as the inflation surprise tests the case for another rise",
     "bank": "Norges Bank",
     "date": "2026-08-13",
     "url": "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/august-2026/",
     "excerpt": "Norges Bank’s committee voted unanimously on 12 August to hold the policy rate at 4.25%.",
-    "file": "2026-08-13-2000d3258e.json"
+    "file": "2026-08-13-2000d3258e.json",
+    "publication": {
+      "aliases": [
+        "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-08-13-rate/"
+      ],
+      "jurisdiction": "Norway",
+      "title": "Rate decision August 2026",
+      "type": "Decision"
+    }
   },
   {
     "title": "A second Australian pause weighs slower mortgage lending against persistent service costs",
@@ -227,6 +615,48 @@
     "url": "https://www.rba.gov.au/media-releases/2026/mr-26-19.html",
     "excerpt": "The Board unanimously held the cash rate target at 4.35% on August 11.",
     "file": "2026-08-11-8ee3bcf653.json"
+  },
+  {
+    "title": "The Czech August decision retains the 3.75% repo rate",
+    "bank": "Czech National Bank",
+    "date": "2026-08-06",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1785999600000",
+    "excerpt": "The CNB’s August 6 announcement kept the two-week repo rate at 3.75%, the discount rate at 2.75% and the Lombard rate at 4.75%.",
+    "file": "2026-08-06-13f3a9ce2b.json",
+    "publication": {
+      "aliases": [
+        "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1785999600000/"
+      ],
+      "jurisdiction": "Czechia",
+      "title": "CNB Board decisions",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Mexico holds at 6.50% as a lower headline print comes with a later return to target",
+    "bank": "Banco de México",
+    "date": "2026-08-06",
+    "url": "https://www.banxico.org.mx/publicaciones-y-prensa/anuncios-de-las-decisiones-de-politica-monetaria/%7B8DA3F519-341F-480E-1D4E-1AEE71DD08DA%7D.pdf",
+    "excerpt": "On 6 August all members of Banxico’s Board agreed to leave the overnight target at 6.50%.",
+    "file": "2026-08-06-311dae5dde.json",
+    "publication": {
+      "jurisdiction": "Mexico",
+      "title": "Anuncio de Política Monetaria",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Czech policy pauses to assess the June rise while core inflation stays near 3%",
+    "bank": "Czech National Bank",
+    "date": "2026-08-06",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1785999600000/?tab=statement",
+    "excerpt": "All seven Board members kept the two-week repo rate at 3.75% on August 6.",
+    "file": "2026-08-06-f8473deae5.json",
+    "publication": {
+      "jurisdiction": "Czechia",
+      "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+      "type": "Press conference"
+    }
   },
   {
     "title": "Brazil cuts to 14% despite an upside skew in inflation risks",
@@ -261,6 +691,19 @@
     "file": "2026-07-29-e290aabba3.json"
   },
   {
+    "title": "July deliberations distinguish a Canadian growth rebound from a durable recovery",
+    "bank": "Bank of Canada",
+    "date": "2026-07-29",
+    "url": "https://www.bankofcanada.ca/2026/07/summary-of-governing-council-deliberations-fixed-announcement-date-of-july-15-2026/",
+    "excerpt": "Governing Council left the overnight rate at 2.25% on 15 July.",
+    "file": "2026-07-29-95d83414bd.json",
+    "publication": {
+      "jurisdiction": "Canada",
+      "title": "Summary of Governing Council deliberations: Fixed announcement date of July 15, 2026",
+      "type": "Minutes"
+    }
+  },
+  {
     "title": "Matching the June energy baseline was enough for the ECB to wait",
     "bank": "European Central Bank",
     "date": "2026-07-23",
@@ -274,7 +717,28 @@
     "date": "2026-07-23",
     "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
     "excerpt": "The six weeks before the ECB’s 23 July meeting contained two distinct episodes.",
-    "file": "2026-07-23-b015d2206e.json"
+    "file": "2026-07-23-b015d2206e.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Monetary policy statement (with Q&A)",
+      "type": "Press conference"
+    }
+  },
+  {
+    "title": "Hungary cuts again while food and service prices tell different stories",
+    "bank": "Magyar Nemzeti Bank",
+    "date": "2026-07-21",
+    "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-21-july-2026",
+    "excerpt": "Hungary reduced its base rate from 6.00% to 5.75% on July 21.",
+    "file": "2026-07-21-636df48e44.json"
+  },
+  {
+    "title": "Korea’s first 2026 increase joins the semiconductor income boom to household credit",
+    "bank": "Bank of Korea",
+    "date": "2026-07-16",
+    "url": "https://www.bok.or.kr/eng/bbs/E0000627/view.do?nttId=11062943&menuNo=400022",
+    "excerpt": "The Bank of Korea raised its Base Rate by 25 basis points to 2.75% on July 16.",
+    "file": "2026-07-16-3cb57d5521.json"
   },
   {
     "title": "Canada sees recovery broadening while gasoline explains most of the inflation overshoot",
@@ -293,6 +757,27 @@
     "file": "2026-07-13-54abf9dfbf.json"
   },
   {
+    "title": "Peru isolates transport costs to explain why core inflation is 4.5% and its rate stays at 4.25%",
+    "bank": "Banco Central de Reserva del Perú",
+    "date": "2026-07-09",
+    "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-07-09-1.pdf",
+    "excerpt": "Peru’s July decision provides a particularly informative diagnostic of supply-driven inflation.",
+    "file": "2026-07-09-bd4da68da0.json",
+    "publication": {
+      "jurisdiction": "Peru",
+      "title": "Programa monetario de julio de 2026",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "New Zealand lifts the OCR even as its near-term inflation forecast falls",
+    "bank": "Reserve Bank of New Zealand",
+    "date": "2026-07-08",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/07/ocr-increased-to-2-50-to-return-inflation-to-2-percent",
+    "excerpt": "The Committee reached consensus on July 8 to raise the OCR to 2.50%, up 25 basis points.",
+    "file": "2026-07-08-c8717827ff.json"
+  },
+  {
     "title": "June minutes reveal opposite year-end rate paths beneath a unanimous hold",
     "bank": "Federal Open Market Committee",
     "date": "2026-07-08",
@@ -307,6 +792,111 @@
       "jurisdiction": "United States",
       "title": "Minutes of the Federal Open Market Committee · 2026-06-17 meeting",
       "type": "Minutes"
+    }
+  },
+  {
+    "title": "June minutes explain why the RBA paused after three hikes while keeping further tightening open",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-06-30",
+    "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-06-16.html",
+    "excerpt": "At the 15–16 June meeting all members voted to maintain the cash rate target at 4.35%.",
+    "file": "2026-06-30-71c5be0b44.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "title": "Minutes of the Monetary Policy Board meeting of 16 June 2026",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "Mexico holds after headline disinflation masks a slightly firmer core forecast",
+    "bank": "Banco de México",
+    "date": "2026-06-25",
+    "url": "https://www.banxico.org.mx/publicaciones-y-prensa/anuncios-de-las-decisiones-de-politica-monetaria/%7BF6667DDE-E87D-68A3-0EBB-A4DF9048E403%7D.pdf",
+    "excerpt": "All members of Banxico’s Board voted to keep the overnight interbank target at 6.50% on 25 June.",
+    "file": "2026-06-25-d3d45c1e87.json",
+    "publication": {
+      "jurisdiction": "Mexico",
+      "title": "Anuncio de Política Monetaria",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "June deliberations distinguish a volatile GDP contraction from a case for cutting rates",
+    "bank": "Bank of Canada",
+    "date": "2026-06-24",
+    "url": "https://www.bankofcanada.ca/2026/06/summary-of-governing-council-deliberations-fixed-announcement-date-of-june-10-2026/",
+    "excerpt": "Published on 24 June, this account explains why the Governing Council kept the overnight rate at 2.25% on 10 June despite two quarters of negative GDP readings and consumer inflation close to 3%.",
+    "file": "2026-06-24-5a8075e42f.json",
+    "publication": {
+      "jurisdiction": "Canada",
+      "title": "Summary of Governing Council deliberations: Fixed announcement date of June 10, 2026",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "Hungary resumes easing after a two-point reduction in its 2026 inflation forecast",
+    "bank": "Magyar Nemzeti Bank",
+    "date": "2026-06-23",
+    "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-23-june-2026",
+    "excerpt": "On June 23 the MNB cut the base rate by 25 basis points to 6.00% and shifted the overnight corridor to 5.00–7.00%.",
+    "file": "2026-06-23-7c5cb2d9dd.json"
+  },
+  {
+    "title": "The Czech June decision raises the full corridor by 25 basis points",
+    "bank": "Czech National Bank",
+    "date": "2026-06-18",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1781766000000",
+    "excerpt": "On June 18 the Bank Board announced a quarter-percentage-point increase in its two-week repo rate to 3.75%.",
+    "file": "2026-06-18-ec45606ef7.json",
+    "publication": {
+      "aliases": [
+        "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1781766000000/"
+      ],
+      "jurisdiction": "Czechia",
+      "title": "CNB Board decisions",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Swiss inflation rose with oil products while the SNB held its medium-term view",
+    "bank": "Swiss National Bank",
+    "date": "2026-06-18",
+    "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260618",
+    "excerpt": "The SNB kept the policy rate at 0% on 18 June as observed inflation increased from 0.1% in February to 0.6% in May.",
+    "file": "2026-06-18-913d53252e.json",
+    "publication": {
+      "aliases": [
+        "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/press-releases-restricted/pre_20260618/publications0_en/pre_20260618.en.pdf"
+      ],
+      "jurisdiction": "Switzerland",
+      "title": "Monetary policy assessment of 18 June 2026",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Norway raised its projected policy path even as oil and gas prices eased",
+    "bank": "Norges Bank",
+    "date": "2026-06-18",
+    "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-06-18-rate/",
+    "excerpt": "Norges Bank held the rate at 4.25% on 17 June and said on 18 June that another increase at a forthcoming meeting was likely.",
+    "file": "2026-06-18-0bbb5c543f.json",
+    "publication": {
+      "jurisdiction": "Norway",
+      "title": "Policy rate kept unchanged at 4.25 percent",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Czech rates rise as six months of persistent core inflation challenge the forecast",
+    "bank": "Czech National Bank",
+    "date": "2026-06-18",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1781766000000/?tab=statement",
+    "excerpt": "The CNB Bank Board raised the two-week repo rate by 25 basis points to 3.75% on June 18 and increased its other key rates by the same amount.",
+    "file": "2026-06-18-64fac13a1e.json",
+    "publication": {
+      "jurisdiction": "Czechia",
+      "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+      "type": "Press conference"
     }
   },
   {
@@ -332,6 +922,22 @@
     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
     "excerpt": "All twelve members approved a 3.50–3.75% federal funds target.",
     "file": "2026-06-17-94826fcab8.json"
+  },
+  {
+    "title": "A small change in Sweden’s projected rate conceals a larger change in the energy risk",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-06-17",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-14.75-per-cent",
+    "excerpt": "The June decision kept the policy rate at 1.75% but increased the assessed probability of a rise later in 2026.",
+    "file": "2026-06-17-138512b1bf.json",
+    "publication": {
+      "aliases": [
+        "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/260617/prm-17-june-2026-policy-rate-unchanged-at-1.75-per-cent.pdf"
+      ],
+      "jurisdiction": "Sweden",
+      "title": "Policy rate unchanged at 1.75 per cent",
+      "type": "Decision"
+    }
   },
   {
     "title": "Why the Bank of Japan raised rates with inflation below 2%",
@@ -376,7 +982,25 @@
     "date": "2026-06-11",
     "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260611~372040d313.en.html",
     "excerpt": "When the ECB raised rates by 25 basis points on 11 June, the Council reached its decision unanimously without debating an alternative proposal.",
-    "file": "2026-06-11-92af6e58d5.json"
+    "file": "2026-06-11-92af6e58d5.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "Monetary policy statement (with Q&A)",
+      "type": "Press conference"
+    }
+  },
+  {
+    "title": "Peru holds as food prices fall but twelve-month inflation expectations keep rising",
+    "bank": "Banco Central de Reserva del Perú",
+    "date": "2026-06-11",
+    "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-06-11.pdf",
+    "excerpt": "The Peruvian Board kept the reference rate at 4.25% on 11 June.",
+    "file": "2026-06-11-e3c4eade96.json",
+    "publication": {
+      "jurisdiction": "Peru",
+      "title": "Programa monetario de junio de 2026",
+      "type": "Decision"
+    }
   },
   {
     "title": "Canada looks through energy inflation as core prices and demand stay subdued",
@@ -387,12 +1011,36 @@
     "file": "2026-06-10-6a7f206b14.json"
   },
   {
+    "title": "Korea’s chip boom outweighs the oil shock and brings a rate rise into view",
+    "bank": "Bank of Korea",
+    "date": "2026-05-28",
+    "url": "https://www.bok.or.kr/eng/bbs/E0000627/view.do?nttId=10098189&menuNo=400022",
+    "excerpt": "Five Board members held Korea’s Base Rate at 2.50% on May 28.",
+    "file": "2026-05-28-eb3d687c24.json"
+  },
+  {
     "title": "The Opportunities and Risks AI Presents for the Economy and Financial System",
     "bank": "Federal Reserve",
     "date": "2026-05-27",
     "url": "https://www.federalreserve.gov/newsevents/speech/cook20260527a.htm",
     "excerpt": "Governor Lisa Cook favoured holding rates steady on 27 May while judging the risks to be tilted towards higher inflation.",
     "file": "2026-05-27-e55b495ef9.json"
+  },
+  {
+    "title": "A casting vote keeps New Zealand’s first increase on hold",
+    "bank": "Reserve Bank of New Zealand",
+    "date": "2026-05-27",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/05/ocr-held-at-2-25-percent",
+    "excerpt": "The May 27 meeting produced a three-to-three split between holding the OCR at 2.25% and raising it to 2.50%.",
+    "file": "2026-05-27-c23925dd72.json"
+  },
+  {
+    "title": "Hungary waits for June’s forecast despite a stronger forint and softer inflation",
+    "bank": "Magyar Nemzeti Bank",
+    "date": "2026-05-26",
+    "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-26-may-2026",
+    "excerpt": "The Council held the base rate at 6.25% on May 26 and left the 5.25–7.25% overnight corridor in place.",
+    "file": "2026-05-26-6e242b53c6.json"
   },
   {
     "title": "April minutes show support for two-sided guidance extended well beyond three formal dissents",
@@ -409,6 +1057,116 @@
       "jurisdiction": "United States",
       "title": "Minutes of the Federal Open Market Committee · 2026-04-29 meeting",
       "type": "Minutes"
+    }
+  },
+  {
+    "title": "May minutes trace the third Australian hike to fuel pass-through and domestic capacity",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-05-19",
+    "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-05-05.html",
+    "excerpt": "The 4–5 May meeting ended in an 8–1 vote to lift the cash rate by 25 basis points to 4.35%.",
+    "file": "2026-05-19-26f466f4b5.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "title": "Minutes of the Monetary Policy Board meeting of 5 May 2026",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "Peru holds as higher transport fares lift underlying inflation and expectations move up",
+    "bank": "Banco Central de Reserva del Perú",
+    "date": "2026-05-14",
+    "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-05-14.pdf",
+    "excerpt": "Peru held its reference rate at 4.25% on 14 May.",
+    "file": "2026-05-14-53a68de6d9.json",
+    "publication": {
+      "jurisdiction": "Peru",
+      "title": "Programa monetario de mayo de 2026",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "April deliberations lay out the conditions for cuts, a near hold or consecutive hikes",
+    "bank": "Bank of Canada",
+    "date": "2026-05-13",
+    "url": "https://www.bankofcanada.ca/2026/05/summary-of-governing-council-deliberations-fixed-announcement-date-of-april-29-2026/",
+    "excerpt": "Governing Council agreed to keep the overnight rate at 2.25% on 29 April.",
+    "file": "2026-05-13-69c23df0fe.json",
+    "publication": {
+      "jurisdiction": "Canada",
+      "title": "Summary of Governing Council deliberations: Fixed announcement date of April 29, 2026",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "Why the Riksbank could wait as the risk of higher inflation grew",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-05-07",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-13.75-per-cent",
+    "excerpt": "On 7 May the Riksbank held at 1.75% even though it judged the risk of higher inflation from the Middle East war to have increased somewhat.",
+    "file": "2026-05-07-aa8515a924.json",
+    "publication": {
+      "aliases": [
+        "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/260507/prm-7-may-2026-policy-rate-unchanged-at-1.75-per-cent.pdf"
+      ],
+      "jurisdiction": "Sweden",
+      "title": "Policy rate unchanged at 1.75 per cent",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Czech May announcement holds the two-week repo rate at 3.50%",
+    "bank": "Czech National Bank",
+    "date": "2026-05-07",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1778137200000",
+    "excerpt": "The May 7 rate notice retained the two-week repo rate at 3.50%.",
+    "file": "2026-05-07-d5148222ef.json",
+    "publication": {
+      "aliases": [
+        "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1778137200000/"
+      ],
+      "jurisdiction": "Czechia",
+      "title": "CNB Board decisions",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Czech Board holds rates but shifts the inflation risk balance upward",
+    "bank": "Czech National Bank",
+    "date": "2026-05-07",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1778137200000/?tab=statement",
+    "excerpt": "On May 7 all seven Czech National Bank Board members voted to retain the two-week repo rate at 3.50%.",
+    "file": "2026-05-07-b95737db38.json",
+    "publication": {
+      "jurisdiction": "Czechia",
+      "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+      "type": "Press conference"
+    }
+  },
+  {
+    "title": "Norway delivered the hike signalled in March as the wage settlement confirmed its premise",
+    "bank": "Norges Bank",
+    "date": "2026-05-07",
+    "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-05-07-rate/",
+    "excerpt": "Norges Bank raised the policy rate from 4% to 4.25% at its 6 May meeting, announcing the decision on 7 May.",
+    "file": "2026-05-07-eb712002d6.json",
+    "publication": {
+      "jurisdiction": "Norway",
+      "title": "Policy rate raised to 4.25%",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Mexico cuts to 6.50% and declares the easing cycle complete",
+    "bank": "Banco de México",
+    "date": "2026-05-07",
+    "url": "https://www.banxico.org.mx/publicaciones-y-prensa/anuncios-de-las-decisiones-de-politica-monetaria/%7B8A05C722-0A97-4527-2166-0CE802CE6838%7D.pdf",
+    "excerpt": "Banxico’s majority cut its overnight rate by 25 basis points to 6.50%, effective 8 May, and explicitly described the cut as completing the cycle that began in March 2024.",
+    "file": "2026-05-07-d17c0a48be.json",
+    "publication": {
+      "jurisdiction": "Mexico",
+      "title": "Anuncio de Política Monetaria",
+      "type": "Decision"
     }
   },
   {
@@ -481,6 +1239,43 @@
     "file": "2026-04-28-61c6962bee.json"
   },
   {
+    "title": "Hungary holds while testing whether the post-election fall in risk premia will last",
+    "bank": "Magyar Nemzeti Bank",
+    "date": "2026-04-28",
+    "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-28-april-2026",
+    "excerpt": "The April 28 Monetary Council decision retained the 6.25% base rate, with overnight deposit and lending rates at 5.25% and 7.25%.",
+    "file": "2026-04-28-ce0e514eec.json"
+  },
+  {
+    "title": "Korea holds at 2.50% as the same oil shock threatens output and prices",
+    "bank": "Bank of Korea",
+    "date": "2026-04-10",
+    "url": "https://www.bok.or.kr/eng/bbs/E0000627/view.do?nttId=10097453&menuNo=400022",
+    "excerpt": "All seven members backed a hold at 2.50% on April 10.",
+    "file": "2026-04-10-bf6d3f47c5.json"
+  },
+  {
+    "title": "Peru holds despite a broad March inflation spike linked to gas and fuel disruption",
+    "bank": "Banco Central de Reserva del Perú",
+    "date": "2026-04-09",
+    "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-04-09.pdf",
+    "excerpt": "Peru’s central bank held its reference rate at 4.25% on 9 April after both headline and underlying inflation moved above the target range.",
+    "file": "2026-04-09-976da6ad95.json",
+    "publication": {
+      "jurisdiction": "Peru",
+      "title": "Programa monetario de abril de 2026",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "New Zealand looks through a near-term fuel shock while testing its limits",
+    "bank": "Reserve Bank of New Zealand",
+    "date": "2026-04-08",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/04/ocr-on-hold-at-2-25",
+    "excerpt": "The April 8 committee reached consensus to hold the OCR at 2.25% even as it revised the near-term inflation outlook sharply higher.",
+    "file": "2026-04-08-cbb8e2c974.json"
+  },
+  {
     "title": "March minutes trace how one oil shock could produce either a rate cut or a hike",
     "bank": "Federal Open Market Committee",
     "date": "2026-04-08",
@@ -495,6 +1290,114 @@
       "jurisdiction": "United States",
       "title": "Minutes of the Federal Open Market Committee · 2026-03-18 meeting",
       "type": "Minutes"
+    }
+  },
+  {
+    "title": "March deliberations identify when a rise in Canadian petrol prices would require a rate response",
+    "bank": "Bank of Canada",
+    "date": "2026-04-01",
+    "url": "https://www.bankofcanada.ca/2026/04/summary-governing-council-deliberations-fixed-announcement-date-of-march-18-2026/",
+    "excerpt": "Canada entered the energy shock with core inflation approaching 2%, slack in the economy and renewed weakness in employment.",
+    "file": "2026-04-01-a28de7d7d0.json",
+    "publication": {
+      "jurisdiction": "Canada",
+      "title": "Summary of Governing Council deliberations: Fixed announcement date of March 18, 2026",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "March minutes reveal a 5–4 disagreement over when to tighten as energy supply contracts",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-03-31",
+    "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-03-17.html",
+    "excerpt": "The Board raised the cash rate by 25 basis points to 4.10% at its 16–17 March meeting.",
+    "file": "2026-03-31-3d58a90042.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "title": "Minutes of the Monetary Policy Board meeting of 17 March 2026",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "Norway’s unchanged 4% rate came with a reversal in the projected direction",
+    "bank": "Norges Bank",
+    "date": "2026-03-26",
+    "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-03-26-rate/",
+    "excerpt": "Norges Bank kept the policy rate at 4% at its 25 March meeting while announcing on 26 March that an increase at one of the coming meetings was likely.",
+    "file": "2026-03-26-da2a1ce316.json",
+    "publication": {
+      "jurisdiction": "Norway",
+      "title": "Policy rate kept unchanged at 4%",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Banxico resumes cuts in a split vote despite higher near-term inflation forecasts",
+    "bank": "Banco de México",
+    "date": "2026-03-26",
+    "url": "https://www.banxico.org.mx/publicaciones-y-prensa/anuncios-de-las-decisiones-de-politica-monetaria/%7B44EB2DF8-E71A-1553-7322-F60A34382EBA%7D.pdf",
+    "excerpt": "Banco de México voted three to two to cut its overnight interbank target by 25 basis points to 6.75%, effective 27 March.",
+    "file": "2026-03-26-4f8ad4b875.json",
+    "publication": {
+      "jurisdiction": "Mexico",
+      "title": "Anuncio de Política Monetaria",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Hungary pauses after an energy shock and supplies currency for import payments",
+    "bank": "Magyar Nemzeti Bank",
+    "date": "2026-03-24",
+    "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-24-march-2026",
+    "excerpt": "The Monetary Council held the base rate at 6.25% on March 24, leaving the overnight corridor at 5.25–7.25%.",
+    "file": "2026-03-24-cfa8d171b6.json"
+  },
+  {
+    "title": "The SNB’s inflation forecast turns higher near term and lower farther out",
+    "bank": "Swiss National Bank",
+    "date": "2026-03-19",
+    "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260319",
+    "excerpt": "On 19 March the SNB kept its policy rate at 0% and increased its willingness to intervene against a rapid and excessive appreciation of the franc.",
+    "file": "2026-03-19-7b21bf87dd.json",
+    "publication": {
+      "aliases": [
+        "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/press-releases-restricted/pre_20260319/publications0_en/pre_20260319.en.pdf"
+      ],
+      "jurisdiction": "Switzerland",
+      "title": "Monetary policy assessment of 19 March 2026",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Czech March decision keeps all three policy rates unchanged",
+    "bank": "Czech National Bank",
+    "date": "2026-03-19",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1773907200000",
+    "excerpt": "On March 19 the CNB retained a 3.50% two-week repo rate, 2.50% discount rate and 4.50% Lombard rate.",
+    "file": "2026-03-19-9db0e8f69f.json",
+    "publication": {
+      "aliases": [
+        "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1773907200000/"
+      ],
+      "jurisdiction": "Czechia",
+      "title": "CNB Board decisions",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Sweden’s March forecast accommodates an energy shock in two different directions",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-03-19",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-12.75-per-cent",
+    "excerpt": "The Riksbank left the policy rate at 1.75% on 19 March, retaining its December interest-rate path almost exactly while changing its projections for output and inflation.",
+    "file": "2026-03-19-860e186075.json",
+    "publication": {
+      "aliases": [
+        "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/260319_nr1-ppr/prm-19-march-2026-policy-rate-unchanged-at-1.75-per-cent.pdf"
+      ],
+      "jurisdiction": "Sweden",
+      "title": "Policy rate unchanged at 1.75 per cent",
+      "type": "Decision"
     }
   },
   {
@@ -535,6 +1438,19 @@
     "file": "2026-03-19-f74eb8c93a.json"
   },
   {
+    "title": "A ten-year low in Czech inflation meets a new energy shock",
+    "bank": "Czech National Bank",
+    "date": "2026-03-19",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1773907200000/?tab=statement",
+    "excerpt": "The Bank Board unanimously kept the two-week repo rate at 3.50% on March 19.",
+    "file": "2026-03-19-201520d556.json",
+    "publication": {
+      "jurisdiction": "Czechia",
+      "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+      "type": "Press conference"
+    }
+  },
+  {
     "title": "The Fed holds as uncertainty about the Middle East complicates both sides of its mandate",
     "bank": "Federal Open Market Committee",
     "date": "2026-03-18",
@@ -567,6 +1483,43 @@
     "file": "2026-03-17-9d107af9b9.json"
   },
   {
+    "title": "Peru holds through water and food price increases as gas disruptions enter the outlook",
+    "bank": "Banco Central de Reserva del Perú",
+    "date": "2026-03-12",
+    "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-03-12.pdf",
+    "excerpt": "Peru’s Board held the reference rate at 4.25% on 12 March.",
+    "file": "2026-03-12-31303fb76c.json",
+    "publication": {
+      "jurisdiction": "Peru",
+      "title": "Programa monetario de marzo de 2026",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Korea’s growth upgrade leaves the non-IT economy behind",
+    "bank": "Bank of Korea",
+    "date": "2026-02-26",
+    "url": "https://www.bok.or.kr/eng/bbs/E0000627/view.do?nttId=10096671&menuNo=400022",
+    "excerpt": "All seven Bank of Korea Monetary Policy Board members voted to keep the Base Rate at 2.50% on February 26.",
+    "file": "2026-02-26-bfa2efdd5e.json"
+  },
+  {
+    "title": "Hungary cuts by a quarter point after a subdued January repricing round",
+    "bank": "Magyar Nemzeti Bank",
+    "date": "2026-02-24",
+    "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-24-february-2026",
+    "excerpt": "Hungary’s Monetary Council cut the base rate from 6.50% to 6.25% on February 24, effective the following day.",
+    "file": "2026-02-24-4e7a0429fc.json"
+  },
+  {
+    "title": "New Zealand holds at 2.25% as spare capacity outweighs an inflation overshoot",
+    "bank": "Reserve Bank of New Zealand",
+    "date": "2026-02-18",
+    "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/02/ocr-on-hold-at-2-25-with-inflation-expected-to-fall",
+    "excerpt": "The Monetary Policy Committee reached consensus on February 18 to keep the official cash rate (OCR) at 2.25%.",
+    "file": "2026-02-18-fd2a28c231.json"
+  },
+  {
     "title": "January minutes expose a disagreement about how restrictive policy already was",
     "bank": "Federal Open Market Committee",
     "date": "2026-02-18",
@@ -581,6 +1534,32 @@
       "jurisdiction": "United States",
       "title": "Minutes of the Federal Open Market Committee · 2026-01-28 meeting",
       "type": "Minutes"
+    }
+  },
+  {
+    "title": "February minutes show why the RBA reversed course as private demand outgrew capacity",
+    "bank": "Reserve Bank of Australia",
+    "date": "2026-02-17",
+    "url": "https://www.rba.gov.au/monetary-policy/rba-board-minutes/2026/2026-02-03.html",
+    "excerpt": "At its meeting on 2–3 February, the Monetary Policy Board unanimously raised the cash rate from 3.60% to 3.85%.",
+    "file": "2026-02-17-10766325eb.json",
+    "publication": {
+      "jurisdiction": "Australia",
+      "title": "Minutes of the Monetary Policy Board meeting of 3 February 2026",
+      "type": "Minutes"
+    }
+  },
+  {
+    "title": "Peruvian inflation expectations settle at 2% as the external outlook improves",
+    "bank": "Banco Central de Reserva del Perú",
+    "date": "2026-02-12",
+    "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-02-12.pdf",
+    "excerpt": "The Peruvian central bank kept its reference rate at 4.25% on 12 February.",
+    "file": "2026-02-12-de69ac35bc.json",
+    "publication": {
+      "jurisdiction": "Peru",
+      "title": "Programa monetario de febrero de 2026",
+      "type": "Decision"
     }
   },
   {
@@ -608,12 +1587,41 @@
     "file": "2026-02-05-341115e91b.json"
   },
   {
+    "title": "The Czech February rate decision leaves the repo rate at 3.50%",
+    "bank": "Czech National Bank",
+    "date": "2026-02-05",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1770278400000",
+    "excerpt": "At 14:30 on February 5 the Czech National Bank announced an unchanged two-week repo rate of 3.50%, discount rate of 2.50% and Lombard rate of 4.50%.",
+    "file": "2026-02-05-be0a69a9fa.json",
+    "publication": {
+      "aliases": [
+        "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1770278400000/"
+      ],
+      "jurisdiction": "Czechia",
+      "title": "CNB Board decisions",
+      "type": "Decision"
+    }
+  },
+  {
     "title": "Mexico pauses at 7% as core inflation shifts the convergence date",
     "bank": "Banco de México",
     "date": "2026-02-05",
     "url": "https://www.banxico.org.mx/publicaciones-y-prensa/anuncios-de-las-decisiones-de-politica-monetaria/%7B318D71D0-F37D-869C-E8B4-8E58FD9D3648%7D.pdf",
     "excerpt": "Banco de México unanimously interrupted its rate-cutting cycle on 5 February, keeping the overnight target at 7.00%.",
     "file": "2026-02-05-ed93ef9000.json"
+  },
+  {
+    "title": "Czech rate setters look through a fiscal reduction in household electricity bills",
+    "bank": "Czech National Bank",
+    "date": "2026-02-05",
+    "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1770278400000/?tab=statement",
+    "excerpt": "All seven Czech National Bank Board members kept the two-week repo rate at 3.50% on February 5.",
+    "file": "2026-02-05-7503bfa04c.json",
+    "publication": {
+      "jurisdiction": "Czechia",
+      "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+      "type": "Press conference"
+    }
   },
   {
     "title": "Colombia’s divided board raises rates as the wage shock reaches expectations",
@@ -659,6 +1667,22 @@
     "url": "https://www.rba.gov.au/media-releases/2026/mr-26-03.html",
     "excerpt": "The Reserve Bank of Australia raised the cash rate target by 25 basis points to 3.85% on February 3.",
     "file": "2026-02-03-7c153c6119.json"
+  },
+  {
+    "title": "Why stronger Swedish spending and a softer inflation print led to the same rate forecast",
+    "bank": "Sveriges Riksbank",
+    "date": "2026-01-29",
+    "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-1.75-per-cent",
+    "excerpt": "The Riksbank held its policy rate at 1.75% on 29 January and continued to expect it to stay there for some time.",
+    "file": "2026-01-29-c105bdb5c6.json",
+    "publication": {
+      "aliases": [
+        "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/260129/prm-29-jan-2026-policy-rate-unchanged-at-1.75-per-cent.pdf"
+      ],
+      "jurisdiction": "Sweden",
+      "title": "Policy rate unchanged at 1.75 per cent",
+      "type": "Decision"
+    }
   },
   {
     "title": "Valencia’s floods show why a GDP rebound can coexist with lasting losses",
@@ -747,6 +1771,19 @@
     "url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2026/k260123a.htm",
     "excerpt": "The Bank of Japan voted 8–1 on January 23 to keep the uncollateralized overnight call rate near 0.75%.",
     "file": "2026-01-23-deb4a41073.json"
+  },
+  {
+    "title": "Norway retained a route to cuts without making the next cut urgent",
+    "bank": "Norges Bank",
+    "date": "2026-01-22",
+    "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-01-22-rate/",
+    "excerpt": "Norges Bank’s January release preserved a conditional easing outlook and an explicitly restrictive current stance.",
+    "file": "2026-01-22-8e0196ed41.json",
+    "publication": {
+      "jurisdiction": "Norway",
+      "title": "Policy rate kept unchanged at 4 percent",
+      "type": "Decision"
+    }
   },
   {
     "title": "Canadian firms see a floor under sales, with little appetite to expand payrolls",
@@ -909,6 +1946,19 @@
     "file": "2026-01-02-a89182130b.json"
   },
   {
+    "title": "Tax payments and the size of the PBoC’s seven-day reverse repo",
+    "bank": "People’s Bank of China",
+    "date": "2024-07-16",
+    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/5405624/index.html",
+    "excerpt": "The PBoC allotted RMB676 billion through a seven-day reverse repo on 16 July 2024.",
+    "file": "2024-07-16-30c9689e93.json",
+    "publication": {
+      "jurisdiction": "China",
+      "title": "Open market operations announcement No. 139 of 2024",
+      "type": "Open market operation"
+    }
+  },
+  {
     "title": "Pan identifies a short-rate anchor as China’s credit aggregates lose information",
     "bank": "People’s Bank of China",
     "date": "2024-06-19",
@@ -958,6 +2008,19 @@
       "jurisdiction": "United States",
       "title": "FOMC statement",
       "type": "Decision"
+    }
+  },
+  {
+    "title": "Why the PBoC let reverse repos mature on 1 July",
+    "bank": "People’s Bank of China",
+    "date": "2019-07-01",
+    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/3851240/index.html",
+    "excerpt": "The PBoC conducted no reverse repo on 1 July.",
+    "file": "2019-07-01-a23ab488e4.json",
+    "publication": {
+      "jurisdiction": "China",
+      "title": "Open market operations announcement No. 126 of 2019",
+      "type": "Open market operation"
     }
   },
   {
@@ -1065,6 +2128,256 @@
     }
   },
   {
+    "title": "A unanimous hold preserves support while the Fed waits for firmer evidence beyond the soft patch",
+    "bank": "Federal Open Market Committee",
+    "date": "2002-12-10",
+    "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20021210/",
+    "excerpt": "The twelve voting members kept the federal funds target at 1.25%.",
+    "file": "2002-12-10-b65dee3e0b.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement · December 10, 2002",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "A unanimous half-point cut makes the post-action balance of risks more even",
+    "bank": "Federal Open Market Committee",
+    "date": "2002-11-06",
+    "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20021106/",
+    "excerpt": "The FOMC cut its funds target by half a percentage point to 1.25%.",
+    "file": "2002-11-06-2010d4aff7.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement and Board discount rate action · November 6, 2002",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Two members seek a cut as the Fed holds and the timing of hiring remains uncertain",
+    "bank": "Federal Open Market Committee",
+    "date": "2002-09-24",
+    "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20020924/",
+    "excerpt": "Ten voters retained the 1.75% federal funds target.",
+    "file": "2002-09-24-b2b963a8b7.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement · September 24, 2002",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Corporate reporting concerns prolong the demand slowdown while the target stays at 1.75%",
+    "bank": "Federal Open Market Committee",
+    "date": "2002-08-13",
+    "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20020813/",
+    "excerpt": "The twelve named voters held the federal funds target at 1.75%.",
+    "file": "2002-08-13-e098195a6b.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement · August 13, 2002",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Growth continues, but momentum in inventories and final demand moderates together",
+    "bank": "Federal Open Market Committee",
+    "date": "2002-06-26",
+    "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20020626/",
+    "excerpt": "The FOMC held its target at 1.75% with all ten voting members in favour.",
+    "file": "2002-06-26-562a43dda0.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement · June 26, 2002",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Fed keeps accommodation as inventories lift activity ahead of evidence on final buyers",
+    "bank": "Federal Open Market Committee",
+    "date": "2002-05-07",
+    "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20020507/",
+    "excerpt": "All ten listed voters maintained the 1.75% funds target.",
+    "file": "2002-05-07-5c51f7acdd.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement · May 7, 2002",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Fed balances its risk assessment and begins publishing individual votes at decision time",
+    "bank": "Federal Open Market Committee",
+    "date": "2002-03-19",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2002/20020319/",
+    "excerpt": "The Committee unanimously maintained the 1.75% target.",
+    "file": "2002-03-19-867c7dfd7f.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement · March 19, 2002",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Fed holds at 1.75% as signs of recovery become more frequent but its risks remain asymmetric",
+    "bank": "Federal Open Market Committee",
+    "date": "2002-01-30",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2002/20020130/",
+    "excerpt": "The Committee left the funds target at 1.75%.",
+    "file": "2002-01-30-c7dbda345d.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement · January 30, 2002",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Fed cuts to 1.75% as tentative demand improvement coexists with disinflation risk",
+    "bank": "Federal Open Market Committee",
+    "date": "2001-12-11",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20011211/",
+    "excerpt": "The FOMC lowered its funds target by 25 basis points to 1.75%, while the Board reduced the discount rate to 1.25%.",
+    "file": "2001-12-11-595f5bfbf5.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement and Board discount rate action · December 11, 2001",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "A half-point cut to 2% distinguishes a security-related productivity cost from the longer-run trend",
+    "bank": "Federal Open Market Committee",
+    "date": "2001-11-06",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20011106/",
+    "excerpt": "The FOMC cut its funds target by 50 basis points to 2%, and the Board reduced the discount rate to 1.50% after a request from the Richmond Reserve Bank.",
+    "file": "2001-11-06-7851d9ff4e.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement and Board discount rate action · November 6, 2001",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "A further half-point cut addresses spending postponed under heightened uncertainty",
+    "bank": "Federal Open Market Committee",
+    "date": "2001-10-02",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20011002/",
+    "excerpt": "The Committee lowered the federal funds target by 50 basis points to 2.50%.",
+    "file": "2001-10-02-e284f2e310.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement and Board discount rate action · October 2, 2001",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Fed cuts to 3% and explicitly accepts temporary undershoots of its overnight target",
+    "bank": "Federal Open Market Committee",
+    "date": "2001-09-17",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010917/",
+    "excerpt": "Two policy instructions mattered after the attacks.",
+    "file": "2001-09-17-7e1654757f.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement and Board discount rate action · September 17, 2001",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Fed cuts to 3.50% with household demand holding up better than business spending",
+    "bank": "Federal Open Market Committee",
+    "date": "2001-08-21",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010821/",
+    "excerpt": "The FOMC reduced the funds target by a quarter point to 3.50%, bringing the decline since the start of the year to 300 basis points.",
+    "file": "2001-08-21-d345c1c532.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement and Board discount rate action · August 21, 2001",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "A quarter-point cut brings cumulative easing to 275 basis points as profits and capex weaken",
+    "bank": "Federal Open Market Committee",
+    "date": "2001-06-27",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010627/",
+    "excerpt": "The Committee cut the federal funds target by 25 basis points to 3.75%, bringing the cumulative decline since the beginning of 2001 to 275 basis points.",
+    "file": "2001-06-27-bdb907a337.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement and Board discount rate action · June 27, 2001",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The funds target falls to 4% while equipment investment remains the weak link",
+    "bank": "Federal Open Market Committee",
+    "date": "2001-05-15",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010515/",
+    "excerpt": "The FOMC lowered its target by half a point to 4%.",
+    "file": "2001-05-15-1f6f427a5a.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement and Board discount rate action · May 15, 2001",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Fed eases between meetings as the investment outlook weakens despite progress on stocks",
+    "bank": "Federal Open Market Committee",
+    "date": "2001-04-18",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010418/",
+    "excerpt": "In an extended interval between scheduled meetings, the FOMC cut its funds target from 5% to 4.50%.",
+    "file": "2001-04-18-0ebf60a07a.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement and Board discount rate action · April 18, 2001",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "A half-point cut separates progress on inventories from persistent excess capacity",
+    "bank": "Federal Open Market Committee",
+    "date": "2001-03-20",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010320/",
+    "excerpt": "The funds target fell to 5% and the discount rate to 4.50%, both cuts of 50 basis points.",
+    "file": "2001-03-20-f7026da270.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement and Board discount rate action · March 20, 2001",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "The Fed cuts to 5.50% as technology accelerates an inventory and capital correction",
+    "bank": "Federal Open Market Committee",
+    "date": "2001-01-31",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010131/",
+    "excerpt": "The FOMC cut the funds target by 50 basis points to 5.50%, and the Board reduced the discount rate by the same amount to 5%.",
+    "file": "2001-01-31-d7c02314d6.json",
+    "publication": {
+      "jurisdiction": "United States",
+      "title": "FOMC statement and Board discount rate action · January 31, 2001",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "An intermeeting cut responds to weakening sales while leaving the productivity outlook intact",
+    "bank": "Federal Open Market Committee",
+    "date": "2001-01-03",
+    "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/default.htm",
+    "excerpt": "The FOMC cut its federal funds target by half a percentage point to 6%.",
+    "file": "2001-01-03-375fdf7c6c.json",
+    "publication": {
+      "aliases": [
+        "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/"
+      ],
+      "jurisdiction": "United States",
+      "title": "FOMC statement and Board discount rate action · January 3, 2001",
+      "type": "Decision"
+    }
+  },
+  {
     "title": "Economic weakness becomes the dominant risk while the funds target remains at 6.50%",
     "bank": "Federal Open Market Committee",
     "date": "2000-12-19",
@@ -1074,6 +2387,45 @@
     "publication": {
       "jurisdiction": "United States",
       "title": "FOMC statement",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "December 15 keeps the quarter-percent guide ahead of year-end",
+    "bank": "Bank of Japan",
+    "date": "2000-12-15",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k001215.htm",
+    "excerpt": "A majority retained the average unsecured overnight call rate guide around 0.25 percent.",
+    "file": "2000-12-15-3ecc2826f3.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (unchanged)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "November 30 retains 0.25 percent through the next meeting",
+    "bank": "Bank of Japan",
+    "date": "2000-11-30",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k001130.htm",
+    "excerpt": "The Bank voted by majority to retain the average unsecured overnight call rate guide around 0.25 percent.",
+    "file": "2000-11-30-809fcc76c7.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (unchanged)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "November 17 preserves the average overnight target",
+    "bank": "Bank of Japan",
+    "date": "2000-11-17",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k001117.htm",
+    "excerpt": "The Bank maintained an average unsecured overnight call rate around 0.25 percent.",
+    "file": "2000-11-17-75c6a6fcfb.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (unchanged)",
       "type": "Decision"
     }
   },
@@ -1091,6 +2443,100 @@
     }
   },
   {
+    "title": "October 30 leaves the overnight guide at a quarter percent",
+    "bank": "Bank of Japan",
+    "date": "2000-10-30",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k001030.htm",
+    "excerpt": "The Board renewed its direction to keep the average unsecured overnight call rate near 0.25 percent.",
+    "file": "2000-10-30-a6386d656e.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (unchanged)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Why Japan declined to attach an inflation number to price stability in 2000",
+    "bank": "Bank of Japan",
+    "date": "2000-10-13",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k001013a.htm",
+    "excerpt": "The Board’s October report sets out what it wanted monetary policy to preserve.",
+    "file": "2000-10-13-fbc4ac3ce2.json",
+    "publication": {
+      "aliases": [
+        "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/data/k001013a.pdf"
+      ],
+      "jurisdiction": "Japan",
+      "title": "On Price Stability",
+      "type": "Statement"
+    }
+  },
+  {
+    "title": "The October bill-sale amendment narrows a clause and retains the auction design",
+    "bank": "Bank of Japan",
+    "date": "2000-10-13",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/mok0010c.htm",
+    "excerpt": "The stated amendment removes the opening qualification that allowed other stipulations to override the bill-sale terms.",
+    "file": "2000-10-13-c8e7098ead.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Revision of \"Principal Terms and Conditions Pertaining to the Sale of Bills\"",
+      "type": "Statement"
+    }
+  },
+  {
+    "title": "Revised bill purchases make pooled collateral and branch operations explicit",
+    "bank": "Bank of Japan",
+    "date": "2000-10-13",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/mok0010b.htm",
+    "excerpt": "The October decision incorporates pooled collateral into the operative bill-purchase rules.",
+    "file": "2000-10-13-e51f3fe9b9.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Revision of \"Principal Terms and Conditions Pertaining to the Purchase of Bills\"",
+      "type": "Statement"
+    }
+  },
+  {
+    "title": "October 13 holds the overnight rate around 0.25 percent",
+    "bank": "Bank of Japan",
+    "date": "2000-10-13",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k001013.htm",
+    "excerpt": "The rate decision retained an average unsecured overnight call rate around one quarter of a percent for the intermeeting period.",
+    "file": "2000-10-13-14b344a95e.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (unchanged)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Japan chooses ranges and a constant-policy assumption for its first published forecasts",
+    "bank": "Bank of Japan",
+    "date": "2000-10-13",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k001013b.htm",
+    "excerpt": "The Bank announced a twice-yearly Outlook and Risk Assessment for April and October, to be determined at a Policy Board meeting.",
+    "file": "2000-10-13-df05951144.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Release of Outlook and Risk Assessment of the Economy and Prices",
+      "type": "Statement"
+    }
+  },
+  {
+    "title": "Collateral reform changes how much Bank credit different assets can support",
+    "bank": "Bank of Japan",
+    "date": "2000-10-13",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/mok0010a.htm",
+    "excerpt": "The October 13 decision establishes common eligibility and valuation rules for assets securing central-bank credit, plus a method for assessing corporate obligors.",
+    "file": "2000-10-13-8026814bbf.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Establishment of \"Guidelines on Eligible Collateral\"",
+      "type": "Statement"
+    }
+  },
+  {
     "title": "Stable inflation expectations are the hinge in the October decision to hold at 6.50%",
     "bank": "Federal Open Market Committee",
     "date": "2000-10-03",
@@ -1101,6 +2547,32 @@
       "jurisdiction": "United States",
       "title": "FOMC statement",
       "type": "Decision"
+    }
+  },
+  {
+    "title": "September 14 retains the quarter-percent overnight guide",
+    "bank": "Bank of Japan",
+    "date": "2000-09-14",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000914.htm",
+    "excerpt": "A majority kept the average unsecured overnight call rate objective around 0.25 percent for the period before the next meeting.",
+    "file": "2000-09-14-1f61f3f92f.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (unchanged)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Faster publication changes when Japan’s policy debate becomes tradeable information",
+    "bank": "Bank of Japan",
+    "date": "2000-09-08",
+    "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/m_ref/mpo0009a.htm",
+    "excerpt": "The Bank shortened the lag between a meeting and public access to the discussion.",
+    "file": "2000-09-08-21d4e2e300.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Changes in the Release Schedule of the Minutes of Monetary Policy Meetings and the Monthly Report of Recent Economic and Financial Developments",
+      "type": "Statement"
     }
   },
   {
@@ -1117,6 +2589,58 @@
     }
   },
   {
+    "title": "The Board rejects a request to defer the August policy vote",
+    "bank": "Bank of Japan",
+    "date": "2000-08-11",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000811b.htm",
+    "excerpt": "At the August 11 meeting, delegates of the Ministry of Finance and the Economic Planning Agency asked the Policy Board to defer the vote on a proposed change to its money-market guideline until the next monetary policy meeting.",
+    "file": "2000-08-11-a0db3001b0.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "On the Request from the Government to Postpone the Vote",
+      "type": "Statement"
+    }
+  },
+  {
+    "title": "The Bank of Japan ends zero rates after judging demand-driven deflation risk to have receded",
+    "bank": "Bank of Japan",
+    "date": "2000-08-11",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000811.htm",
+    "excerpt": "A majority changed the intermeeting instruction on August 11 to aim for an average unsecured overnight call rate around 0.25 percent.",
+    "file": "2000-08-11-fd195dcdaf.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Change of the Guideline for Money Market Operations (Zero interest rate policy lifted)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "July 17 retains the zero-rate instruction at the trading desk",
+    "bank": "Bank of Japan",
+    "date": "2000-07-17",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000717.htm",
+    "excerpt": "The decision notice records a majority vote to keep zero rates and continue supporting the transmission of existing easing.",
+    "file": "2000-07-17-7481c6bff0.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting decisions (Zero interest rate policy maintained)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Japan’s July hold turns on households and the fallout from Sogo",
+    "bank": "Bank of Japan",
+    "date": "2000-07-17",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000717b.htm",
+    "excerpt": "On July 17 the Board held the overnight policy at zero while explaining why a majority saw the economy approaching the condition for exit.",
+    "file": "2000-07-17-e01428739a.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "On the Current Monetary Policy",
+      "type": "Statement"
+    }
+  },
+  {
     "title": "Tentative demand moderation lets the Fed hold at 6.50% despite unusually tight labour resources",
     "bank": "Federal Open Market Committee",
     "date": "2000-06-28",
@@ -1126,6 +2650,45 @@
     "publication": {
       "jurisdiction": "United States",
       "title": "FOMC statement",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "June 28 carries the zero-rate instruction across midyear",
+    "bank": "Bank of Japan",
+    "date": "2000-06-28",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000628.htm",
+    "excerpt": "The Board maintained the zero-rate setting by majority vote and directed the Bank to provide enough funds, with flexibility, to guide unsecured overnight money as low as possible.",
+    "file": "2000-06-28-9f22beaa64.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "June 12 continues discretionary funding under a zero-rate policy",
+    "bank": "Bank of Japan",
+    "date": "2000-06-12",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000612.htm",
+    "excerpt": "The Bank kept the unsecured overnight call rate as low as possible by retaining its instruction to make funds available flexibly.",
+    "file": "2000-06-12-dbcef60bae.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "May 17 holds the overnight rate at its effective floor",
+    "bank": "Bank of Japan",
+    "date": "2000-05-17",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000517.htm",
+    "excerpt": "The majority renewed the zero-rate policy and instructed the Bank to supply funds flexibly, guiding unsecured overnight borrowing as low as practicable.",
+    "file": "2000-05-17-48de1550c4.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
       "type": "Decision"
     }
   },
@@ -1143,6 +2706,84 @@
     }
   },
   {
+    "title": "Bill-market reform prepares the Bank for real-time gross settlement",
+    "bank": "Bank of Japan",
+    "date": "2000-04-27",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/mok0004c.htm",
+    "excerpt": "The Bank set out how bill purchases and sales would operate when transfers between current accounts at the Bank moved exclusively to real-time gross settlement.",
+    "file": "2000-04-27-dbdf3d904e.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Principles Regarding Revision of Bill Purchasing/Selling Operations",
+      "type": "Statement"
+    }
+  },
+  {
+    "title": "Bill sales give the Bank a short-term instrument for absorbing funds",
+    "bank": "Bank of Japan",
+    "date": "2000-04-27",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/mok0004a.htm",
+    "excerpt": "The April 27 rules govern sales of bills issued and accepted by the Bank itself.",
+    "file": "2000-04-27-600f905272.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Principal Terms and Conditions Pertaining to the Sale of Bills",
+      "type": "Statement"
+    }
+  },
+  {
+    "title": "April bill-purchase terms separate the funding term from the collateral horizon",
+    "bank": "Bank of Japan",
+    "date": "2000-04-27",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/mok0004b.htm",
+    "excerpt": "From April 27 the Bank’s head office could buy accepted bills issued by a financial institution to itself.",
+    "file": "2000-04-27-33de3ad02c.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Principal Terms and Conditions Pertaining to the Purchase of Bills",
+      "type": "Statement"
+    }
+  },
+  {
+    "title": "April 27 maintains zero rates without fixing the amount of funding",
+    "bank": "Bank of Japan",
+    "date": "2000-04-27",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000427.htm",
+    "excerpt": "The Bank retained zero rates by majority vote.",
+    "file": "2000-04-27-9cac7cc90f.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "April 10 extends zero rates into the new fiscal year",
+    "bank": "Bank of Japan",
+    "date": "2000-04-10",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000410.htm",
+    "excerpt": "A majority kept the operating guideline in place as the new fiscal year began.",
+    "file": "2000-04-10-38819e36eb.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting decisions (Zero interest rate policy maintained)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "March 24 keeps the overnight directive through the end of March",
+    "bank": "Bank of Japan",
+    "date": "2000-03-24",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000324.htm",
+    "excerpt": "The Bank voted by majority to maintain zero interest rates.",
+    "file": "2000-03-24-bdde66b1c9.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+      "type": "Decision"
+    }
+  },
+  {
     "title": "A second quarter-point step takes the funds target to 6% as the Fed keeps its February diagnosis",
     "bank": "Federal Open Market Committee",
     "date": "2000-03-21",
@@ -1156,6 +2797,58 @@
     }
   },
   {
+    "title": "March 8 keeps the funding instruction in place ahead of fiscal year-end",
+    "bank": "Bank of Japan",
+    "date": "2000-03-08",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000308.htm",
+    "excerpt": "The majority reaffirmed the zero-rate policy to let existing easing reach the economy.",
+    "file": "2000-03-08-0878053fca.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "February 24 leaves the operating instruction open on quantities",
+    "bank": "Bank of Japan",
+    "date": "2000-02-24",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000224.htm",
+    "excerpt": "A majority retained zero rates.",
+    "file": "2000-02-24-66d3882a09.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "February 10 renews flexible funding under zero rates",
+    "bank": "Bank of Japan",
+    "date": "2000-02-10",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000210.htm",
+    "excerpt": "The Bank retained its instruction to provide ample liquidity on terms flexible enough to keep the unsecured overnight call rate as low as possible.",
+    "file": "2000-02-10-9fb1bcc9e9.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Why the ECB raised rates before headline inflation reached 2%",
+    "bank": "European Central Bank",
+    "date": "2000-02-03",
+    "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2000/html/is000203.en.html",
+    "excerpt": "The ECB raised its three rates by a quarter of a percentage point because waiting for clearer evidence of underlying inflation risked forcing a larger move later.",
+    "file": "2000-02-03-36afab6f27.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "ECB press conference, introductory statement with questions and answers",
+      "type": "Press conference"
+    }
+  },
+  {
     "title": "The Fed raises the funds rate to 5.75% even after allowing for faster productivity growth",
     "bank": "Federal Open Market Committee",
     "date": "2000-02-02",
@@ -1166,6 +2859,58 @@
       "jurisdiction": "United States",
       "title": "FOMC statement",
       "type": "Decision"
+    }
+  },
+  {
+    "title": "A stronger euro-area recovery could coexist with skill shortages and high unemployment",
+    "bank": "European Central Bank",
+    "date": "2000-01-26",
+    "url": "https://www.ecb.europa.eu/press/key/date/2000/html/sp000126.en.html",
+    "excerpt": "Otmar Issing regarded the euro-area upswing as an opportunity to cut unemployment, with an important qualification for anyone trading the policy path.",
+    "file": "2000-01-26-26c741a9ea.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "The euro area - first experience and perspectives",
+      "type": "Speech"
+    }
+  },
+  {
+    "title": "Who gains when disinflation lengthens European saving?",
+    "bank": "European Central Bank",
+    "date": "2000-01-21",
+    "url": "https://www.ecb.europa.eu/press/key/date/2000/html/sp000121.en.html",
+    "excerpt": "Christian Noyer argued that price stability could change both the maturity of European saving and the firms able to obtain it.",
+    "file": "2000-01-21-e545543d39.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "The role of the central bank in encouraging and safeguarding savings",
+      "type": "Speech"
+    }
+  },
+  {
+    "title": "January leaves Japan’s overnight rate at its effective floor",
+    "bank": "Bank of Japan",
+    "date": "2000-01-17",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000117.htm",
+    "excerpt": "The Policy Board voted by majority to continue zero interest rates so the easing already in place could work through the economy.",
+    "file": "2000-01-17-701b9d6bf9.json",
+    "publication": {
+      "jurisdiction": "Japan",
+      "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+      "type": "Decision"
+    }
+  },
+  {
+    "title": "Issuing in euros and holding euros were two different bets",
+    "bank": "European Central Bank",
+    "date": "2000-01-13",
+    "url": "https://www.ecb.europa.eu/press/key/date/2000/html/sp000113.en.html",
+    "excerpt": "Christian Noyer saw the euro’s first year as evidence that borrowers could help establish an international currency well before investors treated its securities as one fully integrated market.",
+    "file": "2000-01-13-2c61f0f486.json",
+    "publication": {
+      "jurisdiction": "Euro area",
+      "title": "The international impact of the euro",
+      "type": "Speech"
     }
   },
   {

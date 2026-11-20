@@ -1,0 +1,28 @@
+{
+  "title": "Hungary cuts by a quarter point after a subdued January repricing round",
+  "bank": "Magyar Nemzeti Bank",
+  "date": "2026-02-24",
+  "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-24-february-2026",
+  "summary": [
+    "Hungary’s Monetary Council cut the base rate from 6.50% to 6.25% on February 24, effective the following day. The overnight deposit and collateralised lending rates fell in parallel to 5.25% and 7.25%. The two-percentage-point corridor retained its width. The Council tied its ability to cut to two conditions: favourable underlying price developments and stability in financial markets, particularly the foreign exchange market. It still intended to maintain positive real rates. Neither the cut nor its size implied a commitment to repeat it at subsequent meetings (rate table and policy assessment).",
+    "January headline inflation fell to 2.1% and core inflation to 2.7%. All major groups except tradables contributed to the deceleration. The detail that mattered most was seasonal: the January repricing of market services was the most subdued in recent years. Businesses’ price expectations had shown limited momentum over the previous six months, while households’ inflation expectations had stopped falling. An unusually low January reset can shape annual services inflation for some time because many firms review prices intermittently. It is a different signal from an isolated fall in food or energy (domestic inflation assessment).",
+    "There were important qualifications. A stronger forint had reduced purchase costs, and price-margin restrictions had been extended until the end of May. The Bank expected headline inflation below the 3% target for several months and then temporarily near the top of the tolerance band. Its December forecast placed a durable return to target only in the second half of 2027. Current inflation below target could therefore support a cautious cut without establishing that further policy accommodation was automatically appropriate. A reversal of exchange-rate gains or the expiry of restrictions could change the timing and scale of the subsequent increase (inflation outlook).",
+    "Hungary’s economy grew only 0.4% in 2025. Retail spending was increasing while industrial activity remained subdued and labour-market tightness was easing. Strengthening real wages and government income measures were expected to sustain consumption. Higher budgetary spending could, however, complicate a reduction in public debt relative to GDP. The Bank anticipated that industrial export volumes would benefit from new productive capacity and gradually improving external markets, with the current-account surplus averaging around 2% of GDP. This mix matters for markets: policy easing can assist domestic financing while fiscal risks or currency weakness offset some of the benefit to bond yields (growth and balance-of-payments assessment).",
+    "The Council described inflation risks as balanced and foreign-exchange stability as crucial to reducing expectations. Its references to possible foreign rate cuts described market pricing, including two expected US reductions in 2026, rather than an independent policy commitment by other central banks. To identify whether the domestic cut eased market conditions, compare the unexpected part of the decision with immediate changes in forint rates and the currency. The policy rate in the effective daily series changes on February 25; the information was already public on February 24 (rate table and external conditions)."
+  ],
+  "questions": [
+    {
+      "question": "How much information did January market-service repricing supply about the full year?",
+      "detail": "Compare January price changes across service categories with historical reset patterns and subsequent monthly momentum. Distinguish firms covered by temporary restrictions from freely set prices. A muted annual reset may be more durable than a one-off decline in a volatile food price."
+    },
+    {
+      "question": "Did the stronger forint reduce retail prices or replenish margins?",
+      "detail": "Compare exchange-rate changes with wholesale purchase costs and final prices in higher and lower import-content categories. Allow for contract timing, currency hedges and price-margin rules. Lower wholesale prices with unchanged final prices would give a different pass-through estimate from a reduction in consumer prices."
+    },
+    {
+      "question": "How much easing did markets anticipate?",
+      "detail": "Capture market rates for the February meeting just before the decision, then examine the forint and later short-rate forwards. Control for changes in euro rates and regional currencies. A quarter-point move in the policy instrument can coexist with little change in longer yields if it was already priced."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Korea holds at 2.50% as the same oil shock threatens output and prices",
+  "bank": "Bank of Korea",
+  "date": "2026-04-10",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000627/view.do?nttId=10097453&menuNo=400022",
+  "summary": [
+    "All seven members backed a hold at 2.50% on April 10. The outlook since February had changed markedly. The Bank expected annual growth to be below its previous 2.0% forecast and inflation to exceed the previous 2.2% projection considerably. It also expected core inflation to exceed the earlier 2.1% forecast somewhat. Those are directions of revision rather than new point forecasts. The decision gave the Board time to distinguish a temporary increase in energy prices from a persistent shock to supply chains, expectations and local prices (decision and Governor’s opening remarks).",
+    "The closure of the Strait of Hormuz and damage to energy infrastructure had lifted prices and affected physical supply. A two-week ceasefire had partly reversed moves in the dollar, global yields and equities. The Bank emphasized that normalizing energy logistics could take much longer than reaching a ceasefire. Before the conflict, strong exports and a recovery in consumption had supported better-than-expected growth. The new risks came through weaker confidence, higher input costs and production constraints in energy-dependent industries. Continued semiconductor exports and the government’s supplementary budget were expected to offset part of that loss. A shock to physical production would have different effects on real activity from a pure increase in the import bill (opening remarks, external and domestic conditions).",
+    "March headline CPI rose to 2.2% from 2.0% in February despite measures including a petroleum-product price ceiling. Core inflation moved the other way, from 2.3% to 2.2%, reflecting softer personal services inflation. Short-term public inflation expectations rose to 2.7%. The Bank expected near-term inflation in the middle to upper 2% range. The amount and timing of pass-through depended on oil, the exchange rate and government stabilization measures. Headline and core inflation happened to coincide at 2.2% in March, but the direction and composition of the two moves differed. Treating that coincidence as evidence that energy had already spilled broadly into services would misrepresent the published evidence (decision and opening remarks).",
+    "The Governor contrasted this starting point with 2022. The earlier energy shock struck as consumption recovered from pandemic restrictions. Europe bore a particular exposure to Russian gas. In 2026 an uneven Korean recovery and Asia’s dependence on Middle Eastern crude raised the risk of greater damage to activity. At the same time, the won price of the dollar was higher and households had recently experienced pronounced inflation. Expectations might therefore react more readily to price increases. That comparison gives an empirical reason to examine the state of demand and the currency before extrapolating from the response to an earlier commodity shock (opening remarks, decision rationale).",
+    "The won per dollar moved into the 1,500 range following dollar strength and foreign sales of Korean equities, then declined after the ceasefire. Treasury yields initially rose with expected domestic and foreign inflation and subsequently fell. Household loan growth remained low under tight macroprudential policy, although other lending rose partly alongside stock-market borrowing. Housing price growth and expectations moderated overall around Seoul, while transactions and prices still increased in outer Seoul and unregulated metropolitan districts. The rate hold did not establish a stable new equilibrium in either the foreign-exchange or housing market. The Board intended to reassess the duration and magnitude of the external shock as new information arrived (opening remarks, financial and housing assessments)."
+  ],
+  "questions": [
+    {
+      "question": "How much of the imported energy shock was hidden by price stabilization measures?",
+      "detail": "Compare crude and refined import costs in won with producer prices, retail petroleum prices and the timing of the price ceiling. Track margins, stock changes and actual quantities. A contained retail CPI reading can coexist with material downstream pressure or physical shortages for industrial users."
+    },
+    {
+      "question": "Did the ceasefire reverse risk premia faster than it restored supply?",
+      "detail": "Compare the immediate moves in the won, oil futures, Treasury yields and equities with subsequent tanker flows, inventories and delivery times. Distinguish transactions near the ceasefire news from the policy announcement. Market optimism can reverse financial prices well before industrial activity and refining schedules normalize."
+    },
+    {
+      "question": "Was housing credit migrating beyond regulated districts?",
+      "detail": "Track transaction volume, sale prices and loan types across adjacent regulated and unregulated neighbourhoods. Adjust for differences in housing type and price tier. Falling national loan growth alongside rising activity in particular outer districts would be consistent with geographic shifting rather than uniform financial stabilization."
+    }
+  ],
+  "limitation": ""
+}

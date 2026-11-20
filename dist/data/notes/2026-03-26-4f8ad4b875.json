@@ -1,0 +1,27 @@
+{
+  "title": "Banxico resumes cuts in a split vote despite higher near-term inflation forecasts",
+  "bank": "Banco de México",
+  "date": "2026-03-26",
+  "url": "https://www.banxico.org.mx/publicaciones-y-prensa/anuncios-de-las-decisiones-de-politica-monetaria/%7B44EB2DF8-E71A-1553-7322-F60A34382EBA%7D.pdf",
+  "summary": [
+    "Banco de México voted three to two to cut its overnight interbank target by 25 basis points to 6.75%, effective 27 March. Governor Victoria Rodríguez Ceja, José Gabriel Cuadra García and Omar Mejía Castelazo backed the cut. Galia Borja Gómez and Jonathan Heath preferred to hold at 7.00%. The case for easing rested on pronounced weakness in activity at the start of the year, the level of the peso and the restraint already delivered. The majority judged the new setting adequate even if Middle Eastern conflict persisted or escalated. Its guidance left open whether and when to make one additional reduction. The voting record establishes the preferred rate of the two dissenters; the announcement does not give their individual reasons.",
+    "Headline inflation rose from 3.77% in the first half of January to 4.63% in the first half of March. The increase came from non-core components. Core inflation was almost unchanged at 4.46%, against 4.47% initially. Banxico saw no evidence that tax changes at the beginning of the year had triggered second-round effects. That does not remove the services problem: a slower decline in services prices was one reason the forecast was revised higher. End-2026 inflation expectations rose, while longer-horizon expectations were comparatively stable above the 3% target. These are distinct forms of persistence. A one-off tax change, ongoing services inflation and a shift in long-term expectations would warrant different policy responses.",
+    "The second-page table shows where the news entered the forecast. Against the February vintage, projected annual headline inflation in the quarterly-average index rose from 4.0% to 4.1% in 2026 Q1, from 3.8% to 4.0% in Q2 and from 3.6% to 3.7% in Q3. Core expectations in the table are Banxico forecasts: its corresponding projections each rose 0.1 percentage point, to 4.5%, 4.1% and 3.7%. The current-year Q4 forecasts stayed at 3.5% headline and 3.4% core. The expected first quarter at 3.0% for both measures was still 2027 Q2. That limited revision at the far end was part of the logic for easing in the face of an adverse near-term print. The table’s separate memorandum shows annualised, seasonally adjusted quarter-on-quarter rates, which use a different denominator from these annual figures.",
+    "Mexican medium- and longer-term government yields had risen since the preceding decision and the peso had depreciated moderately. International risk appetite weakened, the US dollar strengthened and US Treasury yields rose as commodity prices became more volatile. These are observations about the interval before the vote. They cannot establish whether the cut itself surprised investors. Banxico judged risks to the inflation forecast skewed upward but also noted that weaker Mexican or US activity, limited cost pass-through and earlier peso appreciation could reduce pressure. A policy research interpretation therefore needs both dimensions: the majority cut the current rate while retaining flexibility over the timing and possibility of any further reduction."
+  ],
+  "questions": [
+    {
+      "question": "Could weak domestic demand reduce services inflation quickly enough for the unchanged 2027 convergence date?",
+      "detail": "Compare labour-intensive service prices, wage growth and activity by sector with Banxico’s quarterly vintages. Separate the impact of the early-year tax changes and the recent jump in non-core prices. If services remain stubborn even where activity is weak, the relevant issue is the resilience of that component rather than the transient rise in the headline."
+    },
+    {
+      "question": "How much of the move in the Mexican curve reflected international risk rather than the Board’s decision?",
+      "detail": "Compare matched-maturity Mexican and US government yields, the peso and oil before the meeting, then use a separate announcement window for the decision. Local nominal bond yields include compensation for term and inflation risk. One cannot infer the surprise in the overnight target by comparing those yields over the entire intermeeting period."
+    },
+    {
+      "question": "Did markets interpret the three-to-two vote as limiting the probability of a further cut?",
+      "detail": "Compare pricing for the next few meetings with the path farther out and inspect pre-release expectations. The statement allowed one additional adjustment but gave no date; the two dissents favoured leaving the current rate unchanged. That combination could alter expected timing without a comparable change in the anticipated eventual level of rates."
+    }
+  ],
+  "limitation": ""
+}

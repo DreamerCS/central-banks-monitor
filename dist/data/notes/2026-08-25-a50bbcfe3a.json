@@ -1,0 +1,28 @@
+{
+  "title": "Hungary takes a third consecutive summer cut before the September forecast",
+  "bank": "Magyar Nemzeti Bank",
+  "date": "2026-08-25",
+  "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-25-august-2026",
+  "summary": [
+    "On August 25 the MNB lowered the base rate by 25 basis points to 5.50%, the third consecutive monthly reduction. The overnight deposit and lending rates fell to 4.50% and 6.50%, respectively. July’s inflation reading was again below both market expectations and the June Inflation Report. A stable domestic risk premium helped preserve the space for the cut despite rising European gas prices. The decision marked the end of the period for which the Council had previously indicated scope for summer easing, with the next full forecast set to inform subsequent choices (rate table and policy assessment).",
+    "July headline inflation fell to 1.2%, while core inflation declined to 1.9%. Food and tradable-goods inflation eased. Market services inflation increased, however, with monthly price changes concentrated in banking and telecommunications after a period of voluntary price restrictions. A price adjustment following the end of a voluntary restraint has different implications from a broad acceleration in wages or demand across the service sector. Whether its impact persists depends partly on subsequent adjustments once the affected firms have restored their tariffs. Households’ expectations remained below levels at the start of the year, while retail and service firms’ expected price increases both moderated compared with the previous month (price assessment).",
+    "The Council still projected inflation below the 3% target over the rest of 2026 and 2027, returning in the first half of 2028. This was the outlook against the target known in August. A historical series should not retroactively apply a subsequently announced change in the target to the interpretation of this meeting. The Council’s emphasis on positive real rates also relied on expected inflation and financial stability, not merely on subtracting an unusually low realized headline rate from the new nominal rate (outlook and closing guidance).",
+    "The preliminary estimate put second-quarter GDP growth at 1.7% year on year. Global oil was broadly unchanged in the weeks before the meeting while European gas prices rose. Markets were pricing a slight upward path in US and euro-area policy rates by year-end and developed-market long yields remained historically high. By contrast, the Hungarian risk premium had remained stable and recent inflation repeatedly surprised on the downside. The domestic and global influences on the forint consequently need separate treatment. If Hungarian yields declined while foreign rates rose, an unchanged exchange rate could reflect offsetting confidence or capital-flow changes (activity and international assessment).",
+    "The release did not promise the same pace of reductions beyond August. Fiscal prospects, perceptions concerning euro adoption and the external market environment remained determinants of policy room. A market surprise could therefore arise from the change in the current rate, from an inferred pause after the summer, or from a shift in the risk premium. Isolating those channels requires a pre-release curve and synchronized exchange-rate observations, not just the cumulative 75-basis-point decline between June and August (decision and forward assessment)."
+  ],
+  "questions": [
+    {
+      "question": "Was the services increase a one-off catch-up after voluntary price restrictions?",
+      "detail": "Compare banking and telecommunications tariff changes with other services by size, timing and frequency. Track changes after the first adjustment and distinguish one-off fees from recurring charges. A brief relative-price reset would have different persistence from repeated increases across a broad basket."
+    },
+    {
+      "question": "How much of the decline in headline inflation surprised markets versus the central bank?",
+      "detail": "Build separate series of forecast errors against release-date consensus and the June staff projection. Compare predictable food or exchange-rate effects with residual changes in core prices. An undershoot relative to both benchmarks could still have had little policy-day impact if the CPI data were already public."
+    },
+    {
+      "question": "Did the summer reductions weaken the currency once relative rates were taken into account?",
+      "detail": "Measure changes in Hungarian versus euro-denominated short rates, the forint and local sovereign spreads at each announcement. Control for global gas and regional currencies. Distinguish the unexpected part of each cut from the cumulative nominal change that investors could have priced before August."
+    }
+  ],
+  "limitation": ""
+}

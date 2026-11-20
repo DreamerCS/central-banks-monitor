@@ -1,0 +1,28 @@
+{
+  "title": "Czech policy pauses to assess the June rise while core inflation stays near 3%",
+  "bank": "Czech National Bank",
+  "date": "2026-08-06",
+  "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1785999600000/?tab=statement",
+  "summary": [
+    "All seven Board members kept the two-week repo rate at 3.75% on August 6. The Board assessed that June’s increase had tightened monetary conditions as intended. Its immediate strategy was to observe the effect of that restraint and incoming data. At the same time, core inflation had remained just below 3% for eight months without a meaningful downward trend. The unchanged rate represented a decision to allow transmission time despite persistent inflation, rather than a declaration that the source of the June hike had disappeared (August press statement, decision).",
+    "The summer forecast put average headline inflation at 2.0% in 2026 and 2.5% in 2027. This was a change from spring’s 2.2% and 2.4%, respectively. A lower average for the current year therefore coincided with a slightly higher projection for the next. Staff still expected a temporary increase around late 2026 and early 2027. A calendar-year average at target could coexist with both that predicted increase and an already sticky underlying component. The Bank lowered its growth forecast for 2026 from 2.5% to 2.2%, leaving 2027 at 2.7%. This revision reinforced the case for measuring the effects of the previous move before adding further restraint (outlook).",
+    "Domestic services, housing costs and the labour market remained central. The Board associated rapid wage growth and rising household consumption with service-sector pressures, and saw elevated property price growth as inflationary. A relatively tight rate could eventually affect both new credit and spending, but the starting stock of mortgages or bank loans would adjust more slowly. Credit growth was still accelerating, and financing higher public expenditure through debt was another source of expanding money balances. An unchanged cash rate can be progressively more restrictive as a larger share of loans is repriced, even when outstanding balances still grow (decision and risks).",
+    "The balance of risks remained tilted toward higher inflation. A rise in public deficits, continued service-price persistence and additional lending to households or government could keep demand and prices stronger than assumed. The conflict in the Middle East posed a risk to expectations if earlier cost rises became embedded. Weakness elsewhere in the euro area, trade barriers and potential global asset-price corrections offered counterweights. The statement acknowledged that headline inflation had stayed close to target over a longer period, affording the Board scope to evaluate these forces (risks and uncertainties).",
+    "This was the first scheduled meeting after the June increase. Its core research question is whether the acknowledged tightening had changed only market rates or had begun to affect quantities and prices. The unanimous hold establishes the current decision. It does not identify the probability of a further rise. For market analysis, match relative Czech and euro-area rate changes to the 14:30 decision and distinguish them from the later statement, vote and forecast discussion at the press conference (decision and official release schedule)."
+  ],
+  "questions": [
+    {
+      "question": "Was June tightening visible in actual borrower cash flows by August?",
+      "detail": "Follow mortgage and business loan quotations, refinancing cohorts and approvals. Compare new contract rates with average interest paid on outstanding loans, preserving known repricing dates. A prompt rise in offers without an immediate drop in spending would be consistent with ordinary lags rather than ineffective policy."
+    },
+    {
+      "question": "Why did average 2026 inflation fall while the 2027 projection rose?",
+      "detail": "Compare spring and summer quarterly profiles, isolating earlier realized readings, temporary energy effects and changes in domestic services. Distinguish an arithmetic change in the annual mean from a genuine increase in the forecast for later quarters. Include the persistence of core and imputed-rent inflation."
+    },
+    {
+      "question": "What part of monetary growth originated in public versus private balance sheets?",
+      "detail": "Separate household credit, general-government borrowing, deposits and company lending, allowing for valuation and repayment effects. Compare these flows with actual government disbursements and household spending. The policy implications of new mortgages differ from those of temporary public cash management."
+    }
+  ],
+  "limitation": ""
+}

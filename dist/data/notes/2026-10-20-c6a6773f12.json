@@ -1,0 +1,28 @@
+{
+  "title": "Hungary holds as foreign yields rise and domestic core prices remain subdued",
+  "bank": "Magyar Nemzeti Bank",
+  "date": "2026-10-20",
+  "url": "https://mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-20-october-2026",
+  "summary": [
+    "The Monetary Council left Hungary’s base rate at 5.50% on October 20. The overnight deposit rate remained 4.50% and the lending rate 6.50%. The statement retained September’s forecast and the announcement that the inflation target would become 2.5% in January 2028. The immediate choice was to preserve current financial conditions while global energy prices and interest rates were high. September’s consumer data were broadly consistent with the forecast and offered little reason to reverse the previous month’s pause (rate table and policy guidance).",
+    "September headline inflation stood at 1.6%, driven upward mainly by fuel. Food prices continued to fall while annual market-service inflation increased slightly. Core inflation was 1.9%. On a monthly basis the core basket rose at around its average pace in 2017–20. This historical comparison supplied evidence about recent pricing momentum independent of the relatively low annual headline. It did not imply that every component or expectation had returned to its earlier pattern. Household expectations and firms’ price expectations in retail and services were moderate (price assessment).",
+    "The MNB continued to project 1.8% annual average inflation in 2026 and 3.1% in 2027. Higher fuel prices and a change to tobacco excise were the main reasons for the expected increase. The statement envisaged a subsequent decline to the future 2.5% target by the end of the policy horizon. The sequence matters: a tax-driven increase may raise the price level on implementation and annual inflation during the following year without creating a permanent increase in the monthly pace. A persistent effect would depend on wage negotiations, price-setting or expectations reacting to that increase (inflation outlook).",
+    "The growth picture had several moving parts. Industrial output was growing while retail sales growth slowed in August. Consumer confidence remained historically high and business confidence improved slightly in September. Real wages were growing strongly even as nominal wage growth moderated, a combination possible when inflation is low. Drought reduced agricultural production, with higher industrial exports only partly offsetting the decline. The stance therefore cannot be inferred from confidence or wage figures alone. Compare volumes, incomes and sectoral capacity rather than treating slower retail growth as evidence that all demand was weak (domestic activity discussion).",
+    "The external backdrop favoured caution. The US dollar had strengthened and already-high foreign long yields had risen further against concerns about geopolitics and the sustainability of debt paths. The Council also emphasized how fiscal measures, prospects for euro adoption and their reception by investors could affect Hungarian risk premia. A domestic bond sell-off that tracks global yields has different implications for the currency and monetary policy room from an increase in the Hungary-specific premium. The Council did not publish a numerical decomposition. For a market study, identify both components before treating changes in the government yield curve as evidence that another domestic rate move had been priced (external environment and guidance)."
+  ],
+  "questions": [
+    {
+      "question": "Was the rise in headline CPI mainly fuel, or was underlying momentum turning?",
+      "detail": "Compare seasonally comparable monthly core changes with the 2017–20 benchmark and separate fuel, food and services. Follow the breadth of service increases and pricing expectations. A higher annual CPI alongside stable core momentum would support a different policy interpretation from an acceleration across both."
+    },
+    {
+      "question": "Did stronger real wages translate into more consumption despite slower retail growth?",
+      "detail": "Compare real earnings with retail volumes, services expenditure and saving, adjusting for tax or transfer changes. Examine whether historically strong confidence preceded actual spending or simply reflected improved purchasing power. Separate agriculture’s supply-driven output loss from broader domestic demand."
+    },
+    {
+      "question": "How much of the change in long yields was Hungary-specific?",
+      "detail": "Compare local government bonds with euro benchmarks and swaps at matching maturities, then examine the forint and regional sovereign spreads. Control for broad dollar appreciation. A common foreign term-premium increase and a deterioration in domestic fiscal credibility require different explanations even if both raise headline yields."
+    }
+  ],
+  "limitation": ""
+}

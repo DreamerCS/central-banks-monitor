@@ -1,0 +1,25 @@
+{
+  "title": "April 10 extends zero rates into the new fiscal year",
+  "bank": "Bank of Japan",
+  "date": "2000-04-10",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000410.htm",
+  "summary": [
+    "A majority kept the operating guideline in place as the new fiscal year began. The Bank wanted earlier easing to keep working and would adjust funding flexibly to guide the unsecured overnight rate as low as possible. The text provides no fresh diagnosis of spending or prices. In particular, it does not say whether any funding strains around the end of March had appeared or receded.",
+    "The meeting ended at 3:33 p.m. The Bank scheduled the economic assessment for April 12 and minutes for May 22. Those dates allow an analyst to distinguish the immediate reaffirmation of policy from later evidence about its rationale."
+  ],
+  "questions": [
+    {
+      "question": "Did the price of term funding normalise after the fiscal turn?",
+      "detail": "Compare like-maturity funding rates in late March and early April, accounting for the exact days spanned. Then test whether the April 10 announcement introduced any further discontinuity."
+    },
+    {
+      "question": "Who still paid a premium for overnight funds?",
+      "detail": "Where transaction records permit, split rates and volumes by counterparty type. A systemwide mean near zero need not describe every borrower’s access."
+    },
+    {
+      "question": "Did the April 12 assessment change the expected policy horizon?",
+      "detail": "Use pre-release views and the timing of yen rate quotes. Comparing the decision and assessment as separate events preserves the distinction between instrument news and macroeconomic news."
+    }
+  ],
+  "limitation": ""
+}

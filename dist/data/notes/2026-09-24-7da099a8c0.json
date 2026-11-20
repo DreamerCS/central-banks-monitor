@@ -1,0 +1,27 @@
+{
+  "title": "A softer summer core reading changed the timing, not Norway’s case for restraint",
+  "bank": "Norges Bank",
+  "date": "2026-09-24",
+  "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-09-24-rate/",
+  "summary": [
+    "At its 23 September meeting Norges Bank raised the policy rate from 4.25% to 4.50%, announcing the decision on 24 September. Headline CPI had exceeded the June forecast even as tax-adjusted inflation excluding energy, CPI-ATE, had slowed more than expected. The Committee’s reason for moving lay farther ahead. Business costs had risen rapidly for several years and the underlying inflation outlook beyond the recent observations appeared little changed. The longer above-target inflation persisted, the more likely households and firms were to plan on it continuing. The Bank judged that a modestly tighter stance was needed despite the better summer core readings.",
+    "International and currency effects complicated that judgement. Oil, gas and other commodity prices had risen since June, while the krone had strengthened and was expected to restrain imported goods prices. Market interest rates had already increased at home and abroad. Wage growth was expected to slow from 2025 and remained broadly in line with the June forecast. These mixed signals did not amount to evidence that every inflation driver had intensified. The Committee was acting on its estimate of persistence and the risk of failing to return inflation to 2% within a reasonable period.",
+    "Mainland activity had increased broadly as forecast and employment had risen. Unemployment changed little, although fewer Regional Network businesses were reporting labour shortages or capacity constraints. Overall capacity was slightly below normal, but appeared to be declining less than expected. That difference is material. The level of slack was consistent with some cooling, while the change relative to forecast offered less reason to expect rapid disinflation through demand alone.",
+    "The new rate forecast stayed near 4.50% for a period and then declined somewhat. The revised path kept rates elevated slightly longer than in June. Another hike remained possible if external price pressure became stronger, while faster disinflation or a weaker labour market could bring the path lower. Conditional on the forecast, inflation was expected to slow from 2027 and approach 2% in 2029. The government had introduced a monetary-policy regulation on 18 September, but the wording of the objectives and considerations remained the same and the Bank stated that policy conduct was unchanged. Coding the regulatory date as a new monetary regime would therefore misstate the source (forecast and closing paragraphs)."
+  ],
+  "questions": [
+    {
+      "question": "Did investors reprice the height or the duration of the rate path?",
+      "detail": "Compare expected overnight rates just after the decision with rates farther along the curve. The revised forecast emphasised longer restraint even though it remained near 4.50% initially. The timing of market moves matters because rates abroad had already risen."
+    },
+    {
+      "question": "Did the summer CPI-ATE slowdown predict broader disinflation?",
+      "detail": "Track domestic and imported component prices, wage settlements and business costs relative to June and September projections. A stronger krone could reduce import prices while domestic inflation remained persistent. The components would help determine whether the headline and underlying surprises were likely to converge."
+    },
+    {
+      "question": "Did firms’ easier access to labour signal more slack than aggregate employment implied?",
+      "detail": "Compare Regional Network measures of shortages and capacity with employment, vacancies, hours and registered unemployment. The speed at which easing recruitment reached actual wage growth matters for the duration of restraint and for the outlook for domestic borrowers."
+    }
+  ],
+  "limitation": ""
+}

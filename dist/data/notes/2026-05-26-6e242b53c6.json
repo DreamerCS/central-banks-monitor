@@ -1,0 +1,28 @@
+{
+  "title": "Hungary waits for June’s forecast despite a stronger forint and softer inflation",
+  "bank": "Magyar Nemzeti Bank",
+  "date": "2026-05-26",
+  "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-26-may-2026",
+  "summary": [
+    "The Council held the base rate at 6.25% on May 26 and left the 5.25–7.25% overnight corridor in place. It described the inflation outlook as significantly improved, while reserving a comprehensive assessment for the June Inflation Report. The more favourable domestic data and lower risk premia had increased potential room for easing. The timing still depended on the durability of the improvement, the treatment of regulated prices and external financial stability (decision and policy assessment).",
+    "Headline inflation was 2.1% in April and core inflation 2.2%, both below the March projection and near the lower side of the target band. Household inflation expectations declined again, while firms’ expectations rose but still pointed to modest price pressure. Both the stronger forint and postponed withdrawal of regulated fuel prices and retail margin caps reduced the near-term inflation path. Their implications differ. Currency appreciation can durably reduce the local cost of imports if maintained. Postponed liberalization can instead move the price adjustment into a later month or year without changing the underlying cost (inflation assessment).",
+    "Risk premia on Hungarian assets had declined substantially since the March Inflation Report even though international oil and gas remained above pre-conflict levels. The Bank associated prospective durability with expectations for EU funds, fiscal policy and euro adoption. Meanwhile policy expectations abroad had shifted upward. Markets were pricing rate rises by the ECB and some regional central banks, and developed-market long yields had increased. A lower domestic risk premium can offset part of a rise in foreign benchmark yields, so the level of Hungary’s bond yield alone is not enough to establish whether the domestic risk outlook improved (financial conditions).",
+    "Household consumption remained the main driver of the expected recovery, while recent investment in production capacity supported industrial export potential. The Bank expected the current-account balance to weaken temporarily before recovering. Improved confidence in local assets and a favourable exchange rate could support real household incomes, while a persistent energy price increase would work in the opposite direction. The release stopped short of publishing newly revised annual forecasts ahead of June. For a real-time archive the observed 2.1% April inflation figure should not be used as a proxy for that forthcoming projection (activity assessment and outlook).",
+    "The decision was principally about what extra information a few weeks might provide. Confirmation that domestic risk premia had settled at lower levels and a forecast that separated the roles of import costs and regulation could justify a different assessment of policy room. Uncertainty about external energy costs still supported restraint. An investor who had expected a cut might regard the hold as restrictive even while interpreting the more favourable outlook as a signal of later easing. Only pricing immediately before and after release can establish which surprise dominated (closing guidance)."
+  ],
+  "questions": [
+    {
+      "question": "How much of the forecast improvement depended on delayed removal of regulation?",
+      "detail": "Estimate the near-term CPI contribution of regulated fuel and retail margin caps under alternative withdrawal dates. Compare with import-cost changes attributable to the forint. A low forecast under extended caps is different evidence about durable disinflation from weak underlying supplier and service prices."
+    },
+    {
+      "question": "Were lower domestic risk premia offsetting a rise in international yields?",
+      "detail": "Compare Hungarian sovereign yields with euro benchmarks at matched maturities, alongside the forint, swaps and regional peers. Identify domestic fiscal and EU-funding news separately from foreign monetary news. Test persistence over several weeks rather than relying on the price level on one decision day."
+    },
+    {
+      "question": "Did consumers and firms react differently to the improved exchange rate?",
+      "detail": "Compare retail sales volumes and household expectations with imported input costs, margins and company pricing plans. Hold energy exposure constant where possible. Improving household purchasing power can sustain consumption while firms continue to anticipate cost-driven price increases."
+    }
+  ],
+  "limitation": ""
+}

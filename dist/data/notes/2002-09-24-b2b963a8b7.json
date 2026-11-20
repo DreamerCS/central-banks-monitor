@@ -1,0 +1,26 @@
+{
+  "title": "Two members seek a cut as the Fed holds and the timing of hiring remains uncertain",
+  "bank": "Federal Open Market Committee",
+  "date": "2002-09-24",
+  "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20020924/",
+  "summary": [
+    "Ten voters retained the 1.75% federal funds target. Edward Gramlich and Robert McTeer opposed the hold and preferred a reduction. The announcement did not give a preferred size. Recording both as votes for a specific quarter- or half-point cut would inject precision not present in the release. Unlike a numerical forecast, the dissent identifies the direction of the alternative and the fact that it was wanted at this meeting.",
+    "Aggregate demand was growing at a moderate pace. The Committee expected accommodation and solid underlying productivity growth eventually to improve the business climate. Its reservation concerned the extent and timing of a recovery in production and employment, partly owing to heightened geopolitical risks. Firms can meet some current orders from existing resources and delay hiring or production expansion when confidence in future sales is low. Moderate demand growth therefore did not by itself resolve uncertainty about employment.",
+    "Economic weakness remained the dominant risk. No reasons specific to the dissenters were supplied, so their preference for a cut cannot be assigned to one geopolitical event, a particular employment forecast or an estimate of the neutral rate. The vote and the assessment together identify a hold with a meaningful easing minority, not a disclosed plan for the next meeting."
+  ],
+  "questions": [
+    {
+      "question": "Did moderate demand growth translate into hiring, hours or simply the use of existing capacity?",
+      "detail": "Compare final sales, production, utilisation, hours and payrolls, allowing for different reporting lags. An increase in orders absorbed through existing labour and equipment would justify less confidence in near-term job growth than a broad rise in vacancies and hiring."
+    },
+    {
+      "question": "Was geopolitical uncertainty leading firms to delay irreversible decisions?",
+      "detail": "Examine investment plans, orders and hiring intentions at otherwise similar firms with different exposures. Differentiate postponements from cancellations and distinguish uncertainty from direct changes in energy costs or foreign sales."
+    },
+    {
+      "question": "What did investors learn from knowing the two dissents were for easing?",
+      "detail": "Compare expected policy paths before and after release and consider what the market already knew about individual preferences. The size of the preferred cut was unspecified, so inference about the next move requires more than translating the two votes into basis points."
+    }
+  ],
+  "limitation": ""
+}

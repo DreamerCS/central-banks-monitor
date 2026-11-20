@@ -1,0 +1,28 @@
+{
+  "title": "Korea’s growth upgrade leaves the non-IT economy behind",
+  "bank": "Bank of Korea",
+  "date": "2026-02-26",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000627/view.do?nttId=10096671&menuNo=400022",
+  "summary": [
+    "All seven Bank of Korea Monetary Policy Board members voted to keep the Base Rate at 2.50% on February 26. The new outlook upgraded 2026 GDP growth from 1.8% to 2.0%, leaving estimated growth outside information technology at 1.4%. January headline and core inflation were both 2.0%. The combination reduced the urgency of additional stimulus, but the improved aggregate forecast also overstated how widely the recovery had spread. Financial stability continued to matter given volatile foreign exchange markets and elevated expectations for house prices around Seoul (decision and opening remarks).",
+    "The Governor provided a numerical bridge between forecasts. Strong semiconductors, exports and equipment investment contributed an estimated 0.35 percentage points to the growth revision. Better corporate incomes feeding into consumption added around 0.05 points, while a weaker construction recovery subtracted about 0.20 points. Together these changes produce the 0.20-point net upward revision. They are estimated contributions relative to the previous forecast, rather than sector growth rates or contributions to the full 2.0% level. Korea’s position in the AI supply chain was therefore central to the upgrade, even while weakness in domestic construction materially offset it (opening remarks, revised outlook).",
+    "The improvement in the chip cycle also had a price channel. The Bank raised its 2026 forecasts for CPI and core inflation, each by one tenth of a percentage point, to 2.2% and 2.1% respectively. Higher semiconductor prices could raise costs for products such as electronic devices. At the time, lower petroleum and agricultural price increases had brought headline CPI down to target. Core inflation excluding food and energy was unchanged at 2.0%, and short-term public inflation expectations remained at 2.6%. The higher forecast did not amount to a finding of excess domestic demand. Changes in export prices can improve national income while putting upward pressure on selected consumer goods before there is any broadening of demand (decision and forecast discussion).",
+    "Financial markets reflected additional forces. Korean Treasury yields had risen as expectations of a domestic rate cut receded and fund flows altered the supply-demand balance, then partially retraced. The won fluctuated with resident foreign investment, sales of Korean shares by overseas investors and moves in neighbouring currencies, before strengthening appreciably. Lower overseas investment by the National Pension Service was partly offset by continued strong investment abroad by other residents. A large export sector can therefore coexist with currency pressure from portfolio decisions. The Governor also reported strong equity prices amid more volatile global technology valuations, making an observed move in the stock index an unreliable standalone measure of domestic policy news (opening remarks, financial markets).",
+    "Macroprudential tightening constrained household credit. Housing price increases near Seoul slowed alongside the plan to end temporary relief from higher capital-gains taxes for multiple-home owners. Expectations of further price rises remained elevated, so the Bank wanted evidence that stabilization was durable. The hold preserved the ability to assess the breadth of the recovery, inflation and financial stability together. In a historical market study, a move after publication of the decision could reflect the revised IT growth outlook or reduced cut expectations, while the added detail in the opening remarks may arrive later. Match the timing of each release before attributing intraday changes to one channel (decision and concluding remarks)."
+  ],
+  "questions": [
+    {
+      "question": "Did semiconductor income strengthen demand beyond IT?",
+      "detail": "Reconcile IT exports and capital expenditure with non-IT output, construction, wages and household spending across vintages. Distinguish prices from export volumes. An increase in nominal chip receipts with flat real non-IT activity would imply less near-term demand pressure than a broad improvement in domestic incomes and orders."
+    },
+    {
+      "question": "Were portfolio flows weakening the won independently of Korea’s trade receipts?",
+      "detail": "Separate National Pension Service purchases, other resident purchases of foreign securities and foreign sales of Korean stocks. Compare settlement timing with exporters’ currency conversions and the dollar–yen rate. Gross flows moving in opposite directions can mask pressure in headline cross-border balances."
+    },
+    {
+      "question": "Did changes to housing taxes slow the market or merely shift transaction dates?",
+      "detail": "Follow sale volumes, prices and borrower expectations around the announced change in capital-gains treatment, comparing potentially affected properties with comparable homes. Also account for lending restrictions. A temporary concentration of listings before implementation would have a different implication from a persistent fall in credit demand."
+    }
+  ],
+  "limitation": ""
+}

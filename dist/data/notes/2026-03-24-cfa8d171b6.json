@@ -1,0 +1,28 @@
+{
+  "title": "Hungary pauses after an energy shock and supplies currency for import payments",
+  "bank": "Magyar Nemzeti Bank",
+  "date": "2026-03-24",
+  "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-24-march-2026",
+  "summary": [
+    "The Monetary Council held the base rate at 6.25% on March 24, leaving the overnight corridor at 5.25–7.25%. February inflation had fallen to 1.4% and core inflation to 2.1%. Yet the March projection expected annual inflation to average 3.8% in 2026 and 3.7% in 2027, with readings exceeding the tolerance band from the third quarter of 2026. The contrast reflects timing. Recent consumer prices captured unusually restrained repricing, cheaper food and currency appreciation. The forward outlook incorporated a sharp increase in the cost of imported energy (decision and March outlook).",
+    "The Bank reported that Brent crude briefly approached US$120 a barrel and European gas prices had risen more than 70% since the start of the conflict. The fuel price caps would temporarily moderate household exposure. The extension of price-margin restrictions until the end of May would shift part of the increase into 2027 relative to the December forecast. A regulated consumer price and the cost faced by an importer can therefore diverge considerably. The Council projected a sustained return to target in the second half of 2027, despite a much earlier undershoot in measured inflation (external environment and inflation outlook).",
+    "The Bank treated exchange-market functioning as a separate policy channel. On March 10 the Council had decided to supply foreign currency needed for covering major energy import payments. This was a previously announced measure discussed in the March 24 statement. It addressed a specific source of currency demand without changing the base rate or establishing a new exchange-rate target. Large energy purchases could otherwise put additional pressure on the forint and intensify imported-cost increases. Identifying effects in market data requires separate event dates for the March 10 measure and the March 24 rate decision (foreign-exchange liquidity discussion).",
+    "The growth outlook pointed in the opposite direction to the revised inflation risks. Consumption was supported by rising real wages and income measures, while investment and net exports were holding back activity. The Bank projected growth of 1.7% in 2026, 3.0% in 2027 and 2.9% in 2028. Higher energy costs would slow trading-partner demand even as recent capacity additions supported Hungary’s ability to export. The current-account surplus was projected at around 1% of GDP at the end of the horizon following near-term weakness. An extra burden on the import bill can therefore reduce real income and affect the supply of foreign currency while domestic inflation rises (economic outlook).",
+    "The March baseline had mainly upside inflation risks and downside growth risks. The Council identified prolonged geopolitical tensions, stronger consumption and weaker external activity as scenarios worth close attention. It retained a commitment to positive real rates and foreign-exchange stability rather than promising a move in either direction at the next meeting. The relevant real rate depends on expected inflation over the same horizon as the nominal rate. Subtracting February’s realized 1.4% CPI reading would miss the energy repricing that dominated the decision (risk assessment and policy guidance)."
+  ],
+  "questions": [
+    {
+      "question": "Did the currency-sales facility reduce pressure associated with energy settlement dates?",
+      "detail": "Compare spot, forward and swap conditions around the March 10 announcement and identifiable import-payment dates. Control for oil prices, broad dollar moves and regional currencies. A change on March 10 cannot be attributed to the March 24 rate hold."
+    },
+    {
+      "question": "How did caps shift inflation between quarters and years?",
+      "detail": "Compare import and wholesale energy prices with regulated retail fuel, food prices and other affected consumer categories. Construct alternative expiry dates for fuel caps and margin restrictions, allowing for delayed pass-through. The resulting annual averages can change even if underlying import costs follow the same path."
+    },
+    {
+      "question": "Under what conditions would weaker external demand outweigh inflation pressure?",
+      "detail": "Align foreign industrial orders, energy-intensive production, real household spending and the terms of trade with the March forecast vintage. Compare scenarios with temporary price increases and prolonged supply disruptions. The combination of lower real output and higher import prices is particularly important for interpreting the current account."
+    }
+  ],
+  "limitation": ""
+}

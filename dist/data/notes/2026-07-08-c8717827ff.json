@@ -1,0 +1,28 @@
+{
+  "title": "New Zealand lifts the OCR even as its near-term inflation forecast falls",
+  "bank": "Reserve Bank of New Zealand",
+  "date": "2026-07-08",
+  "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/07/ocr-increased-to-2-50-to-return-inflation-to-2-percent",
+  "summary": [
+    "The Committee reached consensus on July 8 to raise the OCR to 2.50%, up 25 basis points. On the same day it lowered its estimate of the near-term inflation peak. In May, members had split evenly on the timing of the first increase. By July they agreed that continued stimulus and the recent easing in wholesale financial conditions could prolong inflation as activity recovered. The current oil price and the appropriate policy path had moved in opposite directions because cheaper fuel also supported purchasing power and reduced the case for keeping policy as stimulatory as before (decision and meeting record).",
+    "The Bank estimated annual CPI inflation at 3.9% in the June quarter and 3.3% in September, with inflation near 2% in around a year. At the July meeting, the June figure was still an estimate. The May forecast had envisaged a 4.3% peak in September. Lower oil futures reduced the expected direct contribution from fuel, and staff also expected less pass-through into other consumer prices. The possibility of persistent wage and price adjustment remained relevant after a prolonged period of elevated headline inflation. Members judged that the indirect effects of cost increases and the behaviour of firms as spare capacity was absorbed would matter more for the medium-term policy response than a lower single-quarter peak (meeting record, inflation discussion).",
+    "Quarterly GDP growth in March was 0.8%, slightly below expectations, yet the level of GDP was slightly above May’s assumption because earlier quarters had been revised. Those pieces of news measure different things. The June quarter appeared weak in card spending and business surveys, with annual house prices down 0.4% in May and actual residential investment lagging the rise in consents. Agricultural exports and tourism were doing better than discretionary retail and construction. A recovery in confidence as energy prices eased, together with the Bank’s contemporaneous nowcast of 0.6% September-quarter growth, pointed to renewed momentum. The nowcast was a real-time estimate rather than an observed GDP release (meeting record, domestic activity).",
+    "Financial conditions had eased since May as market expectations for near-term policy rates fell. Wholesale rates declined and the trade-weighted New Zealand dollar depreciated, in part as local rate expectations declined relative to those in the United States. Short-term mortgage rates had continued to increase, but longer-term offers had fallen. The gap between mortgage rates and wholesale funding rates had widened more recently, reducing pressure for further rises in some rates. Part of the stated intention of the July increase was to prevent further unwarranted easing. The immediate cash decision and the subsequent movement in mortgage payments would consequently be poor substitutes for each other in an empirical study (financial conditions and concluding discussion).",
+    "The meeting also approved ending the residual Large Scale Asset Purchase portfolio by June 2027. Staff would bring forward a final NZ$141 million government-bond sale from July to June 2027 and divest NZ$392 million of longer-dated Local Government Funding Agency securities. Some residual holdings would otherwise remain until 2037. Members judged the amounts too small to change monetary stimulus and approved the change for operational efficiency. Distinguish this portfolio decision from the OCR increase in the event record. Local government spreads could respond to anticipated supply even if the broad monetary stance was driven by the interest-rate decision. Members indicated that further OCR increases appeared likely while making their timing dependent on the outlook (meeting record, LSAP and final sections)."
+  ],
+  "questions": [
+    {
+      "question": "Did a lower oil forecast reduce the risk of recession enough to pull policy expectations higher?",
+      "detail": "Compare revisions to activity nowcasts and household spending with changes in inflation forecasts over the May–July interval. Use meeting-specific rates immediately around the announcement to distinguish a realized 25-basis-point move from changes in the expected later path. Track simultaneous movements in foreign interest rates and the currency."
+    },
+    {
+      "question": "How did the direction of mortgage repricing depend on the term?",
+      "detail": "Compare new short- and long-term mortgage offers with matched wholesale rates, then map the rates onto actual refinancing cohorts. Differences between wholesale and retail pass-through can delay changes in effective household debt service even while the central bank responds to easier overall financial conditions."
+    },
+    {
+      "question": "Did bringing forward residual bond sales affect relative prices?",
+      "detail": "Measure Local Government Funding Agency spreads to comparable government bonds around the announcement and any later tender details. Account for instrument maturity and trading liquidity. Since the same meeting raised the OCR, use maturity-matched spreads and changes in swap rates to separate a supply-related effect from the general rates move."
+    }
+  ],
+  "limitation": ""
+}

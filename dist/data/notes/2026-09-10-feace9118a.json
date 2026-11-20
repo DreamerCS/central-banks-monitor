@@ -1,0 +1,27 @@
+{
+  "title": "Peru flags near-term policy adjustments as expectations cross the target range",
+  "bank": "Banco Central de Reserva del Perú",
+  "date": "2026-09-10",
+  "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-09-10.pdf",
+  "summary": [
+    "The Peruvian Board held the reference rate at 4.25% on 10 September, yet its closing guidance explicitly contemplated adjustments in the short term as new evidence arrived. The distinction matters because the latest realised inflation data gave opposite signals depending on the window. August prices rose just 0.07% overall and 0.02% excluding food and energy. Annual headline inflation nonetheless jumped from 4.1% to 4.4%, principally because the negative monthly inflation recorded in August 2025 dropped out of the twelve-month comparison. A market response to this release could therefore reflect the guidance or the behaviour of expectations rather than fresh acceleration in current prices.",
+    "The evidence on underlying breadth remained comparatively benign. Twelve-month inflation excluding food and energy edged down from 4.6% to 4.5%. With transport also excluded, it stood at 1.8%, below 2% as it had been since April 2025. The Board continued to trace much of the headline deviation to fuel and its effect on transport costs in March and April. An earlier rise in the level of fares can keep annual underlying inflation high for months even if few additional firms are now raising prices. On the other hand, the exclusion of food, energy and transport deliberately sets aside prices that households actually pay. It can diagnose concentration but cannot substitute for the target measure in evaluating the cost of living.",
+    "The more difficult signal was the rise in twelve-month expected inflation from 3.0% to 3.1%, marginally above the upper limit of the range. At an unchanged nominal rate that leaves a simple policy-rate-minus-expected-inflation figure of about 1.15%. There is no estimate in the statement of the neutral rate or the appropriate real stance. The relevance of the calculation is directional. As expectations rise, a fixed nominal rate can provide less prospective restraint. The Bank retained its baseline return of both headline and underlying inflation to around 2%, conditional on the supply shocks fading, but acknowledged the risk of more persistent El Niño or geopolitical effects.",
+    "All current-condition indicators in the Bank’s survey improved from the preceding month, while expectations remained optimistic with some moderation. International risk was elevated, with oil and financial markets volatile, though global growth prospects and Peruvian terms of trade remained favourable. These factors support different hypotheses: stronger domestic demand could transmit costs, while volatile international prices could move headline inflation without a lasting domestic impulse. The Board specified a 2.25% overnight deposit rate and 4.75% rate for the initial qualifying lending operations, with further use and size priced separately. Section 5 scheduled the next meeting for 7 October. No trade data or announcement-window prices appear in the release. The near-term guidance and the first survey reading beyond the boundary can be tested against subsequent data without implying a predetermined decision."
+  ],
+  "questions": [
+    {
+      "question": "How much of the annual jump would remain under a neutral comparison base?",
+      "detail": "Reconstruct August’s annual CPI using the actual previous-year decline and a counterfactual normal August change. Compare the result with monthly price diffusion and the transport-excluded underlying measure. The exercise would quantify the base effect identified by the Board while making clear why a rising annual rate did not necessarily describe a new inflation impulse."
+    },
+    {
+      "question": "Was 3.1% an isolated rounding movement or a persistent shift in expectations?",
+      "detail": "Use the distribution of responses, consistent respondent panels and different forecast horizons. Test whether price or wage plans moved as well, particularly in firms exposed to transport or food costs. A narrowly higher central reading above the range would have different implications from a broad shift across respondents and horizons."
+    },
+    {
+      "question": "Did the short-term adjustment language change the pricing of the next meeting?",
+      "detail": "Compare available overnight-indexed instruments or the shortest liquid local rates around the release, documenting liquidity and changes in global rates, oil and the sol. The measured surprise must be relative to what markets already expected. The September release confirmed an unchanged target and gave no direction, amount or date for an adjustment. Examine the pricing of several consecutive meeting dates to distinguish a change of timing from a different expected terminal rate."
+    }
+  ],
+  "limitation": ""
+}

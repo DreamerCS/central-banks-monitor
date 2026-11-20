@@ -1,0 +1,28 @@
+{
+  "title": "Czech rates rise as six months of persistent core inflation challenge the forecast",
+  "bank": "Czech National Bank",
+  "date": "2026-06-18",
+  "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1781766000000/?tab=statement",
+  "summary": [
+    "The CNB Bank Board raised the two-week repo rate by 25 basis points to 3.75% on June 18 and increased its other key rates by the same amount. Six members supported the move and one wanted to hold. The near-term inflation news was not simply another rise in fuel prices. Core inflation had spent six months just below 3% with no downward tendency. The Board acted while incoming data suggested that GDP growth would undershoot the May forecast, making persistent domestic inflation rather than a renewed acceleration in aggregate growth the central evidence (decision).",
+    "Services accounted for a substantial share of core inflation. Labour demand remained tight and wages were rising rapidly, particularly over time in services. Household consumption was increasing, and strong property prices contributed to inflation concerns. Faster credit growth and borrowing to finance additional public expenditure were also adding to the quantity of money, according to the Board. Higher short-term rates could raise the cost of new loans and eventually moderate credit, spending and pricing power. The statement supplies the direction of this reasoning but no measured elasticity linking 25 basis points to a specific reduction in inflation (decision and economic developments).",
+    "The macroeconomic data illustrate why the hike was an active policy choice. First-quarter GDP grew 2.2% from a year earlier, down from 2.7% in the fourth quarter. Domestic demand supported the expansion while foreign trade detracted. Compare these published vintages with May’s preliminary 2.1% and 2.5%, respectively. A researcher using revised GDP for one meeting and preliminary GDP for another could unintentionally change the apparent threshold at which the Board acted. June’s updated forecast pointed to weaker growth than projected in May, without giving a new annual point estimate in the statement (economic developments and decision).",
+    "The Board acknowledged some de-escalation in the Middle East and continued to monitor whether earlier cost increases would lift expectations. External weakness in parts of the euro area, trade barriers and a possible global asset-price correction could dampen domestic inflation. Against that, accelerating household and government lending, a possible wider fiscal deficit and inertia in services and housing prices tilted the inflation risk assessment upward. A temporary increase in headline inflation around late 2026 or early 2027 remained a risk. The move aimed to maintain low inflation over the policy horizon, which can justify acting before that projected increase is visible in annual averages (risks and updated forecast).",
+    "The one dissent establishes disagreement about the current setting but gives no separate alternative inflation path in the press statement. The Bank signalled that further action would be considered carefully. For a market test, use the rate decision first and separate the later release of the vote and rationale. Attributing a whole-day koruna or bond move to the hike would mix domestic policy with global energy news, trade concerns and any repricing that had occurred beforehand (decision and official publication schedule)."
+  ],
+  "questions": [
+    {
+      "question": "Was the persistence just below 3% concentrated in a few services?",
+      "detail": "Compare seasonally adjusted quarterly core momentum, inflation breadth, services subindices and imputed rent. Relate each component to wage growth and import exposure. Six similar year-on-year readings can mask very different current price changes when earlier price increases enter or leave the comparison period."
+    },
+    {
+      "question": "Did new credit or merely outstanding loan balances respond first?",
+      "detail": "Track loan applications, approvals, disbursements, interest rates and repayments by sector. Compare household mortgages with consumer and corporate lending and treat public borrowing separately. An effective tightening can affect new offers promptly while balances keep growing under contracts agreed before the meeting."
+    },
+    {
+      "question": "Did the increase change the expected peak or only pull forward tightening?",
+      "detail": "Compare meeting-dated short-term rates and forwards further out in two local announcement windows, with euro-area yields and the koruna as controls. A larger immediate change than in later forwards would support a timing interpretation. Keep the published vote separate from the first rate headline."
+    }
+  ],
+  "limitation": ""
+}

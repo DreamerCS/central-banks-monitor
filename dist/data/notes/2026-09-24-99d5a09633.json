@@ -1,0 +1,27 @@
+{
+  "title": "Mexico keeps its rate unchanged after the Fed hikes and sets out its own policy test",
+  "bank": "Banco de México",
+  "date": "2026-09-24",
+  "url": "https://www.banxico.org.mx/publicaciones-y-prensa/anuncios-de-las-decisiones-de-politica-monetaria/%7B7D0BDB6E-E519-9C69-04AA-ABD4D31E4850%7D.pdf",
+  "summary": [
+    "Banxico voted unanimously to hold its overnight interbank target at 6.50% on 24 September. The US Federal Reserve had raised its policy range by 25 basis points in September. Banxico addressed the contrast explicitly: with the two economies at different points in their cycles, Mexican policy need not react mechanically to expected US rate adjustments. Its stated domestic tests were the continuation of disinflation, the exchange rate’s transmission to consumer prices, spare capacity and inflation expectations. This is a substantive signal about how the Board interprets a change in the relative return on peso and dollar assets. It did not give a minimum interest differential or promise to disregard the currency.",
+    "Inflation data had split in direction. Annual headline inflation increased from 3.10% in the first half of July to 3.42% in the first half of September because non-core inflation rose. Core inflation continued to decline, from 3.95% to 3.79%. Near-year-end inflation expectations fell and longer ones stayed stable above 3%. A rise in the latest headline observation therefore coexisted with disinflation in the more persistent basket and a decline in current-year expectations. The Board expected the third-quarter economic expansion to have moderated and anticipated spare capacity through the forecast horizon. It continued to see downside activity risk and an upside skew to the inflation forecast.",
+    "The revisions in the table appear to run the other way until the comparison is properly defined. Q3 headline inflation was revised down from 3.5% to 3.3% because observed non-core prices had been lower than expected for the quarter, even though they rose between the two cited half-months. Core forecasts edged up from 3.8% to 3.9% for Q3 and from 3.5% to 3.6% for Q4. The Q4 headline projection remained 3.5%. Both series were projected at 3.4%, 3.3% and 3.2% through the first three quarters of 2027, then 3.0% in Q4. The apparently conflicting revisions are a useful lesson in vintages: an observation can rise from its previous value and still be below the value embedded in an earlier forecast.",
+    "The financial observations in the statement cover the interval since the preceding meeting. Mexican sovereign yields rose across most maturities and the peso was volatile. The dollar strengthened, US government yields rose and international commodities increased broadly. Under the Board’s reaction function these developments matter to the extent that they influence domestic financing, consumer prices and expectations. They do not establish the size of exchange-rate pass-through, or what the peso or Mexican yields did specifically when the Board held. A market event study therefore needs to separate US rate news from the Mexican communication. The relevant question is whether investors learned anything about how much domestic slack allows the Board to tolerate an external yield move without tightening."
+  ],
+  "questions": [
+    {
+      "question": "How sensitive were Mexican interest-rate expectations to US policy surprises once domestic slack was taken into account?",
+      "detail": "Separate Fed and Banxico announcement windows and compare meeting-sensitive rates at similar maturities in both currencies. Control for concurrent data and broad dollar changes. The September statement allows different policy paths, but empirical co-movement alone cannot distinguish deliberate domestic matching from the two banks reacting to common inflation news."
+    },
+    {
+      "question": "Did exchange-rate volatility translate into persistent Mexican consumer prices?",
+      "detail": "Follow imported producer prices and tradable consumer goods alongside the peso and measures of slack, allowing for hedging and stock turnover. Absolute exchange-rate volatility and cumulative depreciation are different exposures. If firms absorb short-lived currency swings instead of repricing, a lower interest differential can have a more limited inflation implication than nominal market moves imply."
+    },
+    {
+      "question": "Was the upward revision to core a forecast change or a difference in how the quarter was filling in?",
+      "detail": "Reconstruct the information available in August and September, retaining prior and revised quarter averages and the actual half-month observations. Compare the later projected quarters once the newly observed values are held constant. This distinguishes a change in near-term data from a revision to the underlying persistence that would challenge the Q4 2027 target date."
+    }
+  ],
+  "limitation": ""
+}

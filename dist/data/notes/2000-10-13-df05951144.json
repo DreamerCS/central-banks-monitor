@@ -1,0 +1,26 @@
+{
+  "title": "Japan chooses ranges and a constant-policy assumption for its first published forecasts",
+  "bank": "Bank of Japan",
+  "date": "2000-10-13",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k001013b.htm",
+  "summary": [
+    "The Bank announced a twice-yearly Outlook and Risk Assessment for April and October, to be determined at a Policy Board meeting. It would ordinarily form part of the monthly economic report. An exception applied to the launch. The Board was due to determine the first outlook on October 30 and release it independently on October 31. The October 13 announcement establishes the publication method. It contains no forecast values.",
+    "Individual members’ forecasts would cover real GDP, domestic wholesale prices and consumer prices excluding perishables. Each would measure the change in a fiscal-year average from the preceding fiscal-year average. For the first edition the forecast year ran from April 2000 through March 2001. A year-end inflation reading or a calendar-year GDP growth rate would therefore be the wrong comparator. The forecasts assume unchanged monetary policy, so their accuracy cannot be assessed without tracking whether that conditioning assumption held.",
+    "The Bank planned to show two ranges. One spans all members’ forecasts. The other discards one observation at each end. If the maximum or minimum is shared, only one observation at that end is removed. The resulting interval summarises the cross-section of members’ central forecasts. Its width does not supply a confidence level for the eventual GDP or inflation outcome. Nor does it identify which members supplied particular endpoints."
+  ],
+  "questions": [
+    {
+      "question": "Did forecasts have information beyond the data already available?",
+      "detail": "Construct a real-time benchmark for the same fiscal-year average using releases available before October 31. Compare it with the published ranges, reserving the October 13 methodology announcement as a separate information event."
+    },
+    {
+      "question": "How much disagreement did the trimmed range conceal?",
+      "detail": "Compare the full range with the range excluding one observation at each end. If several members shared an extreme, the trimmed endpoint can remain unchanged even though an observation was removed."
+    },
+    {
+      "question": "How should forecast errors be interpreted if policy changed?",
+      "detail": "Align outcomes to the exact wholesale price, CPI excluding perishables and real GDP definitions. Document changes in policy and statistical revisions over the forecast horizon before treating a miss as evidence about members’ judgment."
+    }
+  ],
+  "limitation": ""
+}

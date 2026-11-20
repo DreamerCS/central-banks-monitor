@@ -1,0 +1,28 @@
+{
+  "title": "Hungary holds while testing whether the post-election fall in risk premia will last",
+  "bank": "Magyar Nemzeti Bank",
+  "date": "2026-04-28",
+  "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-28-april-2026",
+  "summary": [
+    "The April 28 Monetary Council decision retained the 6.25% base rate, with overnight deposit and lending rates at 5.25% and 7.25%. Domestic asset risk premia had fallen after the parliamentary elections, and the forint appreciated. The Bank associated the change partly with expectations surrounding EU funds and eventual euro adoption. It emphasized the durability of that improvement. A favourable price move over several weeks can lower the cost of imports, but it does not establish that financing conditions will remain stable through a period of high international energy prices (decision and market assessment).",
+    "March inflation rose to 1.8% while core inflation fell to 1.9%. Fuel accounted for the increase in the headline reading, offset in part by slower price growth in tradables and market services. Firms’ price expectations had edged up from a subdued level while those of households declined. These are distinct pieces of information: the directly observed fuel increase raised measured inflation, whereas lower underlying readings and household expectations suggested the increase had not yet turned into widespread domestic repricing. The Bank considered the data consistent with its March projection (inflation assessment).",
+    "The forecast still envisaged inflation exceeding the tolerance band from the third quarter, followed by a sustained return to target in the second half of 2027. Expensive oil and European gas put pressure on input costs and export markets. A stronger domestic currency reduced local-currency import prices relative to what they otherwise would have been. Volatility had declined since March but remained higher than before the conflict. The benefit of the exchange-rate channel therefore depended on persistence. April’s low core reading did not erase the risk that costs already incurred would pass through later (outlook and foreign-exchange conditions).",
+    "External pricing offered little assurance of easier financial conditions. Investors expected rising ECB rates over the year and an unchanged US rate, while central banks across the region were adopting a cautious stance. These were market expectations at the time. If euro rates rose while Hungary eased, the narrowing prospective yield differential could influence the forint and inflation expectations. The Council did not specify a required interest differential or currency level, and its release gave no quantitative decomposition of the post-election change in risk premia (international developments and decision).",
+    "For event analysis, election-related repricing and policy-day news belong to different windows. An increase in the forint’s value before the meeting was part of the information set behind the hold. To assess that hold, use the rate expected before publication, the currency, sovereign spreads and regional comparators afterward. The Council maintained its positive-real-rate objective and framed future decisions around incoming evidence. A fall in core inflation and a better exchange rate created a question about the timing of future easing, not an announced schedule (concluding guidance)."
+  ],
+  "questions": [
+    {
+      "question": "How much of the forint move reflected a Hungary-specific risk repricing?",
+      "detail": "Compare the forint, local sovereign spreads and interest differentials with Central European peers around election news. Separate common changes in energy and global risk appetite. Then test whether the domestic component persisted through new information about EU funds or the fiscal outlook."
+    },
+    {
+      "question": "Did appreciation offset energy costs before they reached core prices?",
+      "detail": "Translate oil and gas prices into forint and compare them with producer prices, tradables inflation and services prices using sector-specific lags. Track cash-market and contract energy prices separately. An immediate decline in import costs does not imply an equally rapid fall in retail prices."
+    },
+    {
+      "question": "Was the rise in companies’ price expectations associated with actual repricing?",
+      "detail": "Compare intentions with realised prices in industries with high and low energy exposure. Check whether the decline in household expectations persisted as fuel prices rose. Divergence across these surveys can help distinguish a producer-cost shock from a broader change in household beliefs."
+    }
+  ],
+  "limitation": ""
+}

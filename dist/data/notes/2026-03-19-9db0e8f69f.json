@@ -1,0 +1,25 @@
+{
+  "title": "The Czech March decision keeps all three policy rates unchanged",
+  "bank": "Czech National Bank",
+  "date": "2026-03-19",
+  "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1773907200000",
+  "summary": [
+    "On March 19 the CNB retained a 3.50% two-week repo rate, 2.50% discount rate and 4.50% Lombard rate. The initial announcement confirmed that neither the level nor the width of the interest-rate corridor changed. This yields a zero change in the instruments for the March meeting.",
+    "Whether zero constituted market news depends on what had been priced before 14:30 Prague time. A broad intraday change in yields may include reactions to news preceding the release or to the later press conference. Record the three settings first, then use timestamped quotes to isolate the response before the second communication. The short release contains no vote, projection or account of the Board’s reasoning."
+  ],
+  "questions": [
+    {
+      "question": "Was the hold anticipated after adjusting contract rates for the meeting date?",
+      "detail": "Use the appropriate number of days before and after March 19 when translating a traded rate into an expected post-meeting repo rate."
+    },
+    {
+      "question": "Was initial repricing specific to Czech instruments?",
+      "detail": "Compare local money-market and currency quotes around 14:30 with matched euro-area or regional instruments over the same short interval."
+    },
+    {
+      "question": "Did the first response persist to the start of the press conference?",
+      "detail": "Measure the first executable change and its trajectory up to 15:00. Record later communication as a separate observation."
+    }
+  ],
+  "limitation": ""
+}

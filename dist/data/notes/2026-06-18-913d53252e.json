@@ -1,0 +1,27 @@
+{
+  "title": "Swiss inflation rose with oil products while the SNB held its medium-term view",
+  "bank": "Swiss National Bank",
+  "date": "2026-06-18",
+  "url": "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260618",
+  "summary": [
+    "The SNB kept the policy rate at 0% on 18 June as observed inflation increased from 0.1% in February to 0.6% in May. The source of the change mattered. The Bank attributed most of it to oil products, with other goods and services contributing little. Medium-term inflation pressure was judged virtually unchanged. The SNB retained its increased willingness to intervene if a rapid and excessive franc appreciation endangered price stability. The decision release reports a currency-policy option, rather than a transaction or a target exchange rate.",
+    "Holding the assumed policy rate at zero throughout, the Bank projected average inflation of 0.6% in 2026, 0.6% in 2027 and 0.7% in 2028. Each rounded annual figure was 0.1 percentage point above its March counterpart. The quarterly table and chart give a less uniform picture. The June projection rose to 0.6% in the second quarter of 2026, 0.7% in the third and 0.8% in the fourth. It stayed at 0.8% in the first quarter of 2027 before dropping to 0.5% in the second, the same second-quarter reading as the March forecast. The initial difference between the curves was larger than the later difference. Similar changes in rounded annual means therefore do not imply the same increase in inflation pressure at every point of the horizon (conditional chart and tables, p. 3).",
+    "Higher raw-material prices and higher foreign inflation explained the near-term upward revision. The Bank expected the impact of energy prices to fade in the first half of 2027, although the price path depended heavily on events in the Middle East. The forecast remained within the price-stability range throughout. Both projections assumed a fixed policy rate and illustrate outcomes under that assumption. They should not be read as an SNB commitment to a particular future path. The operational terms also stayed in place. Sight deposits below the applicable threshold earned the policy rate, with a 0.25-percentage-point discount above it (decision and forecast, pp. 1–2).",
+    "The external policy context had changed. The release noted that rates had risen in the euro area while US rates remained unchanged. Global first-quarter growth had been solid, but higher energy costs had already slowed momentum. The baseline called for elevated world inflation and more moderate near-term growth before a medium-term pickup. Swiss activity had remained resilient and first-quarter GDP growth was solid, while unemployment had increased somewhat since March. The Bank still expected about 1% growth in 2026 and 1.5% in 2027. Renewed conflict could impair foreign demand at the same time as it increased appreciation pressure on the franc. The key empirical uncertainty was whether Swiss prices outside oil and activity in export-facing sectors would eventually show a broader or more persistent response (global and domestic outlook, p. 2)."
+  ],
+  "questions": [
+    {
+      "question": "Did oil products remain sufficient to explain the Swiss inflation rise?",
+      "detail": "Compare component contributions to monthly inflation, including imported goods and domestic services, with the predicted near-term hump. If energy retreated but price increases broadened, the reasoning behind the relatively stable medium-term projection would need updating."
+    },
+    {
+      "question": "How much of the June forecast was exposed to franc appreciation?",
+      "detail": "Compare effective exchange rates and import-price pass-through with changes in external commodity prices. Examine currency-option prices and near-term interest-rate expectations around the release separately from official evidence of any intervention. The Bank’s conditional willingness leaves the size and timing of actual action unresolved."
+    },
+    {
+      "question": "Where did weaker global momentum reach Switzerland first?",
+      "detail": "Track exporters’ orders, production, employment and unemployment across energy- and trade-sensitive industries. Use the solid first-quarter GDP outcome as the starting point and retain publication lags. A slower external sector and resilient domestic demand would imply a different inflation trajectory from a broad setback to spending."
+    }
+  ],
+  "limitation": ""
+}

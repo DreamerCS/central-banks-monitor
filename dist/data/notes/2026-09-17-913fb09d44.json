@@ -1,0 +1,25 @@
+{
+  "title": "The Czech September notice leaves the repo rate and corridor in place",
+  "bank": "Czech National Bank",
+  "date": "2026-09-17",
+  "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1789628400000",
+  "summary": [
+    "On September 17 the CNB announced no change in the two-week repo rate of 3.75%, the discount rate of 2.75% or the Lombard rate of 4.75%. The width and central point of the corridor therefore stayed the same. The release itself does not express a preference for the next decision.",
+    "The information available at 14:30 Prague time was the identity and level of the three unchanged instruments. A daily return would mix this rate confirmation with information released at the later press conference. For a decision-only observation use trades after the notice but before that second release, and measure the unexpected component against pricing recorded beforehand."
+  ],
+  "questions": [
+    {
+      "question": "Was the rate confirmation a surprise at the closest maturity?",
+      "detail": "Compare the pre-announcement implied September setting, adjusted for meeting-day weighting, with the actual 3.75% repo rate."
+    },
+    {
+      "question": "Was forward-rate repricing already visible before 15:00?",
+      "detail": "Use timestamped subsequent-meeting contracts to compare pre-release pricing with quotes in the thirty minutes after the decision. Record any additional response later separately."
+    },
+    {
+      "question": "Did any currency response differ from the regional move?",
+      "detail": "Compare intraday koruna returns with regional currencies and euro interest rates. A simultaneous common influence could affect local markets in the same short window."
+    }
+  ],
+  "limitation": ""
+}

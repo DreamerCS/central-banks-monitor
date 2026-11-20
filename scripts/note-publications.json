@@ -34,9 +34,49 @@
     "title": "Boehne explains why the Fed watches equity wealth when productivity accelerates",
     "type": "Speech"
   },
+  "2000-01-13-2c61f0f486.json": {
+    "jurisdiction": "Euro area",
+    "title": "The international impact of the euro",
+    "type": "Speech"
+  },
+  "2000-01-17-701b9d6bf9.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+    "type": "Decision"
+  },
+  "2000-01-21-e545543d39.json": {
+    "jurisdiction": "Euro area",
+    "title": "The role of the central bank in encouraging and safeguarding savings",
+    "type": "Speech"
+  },
+  "2000-01-26-26c741a9ea.json": {
+    "jurisdiction": "Euro area",
+    "title": "The euro area - first experience and perspectives",
+    "type": "Speech"
+  },
   "2000-02-02-30eba51fd2.json": {
     "jurisdiction": "United States",
     "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2000-02-03-36afab6f27.json": {
+    "jurisdiction": "Euro area",
+    "title": "ECB press conference, introductory statement with questions and answers",
+    "type": "Press conference"
+  },
+  "2000-02-10-9fb1bcc9e9.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+    "type": "Decision"
+  },
+  "2000-02-24-66d3882a09.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+    "type": "Decision"
+  },
+  "2000-03-08-0878053fca.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
     "type": "Decision"
   },
   "2000-03-21-8ec7ad64e6.json": {
@@ -44,9 +84,49 @@
     "title": "FOMC statement",
     "type": "Decision"
   },
+  "2000-03-24-bdde66b1c9.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+    "type": "Decision"
+  },
+  "2000-04-10-38819e36eb.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting decisions (Zero interest rate policy maintained)",
+    "type": "Decision"
+  },
+  "2000-04-27-33de3ad02c.json": {
+    "jurisdiction": "Japan",
+    "title": "Principal Terms and Conditions Pertaining to the Purchase of Bills",
+    "type": "Statement"
+  },
+  "2000-04-27-600f905272.json": {
+    "jurisdiction": "Japan",
+    "title": "Principal Terms and Conditions Pertaining to the Sale of Bills",
+    "type": "Statement"
+  },
+  "2000-04-27-9cac7cc90f.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+    "type": "Decision"
+  },
+  "2000-04-27-dbdf3d904e.json": {
+    "jurisdiction": "Japan",
+    "title": "Principles Regarding Revision of Bill Purchasing/Selling Operations",
+    "type": "Statement"
+  },
   "2000-05-16-e801010187.json": {
     "jurisdiction": "United States",
     "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2000-05-17-48de1550c4.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+    "type": "Decision"
+  },
+  "2000-06-12-dbcef60bae.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
     "type": "Decision"
   },
   "2000-06-28-2d9d3a6810.json": {
@@ -54,9 +134,44 @@
     "title": "FOMC statement",
     "type": "Decision"
   },
+  "2000-06-28-9f22beaa64.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (Zero interest rate policy maintained)",
+    "type": "Decision"
+  },
+  "2000-07-17-7481c6bff0.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting decisions (Zero interest rate policy maintained)",
+    "type": "Decision"
+  },
+  "2000-07-17-e01428739a.json": {
+    "jurisdiction": "Japan",
+    "title": "On the Current Monetary Policy",
+    "type": "Statement"
+  },
+  "2000-08-11-a0db3001b0.json": {
+    "jurisdiction": "Japan",
+    "title": "On the Request from the Government to Postpone the Vote",
+    "type": "Statement"
+  },
+  "2000-08-11-fd195dcdaf.json": {
+    "jurisdiction": "Japan",
+    "title": "Change of the Guideline for Money Market Operations (Zero interest rate policy lifted)",
+    "type": "Decision"
+  },
   "2000-08-22-d04b948cbb.json": {
     "jurisdiction": "United States",
     "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2000-09-08-21d4e2e300.json": {
+    "jurisdiction": "Japan",
+    "title": "Changes in the Release Schedule of the Minutes of Monetary Policy Meetings and the Monthly Report of Recent Economic and Financial Developments",
+    "type": "Statement"
+  },
+  "2000-09-14-1f61f3f92f.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (unchanged)",
     "type": "Decision"
   },
   "2000-10-03-23e1467769.json": {
@@ -64,14 +179,165 @@
     "title": "FOMC statement",
     "type": "Decision"
   },
+  "2000-10-13-14b344a95e.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (unchanged)",
+    "type": "Decision"
+  },
+  "2000-10-13-8026814bbf.json": {
+    "jurisdiction": "Japan",
+    "title": "Establishment of \"Guidelines on Eligible Collateral\"",
+    "type": "Statement"
+  },
+  "2000-10-13-c8e7098ead.json": {
+    "jurisdiction": "Japan",
+    "title": "Revision of \"Principal Terms and Conditions Pertaining to the Sale of Bills\"",
+    "type": "Statement"
+  },
+  "2000-10-13-df05951144.json": {
+    "jurisdiction": "Japan",
+    "title": "Release of Outlook and Risk Assessment of the Economy and Prices",
+    "type": "Statement"
+  },
+  "2000-10-13-e51f3fe9b9.json": {
+    "jurisdiction": "Japan",
+    "title": "Revision of \"Principal Terms and Conditions Pertaining to the Purchase of Bills\"",
+    "type": "Statement"
+  },
+  "2000-10-13-fbc4ac3ce2.json": {
+    "aliases": [
+      "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/data/k001013a.pdf"
+    ],
+    "jurisdiction": "Japan",
+    "title": "On Price Stability",
+    "type": "Statement"
+  },
+  "2000-10-30-a6386d656e.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (unchanged)",
+    "type": "Decision"
+  },
   "2000-11-15-cfbe861012.json": {
     "jurisdiction": "United States",
     "title": "FOMC statement",
     "type": "Decision"
   },
+  "2000-11-17-75c6a6fcfb.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (unchanged)",
+    "type": "Decision"
+  },
+  "2000-11-30-809fcc76c7.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (unchanged)",
+    "type": "Decision"
+  },
+  "2000-12-15-3ecc2826f3.json": {
+    "jurisdiction": "Japan",
+    "title": "Announcement of the Monetary Policy Meeting Decisions (unchanged)",
+    "type": "Decision"
+  },
   "2000-12-19-173f8dcf78.json": {
     "jurisdiction": "United States",
     "title": "FOMC statement",
+    "type": "Decision"
+  },
+  "2001-01-03-375fdf7c6c.json": {
+    "aliases": [
+      "https://www.federalreserve.gov/boarddocs/press/general/2001/20010103/"
+    ],
+    "jurisdiction": "United States",
+    "title": "FOMC statement and Board discount rate action · January 3, 2001",
+    "type": "Decision"
+  },
+  "2001-01-31-d7c02314d6.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement and Board discount rate action · January 31, 2001",
+    "type": "Decision"
+  },
+  "2001-03-20-f7026da270.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement and Board discount rate action · March 20, 2001",
+    "type": "Decision"
+  },
+  "2001-04-18-0ebf60a07a.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement and Board discount rate action · April 18, 2001",
+    "type": "Decision"
+  },
+  "2001-05-15-1f6f427a5a.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement and Board discount rate action · May 15, 2001",
+    "type": "Decision"
+  },
+  "2001-06-27-bdb907a337.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement and Board discount rate action · June 27, 2001",
+    "type": "Decision"
+  },
+  "2001-08-21-d345c1c532.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement and Board discount rate action · August 21, 2001",
+    "type": "Decision"
+  },
+  "2001-09-17-7e1654757f.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement and Board discount rate action · September 17, 2001",
+    "type": "Decision"
+  },
+  "2001-10-02-e284f2e310.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement and Board discount rate action · October 2, 2001",
+    "type": "Decision"
+  },
+  "2001-11-06-7851d9ff4e.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement and Board discount rate action · November 6, 2001",
+    "type": "Decision"
+  },
+  "2001-12-11-595f5bfbf5.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement and Board discount rate action · December 11, 2001",
+    "type": "Decision"
+  },
+  "2002-01-30-c7dbda345d.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement · January 30, 2002",
+    "type": "Decision"
+  },
+  "2002-03-19-867c7dfd7f.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement · March 19, 2002",
+    "type": "Decision"
+  },
+  "2002-05-07-5c51f7acdd.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement · May 7, 2002",
+    "type": "Decision"
+  },
+  "2002-06-26-562a43dda0.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement · June 26, 2002",
+    "type": "Decision"
+  },
+  "2002-08-13-e098195a6b.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement · August 13, 2002",
+    "type": "Decision"
+  },
+  "2002-09-24-b2b963a8b7.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement · September 24, 2002",
+    "type": "Decision"
+  },
+  "2002-11-06-2010d4aff7.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement and Board discount rate action · November 6, 2002",
+    "type": "Decision"
+  },
+  "2002-12-10-b65dee3e0b.json": {
+    "jurisdiction": "United States",
+    "title": "FOMC statement · December 10, 2002",
     "type": "Decision"
   },
   "2005-07-21-b0b930454b.json": {
@@ -114,6 +380,11 @@
     "title": "New Framework for Strengthening Monetary Easing: \"Quantitative and Qualitative Monetary Easing with Yield Curve Control\"",
     "type": "Decision"
   },
+  "2019-07-01-a23ab488e4.json": {
+    "jurisdiction": "China",
+    "title": "Open market operations announcement No. 126 of 2019",
+    "type": "Open market operation"
+  },
   "2020-03-23-2d11bbd51c.json": {
     "jurisdiction": "United States",
     "title": "FOMC statement",
@@ -134,10 +405,51 @@
     "title": "China's current monetary policy stance and evolution of monetary policy framework in the future",
     "type": "Speech"
   },
+  "2024-07-16-30c9689e93.json": {
+    "jurisdiction": "China",
+    "title": "Open market operations announcement No. 139 of 2024",
+    "type": "Open market operation"
+  },
+  "2026-01-22-8e0196ed41.json": {
+    "jurisdiction": "Norway",
+    "title": "Policy rate kept unchanged at 4 percent",
+    "type": "Decision"
+  },
+  "2026-01-29-c105bdb5c6.json": {
+    "aliases": [
+      "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/260129/prm-29-jan-2026-policy-rate-unchanged-at-1.75-per-cent.pdf"
+    ],
+    "jurisdiction": "Sweden",
+    "title": "Policy rate unchanged at 1.75 per cent",
+    "type": "Decision"
+  },
+  "2026-02-05-7503bfa04c.json": {
+    "jurisdiction": "Czechia",
+    "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+    "type": "Press conference"
+  },
+  "2026-02-05-be0a69a9fa.json": {
+    "aliases": [
+      "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1770278400000/"
+    ],
+    "jurisdiction": "Czechia",
+    "title": "CNB Board decisions",
+    "type": "Decision"
+  },
   "2026-02-05-d03db1f7c1.json": {
     "jurisdiction": "Euro area",
     "title": "Monetary policy statement and press conference",
     "type": "Press conference"
+  },
+  "2026-02-12-de69ac35bc.json": {
+    "jurisdiction": "Peru",
+    "title": "Programa monetario de febrero de 2026",
+    "type": "Decision"
+  },
+  "2026-02-17-10766325eb.json": {
+    "jurisdiction": "Australia",
+    "title": "Minutes of the Monetary Policy Board meeting of 3 February 2026",
+    "type": "Minutes"
   },
   "2026-02-18-3917a61d9e.json": {
     "aliases": [
@@ -148,10 +460,64 @@
     "title": "Minutes of the Federal Open Market Committee · 2026-01-28 meeting",
     "type": "Minutes"
   },
+  "2026-03-12-31303fb76c.json": {
+    "jurisdiction": "Peru",
+    "title": "Programa monetario de marzo de 2026",
+    "type": "Decision"
+  },
+  "2026-03-19-201520d556.json": {
+    "jurisdiction": "Czechia",
+    "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+    "type": "Press conference"
+  },
   "2026-03-19-2aaa6d8a85.json": {
     "jurisdiction": "Euro area",
     "title": "Monetary policy statement and press conference",
     "type": "Press conference"
+  },
+  "2026-03-19-7b21bf87dd.json": {
+    "aliases": [
+      "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/press-releases-restricted/pre_20260319/publications0_en/pre_20260319.en.pdf"
+    ],
+    "jurisdiction": "Switzerland",
+    "title": "Monetary policy assessment of 19 March 2026",
+    "type": "Decision"
+  },
+  "2026-03-19-860e186075.json": {
+    "aliases": [
+      "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/260319_nr1-ppr/prm-19-march-2026-policy-rate-unchanged-at-1.75-per-cent.pdf"
+    ],
+    "jurisdiction": "Sweden",
+    "title": "Policy rate unchanged at 1.75 per cent",
+    "type": "Decision"
+  },
+  "2026-03-19-9db0e8f69f.json": {
+    "aliases": [
+      "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1773907200000/"
+    ],
+    "jurisdiction": "Czechia",
+    "title": "CNB Board decisions",
+    "type": "Decision"
+  },
+  "2026-03-26-4f8ad4b875.json": {
+    "jurisdiction": "Mexico",
+    "title": "Anuncio de Política Monetaria",
+    "type": "Decision"
+  },
+  "2026-03-26-da2a1ce316.json": {
+    "jurisdiction": "Norway",
+    "title": "Policy rate kept unchanged at 4%",
+    "type": "Decision"
+  },
+  "2026-03-31-3d58a90042.json": {
+    "jurisdiction": "Australia",
+    "title": "Minutes of the Monetary Policy Board meeting of 17 March 2026",
+    "type": "Minutes"
+  },
+  "2026-04-01-a28de7d7d0.json": {
+    "jurisdiction": "Canada",
+    "title": "Summary of Governing Council deliberations: Fixed announcement date of March 18, 2026",
+    "type": "Minutes"
   },
   "2026-04-08-071f339846.json": {
     "aliases": [
@@ -162,10 +528,61 @@
     "title": "Minutes of the Federal Open Market Committee · 2026-03-18 meeting",
     "type": "Minutes"
   },
+  "2026-04-09-976da6ad95.json": {
+    "jurisdiction": "Peru",
+    "title": "Programa monetario de abril de 2026",
+    "type": "Decision"
+  },
   "2026-04-30-49abd1eac5.json": {
     "jurisdiction": "Euro area",
     "title": "Monetary policy statement and press conference",
     "type": "Press conference"
+  },
+  "2026-05-07-aa8515a924.json": {
+    "aliases": [
+      "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/260507/prm-7-may-2026-policy-rate-unchanged-at-1.75-per-cent.pdf"
+    ],
+    "jurisdiction": "Sweden",
+    "title": "Policy rate unchanged at 1.75 per cent",
+    "type": "Decision"
+  },
+  "2026-05-07-b95737db38.json": {
+    "jurisdiction": "Czechia",
+    "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+    "type": "Press conference"
+  },
+  "2026-05-07-d17c0a48be.json": {
+    "jurisdiction": "Mexico",
+    "title": "Anuncio de Política Monetaria",
+    "type": "Decision"
+  },
+  "2026-05-07-d5148222ef.json": {
+    "aliases": [
+      "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1778137200000/"
+    ],
+    "jurisdiction": "Czechia",
+    "title": "CNB Board decisions",
+    "type": "Decision"
+  },
+  "2026-05-07-eb712002d6.json": {
+    "jurisdiction": "Norway",
+    "title": "Policy rate raised to 4.25%",
+    "type": "Decision"
+  },
+  "2026-05-13-69c23df0fe.json": {
+    "jurisdiction": "Canada",
+    "title": "Summary of Governing Council deliberations: Fixed announcement date of April 29, 2026",
+    "type": "Minutes"
+  },
+  "2026-05-14-53a68de6d9.json": {
+    "jurisdiction": "Peru",
+    "title": "Programa monetario de mayo de 2026",
+    "type": "Decision"
+  },
+  "2026-05-19-26f466f4b5.json": {
+    "jurisdiction": "Australia",
+    "title": "Minutes of the Monetary Policy Board meeting of 5 May 2026",
+    "type": "Minutes"
   },
   "2026-05-20-feb4037215.json": {
     "aliases": [
@@ -176,10 +593,69 @@
     "title": "Minutes of the Federal Open Market Committee · 2026-04-29 meeting",
     "type": "Minutes"
   },
+  "2026-06-11-92af6e58d5.json": {
+    "jurisdiction": "Euro area",
+    "title": "Monetary policy statement (with Q&A)",
+    "type": "Press conference"
+  },
+  "2026-06-11-e3c4eade96.json": {
+    "jurisdiction": "Peru",
+    "title": "Programa monetario de junio de 2026",
+    "type": "Decision"
+  },
   "2026-06-16-c705f3576d.json": {
     "jurisdiction": "Japan",
     "title": "Plan for the Outright Purchases of Japanese Government Bonds [PDF 109KB]",
     "type": "Decision"
+  },
+  "2026-06-17-138512b1bf.json": {
+    "aliases": [
+      "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/260617/prm-17-june-2026-policy-rate-unchanged-at-1.75-per-cent.pdf"
+    ],
+    "jurisdiction": "Sweden",
+    "title": "Policy rate unchanged at 1.75 per cent",
+    "type": "Decision"
+  },
+  "2026-06-18-0bbb5c543f.json": {
+    "jurisdiction": "Norway",
+    "title": "Policy rate kept unchanged at 4.25 percent",
+    "type": "Decision"
+  },
+  "2026-06-18-64fac13a1e.json": {
+    "jurisdiction": "Czechia",
+    "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+    "type": "Press conference"
+  },
+  "2026-06-18-913d53252e.json": {
+    "aliases": [
+      "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/press-releases-restricted/pre_20260618/publications0_en/pre_20260618.en.pdf"
+    ],
+    "jurisdiction": "Switzerland",
+    "title": "Monetary policy assessment of 18 June 2026",
+    "type": "Decision"
+  },
+  "2026-06-18-ec45606ef7.json": {
+    "aliases": [
+      "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1781766000000/"
+    ],
+    "jurisdiction": "Czechia",
+    "title": "CNB Board decisions",
+    "type": "Decision"
+  },
+  "2026-06-24-5a8075e42f.json": {
+    "jurisdiction": "Canada",
+    "title": "Summary of Governing Council deliberations: Fixed announcement date of June 10, 2026",
+    "type": "Minutes"
+  },
+  "2026-06-25-d3d45c1e87.json": {
+    "jurisdiction": "Mexico",
+    "title": "Anuncio de Política Monetaria",
+    "type": "Decision"
+  },
+  "2026-06-30-71c5be0b44.json": {
+    "jurisdiction": "Australia",
+    "title": "Minutes of the Monetary Policy Board meeting of 16 June 2026",
+    "type": "Minutes"
   },
   "2026-07-08-68140c3276.json": {
     "aliases": [
@@ -190,6 +666,52 @@
     "title": "Minutes of the Federal Open Market Committee · 2026-06-17 meeting",
     "type": "Minutes"
   },
+  "2026-07-09-bd4da68da0.json": {
+    "jurisdiction": "Peru",
+    "title": "Programa monetario de julio de 2026",
+    "type": "Decision"
+  },
+  "2026-07-23-b015d2206e.json": {
+    "jurisdiction": "Euro area",
+    "title": "Monetary policy statement (with Q&A)",
+    "type": "Press conference"
+  },
+  "2026-07-29-95d83414bd.json": {
+    "jurisdiction": "Canada",
+    "title": "Summary of Governing Council deliberations: Fixed announcement date of July 15, 2026",
+    "type": "Minutes"
+  },
+  "2026-08-06-13f3a9ce2b.json": {
+    "aliases": [
+      "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1785999600000/"
+    ],
+    "jurisdiction": "Czechia",
+    "title": "CNB Board decisions",
+    "type": "Decision"
+  },
+  "2026-08-06-311dae5dde.json": {
+    "jurisdiction": "Mexico",
+    "title": "Anuncio de Política Monetaria",
+    "type": "Decision"
+  },
+  "2026-08-06-f8473deae5.json": {
+    "jurisdiction": "Czechia",
+    "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+    "type": "Press conference"
+  },
+  "2026-08-13-2000d3258e.json": {
+    "aliases": [
+      "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-08-13-rate/"
+    ],
+    "jurisdiction": "Norway",
+    "title": "Rate decision August 2026",
+    "type": "Decision"
+  },
+  "2026-08-13-34bfc71c0e.json": {
+    "jurisdiction": "Peru",
+    "title": "Programa monetario de agosto de 2026",
+    "type": "Decision"
+  },
   "2026-08-19-3a654fea6a.json": {
     "aliases": [
       "https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20260729.pdf",
@@ -199,10 +721,85 @@
     "title": "Minutes of the Federal Open Market Committee · 2026-07-29 meeting",
     "type": "Minutes"
   },
+  "2026-08-20-75254a5450.json": {
+    "aliases": [
+      "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/260820/prm-20-august-2026-policy-rate-unchanged-at-1.75-per-cent.pdf"
+    ],
+    "jurisdiction": "Sweden",
+    "title": "Policy rate unchanged at 1.75 per cent",
+    "type": "Decision"
+  },
+  "2026-08-25-b922739f01.json": {
+    "jurisdiction": "Australia",
+    "title": "Minutes of the Monetary Policy Board meeting of 11 August 2026",
+    "type": "Minutes"
+  },
   "2026-09-10-8c58f97b29.json": {
     "jurisdiction": "Euro area",
     "title": "Monetary policy statement and press conference",
     "type": "Press conference"
+  },
+  "2026-09-10-feace9118a.json": {
+    "jurisdiction": "Peru",
+    "title": "Programa monetario de setiembre de 2026",
+    "type": "Decision"
+  },
+  "2026-09-16-0839280423.json": {
+    "jurisdiction": "Canada",
+    "title": "Summary of Governing Council deliberations – September 2, 2026",
+    "type": "Minutes"
+  },
+  "2026-09-17-7f2590b671.json": {
+    "jurisdiction": "Czechia",
+    "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+    "type": "Press conference"
+  },
+  "2026-09-17-913fb09d44.json": {
+    "aliases": [
+      "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1789628400000/"
+    ],
+    "jurisdiction": "Czechia",
+    "title": "CNB Board decisions",
+    "type": "Decision"
+  },
+  "2026-09-24-179fb98cdb.json": {
+    "aliases": [
+      "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/press-releases-restricted/pre_20260924/publications0_en/pre_20260924.en.pdf"
+    ],
+    "jurisdiction": "Switzerland",
+    "title": "Monetary policy assessment of 24 September 2026",
+    "type": "Decision"
+  },
+  "2026-09-24-7da099a8c0.json": {
+    "jurisdiction": "Norway",
+    "title": "Policy rate raised to 4.50%",
+    "type": "Decision"
+  },
+  "2026-09-24-99d5a09633.json": {
+    "jurisdiction": "Mexico",
+    "title": "Anuncio de Política Monetaria",
+    "type": "Decision"
+  },
+  "2026-09-24-a7aeb5678f.json": {
+    "aliases": [
+      "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/260924/prm-24-september-2026-policy-rate-unchanged-at-1.75-per-cent.pdf"
+    ],
+    "jurisdiction": "Sweden",
+    "title": "Policy rate unchanged at 1.75 per cent",
+    "type": "Decision"
+  },
+  "2026-09-30-52839a5c4c.json": {
+    "aliases": [
+      "https://www.snb.ch/public/asset/en/www-snb-ch/publications/quarterly-bulletin/2026/quartbul_2026_3_komplett/publications0_en/quartbul_2026_3_komplett.en.pdf"
+    ],
+    "jurisdiction": "Switzerland",
+    "title": "Quarterly Bulletin 3/2026 — Monetary policy report and business cycle signals",
+    "type": "Forecast"
+  },
+  "2026-10-07-5a51c60174.json": {
+    "jurisdiction": "Peru",
+    "title": "Programa monetario de octubre de 2026",
+    "type": "Decision"
   },
   "2026-10-07-87c894987c.json": {
     "aliases": [
@@ -213,10 +810,70 @@
     "title": "Minutes of the Federal Open Market Committee · 2026-09-16 meeting",
     "type": "Minutes"
   },
+  "2026-10-13-b23c090b41.json": {
+    "jurisdiction": "Australia",
+    "title": "Minutes of the Monetary Policy Board meeting of 29 September 2026",
+    "type": "Minutes"
+  },
+  "2026-10-22-75153840b4.json": {
+    "aliases": [
+      "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/summaries/zus_20261022/publications0_en/zus_20261022.en.pdf"
+    ],
+    "jurisdiction": "Switzerland",
+    "title": "Monetary policy assessment of September 2026: Summary of discussion",
+    "type": "Minutes"
+  },
+  "2026-11-04-9d2fe46301.json": {
+    "aliases": [
+      "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-raised-to-2-per-cent",
+      "https://www.riksbank.se/globalassets/media/nyheter--pressmeddelanden/pressmeddelanden/2026/261104_nr1-upp/prm-4-november-2026-policy-rate-raised-to-2-per-cent.pdf"
+    ],
+    "jurisdiction": "Sweden",
+    "title": "Policy rate raised to 2 per cent",
+    "type": "Decision"
+  },
   "2026-11-04-a74dc165c5.json": {
     "jurisdiction": "Brazil",
     "title": "BC - Copom Comunicado - 282ª Reunião - Copom mantém a taxa Selic em 13,75% a.a.",
     "type": "Decision"
+  },
+  "2026-11-05-7b754e6fd7.json": {
+    "jurisdiction": "Norway",
+    "title": "Policy rate kept unchanged at 4.5 percent",
+    "type": "Decision"
+  },
+  "2026-11-05-e59f3c0ab9.json": {
+    "jurisdiction": "Mexico",
+    "title": "Anuncio de Política Monetaria",
+    "type": "Decision"
+  },
+  "2026-11-05-e737bdba7f.json": {
+    "aliases": [
+      "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1793865600000/"
+    ],
+    "jurisdiction": "Czechia",
+    "title": "CNB Board decisions",
+    "type": "Decision"
+  },
+  "2026-11-05-f41f3b39d0.json": {
+    "jurisdiction": "Czechia",
+    "title": "Statement of the Bank Board for the press conference following the monetary policy meeting",
+    "type": "Press conference"
+  },
+  "2026-11-10-b8e7fd794e.json": {
+    "jurisdiction": "Canada",
+    "title": "Summary of Governing Council deliberations: Fixed announcement date of October 28, 2026",
+    "type": "Minutes"
+  },
+  "2026-11-12-1c28c3e9e3.json": {
+    "jurisdiction": "Peru",
+    "title": "Programa monetario de noviembre de 2026",
+    "type": "Decision"
+  },
+  "2026-11-17-8aad871450.json": {
+    "jurisdiction": "Australia",
+    "title": "Minutes of the Monetary Policy Board meeting of 3 November 2026",
+    "type": "Minutes"
   },
   "2026-11-18-5936858f1a.json": {
     "aliases": [

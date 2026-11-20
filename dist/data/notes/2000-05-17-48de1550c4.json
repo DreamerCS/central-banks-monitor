@@ -1,0 +1,25 @@
+{
+  "title": "May 17 holds the overnight rate at its effective floor",
+  "bank": "Bank of Japan",
+  "date": "2000-05-17",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000517.htm",
+  "summary": [
+    "The majority renewed the zero-rate policy and instructed the Bank to supply funds flexibly, guiding unsecured overnight borrowing as low as practicable. The stated aim was to let ongoing easing transmit. The Board did not give an exit date, specify a minimum level of reserves or report whether lending to firms had increased. Those are separate empirical questions even when overnight funding remains cheap.",
+    "The economic assessment was scheduled for May 19, the English background for the end of May and the minutes for July 3. Information from those publications has a later availability date than the instruction itself."
+  ],
+  "questions": [
+    {
+      "question": "How far did overnight easing reach business borrowers?",
+      "detail": "Compare the price of new loans, adjusted for maturity and borrower mix, with banks’ short-term funding costs. The gap can identify a break in transmission that an overnight rate alone would miss."
+    },
+    {
+      "question": "Was cheap liquidity available at meaningful volumes?",
+      "detail": "Compare trading volumes, concentration and rate dispersion with the weighted average rate. A low mean alongside thin trading calls for a different interpretation from broad access to low-cost funds."
+    },
+    {
+      "question": "When did expectations about duration change?",
+      "detail": "Examine the term structure around the announcement and again around May 19. Use the later minutes to explain the debate only from their public release date."
+    }
+  ],
+  "limitation": ""
+}

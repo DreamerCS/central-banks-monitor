@@ -1,0 +1,26 @@
+{
+  "title": "Tax payments and the size of the PBoC’s seven-day reverse repo",
+  "bank": "People’s Bank of China",
+  "date": "2024-07-16",
+  "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/5405624/index.html",
+  "summary": [
+    "The PBoC allotted RMB676 billion through a seven-day reverse repo on 16 July 2024. Its stated purpose was to offset the effect of the tax-payment period and other factors and to maintain reasonably ample banking-system liquidity. The operation used a rate tender. The results table reports a winning rate of 1.80% and an allotment of 6,760 units of RMB100 million. All three figures refer to the same operation.",
+    "The bank’s explanation gives the transaction a specific horizon. Tax settlement can temporarily draw cash away from banks, while a reverse repo supplies funding that the counterparty must repay at maturity. A seven-day allotment can therefore bridge a cash need without committing the bank to maintain that volume of funding after the week ends. The notice supplies neither the tax receipts due nor the amount of earlier central-bank funding falling due that day. Consequently RMB676 billion measures gross allotment. The change in liquidity available to the system after other flows could be considerably smaller.",
+    "The tender result and the actual funding cost faced by an individual bank are separate observations. The former is supplied in the table. Establishing the latter would require interbank transaction data and information on how funding reached counterparties beyond the auction. The announcement does not report total bids, a distribution of award rates, market expectations or a change from the previous tender. It supports an assessment of how the desk intended to accommodate the tax period, with no standalone estimate of a policy surprise or of the response of bond yields."
+  ],
+  "questions": [
+    {
+      "question": "How much of the gross allotment replaced funding that was already due?",
+      "detail": "Match the central bank’s historical seven-day allotments to their actual maturity dates and identify other operations settling on 16 July. For a short-rate position, the expected net addition over the settlement week is more informative than the size of one tender viewed alone."
+    },
+    {
+      "question": "Was seven days sufficient to bridge the tax-related need?",
+      "detail": "Compare the official tax calendar, dates of fiscal cash transfers where available, and the term structure of secured money-market transactions before the tender. Pressure concentrated beyond the operation’s expiry would imply rollover exposure even if overnight funding eased."
+    },
+    {
+      "question": "How much of the operation had counterparties anticipated?",
+      "detail": "Read dealer liquidity estimates available before the tender, then examine time-stamped interbank rates and volumes around the result. Separate revisions to the expected funding quantity from any information in the 1.80% winning rate before interpreting movements in the front end."
+    }
+  ],
+  "limitation": ""
+}

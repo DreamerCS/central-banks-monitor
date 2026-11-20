@@ -1,0 +1,26 @@
+{
+  "title": "A half-point cut to 2% distinguishes a security-related productivity cost from the longer-run trend",
+  "bank": "Federal Open Market Committee",
+  "date": "2001-11-06",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20011106/",
+  "summary": [
+    "The FOMC cut its funds target by 50 basis points to 2%, and the Board reduced the discount rate to 1.50% after a request from the Richmond Reserve Bank. That request concerned the discount rate; it gives no basis for assigning particular views to individual FOMC voters.",
+    "The Fed identified uncertainty and fears of deteriorating business conditions both domestically and abroad as restraints on current activity. It also identified a possible near-term supply effect. Redirecting labour and capital towards security could slow measured productivity advances for a time. This qualification matters because lower measured output per hour need not imply that the technology or organisational capabilities underlying longer-run productivity have worsened. It can also reflect a change in the mix of tasks performed.",
+    "The Committee continued to judge longer-term productivity and economic prospects favourably, conditional on unusual restraints on demand subsiding. Its immediate risk judgement remained tilted towards weakness. The source gives neither a numerical estimate for the productivity cost nor a date when it would disappear. The rate cut is observable; the extent to which it could offset caution about foreign and domestic sales required separate evidence."
+  ],
+  "questions": [
+    {
+      "question": "How much of any productivity slowdown reflected changes in activity mix?",
+      "detail": "Compare output, hours and security-related outlays across industries with different requirements. Account for weak utilisation and measurement of new services. A fall in measured market output per hour after resources shift towards security need not imply a comparable loss of long-run technical efficiency."
+    },
+    {
+      "question": "Was foreign deterioration transmitting through orders, financing or confidence?",
+      "detail": "Track foreign orders and sales alongside funding terms and investment plans for firms with different international exposure. Use a domestic comparison group facing similar financial conditions to help distinguish an export shock from a broad increase in uncertainty."
+    },
+    {
+      "question": "Did the further cut reduce effective funding costs for the firms most likely to delay spending?",
+      "detail": "Compare changes in short benchmark rates, bank loan rates, credit premia and borrowing volumes. Distinguish the observed policy move from any movement investors had already priced before the decision."
+    }
+  ],
+  "limitation": ""
+}

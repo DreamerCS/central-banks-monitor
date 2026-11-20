@@ -1,0 +1,26 @@
+{
+  "title": "The Fed cuts to 1.75% as tentative demand improvement coexists with disinflation risk",
+  "bank": "Federal Open Market Committee",
+  "date": "2001-12-11",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20011211/",
+  "summary": [
+    "The FOMC lowered its funds target by 25 basis points to 1.75%, while the Board reduced the discount rate to 1.25%. The decision incorporated both a change in momentum and a still-weak level of activity. The Committee saw early signs that weakening demand was beginning to abate, but regarded them as tentative. Less rapid deterioration can precede recovery without establishing that spending is already growing sustainably.",
+    "Underlying inflation was expected to edge down from a relatively modest pace. That price judgement complemented the downside growth assessment and left room for further monetary support. The Fed did not declare risks balanced or specify a numerical inflation floor. Its longer-horizon account still allowed a temporary drag on measured productivity as resources were redirected towards security, alongside a favourable underlying growth outlook once unusual restraints on demand diminished.",
+    "The quarter-point reduction establishes the action chosen on 11 December. On its own, a smaller increment cannot establish how much further easing policymakers expected, what investors anticipated, or whether the Committee had identified the turning point in the cycle. Those questions depend on the evidence available after the release, and on the information already incorporated into prices beforehand."
+  ],
+  "questions": [
+    {
+      "question": "Were tentative signs of improvement broadening into a recovery of final sales?",
+      "detail": "Track consumption, equipment orders, business sales and production, distinguishing inventory effects from end demand. A smaller rate of decline in some series can improve their momentum while leaving the level of activity weak."
+    },
+    {
+      "question": "Would lower underlying inflation offset part of the decline in nominal borrowing costs?",
+      "detail": "Compare appropriate measures of expected inflation at the borrower's horizon with effective loan rates. Real borrowing costs depend on expected prices as well as the nominal rate. Distinguish movements in inflation expectations from risk premia when using market indicators."
+    },
+    {
+      "question": "Did markets interpret the quarter-point decision as slower easing or the likely end of cuts?",
+      "detail": "Reconstruct the expected size of the current move and changes in contracts covering subsequent meetings. The downside risk language and tentative demand assessment arrived together. They cannot be disentangled simply by comparing the closing rate with the new target."
+    }
+  ],
+  "limitation": ""
+}

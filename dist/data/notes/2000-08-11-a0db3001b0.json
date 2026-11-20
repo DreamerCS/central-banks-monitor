@@ -1,0 +1,25 @@
+{
+  "title": "The Board rejects a request to defer the August policy vote",
+  "bank": "Bank of Japan",
+  "date": "2000-08-11",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000811b.htm",
+  "summary": [
+    "At the August 11 meeting, delegates of the Ministry of Finance and the Economic Planning Agency asked the Policy Board to defer the vote on a proposed change to its money-market guideline until the next monetary policy meeting. The Bank identifies Article 19, Section 2 of the Bank of Japan Law as the basis for the request. Under Section 3, the Board put the request itself to a vote and a majority rejected it.",
+    "This notice records a decision about timing. It discloses neither the officials’ economic reasoning nor the vote tally, and it makes no statement about the rate each delegate or Board member preferred. The information it adds to the historical record is that the government representatives sought a delay and that the Board chose to proceed. The policy level and economic grounds for changing it require the companion operating decision."
+  ],
+  "questions": [
+    {
+      "question": "Could the procedural news be separated from the rate announcement?",
+      "detail": "Check the first publication or newswire time for each statement. If traders received both together, comparisons of market prices around the joint release identify a combined event."
+    },
+    {
+      "question": "What did the request itself reveal about preferences?",
+      "detail": "Compare the formal request with contemporaneous statements or the subsequently published meeting record. A request for another meeting is evidence of a timing preference, not by itself a stated preference for a particular future rate."
+    },
+    {
+      "question": "Did investors change beliefs about how decisions would be made?",
+      "detail": "Look for changes in the distribution of short-rate expectations beyond the current meeting, and in contemporary dealer commentary about the timing of future decisions. Control for the simultaneously released economic and policy news."
+    }
+  ],
+  "limitation": ""
+}

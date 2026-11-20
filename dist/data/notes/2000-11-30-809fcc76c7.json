@@ -1,0 +1,25 @@
+{
+  "title": "November 30 retains 0.25 percent through the next meeting",
+  "bank": "Bank of Japan",
+  "date": "2000-11-30",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k001130.htm",
+  "summary": [
+    "The Bank voted by majority to retain the average unsecured overnight call rate guide around 0.25 percent. The instruction applies to the immediately following intermeeting period. It leaves the route of later policy open. The notice gives no reason to treat funding premia associated with the month-end date as evidence that the Board changed its target.",
+    "The meeting ran until 12:27 p.m. The Bank scheduled the minutes for January 24, 2001. That delay matters for a historical model which reads official text by trading date. Detailed information first released in January would otherwise leak into a November signal."
+  ],
+  "questions": [
+    {
+      "question": "Did month-end trading affect the measured effective rate?",
+      "detail": "Compare November 30 transactions with nearby dates, other month-ends and changes in trading volume. The official target and an individual day’s effective rate are distinct observations."
+    },
+    {
+      "question": "Did quotes move before or after public dissemination?",
+      "detail": "Match rate and foreign-exchange quotes to a verified publication timestamp, checking market liquidity around midday. The meeting end listed on the page is a timing bound, not proof of dissemination."
+    },
+    {
+      "question": "How much of the January minutes was predictable in November?",
+      "detail": "Compare the later discussion with the information then publicly available. Date any newly observable disagreement to January 24 when constructing a real-time policy-language series."
+    }
+  ],
+  "limitation": ""
+}

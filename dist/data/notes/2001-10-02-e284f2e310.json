@@ -1,0 +1,26 @@
+{
+  "title": "A further half-point cut addresses spending postponed under heightened uncertainty",
+  "bank": "Federal Open Market Committee",
+  "date": "2001-10-02",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20011002/",
+  "summary": [
+    "The Committee lowered the federal funds target by 50 basis points to 2.50%. The Board approved a corresponding discount-rate cut to 2%. Its economic diagnosis distinguished an economy already showing weakness from an additional source of pressure: the attacks had increased uncertainty and were further inhibiting business and household spending.",
+    "This is a claim about the willingness to commit funds as well as the resources available to spend. A firm can defer investment when future sales are hard to assess, and a household can delay a large purchase while its employment or income outlook is uncertain. Lower financing costs can make expenditure more attractive, but they need not immediately offset the value of waiting. The statement contains no estimate of how much spending was postponed, permanently lost or simply shifted in timing.",
+    "The Committee expected favourable longer-term productivity and growth prospects to reassert themselves once the unusual constraints on demand diminished. Its assessment still put greater weight on near-term economic weakness. The release gave no date for the obstacles to fade or for spending to rebound, and it did not infer any particular price move in bonds or equities."
+  ],
+  "questions": [
+    {
+      "question": "Were households and firms postponing transactions, or reducing their desired level of spending more persistently?",
+      "detail": "Follow cancellations, new orders, delivery schedules and subsequent resumption, separating travel-sensitive sectors from others. Recovery of deferred purchases would generate a different path from lasting loss of income or expected demand."
+    },
+    {
+      "question": "Did cheaper credit reach firms whose spending was constrained by uncertainty?",
+      "detail": "Compare lending terms and investment among equally exposed firms with different cash reserves and refinancing schedules. A failure of investment to respond despite easier terms gives different evidence from lending standards tightening as the funds rate fell."
+    },
+    {
+      "question": "How much did the announcement alter the expected future path of rates?",
+      "detail": "Use pre-release pricing and separate economic news already public after the attacks from information in the decision. Contrast instruments tied to the current meeting with later contracts. Equity moves can reflect revised earnings and risk premia as well as interest rates."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Peru holds as higher transport fares lift underlying inflation and expectations move up",
+  "bank": "Banco Central de Reserva del Perú",
+  "date": "2026-05-14",
+  "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-05-14.pdf",
+  "summary": [
+    "Peru held its reference rate at 4.25% on 14 May. April’s headline CPI increase of 0.52% was smaller than the 0.87% rise in the index excluding food and energy. Over twelve months, headline inflation rose from 3.8% to 4.0% and underlying inflation from 3.7% to 4.4%. A fuel shock can produce this ordering when transport operators raise fares: the fuel itself is excluded from the underlying measure, but the price of the service remains. The Board cited local transport fares and fuel prices against a backdrop of higher world oil prices. The figures provide no exact estimate of how much of the underlying index increase came from transport.",
+    "The policy question was how a level adjustment to fares might evolve into a persistent change in inflation. If prices rise once to compensate for higher costs, annual inflation can stay high until the comparison period rolls forward even though current monthly momentum has normalised. Repeated revisions to fares, or similar repricing in services outside transport, would extend the adjustment. The Bank considered most of the pressure to be temporary and expected both headline and underlying inflation to return to the target range within the forecast horizon and settle around 2% in 2027 as supply effects faded. The Board referred expressly to the duration of those shocks in explaining what it would monitor.",
+    "Expectations were the less reassuring part of the release. The twelve-month measure went from 2.5% to 2.8% in April. It remained inside the target range, but repeated increases would affect the prospective restraint of an unchanged nominal rate. The 4.25% target less 2.8% expected inflation yields a simple 1.45% forward-looking real-rate approximation. It is sensitive to the survey horizon and is not the price faced by borrowers. Most current and expected activity indicators remained optimistic and April leading data were positive, even as survey expectations deteriorated. This describes weaker sentiment within a still-positive range rather than an observed contraction in spending.",
+    "The Board saw favourable terms of trade and positive global growth prospects alongside high international oil prices and financial volatility. The benefit of export prices to the national economy need not offset a higher transport bill for each household or business. Operating terms in section 4 kept the overnight deposit rate at 2.25% and qualifying initial lending operations at 4.75%, with separate terms for repeated or large use. No actual interbank transaction, exchange-rate move or traded market response to the decision is given. For assessing the next meeting, the most informative observations would be fare-setting after the initial oil shock, non-transport services inflation and the persistence of the rise in expectations."
+  ],
+  "questions": [
+    {
+      "question": "How much of April’s unusually high underlying reading was concentrated in local transport fares?",
+      "detail": "Use the consumer-price weights and monthly transport subindices to separate direct fare increases from changes in other services. Follow the same components after fuel prices stabilise. A single adjustment that remains in annual inflation for a year has a different meaning for policy from a series of monthly increases spread across unrelated services."
+    },
+    {
+      "question": "Were expectations reflecting the cost of commuting or a wider change in beliefs?",
+      "detail": "Compare twelve-month inflation expectations across respondent groups with longer horizons and with highly visible transport prices. Track subsequent wage and selling-price plans as well. If short-run responses move with fares while longer expectations and actual pricing plans barely change, the risk of persistent second-round effects would be smaller."
+    },
+    {
+      "question": "Did favourable external income offset the domestic purchasing-power loss?",
+      "detail": "Separate exporters’ receipts, investment and fiscal effects from households’ exposure to food, fuel and transport costs. Monitor actual spending as well as the survey’s optimistic level. The Bank’s positive terms-of-trade assessment describes an aggregate relationship, so it cannot by itself establish that demand in the groups facing the largest price shock remained strong. Trace the timing separately because commodity export receipts, government revenue and household expenditure can adjust at very different speeds."
+    }
+  ],
+  "limitation": ""
+}

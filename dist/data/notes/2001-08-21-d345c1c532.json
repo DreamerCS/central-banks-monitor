@@ -1,0 +1,26 @@
+{
+  "title": "The Fed cuts to 3.50% with household demand holding up better than business spending",
+  "bank": "Federal Open Market Committee",
+  "date": "2001-08-21",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010821/",
+  "summary": [
+    "The FOMC reduced the funds target by a quarter point to 3.50%, bringing the decline since the start of the year to 300 basis points. The Board took the discount rate to 3.00% with a corresponding quarter-point reduction. The Committee still considered the balance of risks weighted towards economic weakness.",
+    "The sectoral distinction was important. Household demand had been sustained even as profits and business investment continued to weaken. Growth abroad was also slowing. Resilient household spending could limit the overall slowdown, but it would not necessarily restore expected returns on investment for firms facing falling profits or weaker foreign sales. The statement gave no evidence that 300 basis points of easing had failed, nor that it had already exerted its full effect. It gave the state of demand and the amount of easing delivered, not the counterfactual path without those cuts.",
+    "The Fed continued to expect contained inflation as pressure eased in labour and product markets, and saw longer-run productivity prospects as favourable. Neither judgement was a prediction that investment would rebound promptly. The announcement gave no date for recovery or for an end to the easing cycle."
+  ],
+  "questions": [
+    {
+      "question": "Was consumption sustained by a durable income stream or by financing and wealth effects that could reverse?",
+      "detail": "Compare real spending, household income, saving and borrowing, separating durables from recurring consumption. Broad strength supported by earnings would imply a different buffer against further business weakness than purchases concentrated among households refinancing debt."
+    },
+    {
+      "question": "Where did the profit shock translate into lower investment?",
+      "detail": "Compare orders, expected sales, export exposure and capacity use across industries. Firms can delay capex despite lower rates where returns have fallen or idle capacity can meet demand. Funding spreads and credit terms can help distinguish a balance-sheet constraint from a shortage of attractive projects."
+    },
+    {
+      "question": "Which expectations about policy changed once investors knew cumulative easing had reached three percentage points?",
+      "detail": "Separate the expected and unexpected portions of the August cut and compare repricing across upcoming meetings. The cumulative rate change is useful historical context, but its previously known portion cannot be treated as new August news."
+    }
+  ],
+  "limitation": ""
+}

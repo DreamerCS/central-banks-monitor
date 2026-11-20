@@ -1,0 +1,27 @@
+{
+  "title": "Mexico holds after headline disinflation masks a slightly firmer core forecast",
+  "bank": "Banco de México",
+  "date": "2026-06-25",
+  "url": "https://www.banxico.org.mx/publicaciones-y-prensa/anuncios-de-las-decisiones-de-politica-monetaria/%7BF6667DDE-E87D-68A3-0EBB-A4DF9048E403%7D.pdf",
+  "summary": [
+    "All members of Banxico’s Board voted to keep the overnight interbank target at 6.50% on 25 June. Headline inflation had fallen by almost a percentage point between April and the first half of June, yet the Bank revised its core forecast higher for three consecutive quarters. The hold and its guidance that maintaining the current rate remained appropriate resolve that apparent tension. The Board expected spare capacity throughout the projection horizon, while the persistence of underlying prices and upside risks argued against treating the latest headline decline as a signal to reopen easing immediately.",
+    "Headline inflation fell from 4.45% in April to 3.55% in the first half of June. Both components contributed. Core inflation declined less sharply, from 4.26% to 4.12%; non-core inflation also fell. The difference between those two declines does not give an exact non-core contribution since the components enter with different expenditure weights. End-2026 expected inflation declined only marginally and longer-term expectations stayed relatively stable above the target. Thus three metrics moved by different amounts: the realised annual rate, the current-year expected rate and longer-run beliefs.",
+    "Banxico’s Q2 headline forecast fell from 4.1% to 4.0% owing to lower non-core readings than anticipated. Its core forecasts for Q2, Q3 and Q4 each rose 0.1 percentage point, to 4.2%, 3.8% and 3.5%. The revised Q4 core number equalled the Q4 headline projection. Both series were projected at 3.0% by 2027 Q2. These are rates of change over a year in quarterly-average price indices. The memorandum separately projected annualised sequential inflation of 2.8% for headline and 3.0% for core in 2026 Q3. A sequential pace near target can coexist with annual inflation still above target while older, larger increases remain in the comparison.",
+    "The domestic economy was expected to expand in Q2 after the Q1 contraction, though Banxico continued to see spare capacity and important downside activity risks. A quarter of renewed growth can leave the level of demand below the economy’s ability to supply it. The Board considered that lack of demand pressure, the exchange-rate level and existing restraint when deciding to hold. Financial prices were not all moving in the same direction across countries: Mexican government yields fell at most maturities, while US Treasury yields rose at most maturities, the dollar strengthened and the peso weakened. Global commodity prices mainly declined, with uncertainty about Middle Eastern conflict persisting despite progress towards negotiations. These are intermeeting observations rather than estimates of the decision-day response. In particular, a weaker peso did not prevent a drop in headline inflation over this window; the relevant policy issue is the subsequent pass-through to consumer prices."
+  ],
+  "questions": [
+    {
+      "question": "Was the upward core revision driven by price-setting persistence or simply new observations?",
+      "detail": "Align the June and May vintages by exact quarter and separate months already observed from those still forecast. Compare services and goods inflation, adjusting for normal seasonal patterns and release timing. This matters because a quarter-average forecast can increase when one early observation surprises, even if the assumed path after the current quarter barely changes."
+    },
+    {
+      "question": "What explains Mexican yields falling as comparable US yields rose?",
+      "detail": "Match maturities and observation dates, compare expected short rates with longer government yields, and check the role of the peso and commodity markets. The Bank describes intermeeting moves, with no decomposition into expected rates and term premiums. A narrower yield differential could reflect weaker expected Mexican activity, lower inflation compensation or a change in risk exposure."
+    },
+    {
+      "question": "Did the apparent rebound reduce slack or merely recover part of the previous quarter’s loss?",
+      "detail": "Follow final domestic demand, production, hours and capacity indicators in addition to aggregate quarterly growth. Compare the level of activity with the preceding peak and the Bank’s forecast. A rebound driven by temporary components would have different implications for firms’ pricing power and the persistence of core inflation. Revisions to the first-quarter baseline are also relevant when measuring the extent of the rebound."
+    }
+  ],
+  "limitation": ""
+}

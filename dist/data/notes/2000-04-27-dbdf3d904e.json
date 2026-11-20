@@ -1,0 +1,30 @@
+{
+  "title": "Bill-market reform prepares the Bank for real-time gross settlement",
+  "bank": "Bank of Japan",
+  "date": "2000-04-27",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/mok0004c.htm",
+  "summary": [
+    "The Bank set out how bill purchases and sales would operate when transfers between current accounts at the Bank moved exclusively to real-time gross settlement. Its central change was direct dealing with selected institutions. Under the planned arrangement the Bank would cease routing the operation through money-market dealers as intermediaries. Those dealers remained among the groups eligible to participate directly. The reform changes how funding reaches participants, without specifying a new price or quantity of overnight money.",
+    "For purchases, the Bank planned to combine its separate operations using corporate bonds and loans on deeds with the ordinary bill-purchase operation. Eligible collateral would be pooled and available across bill purchases, intraday overdrafts and treasury-related operations. Reusing a collateral pool could reduce the need to tie particular assets permanently to particular facilities. It does not mean the same asset could secure two outstanding exposures at its full value simultaneously.",
+    "The timing in sections 1(4)–(5) is material. Head-office direct operations could start before the settlement switchover once preparations allowed. Intermediated dealings could coexist with them during transition. Head-office purchases were to operate immediately at the switchover, with coverage across all branches to follow once arrangements were ready. Existing counterparties in the corporate-collateral programme and the earlier direct operation would feed into the first head-office group. On the sale side, direct dealing was designed for institutions maintaining head-office current accounts. The release therefore describes several changes with different effective dates, not a single April jump in access to funds."
+  ],
+  "questions": [
+    {
+      "question": "Did direct dealing change the distribution of funding?",
+      "detail": "Use evidence on each participant’s first eligibility, location and actual awards. Compare new direct bidders with institutions already reached through dealers, keeping transitional and post-switchover periods separate."
+    },
+    {
+      "question": "Did pooling reduce intraday collateral pressure?",
+      "detail": "Compare collateral posted, peaks in intraday overdrafts and bill funding outstanding at the same institutions. Savings from pooling depend on whether peak uses occur at different times."
+    },
+    {
+      "question": "Did branches receive broader access at the date markets expected?",
+      "detail": "Collect the dates on which branch operations could actually be used. Compare funding conditions in branch-based and head-office groups around implementation, allowing for pre-existing differences in size and collateral holdings."
+    },
+    {
+      "question": "How much of the change reflects gross settlement itself?",
+      "detail": "Compare the sequence of early direct operations, the switch in settlement and subsequent branch access. Multiple steps give stronger identification than assigning every change to April 27."
+    }
+  ],
+  "limitation": ""
+}

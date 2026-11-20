@@ -1,0 +1,28 @@
+{
+  "title": "A four-to-three Czech vote raises rates over second-round inflation risks",
+  "bank": "Czech National Bank",
+  "date": "2026-11-05",
+  "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1793865600000/?tab=statement",
+  "summary": [
+    "The Czech Bank Board raised the two-week repo rate by 25 basis points to 4.00% on November 5, with other key rates rising by the same amount. Four members favoured the increase and three preferred to hold. September’s guidance had explicitly identified those two options for this meeting. November delivered the tightening option by the narrowest possible majority. The initial rate decision and the vote split consequently have different information content for investors who had already priced some probability of a rise (decision and official release schedule).",
+    "The majority described the move as protection against second-round effects of a commodity cost shock. Earlier energy increases could be passed through to a wider range of products, change expectations or enter wage claims after the initial effect on fuel had faded. Core inflation was already elevated, with services a major contributor. A tight labour market, rapid wage growth, increasing household consumption and business investment, and strong property prices all supported the concern that firms might sustain price increases. June’s rise and elevated long-term rates had already tightened conditions. The Board reasoned that additional action could anchor expectations and stabilize new lending. It did not publish an estimated effect size for either channel (decision).",
+    "The new Monetary Department forecast put average inflation for 2026 at 2.1%, slightly above August’s 2.0%, and envisaged acceleration in 2027. The meeting statement did not give a numerical 2027 inflation average. In contrast, the growth revision was large: expected GDP growth for 2026 fell from 2.2% to 1.7%, while the new forecast put 2027 at 2.5% versus 2.7% in summer. The rate increase therefore cannot be read as a response to a uniformly stronger growth outlook. A weaker overall economy can still generate persistent domestic inflation when wage-sensitive services, public-sector demand and credit-financed property activity remain firm (outlook and risk discussion).",
+    "Financing conditions supplied another reason the decision was close. Higher longer-term rates could already restrain mortgage or investment financing, even if the overnight policy outlook changed little. On the other hand, faster lending and debt financing of public spending could expand money balances and support expenditures. The statement described material tensions in some overseas sovereign-bond markets, together with the risk of a global correction where government debts were high. A common shock to long bond yields across countries could therefore tighten domestic conditions independently of a revision to the expected CNB rate. The three dissenters’ own detailed reasoning was not given in this press statement (decision and risks).",
+    "The rate decision was scheduled for 14:30 Prague time, with the statement containing the vote at the subsequent 15:00 press conference. These distinctions matter for a study of forward rates or the koruna. Repricing around disclosure of the close vote could have a different sign from the initial response to the rate increase, especially if investors had expected broader support. Estimate those effects separately using prices recorded just before each release. The statement reports the Board’s assessment and voting result; the direction and size of either market response require independent observations (statement and official release schedule)."
+  ],
+  "questions": [
+    {
+      "question": "How much policy repricing reflected the hike and how much reflected the close vote?",
+      "detail": "Compare near-meeting contracts immediately before and after 14:30 with pricing after the statement and voting result. Check the currency and the relative response of shorter and longer interest rates. If participants had expected a broad majority, the split could modify their estimate of follow-up tightening even after the rate increased."
+    },
+    {
+      "question": "Did the cost shock persist outside goods exposed directly to commodity prices?",
+      "detail": "Track prices in labour-intensive services, wage negotiations and medium-horizon expectations against input-cost changes and exchange rates. Allow for staggered contract resets. A one-time pass-through into final prices differs from repeated revisions extending into sectors with limited direct exposure."
+    },
+    {
+      "question": "Was the growth downgrade changing the balance between private demand and fiscal activity?",
+      "detail": "Compare consumption, corporate investment, government expenditure and net trade with the August and November forecast vintages. Relate each to new credit by borrower. A decline in aggregate growth can coexist with persistent domestic pricing pressure if relatively labour-intensive demand or government spending remains strong."
+    }
+  ],
+  "limitation": ""
+}

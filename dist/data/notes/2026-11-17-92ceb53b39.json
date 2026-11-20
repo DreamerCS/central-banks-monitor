@@ -1,0 +1,28 @@
+{
+  "title": "Hungary holds at 5.50% ahead of a reassessment of taxes and spending",
+  "bank": "Magyar Nemzeti Bank",
+  "date": "2026-11-17",
+  "url": "https://www.mnb.hu/en/monetary-policy/the-monetary-council/press-releases/2026/press-release-on-the-monetary-council-meeting-of-17-november-2026",
+  "summary": [
+    "The November 17 Monetary Council maintained the base rate at 5.50% and the overnight corridor at 4.50–6.50%. October inflation was in line with September’s forecast, but a set of fiscal and regulatory measures complicated the outlook. Higher excise and other taxes and the removal of price-margin restrictions could raise measured prices, while cuts in government spending could moderate demand and inflation. The Council reserved a comprehensive assessment of their net impact for the December Inflation Report. It attached any increase in future room for easing to favourable domestic developments persisting and external uncertainty subsiding (rate table and concluding assessment).",
+    "October headline inflation rose to 2.0%, principally owing to fuel. Food prices remained below their levels a year earlier, and service inflation had changed little since August. Core inflation was 2.1%, with its monthly increase in line with the 2017–20 average. Household and company pricing expectations were moderate. These readings described an economy with subdued broad price momentum but renewed pressure in particular items. The 2.0% reading was at the lower edge of the existing tolerance band; the new 2.5% target was scheduled for January 2028 and should not be substituted for the current target in interpreting the meeting (price and mandate discussion).",
+    "The proposed inflation channels were unusually concrete. Removing margin restrictions could lift some retail prices. Higher excise on tobacco and spirits, the retail tax, the public health product tax and changes to the financial transaction tax could add to measured inflation. Their incidence depends on the extent and timing of pass-through, including whether retailers or banks absorb part of a levy. Lower public expenditure works differently, restraining aggregate demand over time. An unchanged nominal rate while the forecast is reassessed allows the Board to distinguish a temporary tax-driven increase in the index from a broader change in inflationary pressure. The release gave no quantified net CPI impact of the package (policy measures and outlook).",
+    "Third-quarter GDP grew 1.5% year on year. Industry made the main positive contribution, services also supported growth and agriculture was a significant drag. September industrial production and retail sales both rose. Activity remained broadly in line with the September forecast. Attributing the slower pace of GDP growth solely to the monetary stance would ignore the documented agricultural weakness and the differences across sectors. For market interpretation, incoming tax and spending decisions could affect both domestic demand and investors’ assessment of the sovereign (activity and financial market assessments).",
+    "Hungary’s domestic risk assessment had been stable for several months, helped by favourable reception of the fiscal path and the government’s commitment to euro adoption in its medium-term plan. Meanwhile global oil prices had fallen since October amid considerable volatility, European gas remained expensive and global technology-sector and political news weighed on risk appetite. The MNB described these as reasons for caution despite favourable domestic inflation. It gave no commitment to cut in December. The published release date, next-day operational date and later minutes should be treated separately when comparing the currency or yields with the information available at the time (external conditions and decision)."
+  ],
+  "questions": [
+    {
+      "question": "What was the relative timing of tax pass-through and spending restraint?",
+      "detail": "Build an implementation calendar for the excises, retail and product taxes, transaction tax and margin-rule expiry. Compare affected retail prices with unaffected substitutes and track public disbursements separately. Avoid netting an immediate price-level increase against a demand effect likely to occur over later quarters."
+    },
+    {
+      "question": "Did low food inflation mask stronger momentum elsewhere?",
+      "detail": "Disaggregate annual and monthly CPI for fuel, food, services and the core basket. Examine the October price distribution against the 2017–20 monthly benchmark. Identify whether eventual increases reflect one-off regulated changes or recurring price revisions across unrelated activities."
+    },
+    {
+      "question": "Did greater fiscal credibility offset the effects of higher taxes on expected inflation?",
+      "detail": "Track domestic sovereign spreads, forint forwards and longer-term inflation compensation around fiscal announcements and the meeting. Control for international yields and European gas prices. The same package can raise near-term consumer prices while lowering the premium investors require on domestic debt."
+    }
+  ],
+  "limitation": ""
+}

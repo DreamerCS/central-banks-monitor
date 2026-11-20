@@ -1,0 +1,27 @@
+{
+  "title": "Peru holds as food prices fall but twelve-month inflation expectations keep rising",
+  "bank": "Banco Central de Reserva del Perú",
+  "date": "2026-06-11",
+  "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-06-11.pdf",
+  "summary": [
+    "The Peruvian Board kept the reference rate at 4.25% on 11 June. A negative monthly headline CPI reading made the direction of the latest price change look more reassuring than the outlook. Prices fell 0.16% in May, mainly because some foods became cheaper. Prices excluding food and energy rose 0.09%. Headline annual inflation slipped only from 4.0% to 3.9%, while underlying annual inflation stayed at 4.4%. The monthly flow of price changes had cooled much more than the twelve-month rate. That is what one would expect if sizeable earlier shocks remained in the annual comparison, although the note does not quantify their remaining contribution.",
+    "The less favourable observation concerned expectations. The twelve-month measure rose from 2.8% to 2.9%, still within the target interval. A modest fall in headline inflation therefore did not immediately translate into an improvement in the public’s expected purchasing power. Movements in expectations can lag monthly data and respond differently to salient prices. Holding the nominal reference rate while expected inflation rises also reduces a simple prospective real-rate measure. Whether that translated into easier lending conditions would depend on actual borrowing rates, maturities and credit supply, none of which the statement measured.",
+    "The Board still anticipated a return of headline and underlying inflation to the target interval within its projection horizon and around 2% in 2027 as supply pressures dissipated. This was a conditional account rather than a point forecast for the next release. The Bank specifically identified the duration of supply shocks, actual underlying inflation, expectations and activity as variables that could change its decision. Sustained weakness in monthly non-food, non-energy inflation would support that baseline. Further upward drift in expectations, or evidence that firms were repeatedly resetting prices after the initial shock, would carry a different message even if some volatile foods temporarily pulled down the headline.",
+    "Leading indicators through May remained favourable. Most measures of current conditions and business expectations stood in optimistic territory, and most of the expectation indicators recovered. The Bank balanced those data against international financial volatility and uncertainty around oil amid the Middle East conflict. It still judged world growth prospects positive and Peru’s terms of trade favourable. These judgments leave open whether households exposed to transport costs shared in gains accruing to exporters. The overnight standing deposit and initial lending rates remained 2.25% and 4.75%, respectively. An institution’s use of more than ten qualifying loans or repos over three months could attract different terms. The note reports no market rates or asset returns around the hold. Its contribution to a policy study is the tension between moderating realised price momentum and still-rising expected inflation."
+  ],
+  "questions": [
+    {
+      "question": "Would the May decline have survived removing the handful of cheaper foods?",
+      "detail": "Recalculate monthly and annual headline inflation excluding the items identified in the detailed CPI release, keeping weights explicit. Compare underlying momentum across several months rather than extrapolating one observation. The exercise would establish whether the negative reading signalled a general easing of price pressure or chiefly a reversal in a volatile category."
+    },
+    {
+      "question": "What was driving the increase in expectations despite better headline data?",
+      "detail": "Check when respondents provided their answers, the relevant survey horizons and differences between firms, analysts and households where available. Compare perceived food and transport prices against actual June data. The timing matters because a survey rise can reflect information available before some of the prices in the monthly CPI were observed."
+    },
+    {
+      "question": "Were signs of a recovery in business expectations reaching actual demand?",
+      "detail": "Compare forward indicators with subsequent sales, employment, orders and credit use, separating export-oriented sectors from firms exposed to domestic transport and energy costs. If sentiment recovered without a corresponding rise in final demand, stronger survey readings would carry less weight in deciding whether domestic pricing power was sustaining underlying inflation. Distinguish a change in the number of optimistic businesses from a change in the scale of spending by those businesses."
+    }
+  ],
+  "limitation": ""
+}

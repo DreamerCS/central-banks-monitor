@@ -1,0 +1,28 @@
+{
+  "title": "Korea’s first 2026 increase joins the semiconductor income boom to household credit",
+  "bank": "Bank of Korea",
+  "date": "2026-07-16",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000627/view.do?nttId=11062943&menuNo=400022",
+  "summary": [
+    "The Bank of Korea raised its Base Rate by 25 basis points to 2.75% on July 16. All seven members supported the change. The Governor set out three reasons: stronger growth, more persistent inflation pressure and financial stability risks. The policy rate for the Bank Intermediated Lending Support Facility also rose by 25 basis points, from 1.00% to 1.25%. The facility change matters for borrowers served by participating financial institutions and should be recorded alongside the policy rate, rather than inferred mechanically in future meetings (decision and opening remarks).",
+    "June exports exceeded US$100 billion in a month for the first time, according to the Bank. IT export values recorded triple-digit growth and growth in non-IT exports also accelerated. Strong semiconductor prices improved nominal income as well as export receipts. The Governor expected higher corporate profits to support equipment investment, wages, consumption and tax revenue. The Bank anticipated growth well above its May forecast of 2.6% for 2026 but did not publish a replacement point estimate in this statement. A research series should preserve that directional judgment. Converting higher nominal exports directly into real GDP growth would confuse unit prices with production volumes (opening remarks, external and domestic activity).",
+    "June headline CPI reached 3.2%, reflecting petroleum products and faster increases in agricultural, livestock and fisheries prices. Core inflation excluding food and energy remained at 2.5%. Inflation for living necessities was in the mid-3% range and short-term public expectations in the upper 2% range. Earlier cost increases and the elevated exchange rate were expected to feed into consumer prices with a lag even as global oil prices declined. The Bank judged the annual headline forecast broadly in line with May while expecting core inflation to run somewhat higher. It emphasized that stronger household incomes could reinforce price pressures beyond the directly affected categories. That claim depends on the distribution of export gains across firms and households (opening remarks, prices and decision rationale).",
+    "Financial risks had become more pronounced. Household loans were growing by roughly KRW 8–9 trillion per month, with housing-related borrowing sustained and other loans also rising sharply. House price gains accelerated in Seoul and major parts of Gyeonggi Province as expectations of further increases remained high. Income and asset gains could make it easier to buy property, strengthening a domestic transmission channel from an external technology cycle. The exchange rate also swung from the mid-1,500s to the upper 1,400s won per US dollar as foreign equity flows and dollar funding conditions changed. A decrease in the won-per-dollar quote is a stronger won, an important convention when comparing import costs with rate surprises (financial and housing market discussion).",
+    "The Bank retained a stance consistent with further increases but left the timing and pace tied to incoming inflation, growth and financial conditions. Yields had already risen in response to domestic and overseas policy expectations, and equities had corrected amid global chip-sector volatility. The realized 25-basis-point change is therefore not itself a measure of unexpected tightening. An immediate currency or yield response can be assessed against short-dated rate pricing before the release. Slower data on household debt, service prices and non-IT consumption address whether the Board’s rationale was subsequently borne out (decision and closing remarks)."
+  ],
+  "questions": [
+    {
+      "question": "How much of the record export value translated into broad real household income?",
+      "detail": "Separate export unit values and volumes and trace subsequent corporate profits, tax receipts, wages and consumption inside and outside the semiconductor sector. Compare equipment investment with private consumption over different lags. Rising nominal exports can support the current account well before gains reach a typical household."
+    },
+    {
+      "question": "Were asset gains and borrowing mutually reinforcing in the capital region?",
+      "detail": "Compare mortgage approvals, unsecured borrowing and housing transactions by price tier in Seoul and Gyeonggi with equity gains and labour income. Use comparable districts outside the capital region and account for existing credit restrictions. Rising house prices with similar household incomes but different equity exposures would suggest a distinct financing or wealth channel."
+    },
+    {
+      "question": "Which borrowers were affected by the parallel rise in the support facility rate?",
+      "detail": "Compare loan repricing and volumes for eligible borrowers with similar ineligible firms, accounting for programme participation and loan maturity. The identical 25-basis-point move in the facility and the Base Rate preserved the gap between their policy settings. It still need not imply identical changes in the retail rates borrowers actually paid."
+    }
+  ],
+  "limitation": ""
+}

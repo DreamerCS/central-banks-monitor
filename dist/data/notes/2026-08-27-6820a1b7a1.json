@@ -1,0 +1,28 @@
+{
+  "title": "Korea raises the Base Rate again while preserving targeted SME funding",
+  "bank": "Bank of Korea",
+  "date": "2026-08-27",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?menuNo=400069&nttId=11064193&programType=newsDataEng",
+  "summary": [
+    "The Monetary Policy Board voted six to one on August 27 to raise the Base Rate from 2.75% to 3.00%. Hwang Kunil preferred to retain 2.75%. Unlike July, the Bank kept the rate on programs under its Bank Intermediated Lending Support Facility unchanged at 1.25%. This widened the gap between the policy rate and the targeted facility from 1.50 to 1.75 percentage points. The Bank explicitly associated the facility decision with reducing the financial burden on small and medium-sized enterprises. Aggregate tightening and the terms of targeted liquidity thus diverged at this meeting (decision and Governor’s final remarks).",
+    "The new outlook lifted 2026 GDP growth from May’s 2.6% to 3.3% and put 2027 growth at 2.9%. Exports and investment remained stronger than expected as the semiconductor sector expanded. Better terms of trade had delivered rapid income growth in the second quarter, and the Bank expected the recovery in consumption to strengthen as gains spread through the economy. An improvement in the terms of trade raises the purchasing power of a given amount of Korean output. Whether it generates an equal increase in domestic demand depends on how much exporters invest domestically or distribute through wages and profits. The Bank singled out the strength of that spillover as an uncertainty (opening remarks, activity and growth forecasts).",
+    "The profiles of underlying and headline inflation help explain why the Board tightened again. The July CPI reading eased to 2.8% as increases in petroleum and agricultural prices slowed. Core CPI excluding food and energy rose to 2.6%, led by personal services and durable goods. The Bank left its headline forecasts unchanged at 2.7% for 2026 and 2.3% for 2027. Stronger demand and lower oil prices offset one another. It raised the core forecast to 2.5% in each year, from 2.4% and 2.3% respectively, citing both stronger demand as incomes improved and the delayed pass-through of accumulated costs. An unchanged headline projection therefore accompanied a meaningful upward revision to estimates of persistence (decision and revised forecasts).",
+    "The market backdrop also complicates inference from the headline rate. The won per dollar had fallen to the upper 1,300s as foreign equity outflows moderated and the dollar weakened. Korean Treasury yields fluctuated with domestic economic news, US yields and oil. Equities fell sharply in the chip sector before partly recovering. House price growth cooled in some Seoul districts but remained brisk across the wider capital area, while both housing-related and other loans contributed to faster household borrowing than in previous years. The Bank considered an earlier rise capable of reducing the risk of more extensive tightening later and of moderating housing and credit pressures. This is a policy rationale, rather than a measured estimate of the effect of the increase (opening remarks, financial conditions and decision rationale).",
+    "For an event study, at least three pieces of news arrived with the decision: another rise in the current rate, stronger underlying inflation and growth forecasts, and preferential treatment of the targeted facility. The vote supplies a fourth observation, one member preferring to hold, without giving a detailed counterforecast. A credit-spread response among SME lenders and a rise in medium-dated government yields could therefore capture different channels. Further increases remained possible, with no stated calendar. Compare local-currency loans and funding spreads separately from the expected path of the Base Rate (decision and concluding remarks)."
+  ],
+  "questions": [
+    {
+      "question": "Did Korea’s stronger income growth broaden demand enough to lift domestic services inflation?",
+      "detail": "Compare changes in real purchasing power from the terms of trade with household labour income, consumer spending and personal service prices. Use differences between chip-producing regions and other regions to track spillovers. Distinguish a durable-goods component driven by chip costs from a service-price component linked to domestic demand."
+    },
+    {
+      "question": "Who benefited from the unchanged 1.25% facility rate?",
+      "detail": "Compare spreads, borrowing volumes and credit approvals for eligible SMEs with matched borrowers outside the facility. Account for bank take-up, guarantees and government support. The 25-basis-point widening in the policy-rate gap indicates a change in relative funding terms, but it does not measure the subsidy received by each firm."
+    },
+    {
+      "question": "Did the term structure reprice headline inflation or greater persistence?",
+      "detail": "Compare current-year headline inflation compensation with later forwards and rates around publication, controlling for currency moves and foreign yields. Because headline forecasts were unchanged but core forecasts rose for both years, differences by maturity can help identify which elements of the release mattered to investors."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Faster publication changes when Japan’s policy debate becomes tradeable information",
+  "bank": "Bank of Japan",
+  "date": "2000-09-08",
+  "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/m_ref/mpo0009a.htm",
+  "summary": [
+    "The Bank shortened the lag between a meeting and public access to the discussion. Under the former procedure minutes were approved at the second subsequent meeting, which could leave roughly two months before publication. The new approach allowed approval at the first or second meeting around one month later. Publication would follow on the third business day after approval, with release dates announced alongside the meeting calendar at quarter-end. Approval and publication remain separate events.",
+    "The accompanying revised schedule makes the change concrete. The August 11 minutes moved to September 20 from October 18, and the September 14 minutes moved to October 18 from November 2. Both July 17 and August 11 minutes were consequently scheduled for September 20. This matters for interpreting old decision notices, some of which display the dates originally planned. Applying a fixed lag to the meeting date, or using the superseded schedule, would misdate the public information.",
+    "Starting with the September monthly report, the full Japanese text and the English version of the Bank’s View were to appear at 2 p.m. Japan time on the next business day after the first meeting of the month. The previous rule had been 8:50 a.m. on the second business day. English background material still followed later. The period during which Board members refrained from policy commentary therefore ended earlier after these meetings. The accompanying Japanese rules also distinguish meetings that set the economic view from those whose blackout ends on the meeting day. September 8 changed the timing and availability of evidence about policy. It announced no overnight-rate instruction."
+  ],
+  "questions": [
+    {
+      "question": "How much look-ahead does a meeting-date dataset introduce?",
+      "detail": "Construct separate meeting, approval and release dates for minutes. Compare signals dated by the meeting with signals dated by their first public availability, paying particular attention to the revised August and September records."
+    },
+    {
+      "question": "Can markets distinguish the two meeting records released September 20?",
+      "detail": "Check exact publication times and contemporaneous reporting on each document. If they arrived together, price responses can be measured for the combined release even when individual passages can be attributed to one meeting."
+    },
+    {
+      "question": "Did the publication change alter reactions to monthly reports?",
+      "detail": "Compare trading in the new 2 p.m. window with the old 8:50 a.m. window while adjusting for time-of-day liquidity and other releases. Analyse the Japanese report, initial English view and later English background according to their separate availability."
+    }
+  ],
+  "limitation": ""
+}

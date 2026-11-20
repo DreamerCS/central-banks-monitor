@@ -1,0 +1,28 @@
+{
+  "title": "Korea pauses at 3.00% while retaining the prospect of further increases",
+  "bank": "Bank of Korea",
+  "date": "2026-10-22",
+  "url": "https://www.bok.or.kr/eng/bbs/E0000627/view.do?menuNo=400022&nttId=11065824",
+  "summary": [
+    "All seven Monetary Policy Board members supported keeping the Base Rate at 3.00% on October 22. Two consecutive 25-basis-point increases had already passed through to financial markets. The Bank wanted to assess their effects on activity, prices and financial stability alongside new international risks. The Governor specifically identified forthcoming third-quarter GDP and October inflation as useful evidence. He also continued to discuss the timing and pace of future increases. The hold bought an additional observation period despite a strong economy and inflation near 3% (decision and concluding opening remarks).",
+    "September customs exports exceeded US$120 billion, a monthly record, with continued triple-digit year-on-year growth in IT exports and faster growth in non-IT products. The Bank projected customs exports above US$1 trillion for the year and a current-account surplus above its August forecast of US$450 billion. The monthly export figure was observed. The full-year figures were projections, and gross customs exports should not be confused with the current-account balance. Semiconductor-related investment remained strong. Consumption temporarily slowed amid an equity correction and strikes at automakers, but the Bank expected a continuing recovery as incomes rose. It anticipated GDP growth in both 2026 and 2027 above the August forecasts, without announcing new numerical growth estimates (opening remarks, activity).",
+    "September headline CPI was 2.9% and core CPI excluding food and energy was 2.8%. Durable goods and personal services contributed to the high readings. Short-term household inflation expectations remained in the upper 2% range. A rebound in oil prices and higher semiconductor prices could feed through further, partly offset by won appreciation, while improving domestic demand added another source of pressure. The Bank expected annual headline and core inflation for 2026 to remain broadly consistent with the August projections, but judged the outlook for the following year higher. A stronger currency can temper imported goods inflation without removing wage or services pressures as national income improves (decision and price assessment).",
+    "The won strengthened against the dollar despite broad US dollar strength. The Bank attributed the difference partly to a large current-account surplus and changed monetary policy conditions. Domestic Treasury yields rose with oil and foreign yields, then retraced much of the move as the outlook for local bond supply and demand improved. Semiconductor equities corrected on concerns over future profitability despite strong current earnings. These observations refer to the period before the vote. They cannot establish the sign of a subsequent market surprise. In particular, a weaker stock index and a stronger won need not signal inconsistent assessments if export settlements, global yields and expected earnings are moving differently (opening remarks, markets).",
+    "Aggregate household loans fell as other loans registered net repayments, yet housing-related lending continued to increase. Property price growth accelerated again in lower- and middle-priced segments of Seoul and parts of Gyeonggi Province. Using only total household debt would give a misleading impression of broad financial stabilization. The Board also faced uncertainty about global yields, fiscal policy, the risk of a loss of confidence in AI investment and developments in the Middle East. Waiting allowed it to assess whether the earlier increases were beginning to restrain domestic borrowing and inflation without presuming that upside risks had disappeared. Its commitment was to continue responding until confident inflation would converge to target (decision and Governor’s explanation)."
+  ],
+  "questions": [
+    {
+      "question": "Did appreciation of the won offset the new oil and semiconductor cost increases?",
+      "detail": "Construct import-cost measures by currency and commodity, allowing for contract and inventory lags. Compare durable-goods and service-price outcomes with those measures. Also follow the timing of exporters’ currency conversions, since strong customs receipts need not translate immediately into spot foreign-exchange demand."
+    },
+    {
+      "question": "Was the decline in aggregate household lending concealing growing mortgage exposure?",
+      "detail": "Separate other loan repayments from new mortgages and changes in outstanding housing-related loans. Map these flows to transactions by property tier and district in Seoul and Gyeonggi. If repayments elsewhere exceed new mortgages, the headline total can fall even while systemic exposure becomes more concentrated."
+    },
+    {
+      "question": "Did the market treat the hold as delay or a lower eventual rate?",
+      "detail": "Compare meeting-specific forward rates before and after the decision and, separately, after the opening remarks. Control for movements in US yields and local bond supply news. A repricing concentrated around one meeting would differ from a sustained decline in later forwards, particularly given the Governor’s explicit reference to further increases."
+    }
+  ],
+  "limitation": ""
+}

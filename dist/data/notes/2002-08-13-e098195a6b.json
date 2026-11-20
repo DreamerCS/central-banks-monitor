@@ -1,0 +1,26 @@
+{
+  "title": "Corporate reporting concerns prolong the demand slowdown while the target stays at 1.75%",
+  "bank": "Federal Open Market Committee",
+  "date": "2002-08-13",
+  "url": "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20020813/",
+  "summary": [
+    "The twelve named voters held the federal funds target at 1.75%. The Committee attributed much of the persistence of the spring demand slowdown to weak financial markets and uncertainty about corporate reporting and governance. That mechanism goes beyond an ordinary change in the risk-free cost of money. If investors become less confident in reported earnings or liabilities, financing terms and the willingness to invest can deteriorate even with an unchanged overnight target.",
+    "The Committee expected the existing accommodation and underlying productivity growth to improve business conditions over time. It nevertheless identified economic weakness as the larger near-term risk. The statement did not estimate losses due to reporting problems, name companies or specify whether lending, equity issuance, household wealth or business confidence was the dominant transmission channel. Those are hypotheses to distinguish with data.",
+    "A hold alongside a downside tilt conveys an important asymmetry. The FOMC expected its current stance to provide support under its central view while recognising a greater risk that activity would disappoint. Neither the tilt nor the credit-market diagnosis amounted to an announced rate cut, and the release provides no measure of the policy surprise."
+  ],
+  "questions": [
+    {
+      "question": "Did reporting uncertainty raise financing costs independently of deteriorating cash flows?",
+      "detail": "Compare credit spreads, issuance and equity valuations among firms with similar operating performance but different reporting uncertainty. Use disclosure timings carefully. Falling profits or greater leverage could raise premia even without doubts about financial statements."
+    },
+    {
+      "question": "Did financial weakness transmit mainly through companies' investment or households' spending?",
+      "detail": "Follow capital orders among externally financed firms and spending among households with different equity exposure. Distinguish the effect of lower net worth from income expectations. Aggregate demand alone cannot locate the principal channel."
+    },
+    {
+      "question": "Did the downside tilt raise the price investors assigned to eventual easing?",
+      "detail": "Examine future-meeting contracts and options against their pre-release distribution. A change in downside tail probabilities need not appreciably move the most likely rate. The current target was held even as the balance of risks favoured weakness."
+    }
+  ],
+  "limitation": ""
+}

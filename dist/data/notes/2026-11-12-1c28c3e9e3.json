@@ -1,0 +1,28 @@
+{
+  "title": "Peru raises to 4.50% as strong demand makes persistent supply shocks harder to absorb",
+  "bank": "Banco Central de Reserva del Perú",
+  "date": "2026-11-12",
+  "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-11-12.pdf",
+  "summary": [
+    "Peru’s Board increased the reference rate by 25 basis points to 4.50% on 12 November. It cited substantial supply shocks, higher inflation expectations and strong domestic demand. The last point helps explain why the Bank acted despite continuing to attribute much of elevated inflation to food, energy and transport. A rate increase cannot change the weather or immediately reverse a rise in fuel costs. It can affect the demand and expectations conditions under which firms decide how widely to pass those costs on. The Board explicitly stopped short of committing to a succession of increases and said further changes would depend on the incoming evidence (sections 1 and 3).",
+    "The October figures show how much the choice of inflation measure still mattered. Headline CPI rose 0.57% on the month, against 0.16% excluding food and energy. Over twelve months headline inflation moved from 4.5% to 5.3%, mainly because of food and energy; core inflation rose more modestly from 4.5% to 4.6%. Excluding transport as well brought annual inflation down to 2.0%, the target midpoint, albeit slightly higher than in recent months. The difference between 5.3% and 2.0% illustrates how differently households exposed to these categories could experience the price shock. It cannot be read as their combined weighted contribution because the successive exclusions change basket weights.",
+    "Twelve-month expectations remained at 3.1% in October, slightly above the target range. There is an important distinction in the wording. The Board referred to a rise in expectations as part of the broader context for the increase; it reported no new month-on-month rise in this particular measure. Persistence beyond the upper limit can matter even when the latest reading is flat. At that expectation, the simple difference between the new reference rate and expected inflation is 1.40%, compared with 1.15% immediately before the hike using the same expectation. This comparison isolates the arithmetic effect of the nominal move. The rates paid on loans or implied in traded securities can change by different amounts.",
+    "The central forecast still had headline and underlying inflation returning to the range and settling around 2% over the projection horizon as supply shocks dissipated. The Board observed that some of the feared persistent effects linked to El Niño and geopolitical tensions had already begun to materialise. It characterised domestic demand as dynamic even though current-condition survey indicators were mixed and expectation indicators had eased while remaining optimistic. Most leading indicators continued to perform well. The diagnosis thus combined evidence on the level of demand with mixed news about the latest direction of sentiment. Global oil and financial volatility remained elevated, while the Bank judged the world growth outlook and Peru’s terms of trade favourable.",
+    "The same decision set the overnight deposit facility at 2.50% and the rate on the first ten eligible lending operations within three months at 5.00%. The operations committee sets the rate on additional use and can charge more depending on size. The next monetary-program session was scheduled for 10 December. For market research, the November announcement supplies the full operating-rate change and conditional guidance, but no before-and-after trade or pre-meeting expectation. It therefore supports a cleanly dated event, while the size of the market surprise remains a separate measurement."
+  ],
+  "questions": [
+    {
+      "question": "Did underlying inflation outside transport begin broadening as domestic demand remained strong?",
+      "detail": "Compare monthly inflation and the share of rising prices across services and goods once direct food, energy and transport are removed. Match this with demand, wages and survey selling-price intentions. The 2.0% annual reading is still at the midpoint, but its modest rise might matter if it reflects repeated increases across sectors rather than one comparison-base effect."
+    },
+    {
+      "question": "How persistent were expectations above the upper boundary?",
+      "detail": "Compare expectations at fixed one-year and longer horizons with when respondents set wages or revise prices. The published twelve-month figure stayed at 3.1% in October, so the immediate policy issue is persistence and its consequences, not a new monthly jump. Evidence from the distribution of forecasts would help distinguish broad concern from a small subset of respondents."
+    },
+    {
+      "question": "Did markets price the November move as a one-off or the beginning of a cycle?",
+      "detail": "Measure expected overnight rates on either side of the release, comparing the next meeting with later maturities and cross-checking global rates, oil and the sol. The Board gave no commitment to consecutive hikes. A broadly anticipated current increase could therefore arrive alongside a material change in later rate expectations, in either direction."
+    }
+  ],
+  "limitation": ""
+}

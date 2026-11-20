@@ -1,0 +1,28 @@
+{
+  "title": "Peru holds through water and food price increases as gas disruptions enter the outlook",
+  "bank": "Banco Central de Reserva del Perú",
+  "date": "2026-03-12",
+  "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-03-12.pdf",
+  "summary": [
+    "Peru’s Board held the reference rate at 4.25% on 12 March. February inflation had picked up, but BCRP distinguished price changes already in the data from disruptions still likely to affect the next readings. Monthly inflation was 0.69% overall and 0.36% excluding food and energy. Annual headline inflation rose from 1.7% in January to 2.2%, while the corresponding underlying measure rose from 2.0% to 2.2%. The Board attributed much of the monthly increase to water tariffs and supply-driven increases in some foods. It expected the next few months to bring headline inflation into the upper part of the target range before the effects dissipated.",
+    "The change in the underlying measure illustrates a limitation of the label. An index that excludes food and energy can still register a regulated water tariff increase. It can also include prices set by firms that use fuel or food indirectly. The monthly gap between the headline and underlying measures helps locate the incidence of the shock but does not prove that all movement in the underlying index came from demand. On the evidence in section 2, the distinction that mattered was between a sequence of identifiable relative-price increases and a persistent shift in the prices firms set more widely.",
+    "Twelve-month expected inflation increased modestly from 2.0% to 2.1%, near the target midpoint. Looking ahead, the Board expected both headline and underlying inflation to remain around 2% over the projection horizon. Its forecast allowed a temporary near-term increase linked to weather, higher international energy prices and interruptions to natural gas and natural-gas liquids supplies. These channels differ in timing: a distribution outage can alter the prices consumers face immediately, whereas increased freight costs may reach other prices when firms next revise contracts. The note neither quantifies the separate contribution of each shock nor places a precise month on its reversal.",
+    "Activity was estimated to be near potential, with forward indicators through February still favourable. Most readings of current conditions and expectations had declined but remained on the optimistic side. A decline in a diffusion indicator that stays above its neutral threshold can signal less widespread optimism, while falling short of evidence that output itself contracted. International financial markets had become more volatile and oil more expensive amid the Middle East conflict, yet the Board still judged Peru’s terms of trade favourable and the outlook for world growth positive. It did not report a realised change in the sol or local yields following the meeting.",
+    "Domestic standing-facility rates remained distinct from the target: 2.25% on overnight deposits and 4.75% for the first ten qualifying lending operations in a rolling three-month period, with later rates set separately and possible increases for size. The Board retained flexibility on future policy, referring to incoming evidence on underlying inflation, expectations and activity. That stance invites a specific empirical test: whether the supply shock disappears from subsequent price changes without altering how firms and households expect inflation to evolve."
+  ],
+  "questions": [
+    {
+      "question": "Which part of the February rise persisted after the water and food adjustments?",
+      "detail": "Use the official CPI components to separate regulated water, affected foods and the rest of the non-food, non-energy index. Examine monthly changes over several releases as well as twelve-month contributions. A single scheduled tariff increase enters the level immediately but remains visible in annual inflation for a year, a different risk from recurring increases across market services."
+    },
+    {
+      "question": "Did disruption to gas supply cause temporary substitution or sustained increases in other prices?",
+      "detail": "Compare the timing of supply restoration with transport and production costs and prices in gas-intensive services. Allow for contracts and inventory buffers before treating delayed pass-through as evidence of persistent demand pressure. A sector-by-sector account would show how quickly the effects should have fallen out of the Bank’s policy horizon."
+    },
+    {
+      "question": "How much information was in the drop in business sentiment?",
+      "detail": "Separate indicators about current orders from expectations of future activity, preserving both their levels relative to neutral and their month-to-month changes. Compare these with subsequently released production and employment. This could distinguish a pause in optimism under global uncertainty from widespread demand weakness capable of offsetting the supply-side price shock. Check especially whether the decline was concentrated among firms directly exposed to international energy and transport disruptions."
+    }
+  ],
+  "limitation": ""
+}

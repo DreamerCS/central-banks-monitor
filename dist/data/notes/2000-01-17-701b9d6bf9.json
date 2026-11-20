@@ -1,0 +1,25 @@
+{
+  "title": "January leaves Japan’s overnight rate at its effective floor",
+  "bank": "Bank of Japan",
+  "date": "2000-01-17",
+  "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2000/k000117.htm",
+  "summary": [
+    "The Policy Board voted by majority to continue zero interest rates so the easing already in place could work through the economy. Its instruction for the interval before the next meeting was to supply funding flexibly and steer the unsecured overnight call rate as low as practicable. That formulation specifies the direction for the price of overnight funds. It assigns neither a numerical rate at which every bank must transact nor a volume of funds the trading desk must supply.",
+    "The announced information timetable matters for interpreting January 17. The Bank scheduled its economic assessment for January 19 and the minutes for February 29. The decision itself gives no new growth projection, individual voting positions or evidence on borrowing costs beyond the overnight market."
+  ],
+  "questions": [
+    {
+      "question": "How closely could the market approach zero?",
+      "detail": "Compare the daily call rate with the distribution of individual unsecured trades, if available. A near-zero average can coexist with higher borrowing costs for particular institutions."
+    },
+    {
+      "question": "Was transmission limited beyond the overnight market?",
+      "detail": "Examine term funding rates alongside overnight rates and subsequent business lending rates. Control for changes in borrower composition before interpreting movements in loan rates as a transmission effect."
+    },
+    {
+      "question": "Which release conveyed the economic news?",
+      "detail": "Obtain publication times and compare market quotes around January 17 and January 19 separately. A change during the report window belongs to a different information event from the decision."
+    }
+  ],
+  "limitation": ""
+}

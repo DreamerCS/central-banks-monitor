@@ -1,0 +1,25 @@
+{
+  "title": "The Czech May announcement holds the two-week repo rate at 3.50%",
+  "bank": "Czech National Bank",
+  "date": "2026-05-07",
+  "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1778137200000",
+  "summary": [
+    "The May 7 rate notice retained the two-week repo rate at 3.50%. The discount rate remained one percentage point below it at 2.50%, and the Lombard rate remained one point above it at 4.50%. The announcement provided exact settings for operations while leaving the decision-day change in each instrument at zero.",
+    "To study a possible surprise, the relevant comparison is the market’s expected rate immediately before publication. The notice itself supplies neither that expectation nor a forward rate path. A curve shift between the rate announcement and the Governor’s later presentation can be measured separately from changes after the detailed assessment becomes available."
+  ],
+  "questions": [
+    {
+      "question": "Did the unchanged repo rate differ from traders’ central expectation?",
+      "detail": "Reconstruct the pre-release implied rate and its uncertainty using short contracts and analyst surveys on a consistent date."
+    },
+    {
+      "question": "Did the koruna respond before the later statement?",
+      "detail": "Measure the change over short intervals after 14:30 and before the 15:00 conference. Compare with liquid regional currencies to assess common movements."
+    },
+    {
+      "question": "Was the reaction concentrated at the next meeting horizon?",
+      "detail": "Separate contracts covering the just-announced rate from those exposed mainly to the following decision. An unchanged current rate can still shift perceived near-term probabilities."
+    }
+  ],
+  "limitation": ""
+}

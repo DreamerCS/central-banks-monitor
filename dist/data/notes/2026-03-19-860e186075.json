@@ -1,0 +1,27 @@
+{
+  "title": "Sweden’s March forecast accommodates an energy shock in two different directions",
+  "bank": "Sveriges Riksbank",
+  "date": "2026-03-19",
+  "url": "https://www.riksbank.se/en-gb/press-and-published/notices-and-press-releases/press-releases/2026/policy-rate-unchanged-at-12.75-per-cent",
+  "summary": [
+    "The Riksbank left the policy rate at 1.75% on 19 March, retaining its December interest-rate path almost exactly while changing its projections for output and inflation. The main scenario assumed that the Middle East war would have moderate consequences for the recovery and consumer prices. The Board explicitly described a possible hike into weaker activity if a larger shock caused broad, persistent inflation. It also described a possible cut if lost demand dominated and inflation pressure weakened. These two alternatives turn on different mechanisms. Neither was presented as the probability-weighted rate forecast.",
+    "Higher energy prices pushed the 2026 CPIF inflation forecast up to 1.5% from 0.9% in December. CPIF holds the interest rate component fixed. The forecast for 2027 went in the opposite direction, down to 1.3% from 1.7%, followed by 2.7% for 2028 and 2.0% in the first quarter of 2029. For conventional CPI the corresponding annual forecasts were 0.8%, 2.0% and 3.5%. The Board expected underlying inflation to be near 2% around the turn of the year, while CPIF would reach target in 2029 as energy and VAT effects unwound. The two timelines reflect differences between the measured index and the pressure beneath it. They should not be combined into a single target date (forecast tables and discussion of the main scenario).",
+    "The activity forecasts also changed unevenly. GDP growth in 2026 was cut from 2.9% to 2.5%, while 2027 rose from 2.5% to 2.6%. The 2026 unemployment forecast fell from 8.6% to 8.4%. World energy prices and short-term market rates had risen, and the dollar had strengthened against the krona. Those were developments the Board was responding to, not reactions to the Swedish decision. Recent domestic underlying inflation had surprised on the low side, offering room to see how far higher energy costs would spread to other prices.",
+    "The quarterly rate table is more precise than the annual averages. The projections for the second and third quarters of 2026 were 1.75%, for the fourth quarter 1.77%, and for the first quarter of 2027 1.81%, all unchanged from December. Those numbers are averages, not planned meeting decisions. The actual rate decision applied from 25 March. A rates researcher can use the stable path as a benchmark for measuring how far the market revised the risks around it, especially when both an increase and a cut were explicit possibilities."
+  ],
+  "questions": [
+    {
+      "question": "Did the market price a different distribution around an unchanged central path?",
+      "detail": "Compare Swedish overnight-indexed forwards and rate-option pricing around the release, checking global short rates at the same time. Options could help distinguish a change in the balance of risks from a shift in the average path when the Bank gave explicit scenarios in both directions."
+    },
+    {
+      "question": "How much of the CPIF profile depended on energy and VAT?",
+      "detail": "Separate direct energy and tax effects from the remaining consumer basket using the official component data. Compare forecasts over consistent quarters, since the table’s 2029 observation is for the first quarter only. This would show whether the medium-term domestic signal moved as much as annual headline readings suggest."
+    },
+    {
+      "question": "Did the shock mainly reduce real spending or change pricing behaviour?",
+      "detail": "Track household consumption, real incomes, inventories, input costs and firms’ intended price changes. If weaker demand limited pass-through, high fuel prices could coexist with soft underlying inflation. Repeated, broad price resets despite weaker output would instead resemble the Board’s tightening scenario."
+    }
+  ],
+  "limitation": ""
+}

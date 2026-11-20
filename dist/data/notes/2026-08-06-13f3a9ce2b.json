@@ -1,0 +1,25 @@
+{
+  "title": "The Czech August decision retains the 3.75% repo rate",
+  "bank": "Czech National Bank",
+  "date": "2026-08-06",
+  "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1785999600000",
+  "summary": [
+    "The CNB’s August 6 announcement kept the two-week repo rate at 3.75%, the discount rate at 2.75% and the Lombard rate at 4.75%. The two-percentage-point corridor established at the preceding meeting remained in place. The release reports no further operational change.",
+    "August is an unchanged observation in a series of actual policy settings. It can still represent an announcement surprise if markets priced some probability of another change. The short notice does not explain the hold or report Board votes. Assess the initial market response between the rate release and the 15:00 press conference, when different policy information became available."
+  ],
+  "questions": [
+    {
+      "question": "How large was pre-meeting uncertainty about the August rate?",
+      "detail": "Compare short-maturity market rates and available surveys immediately before the announcement with the realized 3.75% setting."
+    },
+    {
+      "question": "Did the rate confirmation move the next-meeting contract?",
+      "detail": "Compare contracts with different exposures to the current and subsequent meetings during the decision-only window. This separates confirmation of the current rate from repricing beyond August."
+    },
+    {
+      "question": "Did three-rate implementation remain symmetric?",
+      "detail": "Record the observed money-market rate relative to each published rate and compare with the period preceding the announcement, allowing for liquidity conditions."
+    }
+  ],
+  "limitation": ""
+}

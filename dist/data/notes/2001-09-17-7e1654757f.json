@@ -1,0 +1,26 @@
+{
+  "title": "The Fed cuts to 3% and explicitly accepts temporary undershoots of its overnight target",
+  "bank": "Federal Open Market Committee",
+  "date": "2001-09-17",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010917/",
+  "summary": [
+    "Two policy instructions mattered after the attacks. The FOMC cut its funds target by 50 basis points to 3% and the Board lowered the discount rate by the same amount to 2.50%. Separately, the Fed committed to supplying unusually large amounts of liquidity as needed until markets functioned more normally. It warned that the actual federal funds rate could occasionally trade below the target as a consequence. A market rate below 3% would not, on that evidence alone, amount to a further discretionary cut.",
+    "The spending rationale also had a before and an after. Employment, production and business spending had already been weak before the previous week's events. The attacks had the potential to damp demand further. The statement described that additional effect as a risk, not a quantified observation about lost output. It retained a favourable judgement about long-term productivity and continued to identify economic weakness as the dominant near-term risk.",
+    "The liquidity commitment and the rate cut had different termination conditions. The target was set at a new level. Extra liquidity was tied to a return to more normal functioning, with neither a predetermined volume nor a withdrawal date. For an event study, repricing of future policy and changes in the ability to settle or fund a transaction are distinct possible reactions. A daily average overnight rate can contain both."
+  ],
+  "questions": [
+    {
+      "question": "Was overnight trading below target a funding consequence of emergency liquidity or a revision in the expected policy path?",
+      "detail": "Match effective overnight rates and their dispersion to liquidity provision and settlement conditions. Compare these with forward rates covering later meetings. A temporary spot undershoot with little forward change would support the operating explanation the statement offered."
+    },
+    {
+      "question": "When did market functioning improve enough for the exceptional support to recede?",
+      "detail": "Track payment and settlement indicators, transaction volumes, secured and unsecured funding conditions and use of central-bank credit. Look at distribution as well as averages. An easing in rates for well-connected borrowers does not establish that liquidity reached firms experiencing settlement disruption."
+    },
+    {
+      "question": "How much demand weakness was already present before the attacks?",
+      "detail": "Establish the pre-event path of production, payrolls and business outlays, then compare subsequent spending across sectors with different immediate exposure. Account for missing or delayed transactions. The statement identifies an additional downside risk but cannot by itself supply the no-attack counterfactual."
+    }
+  ],
+  "limitation": ""
+}

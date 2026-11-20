@@ -1,0 +1,27 @@
+{
+  "title": "Norway’s 4.5% hold concealed stronger domestic price pressure",
+  "bank": "Norges Bank",
+  "date": "2026-11-05",
+  "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-11-05-rate/",
+  "summary": [
+    "Norges Bank left its policy rate at 4.5% at its meeting on 4 November. In the release published on 5 November it continued to expect an elevated rate for some time and retained the option of another increase. Aggregate inflation had evolved broadly as projected since the September hike. The composition was less reassuring. Inflation in domestically produced goods and services remained above forecast, even as the krone appreciated more than expected, providing some relief to the prices of imported goods.",
+    "September twelve-month CPI inflation was 3.4%, and CPI-ATE, adjusted for taxes and excluding energy products, was 3.0%. Neither figure identifies how much of the remaining overshoot reflected domestic costs. The separate observation on domestic goods and services matters because firms facing the accumulated cost increases of recent years could continue to lift prices even if currency strength moderated the aggregate index. The Committee also saw a risk that prolonged above-target inflation would make expected persistence a feature of firms’ and households’ decisions.",
+    "Oil and other energy markets were sending different signals. Spot oil prices had fallen, but oil futures had risen somewhat. Both spot and forward gas and electricity prices had increased. Indicators of external cost pressure on imported goods had risen further as expected. Those developments left the aggregate outlook broadly consistent with September even while the input mix changed. A fall in spot oil was thus a weak reason by itself to mark down inflation or the expected policy path. It omitted the forward price, other energy products and the exchange rate through which external prices reached Norwegian buyers.",
+    "Capacity utilisation appeared slightly below normal. Both labour-force survey and administrative measures suggested little recent change in unemployment, but registered unemployment was a little below the projection and preliminary salaried employment had risen slightly more than expected. The Committee wanted restraint without unnecessarily depressing the economy. There was no new forecast at the November meeting. The September path and the option to tighten if inflation required it remained the relevant benchmarks, with new projections due on 17 December. The release therefore conveys a conditional preference for maintaining the prevailing level while leaving open a response to more persistent domestic inflation."
+  ],
+  "questions": [
+    {
+      "question": "Was the domestic inflation surprise offset by import-price relief?",
+      "detail": "Decompose monthly CPI-ATE observations into domestic and imported goods and services and relate the latter to the effective krone. Compare each component with the September forecast vintage. A stable index with deteriorating domestic breadth would carry a different message for the 4.5% rate."
+    },
+    {
+      "question": "Which energy measure best captured costs paid by Norwegian businesses?",
+      "detail": "Compare spot and futures oil, gas and electricity with domestic-currency procurement prices, contract lags and business surveys. Short-lived spot oil weakness might say little about the costs entering production and price setting if contracted power or forward gas remained expensive."
+    },
+    {
+      "question": "Did the stronger labour numbers change expected policy duration?",
+      "detail": "Compare subsequent revisions to salaried employment and registered unemployment with survey unemployment and business-reported slack. Then assess longer forward rates separately from pricing at the December meeting. More resilience can influence the duration of restraint without creating an immediate hike signal."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Peru holds as expected inflation reaches the upper limit and transport dominates core prices",
+  "bank": "Banco Central de Reserva del Perú",
+  "date": "2026-08-13",
+  "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-08-13-1.pdf",
+  "summary": [
+    "The BCRP Board held its reference rate at 4.25% on 13 August even as twelve-month inflation expectations increased from 2.8% to 3.0%, the upper boundary of the inflation target range. The Board’s diagnosis rested on a contrast within underlying CPI: July inflation excluding food and energy stood at 4.6%, but excluding transport as well brought that figure down to 1.7%. The latter measure had stayed below 2% since April of the previous year. This breakdown gave the Board a reason to await more evidence before treating persistent above-range annual inflation as widespread. The rise in expectations narrowed its margin for patience.",
+    "There were two transport effects to keep separate. The Bank still attributed the annual overshoot principally to earlier fuel increases and their effects on transport costs in March and April. In July itself, demand for national travel during the Fiestas Patrias holidays raised fares, adding a seasonal contribution alongside higher prices for some foods. Monthly headline and underlying inflation came in at 0.29% and 0.28%. Their respective annual increases from June were modest, from 4.0% to 4.1% and from 4.5% to 4.6%. Seasonal holiday demand and an older cost-induced price-level adjustment can coexist in the same category, but they have different implications for future monthly inflation. The release provides no weights that would allow either effect to be calculated exactly.",
+    "Forward indicators of activity remained favourable. Most current-condition indicators improved; most expectations measures rose significantly and all were on the optimistic side. Stronger sentiment could make it easier for firms to pass costs through, but the survey evidence alone does not demonstrate excess demand. International hydrocarbon supply had partly normalised. The Board nevertheless saw uncertainty around Middle Eastern negotiations, other geopolitical shocks and trade, together with the risk of a more intense El Niño. It continued to judge world growth prospects positive and Peru’s terms of trade favourable. Weather and freight conditions could change local prices even while the broad external income backdrop remained supportive.",
+    "The central projection still called for annual headline and underlying inflation to return to the target range and settle around 2% over the forecast horizon. No quarter-by-quarter path or probability for an adverse weather scenario was published. August’s policy test was whether transport prices would normalise after the holiday season without changing pricing and expectations elsewhere. Standing facility terms remained 2.25% on overnight deposits and a 4.75% initial rate on qualifying domestic lending transactions, with the usual restrictions on repeated or large operations stated in section 4. The statement reported no market response to the decision, so a change in domestic yields during the month cannot be attributed to this hold from the release alone."
+  ],
+  "questions": [
+    {
+      "question": "What share of July’s increase in fares was seasonal?",
+      "detail": "Compare fares around the same holiday in earlier years and track reversals in August. Separate national travel from local transport and compare both with fuel prices and capacity. A temporary peak in holiday demand can generate a short-term increase without prolonging annual inflation in the way that repeated cost-related fare resets would."
+    },
+    {
+      "question": "Did reaching the upper boundary alter private decisions?",
+      "detail": "Examine the distribution and horizons of inflation expectations, then compare anticipated and realised selling prices or wage agreements. The survey figure of 3.0% is informative, but only one measure of beliefs. Evidence that businesses incorporated it into longer contracts would be more consequential for the Bank’s projection than a single rounded reading at the boundary."
+    },
+    {
+      "question": "Could stronger activity push inflation beyond the transport category?",
+      "detail": "Track pricing breadth in services excluding transport alongside current orders, labour costs and the actual spending that follows improvements in expectations. If the 1.7% underlying measure began to rise across multiple categories while demand stayed strong, the supply-concentration explanation would weaken even if the direct effect of the holiday reversed. Use the same observation window for prices, orders and wages, allowing for the different dates on which these indicators are actually released."
+    }
+  ],
+  "limitation": ""
+}

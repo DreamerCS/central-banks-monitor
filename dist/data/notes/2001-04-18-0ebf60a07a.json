@@ -1,0 +1,26 @@
+{
+  "title": "The Fed eases between meetings as the investment outlook weakens despite progress on stocks",
+  "bank": "Federal Open Market Committee",
+  "date": "2001-04-18",
+  "url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010418/",
+  "summary": [
+    "In an extended interval between scheduled meetings, the FOMC cut its funds target from 5% to 4.50%. The Board cut the discount rate to 4%. The reason to act before the next meeting was forward-looking. A substantial reduction in excess stocks already seemed well advanced, while housing and consumer spending had held up reasonably well, albeit with little recent growth. The concern was that these sources of resilience might not offset what was happening to planned investment.",
+    "The Committee identified lower current and expected profits together with greater uncertainty about business conditions. All three could restrain a firm's willingness to commit to equipment or other capital spending. An earlier fall in household equity wealth might still be working through consumption, while weaker growth abroad could further depress demand. Acting between meetings conveyed urgency about the outlook without implying that consumption or housing had already fallen sharply.",
+    "The release also distinguished first-quarter measured productivity, which it suspected had weakened, from an underlying trend it continued to regard as strong. The first was a provisional near-term assessment; the second was a judgement about capacity over time. The Committee gave no figure for either and did not equate temporary productivity weakness with a permanent loss of productive potential."
+  ],
+  "questions": [
+    {
+      "question": "Was a shortfall of profitable projects preventing investment from responding to cheaper funds?",
+      "detail": "Track orders, shipments, revisions to expected earnings and changes in capacity use across industries. Compare the prospects for firms with strong sales and tight funding with those already holding excess capacity."
+    },
+    {
+      "question": "Was the resilience of household demand broad enough to survive earlier equity losses?",
+      "detail": "Distinguish housing activity, durable purchases and other consumption, examining exposures to income, wealth and refinancing. A flat aggregate may reflect continued growth among some households offsetting substantial retrenchment among others."
+    },
+    {
+      "question": "What additional information about the expected rate path was conveyed by acting early?",
+      "detail": "Compare contracts spanning the scheduled meeting with those extending beyond it, after independently dating the intermeeting release. An early step that mainly brings an expected cut forward carries different information from a revision to the eventual policy setting."
+    }
+  ],
+  "limitation": ""
+}

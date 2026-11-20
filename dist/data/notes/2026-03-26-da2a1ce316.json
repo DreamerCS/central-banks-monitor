@@ -1,0 +1,27 @@
+{
+  "title": "Norway’s unchanged 4% rate came with a reversal in the projected direction",
+  "bank": "Norges Bank",
+  "date": "2026-03-26",
+  "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-03-26-rate/",
+  "summary": [
+    "Norges Bank kept the policy rate at 4% at its 25 March meeting while announcing on 26 March that an increase at one of the coming meetings was likely. The revised forecast put year-end 2026 at 4.25%–4.5%. This mattered because the rate had already been cut from 4.5% to 4% during the previous year. A dataset recording only the current meeting’s zero change would miss the decision’s main information about future policy. The Committee wanted more evidence on highly volatile energy markets and the composition of recent inflation before acting.",
+    "Domestic prices had been markedly higher than the December forecast, and expected wage growth for 2026 had risen. The Committee saw a risk that several years of above-target inflation would change the assumptions of households and firms, making inflation harder to bring down. A substantial appreciation of the krone provided a counterweight through cheaper imports. The outlook therefore turned on the balance between persistent local costs and imported disinflation. An isolated appreciation would not resolve the question if wages and domestic price-setting continued to run ahead of the earlier projection.",
+    "Capacity utilisation appeared close to normal. Unemployment was slightly below the December forecast, yet contacts in the Regional Network found recruitment somewhat easier. International financial conditions had also tightened. Oil and gas rose sharply after the outbreak of the Middle East war, world equities fell and market rates increased in Norway and abroad. These were changes preceding the announcement. The Committee expected higher energy prices to raise inflation and lower global growth. It also highlighted that a rapid oil-price decline or renewed financial turbulence might weaken the krone, potentially offsetting some import-price relief. Norwegian inflation exposure could consequently differ from the simple movement of the dollar oil price.",
+    "Under the revised policy path, inflation would decline from the following year and reach 2% in 2029. Activity would cool somewhat, with registered unemployment moving up toward pre-pandemic levels. The conditional nature of those results matters for valuation. The forecast described an economy in which some tightening occurred. It was not evidence that Norway could achieve the same disinflation while leaving the rate at 4% indefinitely. The release also announced the publication of a separate summary of Committee deliberations beginning with this decision. The policy assessment above comes from the press release (forecast and risk paragraphs)."
+  ],
+  "questions": [
+    {
+      "question": "Did the surprise lie in the next meeting or the year-end rate?",
+      "detail": "Compare pre-release meeting-dated expectations with the 4.25%–4.5% year-end range, separating surprise about the first hike from news about cumulative tightening. Inspect immediate rate and krone changes against international market moves before attributing them to the Committee."
+    },
+    {
+      "question": "Which inflation components overcame the stronger krone?",
+      "detail": "Match the exchange-rate appreciation to import and retail goods prices at plausible lags while following services prices and wage expectations. Faster domestic inflation alongside soft imports would imply a different persistence risk from an economy-wide acceleration."
+    },
+    {
+      "question": "How did energy and exchange rates interact under alternative scenarios?",
+      "detail": "Compare oil and gas futures with the trade-weighted krone across supply news and broader risk-off episodes. Track import costs in local currency. Rapid energy normalisation would not necessarily reduce domestically paid input costs proportionately if the currency weakened at the same time."
+    }
+  ],
+  "limitation": ""
+}

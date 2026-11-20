@@ -1,0 +1,27 @@
+{
+  "title": "Peru keeps 4.25% as inflation expectations stay above the band for a second month",
+  "bank": "Banco Central de Reserva del Perú",
+  "date": "2026-10-07",
+  "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-10-07.pdf",
+  "summary": [
+    "Peru’s Board held the reference rate at 4.25% on 7 October. Headline inflation and inflation excluding food and energy were both 4.5% in September, yet the Bank’s narrower measure excluding transport as well was only 1.8%. Twelve-month expectations stayed at 3.1%, marginally above the upper target limit, for a second month. Those numbers describe separate risks. The large transport effect pointed to the continuing influence of earlier relative-price shocks. The persistence of higher expectations raised a forward-looking question about firms’ and households’ price-setting behaviour. The Board maintained its guidance that incoming information could warrant a short-term adjustment.",
+    "September prices were up 0.12% on the month, with the index excluding food and energy up 0.07%. Annual headline inflation edged from 4.4% to 4.5%, chiefly because of higher fuel and electricity prices. Annual underlying inflation was unchanged, as was the 1.8% measure excluding transport. The Board attributed much of the deviation from target to fuel and the effects on transport costs in March and April. The timing matters. The 0.1-percentage-point annual headline increase has an immediate fuel and electricity explanation, whereas the high level of the underlying rate reflects an earlier change still in the comparison window. Combining the two into a single contemporaneous demand shock would misstate the source.",
+    "The Bank continued to expect both annual headline and underlying inflation to return to the range and settle near 2% over the projection horizon. It identified El Niño and tensions in the Middle East as potential sources of more persistent effects. Current activity indicators in the Bank’s survey were mixed compared with the previous month. Expectations moderated somewhat but stayed optimistic, and leading indicators continued to perform well. These observations offered less grounds for inferring a sustained domestic demand acceleration than a simple reading of the annual inflation rate might suggest. The note did not give a numerical output gap, an alternative inflation scenario or an explicit trigger for changing rates.",
+    "Global financial and oil-price volatility remained elevated, alongside favourable terms of trade and a positive outlook for world activity. An investor seeking to isolate the domestic policy signal would have to distinguish global moves from the price of prospective Peruvian overnight rates. The Bank reported the operating terms: 2.25% for overnight deposits, and an initial 4.75% on specified repo and credit transactions with conditions on frequency and size. Those are administered facility prices rather than observed bond or currency returns. For the policy outlook, the most valuable next observation would be whether high expectations remained confined to a short horizon or began to affect pricing beyond transport as earlier base effects faded. The Board scheduled its next decision for 12 November."
+  ],
+  "questions": [
+    {
+      "question": "Were September’s higher fuel and electricity prices adding to the March–April shock or merely keeping the annual comparison high?",
+      "detail": "Track index levels as well as monthly changes and reconstruct contributions for each relevant component. A new sequence of price increases would extend the timetable for disinflation, whereas a one-time shift in the level of transport fares could leave the twelve-month rate high even when current monthly pressure is low."
+    },
+    {
+      "question": "Did a second 3.1% expectations reading represent stable beliefs or opposing changes across respondents?",
+      "detail": "Compare the distribution, sample composition and horizons alongside wage and price intentions. A stable average can mask rising expectations among households facing high transport costs and falling expectations elsewhere. The practical question is whether the persistence at the aggregate level is reaching decisions covering the period after the supply shocks should dissipate."
+    },
+    {
+      "question": "Was short-term adjustment guidance already fully reflected in local rates?",
+      "detail": "Compare yields for maturities spanning the next meeting with slightly longer maturities and with matched external rates before and after the announcement. Document thin trading or stale quotes. Because the guidance was conditional and the overnight target stayed fixed, a valid estimate needs a pre-release expectation rather than simply a change in monthly yields. Check the timing of any concurrent domestic macroeconomic releases."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Peruvian inflation expectations settle at 2% as the external outlook improves",
+  "bank": "Banco Central de Reserva del Perú",
+  "date": "2026-02-12",
+  "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-02-12.pdf",
+  "summary": [
+    "The Peruvian central bank kept its reference rate at 4.25% on 12 February. Its immediate concern was how to interpret inflation moving up from the lower half of the target range. Annual headline inflation rose from 1.5% in December to 1.7% in January, and inflation excluding food and energy rose from 1.8% to 2.0%. Twelve-month inflation expectations moved the other way, from 2.1% to the target midpoint of 2.0%. The Board saw this configuration as compatible with headline inflation approaching the midpoint in coming months and the underlying rate remaining around 2% over the projection horizon.",
+    "The monthly figures make the increase in annual inflation easier to interpret. January prices rose 0.10% overall and only 0.04% excluding food and energy. An annual rate can rise following a small monthly increase when an even smaller change drops out of the twelve-month calculation. Without the previous January’s detailed comparison base and seasonal pattern, one cannot infer from the annual change alone that firms raised prices more aggressively at the start of the year. The combination of subdued monthly underlying inflation and expectations at the target midpoint gave the Board a reason to wait for a clearer demand signal (section 2).",
+    "The Board judged economic activity to be around potential. Leading indicators through January were favourable and almost all measures of current conditions and expectations were in optimistic territory. It also saw stronger world growth than previously envisaged and exceptionally favourable terms of trade for Peru. Higher export prices relative to import prices can raise national purchasing power, but the term describes a price ratio, not the volume of exports or the amount of domestic spending that follows. The distinction matters if income gains accrue to exporters who save them or import capital equipment. The release provides neither a numerical terms-of-trade revision nor a measured output gap.",
+    "At the 4.25% reference rate, subtracting twelve-month expected inflation gives a simple prospective real rate of 2.25%. The calculation indicates the purchasing-power implication of the survey expectation under the current reference rate; it does not establish a neutral policy rate or an actual borrower’s cost. Section 4 set the overnight deposit rate at 2.25% nominal, and eligible initial repo or monetary regulation credit at 4.75%. Those are different quantities despite the numerical coincidence between the deposit rate and the computed real rate. The lending price applied to the first ten operations over three months; the operations committee sets subsequent rates and can differentiate by amount. The Board signalled that underlying prices, expectations and activity would inform any future modification. It supplied no observed market movement around the release."
+  ],
+  "questions": [
+    {
+      "question": "Was the rise in twelve-month core inflation largely a comparison-base effect?",
+      "detail": "Compare January’s non-food, non-energy monthly component with the month leaving the annual calculation and with several earlier Januaries. Then examine the distribution of individual price increases rather than annualising one month. A large shift in the comparison base would explain the annual rise without implying that policy-sensitive demand had accelerated or that the February decision had missed a change in underlying conditions."
+    },
+    {
+      "question": "How quickly did improved terms of trade reach domestic expenditure?",
+      "detail": "Separate export receipts into prices and volumes, then track mining investment, fiscal receipts, imports and household demand. The Board’s favourable external judgment concerns relative prices; the timing and recipients of the resulting income gains determine the domestic inflation implications. Establish whether the first response was greater spending, saving or capital-goods imports."
+    },
+    {
+      "question": "Did the policy setting pass through into funding rates when expectations reached the midpoint?",
+      "detail": "Compare interbank rates and volumes with the reference rate and standing-facility terms, then compare commercial lending rates at consistent maturities. The calculated prospective real rate is a starting point, not a borrower-level measure. Differences in credit risk, liquidity and average loan maturity could move financing costs independently of the monthly policy decision."
+    }
+  ],
+  "limitation": ""
+}

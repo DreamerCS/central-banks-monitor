@@ -1,0 +1,27 @@
+{
+  "title": "Peru isolates transport costs to explain why core inflation is 4.5% and its rate stays at 4.25%",
+  "bank": "Banco Central de Reserva del Perú",
+  "date": "2026-07-09",
+  "url": "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2026/nota-informativa-2026-07-09-1.pdf",
+  "summary": [
+    "Peru’s July decision provides a particularly informative diagnostic of supply-driven inflation. Annual inflation excluding food and energy rose from 4.4% to 4.5% in June, yet that same underlying basket measured without transport was up only 1.6% on the year. According to the Board, the latter measure had remained below 2% since April 2025. Transport fares retained the indirect effect of fuel increases in March and April even though fuel itself was excluded from underlying CPI. This decomposition helped explain the decision on 9 July to keep the reference rate at 4.25%. It does not mean that households experienced inflation of 1.6%, or that the 2.9-point difference equals transport’s precise weighted contribution.",
+    "June monthly inflation was 0.23% and underlying inflation was 0.08%. The Bank judged both consistent with its target range when expressed at annualised rates. Fish and certain other foods became more expensive, with anomalous ocean swells affecting fish supply. Meanwhile the twelve-month headline rate increased from 3.9% in May to 4.0% in June. The observation window changes the answer: monthly figures reflect current pressure, while the annual numbers still include the earlier transport shock. An annual core rate rising 0.1 percentage point alongside a small monthly increase need not signify a fresh acceleration in demand.",
+    "The twelve-month expectation declined from 2.9% to 2.8%, remaining within the target interval. The Bank expected both measures of annual inflation to return to the interval and eventually to around 2% as the shocks faded. It also identified a more intense El Niño and continued tensions in the Middle East as possible sources of longer-lasting effects. World oil prices had corrected lower as hydrocarbon supply partly normalised and geopolitical tensions eased. The Bank still saw uncertainty about the conflict, alongside favourable Peruvian terms of trade and positive global growth prospects. A lower oil price can relieve immediate pressure without causing regulated or negotiated transport fares to fall on the same schedule.",
+    "Current domestic activity indicators mostly improved, all expectations indicators were optimistic and expectations showed a significant rise. This strengthened the case for monitoring future pass-through even though the exclusion measure still suggested limited broad price pressure. The Board gave no measured output gap, path for oil or numerical alternative scenario. Facility terms remained 2.25% on overnight deposits and 4.75% for the first ten qualifying lending transactions in three months, subject to the size and subsequent-use provisions. The decision supplied a way to test the supply explanation: examine whether transport remains the exceptional category once the cost impulse subsides, while also watching whether expectations and other price-setting move independently."
+  ],
+  "questions": [
+    {
+      "question": "Did transport fares adjust once to higher fuel costs, or keep rising after wholesale conditions eased?",
+      "detail": "Compare monthly fare changes across transport services with local fuel costs, operating schedules and contract resets. Calculate the distribution of increases rather than using the difference between two reweighted annual indices as a direct contribution. This would help estimate how long a prior shock should keep underlying inflation elevated."
+    },
+    {
+      "question": "Was the decline in expected inflation sensitive to fish, energy or a broader change in outlook?",
+      "detail": "Compare survey timing and responses across horizons with food and transport prices, noting the reversal in international oil. A decline driven by recent salient prices could reverse just as quickly as it appeared. A sustained change in wage or firm pricing intentions would carry different implications for meeting the target."
+    },
+    {
+      "question": "Could strengthening domestic demand erode the usefulness of the non-transport exclusion?",
+      "detail": "Track non-transport services inflation and its breadth alongside forward orders, wages and household demand. The 1.6% annual reading diagnoses where the earlier shock was concentrated. It cannot rule out later domestic pressure as optimistic expectations translate into spending or as firms pass through previously absorbed costs outside transport. Changes in observed wages and costs outside the transport sector would provide an independent cross-check on the survey signals."
+    }
+  ],
+  "limitation": ""
+}

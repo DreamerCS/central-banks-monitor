@@ -1,0 +1,28 @@
+{
+  "title": "The Czech Board holds rates but shifts the inflation risk balance upward",
+  "bank": "Czech National Bank",
+  "date": "2026-05-07",
+  "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1778137200000/?tab=statement",
+  "summary": [
+    "On May 7 all seven Czech National Bank Board members voted to retain the two-week repo rate at 3.50%. The new staff forecast put inflation in the upper half of the tolerance band for the remainder of the year, with core inflation around 3%. The Board now judged risks to the target to be inflationary overall. In March it had described an even balance. The decision provided no fixed date for a rate rise, but it changed the economic meaning of the hold by identifying stronger upside pressure while leaving the policy instrument unchanged (decision and risks).",
+    "The annual inflation forecasts moved to 2.2% for 2026 and 2.4% for 2027, compared with February’s 1.6% and 2.1%. A rise in fuel prices helped reverse the earlier picture of a headline undershoot. The 2026 average blends the earlier low readings with a higher projected path later in the year. It is therefore compatible with inflation above 2.2% in some later quarters. The Bank also expected underlying prices to remain elevated. That matters because a brief jump in energy levels can drop out of annual inflation while labour-intensive services continue to generate pressure (May outlook and decision).",
+    "The corresponding forecasts for GDP growth were 2.5% in 2026 and 2.7% in 2027, compared with 2.9% in both years in the February outlook. The May statement’s preliminary estimate showed first-quarter output up 2.1% year on year after 2.5% in the previous quarter. Domestic demand supported growth while foreign trade detracted. A negative contribution from trade and slower GDP did not imply spare capacity across the domestic economy. Unemployment remained low, fourth-quarter wage growth stood at 7.4%, and sustained service-sector pay increases accompanied rapid growth in property prices (economic developments and outlook).",
+    "The policy trade-off concerned the propagation of the energy shock. If high fuel prices cut real income and weakened external demand, a more restrictive rate would add pressure to activity. If firms passed costs into a broad range of goods and services and employees revised pay expectations, waiting could make persistent inflation harder to contain. The Board discussed several scenarios, without assigning probabilities or announcing a policy rule for individual commodity prices. Its claim that earlier restraint provided room to observe developments rested on inflation having been around target for more than two years (decision and risks).",
+    "The decision also emphasized accelerating lending and the risk that additional public spending could enlarge the money stock and sustain demand. A useful reading of this meeting separates three signals: the unanimously unchanged current rate, the upward shift in projected inflation and the downward shift in projected growth. They can generate opposing changes at different points on the yield curve. Whether investors interpreted the meeting as bringing forward a hike requires pre-announcement market pricing and matched observations after the subsequent release of the Board’s statement (decision and outlook)."
+  ],
+  "questions": [
+    {
+      "question": "How much of the upward revision survives after direct fuel contributions are removed?",
+      "detail": "Compare the February and May CPI paths by energy, market goods, services and housing-related categories using release-date assumptions. Test for delayed input-cost effects in energy-intensive activities. The change in annual average inflation alone cannot distinguish prolonged domestic inflation from a larger temporary fuel contribution."
+    },
+    {
+      "question": "Were weak net exports concealing stronger domestic capacity pressure?",
+      "detail": "Examine private consumption, public demand, imports, investment and industry-level output alongside vacancies and wages. A negative contribution from trade can partly reflect high imports associated with strong domestic activity. Compare exported volumes with domestic orders before interpreting lower GDP growth as evidence of disinflationary slack."
+    },
+    {
+      "question": "Did the revised risk assessment change relative pricing of a hike?",
+      "detail": "Measure interest-rate futures or swaps just before the decision and separately after release of the statement. Compare local moves with euro-area rates and energy prices. A higher short-end premium despite weaker staff growth projections would warrant testing whether inflation or domestic credit information dominated."
+    }
+  ],
+  "limitation": ""
+}

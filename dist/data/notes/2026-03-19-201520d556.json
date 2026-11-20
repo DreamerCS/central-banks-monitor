@@ -1,0 +1,28 @@
+{
+  "title": "A ten-year low in Czech inflation meets a new energy shock",
+  "bank": "Czech National Bank",
+  "date": "2026-03-19",
+  "url": "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1773907200000/?tab=statement",
+  "summary": [
+    "The Bank Board unanimously kept the two-week repo rate at 3.50% on March 19. February inflation of 1.4% year on year was the lowest in ten years. The Monetary Department’s updated outlook still placed headline inflation below 2% in 2026 and close to target the following year, but only part of the increase in oil prices had entered the projection. The date of the input assumptions matters. A low observed CPI print and a forecast partly incorporating a newer cost shock were not two independent confirmations of disinflation (decision and risk assessment).",
+    "The domestic evidence argued against easing in response to the headline number alone. Fourth-quarter GDP growth was estimated at 2.6% year on year, with household consumption the main source of growth. Wages rose 7.4% in the quarter from a year earlier and unemployment remained low. The Board associated persistent service inflation and rapid property appreciation with tight domestic conditions, observing that pay had been rising fastest in services over a sustained period. It also viewed accelerating credit as a source of money growth. The published headline CPI rate measured neither persistence in this subset of prices nor the degree to which earlier monetary tightening was still reaching borrowers (economic developments and decision).",
+    "The conflict in the Middle East introduced a new two-way risk. Higher commodity prices could raise fuel and production costs directly and then change pricing or wage decisions. At the same time, a loss of purchasing power and tighter financial conditions could depress output and future inflation. The Board wanted to distinguish these paths as the shock unfolded. It emphasized that the Czech economy entered the shock after a period of tight monetary policy and inflation around target. An economy with anchored expectations and weak demand would transmit the same oil increase differently from one with strong pricing power or index-linked wage contracts (risks and uncertainties).",
+    "The Board continued to judge the overall balance of risks broadly even. Rapid credit and wage growth, potential additional fiscal spending and sticky services remained sources of upside pressure. Weak euro-area activity, tighter trade conditions and a possible global asset-price correction could work against inflation. These forces operate at different horizons. The koruna and domestic bond yields can adjust before firms reset contracts or households change borrowing. A daily move in local yields on the meeting date therefore needs to be interpreted against international energy prices, euro-area curves and the market’s expected CNB path immediately before the meeting (decision and risks).",
+    "A historical policy indicator gains more from capturing the new uncertainty than from labelling a low headline reading as a signal of an imminent cut. The vote and rate matched February. What changed was the overlap between a lagging observed price index and a new, incompletely embedded supply shock. The subsequent durability of service inflation and the monetary response are empirical questions. The statement itself neither specifies a target date for cutting rates nor measures the market reaction (decision and published outlook)."
+  ],
+  "questions": [
+    {
+      "question": "What would the March inflation outlook have shown with contemporaneous energy prices?",
+      "detail": "Replicate the forecast’s available oil assumptions and substitute the newer crude and refined-product curves in koruna. Keep direct household energy, indirect producer costs and demand effects separate. Compare simulated changes with subsequent forecast vintages without using those later numbers as March observations."
+    },
+    {
+      "question": "Were wage increases increasingly reflected in service prices?",
+      "detail": "Use services subindices, sectoral pay and measures of output per hour. Identify industries with faster wage growth before March and compare subsequent selling-price revisions with industries facing mainly imported costs. A sustained relative rise in labour-intensive prices would support the Board’s concern about domestic persistence."
+    },
+    {
+      "question": "Which part of rate pricing changed when the Board discussed the shock?",
+      "detail": "Separate the scheduled decision from the statement and press conference, comparing front-end local rates with euro-area equivalents. Track koruna movements and oil prices in matching windows. A move common across European markets is weaker evidence of specifically Czech guidance than a localized shift at domestic meeting horizons."
+    }
+  ],
+  "limitation": ""
+}
