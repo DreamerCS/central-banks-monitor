@@ -1,0 +1,28 @@
+{
+  "title": "NBP’s energy shock raises projected 2027 inflation to 4.2% with little change in annual growth",
+  "bank": "Narodowy Bank Polski",
+  "date": "2026-11-06",
+  "url": "https://nbp.pl/projekcja-inflacji-i-pkb-listopad-2026",
+  "summary": [
+    "In its November projection, Narodowy Bank Polski raised average Polish inflation for 2027 from July’s 2.7% to 4.2% while retaining its 2.8% GDP growth estimate for the same year. The contrast matters for a reader assessing the Polish yield curve. The principal revision came through prices and the expected duration of the energy shock, rather than a substantially larger economy. NBP’s staff held the reference rate at 3.75% throughout the exercise. That assumption allows successive projections to be compared. The Monetary Policy Council retained discretion over the rate it would actually set.",
+    "Chapter 4 of the November Inflation Report identifies the forecast vintage precisely. The NECMOD exercise starts from the third quarter of 2026 and projects from the fourth quarter through the end of 2028 using information available by 15 October. The report’s separate assessment of recent economic conditions includes data through 23 October and the subsequent October flash CPI. Matching those dates matters because a later reading can legitimately differ from an assumption used by the staff. The projection is an input submitted to the Council by NBP’s analytical department. It contains no record of a collective policy-rate forecast.",
+    "Renewed conflict in the Middle East and damage to energy infrastructure in Saudi Arabia and Russia changed the outlook for oil. Gas, coal and agricultural commodity prices had also risen. Higher prices paid by Polish consumers for energy enter headline inflation directly. Higher production, transport and food costs can continue to affect prices after the initial wholesale move. The annual projections in Table 4.4 put energy-price inflation at 8.3% in 2027, food inflation at 3.4% and inflation excluding food and energy at 3.3%. Their differing paths are important. Headline inflation reaches 4.6% year on year in each of the first two quarters of 2027, while core inflation runs at 3.4% in those quarters. Annual-average inflation of 4.2% thus coexists with a higher quarterly peak.",
+    "The growth figures contain an offset that an annual comparison conceals. Table 4.2 puts growth at 3.6% in 2026, close to the prior 3.7%, and at 2.8% in both 2027 and 2028. Table 4.4 shows fixed investment growth falling from 7.2% in 2026 to 1.5% in 2027. Household consumption growth slows from 3.0% to 2.8%. Higher input costs can squeeze real household income and company margins at the same time as they lift consumer prices. The projected output gap moves from a small positive average in 2026 to minus 0.2% of potential GDP in 2027. A higher inflation path can therefore emerge alongside weakening domestic demand pressure.",
+    "The model brings quarterly headline inflation back to 2.5% in the third quarter of 2028 and to 2.3% in the fourth. That central path understates the range of possible outcomes if read alone. Figures 4.1 and 4.2 show 30%, 60% and 90% probability bands around the central trajectories. The staff identify upside inflation risk in 2028, including the potential introduction of the EU’s second emissions trading system. Implementation remained uncertain, so the central path excluded it. Under full fuel-price pass-through, the report estimates that each additional PLN 10 per tonne of CO₂ would directly add 0.06 percentage points to CPI inflation. The calculation gives a sensitivity that can be updated when the applicable timetable and price become known. It does not add a fixed emissions-cost premium to the published baseline."
+  ],
+  "questions": [
+    {
+      "question": "How much of the 2027 inflation revision survives a reversal in energy markets?",
+      "detail": "Track oil, European gas, the zloty, Polish retail fuel and changes in administered prices against the 15 October forecast vintage. Then examine food and core price measures with a lag. Lower wholesale prices could quickly reverse the direct component, whereas contract repricing or transport costs may sustain broader inflation. A test of the forecast should distinguish the two transmission speeds."
+    },
+    {
+      "question": "Does slower investment make the return to target more likely?",
+      "detail": "Compare actual spending on fixed capital and household consumption with Table 4.4, alongside capacity utilisation, wages and service prices. The projection places 2027 growth near July’s estimate despite a price shock, but a further investment shortfall could widen the negative output gap. A weaker economy facing structurally higher imported prices could still show little immediate decline in headline CPI."
+    },
+    {
+      "question": "Which 2028 regulatory changes would move inflation outside the central path?",
+      "detail": "Establish when ETS2 applies, the allowance price in zloty and the share ultimately passed to retail fuel buyers. Use the published PLN 10 sensitivity as a conditional calculation and compare it with possible fiscal offsets or tariff decisions. The resulting adjustment should be judged against the spread of outcomes in the fan charts, not treated as a policy-rate instruction."
+    }
+  ],
+  "limitation": "The original is reproduced in NBP’s November 2026 Inflation Report, chapter 4, pages 32–49."
+}

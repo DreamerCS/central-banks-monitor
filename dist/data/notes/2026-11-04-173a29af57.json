@@ -1,0 +1,29 @@
+{
+  "title": "Taiwan’s derivatives book grew NT$3.12 trillion, more than explained by OTC swaps",
+  "bank": "Central Bank of the Republic of China (Taiwan)",
+  "date": "2026-11-04",
+  "url": "https://www.cbc.gov.tw/en/cp-448-194138-ebce3-2.html",
+  "summary": [
+    "The outstanding notional value of derivatives reported by banks in Taiwan reached NT$109.49 trillion at end-September, up NT$3.12 trillion or 2.93% from end-June. The change was concentrated in a single instrument. Over-the-counter swaps increased by NT$3.453 trillion, more than the rise in the entire book. Other categories partly offset that increase. For someone assessing demand for hedging or the scale of dealer activity, this is a change in the face amounts on which contracts are based. It is not a realised gain, a change in collateral posted or a measure of banks’ likely losses.",
+    "Tables 1 and 2 explain how the total can grow more slowly than swaps. Outstanding OTC swaps rose from NT$58.879 trillion to NT$62.332 trillion, an increase of 5.86%. OTC forwards fell by NT$393.5 billion to NT$40.980 trillion. Bought and sold OTC options increased, while the exchange-traded book fell NT$61.2 billion to NT$151.1 billion. The latter was down almost 29% from end-June yet still had little weight in the total. At quarter-end OTC contracts represented 99.86% of all reported notional. In Table 1, OTC swaps’ 56.93% share and forwards’ 37.43% share are percentages of the whole book, as the totals in the table make clear.",
+    "Interest rates and foreign exchange dominate the risk categories in different ways. Interest-rate contracts accounted for 58.01% of total notional, and foreign-exchange contracts for 41.82%. Of NT$62.332 trillion in OTC swaps, NT$60.678 trillion was in the interest-rate column. The NT$40.980 trillion of OTC forwards in the table was entirely in the foreign-exchange column. The instrument movement therefore speaks most directly to the size of swap intermediation and has a strong interest-rate component. The figures do not identify whether banks or their customers were net payers or receivers of fixed rates, nor how the contracts would respond to any particular shift in yields.",
+    "Figure 1 provides a longer history. In March 2015, interest-rate contracts stood at about NT$16 trillion, well below roughly NT$40 trillion in foreign-exchange contracts. By September 2026 the former had grown to about NT$64 trillion, above the roughly NT$46 trillion in foreign-exchange contracts. The shift in the mix therefore extends beyond the latest quarter.",
+    "Trading-purpose positions represented 99.26% of notional, against 0.74% for non-trading contracts. The label classifies the reported positions, rather than identifying speculative intent or measuring how much market risk a dealer retained. A dealer can trade offsetting positions for different clients. Without cash-flow sensitivities, counterparty exposures, collateral and netting, notional alone cannot settle that question. The table’s coverage includes offshore banking units and overseas branches of domestic banks as well as local branches and offshore banking units of foreign and mainland Chinese banks.",
+    "Domestic banks accounted for 63.24% of the total, with branches of foreign and mainland Chinese banks accounting for 36.76%. The five largest institutions accounted for 49.47% together. This gives a starting point for assessing dependence on major dealers, but the release gives neither each dealer’s share nor the distribution of exposures between them. A concentration in gross intermediation and a concentration in unhedged risk would have different implications for market resilience."
+  ],
+  "questions": [
+    {
+      "question": "How much interest-rate sensitivity accompanies the larger swap notional?",
+      "detail": "Distinguish fixed-paying and fixed-receiving positions, maturities and sensitivities to changes at different points on the curve. A dealer book can expand substantially when two clients want opposite trades. Those data, together with collateral and netting, would help translate the increase in face amounts into meaningful measures of market and counterparty exposure."
+    },
+    {
+      "question": "What explains the simultaneous rise in swaps and decline in forwards?",
+      "detail": "Compare new trades, maturities and valuation of foreign-currency notionals in Taiwan dollars for the two categories. Table 2 supplies the change between quarter-ends, not a gross count of trades or a transaction-based flow. A shift in customers’ hedging needs would imply more persistent changes than a large set of contracts simply rolling off on the reporting date."
+    },
+    {
+      "question": "How dependent are particular market segments on the five largest intermediaries?",
+      "detail": "Break out dealer shares by product, currency and maturity, then examine whether customers can readily substitute another dealer. The aggregate 49.47% share measures booked notional and does not show bilateral dependencies. Evidence on quotes, replacement costs and collateral arrangements would be more relevant to assessing liquidity if a large participant curtailed its activity."
+    }
+  ],
+  "limitation": ""
+}

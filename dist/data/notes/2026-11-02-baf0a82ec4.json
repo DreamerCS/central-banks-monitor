@@ -1,0 +1,29 @@
+{
+  "title": "Polish banks eased corporate credit while tightening household eligibility",
+  "bank": "Narodowy Bank Polski",
+  "date": "2026-11-02",
+  "url": "https://static.nbp.pl/dane/rynek-kredytowy/ASRK_IV_2026_Publikacja_PL.pdf",
+  "summary": [
+    "Polish credit committees reported brisker corporate borrowing demand in the third quarter of 2026, especially for long-term loans to large companies. They competed harder for those customers. The same banks raised the hurdle for households to qualify for a mortgage or a consumer loan. That division matters for a reader using bank credit to assess Polish demand. A business seeking funds to carry inventories or undertake investment and a household applying to finance a purchase faced quite different changes in access to credit.",
+    "NBP surveyed credit committee chairs at 23 banks in early October. Together the institutions accounted for about 90% of banking-sector credit to companies and households. Each reply receives the responding bank’s share of the relevant lending segment. Appendix 1 uses short- and long-term business loans, for example, to construct different weights for the same institution. The reported balance subtracts the weighted share reporting tightening from that reporting easing, or falling demand from rising demand. A demand reading of 70% can therefore coexist with much slower growth in actual loan balances. It measures the direction of responses and says nothing about the cash value of applications or their approval rate.",
+    "Figures 1–5 show that standards eased across all four business segments. The net balances for large companies were 18% for short loans and 13% for long loans, compared with 8% and 13% for smaller businesses. Respondents also cut margins and non-interest costs, lowered collateral requirements and offered longer maturities. Competition from other banks was the most frequently identified reason for easing on a weighted net basis. Meanwhile the long-term demand balance reached 70% for large companies and 51% for smaller ones. Banks attributed stronger business demand to working capital and fixed investment, with respective balances of 48% and 43%. Those two uses can have different implications for future output. Financing inventories may cover higher carrying costs, whereas financing plant or equipment could expand capacity.",
+    "The mortgage findings distinguish access from price. Standards tightened for the first time in seven quarters, with a balance of minus 39%. Yet the balance of responses on ordinary mortgage margins showed easing of 19%. A bank can offer an attractive spread to households that qualify while turning away others. Some lenders cited changes in how income such as the 800+ family benefit counted toward eligibility. Mortgage demand fell on balance for the first time in three quarters. Respondents mentioned borrowers using another bank or household savings, which also makes displacement between lenders a plausible explanation for some of the reported decline.",
+    "Consumer credit showed the reverse combination of supply and demand. The standards balance fell to minus 65%, the first tightening in ten quarters. Banks mentioned regulatory recommendations and internal business decisions. They reduced maximum loan size and increased margins on riskier borrowing. At the same time the demand balance remained positive at about 19%, with borrowing for durable goods the main reported support. Observed growth in loan balances alone would obscure tighter approval conditions for applicants at the margin.",
+    "The fourth-quarter panel on page 2 records expectations formed in October. Banks anticipated little change in mortgage and consumer credit standards. Demand balances diverged further, at minus 33% for housing and plus 36% for consumer borrowing. Expectations for long-term business loan demand were around 62% for large companies and 13% for small and medium-sized companies. That widening gap gives a measurable test of whether competition and investment finance remain concentrated among larger borrowers. The survey records lenders’ perceptions before the quarter’s outcomes were known."
+  ],
+  "questions": [
+    {
+      "question": "Which part of the corporate demand signal became new fixed investment?",
+      "detail": "Compare subsequent originations by maturity and borrower size with investment surveys, capital expenditure and working-capital drawdowns. A rise in long-term applications from large firms is more consistent with capacity expansion if it also appears in equipment purchases. Renewals, refinancing or temporary financing of inventories could lift measured demand with a smaller effect on domestic investment. The weighted survey balances provide no amounts with which to make that distinction directly."
+    },
+    {
+      "question": "Did mortgage tightening exclude more applicants even as margins fell?",
+      "detail": "Track applications, acceptance rates, loan-to-income ratios and offered spreads by income source and lender. Changes in the recognition of family benefits could affect eligibility while leaving prices for approved borrowers relatively attractive. Compare bank-level outcomes with market-wide originations and cash-funded purchases to distinguish business lost to a competitor from a reduction in households’ total borrowing."
+    },
+    {
+      "question": "How much consumer demand survived the new size and risk limits?",
+      "detail": "Compare applications for durable-goods financing with approvals, average tickets, and early arrears by risk band. The survey records stronger demand alongside tighter standards, so faster applications can coexist with fewer completed purchases. In the next survey compare the anticipated 36% demand balance with the eventual result and check whether any fall in lending reflected borrower demand, rejection rates, or smaller approved amounts."
+    }
+  ],
+  "limitation": ""
+}

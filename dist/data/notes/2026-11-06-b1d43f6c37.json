@@ -1,0 +1,28 @@
+{
+  "title": "Tighter Irish mortgage limits lowered house prices first and pushed rents up for longer",
+  "bank": "Bank of England",
+  "date": "2026-11-06",
+  "url": "https://www.bankofengland.co.uk/working-paper/2026/the-aggregate-and-distributional-implications-of-credit-shocks-on-housing-and-rental-markets",
+  "summary": [
+    "A prospective buyer whose mortgage application no longer fits a lending limit still needs somewhere to live. Juan Castellanos, Andrew Hannon and Gonzalo Paz Pardo use this link between buying and renting to study Ireland’s February 2015 mortgage reforms. Their Bank of England staff working paper puts renters, owner-occupiers and landlords in the same market. A household can become a landlord by adding a property, but faces the cost and inconvenience of making a large, indivisible investment. An increase in the number of tenants thus requires higher rents to draw enough additional homes into the rental market. The authors examine what this response means for people who never take out a mortgage themselves (§§2–4).",
+    "The county-level evidence offers a check on the direction of the effect. The authors compare differences in house-price and rent growth over nine quarters with a measure of how far pre-reform lending was from the new limits. In counties where the restrictions were more binding, house prices rose more slowly and rents rose faster. A one-standard-deviation increase in distance, meaning less exposure, was associated with 4.2% higher house prices and 2.5% lower rents across the window. Table 3 and the maps in Figure A3 report a comparison across counties. They cannot establish the national change in rents that the reform alone produced. Figure 5 also checks whether the opposite movements were common in other time windows (§4.2).",
+    "In the calibrated model, households initially postpone purchases and continue to rent. Figure 6 shows that house prices respond immediately, while rents reach their peak about seven years after the change in credit limits. The long-run comparison in Table 4 tells a different story from the initial house-price decline. The homeownership rate falls from 77.97% to 74.79%, the rent-to-income ratio rises about 2.6%, and the average house-price-to-income ratio edges up about 0.1% as the quality mix changes. More housing belongs to people who already own their homes. Figure 7 shows that existing tenants lose from higher rents. Some prospective purchasers benefit from temporarily cheaper housing. Landlords as a group gain from increased rental income (§4.3).",
+    "An interest-rate experiment illustrates why the timing depends on the source of the credit shock. A permanent 20-basis-point rise in the real rate raises rents around 1.4% and lowers average house prices around 0.6% in the long run. Figure 8 shows faster adjustment than after the mortgage reform. A higher return on savings changes the incentives of existing landlords immediately, while the new borrowing limits initially affect prospective purchasers. The authors also model a larger temporary rate shock, which produces an immediate increase in rents that subsequently unwinds. These are model experiments conditional on the assumed rate paths (§5).",
+    "The comparison rests on how easily households enter the landlord market and properties switch tenure. The paper tests alternatives in which rental and owner-occupied units cannot be converted freely and examines conversion costs in the appendices. Its life-cycle calibration also understates older households’ retention of rental property. A younger tenant facing a higher rent may take longer to accumulate a deposit even when house prices fall. Quantifying that channel adds an important distributional cost to the policy assessment. A judgment about the overall merits of mortgage limits would also require evidence about financial instability that the model leaves outside its scope (§§3, 6–7 and appendix)."
+  ],
+  "questions": [
+    {
+      "question": "Which households actually remained tenants longer following the 2015 limits?",
+      "detail": "Link first-time mortgage originations and application outcomes to tenancy registrations and household income where lawful access permits. Group prospective buyers by predicted exposure using only characteristics observed before the change. Follow moves to ownership, rent paid and deposit accumulation by cohort. Compare trends in initially similar places and examine whether moves between counties change the measured result."
+    },
+    {
+      "question": "How much of the rental response came from homes switching tenure?",
+      "detail": "Construct a property-level panel from conveyance records, landlord registrations, new tenancy records and building completions. Separate formerly owner-occupied homes from new construction and acquisitions by landlords already letting properties. Compare entry timing with the rent path in Figure 6. Changes in average property quality or advertised asking rents could otherwise resemble changes in the price of an unchanged rental home."
+    },
+    {
+      "question": "How would the welfare comparison change after including the cost of mortgage distress?",
+      "detail": "Use supervisory loan-level arrears, restructurings, realised losses and borrower income histories to estimate how losses vary with leverage and the income shock a borrower faces. Compare the resulting prevented losses with distributions of higher rental expenditure from household data. Keep the two calculations visible before aggregating, since a future reduction in losses may accrue to different households than those paying higher rents today."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,27 @@
+{
+  "title": "China cuts the refinancing rate on share buyback loans and reports more than RMB200 billion in bank requests",
+  "bank": "People’s Bank of China",
+  "date": "2026-11-04",
+  "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110408502315269/index.html",
+  "summary": [
+    "From 4 November, the People’s Bank of China lowered its refinancing rate for loans supporting share repurchases and increases in shareholdings by 25 basis points to 1%. The immediate beneficiary of that rate is an eligible commercial bank. A listed company buying its shares or a major shareholder adding to a holding must still obtain a bank loan on terms the lender sets. The notice links cheaper central-bank funds to an increase in the availability of this particular type of financing. It gives no general change to the policy rate or direct transaction by the central bank in a listed company’s equity.",
+    "Section one specifies the channel. Twenty-one nationwide banks and five systemically important city commercial banks can access the facility. The support ratio is 100%, the refinancing term is one year, and extension is possible according to banks’ needs. Banks may add an appropriate margin to the refinancing rate and determine the maturity and rate on the underlying loans. If a bank passes the full 25-basis-point reduction through, an eligible borrower renewing on otherwise identical terms would see a corresponding reduction in interest cost. The notice allows the margin and loan terms to vary, so that calculation describes a possible outcome. It is not a quoted borrowing rate or an assurance of renewal for every borrower.",
+    "Section two provides the strongest early sign of demand, but the stage of the financing process matters. After a 2 November meeting on this facility, banks submitted requests to the central bank for refinancing quotas totalling more than RMB200 billion. That figure is an amount requested by banks. It gives neither the amount of loans already made to companies and shareholders nor the value of shares actually purchased. The central bank committed to meeting banks’ refinancing needs and encouraged them to engage eligible borrowers. The announcement does not state a fixed total ceiling or allocate the requests among the 26 institutions.",
+    "For equity investors the distinction is practical. Lower marginal funding costs can make a previously unattractive repurchase easier to finance. Specific issuers or shareholders still need to take up the financing and execute the purchases before it affects market demand. For lenders, the one-year refinancing and option of extension matter alongside the rate: loans with different maturities can expose the bank to a need for renewed funding. The stated policy objective is stable capital-market functioning and stronger capacity for listed companies and major shareholders to manage market value. No result on valuations, lending quality or completed purchases is reported in this notice."
+  ],
+  "questions": [
+    {
+      "question": "How much of the more than RMB200 billion requested eventually finances completed share purchases?",
+      "detail": "Separate quota requests, approved central-bank refinancing, bank loan drawdowns and share purchases disclosed by listed companies or major shareholders. Those steps can have different dates and amounts. Following a cohort through them would show whether the announcement generated additional financing or largely anticipated transactions that would have gone ahead on other terms."
+    },
+    {
+      "question": "How much of the rate reduction reaches borrowers and on what maturities?",
+      "detail": "Compare otherwise similar loans before and after 4 November, allowing for borrower quality, collateral and loan tenor. Twenty-six banks can obtain the new terms, but they set margins on their customer loans. A lower average loan rate could reflect that new borrowers are safer rather than a comparable company paying less for the same facility."
+    },
+    {
+      "question": "Which banks and issuers depend most heavily on refinancing being extended?",
+      "detail": "Compare the one-year central-bank term with the maturities of the underlying loans, and observe how often banks actually obtain extensions. This would distinguish one-off purchases financed from current capacity from a funding relationship that needs repeated renewal. The option in the notice gives banks flexibility without specifying future renewal terms."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Can AI households reproduce the differences in Japanese inflation expectations?",
+  "bank": "Bank of Japan",
+  "date": "2026-11-06",
+  "url": "https://www.imes.boj.or.jp/research/abstracts/english/26-E-14.html",
+  "summary": [
+    "A model can come close to the average Japanese household’s inflation expectation while consistently missing the households most worried about rising prices. That distinction is central to the experiment by Yusuke Takahashi and Kazuki Otaka in IMES Discussion Paper 2026-E-14. Their one-to-one match between survey respondents and simulated personas tests whether giving a model descriptions of real people helps it reproduce the distribution of their beliefs. The results support a narrow use for these simulations in short-horizon research. They give much less reason to use them to judge how firmly longer-term expectations are anchored.",
+    "Section 3 describes the design. The underlying data are from the December 2024 wave of the BOJ’s Opinion Survey on the General Public’s Views and Behavior. Each persona receives the recorded characteristics of one respondent, including age, employment, household income and liabilities. The researchers ask the same questions, in the same order and in Japanese, about current perceived inflation, inflation one year ahead and the average annual rate over five years. Their principal model is a locally deployed Gemma-3-12B-it. Repeated answers to the same prompt let them distinguish variation across types of people from randomness when the model answers for the same person.",
+    "Table 1 and Figure 2 show why matching the mean is a weak test. For 1,764 matched respondents, the average perceived rate is 17.3% for humans and 17.1% in one model generation. Average one-year expectations are 11.8% and 10.4%. But the human standard deviation at one year is 16 percentage points, against only 3 for the model. At five years the human average is 9.7%, more than twice the simulated 4.3%, and the standard deviations are 17.8 and 1 point respectively. These numbers describe survey beliefs. The plotted distributions show where the model fails: it generates very few high long-horizon answers of the kind that pull up the human average.",
+    "At the individual level, the baseline one-year tracking slope in Table 2 is 0.011. This measures how much the simulated answer moves with a one-point difference in the human answer across the matched sample. The authors compare that small slope with what an additive regression using the supplied demographics can recover. On this scale the model recovers 47% of an already small benchmark. At five years the estimated slope is slightly negative and statistically indistinguishable from zero. Supplying demographic characteristics alone conveys little about two people who look similar in survey categories but hold very different beliefs.",
+    "Table 4 shows what extra information can buy. Adding each respondent’s reported awareness of both the BOJ’s mandate and its 2% target raises the one-year tracking slope to 0.026 and the share of the corresponding benchmark to 79%. It does not repair the long-horizon result. Nor does greater model size necessarily help: the tested 27-billion-parameter model produces more compressed responses than the 12-billion version in Appendix C. For an analyst modelling how households might respond to an inflation announcement, the evidence favours testing short-horizon differences conditional on measured awareness and retaining actual survey observations for the tails. The study measures correspondence between answers, without identifying the effect of informing a household about the target."
+  ],
+  "questions": [
+    {
+      "question": "Would the one-year tracking gain survive an independent survey wave?",
+      "detail": "The policy-awareness result should be compared across respondents collected at other times and under different inflation conditions. The December 2024 sample alone cannot show whether the model follows a person whose view changes as prices or policy change. Recompute the raw tracking coefficient, dispersion and the human attribute benchmark together. A higher percentage of a small benchmark can look impressive even when the simulated answers explain little variation in people’s forecasts."
+    },
+    {
+      "question": "What information would let a simulation recover households with very high five-year expectations?",
+      "detail": "Compare errors across the actual distribution before adding descriptors for personal price exposure, information habits or other directly measured characteristics. Figure 2 shows a missing upper tail, making it important to test whether an addition predicts which households give high answers. Adding randomness may widen a distribution without identifying any of those households."
+    },
+    {
+      "question": "Does awareness of the 2% target change an individual’s response to news?",
+      "detail": "Table 4 conditions on people’s survey answers about knowledge. Awareness could also capture other differences, such as attention to prices. A comparison of people’s actual revisions after exposure to the same information with the revisions generated for their matched personas would test the mechanism relevant to monetary communication."
+    }
+  ],
+  "limitation": ""
+}

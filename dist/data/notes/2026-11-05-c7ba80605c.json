@@ -1,0 +1,32 @@
+{
+  "title": "Why the BOJ raised its rate in September while measured inflation was below 2%",
+  "bank": "Bank of Japan",
+  "date": "2026-11-05",
+  "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/minu_2026/g260918.pdf",
+  "summary": [
+    "The September minutes, published on 5 November, explain a change in the Bank of Japan’s assessment of inflation risk. For much of the recovery, the policy question had been how to bring underlying inflation up to the 2% target. At the September meeting, members increasingly asked how to keep it there if firms continued to raise wages and pass costs into prices. Seven members voted to lift the overnight call-rate guideline from around 1.0% to around 1.25%. The move took effect on 24 September, alongside a 1.25% deposit-facility rate and a 1.5% basic loan rate. The November document records the September decision and the information available at that meeting.",
+    "The case for acting ahead of a clear rise in consumer inflation rested partly on the sequence of price changes. CPI excluding fresh food had recently risen 1.5–2.0% year on year. Energy subsidies held down that figure. Members observed that increases already seen in transactions between businesses were moving from upstream inputs toward packaging, distribution and consumer goods. One pointed to preliminary August producer inflation of 7.6% against a revised 7.7% in July, warning that revisions made it difficult to call a peak. Another identified freight charges: motor freight service prices rose almost 6% in July despite lower gasoline prices than a year earlier, suggesting a role for labour costs. Section III, pages 13–15, records these observations as reasons to test the breadth of pass-through.",
+    "Evidence about demand pointed in both directions. AI-related orders supported exports, industrial production and profits, while more expensive imported energy eroded purchasing power. Real private consumption had been flat in the second quarter, and one member saw little momentum. Others cited wages, summer bonuses and transfers in judging consumption resilient. The composition of household income also mattered: property income and employee compensation had risen while social benefits, including pensions, had not. In investment, rising construction costs and skilled-labour shortages could delay execution even where companies planned to expand. Pages 10–13 show why a strong profit figure or a single GDP release could give a misleading impression of spending capacity.",
+    "Two members preferred to wait. Asada Toichiro cited sub-2% consumer inflation and questions about the economy’s strength. Sato Ayano saw insufficient acceleration in economic activity and prices. On the opposite side of the inflation assessment, Takata Hajime and Tamura Naoki supported the rate increase but thought the statement understated how close underlying inflation already was to the target. The final statement, with their qualifications recorded, passed unanimously. These are distinct judgments about timing and the outlook, as Sections VI.A and VI.D make clear.",
+    "The discussion of the terminal rate is particularly relevant for yen rates. One member noted that the one-year overnight-indexed swap rate starting in two years had exceeded 2%. It contained views about foreign rates and Japan’s economic outlook as well as estimates of neutral. Another member thought market pricing had moved ahead of domestic wage and price dynamics. Many favoured learning about the unobservable neutral rate from successive changes in borrowing conditions and real activity. The Board also unanimously moved its climate-related funds-supplying loans from fixed to floating rates and capped them at ¥50 trillion in total and ¥10 trillion per counterparty. Together, these decisions point to two distinct tests for transmission: how borrowers respond to the overnight rate and how facility users respond when central-bank funding reprices."
+  ],
+  "questions": [
+    {
+      "question": "Is pass-through broadening enough to sustain 2% inflation once temporary price effects fall away?",
+      "detail": "Watch services prices alongside wage agreements, freight costs and businesses’ downstream selling prices. The minutes note that excluding rents and public services, where price revisions lag, gave one member a services measure around 3% for nearly two years. A renewed acceleration across that group would carry different information from an isolated increase in energy or semiconductors."
+    },
+    {
+      "question": "How much spending resilience survives higher rates and an energy-driven squeeze on household income?",
+      "detail": "Break consumption down by age, income source and asset ownership, and distinguish planned investment from completed projects. The repeated contrast in the minutes is between firms helped by AI-related demand and households or builders facing higher costs. A sharp split would complicate a simple inference from aggregate growth about room for further tightening."
+    },
+    {
+      "question": "What would distinguish a higher domestic neutral rate from an increase in the forward swap rate driven by other factors?",
+      "detail": "Compare the forward rate with actual loan pricing, demand for funds, issuance conditions and domestic responses to the September rise. The minutes identify overseas yields and expectations about economic activity as competing explanations. Deteriorating financing conditions after a small rate increase would change the interpretation even if the forward rate stayed above 2%."
+    },
+    {
+      "question": "How does switching climate loans to floating rates change take-up as the policy rate moves?",
+      "detail": "Follow the amount borrowed relative to both caps and examine whether banks substitute other funding sources. The Board approved these operating changes unanimously even though the overnight-rate decision was divided. Tracking facility usage separately would distinguish the response to its revised pricing from a wider change in demand for climate-related investment."
+    }
+  ],
+  "limitation": ""
+}

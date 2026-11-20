@@ -347,13 +347,13 @@ function goldComparison(pair, article) {
   const heading = el("h2",pair.title);
   article.append(el("p",pair.period,"hs-kicker"),heading,el("p",pair.lead,"hs-deck"),
     el("h3","Britain leaves the old parity"),
-    el("p","On 21 September 1931 Parliament suspended the Bank of England’s obligation to supply gold bullion at the statutory price. Sterling could now move against currencies that remained convertible. Both dollar and franc quotations fell once the obligation ended."),
+    el("p","The government announced suspension on Sunday 20 September 1931. On Monday 21 September Parliament suspended the Bank of England’s obligation to supply bullion at the statutory price, and the Bank raised its rate from 4½% to 6%. The exchange-rate commitment ended even as the domestic short rate rose. Sterling could now move against currencies that remained convertible. Both dollar and franc quotations fell once the obligation ended."),
     table(["1931 quotation period","US dollars per pound","French francs per pound"],[
       ["Average through 18 September","4.859","124.057"],["Average from 21 September to year-end","3.694","94.016"]
     ],"Bank of England averages before and after suspension"),
     el("p","These are averages over two parts of the year. They show broad sterling weakness across currencies, without measuring the return earned on the announcement day.","hs-byline"),
     el("h3","The United States changes the dollar’s gold price"),
-    el("p","The March 1933 bank holiday and restrictions on gold transactions preceded the administration’s April move away from the old parity. The January 1934 Gold Reserve Act transferred monetary gold to the Treasury. The new official price of $35 per fine troy ounce, compared with $20.67 previously, reduced the gold content of a dollar by about 41%. The 69% rise in the dollar price of an ounce and the 41% fall in gold per dollar describe the same change from opposite sides."));
+    el("p","The March 1933 bank holiday and restrictions on gold transactions preceded the 19 April announcement restricting gold export licences and the 20 April executive order. The January 1934 Gold Reserve Act transferred monetary gold to the Treasury. The new official price of $35 per fine troy ounce, compared with $20.67 previously, reduced the gold content of a dollar by about 41%. The 69% rise in the dollar price of an ounce and the 41% fall in gold per dollar describe the same change from opposite sides."));
   const quotes = pair.prewarQuotes;
   const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
   const options = months.map((name,i)=>[String(i+1),name]);
@@ -382,6 +382,13 @@ function goldComparison(pair, article) {
     el("h3","What does the second currency tell us?"),
     el("p","Sterling rose strongly against the dollar over 1933 but ended the year slightly weaker against the French franc than in January. France still adhered to gold. The choice of comparison currency changes the diagnosis: a broad recovery of sterling would have shown up against the franc too. The pattern is consistent with a dollar repricing. It cannot assign the entire movement to the April decision or isolate changes in British and French fundamentals."),
     el("p","While convertibility held, domestic policy had to accommodate the demand to exchange currency for gold. Suspension gave each government more room to respond to the slump. To assess the effect on recovery, the next evidence would be domestic prices, production and interest rates around each exit, together with banking reforms and fiscal changes that occurred at the same time."),
+    el("h3","What if both currencies are measured against gold-standard France?"),
+    table(["Currency in French francs","Month before the announcement","Month after the announcement","Change between monthly quotes"],[
+      ["One pound","Aug 1931 · 123.93 francs","Oct 1931 · 98.76 francs","−20.3%"],
+      ["One US dollar","Mar 1933 · 25.41 francs","May 1933 · 21.77 francs","−14.3%"]
+    ],"Monthly cross-rates calculated from the Federal Reserve Bulletin"),
+    el("p","The US Federal Reserve Bulletin reports New York noon cable quotations in US cents. For sterling, divide cents per pound by cents per franc. For the dollar, divide 100 by cents per franc. These two-month comparisons bracket different policy events and include intervening news. They show how each currency traded against the same third currency.","hs-byline"),
+    link("Compare the Swiss franc floor in Policy history","historical-data.html#swiss-franc-floor"),
     sourceList(pair.sources));
   function draw(update) {
     const rows=["Dollars per pound","French francs per pound"].map((s,i)=>{

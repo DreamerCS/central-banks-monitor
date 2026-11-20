@@ -1,0 +1,32 @@
+{
+  "title": "When do transfers lift prices, and who gains from card fees? Four studies from the Philadelphia workshop",
+  "bank": "Bank of Japan",
+  "date": "2026-11-06",
+  "url": "https://www.boj.or.jp/en/about/release_2026/rel261106b.htm",
+  "summary": [
+    "A fiscal transfer’s inflation effect depends on the monetary response, and a card fee can affect borrowing limits as well as the prices in shops. Those are two findings in the Bank of Japan’s 6 November IMES newsletter on the September workshop co-hosted by the Bank of Canada, the Federal Reserve Bank of Philadelphia and the BOJ. The other featured studies examine how far households plan ahead and how a shrinking workforce changes the incentive to innovate. Each result belongs to its researchers and has a different evidentiary basis, ranging from comparisons across jurisdictions to model-based counterfactuals.",
+    "The second workshop study asks how much US pandemic inflation can be traced to household transfers. Juan Arias presented work estimating a time-varying structural vector autoregression on US observations from 1953 to 2019. The distinction between transfers that follow predictable policy responses and unexpected discretionary payments matters. In the researchers’ decomposition, discretionary transfers contributed substantially to the increase in the price level through mid-2021. Adverse supply shocks accounted for most of the subsequent increase. The estimated price response also depended on the monetary regime. An accommodative response amplified it during 2021–22. The researchers’ counterfactual suggests the transfers prevented an output decline on the scale of the Great Depression. That final comparison comes from the estimated model, not from an observed economy without the payments.",
+    "The first study, presented by Satyajit Chatterjee, identifies an apparent contradiction in US supervisory credit-card records. Reward cards offer higher limits, while cards without rewards carry lower interest rates despite higher defaults. A model incorporating both retailers and card lenders can reconcile these facts. A borrower stands to lose future rewards upon default, strengthening the incentive to repay. Banks retain part of the interchange revenue and can use it to fund higher limits and lower rates on non-reward cards. Merchants also raise retail prices to cover fees. At the US fee levels examined, the model finds net gains for both groups of cardholders. The newsletter gives no equivalent estimate for households without cards, an important distinction for judging the distribution of a fee change.",
+    "The third study offers an alternative reason why an economy may save and produce less than a conventional model predicts. Pablo Guerrón lets agents know their preferences, constraints and the state of the economy, but limits their planning horizon and the number of times they can improve a decision rule. With few updates and a short horizon, households undersave and output stays low. As both limits are relaxed the model converges to its rational-expectations counterpart. A measured gap between actual and theoretically optimal choices can therefore arise even without a credit constraint. The newsletter identifies estimating people’s actual computational capacity as an open task.",
+    "The fourth study, presented by Toshihiko Mukoyama, finds that establishment entry tends to move with working-age population growth across both US states and Japanese prefectures. Relationships with exit and size growth are less clear. In the model, slower population growth shifts innovation toward incumbents. Entrants can take profits from existing firms, encouraging excessive entry, while the risk of replacement causes firms to value future innovation less than society does. In the calibration, the second effect dominates. Slower population growth reduces that distortion, implying a smaller corrective profit subsidy even though entry itself falls. The direction of entry alone therefore does not identify the appropriate policy response."
+  ],
+  "questions": [
+    {
+      "question": "How much does the estimated inflation cost of a transfer depend on the assumed central-bank response?",
+      "detail": "Compare the price-level and output paths under alternative systematic monetary reactions while holding the transfer shock fixed. The reported decomposition gives different explanations before and after mid-2021. That timing and the sensitivity of output to the assumed no-transfer path matter before applying the results to a future relief package."
+    },
+    {
+      "question": "Which customers would gain or lose from reducing the interchange fee?",
+      "detail": "Trace merchant price pass-through alongside changes in rewards, available limits, borrowing rates and default. The model finds that cardholders without rewards also receive a credit benefit. Extending that calculation to cash users and households near their limits would show whether an apparent gain for a representative shopper survives across customer groups."
+    },
+    {
+      "question": "What observations can distinguish constrained planning from financial constraints?",
+      "detail": "Both can produce saving below a frictionless benchmark. Test whether changes in decision horizons or opportunities to reconsider a choice predict behaviour after controlling for credit access and income. The model generates these gaps without financial frictions, but the newsletter reports no empirical estimate of a household’s planning capacity."
+    },
+    {
+      "question": "Does slower workforce growth reduce entry by young innovative firms or change what incumbents undertake?",
+      "detail": "Compare product creation, replacement and improvements by existing firms, alongside entry and exit. The model’s subsidy result depends on the relative size of two opposing incentives. Entry counts establish a demographic association, while information on the source and value of innovation tests the mechanism behind that result."
+    }
+  ],
+  "limitation": ""
+}

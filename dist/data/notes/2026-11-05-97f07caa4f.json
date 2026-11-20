@@ -1,0 +1,27 @@
+{
+  "title": "Taiwan’s October reserve decline combines market intervention with valuation and investment returns",
+  "bank": "Central Bank of the Republic of China (Taiwan)",
+  "date": "2026-11-05",
+  "url": "https://www.cbc.gov.tw/en/cp-448-194151-74407-2.html",
+  "summary": [
+    "Taiwan’s foreign-exchange reserves fell US$4.31 billion in October to US$596.44 billion. That places the previous month-end balance at US$600.75 billion and the decline at about 0.7% of that starting stock. The central bank named three factors: returns on reserve management, changes in the dollar value of other reserve currencies, and intervention to smooth volatile capital flows and preserve orderly foreign-exchange trading. It supplied no allocation among the three. The decline is therefore informative about the change in the dollar value of the portfolio, while giving no direct estimate of how many dollars the bank bought or sold.",
+    "Reserve management and market intervention enter the same headline through different channels. Earnings on assets change the portfolio’s value. A reserve asset denominated in another currency can gain or lose dollar value even if the bank holds the same quantity throughout the month. Intervention changes the currencies on the central bank’s balance sheet. Because the release neither signs nor quantifies the first two components, they could have offset or reinforced the effect of transactions. Using US$4.31 billion as a proxy for intervention would assume away the other two factors the central bank expressly identified.",
+    "The accompanying note gives a sense of how large market positions are relative to official holdings. The market value of securities investments and Taiwan-dollar deposits held by foreign portfolio investors reached US$1,742.6 billion at end-October, equivalent to 292% of reserves. It is a stock of assets held by investors, which includes securities at market value. It is not a flow out of Taiwan, a cash claim due from the central bank, or an estimate of how much currency investors would seek to exchange at once. Changes in security prices and exchange rates can alter the numerator even without net purchases or sales.",
+    "For an assessment of pressure in the foreign-exchange market, the release supplies two distinct observations: the authorities intervened during the month and the reported reserve stock declined modestly. It does not establish a particular exchange-rate target or show how much of the currency market’s adjustment the bank absorbed. The separation matters when comparing months: reserves could rise in a month of intervention if investment income or currency valuation more than offsets its balance-sheet effect. The next scheduled publication, listed for 4 December, will provide a new month-end observation; any transaction-level interpretation will still depend on the accompanying detail."
+  ],
+  "questions": [
+    {
+      "question": "What portion of October’s reserve movement came from transactions rather than portfolio valuation?",
+      "detail": "A reconciliation would require reserve-management income, currency valuation changes and net transactions over the same dates. The three explanations are stated, but their amounts remain open. Without this bridge, even a precise match between a market move and the change in reserves would be insufficient to estimate the size of intervention."
+    },
+    {
+      "question": "How sensitive is the 292% ratio to prices rather than investor flows?",
+      "detail": "Separate securities from Taiwan-dollar deposits and distinguish changes in holdings, local-market valuations and translation into dollars. The ratio compares a stock of foreign-owned assets with a separate official reserve stock. These components can move independently, and a rise in the ratio can occur without a corresponding increase in demand for foreign currency."
+    },
+    {
+      "question": "Did official operations coincide with temporary market disorder or a sustained change in demand for currency?",
+      "detail": "Compare subsequent official transaction disclosures, if available, with exchange-market conditions and the timing of flows. Looking at turnover and volatility alongside reserve balances would help explain what “orderly” trading meant in this episode. Reserve levels alone cannot identify the exchange-rate path the authorities intended."
+    }
+  ],
+  "limitation": ""
+}

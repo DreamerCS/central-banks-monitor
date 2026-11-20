@@ -1,0 +1,29 @@
+{
+  "title": "Taiwan’s overnight market turned over much faster while commercial paper became dearer",
+  "bank": "Central Bank of the Republic of China (Taiwan)",
+  "date": "2026-11-06",
+  "url": "https://www.cbc.gov.tw/en/cp-448-194159-d999e-2.html",
+  "summary": [
+    "An increase of almost two-thirds in Taiwan’s monthly interbank call-loan turnover came with a slightly lower overnight interest rate. October turnover reached NT$3,323.7 billion, up 63.75% on September, while the weighted average overnight rate edged down from 0.817% to 0.811%. The daily range was just 0.810–0.814%. Meanwhile the average rate on newly issued 1–30-day commercial paper edged up to 1.95%, and the rate on comparable paper traded in the secondary market rose much more sharply. These are different funding instruments and transactions. An increase in the amount of cash traded between banks does not determine the marginal cost to every short-term corporate borrower.",
+    "Table 2 distinguishes transactions completed over a period from outstanding credit. Daily turnover rose NT$73.4 billion to NT$174.9 billion, a 72.32% rise, compared with the smaller increase in total monthly turnover. The number of trading days affects that comparison. The daily average balance outstanding rose by NT$75.9 billion, or 17%, to NT$522.3 billion. Daily transactions thus accelerated much faster than the stock of loans still outstanding. Treating the additional NT$1,294 billion of turnover as new credit outstanding would substantially overstate the change in banks’ balance sheets.",
+    "Table 1 gives a longer comparison. In October 2025, the average overnight rate was 0.822%, slightly above the latest 0.811%, while the primary and secondary commercial-paper rates were 1.59% and 1.35%. A year later, both paper rates were substantially higher even as the overnight rate was marginally lower. That divergence extends beyond the latest monthly observation.",
+    "The institutions supplying the funds also differed from those using them. Domestic banks accounted for 89.43% of the average outstanding balance on the lending side and 58.36% on the borrowing side. Bills finance companies accounted for 26.02% of borrowing but only 0.10% of lending. Branches of foreign and mainland Chinese banks supplied 8.17% and borrowed 15.33%. These shares in Table 3 describe how the market redistributes liquidity between classes of institution. They do not identify who transacted with whom, whether a particular bank could readily borrow, or the collateral and alternative funding available to it.",
+    "In commercial paper, October’s preliminary primary-market average increased three basis points from 1.92% to 1.95%. The comparable secondary average rose 23 basis points from 1.52% to 1.75%. The difference between the two reported averages therefore narrowed from 40 to 20 basis points. Because Table 1 publishes averages for separate sets of transactions, that narrowing is not a realised return or a bid–ask spread on an identical bill. Issuer mix and the maturity remaining within the 1–30-day band matter when assessing the change.",
+    "Table 4 adds scale. Commercial paper outstanding through the bills clearing system reached NT$4,271.7 billion, up NT$39.6 billion, and commercial paper turnover rose NT$158.1 billion to NT$5,262.2 billion. It accounted for most of the NT$4,578.5 billion of short-term bills outstanding. For a treasury monitoring next month’s refinancing, primary issuance rates, secondary trading conditions and interbank funding all supply information. October shows why choosing one as a substitute for the other two would conceal meaningful differences."
+  ],
+  "questions": [
+    {
+      "question": "Did the surge in call-market turnover reflect concentration in very short transactions?",
+      "detail": "Compare daily turnover and average balances over several months and examine maturity and counterparty breakdowns where available. A larger volume of funds repeatedly lent for short periods would have different implications from sustained growth in balances across institutions. Table 2 provides the flow and stock benchmark; an individual bank’s liquidity position cannot be recovered from the total traded."
+    },
+    {
+      "question": "Why did the secondary commercial-paper rate move farther than the primary rate?",
+      "detail": "Match trades by issuer, credit characteristics and days remaining within the 1–30-day band. A similar change within matched securities would provide stronger evidence of broad repricing. A change confined to the mix of securities traded would matter for the published average without imposing the same increase on a comparable company issuing new paper."
+    },
+    {
+      "question": "Which institutions were most exposed to the change in short-term funding conditions?",
+      "detail": "Compare the net borrowing roles in Table 3 with the cost and maturity of alternative funding. Bills finance companies account for a substantial borrowing share, whereas domestic banks dominate supply. Persistent shifts in those shares and rates would be more informative about intermediary funding pressure than one month of brisk overnight cash trading."
+    }
+  ],
+  "limitation": ""
+}

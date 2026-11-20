@@ -823,6 +823,35 @@
     "title": "Monetary policy assessment of September 2026: Summary of discussion",
     "type": "Minutes"
   },
+  "2026-11-02-0186494c3c.json": {
+    "title": "How Do Banking Supervisors Deal with Failing Banks?",
+    "jurisdiction": "United States",
+    "type": "Research",
+    "aliases": [
+      "https://libertystreeteconomics.newyorkfed.org/2026/11/how-do-banking-supervisors-deal-with-failing-banks/"
+    ]
+  },
+  "2026-11-02-40b1c3b3b1.json": {
+    "title": "Free School Meals, Credit Access, and Household Debt",
+    "jurisdiction": "United States",
+    "type": "Research",
+    "aliases": [
+      "https://www.atlantafed.org/-/media/Project/Atlanta/FRBA/Documents/research-and-data/publications/working-papers/2026/11/02/18-free-school-meals-credit-access-and-household-debt.pdf"
+    ]
+  },
+  "2026-11-02-638d3d5855.json": {
+    "title": "El Paso Economic Indicators",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-02-66b00089bc.json": {
+    "title": "FEDS Paper: Heterogeneity in Service Fee Sensitivity: Evidence from ATM Surcharges",
+    "jurisdiction": "United States",
+    "type": "Research",
+    "aliases": [
+      "https://www.federalreserve.gov/econres/feds/files/2026072pap.pdf"
+    ]
+  },
   "2026-11-02-6be0606181.json": {
     "jurisdiction": "Euro area",
     "title": "Integrated, open and resilient: Europe’s strengths in a fragmenting world",
@@ -859,6 +888,14 @@
       "https://www.frbsf.org/wp-content/uploads/el2026-31.pdf"
     ]
   },
+  "2026-11-02-baf0a82ec4.json": {
+    "title": "Bank lending survey – fourth quarter of 2026",
+    "jurisdiction": "Poland",
+    "type": "Research",
+    "aliases": [
+      "https://static.nbp.pl/dane/rynek-kredytowy/ASRK_IV_2026_Publikacja_ENG.pdf"
+    ]
+  },
   "2026-11-02-c48f7d4c57.json": {
     "jurisdiction": "Euro area",
     "title": "Catching the repricing wave: insights from daily online supermarket prices",
@@ -879,10 +916,31 @@
     "title": "Debt maturity and government spending multipliers",
     "type": "Research"
   },
+  "2026-11-03-2242ff7e95.json": {
+    "title": "中国人民银行行长潘功胜会见阿曼中央银行行长艾哈迈德·穆萨米",
+    "jurisdiction": "China",
+    "type": "Release"
+  },
   "2026-11-03-2675bee134.json": {
     "jurisdiction": "Euro area",
     "title": "Elastic in cash, inelastic in repo: hedge funds in the treasury and repo markets",
     "type": "Research"
+  },
+  "2026-11-03-26ac98562a.json": {
+    "title": "More Than Money: Job Quality, Employment, and Occupational Change through the Pandemic",
+    "jurisdiction": "United States",
+    "type": "Research",
+    "aliases": [
+      "https://www.atlantafed.org/-/media/Project/Atlanta/FRBA/Documents/research-and-data/publications/working-papers/2026/11/03/19-more-than-money-job-quality-employment-and-occupational-change-through-the-pandemic.pdf"
+    ]
+  },
+  "2026-11-03-4187f3d56d.json": {
+    "title": "Die Schweizer Wirtschaft im globalen Umfeld",
+    "jurisdiction": "Switzerland",
+    "type": "Speech",
+    "aliases": [
+      "https://www.snb.ch/public/asset/de/www-snb-ch/publications/communication/speeches/2026/ref_20261103_msl/publications0/ref_20261103_msl.de.pdf"
+    ]
   },
   "2026-11-03-4767bed638.json": {
     "title": "SEPA: Europe’s unsung hero",
@@ -901,6 +959,11 @@
     "jurisdiction": "Australia",
     "type": "Press conference",
     "title": "Media Conference: Monetary Policy Decision – 3 November 2026"
+  },
+  "2026-11-03-7ec74a9526.json": {
+    "title": "Regulators explore credit union reforms to support growth, innovation and better outcomes for members",
+    "jurisdiction": "United Kingdom",
+    "type": "Release"
   },
   "2026-11-03-949da5f433.json": {
     "title": "Statement on Monetary Policy, November 2026",
@@ -936,10 +999,25 @@
     "type": "Release",
     "title": "SARB revises Jibar cessation date to 31 May 2027"
   },
+  "2026-11-04-1181322de8.json": {
+    "title": "中国人民银行加力实施股票回购增持再贷款政策",
+    "jurisdiction": "China",
+    "type": "Release"
+  },
+  "2026-11-04-173a29af57.json": {
+    "title": "Statistics on Banks’ Outstanding Notional Amount of Derivatives (End of September 2026)",
+    "jurisdiction": "Taiwan",
+    "type": "Release"
+  },
   "2026-11-04-1830cea199.json": {
     "jurisdiction": "Hungary",
     "title": "Abridged minutes of the Monetary Council meeting on 20 October 2026",
     "type": "Minutes"
+  },
+  "2026-11-04-469d38d7f7.json": {
+    "title": "Data and analytics transformation at the Bank of England to enable, equip and empower − speech by Ben Martin",
+    "jurisdiction": "United Kingdom",
+    "type": "Speech"
   },
   "2026-11-04-51445bc91d.json": {
     "title": "Monthly Price Developments (October 2026)",
@@ -992,6 +1070,11 @@
     "title": "BC - Copom Comunicado - 282ª Reunião - Copom mantém a taxa Selic em 13,75% a.a.",
     "type": "Decision"
   },
+  "2026-11-04-b0edad94af.json": {
+    "title": "NBP Monetary Policy Council communiqué, 3–4 November 2026",
+    "jurisdiction": "Poland",
+    "type": "Decision"
+  },
   "2026-11-04-b73ceced0e.json": {
     "jurisdiction": "Switzerland",
     "title": "Forecasting the post-COVID inflation surge in Switzerland",
@@ -1010,10 +1093,33 @@
     "jurisdiction": "Colombia",
     "type": "Forecast"
   },
+  "2026-11-04-cffea78a63.json": {
+    "title": "How Market Position Shapes Credit Card Interest Rates",
+    "jurisdiction": "United States",
+    "type": "Research",
+    "aliases": [
+      "https://libertystreeteconomics.newyorkfed.org/2026/11/how-market-position-shapes-credit-card-interest-rates/"
+    ]
+  },
   "2026-11-04-e0fad9d183.json": {
     "jurisdiction": "Euro area",
     "title": "Deep-π*: a neural network estimate of trend inflation",
     "type": "Research"
+  },
+  "2026-11-04-ebb190ef44.json": {
+    "title": "Response to the RPIB consultation on the Design of the Future Retail Payments Infrastructure",
+    "jurisdiction": "United Kingdom",
+    "type": "Research"
+  },
+  "2026-11-04-f63291a260.json": {
+    "title": "Summary of the RTGS CHAPS Industry Forum - 13 October 2026",
+    "jurisdiction": "United Kingdom",
+    "type": "Release"
+  },
+  "2026-11-05-0ec34bf3e5.json": {
+    "title": "A secure payment system in insecure times",
+    "jurisdiction": "Norway",
+    "type": "Speech"
   },
   "2026-11-05-18e48acb55.json": {
     "jurisdiction": "Euro area",
@@ -1022,6 +1128,11 @@
     "aliases": [
       "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
     ]
+  },
+  "2026-11-05-1ef4152292.json": {
+    "title": "Weathering the Storm: The Importance of Trust and Time for Operational Resilience",
+    "jurisdiction": "United States",
+    "type": "Research"
   },
   "2026-11-05-2d5c3664bd.json": {
     "jurisdiction": "Colombia",
@@ -1039,6 +1150,11 @@
   "2026-11-05-4975aacdee.json": {
     "title": "Balance of Payments during September 2026 (preliminary)",
     "jurisdiction": "South Korea",
+    "type": "Release"
+  },
+  "2026-11-05-5795fa020e.json": {
+    "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
+    "jurisdiction": "China",
     "type": "Release"
   },
   "2026-11-05-5b788c963d.json": {
@@ -1085,6 +1201,16 @@
     "type": "Release",
     "title": "BC reforça proteção ao consumidor com novas regras para oferta e contratação de crédito"
   },
+  "2026-11-05-97f07caa4f.json": {
+    "title": "Foreign Exchange Reserves as of the End of October 2026",
+    "jurisdiction": "Taiwan",
+    "type": "Statement"
+  },
+  "2026-11-05-994ea479cb.json": {
+    "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
+    "jurisdiction": "China",
+    "type": "Release"
+  },
   "2026-11-05-9ccfd57235.json": {
     "title": "Monetary Policy Statement",
     "jurisdiction": "Malaysia",
@@ -1095,10 +1221,41 @@
     "title": "Shaping the future of money",
     "type": "Speech"
   },
+  "2026-11-05-b26f309fae.json": {
+    "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常务委员会第二十五次会议上",
+    "jurisdiction": "China",
+    "type": "Testimony",
+    "aliases": [
+      "https://jrj.sh.gov.cn/ZXYW178/20261106/f143b66dcb244ac2bcf04f28c3d38eda.html"
+    ]
+  },
+  "2026-11-05-bf9afb21c5.json": {
+    "title": "Monetary Policy Report — November 2026",
+    "jurisdiction": "United Kingdom",
+    "type": "Forecast"
+  },
+  "2026-11-05-c7ba80605c.json": {
+    "title": "Minutes of the Monetary Policy Meeting on September 17 and 18, 2026",
+    "jurisdiction": "Japan",
+    "type": "Minutes",
+    "aliases": [
+      "https://www.boj.or.jp/mopo/mpmsche_minu/minu_2026/g260918.pdf"
+    ]
+  },
   "2026-11-05-d72cd93eaa.json": {
     "jurisdiction": "Norway",
     "title": "We have kept the policy rate unchanged",
     "type": "Speech"
+  },
+  "2026-11-05-da1b8cc2d9.json": {
+    "title": "Rate decision November 2026",
+    "jurisdiction": "Norway",
+    "type": "Decision"
+  },
+  "2026-11-05-ded2216b11.json": {
+    "title": "Bank Rate increased to 4% — November 2026 Monetary Policy Summary and Minutes",
+    "jurisdiction": "United Kingdom",
+    "type": "Decision"
   },
   "2026-11-05-e59f3c0ab9.json": {
     "jurisdiction": "Mexico",
@@ -1107,11 +1264,20 @@
   },
   "2026-11-05-e737bdba7f.json": {
     "aliases": [
+      "https://www.cnb.cz/en/cnb-news/press-releases/CNB-increases-interest-rates-00025",
       "https://www.cnb.cz/en/monetary-policy/bank-board-decisions/CNB-Board-decisions-1793865600000/"
     ],
     "jurisdiction": "Czechia",
     "title": "CNB Board decisions",
     "type": "Decision"
+  },
+  "2026-11-05-f2d54a097a.json": {
+    "title": "The U.S. Oil Sector’s Role in Restraining Prices",
+    "jurisdiction": "United States",
+    "type": "Research",
+    "aliases": [
+      "https://libertystreeteconomics.newyorkfed.org/2026/11/the-u-s-oil-sectors-role-in-restraining-prices/"
+    ]
   },
   "2026-11-05-f41f3b39d0.json": {
     "jurisdiction": "Czechia",
@@ -1123,6 +1289,21 @@
     "title": "Anatomy of a safe asset: Bund market structure and reform",
     "type": "Research"
   },
+  "2026-11-06-48333451ff.json": {
+    "title": "The Mexican economy expands in the third quarter, albeit at a slower pace",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-06-4f5b576346.json": {
+    "title": "IMES Newsletter: 2026 BoC-Philadelphia Fed-BOJ Joint Workshop",
+    "jurisdiction": "Japan",
+    "type": "Research",
+    "aliases": [
+      "https://www.boj.or.jp/about/release_2026/rel261106b.htm",
+      "https://www.imes.boj.or.jp/en/newsletter/nl202611e1/nl202611e1.html",
+      "https://www.imes.boj.or.jp/jp/newsletter/nl202611j1/nl202611j1.html"
+    ]
+  },
   "2026-11-06-6da1085141.json": {
     "jurisdiction": "Euro area",
     "title": "Perspectives on Iberian Economic Integration",
@@ -1130,6 +1311,11 @@
     "aliases": [
       "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/26/Files/do2621e.pdf"
     ]
+  },
+  "2026-11-06-7318fe2202.json": {
+    "title": "NBP November Inflation Report – inflation and GDP projection",
+    "jurisdiction": "Poland",
+    "type": "Forecast"
   },
   "2026-11-06-8140b13620.json": {
     "title": "Official Reserve Assets Remain Solid in October 2026",
@@ -1155,10 +1341,36 @@
     "jurisdiction": "Mexico",
     "type": "Speech"
   },
+  "2026-11-06-b1d43f6c37.json": {
+    "title": "The aggregate and distributional implications of credit shocks on housing and rental markets",
+    "jurisdiction": "United Kingdom",
+    "type": "Research",
+    "aliases": [
+      "https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2026/the-aggregate-and-distributional-implications-of-credit-shocks-on-housing-and-rental-markets.pdf"
+    ]
+  },
   "2026-11-06-b64e0f032d.json": {
     "title": "Residential Property Price Survey Quarter III - 2026: Limited Growth of Residential Property Prices",
     "jurisdiction": "Indonesia",
     "type": "Release"
+  },
+  "2026-11-06-c4e3478068.json": {
+    "title": "Permian Basin Economic Indicators",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-06-d1f36cbb19.json": {
+    "title": "Summary of Interbank Call Loan and Commercial Paper Markets (October 2026)",
+    "jurisdiction": "Taiwan",
+    "type": "Statement"
+  },
+  "2026-11-06-d81d5df8d4.json": {
+    "title": "Generative AI for Economic Simulation: Heterogeneity in Subjective Models of Inflation",
+    "jurisdiction": "Japan",
+    "type": "Research",
+    "aliases": [
+      "https://www.imes.boj.or.jp/research/papers/english/26-E-14.pdf"
+    ]
   },
   "2026-11-06-e08179d530.json": {
     "jurisdiction": "Czechia",

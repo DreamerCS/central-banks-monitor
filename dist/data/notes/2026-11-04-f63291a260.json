@@ -1,0 +1,28 @@
+{
+  "title": "Longer CHAPS hours leave an important question about when a payment day ends",
+  "bank": "Bank of England",
+  "date": "2026-11-04",
+  "url": "https://www.bankofengland.co.uk/minutes/2026/october/rtgs-chaps-industry-forum-13-october-2026",
+  "summary": [
+    "Opening CHAPS earlier changes when a bank can send an instruction. It can also change the date to which it assigns liquidity, staffing and customer obligations. The Bank of England’s record of the second RTGS CHAPS Industry Forum, held on 13 October and published on 4 November, illustrates that distinction. Work to allow CHAPS to open at 1.30 am was already proceeding. An initial estimate suggested around 20% of payments by volume could settle before 6 am. That figure was an estimate of timing. The minutes provide no corresponding estimate of the share of value or of the reduction in settlement risk (item 3).",
+    "Participants broadly supported extending hours further. Feedback to the closed consultation suggested a preference for further extensions on weekdays before adding Sundays or bank holidays. The Bank had reached no conclusion on sequencing and expected to publish its consultation response in early 2027. Participants discussed whether the existing value-date rollover associated with the 6 pm CHAPS close should remain or move nearer to the end of the calendar day. The choice affects the practical operation of a longer day. Participants would also need answers on liquidity provision, voluntary participation, support coverage, incidents, planned maintenance and the cost of staffing new hours (item 3).",
+    "A second discussion concerned synchronisation. The planned RTGS capability would link a transfer on an external asset ledger with the sterling central bank money leg so that all required elements settle together. It might support tokenised asset transactions as well as more conventional margin and collateral transfers. A useful technical feature still needs operators, counterparties able to participate, contractual arrangements and a service that can scale. A showcase was planned for November, and the Bank intended to publish further information on operating arrangements in early 2027. Members had also discussed the cross-authority roadmap expected in the fourth quarter to support movement from tokenisation pilots to live issuance, collateral use and settlement (items 2 and 4).",
+    "Standards illustrate another dependency. Swift postponed its 2026 standards release over readiness to remove unstructured address fields, and the Bank deferred the corresponding RTGS release. Forum members were open to exploring whether CHAPS rules could require structured addresses earlier. They distinguished data participants could supply for debtors from creditor addresses that require cooperation from customers. Intermediary addresses also depend on improvements to the UK sort-code directory. Firms raised compatibility with Swift channels, implications for Faster Payments and the need for decisions early enough to plan budgets. The discussion did not establish a mandatory introduction date (item 5).",
+    "Finally, the Bank and members considered continuity if normal connectivity becomes unavailable. Arrangements for a limited number of critical payments need to cover receipt of instructions and confirmation of settlement. Members discussed the limits of manual processing, the benefits of greater automation and the difference between a near-term improvement and a service that could operate at greater scale. The Bank undertook to convene further discussions. Across these topics, the minutes distinguish work already in progress from design questions that require agreement across several organisations. A later opening, common message fields and linked settlement each need participating banks to be ready at the same time to benefit customers (items 5–7)."
+  ],
+  "questions": [
+    {
+      "question": "Would an earlier start materially reduce peak funding needs?",
+      "detail": "Obtain time-stamped settlement data by value and participant alongside each bank’s opening liquidity, customer cut-offs and internal funding transfers. Compare the timing of projected early payments with actual incoming receipts once the change starts. Test how the value-date rollover alters peak needs and delays on a weekday and across a non-business day."
+    },
+    {
+      "question": "Which transactions have both legs ready for synchronisation?",
+      "detail": "Use prospective operators’ controlled trial records to map when counterparties commit, when the asset ledger is ready and when funds are available in RTGS. Compare margin transactions and tokenised issuance separately. Measure completion times, cancellations and liquidity held while a leg is pending against the current process for an otherwise comparable transaction."
+    },
+    {
+      "question": "Whose data prevent a payment from using a structured address?",
+      "detail": "Ask participating institutions for anonymised validation results split by debtor, creditor and intermediary, together with the source of the relevant address field. Compare records supplied by customers with entries drawn from the sort-code directory. Estimate correction time and the number of payments affected before deciding whether a rule for one field can operate ahead of the others. Include evidence from smaller participants who obtain their messaging services from a correspondent rather than operating their own systems."
+    }
+  ],
+  "limitation": ""
+}

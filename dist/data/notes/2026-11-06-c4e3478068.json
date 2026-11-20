@@ -1,0 +1,28 @@
+{
+  "title": "Permian drilling increased as Midland and Odessa showed different labour and housing conditions",
+  "bank": "Federal Reserve Bank of Dallas",
+  "date": "2026-11-06",
+  "url": "https://www.dallasfed.org/research/indicators/pb/2026/pb2603",
+  "summary": [
+    "Oil output, active rigs and new drilling all increased in the Permian Basin in the third quarter. The Dallas Fed’s quarterly indicators connect those changes to a smaller metropolitan labour and housing market. The distinction in coverage matters. Energy statistics cover 55 counties in West Texas and southern New Mexico. Employment generally covers the Midland and Odessa metropolitan areas, comprising Martin, Midland and Ector counties. A producer can expand activity elsewhere in the basin without creating the same number of jobs in either city.",
+    "West Texas Intermediate crude averaged $86 a barrel in the third quarter. That was 7.6 percent below the second-quarter average but 31.9 percent above a year earlier. The report links the quarterly decline to a temporary ceasefire and a partial recovery of Middle East exports. WTI averaged $96 in October after the ceasefire broke down. September employment and production therefore capture decisions made before that October price was known. The same release shows a different local price exposure for natural gas. Gas often comes out of Permian oil wells alongside oil, and when takeaway or storage capacity binds, producers may pay to move gas to keep selling crude. A higher national energy price alone does little to resolve a local transportation constraint.",
+    "Output rose 0.4 percent to approximately 6.9 million barrels a day, while the numbers of wells drilled and active rigs grew 8 and 5.7 percent respectively. Current production includes older wells, and a new drilling decision takes time to affect marketed output. The report attributes some of the increase in activity to smaller producers seeking higher oil revenues and to anticipated pipelines that could relieve local gas constraints. Those are plausible explanations offered by the authors. The series do not measure each producer’s motive or the independent effect of pipeline expectations.",
+    "Midland–Odessa nonfarm employment grew at a 1.3 percent annualized pace from June to September. The accompanying comparisons were 0.4 percent nationally and 0.2 percent in Texas. Mining, logging and construction gained jobs, as did manufacturing and professional and business services. Trade, transportation and utilities lost jobs over the quarter despite the increase in drilling. Unemployment fell from 3.3 to 3.0 percent in Midland and from 4.1 to 3.6 percent in Odessa, while the Texas rate remained at 4.4 percent. The dashboard also reports opposite annual changes in average hourly earnings in the two cities. An aggregate jobs figure can conceal considerable differences in both pay and industry composition.",
+    "Housing activity provides another example. Single-family permits rose 7.2 percent in Midland between June and September and fell 11 percent in Odessa. The regional permit decline reported in the text uses an earlier March-to-June window. Home sales across the region fell 8.8 percent from June to September, yet the September median transaction price reached $346,000, up 4.7 percent from a year earlier. Fewer sales and a higher median can coexist if the mix of properties sold changes, even without a comparable rise in the value of every home. Together the indicators describe an energy expansion with uneven local effects. They offer little basis for reading a change in the price of crude straight across to wages, housing supply or the cost of a particular home."
+  ],
+  "questions": [
+    {
+      "question": "Did better local gas prices change which oil producers could profitably drill?",
+      "detail": "Compare producers facing different existing takeaway constraints, and track realised prices at the wellhead alongside the Waha benchmark. Separate the announcement of a proposed pipeline from capacity actually entering service. Responses confined to constrained areas after transport improves would support the proposed mechanism more strongly than a simultaneous increase across the whole basin when crude prices rise."
+    },
+    {
+      "question": "Why did rig activity grow faster than production?",
+      "detail": "A well can be drilled in one quarter and completed or connected later. Compare new wells with completions, first production and declines from older wells before interpreting the quarterly difference as a productivity change. The balance would help distinguish a future addition to output from extra drilling required merely to offset faster declines at existing wells."
+    },
+    {
+      "question": "Did workers in each metro receive the change in pay reported for their city?",
+      "detail": "The dashboard measures a changing group of employees. Compare earnings within industries and for continuing workers, taking account of hours and the hiring of employees at different wage levels. The same composition issue affects the median house price. Comparing like properties, inventories and sales volumes would help assess whether wage earners face higher housing costs for a comparable home."
+    }
+  ],
+  "limitation": "Energy and employment series cover different geographies. Prices are period averages or transaction medians, and quarterly hiring rates are annualized."
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Mexico’s growth slowed as manufacturing exports and formal hiring rose",
+  "bank": "Federal Reserve Bank of Dallas",
+  "date": "2026-11-06",
+  "url": "https://www.dallasfed.org/research/update/mex/2026/2607",
+  "summary": [
+    "Mexico produced 0.9 percent more goods and services in the third quarter than in the second, according to the preliminary estimate reported by Dallas Fed economists. That was a slowdown from 1.4 percent in the previous quarter, but still more than twice the average quarterly gain over the past ten years. Services grew 1.1 percent and goods production rose 0.8 percent. The comparison explains how economists could mark up their outlook even as growth slowed. In Banco de México’s October survey, private forecasters lifted their estimate of full-year growth from 1.4 to 1.5 percent and fourth-quarter growth from 1.4 to 1.6 percent year over year. The latter is a forecast for a different period from the preliminary GDP release.",
+    "Trade provided the clearest source of momentum. The three-month average of exports increased 2.3 percent in September, with manufacturing also up 2.3 percent and oil exports down 5.2 percent. Over the first nine months, manufactured exports were 26.7 percent higher than in the corresponding period of 2025, while oil exports were 4.9 percent lower. The export chart measures inflation-adjusted, seasonally adjusted flows, smoothed over three months. Imported inputs and the destination of final sales matter when translating gross export growth into Mexican value added. Mexico’s smoothed industrial production and manufacturing indexes both rose 0.5 percent in August. The US industrial production comparison in the report ends a month later.",
+    "There were also signs of domestic demand. The three-month average of retail sales edged up 0.3 percent in August and stood 2.5 percent above a year earlier. The authors point to increases in the minimum wage and transfers, including payments to older adults, as support for spending. Separate figures show a modest recovery in money sent home from abroad. Remittances through September exceeded the comparable 2025 total by 1.2 percent. With the United States accounting for about 95 percent of these transfers, the exchange rate matters to recipients. A dollar bought an average of 18.4 pesos in October, up from 17.3 in September. The timing does not establish an exchange-rate explanation for the earlier rise in retail sales.",
+    "The employment figures give a more qualified reading than the GDP headline. Formal employers added about 43,700 jobs in September, taking employment with benefits and pensions up 1.6 percent from a year earlier. Across the broader economy, including informal jobs, 60.1 million people were working, down 0.5 percent over the year. A person moving into registered employment can therefore contribute to one measure without adding to the number of people in work. The update does not track the same workers between jobs or establish why the two series diverged.",
+    "Inflation and activity also sent different signals to policymakers. Headline inflation increased from 3.3 to 3.5 percent in September, while core inflation slowed to 3.8 percent and services inflation reached 4.3 percent. Banco de México cut its policy rate by 25 basis points to 6.25 percent in November and cited persistent slack and downside risks to activity. The Dallas Fed update records that decision alongside the data. It gives a reader several observable tests of the central bank’s assessment, including the durability of services prices, the breadth of hiring and the extent to which strong export receipts reach domestic producers."
+  ],
+  "questions": [
+    {
+      "question": "How much of the export gain stayed with Mexican producers and workers?",
+      "detail": "Match shipments by product to prices, quantities and imported intermediate inputs. Growth concentrated in assembly using imported components could lift gross exports substantially with a smaller increase in domestic income. A broader rise in local production hours, supplier sales and real pay would strengthen the link to Mexican activity. The aggregate export and industrial production series end in different months, which matters for this comparison."
+    },
+    {
+      "question": "Who moved into formal employment as total employment fell?",
+      "detail": "Use household transitions and registration records to distinguish newly employed workers from people moving out of informal jobs. Participation exits, population changes and different survey coverage can also move the totals. The implications for income security and spare capacity differ substantially depending on whether new formal positions raised hours worked or mainly changed access to benefits for people already working."
+    },
+    {
+      "question": "What evidence would connect the October peso decline to subsequent inflation?",
+      "detail": "Follow import prices and separate tradable goods from labour-intensive domestic services over several months. Compare retailers with different imported-input shares and allow for contract repricing lags. A rise in peso import costs without a corresponding rise in retail prices could imply margin absorption. The September CPI observation precedes the monthly exchange-rate move, so it cannot measure that pass-through."
+    }
+  ],
+  "limitation": "The GDP figure is preliminary. The underlying indicators have different publication lags, and the consensus projections in Table 1 are survey responses."
+}

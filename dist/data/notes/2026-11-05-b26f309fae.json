@@ -1,0 +1,28 @@
+{
+  "title": "China’s financial work report pairs low borrowing costs with hard questions about who carries the debt",
+  "bank": "People’s Bank of China",
+  "date": "2026-11-05",
+  "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110510330636555/index.html",
+  "summary": [
+    "Governor Pan Gongsheng’s report to the National People’s Congress Standing Committee puts two very different measures of China’s financial conditions side by side. In September, companies taking out new loans paid a weighted average 2.96%, while the number of remaining local-government financing platforms had fallen 92% from March 2023. The first measures the price of new bank credit. The second counts entities remaining in an administrative category. Taken together they illustrate the State Council’s two aims: keeping funding available for economic activity while changing how vulnerable borrowers obtain and service it. They do not establish how much loss has been absorbed or how cheaply a borrower leaving the platform system can refinance itself.",
+    "Reporting on developments since October 2025, Pan described a moderately accommodative stance maintained through reverse repos, medium-term lending and government bond transactions. At end-September 2026, outstanding aggregate financing to the real economy was up 7.1% on a year earlier and broad money rose 7.2%. New personal mortgages carried a 3.05% rate, while five-year AAA corporate bonds yielded 1.7%. These prices apply to different instruments and borrowers. In section I(1), the governor’s argument is that major rates are historically low. Comparing bond and loan rates without matching borrower quality and maturity would overstate the financing advantage available to the typical company.",
+    "There was a substantial change in the composition of financing. Aggregate financing increased by RMB33 trillion during the twelve months to September. On the Shanghai and Shenzhen markets, 88 companies raised RMB247.2 billion in initial public offerings, and almost nine in ten issuers were high-technology businesses. Listed companies raised a further RMB776.9 billion in refinancing. Loans in the five policy-priority areas grew 10.1% year on year. Section I(3) also records RMB3.3 trillion in cumulative technology-innovation bond issuance since the bond market segment began in May 2025. Cumulative issuance, loan growth and net new aggregate financing have different denominators; they cannot be added to measure support for technology.",
+    "The risk figures give the funding story a necessary qualification. The 92% decline in the count of financing platforms runs to September, whereas the 79% fall in outstanding operating financial debt runs only to June. Both compare with end-March 2023. The report calls for financing after platforms exit to operate on a market basis. It also says banks had cumulatively approved over RMB8.4 trillion of property loans through project whitelists. Approval is a step toward funding, distinct from disbursement, construction completion or repayment. Aggregate banking indicators, including a 15.4% capital ratio and 1.5% non-performing loan ratio in September, give little information about concentrations at an individual lender.",
+    "Sections I(2) and II connect market stability with the next financing decisions. The report describes a liquidity tool for large redemptions at non-bank institutions and a ten-year government yield near 1.65%. It proposes continued use of capital-market support tools, a stabilisation role for Central Huijin and a wider set of routes for long-term money to enter markets. It also puts foreign-currency reserves at US$3.4 trillion at end-September and counts 32 effective bilateral local-currency swap agreements. The forward commitment is to maintain ample liquidity and match money and financing growth to economic growth and the intended overall price level. It does not give a new policy-rate setting or a date for the next adjustment."
+  ],
+  "questions": [
+    {
+      "question": "What happens to debt service after a financing platform leaves the official count?",
+      "detail": "Match former platforms to continuing debt obligations, creditors, maturities and sources of repayment. The report gives different end dates for the institutional count and debt stock. A reconciliation on the same reporting date, including debt transferred or refinanced, would help distinguish improved cash generation from a change of borrower or funding channel. The difference matters for the banks and bondholders still carrying exposure."
+    },
+    {
+      "question": "How broadly do the low rates reach privately owned or smaller borrowers?",
+      "detail": "Compare new loan rates after matching credit quality, collateral and maturity, including guarantees and intermediary fees. The report targets lower financing costs beyond headline rates and reports rapid growth in priority-area loans. Evidence that more firms gain credit on affordable terms would be more informative than a narrower spread calculated between selected bank loans and highly rated bonds."
+    },
+    {
+      "question": "Which property and non-bank supports translate into cash when liquidity is actually needed?",
+      "detail": "Track whitelist approvals through disbursement and project completion, and distinguish a non-bank redemption backstop’s available capacity from drawings. The former supports a project’s financing chain and the latter addresses a market liquidity event. Following both separately would show whether the reported tools reduce forced sales or financing interruptions without obscuring underlying asset losses."
+    }
+  ],
+  "limitation": ""
+}

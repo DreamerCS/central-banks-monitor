@@ -1,0 +1,28 @@
+{
+  "title": "How US oil inventories helped bridge the global supply shortfall",
+  "bank": "Federal Reserve Bank of New York",
+  "date": "2026-11-05",
+  "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/the-u-s-oil-sectors-role-in-restraining-prices",
+  "summary": [
+    "US oil producers could do little to replace lost Middle East supply immediately in 2026. They already operated without substantial spare capacity. Yet the United States helped cushion the shock twice, at different times and by different means. Rising production had helped build a global surplus before the disruption. Then releases of crude from the US Strategic Petroleum Reserve and withdrawals from commercial inventories made more barrels available to buyers during the second quarter. Thomas Klitgaard’s analysis accounts for those barrels and asks what happens when the country that supplied much of the initial buffer stops drawing it down.",
+    "The longer history explains why a US response mattered. US crude oil and other liquid fuels production rose from about 8 million barrels a day in 2010 to 21 million in 2025. That increase represented roughly 70 percent of the increase in world production over the period. Before restrictions on crude exports were lifted in 2015, the industry faced limits on how much of the additional output Gulf Coast refineries could process. From 2015 to 2025, exports of petroleum rose a further 6 million barrels a day while imports fell by 2 million. Greater ability to reach foreign buyers allowed additional US supply to enter a common global market.",
+    "The world entered 2026 adding about 4 million barrels a day to inventories over January and February. Production fell roughly 12 million barrels a day in March. Because supply had substantially exceeded consumption beforehand, the immediate stock draw was smaller than the decline in production. Global inventories fell at about 5 million barrels a day in March and by 3.5 million a day on average in the second quarter. These are daily flow rates. Applying them over a period gives the corresponding stock change. In September, for example, the published figure shows production near 101 million barrels a day and consumption near 104 million. Inventories supplied the difference.",
+    "US government reserves provided about 1 million barrels a day in the second quarter and commercial stocks another 0.7 million. Together they accounted for close to half of the estimated global draw. Net US exports increased by 2.5 million barrels a day as exports increased and imports fell. The export and inventory changes describe overlapping movements of the same oil, alongside changes in domestic consumption and production. Adding them together as separate US contributions would double count some barrels. By July US inventories had largely stopped falling. The corresponding net export balance in the third quarter returned close to its first-quarter level. Reduced Chinese imports suggest that stocks outside the US subsequently helped absorb the global imbalance, though the article does not directly observe the size of China’s draw.",
+    "The scenarios turn on how long production remains below consumption. If Middle East output returns, prices could decline while demand to replenish depleted inventories slows the adjustment. If the disruption persists, available stocks eventually become too scarce to sustain existing consumption. Higher prices, substitution or reduced usage would then have to help bring demand back into line with supply. The article quantifies physical flows in these mechanisms. It supplies neither a dollar price for the world without the US draw nor a deadline for either scenario."
+  ],
+  "questions": [
+    {
+      "question": "How much of the observed draw was additional to inventory adjustments that private firms would have made anyway?",
+      "detail": "A government release can displace private sales, alter commercial storage incentives or change imports. Compare commercial holdings, regional trade flows and the timing of scheduled releases, allowing for crude grades and transport constraints. The measured combined draw establishes how many barrels left US inventories. The price effect requires a counterfactual response by other suppliers and consumers."
+    },
+    {
+      "question": "Who held the inventories that bridged the gap after July?",
+      "detail": "Compare available commercial and government stock series outside the United States with tanker movements, refinery throughput and import statistics. A decline in imports could reflect less refining or weaker final demand as well as a stock draw. Global consumption estimates and incomplete country-level reports will affect how much of the balance can reliably be attributed to a particular holder."
+    },
+    {
+      "question": "When would inventory rebuilding offset the price effect of recovering production?",
+      "detail": "Trace the pace of restored output and purchases for restocking against refinery demand. Strategic buyers with a fixed replenishment schedule and commercial buyers responding to storage economics may act at different speeds. A partial recovery accompanied by active replenishment can yield a different price path from one in which global consumption and storage demand remain weak."
+    }
+  ],
+  "limitation": "Global supply and consumption are estimates. The article’s published chart and text provide the 2026 global balance. The downloadable workbook’s Chart 3 tab ends in August 2025."
+}

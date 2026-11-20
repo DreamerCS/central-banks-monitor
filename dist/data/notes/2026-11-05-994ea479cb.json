@@ -1,0 +1,26 @@
+{
+  "title": "China and Indonesia identify payment links and local currencies as priorities for their existing working group",
+  "bank": "People’s Bank of China",
+  "date": "2026-11-05",
+  "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110515320167091/index.html",
+  "summary": [
+    "The People’s Bank of China and Bank Indonesia reviewed their bilateral financial working mechanism on 3 November. Deputy Governors Xuan Changneng and Thomas Djiwandono attended. The PBOC’s 5 November account records agreement that the existing arrangement is an important forum for coordinating financial cooperation. It singles out local currencies, payment-system connectivity, financial markets and digital currencies as areas for practical work. The account describes a meeting about progress and priorities. It announces no new swap line, eligible transaction, participation rule or launch date.",
+    "Those four subjects affect different stages of a cross-border transaction. A buyer might be able to agree a price in a local currency but still face difficulties obtaining that currency or completing settlement. A payment link could improve execution without changing the currency of a contract, and financial-market cooperation might affect hedging or funding separately. Digital currency appears as another potential area of cooperation. The notice does not say a digital currency would settle any particular local-currency payment. Keeping the topics distinct helps identify what would have to change before a bank or customer could make use of a new service.",
+    "For market participants, the concrete information is the institutional channel through which subsequent arrangements could be coordinated. A working group can help authorities identify a common problem, but the publication gives no details on transaction values, costs, timelines or members beyond the two central banks. The next release capable of supporting a market estimate would need an operating measure linked to a specified type of transaction or participant."
+  ],
+  "questions": [
+    {
+      "question": "Which of the four priorities will produce an identifiable operating agreement?",
+      "detail": "Look for a joint publication that names the applicable currencies or systems, eligible users, implementation date and the obligations of the participating institutions. Those terms would establish what a firm could actually do after implementation and would separate an extension of an existing arrangement from the creation of a new one."
+    },
+    {
+      "question": "What constraint does a future payment link remove for its users?",
+      "detail": "Compare access to the settlement currency, processing time, settlement finality and charges on the same type of transfer before and after the change. If conversion or hedging remains costly, faster transmission of the payment instruction alone may have little effect on the all-in cost to an importer."
+    },
+    {
+      "question": "What evidence would show sustained use of local currencies in bilateral business?",
+      "detail": "Distinguish the value of deals invoiced in a local currency from the value settled or financed in it. The statement provides neither a baseline nor a target. Later usage data and a clear description of eligible flows would be needed to assess whether the working group’s priorities change firms’ funding or exchange-rate exposure."
+    }
+  ],
+  "limitation": ""
+}

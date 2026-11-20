@@ -1,0 +1,28 @@
+{
+  "title": "El Paso’s unemployment rate fell while both payrolls and its labour force contracted",
+  "bank": "Federal Reserve Bank of Dallas",
+  "date": "2026-11-02",
+  "url": "https://www.dallasfed.org/research/indicators/ep/2026/ep2605",
+  "summary": [
+    "El Paso’s September unemployment rate edged down to 4.2 percent, matching the national rate and coming in below Texas’s 4.4 percent. Employers in the metro area were cutting jobs at the same time. The Dallas Fed reports that payrolls declined at a 1.3 percent annualized pace in September, following a 1.8 percent annualized decline in August. The labour force itself shrank at an annualized 1.4 percent pace in September and was 0.8 percent smaller than a year earlier. An unemployment rate measures jobseekers as a share of people working or looking for work. Fewer residents looking for work can help lower that rate even while local establishments cut payrolls.",
+    "The time horizon changes the comparison with the rest of the country. The quarterly dashboard shows payrolls down at a 0.9 percent annualized pace from June to September. Over the year to date employment was close to flat, down 0.1 percent. Since February 2020, however, jobs in El Paso had increased 9.5 percent, compared with 4.4 percent nationally and 11.4 percent in Texas. The indexed lines in the first chart start from the same pre-pandemic month. El Paso can have outperformed the country over the full period while doing worse than the country over the latest month.",
+    "Manufacturing recorded the fastest growth among the sectors highlighted in the release, at a 5.2 percent annualized pace over the quarter. Information employment fell at a 7.4 percent pace, education and health services at 3.2 percent, and mining and construction at 2.6 percent. Ranking industries by their percentage change does not rank them by jobs added or lost. A smaller industry can record the largest rate of decline while contributing fewer lost jobs than a larger employer with a milder contraction. The broad pattern, including losses outside a single industry, helps explain why a manufacturing gain fell short of sustaining aggregate employment.",
+    "The release points to outward migration to larger metros, particularly among young working-age professionals, and weaker international immigration as pressures on local labour supply. Neither the payroll figures nor the unemployment rate identifies who left the labour force or where they went. The pay data also describe a group average. Smoothed over three months, nominal hourly earnings reached $25.17 in September, below Texas’s $36.34 and the national $37.74. El Paso pay was up 2.9 percent on the year despite slipping in the latest month. The Texas and national increases were 5.3 and 3.1 percent respectively. These comparisons do not adjust for differences in occupations or the cost of living.",
+    "Housing moved differently from employment. The median home sold for $288,000 in September, up 2.9 percent on the previous observation and 7.2 percent over the year. Texas median prices increased just 0.1 percent over the year. Inventory fell from 4.1 months of sales a year earlier to 3.3 months. A limited supply of properties can coexist with slow job growth, especially when the stock of homes available for sale and the mix of homes traded change. The five charts together portray a two-county metropolitan economy with a weaker near-term job market, a shrinking pool of workers and a housing market where the median transaction became more expensive."
+  ],
+  "questions": [
+    {
+      "question": "Did the labour force decline because residents moved, stopped searching or retired?",
+      "detail": "Compare migration flows and population by age with participation among people who remain in El Paso and Hudspeth counties. Track moves to other Texas metros separately from international inflows. A stable participation rate among stayers would point to a different local labour supply problem than a rise in people remaining in the area but leaving work or job search."
+    },
+    {
+      "question": "How many jobs did each industry contribute to the quarterly contraction?",
+      "detail": "Apply each sector’s change to its June employment and compare the resulting counts using the same seasonal adjustment and time window. A large percentage decline in information can occur on a much smaller base than a modest percentage decline in education and health services. Comparing headcounts would help assess how concentrated the local employment shock was."
+    },
+    {
+      "question": "How far did the rise in median prices change affordability for a local working household?",
+      "detail": "Match repeat transactions or comparable homes and examine the mix of homes sold, new listings and sales volume. Then compare monthly ownership costs at prevailing financing terms with local household incomes. Three-month average hourly earnings describe an individual employee, while household income can include several earners. Those differences matter when evaluating a seven percent rise in the median transaction price."
+    }
+  ],
+  "limitation": "The dashboard covers El Paso and Hudspeth counties. Its month and quarter payroll changes are annualized and subject to revision."
+}

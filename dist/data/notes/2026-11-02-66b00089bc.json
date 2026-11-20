@@ -1,0 +1,28 @@
+{
+  "title": "Cash users make fewer withdrawals when ATM fees rise, especially where alternatives are plentiful",
+  "bank": "Board of Governors of the Federal Reserve System",
+  "date": "2026-11-02",
+  "url": "https://www.federalreserve.gov/econres/feds/heterogeneity-in-service-fee-sensitivity-evidence-from-atm-surcharges.htm",
+  "summary": [
+    "A surcharge at a cash machine can change both how often people withdraw money and how much cash they take each time. Krzysztof Wozniak studies daily activity at thousands of US ATMs from November 2014 to June 2017. In the specification that follows the same terminal over time, the estimated elasticity of the number of surcharged withdrawals is about −0.31. A 10 percent increase in the fee is therefore associated, locally and approximately, with 3 percent fewer fee-paying withdrawals. That average hides large differences between locations where customers can plan a cash withdrawal and places where obtaining cash immediately may be worth paying for.",
+    "The underlying network data group withdrawals by terminal, day and surcharge. They give counts and amounts but do not identify individual customers, their bank or their cash holdings. The network accounts for about one-third of ATMs in the area examined. The paper adds census information and uses external ATM locators to map other machines. Fees are usually stable for long intervals, and banks often apply a common fee across their machines. Terminal effects absorb fixed characteristics such as convenient access. Calendar controls address regular changes in withdrawal demand. These features reduce the risk that a fee change simply coincides with a short-lived surge in demand, although the design does not randomly assign charges to customers.",
+    "The location comparison suggests why there is no single response to a convenience fee. At exhibitions and tourist attractions the estimates cannot be statistically distinguished from zero. Some customers in those settings may be unfamiliar with alternatives or need the money promptly. At machines in universities, offices and medical centres, withdrawals appear considerably more responsive to charges. A person returning to a place of work can learn the price and arrange an alternative for the next visit. That is a proposed explanation for a location pattern. The network does not show who works at a given location or whether the same individual learned about a cheaper machine.",
+    "Competition provides a separate check. The paper measures machine density by the number of ATMs per 10,000 residents in a ZIP code. Estimated withdrawal elasticities are about −0.22 at the tenth percentile of that measure and −0.41 at the ninetieth. A convenient substitute can make the same surcharge easier to avoid. But density is an imperfect measure of accessible alternatives. A terminal may be nearby yet closed, charge a similar fee, or belong to a different banking network. County demographics capture the surroundings of a machine and cannot establish a particular customer’s income, education or willingness to pay.",
+    "The amount withdrawn per transaction tends to rise when the surcharge increases. In Table 3, the terminal-effects estimate for average withdrawal size is positive and small, about 0.027 in elasticity terms. Fewer, larger withdrawals could economise on a fixed charge, but aggregate terminal data also allow a change in the mix of customers. For a policy discussion, that distinction is material. The observed reduction in transactions at a machine is neither the reduction in total cash use nor a measure of consumer harm. It could represent switching to another machine, paying electronically or forgoing a purchase, each with different costs for the people involved."
+  ],
+  "questions": [
+    {
+      "question": "Did a customer change the amount of each withdrawal, or did customers making small withdrawals stop using the machine?",
+      "detail": "The positive average at a terminal permits both possibilities. A panel following anonymised users across terminals and payment methods could measure the number of trips, the total cash obtained and the charges actually paid. That evidence would distinguish deliberate cash management from a change in the group of customers observed."
+    },
+    {
+      "question": "Which nearby machines are genuine substitutes at the moment cash is needed?",
+      "detail": "Compare opening hours, travel times, network eligibility and fees for a customer’s own bank alongside the ZIP-code density measure. A high number of machines can still leave a traveller with a single feasible option at a particular hour. Observing substitution after a new low-fee machine opens would help identify competition separately from the kinds of consumers who visit dense areas."
+    },
+    {
+      "question": "Would clearer disclosure change behaviour where the estimated fee response is near zero?",
+      "detail": "Separate lack of advance information from an urgent need for cash. Compare advance displays or fee information provided before travel with disclosure at the machine, while measuring abandoned transactions and use of alternatives. A small response despite advance knowledge could signal that immediacy is valuable or alternatives are costly. It would not establish that users are indifferent to the fee."
+    }
+  ],
+  "limitation": "This proprietary panel records surcharged withdrawals at participating machines in 2014–17. Its location and demographic measures cannot identify individual consumers or entry and exit decisions by ATM operators."
+}

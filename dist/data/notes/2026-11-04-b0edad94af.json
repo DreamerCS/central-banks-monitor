@@ -1,0 +1,28 @@
+{
+  "title": "Poland holds its policy rate as the inflation outlook rises beyond the October slowdown",
+  "bank": "Narodowy Bank Polski",
+  "date": "2026-11-04",
+  "url": "https://nbp.pl/rpp-04-11-2026",
+  "summary": [
+    "Poland’s Monetary Policy Council left its reference rate at 3.75% on 4 November. The decision kept the deposit and Lombard rates at 3.25% and 4.25%, with the bill rediscount and discount rates at 3.80% and 3.85%. The Council faced two different inflation signals. Fuel prices had just helped slow October’s headline reading, but the staff projection available at the meeting indicated appreciably more inflation in 2027 than it had in July. Holding all five rates preserved the terms on which banks could place or obtain liquidity while the Council assessed which signal would persist.",
+    "The communiqué, reproduced in full on pages 30–31 of NBP’s November Inflation Report, starts with the incoming Polish data. The preliminary October CPI reading was 3.5% year over year, down from 4.1% in September, mainly because fuel became cheaper relative to September. The Council estimated that inflation excluding food and energy had also declined. These comparisons use different intervals. The annual headline rate fell by 0.6 percentage points. The release specifically linked the change to a monthly movement in fuel prices. It gave neither a numerical core reading nor a decomposition permitting the whole slowdown to be assigned to fuel.",
+    "Activity indicators offered a similarly mixed picture. The Council judged that year-on-year GDP growth had likely slowed in the third quarter. Retail sales and industrial production increased in September relative to a year earlier, while construction and assembly output fell. Third-quarter wage growth in the enterprise sector was close to its pace in the first half, even as employment in that sector continued to shrink year on year. Enterprise wages and employment describe a defined part of the economy. Using one to infer economy-wide income growth would overlook both changes in headcount and what was happening outside those employers.",
+    "The forecast that informed the decision had an earlier information cutoff. Staff prepared their NECMOD exercise using data available by 15 October and held NBP rates constant. Its 50% interval for annual CPI in 2027 rose to 3.1%–5.3%, from 1.5%–4.0% in July. Both ends moved up by more than a percentage point. The corresponding 2027 growth range moved only slightly, from 1.8%–3.7% to 1.9%–3.8%. For 2028 the price interval remained wide at 1.4%–4.4%. The October flash CPI could inform the Council’s decision despite being unavailable for the staff exercise. The combination explains how policymakers could acknowledge near-term relief without withdrawing concern over the medium-term outlook.",
+    "The Council tied its next decisions to evidence on both activity and inflation. It singled out global commodity prices and inflation in the context of conflict in the Middle East. Domestic fiscal choices, regulated energy prices, wages and the growth of spending could alter how imported costs reached households. The Council also retained its statement that NBP could intervene in the currency market. The release reported no intervention, exchange-rate level, voting split or commitment about the next meeting. For someone pricing Polish rates, the change in the forecast is observable. The policy adjustment the Council might make under a different path for energy or activity remains conditional."
+  ],
+  "questions": [
+    {
+      "question": "How much of the October relief was likely to last beyond fuel prices?",
+      "detail": "Reconstruct the October flash-to-final CPI revision and compare fuel, other energy components and inflation excluding food and energy over several months. A persistent fall in broad price pressures would give the Council different information from a one-month reversal at petrol stations. In an event study, keep that release separate from the 15 October information set used to construct the forecast."
+    },
+    {
+      "question": "Which domestic data could make the higher 2027 inflation range more consequential for rates?",
+      "detail": "Compare enterprise wages and headcount with wider labour-market measures, service prices, retail volumes and fiscal outturns. The communiqué supplies competing signals from industrial production and construction, so weakness in either sector alone says relatively little about aggregate demand. Evidence that wages and fiscal demand sustain wider price increases after energy stabilises would change the case for maintaining the existing setting."
+    },
+    {
+      "question": "How much information about future rates was contained in an unchanged decision?",
+      "detail": "Compare pre-meeting Polish money-market pricing with short-dated rates after the announcement, allowing for simultaneous moves in global energy prices, European rates and the zloty. Separate the surprise from the rate hold from the newly disclosed forecast ranges. The stated 50% intervals describe inflation and output under fixed rates. They do not reveal the probability that the Council will hold rates at a subsequent meeting."
+    }
+  ],
+  "limitation": "The original is reproduced in NBP’s November 2026 Inflation Report, chapter 3, pages 30–31."
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Which credit unions would gain from a risk-sensitive capital regime?",
+  "bank": "Bank of England",
+  "date": "2026-11-03",
+  "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-explore-credit-union-reforms-to-support-growth-innovation-and-better-outcomes-for-members",
+  "summary": [
+    "A credit union offering small personal loans to members in one community and a larger mutual funding longer-term mortgages can face very different risks. The Prudential Regulation Authority and Financial Conduct Authority use that distinction to ask whether their credit union framework should change. Their joint announcement and accompanying Discussion Paper 2/26 invite evidence from a sector of around 340 UK firms serving more than two million members. The regulators seek options that allow sustainable growth, preserve access to savings and affordable credit and give members confidence in a firm’s financial position. Responses are invited by 5 March 2027. The paper presents alternatives rather than adopted requirements (announcement and DP §§1–2).",
+    "For small, straightforward firms, the PRA sees scope to simplify prescribed documents, internal audit arrangements and reporting. This does not settle the level of financial protection that members should receive. Table 1 shows a current 3% capital-to-assets requirement for firms below £5 million in assets, and a 5% requirement in the next band. The paper illustrates how a package could combine less costly documentation with a common 5% leverage requirement below £10 million. Some firms could face a higher capital floor even as administrative obligations decline. A proportionate regime therefore cannot be judged solely by counting the number of documents a firm produces (DP §3 and Table 1).",
+    "For larger firms, a simple leverage ratio is easy to calculate but gives the same broad treatment to assets with different risks. The PRA asks about retaining that measure with stronger safeguards, developing the existing regime or using elements of the simpler framework for small domestic deposit takers. The last option could introduce risk-weighted assets, capital add-ons for particular exposures and a buffer to absorb losses during stress. One illustration under the leverage approach is a 15% ratio for assets above £300 million. The alternatives create different demands for systems, data and expertise. The PRA also asks whether some credit unions should have a route to convert to building societies where their lending and funding needs warrant it (DP §3).",
+    "The FCA asks why new powers in Great Britain to offer services such as hire purchase or insurance distribution have seen limited uptake. A legal permission does not create customer demand, staff capacity or the systems to operate a product. Credit union service organisations can pool technology and expertise, while external providers can support lending, reporting or compliance. Responsibility for oversight remains with each governing body. The paper asks about clearer guidance, fees and the management of rapid growth, including risks where a credit union offers fixed-rate loans backed by withdrawable member savings (DP §§4–5).",
+    "Growth and exit are connected. Restrictions on transferring business can leave a credit union seeking to wind down a long-term loan book with few potential purchasers. A wider pool could improve recoveries or allow an orderly transfer before value deteriorates. It could also place vulnerable borrowers with a servicer that offers different forbearance or communicates poorly. The regulators ask about purchaser eligibility, fair valuation, continued servicing and member protection. Existing solvent-exit planning expectations described in the paper apply to larger firms with more than £100 million in assets. The regulators seek practical evidence about barriers across firms of different sizes before deciding which options to pursue (DP §6)."
+  ],
+  "questions": [
+    {
+      "question": "Which small credit unions would face a binding increase in capital under the illustrative package?",
+      "detail": "Use firms’ regulatory returns and actual compliance expenditure to calculate the capital shortfall under the proposed 5% example and the cost of preparing documents that could be simplified. Split results by asset band, reserves, profitability and business model. Consider the transition time required to build capital from retained earnings alongside savings in staff time."
+    },
+    {
+      "question": "Would risk weighting change lending choices or primarily increase reporting costs?",
+      "detail": "Reconstruct the capital requirements of larger credit unions using anonymised loan-level returns, arrears histories, asset maturities and deposit withdrawal patterns. Compare a leverage measure with a simplified risk-based calculation under the same loss scenarios. Interview reporting teams about data they already hold and distinguish genuine risk sensitivity from the cost of collecting missing fields."
+    },
+    {
+      "question": "Which transfer arrangements allow a credit union to exit while protecting borrowers?",
+      "detail": "Review completed transfers, merger agreements, independent loan valuations and member complaints. Trace whether payment instructions, contact details, arrears treatment and forbearance continued through transfer, especially for members in difficulty. Compare the price and time to completion with the service delivered afterwards. This would help identify protections purchasers could credibly meet while keeping a realistic pool of buyers."
+    }
+  ],
+  "limitation": ""
+}

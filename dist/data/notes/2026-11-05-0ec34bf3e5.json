@@ -1,0 +1,28 @@
+{
+  "title": "What makes a second payment option usable in a crisis?",
+  "bank": "Norges Bank",
+  "date": "2026-11-05",
+  "url": "https://www.norges-bank.no/en/news-events/news/Speeches/2026/2026-11-05-hageland",
+  "summary": [
+    "Torbjørn Hægeland, Norges Bank’s Executive Director for Financial Stability, starts his 5 November speech with a familiar purchase. A phone can offer several ways to pay, yet those interfaces may all draw on the same bank deposit and send the payment through the same international card network. A customer can therefore gain convenience without gaining an independent way to complete the purchase during a disruption. The speech links everyday choices by merchants, banks and payment providers to a public concern. Norway needs basic payments to work when an important provider is unavailable (technological advances and contingency preparedness sections).",
+    "Hægeland singles out BankAxept, Norway’s domestic debit card system. It offers an alternative to international networks and has dedicated contingency capabilities, but customers cannot use it for ordinary online shopping and some banks have yet to enable it in payment apps. He urges those banks to do so. He also credits international card networks with wide acceptance, scale economies and investment in European contingency arrangements. A second route already in regular use can be valuable during disruption. Instant account transfers offer another possibility. Norges Bank’s planned connection to the Eurosystem’s TIPS platform would give private providers a settlement foundation on which to build services for more than person-to-person transfers (technological advances section).",
+    "The speech treats different forms of innovation on their own terms. Hægeland sees limited scope for general-purpose stablecoin payments domestically, given existing services, differences in redemption and the absence of a common exchange arrangement or a body able to expand supply in a crisis. He sees possible niches in cross-border and programmable transactions. Norges Bank is separately testing tokenised settlement in central bank reserves with financial institutions. An improvement for the full chain depends on changes by participants outside the central bank. A different shared ledger would have to reduce a real cost or risk to make adoption worthwhile (technological advances section).",
+    "Payments initiated by an AI agent raise another question about who controls the channel. A service can carry out a purchase within a customer’s instructions, but the parties need a way to establish identity, authorisation and responsibility if the agent misinterprets those instructions. Hægeland also asks what would happen if many agents relied on the same signal and initiated payments at once. Infrastructure might face concentrated demand for processing capacity and settlement liquidity. He describes this as a potential consequence of similar systems reacting together. The speech supplies no observed frequency or estimate of the liquidity impact (technological advances section).",
+    "Preparedness has a funding dimension. Providers can benefit from common infrastructure while contributing unequally to its upkeep. New entrants can reduce costs and widen choice, yet the institutions responsible for payment continuity still need a way to agree on investments that are rarely used. Hægeland argues for exercises, information sharing and public–private collaboration alongside the responsibility of each operator. He places the next Norwegian settlement system in this setting. Settlement of instant krone payments in TIPS is scheduled for 2029. Work on possible participation in the Eurosystem’s T2 system was still under way, with a conclusion sought in early 2027. Pooling expertise and costs is attractive only if Norges Bank retains sufficient control to maintain critical krone functions during serious disruption (contingency preparedness and next generation settlement sections)."
+  ],
+  "questions": [
+    {
+      "question": "How many apparently different payment options offer an independent route to settlement?",
+      "detail": "Ask banks and merchant acquirers for payment volumes by underlying card scheme, account-transfer route and channel, including mobile wallets. Match these to merchant acceptance and aggregated results from continuity exercises. Measure the share of essential transactions for which customers have already used a second functioning route, and distinguish regional coverage from the national average."
+    },
+    {
+      "question": "Which shared investments do payment providers have incentives to defer?",
+      "detail": "Examine industry contingency plans, funding agreements, exercise follow-ups and documented decisions about implementation. Identify who would pay, who would benefit and whether a timetable or accountable owner was agreed. Compare measures that have been funded with otherwise similar ones still under discussion, paying particular attention to smaller providers and the commercial case for maintaining infrequently used capabilities."
+    },
+    {
+      "question": "How much settlement liquidity could be needed when payment instructions arrive together?",
+      "detail": "Use anonymised intraday settlement records and controlled exercises with participating banks to compare ordinary payment peaks against scenarios in which many customers’ agents respond at the same time. Distinguish the ability to accept an instruction from the ability to settle it on time. Record how much genuine spare capacity and immediately available liquidity each participant had at the peak."
+    }
+  ],
+  "limitation": ""
+}
