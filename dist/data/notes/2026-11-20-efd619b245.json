@@ -1,0 +1,28 @@
+{
+  "title": "Why better productivity news can lower the ten-year Treasury yield",
+  "bank": "Federal Reserve Board",
+  "date": "2026-11-20",
+  "url": "https://www.federalreserve.gov/econres/notes/feds-notes/when-productivity-booms-do-interest-rates-rise-20261120.html",
+  "summary": [
+    "A productivity boom can lift investment without lifting the ten-year Treasury yield. Federal Reserve staff economists Antoine Lepetit and David Miller reach that conclusion by separating the compensation investors require for holding a long bond from their expectations of short-term rates. In their estimates, a positive surprise about future productivity raises the real federal funds rate for a time. The decline in the real term premium is larger and more persistent. Both nominal and real ten-year yields fall. The distinction matters for an investor who interprets every rise in long yields as evidence of optimism about artificial intelligence.",
+    "Their evidence comes from quarterly US data over 1990–2019. Five series anchor each model: utilisation-adjusted total factor productivity, real output, business fixed investment and consumption per person, and the inflation-adjusted S&P 500. Additional series, including yields and their estimated components, enter one at a time. The authors identify the shock that accounts for the largest share of future productivity variation at a ten-year horizon. Households and investors can act on information about a technology well before its effects appear in recorded output. In Figure 2, investment and real equity prices respond promptly, while most of the rise in the level of productivity takes several years. This is an estimated historical response, with substantial information coming from the late-1990s technology boom.",
+    "Figure 3 separates three quantities often conflated in a bond-market discussion. The current real policy rate rises temporarily. The component of the ten-year real yield attributable to expected short rates also rises briefly. Yet investors require less additional compensation to hold long-dated government debt, enough to pull the yield down. The rate responses are in percentage points over quarters, whereas Figure 2 expresses the changes in economic quantities in per cent. The authors offer several possible reasons for the lower premium: stronger consumption could reduce the price investors put on risk, expansion without inflation could reduce policy uncertainty, and a larger tax base could improve fiscal capacity. Their analysis does not establish each channel’s contribution.",
+    "The application to the AI era begins in 2022 Q4. Figure 4 smooths the inferred productivity-news shocks over eight quarters. They are initially negative and turn positive during much of 2023–25. Figure 5 then compares the actual real ten-year yield with the path the pre-pandemic model would have forecast in the absence of shocks. The yield itself rose about 90 basis points from 2022 Q3 to 2026 Q2. The model’s forecast error approached 200 basis points by early 2026 because it had expected rates to move back towards their lower pre-pandemic level. These are different changes measured from different starting points.",
+    "The note and its accessible description call the final productivity-news contribution close to zero or slightly negative. The dashed central line in the published Figure 5 ends visually around −0.6 percentage points. Both readings put the contribution below zero at the end, so neither attributes the upward yield surprise to productivity optimism. The magnitude cannot be reconciled precisely from the published material. Figure 6 also shows a decline in the expected real short rate five to ten years ahead, a market-based proxy for the unobservable equilibrium real rate. Its uncertainty band includes zero at some horizons. The exercise challenges an assumed mechanical link from higher trend growth to a higher neutral rate; it supplies no estimate of what the FOMC will decide at its next meeting."
+  ],
+  "questions": [
+    {
+      "question": "Can the central estimate of the recent yield contribution be reconciled with the graph?",
+      "detail": "Obtain the series behind Figure 5, the forecast vintage, the shock normalisation and the starting quarter. Reproduce both the actual yield change and the difference from the no-shock forecast, then isolate the cumulative productivity component. A negative contribution of several dozen basis points and one near zero have different implications for the size of other shocks needed to explain the same yield."
+    },
+    {
+      "question": "Does the fall in the term premium survive alternative measures of expected real rates?",
+      "detail": "Repeat the decomposition with a different term-structure model and survey expectations at matched maturities. Check how each treats inflation expectations, uncertainty and the liquidity of inflation-protected Treasuries. The paper identifies a decline using a modelled split of the real yield. A portfolio manager needs to know whether duration exposure is responding to compensation for risk or to lower expected policy rates."
+    },
+    {
+      "question": "Is news about AI investment sufficiently similar to the news that drove the historical estimate?",
+      "detail": "Compare dated announcements about model capability, data-centre investment and realised productivity with the high-frequency research cited in the note. Re-estimate results with and without the late-1990s boom and track uncertainty in the inferred shocks. A different timing of capital needs, future earnings or fiscal effects could change a bond’s response even when both technologies ultimately raise output."
+    }
+  ],
+  "limitation": ""
+}

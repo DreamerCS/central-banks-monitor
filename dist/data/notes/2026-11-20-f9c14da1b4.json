@@ -1,0 +1,29 @@
+{
+  "title": "Europe’s winter gas buffer depends on how many Atlantic LNG cargoes it can retain",
+  "bank": "Board of Governors of the Federal Reserve System",
+  "date": "2026-11-20",
+  "url": "https://www.federalreserve.gov/econres/notes/feds-notes/europes-natural-gas-outlook-for-the-upcoming-winter-2026-2027-20261120.html",
+  "summary": [
+    "Europe’s winter gas balance is more sensitive to competition for LNG cargoes than the direct share of imports from Qatar suggests. In this Federal Reserve staff note, Johannes Fleck projects that EU storage can cover even a cold winter if supply holds up. Losing a third of last winter’s LNG, with demand at its recent seasonal average, would leave stocks at roughly 6% of working capacity in April 2027. That outcome would also leave Europe dependent on stronger inflows to refill for the following winter. These are conditional quantities. The note assigns no probability to the LNG shock and gives no forecast for gas prices.",
+    "The initial buffer is unusually thin. At the end of September, GIE put EU storage at 71.6% full, down 10.9 percentage points year on year and the lowest September reading in the series that starts in 2011. Germany was at 58%. The September average settlement of the front-month TTF contract was €76 per MWh against €32 a year earlier. Through July, however, total non-EU imports were only 1% lower than in the first seven months of 2025. Price and aggregate imports therefore tell different parts of the story.",
+    "European buyers had already changed suppliers. From 2021 to 2025, Russian deliveries fell from 158 to 40 billion cubic metres (bcm). LNG rose from 80 to 146 bcm, with the US supplying roughly three quarters of the increase. Norway became the EU’s largest gas supplier. Qatar accounted for about 9% of EU LNG in 2025, while the US supplied around half. A disruption in the Strait of Hormuz can still reach Europe when Asian buyers bid for the same Atlantic cargoes. Moreover, some origins in the monthly data are estimated from older annual shares, which the author says overstate Qatari deliveries in 2026.",
+    "Demand has adjusted too. Total use fell from 413 bcm in 2021 to 332 bcm in 2024 across households, industry, power and services. Four mild winters explain part of that drop. Applying pre-crisis country-level relationships to the weather that actually occurred, Fleck estimates that 2025 demand was 14.3% below its weather-adjusted counterfactual, with a 90% interval of 10.5–18.4%. The winter gap has narrowed, while consumption in June and July 2026 was still about a quarter below the counterfactual. The model estimates a residual after adjusting for weather. It does not establish how much represents lasting efficiency or lost industrial output.",
+    "Starting with about 80 bcm at end-September, the baseline repeats the prior year’s monthly supply and uses average monthly demand from the four post-invasion winters. Stocks fall to around 32 bcm, or 30% of working capacity, in March. Giving each month its highest consumption across those winters roughly halves that stock to 16 bcm. In the LNG stress, October–March imports fall from 77 to 51 bcm. With demand and other flows held fixed, every further ten percentage points of lost LNG takes roughly 8 bcm off the projected trough. The 20% reference line reflects past operating experience. It is neither a physical point of exhaustion nor a common minimum for each member state. Projected Eurostat-definition stocks include gas held abroad and typically exceed GIE underground stocks by 3–5 bcm.",
+    "A very strong El Niño offers limited insurance. Across just five strong historical events, EU gas-weighted heating degree days averaged about 6% below trend. Against an already mild baseline the implied saving in non-power gas use shrinks to about 2.5 bcm, far smaller than the 26 bcm supply loss in the scarcity scenario. An intermittent cold spell still matters when inventories are low."
+  ],
+  "questions": [
+    {
+      "question": "What winter LNG loss would actually threaten the spring buffer?",
+      "detail": "The note’s balances become especially tight as LNG falls below four fifths of last winter’s deliveries. Track cumulative October–March EU arrivals by origin against the same months in 2025–26, alongside pipeline flows and US cargo destinations. Use the author’s transit adjustments and check the origins reported directly. That would show whether stronger Atlantic deliveries are absorbing the shock or whether Europe is losing cargoes to Asia."
+    },
+    {
+      "question": "How much demand reduction would survive milder prices or a recovery in industrial output?",
+      "detail": "The weather-adjusted shortfall combines several sources of lower use. Compare metered industrial, household and power consumption with degree days, output in gas-intensive sectors and fuel switching. A persistent efficiency gain would support a lower seasonal baseline. Reversible curtailment would leave an industrial recovery competing with storage refill and would change the risk faced by energy-intensive firms."
+    },
+    {
+      "question": "Could a regional deliverability problem emerge before the EU aggregate reaches its trough?",
+      "detail": "Germany entered the winter with a smaller percentage buffer than the bloc. Compare national storage, cross-border pipeline capacity and withdrawal deliverability during cold weeks, using consistent stock definitions. Those data would help explain when an apparently adequate aggregate inventory could coexist with local price spikes, and whether a hedge referenced to a European benchmark would cover that regional exposure."
+    }
+  ],
+  "limitation": ""
+}

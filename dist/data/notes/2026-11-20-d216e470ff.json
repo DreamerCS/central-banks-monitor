@@ -1,0 +1,28 @@
+{
+  "title": "Lisa Cook explains why global investment and broad US inflation led her to vote for another increase",
+  "bank": "Federal Reserve Board",
+  "date": "2026-11-20",
+  "url": "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm",
+  "summary": [
+    "Speaking at the Central Bank of Chile on 20 November, Federal Reserve Governor Lisa Cook explained her October dissent through two judgments. Financial conditions were still supporting an expansion in US demand, and the longer inflation stayed above target, the greater the risk that businesses and workers would build higher inflation into prices and wages. She had supported September’s increase to a federal funds target range of 3.75–4.00% and preferred a further quarter-point increase in October, when the Committee held. These were her own judgments. The speech gives the argument for that vote without specifying the size or timing of the next decision.",
+    "Cook began outside the United States because three global developments influence a domestic policy mandate. Damaged energy infrastructure and depleted inventories could keep oil prices high after disruption in the Middle East. Higher prices reach both Houston and Santiago, but the effect on national income depends partly on whether a country imports or exports energy. In trade, the inflationary effect of earlier US tariffs appeared to have moderated, while uncertainty about future policy remained. Chinese restrictions on exports of critical minerals exposed a different vulnerability: industries that depend on a concentrated source of inputs. An assessment of US inflation therefore needs to distinguish a temporary change in the price of an import from broader pressure on capacity and domestic prices.",
+    "Investment in artificial intelligence was already giving the demand side of that distinction practical force. Cook cited estimates that roughly half of global data-centre capacity under construction was outside the United States. Generative AI use ranged from about 25% to 45% of the working-age population in the higher-income economies covered by another study. Capacity under construction measures prospective physical supply, while a user count says little about the value produced. Chile’s copper and lithium could benefit from demand for power networks and storage, but Cook left open how much growth resource exporters would retain and how commodity and capital flows would transmit to exchange rates. She also raised the possibility that productivity gains and the costs of worker displacement would be distributed unevenly across countries.",
+    "Her US inflation assessment relied partly on an estimate. From price data available the previous week, Cook put October twelve-month headline PCE inflation at 3.8% and core PCE inflation at 3.2%. She saw price increases across airfare, household goods, hotels and restaurants. Higher oil prices alone could not explain her concern. US GDP had grown at a 3.4% annualised rate in the third quarter, and real household spending at 3.8%. That quarterly spending pace is separate from the coincidentally identical twelve-month estimate for headline inflation. October unemployment was 4.1% and payrolls rose by 165,000, though a low-hiring environment was especially difficult for new entrants.",
+    "Cook judged that equity wealth continued to support spending and that the current rate was doing little to slow AI infrastructure investment. Leaving the rate unchanged in those circumstances could widen the gap between demand and productive capacity. Her second concern was the eventual cost of delay. If expectations shifted upward, catching up might require larger rate increases and put greater stress on households and the financial system. The speech supplies no market-implied probability that investors assigned to her preferred hike. It also distinguishes a near-term demand impulse from productivity gains that would take time to spread through firms and labour markets."
+  ],
+  "questions": [
+    {
+      "question": "Would the incoming inflation data support Cook’s view of broad and persistent pressure?",
+      "detail": "Start with the subsequent official PCE release and its component data, preserving the source vintage used for her 3.8% and 3.2% estimates. Compare energy-sensitive prices, imported goods and domestic services over several horizons. A diversified rise accompanied by changes in wage or pricing intentions would have different implications for the expected rate path from a brief jump concentrated in fuel."
+    },
+    {
+      "question": "Is the AI buildout largely insensitive to current financing costs, and could that change?",
+      "detail": "Examine the project-level data cited by Cook, distinguishing announced capacity, funded construction, commissioning and cancellations. Compare borrowers’ debt costs and access to equity, project maturity and expected power availability. A rise in financing costs might affect planned projects before it shows up in current spending. That lag matters for investors judging how much restraint an unchanged policy rate already delivers."
+    },
+    {
+      "question": "How much of a rise in demand for copper or lithium would reach Chilean incomes?",
+      "detail": "Compare production schedules, export volumes, realised prices and the domestic investment or income generated by projects, using official Chilean statistics and company filings. Distinguish globally announced data-centre capacity from actual demand for each metal. For a currency or sovereign investor, those quantities and their timing matter more than a broad estimate of global AI adoption alone."
+    }
+  ],
+  "limitation": ""
+}

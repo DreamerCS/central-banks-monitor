@@ -2580,5 +2580,28 @@
     "title": "Unlocking supervisory effectiveness in credit risk: insights from the ECB’s supervisory findings and measures",
     "jurisdiction": "Euro area",
     "type": "Research"
+  },
+  "2026-11-20-5c1fd374e5.json": {
+    "title": "Increasing International Interdependence: Global Supply Chains and Cross-Border Macroeconomic Spillovers",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-20-f9c14da1b4.json": {
+    "title": "Europe’s Natural Gas Outlook for the Upcoming Winter 2026/2027",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-20-efd619b245.json": {
+    "title": "FEDS Note: When productivity booms, do interest rates rise?",
+    "jurisdiction": "United States",
+    "type": "Research"
+  },
+  "2026-11-20-d216e470ff.json": {
+    "title": "Cook, The U.S. Economy in Global Context",
+    "jurisdiction": "United States",
+    "type": "Speech",
+    "aliases": [
+      "https://www.federalreserve.gov/newsevents/speech/files/cook20261120a.pdf"
+    ]
   }
 }

@@ -13,6 +13,19 @@
     }
   },
   {
+    "title": "Why better productivity news can lower the ten-year Treasury yield",
+    "bank": "Federal Reserve Board",
+    "date": "2026-11-20",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/when-productivity-booms-do-interest-rates-rise-20261120.html",
+    "excerpt": "A productivity boom can lift investment without lifting the ten-year Treasury yield.",
+    "file": "2026-11-20-efd619b245.json",
+    "publication": {
+      "title": "FEDS Note: When productivity booms, do interest rates rise?",
+      "jurisdiction": "United States",
+      "type": "Research"
+    }
+  },
+  {
     "title": "Which part of post-pandemic core inflation looked demand-driven in Spain?",
     "bank": "Banco de España",
     "date": "2026-11-20",
@@ -143,6 +156,22 @@
     }
   },
   {
+    "title": "Lisa Cook explains why global investment and broad US inflation led her to vote for another increase",
+    "bank": "Federal Reserve Board",
+    "date": "2026-11-20",
+    "url": "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm",
+    "excerpt": "Speaking at the Central Bank of Chile on 20 November, Federal Reserve Governor Lisa Cook explained her October dissent through two judgments.",
+    "file": "2026-11-20-d216e470ff.json",
+    "publication": {
+      "title": "Cook, The U.S. Economy in Global Context",
+      "jurisdiction": "United States",
+      "type": "Speech",
+      "aliases": [
+        "https://www.federalreserve.gov/newsevents/speech/files/cook20261120a.pdf"
+      ]
+    }
+  },
+  {
     "title": "Korean producer prices edged down in October even as raw-material costs climbed",
     "bank": "Bank of Korea",
     "date": "2026-11-20",
@@ -259,6 +288,19 @@
     }
   },
   {
+    "title": "Foreign supplier delays have become more closely linked to producer inflation while evidence on GDP spillovers is less decisive",
+    "bank": "Board of Governors of the Federal Reserve System",
+    "date": "2026-11-20",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/increasing-international-interdependence-global-supply-chains-and-cross-border-macroeconomic-spillovers-20261120.html",
+    "excerpt": "Delays at a country’s foreign suppliers have become more closely associated with its own inflation since 2023.",
+    "file": "2026-11-20-5c1fd374e5.json",
+    "publication": {
+      "title": "Increasing International Interdependence: Global Supply Chains and Cross-Border Macroeconomic Spillovers",
+      "jurisdiction": "United States",
+      "type": "Research"
+    }
+  },
+  {
     "title": "Five Indian states offer to exchange near-dated debt for longer maturities",
     "bank": "Reserve Bank of India",
     "date": "2026-11-20",
@@ -272,6 +314,19 @@
       "aliases": [
         "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR153980EC0AE092E14AE6963872D7C9520E39.PDF"
       ]
+    }
+  },
+  {
+    "title": "Europe’s winter gas buffer depends on how many Atlantic LNG cargoes it can retain",
+    "bank": "Board of Governors of the Federal Reserve System",
+    "date": "2026-11-20",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/europes-natural-gas-outlook-for-the-upcoming-winter-2026-2027-20261120.html",
+    "excerpt": "Europe’s winter gas balance is more sensitive to competition for LNG cargoes than the direct share of imports from Qatar suggests.",
+    "file": "2026-11-20-f9c14da1b4.json",
+    "publication": {
+      "title": "Europe’s Natural Gas Outlook for the Upcoming Winter 2026/2027",
+      "jurisdiction": "United States",
+      "type": "Research"
     }
   },
   {
@@ -1808,7 +1863,7 @@
     "bank": "Board of Governors of the Federal Reserve System",
     "date": "2026-11-13",
     "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
-    "excerpt": "An investment disappointment becomes a financial-stability problem when the people who must absorb losses also have to raise cash or cut credit.",
+    "excerpt": "A setback in data-centre investment could reach lenders through leases and guarantees before a large technology company misses a bond payment.",
     "file": "2026-11-13-f8c0a66c91.json"
   },
   {
@@ -2962,7 +3017,7 @@
     "bank": "Bank of England",
     "date": "2026-11-10",
     "url": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference",
-    "excerpt": "Clare Lombardelli sees a particular risk in treating rising UK unemployment as a reliable measure of forthcoming wage disinflation.",
+    "excerpt": "Clare Lombardelli saw a case for a further near-term increase in Bank Rate unless evidence emerged that inflationary pressure was weakening.",
     "file": "2026-11-10-5537220d00.json",
     "publication": {
       "jurisdiction": "United Kingdom",
@@ -3119,7 +3174,7 @@
     "bank": "Banco Central do Brasil",
     "date": "2026-11-10",
     "url": "https://www.bcb.gov.br/detalhenoticia/21313/noticia",
-    "excerpt": "The Banco Central do Brasil’s 10 November release explains Joint Resolution 21, approved by the central bank and the National Monetary Council on 22 October.",
+    "excerpt": "The Banco Central do Brasil’s 10 November release explains who is responsible when a company permits its financial data to pass from a participating institution to a commercial partner.",
     "file": "2026-11-10-16f82680a4.json",
     "publication": {
       "jurisdiction": "Brazil",
