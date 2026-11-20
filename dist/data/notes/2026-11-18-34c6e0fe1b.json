@@ -1,0 +1,28 @@
+{
+  "title": "Why a common rate rise left some euro area housing markets much more exposed",
+  "bank": "European Central Bank",
+  "date": "2026-11-18",
+  "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_01~8b6869f30f.en.html",
+  "summary": [
+    "The ECB authors find that differences in mortgage supply account for the largest part of the gap between faster- and slower-growing housing markets in their nine-country decomposition. From end-2021 to end-2025, buyers in the stronger group also put a higher value on housing and faced tighter physical supply. In the weaker group, all three influences pushed in the opposite direction. Monetary tightening weighed on both, with roughly twice the estimated drag in the weaker markets. A common policy rate therefore tells a lender relatively little about the collateral securing its particular mortgage book.",
+    "Chart A combines two different comparisons. Its first panel tracks annual nominal price growth across the euro area. The lines are country medians, with bands around the middle half of each group. The threshold is the median growth rate in late 2025 among the nine countries with models, so it divides the full set of countries into unequal groups. Sorting on the end-period outcome makes the chart descriptive. Its second panel estimates cumulative contributions to prices, in percentage points. Country-level two-lag Bayesian VARs use quarterly data from 2003 to 2025 on construction investment, disposable income, prices, the common shadow rate, lending rates and mortgage volumes, among other variables. Sign and zero restrictions identify five of seven shocks. The mortgage-supply component includes bank funding, willingness to lend and underwriting standards beyond movements explained by monetary policy. The bars average countries within groups. Applying them to an individual lender would require evidence on its own market and lending terms.",
+    "The counterintuitive finding concerns fixed rates. Where more outstanding loans carried fixed rates, house prices were more sensitive to higher rates during this tightening cycle. Existing owners could keep an inexpensive mortgage and still face a lower price if the next buyer could finance a smaller bid. Chart B estimates sensitivity to a change in a valuation measure combining real long rates, rent growth and an assumed risk premium. Its elasticity is not the percentage price decline from a one-percentage-point ECB hike. The authors test structural features separately across 20 countries from late 2021 to the third quarter of 2025. Earlier work cited in footnote 4 finds different results across samples. This exercise speaks most directly to the cycle studied.",
+    "Prices also adjusted more where valuations had been stretched and where first-time buyers lacked a binding loan-to-value cap. The latter is a proxy for the leverage of the buyer setting the price. A 90% maximum defines a binding limit here. The authors would have preferred income-based limits, but only four countries used them. National caps consequently reveal less than loan-level leverage. Where cash purchases were common, changes in mortgage rates had less influence. Higher owner-occupation also coincided with a smaller price adjustment, possibly because fewer homes changed hands. Some cash-purchase shares rely on expert judgement, and the separate tests of tax incentives and physical shortages in this elasticity exercise were inconclusive.",
+    "For banks, the relevant distinction is between a scarce stock of housing becoming more expensive and buyers borrowing more against that stock. Both raise appraised collateral values today. The latter can also leave larger household exposures when prices turn. The authors see a corresponding difference in the case for borrower-based macroprudential measures and for policies directed at housing supply or taxation. They offer no default-rate estimate from the change in house prices alone."
+  ],
+  "questions": [
+    {
+      "question": "Which faster-growing markets are adding leveraged borrowers at the margin?",
+      "detail": "The model ranks mortgage supply first in the cross-group difference. To judge collateral and default exposure at a particular bank, match new-loan size, actual loan-to-income and loan-to-value distributions, and underwriting exceptions to transaction prices by region. National credit registers and supervisory origination returns can distinguish larger loans to existing types of buyers from a shift towards riskier entrants."
+    },
+    {
+      "question": "Does a fixed-rate book protect collections while its collateral reprices?",
+      "detail": "The study identifies a marginal-buyer channel. Payment resets, forced sales and the number of voluntary transactions would determine the lender’s loss experience. Compare fixed-rate cohorts, amortisation schedules, arrears and local turnover in national mortgage and land registries. A slump in sales with stable debt service would imply a different stress path from a simultaneous increase in defaults."
+    },
+    {
+      "question": "Would the country ranking survive a different starting date?",
+      "detail": "The groups use end-2025 growth and the elasticity estimates come from one tightening episode. Re-estimate the cited housing models with groups fixed before the cycle, alternative valuation measures and country-specific origination rates. Persistent differences would strengthen the case for geographically differentiated collateral haircuts."
+    }
+  ],
+  "limitation": ""
+}

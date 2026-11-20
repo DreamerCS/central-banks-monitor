@@ -2603,5 +2603,40 @@
     "aliases": [
       "https://www.federalreserve.gov/newsevents/speech/files/cook20261120a.pdf"
     ]
+  },
+  "2026-11-18-34c6e0fe1b.json": {
+    "title": "Diverging developments in euro area residential real estate markets: risks and policy considerations",
+    "jurisdiction": "Euro area",
+    "type": "Research"
+  },
+  "2026-11-18-14b5bc1e51.json": {
+    "title": "Unwinding of corporate spread compression: implications for euro area market repricing",
+    "jurisdiction": "Euro area",
+    "type": "Research"
+  },
+  "2026-11-18-61b5bd05b2.json": {
+    "title": "The debt financing of AI and its implications for financial stability",
+    "jurisdiction": "Euro area",
+    "type": "Research"
+  },
+  "2026-11-17-e516a5fbc6.json": {
+    "title": "Big tech’s growing presence in the euro-denominated bond market: implications for investors",
+    "jurisdiction": "Euro area",
+    "type": "Research"
+  },
+  "2026-11-18-92a406d77e.json": {
+    "title": "The effects of oil supply shocks on corporate resilience, bank asset quality and lending",
+    "jurisdiction": "Euro area",
+    "type": "Research"
+  },
+  "2026-11-18-72a5135ce5.json": {
+    "title": "Bank reliance on credit protection providers via synthetic risk transfers",
+    "jurisdiction": "Euro area",
+    "type": "Research"
+  },
+  "2026-11-18-4911611ab5.json": {
+    "title": "The footprint of hedge funds in euro area sovereign bond markets via repo markets",
+    "jurisdiction": "Euro area",
+    "type": "Research"
   }
 }

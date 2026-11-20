@@ -1,0 +1,29 @@
+{
+  "title": "Euro area banks have replaced part of their capital requirement with renewable credit protection",
+  "bank": "European Central Bank",
+  "date": "2026-11-18",
+  "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_06~81b505bd2a.en.html",
+  "summary": [
+    "Euro area banks had about €630 billion of loans in portfolios covered by synthetic risk transfers by mid-2026. Investors had committed around €120 billion of loss protection. The difference matters. The bank continues to hold the loans, collect interest and manage the customers. Typically it pays a premium to transfer losses within a specified mezzanine tranche, retaining the senior tranche and often a small first-loss position. The ECB authors judge current systemic risks limited. The vulnerability they identify is that protection might become expensive or unavailable precisely when banks have the least capital headroom to take the risk back.",
+    "The regulatory leverage of these contracts is substantial. Unexpected losses in the mezzanine tranche attract relatively high risk weights. Footnote 2 says protection can reduce capital requirements for the reference portfolio as a whole by 70–85% in many transactions. That percentage does not apply to a bank’s total capital. Chart A estimates the gain in the CET1 ratio by holding equity capital fixed and comparing risk-weighted assets before and after securitisation. Over five years the estimated relief more than doubled, reaching 40 basis points for the system and 49 for issuing banks. A reduction in required capital need not create cash or new equity.",
+    "The top ten issuers accounted for around three-quarters of issuance in the second quarter. Large internationally active banks dominate volumes, although smaller issuing banks on average obtain more relief relative to their risk-weighted assets. Corporate and SME portfolios account for most of the underlying loans. A bank can protect a capital-intensive exposure while preserving a valuable lending relationship. Whether released headroom becomes additional lending matters to both shareholders and borrowers. The research cited in footnote 9 finds issuing banks can increase both lending and distributions.",
+    "The quality of the protection differs across portfolios. Most transactions post collateral in advance. In an unfunded deal the bank needs the provider to pay when losses materialise. Around 80% of mortgage-related SRTs and about half of SME-related SRTs are unfunded. Public guarantors supply about a tenth of the market and about a third of unfunded protection. An eligible public guarantor can attract a zero counterparty risk weight. The distinction between a funded tranche and a promise from another leveraged investor becomes particularly important under common stress.",
+    "Chart B shows substantial matching of protection maturities to the average life of loan pools. Its distribution is concentrated around a zero or slightly negative gap. It uses the shorter of foreseeable and legal protection maturity, rather than relying on final legal maturity alone. Replenishment terms and sequential or pro-rata amortisation affect what protection is available as loans repay. A modest average gap can still leave the originator exposed to a tail of long-lived, slow-paying loans. If a bank cannot replace maturing protection it can face a higher risk-weighted asset requirement before its customers’ credit quality has changed.",
+    "The investor breakdown comes from a global survey of 62 originators covering more than 800 transactions, with €905 billion of underlying assets protected at end-2025. EU-based banks contributed about 63% of survey volume. These are a different population and date from the €630 billion euro area stock. Specialised funds remain important, but asset managers have gained share and the survey sees immediate buyers rather than the ultimate risk holders. Losses elsewhere in private credit could reduce those buyers’ capacity to renew bank protection. If a bank is protecting loans to private credit funds and a related fund provides the insurance, even diversified-looking contracts can depend on the same balance sheets. The report identifies a route to procyclical lending without estimating the size of an ensuing credit contraction."
+  ],
+  "questions": [
+    {
+      "question": "Which bank would lose the most capital headroom if its next deals failed to roll?",
+      "detail": "The aggregate 49-basis-point benefit for issuers hides concentrated maturities and different management buffers. Recalculate risk-weighted assets deal by deal at expected termination, after portfolio amortisation, using supervisory transaction data and Pillar 3 disclosures. Compare the result with each bank’s distance from distribution constraints before inferring pressure to cut lending."
+    },
+    {
+      "question": "Can the same investor absorb losses and fund a replacement trade?",
+      "detail": "The market survey identifies immediate buyers. Trace funded collateral, unsecured guarantors, fund leverage and shared exposures through transaction documents and counterparty disclosures. During a private-credit drawdown, an investor might honour an existing contract yet decline to renew it. Those two outcomes have different timing for bank capital."
+    },
+    {
+      "question": "Where did the released capital go?",
+      "detail": "The cited studies find evidence of both additional lending and payouts. Follow protected portfolios, subsequent originations and distributions at comparable banks before and after issuance, controlling for loan demand. A bank that distributed most of the benefit has less internal capacity to replace protection if market prices rise."
+    }
+  ],
+  "limitation": ""
+}

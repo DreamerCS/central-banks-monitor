@@ -1,0 +1,28 @@
+{
+  "title": "Euro sovereign repo shows where hedge funds withdrew financing in March",
+  "bank": "European Central Bank",
+  "date": "2026-11-18",
+  "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_07~d23692bb6f.en.html",
+  "summary": [
+    "Hedge funds expanded gross repo positions against euro area sovereign collateral by more than 60% from January 2025 to February 2026, reaching about €640 billion. When rates volatility surged in March, they cut those positions by 13%. Dealers and other financial institutions reduced theirs by about 3%, while banks increased gross positions. The ECB authors conclude that hedge funds adjusted faster than other participants and later rebuilt exposure as volatility eased. The data establish a procyclical change in financing. They leave open whether unwinding by the funds amplified the original move in bond prices.",
+    "Market share depends on which transactions are counted. In January, hedge funds accounted for 14% of gross repo outstanding against euro area sovereign collateral and 27% of the bilateral market once centrally cleared trades, mainly between dealers, were excluded. In reported government-bond futures and euro interest-rate swaps their share was only around 2%. European derivatives reporting omits offshore trades with no EU counterparty. Reading these percentages as a complete split of hedge funds’ funding and hedges would substantially overstate what supervisors can see.",
+    "Concentration compounds the measurement problem. In Chart A the largest five hedge funds in each segment account for roughly 40% of hedge funds’ sovereign repo positions, 60% of their government-bond futures and 85% of their euro swap positions. The rankings are determined separately for each market. Many of the funds are domiciled in the Cayman Islands, also a concentrated location for EU banks’ hedge fund counterparties. If a large fund has to reduce leverage across several prime brokers, local reporting may show several individual reductions without revealing their common origin.",
+    "Chart B distinguishes gross intermediation from direction. Its weekly net measure subtracts cash lent from cash borrowed against German, Spanish, French and Italian sovereign collateral. Across the past year hedge funds borrowed about €73 billion net on average. At the February peak they borrowed more than €105 billion net. That position fell by approximately €50 billion during the volatility surge, with particularly large reductions involving Italian and Spanish collateral. German collateral usually sits below zero on the chart, indicating net cash lending against it. The grey volatility index uses an inverted right-hand scale. A line moving down during the March decline in net borrowing therefore indicates higher implied volatility. The position measure does not establish an unhedged bet on the relevant country’s bonds. Futures and swaps can offset the rate or spread exposure while leaving a lender or margin dependency.",
+    "The timing around the Middle East conflict offers a test of behaviour under stress. Low volatility had allowed funds to build large positions. When it rose, funding limits, margins or internal risk controls could make positions expensive to retain even if a relative-value trade remained attractive to maturity. The observed reduction is also consistent with voluntary risk reduction or the closing of a previously successful trade. Banks’ expansion in repo is evidence of some offsetting activity, though volumes alone cannot establish who absorbed the same bonds or at what cost. The policy implication is to share comparable leverage and counterparty measures across jurisdictions. The publication gives no estimate of the price impact that dealers or other investors would face in a larger unwind."
+  ],
+  "questions": [
+    {
+      "question": "Did hedge funds sell bonds into a falling market, or primarily offset and close financing legs?",
+      "detail": "Aggregate net cash borrowing cannot reconstruct a matched basis or swap-spread trade. Link cash transactions, repos, futures and swaps at fund level across reporting jurisdictions. Evidence of outright sales and shrinking market depth at the same timestamps would matter more for a sovereign spread position than a fall in repo balances alone."
+    },
+    {
+      "question": "What forced Italian and Spanish exposures down more sharply?",
+      "detail": "The report locates the adjustment by collateral but cannot separate higher haircuts, shorter offered maturities and internal volatility targets. Compare counterparty-level repo terms, margin calls and fund risk limits around March. An externally imposed withdrawal of financing carries a different risk of repeated selling from a discretionary change in exposure."
+    },
+    {
+      "question": "How much intermediation capacity did banks actually provide?",
+      "detail": "Banks increased gross repos as funds cut theirs. Match collateral, tenor and counterparties with dealer inventory, bid–ask spreads and price impact to see whether banks warehoused the risk or circulated the same collateral. This would change an assessment of how much protection observed bank participation offers during the next volatility spike."
+    }
+  ],
+  "limitation": ""
+}

@@ -1,0 +1,28 @@
+{
+  "title": "An oil supply shock reaches bank loan books well after firms’ credit risk rises",
+  "bank": "European Central Bank",
+  "date": "2026-11-18",
+  "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_05~854c97b8a1.en.html",
+  "summary": [
+    "The ECB authors find that the earliest measurable deterioration after an oil supply disruption appears in corporate default expectations. Bank non-performing loans and new lending adjust more slowly. They judge that the first effects of the 2026 disruption around the Strait of Hormuz on bank asset quality could start to become apparent in 2027. Their estimates describe historical responses to identified supply shocks. They do not convert the volume of oil usually transiting the strait into an equivalent loss of global output or a mechanical forecast for bank provisions.",
+    "Before the conflict, the route carried about 20 million barrels a day of crude and petroleum products, roughly one-fifth of world supply. The immediate financial question is how much of the higher input cost firms can pass on. A business with little pricing power loses margin, even while its customers pay more for energy. If that weakens debt service, its bank eventually has to recognise impaired credit. Firms can also defer investment and banks can tighten underwriting before a loan actually goes bad. A fall in new lending can therefore precede, accompany or reinforce the weakness in spending.",
+    "Chart A uses a structural VAR and market-based, one-year expected default frequencies. The identification treats unexpected changes in global oil production as supply shocks while distinguishing changes in global activity. A one-standard-deviation adverse shock raises the aggregate default measure by about four basis points at its four-quarter peak, from an end-2025 reference of 0.26%. Transport and storage peaks earlier and higher, at about 20 basis points after two quarters. Wholesale and retail trade peaks near 12 after four quarters. The chart shows 95% intervals and no statistically significant response for accommodation and food services. These measures reflect changing expected defaults, which can move before realised losses.",
+    "The bank calculation uses a different identification and sample. Local projections for an unbalanced panel of 130 euro area banks from early 2007 to early 2026 relate non-performing-loan ratios to separately identified oil supply disturbances. The regressions include bank controls, fixed effects, lagged shocks and pandemic indicators. The first two bars in Chart A(b), immediately and after a year, are statistically indistinct from zero at the reported threshold. The estimated increase reaches about 40 basis points by year two and 64 by year three, against an initial 2.81% NPL ratio. The latter measures a stock of problem loans relative to total loans. It cannot be equated with an additional 64 basis points of annual credit losses.",
+    "Chart B estimates lending separately with monthly data from 2001 through 2025. The Bayesian VAR combines production, real Brent prices, inventories and industrial activity with inflation, bank equity prices, new corporate loans and lending spreads. Sign restrictions and evidence around the invasion of Ukraine identify the supply disturbance. In that model an adverse shock equivalent to a 0.5% production contraction eventually reduces new lending by about 0.3%. The response becomes significant after around fifteen months. New-loan spreads rise only modestly, with a statistically significant increase at one year and little evidence of a persistent rise thereafter. Banks may lend to safer applicants while vulnerable firms postpone borrowing, so a muted average price response can coexist with less credit. The estimates can also include systematic monetary-policy responses. Inventories and borrowers’ financial buffers could break or delay the historical transmission."
+  ],
+  "questions": [
+    {
+      "question": "Which borrowers will exhaust their buffers before they can raise prices?",
+      "detail": "Transport and trade show the largest expected-default responses, but the authors do not split firms by hedging or cash runway. Compare energy purchases, hedge maturities, working-capital facilities and repricing dates in borrowers’ filings and bank sector-exposure disclosures. The maturity mismatch matters more for near-term losses than an industry label by itself."
+    },
+    {
+      "question": "Is the fall in lending driven by rejected applications or delayed investment?",
+      "detail": "The loan-volume response is clearer than the spread response, and the two margins have different implications for recovery. Match loan-register data and applications across banks with the same borrower, and compare these with bank lending surveys on demand and standards. A constrained borrower switching lenders would point more strongly to credit supply."
+    },
+    {
+      "question": "How much physical scarcity is the model being asked to explain?",
+      "detail": "The route’s normal throughput is much larger than the model’s representative shock. Compare monthly production, inventories, deliveries through other routes and real prices using the official oil data underlying the study. Sustained inventory drawdowns could absorb disruption initially but leave less protection against a later shock, changing the timing of provisions."
+    }
+  ],
+  "limitation": ""
+}

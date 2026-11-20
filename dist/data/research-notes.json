@@ -644,6 +644,32 @@
     }
   },
   {
+    "title": "Why a common rate rise left some euro area housing markets much more exposed",
+    "bank": "European Central Bank",
+    "date": "2026-11-18",
+    "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_01~8b6869f30f.en.html",
+    "excerpt": "The ECB authors find that differences in mortgage supply account for the largest part of the gap between faster- and slower-growing housing markets in their nine-country decomposition.",
+    "file": "2026-11-18-34c6e0fe1b.json",
+    "publication": {
+      "title": "Diverging developments in euro area residential real estate markets: risks and policy considerations",
+      "jurisdiction": "Euro area",
+      "type": "Research"
+    }
+  },
+  {
+    "title": "Who owes the cash when AI investment is financed outside the hyperscaler?",
+    "bank": "European Central Bank",
+    "date": "2026-11-18",
+    "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_03~4fd1449eaa.en.html",
+    "excerpt": "The ECB authors trace a change in who bears the downside of the AI buildout.",
+    "file": "2026-11-18-61b5bd05b2.json",
+    "publication": {
+      "title": "The debt financing of AI and its implications for financial stability",
+      "jurisdiction": "Euro area",
+      "type": "Research"
+    }
+  },
+  {
     "title": "Who gets the proceeds from the AI listing wave?",
     "bank": "European Central Bank",
     "date": "2026-11-18",
@@ -955,6 +981,45 @@
     }
   },
   {
+    "title": "Euro sovereign repo shows where hedge funds withdrew financing in March",
+    "bank": "European Central Bank",
+    "date": "2026-11-18",
+    "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_07~d23692bb6f.en.html",
+    "excerpt": "Hedge funds expanded gross repo positions against euro area sovereign collateral by more than 60% from January 2025 to February 2026, reaching about €640 billion.",
+    "file": "2026-11-18-4911611ab5.json",
+    "publication": {
+      "title": "The footprint of hedge funds in euro area sovereign bond markets via repo markets",
+      "jurisdiction": "Euro area",
+      "type": "Research"
+    }
+  },
+  {
+    "title": "Euro credit repriced before borrower fundamentals deteriorated",
+    "bank": "European Central Bank",
+    "date": "2026-11-18",
+    "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_02~abc7852b04.en.html",
+    "excerpt": "By early November, investors in euro area corporate bonds had surrendered much of the discount to model-implied spreads they had accepted earlier in 2026.",
+    "file": "2026-11-18-14b5bc1e51.json",
+    "publication": {
+      "title": "Unwinding of corporate spread compression: implications for euro area market repricing",
+      "jurisdiction": "Euro area",
+      "type": "Research"
+    }
+  },
+  {
+    "title": "Euro area banks have replaced part of their capital requirement with renewable credit protection",
+    "bank": "European Central Bank",
+    "date": "2026-11-18",
+    "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_06~81b505bd2a.en.html",
+    "excerpt": "Euro area banks had about €630 billion of loans in portfolios covered by synthetic risk transfers by mid-2026.",
+    "file": "2026-11-18-72a5135ce5.json",
+    "publication": {
+      "title": "Bank reliance on credit protection providers via synthetic risk transfers",
+      "jurisdiction": "Euro area",
+      "type": "Research"
+    }
+  },
+  {
     "title": "Cross-border fast payments grew through regional networks with different designs",
     "bank": "Bank of Canada",
     "date": "2026-11-18",
@@ -1038,6 +1103,19 @@
       "title": "The UK’s regional growth: unlocking the economy’s full potential — Andrew Bailey",
       "jurisdiction": "United Kingdom",
       "type": "Speech"
+    }
+  },
+  {
+    "title": "An oil supply shock reaches bank loan books well after firms’ credit risk rises",
+    "bank": "European Central Bank",
+    "date": "2026-11-18",
+    "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_05~854c97b8a1.en.html",
+    "excerpt": "The ECB authors find that the earliest measurable deterioration after an oil supply disruption appears in corporate default expectations.",
+    "file": "2026-11-18-92a406d77e.json",
+    "publication": {
+      "title": "The effects of oil supply shocks on corporate resilience, bank asset quality and lending",
+      "jurisdiction": "Euro area",
+      "type": "Research"
     }
   },
   {
@@ -1126,6 +1204,19 @@
       "jurisdiction": "United States",
       "type": "Speech",
       "title": "Christopher Waller · Considerations at the Intersection of Payments and Tokenized Markets"
+    }
+  },
+  {
+    "title": "US tech borrowing changes what a long-dated euro credit portfolio owns",
+    "bank": "European Central Bank",
+    "date": "2026-11-17",
+    "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_04~f35a6e3544.en.html",
+    "excerpt": "A euro investment-grade investor can add exposure to US technology revenues without buying a dollar bond or increasing the portfolio’s overall equity weight.",
+    "file": "2026-11-17-e516a5fbc6.json",
+    "publication": {
+      "title": "Big tech’s growing presence in the euro-denominated bond market: implications for investors",
+      "jurisdiction": "Euro area",
+      "type": "Research"
     }
   },
   {

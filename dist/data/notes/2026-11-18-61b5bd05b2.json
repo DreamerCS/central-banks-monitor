@@ -1,0 +1,29 @@
+{
+  "title": "Who owes the cash when AI investment is financed outside the hyperscaler?",
+  "bank": "European Central Bank",
+  "date": "2026-11-18",
+  "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_03~4fd1449eaa.en.html",
+  "summary": [
+    "The ECB authors trace a change in who bears the downside of the AI buildout. For most US hyperscalers, 2026 infrastructure spending exceeded operating cash flow. Borrowing increasingly rests with developers or owners of computing equipment whose revenues depend on promises from the same small group of customers. These arrangements can support productive investment. They can also make leverage look low at the very company on whose future cash payments several lenders depend.",
+    "The scale estimates cover different things. Broker forecasts dated 26 October put cumulative capital spending by seven large US technology companies at roughly $5.5 trillion by 2030, with considerable dispersion. A separate estimate puts annual AI investment requirements above 3% of US GDP over 2025–32. Neither is debt already issued. Broadcom and Nvidia were generating rising free cash flow as demand for chips increased, even as spending absorbed cash at their hyperscaler customers. The distinction matters if a portfolio holds the supplier and finances the buyer on the premise that their risks are independent.",
+    "Chart A reconstructs liabilities from company filings. As of the second quarter the authors estimate more than $4 trillion in off-balance-sheet commitments across big tech. The chart distinguishes contracted purchases and leases from guarantees that require payment only under specified conditions. A signed US lease can appear in the notes before use of the asset triggers balance-sheet recognition. The estimates use the latest available filings, which do not span identical financial periods, and staff manually checked the extracted figures. Adding every undertaking to drawn debt at face value would lose the timing and conditionality that determine cash stress.",
+    "The stylised chain in Chart A illustrates the connection. An AI lab promises lease payments on equipment held in a special-purpose vehicle. An outside investor finances those assets. If demand disappoints, the lab can default on the lease, a guarantee can fall due and a service provider can postpone chip purchases. The supplier can lose both orders and the value of stakes held in its customers. Revaluations of private holdings have already contributed to reported income at Alphabet and Amazon. Chart B’s “other income” includes unrealised gains and dividend income. It is a poor proxy for cash available to service a project lender.",
+    "Time magnifies that dependence. Market intelligence cited in Chart B places the economic life of advanced equipment at one to three years. Most hyperscalers had extended accounting lives for servers and networking equipment from three years in 2020 to six in 2026. Outstanding bonds run much longer. A facility can retain value after its chips require replacement, but cash for repeated upgrades then competes with interest and principal. As at 10 November, substantial liabilities extended beyond either equipment-life measure. The market had also begun demanding wider spreads on big-tech debt relative to equivalently rated US corporates, particularly at long maturities. Chart B shows a wide range between issuers. The authors interpret the move as possible scepticism about ratings, alongside growing issuance. It supplies no default probability or issuer-specific fair spread.",
+    "Cheaper competing models, constrained electricity or grid connections, and faster chip obsolescence could each leave less revenue to meet commitments. Earnings had broadly met expectations to date. The authors use the dotcom cycle to illustrate overinvestment despite a successful technology, and subprime finance to illustrate how opaque debt and interlocking claims can transmit losses. Euro area households and institutions could be hit through securities holdings and funds, then through weaker confidence, demand and tighter financial conditions. These are conditional spillovers. The report offers no estimate of losses from a particular borrower default."
+  ],
+  "questions": [
+    {
+      "question": "How much contracted revenue ultimately comes from an independently funded customer?",
+      "detail": "The financing diagram shows how one group can simultaneously lend, invest and buy services. Trace the largest developers’ contracted receipts to ultimate customers, supplier financing and termination clauses using project debt documents and counterparties’ filings. The answer changes both cash-flow coverage and the diversification value of owning several issuers in the chain."
+    },
+    {
+      "question": "Which commitments come due before a data centre can earn cash?",
+      "detail": "The aggregate mixes fixed obligations and contingent support. Build a dated schedule of lease commencement, energisation, guaranteed purchases and cash reserves from filings and project contracts. Delayed connection with a live purchase commitment is a different credit event from an otherwise identical delay in a project whose payments start only on delivery."
+    },
+    {
+      "question": "Are long-end spreads paying for residual asset risk or accommodating new supply?",
+      "detail": "The relative spread has widened while issuance has grown. Compare same-rating, duration-matched secondary bonds with new-issue concessions and subsequent trading, and cross-check depreciation assumptions against lease renewals and replacement costs. A premium that persists between issuance waves would strengthen the case that lenders require compensation for risk after the first generation of chips retires."
+    }
+  ],
+  "limitation": ""
+}

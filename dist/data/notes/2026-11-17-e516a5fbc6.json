@@ -1,0 +1,28 @@
+{
+  "title": "US tech borrowing changes what a long-dated euro credit portfolio owns",
+  "bank": "European Central Bank",
+  "date": "2026-11-17",
+  "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_04~f35a6e3544.en.html",
+  "summary": [
+    "A euro investment-grade investor can add exposure to US technology revenues without buying a dollar bond or increasing the portfolio’s overall equity weight. Duquerroy, Furtuna and Vaz Cruz show why the effect is easiest to miss in long-dated mandates. US hyperscalers still make up a small part of the overall euro corporate index, but account for nearly 8% of its bonds with more than ten years remaining. Long maturities mean that exposure persists even if issuance subsides. Investors holding the same companies in an equity portfolio may discover that both allocations depend on returns from the same investment programme.",
+    "The authors report more than $200 billion of issuance by hyperscalers this year in the dollar investment-grade corporate market. That is an issuance flow in dollars. Chart A instead measures the outstanding market value of bonds in the euro benchmark at 30 June. It shows earlier issuance waves in telecoms and real estate reaching appreciable shares of the entire index. The headline AI share is smaller, while the ten-year-plus bucket gives a different picture. The new tech bonds have typically run two to six years longer than peer issuance over the comparison period. Longer liabilities fund assets that in some cases depreciate rapidly. Whether their issuers can replace equipment and continue servicing debt depends on the resilience of revenues beyond the initial investment cycle.",
+    "US parent companies already represent close to one-fifth of the broad euro investment-grade benchmark. The authors recognise benefits to euro investors from a wider range of highly rated names, sectors and maturities. Currency of denomination nevertheless says little about where a company earns its cash or which equity shock might cause its credit spread to rise. The distinction is especially relevant to insurers and pension funds seeking long-duration assets to match their liabilities.",
+    "Chart B measures this link using weekly changes in the option-adjusted spread of euro non-financial corporates and Nasdaq Composite returns. The plotted regression uses rolling 26-week windows and ends in the week of 31 August. A negative coefficient conventionally means rising equities coincide with tighter spreads and falling equities with wider spreads. That interpretation agrees with the main text. A sentence in the chart note describes compression with falling equities, which reverses the stated sign. The coefficient became strongly negative around the turn of 2026 before moving back towards its post-pandemic average. Common changes in risk appetite can move both markets, and the rolling regression does not isolate the effect of new tech issuance.",
+    "The holdings evidence is more restrained. From the first quarter of 2025 to the second quarter of 2026, euro area insurers and pension funds increased their tilt towards hyperscalers only slightly relative to the benchmark. Their shift towards sovereigns was much larger. Other corporate and sub-sovereign, supranational and agency debt lost relative weight. The comparison includes direct holdings and a measure incorporating indirect exposures. An underweight relative to index growth can arise without outright selling. No evidence here establishes that a particular sovereign or peer company has already paid more because a hyperscaler issued. Competition for duration buyers could become important if AI-related borrowing continues as investor demand weakens."
+  ],
+  "questions": [
+    {
+      "question": "How much AI exposure does a liability-matched portfolio gain per unit of interest-rate duration?",
+      "detail": "The long bucket carries nearly 8% hyperscaler exposure, but its weighted spread duration and the overlap with equity holdings determine portfolio losses. Use security-level benchmark weights, the insurers’ holdings series cited in Chart B and issuer-level revenue exposures. Compare rate-duration-matched portfolios with and without the largest tech parents."
+    },
+    {
+      "question": "Does the equity–credit sensitivity survive removing hyperscaler bonds?",
+      "detail": "A common risk shock could explain part of the rolling regression. Re-estimate its weekly specification on a constant-composition index and on non-tech corporates, with duration, sector and credit quality matched. If both groups widen equally when Nasdaq falls, issuer selection alone provides little protection against the common factor."
+    },
+    {
+      "question": "Is new issuance already forcing competing borrowers to offer a concession?",
+      "detail": "The holdings tilt is small and the latest observation precedes publication by several months. Compare order books, syndication concessions, placements and secondary spreads for contemporaneous long-dated sovereign, agency and corporate issues. A persistent funding penalty after matching market conditions would make crowding out consequential for relative value."
+    }
+  ],
+  "limitation": ""
+}

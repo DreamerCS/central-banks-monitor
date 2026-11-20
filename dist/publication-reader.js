@@ -124,6 +124,7 @@ const PublicationReader = (() => {
   }
 
   const workedCases = [
+    ["https://www.dallasfed.org/news/speeches/logan/2026/lkl261113", "tips-liquidity-2008-2020", "When ten-year breakevens fall in a Treasury sell-off"],
     ["https://www.bancaditalia.it/pubblicazioni/rapporto-stabilita/2026-2/index.html?com.dotmarketing.htmlpage.language=1", "italian-btp-repo-2026", "Italian BTP repo and rollover funding"],
     ["https://www.bundesbank.de/en/press/speeches/statement-on-the-publication-of-the-financial-stability-review-2026-of-the-deutsche-bundesbank-1014858", "italian-btp-repo-2026", "Italian BTP repo and rollover funding"],
     ["https://www.cnb.cz/en/monetary-policy/monetary-policy-reports/Monetary-Policy-Report-Autumn-2026", "czech-inflation-forecast-2026", "Czech inflation, growth and the policy path"],

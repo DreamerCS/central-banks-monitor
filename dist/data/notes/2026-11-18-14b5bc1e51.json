@@ -1,0 +1,29 @@
+{
+  "title": "Euro credit repriced before borrower fundamentals deteriorated",
+  "bank": "European Central Bank",
+  "date": "2026-11-18",
+  "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_02~abc7852b04.en.html",
+  "summary": [
+    "By early November, investors in euro area corporate bonds had surrendered much of the discount to model-implied spreads they had accepted earlier in 2026. The ECB authors attribute almost all the recent widening to a recovery in the excess bond premium. Their estimate of compensation for borrower fundamentals barely moved. The implication for a credit manager is uncomfortable. Even with few additional defaults, a portfolio bought at exceptionally tight spreads can incur losses if investors demand more compensation for holding the same risk.",
+    "The starting point was October 2022, when disruption to energy supplies, inflation and tighter monetary policy heightened recession fears. From then to September 2026, fundamentals explained less than a fifth of the narrowing. The average excess premium became negative in October 2024. For much of 2026 almost nine in ten bonds traded inside the spread predicted by the model. By early November the average premium had returned close to zero, while the comparable US measure remained distinctly negative. That divergence points to a euro area component in the reversal, even if the earlier search for yield had international drivers.",
+    "Chart A shows the difference between market prices and the explanatory model. The high-yield and investment-grade indices measure spreads over the six-month EURIBOR curve and use separate vertical scales. The decomposition uses senior unsecured non-financial corporate debt with more than a year to maturity. Its fitted spreads account for distance to default, rating, duration, issue size, callability, coupon, country and industry. The premium is the unexplained part. A shift in it is consistent with a change in investors’ willingness or capacity to take risk. An omitted change in underlying risk could also affect the residual. The authors measure unusually low compensation relative to that specification. They do not observe investors’ desired positions.",
+    "Borrower quality has provided some cushion. Median one-year expected default frequency remained near historical lows, though the proportion of riskier borrowers was still elevated. A smaller high-yield share and average bond duration falling from over five years in 2020 to around four helped keep market spreads down. Weaker firms may have migrated to private credit or leveraged loans. Country of domicile alone explains only 5% of spread variation, against 28% for rating in separate regressions. A healthier public benchmark is therefore an imperfect guide to the financing conditions faced by all firms.",
+    "Shorter maturities also bring forward refinancing. Chart B ranks issuers weekly by distance to default. The riskiest quintile enjoyed the deepest compression into July and has most to lose in a reversal. The authors’ daily sign-restricted model estimates a global risk shock passes through about 4.7 times as strongly to high-yield as to investment-grade spreads. This is a relative median response. The rollover calculation instead compares an individual bond’s yield to worst with its coupon. Under the historical repricing scenario the figure shows a gap around three percentage points for the riskiest group, still below its 2023 peak because some outstanding coupons have already reset higher.",
+    "In 2020 and 2022 the excess premium could rise more than 100 basis points in a quarter. A comparable move implies a mark-to-market loss of up to 4% on the outstanding bond stock in the authors’ scenario. Investment funds and insurers respectively held 39% and 20% of the euro area non-financial corporate bonds owned by euro area residents in the second quarter. The scenario quantifies price exposure. Actual total returns also depend on the underlying curve and carry, and the holders’ ability to sit through losses affects how much pressure returns to the market."
+  ],
+  "questions": [
+    {
+      "question": "Would the recent widening survive a broader model of default and liquidity risk?",
+      "detail": "The fitted component barely changes while the residual rises. Match bonds within issuers and compare movements in cash spreads, default-swap quotes, bid–ask costs and earnings revisions. The specification cited in footnote 1 gives a starting point. A common liquidity discount would change how a manager distinguishes a temporary entry opportunity from deteriorating credit."
+    },
+    {
+      "question": "Where will higher yields first become a cash-flow problem?",
+      "detail": "The quintile comparison estimates a coupon reset at current prices. The dates on which each borrower must refinance, and whether cash or committed lines cover the maturity, determine when this affects debt service. Combine issuer maturity schedules and covenant disclosures with primary-market terms, giving particular attention to lower-rated borrowers that have already left the bond sample."
+    },
+    {
+      "question": "Which holders would have to realise the scenario loss?",
+      "detail": "Sector ownership identifies where valuations move, while liquidity needs determine sales. Compare fund redemptions and cash buffers with insurers’ collateral needs and liability duration in supervisory holdings and flow data. Synchronous sales into thin dealer inventories would make the same initial spread shock more damaging."
+    }
+  ],
+  "limitation": ""
+}
