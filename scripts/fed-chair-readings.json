@@ -1,0 +1,578 @@
+[
+ {
+  "url": "https://www.federalreserve.gov/boarddocs/speeches/2001/200105242/default.htm",
+  "date": "2001-05-24",
+  "leader": "Greenspan",
+  "score": -1,
+  "rationale": "A deeper slowdown could justify extending the easing already delivered.",
+  "sentence": 150,
+  "textSha256": "f2d169c633d307b68f79eec610715713f99dba217fa1d98545b3d621f7e27db1"
+ },
+ {
+  "url": "https://www.federalreserve.gov/boarddocs/speeches/2004/20040608/default.htm",
+  "date": "2004-06-08",
+  "leader": "Greenspan",
+  "score": 2,
+  "rationale": "The Committee expected to withdraw accommodation in measured steps.",
+  "sentence": 59,
+  "textSha256": "7674dee38d200fa82010fee9045be18f48bb2ce91a9455e89306f008d91d9d8f"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20061128a.htm",
+  "date": "2006-11-28",
+  "leader": "Bernanke",
+  "score": 1,
+  "rationale": "Inflation was the larger risk. A policy response depended on whether the pressure persisted.",
+  "sentence": 19,
+  "textSha256": "7662586c8c9781b2a2e48a6a20e77d78f54fb6bfefb284c29672a04824a9bd99"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20070831a.htm",
+  "date": "2007-08-31",
+  "leader": "Bernanke",
+  "score": -1,
+  "rationale": "The Fed stood ready to counter wider economic damage from credit disruptions. Bernanke left the instrument open.",
+  "sentence": 66,
+  "textSha256": "a135fed7359b0e1f7e5e5116caa81f7d131099d9e88fbaa7d77501c88ee97909"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080110a.htm",
+  "date": "2008-01-10",
+  "leader": "Bernanke",
+  "score": -1,
+  "rationale": "The deteriorating growth outlook put additional easing on the table.",
+  "sentence": 130,
+  "textSha256": "bba87b0f2fb75fe2952bf7231fc6099de2f126c114cf9819b597f38be5bd7596"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20080603a.htm",
+  "date": "2008-06-03",
+  "leader": "Bernanke",
+  "score": 0,
+  "rationale": "Bernanke judged the stance after the rate cuts appropriate for the time being.",
+  "sentence": 76,
+  "textSha256": "f00aafe8b2883f7781d365a3357110bb1b1780074956979062ddbde80a94f0eb"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20081007a.htm",
+  "date": "2008-10-07",
+  "leader": "Bernanke",
+  "score": -1,
+  "rationale": "Weaker growth and reduced inflation pressure tilted the forthcoming policy review toward easing.",
+  "sentence": 90,
+  "textSha256": "cd5b8aad42a2a793865b278de45a98d8f0761fd7a6c250f6145d3d38bf6e4563"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20090113a.htm",
+  "date": "2009-01-13",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "The Committee expected to keep the federal funds rate very low beyond the immediate crisis response.",
+  "sentence": 40,
+  "textSha256": "6a3b26186446513f912647cf7c517ffac6b7574625e0fb047153de72ff1456e3"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20090414a.htm",
+  "date": "2009-04-14",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "Bernanke reaffirmed an extended period of low policy rates.",
+  "sentence": 58,
+  "textSha256": "6ecd60331caab8f1326b9ccde36e24006478d15f32235e5cd5afae73efe2c042"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20091008a.htm",
+  "date": "2009-10-08",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "The recovery would eventually require an exit. Extended accommodation was still the baseline.",
+  "sentence": 134,
+  "textSha256": "da4b5a1702af51cbf0a8b4a05b8918295c9f04f80d649e82edbcb859e6585f91"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20091116a.htm",
+  "date": "2009-11-16",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "Weak resource use and subdued inflation supported keeping rates exceptionally low.",
+  "sentence": 140,
+  "textSha256": "e3cf25910e0c4cbac5ad369598b3e701f13d3fd34677413ed4b7c069586c81ca"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20100827a.htm",
+  "date": "2010-08-27",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "Bernanke reaffirmed the low-rate baseline while considering additional instruments.",
+  "sentence": 87,
+  "textSha256": "3292486b33608079176189fb7c8aad892b8c98cbf0a34da375d232a78d26427e"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20101015a.htm",
+  "date": "2010-10-15",
+  "leader": "Bernanke",
+  "score": -1,
+  "rationale": "The Committee could deliver additional accommodation if recovery or inflation fell short.",
+  "sentence": 130,
+  "textSha256": "8d37397d6302bba4b194b3f2a2ab33c1c049f6de6d32d912a373d2c3b302b9e2"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20110203a.htm",
+  "date": "2011-02-03",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "Bernanke reaffirmed low-rate guidance alongside the asset-purchase program.",
+  "sentence": 34,
+  "textSha256": "3cc03cfde890d030a051e3aef3972f32aa1cccc49dd81727bff5f73940b54c39"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20110607a.htm",
+  "date": "2011-06-07",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "The expected low-rate period extended beyond the approaching end of the current purchases.",
+  "sentence": 138,
+  "textSha256": "ab70b6b71c818ee19e2e7adf719c2950f20b9ffd0adac3c898565e6a58994db4"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20110826a.htm",
+  "date": "2011-08-26",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "Bernanke explained why the baseline kept rates near zero for roughly another two years.",
+  "sentence": 64,
+  "textSha256": "14e32040a1f10572a0614557e201356e631af1412b7a547487d6332dc415c380"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20110908a.htm",
+  "date": "2011-09-08",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "The Committee retained mid-2013 as its horizon for very low rates.",
+  "sentence": 78,
+  "textSha256": "d2978827f6cab5781a0845f68df0b2648ec12454a95d6b0a95a605cc13529740"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20120831a.htm",
+  "date": "2012-08-31",
+  "leader": "Bernanke",
+  "score": -1,
+  "rationale": "Further support was conditional on the recovery and labor market.",
+  "sentence": 155,
+  "textSha256": "cc667dbc069a168414b9835de019144a38bc748ee0efc4a201bf880e3d9876ec"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20121001a.htm",
+  "date": "2012-10-01",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "The expected duration of accommodation extended beyond the initial recovery.",
+  "sentence": 57,
+  "textSha256": "dedaebed0393bda27765e8d4d991f72435bed812be420eed899342dda7eb78dc"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20121014a.htm",
+  "date": "2012-10-14",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "Bernanke reaffirmed extended accommodation after a strengthening recovery.",
+  "sentence": 24,
+  "textSha256": "d3ccf59349ac12c45fddf488c3e704a7f868ab268c2c8917c55093eb03ee19e6"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20121120a.htm",
+  "date": "2012-11-20",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "Low rates were expected to outlast the period of economic weakness.",
+  "sentence": 119,
+  "textSha256": "b9dd4288599b33508f54fee8d7c99cfef022cad65af9fa641c326916689695db"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20130301a.htm",
+  "date": "2013-03-01",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "The low-rate commitment was linked to unemployment, projected inflation and inflation expectations.",
+  "sentence": 39,
+  "textSha256": "f8e449389ffe6478e7574ead8d31a08c57412a0a5aab4fd36d0accb6a329f03d"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20131119a.htm",
+  "date": "2013-11-19",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "Bernanke separated the near-zero policy-rate path from the prospective end of asset purchases.",
+  "sentence": 145,
+  "textSha256": "197bd840c4f6babacb70e4da0766dfb6d73313a46f9108bb904123c967c15406"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/bernanke20140103a.htm",
+  "date": "2014-01-03",
+  "leader": "Bernanke",
+  "score": -2,
+  "rationale": "Bernanke expected low rates even after unemployment crossed the previously identified threshold.",
+  "sentence": 113,
+  "textSha256": "a00c68e79ebc22666a8032f589e8ed1e6ef105bc81e51ae8453bbe41d90987da"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20140331a.htm",
+  "date": "2014-03-31",
+  "leader": "Yellen",
+  "score": -2,
+  "rationale": "Yellen linked persistent labor-market slack to extended policy support.",
+  "sentence": 138,
+  "textSha256": "1a3d32f2ea3fff1d3a9b0e45fdc808c684d7b4413fe0ef618838e3108523d9bb"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20140416a.htm",
+  "date": "2014-04-16",
+  "leader": "Yellen",
+  "score": -2,
+  "rationale": "Yellen described a low-rate baseline extending beyond the end of purchases.",
+  "sentence": 128,
+  "textSha256": "d13c8096d6c0956c67413f5f98e70428661c6ffa7b552476abbbc9a358f9123e"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20140822a.htm",
+  "date": "2014-08-22",
+  "leader": "Yellen",
+  "score": -2,
+  "rationale": "Yellen reaffirmed the extended low-rate baseline while discussing alternative labor-market paths.",
+  "sentence": 109,
+  "textSha256": "42648eb5747ed38bc18e689175b0dfd6f98bb7526b9151542615113e2582f973"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20150327a.htm",
+  "date": "2015-03-27",
+  "leader": "Yellen",
+  "score": 1,
+  "rationale": "Yellen saw a possible first increase that year, conditional on the incoming evidence.",
+  "sentence": 38,
+  "textSha256": "7378c9ab38c8c9efe363a808c5d277caa449f1ca8f3d17f529589ab665bf94f7"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20150522a.htm",
+  "date": "2015-05-22",
+  "leader": "Yellen",
+  "score": 1,
+  "rationale": "A first increase that year depended on continuing economic improvement.",
+  "sentence": 105,
+  "textSha256": "ec030993d37b0f685913ee8840c777fa9d54b50b52e6117c0d22bf9b01735e18"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20150710a.htm",
+  "date": "2015-07-10",
+  "leader": "Yellen",
+  "score": 2,
+  "rationale": "Yellen's baseline called for beginning rate normalization later in the year.",
+  "sentence": 118,
+  "textSha256": "e0ab54e220da31a2cfb9084a03654a08936c1bec690a92769609005f6f68bda5"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20150924a.htm",
+  "date": "2015-09-24",
+  "leader": "Yellen",
+  "score": 2,
+  "rationale": "Yellen and most colleagues expected to begin raising rates that year and proceed gradually.",
+  "sentence": 151,
+  "textSha256": "32c6ac1742067c09f130e76c11b1535fd4f7cc599c52f21876144eaf6815003c"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20160329a.htm",
+  "date": "2016-03-29",
+  "leader": "Yellen",
+  "score": 2,
+  "rationale": "Yellen expected the tightening cycle to continue at a gradual pace.",
+  "sentence": 8,
+  "textSha256": "64a1a59f4e8254a488deb40ac5588d3a26c4c4d4bf21e38575c53099defcf3e6"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20160606a.htm",
+  "date": "2016-06-06",
+  "leader": "Yellen",
+  "score": 1,
+  "rationale": "Further gradual increases depended on stronger employment and inflation progress.",
+  "sentence": 8,
+  "textSha256": "50c9617570cccae426f4486c1814fffb3c53a76f2b2d77b9e156a8355b3a0c26"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20160826a.htm",
+  "date": "2016-08-26",
+  "leader": "Yellen",
+  "score": 1,
+  "rationale": "Yellen said stronger labor data had increased the case for a hike.",
+  "sentence": 22,
+  "textSha256": "dd7593f52c439d9cba3fb3b731e66ee4b28224074600a562bacabe07adf28b7f"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20170118a.htm",
+  "date": "2017-01-18",
+  "leader": "Yellen",
+  "score": 2,
+  "rationale": "Yellen described a multiyear baseline of gradual increases toward neutral.",
+  "sentence": 91,
+  "textSha256": "8dad9aa950ad947fa816aea01c16e8400aabadcdfb413e853fc2d59c0d24ffa0"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20170303a.htm",
+  "date": "2017-03-03",
+  "leader": "Yellen",
+  "score": 2,
+  "rationale": "Further increases at a gradual pace remained the Committee's expected path.",
+  "sentence": 8,
+  "textSha256": "4d97886c2ce6d2bac0b2e0a40ccb551ac0c728cbda3ef8b610223f7da98a5808"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20170926a.htm",
+  "date": "2017-09-26",
+  "leader": "Yellen",
+  "score": 1,
+  "rationale": "Yellen warned that withholding modest increases could eventually overheat the labor market.",
+  "sentence": 129,
+  "textSha256": "cb6afc5f34dd491960c473b9ed938932ec77760faf7433fdb71185bdb80c0963"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/yellen20171015a.htm",
+  "date": "2017-10-15",
+  "leader": "Yellen",
+  "score": 2,
+  "rationale": "Continued economic strength supported the baseline of further gradual increases.",
+  "sentence": 55,
+  "textSha256": "9f3a8fa1c26e74d6a4a02eda9f0236045f5d464d9cd7396d798157619d4e4e9d"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20180406a.htm",
+  "date": "2018-04-06",
+  "leader": "Powell",
+  "score": 2,
+  "rationale": "The economy's baseline trajectory called for continuing gradual rate increases.",
+  "sentence": 148,
+  "textSha256": "003169f15cda15f7656d352655cfa8e2865e1359ef060a265a9ed86c94a79789"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20180620a.htm",
+  "date": "2018-06-20",
+  "leader": "Powell",
+  "score": 2,
+  "rationale": "Powell said gradual increases had broad support while risks remained balanced.",
+  "sentence": 67,
+  "textSha256": "4c9a04f27f16f0c6a3ee5531035adc5e6c9f3e38398726d9b8a8f8293e9ce164"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20180824a.htm",
+  "date": "2018-08-24",
+  "leader": "Powell",
+  "score": 2,
+  "rationale": "Continued growth in income and jobs supported his baseline of further gradual increases.",
+  "sentence": 135,
+  "textSha256": "0d0219129b2bfb8b502b75d3937f12616f94424ddc41b710b69c897cf4b2c938"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20190308a.htm",
+  "date": "2019-03-08",
+  "leader": "Powell",
+  "score": 0,
+  "rationale": "Powell endorsed waiting before changing the stance after the preceding tightening cycle.",
+  "sentence": 144,
+  "textSha256": "b1c398dac308109e0ecbe88bda6149ed3b662df492294684a0e6265947a46256"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20190625a.htm",
+  "date": "2019-06-25",
+  "leader": "Powell",
+  "score": -1,
+  "rationale": "Powell described growing support for easier policy in light of risks to the expansion.",
+  "sentence": 60,
+  "textSha256": "71dd8b6b94020b0e06729cb33d79d20cfd2ebead33498e086959addffb168ebe"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20190716a.htm",
+  "date": "2019-07-16",
+  "leader": "Powell",
+  "score": -1,
+  "rationale": "Powell described how global risks and persistent inflation shortfalls had strengthened the case for easing.",
+  "sentence": 35,
+  "textSha256": "158758f02d9c5edaf01c33dbbd7f65346c6f02189b8ca6f3739427acba1eef32"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20191125a.htm",
+  "date": "2019-11-25",
+  "leader": "Powell",
+  "score": 0,
+  "rationale": "After three insurance cuts, Powell expected to hold if the outlook stayed broadly intact.",
+  "sentence": 58,
+  "textSha256": "ab897b911344f07f37c38ab8bcf1ea5108f582aa25db8d17262116788e7e1613"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20201006a.htm",
+  "date": "2020-10-06",
+  "leader": "Powell",
+  "score": -2,
+  "rationale": "Powell expected very low rates until employment and inflation met specified conditions.",
+  "sentence": 92,
+  "textSha256": "92854336b418549f62aef869bb5c07240a7087bc54aeb5f585525e1e92786450"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20210210a.htm",
+  "date": "2021-02-10",
+  "leader": "Powell",
+  "score": -2,
+  "rationale": "Powell reiterated a conditional commitment to keep the prevailing accommodative rate range.",
+  "sentence": 82,
+  "textSha256": "06fbaff9c5045e5fdddf412eef228b3e3781f34a3cfc3ca17d91452bd8344729"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20210827a.htm",
+  "date": "2021-08-27",
+  "leader": "Powell",
+  "score": -2,
+  "rationale": "Powell retained rate-hike thresholds while discussing the separate timing of a taper.",
+  "sentence": 115,
+  "textSha256": "35ca6eb1f1e5f7531c2318ddffb4ecc8c34e91dad0bb47d04d164ce2058bc23e"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20220321a.htm",
+  "date": "2022-03-21",
+  "leader": "Powell",
+  "score": 2,
+  "rationale": "Powell called for moving rates rapidly back toward neutral and potentially beyond.",
+  "sentence": 6,
+  "textSha256": "6bc84217b27fa8f98820c0bcde1c69ee7059a188f5a460335dba03ed37fba729"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20220826a.htm",
+  "date": "2022-08-26",
+  "leader": "Powell",
+  "score": 2,
+  "rationale": "Powell expected to keep policy restrictive for an extended period to restore price stability.",
+  "sentence": 27,
+  "textSha256": "1002cf71b68fecb57da8cfa8098a99c4f403f5614f87cd427ca80ffcfdf6e11b"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20221130a.htm",
+  "date": "2022-11-30",
+  "leader": "Powell",
+  "score": 2,
+  "rationale": "A slower pace of hikes was compatible with the baseline of further increases.",
+  "sentence": 25,
+  "textSha256": "65faa0bd2039774ca350facb773f8df585c4e05047f624592801e265635b116f"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20230629a.htm",
+  "date": "2023-06-29",
+  "leader": "Powell",
+  "score": 2,
+  "rationale": "Most participants expected multiple additional hikes by year-end.",
+  "sentence": 27,
+  "textSha256": "b1c234eeaa73577f0406f0d5ec75d123cdfaf05c351a05fac7f9b34073e07148"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20230825a.htm",
+  "date": "2023-08-25",
+  "leader": "Powell",
+  "score": 1,
+  "rationale": "Powell kept further hikes conditional and expected to retain a restrictive setting.",
+  "sentence": 5,
+  "textSha256": "f8752c02e22e676fdaa50445e2948323a95415ef91972cbb66a28bdfca7be421"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20231019a.htm",
+  "date": "2023-10-19",
+  "leader": "Powell",
+  "score": 1,
+  "rationale": "Persistent strength in demand or labor markets could justify more tightening.",
+  "sentence": 34,
+  "textSha256": "16b1aa5698b8c9309211c9192f7db7d479c10207e0a82053f24bb803bc0bdb7b"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20231109a.htm",
+  "date": "2023-11-09",
+  "leader": "Powell",
+  "score": 1,
+  "rationale": "Powell reserved the option of another hike if the prevailing stance proved insufficient.",
+  "sentence": 11,
+  "textSha256": "47365eb3babb1286c9a67ff4ef8f1b13f1c48ee024411e922244bf4952a9378c"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20231201a.htm",
+  "date": "2023-12-01",
+  "leader": "Powell",
+  "score": 1,
+  "rationale": "Powell kept additional tightening available and discouraged speculation about easing.",
+  "sentence": 38,
+  "textSha256": "8f78f13f8921846c513bccebc5a6f04683129b9cbe92bef2a53f98fdff34f434"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20240403a.htm",
+  "date": "2024-04-03",
+  "leader": "Powell",
+  "score": -1,
+  "rationale": "If the economy followed its projected path, rate cuts could begin that year.",
+  "sentence": 23,
+  "textSha256": "32ba306ea5d2186fde988eef391ed0ffde13c27c24e0a2243e6beaa4c3968bcf"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20240823a.htm",
+  "date": "2024-08-23",
+  "leader": "Powell",
+  "score": -2,
+  "rationale": "Powell signaled an easing path while leaving the pace of cuts dependent on the data.",
+  "sentence": 40,
+  "textSha256": "8d3fc888057c84f4adf5e29e578ad7edc30425ef397d76ab9b4429a7386e7758"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20240930a.htm",
+  "date": "2024-09-30",
+  "leader": "Powell",
+  "score": -1,
+  "rationale": "Conditional on the economic outlook, policy could move from restriction toward neutral.",
+  "sentence": 41,
+  "textSha256": "ac452018218f73b4770ac140c25055ebd98fd9c436db7d5c52d0db4c616adcd7"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20241114a.htm",
+  "date": "2024-11-14",
+  "leader": "Powell",
+  "score": -1,
+  "rationale": "Powell retained an easing direction while emphasizing that further cuts could proceed slowly.",
+  "sentence": 40,
+  "textSha256": "f9ece919f73b5fd3a19456f7ae3afb7ccbb5b4ba460c2d57dd1eb55297b66452"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20250307a.htm",
+  "date": "2025-03-07",
+  "leader": "Powell",
+  "score": 0,
+  "rationale": "Powell favored waiting for clearer evidence before the next rate move.",
+  "sentence": 33,
+  "textSha256": "4276e10574419646b5108f209d9e4516ac4225682c6f41732e58ff3d79b44660"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20250404a.htm",
+  "date": "2025-04-04",
+  "leader": "Powell",
+  "score": 0,
+  "rationale": "Powell explicitly favored waiting amid heightened uncertainty.",
+  "sentence": 42,
+  "textSha256": "3b72d170cdc260df263c01fd4fe718c85fa43103de5805ff3b1079f1748ec48e"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20250416a.htm",
+  "date": "2025-04-16",
+  "leader": "Powell",
+  "score": 0,
+  "rationale": "Powell again favored waiting for clarity while inflation and employment risks competed.",
+  "sentence": 38,
+  "textSha256": "1c27114b378d80b375603fb1c36ab4665e8686abb6e8887aeee3cd9e78945b5c"
+ },
+ {
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20250822a.htm",
+  "date": "2025-08-22",
+  "leader": "Powell",
+  "score": -1,
+  "rationale": "At a restrictive policy setting, changing employment risks could justify easing.",
+  "sentence": 58,
+  "textSha256": "b70cd6ca27dc0b4b384d620a8c504a80d34c62e90eea80494c4c3570babdc09e"
+ }
+]
