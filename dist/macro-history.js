@@ -386,6 +386,21 @@ async function compare() {
     further.append(link("Read " + ({volcker:"the Volcker chronology","oil-embargo":"the oil-shock chronology","financial-crisis":"the financial crisis chronology",pandemic:"the pandemic chronology","recent-inflation":"the reopening chronology"}[id] || "episode"),local("cycles",{episode:id})));
   }
   article.append(further);
+  const windows = {
+    "oil-reopening":[["Fed, 15 June 2022","fed","2022-06-15"]],
+    "volcker-reopening":[["Fed, 15 June 2022","fed","2022-06-15"]],
+    "atlantic-2022":[["ECB, 21 July 2022","ecb","2022-07-21"],["Fed, 27 July 2022","fed","2022-07-27"]]
+  };
+  if (windows[pair.id]) {
+    const links = el("p");
+    links.append(document.createTextNode("Inspect the announcement windows: "));
+    windows[pair.id].forEach(([name,bank,day],i)=>{
+      if (i) links.append(document.createTextNode(" · "));
+      const query = new URLSearchParams({bank,year:day.slice(0,4),date:day,window:"statement"});
+      links.append(link(name,"market-reactions.html?" + query + "#mr-windows"));
+    });
+    article.append(links);
+  }
   function draw(updateUrl) {
     const measure = comparisonMeasures[key], names = events.map(e=>e.name);
     const paths = panels.map((panel,i) => comparisonPath(panel.rows,events[i].month,key,reference));

@@ -508,15 +508,17 @@ async function start() {
     event.preventDefault();
     inspect(Math.min(last, Math.max(0, next)), true);
   });
-  ui["chart-swiss-floor"].addEventListener("click", () => {
-    metric = "rates";
-    view = "level";
-    grain = "month";
-    selected.rates = ["CH"];
-    setRange(toDay("2011-09-01"), toDay("2015-01-30"));
-    render();
-    ui["chart-title"].focus();
-  });
+  for (const button of document.querySelectorAll("[data-episode-bank]")) {
+    button.addEventListener("click", () => {
+      metric = "rates";
+      view = "level";
+      grain = button.dataset.frequency;
+      selected.rates = [button.dataset.episodeBank];
+      setRange(toDay(button.dataset.start), toDay(button.dataset.end));
+      render();
+      ui["chart-title"].focus();
+    });
+  }
   ui["history-export"].addEventListener("click", exportCsv);
 }
 

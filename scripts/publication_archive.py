@@ -14,8 +14,37 @@ VERIFIED_PUBLICATION_URLS = {
 }
 
 
+# These corrections identify one dated feed entry. Annual catalogues may be
+# reused for later releases, so they must never become permanent URL aliases.
+DATED_PUBLICATIONS = {
+    ("2026-11-06", "https://www.boj.or.jp/en/research/imes/dps/dps26.htm"): {
+        "url": "https://www.imes.boj.or.jp/research/abstracts/english/26-E-14.html",
+        "title": "Generative AI for Economic Simulation: Heterogeneity in Subjective Models of Inflation",
+        "type": "Research",
+    },
+    ("2026-11-06", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24098"): {
+        "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=24098",
+    },
+    ("2026-11-03", "https://www.snb.ch/en/publications/research/working-papers/2026/working_paper_2026_14"): {
+        "date": "2026-11-04",
+        "title": "Forecasting the post-COVID inflation surge in Switzerland",
+    },
+}
+
+
+def correct_dated_publication(row):
+    """Normalize the official item before any feed or archive deduplication."""
+    day_key = "day" if "day" in row else "date"
+    correction = DATED_PUBLICATIONS.get((row.get(day_key), row["url"]))
+    if not correction:
+        return row
+    return {**row, **{day_key if key == "date" else key: value
+                      for key, value in correction.items()}}
+
+
 def with_previous_urls(row):
     """Keep catalogue identifiers attached to the corrected publication."""
+    row = correct_dated_publication(row)
     url = VERIFIED_PUBLICATION_URLS.get(row["url"], row["url"])
     previous = set(row.get("previousUrls", []))
     previous.update(old for old, current in VERIFIED_PUBLICATION_URLS.items() if current == url)

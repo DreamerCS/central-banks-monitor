@@ -125,3 +125,8 @@
   .policy-timeline li { gap: 4px; }
   .policy-path-table { font-size: .8rem; }
 }
+
+.policy-case-links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 28px; }
+.policy-case-links a { color: #315e4f; font-size: .86rem; text-decoration: underline; text-underline-offset: .2em; }
+.policy-case-links + .policy-episode { margin-top: 10px; }
+.policy-episode { scroll-margin-top: 1rem; }

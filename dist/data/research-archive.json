@@ -745,12 +745,28 @@
     "url": "https://nbp.pl/projekcja-inflacji-i-pkb-listopad-2026/"
   },
   {
+    "jurisdiction": "Japan",
+    "date": "2026-11-06",
+    "institution": "Bank of Japan",
+    "title": "Generative AI for Economic Simulation: Heterogeneity in Subjective Models of Inflation",
+    "type": "Research",
+    "url": "https://www.imes.boj.or.jp/research/abstracts/english/26-E-14.html"
+  },
+  {
     "date": "2026-11-06",
     "title": "Gabriel Cuadra · Crecimiento económico en México: retos y perspectivas",
     "jurisdiction": "Mexico",
     "institution": "Banco de México",
     "type": "Speech",
     "url": "https://www.banxico.org.mx/publicaciones-y-prensa/presentaciones/%7B93DED036-5130-4DB6-3FFE-E5257E067CE4%7D.pdf"
+  },
+  {
+    "jurisdiction": "India",
+    "date": "2026-11-06",
+    "institution": "Reserve Bank of India",
+    "title": "Census on Foreign Liabilities and Assets of Indian Direct Investment Entities for 2025-26",
+    "type": "Research",
+    "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?id=24098"
   },
   {
     "jurisdiction": "United States",
@@ -892,7 +908,13 @@
     "institution": "Swiss National Bank",
     "title": "Forecasting the post-COVID inflation surge in Switzerland",
     "type": "Research",
-    "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/research/working-papers/2026/working_paper_2026_14/publications0_en/working_paper_2026_14.pdf"
+    "url": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/research/working-papers/2026/working_paper_2026_14/publications0_en/working_paper_2026_14.pdf",
+    "related": [
+      {
+        "label": "Working paper and release date",
+        "url": "https://www.snb.ch/en/publications/research/working-papers/2026/working_paper_2026_14"
+      }
+    ]
   },
   {
     "jurisdiction": "Hungary",
@@ -916,7 +938,13 @@
     "institution": "Reserve Bank of Australia",
     "title": "Statement on Monetary Policy, November 2026",
     "type": "Forecast",
-    "url": "https://www.rba.gov.au/publications/smp/2026/nov/contents.html"
+    "url": "https://www.rba.gov.au/publications/smp/2026/nov/contents.html",
+    "related": [
+      {
+        "label": "In Brief",
+        "url": "https://www.rba.gov.au/publications/smp/2026/nov/"
+      }
+    ]
   },
   {
     "jurisdiction": "South Africa",
