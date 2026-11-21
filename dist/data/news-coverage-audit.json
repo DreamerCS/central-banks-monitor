@@ -1,0 +1,649 @@
+{
+  "asOf": "2026-11-21",
+  "banks": {
+    "fed": {
+      "scope": "Published speeches from the sitting Fed Chair catalogue, counted by original document. Rate decisions use the dated policy chronology. Pricing requires a comparable action-minus-prior figure.",
+      "years": [
+        {
+          "year": 2000,
+          "decisionTotal": 8,
+          "decisionWithNews": 8,
+          "speechTotal": 24,
+          "speechWithNews": 1,
+          "multiDecision": 0,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 8
+        },
+        {
+          "year": 2001,
+          "decisionTotal": 11,
+          "decisionWithNews": 9,
+          "speechTotal": 18,
+          "speechWithNews": 1,
+          "multiDecision": 0,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 6
+        },
+        {
+          "year": 2002,
+          "decisionTotal": 8,
+          "decisionWithNews": 7,
+          "speechTotal": 20,
+          "speechWithNews": 0,
+          "multiDecision": 0,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 7
+        },
+        {
+          "year": 2003,
+          "decisionTotal": 8,
+          "decisionWithNews": 7,
+          "speechTotal": 14,
+          "speechWithNews": 0,
+          "multiDecision": 0,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 7
+        },
+        {
+          "year": 2004,
+          "decisionTotal": 8,
+          "decisionWithNews": 8,
+          "speechTotal": 22,
+          "speechWithNews": 1,
+          "multiDecision": 1,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 8
+        },
+        {
+          "year": 2005,
+          "decisionTotal": 8,
+          "decisionWithNews": 8,
+          "speechTotal": 24,
+          "speechWithNews": 2,
+          "multiDecision": 0,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 8
+        },
+        {
+          "year": 2006,
+          "decisionTotal": 8,
+          "decisionWithNews": 7,
+          "speechTotal": 24,
+          "speechWithNews": 1,
+          "multiDecision": 2,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 7
+        },
+        {
+          "year": 2007,
+          "decisionTotal": 8,
+          "decisionWithNews": 8,
+          "speechTotal": 23,
+          "speechWithNews": 1,
+          "multiDecision": 1,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 8
+        },
+        {
+          "year": 2008,
+          "decisionTotal": 10,
+          "decisionWithNews": 9,
+          "speechTotal": 23,
+          "speechWithNews": 1,
+          "multiDecision": 2,
+          "pricedDecision": 7,
+          "matchedPricedDecision": 7
+        },
+        {
+          "year": 2009,
+          "decisionTotal": 8,
+          "decisionWithNews": 7,
+          "speechTotal": 21,
+          "speechWithNews": 1,
+          "multiDecision": 1,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 7
+        },
+        {
+          "year": 2010,
+          "decisionTotal": 8,
+          "decisionWithNews": 7,
+          "speechTotal": 26,
+          "speechWithNews": 1,
+          "multiDecision": 1,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 7
+        },
+        {
+          "year": 2011,
+          "decisionTotal": 8,
+          "decisionWithNews": 6,
+          "speechTotal": 18,
+          "speechWithNews": 1,
+          "multiDecision": 1,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 6
+        },
+        {
+          "year": 2012,
+          "decisionTotal": 8,
+          "decisionWithNews": 7,
+          "speechTotal": 16,
+          "speechWithNews": 1,
+          "multiDecision": 0,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 7
+        },
+        {
+          "year": 2013,
+          "decisionTotal": 8,
+          "decisionWithNews": 8,
+          "speechTotal": 17,
+          "speechWithNews": 0,
+          "multiDecision": 1,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 8
+        },
+        {
+          "year": 2014,
+          "decisionTotal": 8,
+          "decisionWithNews": 8,
+          "speechTotal": 15,
+          "speechWithNews": 1,
+          "multiDecision": 1,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 8
+        },
+        {
+          "year": 2015,
+          "decisionTotal": 8,
+          "decisionWithNews": 3,
+          "speechTotal": 11,
+          "speechWithNews": 0,
+          "multiDecision": 0,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 3
+        },
+        {
+          "year": 2016,
+          "decisionTotal": 8,
+          "decisionWithNews": 5,
+          "speechTotal": 5,
+          "speechWithNews": 1,
+          "multiDecision": 1,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 5
+        },
+        {
+          "year": 2017,
+          "decisionTotal": 8,
+          "decisionWithNews": 6,
+          "speechTotal": 13,
+          "speechWithNews": 2,
+          "multiDecision": 0,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 6
+        },
+        {
+          "year": 2018,
+          "decisionTotal": 8,
+          "decisionWithNews": 8,
+          "speechTotal": 11,
+          "speechWithNews": 1,
+          "multiDecision": 1,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 8
+        },
+        {
+          "year": 2019,
+          "decisionTotal": 8,
+          "decisionWithNews": 7,
+          "speechTotal": 17,
+          "speechWithNews": 0,
+          "multiDecision": 0,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 7
+        },
+        {
+          "year": 2020,
+          "decisionTotal": 9,
+          "decisionWithNews": 3,
+          "speechTotal": 6,
+          "speechWithNews": 1,
+          "multiDecision": 2,
+          "pricedDecision": 7,
+          "matchedPricedDecision": 1
+        },
+        {
+          "year": 2021,
+          "decisionTotal": 8,
+          "decisionWithNews": 4,
+          "speechTotal": 9,
+          "speechWithNews": 1,
+          "multiDecision": 2,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 4
+        },
+        {
+          "year": 2022,
+          "decisionTotal": 8,
+          "decisionWithNews": 8,
+          "speechTotal": 6,
+          "speechWithNews": 1,
+          "multiDecision": 3,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 8
+        },
+        {
+          "year": 2023,
+          "decisionTotal": 8,
+          "decisionWithNews": 8,
+          "speechTotal": 9,
+          "speechWithNews": 1,
+          "multiDecision": 3,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 8
+        },
+        {
+          "year": 2024,
+          "decisionTotal": 8,
+          "decisionWithNews": 6,
+          "speechTotal": 6,
+          "speechWithNews": 1,
+          "multiDecision": 3,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 6
+        },
+        {
+          "year": 2025,
+          "decisionTotal": 8,
+          "decisionWithNews": 7,
+          "speechTotal": 12,
+          "speechWithNews": 2,
+          "multiDecision": 2,
+          "pricedDecision": 8,
+          "matchedPricedDecision": 7
+        },
+        {
+          "year": 2026,
+          "decisionTotal": 7,
+          "decisionWithNews": 6,
+          "speechTotal": 4,
+          "speechWithNews": 2,
+          "multiDecision": 1,
+          "pricedDecision": 7,
+          "matchedPricedDecision": 6
+        }
+      ],
+      "unmatchedNewsCount": 0,
+      "unmatchedNewsIds": [],
+      "latestSpeech": "2026-11-16",
+      "latestDecision": "2026-10-28",
+      "selection": {
+        "byAction": [
+          {
+            "action": "cut",
+            "covered": 30,
+            "total": 33
+          },
+          {
+            "action": "hike",
+            "covered": 40,
+            "total": 41
+          },
+          {
+            "action": "hold",
+            "covered": 114,
+            "total": 146
+          },
+          {
+            "action": "unclassified",
+            "covered": 1,
+            "total": 1
+          }
+        ],
+        "yieldStudy": {
+          "instrument": "2-year US Treasury yield",
+          "period": "2000–2025",
+          "window": "statement −10 to +20 minutes",
+          "all": {
+            "n": 207,
+            "medianAbsBp": 2.42
+          },
+          "covered": {
+            "n": 173,
+            "medianAbsBp": 2.55
+          },
+          "uncovered": {
+            "n": 34,
+            "medianAbsBp": 1.515
+          }
+        }
+      }
+    },
+    "ecb": {
+      "scope": "Published speeches by the sitting ECB President, including joint speeches, counted by original document. Rate decisions use the dated policy chronology. Pricing requires a comparable action-minus-prior figure.",
+      "years": [
+        {
+          "year": 2000,
+          "decisionTotal": 24,
+          "decisionWithNews": 17,
+          "speechTotal": 21,
+          "speechWithNews": 0,
+          "multiDecision": 0,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2001,
+          "decisionTotal": 24,
+          "decisionWithNews": 12,
+          "speechTotal": 25,
+          "speechWithNews": 0,
+          "multiDecision": 0,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2002,
+          "decisionTotal": 12,
+          "decisionWithNews": 6,
+          "speechTotal": 22,
+          "speechWithNews": 0,
+          "multiDecision": 0,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2003,
+          "decisionTotal": 12,
+          "decisionWithNews": 6,
+          "speechTotal": 22,
+          "speechWithNews": 0,
+          "multiDecision": 0,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2004,
+          "decisionTotal": 12,
+          "decisionWithNews": 8,
+          "speechTotal": 43,
+          "speechWithNews": 0,
+          "multiDecision": 1,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2005,
+          "decisionTotal": 12,
+          "decisionWithNews": 7,
+          "speechTotal": 35,
+          "speechWithNews": 0,
+          "multiDecision": 2,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2006,
+          "decisionTotal": 12,
+          "decisionWithNews": 7,
+          "speechTotal": 29,
+          "speechWithNews": 0,
+          "multiDecision": 1,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2007,
+          "decisionTotal": 12,
+          "decisionWithNews": 5,
+          "speechTotal": 42,
+          "speechWithNews": 0,
+          "multiDecision": 0,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2008,
+          "decisionTotal": 13,
+          "decisionWithNews": 8,
+          "speechTotal": 53,
+          "speechWithNews": 0,
+          "multiDecision": 0,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2009,
+          "decisionTotal": 12,
+          "decisionWithNews": 8,
+          "speechTotal": 39,
+          "speechWithNews": 0,
+          "multiDecision": 1,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2010,
+          "decisionTotal": 12,
+          "decisionWithNews": 5,
+          "speechTotal": 47,
+          "speechWithNews": 0,
+          "multiDecision": 0,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2011,
+          "decisionTotal": 12,
+          "decisionWithNews": 5,
+          "speechTotal": 39,
+          "speechWithNews": 0,
+          "multiDecision": 3,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2012,
+          "decisionTotal": 12,
+          "decisionWithNews": 6,
+          "speechTotal": 23,
+          "speechWithNews": 1,
+          "multiDecision": 1,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2013,
+          "decisionTotal": 12,
+          "decisionWithNews": 8,
+          "speechTotal": 30,
+          "speechWithNews": 0,
+          "multiDecision": 1,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2014,
+          "decisionTotal": 12,
+          "decisionWithNews": 7,
+          "speechTotal": 23,
+          "speechWithNews": 3,
+          "multiDecision": 2,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2015,
+          "decisionTotal": 8,
+          "decisionWithNews": 1,
+          "speechTotal": 25,
+          "speechWithNews": 2,
+          "multiDecision": 0,
+          "pricedDecision": 1,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2016,
+          "decisionTotal": 8,
+          "decisionWithNews": 3,
+          "speechTotal": 25,
+          "speechWithNews": 1,
+          "multiDecision": 0,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2017,
+          "decisionTotal": 8,
+          "decisionWithNews": 1,
+          "speechTotal": 24,
+          "speechWithNews": 2,
+          "multiDecision": 0,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2018,
+          "decisionTotal": 8,
+          "decisionWithNews": 2,
+          "speechTotal": 18,
+          "speechWithNews": 2,
+          "multiDecision": 0,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2019,
+          "decisionTotal": 8,
+          "decisionWithNews": 2,
+          "speechTotal": 18,
+          "speechWithNews": 1,
+          "multiDecision": 0,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2020,
+          "decisionTotal": 8,
+          "decisionWithNews": 7,
+          "speechTotal": 20,
+          "speechWithNews": 0,
+          "multiDecision": 1,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2021,
+          "decisionTotal": 8,
+          "decisionWithNews": 2,
+          "speechTotal": 24,
+          "speechWithNews": 0,
+          "multiDecision": 0,
+          "pricedDecision": 0,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2022,
+          "decisionTotal": 8,
+          "decisionWithNews": 4,
+          "speechTotal": 22,
+          "speechWithNews": 1,
+          "multiDecision": 3,
+          "pricedDecision": 1,
+          "matchedPricedDecision": 0
+        },
+        {
+          "year": 2023,
+          "decisionTotal": 8,
+          "decisionWithNews": 6,
+          "speechTotal": 29,
+          "speechWithNews": 0,
+          "multiDecision": 2,
+          "pricedDecision": 3,
+          "matchedPricedDecision": 3
+        },
+        {
+          "year": 2024,
+          "decisionTotal": 8,
+          "decisionWithNews": 7,
+          "speechTotal": 19,
+          "speechWithNews": 1,
+          "multiDecision": 4,
+          "pricedDecision": 4,
+          "matchedPricedDecision": 3
+        },
+        {
+          "year": 2025,
+          "decisionTotal": 8,
+          "decisionWithNews": 7,
+          "speechTotal": 34,
+          "speechWithNews": 1,
+          "multiDecision": 4,
+          "pricedDecision": 3,
+          "matchedPricedDecision": 3
+        },
+        {
+          "year": 2026,
+          "decisionTotal": 7,
+          "decisionWithNews": 4,
+          "speechTotal": 25,
+          "speechWithNews": 0,
+          "multiDecision": 1,
+          "pricedDecision": 1,
+          "matchedPricedDecision": 1
+        }
+      ],
+      "unmatchedNewsCount": 0,
+      "unmatchedNewsIds": [],
+      "latestSpeech": "2026-11-20",
+      "latestDecision": "2026-10-29",
+      "selection": {
+        "byAction": [
+          {
+            "action": "cut",
+            "covered": 21,
+            "total": 29
+          },
+          {
+            "action": "hike",
+            "covered": 24,
+            "total": 29
+          },
+          {
+            "action": "hold",
+            "covered": 116,
+            "total": 242
+          }
+        ],
+        "yieldStudy": {
+          "instrument": "2-year German sovereign yield",
+          "period": "2000–2025",
+          "window": "ECB decision release, Frankfurt quote windows",
+          "all": {
+            "n": 290,
+            "medianAbsBp": 0.6
+          },
+          "covered": {
+            "n": 154,
+            "medianAbsBp": 0.7
+          },
+          "uncovered": {
+            "n": 136,
+            "medianAbsBp": 0.55
+          }
+        }
+      }
+    }
+  },
+  "method": [
+    "The frame starts from documented policy-rate decision dates and published chair or president speeches. The 2026 observation period ends at the archive cutoff. Other board members, minutes and separate press-conference stages are outside these denominators.",
+    "Standalone emergency programmes fall outside the rate-decision frame, including the ECB’s 18 March 2020 PEPP launch. The frame includes the Fed’s seven intermeeting target decisions during this period.",
+    "Each verified headline is linked to an identifiable event. Each meeting counts once regardless of publisher or article count. Missing coverage means that this archive has yet to verify a report.",
+    "The source ledger crosses each decision with the four eligible newsrooms. Candidate counts use bank-tagged, decision-related leads near the recorded date. A recorded date may be an index observation. A zero does not establish absence of reporting.",
+    "The documented pilot searches the first regular 2020 and 2022 meetings of each bank at Reuters, Bloomberg and the Financial Times. Coverage elsewhere may have been found by other search methods.",
+    "The two-year yield comparison uses observed, aggregation-eligible release windows for full years through 2025. The covered and uncovered groups can differ in policy action and economic conditions. The comparison describes selection in this sample.",
+    "Fed action uses the target or upper bound where comparable. ECB action uses the deposit facility rate. An unchanged deposit rate can accompany changes to asset purchases or other instruments."
+  ]
+}

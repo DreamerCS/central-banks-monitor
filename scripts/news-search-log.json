@@ -1,0 +1,110 @@
+[
+  {
+    "bank": "fed",
+    "date": "2020-01-29",
+    "publisher": "Reuters",
+    "status": "verified",
+    "method": "Bank, date and decision keywords in a publisher-domain search, followed by a date-bounded news index and original-page check. Compared original URLs against the Reuters daily sitemap and same-day GDELT captures.",
+    "evidenceUrl": "https://www.reuters.com/article/markets/us/yields-fall-on-virus-concerns-fed-leaves-rates-unchanged-idUSL1N29Y1JZ/",
+    "checkedOn": "2026-11-21"
+  },
+  {
+    "bank": "fed",
+    "date": "2020-01-29",
+    "publisher": "Financial Times",
+    "status": "unresolved",
+    "method": "Bank, date and decision keywords in a publisher-domain search, followed by a date-bounded news index and original-page check. Checked matching FT.com links from same-day GDELT captures for article headings and publisher dates.",
+    "evidenceUrl": null,
+    "checkedOn": "2026-11-21"
+  },
+  {
+    "bank": "fed",
+    "date": "2020-01-29",
+    "publisher": "Bloomberg",
+    "status": "unresolved",
+    "method": "Bank, date and decision keywords in a publisher-domain search, followed by a date-bounded news index and original-page check. Checked article URLs in the Bloomberg monthly sitemap. A dated URL or a syndicated copy alone was insufficient to verify its headline.",
+    "evidenceUrl": null,
+    "checkedOn": "2026-11-21"
+  },
+  {
+    "bank": "fed",
+    "date": "2022-01-26",
+    "publisher": "Reuters",
+    "status": "unresolved",
+    "method": "Bank, date and decision keywords in a publisher-domain search, followed by a date-bounded news index and original-page check. Compared original URLs against the Reuters daily sitemap and same-day GDELT captures.",
+    "evidenceUrl": null,
+    "checkedOn": "2026-11-21"
+  },
+  {
+    "bank": "fed",
+    "date": "2022-01-26",
+    "publisher": "Financial Times",
+    "status": "verified",
+    "method": "Bank, date and decision keywords in a publisher-domain search, followed by a date-bounded news index and original-page check. Checked matching FT.com links from same-day GDELT captures for article headings and publisher dates.",
+    "evidenceUrl": "https://www.ft.com/content/0f195295-7ff2-4d0c-b5ce-43aa5a4b1223",
+    "checkedOn": "2026-11-21"
+  },
+  {
+    "bank": "fed",
+    "date": "2022-01-26",
+    "publisher": "Bloomberg",
+    "status": "unresolved",
+    "method": "Bank, date and decision keywords in a publisher-domain search, followed by a date-bounded news index and original-page check. Checked article URLs in the Bloomberg monthly sitemap. A dated URL or a syndicated copy alone was insufficient to verify its headline.",
+    "evidenceUrl": null,
+    "checkedOn": "2026-11-21"
+  },
+  {
+    "bank": "ecb",
+    "date": "2020-01-23",
+    "publisher": "Reuters",
+    "status": "verified",
+    "method": "Bank, date and decision keywords in a publisher-domain search, followed by a date-bounded news index and original-page check. Compared original URLs against the Reuters daily sitemap and same-day GDELT captures.",
+    "evidenceUrl": "https://www.reuters.com/article/us-ecb-policy-rates/ecb-launches-review-keeps-policy-on-hold-idUSKBN1ZM1T6/",
+    "checkedOn": "2026-11-21"
+  },
+  {
+    "bank": "ecb",
+    "date": "2020-01-23",
+    "publisher": "Financial Times",
+    "status": "unresolved",
+    "method": "Bank, date and decision keywords in a publisher-domain search, followed by a date-bounded news index and original-page check. Checked matching FT.com links from same-day GDELT captures for article headings and publisher dates.",
+    "evidenceUrl": null,
+    "checkedOn": "2026-11-21"
+  },
+  {
+    "bank": "ecb",
+    "date": "2020-01-23",
+    "publisher": "Bloomberg",
+    "status": "unresolved",
+    "method": "Bank, date and decision keywords in a publisher-domain search, followed by a date-bounded news index and original-page check. Checked article URLs in the Bloomberg monthly sitemap. A dated URL or a syndicated copy alone was insufficient to verify its headline.",
+    "evidenceUrl": null,
+    "checkedOn": "2026-11-21"
+  },
+  {
+    "bank": "ecb",
+    "date": "2022-02-03",
+    "publisher": "Reuters",
+    "status": "already verified",
+    "method": "Bank, date and decision keywords in a publisher-domain search, followed by a date-bounded news index and original-page check. Compared original URLs against the Reuters daily sitemap and same-day GDELT captures.",
+    "evidenceUrl": "https://www.reuters.com/world/european-shares-dealt-double-whammy-by-hawkish-ecb-tech-slump-2022-02-03/",
+    "checkedOn": "2026-11-21"
+  },
+  {
+    "bank": "ecb",
+    "date": "2022-02-03",
+    "publisher": "Financial Times",
+    "status": "unresolved",
+    "method": "Bank, date and decision keywords in a publisher-domain search, followed by a date-bounded news index and original-page check. Checked matching FT.com links from same-day GDELT captures for article headings and publisher dates.",
+    "evidenceUrl": null,
+    "checkedOn": "2026-11-21"
+  },
+  {
+    "bank": "ecb",
+    "date": "2022-02-03",
+    "publisher": "Bloomberg",
+    "status": "unresolved",
+    "method": "Bank, date and decision keywords in a publisher-domain search, followed by a date-bounded news index and original-page check. Checked article URLs in the Bloomberg monthly sitemap. A dated URL or a syndicated copy alone was insufficient to verify its headline.",
+    "evidenceUrl": null,
+    "checkedOn": "2026-11-21"
+  }
+]

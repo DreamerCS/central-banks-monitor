@@ -78,4 +78,6 @@ subprocess.run([sys.executable, Path(__file__).with_name("check-news-framing.py"
 
 subprocess.run([sys.executable, Path(__file__).with_name("export-news-framing.py"), "--check"], check=True)
 
+subprocess.run([sys.executable, Path(__file__).with_name("build-news-coverage-audit.py"), "--check"], check=True)
+
 print(f"OK: {coverage['linkedCount']}/{coverage['targetCount']} targets; {len(sources)} unique HTTPS source entries; {len(history['series'])} historical series")

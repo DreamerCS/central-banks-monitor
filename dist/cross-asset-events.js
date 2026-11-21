@@ -239,12 +239,81 @@
       return fields.hour+':'+fields.minute+':'+fields.second+' local · '+(gap===0?'at the recorded start':elapsed+(gap>0?' after':' before')+' the '+stageLabel(r).toLowerCase()+' start');
     } catch {return '';}
   }
-  function annualNewsCoverage(asOf) {
+  function discoveryCoverage(catalogue,reports) {
+    const box=$('discovery');
+    box.replaceChildren();
+    box.hidden=!Number.isInteger(catalogue?.allRows);
+    if(box.hidden) return;
+    const count=n=>n.toLocaleString('en-GB');
+    box.append(element('h3','What the archive contains'));
+    box.append(element('p','Across all jurisdictions the archive contains '+count(catalogue.allRows)+' candidate records. '+count(catalogue.fourOutletRows)+' are attributed to Reuters, Bloomberg, the Financial Times or The Wall Street Journal.','ce-small'));
+    const tags=catalogue.fourOutletDirectScope;
+    if(tags) {
+      const tagged=tags.fedOnly+tags.ecbOnly+tags.both;
+      if(Number.isInteger(tagged)) box.append(element('p',count(tagged)+' records attributed to those publishers have a matching publisher domain and a US or euro-area tag. The tags identify jurisdictions. An event match also requires checking the headline, date and central-bank communication.','ce-small'));
+    }
+    const publishers=catalogue.publishers||{};
+    const published=new Map((reports||[]).map(r=>[r.url,r.publisher]));
+    const overlap=catalogue.siteOverlap;
+    if(reports && overlap?.curatedRows===reports.length && Number.isInteger(overlap.matchedSiteRows)) {
+      box.append(element('p',count(overlap.matchedSiteRows)+' of '+count(reports.length)+' reviewed event–article links match an archive record by headline ID or article URL. A joint report can link to two events.','ce-small'));
+    }
+    const counts=new Map();
+    for(const publisher of published.values()) counts.set(publisher,(counts.get(publisher)||0)+1);
+    const table=element('table'), header=element('thead'), headings=element('tr'), body=element('tbody');
+    table.append(element('caption','The archive counts discovery records across jurisdictions. The Fed and ECB website sample counts distinct reviewed article links, including additional source research.'));
+    for(const label of ['Publisher','Archive records','Fed and ECB articles']) {const th=element('th',label);th.scope='col';headings.append(th);}
+    header.append(headings);
+    for(const name of ['Reuters','Bloomberg','Financial Times','The Wall Street Journal']) {
+      const archive=publishers[name]??(name==='The Wall Street Journal'?publishers['Wall Street Journal']:null);
+      const tr=element('tr'), th=element('th',name);th.scope='row';
+      tr.append(th,element('td',Number.isInteger(archive?.rows)?count(archive.rows):'—','ce-num'),element('td',reports?count(counts.get(name)||0):'—','ce-num'));
+      body.append(tr);
+    }
+    table.append(header,body);
+    const download=link('Download archive counts and definitions (JSON)','data/news-catalogue-summary.json');
+    download.download='';
+    box.append(table,download);
+  }
+  function selectionCoverage(selection) {
+    const box=$('selection');
+    box.replaceChildren();
+    box.hidden=!selection;
+    if(box.hidden) return;
+    box.append(element('h3','Which meetings have news coverage?'));
+    if(selection.byAction?.length) {
+      const labels={cut:'Cuts',hold:'Holds',hike:'Hikes'};
+      const rates=selection.byAction.map(v=>{
+        const label=labels[v.action]||v.action;
+        return label+' '+v.covered+' of '+v.total+(v.total?' ('+(100*v.covered/v.total).toFixed(1)+'%)':'');
+      });
+      box.append(element('p',bankNames[state.bank]+' decisions with a verified headline · '+rates.join(' · '),'ce-small'));
+    }
+    const study=selection.yieldStudy;
+    if(study) {
+      const groups=[['all eligible meetings',study.all],['with verified headlines',study.covered],['without verified headlines',study.uncovered]];
+      const medians=groups.filter(([,v])=>Number.isInteger(v?.n)).map(([label,v])=>label+' '+(Number.isFinite(v.medianAbsBp)?v.medianAbsBp.toFixed(2)+' bp':'—')+' (n = '+v.n+')');
+      if(medians.length) {
+        box.append(element('p','Among meetings with an observed quote, the median absolute change in '+[study.instrument,study.window,study.period].filter(Boolean).join(' · ')+' was as follows. '+medians.join(' · ')+'.','ce-small'));
+      }
+    }
+    box.append(link('Selection audit and definitions (JSON)','data/news-coverage-audit.json'));
+  }
+  function annualNewsCoverage(asOf,audit,catalogue,reports) {
     const panel=$('news-coverage'), region=$('coverage-table');
     region.replaceChildren();
-    panel.hidden=!newsAvailable;
-    if (!newsAvailable) return;
+    discoveryCoverage(catalogue,reports);
+    selectionCoverage(audit?.banks?.[state.bank]?.selection);
+    panel.hidden=!newsAvailable && $('discovery').hidden && $('selection').hidden;
     if(location.hash==='#ce-news-coverage')panel.open=true;
+    $('news-picker').hidden=!newsAvailable;
+    $('year-headlines').hidden=!newsAvailable;
+    if (!newsAvailable) {
+      $('coverage-title').textContent='News archive and verified coverage';
+      $('coverage-method').hidden=true;
+      region.append(element('p','The event-linked headline file is unavailable.','ce-small'));
+      return;
+    }
     const outlets = [['Reuters','Reuters'],['Bloomberg','Bloomberg'],['Financial Times','FT'],['The Wall Street Journal','WSJ']];
     const rows = [...news.values()].flat();
     const lastYear = Math.max(2026, Number(asOf?.slice(0,4)) || 0, ...rows.map(r=>Number(r.date.slice(0,4))));
@@ -269,16 +338,38 @@
     }
     const shared=[...byEvent.values()].filter(outlets=>outlets.size>1).length;
     region.append(element('p',rows.length+' headlines cover '+byEvent.size+' distinct events. '+shared+' events have coverage from two or more of the four publishers.','ce-small'));
+    const frame=audit?.banks?.[state.bank];
+    const frameYears=new Map((frame?.years||[]).map(y=>[Number(y.year),y]));
+    const hasFrame=frameYears.size>0;
+    const method=$('coverage-method'), notes=$('coverage-notes');
+    method.hidden=!hasFrame;
+    notes.replaceChildren();
+    if(hasFrame) {
+      const scope=Array.isArray(frame.scope)?frame.scope:[frame.scope];
+      for(const line of scope) if(typeof line==='string' && line) region.append(element('p',line,'ce-small'));
+      for(const line of audit.method||[]) if(typeof line==='string' && line) notes.append(element('p',line,'ce-small'));
+      if(frame.unmatchedNewsCount>0) notes.append(element('p','News links outside this event universe: '+frame.unmatchedNewsCount+'. The coverage rates use matched events only.','ce-small'));
+    } else {
+      region.append(element('p','Event totals are unavailable. The table shows reviewed events and publisher counts.','ce-small'));
+    }
     const table=element('table'), header=element('thead'), headings=element('tr'), body=element('tbody');
-    table.append(element('caption','Counts use the event year. Decisions and speeches count distinct events with verified coverage. Publisher columns count headlines. A zero marks a gap in this sample.'));
-    for (const title of ['Year','Decisions','Speeches','Headlines',...outlets.map(([,label])=>label)]) {
+    table.append(element('caption',hasFrame?'Coverage shows tracked decisions and leader speeches with verified news divided by the yearly event total. Comparable pricing supports subtracting the priced move from the decision. A dash marks an unavailable measure or a rate with no eligible events. Publisher columns count headlines.':'Counts use the event year. Decisions and speeches count distinct events with verified coverage. Publisher columns count headlines.'));
+    const columns=hasFrame?['Decisions with news','Speeches with news','Decisions with 2+ outlets','Decisions with comparable pricing','Decisions with news and comparable pricing']:['Decisions','Speeches'];
+    for (const title of ['Year',...columns,'Headlines',...outlets.map(([,label])=>label)]) {
       const th=element('th',title); th.scope='col'; headings.append(th);
     }
     header.append(headings);
+    const rate=new Intl.NumberFormat('en-GB',{style:'percent',maximumFractionDigits:1});
+    const fraction=(covered,total)=>{
+      if (!Number.isInteger(covered)||!Number.isInteger(total)) return '—';
+      return covered+' / '+total+' ('+(total?rate.format(covered/total):'—')+')';
+    };
     for (const [year,y] of [...years].reverse()) {
       const tr=element('tr'), th=element('th',String(year)); th.scope='row'; tr.append(th);
-      for (const value of [y.decisions.size,y.speeches.size,y.headlines,...outlets.map(([name])=>y.publishers.get(name)||0)]) {
-        tr.append(element('td',String(value),'ce-num'));
+      const yearFrame=frameYears.get(year);
+      const coverage=hasFrame?[fraction(yearFrame?.decisionWithNews,yearFrame?.decisionTotal),fraction(yearFrame?.speechWithNews,yearFrame?.speechTotal),yearFrame?.multiDecision,yearFrame?.pricedDecision,yearFrame?.matchedPricedDecision]:[y.decisions.size,y.speeches.size];
+      for (const value of [...coverage,y.headlines,...outlets.map(([name])=>y.publishers.get(name)||0)]) {
+        tr.append(element('td',String(value??'—'),'ce-num'));
       }
       body.append(tr);
     }
@@ -459,7 +550,7 @@
     $('news-coverage').hidden=true;
     $('layout').hidden=true;$('status').textContent='Loading '+bankNames[bank]+' observations…';
     const file=bank+'-cross-asset-events';
-    const [main,days,intraday,policyFile,newsFile]=await Promise.allSettled([data(file),bank==='fed'?data('fed-speech-cross-asset-events'):Promise.resolve(null),bank==='fed'?data('fed-speech-intraday-assets'):Promise.resolve(null),data('stance-cohorts'),data('news-framing')]);
+    const [main,days,intraday,policyFile,newsFile,newsAudit,newsCatalogue]=await Promise.allSettled([data(file),bank==='fed'?data('fed-speech-cross-asset-events'):Promise.resolve(null),bank==='fed'?data('fed-speech-intraday-assets'):Promise.resolve(null),data('stance-cohorts'),data('news-framing'),data('news-coverage-audit'),data('news-catalogue-summary')]);
     if(ticket!==loadToken)return;
     if(main.status!=='fulfilled') {
       $('filters').hidden=false;$('status').textContent='The '+bankNames[bank]+' market observations could not be loaded. Refresh this page to retry.';return;
@@ -483,7 +574,7 @@
     cohorts=new Map((policyFile.value?.banks?.find(b=>b.id===bank)?.records||[]).map(e=>[e.date,e]));
     news=new Map();newsAvailable=newsFile.status==='fulfilled';newsMethods=Array.isArray(newsFile.value?.method)?newsFile.value.method:[];
     for(const x of newsFile.value?.records||[])if(x.bank===bank) {if(!news.has(x.date))news.set(x.date,[]);news.get(x.date).push(x);}
-    annualNewsCoverage(newsFile.value?.asOf);
+    annualNewsCoverage(newsFile.value?.asOf,newsAudit.value,newsCatalogue.value,newsFile.value?.records);
     for(const group of news.values()) group.sort((a,b)=>(a.publishedAt||a.publicationDate||'').localeCompare(b.publishedAt||b.publicationDate||''));
     events=packages.flatMap(([f,key])=>f.records.map(r=>({...r,_package:f,_file:key}))).sort((a,b)=>b.date.localeCompare(a.date)||(b.time||'').localeCompare(a.time||'')||a.id.localeCompare(b.id));
     const stages=new Map();for(const [p] of packages)for(const [key,o] of Object.entries(p.stages||{})) if(events.some(r=>r.stage===key)||(key==='speech' && p.parts?.length)) stages.set(key,o.label||key);

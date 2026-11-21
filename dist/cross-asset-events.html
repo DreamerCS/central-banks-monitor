@@ -27,8 +27,15 @@
   </div>
   <details id="ce-news-coverage" class="ce-more" hidden>
     <summary id="ce-coverage-title">Verified news coverage by year</summary>
+    <div id="ce-discovery" class="ce-tables" hidden></div>
+    <div id="ce-selection" hidden></div>
     <div id="ce-coverage-table" class="ce-tables" tabindex="0" role="region" aria-labelledby="ce-coverage-title"></div>
-    <label class="ce-search">Read coverage for a year<select id="ce-news-year"></select></label>
+    <details class="ce-method ce-more" id="ce-coverage-method" hidden>
+      <summary>Event universe and source checks</summary>
+      <div id="ce-coverage-notes"></div>
+      <div class="ce-links"><a href="data/news-coverage-frame.csv" download>Event universe (CSV)</a><a href="data/news-source-checks.csv" download>Source checks (CSV)</a><a href="data/news-coverage-audit.json" download>Coverage counts and methods (JSON)</a></div>
+    </details>
+    <label class="ce-search" id="ce-news-picker">Read coverage for a year<select id="ce-news-year"></select></label>
     <div id="ce-year-headlines" class="ce-tables" tabindex="0" role="region" aria-label="Publisher reports for the selected year"></div>
     <div class="ce-links"><a href="data/news-framing.csv" download>Download headline readings and meeting pricing (CSV)</a><a href="data/news-framing.json" download>Download records and methodology (JSON)</a></div>
   </details>

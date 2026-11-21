@@ -1,0 +1,2085 @@
+bank,date,publisher,candidateCount,originalHostCount
+ecb,2000-01-05,Bloomberg,0,0
+ecb,2000-01-05,Financial Times,0,0
+ecb,2000-01-05,Reuters,0,0
+ecb,2000-01-05,The Wall Street Journal,0,0
+ecb,2000-01-20,Bloomberg,0,0
+ecb,2000-01-20,Financial Times,0,0
+ecb,2000-01-20,Reuters,0,0
+ecb,2000-01-20,The Wall Street Journal,0,0
+ecb,2000-02-03,Bloomberg,0,0
+ecb,2000-02-03,Financial Times,0,0
+ecb,2000-02-03,Reuters,0,0
+ecb,2000-02-03,The Wall Street Journal,0,0
+ecb,2000-02-17,Bloomberg,0,0
+ecb,2000-02-17,Financial Times,0,0
+ecb,2000-02-17,Reuters,0,0
+ecb,2000-02-17,The Wall Street Journal,0,0
+ecb,2000-03-02,Bloomberg,0,0
+ecb,2000-03-02,Financial Times,0,0
+ecb,2000-03-02,Reuters,0,0
+ecb,2000-03-02,The Wall Street Journal,0,0
+ecb,2000-03-16,Bloomberg,0,0
+ecb,2000-03-16,Financial Times,0,0
+ecb,2000-03-16,Reuters,0,0
+ecb,2000-03-16,The Wall Street Journal,0,0
+ecb,2000-03-30,Bloomberg,0,0
+ecb,2000-03-30,Financial Times,0,0
+ecb,2000-03-30,Reuters,0,0
+ecb,2000-03-30,The Wall Street Journal,0,0
+ecb,2000-04-13,Bloomberg,0,0
+ecb,2000-04-13,Financial Times,0,0
+ecb,2000-04-13,Reuters,0,0
+ecb,2000-04-13,The Wall Street Journal,0,0
+ecb,2000-04-27,Bloomberg,0,0
+ecb,2000-04-27,Financial Times,0,0
+ecb,2000-04-27,Reuters,0,0
+ecb,2000-04-27,The Wall Street Journal,0,0
+ecb,2000-05-11,Bloomberg,0,0
+ecb,2000-05-11,Financial Times,0,0
+ecb,2000-05-11,Reuters,0,0
+ecb,2000-05-11,The Wall Street Journal,0,0
+ecb,2000-05-25,Bloomberg,0,0
+ecb,2000-05-25,Financial Times,0,0
+ecb,2000-05-25,Reuters,0,0
+ecb,2000-05-25,The Wall Street Journal,0,0
+ecb,2000-06-08,Bloomberg,0,0
+ecb,2000-06-08,Financial Times,0,0
+ecb,2000-06-08,Reuters,0,0
+ecb,2000-06-08,The Wall Street Journal,0,0
+ecb,2000-06-21,Bloomberg,0,0
+ecb,2000-06-21,Financial Times,0,0
+ecb,2000-06-21,Reuters,0,0
+ecb,2000-06-21,The Wall Street Journal,0,0
+ecb,2000-07-06,Bloomberg,0,0
+ecb,2000-07-06,Financial Times,0,0
+ecb,2000-07-06,Reuters,0,0
+ecb,2000-07-06,The Wall Street Journal,0,0
+ecb,2000-07-20,Bloomberg,0,0
+ecb,2000-07-20,Financial Times,0,0
+ecb,2000-07-20,Reuters,0,0
+ecb,2000-07-20,The Wall Street Journal,0,0
+ecb,2000-08-03,Bloomberg,0,0
+ecb,2000-08-03,Financial Times,0,0
+ecb,2000-08-03,Reuters,0,0
+ecb,2000-08-03,The Wall Street Journal,0,0
+ecb,2000-08-31,Bloomberg,0,0
+ecb,2000-08-31,Financial Times,0,0
+ecb,2000-08-31,Reuters,0,0
+ecb,2000-08-31,The Wall Street Journal,0,0
+ecb,2000-09-14,Bloomberg,0,0
+ecb,2000-09-14,Financial Times,0,0
+ecb,2000-09-14,Reuters,0,0
+ecb,2000-09-14,The Wall Street Journal,0,0
+ecb,2000-10-05,Bloomberg,0,0
+ecb,2000-10-05,Financial Times,0,0
+ecb,2000-10-05,Reuters,0,0
+ecb,2000-10-05,The Wall Street Journal,0,0
+ecb,2000-10-19,Bloomberg,0,0
+ecb,2000-10-19,Financial Times,0,0
+ecb,2000-10-19,Reuters,0,0
+ecb,2000-10-19,The Wall Street Journal,0,0
+ecb,2000-11-02,Bloomberg,0,0
+ecb,2000-11-02,Financial Times,0,0
+ecb,2000-11-02,Reuters,0,0
+ecb,2000-11-02,The Wall Street Journal,0,0
+ecb,2000-11-16,Bloomberg,0,0
+ecb,2000-11-16,Financial Times,0,0
+ecb,2000-11-16,Reuters,0,0
+ecb,2000-11-16,The Wall Street Journal,0,0
+ecb,2000-11-30,Bloomberg,0,0
+ecb,2000-11-30,Financial Times,0,0
+ecb,2000-11-30,Reuters,0,0
+ecb,2000-11-30,The Wall Street Journal,0,0
+ecb,2000-12-14,Bloomberg,0,0
+ecb,2000-12-14,Financial Times,0,0
+ecb,2000-12-14,Reuters,0,0
+ecb,2000-12-14,The Wall Street Journal,0,0
+ecb,2001-01-04,Bloomberg,0,0
+ecb,2001-01-04,Financial Times,0,0
+ecb,2001-01-04,Reuters,0,0
+ecb,2001-01-04,The Wall Street Journal,0,0
+ecb,2001-01-18,Bloomberg,0,0
+ecb,2001-01-18,Financial Times,0,0
+ecb,2001-01-18,Reuters,0,0
+ecb,2001-01-18,The Wall Street Journal,0,0
+ecb,2001-02-01,Bloomberg,0,0
+ecb,2001-02-01,Financial Times,0,0
+ecb,2001-02-01,Reuters,0,0
+ecb,2001-02-01,The Wall Street Journal,0,0
+ecb,2001-02-15,Bloomberg,0,0
+ecb,2001-02-15,Financial Times,0,0
+ecb,2001-02-15,Reuters,0,0
+ecb,2001-02-15,The Wall Street Journal,0,0
+ecb,2001-03-01,Bloomberg,0,0
+ecb,2001-03-01,Financial Times,0,0
+ecb,2001-03-01,Reuters,0,0
+ecb,2001-03-01,The Wall Street Journal,0,0
+ecb,2001-03-15,Bloomberg,0,0
+ecb,2001-03-15,Financial Times,0,0
+ecb,2001-03-15,Reuters,0,0
+ecb,2001-03-15,The Wall Street Journal,0,0
+ecb,2001-03-29,Bloomberg,0,0
+ecb,2001-03-29,Financial Times,0,0
+ecb,2001-03-29,Reuters,0,0
+ecb,2001-03-29,The Wall Street Journal,0,0
+ecb,2001-04-11,Bloomberg,0,0
+ecb,2001-04-11,Financial Times,0,0
+ecb,2001-04-11,Reuters,0,0
+ecb,2001-04-11,The Wall Street Journal,0,0
+ecb,2001-04-26,Bloomberg,0,0
+ecb,2001-04-26,Financial Times,0,0
+ecb,2001-04-26,Reuters,0,0
+ecb,2001-04-26,The Wall Street Journal,0,0
+ecb,2001-05-10,Bloomberg,0,0
+ecb,2001-05-10,Financial Times,0,0
+ecb,2001-05-10,Reuters,0,0
+ecb,2001-05-10,The Wall Street Journal,0,0
+ecb,2001-05-23,Bloomberg,0,0
+ecb,2001-05-23,Financial Times,0,0
+ecb,2001-05-23,Reuters,0,0
+ecb,2001-05-23,The Wall Street Journal,0,0
+ecb,2001-06-07,Bloomberg,0,0
+ecb,2001-06-07,Financial Times,0,0
+ecb,2001-06-07,Reuters,0,0
+ecb,2001-06-07,The Wall Street Journal,0,0
+ecb,2001-06-21,Bloomberg,0,0
+ecb,2001-06-21,Financial Times,0,0
+ecb,2001-06-21,Reuters,0,0
+ecb,2001-06-21,The Wall Street Journal,0,0
+ecb,2001-07-05,Bloomberg,0,0
+ecb,2001-07-05,Financial Times,0,0
+ecb,2001-07-05,Reuters,0,0
+ecb,2001-07-05,The Wall Street Journal,0,0
+ecb,2001-07-19,Bloomberg,0,0
+ecb,2001-07-19,Financial Times,0,0
+ecb,2001-07-19,Reuters,0,0
+ecb,2001-07-19,The Wall Street Journal,0,0
+ecb,2001-08-02,Bloomberg,0,0
+ecb,2001-08-02,Financial Times,0,0
+ecb,2001-08-02,Reuters,0,0
+ecb,2001-08-02,The Wall Street Journal,0,0
+ecb,2001-08-30,Bloomberg,0,0
+ecb,2001-08-30,Financial Times,0,0
+ecb,2001-08-30,Reuters,0,0
+ecb,2001-08-30,The Wall Street Journal,0,0
+ecb,2001-09-13,Bloomberg,0,0
+ecb,2001-09-13,Financial Times,0,0
+ecb,2001-09-13,Reuters,0,0
+ecb,2001-09-13,The Wall Street Journal,0,0
+ecb,2001-09-17,Bloomberg,0,0
+ecb,2001-09-17,Financial Times,0,0
+ecb,2001-09-17,Reuters,0,0
+ecb,2001-09-17,The Wall Street Journal,0,0
+ecb,2001-09-27,Bloomberg,0,0
+ecb,2001-09-27,Financial Times,0,0
+ecb,2001-09-27,Reuters,0,0
+ecb,2001-09-27,The Wall Street Journal,0,0
+ecb,2001-10-11,Bloomberg,0,0
+ecb,2001-10-11,Financial Times,0,0
+ecb,2001-10-11,Reuters,0,0
+ecb,2001-10-11,The Wall Street Journal,0,0
+ecb,2001-10-25,Bloomberg,0,0
+ecb,2001-10-25,Financial Times,0,0
+ecb,2001-10-25,Reuters,0,0
+ecb,2001-10-25,The Wall Street Journal,0,0
+ecb,2001-11-08,Bloomberg,0,0
+ecb,2001-11-08,Financial Times,0,0
+ecb,2001-11-08,Reuters,0,0
+ecb,2001-11-08,The Wall Street Journal,0,0
+ecb,2001-12-06,Bloomberg,0,0
+ecb,2001-12-06,Financial Times,0,0
+ecb,2001-12-06,Reuters,0,0
+ecb,2001-12-06,The Wall Street Journal,0,0
+ecb,2002-01-03,Bloomberg,0,0
+ecb,2002-01-03,Financial Times,0,0
+ecb,2002-01-03,Reuters,0,0
+ecb,2002-01-03,The Wall Street Journal,0,0
+ecb,2002-02-07,Bloomberg,0,0
+ecb,2002-02-07,Financial Times,0,0
+ecb,2002-02-07,Reuters,0,0
+ecb,2002-02-07,The Wall Street Journal,0,0
+ecb,2002-03-07,Bloomberg,0,0
+ecb,2002-03-07,Financial Times,0,0
+ecb,2002-03-07,Reuters,0,0
+ecb,2002-03-07,The Wall Street Journal,0,0
+ecb,2002-04-04,Bloomberg,0,0
+ecb,2002-04-04,Financial Times,0,0
+ecb,2002-04-04,Reuters,0,0
+ecb,2002-04-04,The Wall Street Journal,0,0
+ecb,2002-05-02,Bloomberg,0,0
+ecb,2002-05-02,Financial Times,0,0
+ecb,2002-05-02,Reuters,0,0
+ecb,2002-05-02,The Wall Street Journal,0,0
+ecb,2002-06-06,Bloomberg,0,0
+ecb,2002-06-06,Financial Times,0,0
+ecb,2002-06-06,Reuters,0,0
+ecb,2002-06-06,The Wall Street Journal,0,0
+ecb,2002-07-04,Bloomberg,0,0
+ecb,2002-07-04,Financial Times,0,0
+ecb,2002-07-04,Reuters,0,0
+ecb,2002-07-04,The Wall Street Journal,0,0
+ecb,2002-08-01,Bloomberg,0,0
+ecb,2002-08-01,Financial Times,0,0
+ecb,2002-08-01,Reuters,0,0
+ecb,2002-08-01,The Wall Street Journal,0,0
+ecb,2002-09-12,Bloomberg,0,0
+ecb,2002-09-12,Financial Times,0,0
+ecb,2002-09-12,Reuters,0,0
+ecb,2002-09-12,The Wall Street Journal,0,0
+ecb,2002-10-10,Bloomberg,0,0
+ecb,2002-10-10,Financial Times,0,0
+ecb,2002-10-10,Reuters,0,0
+ecb,2002-10-10,The Wall Street Journal,0,0
+ecb,2002-11-07,Bloomberg,0,0
+ecb,2002-11-07,Financial Times,0,0
+ecb,2002-11-07,Reuters,0,0
+ecb,2002-11-07,The Wall Street Journal,0,0
+ecb,2002-12-05,Bloomberg,0,0
+ecb,2002-12-05,Financial Times,0,0
+ecb,2002-12-05,Reuters,0,0
+ecb,2002-12-05,The Wall Street Journal,0,0
+ecb,2003-01-09,Bloomberg,0,0
+ecb,2003-01-09,Financial Times,0,0
+ecb,2003-01-09,Reuters,0,0
+ecb,2003-01-09,The Wall Street Journal,0,0
+ecb,2003-02-06,Bloomberg,0,0
+ecb,2003-02-06,Financial Times,0,0
+ecb,2003-02-06,Reuters,0,0
+ecb,2003-02-06,The Wall Street Journal,0,0
+ecb,2003-03-06,Bloomberg,0,0
+ecb,2003-03-06,Financial Times,0,0
+ecb,2003-03-06,Reuters,0,0
+ecb,2003-03-06,The Wall Street Journal,0,0
+ecb,2003-04-03,Bloomberg,0,0
+ecb,2003-04-03,Financial Times,0,0
+ecb,2003-04-03,Reuters,0,0
+ecb,2003-04-03,The Wall Street Journal,0,0
+ecb,2003-05-08,Bloomberg,0,0
+ecb,2003-05-08,Financial Times,0,0
+ecb,2003-05-08,Reuters,0,0
+ecb,2003-05-08,The Wall Street Journal,0,0
+ecb,2003-06-05,Bloomberg,0,0
+ecb,2003-06-05,Financial Times,0,0
+ecb,2003-06-05,Reuters,0,0
+ecb,2003-06-05,The Wall Street Journal,0,0
+ecb,2003-07-10,Bloomberg,0,0
+ecb,2003-07-10,Financial Times,0,0
+ecb,2003-07-10,Reuters,0,0
+ecb,2003-07-10,The Wall Street Journal,0,0
+ecb,2003-07-31,Bloomberg,0,0
+ecb,2003-07-31,Financial Times,0,0
+ecb,2003-07-31,Reuters,0,0
+ecb,2003-07-31,The Wall Street Journal,0,0
+ecb,2003-09-04,Bloomberg,0,0
+ecb,2003-09-04,Financial Times,0,0
+ecb,2003-09-04,Reuters,0,0
+ecb,2003-09-04,The Wall Street Journal,0,0
+ecb,2003-10-02,Bloomberg,0,0
+ecb,2003-10-02,Financial Times,0,0
+ecb,2003-10-02,Reuters,0,0
+ecb,2003-10-02,The Wall Street Journal,0,0
+ecb,2003-11-06,Bloomberg,0,0
+ecb,2003-11-06,Financial Times,0,0
+ecb,2003-11-06,Reuters,0,0
+ecb,2003-11-06,The Wall Street Journal,0,0
+ecb,2003-12-04,Bloomberg,0,0
+ecb,2003-12-04,Financial Times,0,0
+ecb,2003-12-04,Reuters,0,0
+ecb,2003-12-04,The Wall Street Journal,0,0
+ecb,2004-01-08,Bloomberg,0,0
+ecb,2004-01-08,Financial Times,0,0
+ecb,2004-01-08,Reuters,0,0
+ecb,2004-01-08,The Wall Street Journal,0,0
+ecb,2004-02-05,Bloomberg,0,0
+ecb,2004-02-05,Financial Times,0,0
+ecb,2004-02-05,Reuters,0,0
+ecb,2004-02-05,The Wall Street Journal,0,0
+ecb,2004-03-04,Bloomberg,0,0
+ecb,2004-03-04,Financial Times,0,0
+ecb,2004-03-04,Reuters,0,0
+ecb,2004-03-04,The Wall Street Journal,0,0
+ecb,2004-04-01,Bloomberg,0,0
+ecb,2004-04-01,Financial Times,0,0
+ecb,2004-04-01,Reuters,0,0
+ecb,2004-04-01,The Wall Street Journal,0,0
+ecb,2004-05-06,Bloomberg,0,0
+ecb,2004-05-06,Financial Times,0,0
+ecb,2004-05-06,Reuters,0,0
+ecb,2004-05-06,The Wall Street Journal,0,0
+ecb,2004-06-03,Bloomberg,0,0
+ecb,2004-06-03,Financial Times,0,0
+ecb,2004-06-03,Reuters,0,0
+ecb,2004-06-03,The Wall Street Journal,0,0
+ecb,2004-07-01,Bloomberg,0,0
+ecb,2004-07-01,Financial Times,0,0
+ecb,2004-07-01,Reuters,0,0
+ecb,2004-07-01,The Wall Street Journal,0,0
+ecb,2004-08-05,Bloomberg,0,0
+ecb,2004-08-05,Financial Times,0,0
+ecb,2004-08-05,Reuters,0,0
+ecb,2004-08-05,The Wall Street Journal,0,0
+ecb,2004-09-02,Bloomberg,0,0
+ecb,2004-09-02,Financial Times,0,0
+ecb,2004-09-02,Reuters,0,0
+ecb,2004-09-02,The Wall Street Journal,0,0
+ecb,2004-10-07,Bloomberg,0,0
+ecb,2004-10-07,Financial Times,0,0
+ecb,2004-10-07,Reuters,0,0
+ecb,2004-10-07,The Wall Street Journal,0,0
+ecb,2004-11-04,Bloomberg,0,0
+ecb,2004-11-04,Financial Times,0,0
+ecb,2004-11-04,Reuters,0,0
+ecb,2004-11-04,The Wall Street Journal,0,0
+ecb,2004-12-02,Bloomberg,0,0
+ecb,2004-12-02,Financial Times,1,1
+ecb,2004-12-02,Reuters,0,0
+ecb,2004-12-02,The Wall Street Journal,0,0
+ecb,2005-01-13,Bloomberg,0,0
+ecb,2005-01-13,Financial Times,0,0
+ecb,2005-01-13,Reuters,0,0
+ecb,2005-01-13,The Wall Street Journal,0,0
+ecb,2005-02-03,Bloomberg,0,0
+ecb,2005-02-03,Financial Times,0,0
+ecb,2005-02-03,Reuters,0,0
+ecb,2005-02-03,The Wall Street Journal,0,0
+ecb,2005-03-03,Bloomberg,0,0
+ecb,2005-03-03,Financial Times,0,0
+ecb,2005-03-03,Reuters,1,0
+ecb,2005-03-03,The Wall Street Journal,0,0
+ecb,2005-04-07,Bloomberg,0,0
+ecb,2005-04-07,Financial Times,0,0
+ecb,2005-04-07,Reuters,1,0
+ecb,2005-04-07,The Wall Street Journal,0,0
+ecb,2005-05-04,Bloomberg,0,0
+ecb,2005-05-04,Financial Times,0,0
+ecb,2005-05-04,Reuters,0,0
+ecb,2005-05-04,The Wall Street Journal,0,0
+ecb,2005-06-02,Bloomberg,0,0
+ecb,2005-06-02,Financial Times,0,0
+ecb,2005-06-02,Reuters,0,0
+ecb,2005-06-02,The Wall Street Journal,0,0
+ecb,2005-07-07,Bloomberg,0,0
+ecb,2005-07-07,Financial Times,0,0
+ecb,2005-07-07,Reuters,0,0
+ecb,2005-07-07,The Wall Street Journal,0,0
+ecb,2005-08-04,Bloomberg,0,0
+ecb,2005-08-04,Financial Times,0,0
+ecb,2005-08-04,Reuters,0,0
+ecb,2005-08-04,The Wall Street Journal,0,0
+ecb,2005-09-01,Bloomberg,0,0
+ecb,2005-09-01,Financial Times,0,0
+ecb,2005-09-01,Reuters,0,0
+ecb,2005-09-01,The Wall Street Journal,0,0
+ecb,2005-10-06,Bloomberg,0,0
+ecb,2005-10-06,Financial Times,0,0
+ecb,2005-10-06,Reuters,0,0
+ecb,2005-10-06,The Wall Street Journal,0,0
+ecb,2005-11-03,Bloomberg,0,0
+ecb,2005-11-03,Financial Times,0,0
+ecb,2005-11-03,Reuters,0,0
+ecb,2005-11-03,The Wall Street Journal,0,0
+ecb,2005-12-01,Bloomberg,0,0
+ecb,2005-12-01,Financial Times,0,0
+ecb,2005-12-01,Reuters,0,0
+ecb,2005-12-01,The Wall Street Journal,0,0
+ecb,2006-01-12,Bloomberg,0,0
+ecb,2006-01-12,Financial Times,0,0
+ecb,2006-01-12,Reuters,0,0
+ecb,2006-01-12,The Wall Street Journal,0,0
+ecb,2006-02-02,Bloomberg,0,0
+ecb,2006-02-02,Financial Times,0,0
+ecb,2006-02-02,Reuters,0,0
+ecb,2006-02-02,The Wall Street Journal,0,0
+ecb,2006-03-02,Bloomberg,0,0
+ecb,2006-03-02,Financial Times,0,0
+ecb,2006-03-02,Reuters,0,0
+ecb,2006-03-02,The Wall Street Journal,0,0
+ecb,2006-04-06,Bloomberg,0,0
+ecb,2006-04-06,Financial Times,0,0
+ecb,2006-04-06,Reuters,0,0
+ecb,2006-04-06,The Wall Street Journal,1,0
+ecb,2006-05-04,Bloomberg,0,0
+ecb,2006-05-04,Financial Times,0,0
+ecb,2006-05-04,Reuters,0,0
+ecb,2006-05-04,The Wall Street Journal,0,0
+ecb,2006-06-08,Bloomberg,0,0
+ecb,2006-06-08,Financial Times,0,0
+ecb,2006-06-08,Reuters,0,0
+ecb,2006-06-08,The Wall Street Journal,0,0
+ecb,2006-07-06,Bloomberg,0,0
+ecb,2006-07-06,Financial Times,0,0
+ecb,2006-07-06,Reuters,0,0
+ecb,2006-07-06,The Wall Street Journal,0,0
+ecb,2006-08-03,Bloomberg,0,0
+ecb,2006-08-03,Financial Times,0,0
+ecb,2006-08-03,Reuters,0,0
+ecb,2006-08-03,The Wall Street Journal,0,0
+ecb,2006-08-31,Bloomberg,0,0
+ecb,2006-08-31,Financial Times,0,0
+ecb,2006-08-31,Reuters,0,0
+ecb,2006-08-31,The Wall Street Journal,0,0
+ecb,2006-10-05,Bloomberg,0,0
+ecb,2006-10-05,Financial Times,0,0
+ecb,2006-10-05,Reuters,0,0
+ecb,2006-10-05,The Wall Street Journal,0,0
+ecb,2006-11-02,Bloomberg,0,0
+ecb,2006-11-02,Financial Times,0,0
+ecb,2006-11-02,Reuters,0,0
+ecb,2006-11-02,The Wall Street Journal,0,0
+ecb,2006-12-07,Bloomberg,0,0
+ecb,2006-12-07,Financial Times,1,1
+ecb,2006-12-07,Reuters,0,0
+ecb,2006-12-07,The Wall Street Journal,0,0
+ecb,2007-01-11,Bloomberg,0,0
+ecb,2007-01-11,Financial Times,0,0
+ecb,2007-01-11,Reuters,5,5
+ecb,2007-01-11,The Wall Street Journal,0,0
+ecb,2007-02-08,Bloomberg,0,0
+ecb,2007-02-08,Financial Times,0,0
+ecb,2007-02-08,Reuters,7,7
+ecb,2007-02-08,The Wall Street Journal,0,0
+ecb,2007-03-08,Bloomberg,0,0
+ecb,2007-03-08,Financial Times,1,1
+ecb,2007-03-08,Reuters,6,6
+ecb,2007-03-08,The Wall Street Journal,0,0
+ecb,2007-04-12,Bloomberg,0,0
+ecb,2007-04-12,Financial Times,0,0
+ecb,2007-04-12,Reuters,7,7
+ecb,2007-04-12,The Wall Street Journal,0,0
+ecb,2007-05-10,Bloomberg,0,0
+ecb,2007-05-10,Financial Times,0,0
+ecb,2007-05-10,Reuters,3,3
+ecb,2007-05-10,The Wall Street Journal,0,0
+ecb,2007-06-06,Bloomberg,0,0
+ecb,2007-06-06,Financial Times,0,0
+ecb,2007-06-06,Reuters,20,20
+ecb,2007-06-06,The Wall Street Journal,0,0
+ecb,2007-07-05,Bloomberg,0,0
+ecb,2007-07-05,Financial Times,0,0
+ecb,2007-07-05,Reuters,6,6
+ecb,2007-07-05,The Wall Street Journal,0,0
+ecb,2007-08-02,Bloomberg,0,0
+ecb,2007-08-02,Financial Times,0,0
+ecb,2007-08-02,Reuters,1,1
+ecb,2007-08-02,The Wall Street Journal,0,0
+ecb,2007-09-06,Bloomberg,0,0
+ecb,2007-09-06,Financial Times,0,0
+ecb,2007-09-06,Reuters,9,9
+ecb,2007-09-06,The Wall Street Journal,0,0
+ecb,2007-10-04,Bloomberg,0,0
+ecb,2007-10-04,Financial Times,0,0
+ecb,2007-10-04,Reuters,6,6
+ecb,2007-10-04,The Wall Street Journal,0,0
+ecb,2007-11-08,Bloomberg,0,0
+ecb,2007-11-08,Financial Times,0,0
+ecb,2007-11-08,Reuters,1,1
+ecb,2007-11-08,The Wall Street Journal,0,0
+ecb,2007-12-06,Bloomberg,0,0
+ecb,2007-12-06,Financial Times,0,0
+ecb,2007-12-06,Reuters,6,6
+ecb,2007-12-06,The Wall Street Journal,0,0
+ecb,2008-01-10,Bloomberg,0,0
+ecb,2008-01-10,Financial Times,0,0
+ecb,2008-01-10,Reuters,6,6
+ecb,2008-01-10,The Wall Street Journal,0,0
+ecb,2008-02-07,Bloomberg,0,0
+ecb,2008-02-07,Financial Times,0,0
+ecb,2008-02-07,Reuters,13,13
+ecb,2008-02-07,The Wall Street Journal,0,0
+ecb,2008-03-06,Bloomberg,0,0
+ecb,2008-03-06,Financial Times,0,0
+ecb,2008-03-06,Reuters,5,5
+ecb,2008-03-06,The Wall Street Journal,0,0
+ecb,2008-04-10,Bloomberg,0,0
+ecb,2008-04-10,Financial Times,0,0
+ecb,2008-04-10,Reuters,6,6
+ecb,2008-04-10,The Wall Street Journal,0,0
+ecb,2008-05-08,Bloomberg,0,0
+ecb,2008-05-08,Financial Times,0,0
+ecb,2008-05-08,Reuters,7,7
+ecb,2008-05-08,The Wall Street Journal,0,0
+ecb,2008-06-05,Bloomberg,0,0
+ecb,2008-06-05,Financial Times,0,0
+ecb,2008-06-05,Reuters,15,15
+ecb,2008-06-05,The Wall Street Journal,0,0
+ecb,2008-07-03,Bloomberg,0,0
+ecb,2008-07-03,Financial Times,0,0
+ecb,2008-07-03,Reuters,12,12
+ecb,2008-07-03,The Wall Street Journal,0,0
+ecb,2008-08-07,Bloomberg,0,0
+ecb,2008-08-07,Financial Times,0,0
+ecb,2008-08-07,Reuters,5,5
+ecb,2008-08-07,The Wall Street Journal,0,0
+ecb,2008-09-04,Bloomberg,0,0
+ecb,2008-09-04,Financial Times,0,0
+ecb,2008-09-04,Reuters,6,6
+ecb,2008-09-04,The Wall Street Journal,0,0
+ecb,2008-10-02,Bloomberg,0,0
+ecb,2008-10-02,Financial Times,0,0
+ecb,2008-10-02,Reuters,8,8
+ecb,2008-10-02,The Wall Street Journal,0,0
+ecb,2008-10-08,Bloomberg,0,0
+ecb,2008-10-08,Financial Times,0,0
+ecb,2008-10-08,Reuters,10,10
+ecb,2008-10-08,The Wall Street Journal,0,0
+ecb,2008-11-06,Bloomberg,0,0
+ecb,2008-11-06,Financial Times,0,0
+ecb,2008-11-06,Reuters,23,23
+ecb,2008-11-06,The Wall Street Journal,0,0
+ecb,2008-12-04,Bloomberg,0,0
+ecb,2008-12-04,Financial Times,0,0
+ecb,2008-12-04,Reuters,21,21
+ecb,2008-12-04,The Wall Street Journal,0,0
+ecb,2009-01-15,Bloomberg,0,0
+ecb,2009-01-15,Financial Times,0,0
+ecb,2009-01-15,Reuters,21,21
+ecb,2009-01-15,The Wall Street Journal,0,0
+ecb,2009-02-05,Bloomberg,0,0
+ecb,2009-02-05,Financial Times,0,0
+ecb,2009-02-05,Reuters,14,14
+ecb,2009-02-05,The Wall Street Journal,0,0
+ecb,2009-03-05,Bloomberg,0,0
+ecb,2009-03-05,Financial Times,0,0
+ecb,2009-03-05,Reuters,17,17
+ecb,2009-03-05,The Wall Street Journal,0,0
+ecb,2009-04-02,Bloomberg,0,0
+ecb,2009-04-02,Financial Times,0,0
+ecb,2009-04-02,Reuters,15,15
+ecb,2009-04-02,The Wall Street Journal,0,0
+ecb,2009-05-07,Bloomberg,0,0
+ecb,2009-05-07,Financial Times,0,0
+ecb,2009-05-07,Reuters,19,19
+ecb,2009-05-07,The Wall Street Journal,0,0
+ecb,2009-06-04,Bloomberg,0,0
+ecb,2009-06-04,Financial Times,0,0
+ecb,2009-06-04,Reuters,9,9
+ecb,2009-06-04,The Wall Street Journal,0,0
+ecb,2009-07-02,Bloomberg,0,0
+ecb,2009-07-02,Financial Times,0,0
+ecb,2009-07-02,Reuters,6,6
+ecb,2009-07-02,The Wall Street Journal,0,0
+ecb,2009-08-06,Bloomberg,0,0
+ecb,2009-08-06,Financial Times,0,0
+ecb,2009-08-06,Reuters,11,11
+ecb,2009-08-06,The Wall Street Journal,0,0
+ecb,2009-09-03,Bloomberg,0,0
+ecb,2009-09-03,Financial Times,0,0
+ecb,2009-09-03,Reuters,9,9
+ecb,2009-09-03,The Wall Street Journal,0,0
+ecb,2009-10-08,Bloomberg,0,0
+ecb,2009-10-08,Financial Times,0,0
+ecb,2009-10-08,Reuters,8,8
+ecb,2009-10-08,The Wall Street Journal,0,0
+ecb,2009-11-05,Bloomberg,0,0
+ecb,2009-11-05,Financial Times,0,0
+ecb,2009-11-05,Reuters,4,4
+ecb,2009-11-05,The Wall Street Journal,0,0
+ecb,2009-12-03,Bloomberg,0,0
+ecb,2009-12-03,Financial Times,0,0
+ecb,2009-12-03,Reuters,17,17
+ecb,2009-12-03,The Wall Street Journal,1,0
+ecb,2010-01-14,Bloomberg,0,0
+ecb,2010-01-14,Financial Times,0,0
+ecb,2010-01-14,Reuters,10,10
+ecb,2010-01-14,The Wall Street Journal,0,0
+ecb,2010-02-04,Bloomberg,0,0
+ecb,2010-02-04,Financial Times,0,0
+ecb,2010-02-04,Reuters,8,8
+ecb,2010-02-04,The Wall Street Journal,0,0
+ecb,2010-03-04,Bloomberg,0,0
+ecb,2010-03-04,Financial Times,0,0
+ecb,2010-03-04,Reuters,10,10
+ecb,2010-03-04,The Wall Street Journal,0,0
+ecb,2010-04-08,Bloomberg,0,0
+ecb,2010-04-08,Financial Times,0,0
+ecb,2010-04-08,Reuters,8,8
+ecb,2010-04-08,The Wall Street Journal,0,0
+ecb,2010-05-06,Bloomberg,0,0
+ecb,2010-05-06,Financial Times,0,0
+ecb,2010-05-06,Reuters,16,16
+ecb,2010-05-06,The Wall Street Journal,0,0
+ecb,2010-06-10,Bloomberg,0,0
+ecb,2010-06-10,Financial Times,0,0
+ecb,2010-06-10,Reuters,7,7
+ecb,2010-06-10,The Wall Street Journal,0,0
+ecb,2010-07-08,Bloomberg,5,5
+ecb,2010-07-08,Financial Times,0,0
+ecb,2010-07-08,Reuters,8,8
+ecb,2010-07-08,The Wall Street Journal,0,0
+ecb,2010-08-05,Bloomberg,0,0
+ecb,2010-08-05,Financial Times,0,0
+ecb,2010-08-05,Reuters,8,8
+ecb,2010-08-05,The Wall Street Journal,0,0
+ecb,2010-09-02,Bloomberg,0,0
+ecb,2010-09-02,Financial Times,0,0
+ecb,2010-09-02,Reuters,11,11
+ecb,2010-09-02,The Wall Street Journal,0,0
+ecb,2010-10-07,Bloomberg,3,3
+ecb,2010-10-07,Financial Times,0,0
+ecb,2010-10-07,Reuters,9,9
+ecb,2010-10-07,The Wall Street Journal,0,0
+ecb,2010-11-04,Bloomberg,5,5
+ecb,2010-11-04,Financial Times,0,0
+ecb,2010-11-04,Reuters,14,14
+ecb,2010-11-04,The Wall Street Journal,0,0
+ecb,2010-12-02,Bloomberg,8,8
+ecb,2010-12-02,Financial Times,0,0
+ecb,2010-12-02,Reuters,26,26
+ecb,2010-12-02,The Wall Street Journal,0,0
+ecb,2011-01-13,Bloomberg,0,0
+ecb,2011-01-13,Financial Times,0,0
+ecb,2011-01-13,Reuters,13,13
+ecb,2011-01-13,The Wall Street Journal,0,0
+ecb,2011-02-03,Bloomberg,6,6
+ecb,2011-02-03,Financial Times,0,0
+ecb,2011-02-03,Reuters,14,14
+ecb,2011-02-03,The Wall Street Journal,0,0
+ecb,2011-03-03,Bloomberg,16,16
+ecb,2011-03-03,Financial Times,0,0
+ecb,2011-03-03,Reuters,31,31
+ecb,2011-03-03,The Wall Street Journal,0,0
+ecb,2011-04-07,Bloomberg,21,21
+ecb,2011-04-07,Financial Times,0,0
+ecb,2011-04-07,Reuters,35,35
+ecb,2011-04-07,The Wall Street Journal,0,0
+ecb,2011-05-05,Bloomberg,15,15
+ecb,2011-05-05,Financial Times,0,0
+ecb,2011-05-05,Reuters,12,12
+ecb,2011-05-05,The Wall Street Journal,0,0
+ecb,2011-06-09,Bloomberg,8,8
+ecb,2011-06-09,Financial Times,0,0
+ecb,2011-06-09,Reuters,26,26
+ecb,2011-06-09,The Wall Street Journal,0,0
+ecb,2011-07-07,Bloomberg,9,9
+ecb,2011-07-07,Financial Times,0,0
+ecb,2011-07-07,Reuters,24,24
+ecb,2011-07-07,The Wall Street Journal,0,0
+ecb,2011-08-04,Bloomberg,8,8
+ecb,2011-08-04,Financial Times,0,0
+ecb,2011-08-04,Reuters,14,14
+ecb,2011-08-04,The Wall Street Journal,0,0
+ecb,2011-09-08,Bloomberg,7,7
+ecb,2011-09-08,Financial Times,0,0
+ecb,2011-09-08,Reuters,26,26
+ecb,2011-09-08,The Wall Street Journal,0,0
+ecb,2011-10-06,Bloomberg,18,18
+ecb,2011-10-06,Financial Times,0,0
+ecb,2011-10-06,Reuters,22,22
+ecb,2011-10-06,The Wall Street Journal,0,0
+ecb,2011-11-03,Bloomberg,0,0
+ecb,2011-11-03,Financial Times,0,0
+ecb,2011-11-03,Reuters,52,52
+ecb,2011-11-03,The Wall Street Journal,0,0
+ecb,2011-12-08,Bloomberg,14,14
+ecb,2011-12-08,Financial Times,0,0
+ecb,2011-12-08,Reuters,29,29
+ecb,2011-12-08,The Wall Street Journal,0,0
+ecb,2012-01-12,Bloomberg,5,5
+ecb,2012-01-12,Financial Times,0,0
+ecb,2012-01-12,Reuters,10,10
+ecb,2012-01-12,The Wall Street Journal,0,0
+ecb,2012-02-09,Bloomberg,4,4
+ecb,2012-02-09,Financial Times,0,0
+ecb,2012-02-09,Reuters,8,8
+ecb,2012-02-09,The Wall Street Journal,0,0
+ecb,2012-03-08,Bloomberg,5,5
+ecb,2012-03-08,Financial Times,0,0
+ecb,2012-03-08,Reuters,8,8
+ecb,2012-03-08,The Wall Street Journal,0,0
+ecb,2012-04-04,Bloomberg,2,2
+ecb,2012-04-04,Financial Times,0,0
+ecb,2012-04-04,Reuters,10,10
+ecb,2012-04-04,The Wall Street Journal,0,0
+ecb,2012-05-03,Bloomberg,5,5
+ecb,2012-05-03,Financial Times,0,0
+ecb,2012-05-03,Reuters,12,12
+ecb,2012-05-03,The Wall Street Journal,0,0
+ecb,2012-06-06,Bloomberg,9,9
+ecb,2012-06-06,Financial Times,0,0
+ecb,2012-06-06,Reuters,21,21
+ecb,2012-06-06,The Wall Street Journal,0,0
+ecb,2012-07-05,Bloomberg,14,14
+ecb,2012-07-05,Financial Times,0,0
+ecb,2012-07-05,Reuters,56,56
+ecb,2012-07-05,The Wall Street Journal,0,0
+ecb,2012-08-02,Bloomberg,14,14
+ecb,2012-08-02,Financial Times,0,0
+ecb,2012-08-02,Reuters,29,29
+ecb,2012-08-02,The Wall Street Journal,0,0
+ecb,2012-09-06,Bloomberg,37,37
+ecb,2012-09-06,Financial Times,0,0
+ecb,2012-09-06,Reuters,83,83
+ecb,2012-09-06,The Wall Street Journal,0,0
+ecb,2012-10-04,Bloomberg,9,9
+ecb,2012-10-04,Financial Times,1,1
+ecb,2012-10-04,Reuters,15,15
+ecb,2012-10-04,The Wall Street Journal,0,0
+ecb,2012-11-08,Bloomberg,7,7
+ecb,2012-11-08,Financial Times,0,0
+ecb,2012-11-08,Reuters,20,20
+ecb,2012-11-08,The Wall Street Journal,0,0
+ecb,2012-12-06,Bloomberg,15,15
+ecb,2012-12-06,Financial Times,0,0
+ecb,2012-12-06,Reuters,28,28
+ecb,2012-12-06,The Wall Street Journal,0,0
+ecb,2013-01-10,Bloomberg,8,8
+ecb,2013-01-10,Financial Times,0,0
+ecb,2013-01-10,Reuters,19,19
+ecb,2013-01-10,The Wall Street Journal,0,0
+ecb,2013-02-07,Bloomberg,4,4
+ecb,2013-02-07,Financial Times,0,0
+ecb,2013-02-07,Reuters,24,24
+ecb,2013-02-07,The Wall Street Journal,0,0
+ecb,2013-03-07,Bloomberg,10,10
+ecb,2013-03-07,Financial Times,0,0
+ecb,2013-03-07,Reuters,26,26
+ecb,2013-03-07,The Wall Street Journal,0,0
+ecb,2013-04-04,Bloomberg,6,6
+ecb,2013-04-04,Financial Times,1,1
+ecb,2013-04-04,Reuters,19,19
+ecb,2013-04-04,The Wall Street Journal,0,0
+ecb,2013-05-02,Bloomberg,17,17
+ecb,2013-05-02,Financial Times,2,2
+ecb,2013-05-02,Reuters,71,71
+ecb,2013-05-02,The Wall Street Journal,1,0
+ecb,2013-06-06,Bloomberg,6,6
+ecb,2013-06-06,Financial Times,0,0
+ecb,2013-06-06,Reuters,24,24
+ecb,2013-06-06,The Wall Street Journal,0,0
+ecb,2013-07-04,Bloomberg,12,12
+ecb,2013-07-04,Financial Times,0,0
+ecb,2013-07-04,Reuters,24,24
+ecb,2013-07-04,The Wall Street Journal,0,0
+ecb,2013-08-01,Bloomberg,7,7
+ecb,2013-08-01,Financial Times,0,0
+ecb,2013-08-01,Reuters,12,12
+ecb,2013-08-01,The Wall Street Journal,0,0
+ecb,2013-09-05,Bloomberg,6,6
+ecb,2013-09-05,Financial Times,0,0
+ecb,2013-09-05,Reuters,14,14
+ecb,2013-09-05,The Wall Street Journal,0,0
+ecb,2013-10-02,Bloomberg,4,4
+ecb,2013-10-02,Financial Times,0,0
+ecb,2013-10-02,Reuters,13,13
+ecb,2013-10-02,The Wall Street Journal,0,0
+ecb,2013-11-07,Bloomberg,21,21
+ecb,2013-11-07,Financial Times,1,1
+ecb,2013-11-07,Reuters,61,61
+ecb,2013-11-07,The Wall Street Journal,0,0
+ecb,2013-12-05,Bloomberg,0,0
+ecb,2013-12-05,Financial Times,0,0
+ecb,2013-12-05,Reuters,14,14
+ecb,2013-12-05,The Wall Street Journal,0,0
+ecb,2014-01-09,Bloomberg,0,0
+ecb,2014-01-09,Financial Times,0,0
+ecb,2014-01-09,Reuters,9,9
+ecb,2014-01-09,The Wall Street Journal,0,0
+ecb,2014-02-06,Bloomberg,0,0
+ecb,2014-02-06,Financial Times,0,0
+ecb,2014-02-06,Reuters,23,23
+ecb,2014-02-06,The Wall Street Journal,0,0
+ecb,2014-03-06,Bloomberg,0,0
+ecb,2014-03-06,Financial Times,0,0
+ecb,2014-03-06,Reuters,14,14
+ecb,2014-03-06,The Wall Street Journal,0,0
+ecb,2014-04-03,Bloomberg,0,0
+ecb,2014-04-03,Financial Times,0,0
+ecb,2014-04-03,Reuters,14,14
+ecb,2014-04-03,The Wall Street Journal,0,0
+ecb,2014-05-08,Bloomberg,0,0
+ecb,2014-05-08,Financial Times,0,0
+ecb,2014-05-08,Reuters,9,9
+ecb,2014-05-08,The Wall Street Journal,0,0
+ecb,2014-06-05,Bloomberg,0,0
+ecb,2014-06-05,Financial Times,0,0
+ecb,2014-06-05,Reuters,57,57
+ecb,2014-06-05,The Wall Street Journal,1,0
+ecb,2014-07-03,Bloomberg,0,0
+ecb,2014-07-03,Financial Times,0,0
+ecb,2014-07-03,Reuters,7,7
+ecb,2014-07-03,The Wall Street Journal,0,0
+ecb,2014-08-07,Bloomberg,0,0
+ecb,2014-08-07,Financial Times,0,0
+ecb,2014-08-07,Reuters,8,8
+ecb,2014-08-07,The Wall Street Journal,0,0
+ecb,2014-09-04,Bloomberg,0,0
+ecb,2014-09-04,Financial Times,0,0
+ecb,2014-09-04,Reuters,30,30
+ecb,2014-09-04,The Wall Street Journal,1,0
+ecb,2014-10-02,Bloomberg,0,0
+ecb,2014-10-02,Financial Times,0,0
+ecb,2014-10-02,Reuters,15,15
+ecb,2014-10-02,The Wall Street Journal,0,0
+ecb,2014-11-06,Bloomberg,0,0
+ecb,2014-11-06,Financial Times,0,0
+ecb,2014-11-06,Reuters,13,13
+ecb,2014-11-06,The Wall Street Journal,0,0
+ecb,2014-12-04,Bloomberg,0,0
+ecb,2014-12-04,Financial Times,0,0
+ecb,2014-12-04,Reuters,26,26
+ecb,2014-12-04,The Wall Street Journal,0,0
+ecb,2015-01-22,Bloomberg,0,0
+ecb,2015-01-22,Financial Times,0,0
+ecb,2015-01-22,Reuters,95,95
+ecb,2015-01-22,The Wall Street Journal,0,0
+ecb,2015-03-05,Bloomberg,0,0
+ecb,2015-03-05,Financial Times,0,0
+ecb,2015-03-05,Reuters,14,14
+ecb,2015-03-05,The Wall Street Journal,0,0
+ecb,2015-04-15,Bloomberg,0,0
+ecb,2015-04-15,Financial Times,0,0
+ecb,2015-04-15,Reuters,11,11
+ecb,2015-04-15,The Wall Street Journal,0,0
+ecb,2015-06-03,Bloomberg,0,0
+ecb,2015-06-03,Financial Times,0,0
+ecb,2015-06-03,Reuters,7,7
+ecb,2015-06-03,The Wall Street Journal,0,0
+ecb,2015-07-16,Bloomberg,0,0
+ecb,2015-07-16,Financial Times,0,0
+ecb,2015-07-16,Reuters,4,4
+ecb,2015-07-16,The Wall Street Journal,0,0
+ecb,2015-09-03,Bloomberg,0,0
+ecb,2015-09-03,Financial Times,0,0
+ecb,2015-09-03,Reuters,14,14
+ecb,2015-09-03,The Wall Street Journal,0,0
+ecb,2015-10-22,Bloomberg,0,0
+ecb,2015-10-22,Financial Times,0,0
+ecb,2015-10-22,Reuters,31,31
+ecb,2015-10-22,The Wall Street Journal,0,0
+ecb,2015-12-03,Bloomberg,0,0
+ecb,2015-12-03,Financial Times,0,0
+ecb,2015-12-03,Reuters,38,38
+ecb,2015-12-03,The Wall Street Journal,0,0
+ecb,2016-01-21,Bloomberg,0,0
+ecb,2016-01-21,Financial Times,0,0
+ecb,2016-01-21,Reuters,14,14
+ecb,2016-01-21,The Wall Street Journal,0,0
+ecb,2016-03-10,Bloomberg,0,0
+ecb,2016-03-10,Financial Times,0,0
+ecb,2016-03-10,Reuters,33,33
+ecb,2016-03-10,The Wall Street Journal,0,0
+ecb,2016-04-21,Bloomberg,0,0
+ecb,2016-04-21,Financial Times,0,0
+ecb,2016-04-21,Reuters,10,10
+ecb,2016-04-21,The Wall Street Journal,0,0
+ecb,2016-06-02,Bloomberg,0,0
+ecb,2016-06-02,Financial Times,0,0
+ecb,2016-06-02,Reuters,7,7
+ecb,2016-06-02,The Wall Street Journal,0,0
+ecb,2016-07-21,Bloomberg,0,0
+ecb,2016-07-21,Financial Times,0,0
+ecb,2016-07-21,Reuters,10,10
+ecb,2016-07-21,The Wall Street Journal,0,0
+ecb,2016-09-08,Bloomberg,0,0
+ecb,2016-09-08,Financial Times,0,0
+ecb,2016-09-08,Reuters,13,13
+ecb,2016-09-08,The Wall Street Journal,0,0
+ecb,2016-10-20,Bloomberg,0,0
+ecb,2016-10-20,Financial Times,0,0
+ecb,2016-10-20,Reuters,8,8
+ecb,2016-10-20,The Wall Street Journal,0,0
+ecb,2016-12-08,Bloomberg,0,0
+ecb,2016-12-08,Financial Times,0,0
+ecb,2016-12-08,Reuters,18,18
+ecb,2016-12-08,The Wall Street Journal,0,0
+ecb,2017-01-19,Bloomberg,0,0
+ecb,2017-01-19,Financial Times,0,0
+ecb,2017-01-19,Reuters,2,2
+ecb,2017-01-19,The Wall Street Journal,0,0
+ecb,2017-03-09,Bloomberg,0,0
+ecb,2017-03-09,Financial Times,0,0
+ecb,2017-03-09,Reuters,12,12
+ecb,2017-03-09,The Wall Street Journal,0,0
+ecb,2017-04-27,Bloomberg,0,0
+ecb,2017-04-27,Financial Times,0,0
+ecb,2017-04-27,Reuters,8,7
+ecb,2017-04-27,The Wall Street Journal,0,0
+ecb,2017-06-08,Bloomberg,0,0
+ecb,2017-06-08,Financial Times,1,0
+ecb,2017-06-08,Reuters,10,10
+ecb,2017-06-08,The Wall Street Journal,0,0
+ecb,2017-07-20,Bloomberg,0,0
+ecb,2017-07-20,Financial Times,0,0
+ecb,2017-07-20,Reuters,12,12
+ecb,2017-07-20,The Wall Street Journal,0,0
+ecb,2017-09-07,Bloomberg,0,0
+ecb,2017-09-07,Financial Times,0,0
+ecb,2017-09-07,Reuters,14,14
+ecb,2017-09-07,The Wall Street Journal,0,0
+ecb,2017-10-26,Bloomberg,0,0
+ecb,2017-10-26,Financial Times,0,0
+ecb,2017-10-26,Reuters,13,13
+ecb,2017-10-26,The Wall Street Journal,1,0
+ecb,2017-12-14,Bloomberg,0,0
+ecb,2017-12-14,Financial Times,0,0
+ecb,2017-12-14,Reuters,5,5
+ecb,2017-12-14,The Wall Street Journal,0,0
+ecb,2018-01-25,Bloomberg,0,0
+ecb,2018-01-25,Financial Times,0,0
+ecb,2018-01-25,Reuters,3,3
+ecb,2018-01-25,The Wall Street Journal,0,0
+ecb,2018-03-08,Bloomberg,0,0
+ecb,2018-03-08,Financial Times,0,0
+ecb,2018-03-08,Reuters,7,7
+ecb,2018-03-08,The Wall Street Journal,0,0
+ecb,2018-04-26,Bloomberg,0,0
+ecb,2018-04-26,Financial Times,0,0
+ecb,2018-04-26,Reuters,8,8
+ecb,2018-04-26,The Wall Street Journal,0,0
+ecb,2018-06-14,Bloomberg,0,0
+ecb,2018-06-14,Financial Times,5,5
+ecb,2018-06-14,Reuters,17,17
+ecb,2018-06-14,The Wall Street Journal,0,0
+ecb,2018-07-26,Bloomberg,0,0
+ecb,2018-07-26,Financial Times,1,1
+ecb,2018-07-26,Reuters,5,5
+ecb,2018-07-26,The Wall Street Journal,0,0
+ecb,2018-09-13,Bloomberg,0,0
+ecb,2018-09-13,Financial Times,3,3
+ecb,2018-09-13,Reuters,6,6
+ecb,2018-09-13,The Wall Street Journal,0,0
+ecb,2018-10-25,Bloomberg,0,0
+ecb,2018-10-25,Financial Times,2,2
+ecb,2018-10-25,Reuters,5,5
+ecb,2018-10-25,The Wall Street Journal,0,0
+ecb,2018-12-13,Bloomberg,0,0
+ecb,2018-12-13,Financial Times,4,4
+ecb,2018-12-13,Reuters,6,6
+ecb,2018-12-13,The Wall Street Journal,0,0
+ecb,2019-01-24,Bloomberg,0,0
+ecb,2019-01-24,Financial Times,0,0
+ecb,2019-01-24,Reuters,2,2
+ecb,2019-01-24,The Wall Street Journal,0,0
+ecb,2019-03-07,Bloomberg,0,0
+ecb,2019-03-07,Financial Times,1,1
+ecb,2019-03-07,Reuters,15,15
+ecb,2019-03-07,The Wall Street Journal,0,0
+ecb,2019-04-10,Bloomberg,0,0
+ecb,2019-04-10,Financial Times,2,2
+ecb,2019-04-10,Reuters,6,6
+ecb,2019-04-10,The Wall Street Journal,0,0
+ecb,2019-06-06,Bloomberg,0,0
+ecb,2019-06-06,Financial Times,1,1
+ecb,2019-06-06,Reuters,11,11
+ecb,2019-06-06,The Wall Street Journal,0,0
+ecb,2019-07-25,Bloomberg,0,0
+ecb,2019-07-25,Financial Times,5,5
+ecb,2019-07-25,Reuters,35,35
+ecb,2019-07-25,The Wall Street Journal,0,0
+ecb,2019-09-12,Bloomberg,0,0
+ecb,2019-09-12,Financial Times,5,5
+ecb,2019-09-12,Reuters,56,56
+ecb,2019-09-12,The Wall Street Journal,1,0
+ecb,2019-10-24,Bloomberg,0,0
+ecb,2019-10-24,Financial Times,1,1
+ecb,2019-10-24,Reuters,14,11
+ecb,2019-10-24,The Wall Street Journal,1,1
+ecb,2019-12-12,Bloomberg,0,0
+ecb,2019-12-12,Financial Times,1,1
+ecb,2019-12-12,Reuters,11,8
+ecb,2019-12-12,The Wall Street Journal,1,1
+ecb,2020-01-23,Bloomberg,0,0
+ecb,2020-01-23,Financial Times,1,1
+ecb,2020-01-23,Reuters,15,11
+ecb,2020-01-23,The Wall Street Journal,1,1
+ecb,2020-03-12,Bloomberg,0,0
+ecb,2020-03-12,Financial Times,0,0
+ecb,2020-03-12,Reuters,16,15
+ecb,2020-03-12,The Wall Street Journal,1,1
+ecb,2020-04-30,Bloomberg,0,0
+ecb,2020-04-30,Financial Times,2,2
+ecb,2020-04-30,Reuters,7,2
+ecb,2020-04-30,The Wall Street Journal,2,2
+ecb,2020-06-04,Bloomberg,0,0
+ecb,2020-06-04,Financial Times,1,1
+ecb,2020-06-04,Reuters,31,7
+ecb,2020-06-04,The Wall Street Journal,2,2
+ecb,2020-07-16,Bloomberg,0,0
+ecb,2020-07-16,Financial Times,1,1
+ecb,2020-07-16,Reuters,9,2
+ecb,2020-07-16,The Wall Street Journal,1,1
+ecb,2020-09-10,Bloomberg,2,2
+ecb,2020-09-10,Financial Times,1,1
+ecb,2020-09-10,Reuters,26,4
+ecb,2020-09-10,The Wall Street Journal,0,0
+ecb,2020-10-29,Bloomberg,0,0
+ecb,2020-10-29,Financial Times,2,2
+ecb,2020-10-29,Reuters,6,3
+ecb,2020-10-29,The Wall Street Journal,1,1
+ecb,2020-12-10,Bloomberg,0,0
+ecb,2020-12-10,Financial Times,2,2
+ecb,2020-12-10,Reuters,12,3
+ecb,2020-12-10,The Wall Street Journal,1,1
+ecb,2021-01-21,Bloomberg,0,0
+ecb,2021-01-21,Financial Times,1,1
+ecb,2021-01-21,Reuters,6,6
+ecb,2021-01-21,The Wall Street Journal,0,0
+ecb,2021-03-11,Bloomberg,0,0
+ecb,2021-03-11,Financial Times,2,2
+ecb,2021-03-11,Reuters,8,8
+ecb,2021-03-11,The Wall Street Journal,0,0
+ecb,2021-04-22,Bloomberg,0,0
+ecb,2021-04-22,Financial Times,2,2
+ecb,2021-04-22,Reuters,8,8
+ecb,2021-04-22,The Wall Street Journal,0,0
+ecb,2021-06-10,Bloomberg,0,0
+ecb,2021-06-10,Financial Times,1,1
+ecb,2021-06-10,Reuters,12,12
+ecb,2021-06-10,The Wall Street Journal,0,0
+ecb,2021-07-22,Bloomberg,0,0
+ecb,2021-07-22,Financial Times,2,2
+ecb,2021-07-22,Reuters,2,2
+ecb,2021-07-22,The Wall Street Journal,0,0
+ecb,2021-09-09,Bloomberg,0,0
+ecb,2021-09-09,Financial Times,3,3
+ecb,2021-09-09,Reuters,10,9
+ecb,2021-09-09,The Wall Street Journal,0,0
+ecb,2021-10-28,Bloomberg,0,0
+ecb,2021-10-28,Financial Times,1,1
+ecb,2021-10-28,Reuters,3,3
+ecb,2021-10-28,The Wall Street Journal,0,0
+ecb,2021-12-16,Bloomberg,0,0
+ecb,2021-12-16,Financial Times,1,1
+ecb,2021-12-16,Reuters,0,0
+ecb,2021-12-16,The Wall Street Journal,0,0
+ecb,2022-02-03,Bloomberg,0,0
+ecb,2022-02-03,Financial Times,1,1
+ecb,2022-02-03,Reuters,0,0
+ecb,2022-02-03,The Wall Street Journal,0,0
+ecb,2022-03-10,Bloomberg,1,0
+ecb,2022-03-10,Financial Times,1,1
+ecb,2022-03-10,Reuters,0,0
+ecb,2022-03-10,The Wall Street Journal,0,0
+ecb,2022-04-14,Bloomberg,0,0
+ecb,2022-04-14,Financial Times,0,0
+ecb,2022-04-14,Reuters,1,0
+ecb,2022-04-14,The Wall Street Journal,0,0
+ecb,2022-06-09,Bloomberg,0,0
+ecb,2022-06-09,Financial Times,1,1
+ecb,2022-06-09,Reuters,1,0
+ecb,2022-06-09,The Wall Street Journal,0,0
+ecb,2022-07-21,Bloomberg,0,0
+ecb,2022-07-21,Financial Times,3,3
+ecb,2022-07-21,Reuters,2,0
+ecb,2022-07-21,The Wall Street Journal,0,0
+ecb,2022-09-08,Bloomberg,13,13
+ecb,2022-09-08,Financial Times,2,2
+ecb,2022-09-08,Reuters,2,0
+ecb,2022-09-08,The Wall Street Journal,0,0
+ecb,2022-10-27,Bloomberg,10,10
+ecb,2022-10-27,Financial Times,2,2
+ecb,2022-10-27,Reuters,2,0
+ecb,2022-10-27,The Wall Street Journal,0,0
+ecb,2022-12-15,Bloomberg,13,13
+ecb,2022-12-15,Financial Times,3,2
+ecb,2022-12-15,Reuters,0,0
+ecb,2022-12-15,The Wall Street Journal,0,0
+ecb,2023-02-02,Bloomberg,9,9
+ecb,2023-02-02,Financial Times,0,0
+ecb,2023-02-02,Reuters,0,0
+ecb,2023-02-02,The Wall Street Journal,0,0
+ecb,2023-03-16,Bloomberg,21,19
+ecb,2023-03-16,Financial Times,1,1
+ecb,2023-03-16,Reuters,4,0
+ecb,2023-03-16,The Wall Street Journal,0,0
+ecb,2023-05-04,Bloomberg,14,14
+ecb,2023-05-04,Financial Times,1,1
+ecb,2023-05-04,Reuters,13,11
+ecb,2023-05-04,The Wall Street Journal,1,1
+ecb,2023-06-15,Bloomberg,14,14
+ecb,2023-06-15,Financial Times,2,2
+ecb,2023-06-15,Reuters,5,4
+ecb,2023-06-15,The Wall Street Journal,1,1
+ecb,2023-07-27,Bloomberg,12,12
+ecb,2023-07-27,Financial Times,1,1
+ecb,2023-07-27,Reuters,3,3
+ecb,2023-07-27,The Wall Street Journal,1,1
+ecb,2023-09-14,Bloomberg,21,20
+ecb,2023-09-14,Financial Times,2,2
+ecb,2023-09-14,Reuters,4,3
+ecb,2023-09-14,The Wall Street Journal,2,2
+ecb,2023-10-26,Bloomberg,5,5
+ecb,2023-10-26,Financial Times,1,1
+ecb,2023-10-26,Reuters,2,2
+ecb,2023-10-26,The Wall Street Journal,1,1
+ecb,2023-12-14,Bloomberg,14,14
+ecb,2023-12-14,Financial Times,3,3
+ecb,2023-12-14,Reuters,0,0
+ecb,2023-12-14,The Wall Street Journal,0,0
+ecb,2024-01-25,Bloomberg,4,2
+ecb,2024-01-25,Financial Times,0,0
+ecb,2024-01-25,Reuters,0,0
+ecb,2024-01-25,The Wall Street Journal,0,0
+ecb,2024-03-07,Bloomberg,15,15
+ecb,2024-03-07,Financial Times,1,1
+ecb,2024-03-07,Reuters,1,0
+ecb,2024-03-07,The Wall Street Journal,0,0
+ecb,2024-04-11,Bloomberg,11,10
+ecb,2024-04-11,Financial Times,3,2
+ecb,2024-04-11,Reuters,2,0
+ecb,2024-04-11,The Wall Street Journal,0,0
+ecb,2024-06-06,Bloomberg,14,11
+ecb,2024-06-06,Financial Times,5,5
+ecb,2024-06-06,Reuters,3,1
+ecb,2024-06-06,The Wall Street Journal,3,3
+ecb,2024-07-18,Bloomberg,3,2
+ecb,2024-07-18,Financial Times,3,3
+ecb,2024-07-18,Reuters,1,0
+ecb,2024-07-18,The Wall Street Journal,0,0
+ecb,2024-09-12,Bloomberg,2,1
+ecb,2024-09-12,Financial Times,4,4
+ecb,2024-09-12,Reuters,3,0
+ecb,2024-09-12,The Wall Street Journal,0,0
+ecb,2024-10-17,Bloomberg,6,3
+ecb,2024-10-17,Financial Times,1,1
+ecb,2024-10-17,Reuters,1,0
+ecb,2024-10-17,The Wall Street Journal,0,0
+ecb,2024-12-12,Bloomberg,1,1
+ecb,2024-12-12,Financial Times,2,2
+ecb,2024-12-12,Reuters,1,0
+ecb,2024-12-12,The Wall Street Journal,0,0
+ecb,2025-01-30,Bloomberg,3,2
+ecb,2025-01-30,Financial Times,0,0
+ecb,2025-01-30,Reuters,2,0
+ecb,2025-01-30,The Wall Street Journal,0,0
+ecb,2025-03-06,Bloomberg,1,0
+ecb,2025-03-06,Financial Times,1,1
+ecb,2025-03-06,Reuters,0,0
+ecb,2025-03-06,The Wall Street Journal,2,2
+ecb,2025-04-17,Bloomberg,2,1
+ecb,2025-04-17,Financial Times,2,2
+ecb,2025-04-17,Reuters,5,4
+ecb,2025-04-17,The Wall Street Journal,1,1
+ecb,2025-06-05,Bloomberg,2,1
+ecb,2025-06-05,Financial Times,2,2
+ecb,2025-06-05,Reuters,3,0
+ecb,2025-06-05,The Wall Street Journal,0,0
+ecb,2025-07-24,Bloomberg,4,4
+ecb,2025-07-24,Financial Times,0,0
+ecb,2025-07-24,Reuters,0,0
+ecb,2025-07-24,The Wall Street Journal,0,0
+ecb,2025-09-11,Bloomberg,2,1
+ecb,2025-09-11,Financial Times,1,1
+ecb,2025-09-11,Reuters,1,0
+ecb,2025-09-11,The Wall Street Journal,0,0
+ecb,2025-10-30,Bloomberg,5,3
+ecb,2025-10-30,Financial Times,1,0
+ecb,2025-10-30,Reuters,1,0
+ecb,2025-10-30,The Wall Street Journal,0,0
+ecb,2025-12-18,Bloomberg,6,3
+ecb,2025-12-18,Financial Times,2,2
+ecb,2025-12-18,Reuters,2,0
+ecb,2025-12-18,The Wall Street Journal,1,0
+ecb,2026-02-05,Bloomberg,2,0
+ecb,2026-02-05,Financial Times,0,0
+ecb,2026-02-05,Reuters,2,0
+ecb,2026-02-05,The Wall Street Journal,2,1
+ecb,2026-03-19,Bloomberg,6,5
+ecb,2026-03-19,Financial Times,1,1
+ecb,2026-03-19,Reuters,3,0
+ecb,2026-03-19,The Wall Street Journal,0,0
+ecb,2026-04-30,Bloomberg,10,8
+ecb,2026-04-30,Financial Times,3,3
+ecb,2026-04-30,Reuters,2,0
+ecb,2026-04-30,The Wall Street Journal,1,0
+ecb,2026-06-11,Bloomberg,3,0
+ecb,2026-06-11,Financial Times,4,4
+ecb,2026-06-11,Reuters,2,0
+ecb,2026-06-11,The Wall Street Journal,1,0
+ecb,2026-07-23,Bloomberg,6,0
+ecb,2026-07-23,Financial Times,2,2
+ecb,2026-07-23,Reuters,4,0
+ecb,2026-07-23,The Wall Street Journal,0,0
+ecb,2026-09-10,Bloomberg,6,0
+ecb,2026-09-10,Financial Times,3,3
+ecb,2026-09-10,Reuters,6,0
+ecb,2026-09-10,The Wall Street Journal,1,0
+ecb,2026-10-29,Bloomberg,0,0
+ecb,2026-10-29,Financial Times,1,1
+ecb,2026-10-29,Reuters,6,0
+ecb,2026-10-29,The Wall Street Journal,1,1
+fed,2000-02-02,Bloomberg,0,0
+fed,2000-02-02,Financial Times,0,0
+fed,2000-02-02,Reuters,0,0
+fed,2000-02-02,The Wall Street Journal,0,0
+fed,2000-03-21,Bloomberg,0,0
+fed,2000-03-21,Financial Times,0,0
+fed,2000-03-21,Reuters,0,0
+fed,2000-03-21,The Wall Street Journal,0,0
+fed,2000-05-16,Bloomberg,0,0
+fed,2000-05-16,Financial Times,0,0
+fed,2000-05-16,Reuters,0,0
+fed,2000-05-16,The Wall Street Journal,0,0
+fed,2000-06-28,Bloomberg,0,0
+fed,2000-06-28,Financial Times,0,0
+fed,2000-06-28,Reuters,0,0
+fed,2000-06-28,The Wall Street Journal,0,0
+fed,2000-08-22,Bloomberg,0,0
+fed,2000-08-22,Financial Times,0,0
+fed,2000-08-22,Reuters,0,0
+fed,2000-08-22,The Wall Street Journal,0,0
+fed,2000-10-03,Bloomberg,0,0
+fed,2000-10-03,Financial Times,0,0
+fed,2000-10-03,Reuters,0,0
+fed,2000-10-03,The Wall Street Journal,0,0
+fed,2000-11-15,Bloomberg,0,0
+fed,2000-11-15,Financial Times,0,0
+fed,2000-11-15,Reuters,0,0
+fed,2000-11-15,The Wall Street Journal,0,0
+fed,2000-12-19,Bloomberg,0,0
+fed,2000-12-19,Financial Times,0,0
+fed,2000-12-19,Reuters,0,0
+fed,2000-12-19,The Wall Street Journal,0,0
+fed,2001-01-03,Bloomberg,0,0
+fed,2001-01-03,Financial Times,0,0
+fed,2001-01-03,Reuters,0,0
+fed,2001-01-03,The Wall Street Journal,0,0
+fed,2001-01-31,Bloomberg,0,0
+fed,2001-01-31,Financial Times,0,0
+fed,2001-01-31,Reuters,0,0
+fed,2001-01-31,The Wall Street Journal,0,0
+fed,2001-03-20,Bloomberg,0,0
+fed,2001-03-20,Financial Times,0,0
+fed,2001-03-20,Reuters,0,0
+fed,2001-03-20,The Wall Street Journal,0,0
+fed,2001-04-18,Bloomberg,0,0
+fed,2001-04-18,Financial Times,0,0
+fed,2001-04-18,Reuters,0,0
+fed,2001-04-18,The Wall Street Journal,0,0
+fed,2001-05-15,Bloomberg,0,0
+fed,2001-05-15,Financial Times,0,0
+fed,2001-05-15,Reuters,0,0
+fed,2001-05-15,The Wall Street Journal,0,0
+fed,2001-06-27,Bloomberg,0,0
+fed,2001-06-27,Financial Times,0,0
+fed,2001-06-27,Reuters,0,0
+fed,2001-06-27,The Wall Street Journal,0,0
+fed,2001-08-21,Bloomberg,0,0
+fed,2001-08-21,Financial Times,0,0
+fed,2001-08-21,Reuters,0,0
+fed,2001-08-21,The Wall Street Journal,0,0
+fed,2001-09-17,Bloomberg,0,0
+fed,2001-09-17,Financial Times,0,0
+fed,2001-09-17,Reuters,0,0
+fed,2001-09-17,The Wall Street Journal,0,0
+fed,2001-10-02,Bloomberg,0,0
+fed,2001-10-02,Financial Times,0,0
+fed,2001-10-02,Reuters,0,0
+fed,2001-10-02,The Wall Street Journal,0,0
+fed,2001-11-06,Bloomberg,0,0
+fed,2001-11-06,Financial Times,0,0
+fed,2001-11-06,Reuters,0,0
+fed,2001-11-06,The Wall Street Journal,0,0
+fed,2001-12-11,Bloomberg,0,0
+fed,2001-12-11,Financial Times,0,0
+fed,2001-12-11,Reuters,0,0
+fed,2001-12-11,The Wall Street Journal,0,0
+fed,2002-01-30,Bloomberg,0,0
+fed,2002-01-30,Financial Times,0,0
+fed,2002-01-30,Reuters,0,0
+fed,2002-01-30,The Wall Street Journal,0,0
+fed,2002-03-19,Bloomberg,0,0
+fed,2002-03-19,Financial Times,0,0
+fed,2002-03-19,Reuters,0,0
+fed,2002-03-19,The Wall Street Journal,0,0
+fed,2002-05-07,Bloomberg,0,0
+fed,2002-05-07,Financial Times,0,0
+fed,2002-05-07,Reuters,1,0
+fed,2002-05-07,The Wall Street Journal,0,0
+fed,2002-06-26,Bloomberg,0,0
+fed,2002-06-26,Financial Times,0,0
+fed,2002-06-26,Reuters,0,0
+fed,2002-06-26,The Wall Street Journal,0,0
+fed,2002-08-13,Bloomberg,0,0
+fed,2002-08-13,Financial Times,0,0
+fed,2002-08-13,Reuters,0,0
+fed,2002-08-13,The Wall Street Journal,0,0
+fed,2002-09-24,Bloomberg,0,0
+fed,2002-09-24,Financial Times,0,0
+fed,2002-09-24,Reuters,0,0
+fed,2002-09-24,The Wall Street Journal,0,0
+fed,2002-11-06,Bloomberg,0,0
+fed,2002-11-06,Financial Times,0,0
+fed,2002-11-06,Reuters,0,0
+fed,2002-11-06,The Wall Street Journal,0,0
+fed,2002-12-10,Bloomberg,0,0
+fed,2002-12-10,Financial Times,0,0
+fed,2002-12-10,Reuters,0,0
+fed,2002-12-10,The Wall Street Journal,0,0
+fed,2003-01-29,Bloomberg,0,0
+fed,2003-01-29,Financial Times,0,0
+fed,2003-01-29,Reuters,0,0
+fed,2003-01-29,The Wall Street Journal,0,0
+fed,2003-03-18,Bloomberg,0,0
+fed,2003-03-18,Financial Times,0,0
+fed,2003-03-18,Reuters,0,0
+fed,2003-03-18,The Wall Street Journal,0,0
+fed,2003-05-06,Bloomberg,0,0
+fed,2003-05-06,Financial Times,0,0
+fed,2003-05-06,Reuters,0,0
+fed,2003-05-06,The Wall Street Journal,0,0
+fed,2003-06-25,Bloomberg,0,0
+fed,2003-06-25,Financial Times,0,0
+fed,2003-06-25,Reuters,1,0
+fed,2003-06-25,The Wall Street Journal,0,0
+fed,2003-08-12,Bloomberg,0,0
+fed,2003-08-12,Financial Times,0,0
+fed,2003-08-12,Reuters,1,0
+fed,2003-08-12,The Wall Street Journal,0,0
+fed,2003-09-16,Bloomberg,0,0
+fed,2003-09-16,Financial Times,0,0
+fed,2003-09-16,Reuters,0,0
+fed,2003-09-16,The Wall Street Journal,0,0
+fed,2003-10-28,Bloomberg,0,0
+fed,2003-10-28,Financial Times,0,0
+fed,2003-10-28,Reuters,0,0
+fed,2003-10-28,The Wall Street Journal,0,0
+fed,2003-12-09,Bloomberg,0,0
+fed,2003-12-09,Financial Times,0,0
+fed,2003-12-09,Reuters,0,0
+fed,2003-12-09,The Wall Street Journal,0,0
+fed,2004-01-28,Bloomberg,0,0
+fed,2004-01-28,Financial Times,0,0
+fed,2004-01-28,Reuters,0,0
+fed,2004-01-28,The Wall Street Journal,0,0
+fed,2004-03-16,Bloomberg,0,0
+fed,2004-03-16,Financial Times,0,0
+fed,2004-03-16,Reuters,0,0
+fed,2004-03-16,The Wall Street Journal,0,0
+fed,2004-05-04,Bloomberg,0,0
+fed,2004-05-04,Financial Times,0,0
+fed,2004-05-04,Reuters,0,0
+fed,2004-05-04,The Wall Street Journal,0,0
+fed,2004-06-30,Bloomberg,0,0
+fed,2004-06-30,Financial Times,0,0
+fed,2004-06-30,Reuters,0,0
+fed,2004-06-30,The Wall Street Journal,0,0
+fed,2004-08-10,Bloomberg,0,0
+fed,2004-08-10,Financial Times,0,0
+fed,2004-08-10,Reuters,1,0
+fed,2004-08-10,The Wall Street Journal,0,0
+fed,2004-09-21,Bloomberg,0,0
+fed,2004-09-21,Financial Times,0,0
+fed,2004-09-21,Reuters,0,0
+fed,2004-09-21,The Wall Street Journal,0,0
+fed,2004-11-10,Bloomberg,0,0
+fed,2004-11-10,Financial Times,0,0
+fed,2004-11-10,Reuters,0,0
+fed,2004-11-10,The Wall Street Journal,0,0
+fed,2004-12-14,Bloomberg,0,0
+fed,2004-12-14,Financial Times,2,2
+fed,2004-12-14,Reuters,0,0
+fed,2004-12-14,The Wall Street Journal,0,0
+fed,2005-02-02,Bloomberg,0,0
+fed,2005-02-02,Financial Times,0,0
+fed,2005-02-02,Reuters,1,0
+fed,2005-02-02,The Wall Street Journal,0,0
+fed,2005-03-22,Bloomberg,0,0
+fed,2005-03-22,Financial Times,0,0
+fed,2005-03-22,Reuters,0,0
+fed,2005-03-22,The Wall Street Journal,0,0
+fed,2005-05-03,Bloomberg,0,0
+fed,2005-05-03,Financial Times,0,0
+fed,2005-05-03,Reuters,1,0
+fed,2005-05-03,The Wall Street Journal,0,0
+fed,2005-06-30,Bloomberg,0,0
+fed,2005-06-30,Financial Times,0,0
+fed,2005-06-30,Reuters,0,0
+fed,2005-06-30,The Wall Street Journal,0,0
+fed,2005-08-09,Bloomberg,0,0
+fed,2005-08-09,Financial Times,0,0
+fed,2005-08-09,Reuters,0,0
+fed,2005-08-09,The Wall Street Journal,0,0
+fed,2005-09-20,Bloomberg,0,0
+fed,2005-09-20,Financial Times,0,0
+fed,2005-09-20,Reuters,0,0
+fed,2005-09-20,The Wall Street Journal,0,0
+fed,2005-11-01,Bloomberg,0,0
+fed,2005-11-01,Financial Times,0,0
+fed,2005-11-01,Reuters,0,0
+fed,2005-11-01,The Wall Street Journal,0,0
+fed,2005-12-13,Bloomberg,0,0
+fed,2005-12-13,Financial Times,0,0
+fed,2005-12-13,Reuters,2,0
+fed,2005-12-13,The Wall Street Journal,1,0
+fed,2006-01-31,Bloomberg,0,0
+fed,2006-01-31,Financial Times,0,0
+fed,2006-01-31,Reuters,1,0
+fed,2006-01-31,The Wall Street Journal,0,0
+fed,2006-03-28,Bloomberg,0,0
+fed,2006-03-28,Financial Times,0,0
+fed,2006-03-28,Reuters,0,0
+fed,2006-03-28,The Wall Street Journal,0,0
+fed,2006-05-10,Bloomberg,0,0
+fed,2006-05-10,Financial Times,0,0
+fed,2006-05-10,Reuters,0,0
+fed,2006-05-10,The Wall Street Journal,0,0
+fed,2006-06-29,Bloomberg,0,0
+fed,2006-06-29,Financial Times,0,0
+fed,2006-06-29,Reuters,1,0
+fed,2006-06-29,The Wall Street Journal,0,0
+fed,2006-08-08,Bloomberg,0,0
+fed,2006-08-08,Financial Times,0,0
+fed,2006-08-08,Reuters,0,0
+fed,2006-08-08,The Wall Street Journal,0,0
+fed,2006-09-20,Bloomberg,0,0
+fed,2006-09-20,Financial Times,0,0
+fed,2006-09-20,Reuters,0,0
+fed,2006-09-20,The Wall Street Journal,0,0
+fed,2006-10-25,Bloomberg,0,0
+fed,2006-10-25,Financial Times,0,0
+fed,2006-10-25,Reuters,4,4
+fed,2006-10-25,The Wall Street Journal,0,0
+fed,2006-12-12,Bloomberg,0,0
+fed,2006-12-12,Financial Times,0,0
+fed,2006-12-12,Reuters,1,1
+fed,2006-12-12,The Wall Street Journal,0,0
+fed,2007-01-31,Bloomberg,0,0
+fed,2007-01-31,Financial Times,0,0
+fed,2007-01-31,Reuters,34,34
+fed,2007-01-31,The Wall Street Journal,0,0
+fed,2007-03-21,Bloomberg,0,0
+fed,2007-03-21,Financial Times,0,0
+fed,2007-03-21,Reuters,30,30
+fed,2007-03-21,The Wall Street Journal,0,0
+fed,2007-05-09,Bloomberg,0,0
+fed,2007-05-09,Financial Times,0,0
+fed,2007-05-09,Reuters,45,45
+fed,2007-05-09,The Wall Street Journal,0,0
+fed,2007-06-28,Bloomberg,0,0
+fed,2007-06-28,Financial Times,0,0
+fed,2007-06-28,Reuters,17,17
+fed,2007-06-28,The Wall Street Journal,0,0
+fed,2007-08-07,Bloomberg,0,0
+fed,2007-08-07,Financial Times,0,0
+fed,2007-08-07,Reuters,25,25
+fed,2007-08-07,The Wall Street Journal,0,0
+fed,2007-09-18,Bloomberg,0,0
+fed,2007-09-18,Financial Times,0,0
+fed,2007-09-18,Reuters,99,99
+fed,2007-09-18,The Wall Street Journal,0,0
+fed,2007-10-31,Bloomberg,0,0
+fed,2007-10-31,Financial Times,0,0
+fed,2007-10-31,Reuters,78,78
+fed,2007-10-31,The Wall Street Journal,0,0
+fed,2007-12-11,Bloomberg,0,0
+fed,2007-12-11,Financial Times,0,0
+fed,2007-12-11,Reuters,98,98
+fed,2007-12-11,The Wall Street Journal,0,0
+fed,2008-01-22,Bloomberg,0,0
+fed,2008-01-22,Financial Times,0,0
+fed,2008-01-22,Reuters,84,84
+fed,2008-01-22,The Wall Street Journal,0,0
+fed,2008-01-30,Bloomberg,0,0
+fed,2008-01-30,Financial Times,0,0
+fed,2008-01-30,Reuters,68,68
+fed,2008-01-30,The Wall Street Journal,0,0
+fed,2008-03-18,Bloomberg,0,0
+fed,2008-03-18,Financial Times,0,0
+fed,2008-03-18,Reuters,57,57
+fed,2008-03-18,The Wall Street Journal,0,0
+fed,2008-04-30,Bloomberg,0,0
+fed,2008-04-30,Financial Times,1,0
+fed,2008-04-30,Reuters,47,47
+fed,2008-04-30,The Wall Street Journal,0,0
+fed,2008-06-25,Bloomberg,0,0
+fed,2008-06-25,Financial Times,0,0
+fed,2008-06-25,Reuters,35,35
+fed,2008-06-25,The Wall Street Journal,0,0
+fed,2008-08-05,Bloomberg,0,0
+fed,2008-08-05,Financial Times,0,0
+fed,2008-08-05,Reuters,25,25
+fed,2008-08-05,The Wall Street Journal,0,0
+fed,2008-09-16,Bloomberg,0,0
+fed,2008-09-16,Financial Times,0,0
+fed,2008-09-16,Reuters,28,28
+fed,2008-09-16,The Wall Street Journal,0,0
+fed,2008-10-08,Bloomberg,0,0
+fed,2008-10-08,Financial Times,0,0
+fed,2008-10-08,Reuters,19,19
+fed,2008-10-08,The Wall Street Journal,0,0
+fed,2008-10-29,Bloomberg,0,0
+fed,2008-10-29,Financial Times,1,1
+fed,2008-10-29,Reuters,48,48
+fed,2008-10-29,The Wall Street Journal,0,0
+fed,2008-12-16,Bloomberg,0,0
+fed,2008-12-16,Financial Times,0,0
+fed,2008-12-16,Reuters,93,93
+fed,2008-12-16,The Wall Street Journal,0,0
+fed,2009-01-28,Bloomberg,0,0
+fed,2009-01-28,Financial Times,0,0
+fed,2009-01-28,Reuters,15,15
+fed,2009-01-28,The Wall Street Journal,0,0
+fed,2009-03-18,Bloomberg,0,0
+fed,2009-03-18,Financial Times,0,0
+fed,2009-03-18,Reuters,15,15
+fed,2009-03-18,The Wall Street Journal,0,0
+fed,2009-04-29,Bloomberg,0,0
+fed,2009-04-29,Financial Times,0,0
+fed,2009-04-29,Reuters,13,13
+fed,2009-04-29,The Wall Street Journal,0,0
+fed,2009-06-24,Bloomberg,0,0
+fed,2009-06-24,Financial Times,0,0
+fed,2009-06-24,Reuters,13,13
+fed,2009-06-24,The Wall Street Journal,0,0
+fed,2009-08-12,Bloomberg,0,0
+fed,2009-08-12,Financial Times,0,0
+fed,2009-08-12,Reuters,25,25
+fed,2009-08-12,The Wall Street Journal,0,0
+fed,2009-09-23,Bloomberg,0,0
+fed,2009-09-23,Financial Times,0,0
+fed,2009-09-23,Reuters,27,27
+fed,2009-09-23,The Wall Street Journal,0,0
+fed,2009-11-04,Bloomberg,0,0
+fed,2009-11-04,Financial Times,0,0
+fed,2009-11-04,Reuters,28,28
+fed,2009-11-04,The Wall Street Journal,0,0
+fed,2009-12-16,Bloomberg,0,0
+fed,2009-12-16,Financial Times,0,0
+fed,2009-12-16,Reuters,26,26
+fed,2009-12-16,The Wall Street Journal,0,0
+fed,2010-01-27,Bloomberg,0,0
+fed,2010-01-27,Financial Times,0,0
+fed,2010-01-27,Reuters,12,12
+fed,2010-01-27,The Wall Street Journal,0,0
+fed,2010-03-16,Bloomberg,0,0
+fed,2010-03-16,Financial Times,0,0
+fed,2010-03-16,Reuters,45,45
+fed,2010-03-16,The Wall Street Journal,0,0
+fed,2010-04-28,Bloomberg,1,1
+fed,2010-04-28,Financial Times,0,0
+fed,2010-04-28,Reuters,25,25
+fed,2010-04-28,The Wall Street Journal,0,0
+fed,2010-06-23,Bloomberg,7,7
+fed,2010-06-23,Financial Times,0,0
+fed,2010-06-23,Reuters,13,13
+fed,2010-06-23,The Wall Street Journal,0,0
+fed,2010-08-10,Bloomberg,0,0
+fed,2010-08-10,Financial Times,0,0
+fed,2010-08-10,Reuters,41,41
+fed,2010-08-10,The Wall Street Journal,0,0
+fed,2010-09-21,Bloomberg,22,22
+fed,2010-09-21,Financial Times,0,0
+fed,2010-09-21,Reuters,69,69
+fed,2010-09-21,The Wall Street Journal,0,0
+fed,2010-11-03,Bloomberg,60,60
+fed,2010-11-03,Financial Times,0,0
+fed,2010-11-03,Reuters,72,72
+fed,2010-11-03,The Wall Street Journal,0,0
+fed,2010-12-14,Bloomberg,5,5
+fed,2010-12-14,Financial Times,0,0
+fed,2010-12-14,Reuters,12,12
+fed,2010-12-14,The Wall Street Journal,0,0
+fed,2011-01-26,Bloomberg,0,0
+fed,2011-01-26,Financial Times,0,0
+fed,2011-01-26,Reuters,13,13
+fed,2011-01-26,The Wall Street Journal,0,0
+fed,2011-03-15,Bloomberg,5,5
+fed,2011-03-15,Financial Times,0,0
+fed,2011-03-15,Reuters,9,9
+fed,2011-03-15,The Wall Street Journal,0,0
+fed,2011-04-27,Bloomberg,26,26
+fed,2011-04-27,Financial Times,0,0
+fed,2011-04-27,Reuters,49,49
+fed,2011-04-27,The Wall Street Journal,1,0
+fed,2011-06-22,Bloomberg,21,21
+fed,2011-06-22,Financial Times,0,0
+fed,2011-06-22,Reuters,37,37
+fed,2011-06-22,The Wall Street Journal,0,0
+fed,2011-08-09,Bloomberg,33,33
+fed,2011-08-09,Financial Times,0,0
+fed,2011-08-09,Reuters,56,56
+fed,2011-08-09,The Wall Street Journal,0,0
+fed,2011-09-21,Bloomberg,19,19
+fed,2011-09-21,Financial Times,0,0
+fed,2011-09-21,Reuters,51,51
+fed,2011-09-21,The Wall Street Journal,0,0
+fed,2011-11-02,Bloomberg,0,0
+fed,2011-11-02,Financial Times,0,0
+fed,2011-11-02,Reuters,13,13
+fed,2011-11-02,The Wall Street Journal,0,0
+fed,2011-12-13,Bloomberg,7,7
+fed,2011-12-13,Financial Times,0,0
+fed,2011-12-13,Reuters,10,10
+fed,2011-12-13,The Wall Street Journal,0,0
+fed,2012-01-25,Bloomberg,39,39
+fed,2012-01-25,Financial Times,0,0
+fed,2012-01-25,Reuters,35,35
+fed,2012-01-25,The Wall Street Journal,0,0
+fed,2012-03-13,Bloomberg,10,10
+fed,2012-03-13,Financial Times,0,0
+fed,2012-03-13,Reuters,46,46
+fed,2012-03-13,The Wall Street Journal,0,0
+fed,2012-04-25,Bloomberg,5,5
+fed,2012-04-25,Financial Times,0,0
+fed,2012-04-25,Reuters,26,26
+fed,2012-04-25,The Wall Street Journal,0,0
+fed,2012-06-20,Bloomberg,19,19
+fed,2012-06-20,Financial Times,0,0
+fed,2012-06-20,Reuters,58,58
+fed,2012-06-20,The Wall Street Journal,0,0
+fed,2012-08-01,Bloomberg,13,13
+fed,2012-08-01,Financial Times,1,1
+fed,2012-08-01,Reuters,37,37
+fed,2012-08-01,The Wall Street Journal,0,0
+fed,2012-09-13,Bloomberg,42,42
+fed,2012-09-13,Financial Times,0,0
+fed,2012-09-13,Reuters,143,143
+fed,2012-09-13,The Wall Street Journal,0,0
+fed,2012-10-24,Bloomberg,4,4
+fed,2012-10-24,Financial Times,0,0
+fed,2012-10-24,Reuters,14,14
+fed,2012-10-24,The Wall Street Journal,0,0
+fed,2012-12-12,Bloomberg,24,24
+fed,2012-12-12,Financial Times,0,0
+fed,2012-12-12,Reuters,58,58
+fed,2012-12-12,The Wall Street Journal,0,0
+fed,2013-01-30,Bloomberg,7,7
+fed,2013-01-30,Financial Times,0,0
+fed,2013-01-30,Reuters,35,35
+fed,2013-01-30,The Wall Street Journal,0,0
+fed,2013-03-20,Bloomberg,10,10
+fed,2013-03-20,Financial Times,0,0
+fed,2013-03-20,Reuters,28,28
+fed,2013-03-20,The Wall Street Journal,0,0
+fed,2013-05-01,Bloomberg,6,6
+fed,2013-05-01,Financial Times,0,0
+fed,2013-05-01,Reuters,22,22
+fed,2013-05-01,The Wall Street Journal,0,0
+fed,2013-06-19,Bloomberg,30,30
+fed,2013-06-19,Financial Times,0,0
+fed,2013-06-19,Reuters,89,89
+fed,2013-06-19,The Wall Street Journal,0,0
+fed,2013-07-31,Bloomberg,18,18
+fed,2013-07-31,Financial Times,0,0
+fed,2013-07-31,Reuters,58,58
+fed,2013-07-31,The Wall Street Journal,0,0
+fed,2013-09-18,Bloomberg,49,49
+fed,2013-09-18,Financial Times,0,0
+fed,2013-09-18,Reuters,127,127
+fed,2013-09-18,The Wall Street Journal,0,0
+fed,2013-10-30,Bloomberg,22,22
+fed,2013-10-30,Financial Times,0,0
+fed,2013-10-30,Reuters,53,53
+fed,2013-10-30,The Wall Street Journal,0,0
+fed,2013-12-18,Bloomberg,0,0
+fed,2013-12-18,Financial Times,0,0
+fed,2013-12-18,Reuters,124,124
+fed,2013-12-18,The Wall Street Journal,0,0
+fed,2014-01-29,Bloomberg,0,0
+fed,2014-01-29,Financial Times,0,0
+fed,2014-01-29,Reuters,41,41
+fed,2014-01-29,The Wall Street Journal,0,0
+fed,2014-03-19,Bloomberg,0,0
+fed,2014-03-19,Financial Times,0,0
+fed,2014-03-19,Reuters,46,46
+fed,2014-03-19,The Wall Street Journal,0,0
+fed,2014-04-30,Bloomberg,0,0
+fed,2014-04-30,Financial Times,1,1
+fed,2014-04-30,Reuters,13,13
+fed,2014-04-30,The Wall Street Journal,3,0
+fed,2014-06-18,Bloomberg,0,0
+fed,2014-06-18,Financial Times,0,0
+fed,2014-06-18,Reuters,29,29
+fed,2014-06-18,The Wall Street Journal,0,0
+fed,2014-07-30,Bloomberg,0,0
+fed,2014-07-30,Financial Times,0,0
+fed,2014-07-30,Reuters,18,18
+fed,2014-07-30,The Wall Street Journal,0,0
+fed,2014-09-17,Bloomberg,0,0
+fed,2014-09-17,Financial Times,0,0
+fed,2014-09-17,Reuters,54,54
+fed,2014-09-17,The Wall Street Journal,0,0
+fed,2014-10-29,Bloomberg,0,0
+fed,2014-10-29,Financial Times,0,0
+fed,2014-10-29,Reuters,41,41
+fed,2014-10-29,The Wall Street Journal,0,0
+fed,2014-12-17,Bloomberg,0,0
+fed,2014-12-17,Financial Times,0,0
+fed,2014-12-17,Reuters,31,31
+fed,2014-12-17,The Wall Street Journal,0,0
+fed,2015-01-28,Bloomberg,0,0
+fed,2015-01-28,Financial Times,0,0
+fed,2015-01-28,Reuters,31,31
+fed,2015-01-28,The Wall Street Journal,0,0
+fed,2015-03-18,Bloomberg,0,0
+fed,2015-03-18,Financial Times,0,0
+fed,2015-03-18,Reuters,54,54
+fed,2015-03-18,The Wall Street Journal,0,0
+fed,2015-04-29,Bloomberg,0,0
+fed,2015-04-29,Financial Times,0,0
+fed,2015-04-29,Reuters,27,27
+fed,2015-04-29,The Wall Street Journal,0,0
+fed,2015-06-17,Bloomberg,0,0
+fed,2015-06-17,Financial Times,0,0
+fed,2015-06-17,Reuters,32,32
+fed,2015-06-17,The Wall Street Journal,0,0
+fed,2015-07-29,Bloomberg,0,0
+fed,2015-07-29,Financial Times,0,0
+fed,2015-07-29,Reuters,40,40
+fed,2015-07-29,The Wall Street Journal,0,0
+fed,2015-09-17,Bloomberg,0,0
+fed,2015-09-17,Financial Times,0,0
+fed,2015-09-17,Reuters,124,124
+fed,2015-09-17,The Wall Street Journal,1,0
+fed,2015-10-28,Bloomberg,0,0
+fed,2015-10-28,Financial Times,0,0
+fed,2015-10-28,Reuters,49,49
+fed,2015-10-28,The Wall Street Journal,0,0
+fed,2015-12-16,Bloomberg,0,0
+fed,2015-12-16,Financial Times,0,0
+fed,2015-12-16,Reuters,128,128
+fed,2015-12-16,The Wall Street Journal,2,1
+fed,2016-01-27,Bloomberg,0,0
+fed,2016-01-27,Financial Times,0,0
+fed,2016-01-27,Reuters,23,23
+fed,2016-01-27,The Wall Street Journal,0,0
+fed,2016-03-16,Bloomberg,0,0
+fed,2016-03-16,Financial Times,0,0
+fed,2016-03-16,Reuters,80,80
+fed,2016-03-16,The Wall Street Journal,0,0
+fed,2016-04-27,Bloomberg,0,0
+fed,2016-04-27,Financial Times,0,0
+fed,2016-04-27,Reuters,32,32
+fed,2016-04-27,The Wall Street Journal,1,0
+fed,2016-06-15,Bloomberg,0,0
+fed,2016-06-15,Financial Times,0,0
+fed,2016-06-15,Reuters,40,40
+fed,2016-06-15,The Wall Street Journal,0,0
+fed,2016-07-27,Bloomberg,0,0
+fed,2016-07-27,Financial Times,0,0
+fed,2016-07-27,Reuters,28,28
+fed,2016-07-27,The Wall Street Journal,0,0
+fed,2016-09-21,Bloomberg,0,0
+fed,2016-09-21,Financial Times,0,0
+fed,2016-09-21,Reuters,28,28
+fed,2016-09-21,The Wall Street Journal,1,0
+fed,2016-11-02,Bloomberg,0,0
+fed,2016-11-02,Financial Times,0,0
+fed,2016-11-02,Reuters,7,7
+fed,2016-11-02,The Wall Street Journal,0,0
+fed,2016-12-14,Bloomberg,0,0
+fed,2016-12-14,Financial Times,1,0
+fed,2016-12-14,Reuters,51,51
+fed,2016-12-14,The Wall Street Journal,3,1
+fed,2017-02-01,Bloomberg,0,0
+fed,2017-02-01,Financial Times,0,0
+fed,2017-02-01,Reuters,10,10
+fed,2017-02-01,The Wall Street Journal,0,0
+fed,2017-03-15,Bloomberg,0,0
+fed,2017-03-15,Financial Times,2,0
+fed,2017-03-15,Reuters,40,40
+fed,2017-03-15,The Wall Street Journal,1,0
+fed,2017-05-03,Bloomberg,0,0
+fed,2017-05-03,Financial Times,0,0
+fed,2017-05-03,Reuters,33,16
+fed,2017-05-03,The Wall Street Journal,0,0
+fed,2017-06-14,Bloomberg,0,0
+fed,2017-06-14,Financial Times,3,0
+fed,2017-06-14,Reuters,26,26
+fed,2017-06-14,The Wall Street Journal,3,3
+fed,2017-07-26,Bloomberg,0,0
+fed,2017-07-26,Financial Times,1,0
+fed,2017-07-26,Reuters,17,17
+fed,2017-07-26,The Wall Street Journal,0,0
+fed,2017-09-20,Bloomberg,0,0
+fed,2017-09-20,Financial Times,0,0
+fed,2017-09-20,Reuters,35,35
+fed,2017-09-20,The Wall Street Journal,1,0
+fed,2017-11-01,Bloomberg,0,0
+fed,2017-11-01,Financial Times,0,0
+fed,2017-11-01,Reuters,13,13
+fed,2017-11-01,The Wall Street Journal,0,0
+fed,2017-12-13,Bloomberg,0,0
+fed,2017-12-13,Financial Times,0,0
+fed,2017-12-13,Reuters,34,31
+fed,2017-12-13,The Wall Street Journal,2,0
+fed,2018-01-31,Bloomberg,0,0
+fed,2018-01-31,Financial Times,0,0
+fed,2018-01-31,Reuters,11,11
+fed,2018-01-31,The Wall Street Journal,1,0
+fed,2018-03-21,Bloomberg,0,0
+fed,2018-03-21,Financial Times,1,0
+fed,2018-03-21,Reuters,29,29
+fed,2018-03-21,The Wall Street Journal,1,0
+fed,2018-05-02,Bloomberg,0,0
+fed,2018-05-02,Financial Times,0,0
+fed,2018-05-02,Reuters,18,18
+fed,2018-05-02,The Wall Street Journal,0,0
+fed,2018-06-13,Bloomberg,0,0
+fed,2018-06-13,Financial Times,4,4
+fed,2018-06-13,Reuters,29,29
+fed,2018-06-13,The Wall Street Journal,1,0
+fed,2018-08-01,Bloomberg,0,0
+fed,2018-08-01,Financial Times,2,2
+fed,2018-08-01,Reuters,8,8
+fed,2018-08-01,The Wall Street Journal,0,0
+fed,2018-09-26,Bloomberg,0,0
+fed,2018-09-26,Financial Times,1,1
+fed,2018-09-26,Reuters,29,29
+fed,2018-09-26,The Wall Street Journal,1,0
+fed,2018-11-08,Bloomberg,0,0
+fed,2018-11-08,Financial Times,1,1
+fed,2018-11-08,Reuters,18,18
+fed,2018-11-08,The Wall Street Journal,0,0
+fed,2018-12-19,Bloomberg,0,0
+fed,2018-12-19,Financial Times,2,2
+fed,2018-12-19,Reuters,33,33
+fed,2018-12-19,The Wall Street Journal,0,0
+fed,2019-01-30,Bloomberg,0,0
+fed,2019-01-30,Financial Times,2,2
+fed,2019-01-30,Reuters,17,17
+fed,2019-01-30,The Wall Street Journal,0,0
+fed,2019-03-20,Bloomberg,0,0
+fed,2019-03-20,Financial Times,0,0
+fed,2019-03-20,Reuters,26,26
+fed,2019-03-20,The Wall Street Journal,0,0
+fed,2019-05-01,Bloomberg,0,0
+fed,2019-05-01,Financial Times,1,1
+fed,2019-05-01,Reuters,19,19
+fed,2019-05-01,The Wall Street Journal,3,3
+fed,2019-06-19,Bloomberg,0,0
+fed,2019-06-19,Financial Times,1,1
+fed,2019-06-19,Reuters,84,84
+fed,2019-06-19,The Wall Street Journal,0,0
+fed,2019-07-31,Bloomberg,0,0
+fed,2019-07-31,Financial Times,3,3
+fed,2019-07-31,Reuters,78,78
+fed,2019-07-31,The Wall Street Journal,5,4
+fed,2019-09-18,Bloomberg,0,0
+fed,2019-09-18,Financial Times,5,5
+fed,2019-09-18,Reuters,61,61
+fed,2019-09-18,The Wall Street Journal,0,0
+fed,2019-10-30,Bloomberg,3,3
+fed,2019-10-30,Financial Times,1,1
+fed,2019-10-30,Reuters,87,56
+fed,2019-10-30,The Wall Street Journal,11,10
+fed,2019-12-11,Bloomberg,0,0
+fed,2019-12-11,Financial Times,1,1
+fed,2019-12-11,Reuters,33,19
+fed,2019-12-11,The Wall Street Journal,5,5
+fed,2020-01-29,Bloomberg,0,0
+fed,2020-01-29,Financial Times,2,2
+fed,2020-01-29,Reuters,13,9
+fed,2020-01-29,The Wall Street Journal,4,4
+fed,2020-03-03,Bloomberg,3,0
+fed,2020-03-03,Financial Times,4,4
+fed,2020-03-03,Reuters,124,83
+fed,2020-03-03,The Wall Street Journal,8,7
+fed,2020-03-15,Bloomberg,2,0
+fed,2020-03-15,Financial Times,2,2
+fed,2020-03-15,Reuters,51,33
+fed,2020-03-15,The Wall Street Journal,2,1
+fed,2020-04-29,Bloomberg,0,0
+fed,2020-04-29,Financial Times,0,0
+fed,2020-04-29,Reuters,13,7
+fed,2020-04-29,The Wall Street Journal,1,0
+fed,2020-06-10,Bloomberg,1,0
+fed,2020-06-10,Financial Times,0,0
+fed,2020-06-10,Reuters,29,9
+fed,2020-06-10,The Wall Street Journal,3,2
+fed,2020-07-29,Bloomberg,0,0
+fed,2020-07-29,Financial Times,1,1
+fed,2020-07-29,Reuters,35,9
+fed,2020-07-29,The Wall Street Journal,3,3
+fed,2020-09-16,Bloomberg,0,0
+fed,2020-09-16,Financial Times,1,1
+fed,2020-09-16,Reuters,33,14
+fed,2020-09-16,The Wall Street Journal,2,2
+fed,2020-11-05,Bloomberg,0,0
+fed,2020-11-05,Financial Times,1,1
+fed,2020-11-05,Reuters,4,3
+fed,2020-11-05,The Wall Street Journal,0,0
+fed,2020-12-16,Bloomberg,0,0
+fed,2020-12-16,Financial Times,0,0
+fed,2020-12-16,Reuters,6,1
+fed,2020-12-16,The Wall Street Journal,1,1
+fed,2021-01-27,Bloomberg,0,0
+fed,2021-01-27,Financial Times,1,1
+fed,2021-01-27,Reuters,6,6
+fed,2021-01-27,The Wall Street Journal,0,0
+fed,2021-03-17,Bloomberg,1,0
+fed,2021-03-17,Financial Times,2,2
+fed,2021-03-17,Reuters,24,24
+fed,2021-03-17,The Wall Street Journal,0,0
+fed,2021-04-28,Bloomberg,0,0
+fed,2021-04-28,Financial Times,2,2
+fed,2021-04-28,Reuters,14,14
+fed,2021-04-28,The Wall Street Journal,0,0
+fed,2021-06-16,Bloomberg,3,2
+fed,2021-06-16,Financial Times,6,6
+fed,2021-06-16,Reuters,32,31
+fed,2021-06-16,The Wall Street Journal,0,0
+fed,2021-07-28,Bloomberg,0,0
+fed,2021-07-28,Financial Times,1,1
+fed,2021-07-28,Reuters,11,11
+fed,2021-07-28,The Wall Street Journal,0,0
+fed,2021-09-22,Bloomberg,1,0
+fed,2021-09-22,Financial Times,3,3
+fed,2021-09-22,Reuters,24,24
+fed,2021-09-22,The Wall Street Journal,0,0
+fed,2021-11-03,Bloomberg,1,0
+fed,2021-11-03,Financial Times,4,4
+fed,2021-11-03,Reuters,28,26
+fed,2021-11-03,The Wall Street Journal,0,0
+fed,2021-12-15,Bloomberg,1,0
+fed,2021-12-15,Financial Times,3,3
+fed,2021-12-15,Reuters,0,0
+fed,2021-12-15,The Wall Street Journal,0,0
+fed,2022-01-26,Bloomberg,1,0
+fed,2022-01-26,Financial Times,3,3
+fed,2022-01-26,Reuters,4,0
+fed,2022-01-26,The Wall Street Journal,0,0
+fed,2022-03-16,Bloomberg,3,0
+fed,2022-03-16,Financial Times,2,2
+fed,2022-03-16,Reuters,6,0
+fed,2022-03-16,The Wall Street Journal,0,0
+fed,2022-05-04,Bloomberg,2,1
+fed,2022-05-04,Financial Times,2,2
+fed,2022-05-04,Reuters,4,0
+fed,2022-05-04,The Wall Street Journal,0,0
+fed,2022-06-15,Bloomberg,2,0
+fed,2022-06-15,Financial Times,2,2
+fed,2022-06-15,Reuters,2,0
+fed,2022-06-15,The Wall Street Journal,1,0
+fed,2022-07-27,Bloomberg,3,0
+fed,2022-07-27,Financial Times,4,4
+fed,2022-07-27,Reuters,2,0
+fed,2022-07-27,The Wall Street Journal,1,0
+fed,2022-09-21,Bloomberg,23,21
+fed,2022-09-21,Financial Times,6,6
+fed,2022-09-21,Reuters,6,0
+fed,2022-09-21,The Wall Street Journal,0,0
+fed,2022-11-02,Bloomberg,25,25
+fed,2022-11-02,Financial Times,2,2
+fed,2022-11-02,Reuters,1,0
+fed,2022-11-02,The Wall Street Journal,0,0
+fed,2022-12-14,Bloomberg,25,24
+fed,2022-12-14,Financial Times,2,2
+fed,2022-12-14,Reuters,1,0
+fed,2022-12-14,The Wall Street Journal,0,0
+fed,2023-02-01,Bloomberg,24,23
+fed,2023-02-01,Financial Times,2,2
+fed,2023-02-01,Reuters,2,0
+fed,2023-02-01,The Wall Street Journal,1,1
+fed,2023-03-22,Bloomberg,6,5
+fed,2023-03-22,Financial Times,5,5
+fed,2023-03-22,Reuters,10,4
+fed,2023-03-22,The Wall Street Journal,3,2
+fed,2023-05-03,Bloomberg,23,21
+fed,2023-05-03,Financial Times,3,3
+fed,2023-05-03,Reuters,20,19
+fed,2023-05-03,The Wall Street Journal,13,13
+fed,2023-06-14,Bloomberg,18,17
+fed,2023-06-14,Financial Times,1,1
+fed,2023-06-14,Reuters,16,15
+fed,2023-06-14,The Wall Street Journal,8,8
+fed,2023-07-26,Bloomberg,18,16
+fed,2023-07-26,Financial Times,3,3
+fed,2023-07-26,Reuters,15,14
+fed,2023-07-26,The Wall Street Journal,5,5
+fed,2023-09-20,Bloomberg,11,11
+fed,2023-09-20,Financial Times,2,2
+fed,2023-09-20,Reuters,7,6
+fed,2023-09-20,The Wall Street Journal,7,7
+fed,2023-11-01,Bloomberg,13,13
+fed,2023-11-01,Financial Times,2,2
+fed,2023-11-01,Reuters,10,8
+fed,2023-11-01,The Wall Street Journal,7,7
+fed,2023-12-13,Bloomberg,25,25
+fed,2023-12-13,Financial Times,3,3
+fed,2023-12-13,Reuters,5,0
+fed,2023-12-13,The Wall Street Journal,7,7
+fed,2024-01-31,Bloomberg,8,4
+fed,2024-01-31,Financial Times,2,2
+fed,2024-01-31,Reuters,5,0
+fed,2024-01-31,The Wall Street Journal,4,2
+fed,2024-03-20,Bloomberg,21,20
+fed,2024-03-20,Financial Times,2,2
+fed,2024-03-20,Reuters,1,0
+fed,2024-03-20,The Wall Street Journal,0,0
+fed,2024-05-01,Bloomberg,20,18
+fed,2024-05-01,Financial Times,3,3
+fed,2024-05-01,Reuters,1,0
+fed,2024-05-01,The Wall Street Journal,0,0
+fed,2024-06-12,Bloomberg,14,14
+fed,2024-06-12,Financial Times,6,6
+fed,2024-06-12,Reuters,2,0
+fed,2024-06-12,The Wall Street Journal,1,0
+fed,2024-07-31,Bloomberg,5,3
+fed,2024-07-31,Financial Times,2,2
+fed,2024-07-31,Reuters,5,0
+fed,2024-07-31,The Wall Street Journal,2,2
+fed,2024-09-18,Bloomberg,11,6
+fed,2024-09-18,Financial Times,11,11
+fed,2024-09-18,Reuters,23,4
+fed,2024-09-18,The Wall Street Journal,5,2
+fed,2024-11-07,Bloomberg,0,0
+fed,2024-11-07,Financial Times,2,2
+fed,2024-11-07,Reuters,5,0
+fed,2024-11-07,The Wall Street Journal,0,0
+fed,2024-12-18,Bloomberg,5,0
+fed,2024-12-18,Financial Times,2,2
+fed,2024-12-18,Reuters,10,0
+fed,2024-12-18,The Wall Street Journal,0,0
+fed,2025-01-29,Bloomberg,1,1
+fed,2025-01-29,Financial Times,4,4
+fed,2025-01-29,Reuters,3,0
+fed,2025-01-29,The Wall Street Journal,0,0
+fed,2025-03-19,Bloomberg,5,2
+fed,2025-03-19,Financial Times,4,4
+fed,2025-03-19,Reuters,3,0
+fed,2025-03-19,The Wall Street Journal,0,0
+fed,2025-05-07,Bloomberg,0,0
+fed,2025-05-07,Financial Times,3,3
+fed,2025-05-07,Reuters,2,0
+fed,2025-05-07,The Wall Street Journal,2,0
+fed,2025-06-18,Bloomberg,4,0
+fed,2025-06-18,Financial Times,3,3
+fed,2025-06-18,Reuters,2,0
+fed,2025-06-18,The Wall Street Journal,1,0
+fed,2025-07-30,Bloomberg,5,4
+fed,2025-07-30,Financial Times,3,3
+fed,2025-07-30,Reuters,3,0
+fed,2025-07-30,The Wall Street Journal,2,0
+fed,2025-09-17,Bloomberg,16,11
+fed,2025-09-17,Financial Times,4,4
+fed,2025-09-17,Reuters,22,1
+fed,2025-09-17,The Wall Street Journal,3,0
+fed,2025-10-29,Bloomberg,11,8
+fed,2025-10-29,Financial Times,5,5
+fed,2025-10-29,Reuters,2,0
+fed,2025-10-29,The Wall Street Journal,3,1
+fed,2025-12-10,Bloomberg,11,5
+fed,2025-12-10,Financial Times,6,5
+fed,2025-12-10,Reuters,10,0
+fed,2025-12-10,The Wall Street Journal,3,0
+fed,2026-01-28,Bloomberg,2,0
+fed,2026-01-28,Financial Times,4,4
+fed,2026-01-28,Reuters,1,0
+fed,2026-01-28,The Wall Street Journal,1,0
+fed,2026-03-18,Bloomberg,8,6
+fed,2026-03-18,Financial Times,2,2
+fed,2026-03-18,Reuters,5,2
+fed,2026-03-18,The Wall Street Journal,1,0
+fed,2026-04-29,Bloomberg,8,6
+fed,2026-04-29,Financial Times,2,2
+fed,2026-04-29,Reuters,6,0
+fed,2026-04-29,The Wall Street Journal,2,0
+fed,2026-06-17,Bloomberg,2,0
+fed,2026-06-17,Financial Times,5,5
+fed,2026-06-17,Reuters,6,0
+fed,2026-06-17,The Wall Street Journal,3,0
+fed,2026-07-29,Bloomberg,7,0
+fed,2026-07-29,Financial Times,3,3
+fed,2026-07-29,Reuters,11,0
+fed,2026-07-29,The Wall Street Journal,2,0
+fed,2026-09-16,Bloomberg,1,0
+fed,2026-09-16,Financial Times,15,15
+fed,2026-09-16,Reuters,33,28
+fed,2026-09-16,The Wall Street Journal,43,34
+fed,2026-10-28,Bloomberg,12,2
+fed,2026-10-28,Financial Times,11,11
+fed,2026-10-28,Reuters,8,1
+fed,2026-10-28,The Wall Street Journal,26,26
