@@ -386,9 +386,20 @@
       }
       contents.push(example);
     }
+    const commonYears=m=>m.release.date>='2019-01-01' && m.release.date<'2026-01-01';
+    const sampleRows=[['Full history',paired,reversals],['2019–2025',paired.filter(commonYears),reversals.filter(commonYears)]]
+      .map(([label,meetings,opposite])=>{
+        const initial=meetings.filter(m=>direction(m.release)!==0).length;
+        const netOpposite=opposite.filter(m=>direction(m.release)*direction(m.combined)===-1).length;
+        return [label,meetings.length,initial,proportion(opposite.length,initial),proportion(netOpposite,opposite.length)];
+      });
+    const comparison=table('Conference reversals conditional on the initial curve move',
+      ['Sample','Matched meetings','Release outside band','Conference reversed / release outside band','Full meeting reversed / conference reversals'],sampleRows);
+    comparison.id='pm-curve-samples';
+    contents.push(comparison,small('The 2019–2025 row uses the same completed calendar years for both banks. Meetings can have different policy news and quote windows. Small counts limit comparisons across banks.'));
     const section=disclosure('Did the press conference reverse the initial curve move?',contents);
     section.id='pm-curve-reversals';
-    section.open=location.hash==='#pm-curve-reversals';
+    section.open=['#pm-curve-reversals','#pm-curve-samples'].includes(location.hash);
     return section;
   }
   async function renderCurve(){
@@ -429,7 +440,7 @@
     box.replaceChildren(...output,curveReversals(file.records,band,id),link);
   }
   curvePanel.addEventListener('toggle',renderCurve);
-  if(['#pm-curve-composition','#pm-curve-reversals'].includes(location.hash))curvePanel.open=true;
+  if(['#pm-curve-composition','#pm-curve-reversals','#pm-curve-samples'].includes(location.hash))curvePanel.open=true;
   const projectionPanel=field('fed-projections');
 
   async function showProjectionComparison(){
