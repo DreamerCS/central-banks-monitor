@@ -49,11 +49,22 @@ def build():
             ois, actual = values.get('ois1y'), values.get('yield2y')
             fitted = intercept + beta * ois if ois is not None and actual is not None else None
             eligible = event.get('priorGapEligible') and event.get('pricingGapBp') is not None
+            # The June ECB account describes a fully priced step at reported precision.
+            # Numerical ECB curve increments can be admitted after a source review.
+            gap = round(event['pricingGapBp'], 6) if eligible else None
+            if not eligible:
+                evidence = 'No comparable prior'
+            elif code == 'fed':
+                evidence = 'Reconstructed from current-meeting futures'
+            elif day == '2026-06-11':
+                evidence = 'Rounded step in ECB meeting account'
+            else:
+                evidence = 'ECB pricing description awaiting precision review'
             rows.append(dict(
                 bank=code, date=day, leader=event['leader'],
                 officialUrl=event.get('releaseUrl') or event['url'], actionBp=event['actionBp'],
                 priorMoveBp=round(event['priorMoveBp'], 6) if eligible else None,
-                pricingGapBp=round(event['pricingGapBp'], 6) if eligible else None,
+                pricingGapBp=gap, comparisonGapBp=gap if code == 'fed' else None, priorEvidence=evidence,
                 priorMethod=event.get('priorMethod') if eligible else None,
                 priorSource=event.get('priorPricingSource') if eligible else None,
                 releaseStatus='Observed release window' if release else 'No eligible window in source edition',

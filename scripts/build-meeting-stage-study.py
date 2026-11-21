@@ -21,9 +21,9 @@ def load(name):
     return json.loads((DATA / (name+".json")).read_text())
 
 
-def window_map(bank):
+def window_map(events):
     windows = {}
-    for r in load(bank+"-cross-asset-events")["records"]:
+    for r in events["records"]:
         if (r["stage"], r["type"]) in {("conference", "conference"), ("release", "decision")}:
             key = r["date"], r["stage"]
             if key in windows:
@@ -40,7 +40,8 @@ def meetings():
     rows = []
     for bank in load("stance-cohorts")["banks"]:
         key = bank["id"]
-        windows = window_map(key)
+        events = load(key+"-cross-asset-events")
+        windows = window_map(events)
         for r in bank["records"]:
             day = r["date"]
             if not START <= day <= END:
@@ -63,7 +64,7 @@ def meetings():
             row.update(newsArticles=len(reports), newsOutlets=len({a["publisher"] for a in reports}),
                        reportCount=sum(a["coverageMode"]=="report" for a in reports),
                        previewCount=sum(a["coverageMode"]=="preview" for a in reports),
-                       marketSource=release.get("sourceUrl") or r.get("marketUrl"),
+                       marketSource=events["source"]["url"],
                        flags=" | ".join(release.get("flags",[])), conferenceFlags=" | ".join(conference.get("flags",[])))
             rows.append(row)
     return rows

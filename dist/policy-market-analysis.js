@@ -10,6 +10,7 @@
   const query=new URLSearchParams(location.search);
   const bank=field('bank'), instrument=field('instrument'), mode=field('mode'), exclusion=field('exclusion');
   bank.value=query.get('bank')==='ecb'?'ecb':'fed';
+  field('dimension').value=query.get('dimension')==='cycle'?'cycle':'leader';
   const digits=n=>Number.isFinite(n)?new Intl.NumberFormat('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2}).format(n).replace('-','−'):'—';
   const numeric=n=>Number.isFinite(n)?n.toLocaleString('en-GB'):'—';
   const ci=values=>Array.isArray(values)&&values.length===2&&values.every(Number.isFinite)?digits(values[0])+' to '+digits(values[1]):'—';
@@ -37,7 +38,7 @@
     control.disabled=!options.length;
     control.value=options.some(([v])=>v===value)?value:options[0]?.[0]||'';
   }
-  let marketData=null, headlineData=null, speechData=null, stageData=null, currentData=null;
+  let marketData=null, headlineData=null, speechData=null, stageData=null, currentData=null, anticipatedData=null, regimeData=null, anticipatedHeadlines=null;
   const pointFiles=new Map();
   let plotToken=0;
   const svgNs='http://www.w3.org/2000/svg';
@@ -157,6 +158,72 @@
     const descriptions=(marketData.methods||[]).map(small);if(b.sourceUrl) descriptions.push(source);
     if(descriptions.length) box.append(disclosure('Observations and estimation',descriptions));
   }
+  const reutersPanel=field('reuters-2025');
+  let reutersRequest;
+  reutersPanel.addEventListener('toggle',async()=>{
+    if(!reutersPanel.open||reutersRequest)return;
+    const output=field('reuters-output');
+    output.replaceChildren(small('Loading 2025 meetings…'));
+    try{
+      reutersRequest=load('reuters-fomc-2025');
+      const rows=await reutersRequest;
+      const matched=rows.filter(r=>Number.isFinite(r.ois1yBp)&&Number.isFinite(r.conferenceOis1yBp)&&r.ois1yBp!==0&&r.conferenceOis1yBp!==0);
+      const reversed=matched.filter(r=>Math.sign(r.ois1yBp)!==Math.sign(r.conferenceOis1yBp)).length;
+      const bothMaterial=matched.filter(r=>Math.abs(r.ois1yBp)>1&&Math.abs(r.conferenceOis1yBp)>1);
+      const materialOpposed=bothMaterial.filter(r=>Math.sign(r.ois1yBp)!==Math.sign(r.conferenceOis1yBp)).length;
+      const grid=table('Reuters reports and one-year OIS by communication window (bp)',
+        ['Meeting','Reuters headline emphasis','Decision gap','OIS at statement','OIS at conference'],
+        rows.map(r=>[r.date,r.titleReading,signedOrMissing(r.pricingGapBp),signedOrMissing(r.ois1yBp),signedOrMissing(r.conferenceOis1yBp)]));
+      grid.querySelectorAll('tbody tr').forEach((tr,i)=>{
+        const r=rows[i];
+        if(!r.articleUrl)return;
+        const link=el('a',r.date);
+        link.href=r.articleUrl;
+        link.setAttribute('aria-label','Reuters report for '+r.date);
+        tr.querySelector('th').replaceChildren(link);
+      });
+      output.replaceChildren(small('The statement and press-conference OIS changes had opposite signs on '+reversed+' of '+matched.length+' dates. When both moves exceeded 1 bp in size, '+materialOpposed+' of '+bothMaterial.length+' moved in opposite directions. A closing headline can therefore describe a different part of the meeting from the initial price move.'),grid,
+        small('The CSV gives the headline reading, the original story link, available timing evidence and both market windows. The July reading comes from an indexed Reuters edition. This separate eight-meeting sample uses the official calendar as its denominator. The historical four-publisher comparison retains its original corpus.'));
+    }catch{
+      reutersRequest=null;
+      output.replaceChildren(small('The table is unavailable. Download the meeting CSV below.'));
+    }
+  });
+  if(location.hash==='#pm-reuters-2025')reutersPanel.open=true;
+  function renderAnticipatedNews(){
+    const box=field('anticipated-news');box.replaceChildren();
+    const result=anticipatedHeadlines?.banks?.find(r=>r.bank===bank.value);
+    if(!result)return;
+    const period=anticipatedHeadlines.period;
+    const variants=[['Anticipated · confirmed post-release',result.anticipated],['All decisions · confirmed post-release',result.allEligible],['Anticipated · confirmed, excluding WSJ',result.withoutWSJ],['Anticipated · all report editions',result.retrospective]];
+    if(bank.value==='ecb' && result.reportedStep)variants.push(['Rounded step narratives · separate context',result.reportedStep]);
+    const rows=variants.map(([name,s])=>[name,numeric(s.nDecisions),numeric(s.nDecisions-s.nWithReport),
+      s.nDirectional+' / '+s.nDecisions,numeric(s.nDirectionalWithOis),numeric(s.nMaterialDirectional),
+      s.nMaterialDirectional?proportion(s.nAligned,s.nMaterialDirectional):'0 / 0 (—)']);
+    const note=small(period.start+' to '+period.end+'. This comparison always uses decision gaps within 5 bp and absolute one-year OIS changes above 1 bp. It uses reports, with its own timing and publisher rules.');
+    const stats=table('Headline direction and the decision-release OIS move',['Sample','Decisions','No qualifying report','Directional / decisions','Directional with OIS','Directional with |OIS| >1 bp','Aligned / material'],rows);
+    const timing=small('The primary screen requires the first publication clock to follow the release, or a later edition date whose earliest possible publication follows it. The reviewed title may reflect later changes. Including all report editions also admits unresolved timing and stories posted at or before release.');
+    const bySource=result.sourceCoverage.map(s=>s.publisher+' '+s.anticipatedMeetings).join(' · ');
+    const filter=small('Anticipated meetings with an eligible report by outlet · '+bySource+'. Multiple outlets can cover one meeting. The archive spans four publishers and has uneven coverage across years.');
+    const examples=el('div');
+    const events=anticipatedHeadlines.events.filter(e=>e.bank===bank.value&&e.anticipated&&Number.isFinite(e.ois1yBp)&&Math.abs(e.ois1yBp)>1).sort((a,b)=>a.date.localeCompare(b.date));
+    const direction=d=>d==='tighter'||d==='easier';
+    for(const [label,kind,records] of [
+      ['Confirmed after release','postRelease',events.filter(e=>direction(e.postRelease.direction))],
+      ['Direction appears only in the broader reading','retrospective',events.filter(e=>direction(e.retrospective.direction)&&!direction(e.postRelease.direction))]
+    ]){
+      for(const e of records){
+        const read=e[kind];
+        const report=e.reports.find(r=>r.path===read.direction && read.ballots[r.publisher]===read.direction &&
+          (kind==='postRelease'?r.chronology.startsWith('post-release'):!r.chronology.startsWith('post-release')));
+        if(!report)continue;
+        const p=small(label+' · '+e.date+' decision · '+read.direction+' path · one-year OIS '+signed(e.ois1yBp)+' bp. ');
+        const a=el('a',report.publisher+' · '+(report.publishedAt||report.publicationDate));a.href=report.url;p.append(a);examples.append(p);break;
+      }
+    }
+    const download=el('a','Download the event votes, publication evidence and source URLs (JSON)');download.href='data/anticipated-headlines.json';download.download='';
+    box.append(disclosure('Did coverage agree with the path when the decision was anticipated?',[note,stats,timing,filter,examples,download]));
+  }
   function renderNews(){
     const box=field('news-output');box.replaceChildren();
     const b=headlineData?.banks?.find(row=>row.bank===bank.value);
@@ -239,9 +306,129 @@
     const sources=el('div',null,'ce-links');sources.append(...sourceLinks);
     box.append(disclosure('Speech methods and data sources',[...(speechData.methods||[]).map(small),sources]));
   }
+  function renderAnticipated(){
+    const box=field('anticipated-output'),threshold=field('threshold');
+    field('ecb-case').hidden=bank.value!=='ecb';
+    box.replaceChildren();
+    const b=anticipatedData?.banks?.[bank.value],sets=b?.thresholds||[];
+    setOptions(threshold,sets.map(s=>[String(s.thresholdBp),s.thresholdBp+' bp']),threshold.value||String(anticipatedData?.defaultThresholdBp??5));
+    const selected=sets.find(s=>String(s.thresholdBp)===threshold.value);
+    if(!selected){box.append(small('Decision and path estimates are unavailable for this bank.'));return;}
+    const order=[['anticipated','Within '+threshold.value+' bp'],['surprise','Beyond '+threshold.value+' bp']];
+    if(bank.value==='ecb' && selected.groups.reportedStep)order.push(['reportedStep','Rounded step narrative · contextual']);
+    order.push(['unpriced','No comparable prior']);
+    const rows=order.map(([id,label])=>{
+      const g=selected.groups[id],m=g.metrics.ois1yBp,p=g.pathMove;
+      return [label,numeric(g.n),numeric(m.n),digits(m.medianAbs),proportion(p.over1Bp,p.n),proportion(p.over5Bp,p.n)];
+    });
+    const coverage=b.coverage||{};
+    if(Number.isInteger(coverage.comparableGaps))box.append(small(numeric(coverage.comparableGaps)+' decision releases have a comparable actual-minus-priced move. One-year OIS spans the current decision and future policy expectations. Its movement can also reflect risk premia.'));
+    box.append(table('One-year OIS moves in the decision-release window',[bank.value==='ecb'?'Reported gap at source precision':'Decision gap','Meetings','OIS observations','Median absolute move (bp)','Absolute move >1 bp','Absolute move >5 bp'],rows));
+    if(bank.value==='ecb' && Number.isInteger(coverage.comparableGaps)){
+      const text=Number.isInteger(coverage.rawComparableGaps)?numeric(coverage.rawComparableGaps)+' releases have source-reported pricing for the deposit rate. '+numeric(coverage.comparableGaps)+' have a numeric curve increment eligible for a threshold comparison.':'Only '+numeric(coverage.comparableGaps)+' ECB releases have comparable prior pricing.';
+      box.append(small(text+' Rounded step descriptions cannot resolve smaller tolerances. The beyond-threshold OIS sample has '+numeric(selected.groups.surprise.pathMove.n)+' '+(selected.groups.surprise.pathMove.n===1?'meeting':'meetings')+'. These groups are too small for statistical comparisons.'));
+      if(b.priorAudit?.length){
+        const evidence=b.priorAudit.map(r=>[r.date,r.priorEvidenceType==='reportedCurveIncrement'?'Numeric curve increment':'Rounded step narrative',digits(r.priorMoveBp),digits(r.comparisonGapBp),r.sourceAudit||'—']);
+        const auditTable=table('ECB deposit-rate pricing evidence by decision date',['Meeting date','Source evidence','Reported move (bp)','Gap used for thresholds (bp)','Evidence and source'],evidence);
+        [...auditTable.querySelectorAll('tbody tr')].forEach((tr,i)=>{
+          const r=b.priorAudit[i];if(!r.pricingSource)return;
+          const read=el('a',' Read source');read.href=r.pricingSource;tr.lastElementChild.append(read);
+        });
+        const auditNotes=[auditTable],rounded=b.reportedStepSensitivity;
+        if(rounded?.anticipated && rounded.surprise)auditNotes.push(small('Treating the rounded step descriptions as point quotes gives '+numeric(rounded.anticipated.n)+' decisions within '+rounded.thresholdBp+' bp and '+numeric(rounded.surprise.n)+' beyond it. This sensitivity depends on the rounding assumption.'));
+        box.append(disclosure('Inspect each ECB prior and its source',auditNotes));
+      }
+    }
+    const curves=order.flatMap(([id,label])=>{
+      const curve=selected.groups[id].pairedCurve;
+      if(!curve)return [];
+      return [['OIS up >1 bp',curve.oisUpOver1Bp],['OIS down >1 bp',curve.oisDownOver1Bp]].filter(([,sample])=>sample).map(([direction,sample])=>[
+        label+' · '+direction,numeric(sample.n),proportion(sample.steeper,sample.n),proportion(sample.flatter,sample.n),numeric(sample.unchanged)
+      ]);
+    });
+    if(curves.length) box.append(disclosure('How often did the 2s10s curve steepen or flatten?',[
+      table('Joint one-year OIS and 10Y less 2Y yield changes',['Decision gap and OIS direction','Paired meetings','Steepened','Flattened','Unchanged'],curves)
+    ]));
+    const changes=order.flatMap(([id,label])=>{
+      const g=selected.groups[id];
+      return [['yield2yBp','2Y yield (bp)'],['slope2s10sBp','10Y less 2Y (bp)'],['equityPct','Equity return (%)']].map(([key,name])=>{
+        const m=g.metrics[key];return [label+' · '+name,numeric(m.n),digits(m.median),digits(m.q25),digits(m.q75)];
+      });
+    });
+    box.append(disclosure('Yields, the curve and equities',[
+      table('Signed change by decision gap',['Sample and measure','Meetings with quotes','Median','25th percentile','75th percentile'],changes)
+    ]));
+    const examples=bank.value==='fed'?anticipatedData.fedResidual?.examples:null;
+    if(examples?.length){
+      const hold=examples.find(e=>e.date==='2004-01-28' && e.actionBp===0 && e.pricingGapBp===0);
+      if(hold){
+        const note=small('On 28 January 2004 the Fed delivered a fully priced hold. One-year OIS rose '+digits(hold.ois1yBp)+' bp and the two-year Treasury yield rose '+digits(hold.yield2yBp)+' bp. ');
+        const event=el('a','Inspect this meeting');event.href='cross-asset-events.html?'+new URLSearchParams({bank:'fed',stage:'release',date:hold.date,event:'fed-'+hold.date+'-release'});
+        note.append(event);box.append(note);
+      }
+      const list=el('div',null,'ce-links');
+      for(const e of examples){const l=el('a',e.date+' · '+signed(e.residualOis1yBp)+' bp');l.href='cross-asset-events.html?'+new URLSearchParams({bank:'fed',stage:'release',date:e.date,event:'fed-'+e.date+'-release'});list.append(l);}
+      box.append(disclosure('Fed meetings with large residual path moves',[
+        small('The in-sample model uses '+numeric(anticipatedData.fedResidual.n)+' meetings and has an R² of '+digits(anticipatedData.fedResidual.rSquared)+'.'),
+        small('Each residual is the observed one-year OIS change minus the change fitted from the current-meeting Fed futures surprise. Other information released at the same time can move the residual.'),list
+      ]));
+    }
+    if(anticipatedData.methods?.length) box.append(disclosure('Pricing gaps and measurement',anticipatedData.methods.map(small)));
+  }
+  function renderRegimes(){
+    const box=field('regimes-output'),asset=field('regime-asset');box.replaceChildren();
+    const b=regimeData?.banks?.[bank.value],frame=b?.frames?.[field('frame').value],dim=field('dimension').value;
+    const groups=frame?.groups?.[dim]||[],names={yield2y:'2Y sovereign yield',yield10y:'10Y sovereign yield',slope:'10Y less 2Y',equity:'Equity index',eurusd:'EUR/USD'};
+    setOptions(asset,Object.entries(names).filter(([key])=>groups.some(g=>g.outcomes?.[key])),asset.value||'yield2y');
+    if(!groups.length){box.append(small('Subgroup estimates are unavailable for this bank.'));return;}
+    const unit=['equity','eurusd'].includes(asset.value)?'percentage points of return':'bp';
+    box.append(small(frame.start+' to '+frame.end+' · '+numeric(frame.predictorMeetings)+' of '+numeric(frame.eligibleMeetings)+' eligible releases have a one-year OIS quote. Coefficients are in '+unit+' per 10 bp of OIS repricing.'));
+    if(dim==='cycle' && b.cycleMethod)box.append(small(b.cycleMethod));
+    const rows=groups.map(g=>{
+      const o=g.outcomes[asset.value];
+      return [g.label,numeric(o?.n),digits(o?.slopePer10Bp),ci(o?.ci95),o?.status==='estimated'?digits(o.rSquared):o?.status||'—'];
+    });
+    box.append(table(names[asset.value]+' sensitivity by '+(dim==='leader'?'tenure':'economic cycle'),[dim==='leader'?'Chair or president':'Cycle phase','Paired observations','Change per +10 bp','95% interval','R² or reason withheld'],rows));
+    box.append(small('Estimates require at least 20 observations, five distinct rate changes and rate moves on both sides of zero. Wider intervals indicate less precise estimates.'));
+    for(const g of groups) {
+      const o=g.outcomes[asset.value];
+      if(o?.status==='estimated' && o.tenBpExceedsObservedSpan)box.append(small(g.label+' · A 10 bp comparison exceeds the observed OIS range of '+signed(o.minPredictorBp)+' to '+signed(o.maxPredictorBp)+' bp.'));
+    }
+    const c=frame.cycleContrast;
+    if(dim==='cycle' && c && asset.value==='yield2y'){
+      box.append(small('Contraction minus outside-contraction sensitivity for the 2Y yield · '+(Number.isFinite(c.differencePer10Bp)?digits(c.differencePer10Bp)+' bp per 10 bp, 95% interval '+ci(c.ci95)+' bp':'Estimate withheld')+' · '+numeric(c.contractionN)+' contraction and '+numeric(c.outsideN)+' other observations.'));
+    }
+    const notes=(regimeData.method||[]).map(small);
+    for(const [label,url] of [['Release-window source',b.sourceUrl],['Cycle chronology',b.cycleSourceUrl]]){if(url){const a=el('a',label);a.href=url;const p=el('p',null,'ce-small');p.append(a);notes.push(p);}}
+    if(notes.length)box.append(disclosure('Subgroup definitions and uncertainty',notes));
+  }
+  function renderCurrentPricing(rows){
+    const output=field('current-pricing');
+    output.replaceChildren();
+    if(!rows.length)return;
+    const fed=bank.value==='fed';
+    const entries=rows.map(r=>[r.date,digits(r.actionBp),digits(r.priorMoveBp),digits(r.comparisonGapBp),
+      signedOrMissing(r.ois1yBp),signedOrMissing(r.slope2s10sBp)]);
+    const notes=fed
+      ? 'The Fed prior is inferred from the announced change and the current-meeting futures surprise.'
+      : 'The June 2026 account describes a rounded 25 bp step. A reported policy step alone leaves the comparison gap blank.';
+    const contents=[small('Official decisions through '+currentData.asOf+'. '+notes),
+      table('2026 decision and release-window observations, in basis points',
+        ['Meeting','Decision','Prior move at source precision','Comparison gap','One-year OIS','10Y less 2Y'],entries)];
+    if(fed){
+      const paired=rows.filter(r=>Number.isFinite(r.comparisonGapBp)&&Math.abs(r.comparisonGapBp)<=5&&Number.isFinite(r.ois1yBp));
+      const moved=paired.filter(r=>Math.abs(r.ois1yBp)>1).length;
+      contents.unshift(small('At a 5 bp decision tolerance, '+moved+' of '+paired.length+' matched 2026 releases moved one-year OIS by more than 1 bp.'));
+    }
+    contents.push(small('A dash denotes an unavailable estimate. The historical results above use decisions through December 2025.'));
+    output.append(disclosure('What happened in 2026?',contents));
+  }
+  function signedOrMissing(value){return Number.isFinite(value)?signed(value):'—';}
   function render(){
-    renderMarket();renderNews();renderSpeech();renderStages();
+    renderMarket();renderNews();renderSpeech();renderStages();renderAnticipated();renderRegimes();renderAnticipatedNews();
     const current=field('current'),rows=currentData?.records.filter(r=>r.bank===bank.value)||[];
+    reutersPanel.hidden=bank.value!=='fed';
+    renderCurrentPricing(rows);
     current.hidden=!rows.length;
     if(rows.length){
       const observed=rows.filter(r=>Number.isFinite(r.ois1yBp)&&Number.isFinite(r.yield2yBp)).length;
@@ -251,6 +438,11 @@
     field('events').href='cross-asset-events.html?bank='+bank.value+'&lens=news#ce-news-coverage';
   }
   bank.onchange=()=>{instrument.value='';exclusion.value='';render();const url=new URL(location.href);url.searchParams.set('bank',bank.value);history.replaceState(null,'',url);};
+  field('threshold').onchange=renderAnticipated;
+  for(const id of ['frame','regime-asset'])field(id).onchange=renderRegimes;
+  field('dimension').onchange=()=>{
+    const url=new URL(location.href);url.searchParams.set('dimension',field('dimension').value);history.replaceState(null,'',url);renderRegimes();
+  };
   field('asset').onchange=renderScatter;
   instrument.onchange=renderMarket; mode.onchange=()=>{exclusion.value='';renderNews();};exclusion.onchange=renderNews;
   async function load(file){
@@ -258,6 +450,10 @@
     if(!r.ok) throw Error('Unavailable');
     return r.json();
   }
+  load('anticipated-headlines').then(data=>{anticipatedHeadlines=data;renderAnticipatedNews();}).catch(()=>{});
+  Promise.allSettled([load('anticipated-decisions'),load('policy-regimes')]).then(([anticipated,regimes])=>{
+    anticipatedData=anticipated.value;regimeData=regimes.value;renderAnticipated();renderRegimes();
+  });
   Promise.allSettled([load('policy-response-study'),load('headline-policy-study'),load('speech-response-study'),load('meeting-stage-study'),load('policy-current-year')]).then(([market,news,speech,stage,current])=>{
     marketData=market.value;headlineData=news.value;speechData=speech.value;stageData=stage.value;currentData=current.value;render();
   });

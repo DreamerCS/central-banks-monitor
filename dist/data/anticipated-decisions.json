@@ -1,0 +1,2044 @@
+{
+  "period": {
+    "start": "2000-01-01",
+    "end": "2025-12-31"
+  },
+  "defaultThresholdBp": 5,
+  "methods": [
+    "The denominator is every official decision in the study period. Window comparisons are restricted to regular, eligible releases. Each asset uses all available paired observations in its group. Missing market values are excluded separately; a recorded zero is retained.",
+    "The action gap is the announced move minus eligible meeting-specific prior pricing. The anticipated group includes absolute gaps up to and including the selected tolerance. The ECB reported-step group preserves conventional rate steps described as expected or fully priced. Unpriced covers missing data, early quotes and mismatched instruments. The tolerance describes the decision on the policy rate.",
+    "For the Fed, a point target or the upper limit of the target range defines the action. The prior is reconstructed from the change in the target and MP1, the current-meeting futures surprise. The gap therefore reproduces MP1 by construction. Early ECB main refinancing rate proxies and stale quotes are excluded from deposit rate gap comparisons. The ECB primary sample uses three explicitly quantified forward-curve increments at the precision given by the source. Nine rounded expected or fully priced steps are documented separately. Some sources were published after the decision.",
+    "Release windows use the scheduled FOMC statement from 10 minutes before to 20 minutes after, or ECB median quotes at 13:25–13:35 and 14:00–14:10 Frankfurt time before July 2022, then 13:55–14:05 and 14:30–14:40. The one-year OIS change covers expectations across multiple meetings as well as risk premia and other information in the same window. Rate changes are in basis points and equity returns in percent.",
+    "The curve is the ten-year government yield less the two-year yield. Its direction uses paired observed curve and one-year OIS changes, with a positive curve change classified as steepening. The conditional counts additionally require an absolute OIS change above one basis point. Quartiles use linear interpolation. Threshold comparisons reuse the same events."
+  ],
+  "banks": {
+    "fed": {
+      "coverage": {
+        "allDecisions": 214,
+        "regularReleases": 207,
+        "eligibleReleases": 207,
+        "rawComparableGaps": 206,
+        "comparableGaps": 206,
+        "reportedSteps": 0,
+        "pricedReleaseOis": 175,
+        "noObservedPrior": 1,
+        "incomparablePrior": 0
+      },
+      "thresholds": [
+        {
+          "thresholdBp": 1,
+          "groups": {
+            "anticipated": {
+              "n": 142,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 132,
+                  "median": 0.0,
+                  "q25": -1.0,
+                  "q75": 1.225,
+                  "medianAbs": 1.1
+                },
+                "yield2yBp": {
+                  "n": 142,
+                  "median": -0.19,
+                  "q25": -1.605,
+                  "q75": 1.6775,
+                  "medianAbs": 1.62
+                },
+                "slope2s10sBp": {
+                  "n": 142,
+                  "median": 0.01,
+                  "q25": -0.8875,
+                  "q75": 1.735,
+                  "medianAbs": 1.44
+                },
+                "equityPct": {
+                  "n": 142,
+                  "median": 0.059126,
+                  "q25": -0.1897098,
+                  "q75": 0.2352122,
+                  "medianAbs": 0.21955
+                }
+              },
+              "pathMove": {
+                "n": 132,
+                "over1Bp": 69,
+                "over5Bp": 9,
+                "shareOver1Bp": 0.5227273,
+                "shareOver5Bp": 0.0681818
+              },
+              "pairedCurve": {
+                "n": 132,
+                "steeper": 67,
+                "flatter": 64,
+                "unchanged": 1,
+                "oisUpOver1Bp": {
+                  "n": 38,
+                  "steeper": 8,
+                  "flatter": 29,
+                  "unchanged": 1
+                },
+                "oisDownOver1Bp": {
+                  "n": 31,
+                  "steeper": 25,
+                  "flatter": 6,
+                  "unchanged": 0
+                }
+              }
+            },
+            "surprise": {
+              "n": 64,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 43,
+                  "median": -0.4,
+                  "q25": -3.4,
+                  "q75": 2.1,
+                  "medianAbs": 2.65
+                },
+                "yield2yBp": {
+                  "n": 64,
+                  "median": -0.37,
+                  "q25": -5.2525,
+                  "q75": 2.5,
+                  "medianAbs": 4.08
+                },
+                "slope2s10sBp": {
+                  "n": 64,
+                  "median": 0.4,
+                  "q25": -2.12625,
+                  "q75": 2.4425,
+                  "medianAbs": 2.3575
+                },
+                "equityPct": {
+                  "n": 64,
+                  "median": -0.139611,
+                  "q25": -0.4960799,
+                  "q75": 0.2171721,
+                  "medianAbs": 0.3399063
+                }
+              },
+              "pathMove": {
+                "n": 43,
+                "over1Bp": 34,
+                "over5Bp": 13,
+                "shareOver1Bp": 0.7906977,
+                "shareOver5Bp": 0.3023256
+              },
+              "pairedCurve": {
+                "n": 43,
+                "steeper": 27,
+                "flatter": 16,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 17,
+                  "steeper": 3,
+                  "flatter": 14,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 17,
+                  "steeper": 16,
+                  "flatter": 1,
+                  "unchanged": 0
+                }
+              }
+            },
+            "unpriced": {
+              "n": 1,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 1,
+                  "median": -5.815,
+                  "q25": -5.815,
+                  "q75": -5.815,
+                  "medianAbs": 5.815
+                },
+                "yield2yBp": {
+                  "n": 1,
+                  "median": -12.64,
+                  "q25": -12.64,
+                  "q75": -12.64,
+                  "medianAbs": 12.64
+                },
+                "slope2s10sBp": {
+                  "n": 1,
+                  "median": 4.25,
+                  "q25": 4.25,
+                  "q75": 4.25,
+                  "medianAbs": 4.25
+                },
+                "equityPct": {
+                  "n": 1,
+                  "median": 1.1028725,
+                  "q25": 1.1028725,
+                  "q75": 1.1028725,
+                  "medianAbs": 1.1028725
+                }
+              },
+              "pathMove": {
+                "n": 1,
+                "over1Bp": 1,
+                "over5Bp": 1,
+                "shareOver1Bp": 1.0,
+                "shareOver5Bp": 1.0
+              },
+              "pairedCurve": {
+                "n": 1,
+                "steeper": 1,
+                "flatter": 0,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 0,
+                  "steeper": 0,
+                  "flatter": 0,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 1,
+                  "steeper": 1,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "thresholdBp": 3,
+          "groups": {
+            "anticipated": {
+              "n": 176,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 159,
+                  "median": 0.0,
+                  "q25": -1.1,
+                  "q75": 1.275,
+                  "medianAbs": 1.2
+                },
+                "yield2yBp": {
+                  "n": 176,
+                  "median": -0.095,
+                  "q25": -1.6225,
+                  "q75": 1.695,
+                  "medianAbs": 1.675
+                },
+                "slope2s10sBp": {
+                  "n": 176,
+                  "median": 0.035,
+                  "q25": -0.98125,
+                  "q75": 1.775,
+                  "medianAbs": 1.505
+                },
+                "equityPct": {
+                  "n": 176,
+                  "median": 0.0246195,
+                  "q25": -0.2093175,
+                  "q75": 0.2346857,
+                  "medianAbs": 0.2304623
+                }
+              },
+              "pathMove": {
+                "n": 159,
+                "over1Bp": 89,
+                "over5Bp": 14,
+                "shareOver1Bp": 0.5597484,
+                "shareOver5Bp": 0.0880503
+              },
+              "pairedCurve": {
+                "n": 159,
+                "steeper": 85,
+                "flatter": 73,
+                "unchanged": 1,
+                "oisUpOver1Bp": {
+                  "n": 48,
+                  "steeper": 11,
+                  "flatter": 36,
+                  "unchanged": 1
+                },
+                "oisDownOver1Bp": {
+                  "n": 41,
+                  "steeper": 34,
+                  "flatter": 7,
+                  "unchanged": 0
+                }
+              }
+            },
+            "surprise": {
+              "n": 30,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 16,
+                  "median": -0.5,
+                  "q25": -5.9375,
+                  "q75": 2.9625,
+                  "medianAbs": 4.7
+                },
+                "yield2yBp": {
+                  "n": 30,
+                  "median": -2.925,
+                  "q25": -7.4175,
+                  "q75": 2.545,
+                  "medianAbs": 4.88
+                },
+                "slope2s10sBp": {
+                  "n": 30,
+                  "median": 0.755,
+                  "q25": -2.35625,
+                  "q75": 3.425,
+                  "medianAbs": 3.205
+                },
+                "equityPct": {
+                  "n": 30,
+                  "median": -0.2174045,
+                  "q25": -0.5180842,
+                  "q75": 0.2389605,
+                  "medianAbs": 0.3746217
+                }
+              },
+              "pathMove": {
+                "n": 16,
+                "over1Bp": 14,
+                "over5Bp": 8,
+                "shareOver1Bp": 0.875,
+                "shareOver5Bp": 0.5
+              },
+              "pairedCurve": {
+                "n": 16,
+                "steeper": 9,
+                "flatter": 7,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 7,
+                  "steeper": 0,
+                  "flatter": 7,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 7,
+                  "steeper": 7,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            },
+            "unpriced": {
+              "n": 1,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 1,
+                  "median": -5.815,
+                  "q25": -5.815,
+                  "q75": -5.815,
+                  "medianAbs": 5.815
+                },
+                "yield2yBp": {
+                  "n": 1,
+                  "median": -12.64,
+                  "q25": -12.64,
+                  "q75": -12.64,
+                  "medianAbs": 12.64
+                },
+                "slope2s10sBp": {
+                  "n": 1,
+                  "median": 4.25,
+                  "q25": 4.25,
+                  "q75": 4.25,
+                  "medianAbs": 4.25
+                },
+                "equityPct": {
+                  "n": 1,
+                  "median": 1.1028725,
+                  "q25": 1.1028725,
+                  "q75": 1.1028725,
+                  "medianAbs": 1.1028725
+                }
+              },
+              "pathMove": {
+                "n": 1,
+                "over1Bp": 1,
+                "over5Bp": 1,
+                "shareOver1Bp": 1.0,
+                "shareOver5Bp": 1.0
+              },
+              "pairedCurve": {
+                "n": 1,
+                "steeper": 1,
+                "flatter": 0,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 0,
+                  "steeper": 0,
+                  "flatter": 0,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 1,
+                  "steeper": 1,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "thresholdBp": 5,
+          "groups": {
+            "anticipated": {
+              "n": 190,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 167,
+                  "median": 0.0,
+                  "q25": -1.1,
+                  "q75": 1.4,
+                  "medianAbs": 1.25
+                },
+                "yield2yBp": {
+                  "n": 190,
+                  "median": -0.19,
+                  "q25": -2.175,
+                  "q75": 1.785,
+                  "medianAbs": 1.975
+                },
+                "slope2s10sBp": {
+                  "n": 190,
+                  "median": 0.035,
+                  "q25": -1.0675,
+                  "q75": 1.97,
+                  "medianAbs": 1.57
+                },
+                "equityPct": {
+                  "n": 190,
+                  "median": 0.0169615,
+                  "q25": -0.2459434,
+                  "q75": 0.2196441,
+                  "medianAbs": 0.238011
+                }
+              },
+              "pathMove": {
+                "n": 167,
+                "over1Bp": 96,
+                "over5Bp": 15,
+                "shareOver1Bp": 0.5748503,
+                "shareOver5Bp": 0.0898204
+              },
+              "pairedCurve": {
+                "n": 167,
+                "steeper": 88,
+                "flatter": 78,
+                "unchanged": 1,
+                "oisUpOver1Bp": {
+                  "n": 53,
+                  "steeper": 11,
+                  "flatter": 41,
+                  "unchanged": 1
+                },
+                "oisDownOver1Bp": {
+                  "n": 43,
+                  "steeper": 36,
+                  "flatter": 7,
+                  "unchanged": 0
+                }
+              }
+            },
+            "surprise": {
+              "n": 16,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 8,
+                  "median": -6.375,
+                  "q25": -11.14625,
+                  "q75": 0.9625,
+                  "medianAbs": 7.9675
+                },
+                "yield2yBp": {
+                  "n": 16,
+                  "median": -3.69,
+                  "q25": -7.75125,
+                  "q75": 2.77,
+                  "medianAbs": 5.605
+                },
+                "slope2s10sBp": {
+                  "n": 16,
+                  "median": 1.375,
+                  "q25": -1.18375,
+                  "q75": 5.77375,
+                  "medianAbs": 3.885
+                },
+                "equityPct": {
+                  "n": 16,
+                  "median": -0.0244084,
+                  "q25": -0.5426575,
+                  "q75": 0.3742751,
+                  "medianAbs": 0.5036234
+                }
+              },
+              "pathMove": {
+                "n": 8,
+                "over1Bp": 7,
+                "over5Bp": 7,
+                "shareOver1Bp": 0.875,
+                "shareOver5Bp": 0.875
+              },
+              "pairedCurve": {
+                "n": 8,
+                "steeper": 6,
+                "flatter": 2,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 2,
+                  "steeper": 0,
+                  "flatter": 2,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 5,
+                  "steeper": 5,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            },
+            "unpriced": {
+              "n": 1,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 1,
+                  "median": -5.815,
+                  "q25": -5.815,
+                  "q75": -5.815,
+                  "medianAbs": 5.815
+                },
+                "yield2yBp": {
+                  "n": 1,
+                  "median": -12.64,
+                  "q25": -12.64,
+                  "q75": -12.64,
+                  "medianAbs": 12.64
+                },
+                "slope2s10sBp": {
+                  "n": 1,
+                  "median": 4.25,
+                  "q25": 4.25,
+                  "q75": 4.25,
+                  "medianAbs": 4.25
+                },
+                "equityPct": {
+                  "n": 1,
+                  "median": 1.1028725,
+                  "q25": 1.1028725,
+                  "q75": 1.1028725,
+                  "medianAbs": 1.1028725
+                }
+              },
+              "pathMove": {
+                "n": 1,
+                "over1Bp": 1,
+                "over5Bp": 1,
+                "shareOver1Bp": 1.0,
+                "shareOver5Bp": 1.0
+              },
+              "pairedCurve": {
+                "n": 1,
+                "steeper": 1,
+                "flatter": 0,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 0,
+                  "steeper": 0,
+                  "flatter": 0,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 1,
+                  "steeper": 1,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "thresholdBp": 10,
+          "groups": {
+            "anticipated": {
+              "n": 197,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 170,
+                  "median": 0.0,
+                  "q25": -1.1375,
+                  "q75": 1.375,
+                  "medianAbs": 1.275
+                },
+                "yield2yBp": {
+                  "n": 197,
+                  "median": -0.2,
+                  "q25": -2.4,
+                  "q75": 1.8,
+                  "medianAbs": 2.1
+                },
+                "slope2s10sBp": {
+                  "n": 197,
+                  "median": 0.1,
+                  "q25": -1.03,
+                  "q75": 2.0,
+                  "medianAbs": 1.56
+                },
+                "equityPct": {
+                  "n": 197,
+                  "median": 0.017431,
+                  "q25": -0.2500669,
+                  "q75": 0.226502,
+                  "medianAbs": 0.2427555
+                }
+              },
+              "pathMove": {
+                "n": 170,
+                "over1Bp": 98,
+                "over5Bp": 17,
+                "shareOver1Bp": 0.5764706,
+                "shareOver5Bp": 0.1
+              },
+              "pairedCurve": {
+                "n": 170,
+                "steeper": 91,
+                "flatter": 78,
+                "unchanged": 1,
+                "oisUpOver1Bp": {
+                  "n": 53,
+                  "steeper": 11,
+                  "flatter": 41,
+                  "unchanged": 1
+                },
+                "oisDownOver1Bp": {
+                  "n": 45,
+                  "steeper": 38,
+                  "flatter": 7,
+                  "unchanged": 0
+                }
+              }
+            },
+            "surprise": {
+              "n": 9,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 5,
+                  "median": -10.995,
+                  "q25": -11.6,
+                  "q75": 5.65,
+                  "medianAbs": 10.995
+                },
+                "yield2yBp": {
+                  "n": 9,
+                  "median": -4.43,
+                  "q25": -8.295,
+                  "q75": 5.95,
+                  "medianAbs": 6.97
+                },
+                "slope2s10sBp": {
+                  "n": 9,
+                  "median": -0.765,
+                  "q25": -4.17,
+                  "q75": 5.815,
+                  "medianAbs": 5.32
+                },
+                "equityPct": {
+                  "n": 9,
+                  "median": -0.1925133,
+                  "q25": -0.5231476,
+                  "q75": 0.6118522,
+                  "medianAbs": 0.6118522
+                }
+              },
+              "pathMove": {
+                "n": 5,
+                "over1Bp": 5,
+                "over5Bp": 5,
+                "shareOver1Bp": 1.0,
+                "shareOver5Bp": 1.0
+              },
+              "pairedCurve": {
+                "n": 5,
+                "steeper": 3,
+                "flatter": 2,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 2,
+                  "steeper": 0,
+                  "flatter": 2,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 3,
+                  "steeper": 3,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            },
+            "unpriced": {
+              "n": 1,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 1,
+                  "median": -5.815,
+                  "q25": -5.815,
+                  "q75": -5.815,
+                  "medianAbs": 5.815
+                },
+                "yield2yBp": {
+                  "n": 1,
+                  "median": -12.64,
+                  "q25": -12.64,
+                  "q75": -12.64,
+                  "medianAbs": 12.64
+                },
+                "slope2s10sBp": {
+                  "n": 1,
+                  "median": 4.25,
+                  "q25": 4.25,
+                  "q75": 4.25,
+                  "medianAbs": 4.25
+                },
+                "equityPct": {
+                  "n": 1,
+                  "median": 1.1028725,
+                  "q25": 1.1028725,
+                  "q75": 1.1028725,
+                  "medianAbs": 1.1028725
+                }
+              },
+              "pathMove": {
+                "n": 1,
+                "over1Bp": 1,
+                "over5Bp": 1,
+                "shareOver1Bp": 1.0,
+                "shareOver5Bp": 1.0
+              },
+              "pairedCurve": {
+                "n": 1,
+                "steeper": 1,
+                "flatter": 0,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 0,
+                  "steeper": 0,
+                  "flatter": 0,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 1,
+                  "steeper": 1,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ecb": {
+      "coverage": {
+        "allDecisions": 293,
+        "regularReleases": 291,
+        "eligibleReleases": 291,
+        "rawComparableGaps": 12,
+        "comparableGaps": 3,
+        "reportedSteps": 9,
+        "pricedReleaseOis": 3,
+        "noObservedPrior": 220,
+        "incomparablePrior": 59
+      },
+      "thresholds": [
+        {
+          "thresholdBp": 1,
+          "groups": {
+            "anticipated": {
+              "n": 2,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 2,
+                  "median": 1.356875,
+                  "q25": -0.1434375,
+                  "q75": 2.8571875,
+                  "medianAbs": 3.000625
+                },
+                "yield2yBp": {
+                  "n": 2,
+                  "median": 0.65,
+                  "q25": -1.35,
+                  "q75": 2.65,
+                  "medianAbs": 4.0
+                },
+                "slope2s10sBp": {
+                  "n": 2,
+                  "median": -0.35,
+                  "q25": -0.975,
+                  "q75": 0.275,
+                  "medianAbs": 1.25
+                },
+                "equityPct": {
+                  "n": 2,
+                  "median": -0.006514,
+                  "q25": -0.1045935,
+                  "q75": 0.0915655,
+                  "medianAbs": 0.196159
+                }
+              },
+              "pathMove": {
+                "n": 2,
+                "over1Bp": 2,
+                "over5Bp": 0,
+                "shareOver1Bp": 1.0,
+                "shareOver5Bp": 0.0
+              },
+              "pairedCurve": {
+                "n": 2,
+                "steeper": 1,
+                "flatter": 1,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 1,
+                  "steeper": 0,
+                  "flatter": 1,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 1,
+                  "steeper": 1,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            },
+            "surprise": {
+              "n": 1,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 1,
+                  "median": -7.51625,
+                  "q25": -7.51625,
+                  "q75": -7.51625,
+                  "medianAbs": 7.51625
+                },
+                "yield2yBp": {
+                  "n": 1,
+                  "median": -6.2,
+                  "q25": -6.2,
+                  "q75": -6.2,
+                  "medianAbs": 6.2
+                },
+                "slope2s10sBp": {
+                  "n": 1,
+                  "median": 4.85,
+                  "q25": 4.85,
+                  "q75": 4.85,
+                  "medianAbs": 4.85
+                },
+                "equityPct": {
+                  "n": 1,
+                  "median": 0.374993,
+                  "q25": 0.374993,
+                  "q75": 0.374993,
+                  "medianAbs": 0.374993
+                }
+              },
+              "pathMove": {
+                "n": 1,
+                "over1Bp": 1,
+                "over5Bp": 1,
+                "shareOver1Bp": 1.0,
+                "shareOver5Bp": 1.0
+              },
+              "pairedCurve": {
+                "n": 1,
+                "steeper": 1,
+                "flatter": 0,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 0,
+                  "steeper": 0,
+                  "flatter": 0,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 1,
+                  "steeper": 1,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            },
+            "reportedStep": {
+              "n": 9,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 9,
+                  "median": -0.0375,
+                  "q25": -1.038,
+                  "q75": 3.45,
+                  "medianAbs": 2.15
+                },
+                "yield2yBp": {
+                  "n": 9,
+                  "median": 1.05,
+                  "q25": -1.45,
+                  "q75": 3.95,
+                  "medianAbs": 3.15
+                },
+                "slope2s10sBp": {
+                  "n": 9,
+                  "median": -0.5,
+                  "q25": -1.0,
+                  "q75": 0.35,
+                  "medianAbs": 1.0
+                },
+                "equityPct": {
+                  "n": 9,
+                  "median": 0.038168,
+                  "q25": -0.374458,
+                  "q75": 0.091336,
+                  "medianAbs": 0.25059
+                }
+              },
+              "pathMove": {
+                "n": 9,
+                "over1Bp": 7,
+                "over5Bp": 1,
+                "shareOver1Bp": 0.7777778,
+                "shareOver5Bp": 0.1111111
+              },
+              "pairedCurve": {
+                "n": 9,
+                "steeper": 4,
+                "flatter": 5,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 4,
+                  "steeper": 0,
+                  "flatter": 4,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 3,
+                  "steeper": 2,
+                  "flatter": 1,
+                  "unchanged": 0
+                }
+              }
+            },
+            "unpriced": {
+              "n": 279,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 279,
+                  "median": -0.025,
+                  "q25": -0.4215,
+                  "q75": 0.522222,
+                  "medianAbs": 0.4875
+                },
+                "yield2yBp": {
+                  "n": 278,
+                  "median": 0.0,
+                  "q25": -0.6,
+                  "q75": 0.55,
+                  "medianAbs": 0.55
+                },
+                "slope2s10sBp": {
+                  "n": 278,
+                  "median": -0.075,
+                  "q25": -0.55,
+                  "q75": 0.39875,
+                  "medianAbs": 0.5
+                },
+                "equityPct": {
+                  "n": 279,
+                  "median": -0.006904,
+                  "q25": -0.1303725,
+                  "q75": 0.1333275,
+                  "medianAbs": 0.133213
+                }
+              },
+              "pathMove": {
+                "n": 279,
+                "over1Bp": 80,
+                "over5Bp": 15,
+                "shareOver1Bp": 0.2867384,
+                "shareOver5Bp": 0.0537634
+              },
+              "pairedCurve": {
+                "n": 278,
+                "steeper": 117,
+                "flatter": 150,
+                "unchanged": 11,
+                "oisUpOver1Bp": {
+                  "n": 48,
+                  "steeper": 7,
+                  "flatter": 40,
+                  "unchanged": 1
+                },
+                "oisDownOver1Bp": {
+                  "n": 32,
+                  "steeper": 22,
+                  "flatter": 10,
+                  "unchanged": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "thresholdBp": 3,
+          "groups": {
+            "anticipated": {
+              "n": 2,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 2,
+                  "median": 1.356875,
+                  "q25": -0.1434375,
+                  "q75": 2.8571875,
+                  "medianAbs": 3.000625
+                },
+                "yield2yBp": {
+                  "n": 2,
+                  "median": 0.65,
+                  "q25": -1.35,
+                  "q75": 2.65,
+                  "medianAbs": 4.0
+                },
+                "slope2s10sBp": {
+                  "n": 2,
+                  "median": -0.35,
+                  "q25": -0.975,
+                  "q75": 0.275,
+                  "medianAbs": 1.25
+                },
+                "equityPct": {
+                  "n": 2,
+                  "median": -0.006514,
+                  "q25": -0.1045935,
+                  "q75": 0.0915655,
+                  "medianAbs": 0.196159
+                }
+              },
+              "pathMove": {
+                "n": 2,
+                "over1Bp": 2,
+                "over5Bp": 0,
+                "shareOver1Bp": 1.0,
+                "shareOver5Bp": 0.0
+              },
+              "pairedCurve": {
+                "n": 2,
+                "steeper": 1,
+                "flatter": 1,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 1,
+                  "steeper": 0,
+                  "flatter": 1,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 1,
+                  "steeper": 1,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            },
+            "surprise": {
+              "n": 1,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 1,
+                  "median": -7.51625,
+                  "q25": -7.51625,
+                  "q75": -7.51625,
+                  "medianAbs": 7.51625
+                },
+                "yield2yBp": {
+                  "n": 1,
+                  "median": -6.2,
+                  "q25": -6.2,
+                  "q75": -6.2,
+                  "medianAbs": 6.2
+                },
+                "slope2s10sBp": {
+                  "n": 1,
+                  "median": 4.85,
+                  "q25": 4.85,
+                  "q75": 4.85,
+                  "medianAbs": 4.85
+                },
+                "equityPct": {
+                  "n": 1,
+                  "median": 0.374993,
+                  "q25": 0.374993,
+                  "q75": 0.374993,
+                  "medianAbs": 0.374993
+                }
+              },
+              "pathMove": {
+                "n": 1,
+                "over1Bp": 1,
+                "over5Bp": 1,
+                "shareOver1Bp": 1.0,
+                "shareOver5Bp": 1.0
+              },
+              "pairedCurve": {
+                "n": 1,
+                "steeper": 1,
+                "flatter": 0,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 0,
+                  "steeper": 0,
+                  "flatter": 0,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 1,
+                  "steeper": 1,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            },
+            "reportedStep": {
+              "n": 9,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 9,
+                  "median": -0.0375,
+                  "q25": -1.038,
+                  "q75": 3.45,
+                  "medianAbs": 2.15
+                },
+                "yield2yBp": {
+                  "n": 9,
+                  "median": 1.05,
+                  "q25": -1.45,
+                  "q75": 3.95,
+                  "medianAbs": 3.15
+                },
+                "slope2s10sBp": {
+                  "n": 9,
+                  "median": -0.5,
+                  "q25": -1.0,
+                  "q75": 0.35,
+                  "medianAbs": 1.0
+                },
+                "equityPct": {
+                  "n": 9,
+                  "median": 0.038168,
+                  "q25": -0.374458,
+                  "q75": 0.091336,
+                  "medianAbs": 0.25059
+                }
+              },
+              "pathMove": {
+                "n": 9,
+                "over1Bp": 7,
+                "over5Bp": 1,
+                "shareOver1Bp": 0.7777778,
+                "shareOver5Bp": 0.1111111
+              },
+              "pairedCurve": {
+                "n": 9,
+                "steeper": 4,
+                "flatter": 5,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 4,
+                  "steeper": 0,
+                  "flatter": 4,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 3,
+                  "steeper": 2,
+                  "flatter": 1,
+                  "unchanged": 0
+                }
+              }
+            },
+            "unpriced": {
+              "n": 279,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 279,
+                  "median": -0.025,
+                  "q25": -0.4215,
+                  "q75": 0.522222,
+                  "medianAbs": 0.4875
+                },
+                "yield2yBp": {
+                  "n": 278,
+                  "median": 0.0,
+                  "q25": -0.6,
+                  "q75": 0.55,
+                  "medianAbs": 0.55
+                },
+                "slope2s10sBp": {
+                  "n": 278,
+                  "median": -0.075,
+                  "q25": -0.55,
+                  "q75": 0.39875,
+                  "medianAbs": 0.5
+                },
+                "equityPct": {
+                  "n": 279,
+                  "median": -0.006904,
+                  "q25": -0.1303725,
+                  "q75": 0.1333275,
+                  "medianAbs": 0.133213
+                }
+              },
+              "pathMove": {
+                "n": 279,
+                "over1Bp": 80,
+                "over5Bp": 15,
+                "shareOver1Bp": 0.2867384,
+                "shareOver5Bp": 0.0537634
+              },
+              "pairedCurve": {
+                "n": 278,
+                "steeper": 117,
+                "flatter": 150,
+                "unchanged": 11,
+                "oisUpOver1Bp": {
+                  "n": 48,
+                  "steeper": 7,
+                  "flatter": 40,
+                  "unchanged": 1
+                },
+                "oisDownOver1Bp": {
+                  "n": 32,
+                  "steeper": 22,
+                  "flatter": 10,
+                  "unchanged": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "thresholdBp": 5,
+          "groups": {
+            "anticipated": {
+              "n": 2,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 2,
+                  "median": 1.356875,
+                  "q25": -0.1434375,
+                  "q75": 2.8571875,
+                  "medianAbs": 3.000625
+                },
+                "yield2yBp": {
+                  "n": 2,
+                  "median": 0.65,
+                  "q25": -1.35,
+                  "q75": 2.65,
+                  "medianAbs": 4.0
+                },
+                "slope2s10sBp": {
+                  "n": 2,
+                  "median": -0.35,
+                  "q25": -0.975,
+                  "q75": 0.275,
+                  "medianAbs": 1.25
+                },
+                "equityPct": {
+                  "n": 2,
+                  "median": -0.006514,
+                  "q25": -0.1045935,
+                  "q75": 0.0915655,
+                  "medianAbs": 0.196159
+                }
+              },
+              "pathMove": {
+                "n": 2,
+                "over1Bp": 2,
+                "over5Bp": 0,
+                "shareOver1Bp": 1.0,
+                "shareOver5Bp": 0.0
+              },
+              "pairedCurve": {
+                "n": 2,
+                "steeper": 1,
+                "flatter": 1,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 1,
+                  "steeper": 0,
+                  "flatter": 1,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 1,
+                  "steeper": 1,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            },
+            "surprise": {
+              "n": 1,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 1,
+                  "median": -7.51625,
+                  "q25": -7.51625,
+                  "q75": -7.51625,
+                  "medianAbs": 7.51625
+                },
+                "yield2yBp": {
+                  "n": 1,
+                  "median": -6.2,
+                  "q25": -6.2,
+                  "q75": -6.2,
+                  "medianAbs": 6.2
+                },
+                "slope2s10sBp": {
+                  "n": 1,
+                  "median": 4.85,
+                  "q25": 4.85,
+                  "q75": 4.85,
+                  "medianAbs": 4.85
+                },
+                "equityPct": {
+                  "n": 1,
+                  "median": 0.374993,
+                  "q25": 0.374993,
+                  "q75": 0.374993,
+                  "medianAbs": 0.374993
+                }
+              },
+              "pathMove": {
+                "n": 1,
+                "over1Bp": 1,
+                "over5Bp": 1,
+                "shareOver1Bp": 1.0,
+                "shareOver5Bp": 1.0
+              },
+              "pairedCurve": {
+                "n": 1,
+                "steeper": 1,
+                "flatter": 0,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 0,
+                  "steeper": 0,
+                  "flatter": 0,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 1,
+                  "steeper": 1,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            },
+            "reportedStep": {
+              "n": 9,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 9,
+                  "median": -0.0375,
+                  "q25": -1.038,
+                  "q75": 3.45,
+                  "medianAbs": 2.15
+                },
+                "yield2yBp": {
+                  "n": 9,
+                  "median": 1.05,
+                  "q25": -1.45,
+                  "q75": 3.95,
+                  "medianAbs": 3.15
+                },
+                "slope2s10sBp": {
+                  "n": 9,
+                  "median": -0.5,
+                  "q25": -1.0,
+                  "q75": 0.35,
+                  "medianAbs": 1.0
+                },
+                "equityPct": {
+                  "n": 9,
+                  "median": 0.038168,
+                  "q25": -0.374458,
+                  "q75": 0.091336,
+                  "medianAbs": 0.25059
+                }
+              },
+              "pathMove": {
+                "n": 9,
+                "over1Bp": 7,
+                "over5Bp": 1,
+                "shareOver1Bp": 0.7777778,
+                "shareOver5Bp": 0.1111111
+              },
+              "pairedCurve": {
+                "n": 9,
+                "steeper": 4,
+                "flatter": 5,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 4,
+                  "steeper": 0,
+                  "flatter": 4,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 3,
+                  "steeper": 2,
+                  "flatter": 1,
+                  "unchanged": 0
+                }
+              }
+            },
+            "unpriced": {
+              "n": 279,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 279,
+                  "median": -0.025,
+                  "q25": -0.4215,
+                  "q75": 0.522222,
+                  "medianAbs": 0.4875
+                },
+                "yield2yBp": {
+                  "n": 278,
+                  "median": 0.0,
+                  "q25": -0.6,
+                  "q75": 0.55,
+                  "medianAbs": 0.55
+                },
+                "slope2s10sBp": {
+                  "n": 278,
+                  "median": -0.075,
+                  "q25": -0.55,
+                  "q75": 0.39875,
+                  "medianAbs": 0.5
+                },
+                "equityPct": {
+                  "n": 279,
+                  "median": -0.006904,
+                  "q25": -0.1303725,
+                  "q75": 0.1333275,
+                  "medianAbs": 0.133213
+                }
+              },
+              "pathMove": {
+                "n": 279,
+                "over1Bp": 80,
+                "over5Bp": 15,
+                "shareOver1Bp": 0.2867384,
+                "shareOver5Bp": 0.0537634
+              },
+              "pairedCurve": {
+                "n": 278,
+                "steeper": 117,
+                "flatter": 150,
+                "unchanged": 11,
+                "oisUpOver1Bp": {
+                  "n": 48,
+                  "steeper": 7,
+                  "flatter": 40,
+                  "unchanged": 1
+                },
+                "oisDownOver1Bp": {
+                  "n": 32,
+                  "steeper": 22,
+                  "flatter": 10,
+                  "unchanged": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "thresholdBp": 10,
+          "groups": {
+            "anticipated": {
+              "n": 3,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 3,
+                  "median": -1.64375,
+                  "q25": -4.58,
+                  "q75": 1.356875,
+                  "medianAbs": 4.3575
+                },
+                "yield2yBp": {
+                  "n": 3,
+                  "median": -3.35,
+                  "q25": -4.775,
+                  "q75": 0.65,
+                  "medianAbs": 4.65
+                },
+                "slope2s10sBp": {
+                  "n": 3,
+                  "median": 0.9,
+                  "q25": -0.35,
+                  "q75": 2.875,
+                  "medianAbs": 1.6
+                },
+                "equityPct": {
+                  "n": 3,
+                  "median": 0.189645,
+                  "q25": -0.006514,
+                  "q75": 0.282319,
+                  "medianAbs": 0.202673
+                }
+              },
+              "pathMove": {
+                "n": 3,
+                "over1Bp": 3,
+                "over5Bp": 1,
+                "shareOver1Bp": 1.0,
+                "shareOver5Bp": 0.3333333
+              },
+              "pairedCurve": {
+                "n": 3,
+                "steeper": 2,
+                "flatter": 1,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 1,
+                  "steeper": 0,
+                  "flatter": 1,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 2,
+                  "steeper": 2,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            },
+            "surprise": {
+              "n": 0,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 0,
+                  "median": null,
+                  "q25": null,
+                  "q75": null,
+                  "medianAbs": null
+                },
+                "yield2yBp": {
+                  "n": 0,
+                  "median": null,
+                  "q25": null,
+                  "q75": null,
+                  "medianAbs": null
+                },
+                "slope2s10sBp": {
+                  "n": 0,
+                  "median": null,
+                  "q25": null,
+                  "q75": null,
+                  "medianAbs": null
+                },
+                "equityPct": {
+                  "n": 0,
+                  "median": null,
+                  "q25": null,
+                  "q75": null,
+                  "medianAbs": null
+                }
+              },
+              "pathMove": {
+                "n": 0,
+                "over1Bp": 0,
+                "over5Bp": 0,
+                "shareOver1Bp": null,
+                "shareOver5Bp": null
+              },
+              "pairedCurve": {
+                "n": 0,
+                "steeper": 0,
+                "flatter": 0,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 0,
+                  "steeper": 0,
+                  "flatter": 0,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 0,
+                  "steeper": 0,
+                  "flatter": 0,
+                  "unchanged": 0
+                }
+              }
+            },
+            "reportedStep": {
+              "n": 9,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 9,
+                  "median": -0.0375,
+                  "q25": -1.038,
+                  "q75": 3.45,
+                  "medianAbs": 2.15
+                },
+                "yield2yBp": {
+                  "n": 9,
+                  "median": 1.05,
+                  "q25": -1.45,
+                  "q75": 3.95,
+                  "medianAbs": 3.15
+                },
+                "slope2s10sBp": {
+                  "n": 9,
+                  "median": -0.5,
+                  "q25": -1.0,
+                  "q75": 0.35,
+                  "medianAbs": 1.0
+                },
+                "equityPct": {
+                  "n": 9,
+                  "median": 0.038168,
+                  "q25": -0.374458,
+                  "q75": 0.091336,
+                  "medianAbs": 0.25059
+                }
+              },
+              "pathMove": {
+                "n": 9,
+                "over1Bp": 7,
+                "over5Bp": 1,
+                "shareOver1Bp": 0.7777778,
+                "shareOver5Bp": 0.1111111
+              },
+              "pairedCurve": {
+                "n": 9,
+                "steeper": 4,
+                "flatter": 5,
+                "unchanged": 0,
+                "oisUpOver1Bp": {
+                  "n": 4,
+                  "steeper": 0,
+                  "flatter": 4,
+                  "unchanged": 0
+                },
+                "oisDownOver1Bp": {
+                  "n": 3,
+                  "steeper": 2,
+                  "flatter": 1,
+                  "unchanged": 0
+                }
+              }
+            },
+            "unpriced": {
+              "n": 279,
+              "metrics": {
+                "ois1yBp": {
+                  "n": 279,
+                  "median": -0.025,
+                  "q25": -0.4215,
+                  "q75": 0.522222,
+                  "medianAbs": 0.4875
+                },
+                "yield2yBp": {
+                  "n": 278,
+                  "median": 0.0,
+                  "q25": -0.6,
+                  "q75": 0.55,
+                  "medianAbs": 0.55
+                },
+                "slope2s10sBp": {
+                  "n": 278,
+                  "median": -0.075,
+                  "q25": -0.55,
+                  "q75": 0.39875,
+                  "medianAbs": 0.5
+                },
+                "equityPct": {
+                  "n": 279,
+                  "median": -0.006904,
+                  "q25": -0.1303725,
+                  "q75": 0.1333275,
+                  "medianAbs": 0.133213
+                }
+              },
+              "pathMove": {
+                "n": 279,
+                "over1Bp": 80,
+                "over5Bp": 15,
+                "shareOver1Bp": 0.2867384,
+                "shareOver5Bp": 0.0537634
+              },
+              "pairedCurve": {
+                "n": 278,
+                "steeper": 117,
+                "flatter": 150,
+                "unchanged": 11,
+                "oisUpOver1Bp": {
+                  "n": 48,
+                  "steeper": 7,
+                  "flatter": 40,
+                  "unchanged": 1
+                },
+                "oisDownOver1Bp": {
+                  "n": 32,
+                  "steeper": 22,
+                  "flatter": 10,
+                  "unchanged": 0
+                }
+              }
+            }
+          }
+        }
+      ],
+      "priorAudit": [
+        {
+          "date": "2015-12-03",
+          "priorEvidenceType": "reportedStep",
+          "priorMoveBp": -10.0,
+          "pricingGapBp": 0.0,
+          "comparisonGapBp": null,
+          "sourceAudit": "The account describes a fully priced ten-basis-point cut and a further cut by September 2016. It gives neither the contract quote nor a precise observation time. A conventional cut size can coexist with some pricing of a larger move.",
+          "pricingSource": "https://www.ecb.europa.eu/press/accounts/2016/html/mg160114.en.html"
+        },
+        {
+          "date": "2022-12-15",
+          "priorEvidenceType": "reportedStep",
+          "priorMoveBp": 50.0,
+          "pricingGapBp": 0.0,
+          "comparisonGapBp": null,
+          "sourceAudit": "In its discussion of the OIS curve the account says participants expected 50 bp in December and again in February. It reports an expected policy step without a separately quantified December curve increment.",
+          "pricingSource": "https://www.ecb.europa.eu/press/accounts/2023/html/ecb.mg230119~e522ad4e37.en.html"
+        },
+        {
+          "date": "2023-05-04",
+          "priorEvidenceType": "reportedCurveIncrement",
+          "priorMoveBp": 34.0,
+          "pricingGapBp": -9.0,
+          "comparisonGapBp": -9.0,
+          "sourceAudit": "The bulletin specifies a 34 bp May OIS increment and a separate 16 bp June increment as of the 3 May review cutoff. The May decision raised the deposit rate by 25 bp.",
+          "pricingSource": "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202303.en.html"
+        },
+        {
+          "date": "2023-06-15",
+          "priorEvidenceType": "reportedCurveIncrement",
+          "priorMoveBp": 25.0,
+          "pricingGapBp": 0.0,
+          "comparisonGapBp": 0.0,
+          "sourceAudit": "The account separately quantifies the forward curve at 25 bp for June and 25 bp for July. Its 20% probability of a further hike refers to a subsequent meeting. The exact quote time and sub-basis-point precision are unavailable.",
+          "pricingSource": "https://www.ecb.europa.eu/press/accounts/2023/html/ecb.mg230713~f7e54fdb87.en.html"
+        },
+        {
+          "date": "2023-07-27",
+          "priorEvidenceType": "reportedCurveIncrement",
+          "priorMoveBp": 25.0,
+          "pricingGapBp": 0.0,
+          "comparisonGapBp": 0.0,
+          "sourceAudit": "The bulletin quantifies an additional 25 bp July hike in the OIS forward curve at the 26 July cutoff, separately from the projected peak rate. The figure has the resolution reported by the ECB.",
+          "pricingSource": "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202305.en.html"
+        },
+        {
+          "date": "2024-06-06",
+          "priorEvidenceType": "reportedStep",
+          "priorMoveBp": -25.0,
+          "pricingGapBp": 0.0,
+          "comparisonGapBp": null,
+          "sourceAudit": "The account describes the cut as fully priced and also says that markets were almost certain of a quarter-point move. The risk-weighted meeting increment is not separately quantified.",
+          "pricingSource": "https://www.ecb.europa.eu/press/accounts/2024/html/ecb.mg240704~fbde4f46aa.en.html"
+        },
+        {
+          "date": "2024-09-12",
+          "priorEvidenceType": "reportedStep",
+          "priorMoveBp": -25.0,
+          "pricingGapBp": 0.0,
+          "comparisonGapBp": null,
+          "sourceAudit": "The dated bulletin describes the quarter-point cut as fully priced. Its separately quantified cumulative easing refers to the end of the year.",
+          "pricingSource": "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202406.en.html"
+        },
+        {
+          "date": "2024-10-17",
+          "priorEvidenceType": "reportedStep",
+          "priorMoveBp": -25.0,
+          "pricingGapBp": 0.0,
+          "comparisonGapBp": null,
+          "sourceAudit": "The account describes the October and December quarter-point steps as priced in. The October bulletin characterises pre-meeting pricing as almost fully incorporating the cut.",
+          "pricingSource": "https://www.ecb.europa.eu/press/accounts/2024/html/ecb.mg241114~c0e6f53cf7.en.html"
+        },
+        {
+          "date": "2024-12-12",
+          "priorEvidenceType": "reportedStep",
+          "priorMoveBp": -25.0,
+          "pricingGapBp": 0.0,
+          "comparisonGapBp": null,
+          "sourceAudit": "The bulletin describes a quarter-point cut as fully priced. The 133 bp figure is cumulative easing through June 2025.",
+          "pricingSource": "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202408.en.html"
+        },
+        {
+          "date": "2025-03-06",
+          "priorEvidenceType": "reportedStep",
+          "priorMoveBp": -25.0,
+          "pricingGapBp": 0.0,
+          "comparisonGapBp": null,
+          "sourceAudit": "The bulletin describes the March quarter-point cut as fully priced and provides a distinct cumulative figure through year-end. It gives no separate risk-weighted March increment.",
+          "pricingSource": "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202502.en.html"
+        },
+        {
+          "date": "2025-04-17",
+          "priorEvidenceType": "reportedStep",
+          "priorMoveBp": -25.0,
+          "pricingGapBp": 0.0,
+          "comparisonGapBp": null,
+          "sourceAudit": "The account says markets fully priced the expectation of a quarter-point cut. It does not report the underlying meeting quote.",
+          "pricingSource": "https://www.ecb.europa.eu/press/accounts/2025/html/ecb.mg250522~31b2c664d4.en.html"
+        },
+        {
+          "date": "2025-06-05",
+          "priorEvidenceType": "reportedStep",
+          "priorMoveBp": -25.0,
+          "pricingGapBp": 0.0,
+          "comparisonGapBp": null,
+          "sourceAudit": "The account describes a quarter-point cut as fully priced and flags uncertainty about the timing of later easing. It does not separately quantify the June meeting quote.",
+          "pricingSource": "https://www.ecb.europa.eu/press/accounts/2025/html/ecb.mg250703~07feaceb60.en.html"
+        }
+      ],
+      "reportedStepSensitivity": {
+        "note": "Descriptive sensitivity only. Treating conventional step amounts as point quotes reproduces the earlier grouping. Its bounds and shares depend on the rounding assumption.",
+        "thresholdBp": 5,
+        "anticipated": {
+          "n": 11,
+          "metrics": {
+            "ois1yBp": {
+              "n": 11,
+              "median": -0.0375,
+              "q25": -1.340875,
+              "q75": 3.455,
+              "medianAbs": 2.15
+            },
+            "yield2yBp": {
+              "n": 11,
+              "median": 1.05,
+              "q25": -2.3,
+              "q75": 4.3,
+              "medianAbs": 3.35
+            },
+            "slope2s10sBp": {
+              "n": 11,
+              "median": -0.5,
+              "q25": -1.125,
+              "q75": 0.625,
+              "medianAbs": 1.0
+            },
+            "equityPct": {
+              "n": 11,
+              "median": 0.038168,
+              "q25": -0.323332,
+              "q75": 0.1159245,
+              "medianAbs": 0.202673
+            }
+          },
+          "pathMove": {
+            "n": 11,
+            "over1Bp": 9,
+            "over5Bp": 1,
+            "shareOver1Bp": 0.8181818,
+            "shareOver5Bp": 0.0909091
+          },
+          "pairedCurve": {
+            "n": 11,
+            "steeper": 5,
+            "flatter": 6,
+            "unchanged": 0,
+            "oisUpOver1Bp": {
+              "n": 5,
+              "steeper": 0,
+              "flatter": 5,
+              "unchanged": 0
+            },
+            "oisDownOver1Bp": {
+              "n": 4,
+              "steeper": 3,
+              "flatter": 1,
+              "unchanged": 0
+            }
+          }
+        },
+        "surprise": {
+          "n": 1,
+          "metrics": {
+            "ois1yBp": {
+              "n": 1,
+              "median": -7.51625,
+              "q25": -7.51625,
+              "q75": -7.51625,
+              "medianAbs": 7.51625
+            },
+            "yield2yBp": {
+              "n": 1,
+              "median": -6.2,
+              "q25": -6.2,
+              "q75": -6.2,
+              "medianAbs": 6.2
+            },
+            "slope2s10sBp": {
+              "n": 1,
+              "median": 4.85,
+              "q25": 4.85,
+              "q75": 4.85,
+              "medianAbs": 4.85
+            },
+            "equityPct": {
+              "n": 1,
+              "median": 0.374993,
+              "q25": 0.374993,
+              "q75": 0.374993,
+              "medianAbs": 0.374993
+            }
+          },
+          "pathMove": {
+            "n": 1,
+            "over1Bp": 1,
+            "over5Bp": 1,
+            "shareOver1Bp": 1.0,
+            "shareOver5Bp": 1.0
+          },
+          "pairedCurve": {
+            "n": 1,
+            "steeper": 1,
+            "flatter": 0,
+            "unchanged": 0,
+            "oisUpOver1Bp": {
+              "n": 0,
+              "steeper": 0,
+              "flatter": 0,
+              "unchanged": 0
+            },
+            "oisDownOver1Bp": {
+              "n": 1,
+              "steeper": 1,
+              "flatter": 0,
+              "unchanged": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "fedResidual": {
+    "n": 176,
+    "firstDate": "2003-12-09",
+    "lastDate": "2025-12-10",
+    "interceptBp": 0.1372413,
+    "slopeBpPerBp": 0.6260981,
+    "rSquared": 0.2824821,
+    "residual": {
+      "n": 176,
+      "median": -0.0991922,
+      "q25": -1.263224,
+      "q75": 1.2156425,
+      "medianAbs": 1.2404021
+    },
+    "residualSdBp": 2.9482521,
+    "rmseBp": 2.9398644,
+    "examples": [
+      {
+        "date": "2023-12-13",
+        "officialUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20231213a.htm",
+        "marketSource": "https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/",
+        "actionBp": 0.0,
+        "pricingGapBp": -0.43055556,
+        "currentMeetingBp": -0.4305556,
+        "ois1yBp": -9.54,
+        "fittedOis1yBp": -0.1323288,
+        "residualOis1yBp": -9.4076712,
+        "yield2yBp": -13.85,
+        "slope2s10sBp": 5.68,
+        "equityPct": 0.6327493
+      },
+      {
+        "date": "2004-11-10",
+        "officialUrl": "https://www.federalreserve.gov/boarddocs/press/monetary/2004/20041110/default.htm",
+        "marketSource": "https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/",
+        "actionBp": 25.0,
+        "pricingGapBp": 0.0,
+        "currentMeetingBp": 0.0,
+        "ois1yBp": -9.1,
+        "fittedOis1yBp": 0.1372413,
+        "residualOis1yBp": -9.2372413,
+        "yield2yBp": -3.7,
+        "slope2s10sBp": 0.8,
+        "equityPct": 0.1072667
+      },
+      {
+        "date": "2019-06-19",
+        "officialUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190619a.htm",
+        "marketSource": "https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/",
+        "actionBp": 0.0,
+        "pricingGapBp": 5.45454545,
+        "currentMeetingBp": 5.4545455,
+        "ois1yBp": -5.5,
+        "fittedOis1yBp": 3.5523217,
+        "residualOis1yBp": -9.0523217,
+        "yield2yBp": -7.57,
+        "slope2s10sBp": 3.6,
+        "equityPct": 0.2814384
+      },
+      {
+        "date": "2022-09-21",
+        "officialUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220921a.htm",
+        "marketSource": "https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/",
+        "actionBp": 75.0,
+        "pricingGapBp": -2.5,
+        "currentMeetingBp": -2.5,
+        "ois1yBp": 8.465,
+        "fittedOis1yBp": -1.4280039,
+        "residualOis1yBp": 9.8930039,
+        "yield2yBp": 9.39,
+        "slope2s10sBp": -8.8,
+        "equityPct": -1.3402916
+      },
+      {
+        "date": "2023-06-14",
+        "officialUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230614a.htm",
+        "marketSource": "https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/",
+        "actionBp": 0.0,
+        "pricingGapBp": -1.875,
+        "currentMeetingBp": -1.875,
+        "ois1yBp": 8.8,
+        "fittedOis1yBp": -1.0366926,
+        "residualOis1yBp": 9.8366926,
+        "yield2yBp": 11.775,
+        "slope2s10sBp": -6.915,
+        "equityPct": -0.6907699
+      },
+      {
+        "date": "2004-01-28",
+        "officialUrl": "https://www.federalreserve.gov/boarddocs/press/monetary/2004/20040128/default.htm",
+        "marketSource": "https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/",
+        "actionBp": 0.0,
+        "pricingGapBp": 0.0,
+        "currentMeetingBp": 0.0,
+        "ois1yBp": 8.8,
+        "fittedOis1yBp": 0.1372413,
+        "residualOis1yBp": 8.6627587,
+        "yield2yBp": 16.54,
+        "slope2s10sBp": -6.79,
+        "equityPct": -0.9106746
+      }
+    ],
+    "method": "In-sample OLS of the one-year OIS change on the same-window current-meeting futures surprise with an intercept. Residuals describe variation left after this linear adjustment. They can reflect policy guidance, economic news, risk premia, market noise or other factors. Examples show the three largest positive and three largest negative residuals."
+  }
+}

@@ -14,7 +14,7 @@
 <header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="market-reactions.html">Market reactions</a><a href="cross-asset-events.html">Event explorer</a><a href="stance-history.html">Policy stance</a><a href="historical-data.html">Policy history</a></nav></div></header>
 <main class="ce-wrap pm-study" id="main">
   <header class="ce-intro"><p class="eyeline">Market reactions</p><h1>Policy signals and market moves</h1><p>How far do bonds, equities and exchange rates move when the expected policy rate rises? Do hawkish and dovish headlines accompany repricing in the same direction?</p></header>
-  <nav class="ce-examples" aria-label="Studies"><a href="#market">Cross-asset sensitivity</a><a href="#headlines">Headline direction and repricing</a><a href="#speeches">Speech tone and yields</a></nav>
+  <nav class="ce-examples" aria-label="Studies"><a href="#market">Cross-asset sensitivity</a><a href="#anticipated">Decisions versus the path</a><a href="#regimes">Leadership and cycles</a><a href="#headlines">Headline direction and repricing</a><a href="#speeches">Speech tone and yields</a></nav>
   <label class="pm-control">Central bank<select id="pm-bank"><option value="fed">Federal Reserve</option><option value="ecb">European Central Bank</option></select></label>
   <section class="ce-detail" id="market" aria-labelledby="pm-market-title">
     <h2 id="pm-market-title">Cross-asset sensitivity</h2>
@@ -32,6 +32,32 @@
     <p id="pm-current" class="ce-small" hidden></p>
     <div class="ce-links"><a href="data/policy-current-year.json" download>2026 year-to-date observations (JSON)</a><a href="data/policy-research-meetings.csv" download>Download meeting observations (CSV)</a><a href="data/policy-response-study.json" download>Download market estimates (JSON)</a></div>
   </section>
+  <section class="ce-detail" id="anticipated" aria-labelledby="pm-anticipated-title">
+    <h2 id="pm-anticipated-title">When the decision was priced in</h2>
+    <p>A decision can come close to the move already priced while markets still revise the expected policy path. Compare the one-year OIS change across meetings with different gaps between the actual and priced decisions.</p>
+    <label class="pm-control">Maximum gap for an anticipated decision<select id="pm-threshold" disabled></select></label>
+    <div id="pm-anticipated-output" aria-live="polite"><p>Loading meeting comparisons…</p></div>
+    <details id="pm-ecb-case" hidden>
+      <summary>15 December 2022 · The expected hike and the next three meetings</summary>
+      <p>The ECB’s subsequent meeting account records the path investors expected going in. It envisaged 50 bp in December, a further 50 bp in February and a final 25 bp in March, taking the peak to about 2.8%. The December increase was 50 bp. Those rounded figures come from the meeting briefing.</p>
+      <p>In the Q&amp;A, Christine Lagarde said incoming data then pointed to a succession of half-point increases. One-year euro OIS rose 3.46 bp in the release window and a further 11.51 bp in the conference window. German two-year yields rose 9.20 bp and 16.95 bp respectively. The German 2s10s spread narrowed by 1.00 bp and then by 8.90 bp.</p>
+      <p class="ce-small">US retail sales came out at 14:30 Frankfurt time, during the quote interval shared by the two windows. The recorded moves can reflect both releases.</p>
+      <div class="ce-links"><a href="https://www.ecb.europa.eu/press/accounts/2023/html/ecb.mg230119~e522ad4e37.en.html">ECB account of prior pricing</a><a href="https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2022/html/ecb.is221215~197ac630ae.en.html">Lagarde’s Q&amp;A</a><a href="cross-asset-events.html?bank=ecb&amp;stage=conference&amp;event=ecb-conference-2022-12-15">Inspect the market quotes</a><a href="https://www2.census.gov/retail/releases/historical/marts/adv2211.pdf">US release time</a></div>
+    </details>
+    <div id="pm-current-pricing"></div>
+    <div class="ce-links"><a href="data/anticipated-decisions.csv" download>Meeting observations and sources (CSV)</a><a href="data/anticipated-decisions.json" download>Decision and path comparisons (JSON)</a></div>
+  </section>
+  <section class="ce-detail" id="regimes" aria-labelledby="pm-regimes-title">
+    <h2 id="pm-regimes-title">How did sensitivity vary by leadership and cycle?</h2>
+    <p>Compare the asset change associated with a 10 bp rise in one-year OIS in each group. Differences across tenures can reflect the economic conditions faced by each policymaker.</p>
+    <div class="pm-controls">
+      <label>Compare meetings by<select id="pm-dimension"><option value="leader">Chair or president</option><option value="cycle">Economic cycle</option></select></label>
+      <label>Sample period<select id="pm-frame"><option value="full">Full available history</option><option value="common">2004–2025</option></select></label>
+      <label>Asset measure<select id="pm-regime-asset" disabled></select></label>
+    </div>
+    <div id="pm-regimes-output" aria-live="polite"><p>Loading subgroup estimates…</p></div>
+    <div class="ce-links"><a href="data/policy-regimes.json" download>Estimates and subgroup definitions (JSON)</a></div>
+  </section>
   <section class="ce-detail" id="headlines" aria-labelledby="pm-news-title">
     <h2 id="pm-news-title">Headline direction and repricing</h2>
     <p>Each outlet contributes one reading per meeting. The groups reflect the policy direction expressed in the coverage. A title can report a cut or hike while giving no direction for the next move.</p>
@@ -40,6 +66,13 @@
       <label>Publisher sample<select id="pm-exclusion" disabled></select></label>
     </div>
     <div id="pm-news-output" aria-live="polite"><p>Loading headline comparisons…</p></div>
+    <div id="pm-anticipated-news" aria-live="polite"></div>
+    <details id="pm-reuters-2025">
+      <summary>Reuters decision coverage at every scheduled 2025 FOMC meeting</summary>
+      <p>2025 is the last complete calendar year in the study. The sample takes one Reuters straight-news decision report per meeting, including those whose headlines give no clear indication of the next move. The linked article can be an updated edition of a story first filed before the decision.</p>
+      <div id="pm-reuters-output" aria-live="polite"><p>Open to load the eight meetings.</p></div>
+      <div class="ce-links"><a href="data/reuters-fomc-2025.csv" download>Eight meetings, Reuters editions and market observations (CSV)</a></div>
+    </details>
     <div class="ce-links"><a href="data/headline-policy-study.json" download>Download headline comparisons (JSON)</a><a id="pm-events" href="cross-asset-events.html?bank=fed&amp;lens=news#ce-news-coverage">Inspect the underlying coverage</a></div>
   </section>
   <section class="ce-detail" id="speeches" aria-labelledby="pm-speech-title">
