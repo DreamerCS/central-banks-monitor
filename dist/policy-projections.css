@@ -1,0 +1,9 @@
+#fp-plot{width:100%;max-width:720px;display:block;margin:.5rem 0}
+#fp-plot text{font:12px Arial,sans-serif;fill:var(--ce-ink)}
+#fp-plot .axis{stroke:var(--ce-line);stroke-width:1}
+#fp-plot .zero{stroke:#7b857c;stroke-width:1.5}
+#fp-plot .point{fill:#33644e;opacity:.7}
+#fp-plot .selected{fill:#ae4e2b;opacity:1;stroke:#613425;stroke-width:1.5}
+.pm-study .paired-fig{margin:1.25rem 0}
+.pm-study .paired-fig figcaption{font-weight:600}
+.pm-study .ce-small a{margin-left:.3em}

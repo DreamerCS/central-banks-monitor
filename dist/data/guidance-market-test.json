@@ -1,0 +1,815 @@
+{
+  "period": {
+    "start": "2000-01-01",
+    "end": "2025-12-31"
+  },
+  "panels": [
+    {
+      "id": "fedRelease",
+      "bank": "fed",
+      "stage": "release",
+      "label": "Federal Reserve policy statement",
+      "nEvents": 214,
+      "nScores": 149,
+      "nPaired": 146,
+      "nChanged": 9,
+      "nUnchanged": 137,
+      "nMissingShift": 68,
+      "nEligiblePaired": 146,
+      "nMatchedOis": 144,
+      "trimThresholdBp": 11.14625,
+      "missingReasons": {
+        "Current document unscored": 65,
+        "Preceding document unscored": 3
+      },
+      "variants": [
+        {
+          "id": "all",
+          "label": "All eligible paired stages",
+          "nEvents": 146,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 5,
+              "nOis": 5,
+              "medianOisBp": 0.65,
+              "nSlope": 5,
+              "medianSlopeBp": 1.04,
+              "nEquity": 5,
+              "medianEquityPct": 0.16077,
+              "nNextMeeting": 5,
+              "medianNextMeetingBp": -0.5,
+              "materialN": 3,
+              "alignedN": 2
+            },
+            {
+              "direction": "unchanged",
+              "nText": 137,
+              "nOis": 135,
+              "medianOisBp": 0,
+              "nSlope": 137,
+              "medianSlopeBp": 0.19,
+              "nEquity": 137,
+              "medianEquityPct": 0.06416,
+              "nNextMeeting": 137,
+              "medianNextMeetingBp": 0,
+              "materialN": 71,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 4,
+              "nOis": 4,
+              "medianOisBp": -0.45,
+              "nSlope": 4,
+              "medianSlopeBp": 0.865,
+              "nEquity": 4,
+              "medianEquityPct": 0.00822,
+              "nNextMeeting": 4,
+              "medianNextMeetingBp": 2.77232,
+              "materialN": 4,
+              "alignedN": 2
+            }
+          ]
+        },
+        {
+          "id": "close5",
+          "label": "Target-rate surprise within ±5 bp",
+          "nEvents": 145,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 5,
+              "nOis": 5,
+              "medianOisBp": 0.65,
+              "nSlope": 5,
+              "medianSlopeBp": 1.04,
+              "nEquity": 5,
+              "medianEquityPct": 0.16077,
+              "nNextMeeting": 5,
+              "medianNextMeetingBp": -0.5,
+              "materialN": 3,
+              "alignedN": 2
+            },
+            {
+              "direction": "unchanged",
+              "nText": 136,
+              "nOis": 134,
+              "medianOisBp": 0.0,
+              "nSlope": 136,
+              "medianSlopeBp": 0.115,
+              "nEquity": 136,
+              "medianEquityPct": 0.06284,
+              "nNextMeeting": 136,
+              "medianNextMeetingBp": 0.0,
+              "materialN": 71,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 4,
+              "nOis": 4,
+              "medianOisBp": -0.45,
+              "nSlope": 4,
+              "medianSlopeBp": 0.865,
+              "nEquity": 4,
+              "medianEquityPct": 0.00822,
+              "nNextMeeting": 4,
+              "medianNextMeetingBp": 2.77232,
+              "materialN": 4,
+              "alignedN": 2
+            }
+          ]
+        },
+        {
+          "id": "close2",
+          "label": "Target-rate surprise within ±2 bp",
+          "nEvents": 132,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 4,
+              "nOis": 4,
+              "medianOisBp": -0.125,
+              "nSlope": 4,
+              "medianSlopeBp": 1.325,
+              "nEquity": 4,
+              "medianEquityPct": 0.06054,
+              "nNextMeeting": 4,
+              "medianNextMeetingBp": -0.5,
+              "materialN": 2,
+              "alignedN": 1
+            },
+            {
+              "direction": "unchanged",
+              "nText": 125,
+              "nOis": 123,
+              "medianOisBp": 0,
+              "nSlope": 125,
+              "medianSlopeBp": 0.04,
+              "nEquity": 125,
+              "medianEquityPct": 0.08142,
+              "nNextMeeting": 125,
+              "medianNextMeetingBp": 0,
+              "materialN": 61,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 3,
+              "nOis": 3,
+              "medianOisBp": 1.5,
+              "nSlope": 3,
+              "medianSlopeBp": -0.31,
+              "nEquity": 3,
+              "medianEquityPct": -0.25585,
+              "nNextMeeting": 3,
+              "medianNextMeetingBp": 2.5,
+              "materialN": 3,
+              "alignedN": 1
+            }
+          ]
+        },
+        {
+          "id": "close10",
+          "label": "Target-rate surprise within ±10 bp",
+          "nEvents": 146,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 5,
+              "nOis": 5,
+              "medianOisBp": 0.65,
+              "nSlope": 5,
+              "medianSlopeBp": 1.04,
+              "nEquity": 5,
+              "medianEquityPct": 0.16077,
+              "nNextMeeting": 5,
+              "medianNextMeetingBp": -0.5,
+              "materialN": 3,
+              "alignedN": 2
+            },
+            {
+              "direction": "unchanged",
+              "nText": 137,
+              "nOis": 135,
+              "medianOisBp": 0,
+              "nSlope": 137,
+              "medianSlopeBp": 0.19,
+              "nEquity": 137,
+              "medianEquityPct": 0.06416,
+              "nNextMeeting": 137,
+              "medianNextMeetingBp": 0,
+              "materialN": 71,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 4,
+              "nOis": 4,
+              "medianOisBp": -0.45,
+              "nSlope": 4,
+              "medianSlopeBp": 0.865,
+              "nEquity": 4,
+              "medianEquityPct": 0.00822,
+              "nNextMeeting": 4,
+              "medianNextMeetingBp": 2.77232,
+              "materialN": 4,
+              "alignedN": 2
+            }
+          ]
+        },
+        {
+          "id": "trimmed",
+          "label": "Through 99th percentile of absolute 1Y OIS moves",
+          "nEvents": 144,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 5,
+              "nOis": 5,
+              "medianOisBp": 0.65,
+              "nSlope": 5,
+              "medianSlopeBp": 1.04,
+              "nEquity": 5,
+              "medianEquityPct": 0.16077,
+              "nNextMeeting": 5,
+              "medianNextMeetingBp": -0.5,
+              "materialN": 3,
+              "alignedN": 2
+            },
+            {
+              "direction": "unchanged",
+              "nText": 135,
+              "nOis": 135,
+              "medianOisBp": 0,
+              "nSlope": 135,
+              "medianSlopeBp": 0.19,
+              "nEquity": 135,
+              "medianEquityPct": 0.06994,
+              "nNextMeeting": 135,
+              "medianNextMeetingBp": 0,
+              "materialN": 71,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 4,
+              "nOis": 4,
+              "medianOisBp": -0.45,
+              "nSlope": 4,
+              "medianSlopeBp": 0.865,
+              "nEquity": 4,
+              "medianEquityPct": 0.00822,
+              "nNextMeeting": 4,
+              "medianNextMeetingBp": 2.77232,
+              "materialN": 4,
+              "alignedN": 2
+            }
+          ]
+        },
+        {
+          "id": "early",
+          "label": "2000–2012",
+          "nEvents": 60,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 2,
+              "nOis": 2,
+              "medianOisBp": 4.725,
+              "nSlope": 2,
+              "medianSlopeBp": -2.875,
+              "nEquity": 2,
+              "medianEquityPct": -0.27452,
+              "nNextMeeting": 2,
+              "medianNextMeetingBp": 0.78333,
+              "materialN": 1,
+              "alignedN": 1
+            },
+            {
+              "direction": "unchanged",
+              "nText": 57,
+              "nOis": 55,
+              "medianOisBp": 0.25,
+              "nSlope": 57,
+              "medianSlopeBp": 0.3,
+              "nEquity": 57,
+              "medianEquityPct": 0.00318,
+              "nNextMeeting": 57,
+              "medianNextMeetingBp": 0,
+              "materialN": 33,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 1,
+              "nOis": 1,
+              "medianOisBp": 1.5,
+              "nSlope": 1,
+              "medianSlopeBp": -0.5,
+              "nEquity": 1,
+              "medianEquityPct": -0.25585,
+              "nNextMeeting": 1,
+              "medianNextMeetingBp": 2.5,
+              "materialN": 1,
+              "alignedN": 0
+            }
+          ]
+        },
+        {
+          "id": "late",
+          "label": "2013–2025",
+          "nEvents": 86,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 3,
+              "nOis": 3,
+              "medianOisBp": -0.9,
+              "nSlope": 3,
+              "medianSlopeBp": 1.61,
+              "nEquity": 3,
+              "medianEquityPct": 0.16077,
+              "nNextMeeting": 3,
+              "medianNextMeetingBp": -0.5,
+              "materialN": 2,
+              "alignedN": 1
+            },
+            {
+              "direction": "unchanged",
+              "nText": 80,
+              "nOis": 80,
+              "medianOisBp": -0.05,
+              "nSlope": 80,
+              "medianSlopeBp": 0.025,
+              "nEquity": 80,
+              "medianEquityPct": 0.07935,
+              "nNextMeeting": 80,
+              "medianNextMeetingBp": 0.0,
+              "materialN": 38,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 3,
+              "nOis": 3,
+              "medianOisBp": -2.4,
+              "nSlope": 3,
+              "medianSlopeBp": 2.04,
+              "nEquity": 3,
+              "medianEquityPct": 0.27229,
+              "nNextMeeting": 3,
+              "medianNextMeetingBp": 3.04464,
+              "materialN": 3,
+              "alignedN": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecbRelease",
+      "bank": "ecb",
+      "stage": "release",
+      "label": "ECB decision release",
+      "nEvents": 293,
+      "nScores": 61,
+      "nPaired": 58,
+      "nChanged": 5,
+      "nUnchanged": 53,
+      "nMissingShift": 235,
+      "nEligiblePaired": 58,
+      "nMatchedOis": 58,
+      "trimThresholdBp": 11.85593,
+      "missingReasons": {
+        "Current document unscored": 232,
+        "Preceding document unscored": 3
+      },
+      "variants": [
+        {
+          "id": "all",
+          "label": "All eligible paired stages",
+          "nEvents": 58,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 2,
+              "nOis": 2,
+              "medianOisBp": 2.40354,
+              "nSlope": 2,
+              "medianSlopeBp": -1.6,
+              "nEquity": 2,
+              "medianEquityPct": -0.33004,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 1,
+              "alignedN": 1
+            },
+            {
+              "direction": "unchanged",
+              "nText": 53,
+              "nOis": 53,
+              "medianOisBp": -0.12,
+              "nSlope": 53,
+              "medianSlopeBp": -0.05,
+              "nEquity": 53,
+              "medianEquityPct": -0.02748,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 17,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 3,
+              "nOis": 3,
+              "medianOisBp": -0.01,
+              "nSlope": 3,
+              "medianSlopeBp": -1.7,
+              "nEquity": 3,
+              "medianEquityPct": 0.41124,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 1,
+              "alignedN": 0
+            }
+          ]
+        },
+        {
+          "id": "trimmed",
+          "label": "Through 99th percentile of absolute 1Y OIS moves",
+          "nEvents": 57,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 2,
+              "nOis": 2,
+              "medianOisBp": 2.40354,
+              "nSlope": 2,
+              "medianSlopeBp": -1.6,
+              "nEquity": 2,
+              "medianEquityPct": -0.33004,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 1,
+              "alignedN": 1
+            },
+            {
+              "direction": "unchanged",
+              "nText": 52,
+              "nOis": 52,
+              "medianOisBp": -0.12,
+              "nSlope": 52,
+              "medianSlopeBp": -0.03,
+              "nEquity": 52,
+              "medianEquityPct": -0.03065,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 16,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 3,
+              "nOis": 3,
+              "medianOisBp": -0.01,
+              "nSlope": 3,
+              "medianSlopeBp": -1.7,
+              "nEquity": 3,
+              "medianEquityPct": 0.41124,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 1,
+              "alignedN": 0
+            }
+          ]
+        },
+        {
+          "id": "early",
+          "label": "2000–2012",
+          "nEvents": 0,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 0,
+              "nOis": 0,
+              "medianOisBp": null,
+              "nSlope": 0,
+              "medianSlopeBp": null,
+              "nEquity": 0,
+              "medianEquityPct": null,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 0,
+              "alignedN": 0
+            },
+            {
+              "direction": "unchanged",
+              "nText": 0,
+              "nOis": 0,
+              "medianOisBp": null,
+              "nSlope": 0,
+              "medianSlopeBp": null,
+              "nEquity": 0,
+              "medianEquityPct": null,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 0,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 0,
+              "nOis": 0,
+              "medianOisBp": null,
+              "nSlope": 0,
+              "medianSlopeBp": null,
+              "nEquity": 0,
+              "medianEquityPct": null,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 0,
+              "alignedN": 0
+            }
+          ]
+        },
+        {
+          "id": "late",
+          "label": "2013–2025",
+          "nEvents": 58,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 2,
+              "nOis": 2,
+              "medianOisBp": 2.40354,
+              "nSlope": 2,
+              "medianSlopeBp": -1.6,
+              "nEquity": 2,
+              "medianEquityPct": -0.33004,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 1,
+              "alignedN": 1
+            },
+            {
+              "direction": "unchanged",
+              "nText": 53,
+              "nOis": 53,
+              "medianOisBp": -0.12,
+              "nSlope": 53,
+              "medianSlopeBp": -0.05,
+              "nEquity": 53,
+              "medianEquityPct": -0.02748,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 17,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 3,
+              "nOis": 3,
+              "medianOisBp": -0.01,
+              "nSlope": 3,
+              "medianSlopeBp": -1.7,
+              "nEquity": 3,
+              "medianEquityPct": 0.41124,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 1,
+              "alignedN": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecbConference",
+      "bank": "ecb",
+      "stage": "conference",
+      "label": "ECB opening statement and press conference",
+      "nEvents": 263,
+      "nScores": 103,
+      "nPaired": 83,
+      "nChanged": 8,
+      "nUnchanged": 75,
+      "nMissingShift": 180,
+      "nEligiblePaired": 83,
+      "nMatchedOis": 83,
+      "trimThresholdBp": 15.32809,
+      "missingReasons": {
+        "Current document unscored": 160,
+        "Preceding document unscored": 19,
+        "No same-stage document at immediately preceding decision": 1
+      },
+      "variants": [
+        {
+          "id": "all",
+          "label": "All eligible paired stages",
+          "nEvents": 83,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 4,
+              "nOis": 4,
+              "medianOisBp": -0.24089,
+              "nSlope": 4,
+              "medianSlopeBp": 1.7,
+              "nEquity": 4,
+              "medianEquityPct": -0.07871,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 2,
+              "alignedN": 1
+            },
+            {
+              "direction": "unchanged",
+              "nText": 75,
+              "nOis": 75,
+              "medianOisBp": -0.075,
+              "nSlope": 75,
+              "medianSlopeBp": 0,
+              "nEquity": 75,
+              "medianEquityPct": -0.04062,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 27,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 4,
+              "nOis": 4,
+              "medianOisBp": 2.42512,
+              "nSlope": 4,
+              "medianSlopeBp": 0.175,
+              "nEquity": 4,
+              "medianEquityPct": 0.4334,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 3,
+              "alignedN": 0
+            }
+          ]
+        },
+        {
+          "id": "trimmed",
+          "label": "Through 99th percentile of absolute 1Y OIS moves",
+          "nEvents": 83,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 4,
+              "nOis": 4,
+              "medianOisBp": -0.24089,
+              "nSlope": 4,
+              "medianSlopeBp": 1.7,
+              "nEquity": 4,
+              "medianEquityPct": -0.07871,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 2,
+              "alignedN": 1
+            },
+            {
+              "direction": "unchanged",
+              "nText": 75,
+              "nOis": 75,
+              "medianOisBp": -0.075,
+              "nSlope": 75,
+              "medianSlopeBp": 0,
+              "nEquity": 75,
+              "medianEquityPct": -0.04062,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 27,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 4,
+              "nOis": 4,
+              "medianOisBp": 2.42512,
+              "nSlope": 4,
+              "medianSlopeBp": 0.175,
+              "nEquity": 4,
+              "medianEquityPct": 0.4334,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 3,
+              "alignedN": 0
+            }
+          ]
+        },
+        {
+          "id": "early",
+          "label": "2000–2012",
+          "nEvents": 6,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 0,
+              "nOis": 0,
+              "medianOisBp": null,
+              "nSlope": 0,
+              "medianSlopeBp": null,
+              "nEquity": 0,
+              "medianEquityPct": null,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 0,
+              "alignedN": 0
+            },
+            {
+              "direction": "unchanged",
+              "nText": 6,
+              "nOis": 6,
+              "medianOisBp": -0.1475,
+              "nSlope": 6,
+              "medianSlopeBp": 0.25,
+              "nEquity": 6,
+              "medianEquityPct": -0.00228,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 3,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 0,
+              "nOis": 0,
+              "medianOisBp": null,
+              "nSlope": 0,
+              "medianSlopeBp": null,
+              "nEquity": 0,
+              "medianEquityPct": null,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 0,
+              "alignedN": 0
+            }
+          ]
+        },
+        {
+          "id": "late",
+          "label": "2013–2025",
+          "nEvents": 77,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nText": 4,
+              "nOis": 4,
+              "medianOisBp": -0.24089,
+              "nSlope": 4,
+              "medianSlopeBp": 1.7,
+              "nEquity": 4,
+              "medianEquityPct": -0.07871,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 2,
+              "alignedN": 1
+            },
+            {
+              "direction": "unchanged",
+              "nText": 69,
+              "nOis": 69,
+              "medianOisBp": -0.075,
+              "nSlope": 69,
+              "medianSlopeBp": 0,
+              "nEquity": 69,
+              "medianEquityPct": -0.04062,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 24,
+              "alignedN": null
+            },
+            {
+              "direction": "easier",
+              "nText": 4,
+              "nOis": 4,
+              "medianOisBp": 2.42512,
+              "nSlope": 4,
+              "medianSlopeBp": 0.175,
+              "nEquity": 4,
+              "medianEquityPct": 0.4334,
+              "nNextMeeting": 0,
+              "medianNextMeetingBp": null,
+              "materialN": 3,
+              "alignedN": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "method": [
+    "The ordinal wording score runs from −2 to +2. A shift compares the present score to the same document stage at the immediately preceding rate decision. Both scores must be observed. Missing stages and unscored language reset the comparison. An unchanged category can be hawkish, dovish or balanced.",
+    "The Fed score represents its policy statement. ECB decision releases and opening statements or Q&A have separate scores and price windows. A conference reading can draw on the chair’s Q&A; its associated prices span that conference. Document links and timing are supplied in the event file.",
+    "The main groups use eligible event windows with a paired score. Each price series uses its own available observations. The 1-year OIS and 2s10s (10-year less 2-year sovereign yield) are in basis points; equities are percentage changes in the domestic stock index. For the Fed, next-meeting futures are also reported.",
+    "Alignment compares the sign of a non-zero wording change to the sign of a 1-year OIS move larger than one basis point in absolute size. The wording change measures revision from the last document. It does not quantify how much of the current message markets anticipated.",
+    "The Fed pricing sensitivity uses the absolute target-rate surprise derived from current-meeting fed funds futures, separately from the 1-year OIS outcome. A small surprise in the current target does not establish that the rest of the announcement was anticipated. The outlier check trims above the panel’s 99th percentile of absolute 1-year OIS moves over all eligible priced stages, including those without text scores.",
+    "Only a small number of consecutive texts change wording category in this sample. Medians and sign counts are descriptive, and chronological subgroup splits can contain just one directional observation. The samples are too sparse for an informative significance test. Other news or information about the economy can affect prices in the same interval."
+  ]
+}

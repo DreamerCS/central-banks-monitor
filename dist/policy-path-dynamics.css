@@ -1,0 +1,7 @@
+.pm-study .pd-partition{display:flex;width:100%;max-width:700px;height:1.2rem;overflow:hidden;border-radius:2px;margin:.9rem 0 .4rem;background:#e9e8df}
+.pd-partition span:first-child{background:#a85538}
+.pd-partition span:nth-child(2){background:#416d57}
+.pd-partition span:nth-child(3){background:#c8c8b9}
+.pm-study .pd-stat{font:1.3rem/1.45 var(--serif,Georgia,serif);margin:.65rem 0}
+.pm-study .pd-panel-controls{margin:.6rem 0}
+@media(max-width:540px){.pm-study .pm-controls>label{width:100%}.pm-study .ce-tables{max-width:100%}.pm-study details>summary{line-height:1.45}}

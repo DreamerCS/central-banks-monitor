@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#20342b">
+  <title>Repricing the policy path · Central Bank Intelligence</title>
+  <meta name="description" content="Explore short-rate and one-year policy repricing, press-conference reversals and changes around central bank speeches.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="cross-asset-events.css"><link rel="stylesheet" href="policy-market-analysis.css"><link rel="stylesheet" href="policy-path-dynamics.css">
+  <script defer src="policy-path-dynamics.js"></script>
+</head>
+<body class="ce-page"><a class="skip-link" href="#main">Skip to content</a>
+<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="market-reactions.html">Market reactions</a><a href="cross-asset-events.html">Event explorer</a><a href="policy-market-analysis.html">Policy signals and market moves</a></nav></div></header>
+<main class="ce-wrap pm-study" id="main">
+  <header class="ce-intro"><p class="eyeline">Market reactions</p><h1>Repricing the policy path</h1><p>Track what changed at the announcement, what moved again during the press conference, and how prices behaved around central bank speeches.</p></header>
+  <nav class="ce-examples" aria-label="Jump to study"><a href="#components">Decision release</a><a href="#conference">Press conference</a><a href="#speeches">Speech windows</a><a href="#meeting">How to read a meeting</a></nav>
+  <label class="pm-control">Central bank<select id="pd-bank"><option value="fed">Federal Reserve</option><option value="ecb">European Central Bank</option></select></label>
+  <section class="ce-detail" id="components">
+    <h2>Near-term rates and the one-year path</h2>
+    <p>At the decision release, asset prices can move with both the short rate and the expected path of future rates. Each coefficient estimates the asset change associated with a 5 bp increase in one instrument while the other is held fixed.</p>
+    <label class="pm-control">Asset measure<select id="pd-asset" disabled></select></label>
+    <div id="pd-component-output" aria-live="polite">Loading joint estimates…</div>
+    <div class="ce-links"><a href="data/policy-path-components.json" download>Joint estimates and matched events (JSON)</a></div>
+  </section>
+  <section class="ce-detail" id="conference">
+    <h2>Did the press conference reverse the initial move?</h2>
+    <p>Compare the signed change in one-year OIS during the announcement with its change during the press conference on the same date.</p>
+    <label class="pm-control">Minimum move in each window<select id="pd-threshold" disabled></select></label>
+    <div id="pd-reversal-output" aria-live="polite">Loading paired windows…</div>
+    <div id="pd-followthrough" aria-live="polite" hidden></div>
+    <div class="ce-links"><a href="data/conference-reversals.csv" download>Meeting windows (CSV)</a><a href="data/conference-reversals.json" download>Reversal study (JSON)</a></div>
+  </section>
+  <section class="ce-detail" id="speeches">
+    <h2 id="pd-speech-heading">Markets around speeches</h2>
+    <div class="pm-controls" id="pd-speech-controls" hidden>
+      <label>Group appearances by<select id="pd-kind"></select></label><label>Sample<select id="pd-group"></select></label>
+    </div>
+    <label id="pd-fed-controls" class="pm-control" hidden>Speech sample<select id="pd-fed-group"></select></label>
+    <div id="pd-speech-output" aria-live="polite">Loading intraday observations…</div>
+    <div class="ce-links" id="pd-fed-sources" hidden><a href="data/fed-speech-pricing-study.csv" download>SOFR and Treasury observations (CSV)</a><a href="data/fed-speech-pricing-study.json" download>Speech pricing results and methods (JSON)</a></div>
+    <div class="ce-links" id="pd-ecb-sources"><a href="data/policy-research-ecb-speeches.csv" download>Speech windows and exclusions (CSV)</a><a href="data/speech-market-panel.json" download>Speech distributions and methods (JSON)</a></div>
+  </section>
+  <section class="ce-detail" id="meeting">
+    <h2>How to read a meeting</h2>
+    <p>Start with the policy decision and the market move already priced. Check whether the central bank changed its forecast for growth, inflation or the policy rate, and record when the projection became public. Then compare the release window with the press conference. An article published later can describe both.</p>
+    <article id="pd-fed-reading" hidden>
+      <h3>Fed · 21 September 2022</h3>
+      <p>Participants raised their median end-2023 policy rate from 3.8% in June to 4.6%. One-year OIS rose 8.47 bp around the announcement and fell 3.49 bp during the press conference. The Wall Street Journal highlighted the third consecutive 75 bp increase. Its headline supplied the size of the current action, while the projections quantified the change in the expected policy path.</p>
+      <div class="ce-links"><a href="https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20220921.htm">September projections</a><a href="cross-asset-events.html?bank=fed&amp;stage=release&amp;event=fed-2022-09-21-release">Meeting price windows</a><a href="https://www.wsj.com/articles/fed-raises-interest-rates-by-0-75-percentage-point-for-third-straight-meeting-11663783397">WSJ coverage</a></div>
+    </article>
+    <article id="pd-ecb-reading" hidden>
+      <h3>ECB · 15 December 2022</h3>
+      <p>Eurosystem staff raised their 2023 inflation projection from 5.5% in September to 6.3% and lowered real GDP growth from 0.9% to 0.5%. One-year euro OIS rose 3.46 bp around the release and another 11.51 bp during the press conference. The staff projections describe the economic outlook. The OIS windows show how markets repriced during communications that also included the rate decision and policy guidance.</p>
+      <div class="ce-links"><a href="https://data.ecb.europa.eu/data/datasets/MPD/MPD.A.U2.HIC.A.A22.0000">ECB December inflation vintage</a><a href="https://data.ecb.europa.eu/data/datasets/MPD/MPD.A.U2.YER.A.A22.0000">ECB December GDP vintage</a><a href="cross-asset-events.html?bank=ecb&amp;stage=release&amp;event=ecb-release-2022-12-15">Meeting price windows</a></div>
+    </article>
+    <div class="ce-links"><a href="policy-projections.html">Official projection revisions and market pricing</a><a href="policy-projections.html#guidance">Official guidance shifts and market pricing</a><a id="pd-reading-links" href="policy-market-analysis.html#headlines">Headline direction and repricing</a><a id="pd-explorer" href="cross-asset-events.html">Compare a decision with its source documents</a></div>
+  </section>
+</main></body></html>

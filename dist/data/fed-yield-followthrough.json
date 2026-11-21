@@ -1,0 +1,1103 @@
+{
+  "period": {
+    "start": "2000-01-01",
+    "end": "2025-12-31"
+  },
+  "eligibleMeetings": 207,
+  "primaryThresholdBp": 2,
+  "thresholdsBp": [
+    1,
+    2,
+    5
+  ],
+  "assets": {
+    "yield2y": {
+      "label": "US two-year Treasury yield",
+      "intradayMeetings": 207,
+      "matchedMeetings": 207,
+      "thresholds": {
+        "1": {
+          "all": {
+            "priorToEvent": {
+              "n": 146,
+              "sameDirection": 109,
+              "oppositeDirection": 30,
+              "flat": 7,
+              "sameShare": 0.7465753,
+              "medianAbsIntradayBp": 3.885,
+              "medianAbsDailyMoveBp": 5.0,
+              "medianDailyOverIntraday": 0.8998921,
+              "correlation": 0.6376018
+            },
+            "priorToNext": {
+              "n": 146,
+              "sameDirection": 89,
+              "oppositeDirection": 51,
+              "flat": 6,
+              "sameShare": 0.609589,
+              "medianAbsIntradayBp": 3.885,
+              "medianAbsDailyMoveBp": 5.0,
+              "medianDailyOverIntraday": 0.6170724,
+              "correlation": 0.3773377
+            },
+            "priorToFifth": {
+              "n": 146,
+              "sameDirection": 95,
+              "oppositeDirection": 48,
+              "flat": 3,
+              "sameShare": 0.6506849,
+              "medianAbsIntradayBp": 3.885,
+              "medianAbsDailyMoveBp": 7.0,
+              "medianDailyOverIntraday": 0.7745073,
+              "correlation": 0.2782862
+            },
+            "eventToNext": {
+              "n": 146,
+              "sameDirection": 47,
+              "oppositeDirection": 75,
+              "flat": 24,
+              "sameShare": 0.3219178,
+              "medianAbsIntradayBp": 3.885,
+              "medianAbsDailyMoveBp": 3.0,
+              "medianDailyOverIntraday": -0.1790747,
+              "correlation": -0.2061688
+            },
+            "eventToFifth": {
+              "n": 146,
+              "sameDirection": 62,
+              "oppositeDirection": 71,
+              "flat": 13,
+              "sameShare": 0.4246575,
+              "medianAbsIntradayBp": 3.885,
+              "medianAbsDailyMoveBp": 5.0,
+              "medianDailyOverIntraday": 0.0,
+              "correlation": -0.1236643
+            }
+          },
+          "up": {
+            "priorToEvent": {
+              "n": 69,
+              "sameDirection": 51,
+              "oppositeDirection": 17,
+              "flat": 1,
+              "sameShare": 0.7391304,
+              "medianAbsIntradayBp": 3.25,
+              "medianAbsDailyMoveBp": 4,
+              "medianDailyOverIntraday": 0.7117438,
+              "correlation": 0.5075107
+            },
+            "priorToNext": {
+              "n": 69,
+              "sameDirection": 36,
+              "oppositeDirection": 30,
+              "flat": 3,
+              "sameShare": 0.5217391,
+              "medianAbsIntradayBp": 3.25,
+              "medianAbsDailyMoveBp": 5,
+              "medianDailyOverIntraday": 0.2415459,
+              "correlation": 0.431565
+            },
+            "priorToFifth": {
+              "n": 69,
+              "sameDirection": 46,
+              "oppositeDirection": 21,
+              "flat": 2,
+              "sameShare": 0.6666667,
+              "medianAbsIntradayBp": 3.25,
+              "medianAbsDailyMoveBp": 8,
+              "medianDailyOverIntraday": 0.7142857,
+              "correlation": 0.2426875
+            },
+            "eventToNext": {
+              "n": 69,
+              "sameDirection": 19,
+              "oppositeDirection": 38,
+              "flat": 12,
+              "sameShare": 0.2753623,
+              "medianAbsIntradayBp": 3.25,
+              "medianAbsDailyMoveBp": 3,
+              "medianDailyOverIntraday": -0.3076923,
+              "correlation": 0.0767421
+            },
+            "eventToFifth": {
+              "n": 69,
+              "sameDirection": 34,
+              "oppositeDirection": 29,
+              "flat": 6,
+              "sameShare": 0.4927536,
+              "medianAbsIntradayBp": 3.25,
+              "medianAbsDailyMoveBp": 5,
+              "medianDailyOverIntraday": 0.0,
+              "correlation": -0.0356568
+            }
+          },
+          "down": {
+            "priorToEvent": {
+              "n": 77,
+              "sameDirection": 58,
+              "oppositeDirection": 13,
+              "flat": 6,
+              "sameShare": 0.7532468,
+              "medianAbsIntradayBp": 4.43,
+              "medianAbsDailyMoveBp": 5,
+              "medianDailyOverIntraday": 1.0443864,
+              "correlation": 0.4368873
+            },
+            "priorToNext": {
+              "n": 77,
+              "sameDirection": 53,
+              "oppositeDirection": 21,
+              "flat": 3,
+              "sameShare": 0.6883117,
+              "medianAbsIntradayBp": 4.43,
+              "medianAbsDailyMoveBp": 5,
+              "medianDailyOverIntraday": 0.8347245,
+              "correlation": 0.2609276
+            },
+            "priorToFifth": {
+              "n": 77,
+              "sameDirection": 49,
+              "oppositeDirection": 27,
+              "flat": 1,
+              "sameShare": 0.6363636,
+              "medianAbsIntradayBp": 4.43,
+              "medianAbsDailyMoveBp": 7,
+              "medianDailyOverIntraday": 0.8045977,
+              "correlation": 0.0125015
+            },
+            "eventToNext": {
+              "n": 77,
+              "sameDirection": 28,
+              "oppositeDirection": 37,
+              "flat": 12,
+              "sameShare": 0.3636364,
+              "medianAbsIntradayBp": 4.43,
+              "medianAbsDailyMoveBp": 3,
+              "medianDailyOverIntraday": -0.0,
+              "correlation": -0.0647956
+            },
+            "eventToFifth": {
+              "n": 77,
+              "sameDirection": 28,
+              "oppositeDirection": 42,
+              "flat": 7,
+              "sameShare": 0.3636364,
+              "medianAbsIntradayBp": 4.43,
+              "medianAbsDailyMoveBp": 5,
+              "medianDailyOverIntraday": -0.203666,
+              "correlation": -0.2366124
+            }
+          }
+        },
+        "2": {
+          "all": {
+            "priorToEvent": {
+              "n": 110,
+              "sameDirection": 92,
+              "oppositeDirection": 14,
+              "flat": 4,
+              "sameShare": 0.8363636,
+              "medianAbsIntradayBp": 4.705,
+              "medianAbsDailyMoveBp": 5.0,
+              "medianDailyOverIntraday": 0.9746922,
+              "correlation": 0.6967274
+            },
+            "priorToNext": {
+              "n": 110,
+              "sameDirection": 74,
+              "oppositeDirection": 31,
+              "flat": 5,
+              "sameShare": 0.6727273,
+              "medianAbsIntradayBp": 4.705,
+              "medianAbsDailyMoveBp": 6.0,
+              "medianDailyOverIntraday": 0.7903209,
+              "correlation": 0.4385022
+            },
+            "priorToFifth": {
+              "n": 110,
+              "sameDirection": 73,
+              "oppositeDirection": 35,
+              "flat": 2,
+              "sameShare": 0.6636364,
+              "medianAbsIntradayBp": 4.705,
+              "medianAbsDailyMoveBp": 7.5,
+              "medianDailyOverIntraday": 0.7247899,
+              "correlation": 0.3005257
+            },
+            "eventToNext": {
+              "n": 110,
+              "sameDirection": 38,
+              "oppositeDirection": 56,
+              "flat": 16,
+              "sameShare": 0.3454545,
+              "medianAbsIntradayBp": 4.705,
+              "medianAbsDailyMoveBp": 3.0,
+              "medianDailyOverIntraday": -0.129344,
+              "correlation": -0.2021843
+            },
+            "eventToFifth": {
+              "n": 110,
+              "sameDirection": 44,
+              "oppositeDirection": 57,
+              "flat": 9,
+              "sameShare": 0.4,
+              "medianAbsIntradayBp": 4.705,
+              "medianAbsDailyMoveBp": 5.0,
+              "medianDailyOverIntraday": -0.1653643,
+              "correlation": -0.1583588
+            }
+          },
+          "up": {
+            "priorToEvent": {
+              "n": 51,
+              "sameDirection": 47,
+              "oppositeDirection": 4,
+              "flat": 0,
+              "sameShare": 0.9215686,
+              "medianAbsIntradayBp": 4.51,
+              "medianAbsDailyMoveBp": 4,
+              "medianDailyOverIntraday": 0.9689922,
+              "correlation": 0.3373918
+            },
+            "priorToNext": {
+              "n": 51,
+              "sameDirection": 32,
+              "oppositeDirection": 16,
+              "flat": 3,
+              "sameShare": 0.627451,
+              "medianAbsIntradayBp": 4.51,
+              "medianAbsDailyMoveBp": 5,
+              "medianDailyOverIntraday": 0.6130268,
+              "correlation": 0.2824701
+            },
+            "priorToFifth": {
+              "n": 51,
+              "sameDirection": 36,
+              "oppositeDirection": 14,
+              "flat": 1,
+              "sameShare": 0.7058824,
+              "medianAbsIntradayBp": 4.51,
+              "medianAbsDailyMoveBp": 9,
+              "medianDailyOverIntraday": 0.6578947,
+              "correlation": 0.2131977
+            },
+            "eventToNext": {
+              "n": 51,
+              "sameDirection": 14,
+              "oppositeDirection": 29,
+              "flat": 8,
+              "sameShare": 0.2745098,
+              "medianAbsIntradayBp": 4.51,
+              "medianAbsDailyMoveBp": 3,
+              "medianDailyOverIntraday": -0.3076923,
+              "correlation": 0.0650033
+            },
+            "eventToFifth": {
+              "n": 51,
+              "sameDirection": 22,
+              "oppositeDirection": 25,
+              "flat": 4,
+              "sameShare": 0.4313725,
+              "medianAbsIntradayBp": 4.51,
+              "medianAbsDailyMoveBp": 5,
+              "medianDailyOverIntraday": 0.0,
+              "correlation": 0.0681117
+            }
+          },
+          "down": {
+            "priorToEvent": {
+              "n": 59,
+              "sameDirection": 45,
+              "oppositeDirection": 10,
+              "flat": 4,
+              "sameShare": 0.7627119,
+              "medianAbsIntradayBp": 5.25,
+              "medianAbsDailyMoveBp": 6,
+              "medianDailyOverIntraday": 0.9803922,
+              "correlation": 0.461998
+            },
+            "priorToNext": {
+              "n": 59,
+              "sameDirection": 42,
+              "oppositeDirection": 15,
+              "flat": 2,
+              "sameShare": 0.7118644,
+              "medianAbsIntradayBp": 5.25,
+              "medianAbsDailyMoveBp": 6,
+              "medianDailyOverIntraday": 0.8347245,
+              "correlation": 0.2825698
+            },
+            "priorToFifth": {
+              "n": 59,
+              "sameDirection": 37,
+              "oppositeDirection": 21,
+              "flat": 1,
+              "sameShare": 0.6271186,
+              "medianAbsIntradayBp": 5.25,
+              "medianAbsDailyMoveBp": 7,
+              "medianDailyOverIntraday": 0.7444169,
+              "correlation": -0.0074168
+            },
+            "eventToNext": {
+              "n": 59,
+              "sameDirection": 24,
+              "oppositeDirection": 27,
+              "flat": 8,
+              "sameShare": 0.4067797,
+              "medianAbsIntradayBp": 5.25,
+              "medianAbsDailyMoveBp": 4,
+              "medianDailyOverIntraday": -0.0,
+              "correlation": -0.0539327
+            },
+            "eventToFifth": {
+              "n": 59,
+              "sameDirection": 22,
+              "oppositeDirection": 32,
+              "flat": 5,
+              "sameShare": 0.3728814,
+              "medianAbsIntradayBp": 5.25,
+              "medianAbsDailyMoveBp": 6,
+              "medianDailyOverIntraday": -0.1904762,
+              "correlation": -0.2644508
+            }
+          }
+        },
+        "5": {
+          "all": {
+            "priorToEvent": {
+              "n": 53,
+              "sameDirection": 48,
+              "oppositeDirection": 5,
+              "flat": 0,
+              "sameShare": 0.9056604,
+              "medianAbsIntradayBp": 7.57,
+              "medianAbsDailyMoveBp": 8,
+              "medianDailyOverIntraday": 0.9689922,
+              "correlation": 0.7190911
+            },
+            "priorToNext": {
+              "n": 53,
+              "sameDirection": 40,
+              "oppositeDirection": 11,
+              "flat": 2,
+              "sameShare": 0.754717,
+              "medianAbsIntradayBp": 7.57,
+              "medianAbsDailyMoveBp": 9,
+              "medianDailyOverIntraday": 0.8196721,
+              "correlation": 0.4854176
+            },
+            "priorToFifth": {
+              "n": 53,
+              "sameDirection": 35,
+              "oppositeDirection": 17,
+              "flat": 1,
+              "sameShare": 0.6603774,
+              "medianAbsIntradayBp": 7.57,
+              "medianAbsDailyMoveBp": 9,
+              "medianDailyOverIntraday": 0.6578947,
+              "correlation": 0.348022
+            },
+            "eventToNext": {
+              "n": 53,
+              "sameDirection": 20,
+              "oppositeDirection": 27,
+              "flat": 6,
+              "sameShare": 0.3773585,
+              "medianAbsIntradayBp": 7.57,
+              "medianAbsDailyMoveBp": 4,
+              "medianDailyOverIntraday": -0.0917431,
+              "correlation": -0.1619278
+            },
+            "eventToFifth": {
+              "n": 53,
+              "sameDirection": 15,
+              "oppositeDirection": 33,
+              "flat": 5,
+              "sameShare": 0.2830189,
+              "medianAbsIntradayBp": 7.57,
+              "medianAbsDailyMoveBp": 6,
+              "medianDailyOverIntraday": -0.2355713,
+              "correlation": -0.205829
+            }
+          },
+          "up": {
+            "priorToEvent": {
+              "n": 21,
+              "sameDirection": 20,
+              "oppositeDirection": 1,
+              "flat": 0,
+              "sameShare": 0.952381,
+              "medianAbsIntradayBp": 6.97,
+              "medianAbsDailyMoveBp": 8,
+              "medianDailyOverIntraday": 0.9174312,
+              "correlation": 0.4187753
+            },
+            "priorToNext": {
+              "n": 21,
+              "sameDirection": 15,
+              "oppositeDirection": 5,
+              "flat": 1,
+              "sameShare": 0.7142857,
+              "medianAbsIntradayBp": 6.97,
+              "medianAbsDailyMoveBp": 9,
+              "medianDailyOverIntraday": 0.7709251,
+              "correlation": 0.2252782
+            },
+            "priorToFifth": {
+              "n": 21,
+              "sameDirection": 15,
+              "oppositeDirection": 5,
+              "flat": 1,
+              "sameShare": 0.7142857,
+              "medianAbsIntradayBp": 6.97,
+              "medianAbsDailyMoveBp": 10,
+              "medianDailyOverIntraday": 0.6578947,
+              "correlation": 0.2624722
+            },
+            "eventToNext": {
+              "n": 21,
+              "sameDirection": 8,
+              "oppositeDirection": 11,
+              "flat": 2,
+              "sameShare": 0.3809524,
+              "medianAbsIntradayBp": 6.97,
+              "medianAbsDailyMoveBp": 3,
+              "medianDailyOverIntraday": -0.0917431,
+              "correlation": -0.0868227
+            },
+            "eventToFifth": {
+              "n": 21,
+              "sameDirection": 7,
+              "oppositeDirection": 12,
+              "flat": 2,
+              "sameShare": 0.3333333,
+              "medianAbsIntradayBp": 6.97,
+              "medianAbsDailyMoveBp": 6,
+              "medianDailyOverIntraday": -0.3065134,
+              "correlation": 0.0609472
+            }
+          },
+          "down": {
+            "priorToEvent": {
+              "n": 32,
+              "sameDirection": 28,
+              "oppositeDirection": 4,
+              "flat": 0,
+              "sameShare": 0.875,
+              "medianAbsIntradayBp": 8.3525,
+              "medianAbsDailyMoveBp": 7.5,
+              "medianDailyOverIntraday": 0.9910308,
+              "correlation": 0.3266908
+            },
+            "priorToNext": {
+              "n": 32,
+              "sameDirection": 25,
+              "oppositeDirection": 6,
+              "flat": 1,
+              "sameShare": 0.78125,
+              "medianAbsIntradayBp": 8.3525,
+              "medianAbsDailyMoveBp": 8.0,
+              "medianDailyOverIntraday": 0.8271983,
+              "correlation": 0.1484905
+            },
+            "priorToFifth": {
+              "n": 32,
+              "sameDirection": 20,
+              "oppositeDirection": 12,
+              "flat": 0,
+              "sameShare": 0.625,
+              "medianAbsIntradayBp": 8.3525,
+              "medianAbsDailyMoveBp": 7.0,
+              "medianDailyOverIntraday": 0.6556947,
+              "correlation": -0.024795
+            },
+            "eventToNext": {
+              "n": 32,
+              "sameDirection": 12,
+              "oppositeDirection": 16,
+              "flat": 4,
+              "sameShare": 0.375,
+              "medianAbsIntradayBp": 8.3525,
+              "medianAbsDailyMoveBp": 5.0,
+              "medianDailyOverIntraday": -0.0834725,
+              "correlation": -0.1126518
+            },
+            "eventToFifth": {
+              "n": 32,
+              "sameDirection": 8,
+              "oppositeDirection": 21,
+              "flat": 3,
+              "sameShare": 0.25,
+              "medianAbsIntradayBp": 8.3525,
+              "medianAbsDailyMoveBp": 5.5,
+              "medianDailyOverIntraday": -0.2210914,
+              "correlation": -0.243461
+            }
+          }
+        }
+      }
+    },
+    "slope": {
+      "label": "US 10-year minus two-year Treasury slope",
+      "intradayMeetings": 207,
+      "matchedMeetings": 207,
+      "thresholds": {
+        "1": {
+          "all": {
+            "priorToEvent": {
+              "n": 133,
+              "sameDirection": 106,
+              "oppositeDirection": 20,
+              "flat": 7,
+              "sameShare": 0.7969925,
+              "medianAbsIntradayBp": 2.62,
+              "medianAbsDailyMoveBp": 4,
+              "medianDailyOverIntraday": 1.1569053,
+              "correlation": 0.7186379
+            },
+            "priorToNext": {
+              "n": 133,
+              "sameDirection": 85,
+              "oppositeDirection": 41,
+              "flat": 7,
+              "sameShare": 0.6390977,
+              "medianAbsIntradayBp": 2.62,
+              "medianAbsDailyMoveBp": 5,
+              "medianDailyOverIntraday": 0.8695652,
+              "correlation": 0.4124414
+            },
+            "priorToFifth": {
+              "n": 133,
+              "sameDirection": 77,
+              "oppositeDirection": 49,
+              "flat": 7,
+              "sameShare": 0.5789474,
+              "medianAbsIntradayBp": 2.62,
+              "medianAbsDailyMoveBp": 6,
+              "medianDailyOverIntraday": 0.6896552,
+              "correlation": 0.2126064
+            },
+            "eventToNext": {
+              "n": 133,
+              "sameDirection": 46,
+              "oppositeDirection": 72,
+              "flat": 15,
+              "sameShare": 0.3458647,
+              "medianAbsIntradayBp": 2.62,
+              "medianAbsDailyMoveBp": 3,
+              "medianDailyOverIntraday": -0.3649635,
+              "correlation": -0.1227488
+            },
+            "eventToFifth": {
+              "n": 133,
+              "sameDirection": 52,
+              "oppositeDirection": 72,
+              "flat": 9,
+              "sameShare": 0.3909774,
+              "medianAbsIntradayBp": 2.62,
+              "medianAbsDailyMoveBp": 6,
+              "medianDailyOverIntraday": -0.5319149,
+              "correlation": -0.2018944
+            }
+          },
+          "up": {
+            "priorToEvent": {
+              "n": 79,
+              "sameDirection": 58,
+              "oppositeDirection": 16,
+              "flat": 5,
+              "sameShare": 0.7341772,
+              "medianAbsIntradayBp": 2.74,
+              "medianAbsDailyMoveBp": 4,
+              "medianDailyOverIntraday": 1.0638298,
+              "correlation": 0.2317019
+            },
+            "priorToNext": {
+              "n": 79,
+              "sameDirection": 49,
+              "oppositeDirection": 27,
+              "flat": 3,
+              "sameShare": 0.6202532,
+              "medianAbsIntradayBp": 2.74,
+              "medianAbsDailyMoveBp": 5,
+              "medianDailyOverIntraday": 0.9009009,
+              "correlation": 0.1509635
+            },
+            "priorToFifth": {
+              "n": 79,
+              "sameDirection": 46,
+              "oppositeDirection": 29,
+              "flat": 4,
+              "sameShare": 0.5822785,
+              "medianAbsIntradayBp": 2.74,
+              "medianAbsDailyMoveBp": 6,
+              "medianDailyOverIntraday": 0.7692308,
+              "correlation": 0.1095786
+            },
+            "eventToNext": {
+              "n": 79,
+              "sameDirection": 29,
+              "oppositeDirection": 38,
+              "flat": 12,
+              "sameShare": 0.3670886,
+              "medianAbsIntradayBp": 2.74,
+              "medianAbsDailyMoveBp": 3,
+              "medianDailyOverIntraday": 0.0,
+              "correlation": 0.0448531
+            },
+            "eventToFifth": {
+              "n": 79,
+              "sameDirection": 33,
+              "oppositeDirection": 44,
+              "flat": 2,
+              "sameShare": 0.4177215,
+              "medianAbsIntradayBp": 2.74,
+              "medianAbsDailyMoveBp": 6,
+              "medianDailyOverIntraday": -0.6593407,
+              "correlation": 0.0190169
+            }
+          },
+          "down": {
+            "priorToEvent": {
+              "n": 54,
+              "sameDirection": 48,
+              "oppositeDirection": 4,
+              "flat": 2,
+              "sameShare": 0.8888889,
+              "medianAbsIntradayBp": 2.5175,
+              "medianAbsDailyMoveBp": 3.5,
+              "medianDailyOverIntraday": 1.2174303,
+              "correlation": 0.7532034
+            },
+            "priorToNext": {
+              "n": 54,
+              "sameDirection": 36,
+              "oppositeDirection": 14,
+              "flat": 4,
+              "sameShare": 0.6666667,
+              "medianAbsIntradayBp": 2.5175,
+              "medianAbsDailyMoveBp": 4.0,
+              "medianDailyOverIntraday": 0.8024297,
+              "correlation": 0.5154428
+            },
+            "priorToFifth": {
+              "n": 54,
+              "sameDirection": 31,
+              "oppositeDirection": 20,
+              "flat": 3,
+              "sameShare": 0.5740741,
+              "medianAbsIntradayBp": 2.5175,
+              "medianAbsDailyMoveBp": 4.0,
+              "medianDailyOverIntraday": 0.3543177,
+              "correlation": 0.1929715
+            },
+            "eventToNext": {
+              "n": 54,
+              "sameDirection": 17,
+              "oppositeDirection": 34,
+              "flat": 3,
+              "sameShare": 0.3148148,
+              "medianAbsIntradayBp": 2.5175,
+              "medianAbsDailyMoveBp": 3.0,
+              "medianDailyOverIntraday": -0.4826433,
+              "correlation": -0.0299646
+            },
+            "eventToFifth": {
+              "n": 54,
+              "sameDirection": 19,
+              "oppositeDirection": 28,
+              "flat": 7,
+              "sameShare": 0.3518519,
+              "medianAbsIntradayBp": 2.5175,
+              "medianAbsDailyMoveBp": 5.0,
+              "medianDailyOverIntraday": -0.3029718,
+              "correlation": -0.2308833
+            }
+          }
+        },
+        "2": {
+          "all": {
+            "priorToEvent": {
+              "n": 90,
+              "sameDirection": 73,
+              "oppositeDirection": 12,
+              "flat": 5,
+              "sameShare": 0.8111111,
+              "medianAbsIntradayBp": 3.545,
+              "medianAbsDailyMoveBp": 5.0,
+              "medianDailyOverIntraday": 1.1184094,
+              "correlation": 0.7448341
+            },
+            "priorToNext": {
+              "n": 90,
+              "sameDirection": 59,
+              "oppositeDirection": 27,
+              "flat": 4,
+              "sameShare": 0.6555556,
+              "medianAbsIntradayBp": 3.545,
+              "medianAbsDailyMoveBp": 6.0,
+              "medianDailyOverIntraday": 0.8647052,
+              "correlation": 0.4383196
+            },
+            "priorToFifth": {
+              "n": 90,
+              "sameDirection": 53,
+              "oppositeDirection": 35,
+              "flat": 2,
+              "sameShare": 0.5888889,
+              "medianAbsIntradayBp": 3.545,
+              "medianAbsDailyMoveBp": 6.5,
+              "medianDailyOverIntraday": 0.4270809,
+              "correlation": 0.2168895
+            },
+            "eventToNext": {
+              "n": 90,
+              "sameDirection": 32,
+              "oppositeDirection": 47,
+              "flat": 11,
+              "sameShare": 0.3555556,
+              "medianAbsIntradayBp": 3.545,
+              "medianAbsDailyMoveBp": 3.0,
+              "medianDailyOverIntraday": -0.2147567,
+              "correlation": -0.1270425
+            },
+            "eventToFifth": {
+              "n": 90,
+              "sameDirection": 36,
+              "oppositeDirection": 50,
+              "flat": 4,
+              "sameShare": 0.4,
+              "medianAbsIntradayBp": 3.545,
+              "medianAbsDailyMoveBp": 6.5,
+              "medianDailyOverIntraday": -0.4953152,
+              "correlation": -0.2240847
+            }
+          },
+          "up": {
+            "priorToEvent": {
+              "n": 54,
+              "sameDirection": 41,
+              "oppositeDirection": 10,
+              "flat": 3,
+              "sameShare": 0.7592593,
+              "medianAbsIntradayBp": 3.55,
+              "medianAbsDailyMoveBp": 5.0,
+              "medianDailyOverIntraday": 1.2669094,
+              "correlation": 0.1459192
+            },
+            "priorToNext": {
+              "n": 54,
+              "sameDirection": 35,
+              "oppositeDirection": 17,
+              "flat": 2,
+              "sameShare": 0.6481481,
+              "medianAbsIntradayBp": 3.55,
+              "medianAbsDailyMoveBp": 6.0,
+              "medianDailyOverIntraday": 0.976541,
+              "correlation": 0.1127748
+            },
+            "priorToFifth": {
+              "n": 54,
+              "sameDirection": 34,
+              "oppositeDirection": 19,
+              "flat": 1,
+              "sameShare": 0.6296296,
+              "medianAbsIntradayBp": 3.55,
+              "medianAbsDailyMoveBp": 6.5,
+              "medianDailyOverIntraday": 0.827986,
+              "correlation": 0.0612568
+            },
+            "eventToNext": {
+              "n": 54,
+              "sameDirection": 20,
+              "oppositeDirection": 25,
+              "flat": 9,
+              "sameShare": 0.3703704,
+              "medianAbsIntradayBp": 3.55,
+              "medianAbsDailyMoveBp": 3.0,
+              "medianDailyOverIntraday": 0.0,
+              "correlation": 0.0554755
+            },
+            "eventToFifth": {
+              "n": 54,
+              "sameDirection": 23,
+              "oppositeDirection": 30,
+              "flat": 1,
+              "sameShare": 0.4259259,
+              "medianAbsIntradayBp": 3.55,
+              "medianAbsDailyMoveBp": 6.0,
+              "medianDailyOverIntraday": -0.4953152,
+              "correlation": 0.0039359
+            }
+          },
+          "down": {
+            "priorToEvent": {
+              "n": 36,
+              "sameDirection": 32,
+              "oppositeDirection": 2,
+              "flat": 2,
+              "sameShare": 0.8888889,
+              "medianAbsIntradayBp": 3.545,
+              "medianAbsDailyMoveBp": 5.0,
+              "medianDailyOverIntraday": 1.0701795,
+              "correlation": 0.7797716
+            },
+            "priorToNext": {
+              "n": 36,
+              "sameDirection": 24,
+              "oppositeDirection": 10,
+              "flat": 2,
+              "sameShare": 0.6666667,
+              "medianAbsIntradayBp": 3.545,
+              "medianAbsDailyMoveBp": 5.0,
+              "medianDailyOverIntraday": 0.6224159,
+              "correlation": 0.5406286
+            },
+            "priorToFifth": {
+              "n": 36,
+              "sameDirection": 19,
+              "oppositeDirection": 16,
+              "flat": 1,
+              "sameShare": 0.5277778,
+              "medianAbsIntradayBp": 3.545,
+              "medianAbsDailyMoveBp": 6.5,
+              "medianDailyOverIntraday": 0.1470072,
+              "correlation": 0.225023
+            },
+            "eventToNext": {
+              "n": 36,
+              "sameDirection": 12,
+              "oppositeDirection": 22,
+              "flat": 2,
+              "sameShare": 0.3333333,
+              "medianAbsIntradayBp": 3.545,
+              "medianAbsDailyMoveBp": 4.5,
+              "medianDailyOverIntraday": -0.3566859,
+              "correlation": -0.0077648
+            },
+            "eventToFifth": {
+              "n": 36,
+              "sameDirection": 13,
+              "oppositeDirection": 20,
+              "flat": 3,
+              "sameShare": 0.3611111,
+              "medianAbsIntradayBp": 3.545,
+              "medianAbsDailyMoveBp": 7.0,
+              "medianDailyOverIntraday": -0.6939975,
+              "correlation": -0.1879721
+            }
+          }
+        },
+        "5": {
+          "all": {
+            "priorToEvent": {
+              "n": 24,
+              "sameDirection": 21,
+              "oppositeDirection": 3,
+              "flat": 0,
+              "sameShare": 0.875,
+              "medianAbsIntradayBp": 6.305,
+              "medianAbsDailyMoveBp": 7.0,
+              "medianDailyOverIntraday": 0.7923071,
+              "correlation": 0.8398063
+            },
+            "priorToNext": {
+              "n": 24,
+              "sameDirection": 21,
+              "oppositeDirection": 3,
+              "flat": 0,
+              "sameShare": 0.875,
+              "medianAbsIntradayBp": 6.305,
+              "medianAbsDailyMoveBp": 8.0,
+              "medianDailyOverIntraday": 0.9830337,
+              "correlation": 0.6731647
+            },
+            "priorToFifth": {
+              "n": 24,
+              "sameDirection": 15,
+              "oppositeDirection": 8,
+              "flat": 1,
+              "sameShare": 0.625,
+              "medianAbsIntradayBp": 6.305,
+              "medianAbsDailyMoveBp": 6.5,
+              "medianDailyOverIntraday": 0.2605427,
+              "correlation": 0.3983761
+            },
+            "eventToNext": {
+              "n": 24,
+              "sameDirection": 13,
+              "oppositeDirection": 11,
+              "flat": 0,
+              "sameShare": 0.5416667,
+              "medianAbsIntradayBp": 6.305,
+              "medianAbsDailyMoveBp": 3.5,
+              "medianDailyOverIntraday": 0.1202577,
+              "correlation": -0.0555477
+            },
+            "eventToFifth": {
+              "n": 24,
+              "sameDirection": 10,
+              "oppositeDirection": 12,
+              "flat": 2,
+              "sameShare": 0.4166667,
+              "medianAbsIntradayBp": 6.305,
+              "medianAbsDailyMoveBp": 7.0,
+              "medianDailyOverIntraday": -0.0840336,
+              "correlation": -0.3181065
+            }
+          },
+          "up": {
+            "priorToEvent": {
+              "n": 13,
+              "sameDirection": 10,
+              "oppositeDirection": 3,
+              "flat": 0,
+              "sameShare": 0.7692308,
+              "medianAbsIntradayBp": 6.04,
+              "medianAbsDailyMoveBp": 8,
+              "medianDailyOverIntraday": 0.5208333,
+              "correlation": 0.2223921
+            },
+            "priorToNext": {
+              "n": 13,
+              "sameDirection": 10,
+              "oppositeDirection": 3,
+              "flat": 0,
+              "sameShare": 0.7692308,
+              "medianAbsIntradayBp": 6.04,
+              "medianAbsDailyMoveBp": 9,
+              "medianDailyOverIntraday": 0.9933775,
+              "correlation": 0.1392054
+            },
+            "priorToFifth": {
+              "n": 13,
+              "sameDirection": 8,
+              "oppositeDirection": 5,
+              "flat": 0,
+              "sameShare": 0.6153846,
+              "medianAbsIntradayBp": 6.04,
+              "medianAbsDailyMoveBp": 7,
+              "medianDailyOverIntraday": 0.8278146,
+              "correlation": 0.1177116
+            },
+            "eventToNext": {
+              "n": 13,
+              "sameDirection": 8,
+              "oppositeDirection": 5,
+              "flat": 0,
+              "sameShare": 0.6153846,
+              "medianAbsIntradayBp": 6.04,
+              "medianAbsDailyMoveBp": 3,
+              "medianDailyOverIntraday": 0.177305,
+              "correlation": -0.0120919
+            },
+            "eventToFifth": {
+              "n": 13,
+              "sameDirection": 7,
+              "oppositeDirection": 6,
+              "flat": 0,
+              "sameShare": 0.5384615,
+              "medianAbsIntradayBp": 6.04,
+              "medianAbsDailyMoveBp": 6,
+              "medianDailyOverIntraday": 0.2816901,
+              "correlation": -0.0081252
+            }
+          },
+          "down": {
+            "priorToEvent": {
+              "n": 11,
+              "sameDirection": 11,
+              "oppositeDirection": 0,
+              "flat": 0,
+              "sameShare": 1.0,
+              "medianAbsIntradayBp": 6.79,
+              "medianAbsDailyMoveBp": 6,
+              "medianDailyOverIntraday": 0.8836524,
+              "correlation": 0.9083286
+            },
+            "priorToNext": {
+              "n": 11,
+              "sameDirection": 11,
+              "oppositeDirection": 0,
+              "flat": 0,
+              "sameShare": 1.0,
+              "medianAbsIntradayBp": 6.79,
+              "medianAbsDailyMoveBp": 7,
+              "medianDailyOverIntraday": 0.7092199,
+              "correlation": 0.6521873
+            },
+            "priorToFifth": {
+              "n": 11,
+              "sameDirection": 7,
+              "oppositeDirection": 3,
+              "flat": 1,
+              "sameShare": 0.6363636,
+              "medianAbsIntradayBp": 6.79,
+              "medianAbsDailyMoveBp": 6,
+              "medianDailyOverIntraday": 0.1879699,
+              "correlation": 0.2762066
+            },
+            "eventToNext": {
+              "n": 11,
+              "sameDirection": 5,
+              "oppositeDirection": 6,
+              "flat": 0,
+              "sameShare": 0.4545455,
+              "medianAbsIntradayBp": 6.79,
+              "medianAbsDailyMoveBp": 5,
+              "medianDailyOverIntraday": -0.1368363,
+              "correlation": -0.2310614
+            },
+            "eventToFifth": {
+              "n": 11,
+              "sameDirection": 3,
+              "oppositeDirection": 6,
+              "flat": 2,
+              "sameShare": 0.2727273,
+              "medianAbsIntradayBp": 6.79,
+              "medianAbsDailyMoveBp": 8,
+              "medianDailyOverIntraday": -0.1680672,
+              "correlation": -0.4028986
+            }
+          }
+        }
+      }
+    }
+  },
+  "sources": [
+    {
+      "label": "San Francisco Fed · USMPD",
+      "url": "https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/"
+    },
+    {
+      "label": "US Treasury · Daily Treasury par yield methodology",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=yield"
+    },
+    {
+      "label": "Federal Reserve H.15 · two-year constant maturity",
+      "id": "DGS2",
+      "url": "https://fred.stlouisfed.org/series/DGS2",
+      "download": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2&cosd=1998-12-01&coed=2026-11-20&vintage_date=2026-11-20",
+      "sha256": "f5fd95cab3fcb5e7bc083835ca330f20d8843dd7979f987618ba0116d81aa2b9",
+      "first": "1998-12-01",
+      "last": "2026-11-18"
+    },
+    {
+      "label": "Federal Reserve H.15 · ten-year constant maturity",
+      "id": "DGS10",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "download": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS10&cosd=1998-12-01&coed=2026-11-20&vintage_date=2026-11-20",
+      "sha256": "bb2c4f5225c15f078564dcbfccb2206dcca0ec5069757e03b9d6e7f03772f607",
+      "first": "1998-12-01",
+      "last": "2026-11-18"
+    }
+  ],
+  "method": [
+    "The frame comprises scheduled FOMC releases with an eligible statement window from 2000 through 2025. Each release enters once. The intraday move uses USMPD market quotes from ten minutes before to twenty minutes after the release. Dates are US Eastern.",
+    "Daily H.15 two- and ten-year constant-maturity par yields are derived from indicative Treasury bid quotes at or near 3:30 p.m. Eastern. They are rounded to a basis point and may differ from the benchmark security quotes used intraday. The slope is the ten-year yield minus the two-year yield in both settings.",
+    "Daily horizons use actual observed fixing dates, require the release date itself, and skip holidays and missing quotes. The fifth fixing after the meeting is five observed trading dates later. For the slope, a date requires both yields. Cumulative changes start at the previous fixing. Subsequent changes start at the meeting-day fixing and omit the announcement window.",
+    "The primary sample requires an absolute intraday move strictly greater than 2 bp. The 1 bp and 5 bp thresholds use the same strict rule. Same-direction share divides strictly matching signs by all observations, including flat daily changes. Up and down groups refer to the sign of the intraday move.",
+    "The magnitude ratio is the median of signed daily change divided by intraday change, computed separately at each horizon. A ratio of one means matching direction and size. A negative ratio means a reversal. Correlations use signed changes. The rows at different horizons share meetings and are descriptive.",
+    "The previous-fixing-to-event change includes trading before the announcement. Later horizons can reflect the press conference, economic data and other news. Cumulative agreement can persist even when the market moves in the opposite direction after the event-day fixing."
+  ]
+}
