@@ -348,6 +348,49 @@
     forecast.open=new URLSearchParams(location.search).has('curveBand');
     return forecast;
   }
+  function curveReversals(records,band,id){
+    const meetings=new Map();
+    for(const event of records){
+      if(!event.groupEligible || !['release','conference','combined'].includes(event.stage))continue;
+      if(!Number.isFinite(event.values.yield2y) || !Number.isFinite(event.values.yield10y))continue;
+      if(!meetings.has(event.date))meetings.set(event.date,{});
+      meetings.get(event.date)[event.stage]=event;
+    }
+    const paired=[...meetings.values()].filter(m=>m.release && m.conference && m.combined)
+      .sort((a,b)=>a.release.date.localeCompare(b.release.date));
+    if(!paired.length)return small('No meetings have both yields in all three windows.');
+    const direction=event=>{
+      const change=slopeChange(event);
+      return change < -band ? -1 : change > band ? 1 : 0;
+    };
+    const counts=[[0,0,0],[0,0,0],[0,0,0]], reversals=[];
+    for(const meeting of paired){
+      const start=direction(meeting.release),later=direction(meeting.conference);
+      counts[start+1][later+1]++;
+      if(start*later===-1)reversals.push(meeting);
+    }
+    const labels=['Flatter','Within ±'+band+' bp','Steeper'];
+    const rows=counts.map((countsRow,i)=>[labels[i],...countsRow]);
+    const contents=[table('Same meetings · '+paired[0].release.date+' to '+paired.at(-1).release.date,
+      ['Decision release','Conference flatter','Conference within band','Conference steeper'],rows),
+      small('Both sovereign yields are observed for the release, conference and continuous meeting window on '+paired.length+' dates. A directional move must exceed '+band+' bp. The conference moved the spread in the opposite direction on '+reversals.length+' dates.')];
+    if(reversals.length){
+      const net=reversals.map(m=>direction(m.release)*direction(m.combined));
+      contents.push(small('Across those '+net.length+' reversals, the continuous window ended in the original direction on '+net.filter(v=>v===1).length+' dates, within the band on '+net.filter(v=>v===0).length+', and in the conference direction on '+net.filter(v=>v===-1).length+'. The continuous move uses its own pair of quotes and includes intervening news.'));
+      const last=reversals.at(-1);
+      const example=small('Latest reversal, '+last.release.date+'. Spread changes in bp: ');
+      for(const [stage,label] of [['release','decision'],['conference','conference'],['combined','full meeting']]){
+        const event=last[stage],link=el('a',label+' '+signed(slopeChange(event)));
+        link.href='cross-asset-events.html?'+new URLSearchParams({bank:id,stage,date:event.date,event:event.id});
+        example.append(link,stage==='combined'?'.':' · ');
+      }
+      contents.push(example);
+    }
+    const section=disclosure('Did the press conference reverse the initial curve move?',contents);
+    section.id='pm-curve-reversals';
+    section.open=location.hash==='#pm-curve-reversals';
+    return section;
+  }
   async function renderCurve(){
     if(!curvePanel.open)return;
     const id=bank.value,box=field('curve-output');
@@ -383,10 +426,10 @@
     }
     const link=el('a',id==='fed'?'San Francisco Fed event workbook':'ECB event workbook');
     link.href=id==='fed'?'https://www.frbsf.org/wp-content/uploads/USMPD.xlsx':'https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx';
-    box.replaceChildren(...output,link);
+    box.replaceChildren(...output,curveReversals(file.records,band,id),link);
   }
   curvePanel.addEventListener('toggle',renderCurve);
-  if(location.hash==='#pm-curve-composition')curvePanel.open=true;
+  if(['#pm-curve-composition','#pm-curve-reversals'].includes(location.hash))curvePanel.open=true;
   const projectionPanel=field('fed-projections');
 
   async function showProjectionComparison(){
