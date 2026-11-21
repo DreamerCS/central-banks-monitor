@@ -171,15 +171,16 @@
       },
       "2026-11-20": {
         "priorDate": "2026-11-19",
-        "context": "Waller spoke in the morning and Cook spoke at midday.",
+        "context": "Waller spoke at 8:25 a.m. ET and Cook at 12:15 p.m. ET. Between them, the BLS scheduled state employment and industry productivity releases at 10 a.m. The two 3 p.m. settlements bracket all three times. Pricing moved towards less tightening over the day even as Cook advocated further tightening. The window cannot isolate the effect of either speech.",
         "priorPrice": "95.9250",
         "priorStepBp": 27.477273,
         "priorSource": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/19/2026&pageSize=500&isProtected=false",
-        "afterPrice": null,
-        "afterStepBp": null,
-        "changeBp": null,
+        "afterPrice": "95.9600",
+        "afterStepBp": 22.545455,
+        "changeBp": -4.931818,
         "afterSource": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/305/FUT?tradeDate=11/20/2026&pageSize=500&isProtected=false",
-        "summary": "19 Nov settlement 95.9250 implied +27.48 bp at the 9 December decision. Post-speech quote unavailable. CME’s final report for 20 Nov supplied no settlement to compute the change."
+        "summary": "19 Nov settlement 95.9250 implied +27.48 bp at the 9 December decision. 20 Nov settlement 95.9600 implied +22.55 bp. Daily change -4.93 bp.",
+        "contextSource": "https://www.bls.gov/schedule/2026/11_sched.htm"
       }
     }
   }

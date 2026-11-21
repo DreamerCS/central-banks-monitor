@@ -397,9 +397,24 @@
       ['Sample','Matched meetings','Release outside band','Conference reversed / release outside band','Full meeting reversed / conference reversals'],sampleRows);
     comparison.id='pm-curve-samples';
     contents.push(comparison,small('The 2019–2025 row uses the same completed calendar years for both banks. Meetings can have different policy news and quote windows. Small counts limit comparisons across banks.'));
+    const initialMoves=paired.filter(m=>commonYears(m) && direction(m.release)!==0);
+    const oppositeCurve=m=>direction(m.release)*direction(m.conference)===-1;
+    const pathRows=[['Curve reversed',true],['Other conferences',false]].map(([label,reversed])=>{
+      const group=initialMoves.filter(m=>oppositeCurve(m)===reversed);
+      const observed=group.filter(m=>Number.isFinite(m.release.values.ois1y) && Number.isFinite(m.conference.values.ois1y));
+      const pathReversed=observed.filter(m=>{
+        const first=m.release.values.ois1y, later=m.conference.values.ois1y;
+        return Math.abs(first)>1 && Math.abs(later)>1 && Math.sign(first)!==Math.sign(later);
+      });
+      return [label,group.length,observed.length,proportion(pathReversed.length,observed.length)];
+    });
+    const pathTable=table('Did one-year OIS also change direction? · 2019–2025',
+      ['Conference after a directional release','Meetings','Both OIS windows observed','OIS reversed / observed'],pathRows);
+    pathTable.id='pm-curve-ois';
+    contents.push(pathTable,small('The comparison starts with releases whose 2s10s move exceeded '+band+' bp. An OIS reversal requires opposite moves of more than 1 bp each in local-currency one-year OIS. A small observed move remains in the denominator. One-year OIS spans several policy meetings and can reflect risk premia. These window changes cannot identify the market’s expectation for a particular decision.'));
     const section=disclosure('Did the press conference reverse the initial curve move?',contents);
     section.id='pm-curve-reversals';
-    section.open=['#pm-curve-reversals','#pm-curve-samples'].includes(location.hash);
+    section.open=['#pm-curve-reversals','#pm-curve-samples','#pm-curve-ois'].includes(location.hash);
     return section;
   }
   async function renderCurve(){
@@ -440,7 +455,7 @@
     box.replaceChildren(...output,curveReversals(file.records,band,id),link);
   }
   curvePanel.addEventListener('toggle',renderCurve);
-  if(['#pm-curve-composition','#pm-curve-reversals','#pm-curve-samples'].includes(location.hash))curvePanel.open=true;
+  if(['#pm-curve-composition','#pm-curve-reversals','#pm-curve-samples','#pm-curve-ois'].includes(location.hash))curvePanel.open=true;
   const projectionPanel=field('fed-projections');
 
   async function showProjectionComparison(){

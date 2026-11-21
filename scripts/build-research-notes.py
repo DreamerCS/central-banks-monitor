@@ -81,7 +81,7 @@ def build():
     # Keep the reader, its index and the manuscripts on the same release on Pages.
     site = DATA.parent
     for asset in ("research-notes.js", "research-notes.css", "publication-reader.js",
-                  "research-archive.js", "research-archive.css"):
+                  "research-archive.js", "research-archive.css", "data/fed-speech-week.json"):
         revision.update(sha256((site / asset).read_bytes()).digest())
     for page in ("research-notes.html", "research-archive.html"):
         reader = site / page
