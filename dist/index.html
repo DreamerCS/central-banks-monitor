@@ -3,60 +3,89 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#1b261f">
+  <meta name="theme-color" content="#f4f0e6">
   <meta name="description" content="Monetary policy and market reactions. Explore rates, currencies and central bank publications.">
   <title>Central Bank Intelligence</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
-  <script src="app.js?v=3" defer></script>
+  <script src="app.js?v=4" defer></script>
   <link rel="stylesheet" href="world-map.css">
   <script src="world-map.js?v=2" defer></script>
   <link rel="stylesheet" href="agenda.css">
   <link rel="stylesheet" href="edition.css">
-  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1721763604802-21cc60882810?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=85&amp;w=2000">
+  <link rel="stylesheet" href="film-home.css">
+  <link rel="preload" as="image" href="media/fed-board-1937.webp">
   <script src="market-history.js" defer></script>
   <script src="agenda.js" defer></script>
+<link rel="stylesheet" href="film-edition.css">
+<script src="site-index.js" defer></script>
+<script src="film-edition.js" defer></script>
 </head>
-<body class="edition" id="top">
+<body class="edition film-home" id="top">
   <a class="skip-link" href="#main">Skip to content</a>
-<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="./" aria-current="page">Overview</a><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="research-notes.html">Research notes</a><a href="research-archive.html">Archive</a></nav></div></header><main id="main"><section class="cover" aria-labelledby="cover-title">
-<img class="cover-img" src="https://images.unsplash.com/photo-1721763604802-21cc60882810?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=85&amp;w=2000" alt="" width="2000" height="1334" fetchpriority="high">
-<div class="shell cover-frame"><div class="cover-copy"><p class="cover-kicker">Global monetary policy</p>
-<h1 id="cover-title">Policy <em>&amp;</em><br>market reactions</h1>
-<div class="cover-links"><a href="market-reactions.html">Explore market reactions</a><a href="stance-history.html">Stance by leader and cycle</a><a href="policy-stance.html">Fed statement scores</a><a href="yearbook.html">History by year · 2000–2026</a><a href="#market-history">Rates &amp; FX</a><a href="empirical-studies.html">Time-series studies</a><a href="casebook.html">Research casebook</a><a href="macro-studies.html">Testing macro ideas</a></div></div>
-<a class="cover-credit" href="https://unsplash.com/photos/uAnxVqzj8gk" aria-label="Lofoten photograph credit">Lofoten, Norway <span>/</span> Daniel Seßler / Unsplash</a></div></section>
+<header class="cbi-head film-masthead"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i><span>Central Bank Intelligence</span></a><nav aria-label="Primary research" class="film-primary"><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a></nav><a href="site-index.html" class="film-index-launch" data-index-open><span class="film-index-symbol" aria-hidden="true"></span>Site index</a></div></header><main id="main"><section class="fh-cover shell" aria-labelledby="cover-title">
+  <div class="fh-cover-text">
+    <p class="fh-eyebrow">Global monetary policy</p>
+    <h1 id="cover-title">Policy <span>&amp;</span><br>market reactions</h1>
+    <p class="fh-deck">Read the decisions, trace the economic history and see how markets moved around central bank communications.</p>
+    <div class="fh-cover-actions">
+      <a class="fh-primary" href="#research-desks">Explore the research <span aria-hidden="true">↓</span></a>
+      <a class="fh-secondary" href="#market-history">Rates &amp; FX</a>
+    </div>
+  </div>
+  <figure class="fh-frame">
+    <div class="fh-photo"><img src="media/fed-board-1937.webp" width="1600" height="1192" alt="Five Federal Reserve governors sit around a polished table, with line charts on the wall behind them." fetchpriority="high"></div>
+    <figcaption><span>Federal Reserve governors discuss the stock-market decline, Washington, D.C., October 19, 1937.</span><a href="https://www.loc.gov/pictures/item/2016872460/">Harris &amp; Ewing / Library of Congress</a></figcaption>
+  </figure>
+</section>
+<section id="research-desks" class="shell fh-desks" aria-labelledby="desk-title">
+  <h2 id="desk-title">Research desks</h2>
+  <div class="fh-desk-grid">
+    <article class="fh-desk">
+      <h3><a href="market-reactions.html" aria-label="Explore market reactions">Market reactions <span aria-hidden="true">→</span></a></h3>
+      <p>Compare rates, equities and currencies before and after policy announcements and speeches.</p>
+      <details><summary>Market studies</summary><ul>
+        <li><a href="policy-market-analysis.html">Policy signals and market moves</a></li>
+        <li><a href="policy-path-dynamics.html">Repricing the policy path</a></li>
+        <li><a href="empirical-studies.html">Time-series studies</a></li>
+      </ul></details>
+    </article>
+    <article class="fh-desk">
+      <h3><a href="historical-data.html">Policy history <span aria-hidden="true">→</span></a></h3>
+      <p>Follow policy decisions and changes in guidance across central banks, leaders and cycles.</p>
+      <details><summary>Policy studies</summary><ul>
+        <li><a href="stance-history.html">Stance by leader and cycle</a></li>
+        <li><a href="policy-stance.html">Fed statement scores</a></li>
+        <li><a href="policy-projections.html">Official projections and guidance</a></li>
+      </ul></details>
+    </article>
+    <article class="fh-desk">
+      <h3><a href="macro-history.html">Macro history <span aria-hidden="true">→</span></a></h3>
+      <p>Place each decision in the history of inflation, growth and financial conditions.</p>
+      <details><summary>Historical studies</summary><ul>
+        <li><a href="yearbook.html">History by year · 2000–2026</a></li>
+        <li><a href="macro-studies.html">Testing macro ideas</a></li>
+        <li><a href="casebook.html">Research casebook</a></li>
+      </ul></details>
+    </article>
+  </div>
+</section>
 <div class="shell agenda-shell"><aside id="speech-agenda" aria-label="Speaking calendar"></aside></div><section class="shell market-tape" id="market-history" aria-labelledby="tape-title">
 <div class="tape-heading"><div><p class="eyeline">Market history</p><h2 id="tape-title">Rates &amp; FX</h2></div><a class="text-link" href="cross-asset-events.html">Compare markets around policy events</a></div>
 <div class="tape-controls"><label>Instrument<select id="tape-asset"><option value="2">US 2-year yield</option><option value="10">US 10-year yield</option><option value="spread">US 10Y − 2Y</option><option value="eur">EUR/USD</option><option value="jpy">USD/JPY</option></select></label><label>Period<select id="tape-freq"><option>Day</option><option>Week</option><option>Month</option><option>Year</option></select></label><label>Measure<select id="tape-view"><option>Level</option><option>Change</option></select></label><div id="tape-ranges" role="group" aria-label="Chart range"><button type="button">1Y</button><button type="button">5Y</button><button aria-pressed="true" type="button">All</button></div></div>
 <div class="tape-quote"><strong id="tape-value">—</strong><span id="tape-date"></span></div>
 <div class="tape-plot" id="tape-plot" role="group" aria-label="Market observations" tabindex="0"></div><div class="plot-footer"><a id="tape-source" href="https://fred.stlouisfed.org/series/DGS2">Federal Reserve · FRED</a><a href="data/market-history.csv" download>Daily data (.csv)</a></div>
-</section>    <section id="world-map" class="map-section shell" aria-labelledby="world-map-title">
-      <div class="map-heading">
-        <div><h2 id="world-map-title">Publication map</h2></div>
-        <div class="map-date"><label for="map-day">Publication day</label><select id="map-day" disabled></select></div>
-      </div>
-      <div class="map-regions" id="map-regions" role="group" aria-label="Select a continent"></div>
-      <div class="map-layout">
-        <div class="map-stage" id="map-stage">
-          <canvas id="map-canvas" aria-hidden="true"></canvas>
-          <div id="map-pins" class="map-pins" role="group" aria-label="Central bank map pins"></div>
-          <div class="map-key"><span><i class="map-dot is-active"></i> Published on selected day</span><span><i class="map-dot"></i> Covered jurisdiction</span></div>
-        </div>
-        <div id="map-details" class="map-details">
-          <h3>Publications by location</h3><p id="map-status" role="status">Loading map and recent publications…</p>
-          <div id="map-locations" class="map-locations" role="group" aria-label="Select a jurisdiction"></div>
-          <div id="map-selection" class="map-selection"></div>
-        </div>
-      </div>
-      <p class="map-footnote"><a href="https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/" target="_blank" rel="noopener noreferrer">Natural Earth</a>. </p>
-    </section>    <section id="index" class="index shell">
-      <div class="section-heading"><div><h2>Treasury close</h2></div></div>
+</section>
+<div class="shell fh-tools">
+  <details id="index" class="fh-tool-group">
+    <summary><h2>Treasury close and event calculator</h2></summary>
+    <div class="fh-tool-body">
       <div class="treasury-panel" aria-labelledby="treasury-title"><div class="treasury-heading"><div><h3 id="treasury-title">Treasury par yield curve</h3><p>The 2s10s spread is the ten-year yield minus the two-year yield.</p></div><a href="https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics" target="_blank" rel="noopener noreferrer">U.S. Treasury data</a></div><div class="treasury-stats"><div><span>US 2Y</span><strong id="yield-2y">—</strong></div><div><span>US 10Y</span><strong id="yield-10y">—</strong></div><div><span>10Y − 2Y</span><strong id="yield-spread">—</strong></div></div><p id="treasury-asof" class="asof" role="status">Loading Treasury yields…</p><div id="treasury-chart" class="treasury-chart" role="img" aria-label="Daily two-year and ten-year Treasury yields over recent observations"></div><div class="chart-legend"><span><i></i> 2-year</span><span><i></i> 10-year</span></div></div>
-      <details class="calc" id="event-calculator">
-        <summary>Event calculator · bring your own data</summary>
+      <section id="event-calculator" aria-labelledby="calculator-title">
+        <h3 id="calculator-title">Event calculator · bring your own data</h3>
         <div class="event-tool">
           <div>
-            <h3>Announcement windows</h3>
+            <h4>Announcement windows</h4>
             <p>Measure the change in a yield, exchange rate or price after a policy announcement. Your CSV stays in your browser.</p>
             <p>Use the header <code>timestamp_utc,asset,value</code> and UTC timestamps such as <code>2026-01-28T19:14:00Z</code>. Enter yields in percent (4.25 for 4.25%).</p>
             <a href="market-template.csv" download>Download blank CSV template</a>
@@ -94,8 +123,40 @@
             <p id="event-result" role="status" aria-live="polite">Add a CSV and event time to calculate.</p>
           </div>
         </div>
-    </details></section><div class="shell directory-stats"><a href="source-coverage.html"><b id="source-total">93</b> source pages · <b id="bank-total">45</b> institutions · 29 jurisdictions</a></div>    <section id="atlas" class="atlas shell">
-      <div class="section-heading"><div><h2>Source directory</h2></div></div>
+      </section>
+    </div>
+  </details>
+  <details class="fh-tool-group" id="institution-browser">
+    <summary><h2>Publications and source directory</h2><span class="fh-tool-counts"><b id="source-total">93</b> source pages · <b id="bank-total">45</b> institutions · <b id="jurisdiction-total">29</b> jurisdictions</span></summary>
+    <div class="fh-tool-body">
+      <nav aria-label="Publication resources" class="fh-resource-links">
+        <a href="#atlas">Find a source</a>
+        <a href="research-archive.html">Publication archive</a>
+        <a href="research-notes.html">Research notes</a>
+        <a href="source-coverage.html">Source coverage</a>
+      </nav>
+      <section id="world-map" class="map-section" aria-labelledby="world-map-title">
+      <div class="map-heading">
+        <div><h3 id="world-map-title">Publication map</h3></div>
+        <div class="map-date"><label for="map-day">Publication day</label><select id="map-day" disabled></select></div>
+      </div>
+      <div class="map-regions" id="map-regions" role="group" aria-label="Select a continent"></div>
+      <div class="map-layout">
+        <div class="map-stage" id="map-stage">
+          <canvas id="map-canvas" aria-hidden="true"></canvas>
+          <div id="map-pins" class="map-pins" role="group" aria-label="Central bank map pins"></div>
+          <div class="map-key"><span><i class="map-dot is-active"></i> Published on selected day</span><span><i class="map-dot"></i> Covered jurisdiction</span></div>
+        </div>
+        <div id="map-details" class="map-details">
+          <h4>Publications by location</h4><p id="map-status" role="status">Loading map and recent publications…</p>
+          <div id="map-locations" class="map-locations" role="group" aria-label="Select a jurisdiction"></div>
+          <div id="map-selection" class="map-selection"></div>
+        </div>
+      </div>
+      <p class="map-footnote"><a href="https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/" target="_blank" rel="noopener noreferrer">Natural Earth</a>. </p>
+      </section>
+      <section id="atlas" class="atlas">
+      <div class="section-heading"><div><h3>Source directory</h3></div></div>
       <div class="atlas-layout">
         <aside class="filters" aria-label="Filter sources">
           <label for="search">SEARCH THE DIRECTORY</label>
@@ -110,7 +171,12 @@
           <div id="load-error" class="load-error" hidden>Could not load the directory. Please refresh the page.</div>
         </div>
       </div>
-    </section>    <section id="coverage" class="coverage shell">
-      <div class="section-heading"><div><h2>Jurisdictions</h2></div></div>
+      </section>
+      <section id="coverage" class="coverage">
+      <div class="section-heading"><div><h3>Jurisdictions</h3></div></div>
       <div id="coverage-grid" class="coverage-grid" aria-label="Jurisdictions and source counts"></div>
-    </section></main><footer class="edition-foot"><div class="shell"><a class="cbi-name" href="./">Central Bank Intelligence</a><a href="source-coverage.html">Source coverage</a><a href="#top">Top</a></div></footer></body></html>
+      </section>
+    </div>
+  </details>
+</div>
+</main><footer class="edition-foot"><div class="shell"><a class="cbi-name" href="./">Central Bank Intelligence</a><a href="source-coverage.html">Source coverage</a><a href="#top">Top</a><a class="fh-previous-cover" href="https://unsplash.com/photos/uAnxVqzj8gk">Previous cover · Lofoten, Norway · Daniel Seßler / Unsplash</a></div></footer></body></html>

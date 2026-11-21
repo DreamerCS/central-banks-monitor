@@ -54,6 +54,10 @@ async function startNotes() {
   for (const bank of [...new Set(notes.map(note => note.bank))].sort((a,b) => a.localeCompare(b))) {
     byId("note-institution").add(new Option(bank, bank));
   }
+  const compact = window.matchMedia("(max-width: 760px)");
+  const browser = byId("note-browser");
+  browser.open = !compact.matches;
+  compact.addEventListener("change", event => { browser.open = !event.matches; });
   byId("note-layout").hidden = !notes.length;
   byId("note-filter").addEventListener("submit", e => e.preventDefault());
   byId("note-filter").addEventListener("input", () => {
@@ -106,6 +110,7 @@ function render() {
   const start = page * perPage;
   const visible = matching.slice(start,start + perPage);
   const total = matching.length;
+  if (!total) byId("note-browser").open = true;
   const label = total === 1 ? "note" : "notes";
   byId("note-matches").textContent = total > perPage ? (start + 1) + "–" + (start + visible.length) + " of " + total + " " + label
     : total ? total + " " + label : "No matching notes";

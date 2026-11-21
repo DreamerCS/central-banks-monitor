@@ -136,6 +136,7 @@ async function start() {
       card.append(name, status); fragment.append(card);
     }
     $("#coverage-grid").append(fragment);
+    $("#jurisdiction-total").textContent = String(coverage.targets.length);
   } catch (error) {
     $("#coverage-grid").textContent = "Coverage map unavailable.";
     console.error("Coverage map failed to load", error);

@@ -8,21 +8,29 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="research-archive.css">
-  <link rel="stylesheet" href="source-coverage.css">
-  <script src="source-coverage.js?v=2" defer></script>
+  <link rel="stylesheet" href="source-coverage.css?v=3">
+  <script src="source-coverage.js?v=3" defer></script>
   <link rel="stylesheet" href="edition.css">
+<link rel="stylesheet" href="film-edition.css">
+<script src="site-index.js" defer></script>
+<script src="film-edition.js" defer></script>
 </head>
 <body class="archive-page">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="./">Overview</a><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="research-notes.html">Research notes</a><a href="research-archive.html">Archive</a></nav></div></header>
+  <header class="cbi-head film-masthead"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i><span>Central Bank Intelligence</span></a><nav aria-label="Primary research" class="film-primary"><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a></nav><a href="site-index.html" class="film-index-launch" data-index-open><span class="film-index-symbol" aria-hidden="true"></span>Site index</a></div></header>
   <main class="shell archive-shell" id="main">
     <div class="archive-intro">
       <h1>Source coverage</h1>
-
+      <a class="text-link" href="research-archive.html">Browse the publication archive</a>
     </div>
     <p id="coverage-load" role="status">Loading sources…</p>
-    <div class="coverage-scroll" tabindex="0" aria-label="Publication counts by jurisdiction and month" hidden>
+    <div class="coverage-controls" id="coverage-controls" hidden>
+      <label>Month <select id="coverage-period"><option value="">All months</option></select></label>
+      <p id="coverage-summary" role="status"></p>
+    </div>
+    <div class="coverage-scroll" role="region" tabindex="0" aria-label="Publication counts by jurisdiction and month" hidden>
       <table class="publication-coverage">
+        <caption>Publications by jurisdiction</caption>
         <thead><tr id="coverage-head"><th scope="col">Jurisdiction</th><th scope="col">Source pages</th></tr></thead>
         <tbody id="coverage-rows"></tbody>
       </table>

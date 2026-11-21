@@ -8,19 +8,22 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="cross-asset-events.css">
   <link rel="stylesheet" href="policy-market-analysis.css"><script defer src="policy-market-analysis.js"></script>
+<link rel="stylesheet" href="film-edition.css">
+<script src="site-index.js" defer></script>
+<script src="film-edition.js" defer></script>
 </head>
 <body class="ce-page">
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="market-reactions.html">Market reactions</a><a href="cross-asset-events.html">Event explorer</a><a href="stance-history.html">Policy stance</a><a href="historical-data.html">Policy history</a></nav></div></header>
+<header class="cbi-head film-masthead"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i><span>Central Bank Intelligence</span></a><nav aria-label="Primary research" class="film-primary"><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a></nav><a href="site-index.html" class="film-index-launch" data-index-open><span class="film-index-symbol" aria-hidden="true"></span>Site index</a></div></header>
 <main class="ce-wrap pm-study" id="main">
   <header class="ce-intro"><p class="eyeline">Market reactions</p><h1>Policy signals and market moves</h1><p>How far do bonds, equities and exchange rates move when the expected policy rate rises? Do hawkish and dovish headlines accompany repricing in the same direction?</p></header>
-  <nav class="ce-examples" aria-label="Studies"><a href="#market">Cross-asset sensitivity</a><a href="#anticipated">Decisions versus the path</a><a href="#regimes">Leadership and cycles</a><a href="#headlines">Headline direction and repricing</a><a href="#speeches">Speech tone and yields</a><a href="policy-path-dynamics.html">Intraday path changes</a><a href="policy-projections.html">Forecast revisions</a></nav>
+  <nav class="ce-examples study-chapters" aria-label="On this page"><span class="study-nav-label">On this page</span><a href="#market">Asset sensitivity</a><a href="#anticipated">Prior pricing</a><a href="#regimes">Leaders and cycles</a><a href="#headlines">News headlines</a><a href="#speeches">Speeches</a></nav>
   <label class="pm-control">Central bank<select id="pm-bank"><option value="fed">Federal Reserve</option><option value="ecb">European Central Bank</option></select></label>
   <section class="ce-detail" id="market" aria-labelledby="pm-market-title">
     <h2 id="pm-market-title">Cross-asset sensitivity</h2>
     <p>Each estimate describes the change in an asset associated with a 10 basis point increase in the selected rate instrument during the same announcement window. Positive values indicate that the asset measure rose.</p>
     <label class="pm-control">Rate instrument<select id="pm-instrument" disabled></select></label>
-    <div id="pm-market-output" aria-live="polite"><p>Loading release-window estimates…</p></div>
+    <div id="pm-market-output" aria-live="polite"><p class="study-result">Across 176 Fed announcements with both quotes, a 10 bp increase in one-year OIS was associated with a 10.52 bp increase in the two-year Treasury yield.</p></div>
     <figure id="pm-scatter" hidden>
       <h3>Individual decision windows</h3>
       <label class="pm-control">Asset on the vertical axis<select id="pm-asset"></select></label>
@@ -28,6 +31,7 @@
       <label class="pm-control" id="pm-date-control" hidden>Inspect a meeting<select id="pm-plot-date"></select></label>
       <figcaption id="pm-point-info" aria-live="polite"></figcaption>
     </figure>
+    <div id="pm-market-checks"></div>
     <div id="pm-stage-output"></div>
     <details id="pm-curve-composition">
       <summary>Which yields moved when the curve flattened or steepened?</summary>
@@ -37,7 +41,7 @@
       <p class="ce-small">The Fed sample uses US Treasuries around scheduled meetings. The ECB sample uses German government yields in standard meeting windows. Both yields are observed in the same intraday window. The slope change is the ten-year change less the two-year change. Policy expectations, term premia and other news can all affect these yields. Market pricing for a particular policy meeting requires a separate instrument.</p>
     </details>
     <p id="pm-current" class="ce-small" hidden></p>
-    <div class="ce-links"><a href="data/policy-current-year.json" download>2026 year-to-date observations (JSON)</a><a href="data/policy-research-meetings.csv" download>Download meeting observations (CSV)</a><a href="data/policy-response-study.json" download>Download market estimates (JSON)</a></div>
+    <details class="study-reference"><summary>Market estimates and meeting data</summary><div class="ce-links"><a href="data/policy-current-year.json" download>2026 year-to-date observations (JSON)</a><a href="data/policy-research-meetings.csv" download>Download meeting observations (CSV)</a><a href="data/policy-response-study.json" download>Download market estimates (JSON)</a></div></details>
   </section>
   <section class="ce-detail" id="anticipated" aria-labelledby="pm-anticipated-title">
     <h2 id="pm-anticipated-title">When the decision was priced in</h2>
@@ -93,5 +97,6 @@
     <div id="pm-speech-output" aria-live="polite"><p>Loading speech observations…</p></div>
     <div class="ce-links"><a href="data/speech-response-study.json" download>Download speech comparisons (JSON)</a></div>
   </section>
+  <nav class="ce-links study-related" aria-label="Related studies"><a href="policy-path-dynamics.html">Intraday path changes</a><a href="policy-projections.html">Forecast revisions</a></nav>
   <noscript><p>Enable JavaScript to display the studies or download the results using the links above.</p></noscript>
 </main></body></html>

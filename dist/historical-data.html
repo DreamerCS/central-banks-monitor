@@ -21,30 +21,24 @@
   <script type="module" src="fed-liquidity.js"></script>
 <link rel="stylesheet" href="stance-history.css">
 <script defer src="stance-history.js"></script>
+<link rel="stylesheet" href="research-hubs.css">
+<script defer src="research-hubs.js"></script>
+<link rel="stylesheet" href="film-edition.css">
+<script src="site-index.js" defer></script>
+<script src="film-edition.js" defer></script>
 </head>
-<body class="history-page">
+<body class="research-hub history-page">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="masthead">
-    <div class="shell history-nav">
-      <a href="./">Central Bank Intelligence</a>
-      <nav aria-label="Main navigation">
-        <a href="./">Overview</a>
-        <a href="market-reactions.html">Market reactions</a>
-        <a href="historical-data.html" aria-current="page">Policy history</a>
-        <a href="macro-history.html">Macro history</a>
-        <a href="research-notes.html">Research notes</a><a href="research-archive.html">Archive</a>
-      </nav>
-    </div>
-  </header>
+  <header class="cbi-head film-masthead"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i><span>Central Bank Intelligence</span></a><nav aria-label="Primary research" class="film-primary"><a href="market-reactions.html">Market reactions</a><a href="historical-data.html" aria-current="page">Policy history</a><a href="macro-history.html">Macro history</a></nav><a href="site-index.html" class="film-index-launch" data-index-open><span class="film-index-symbol" aria-hidden="true"></span>Site index</a></div></header>
   <main class="shell history-shell" id="main">
-    <div class="history-intro">
+<div class="history-intro hub-intro">
       <h1>Policy <em>history</em></h1>
-      <p class="history-dateline">Chart coverage · 2000 <span aria-hidden="true">—</span> 2026</p>
+      <p class="history-dateline">Chart coverage · 2000 <span aria-hidden="true">—</span> 2026</p><p class="hub-deck">Follow the path of policy rates, the guidance that preceded each decision and the tools central banks used to put it into effect.</p>
     </div>
-    <nav class="ledger-jump" aria-label="Policy history sections"><a href="#stance-periods">Rate decisions across leadership tenures</a> · <a href="guidance-shifts.html">Changes in forward guidance</a> · <a href="policy-projections.html#fed">Policy projections and changes in expected rates</a> · <a href="cross-asset-events.html">Markets around each policy event</a> · <a href="policy-stance.html">Fed statement scores</a> · <a href="#dollar-swap-use">Dollar swap lines and actual drawings</a> · <a href="#fed-liquidity-stance">Emergency lending and the policy rate</a> · <a href="#annual-policy-ledger">Compare policy decisions by year, 2000–2026 ↓</a> <a href="#policy-world-year">Compare rates across economies ↓</a></nav>
-<section class="sx-panel" id="stance-periods" data-stance-view="policy" aria-labelledby="sx-heading"><h2 id="sx-heading">Rate decisions across leadership tenures</h2><p class="sx-description">Compare what committees signalled with the rate changes they delivered during each governor’s or chair’s tenure.</p><p>On 28 January 2004 the FOMC held its target at 1%. Its statement shifted from describing how long accommodation could last to saying the committee could wait before withdrawing it. Current-meeting futures registered a zero surprise. In the same half hour, one-year OIS rose 8.80 bp and the US two-year yield rose 16.54 bp. <a href="https://www.federalreserve.gov/fomc/minutes/20040128.htm">Read the committee’s discussion</a> · <a href="policy-market-analysis.html?bank=fed#anticipated">Compare other anticipated decisions</a> · <a href="policy-market-analysis.html?bank=fed&amp;dimension=leader#regimes">Compare market sensitivity by chair</a></p><div data-stance-mount><p role="status">Loading decision records…</p></div><noscript><a href="data/stance-cohorts.json">Download cohort data (JSON)</a></noscript></section>
-    <p id="history-load" class="history-load" role="status">Loading historical data…</p>
-    <div id="history-explorer" hidden>
+<nav class="hub-start" aria-label="Featured research"><a href="#history-explorer">Chart policy rates<span aria-hidden="true"> ↗</span></a><a href="#annual-policy-ledger">Browse decisions by year<span aria-hidden="true"> ↗</span></a></nav>
+<details class="hub-section" id="chapter-policy-rates"><summary><h2>Rates and decisions</h2><span class="hub-description">Chart official series across economies, then examine the decisions behind the annual changes.</span></summary><div class="hub-content"><nav class="hub-resources" aria-label="Rates and decisions studies"><ul><li><a href="#history-explorer">Policy rate explorer</a></li><li><a href="#annual-policy-ledger">Decisions by year, 2000–2026</a></li><li><a href="#policy-world-year">Compare rates across economies</a></li><li><a href="#uk-bank-rate-pricing">UK Bank Rate expectations</a></li></ul></nav>
+<p id="history-load" class="history-load" role="status">Loading historical data…</p>
+<div id="history-explorer" hidden>
       <div class="history-metrics" role="group" aria-label="Chart metric">
         <button type="button" data-metric="rates" aria-pressed="true">Policy rates</button>
         <button type="button" data-metric="publications" aria-pressed="false">Archived publications</button>
@@ -193,113 +187,7 @@
         <div id="history-sources" class="history-sources"></div></div>
       </details>
     </div>
-    <section class="policy-episode" id="fed-implementation-2024" aria-labelledby="implemented-cut">
-      <p class="policy-date">Federal Reserve · 18–19 September 2024</p>
-      <h2 id="implemented-cut">When did the half-point cut reach the overnight market?</h2>
-      <p>The committee announced the cut on 18 September. The Desk’s new instructions took effect on 19 September, when the effective federal funds rate fell from 5.33% to 4.83%. On both effective dates it traded 8 bp above the lower bound and 7 bp below interest on reserve balances.</p>
-      <div class="policy-table-scroll" tabindex="0" role="region" aria-label="Federal Reserve operating rates"><table class="policy-path-table"><caption>Per cent per annum · effective date</caption><thead><tr><th scope="col">Operating rate</th><th scope="col">18 September</th><th scope="col">19 September</th></tr></thead><tbody>
-      <tr><th scope="row">Target range</th><td>5.25–5.50</td><td>4.75–5.00</td></tr>
-      <tr><th scope="row">Interest on reserve balances</th><td>5.40</td><td>4.90</td></tr>
-      <tr><th scope="row">Standing repo minimum bid</th><td>5.50</td><td>5.00</td></tr>
-      <tr><th scope="row">Overnight reverse repo offering rate</th><td>5.30</td><td>4.80</td></tr>
-      <tr><th scope="row">Effective federal funds rate</th><td>5.33</td><td>4.83</td></tr>
-      </tbody></table></div>
-      <p>The operating rates shifted together while portfolio runoff continued. Monthly redemption caps remained $25 billion for Treasuries and $35 billion for agency debt and agency mortgage-backed securities combined. Actual redemptions depended on principal payments. The overnight observations establish immediate pass-through at the median. Assessing liquidity across borrowers would also require transaction volumes and the rate distribution.</p>
-      <p class="policy-footnote"><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a1.htm">July operating directive</a> · <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a1.htm">September operating directive</a> · <a href="https://markets.newyorkfed.org/api/rates/unsecured/effr/search.json?startDate=09/17/2024&amp;endDate=09/20/2024&amp;type=rate">New York Fed effective rates</a> · <a href="casebook.html#fed-cut-september-2024">Announcement pricing and Treasury yields</a></p>
-    </section>
-    <section class="policy-episode" id="dollar-swap-use" aria-labelledby="swap-use-title">
-      <p class="policy-date">Federal Reserve dollar swap lines · 2008 and 2020</p>
-      <h2 id="swap-use-title">How much of a dollar swap line did central banks actually draw?</h2>
-      <p>Brazil, Mexico, Korea and Singapore each received a $30bn limit in 2008 and a $60bn limit in 2020. Trace how much had actually settled when measuring currency stress. A central bank could draw dollars from the Fed and lend them to banks at home even while its currency kept falling.</p>
-      <div class="policy-table-scroll" tabindex="0" role="region" aria-label="Outstanding dollar swap balances by country"><table class="policy-path-table">
-        <caption>Month-end principal outstanding, US$ billions. The limit applies separately to each country.</caption>
-        <thead><tr><th scope="col">Day</th><th scope="col">Limit each</th><th scope="col">Brazil</th><th scope="col">Mexico</th><th scope="col">Korea</th><th scope="col">Singapore</th></tr></thead>
-        <tbody>
-          <tr><th scope="row">30 Nov 2008</th><td>30</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
-          <tr><th scope="row">31 Dec 2008</th><td>30</td><td>0</td><td>0</td><td>10.35</td><td>0</td></tr>
-          <tr><th scope="row">31 Mar 2020</th><td>60</td><td>0</td><td>0</td><td>0</td><td>4.27</td></tr>
-          <tr><th scope="row">30 Apr 2020</th><td>60</td><td>0</td><td>6.59</td><td>17.46</td><td>8.54</td></tr>
-          <tr><th scope="row">31 May 2020</th><td>60</td><td>0</td><td>6.59</td><td>18.79</td><td>10.03</td></tr>
-        </tbody>
-      </table></div>
-      <p><strong>Mexico, 2020.</strong> Short-term external debt stood at 31.8% of total reserves at end-2018. The Fed announced the $60bn line on 19 March 2020. Two draws settled on 3 and 8 April, bringing the balance to $6.59bn. Mexico’s monthly-average trade-weighted currency index fell 18.7% between February and May. The swap supplied dollar funding to the banking system. Measuring its effect on the peso would require estimating what would have happened without it.</p>
-      <p><strong>Korea, 2008.</strong> The line opened on 29 October in Washington. Its first draw settled on 4 December, after the November endpoint used in the cross-country study. Korea had already supplied dollars from its own reserves. In their analysis of the won–dollar swap market, Naohiko Baba and Ilhyock Shim found stronger evidence of relief from the Fed-funded auctions. Korea illustrates this mechanism separately because its debt ratio is missing from the matched panel.</p>
-      <details><summary>Calculation and primary sources</summary><p>For each date, add dollar principal settled and subtract principal that matured. A zero means no outstanding principal in this facility on that date. The headline limit measures capacity. The table rounds balances to the nearest $0.01bn. The download keeps the underlying millions of dollars for every calendar day from each announcement to 31 December 2008 or 31 May 2020. December 2008 is shown as a follow-up to the August–November exchange-rate window.</p>
-        <p class="policy-footnote"><a href="data/dollar-swap-balances.csv" download>Daily balances (CSV)</a> · <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20081029b.htm">October 2008 announcement</a> · <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20200319b.htm">March 2020 announcement</a> · <a href="https://www.federalreserve.gov/regreform/files/cbls.csv">Fed transaction file, 2007–10</a> · <a href="https://markets.newyorkfed.org/api/fxs/all/search.json?startDate=03/01/2020&amp;endDate=05/31/2020">New York Fed transaction records, March–May 2020</a> · <a href="https://www.bis.org/publications/policy-responses-dislocations-fx-swap-market-experience-korea">Baba and Shim on Korea’s two funding sources</a></p></details>
-      <p class="policy-footnote"><a href="external-vulnerability.html?episode=2020&amp;country=MX&amp;lag=2&amp;months=3#explore">Compare the debt ratios and currency outcomes</a> · <a href="yearbook.html?historyYear=2008&amp;case=2008-10-30-south-korea">Korea’s 2008 policy timeline</a></p>
-    </section>
-<section id="fed-liquidity-stance" class="policy-episode fls-study" aria-labelledby="fls-heading">
-  <div class="policy-section-heading">
-    <div><p class="policy-date">United States · 2008, 2020 and 2023</p><h2 id="fls-heading">When banks turn to the Fed, is monetary policy easing?</h2></div>
-    <label class="fls-picker">Funding episode
-      <select id="fls-episode">
-        <option value="2008">September 2008 · Lehman failure</option>
-        <option value="2020">March 2020 · Pandemic</option>
-        <option value="2023" selected>March 2023 · Bank failures</option>
-      </select>
-    </label>
-  </div>
-  <p>In March 2023, banks’ primary credit borrowing rose by $148.3 billion in one week. The Fed held its policy rate steady that week and raised it the next. Compare that sequence with the 2008 and 2020 crises.</p>
-  <div id="fls-body" hidden>
-    <h3 id="fls-caption" aria-live="polite"></h3>
-    <p id="fls-context"></p>
-    <div id="fls-figure" class="fls-figure" role="img" aria-label="Wednesday primary credit balances">
-      <h4>Primary credit outstanding <small>US$ billions</small></h4>
-      <div id="fls-bars" class="fls-bars" aria-hidden="true"></div>
-    </div>
-    <div class="policy-table-scroll" role="region" aria-label="Matched Wednesday policy and overnight market rates" tabindex="0">
-      <table class="policy-path-table fls-table"><caption>Wednesday balances and rates in force on the same date</caption>
-        <thead><tr><th scope="col">Date</th><th scope="col">Primary credit<br>US$ bn</th><th scope="col" id="fls-policy-label">Policy rate</th><th scope="col">Effective fed funds</th><th scope="col">Overnight AA financial paper</th><th scope="col">Paper less funds</th></tr></thead>
-        <tbody id="fls-rows"></tbody>
-      </table>
-    </div>
-    <p id="fls-reading"></p>
-    <details class="policy-reading"><summary>Check the three-month funding market</summary>
-      <div class="policy-table-scroll" role="region" aria-label="Three-month commercial paper and Treasury bill rates" tabindex="0">
-        <table class="policy-path-table fls-table"><caption>90-day AA financial paper less the three-month Treasury bill</caption>
-          <thead><tr><th scope="col">Date</th><th scope="col">Financial paper</th><th scope="col">Treasury bill</th><th scope="col">Spread</th></tr></thead><tbody id="fls-term"></tbody>
-        </table>
-      </div>
-      <p>A dash means the Federal Reserve reports no financial-paper rate for that date. Each spread uses two observations on the same Wednesday. A lower bill yield can widen the spread even if private borrowing costs fall.</p>
-    </details>
-    <details class="policy-reading"><summary>Compare all three episodes</summary>
-      <div class="policy-table-scroll" role="region" aria-label="Changes across all three funding episodes" tabindex="0">
-        <table class="policy-path-table fls-table"><caption>First week is the baseline Wednesday to the stress Wednesday. The last column runs from baseline to four weeks after the stress Wednesday.</caption>
-          <thead><tr><th scope="col">Episode</th><th scope="col">First-week change in primary credit</th><th scope="col">First-week policy change</th><th scope="col">Policy change by final observation</th></tr></thead>
-          <tbody id="fls-summary"></tbody>
-        </table>
-      </div>
-    </details>
-    <details class="policy-reading"><summary>How to read the comparison and verify the sources</summary>
-      <p>When banks lose access to private funding, eligible depository institutions can borrow against collateral at the discount window. The primary-credit balance measures their outstanding borrowing. Comparing that balance with the policy rate and commercial-paper spreads shows how the price of funding and the amount supplied moved through each episode.</p>
-      <p>The Fed’s H.4.1 return is normally released on Thursday. These are outstanding balances on Wednesday, in nominal dollars. The series excludes primary dealer credit, term-auction lending, the Bank Term Funding Program and credit extended to bridge banks. A balance measures take-up at prevailing terms and can change as loans mature. The banking system also changed size between episodes.</p>
-      <p>The policy reference is the FOMC’s point target in 2008 and its upper limit in 2020 and 2023, using the effective date. Effective federal funds is the rate on actual overnight transactions. In 2016 its calculation switched from a volume-weighted mean of broker data to a volume-weighted median of reported transactions. Overnight AA paper measures the issuance rates of highly rated financial firms, a different set of borrowers. Firms unable to issue leave no transaction price. The three-month comparison also captures Treasury demand, credit risk and differences in liquidity.</p>
-      <p>The stress Wednesday is the first Wednesday after the selected shock or intervention. The same weekday one week earlier is the baseline. The following Wednesday and the Wednesday four weeks later are checkpoints. Other news and policy tools also moved prices between these dates.</p>
-      <h4>Selected episode</h4><ul id="fls-event-sources"></ul>
-      <h4>Data and definitions</h4><ul id="fls-data-sources"></ul>
-      <p><a href="data/fed-liquidity.json">Download the twelve matched observations and source identifiers (JSON)</a>.</p>
-    </details>
-  </div>
-  <p id="fls-status" class="policy-footnote" role="status">Loading the dated observations…</p>
-  <noscript><p>On March 15, 2023 primary credit stood at $152.853 billion while the upper limit of the federal funds target remained 4.75%. <a href="https://www.federalreserve.gov/releases/h41/20230316/">Read the Federal Reserve release</a>.</p></noscript>
-</section>
-
-    <section class="policy-episode" id="ecb-handover-2011" aria-labelledby="ecb-handover-title">
-      <p class="policy-date">European Central Bank · October–December 2011</p>
-      <h2 id="ecb-handover-title">Two quarter-point cuts, two different prices</h2>
-      <p>At Mario Draghi’s first decision, a quarter-point cut sent the one-year overnight index swap down 9.58 bp around the announcement. At his second, the same cut coincided with a 0.99 bp rise. The move towards easier policy had already begun under Jean-Claude Trichet, through longer bank funding even as the Council kept its October policy rate steady.</p>
-      <div class="policy-table-scroll" tabindex="0" role="region" aria-label="Three ECB decisions and swap repricing"><table class="policy-path-table"><caption>Changes in euro overnight index swaps, basis points</caption><thead><tr><th scope="col">Meeting</th><th scope="col">President</th><th scope="col">Rate action</th><th scope="col">1M · decision</th><th scope="col">1Y · decision</th><th scope="col">1Y · conference</th><th scope="col">Prior 20 decisions · median absolute 1Y move</th></tr></thead><tbody><tr><th scope="row">2011-10-06</th><td>Trichet</td><td>Hold</td><td>+13.19</td><td>+6.69</td><td>+5.49</td><td>0.34</td></tr>
-<tr><th scope="row">2011-11-03</th><td>Draghi</td><td>−25 bp</td><td>−14.13</td><td>−9.58</td><td>+2.52</td><td>0.42</td></tr>
-<tr><th scope="row">2011-12-08</th><td>Draghi</td><td>−25 bp</td><td>+2.16</td><td>+0.99</td><td>−2.81</td><td>0.52</td></tr>
-</tbody></table></div>
-      <p><strong>October.</strong> The Council discussed a cut and held rates. It also announced approximately 12- and 13-month refinancing operations with full allotment against collateral, alongside a new covered bond purchase programme. Providing term funding could reduce banks’ refinancing risk while leaving the price of short-term central bank money intact. The one-month swap rose 13.19 bp during the decision window. The size and sign fit disappointment about immediate easing, although the swap also reflects the overnight rate expected under prevailing liquidity conditions.</p>
-      <p><strong>November.</strong> The October flash inflation reading was 3.0%, the same as in September. Draghi reported weaker consumption, foreign demand and manufacturing orders. The Council expected less wage and price pressure over the policy horizon and unanimously cut rates. The one-year swap fell 9.58 bp, a larger absolute move than at any of the 20 preceding decisions. It then recovered 2.53 bp in the conference window. Headline inflation alone would have missed why the Council changed course.</p>
-      <p><strong>December.</strong> Staff put 2012 real GDP growth between −0.4% and +1.0% and annual inflation between 1.5% and 2.5%. The Council announced two three-year refinancing operations with an early repayment option after one year. It also cut the required reserve ratio from 2% to 1%, effective in January. The one-year swap rose around the cut and fell 2.81 bp around the conference. The maturity extension addressed rollover risk. Actual lending would also depend on bank capital, eligible collateral and demand for loans.</p>
-      <details><summary>How to read the repricing</summary><p>Compare the one-year euro OIS move with its recent changes in ECB decision windows. The November decision moved it about 23 times its trailing median magnitude (9.58 ÷ 0.419). That measures how unusual the window was. Inferring a pre-meeting probability of a 25 bp cut would require meeting-dated prices, their accrual periods and an assumption about the overnight-rate basis. The November price change alone cannot supply those inputs.</p>
-      <p>The ECB workbook compares median Frankfurt quotes at 13:25–13:35 and 14:00–14:10 for the decision, and 14:15–14:25 and 15:40–15:50 for the conference on these dates. The two changes omit the interval between windows. The comparison uses the 20 November 2026 historical workbook and contemporaneous transcripts. Three consecutive meetings straddled a leadership change and intensifying sovereign and bank funding stress. Pre-meeting surveys, meeting-dated swaps and secured versus unsecured funding spreads could distinguish a change in expected policy from a shift in funding conditions. The observations cannot isolate the effect of changing president.</p></details>
-      <p class="policy-footnote">ECB press conferences · <a href="https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2011/html/is111006.en.html">6 October</a> · <a href="https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2011/html/is111103.en.html">3 November</a> · <a href="https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2011/html/is111208.en.html">8 December</a> · <a href="https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx">ECB event-study workbook</a> · <a href="market-reactions.html?bank=ecb&amp;year=2011&amp;date=2011-11-03&amp;asset=OIS_1Y#mr-windows">Inspect the November windows</a> · <a href="macro-history.html?view=leaders&amp;leader=draghi">Draghi’s policy record</a></p>
-    </section>
-    <section id="annual-policy-ledger" class="policy-episode" aria-labelledby="ledger-title">
+<section id="annual-policy-ledger" class="policy-episode" aria-labelledby="ledger-title">
       <div class="policy-section-heading">
         <div><p class="policy-date">United States · United Kingdom · euro area</p><h2 id="ledger-title">A year in monetary policy</h2></div>
         <label class="ledger-select" for="ledger-year">Year <select id="ledger-year" disabled></select></label>
@@ -380,8 +268,116 @@
   </div>
   <noscript><p><a href="data/historical-series.json">Download the daily observations for all 29 economies</a>.</p></noscript>
 </section>
-    <section id="uk-bank-rate-pricing" aria-label="UK market-implied policy rates"></section>
-    <noscript><p>Enable JavaScript to explore the series or download them from the <a href="https://data.bis.org/topics/CBPOL">BIS Data Portal</a>.</p></noscript>
-  </main>
+<section id="uk-bank-rate-pricing" aria-label="UK market-implied policy rates"></section></div></details>
+<details class="hub-section" id="chapter-policy-guidance"><summary><h2>Guidance and leadership</h2><span class="hub-description">Compare the committee’s words with its next move and trace how its forecasts changed.</span></summary><div class="hub-content"><nav class="hub-resources" aria-label="Guidance and leadership studies"><ul><li><a href="#stance-periods">Decisions by leader</a></li><li><a href="guidance-shifts.html">Changes in forward guidance</a></li><li><a href="policy-projections.html#fed">Policy projections and expected rates</a></li><li><a href="policy-stance.html">Fed statement scores</a></li><li><a href="cross-asset-events.html">Market pricing around each event</a></li></ul></nav>
+<section class="sx-panel" id="stance-periods" data-stance-view="policy" aria-labelledby="sx-heading"><h2 id="sx-heading">Rate decisions across leadership tenures</h2><p class="sx-description">Compare what committees signalled with the rate changes they delivered during each governor’s or chair’s tenure.</p><p>On 28 January 2004 the FOMC held its target at 1%. Its statement shifted from describing how long accommodation could last to saying the committee could wait before withdrawing it. Current-meeting futures registered a zero surprise. In the same half hour, one-year OIS rose 8.80 bp and the US two-year yield rose 16.54 bp. <a href="https://www.federalreserve.gov/fomc/minutes/20040128.htm">Read the committee’s discussion</a> · <a href="policy-market-analysis.html?bank=fed#anticipated">Compare other anticipated decisions</a> · <a href="policy-market-analysis.html?bank=fed&amp;dimension=leader#regimes">Compare market sensitivity by chair</a></p><div data-stance-mount><p role="status">Loading decision records…</p></div><noscript><a href="data/stance-cohorts.json">Download cohort data (JSON)</a></noscript></section></div></details>
+<details class="hub-section" id="chapter-implementation"><summary><h2>Policy in practice</h2><span class="hub-description">Follow overnight rates after a Fed decision and inspect the use of lending facilities and swap lines.</span></summary><div class="hub-content"><nav class="hub-resources" aria-label="Policy in practice studies"><ul><li><a href="#fed-implementation-2024">Implementing a rate cut</a></li><li><a href="#dollar-swap-use">Dollar swap lines and drawings</a></li><li><a href="#fed-liquidity-stance">Emergency lending and the policy rate</a></li><li><a href="#ecb-handover-2011">The ECB leadership handover</a></li></ul></nav>
+<section class="policy-episode" id="fed-implementation-2024" aria-labelledby="implemented-cut">
+      <p class="policy-date">Federal Reserve · 18–19 September 2024</p>
+      <h2 id="implemented-cut">When did the half-point cut reach the overnight market?</h2>
+      <p>The committee announced the cut on 18 September. The Desk’s new instructions took effect on 19 September, when the effective federal funds rate fell from 5.33% to 4.83%. On both effective dates it traded 8 bp above the lower bound and 7 bp below interest on reserve balances.</p>
+      <div class="policy-table-scroll" tabindex="0" role="region" aria-label="Federal Reserve operating rates"><table class="policy-path-table"><caption>Per cent per annum · effective date</caption><thead><tr><th scope="col">Operating rate</th><th scope="col">18 September</th><th scope="col">19 September</th></tr></thead><tbody>
+      <tr><th scope="row">Target range</th><td>5.25–5.50</td><td>4.75–5.00</td></tr>
+      <tr><th scope="row">Interest on reserve balances</th><td>5.40</td><td>4.90</td></tr>
+      <tr><th scope="row">Standing repo minimum bid</th><td>5.50</td><td>5.00</td></tr>
+      <tr><th scope="row">Overnight reverse repo offering rate</th><td>5.30</td><td>4.80</td></tr>
+      <tr><th scope="row">Effective federal funds rate</th><td>5.33</td><td>4.83</td></tr>
+      </tbody></table></div>
+      <p>The operating rates shifted together while portfolio runoff continued. Monthly redemption caps remained $25 billion for Treasuries and $35 billion for agency debt and agency mortgage-backed securities combined. Actual redemptions depended on principal payments. The overnight observations establish immediate pass-through at the median. Assessing liquidity across borrowers would also require transaction volumes and the rate distribution.</p>
+      <p class="policy-footnote"><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a1.htm">July operating directive</a> · <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a1.htm">September operating directive</a> · <a href="https://markets.newyorkfed.org/api/rates/unsecured/effr/search.json?startDate=09/17/2024&amp;endDate=09/20/2024&amp;type=rate">New York Fed effective rates</a> · <a href="casebook.html#fed-cut-september-2024">Announcement pricing and Treasury yields</a></p>
+    </section>
+<section class="policy-episode" id="dollar-swap-use" aria-labelledby="swap-use-title">
+      <p class="policy-date">Federal Reserve dollar swap lines · 2008 and 2020</p>
+      <h2 id="swap-use-title">How much of a dollar swap line did central banks actually draw?</h2>
+      <p>Brazil, Mexico, Korea and Singapore each received a $30bn limit in 2008 and a $60bn limit in 2020. Trace how much had actually settled when measuring currency stress. A central bank could draw dollars from the Fed and lend them to banks at home even while its currency kept falling.</p>
+      <div class="policy-table-scroll" tabindex="0" role="region" aria-label="Outstanding dollar swap balances by country"><table class="policy-path-table">
+        <caption>Month-end principal outstanding, US$ billions. The limit applies separately to each country.</caption>
+        <thead><tr><th scope="col">Day</th><th scope="col">Limit each</th><th scope="col">Brazil</th><th scope="col">Mexico</th><th scope="col">Korea</th><th scope="col">Singapore</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">30 Nov 2008</th><td>30</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+          <tr><th scope="row">31 Dec 2008</th><td>30</td><td>0</td><td>0</td><td>10.35</td><td>0</td></tr>
+          <tr><th scope="row">31 Mar 2020</th><td>60</td><td>0</td><td>0</td><td>0</td><td>4.27</td></tr>
+          <tr><th scope="row">30 Apr 2020</th><td>60</td><td>0</td><td>6.59</td><td>17.46</td><td>8.54</td></tr>
+          <tr><th scope="row">31 May 2020</th><td>60</td><td>0</td><td>6.59</td><td>18.79</td><td>10.03</td></tr>
+        </tbody>
+      </table></div>
+      <p><strong>Mexico, 2020.</strong> Short-term external debt stood at 31.8% of total reserves at end-2018. The Fed announced the $60bn line on 19 March 2020. Two draws settled on 3 and 8 April, bringing the balance to $6.59bn. Mexico’s monthly-average trade-weighted currency index fell 18.7% between February and May. The swap supplied dollar funding to the banking system. Measuring its effect on the peso would require estimating what would have happened without it.</p>
+      <p><strong>Korea, 2008.</strong> The line opened on 29 October in Washington. Its first draw settled on 4 December, after the November endpoint used in the cross-country study. Korea had already supplied dollars from its own reserves. In their analysis of the won–dollar swap market, Naohiko Baba and Ilhyock Shim found stronger evidence of relief from the Fed-funded auctions. Korea illustrates this mechanism separately because its debt ratio is missing from the matched panel.</p>
+      <details><summary>Calculation and primary sources</summary><p>For each date, add dollar principal settled and subtract principal that matured. A zero means no outstanding principal in this facility on that date. The headline limit measures capacity. The table rounds balances to the nearest $0.01bn. The download keeps the underlying millions of dollars for every calendar day from each announcement to 31 December 2008 or 31 May 2020. December 2008 is shown as a follow-up to the August–November exchange-rate window.</p>
+        <p class="policy-footnote"><a href="data/dollar-swap-balances.csv" download>Daily balances (CSV)</a> · <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20081029b.htm">October 2008 announcement</a> · <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20200319b.htm">March 2020 announcement</a> · <a href="https://www.federalreserve.gov/regreform/files/cbls.csv">Fed transaction file, 2007–10</a> · <a href="https://markets.newyorkfed.org/api/fxs/all/search.json?startDate=03/01/2020&amp;endDate=05/31/2020">New York Fed transaction records, March–May 2020</a> · <a href="https://www.bis.org/publications/policy-responses-dislocations-fx-swap-market-experience-korea">Baba and Shim on Korea’s two funding sources</a></p></details>
+      <p class="policy-footnote"><a href="external-vulnerability.html?episode=2020&amp;country=MX&amp;lag=2&amp;months=3#explore">Compare the debt ratios and currency outcomes</a> · <a href="yearbook.html?historyYear=2008&amp;case=2008-10-30-south-korea">Korea’s 2008 policy timeline</a></p>
+    </section>
+<section id="fed-liquidity-stance" class="policy-episode fls-study" aria-labelledby="fls-heading">
+  <div class="policy-section-heading">
+    <div><p class="policy-date">United States · 2008, 2020 and 2023</p><h2 id="fls-heading">When banks turn to the Fed, is monetary policy easing?</h2></div>
+    <label class="fls-picker">Funding episode
+      <select id="fls-episode">
+        <option value="2008">September 2008 · Lehman failure</option>
+        <option value="2020">March 2020 · Pandemic</option>
+        <option value="2023" selected>March 2023 · Bank failures</option>
+      </select>
+    </label>
+  </div>
+  <p>In March 2023, banks’ primary credit borrowing rose by $148.3 billion in one week. The Fed held its policy rate steady that week and raised it the next. Compare that sequence with the 2008 and 2020 crises.</p>
+  <div id="fls-body" hidden>
+    <h3 id="fls-caption" aria-live="polite"></h3>
+    <p id="fls-context"></p>
+    <div id="fls-figure" class="fls-figure" role="img" aria-label="Wednesday primary credit balances">
+      <h4>Primary credit outstanding <small>US$ billions</small></h4>
+      <div id="fls-bars" class="fls-bars" aria-hidden="true"></div>
+    </div>
+    <div class="policy-table-scroll" role="region" aria-label="Matched Wednesday policy and overnight market rates" tabindex="0">
+      <table class="policy-path-table fls-table"><caption>Wednesday balances and rates in force on the same date</caption>
+        <thead><tr><th scope="col">Date</th><th scope="col">Primary credit<br>US$ bn</th><th scope="col" id="fls-policy-label">Policy rate</th><th scope="col">Effective fed funds</th><th scope="col">Overnight AA financial paper</th><th scope="col">Paper less funds</th></tr></thead>
+        <tbody id="fls-rows"></tbody>
+      </table>
+    </div>
+    <p id="fls-reading"></p>
+    <details class="policy-reading"><summary>Check the three-month funding market</summary>
+      <div class="policy-table-scroll" role="region" aria-label="Three-month commercial paper and Treasury bill rates" tabindex="0">
+        <table class="policy-path-table fls-table"><caption>90-day AA financial paper less the three-month Treasury bill</caption>
+          <thead><tr><th scope="col">Date</th><th scope="col">Financial paper</th><th scope="col">Treasury bill</th><th scope="col">Spread</th></tr></thead><tbody id="fls-term"></tbody>
+        </table>
+      </div>
+      <p>A dash means the Federal Reserve reports no financial-paper rate for that date. Each spread uses two observations on the same Wednesday. A lower bill yield can widen the spread even if private borrowing costs fall.</p>
+    </details>
+    <details class="policy-reading"><summary>Compare all three episodes</summary>
+      <div class="policy-table-scroll" role="region" aria-label="Changes across all three funding episodes" tabindex="0">
+        <table class="policy-path-table fls-table"><caption>First week is the baseline Wednesday to the stress Wednesday. The last column runs from baseline to four weeks after the stress Wednesday.</caption>
+          <thead><tr><th scope="col">Episode</th><th scope="col">First-week change in primary credit</th><th scope="col">First-week policy change</th><th scope="col">Policy change by final observation</th></tr></thead>
+          <tbody id="fls-summary"></tbody>
+        </table>
+      </div>
+    </details>
+    <details class="policy-reading"><summary>How to read the comparison and verify the sources</summary>
+      <p>When banks lose access to private funding, eligible depository institutions can borrow against collateral at the discount window. The primary-credit balance measures their outstanding borrowing. Comparing that balance with the policy rate and commercial-paper spreads shows how the price of funding and the amount supplied moved through each episode.</p>
+      <p>The Fed’s H.4.1 return is normally released on Thursday. These are outstanding balances on Wednesday, in nominal dollars. The series excludes primary dealer credit, term-auction lending, the Bank Term Funding Program and credit extended to bridge banks. A balance measures take-up at prevailing terms and can change as loans mature. The banking system also changed size between episodes.</p>
+      <p>The policy reference is the FOMC’s point target in 2008 and its upper limit in 2020 and 2023, using the effective date. Effective federal funds is the rate on actual overnight transactions. In 2016 its calculation switched from a volume-weighted mean of broker data to a volume-weighted median of reported transactions. Overnight AA paper measures the issuance rates of highly rated financial firms, a different set of borrowers. Firms unable to issue leave no transaction price. The three-month comparison also captures Treasury demand, credit risk and differences in liquidity.</p>
+      <p>The stress Wednesday is the first Wednesday after the selected shock or intervention. The same weekday one week earlier is the baseline. The following Wednesday and the Wednesday four weeks later are checkpoints. Other news and policy tools also moved prices between these dates.</p>
+      <h4>Selected episode</h4><ul id="fls-event-sources"></ul>
+      <h4>Data and definitions</h4><ul id="fls-data-sources"></ul>
+      <p><a href="data/fed-liquidity.json">Download the twelve matched observations and source identifiers (JSON)</a>.</p>
+    </details>
+  </div>
+  <p id="fls-status" class="policy-footnote" role="status">Loading the dated observations…</p>
+  <noscript><p>On March 15, 2023 primary credit stood at $152.853 billion while the upper limit of the federal funds target remained 4.75%. <a href="https://www.federalreserve.gov/releases/h41/20230316/">Read the Federal Reserve release</a>.</p></noscript>
+</section>
+<section class="policy-episode" id="ecb-handover-2011" aria-labelledby="ecb-handover-title">
+      <p class="policy-date">European Central Bank · October–December 2011</p>
+      <h2 id="ecb-handover-title">Two quarter-point cuts, two different prices</h2>
+      <p>At Mario Draghi’s first decision, a quarter-point cut sent the one-year overnight index swap down 9.58 bp around the announcement. At his second, the same cut coincided with a 0.99 bp rise. The move towards easier policy had already begun under Jean-Claude Trichet, through longer bank funding even as the Council kept its October policy rate steady.</p>
+      <div class="policy-table-scroll" tabindex="0" role="region" aria-label="Three ECB decisions and swap repricing"><table class="policy-path-table"><caption>Changes in euro overnight index swaps, basis points</caption><thead><tr><th scope="col">Meeting</th><th scope="col">President</th><th scope="col">Rate action</th><th scope="col">1M · decision</th><th scope="col">1Y · decision</th><th scope="col">1Y · conference</th><th scope="col">Prior 20 decisions · median absolute 1Y move</th></tr></thead><tbody><tr><th scope="row">2011-10-06</th><td>Trichet</td><td>Hold</td><td>+13.19</td><td>+6.69</td><td>+5.49</td><td>0.34</td></tr>
+<tr><th scope="row">2011-11-03</th><td>Draghi</td><td>−25 bp</td><td>−14.13</td><td>−9.58</td><td>+2.52</td><td>0.42</td></tr>
+<tr><th scope="row">2011-12-08</th><td>Draghi</td><td>−25 bp</td><td>+2.16</td><td>+0.99</td><td>−2.81</td><td>0.52</td></tr>
+</tbody></table></div>
+      <p><strong>October.</strong> The Council discussed a cut and held rates. It also announced approximately 12- and 13-month refinancing operations with full allotment against collateral, alongside a new covered bond purchase programme. Providing term funding could reduce banks’ refinancing risk while leaving the price of short-term central bank money intact. The one-month swap rose 13.19 bp during the decision window. The size and sign fit disappointment about immediate easing, although the swap also reflects the overnight rate expected under prevailing liquidity conditions.</p>
+      <p><strong>November.</strong> The October flash inflation reading was 3.0%, the same as in September. Draghi reported weaker consumption, foreign demand and manufacturing orders. The Council expected less wage and price pressure over the policy horizon and unanimously cut rates. The one-year swap fell 9.58 bp, a larger absolute move than at any of the 20 preceding decisions. It then recovered 2.53 bp in the conference window. Headline inflation alone would have missed why the Council changed course.</p>
+      <p><strong>December.</strong> Staff put 2012 real GDP growth between −0.4% and +1.0% and annual inflation between 1.5% and 2.5%. The Council announced two three-year refinancing operations with an early repayment option after one year. It also cut the required reserve ratio from 2% to 1%, effective in January. The one-year swap rose around the cut and fell 2.81 bp around the conference. The maturity extension addressed rollover risk. Actual lending would also depend on bank capital, eligible collateral and demand for loans.</p>
+      <details><summary>How to read the repricing</summary><p>Compare the one-year euro OIS move with its recent changes in ECB decision windows. The November decision moved it about 23 times its trailing median magnitude (9.58 ÷ 0.419). That measures how unusual the window was. Inferring a pre-meeting probability of a 25 bp cut would require meeting-dated prices, their accrual periods and an assumption about the overnight-rate basis. The November price change alone cannot supply those inputs.</p>
+      <p>The ECB workbook compares median Frankfurt quotes at 13:25–13:35 and 14:00–14:10 for the decision, and 14:15–14:25 and 15:40–15:50 for the conference on these dates. The two changes omit the interval between windows. The comparison uses the 20 November 2026 historical workbook and contemporaneous transcripts. Three consecutive meetings straddled a leadership change and intensifying sovereign and bank funding stress. Pre-meeting surveys, meeting-dated swaps and secured versus unsecured funding spreads could distinguish a change in expected policy from a shift in funding conditions. The observations cannot isolate the effect of changing president.</p></details>
+      <p class="policy-footnote">ECB press conferences · <a href="https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2011/html/is111006.en.html">6 October</a> · <a href="https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2011/html/is111103.en.html">3 November</a> · <a href="https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2011/html/is111208.en.html">8 December</a> · <a href="https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx">ECB event-study workbook</a> · <a href="market-reactions.html?bank=ecb&amp;year=2011&amp;date=2011-11-03&amp;asset=OIS_1Y#mr-windows">Inspect the November windows</a> · <a href="macro-history.html?view=leaders&amp;leader=draghi">Draghi’s policy record</a></p>
+    </section></div></details>
+<noscript><p>Enable JavaScript to explore the series or download them from the <a href="https://data.bis.org/topics/CBPOL">BIS Data Portal</a>.</p></noscript>
+</main>
 </body>
 </html>

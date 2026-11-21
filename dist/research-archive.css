@@ -164,3 +164,74 @@ body:has(#archive-reader[open]) {overflow: hidden}
   #archive-reader {border: 0}
   .reader-toolbar {padding-top: max(9px,env(safe-area-inset-top))}
 }
+
+.archive-page .archive-intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  max-width: none;
+  gap: 12px 24px;
+}
+.archive-page .archive-intro h1 { margin: 0; }
+.archive-links { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.archive-links a { line-height: 1.55; }
+.archive-shell .archive-filters:not([hidden]) {
+  display: grid;
+  align-items: center;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 4px 18px;
+  margin-top: 0;
+  padding: 16px 0 8px;
+  background: transparent;
+}
+.archive-search-row, .archive-narrow-fields {
+  display: grid;
+  gap: 10px 18px;
+  min-width: 0;
+}
+.archive-search-row { grid-template-columns: minmax(12rem, 1fr) minmax(8rem, .24fr) minmax(8rem, .24fr); grid-column: 1/-1; }
+.archive-narrow-fields { grid-template-columns: repeat(2, minmax(0, 1.4fr)) repeat(2, minmax(0, 1fr)); padding: 3px 0 14px; }
+.archive-filters .archive-narrow-fields label, .archive-filters .archive-search-row label { min-width: 0; }
+.archive-shell .archive-months { grid-column: 1/-1; margin-block: 9px 3px; gap: 4px; }
+.archive-shell .archive-months a { color: var(--ink); border-color: var(--line); padding: 5px 9px; }
+.archive-shell .archive-months a[aria-current] { color: white; }
+.archive-narrow summary, .region-directory summary {
+  cursor: pointer;
+  color: var(--ink);
+  font-weight: 600;
+  padding-block: 10px;
+}
+.archive-shell .archive-filters > button {
+  justify-self: end;
+  align-self: start;
+  cursor: pointer;
+  color: var(--muted);
+  font: inherit;
+  font-size: .875rem;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+  border: 0;
+  background: transparent;
+}
+.archive-shell .archive-results { margin: 12px 0 6px; color: var(--muted); }
+.archive-shell .month-title { margin-top: 8px; }
+.archive-shell .record-meta, .archive-shell .record-issuer { color: var(--muted); }
+.archive-shell .research-record { padding-inline: 0; }
+.archive-shell .research-record h4 { max-width: 65ch; font-size: clamp(1.4rem, 2.2vw, 1.85rem); }
+.archive-shell .archive-region-title { background: transparent; color: var(--ink); padding: 0; border: 0; }
+.region-directory { margin: 0 0 12px; }
+.region-directory .bank-jump { margin: 0 0 18px; }
+.archive-shell .bank-title h3 { font-size: 1.4rem; }
+.archive-shell .archive-timeline-day h3 { color: var(--muted); font-size: 1.08rem; }
+.archive-shell .archive-narrow summary:focus-visible, .region-directory summary:focus-visible { outline-offset: 0; }
+@media (max-width: 760px) {
+  .archive-shell .archive-search-row, .archive-shell .archive-narrow-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .archive-shell .archive-search-row label:first-child { grid-column: 1/-1; }
+  .archive-shell .archive-narrow[open] { grid-column: 1/-1; }
+  .archive-shell .archive-narrow[open] + button { grid-column: 1/-1; }
+}
+@media (max-width: 420px) {
+  .archive-shell .archive-filters:not([hidden]) { gap: 4px 6px; }
+  .archive-shell .archive-scope button { padding-inline: 7px; font-size: .9rem; }
+}

@@ -520,6 +520,8 @@ async function start() {
       selected.rates = [button.dataset.episodeBank];
       setRange(toDay(button.dataset.start), toDay(button.dataset.end));
       render();
+      const chapter = ui["chart-title"].closest(".hub-section");
+      if (chapter) chapter.open = true;
       ui["chart-title"].focus();
     });
   }

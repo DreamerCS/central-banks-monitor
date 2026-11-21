@@ -26,256 +26,21 @@
   <script defer src="dealer-expectations.js"></script>
 <link rel="stylesheet" href="stance-history.css">
 <script defer src="stance-history.js"></script>
+<link rel="stylesheet" href="research-hubs.css">
+<script defer src="research-hubs.js"></script>
+<link rel="stylesheet" href="film-edition.css">
+<script src="site-index.js" defer></script>
+<script src="film-edition.js" defer></script>
 </head>
-<body class="reaction-page">
+<body class="research-hub reaction-page">
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="./">Overview</a><a href="market-reactions.html" aria-current="page">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="research-notes.html">Research notes</a><a href="research-archive.html">Archive</a></nav></div></header>
+<header class="cbi-head film-masthead"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i><span>Central Bank Intelligence</span></a><nav aria-label="Primary research" class="film-primary"><a href="market-reactions.html" aria-current="page">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a></nav><a href="site-index.html" class="film-index-launch" data-index-open><span class="film-index-symbol" aria-hidden="true"></span>Site index</a></div></header>
 <main id="main" class="mr-wrap">
-  <div class="mr-intro"><p>Rates &nbsp;/&nbsp; FX &nbsp;/&nbsp; Equities</p><h1>Market reactions</h1></div>
-  <nav class="mr-jump" aria-label="Market studies"><a href="cross-asset-events.html">Cross-asset event study</a><a href="policy-market-analysis.html">Policy signals and market moves</a><a href="policy-path-dynamics.html">Announcements, press conferences and speeches</a><a href="#speech-futures">Fed funds pricing before speeches</a><a href="#stance-periods">Market repricing by leadership and cycle</a> · <a href="policy-stance.html">Hawkish or dovish versus pricing?</a><a href="dealer-absorption.html">Treasury auctions and dealer positions</a><a href="macro-studies.html#curve-components">What drove 2s10s?</a><a href="#fed-direction-study">Before and after the FOMC</a><a href="#dealer-expectations">Dealers’ meeting probabilities</a><a href="yen-intervention.html">Japanese FX intervention</a><a href="#annual-market-history">Annual comparisons, 2000–2026</a><a href="#uk-market-history">UK meeting windows</a><a href="#pre-event-curve">US pricing before a speech</a><a href="#mr-speech-intraday">US intraday speech moves</a><a href="#pre-speech-sonia">Sterling forward pricing</a><a href="#ecb-speech-windows">Euro-area speeches</a><a href="#mr-explorer">Meeting windows</a><a href="#mr-daily">Daily yield screen</a></nav>
-<section class="sx-panel" id="stance-periods" data-stance-view="market" aria-labelledby="sx-heading"><h2 id="sx-heading">Market repricing by leadership and cycle</h2><p class="sx-description">Inspect the interest-rate move around each communication alongside its wording. Choose a central bank to keep the instrument and observation window comparable.</p><p>Among Fed decisions within 5 bp of current-meeting futures pricing, 2s10s flattened in 41 of 53 release windows when one-year OIS rose by more than 1 bp. When OIS fell by more than 1 bp, the spread steepened in 36 of 43 windows. <a href="policy-market-analysis.html?bank=fed#anticipated">Change the pricing tolerance and inspect the curve</a></p><div data-stance-mount><p role="status">Loading decision records…</p></div><noscript><a href="data/stance-cohorts.json">Download cohort data (JSON)</a></noscript></section>
-  <section class="mr-analysis fd-study" id="speech-futures" aria-labelledby="speech-futures-title">
-  <h2 id="speech-futures-title">How much of the next meeting was priced before the speech?</h2>
-  <p>Follow the same FOMC meeting across quotes. A contract can already imply a full quarter-point move even when it barely changes on the day a policymaker speaks.</p>
-  <h3>Cook and Waller, 20 November 2026 · December fed funds futures</h3>
-  <p>Cook favoured further tightening. Waller gave no rate-path guidance. The December contract rose from 95.9250 at 3 p.m. ET on Thursday to 95.9600 at 3 p.m. ET on Friday. On the same assumptions, the implied increase at the 9 December decision fell from 27.48 to 22.55 bp. The 4.93 bp decline spans both speeches and the 10 a.m. slot for two BLS releases. It leaves the size of any reaction to Cook’s speech unidentified. <a href="fed-speech-week.html#cook20261120">Cook’s remarks and earlier outlook</a> · <a href="fed-speech-week.html#waller20261120">Waller’s remarks</a> · <a href="https://www.bls.gov/schedule/2026/11_sched.htm">BLS release schedule</a></p>
-  <h3>Jefferson, 19 November 2026 · December fed funds futures</h3>
-  <p>Before Philip Jefferson’s remarks at 9:25 a.m. ET, the last daily settlement implied <strong>26.77 bp of tightening</strong> at the 9 December decision. The estimate had fallen 0.70 bp since Friday 13 November. By Thursday’s settlement it was back to 27.48 bp. Compare the 0.70 bp change on the speech date with the much larger amount that was already priced.</p>
-  <div class="mr-table-scroll" role="region" aria-label="December 2026 futures settlement observations" tabindex="0"><table class="mr-method-table"><caption>CME final settlements for ZQZ6. The last two columns assume one change in the effective fed funds rate from 10 December.</caption><thead><tr><th scope="col">Settlement date</th><th scope="col">Futures price</th><th scope="col">December mean rate</th><th scope="col">Implied 10–31 Dec rate</th><th scope="col">Move from 3.88%</th></tr></thead><tbody>
-<tr><th scope="row">13 Nov</th><td>95.9250</td><td>4.075%</td><td>4.155%</td><td>+27.48 bp</td></tr>
-<tr><th scope="row">16 Nov</th><td>95.9350</td><td>4.065%</td><td>4.141%</td><td>+26.07 bp</td></tr>
-<tr><th scope="row">17 Nov</th><td>95.9350</td><td>4.065%</td><td>4.141%</td><td>+26.07 bp</td></tr>
-<tr><th scope="row">18 Nov</th><td>95.9300</td><td>4.070%</td><td>4.148%</td><td>+26.77 bp</td></tr>
-<tr><th scope="row">19 Nov</th><td>95.9250</td><td>4.075%</td><td>4.155%</td><td>+27.48 bp</td></tr>
-<tr><th scope="row">20 Nov</th><td>95.9600</td><td>4.040%</td><td>4.105%</td><td>+22.55 bp</td></tr>
-  </tbody></table></div>
-  <details class="mr-help"><summary>Calculation, observation times and other news</summary>
-    <p>The contract settles against the calendar-month average of the effective federal funds rate. Subtract the price from 100 to get the implied December mean. Assume the latest available effective rate of 3.88% continues for 1–9 December. Multiply the monthly mean by 31, subtract nine days at 3.88%, then divide by 22 to obtain the implied average from 10 December. Realised rates can move within a target range, and the futures price can contain a premium. Many outcome distributions fit the same average. Changes shown are computed before rounding the displayed levels.</p>
-    <p>Each calculation uses the preceding published effective-rate observation. CME’s settlement window for the front contracts ends at 2 p.m. Chicago time. The 18 November settlement followed the 2 p.m. ET release of the October FOMC minutes. Weekly jobless claims came out at 8:30 a.m. ET on 19 November, before Jefferson’s remarks. These daily intervals include both policy news and other market information.</p>
-    <p class="fd-links"><a href="data/fed-futures-nov-2026.csv" download>Six settlement observations, calculations and dated source links (CSV)</a> <a href="https://www.cmegroup.com/markets/interest-rates/stirs/30-day-federal-fund/settlements.html">CME futures settlements</a> <a href="https://www.cmegroup.com/notices/ser/2018/04/SER-8105.pdf">CME settlement procedure</a> <a href="https://markets.newyorkfed.org/api/rates/unsecured/effr/search.json?startDate=11/12/2026&amp;endDate=11/19/2026">New York Fed effective rates</a> <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">FOMC calendar</a> <a href="https://www.federalreserve.gov/newsevents/speech/files/jefferson20261119a.pdf">Jefferson’s remarks and release time</a> <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm">October minutes release</a> <a href="https://oui.doleta.gov/press/2026/111926.pdf">19 November claims release</a></p>
-  </details>
-  <h3>Powell at Jackson Hole · the next September meeting</h3>
-  <p>In 2023 the market was weighing a hold against another increase. In 2024 it was choosing between two cut sizes. The table translates each reported CME FedWatch distribution into basis points of expected policy change.</p>
-  <div class="mr-table-scroll" role="region" aria-label="Jackson Hole meeting pricing in 2023 and 2024" tabindex="0"><table class="mr-method-table"><caption>Positive moves are hikes. Negative moves are cuts. Times are US Eastern.</caption><thead><tr><th scope="col">Observation</th><th scope="col">Outcome priced</th><th scope="col">Probability</th><th scope="col">Implied move</th></tr></thead><tbody>
-    <tr><th scope="row">25 Aug 2023 · 10:00 a.m., before remarks</th><td>25 bp hike</td><td>19.5%</td><td>+4.88 bp</td></tr>
-    <tr><th scope="row">25 Aug 2023 · 10:20 a.m.</th><td>25 bp hike</td><td>21.5%</td><td>+5.38 bp</td></tr>
-    <tr><th scope="row">25 Aug 2023 · 3 p.m.</th><td>25 bp hike</td><td>19.5%</td><td>+4.88 bp</td></tr>
-    <tr><th scope="row">21 Aug 2024 · two days before</th><td>50 bp cut</td><td>36.5%</td><td>−34.13 bp</td></tr>
-    <tr><th scope="row">22 Aug 2024 · prior day</th><td>50 bp cut</td><td>24.0%</td><td>−31.00 bp</td></tr>
-    <tr><th scope="row">23 Aug 2024 · afternoon report</th><td>50 bp cut</td><td>36.5%</td><td>−34.13 bp</td></tr>
-  </tbody></table></div>
-  <p>In 2023 the 20-minute comparison spans Powell’s scheduled 10:05 a.m. release. The probability of a hike rose two percentage points, equivalent to <strong>0.50 bp</strong> of extra expected tightening, and had reversed by 3 p.m. In 2024, roughly 31 bp of easing was already priced the day before the speech. Friday afternoon’s report implied about 3.13 bp more easing, back at Wednesday’s level. The Fed eventually held in September 2023 and cut by 50 bp in September 2024.</p>
-  <details class="mr-help"><summary>Jackson Hole sources and timing</summary>
-    <p>Bespoke recorded three CME FedWatch screens on 25 August 2023. Its first two figure captions supply the 10:00 and 10:20 times. Its text identifies the final snapshot as 3 p.m. The last figure caption repeats 10:20. The other outcome was an unchanged rate. In 2024 the other outcome was a 25 bp cut. Fortune reported Wednesday’s probability, and MarketWatch quoted both Thursday’s and Friday’s in its Friday afternoon update. The quote times are unspecified, so the 2024 comparison covers a wider interval than the 2023 speech window.</p>
-    <p class="fd-links"><a href="https://media.bespokepremium.com/uploads/2023/08/Bespoke-Report-082523-osdurh54f.pdf#page=16">2023 FedWatch snapshots, p. 16</a> <a href="https://www.federalreserve.gov/newsevents/speech/files/powell20230825a.pdf">2023 speech and release time</a> <a href="https://fortune.com/2024/08/21/interest-rate-cuts-all-but-guaranteed-fed-meeting-experts/">21 August 2024 quote</a> <a href="https://www.marketwatch.com/story/bond-yields-steady-before-pivotal-powell-remarks-297be706">22 and 23 August 2024 quotes</a> <a href="https://www.federalreserve.gov/newsevents/speech/files/powell20240823a.pdf">2024 speech and release time</a> <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20230920a.htm">September 2023 decision</a> <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm">September 2024 decision</a> <a href="https://www.cmegroup.com/tools-information/quikstrike/cme-fedwatch-tool-user-guide.html">CME FedWatch methodology</a></p>
-  </details>
-</section>
-
-  <section class="mr-analysis fd-study" id="fed-direction-study" aria-labelledby="fd-title">
-    <h2 id="fd-title">Did the two-year yield keep moving in the same direction at the Fed statement?</h2>
-    <p>Compare the change in the two-year Treasury yield over the four trading-day intervals before an FOMC statement with its move around the release. The filters show whether the announcement extended or reversed the earlier move.</p>
-    <p id="fd-status" role="status">Loading matched statement dates…</p>
-    <div id="fd-content" hidden>
-      <p id="fd-finding"></p>
-      <div class="fd-controls">
-        <label>Period<select id="fd-era"><option value="all">All years</option><option value="2000-07">2000–2007</option><option value="2008-15">2008–2015</option><option value="2016-19">2016–2019</option><option value="2020-on">2020 onwards</option></select></label>
-        <label>Size of earlier move<select id="fd-size"><option value="all">Any magnitude</option><option value="small">Under 10 bp</option><option value="large">At least 10 bp</option></select></label>
-        <label>Small moves<select id="fd-rule"><option value="raw">Include all quoted changes</option><option value="one-bp">Both moves at least 1 bp</option></select></label>
-      </div>
-      <div class="fd-grid">
-        <div class="fd-distribution">
-          <table><caption>Meeting counts by yield direction</caption><thead><tr><th scope="col">Before the meeting</th><th scope="col">Statement ↑</th><th scope="col">Statement ↓</th><th scope="col">Flat</th></tr></thead><tbody id="fd-matrix"></tbody></table>
-          <p id="fd-counts" role="status"></p>
-        </div>
-        <div class="fd-reading"><h3>How often did the direction persist?</h3><p id="fd-share"></p><p id="fd-effect"></p><p id="fd-check"></p></div>
-      </div>
-      <details class="mr-help"><summary>Compare the four periods</summary><div class="mr-table-scroll" tabindex="0" role="region" aria-label="Direction counts by historical period"><table class="mr-method-table fd-eras"><caption>Current magnitude and small-move filters</caption><thead><tr><th scope="col">Years</th><th scope="col">Same</th><th scope="col">Opposite</th><th scope="col">Flat in either</th><th scope="col">Same / directional</th><th scope="col">Median aligned move</th></tr></thead><tbody id="fd-periods"></tbody></table></div></details>
-      <div class="fd-example"><div><label for="fd-event">Inspect a matched statement</label><select id="fd-event"></select></div><div><p id="fd-pair"></p><p class="fd-links" id="fd-pair-links"></p></div></div>
-      <details class="mr-help"><summary>The separate speech observation</summary><p id="fd-speech"></p></details>
-    </div>
-    <details class="mr-help"><summary>Event windows and interpretation</summary>
-      <p>The pre-meeting change runs from the fifth to the first jointly quoted Treasury close strictly before the event date, spanning four close-to-close changes. Daily Treasury par yields reflect indicative quotes around 15:30 New York time. USMPD measures the on-the-run two-year yield from 10 minutes before to 20 minutes after the statement. No intervening overnight or pre-release move is added.</p>
-      <p>The table counts every matched meeting in the selected sample. The directional share and aligned median use meetings with two non-zero moves. Alignment multiplies the statement move by the sign of the earlier move, so a negative value measures movement against the earlier direction. For the 1 bp sensitivity check both the earlier and the statement moves must reach 1 bp in absolute value. The latter condition is only known after the release.</p>
-      <p>The benchmark preserves the up and down totals on each side within each calendar year and calculates the average agreement across all possible within-year pairings. The leave-one-year-out range recalculates the observed share after omitting each year in turn. These comparisons describe the sample. Yields also reflect term premia and other economic news. Estimating the probability of a particular policy move requires a contract tied to the decision and assumptions about its possible outcomes.</p>
-      <p class="fd-links"><a href="https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/">San Francisco Fed · USMPD</a> <a href="https://www.frbsf.org/wp-content/uploads/wp2025-30.pdf#page=11">Acosta et al. · asset definitions</a> <a href="https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/treasury-yield-curve-methodology">Treasury · daily yield methodology</a></p>
-    </details>
-    <p class="fd-links"><a href="data/fed-direction-study.csv" download>Download all matched statements (CSV)</a></p>
-  </section>
-
-<section id="dealer-expectations" class="mr-analysis" aria-labelledby="dealer-title">
-  <h2 id="dealer-title">What did dealers expect the Fed to do?</h2>
-  <p>Before each scheduled FOMC meeting in 2022–24, New York Fed primary dealers reported their most likely target rate. Many surveys also asked how much probability dealers placed on each possible outcome. The replies predate the decisions. The New York Fed made the aggregates public after the minutes.</p>
-  <p id="dealer-status" role="status" class="mr-footnote">Loading the meeting surveys…</p>
-  <div id="dealer-content" hidden>
-    <label for="dealer-meeting">FOMC decision <select id="dealer-meeting"></select></label>
-    <div id="dealer-result" aria-live="polite"></div>
-    <div id="dealer-distribution"></div>
-    <div id="dealer-market"></div>
-    <p id="dealer-links" class="mr-method-links"></p>
-    <details class="mr-help"><summary>Compare all 24 meetings</summary><div id="dealer-table"></div></details>
-    <details class="mr-help"><summary>How the forecasts and errors are measured</summary>
-      <p>The dates are the survey’s distribution and response deadline. The New York Fed published aggregate results after the meeting minutes, so these are retrospective records of answers made before the decision. The tables use the original premeeting panel. The median of each dealer’s most likely midpoint and the average probability assigned to each bin answer different questions. Dealers can agree on a most likely outcome while assigning substantial probability elsewhere.</p>
-      <p>The signed error is the realised target-range midpoint minus the median modal forecast, in basis points, after rounding the realised midpoint to the survey’s published precision. A positive error means the target was higher than the forecast. Gross errors are compared with the simple forecast of an unchanged target. Probability bins retain the New York Fed’s published rounding and can total slightly more or less than 100%. One basis point equals 0.01 percentage point.</p>
-      <p>“Move on 25 bp grid” identifies the change from the premeeting midpoint that lands in a given bin, assuming quarter-point steps. The first and last bins may cover several changes. They are shown as tail ranges. A missing meeting distribution means the probability question asked about another horizon.</p>
-      <p>A dealer can expect substantial easing over the next twelve months while favouring a quarter-point cut at the first meeting. Use the September 2024 probability bins to examine expectations for that specific decision.</p>
-      <p><a href="https://www.newyorkfed.org/markets/primarydealer_survey_questions">New York Fed historical surveys</a> · <a href="https://www.newyorkfed.org/newsevents/events/regional_outreach/2012/0104_2012.html">Publication timing</a> · <a href="data/dealer-expectations.json">Download all observations</a></p>
-    </details>
-  </div>
-</section>
-  <section class="mr-analysis amh" id="annual-market-history" aria-labelledby="amh-title">
-    <h2 id="amh-title">Market reactions by year</h2>
-    <p>Compare the typical announcement move across years, then open the meetings with the biggest price changes in any one year.</p>
-    <p id="amh-status" role="status">Loading annual meeting observations…</p>
-    <div id="amh-content" hidden>
-      <div class="amh-controls">
-        <label for="amh-window">Event window<select id="amh-window"><option value="statement">Statement</option><option value="conference">Press conference</option><option value="meeting">Full event</option></select></label>
-        <label for="amh-asset">Instrument<select id="amh-asset"><option value="two-year">2-year government yield</option><option value="ten-year">10-year government yield</option><option value="curve">10Y minus 2Y slope</option><option value="ois">1-year overnight index swap</option><option value="eurusd">EUR/USD</option><option value="equities">Domestic equity index</option></select></label>
-        <label for="amh-year">Year to inspect<select id="amh-year"></select></label>
-      </div>
-      <figure class="amh-figure">
-        <figcaption><div><h3>Median absolute move by year</h3><p id="amh-chart-caption"></p></div>
-          <div class="amh-legend"><span>Federal Reserve</span><span>ECB</span></div>
-        </figcaption>
-        <div id="amh-chart" tabindex="0" role="group" aria-label="Annual median absolute changes. Use the left and right arrows to select a year."></div>
-        <p id="amh-latest"></p>
-      </figure>
-      <div class="amh-selection" aria-live="polite"><h3 id="amh-selection-title"></h3><p id="amh-selection-desc"></p><p class="amh-yearbook"><a id="amh-yearbook" href="yearbook.html?historyYear=2000">Read the 2000 yearbook</a></p></div>
-      <div class="amh-year-detail">
-        <div class="amh-stat-block">
-          <table class="amh-summary"><caption>Distribution and coverage</caption>
-            <thead><tr><th scope="col">Measure</th><th scope="col">Fed</th><th scope="col">ECB</th></tr></thead>
-            <tbody id="amh-summary-body"></tbody>
-          </table>
-        </div>
-        <div class="amh-ranked"><h4>Largest moves in the selected year</h4><div id="amh-ranks"></div></div>
-      </div>
-      <section class="amh-prior" aria-labelledby="amh-prior-title">
-        <div class="amh-prior-head"><h3 id="amh-prior-title">How did the US curve move before Fed events?</h3>
-          <label for="amh-before">Event sample<select id="amh-before"><option value="statements">Fed statement dates</option><option value="speeches">Board speech dates</option></select></label></div>
-        <p>Compare the fifth and first jointly quoted Treasury closes before each event. T−5 to T−1 spans four close-to-close changes and ends before the event date. A date is excluded if the latest available prior close is more than a week old.</p>
-        <p id="amh-prior-coverage" role="status">Loading pre-event Treasury data…</p>
-        <div id="amh-prior-values" hidden><dl id="amh-prior-stats"></dl><p id="amh-prior-largest"></p></div>
-        <details class="mr-help"><summary>Pre-event pricing and sample construction</summary><p>Each date contributes once, including dates with several speeches. The medians of the two yields and their spread are calculated separately. The 2s10s spread is the ten-year yield minus the two-year yield. Daily Treasury yields reflect both the expected path of short rates and term premia. Other economic news during the window can affect both. Estimating the probability of a particular policy decision requires an instrument and assumptions about the possible outcomes. The meeting windows above measure a different interval around the announcement itself.</p>
-          <p class="amh-links"><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml">US Treasury daily par yields</a> <a href="https://www.federalreserve.gov/newsevents/speeches.htm">Federal Reserve Board speech archive</a></p></details>
-      </section>
-      <details class="amh-details" id="amh-grid"><summary>All years in a table</summary>
-        <div class="mr-table-scroll" role="region" aria-label="Annual distributions for the selected window and instrument" tabindex="0">
-          <table class="amh-all"><caption id="amh-grid-caption"></caption>
-            <thead><tr><th rowspan="2" scope="col">Year</th><th colspan="3" scope="colgroup">Federal Reserve</th><th colspan="3" scope="colgroup">ECB</th></tr>
-            <tr><th scope="col">Quoted / eligible</th><th scope="col">Median</th><th scope="col">Median |move|</th><th scope="col">Quoted / eligible</th><th scope="col">Median</th><th scope="col">Median |move|</th></tr></thead>
-            <tbody id="amh-grid-body"></tbody>
-          </table>
-        </div>
-      </details>
-      <div class="amh-actions"><button type="button" class="amh-export" id="amh-export">Download annual statistics (CSV)</button></div>
-      <details class="mr-help amh-method"><summary>Sample, instruments and window definitions</summary>
-        <p>Eligible dates have a published observation window. A missing quote is an eligible window without the selected instrument. Dates with no such window are counted separately. Zero changes remain in the sample. The median absolute move is the middle observation after sorting by magnitude. The signed median and middle 50% retain direction. Quantiles use linear interpolation, and rankings use absolute changes before display rounding.</p>
-        <p id="amh-def-fed"></p><p id="amh-def-ecb"></p>
-        <p>Rates and slope changes use basis points. Equity and currency changes use percent. US and German government yields refer to different issuers. EUR/USD is dollars per euro. Price changes can reflect several kinds of news. Each source uses its own trading interval for the selected event type.</p>
-        <p class="amh-links"><a href="https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/">San Francisco Fed · USMPD</a> <a href="https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx">ECB · EA-EMPD workbook</a></p>
-      </details>
-    </div>
-    <noscript>Enable JavaScript to explore the annual market observations.</noscript>
-  </section>
-<section class="mr-analysis" id="uk-market-history" aria-labelledby="uk-market-title">
-  <h2 id="uk-market-title">How did UK markets move around Bank of England decisions?</h2>
-  <p>Compare the median size of the move after an MPC announcement with the move around a quarterly press conference. The largest move keeps its sign so you can see which way the market went.</p>
-  <div class="mr-pair-picker" id="uk-market-controls" hidden>
-    <label>UK comparison year<select id="uk-market-year"></select></label>
-    <label>UK instrument<select id="uk-market-asset"></select></label>
-  </div>
-  <p id="uk-market-status" role="status">Loading UK results…</p>
-  <div class="mr-table-scroll" id="uk-market-results" tabindex="0" role="region" aria-label="UK monetary policy event windows" hidden>
-    <table class="mr-method-table">
-      <caption id="uk-market-caption"></caption>
-      <thead><tr><th scope="col">Event window</th><th scope="col">Quoted / recorded</th><th scope="col">Median absolute move</th><th scope="col">Largest move and date</th></tr></thead>
-      <tbody id="uk-market-rows"></tbody>
-    </table>
-  </div>
-  <details class="mr-help">
-    <summary>UK timing, units and coverage</summary>
-    <p>The announcement window starts 10 minutes before the policy decision and ends 20 minutes after it. The 75-minute conference window starts 10 minutes before the conference and ends 5 minutes after it finishes. The researchers compare median quotes from the 10 minutes just outside each end of the window. From August 2015, the quarterly forecast was published with the decision. Earlier forecasts accompanied the conference.</p>
-    <p>Counts use the events in the workbook. It omits some releases with unavailable data, including three 7 a.m. policy announcements in 2020. Blank instrument quotes are excluded from the median. The sterling two-year swap series starts in 2009. Gilt and swap changes are in basis points. Equity and exchange-rate changes are log returns in percent. A positive GBP/USD return means sterling strengthened.</p>
-  </details>
-  <p class="mr-method-links"><a href="https://www.bankofengland.co.uk/working-paper/2023/measuring-monetary-policy-in-the-uk-ukmpd">Bank of England · Braun, Miranda-Agrippino and Saha</a> · <a href="https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/measuring-monetary-policy-in-the-uk-the-ukmpesd.xlsx">Original UKMPD workbook</a> · <a href="data/uk-market-years.json" download>Download annual results (JSON)</a></p>
-</section>
-<script defer src="uk-market-years.js"></script>
-  <section class="mr-analysis pre-curve" id="pre-event-curve" aria-labelledby="pc-title">
-    <h2 id="pc-title">How did the US curve move before the event?</h2>
-    <p>Compare two- and ten-year Treasury yields over the sessions leading into a Fed speech or statement. A custom date uses the same comparison.</p>
-    <p class="mr-method-links"><a href="?curveDate=2025-08-22&amp;curveEvent=https%3A%2F%2Fwww.federalreserve.gov%2Fnewsevents%2Fspeech%2Fpowell20250822a.htm#pre-event-curve">Powell at Jackson Hole, August 2025</a> · <a href="?curveDate=2026-11-20&amp;curveEvent=https%3A%2F%2Fwww.federalreserve.gov%2Fnewsevents%2Fspeech%2Fwaller20261120a.htm#pre-event-curve">Waller at the College Fed Challenge, November 2026</a></p>
-    <p id="pc-status" role="status">Loading Treasury yields and events…</p>
-    <div id="pc-content" hidden>
-      <div class="pc-controls">
-        <label>Event type<select id="pc-kind"><option value="speech">Fed speeches</option><option value="statement">Fed statements</option><option value="custom">Custom date</option></select></label>
-        <label id="pc-year-field">Year<select id="pc-year"></select></label>
-        <label id="pc-search-field">Find a speech<input type="search" id="pc-search" placeholder="Speaker or title"></label>
-        <label id="pc-event-field">Event<select id="pc-event"></select></label>
-        <label id="pc-date-field" hidden>Event date (New York)<input type="date" id="pc-date"></label>
-      </div>
-      <p id="pc-event-note" aria-live="polite"></p>
-      <div id="pc-expectations"></div>
-      <div id="pc-results" hidden>
-        <div class="pc-figure">
-          <div class="pc-figure-head"><div><h3>Yields before the event</h3><p id="pc-period"></p></div><div class="pc-legend"><span>2-year</span><span>10-year</span></div></div>
-          <div id="pc-chart"></div>
-          <p id="pc-levels"></p>
-        </div>
-        <div class="mr-table-scroll" role="region" aria-label="US yield and spread changes" tabindex="0">
-          <table class="mr-method-table pc-table">
-            <caption>Changes in basis points. A positive 2s10s change means the curve steepened.</caption>
-            <thead><tr><th scope="col">Window</th><th scope="col">Quoted dates</th><th scope="col">2Y</th><th scope="col">10Y</th><th scope="col">2s10s</th></tr></thead>
-            <tbody id="pc-before"></tbody><tbody id="pc-after"></tbody>
-          </table>
-        </div>
-        <p id="pc-reading"></p>
-        <p id="pc-timing"></p>
-      </div>
-      <details class="mr-help"><summary>Window definitions and data sources</summary>
-        <p>Each pre-event window ends at the last jointly quoted close strictly before the event date. A five-session change compares that close with the fifth earlier quoted close. The spread is the ten-year yield minus the two-year yield. If both yields rise, the curve steepens when the ten-year rises by more. The event-date and following-close rows show changes from the immediately preceding quoted close. A dash marks an unavailable comparison. Weekends, holidays and missing joint observations are skipped when counting sessions.</p>
-        <p>US Treasury par yields use indicative quotes sampled at approximately 15:30 New York time. Yield levels reflect both expected future short rates and term premia. A change in slope alone cannot separate those contributions. A daily change can include other news. For minute-by-minute speech windows, use timestamped quotes in the <a href="./#event-calculator">event calculator</a>.</p>
-        <p class="pc-sources" id="pc-sources"></p>
-      </details>
-    </div>
-    <noscript>Selecting an event and calculating daily changes requires JavaScript. <a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml">Browse US Treasury data.</a></noscript>
-  </section>
-  <div id="mr-speech-intraday"></div>
-  <section class="mr-analysis" id="pre-speech-sonia" aria-label="Sterling forward pricing before Bank of England speeches"></section>
-  <section class="mr-analysis" id="statement-risk" aria-labelledby="statement-risk-title">
-    <h2 id="statement-risk-title">Which history better predicted the size of the next rate move?</h2>
-    <p>A portfolio manager budgeting risk before a Fed statement would have made smaller errors overall using the typical two-year move from 2009–17. Its edge disappeared in 2022–26. At ECB decisions the two historical estimates were only 0.10 bp apart, and neither captured the larger German yield moves in the later years.</p>
-    <div class="mr-table-scroll" role="region" tabindex="0" aria-label="Mean absolute forecast error in basis points · smaller is closer"><table class="mr-method-table"><caption>Mean absolute forecast error in basis points · smaller is closer</caption><thead><tr><th scope="col">Instrument</th><th scope="col">Meetings</th><th scope="col">2000–08</th><th scope="col">2009–17</th><th scope="col">Prior 20</th></tr></thead><tbody>
-<tr><th scope="row">US two-year</th><td>77</td><td>2.823</td><td>2.404</td><td>2.56</td></tr>
-<tr><th scope="row">US 10Y − 2Y</th><td>77</td><td>1.686</td><td>1.583</td><td>1.723</td></tr>
-<tr><th scope="row">German two-year</th><td>68</td><td>2.074</td><td>2.107</td><td>2.091</td></tr>
-<tr><th scope="row">German 10Y − 2Y</th><td>68</td><td>0.84</td><td>0.84</td><td>0.857</td></tr>
-</tbody></table></div>
-    <p>The estimates use two nine-year training periods. Both face the same later meetings within each central bank. A third forecast takes the median of the latest 20 quoted announcements available before each meeting. All three predict the absolute size of a statement-window move. The 2s10s measure is the absolute change in the ten-year yield minus the two-year yield, calculated by differencing the signed moves first.</p>
-    <details class="mr-help"><summary>Training samples, periods and sensitivity</summary>
-    <div class="mr-table-scroll" role="region" tabindex="0" aria-label="Typical absolute statement move used as the fixed forecast"><table class="mr-method-table"><caption>Typical absolute statement move used as the fixed forecast</caption><thead><tr><th scope="col">Instrument</th><th scope="col">2000–08 quotes</th><th scope="col">Forecast (bp)</th><th scope="col">2009–17 quotes</th><th scope="col">Forecast (bp)</th></tr></thead><tbody>
-<tr><th scope="row">US two-year</th><td>80</td><td>3.49</td><td>73</td><td>1.62</td></tr>
-<tr><th scope="row">US 10Y − 2Y</th><td>80</td><td>2.105</td><td>73</td><td>1.58</td></tr>
-<tr><th scope="row">German two-year</th><td>133</td><td>0.6</td><td>95</td><td>0.5</td></tr>
-<tr><th scope="row">German 10Y − 2Y</th><td>133</td><td>0.5</td><td>95</td><td>0.5</td></tr>
-</tbody></table></div>
-    <div class="mr-table-scroll" role="region" tabindex="0" aria-label="Two-year yield forecast errors by evaluation period (bp)"><table class="mr-method-table"><caption>Two-year yield forecast errors by evaluation period (bp)</caption><thead><tr><th scope="col">Evaluation period</th><th scope="col">Instrument</th><th scope="col">Meetings</th><th scope="col">2000–08</th><th scope="col">2009–17</th><th scope="col">Prior 20</th></tr></thead><tbody>
-<tr><th scope="row">2018–2019</th><td>US two-year</td><td>17</td><td>2.165</td><td>1.718</td><td>1.891</td></tr>
-<tr><th scope="row">2020–2021</th><td>US two-year</td><td>21</td><td>2.843</td><td>1.528</td><td>1.411</td></tr>
-<tr><th scope="row">2022–2026</th><td>US two-year</td><td>39</td><td>3.099</td><td>3.175</td><td>3.471</td></tr>
-<tr><th scope="row">2018–2019</th><td>German two-year</td><td>16</td><td>0.618</td><td>0.606</td><td>0.628</td></tr>
-<tr><th scope="row">2020–2021</th><td>German two-year</td><td>16</td><td>0.903</td><td>0.884</td><td>0.908</td></tr>
-<tr><th scope="row">2022–2026</th><td>German two-year</td><td>36</td><td>3.241</td><td>3.318</td><td>3.267</td></tr>
-</tbody></table></div>
-    <p>Dropping one evaluation year at a time leaves the 2009–17 forecast ahead for the US two-year by 0.24–0.58 bp. The 2000–08 forecast keeps a 0.025–0.043 bp edge for the German two-year. These ranges measure sensitivity to individual years. The meetings within a policy cycle share economic shocks, and the ranges do not quantify sampling uncertainty.</p>
-    <p>Each quoted announcement gets equal weight. A zero is an observation. One of 96 ECB statements in 2009–17 lacks the German yield pair. US evaluation runs from 31 January 2018 to 28 October 2026, and ECB evaluation from 25 January 2018 to 11 June 2026. Results use the historical files available on 20 November 2026. Cutoffs were chosen retrospectively. Original release-day dataset vintages could differ.</p>
-    <p>The US window starts ten minutes before the statement and ends twenty minutes after. ECB observations compare median Frankfurt quotes at 13:25–13:35 and 14:00–14:10, shifting to 13:55–14:05 and 14:30–14:40 from July 2022. News released with the statement, the prevailing rate level and changes in meeting frequency can all affect the distribution. Attribution to a chair or a particular policy would require further evidence.</p>
-    </details>
-    <p>On 18 September 2024 the two-year Treasury fell 8.58 bp in the statement window. The 2000–08 benchmark missed its magnitude by 5.09 bp, against 6.96 bp for 2009–17. Both underestimated risk on a day when the decision and projections arrived together. The direction of that move was unknown to either forecast before the release.</p>
-    <p class="mr-method-links"><a href="casebook.html#fed-cut-september-2024">The September 2024 decision and its pricing</a> · <a href="macro-history.html?view=cycles">Compare inflation forecasts across periods</a> · <a href="data/statement-risk-forecasts.csv" download>Meeting-by-meeting forecasts (CSV)</a></p>
-    <p class="mr-method-links"><a href="https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/">San Francisco Fed · USMPD</a> · <a href="https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx">ECB · event-study workbook</a></p>
-  </section>
-  <p id="mr-load" role="status">Loading event data…</p>
-  <div id="mr-explorer" hidden>
+<div class="mr-intro hub-intro"><p>Rates &nbsp;/&nbsp; FX &nbsp;/&nbsp; Equities</p><h1>Market reactions</h1><p class="hub-deck">Trace the move from the price before a central bank announcement to the reaction in rates, currencies and equities.</p></div>
+<nav class="hub-start" aria-label="Featured research"><a href="cross-asset-events.html">Open the cross-asset explorer<span aria-hidden="true"> ↗</span></a><a href="#speech-futures">Check pre-speech pricing<span aria-hidden="true"> ↗</span></a></nav>
+<details class="hub-section" id="chapter-event-windows"><summary><h2>Event windows</h2><span class="hub-description">Compare instruments around a decision, a press conference or a speech.</span></summary><div class="hub-content"><nav class="hub-resources" aria-label="Event windows studies"><ul><li><a href="cross-asset-events.html">Cross-asset event study</a></li><li><a href="#mr-explorer">Decision and conference windows</a></li><li><a href="#mr-speech-intraday">US intraday speech moves</a></li><li><a href="#ecb-speech-windows">Euro-area speech windows</a></li><li><a href="#uk-market-history">UK meeting windows</a></li></ul></nav>
+<p id="mr-load" role="status">Loading event data…</p>
+<div id="mr-explorer" hidden>
     <h2>Decision and press conference windows</h2>
     <div class="mr-controls">
       <label>Central bank<select id="mr-bank"></select></label>
@@ -335,7 +100,8 @@
     <p class="mr-method-links"><a href="empirical-studies.html?study=markets">Compare policy surprises across meetings</a> · <a href="casebook.html#fed-guidance-2011">Statement and full-day moves</a> · <a href="casebook.html#fed-cut-september-2024">September 2024 Fed cut</a></p>
     <div class="mr-sources"><strong>Source</strong><a id="mr-source" href=""></a><span id="mr-credit"></span></div>
   </div>
-  <section id="ecb-speech-windows" class="mr-analysis evidence-window" aria-labelledby="ecb-speech-heading">
+<div id="mr-speech-intraday"></div>
+<section id="ecb-speech-windows" class="mr-analysis evidence-window" aria-labelledby="ecb-speech-heading">
     <h2 id="ecb-speech-heading">Euro-area speech windows</h2>
     <p data-es="scope" role="status">Loading ECB communication dates…</p>
     <div data-es="controls" hidden>
@@ -349,7 +115,247 @@
     </details>
     <p class="mr-method-links"><a href="https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx">ECB workbook and window definitions</a> · <a href="https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3157~f5789c7b8a.en.pdf">Altavilla et al., monetary transmission</a> · <a href="historical-data.html#ecb-omt">The 2012 sovereign bond commitment</a></p>
   </section>
-  <section class="mr-analysis mr-daily" id="mr-daily" aria-labelledby="mr-daily-title">
+<section class="mr-analysis" id="uk-market-history" aria-labelledby="uk-market-title">
+  <h2 id="uk-market-title">How did UK markets move around Bank of England decisions?</h2>
+  <p>Compare the median size of the move after an MPC announcement with the move around a quarterly press conference. The largest move keeps its sign so you can see which way the market went.</p>
+  <div class="mr-pair-picker" id="uk-market-controls" hidden>
+    <label>UK comparison year<select id="uk-market-year"></select></label>
+    <label>UK instrument<select id="uk-market-asset"></select></label>
+  </div>
+  <p id="uk-market-status" role="status">Loading UK results…</p>
+  <div class="mr-table-scroll" id="uk-market-results" tabindex="0" role="region" aria-label="UK monetary policy event windows" hidden>
+    <table class="mr-method-table">
+      <caption id="uk-market-caption"></caption>
+      <thead><tr><th scope="col">Event window</th><th scope="col">Quoted / recorded</th><th scope="col">Median absolute move</th><th scope="col">Largest move and date</th></tr></thead>
+      <tbody id="uk-market-rows"></tbody>
+    </table>
+  </div>
+  <details class="mr-help">
+    <summary>UK timing, units and coverage</summary>
+    <p>The announcement window starts 10 minutes before the policy decision and ends 20 minutes after it. The 75-minute conference window starts 10 minutes before the conference and ends 5 minutes after it finishes. The researchers compare median quotes from the 10 minutes just outside each end of the window. From August 2015, the quarterly forecast was published with the decision. Earlier forecasts accompanied the conference.</p>
+    <p>Counts use the events in the workbook. It omits some releases with unavailable data, including three 7 a.m. policy announcements in 2020. Blank instrument quotes are excluded from the median. The sterling two-year swap series starts in 2009. Gilt and swap changes are in basis points. Equity and exchange-rate changes are log returns in percent. A positive GBP/USD return means sterling strengthened.</p>
+  </details>
+  <p class="mr-method-links"><a href="https://www.bankofengland.co.uk/working-paper/2023/measuring-monetary-policy-in-the-uk-ukmpd">Bank of England · Braun, Miranda-Agrippino and Saha</a> · <a href="https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/measuring-monetary-policy-in-the-uk-the-ukmpesd.xlsx">Original UKMPD workbook</a> · <a href="data/uk-market-years.json" download>Download annual results (JSON)</a></p>
+</section></div></details>
+<details class="hub-section" id="chapter-prior-pricing"><summary><h2>Prior expectations</h2><span class="hub-description">Read futures settlements, pre-event yields and dealer probabilities alongside the announcement.</span></summary><div class="hub-content"><nav class="hub-resources" aria-label="Prior expectations studies"><ul><li><a href="#speech-futures">Pricing before a speech</a></li><li><a href="#pre-event-curve">US pre-event yield curve</a></li><li><a href="#pre-speech-sonia">Sterling forward pricing</a></li><li><a href="#dealer-expectations">Dealers’ meeting probabilities</a></li><li><a href="policy-stance.html">Policy tone versus market pricing</a></li></ul></nav>
+<section class="mr-analysis fd-study" id="speech-futures" aria-labelledby="speech-futures-title">
+  <h2 id="speech-futures-title">How much of the next meeting was priced before the speech?</h2>
+  <p>Follow the same FOMC meeting across quotes. A contract can already imply a full quarter-point move even when it barely changes on the day a policymaker speaks.</p>
+  <h3>Cook and Waller, 20 November 2026 · December fed funds futures</h3>
+  <p>Cook favoured further tightening. Waller gave no rate-path guidance. The December contract rose from 95.9250 at 3 p.m. ET on Thursday to 95.9600 at 3 p.m. ET on Friday. On the same assumptions, the implied increase at the 9 December decision fell from 27.48 to 22.55 bp. The 4.93 bp decline spans both speeches and the 10 a.m. slot for two BLS releases. It leaves the size of any reaction to Cook’s speech unidentified. <a href="fed-speech-week.html#cook20261120">Cook’s remarks and earlier outlook</a> · <a href="fed-speech-week.html#waller20261120">Waller’s remarks</a> · <a href="https://www.bls.gov/schedule/2026/11_sched.htm">BLS release schedule</a></p>
+  <h3>Jefferson, 19 November 2026 · December fed funds futures</h3>
+  <p>Before Philip Jefferson’s remarks at 9:25 a.m. ET, the last daily settlement implied <strong>26.77 bp of tightening</strong> at the 9 December decision. The estimate had fallen 0.70 bp since Friday 13 November. By Thursday’s settlement it was back to 27.48 bp. Compare the 0.70 bp change on the speech date with the much larger amount that was already priced.</p>
+  <div class="mr-table-scroll" role="region" aria-label="December 2026 futures settlement observations" tabindex="0"><table class="mr-method-table"><caption>CME final settlements for ZQZ6. The last two columns assume one change in the effective fed funds rate from 10 December.</caption><thead><tr><th scope="col">Settlement date</th><th scope="col">Futures price</th><th scope="col">December mean rate</th><th scope="col">Implied 10–31 Dec rate</th><th scope="col">Move from 3.88%</th></tr></thead><tbody>
+<tr><th scope="row">13 Nov</th><td>95.9250</td><td>4.075%</td><td>4.155%</td><td>+27.48 bp</td></tr>
+<tr><th scope="row">16 Nov</th><td>95.9350</td><td>4.065%</td><td>4.141%</td><td>+26.07 bp</td></tr>
+<tr><th scope="row">17 Nov</th><td>95.9350</td><td>4.065%</td><td>4.141%</td><td>+26.07 bp</td></tr>
+<tr><th scope="row">18 Nov</th><td>95.9300</td><td>4.070%</td><td>4.148%</td><td>+26.77 bp</td></tr>
+<tr><th scope="row">19 Nov</th><td>95.9250</td><td>4.075%</td><td>4.155%</td><td>+27.48 bp</td></tr>
+<tr><th scope="row">20 Nov</th><td>95.9600</td><td>4.040%</td><td>4.105%</td><td>+22.55 bp</td></tr>
+  </tbody></table></div>
+  <details class="mr-help"><summary>Calculation, observation times and other news</summary>
+    <p>The contract settles against the calendar-month average of the effective federal funds rate. Subtract the price from 100 to get the implied December mean. Assume the latest available effective rate of 3.88% continues for 1–9 December. Multiply the monthly mean by 31, subtract nine days at 3.88%, then divide by 22 to obtain the implied average from 10 December. Realised rates can move within a target range, and the futures price can contain a premium. Many outcome distributions fit the same average. Changes shown are computed before rounding the displayed levels.</p>
+    <p>Each calculation uses the preceding published effective-rate observation. CME’s settlement window for the front contracts ends at 2 p.m. Chicago time. The 18 November settlement followed the 2 p.m. ET release of the October FOMC minutes. Weekly jobless claims came out at 8:30 a.m. ET on 19 November, before Jefferson’s remarks. These daily intervals include both policy news and other market information.</p>
+    <p class="fd-links"><a href="data/fed-futures-nov-2026.csv" download>Six settlement observations, calculations and dated source links (CSV)</a> <a href="https://www.cmegroup.com/markets/interest-rates/stirs/30-day-federal-fund/settlements.html">CME futures settlements</a> <a href="https://www.cmegroup.com/notices/ser/2018/04/SER-8105.pdf">CME settlement procedure</a> <a href="https://markets.newyorkfed.org/api/rates/unsecured/effr/search.json?startDate=11/12/2026&amp;endDate=11/19/2026">New York Fed effective rates</a> <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">FOMC calendar</a> <a href="https://www.federalreserve.gov/newsevents/speech/files/jefferson20261119a.pdf">Jefferson’s remarks and release time</a> <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm">October minutes release</a> <a href="https://oui.doleta.gov/press/2026/111926.pdf">19 November claims release</a></p>
+  </details>
+  <h3>Powell at Jackson Hole · the next September meeting</h3>
+  <p>In 2023 the market was weighing a hold against another increase. In 2024 it was choosing between two cut sizes. The table translates each reported CME FedWatch distribution into basis points of expected policy change.</p>
+  <div class="mr-table-scroll" role="region" aria-label="Jackson Hole meeting pricing in 2023 and 2024" tabindex="0"><table class="mr-method-table"><caption>Positive moves are hikes. Negative moves are cuts. Times are US Eastern.</caption><thead><tr><th scope="col">Observation</th><th scope="col">Outcome priced</th><th scope="col">Probability</th><th scope="col">Implied move</th></tr></thead><tbody>
+    <tr><th scope="row">25 Aug 2023 · 10:00 a.m., before remarks</th><td>25 bp hike</td><td>19.5%</td><td>+4.88 bp</td></tr>
+    <tr><th scope="row">25 Aug 2023 · 10:20 a.m.</th><td>25 bp hike</td><td>21.5%</td><td>+5.38 bp</td></tr>
+    <tr><th scope="row">25 Aug 2023 · 3 p.m.</th><td>25 bp hike</td><td>19.5%</td><td>+4.88 bp</td></tr>
+    <tr><th scope="row">21 Aug 2024 · two days before</th><td>50 bp cut</td><td>36.5%</td><td>−34.13 bp</td></tr>
+    <tr><th scope="row">22 Aug 2024 · prior day</th><td>50 bp cut</td><td>24.0%</td><td>−31.00 bp</td></tr>
+    <tr><th scope="row">23 Aug 2024 · afternoon report</th><td>50 bp cut</td><td>36.5%</td><td>−34.13 bp</td></tr>
+  </tbody></table></div>
+  <p>In 2023 the 20-minute comparison spans Powell’s scheduled 10:05 a.m. release. The probability of a hike rose two percentage points, equivalent to <strong>0.50 bp</strong> of extra expected tightening, and had reversed by 3 p.m. In 2024, roughly 31 bp of easing was already priced the day before the speech. Friday afternoon’s report implied about 3.13 bp more easing, back at Wednesday’s level. The Fed eventually held in September 2023 and cut by 50 bp in September 2024.</p>
+  <details class="mr-help"><summary>Jackson Hole sources and timing</summary>
+    <p>Bespoke recorded three CME FedWatch screens on 25 August 2023. Its first two figure captions supply the 10:00 and 10:20 times. Its text identifies the final snapshot as 3 p.m. The last figure caption repeats 10:20. The other outcome was an unchanged rate. In 2024 the other outcome was a 25 bp cut. Fortune reported Wednesday’s probability, and MarketWatch quoted both Thursday’s and Friday’s in its Friday afternoon update. The quote times are unspecified, so the 2024 comparison covers a wider interval than the 2023 speech window.</p>
+    <p class="fd-links"><a href="https://media.bespokepremium.com/uploads/2023/08/Bespoke-Report-082523-osdurh54f.pdf#page=16">2023 FedWatch snapshots, p. 16</a> <a href="https://www.federalreserve.gov/newsevents/speech/files/powell20230825a.pdf">2023 speech and release time</a> <a href="https://fortune.com/2024/08/21/interest-rate-cuts-all-but-guaranteed-fed-meeting-experts/">21 August 2024 quote</a> <a href="https://www.marketwatch.com/story/bond-yields-steady-before-pivotal-powell-remarks-297be706">22 and 23 August 2024 quotes</a> <a href="https://www.federalreserve.gov/newsevents/speech/files/powell20240823a.pdf">2024 speech and release time</a> <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20230920a.htm">September 2023 decision</a> <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm">September 2024 decision</a> <a href="https://www.cmegroup.com/tools-information/quikstrike/cme-fedwatch-tool-user-guide.html">CME FedWatch methodology</a></p>
+  </details>
+</section>
+<section class="mr-analysis pre-curve" id="pre-event-curve" aria-labelledby="pc-title">
+    <h2 id="pc-title">How did the US curve move before the event?</h2>
+    <p>Compare two- and ten-year Treasury yields over the sessions leading into a Fed speech or statement. A custom date uses the same comparison.</p>
+    <p class="mr-method-links"><a href="?curveDate=2025-08-22&amp;curveEvent=https%3A%2F%2Fwww.federalreserve.gov%2Fnewsevents%2Fspeech%2Fpowell20250822a.htm#pre-event-curve">Powell at Jackson Hole, August 2025</a> · <a href="?curveDate=2026-11-20&amp;curveEvent=https%3A%2F%2Fwww.federalreserve.gov%2Fnewsevents%2Fspeech%2Fwaller20261120a.htm#pre-event-curve">Waller at the College Fed Challenge, November 2026</a></p>
+    <p id="pc-status" role="status">Loading Treasury yields and events…</p>
+    <div id="pc-content" hidden>
+      <div class="pc-controls">
+        <label>Event type<select id="pc-kind"><option value="speech">Fed speeches</option><option value="statement">Fed statements</option><option value="custom">Custom date</option></select></label>
+        <label id="pc-year-field">Year<select id="pc-year"></select></label>
+        <label id="pc-search-field">Find a speech<input type="search" id="pc-search" placeholder="Speaker or title"></label>
+        <label id="pc-event-field">Event<select id="pc-event"></select></label>
+        <label id="pc-date-field" hidden>Event date (New York)<input type="date" id="pc-date"></label>
+      </div>
+      <p id="pc-event-note" aria-live="polite"></p>
+      <div id="pc-expectations"></div>
+      <div id="pc-results" hidden>
+        <div class="pc-figure">
+          <div class="pc-figure-head"><div><h3>Yields before the event</h3><p id="pc-period"></p></div><div class="pc-legend"><span>2-year</span><span>10-year</span></div></div>
+          <div id="pc-chart"></div>
+          <p id="pc-levels"></p>
+        </div>
+        <div class="mr-table-scroll" role="region" aria-label="US yield and spread changes" tabindex="0">
+          <table class="mr-method-table pc-table">
+            <caption>Changes in basis points. A positive 2s10s change means the curve steepened.</caption>
+            <thead><tr><th scope="col">Window</th><th scope="col">Quoted dates</th><th scope="col">2Y</th><th scope="col">10Y</th><th scope="col">2s10s</th></tr></thead>
+            <tbody id="pc-before"></tbody><tbody id="pc-after"></tbody>
+          </table>
+        </div>
+        <p id="pc-reading"></p>
+        <p id="pc-timing"></p>
+      </div>
+      <details class="mr-help"><summary>Window definitions and data sources</summary>
+        <p>Each pre-event window ends at the last jointly quoted close strictly before the event date. A five-session change compares that close with the fifth earlier quoted close. The spread is the ten-year yield minus the two-year yield. If both yields rise, the curve steepens when the ten-year rises by more. The event-date and following-close rows show changes from the immediately preceding quoted close. A dash marks an unavailable comparison. Weekends, holidays and missing joint observations are skipped when counting sessions.</p>
+        <p>US Treasury par yields use indicative quotes sampled at approximately 15:30 New York time. Yield levels reflect both expected future short rates and term premia. A change in slope alone cannot separate those contributions. A daily change can include other news. For minute-by-minute speech windows, use timestamped quotes in the <a href="./#event-calculator">event calculator</a>.</p>
+        <p class="pc-sources" id="pc-sources"></p>
+      </details>
+    </div>
+    <noscript>Selecting an event and calculating daily changes requires JavaScript. <a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml">Browse US Treasury data.</a></noscript>
+  </section>
+<section id="dealer-expectations" class="mr-analysis" aria-labelledby="dealer-title">
+  <h2 id="dealer-title">What did dealers expect the Fed to do?</h2>
+  <p>Before each scheduled FOMC meeting in 2022–24, New York Fed primary dealers reported their most likely target rate. Many surveys also asked how much probability dealers placed on each possible outcome. The replies predate the decisions. The New York Fed made the aggregates public after the minutes.</p>
+  <p id="dealer-status" role="status" class="mr-footnote">Loading the meeting surveys…</p>
+  <div id="dealer-content" hidden>
+    <label for="dealer-meeting">FOMC decision <select id="dealer-meeting"></select></label>
+    <div id="dealer-result" aria-live="polite"></div>
+    <div id="dealer-distribution"></div>
+    <div id="dealer-market"></div>
+    <p id="dealer-links" class="mr-method-links"></p>
+    <details class="mr-help"><summary>Compare all 24 meetings</summary><div id="dealer-table"></div></details>
+    <details class="mr-help"><summary>How the forecasts and errors are measured</summary>
+      <p>The dates are the survey’s distribution and response deadline. The New York Fed published aggregate results after the meeting minutes, so these are retrospective records of answers made before the decision. The tables use the original premeeting panel. The median of each dealer’s most likely midpoint and the average probability assigned to each bin answer different questions. Dealers can agree on a most likely outcome while assigning substantial probability elsewhere.</p>
+      <p>The signed error is the realised target-range midpoint minus the median modal forecast, in basis points, after rounding the realised midpoint to the survey’s published precision. A positive error means the target was higher than the forecast. Gross errors are compared with the simple forecast of an unchanged target. Probability bins retain the New York Fed’s published rounding and can total slightly more or less than 100%. One basis point equals 0.01 percentage point.</p>
+      <p>“Move on 25 bp grid” identifies the change from the premeeting midpoint that lands in a given bin, assuming quarter-point steps. The first and last bins may cover several changes. They are shown as tail ranges. A missing meeting distribution means the probability question asked about another horizon.</p>
+      <p>A dealer can expect substantial easing over the next twelve months while favouring a quarter-point cut at the first meeting. Use the September 2024 probability bins to examine expectations for that specific decision.</p>
+      <p><a href="https://www.newyorkfed.org/markets/primarydealer_survey_questions">New York Fed historical surveys</a> · <a href="https://www.newyorkfed.org/newsevents/events/regional_outreach/2012/0104_2012.html">Publication timing</a> · <a href="data/dealer-expectations.json">Download all observations</a></p>
+    </details>
+  </div>
+</section>
+<section class="mr-analysis" id="pre-speech-sonia" aria-label="Sterling forward pricing before Bank of England speeches"></section></div></details>
+<details class="hub-section" id="chapter-market-transmission"><summary><h2>Market transmission</h2><span class="hub-description">Separate the current rate decision from news about the next meeting and the longer policy path.</span></summary><div class="hub-content"><nav class="hub-resources" aria-label="Market transmission studies"><ul><li><a href="policy-path-dynamics.html">Statements, conferences and speeches</a></li><li><a href="policy-market-analysis.html">Policy signals and market moves</a></li><li><a href="#fed-direction-study">Before and after the FOMC</a></li><li><a href="macro-studies.html#curve-components">Drivers of the 2s10s spread</a></li><li><a href="dealer-absorption.html">Treasury auctions and dealer positions</a></li><li><a href="yen-intervention.html">Japanese FX intervention</a></li></ul></nav>
+<section class="mr-analysis fd-study" id="fed-direction-study" aria-labelledby="fd-title">
+    <h2 id="fd-title">Did the two-year yield keep moving in the same direction at the Fed statement?</h2>
+    <p>Compare the change in the two-year Treasury yield over the four trading-day intervals before an FOMC statement with its move around the release. The filters show whether the announcement extended or reversed the earlier move.</p>
+    <p id="fd-status" role="status">Loading matched statement dates…</p>
+    <div id="fd-content" hidden>
+      <p id="fd-finding"></p>
+      <div class="fd-controls">
+        <label>Period<select id="fd-era"><option value="all">All years</option><option value="2000-07">2000–2007</option><option value="2008-15">2008–2015</option><option value="2016-19">2016–2019</option><option value="2020-on">2020 onwards</option></select></label>
+        <label>Size of earlier move<select id="fd-size"><option value="all">Any magnitude</option><option value="small">Under 10 bp</option><option value="large">At least 10 bp</option></select></label>
+        <label>Small moves<select id="fd-rule"><option value="raw">Include all quoted changes</option><option value="one-bp">Both moves at least 1 bp</option></select></label>
+      </div>
+      <div class="fd-grid">
+        <div class="fd-distribution">
+          <table><caption>Meeting counts by yield direction</caption><thead><tr><th scope="col">Before the meeting</th><th scope="col">Statement ↑</th><th scope="col">Statement ↓</th><th scope="col">Flat</th></tr></thead><tbody id="fd-matrix"></tbody></table>
+          <p id="fd-counts" role="status"></p>
+        </div>
+        <div class="fd-reading"><h3>How often did the direction persist?</h3><p id="fd-share"></p><p id="fd-effect"></p><p id="fd-check"></p></div>
+      </div>
+      <details class="mr-help"><summary>Compare the four periods</summary><div class="mr-table-scroll" tabindex="0" role="region" aria-label="Direction counts by historical period"><table class="mr-method-table fd-eras"><caption>Current magnitude and small-move filters</caption><thead><tr><th scope="col">Years</th><th scope="col">Same</th><th scope="col">Opposite</th><th scope="col">Flat in either</th><th scope="col">Same / directional</th><th scope="col">Median aligned move</th></tr></thead><tbody id="fd-periods"></tbody></table></div></details>
+      <div class="fd-example"><div><label for="fd-event">Inspect a matched statement</label><select id="fd-event"></select></div><div><p id="fd-pair"></p><p class="fd-links" id="fd-pair-links"></p></div></div>
+      <details class="mr-help"><summary>The separate speech observation</summary><p id="fd-speech"></p></details>
+    </div>
+    <details class="mr-help"><summary>Event windows and interpretation</summary>
+      <p>The pre-meeting change runs from the fifth to the first jointly quoted Treasury close strictly before the event date, spanning four close-to-close changes. Daily Treasury par yields reflect indicative quotes around 15:30 New York time. USMPD measures the on-the-run two-year yield from 10 minutes before to 20 minutes after the statement. No intervening overnight or pre-release move is added.</p>
+      <p>The table counts every matched meeting in the selected sample. The directional share and aligned median use meetings with two non-zero moves. Alignment multiplies the statement move by the sign of the earlier move, so a negative value measures movement against the earlier direction. For the 1 bp sensitivity check both the earlier and the statement moves must reach 1 bp in absolute value. The latter condition is only known after the release.</p>
+      <p>The benchmark preserves the up and down totals on each side within each calendar year and calculates the average agreement across all possible within-year pairings. The leave-one-year-out range recalculates the observed share after omitting each year in turn. These comparisons describe the sample. Yields also reflect term premia and other economic news. Estimating the probability of a particular policy move requires a contract tied to the decision and assumptions about its possible outcomes.</p>
+      <p class="fd-links"><a href="https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/">San Francisco Fed · USMPD</a> <a href="https://www.frbsf.org/wp-content/uploads/wp2025-30.pdf#page=11">Acosta et al. · asset definitions</a> <a href="https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/treasury-yield-curve-methodology">Treasury · daily yield methodology</a></p>
+    </details>
+    <p class="fd-links"><a href="data/fed-direction-study.csv" download>Download all matched statements (CSV)</a></p>
+  </section>
+<section class="mr-analysis" id="statement-risk" aria-labelledby="statement-risk-title">
+    <h2 id="statement-risk-title">Which history better predicted the size of the next rate move?</h2>
+    <p>A portfolio manager budgeting risk before a Fed statement would have made smaller errors overall using the typical two-year move from 2009–17. Its edge disappeared in 2022–26. At ECB decisions the two historical estimates were only 0.10 bp apart, and neither captured the larger German yield moves in the later years.</p>
+    <div class="mr-table-scroll" role="region" tabindex="0" aria-label="Mean absolute forecast error in basis points · smaller is closer"><table class="mr-method-table"><caption>Mean absolute forecast error in basis points · smaller is closer</caption><thead><tr><th scope="col">Instrument</th><th scope="col">Meetings</th><th scope="col">2000–08</th><th scope="col">2009–17</th><th scope="col">Prior 20</th></tr></thead><tbody>
+<tr><th scope="row">US two-year</th><td>77</td><td>2.823</td><td>2.404</td><td>2.56</td></tr>
+<tr><th scope="row">US 10Y − 2Y</th><td>77</td><td>1.686</td><td>1.583</td><td>1.723</td></tr>
+<tr><th scope="row">German two-year</th><td>68</td><td>2.074</td><td>2.107</td><td>2.091</td></tr>
+<tr><th scope="row">German 10Y − 2Y</th><td>68</td><td>0.84</td><td>0.84</td><td>0.857</td></tr>
+</tbody></table></div>
+    <p>The estimates use two nine-year training periods. Both face the same later meetings within each central bank. A third forecast takes the median of the latest 20 quoted announcements available before each meeting. All three predict the absolute size of a statement-window move. The 2s10s measure is the absolute change in the ten-year yield minus the two-year yield, calculated by differencing the signed moves first.</p>
+    <details class="mr-help"><summary>Training samples, periods and sensitivity</summary>
+    <div class="mr-table-scroll" role="region" tabindex="0" aria-label="Typical absolute statement move used as the fixed forecast"><table class="mr-method-table"><caption>Typical absolute statement move used as the fixed forecast</caption><thead><tr><th scope="col">Instrument</th><th scope="col">2000–08 quotes</th><th scope="col">Forecast (bp)</th><th scope="col">2009–17 quotes</th><th scope="col">Forecast (bp)</th></tr></thead><tbody>
+<tr><th scope="row">US two-year</th><td>80</td><td>3.49</td><td>73</td><td>1.62</td></tr>
+<tr><th scope="row">US 10Y − 2Y</th><td>80</td><td>2.105</td><td>73</td><td>1.58</td></tr>
+<tr><th scope="row">German two-year</th><td>133</td><td>0.6</td><td>95</td><td>0.5</td></tr>
+<tr><th scope="row">German 10Y − 2Y</th><td>133</td><td>0.5</td><td>95</td><td>0.5</td></tr>
+</tbody></table></div>
+    <div class="mr-table-scroll" role="region" tabindex="0" aria-label="Two-year yield forecast errors by evaluation period (bp)"><table class="mr-method-table"><caption>Two-year yield forecast errors by evaluation period (bp)</caption><thead><tr><th scope="col">Evaluation period</th><th scope="col">Instrument</th><th scope="col">Meetings</th><th scope="col">2000–08</th><th scope="col">2009–17</th><th scope="col">Prior 20</th></tr></thead><tbody>
+<tr><th scope="row">2018–2019</th><td>US two-year</td><td>17</td><td>2.165</td><td>1.718</td><td>1.891</td></tr>
+<tr><th scope="row">2020–2021</th><td>US two-year</td><td>21</td><td>2.843</td><td>1.528</td><td>1.411</td></tr>
+<tr><th scope="row">2022–2026</th><td>US two-year</td><td>39</td><td>3.099</td><td>3.175</td><td>3.471</td></tr>
+<tr><th scope="row">2018–2019</th><td>German two-year</td><td>16</td><td>0.618</td><td>0.606</td><td>0.628</td></tr>
+<tr><th scope="row">2020–2021</th><td>German two-year</td><td>16</td><td>0.903</td><td>0.884</td><td>0.908</td></tr>
+<tr><th scope="row">2022–2026</th><td>German two-year</td><td>36</td><td>3.241</td><td>3.318</td><td>3.267</td></tr>
+</tbody></table></div>
+    <p>Dropping one evaluation year at a time leaves the 2009–17 forecast ahead for the US two-year by 0.24–0.58 bp. The 2000–08 forecast keeps a 0.025–0.043 bp edge for the German two-year. These ranges measure sensitivity to individual years. The meetings within a policy cycle share economic shocks, and the ranges do not quantify sampling uncertainty.</p>
+    <p>Each quoted announcement gets equal weight. A zero is an observation. One of 96 ECB statements in 2009–17 lacks the German yield pair. US evaluation runs from 31 January 2018 to 28 October 2026, and ECB evaluation from 25 January 2018 to 11 June 2026. Results use the historical files available on 20 November 2026. Cutoffs were chosen retrospectively. Original release-day dataset vintages could differ.</p>
+    <p>The US window starts ten minutes before the statement and ends twenty minutes after. ECB observations compare median Frankfurt quotes at 13:25–13:35 and 14:00–14:10, shifting to 13:55–14:05 and 14:30–14:40 from July 2022. News released with the statement, the prevailing rate level and changes in meeting frequency can all affect the distribution. Attribution to a chair or a particular policy would require further evidence.</p>
+    </details>
+    <p>On 18 September 2024 the two-year Treasury fell 8.58 bp in the statement window. The 2000–08 benchmark missed its magnitude by 5.09 bp, against 6.96 bp for 2009–17. Both underestimated risk on a day when the decision and projections arrived together. The direction of that move was unknown to either forecast before the release.</p>
+    <p class="mr-method-links"><a href="casebook.html#fed-cut-september-2024">The September 2024 decision and its pricing</a> · <a href="macro-history.html?view=cycles">Compare inflation forecasts across periods</a> · <a href="data/statement-risk-forecasts.csv" download>Meeting-by-meeting forecasts (CSV)</a></p>
+    <p class="mr-method-links"><a href="https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/">San Francisco Fed · USMPD</a> · <a href="https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx">ECB · event-study workbook</a></p>
+  </section></div></details>
+<details class="hub-section" id="chapter-market-history"><summary><h2>Historical comparisons</h2><span class="hub-description">Compare the distribution of moves across years, leadership tenures and economic cycles.</span></summary><div class="hub-content"><nav class="hub-resources" aria-label="Historical comparisons studies"><ul><li><a href="#annual-market-history">Annual market reactions</a></li><li><a href="#stance-periods">Repricing by leadership and cycle</a></li><li><a href="#mr-daily">Daily yield screen</a></li><li><a href="#statement-risk">Predicting the next rate move</a></li></ul></nav>
+<section class="sx-panel" id="stance-periods" data-stance-view="market" aria-labelledby="sx-heading"><h2 id="sx-heading">Market repricing by leadership and cycle</h2><p class="sx-description">Inspect the interest-rate move around each communication alongside its wording. Choose a central bank to keep the instrument and observation window comparable.</p><p>Among Fed decisions within 5 bp of current-meeting futures pricing, 2s10s flattened in 41 of 53 release windows when one-year OIS rose by more than 1 bp. When OIS fell by more than 1 bp, the spread steepened in 36 of 43 windows. <a href="policy-market-analysis.html?bank=fed#anticipated">Change the pricing tolerance and inspect the curve</a></p><div data-stance-mount><p role="status">Loading decision records…</p></div><noscript><a href="data/stance-cohorts.json">Download cohort data (JSON)</a></noscript></section>
+<section class="mr-analysis amh" id="annual-market-history" aria-labelledby="amh-title">
+    <h2 id="amh-title">Market reactions by year</h2>
+    <p>Compare the typical announcement move across years, then open the meetings with the biggest price changes in any one year.</p>
+    <p id="amh-status" role="status">Loading annual meeting observations…</p>
+    <div id="amh-content" hidden>
+      <div class="amh-controls">
+        <label for="amh-window">Event window<select id="amh-window"><option value="statement">Statement</option><option value="conference">Press conference</option><option value="meeting">Full event</option></select></label>
+        <label for="amh-asset">Instrument<select id="amh-asset"><option value="two-year">2-year government yield</option><option value="ten-year">10-year government yield</option><option value="curve">10Y minus 2Y slope</option><option value="ois">1-year overnight index swap</option><option value="eurusd">EUR/USD</option><option value="equities">Domestic equity index</option></select></label>
+        <label for="amh-year">Year to inspect<select id="amh-year"></select></label>
+      </div>
+      <figure class="amh-figure">
+        <figcaption><div><h3>Median absolute move by year</h3><p id="amh-chart-caption"></p></div>
+          <div class="amh-legend"><span>Federal Reserve</span><span>ECB</span></div>
+        </figcaption>
+        <div id="amh-chart" tabindex="0" role="group" aria-label="Annual median absolute changes. Use the left and right arrows to select a year."></div>
+        <p id="amh-latest"></p>
+      </figure>
+      <div class="amh-selection" aria-live="polite"><h3 id="amh-selection-title"></h3><p id="amh-selection-desc"></p><p class="amh-yearbook"><a id="amh-yearbook" href="yearbook.html?historyYear=2000">Read the 2000 yearbook</a></p></div>
+      <div class="amh-year-detail">
+        <div class="amh-stat-block">
+          <table class="amh-summary"><caption>Distribution and coverage</caption>
+            <thead><tr><th scope="col">Measure</th><th scope="col">Fed</th><th scope="col">ECB</th></tr></thead>
+            <tbody id="amh-summary-body"></tbody>
+          </table>
+        </div>
+        <div class="amh-ranked"><h4>Largest moves in the selected year</h4><div id="amh-ranks"></div></div>
+      </div>
+      <section class="amh-prior" aria-labelledby="amh-prior-title">
+        <div class="amh-prior-head"><h3 id="amh-prior-title">How did the US curve move before Fed events?</h3>
+          <label for="amh-before">Event sample<select id="amh-before"><option value="statements">Fed statement dates</option><option value="speeches">Board speech dates</option></select></label></div>
+        <p>Compare the fifth and first jointly quoted Treasury closes before each event. T−5 to T−1 spans four close-to-close changes and ends before the event date. A date is excluded if the latest available prior close is more than a week old.</p>
+        <p id="amh-prior-coverage" role="status">Loading pre-event Treasury data…</p>
+        <div id="amh-prior-values" hidden><dl id="amh-prior-stats"></dl><p id="amh-prior-largest"></p></div>
+        <details class="mr-help"><summary>Pre-event pricing and sample construction</summary><p>Each date contributes once, including dates with several speeches. The medians of the two yields and their spread are calculated separately. The 2s10s spread is the ten-year yield minus the two-year yield. Daily Treasury yields reflect both the expected path of short rates and term premia. Other economic news during the window can affect both. Estimating the probability of a particular policy decision requires an instrument and assumptions about the possible outcomes. The meeting windows above measure a different interval around the announcement itself.</p>
+          <p class="amh-links"><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml">US Treasury daily par yields</a> <a href="https://www.federalreserve.gov/newsevents/speeches.htm">Federal Reserve Board speech archive</a></p></details>
+      </section>
+      <details class="amh-details" id="amh-grid"><summary>All years in a table</summary>
+        <div class="mr-table-scroll" role="region" aria-label="Annual distributions for the selected window and instrument" tabindex="0">
+          <table class="amh-all"><caption id="amh-grid-caption"></caption>
+            <thead><tr><th rowspan="2" scope="col">Year</th><th colspan="3" scope="colgroup">Federal Reserve</th><th colspan="3" scope="colgroup">ECB</th></tr>
+            <tr><th scope="col">Quoted / eligible</th><th scope="col">Median</th><th scope="col">Median |move|</th><th scope="col">Quoted / eligible</th><th scope="col">Median</th><th scope="col">Median |move|</th></tr></thead>
+            <tbody id="amh-grid-body"></tbody>
+          </table>
+        </div>
+      </details>
+      <div class="amh-actions"><button type="button" class="amh-export" id="amh-export">Download annual statistics (CSV)</button></div>
+      <details class="mr-help amh-method"><summary>Sample, instruments and window definitions</summary>
+        <p>Eligible dates have a published observation window. A missing quote is an eligible window without the selected instrument. Dates with no such window are counted separately. Zero changes remain in the sample. The median absolute move is the middle observation after sorting by magnitude. The signed median and middle 50% retain direction. Quantiles use linear interpolation, and rankings use absolute changes before display rounding.</p>
+        <p id="amh-def-fed"></p><p id="amh-def-ecb"></p>
+        <p>Rates and slope changes use basis points. Equity and currency changes use percent. US and German government yields refer to different issuers. EUR/USD is dollars per euro. Price changes can reflect several kinds of news. Each source uses its own trading interval for the selected event type.</p>
+        <p class="amh-links"><a href="https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/">San Francisco Fed · USMPD</a> <a href="https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx">ECB · EA-EMPD workbook</a></p>
+      </details>
+    </div>
+    <noscript>Enable JavaScript to explore the annual market observations.</noscript>
+  </section>
+<section class="mr-analysis mr-daily" id="mr-daily" aria-labelledby="mr-daily-title">
     <h2 id="mr-daily-title">Which 2024 Fed meetings moved the two-year yield unusually far?</h2>
     <p>The target fell 25 basis points on 18 December, yet the Treasury’s daily two-year yield rose 10 basis points. It was the only one of eight scheduled 2024 meetings to cross twice the previous month’s daily volatility. Twenty quoted days later the yield was 8 basis points below its meeting-day level.</p>
     <div class="mr-table-scroll" role="region" aria-label="2024 FOMC daily yield screen" tabindex="0">
@@ -372,7 +378,8 @@
       <p>Treasury samples indicative quotations around 3:30 p.m. New York time. Its day-to-day move can include news that arrived hours before the statement. A yield change omits coupon income and duration, so it cannot establish a bond return. One qualifying meeting in a single calendar year is too little evidence to estimate trading performance.</p>
     </details>
     <p class="mr-method-links"><a href="market-reactions-us-2y-2024.csv" download>Download the daily two-year yields (CSV)</a> · <a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&amp;field_tdr_date_value=2024">Treasury par yields</a> · <a href="https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/">Quotation methodology</a> · <a href="casebook.html#fed-cut-september-2024">September’s pricing and projections</a></p>
-  </section>
+  </section></div></details>
+<script defer src="uk-market-years.js"></script>
 </main>
 </body>
 </html>

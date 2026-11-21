@@ -497,7 +497,12 @@ async function main(){
     yearbook:async()=>{const [panel,episodes]=await Promise.all([read("macro-yearbook"),read("history-episodes")]);return yearbook(panel,episodes,{el,select,table,link,svgNode},params);},"uk-credit":ukCredit,
     "labour-flows":async()=>labourFlows(await read("us-labour-flows"),{el,link,table,select,svgNode,sourceList},params)};
   const view=Object.hasOwn(views,params.get("view"))?params.get("view"):(params.has("historyYear")?"yearbook":"cycles");
-  document.querySelector('[data-view="'+view+'"]').setAttribute("aria-current","page");
+  const chapter = document.querySelector('[data-view="'+view+'"]');
+  chapter.setAttribute("aria-current","page");
+  const chapterSection = chapter.closest(".hub-section");
+  const mount = chapterSection?.querySelector(".hub-content");
+  if (mount && root.parentElement !== mount) mount.querySelector(".hub-resources").after(root);
+  if (chapterSection && ((params.has("view") || params.has("historyYear")) && !location.hash || location.hash === "#study")) chapterSection.open = true;
   try {
     root.replaceChildren(await views[view]());
   } catch(error) {

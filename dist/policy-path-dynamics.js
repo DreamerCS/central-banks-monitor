@@ -3,7 +3,8 @@
   const field=id=>document.getElementById('pd-'+id);
   const bank=field('bank'),asset=field('asset'),tolerance=field('threshold'),kind=field('kind'),group=field('group');
   const params=new URL(location.href).searchParams;
-  bank.value=params.get('bank')==='ecb'?'ecb':'fed';
+  const hashBank=()=>location.hash.startsWith('#pd-ecb-')?'ecb':location.hash.startsWith('#pd-fed-')?'fed':null;
+  bank.value=hashBank()||(params.get('bank')==='ecb'?'ecb':'fed');
   const initial={asset:params.get('asset')||'yield2y',threshold:params.get('threshold')||'1',kind:params.get('kind')||'all',group:params.get('group')||''};
   const store={};
   const element=(tag,text,cls)=>{const n=document.createElement(tag);if(text!=null)n.textContent=text;if(cls)n.className=cls;return n;};
@@ -45,6 +46,9 @@
     const d=store.components,b=d?.banks?.[bank.value];if(!b){box.append(note('Joint estimates are unavailable.'));return;}
     selectOptions(asset,Object.entries(b.outcomes).map(([k,v])=>[k,v.label]),initial.asset);
     const fit=b.outcomes[asset.value], sum=b.pairSummary,unit=fit.unit==='%'?'percentage points of return':'bp';
+    if(Number.isFinite(fit.path?.slopePer5Bp)){
+      box.append(element('p','A 5 bp rise in one-year OIS was associated with a '+fmt(Math.abs(fit.path.slopePer5Bp))+' '+unit+' '+(fit.path.slopePer5Bp<0?'decrease':'increase')+' in '+fit.label+' when the near-term rate move was held fixed.','study-result'));
+    }
     box.append(note(b.window),element('p',num(fit.n)+' complete releases · '+fit.firstDate+' to '+fit.lastDate+' · '+fit.label+' change in '+unit+'.','pd-stat'));
     const rows=(f)=>[[b.shortLabel,f.short],[b.pathLabel,f.path]].map(([label,x])=>[label,fmt(x?.slopePer5Bp),interval(x?.ci95),fmt(x?.partialRSquared),fmt(x?.conditionalSdBp)]);
     const head=['Instrument moved +5 bp','Asset change','95% interval','Partial R²','Conditional rate SD (bp)'];
@@ -74,13 +78,13 @@
     if(!b){box.append(note('Paired release and conference results are unavailable.'));return;}
     selectOptions(tolerance,b.thresholds.map(t=>[String(t.thresholdBp),t.thresholdBp+' bp']),initial.threshold);
     const s=b.thresholds.find(t=>String(t.thresholdBp)===tolerance.value), threshold=s.thresholdBp;
-    box.append(element('p',rate(s.oppositeN,s.directionalN)+' of meetings with moves above '+threshold+' bp in both windows changed direction.','pd-stat'));
+    box.append(element('p',rate(s.oppositeN,s.directionalN)+' of meetings with moves above '+threshold+' bp in both windows changed direction.','study-result'));
     const bar=element('div',null,'pd-partition');bar.setAttribute('aria-hidden','true');
     for(const n of [s.oppositeN,s.reinforceN,s.quietOrSmallN]){const seg=element('span');seg.style.width=(s.pairedN?100*n/s.pairedN:0)+'%';bar.append(seg);}
     box.append(bar,note('Opposite directions '+num(s.oppositeN)+' · same direction '+num(s.reinforceN)+' · at least one small move '+num(s.quietOrSmallN)+' · all paired meetings '+num(s.pairedN)+'.'));
     const c=b.coverage;box.append(note(num(c.officialDecisions)+' historical decisions, '+num(c.releaseEligibleN)+' eligible decision releases and '+num(c.pairedOisN)+' dates with OIS in both windows.'));
     const all=[['Partial giveback',s.partialGivebackN],['Offset to the same size',s.exactOffsetN],['Conference move larger than the initial move',s.netOvertakeN]];
-    box.append(table('Relative size when the two moves had opposite signs',['Outcome','Meetings','Among opposite-sign meetings'],all.map(([label,n])=>[label,num(n),rate(n,s.oppositeN)])));
+    box.append(detail('How much of the first move was reversed?',table('Relative size when the two moves had opposite signs',['Outcome','Meetings','Among opposite-sign meetings'],all.map(([label,n])=>[label,num(n),rate(n,s.oppositeN)]))));
     const assetNames={ois1yBp:'One-year OIS (bp)',yield2yBp:'2Y yield (bp)',slope2s10sBp:'10Y less 2Y (bp)',equityPct:'Equity return (%)'};
     const rows=[];
     for(const [id,label] of [['opposite','Opposite signs'],['reinforce','Same sign']]){
@@ -142,8 +146,8 @@
     else box.append(note('Prices compare median quotes 20–10 minutes before the scheduled appearance with median quotes 40–50 minutes afterwards. The rank correlation describes co-movement within these windows.'));
     const dist=g.distribution.map(v=>[assets[v.asset]?.label||v.asset,assets[v.asset]?.unit||'',num(v.n),fmt(v.median),fmt(v.medianAbs),fmt(v.p90Abs)]);
     box.append(table('Price changes around the selected speeches',['Market','Unit','Quotes','Signed median','Median absolute','90th percentile absolute'],dist));
-    box.append(table('Paired changes against one-year OIS',['Market','Paired windows','Rank correlation','OIS up >1 bp · median (n)','OIS down >1 bp · median (n)'],
-      g.pairs.map(v=>[assets[v.asset]?.label||v.asset,num(v.n),fmt(v.spearman),fmt(v.upMedian)+' ('+num(v.upN)+')',fmt(v.downMedian)+' ('+num(v.downN)+')'])));
+    box.append(detail('How each market moved with one-year OIS',table('Paired changes against one-year OIS',['Market','Paired windows','Rank correlation','OIS up >1 bp · median (n)','OIS down >1 bp · median (n)'],
+      g.pairs.map(v=>[assets[v.asset]?.label||v.asset,num(v.n),fmt(v.spearman),fmt(v.upMedian)+' ('+num(v.upN)+')',fmt(v.downMedian)+' ('+num(v.downN)+')']))));
     box.append(detail('Repeated dates and large moves',table('Rank correlation checks',['Market','Dates','Paired window ρ','Equal-weighted dates ρ','Largest 1% excluded ρ'],
       g.pairs.map(v=>[assets[v.asset]?.label||v.asset,num(v.nDays),fmt(v.spearman),fmt(v.daySpearman),fmt(v.trimmedSpearman)])),note('The equal-weighted check first averages observations sharing a date. The trimmed check removes the largest absolute OIS changes.')));
     const ev=(d.examples||[]).map(e=>[e.date,e.speaker,e.title,fmt(e.values.ois1y),link('Read communication',e.documentUrl)]);
@@ -197,5 +201,9 @@
     field('reading-links').href='policy-market-analysis.html?bank='+bank.value+'#headlines';
     field('explorer').href='cross-asset-events.html?bank='+bank.value+'&stage=release';
   }
+  window.addEventListener('hashchange',()=>{
+    const targetBank=hashBank();
+    if(targetBank && bank.value!==targetBank){bank.value=targetBank;bank.onchange();}
+  });
   reading();
 })();

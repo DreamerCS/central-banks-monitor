@@ -8,32 +8,45 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="edition.css">
-  <link rel="stylesheet" href="research-notes.css?v=981528004456">
-  <link rel="stylesheet" href="research-archive.css?v=981528004456">
-  <script src="publication-reader.js?v=981528004456" defer></script>
-  <script src="research-archive.js?v=981528004456" defer></script>
+  <link rel="stylesheet" href="research-notes.css?v=d9bad67be490">
+  <link rel="stylesheet" href="research-archive.css?v=d9bad67be490">
+  <script src="publication-reader.js?v=d9bad67be490" defer></script>
+  <script src="research-archive.js?v=d9bad67be490" defer></script>
+<link rel="stylesheet" href="film-edition.css">
+<script src="site-index.js" defer></script>
+<script src="film-edition.js" defer></script>
 </head>
 <body class="archive-page">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="./">Overview</a><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="research-notes.html">Research notes</a><a href="research-archive.html" aria-current="page">Archive</a></nav></div></header>
+  <header class="cbi-head film-masthead"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i><span>Central Bank Intelligence</span></a><nav aria-label="Primary research" class="film-primary"><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a></nav><a href="site-index.html" class="film-index-launch" data-index-open><span class="film-index-symbol" aria-hidden="true"></span>Site index</a></div></header>
   <main class="shell archive-shell" id="main">
     <div class="archive-intro">
       <h1>Publication archive</h1>
-      <a id="latest-publications" class="text-link" hidden></a>
+      <nav class="archive-links" aria-label="Publication resources">
+        <a id="latest-publications" class="text-link" hidden></a>
+        <a href="source-coverage.html" class="text-link">Source coverage</a>
+      </nav>
     </div>
     <div id="archive-scope" class="archive-scope" role="group" aria-label="Publications to show" hidden>
       <button type="button" data-scope="analysis" aria-pressed="true">With analysis (<span id="analysis-count">0</span>)</button>
       <button type="button" data-scope="all" aria-pressed="false">All publications (<span id="all-count">0</span>)</button>
     </div>
-    <nav id="archive-months" class="archive-months" aria-label="Archive months"></nav>
     <form id="archive-filters" class="archive-filters" aria-label="Filter publications" hidden>
-      <label>Year <select id="year-filter"></select></label>
-      <label>View <select id="view-filter"><option value="region">By region</option><option value="time">By time</option></select></label>
-      <label>Jurisdiction <select id="bank-filter"></select></label>
-      <label>Publication type <select id="type-filter"></select></label>
-      <label>From <input id="from-filter" type="date" max="9999-12-31" aria-label="From date"></label>
-      <label>To <input id="to-filter" type="date" max="9999-12-31" aria-label="To date"></label>
-      <label>Search <input id="query-filter" type="search"></label>
+      <div class="archive-search-row">
+        <label>Search <input id="query-filter" type="search"></label>
+        <label>Year <select id="year-filter"></select></label>
+        <label>View <select id="view-filter"><option value="region">By region</option><option value="time">By time</option></select></label>
+      </div>
+      <nav id="archive-months" class="archive-months" aria-label="Archive months" hidden></nav>
+      <details class="archive-narrow" id="archive-advanced">
+        <summary>Filter by jurisdiction, type or date<span id="narrow-count"></span></summary>
+        <div class="archive-narrow-fields">
+          <label>Jurisdiction <select id="bank-filter"></select></label>
+          <label>Publication type <select id="type-filter"></select></label>
+          <label>From <input id="from-filter" type="date" max="9999-12-31" aria-label="From date"></label>
+          <label>To <input id="to-filter" type="date" max="9999-12-31" aria-label="To date"></label>
+        </div>
+      </details>
       <button type="reset">Clear filters</button>
     </form>
     <p id="archive-results" class="archive-results" role="status">Loading publications…</p>

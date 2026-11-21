@@ -1,0 +1,167 @@
+// The shared catalogue is JSON assigned to a browser global; the static directory reads the same list.
+window.CBI_SITE_INDEX = [
+  {
+    "label": "Overview and tools",
+    "items": [
+      {"label": "Home", "href": "./"},
+      {"label": "Complete site index", "href": "site-index.html"},
+      {"label": "Research desks", "href": "./#research-desks"},
+      {"label": "Rates and FX history", "href": "./#market-history"},
+      {"label": "Treasury close and yield curve", "href": "./#index"},
+      {"label": "Event calculator · upload market data", "href": "./#event-calculator"},
+      {"label": "Upcoming central bank speeches", "href": "./#speech-agenda"},
+      {"label": "Publication map", "href": "./#world-map"},
+      {"label": "Central bank source directory", "href": "./#atlas"},
+      {"label": "Browse jurisdictions", "href": "./#coverage"},
+      {"label": "Daily market history · CSV", "href": "data/market-history.csv"},
+      {"label": "Event calculator template · CSV", "href": "market-template.csv"}
+    ]
+  },
+  {
+    "label": "Market reactions",
+    "items": [
+      {"label": "Market reactions", "href": "market-reactions.html"},
+      {"label": "Cross-asset event study", "href": "cross-asset-events.html"},
+      {"label": "Policy signals and market moves", "href": "policy-market-analysis.html"},
+      {"label": "Repricing the policy path", "href": "policy-path-dynamics.html"},
+      {"label": "Treasury auctions and dealer positions", "href": "dealer-absorption.html"},
+      {"label": "Japanese yen intervention", "href": "yen-intervention.html"},
+      {"label": "Market reactions · Event windows", "href": "market-reactions.html#chapter-event-windows"},
+      {"label": "Market reactions · Prior expectations", "href": "market-reactions.html#chapter-prior-pricing", "keywords": "priced in price in before event expectations prior pricing"},
+      {"label": "Market reactions · Market transmission", "href": "market-reactions.html#chapter-market-transmission"},
+      {"label": "Market reactions · Historical comparisons", "href": "market-reactions.html#chapter-market-history"},
+      {"label": "Fed and ECB decision and conference windows", "href": "market-reactions.html#mr-explorer"},
+      {"label": "Bank of England meeting windows", "href": "market-reactions.html#uk-market-history"},
+      {"label": "Market reactions by year", "href": "market-reactions.html#annual-market-history"},
+      {"label": "Daily US Treasury yield screen", "href": "market-reactions.html#mr-daily"},
+      {"label": "Two-year Treasury yields before and after the FOMC", "href": "market-reactions.html#fed-direction-study"},
+      {"label": "US 2s10s curve components", "href": "macro-studies.html#curve-components", "keywords": "yield curve 2y 10y two ten spread slope steepening flattening"},
+      {"label": "Cross-asset event selector", "href": "cross-asset-events.html#ce-filters"},
+      {"label": "Market moves at the selected event", "href": "cross-asset-events.html#ce-detail"},
+      {"label": "Compare an asset across events", "href": "cross-asset-events.html#ce-distribution"},
+      {"label": "Publisher reports at the selected event", "href": "cross-asset-events.html#ce-publisher-reports"},
+      {"label": "News coverage by publisher and year", "href": "cross-asset-events.html#ce-news-coverage", "keywords": "news titles headlines Bloomberg Reuters FT Financial Times WSJ Wall Street Journal"},
+      {"label": "Cross-asset sensitivity to the policy path", "href": "policy-market-analysis.html#market"},
+      {"label": "Headline direction and market repricing", "href": "policy-market-analysis.html#headlines", "keywords": "news titles media framing newspaper"},
+      {"label": "Reuters decision coverage at the 2025 FOMC meetings", "href": "policy-market-analysis.html#pm-reuters-2025", "keywords": "news titles headlines Reuters"},
+      {"label": "Policy repricing at the decision release", "href": "policy-path-dynamics.html#components"},
+      {"label": "Policy repricing during the press conference", "href": "policy-path-dynamics.html#conference"},
+      {"label": "Fed and ECB meeting examples", "href": "policy-path-dynamics.html#meeting"},
+      {"label": "Fed decision · November 2022", "href": "cross-asset-events.html?bank=fed&date=2022-11-02&stage=release"},
+      {"label": "ECB decision · May 2023", "href": "cross-asset-events.html?bank=ecb&date=2023-05-04&stage=release"},
+      {"label": "ECB decision in the news · June 2024", "href": "cross-asset-events.html?bank=ecb&stage=release&date=2024-06-06&lens=news"}
+    ]
+  },
+  {
+    "label": "Meeting prices and guidance",
+    "items": [
+      {"label": "Meeting prices", "href": "meeting-prices.html"},
+      {"label": "Hawkish or dovish? Fed statement scores", "href": "policy-stance.html", "keywords": "FOMC hawk dove tone"},
+      {"label": "Changes in forward guidance", "href": "guidance-shifts.html"},
+      {"label": "Forecast revisions and policy signals", "href": "policy-projections.html"},
+      {"label": "Decisions versus prior market pricing", "href": "policy-market-analysis.html#anticipated", "keywords": "price in priced in rate decision surprise expected outcome"},
+      {"label": "Dealers’ probabilities for the next Fed decision", "href": "market-reactions.html#dealer-expectations", "keywords": "price in priced in FOMC survey probability"},
+      {"label": "Predicting the next Fed rate move", "href": "market-reactions.html#statement-risk"},
+      {"label": "Fed statement explorer", "href": "policy-stance.html#statements"},
+      {"label": "Fed statement scores versus market prices", "href": "policy-stance.html#market-check"},
+      {"label": "How Fed statement scores are assigned", "href": "policy-stance.html#scoring"},
+      {"label": "Fed rate projections and market prices", "href": "policy-projections.html#fed"},
+      {"label": "ECB growth and inflation forecast revisions", "href": "policy-projections.html#ecb"},
+      {"label": "Official guidance shifts and market repricing", "href": "policy-projections.html#guidance"}
+    ]
+  },
+  {
+    "label": "Speeches and leadership",
+    "items": [
+      {"label": "Policy stance by leader and cycle", "href": "stance-history.html", "keywords": "hawkish dovish hawk dove Fed ECB economic cycle governor president chair"},
+      {"label": "Fed chair speeches and market moves", "href": "fed-leader-speeches.html", "keywords": "hawkish dovish hawk dove Fed chair economic cycle"},
+      {"label": "ECB speeches and one-year OIS", "href": "ecb-speech-stance.html", "keywords": "hawkish dovish hawk dove tone speeches ECB"},
+      {"label": "Powell at Jackson Hole", "href": "jackson-hole-stance.html"},
+      {"label": "Fed speaker signals · November 16–20, 2026", "href": "fed-speech-week.html"},
+      {"label": "Fed funds pricing before speeches", "href": "market-reactions.html#speech-futures", "keywords": "price in priced in before speech Fed funds futures FOMC"},
+      {"label": "US yield curve before a speech", "href": "market-reactions.html#pre-event-curve", "keywords": "price in priced in 2s10s 2y 10y yield curve before speech Treasury"},
+      {"label": "Sterling forward pricing before speeches", "href": "market-reactions.html#pre-speech-sonia", "keywords": "price in priced in before speech BoE UK SONIA futures"},
+      {"label": "US intraday speech moves", "href": "market-reactions.html#mr-speech-intraday"},
+      {"label": "Euro-area speech windows", "href": "market-reactions.html#ecb-speech-windows"},
+      {"label": "Cross-asset ECB speech explorer", "href": "cross-asset-events.html?bank=ecb&stage=speech"},
+      {"label": "Yields and exchange rates around speeches", "href": "policy-path-dynamics.html#speeches"},
+      {"label": "Speech tone and yields", "href": "policy-market-analysis.html#speeches"},
+      {"label": "Market repricing by leader and cycle", "href": "market-reactions.html#stance-periods"},
+      {"label": "Market sensitivity by leader and cycle", "href": "policy-market-analysis.html#regimes"},
+      {"label": "ECB speech scores and market outcomes", "href": "ecb-speech-stance.html#findings"},
+      {"label": "ECB speech scores by president and cycle", "href": "ecb-speech-stance.html#terms"},
+      {"label": "ECB speech texts and scoring evidence", "href": "ecb-speech-stance.html#evidence"},
+      {"label": "ECB speech study methodology", "href": "ecb-speech-stance.html#method"},
+      {"label": "Powell at Brookings · November 2022", "href": "cross-asset-events.html?bank=fed&stage=speechFx&event=fed-speech-intraday-2022-11-30-1330"},
+      {"label": "Draghi in London during the euro-area debt crisis · July 2012", "href": "cross-asset-events.html?bank=ecb&event=ecb-speech-7837548756&stage=speech"}
+    ]
+  },
+  {
+    "label": "Policy history",
+    "items": [
+      {"label": "Policy history", "href": "historical-data.html"},
+      {"label": "Monetary history by year", "href": "yearbook.html"},
+      {"label": "Policy history · Rates and decisions", "href": "historical-data.html#chapter-policy-rates"},
+      {"label": "Policy history · Guidance and leadership", "href": "historical-data.html#chapter-policy-guidance"},
+      {"label": "Policy history · Policy in practice", "href": "historical-data.html#chapter-implementation"},
+      {"label": "Policy rate explorer", "href": "historical-data.html#history-explorer"},
+      {"label": "Policy decisions by year since 2000", "href": "historical-data.html#annual-policy-ledger"},
+      {"label": "Compare policy rates across economies", "href": "historical-data.html#policy-world-year"},
+      {"label": "Rate decisions across leadership tenures", "href": "historical-data.html#stance-periods"},
+      {"label": "UK Bank Rate expectations, 2023–24", "href": "historical-data.html#uk-bank-rate-pricing"},
+      {"label": "Dollar swap lines and actual drawings", "href": "historical-data.html#dollar-swap-use"},
+      {"label": "Fed emergency lending and the policy rate", "href": "historical-data.html#fed-liquidity-stance"},
+      {"label": "Sterling’s exit from the ERM, 1992", "href": "historical-data.html#sterling-erm-tape"},
+      {"label": "Swiss franc floor, 2011–15", "href": "historical-data.html#swiss-franc-floor"},
+      {"label": "ECB leadership handover, 2011", "href": "historical-data.html#ecb-handover-2011"},
+      {"label": "ECB sovereign bond backstop, 2012", "href": "historical-data.html#ecb-omt"},
+      {"label": "Implementing the September 2024 Fed rate cut", "href": "historical-data.html#fed-implementation-2024"}
+    ]
+  },
+  {
+    "label": "Macro history",
+    "items": [
+      {"label": "Macro history", "href": "macro-history.html"},
+      {"label": "Empirical time-series studies", "href": "empirical-studies.html"},
+      {"label": "Testing macro ideas", "href": "macro-studies.html"},
+      {"label": "External debt and currency pressure", "href": "external-vulnerability.html"},
+      {"label": "Oil-price declines", "href": "oil-price-study.html"},
+      {"label": "Macro history · Economic cycles", "href": "macro-history.html#chapter-economic-cycles"},
+      {"label": "Macro history · Households and trade", "href": "macro-history.html#chapter-households-trade"},
+      {"label": "Macro history · Policy and forecasts", "href": "macro-history.html#chapter-policy-forecasts"},
+      {"label": "Macro history · Historical research", "href": "macro-history.html#chapter-research-collections"},
+      {"label": "Monthly macro indicators by year since 2000", "href": "macro-history.html?view=yearbook"},
+      {"label": "Economic cycle chronology", "href": "macro-history.html?view=cycles"},
+      {"label": "Compare historical episodes", "href": "macro-history.html?view=compare"},
+      {"label": "US labour flows", "href": "macro-history.html?view=labour-flows"},
+      {"label": "UK household borrowing and interest rates", "href": "macro-history.html?view=uk-credit"},
+      {"label": "Central bank leaders and policy records", "href": "macro-history.html?view=leaders"},
+      {"label": "Historical policy guidance", "href": "macro-history.html?view=guidance"},
+      {"label": "Guidance across economic cycles", "href": "macro-history.html#stance-periods"},
+      {"label": "Inflation forecast errors by test year", "href": "macro-history.html#inflation-target-years"},
+      {"label": "Inflation forecast models", "href": "empirical-studies.html?study=inflation"},
+      {"label": "Inflation composition", "href": "empirical-studies.html?study=composition"},
+      {"label": "Market repricing across meetings", "href": "empirical-studies.html?study=markets"},
+      {"label": "Policy guidance across meetings", "href": "empirical-studies.html?study=guidance"},
+      {"label": "Cross-asset signals", "href": "empirical-studies.html?study=signals"},
+      {"label": "Meeting repricing", "href": "empirical-studies.html?study=repricing"},
+      {"label": "Yield curve and rate cuts", "href": "empirical-studies.html?study=curve"}
+    ]
+  },
+  {
+    "label": "Publications and sources",
+    "items": [
+      {"label": "Research notes", "href": "research-notes.html"},
+      {"label": "Publication archive", "href": "research-archive.html", "keywords": "archive speeches statements minutes publications"},
+      {"label": "Research casebook", "href": "casebook.html"},
+      {"label": "Source coverage", "href": "source-coverage.html"},
+      {"label": "Browse notes by title, year and institution", "href": "research-notes.html#note-browser"},
+      {"label": "Filter publications by jurisdiction, type or date", "href": "research-archive.html#archive-advanced"},
+      {"label": "Two-year Treasury yield source · FRED", "href": "https://fred.stlouisfed.org/series/DGS2"},
+      {"label": "US Treasury interest rate statistics", "href": "https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics"},
+      {"label": "Publication map boundaries · Natural Earth", "href": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/"},
+      {"label": "Federal Reserve photograph · Library of Congress", "href": "https://www.loc.gov/pictures/item/2016872460/"},
+      {"label": "Lofoten photograph · Daniel Seßler", "href": "https://unsplash.com/photos/uAnxVqzj8gk"}
+    ]
+  }
+];

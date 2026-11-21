@@ -140,7 +140,9 @@ function renderByRegion(records) {
       section.append(title, ...entries.map(card));
       block.append(section);
     }
-    block.insertBefore(jump, block.children[1]);
+    const directory = element("details", "", "region-directory");
+    directory.append(element("summary", "Jump to a jurisdiction"), jump);
+    block.insertBefore(directory, block.children[1]);
     wrapper.append(block);
   }
   return wrapper;
@@ -247,6 +249,8 @@ dialog.addEventListener("click", event => { if (event.target === dialog) closeRe
 select("close-analysis").addEventListener("click", closeReader);
 
 function render() {
+  const advancedCount = [bankFilter, typeFilter, fromFilter, toFilter].filter(input => input.value).length;
+  select("narrow-count").textContent = advancedCount ? " (" + advancedCount + ")" : "";
   const query = queryFilter.value.trim().toLocaleLowerCase();
   const from = fromFilter.value;
   const to = toFilter.value;
@@ -289,6 +293,7 @@ function render() {
   }
   const heading = element("h2", label);
   heading.id = "active-month-title";
+  title.id = month.id;
   title.append(heading);
   const timeline = viewFilter.value === "time";
   select("archive-more").hidden = !timeline || visibleCount >= filtered.length;
@@ -406,6 +411,7 @@ async function start() {
   try { saved = sessionStorage.getItem("archive-view"); } catch {}
   const view = params.get("view") || (hash.includes("-bank-") ? "region" : saved);
   viewFilter.value = view === "region" ? "region" : "time";
+  select("archive-advanced").open = [bankFilter, typeFilter, fromFilter, toFilter].some(input => input.value);
   setPeriod(initial);
   form.hidden = false;
   select("archive-scope").hidden = !notes;

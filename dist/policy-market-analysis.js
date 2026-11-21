@@ -9,7 +9,8 @@
   const field=id=>document.getElementById('pm-'+id);
   const query=new URLSearchParams(location.search);
   const bank=field('bank'), instrument=field('instrument'), mode=field('mode'), exclusion=field('exclusion');
-  bank.value=query.get('bank')==='ecb'?'ecb':'fed';
+  const hashBank=()=>location.hash==='#pm-ecb-case'?'ecb':(location.hash==='#pm-fed-projections'||location.hash==='#pm-reuters-2025'?'fed':null);
+  bank.value=hashBank()||(query.get('bank')==='ecb'?'ecb':'fed');
   field('dimension').value=query.get('dimension')==='cycle'?'cycle':'leader';
   const digits=n=>Number.isFinite(n)?new Intl.NumberFormat('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2}).format(n).replace('-','−'):'—';
   const numeric=n=>Number.isFinite(n)?n.toLocaleString('en-GB'):'—';
@@ -124,13 +125,17 @@
     field('date-control').hidden=false;dates.onchange=()=>show(dates.selectedIndex);show(n-1);
   }
   function renderMarket(){
-    const box=field('market-output');box.replaceChildren();
+    const box=field('market-output'),checks=field('market-checks');box.replaceChildren();checks.replaceChildren();
     const b=marketData?.banks?.[bank.value];
     const predictors=Object.entries(b?.predictors||{});
     setOptions(instrument,predictors.map(([id,row])=>[id,row.label]),instrument.value);
     renderScatter();
     if(!predictors.length){box.append(small('Market estimates are unavailable for this bank.'));return;}
     const p=b.predictors[instrument.value];
+    const benchmark=p.outcomes?.yield2y;
+    if(Number.isFinite(benchmark?.slopePer10Bp)){
+      box.append(el('p','A 10 bp increase in '+p.label+' was associated with a '+digits(Math.abs(benchmark.slopePer10Bp))+' bp '+(benchmark.slopePer10Bp<0?'fall':'rise')+' in the '+benchmark.label+' yield across '+numeric(benchmark.n)+' announcements.','study-result'));
+    }
     box.append(small([b.window,p.firstDate&&p.lastDate?p.firstDate+' to '+p.lastDate:'',numeric(p.observedMeetings)+' meetings with this instrument'].filter(Boolean).join(' · ')));
     if(p.description) box.append(small(p.description));
     const outcomes=Object.values(p.outcomes||{});
@@ -142,7 +147,7 @@
     const sens=outcomes.filter(o=>o.sensitivity);
     if(sens.length){
       const cutoff=sens[0].sensitivity.maxAbsPredictorBp;
-      box.append(disclosure('Sensitivity to large rate moves',[
+      checks.append(disclosure('Sensitivity to large rate moves',[
         small('This estimate excludes instrument moves above the 95th percentile in absolute size. The cutoff for this instrument is '+digits(cutoff)+' bp.'),
         table('Release-window estimates with the largest instrument moves excluded',headers,sens.map(o=>row(o,o.sensitivity)))
       ]));
@@ -150,19 +155,19 @@
     const covered=outcomes.filter(o=>o.reportCoverage);
     if(covered.length) {
       const rows=covered.flatMap(o=>[['With reports',o.reportCoverage.covered],['Without reports',o.reportCoverage.withoutReport]].map(([group,fit])=>[o.label+' · '+group,...row(o,fit).slice(1)]));
-      box.append(disclosure('Meetings with and without verified reports',[
+      checks.append(disclosure('Meetings with and without verified reports',[
         small('Separate regressions use the events in each group. Coverage differences can reflect which meetings were reported or recovered.'),
         table('Sensitivity by availability of reports',headers,rows)
       ]));
     }
     const common=outcomes.filter(o=>o.commonCalendar);
-    if(common.length) box.append(disclosure('Same calendar period for both banks',[
+    if(common.length) checks.append(disclosure('Same calendar period for both banks',[
       table('January 2004 to December 2025',headers,common.map(o=>row(o,o.commonCalendar)))
     ]));
     const source=el('a',b.sourceLabel||'Market data source');
     if(b.sourceUrl) source.href=b.sourceUrl;
     const descriptions=(marketData.methods||[]).map(small);if(b.sourceUrl) descriptions.push(source);
-    if(descriptions.length) box.append(disclosure('Observations and estimation',descriptions));
+    if(descriptions.length) checks.append(disclosure('Observations and estimation',descriptions));
   }
   const reutersPanel=field('reuters-2025');
   let reutersRequest;
@@ -455,7 +460,11 @@
     box.replaceChildren(...output,curveReversals(file.records,band,id),link);
   }
   curvePanel.addEventListener('toggle',renderCurve);
-  if(['#pm-curve-composition','#pm-curve-reversals','#pm-curve-samples','#pm-curve-ois'].includes(location.hash))curvePanel.open=true;
+  function revealCurve() {
+    if(['#pm-curve-composition','#pm-curve-reversals','#pm-curve-samples','#pm-curve-ois'].includes(location.hash))curvePanel.open=true;
+  }
+  revealCurve();
+  window.addEventListener('hashchange',revealCurve);
   const projectionPanel=field('fed-projections');
 
   async function showProjectionComparison(){
@@ -501,6 +510,8 @@
       return [label,numeric(g.n),numeric(m.n),digits(m.medianAbs),proportion(p.over1Bp,p.n),proportion(p.over5Bp,p.n)];
     });
     const coverage=b.coverage||{};
+    const anticipated=selected.groups.anticipated.pathMove;
+    if(anticipated?.n)box.append(el('p','One-year OIS moved more than 1 bp on '+numeric(anticipated.over1Bp)+' of '+numeric(anticipated.n)+' observed releases where the decision came within '+threshold.value+' bp of the priced move.','study-result'));
     if(Number.isInteger(coverage.comparableGaps))box.append(small(numeric(coverage.comparableGaps)+' decision releases have a comparable actual-minus-priced move. One-year OIS spans the current decision and future policy expectations. Its movement can also reflect risk premia.'));
     box.append(table('One-year OIS moves in the decision-release window',[bank.value==='ecb'?'Reported gap at source precision':'Decision gap','Meetings','OIS observations','Median absolute move (bp)','Absolute move >1 bp','Absolute move >5 bp'],rows));
     if(bank.value==='ecb' && Number.isInteger(coverage.comparableGaps)){
@@ -617,6 +628,10 @@
     field('events').href='cross-asset-events.html?bank='+bank.value+'&lens=news#ce-news-coverage';
   }
   bank.onchange=()=>{instrument.value='';exclusion.value='';render();renderCurve();const url=new URL(location.href);url.searchParams.set('bank',bank.value);history.replaceState(null,'',url);};
+  window.addEventListener('hashchange',()=>{
+    const targetBank=hashBank();
+    if(targetBank && bank.value!==targetBank){bank.value=targetBank;bank.onchange();}
+  });
   field('threshold').onchange=renderAnticipated;
   for(const id of ['frame','regime-asset'])field(id).onchange=renderRegimes;
   field('dimension').onchange=()=>{

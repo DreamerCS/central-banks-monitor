@@ -5,6 +5,7 @@
     const n=document.createElement(tag);if(value!=null)n.textContent=value;return n;
   };
   const small = text => {const p=node('p',text);p.className='ce-small';return p;};
+  const result=text=>{const p=node('p',text);p.className='study-result';return p;};
   const num = (v,places=2) => Number.isFinite(v) ? new Intl.NumberFormat('en-GB',{minimumFractionDigits:places,maximumFractionDigits:places}).format(v).replace('-','−') : '—';
   const signed = (v,places=2) => (v>0?'+':'')+num(v,places);
   const median = a => {
@@ -56,7 +57,10 @@
       return [label,g.length,valid.length,signed(median(valid.map(r=>r[stage+'Ois1yBp']))),direction?ratio(mat.filter(r=>Math.sign(r[stage+'Ois1yBp'])===direction).length,mat.length):'—'];
     });
     const selected=rows.find(r=>r.date===select.value);
-    id('fp-summary').replaceChildren(table('One-year OIS by direction of the median policy-rate revision',['Fixed-year rate projection','Meetings','OIS quotes','Median OIS move (bp)','Same direction when |OIS| >1 bp'],by),scatter(compare,stage,selected.date));
+    const material=compare.filter(r=>r.fundsRevisionBp!==0 && Math.abs(r[stage+'Ois1yBp'])>1);
+    const aligned=material.filter(r=>Math.sign(r.fundsRevisionBp)===Math.sign(r[stage+'Ois1yBp'])).length;
+    const message=material.length?'One-year OIS moved in the direction of the median rate revision on '+aligned+' of '+material.length+' meetings where the projection changed and OIS moved more than 1 bp.':'No meeting in this selection had both a change in the median rate projection and a one-year OIS move larger than 1 bp.';
+    id('fp-summary').replaceChildren(result(message),scatter(compare,stage,selected.date),table('One-year OIS by direction of the median policy-rate revision',['Fixed-year rate projection','Meetings','OIS quotes','Median OIS move (bp)','Same direction when |OIS| >1 bp'],by));
     const fields=[['funds','Year-end federal funds rate','bp'],['growth','Real GDP growth','pp'],['inflation','PCE inflation','pp'],['core','Core PCE inflation','pp'],['unemployment','Unemployment rate','pp']];
     id('fp-case').replaceChildren(table(selected.date+' projections for '+selected.targetYear,['FOMC median','Prior release (%)','New release (%)','Revision'],fields.map(([k,label,unit])=>[label,num(selected[k+'PreviousPct'],1),num(selected[k+'MedianPct'],1),signed(selected[k+(k==='funds'?'RevisionBp':'RevisionPp')],k==='funds'?0:1)+' '+unit])),
       table('Same meeting, two market windows',['Window','One-year OIS (bp)','US 2Y (bp)','US 2s10s (bp)','S&P 500 (%)'],['release','conference'].map(k=>[k==='release'?'Statement':'Press conference',...['Ois1yBp','Yield2yBp','Slope2s10sBp','EquityPct'].map(a=>signed(selected[k+a]))])),
@@ -70,7 +74,8 @@
     options(select,rows.map(r=>[r.vintage,r.vintage+' · target '+r.targetYear]),select.value||'2022-09');
     const paired=rows.filter(r=>Number.isFinite(r.hicpRevisionPp)&&Number.isFinite(r.gdpRevisionPp));
     const grid=[1,0,-1].map(i=>[[ 'Inflation down','Inflation unchanged','Inflation up'][i+1],...[-1,0,1].map(g=>paired.filter(r=>Math.sign(r.hicpRevisionPp)===i&&Math.sign(r.gdpRevisionPp)===g).length)]);
-    id('ep-summary').replaceChildren(small(paired.length+' of '+rows.length+' vintages have both revisions against the preceding round for the same target year. Each comparable round appears once in the table.'),table('Joint revisions to annual euro-area projections (number of vintages)',['HICP revision','GDP down','GDP unchanged','GDP up'],grid));
+    const divergent=paired.filter(r=>r.hicpRevisionPp>0 && r.gdpRevisionPp<0).length;
+    id('ep-summary').replaceChildren(result('Staff raised projected inflation and cut projected growth in '+divergent+' of '+paired.length+' comparable rounds for the selected target year.'),small(paired.length+' of '+rows.length+' vintages have both revisions against the preceding round for the same target year. Each comparable round appears once in the table.'),table('Joint revisions to annual euro-area projections (number of vintages)',['HICP revision','GDP down','GDP unchanged','GDP up'],grid));
     const r=rows.find(r=>r.vintage===select.value);
     id('ep-case').replaceChildren(table(r.vintage+' forecasts for '+r.targetYear,['Measure','Prior round (%)','Selected round (%)','Revision (pp)','Selected-round basis'],[['HICP inflation',num(r.previousHicpPct,2),num(r.hicpPct,2),signed(r.hicpRevisionPp),r.hicpBasis],['Real GDP growth',num(r.previousGdpPct,2),num(r.gdpPct,2),signed(r.gdpRevisionPp),r.gdpBasis]]),
       small('Previous vintage '+(r.previousVintage||'unavailable')+'. The selected round was '+(r.publicAtVintage?'public at the time.':'an internal exercise at the time.')), links([['Published projection table',r.tableUrl],['ECB inflation series',r.hicpSeriesUrl],['ECB GDP series',r.gdpSeriesUrl]]));

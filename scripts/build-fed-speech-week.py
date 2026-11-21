@@ -71,8 +71,11 @@ page = '''<!doctype html>
 <meta name="description" content="Read the evidence behind the policy-direction scores for Federal Reserve Board speeches, 16–20 November 2026.">
 <title>Did Fed speakers signal a rate move? · Central Bank Intelligence</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="macro-studies.css">
+<link rel="stylesheet" href="film-edition.css">
+<script src="site-index.js" defer></script>
+<script src="film-edition.js" defer></script>
 </head><body><a class="skip-link" href="#main">Skip to content</a>
-<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="policy-stance.html">Policy stance</a><a href="market-reactions.html">Market reactions</a><a href="research-archive.html">Archive</a></nav></div></header>
+<header class="cbi-head film-masthead"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i><span>Central Bank Intelligence</span></a><nav aria-label="Primary research" class="film-primary"><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a></nav><a href="site-index.html" class="film-index-launch" data-index-open><span class="film-index-symbol" aria-hidden="true"></span>Site index</a></div></header>
 <main id="main" class="rs-wrap">
 <header class="rs-head"><p class="eyeline">Federal Reserve Board · 16–20 November 2026</p><h1>Did Fed speakers signal a rate move?</h1>
 <p>Two speakers favoured further tightening. One described conditions that could pull policy in either direction. Four speeches gave no current rate guidance.</p></header>

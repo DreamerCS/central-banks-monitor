@@ -21,8 +21,11 @@
   function showCase(article) {
     for (const item of articles) item.hidden = item !== article;
     for (const link of links) {
-      if (fragmentId(link.hash) === article.id) link.setAttribute("aria-current", "true");
-      else link.removeAttribute("aria-current");
+      if (fragmentId(link.hash) === article.id) {
+        link.setAttribute("aria-current", "true");
+        const group = link.closest("details");
+        if (group) group.open = true;
+      } else link.removeAttribute("aria-current");
     }
     for (const option of select.options) {
       if (option.value.replace(/^#/, "") === article.id) {

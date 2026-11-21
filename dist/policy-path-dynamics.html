@@ -8,25 +8,28 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="cross-asset-events.css"><link rel="stylesheet" href="policy-market-analysis.css"><link rel="stylesheet" href="policy-path-dynamics.css">
   <script defer src="policy-path-dynamics.js"></script>
+<link rel="stylesheet" href="film-edition.css">
+<script src="site-index.js" defer></script>
+<script src="film-edition.js" defer></script>
 </head>
 <body class="ce-page"><a class="skip-link" href="#main">Skip to content</a>
-<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="market-reactions.html">Market reactions</a><a href="cross-asset-events.html">Event explorer</a><a href="policy-market-analysis.html">Policy signals and market moves</a></nav></div></header>
+<header class="cbi-head film-masthead"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i><span>Central Bank Intelligence</span></a><nav aria-label="Primary research" class="film-primary"><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a></nav><a href="site-index.html" class="film-index-launch" data-index-open><span class="film-index-symbol" aria-hidden="true"></span>Site index</a></div></header>
 <main class="ce-wrap pm-study" id="main">
   <header class="ce-intro"><p class="eyeline">Market reactions</p><h1>Repricing the policy path</h1><p>Track what changed at the announcement, what moved again during the press conference, and how prices behaved around central bank speeches.</p></header>
-  <nav class="ce-examples" aria-label="Jump to study"><a href="#components">Decision release</a><a href="#conference">Press conference</a><a href="#speeches">Speech windows</a><a href="#meeting">How to read a meeting</a></nav>
+  <nav class="ce-examples study-chapters" aria-label="On this page"><span class="study-nav-label">On this page</span><a href="#components">Decision release</a><a href="#conference">Press conference</a><a href="#speeches">Speech windows</a><a href="#meeting">Meeting examples</a></nav>
   <label class="pm-control">Central bank<select id="pd-bank"><option value="fed">Federal Reserve</option><option value="ecb">European Central Bank</option></select></label>
   <section class="ce-detail" id="components">
     <h2>Near-term rates and the one-year path</h2>
     <p>At the decision release, asset prices can move with both the short rate and the expected path of future rates. Each coefficient estimates the asset change associated with a 5 bp increase in one instrument while the other is held fixed.</p>
     <label class="pm-control">Asset measure<select id="pd-asset" disabled></select></label>
-    <div id="pd-component-output" aria-live="polite">Loading joint estimates…</div>
+    <div id="pd-component-output" aria-live="polite"><p class="study-result">Across 176 Fed announcements, a 5 bp increase in one-year OIS was associated with a 5.73 bp rise in the two-year Treasury yield when the current-meeting surprise was held fixed.</p></div>
     <div class="ce-links"><a href="data/policy-path-components.json" download>Joint estimates and matched events (JSON)</a></div>
   </section>
   <section class="ce-detail" id="conference">
     <h2>Did the press conference reverse the initial move?</h2>
     <p>Compare the signed change in one-year OIS during the announcement with its change during the press conference on the same date.</p>
     <label class="pm-control">Minimum move in each window<select id="pd-threshold" disabled></select></label>
-    <div id="pd-reversal-output" aria-live="polite">Loading paired windows…</div>
+    <div id="pd-reversal-output" aria-live="polite">In 21 of 35 Fed meetings where one-year OIS moved more than 1 bp in both windows, the press-conference move ran in the opposite direction.</div>
     <div id="pd-followthrough" aria-live="polite" hidden></div>
     <div class="ce-links"><a href="data/conference-reversals.csv" download>Meeting windows (CSV)</a><a href="data/conference-reversals.json" download>Reversal study (JSON)</a></div>
   </section>
@@ -36,7 +39,7 @@
       <label>Group appearances by<select id="pd-kind"></select></label><label>Sample<select id="pd-group"></select></label>
     </div>
     <label id="pd-fed-controls" class="pm-control" hidden>Speech sample<select id="pd-fed-group"></select></label>
-    <div id="pd-speech-output" aria-live="polite">Loading intraday observations…</div>
+    <div id="pd-speech-output" aria-live="polite">Compare SOFR pricing around Fed speeches with the intraday windows available for ECB speeches.</div>
     <div class="ce-links" id="pd-fed-sources" hidden><a href="data/fed-speech-pricing-study.csv" download>SOFR and Treasury observations (CSV)</a><a href="data/fed-speech-pricing-study.json" download>Speech pricing results and methods (JSON)</a></div>
     <div class="ce-links" id="pd-ecb-sources"><a href="data/policy-research-ecb-speeches.csv" download>Speech windows and exclusions (CSV)</a><a href="data/speech-market-panel.json" download>Speech distributions and methods (JSON)</a></div>
   </section>
@@ -55,4 +58,5 @@
     </article>
     <div class="ce-links"><a href="policy-projections.html">Official projection revisions and market pricing</a><a href="policy-projections.html#guidance">Official guidance shifts and market pricing</a><a id="pd-reading-links" href="policy-market-analysis.html#headlines">Headline direction and repricing</a><a id="pd-explorer" href="cross-asset-events.html">Compare a decision with its source documents</a></div>
   </section>
+<noscript><p>Download the linked observations and estimates to explore other samples.</p></noscript>
 </main></body></html>

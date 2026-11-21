@@ -235,3 +235,32 @@
 }
 .repo-calculator :is(button, input):focus-visible { outline: 3px solid var(--case-accent); outline-offset: 3px; }
 @media print { .repo-calculator:not([hidden]) { display: none; } }
+
+.casebook {
+  --case-accent: var(--accent, #a43e2c);
+  --case-forest: var(--ink);
+  --case-rule: var(--line);
+}
+.case-group { border-top: 1px solid var(--case-rule); }
+.case-group:last-child { border-bottom: 1px solid var(--case-rule); }
+.case-group + .case-group { margin-top: 0; }
+.case-group summary {
+  padding: .85rem 0;
+  color: var(--ink);
+  font: 600 1.05rem/1.3 var(--serif);
+  cursor: pointer;
+}
+.case-group ul { border-top: 0; }
+.case-group li { border-bottom: 0; }
+.case-group a { color: var(--ink); padding: .55rem .65rem; }
+.case-group ul { margin-bottom: .55rem; }
+.case-group a[aria-current] { color: var(--ink); background: color-mix(in srgb, var(--case-accent) 9%, var(--paper)); }
+.casebook .case-lead { color: var(--ink); }
+@media screen and (min-width: 781px) {
+  .case-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(14rem, 25%);
+    grid-template-areas: "result catalogue";
+  }
+  .case-index { grid-area: catalogue; }
+  .case-reader { grid-area: result; }
+}

@@ -98,9 +98,11 @@ def render(data):
 <meta name="description" content="Compare Japan’s yen interventions with similar periods without intervention using official operations and New York noon quotes.">
 <title>What follows Japan’s yen interventions? · Central Bank Intelligence</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="yen-intervention.css">
+<link rel="stylesheet" href="film-edition.css">
+<script src="site-index.js" defer></script>
+<script src="film-edition.js" defer></script>
 </head><body><a class="skip-link" href="#main">Skip to content</a>
-<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a>
-<nav aria-label="Main navigation"><a href="./">Overview</a><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="empirical-studies.html">Empirical studies</a><a href="research-archive.html">Archive</a></nav></div></header>
+<header class="cbi-head film-masthead"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i><span>Central Bank Intelligence</span></a><nav aria-label="Primary research" class="film-primary"><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a></nav><a href="site-index.html" class="film-index-launch" data-index-open><span class="film-index-symbol" aria-hidden="true"></span>Site index</a></div></header>
 <main class="yen-main" id="main"><a href="empirical-studies.html">← Empirical studies</a>
 <h1>What follows Japan’s yen interventions?</h1>
 <p class="yen-lead">Japan bought yen in four episodes in 2022–24. In each one the currency strengthened by the first New York noon quote after the final operation. The April 2024 gain almost disappeared a month later. The July gain grew.</p>

@@ -56,7 +56,7 @@
     const q = new URLSearchParams({bank:state.bank,stage:state.stage});
     if(chosen) {q.set('date',chosen.date);q.set('event',chosen.id);}else if(requestedMissing)q.set('event',requestedMissing);
     for(const key of ['leader','year','lens','asset','query']) if(state[key]) q.set(key,state[key]);
-    history.replaceState(null,'','?'+q.toString());
+    history.replaceState(null,'','?'+q.toString()+location.hash);
   }
   function stageInfo(r) {return r._package.stages?.[r.stage] || {};}
   function stageLabel(r) {return stageInfo(r).label || r.stage;}
@@ -205,6 +205,13 @@
     const assets=assetsOf(r), main=['ois1y','yield2y','yield10y','slope','italySpread10y','equity','usEquityDaily','bankEquity','eurusd','usdjpy','vixDaily'];
     const chosenAssets=main.map(id=>assets.find(v=>v.id===id)).filter(Boolean);
     const other=assets.filter(a=>!chosenAssets.includes(a));
+    const mainMoves=['ois1y','yield2y','slope','equity','eurusd','usEquityDaily']
+      .map(id=>assets.find(asset=>asset.id===id))
+      .filter(asset=>asset && numbers(r.values?.[asset.id])).slice(0,3);
+    if(mainMoves.length){
+      const reading=mainMoves.map(asset=>asset.label+' '+fmt(r.values[asset.id],asset.unit)).join(' · ');
+      section.append(element('p',reading,'study-result'));
+    }
     section.append(table(chosenAssets.length?chosenAssets:assets));
     if(chosenAssets.length && other.length){const more=element('details',null,'ce-more');more.append(element('summary','See '+other.length+' more instruments'),table(other));section.append(more);}
     section.append(element('p',legs.length>1?'The whole-meeting change uses its own start and end quotes. A dash marks a missing quote. A quoted zero is shown as zero.':'A dash marks a missing quote. A quoted zero is shown as zero.','ce-small'));
@@ -401,7 +408,7 @@
     showYear();
   }
   function articles(box,r) {
-    const section=element('section');section.append(element('h3','How the news framed it'));
+    const section=element('section');section.id='ce-publisher-reports';section.append(element('h3','How the news framed it'));
     const items=newsOf(r);
     const sample=[...news.values()].flat();
     const coverage=element('details',null,'ce-more');
@@ -420,7 +427,9 @@
       section.append(element('p',newsAvailable?'No original Bloomberg, Wall Street Journal, Financial Times or Reuters headline has been verified for this event.':'The news evidence file could not be loaded.','ce-small'));if(sample.length)section.append(coverage);box.append(section);return;
     }
     section.append(element('p','Headlines are reviewed on Bloomberg, The Wall Street Journal, Financial Times and Reuters. Each summary links to the original publisher. Meeting-day coverage can span both the release and the press conference. Each item identifies the available publication or live-entry time. Headline alignment with a market move is descriptive.','ce-small'));
-    for(const report of items) {
+    const more=element('details',null,'study-reference');
+    if(items.length>2)more.append(element('summary','Read '+(items.length-2)+' more '+(items.length===3?'report':'reports')+' for this event'));
+    for(const [index,report] of items.entries()) {
       const article=element('article',null,'ce-article');article.append(element('p',[report.publisher,report.recordKind,report.coverageMode,report.evidenceKind].filter(Boolean).join(' · '),'ce-time'),element('h4',report.angle));
       if(report.excerpt)article.append(element('p','Words in the published title · “'+report.excerpt+'”','ce-small'));
       const timing=liveTiming(r,report);if(timing)article.append(element('p',timing,'ce-small'));
@@ -442,8 +451,9 @@
       if(report.versionNote) times.push(report.versionNote);
       if(Array.isArray(report.markets)&&report.markets.length) article.append(element('p','Market moves named in the headline · '+report.markets.map(m=>m.asset+' '+m.direction).join(', '),'ce-small'));
       if(times.length) {const t=element('details');t.append(element('summary','Timestamp and version'),element('p',times.join(' · '),'ce-small'));if(report.decisionClockSource)t.append(link('Official release clock',report.decisionClockSource));article.append(t);}
-      section.append(article);
+      (index<2?section:more).append(article);
     }
+    if(items.length>2)section.append(more);
     if(sample.length)section.append(coverage);
     const methods=element('details');methods.append(element('summary','Headline sample and coding'));for(const line of newsMethods)methods.append(element('p',line,'ce-small'));methods.append(link('Download headline coding and sources','data/news-framing.json'));section.append(methods);box.append(section);
   }
@@ -455,7 +465,7 @@
   }
   function distribution(box,r) {
     const section=element('section');
-    section.append(element('h3','The same market across events'));
+    section.id='ce-distribution';section.append(element('h3','The same market across events'));
     const label=element('label','Market','ce-chart-select'), control=element('select');label.append(control);section.append(label);
     const assets=assetsOf(r);
     state.asset=options(control,assets.map(a=>[a.id,a.label]),assets.some(a=>a.id===state.asset)?state.asset:assets.find(a=>a.id==='yield2y')?.id||assets[0]?.id);
@@ -524,11 +534,11 @@
     const flags=Array.isArray(r.flags)?r.flags:[];
     if(flags.length || r.groupEligible===false) box.append(element('p',(flags.length?flags.join(' · ')+'. ':'')+(r.groupEligible===false?'This observation is excluded from the comparison across events.':''),'ce-note ce-small'));
     assetTable(box,r,legs);
+    distribution(box,r);
     const readingPanels=element('div',null,'ce-reading-panels'), official=element('div'), press=element('div');
     policy(official,r);
     if(window.CBIPolicyTools?.render) {const tools=element('div');official.append(tools);window.CBIPolicyTools.render(tools,{...r,bank:state.bank});}
     articles(press,r);if(official.children.length)readingPanels.append(official);readingPanels.append(press);box.append(readingPanels);
-    distribution(box,r);
     if(window.CBICommodityContext?.render) {
       const energy=element('section');energy.id='commodity-event-day';box.append(energy);window.CBICommodityContext.render(energy,r.date);
     }

@@ -11,13 +11,16 @@
   <script src="policy-tool-readings.js" defer></script>
   <script src="commodity-event-days.js" defer></script>
   <script src="cross-asset-events.js" defer></script>
+<link rel="stylesheet" href="film-edition.css">
+<script src="site-index.js" defer></script>
+<script src="film-edition.js" defer></script>
 </head>
 <body class="ce-page">
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="market-reactions.html">Market reactions</a><a href="stance-history.html">Policy stance</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a></nav></div></header>
+<header class="cbi-head film-masthead"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i><span>Central Bank Intelligence</span></a><nav aria-label="Primary research" class="film-primary"><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a></nav><a href="site-index.html" class="film-index-launch" data-index-open><span class="film-index-symbol" aria-hidden="true"></span>Site index</a></div></header>
 <main id="main" class="ce-wrap">
   <header class="ce-intro"><p class="eyeline">Market reactions</p><h1>Cross-asset event study</h1><p>Follow rates, equities and currencies through a central bank communication. Select an event to compare the policy message, its news coverage and the prices observed around it.</p></header>
-  <nav class="ce-examples" aria-label="Event examples and studies"><a href="policy-market-analysis.html">Policy signals and market moves</a><a href="?bank=fed&amp;date=2022-11-02&amp;stage=release">Fed meeting · November 2022</a><a href="?bank=fed&amp;stage=speechFx&amp;event=fed-speech-intraday-2022-11-30-1330">Powell at Brookings · November 2022</a><a href="?bank=ecb&amp;date=2023-05-04&amp;stage=release">ECB · May 2023</a><a href="?bank=ecb&amp;event=ecb-speech-7837548756&amp;stage=speech">Draghi in London · July 2012</a><a href="?bank=ecb&amp;stage=release&amp;date=2024-06-06&amp;lens=news">ECB news coverage · June 2024</a></nav>
+  <nav class="ce-examples study-chapters" aria-label="On this page"><span class="study-nav-label">On this page</span><a href="#ce-filters">Select an event</a><a href="#ce-detail">Market moves</a><a href="#ce-distribution">Compare events</a><a href="#ce-publisher-reports">News reports</a><a href="#ce-news-coverage">Coverage by year</a></nav>
   <div id="ce-filters" class="ce-filters" hidden>
     <label>Central bank<select id="ce-bank"><option value="fed">Federal Reserve</option><option value="ecb">European Central Bank</option></select></label>
     <label>Event window<select id="ce-stage"></select></label>
@@ -25,20 +28,6 @@
     <label>Year<select id="ce-year"></select></label>
     <label>Evidence<select id="ce-lens"><option value="">All events</option><option value="news">With news coverage</option><option value="scored">With a text score</option><option value="hawk">Hawkish text</option><option value="dove">Dovish text</option><option value="wait">Hold guidance</option></select></label>
   </div>
-  <details id="ce-news-coverage" class="ce-more" hidden>
-    <summary id="ce-coverage-title">Verified news coverage by year</summary>
-    <div id="ce-discovery" class="ce-tables" hidden></div>
-    <div id="ce-selection" hidden></div>
-    <div id="ce-coverage-table" class="ce-tables" tabindex="0" role="region" aria-labelledby="ce-coverage-title"></div>
-    <details class="ce-method ce-more" id="ce-coverage-method" hidden>
-      <summary>Event universe and source checks</summary>
-      <div id="ce-coverage-notes"></div>
-      <div class="ce-links"><a href="data/news-coverage-frame.csv" download>Event universe (CSV)</a><a href="data/news-source-checks.csv" download>Source checks (CSV)</a><a href="data/news-coverage-audit.json" download>Coverage counts and methods (JSON)</a></div>
-    </details>
-    <label class="ce-search" id="ce-news-picker">Read coverage for a year<select id="ce-news-year"></select></label>
-    <div id="ce-year-headlines" class="ce-tables" tabindex="0" role="region" aria-label="Publisher reports for the selected year"></div>
-    <div class="ce-links"><a href="data/news-framing.csv" download>Download headline readings and meeting pricing (CSV)</a><a href="data/news-framing.json" download>Download records and methodology (JSON)</a></div>
-  </details>
   <p id="ce-status" class="ce-small" role="status">Loading market observations…</p>
   <div id="ce-layout" class="ce-layout" hidden>
     <details class="ce-index" id="ce-index" open>
@@ -49,6 +38,23 @@
     </details>
     <div id="ce-detail" class="ce-detail" aria-live="off"></div>
   </div>
-  <noscript><p>Download the event observations for the <a href="data/fed-cross-asset-events.json">Fed</a> or <a href="data/ecb-cross-asset-events.json">ECB</a>.</p></noscript>
+  <details id="ce-news-coverage" class="ce-more" hidden>
+    <summary id="ce-coverage-title">Verified news coverage by year</summary>
+    <details class="study-reference" id="ce-annual-counts"><summary>Annual counts by publisher</summary><div id="ce-coverage-table" class="ce-tables" tabindex="0" role="region" aria-labelledby="ce-coverage-title"></div></details>
+    <details class="study-reference" id="ce-news-sample"><summary>Archive selection and coverage bias</summary>
+    <div id="ce-discovery" class="ce-tables" hidden></div>
+    <div id="ce-selection" hidden></div>
+    </details>
+    <details class="ce-method ce-more" id="ce-coverage-method" hidden>
+      <summary>Event universe and source checks</summary>
+      <div id="ce-coverage-notes"></div>
+      <div class="ce-links"><a href="data/news-coverage-frame.csv" download>Event universe (CSV)</a><a href="data/news-source-checks.csv" download>Source checks (CSV)</a><a href="data/news-coverage-audit.json" download>Coverage counts and methods (JSON)</a></div>
+    </details>
+    <label class="ce-search" id="ce-news-picker">Read coverage for a year<select id="ce-news-year"></select></label>
+    <div id="ce-year-headlines" class="ce-tables" tabindex="0" role="region" aria-label="Publisher reports for the selected year"></div>
+    <div class="ce-links"><a href="data/news-framing.csv" download>Download headline readings and meeting pricing (CSV)</a><a href="data/news-framing.json" download>Download records and methodology (JSON)</a></div>
+  </details>
+  <details class="study-reference" id="ce-examples"><summary>Selected events and related study</summary><nav class="ce-links" aria-label="Event examples and studies"><a href="policy-market-analysis.html">Policy signals and market moves</a><a href="?bank=fed&amp;date=2022-11-02&amp;stage=release">Fed meeting · November 2022</a><a href="?bank=fed&amp;stage=speechFx&amp;event=fed-speech-intraday-2022-11-30-1330">Powell at Brookings · November 2022</a><a href="?bank=ecb&amp;date=2023-05-04&amp;stage=release">ECB · May 2023</a><a href="?bank=ecb&amp;event=ecb-speech-7837548756&amp;stage=speech">Draghi in London · July 2012</a><a href="?bank=ecb&amp;stage=release&amp;date=2024-06-06&amp;lens=news">ECB news coverage · June 2024</a></nav></details>
+  <noscript><p>Download the event observations for the <a href="data/fed-cross-asset-events.json">Fed</a> or <a href="data/ecb-cross-asset-events.json">ECB</a>, or download the <a href="data/news-framing.csv">headline archive (CSV)</a>.</p></noscript>
 </main>
 </body></html>
