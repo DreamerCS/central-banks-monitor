@@ -17,6 +17,36 @@ VERIFIED_PUBLICATION_URLS = {
 # These corrections identify one dated feed entry. Annual catalogues may be
 # reused for later releases, so they must never become permanent URL aliases.
 DATED_PUBLICATIONS = {
+    ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24105"): {
+        "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/01OVERVIEW19112026B29D00152F5C424E98C9CF7ABB3E9557.PDF",
+    },
+    ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24106"): {
+        "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/02FISCAL191120269B012BB5588F48B39FE0A962780E515A.PDF",
+    },
+    ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24107"): {
+        "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/03LOCAL191120265BBFAFED86484060B06DAFC552D4FEC4.PDF",
+    },
+    ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24108"): {
+        "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/04WAYFORWARD191120266F83311EA41848B6B6A7A180A1319705.PDF",
+    },
+    ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24109"): {
+        "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/05REFERENCES19112026A0E48A583FC24D618DBB90A8DE2D6E50.PDF",
+    },
+    ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24110"): {
+        "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/06EXPLANATORYNOTE19112026038321D1CFB740BF98DA947E68A07C29.PDF",
+    },
+    ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24111"): {
+        "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/01APPENDIXI191120264D4476F5212A45829E5DA48AE330FA2B.PDF",
+    },
+    ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24112"): {
+        "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/02APPENDIXI191120261E194DEF33394A5D93FE7E5F03469987.PDF",
+    },
+    ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24113"): {
+        "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/03APPENDIXI191120263665E038E1684A78BE0E477CC21EC2A2.PDF",
+    },
+    ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24114"): {
+        "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/04APPENDIXI19112026FD548FAFF0074FC6B25C99E346850603.PDF",
+    },
     ("2026-11-06", "https://www.boj.or.jp/en/research/imes/dps/dps26.htm"): {
         "url": "https://www.imes.boj.or.jp/research/abstracts/english/26-E-14.html",
         "title": "Generative AI for Economic Simulation: Heterogeneity in Subjective Models of Inflation",
