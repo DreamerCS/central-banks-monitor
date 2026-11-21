@@ -229,6 +229,7 @@
     }).sort((a,b)=>a.date.localeCompare(b.date));
     const tenor=(bankPairs.currency||({fed:"USD",ecb:"EUR"}[bank.id]))+" one-year OIS";
     section.append(el("p",tenor+" measures the same maturity in both windows. Each meeting contributes a rate-release observation and a later press-conference observation. Bank, leadership, cycle and prior-trend filters apply to the paired sample.","sx-foot"));
+    if(subset.length) section.append(el("p","Matched meeting dates: "+day(subset[0].date)+" to "+day(subset.at(-1).date)+".","sx-foot"));
     const controls=el("div",undefined,"sx-controls"), result=el("div"), recordBox=el("div");
     const bands=bankPairs.thresholds||pairData.thresholds||[0.5,1,2];
     if(!bands.includes(pairBand))pairBand=1;
@@ -253,9 +254,23 @@
     const overturned=r=>opposed(r)&&Math.abs(r.conferenceBp)>Math.abs(r.releaseBp)+1e-9;
     function showCounts(){
       const eligible=subset.filter(isPaired), opposite=eligible.filter(opposed), reversed=opposite.filter(overturned);
+      const observed=eligible.filter(r=>isNum(r.combinedWindowBp));
+      const endReversed=r=>r.releaseBp*r.combinedWindowBp<0;
+      const differences=observed.filter(r=>overturned(r)!==endReversed(r));
       result.replaceChildren(facts([["Both legs beyond ±"+pairBand+" bp",fraction(eligible.length,subset.length),"Of matched meetings"],
         ["Opposite / same sign",opposite.length+" / "+(eligible.length-opposite.length),eligible.length+" qualifying pairs"],
-        ["Fully reversed",fraction(reversed.length,opposite.length),"Of opposing pairs where the conference crosses the initial level"]]));
+        ["Reversed across measured legs",fraction(reversed.length,opposite.length),"Of opposing pairs whose summed move has the opposite sign to the release"],
+        ["Reversed over the full window",fraction(observed.filter(endReversed).length,observed.length),"Of qualifying pairs with a combined-window observation"]]));
+      if(differences.length) {
+        const box=el("div",undefined,"sx-links");
+        for(const r of differences) {
+          const button=el("button",day(r.date));
+          button.type="button";
+          button.addEventListener("click",()=>{selected.pairDate=r.date;showRecord();storeSelection();updateLinks();});
+          box.append(button);
+        }
+        result.append(el("p","The two definitions classify "+fraction(differences.length,observed.length)+" meetings differently. Inspect those meetings below.","sx-foot"),box);
+      }
     }
     function showRecord(){
       recordBox.replaceChildren();
@@ -269,8 +284,12 @@
         selected.pairDate=v;showRecord();storeSelection();updateLinks();
       });
       const left=el("div"), right=el("div"),dl=el("dl");
-      const label=!isPaired(r)?"At least one leg falls within the selected band.":overturned(r)?"The press conference fully reversed the release move.":opposed(r)?"The press conference offset the release without crossing the initial level.":"Both windows moved in the same direction.";
+      const label=!isPaired(r)?"At least one leg falls within the selected band.":overturned(r)?"The sum of the two measured legs had the opposite sign to the release.":opposed(r)?"The press conference offset the release without crossing the initial level.":"Both windows moved in the same direction.";
       left.append(el("h4",day(r.date)+" · "+r.leader),el("p",label),el("p",r.cycle+" · "+scoreText(r.score),"sx-foot"));
+      if(isNum(r.combinedWindowBp) && r.releaseBp!==0) {
+        const end=r.combinedWindowBp===0?"ended flat":r.combinedWindowBp*r.releaseBp<0?"ended in the opposite direction to the release":"retained the direction of the release";
+        left.append(el("p","The continuous meeting window "+end+". Its change minus the sum of the measured legs was "+bp(r.combinedWindowBp-r.totalBp)+".","sx-foot"));
+      }
       const links=el("div",undefined,"sx-links");
       if(safeUrl(r.sourceUrl))links.append(link("Official communication",r.sourceUrl));
       if(r.compareUrl && (safeUrl(r.compareUrl)||/^[a-z][a-z0-9-]*\.html(?:[?#]|$)/.test(r.compareUrl)))links.append(link("Meeting detail",r.compareUrl));
