@@ -61,13 +61,7 @@ html body main :is(h1,h2,h3,h4) {
   font-family: var(--film-display) !important; font-weight: 400 !important; text-transform: none !important;
   letter-spacing: -.025em !important;
 }
-html body main h1 { font-size: clamp(3rem,6.1vw,6.3rem) !important; line-height: .99 !important; }
-html body main h2 { font-size: clamp(2.05rem,3.1vw,3.5rem) !important; line-height: 1.04 !important; }
-html body main h3 { font-size: clamp(1.48rem,2.1vw,2.18rem) !important; line-height: 1.09 !important; }
-html body main h4 { font-size: clamp(1.23rem,1.5vw,1.55rem) !important; line-height: 1.16 !important; }
-html body.film-home main #cover-title {
-  font-size: clamp(3.75rem,6.9vw,7.4rem) !important; line-height: .93 !important; letter-spacing: -.045em !important;
-}
+
 html body.research-hub .hub-intro .hub-deck,html body.film-home .fh-deck {
   font: 400 clamp(1.04rem,1.25vw,1.19rem)/1.48 var(--sans); color: #49473e;
 }
@@ -128,6 +122,12 @@ dialog.film-index-dialog[open] { display: flex; flex-direction: column; }
 .film-index-status { font: 500 .85rem/1.45 var(--sans); color: var(--film-muted); margin: 10px 0 2px; }
 .film-index-status:empty { margin: 0; }
 .film-index-dialog [hidden] { display: none !important; }
+@media (min-width:781px) and (max-width:920px) {
+  html body .film-masthead .cbi-bar { padding-inline: 14px; gap: 10px; }
+  html body .film-masthead .cbi-name { gap: 7px; }
+  html body .film-masthead .film-primary { gap: 10px; }
+  html body .film-masthead .film-index-launch { padding-inline: 8px; }
+}
 @media(max-width:780px) {
   html body .film-masthead .film-primary { display: none; }
   html body .film-masthead .cbi-bar { min-height: 60px; }
@@ -138,7 +138,7 @@ dialog.film-index-dialog[open] { display: flex; flex-direction: column; }
   html body .film-masthead .cbi-name { font-size: 1.32rem; gap: 7px; }
   .film-masthead .cbi-name i { width: 18px; height: 20px; flex-basis: 18px; }
   html body .film-masthead .film-index-launch { font-size: .79rem; padding-inline: 8px; }
-  html body.film-home main #cover-title { font-size: clamp(3.45rem,12vw,4.8rem) !important; }
+
 }
 @media print {
   .film-masthead,dialog.film-index-dialog { display: none !important; }
@@ -162,4 +162,419 @@ html body.research-hub .hub-start a span[aria-hidden] {
 .hub-start a span[aria-hidden]::after {
   content: ""; position: absolute; right: 0; top: 0; width: .7rem; border-top: 1px solid currentColor;
   transform-origin: right top; transform: rotate(-45deg);
+}
+
+/* A charcoal-green cover with a warm photographic print and distinct research inks. */
+:root {
+  --film-dark: #182c2b; --film-paper: #f6f1e6; --film-ink: #24251e; --film-rule: #c8c0ae;
+  --film-muted: #57594f; --film-red: #9e3c2a;
+  --film-market: #973d2a; --film-policy: #365c52; --film-macro: #3b5267; --film-library: #65513b;
+}
+.film-home .fh-cover {
+  position: relative; width: 100%; max-width: none; box-sizing: border-box;
+  padding-inline: max(clamp(20px,5vw,82px),calc((100% - 1440px) / 2 + 82px));
+  background: radial-gradient(ellipse at 82% 18%,#33483d 0,transparent 57%),linear-gradient(120deg,#162a2b,#1d3431 58%,#283b34);
+  color: #faf2dd; border-block: 1px solid #53645a;
+}
+html body.film-home .fh-cover #cover-title { color: #fbf3df; }
+.film-home .fh-cover #cover-title span { color: #e5ac81; }
+html body.film-home .fh-cover .fh-deck { color: #e1e6d8; max-width: 39ch; }
+.film-home .fh-cover .fh-eyebrow { color: #e8b691; font-weight: 400; letter-spacing: .14em; }
+.film-home .fh-cover .fh-primary { background: #f1d1a7; color: #20312b; border-color: #f1d1a7; }
+.film-home .fh-cover .fh-primary:hover { background: #fae3c3; }
+.film-home .fh-cover .fh-secondary { color: #f4edda; text-decoration-color: #c2a981; }
+.film-home .fh-frame { color: #e7decb; }
+.film-home .fh-photo { position: relative; background: #142321; border: 1px solid #899184; box-shadow: 0 5px 20px #0a150e4d; }
+.film-home .fh-photo img { filter: sepia(.22) saturate(.84) contrast(1.06); }
+.film-home .fh-photo::after {
+  content: ""; position: absolute; pointer-events: none; inset: 0;
+  box-shadow: inset 0 0 32px #201c122e; background: linear-gradient(145deg,#efc6950a,transparent 42%,#162a2414);
+}
+.film-home .fh-frame figcaption { color: #dddcca; }
+.film-home .fh-desks { padding-top: clamp(20px,2.7vw,46px); }
+.film-home .fh-desks>h2 { border-top: 0; padding-top: 0; }
+.film-home .fh-desk:nth-child(1) { --desk-ink: var(--film-market); }
+.film-home .fh-desk:nth-child(2) { --desk-ink: var(--film-policy); }
+.film-home .fh-desk:nth-child(3) { --desk-ink: var(--film-macro); }
+.film-home .fh-desk h3 a, .film-home .fh-desk h3 a span { color: var(--desk-ink); }
+.film-home .fh-desk summary { color: #484d42; }
+body.reaction-page { --desk-ink: var(--film-market); }
+body.history-page { --desk-ink: var(--film-policy); }
+body.hist-body { --desk-ink: var(--film-macro); }
+html body.research-hub .hub-intro h1 { color: var(--desk-ink); }
+html body.research-hub .hub-start a:first-child, .research-hub .hub-section>summary::after { color: var(--desk-ink); }
+html body.research-hub .hub-intro .hub-deck { max-width: 54ch; }
+html body.research-hub .hub-section>summary:hover h2 { color: var(--desk-ink); }
+html body.research-hub .hub-section[open] { border-top: 2px solid var(--desk-ink); }
+html body.research-hub .hub-section[open]>summary h2 { color: var(--desk-ink); }
+html body .library-intro h1 { color: var(--film-library); }
+.film-index-subtitle {
+  color: #465a4d; margin: 4px 0 5px; font: 650 .82rem/1.45 var(--sans); letter-spacing: .01em;
+}
+.film-index-subset + .film-index-subset { padding-top: 8px; }
+.film-index-group .film-index-subset ul { padding-bottom: .7rem; }
+.film-index-dialog .film-index-title-row h2 { color: #f8eed8; }
+.film-index-head { border-bottom: 2px solid #bea57a; }
+.film-index-status { min-height: 0; }
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes edition-type-in { from { opacity: .65; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes edition-print-in { from { opacity: .72; filter: sepia(.45) contrast(.9); transform: scale(1.018); } to { opacity: 1; filter: sepia(.22) saturate(.84) contrast(1.06); transform: scale(1); } }
+  @keyframes edition-index-in { from { opacity: .8; transform: translateX(24px); } to { opacity: 1; transform: translateX(0); } }
+  @keyframes edition-shade-in { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes edition-chapter-in { from { opacity: .56; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+  .film-home .fh-cover-text,.research-hub .hub-intro,.library-intro { animation: edition-type-in 430ms cubic-bezier(.2,.7,.2,1) both; }
+  .film-home .fh-photo img { animation: edition-print-in 850ms cubic-bezier(.15,.7,.25,1) both; }
+  dialog.film-index-dialog[open] { animation: edition-index-in 195ms cubic-bezier(.2,.7,.2,1) both; }
+  .film-index-dialog[open]::backdrop { animation: edition-shade-in 160ms ease-out both; }
+  .hub-section[open]>.hub-content,.fh-tool-group[open]>.fh-tool-body { animation: edition-chapter-in 195ms ease-out; }
+  .fh-desk h3 a span,.fh-library h2 a span,.fh-cover-actions span,.library-collection,
+  .film-index-group a,.film-masthead .film-index-launch { transition: color 150ms, background-color 150ms, transform 160ms; }
+  @media (hover:hover) {
+    .fh-desk h3 a:hover span,.fh-library h2 a:hover span { transform: translateX(3px); }
+    .fh-cover-actions .fh-primary:hover span { transform: translateY(2px); }
+    .library-collection:hover { transform: translateX(2px); }
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html,body { scroll-behavior: auto !important; }
+  *,*::before,*::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+/* Event studies and the publication reader. */
+body.ce-page main.ce-wrap,
+.archive-shell .research-record,
+.note-shell,
+#archive-reader {
+  --reading-teal: #173f3d;
+  --reading-wine: #762c37;
+  --reading-text: #282722;
+  --reading-muted: #59564f;
+  --reading-rule: #c6c0b3;
+  --reading-serif: Georgia, "Iowan Old Style", Cambria, serif;
+}
+
+.ce-page .ce-wrap .ce-intro > p:last-child {
+  max-width: 64ch;
+  color: var(--reading-text);
+  font: 440 clamp(1.04rem, 1.35vw, 1.28rem)/1.52 var(--sans);
+  letter-spacing: -.015em;
+}
+.ce-page .ce-wrap .ce-intro .eyeline,
+.ce-page .ce-wrap .ce-time,
+.archive-shell .research-record .record-meta,
+#manuscript .note-byline {
+  color: var(--reading-wine);
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+}
+.ce-page .ce-wrap .ce-detail { border-top-color: var(--reading-teal); }
+.ce-page .ce-wrap .ce-detail > p:not([class]) {
+  max-width: 73ch;
+  color: var(--reading-text);
+  line-height: 1.64;
+}
+.ce-page .ce-wrap .study-result {
+  box-sizing: border-box;
+  max-width: 78ch;
+  padding: .85rem 1.15rem;
+  border: 0;
+  border-inline-start: 3px solid var(--reading-wine);
+  background: #ebe2dc;
+  color: #45232a;
+  font: 500 1.02rem/1.55 var(--sans);
+}
+.ce-page .ce-wrap :is(#pm-market-output, #pd-component-output, #fp-summary, #ce-detail) .study-result {
+  max-width: 72ch;
+  margin-block: 1.05rem;
+  padding: clamp(1rem, 2.4vw, 1.7rem) clamp(1.1rem, 2.7vw, 2.25rem);
+  border: 0;
+  background: var(--reading-teal);
+  color: #fffbef;
+  font: 400 clamp(1.13rem, 1.65vw, 1.53rem)/1.49 var(--reading-serif);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.ce-page .ce-wrap .ce-tables :is(table, caption) { font-family: var(--sans); }
+.ce-page .ce-wrap .ce-tables caption {
+  color: var(--reading-text);
+  font-weight: 650;
+  padding-block: .3rem .55rem;
+}
+.ce-page .ce-wrap .ce-tables thead th {
+  padding: .57rem .65rem;
+  border-block: 1px solid var(--reading-rule);
+  background: #e4e6dd;
+  color: #233633;
+  font-weight: 650;
+  line-height: 1.35;
+}
+.ce-page .ce-wrap .ce-tables tbody :is(th, td) {
+  padding-inline: .65rem;
+  border-bottom-color: var(--reading-rule);
+}
+.ce-page .ce-wrap .ce-tables tbody th[scope="row"] { color: var(--reading-text); font-weight: 550; }
+.ce-page .ce-wrap .ce-readings dd {
+  color: var(--reading-teal);
+  font: 500 clamp(1.21rem, 1.85vw, 1.6rem)/1.18 var(--sans);
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: -.025em;
+}
+.ce-page .ce-wrap .ce-tables a,
+.ce-page .ce-wrap .ce-detail .ce-links a {
+  color: var(--reading-wine);
+  text-underline-offset: .21em;
+}
+
+.archive-shell .research-record .record-excerpt,
+#manuscript #note-summary p,
+#manuscript .note-questions li p {
+  color: var(--reading-text);
+  font: 400 1.055rem/1.7 var(--reading-serif);
+  max-width: 69ch;
+}
+#manuscript #note-summary p:first-child {
+  color: #283733;
+  font: 400 clamp(1.15rem, 1.6vw, 1.38rem)/1.56 var(--reading-serif);
+  max-width: 59ch;
+}
+#manuscript #note-bank,
+#manuscript :is(.note-source, .note-permalink),
+.note-shell .note-index time { color: var(--reading-wine); }
+.note-shell .note-index li a {
+  font: 500 .98rem/1.44 var(--sans);
+  color: var(--reading-text);
+}
+.note-shell .note-index li a[aria-current] {
+  color: var(--reading-teal);
+  background: #e1e8df;
+  box-shadow: inset 3px 0 var(--reading-teal);
+}
+#manuscript .note-limitation {
+  border-inline-start: 3px solid var(--reading-wine);
+  color: var(--reading-muted);
+  font-family: var(--sans);
+}
+#manuscript .note-market {
+  border: 0;
+  border-block-start: 2px solid var(--reading-teal);
+  padding: 1.05rem clamp(.85rem, 2vw, 1.5rem) 1.2rem;
+  background: #e2e9e0;
+}
+#manuscript .note-market :is(h3, dd, a) { color: var(--reading-teal); }
+#manuscript .note-market :is(dt, p) { color: #454f48; }
+#manuscript .note-market dd { font: 500 1.22rem/1.3 var(--sans); font-variant-numeric: tabular-nums; }
+
+@media (max-width: 600px) {
+  .ce-page .ce-wrap .ce-tables :is(thead th, tbody th, tbody td) { padding-inline: .42rem; }
+}
+@media print {
+  .ce-page .ce-wrap .ce-detail p.study-result,
+  .ce-page .ce-wrap :is(#pm-market-output, #pd-component-output, #fp-summary, #ce-detail) p.study-result {
+    color: #222;
+    background: transparent;
+    border-inline-start: 2px solid #444;
+  }
+}
+
+/* The same roles and scale apply inside every research application, including dynamic content. */
+:root {
+  --type-display: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --type-text: "DM Sans", Arial, sans-serif;
+  --type-code: "IBM Plex Mono", ui-monospace, monospace;
+  --size-title: clamp(3.5rem, 6.2vw, 6.2rem);
+  --size-section: clamp(2.25rem, 3.35vw, 3.65rem);
+  --size-topic: clamp(1.65rem, 2.2vw, 2.35rem);
+  --size-minor: clamp(1.32rem, 1.62vw, 1.7rem);
+  --size-lead: clamp(1.19rem,1.62vw,1.45rem);
+  --size-text: clamp(1.0625rem,1.27vw,1.1875rem);
+  --size-control: 1rem;
+  --size-data: clamp(.9375rem,1.12vw,1.0625rem);
+  --size-caption: .9375rem;
+  --size-meta: .875rem;
+}
+html body { font: 400 var(--size-text)/1.62 var(--type-text); }
+html body main { font-family: var(--type-text); }
+html body main :is(h1,h2,h3,h4) { font-family: var(--type-display) !important; }
+html body main h1,html body.film-home main #cover-title { font-size: var(--size-title) !important; line-height: .99 !important; }
+html body main h2 { font-size: var(--size-section) !important; line-height: 1.09 !important; }
+html body main h3 { font-size: var(--size-topic) !important; line-height: 1.13 !important; }
+html body main h4 { font-size: var(--size-minor) !important; line-height: 1.18 !important; }
+html body main h5,html body main h6 { font: 600 var(--size-text)/1.4 var(--type-text); }
+html body :is(main,#main) p,
+html body :is(main,#main) :is(.library-route li,.case-prose li,.note-questions li,.fh-desk p) {
+  font-family: var(--type-text) !important; font-size: var(--size-text) !important; line-height: 1.62 !important;
+}
+html body :is(main,#main) :is(p.es-intro,p.fh-deck,p.case-intro,p.case-lead,p.case-deck,p.hub-deck,p.score-lead,p.yen-lead,p.oil-intro,
+  .ce-intro>p:last-child,.library-intro>p,.rs-intro>p:last-child,.yb-header>p:last-child,h1+p:not([role]):not([id])) {
+  font-family: var(--type-text) !important; font-size: var(--size-lead) !important; line-height: 1.48 !important; letter-spacing: -.012em;
+}
+html body :is(main,#main) :is(.study-result,p.study-result,#note-summary>p:first-child) {
+  font-family: var(--type-text) !important; font-size: var(--size-lead) !important; line-height: 1.52 !important;
+}
+html body :is(main,#main) :is(label,dt,.hub-description,.study-reference>summary,.fh-desk summary,.hub-start a,
+  .library-collection,.hub-resources a,.film-index-section a,.note-index li a,.fh-library-paths li span,.fh-library-paths li>a) {
+  font-family: var(--type-text) !important; font-size: var(--size-control) !important; line-height: 1.48 !important;
+}
+html body :is(main,#main) :is(input:not([type=range]),select,textarea,button),
+html body .film-index-dialog input {
+  font-family: var(--type-text) !important; font-size: var(--size-control) !important; line-height: 1.35 !important;
+}
+html body :is(main,#main) :is(label,th,.hs-table th,.mr-controls label,.history-field,.hs-control) {
+  letter-spacing: .015em; text-transform: none;
+}
+html body :is(main,#main) :is(table,th,td),html body :is(main,#main) :is(th,td)>:is(a,span,b,strong) {
+  font-family: var(--type-text) !important; font-size: var(--size-data) !important; line-height: 1.45 !important;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+html body :is(main,#main) :is(caption,figcaption,td small,th small,.case-caption,.ce-small,.hs-caption,.mr-footnote,.mr-chart-foot,
+  p[role=status],.note-source,.note-permalink,.note-matches,.record-excerpt small,.plot-footer,.plot-footer a,.study-nav-label,.mr-sources strong) {
+  font-family: var(--type-text) !important; font-size: var(--size-caption) !important; line-height: 1.48 !important;
+}
+html body :is(main,#main) :is(.eyeline,.fh-eyebrow,.history-dateline,.case-kicker,.mr-label,.mr-metric small,
+  .case-meta,.ce-time,.record-meta,.note-byline,.note-index time,.ce-event small,.history-series-date,.history-inspector small,
+  .hs-list a small,.hs-table th small,.fh-tool-counts,.institution,.hub-intro>p:first-child) {
+  font-family: var(--type-code) !important; font-size: var(--size-meta) !important; line-height: 1.48 !important;
+  letter-spacing: .035em !important;
+}
+html body :is(main,#main) :is(.mr-metric strong,.ce-readings dd,.es-price-values dd,.repo-results dd,.note-market dd) {
+  font: 550 clamp(1.25rem,1.85vw,1.65rem)/1.23 var(--type-text) !important;
+  font-variant-numeric: tabular-nums;
+}
+html body :is(main,#main) :is(summary,button) { font-family: var(--type-text); }
+html body .film-index-scroll { font-family: var(--type-text); }
+html body .film-index-group>summary { font-size: var(--size-topic); }
+html body .film-index-subtitle,html body .film-index-head label { font-size: var(--size-control); }
+html body .film-index-group a { font: 450 var(--size-control)/1.5 var(--type-text); }
+@media(max-width: 430px) {
+  html body :is(main,#main) :is(input,select,textarea) { max-width: 100%; }
+}
+
+html body :is(main,#main) small {
+  font-family: var(--type-text) !important; font-size: var(--size-meta) !important; line-height: 1.48 !important;
+}
+html body :is(main,#main) :is(.yb-sources,.yb-sources a,.case-sources a,.note-source a,.note-permalink a,
+  .source-card a,.source-list a,.case-footer a,.mr-method-links a,.plot-footer a) {
+  font-family: var(--type-text) !important; font-size: var(--size-caption) !important; line-height: 1.48 !important;
+}
+
+/* Shared reading widths and spacing for the interior research and publication pages. */
+@media screen {
+  body:not(.film-home) main#main {
+    --film-page-gutter: clamp(1.125rem, 5vw, 5.125rem);
+    --film-page-opening: clamp(2.25rem, 4.6vw, 4.5rem);
+    --film-section-space: clamp(2rem, 4vw, 4rem);
+    --film-form-gap: clamp(.9rem, 1.8vw, 1.5rem);
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: var(--film-page-opening) var(--film-page-gutter) clamp(3.5rem, 7vw, 7rem);
+  }
+
+  /* Put the gutter and the leading space on the page, once. */
+  #main > :is(.hub-intro, .case-header, .oil-intro, .score-heading, .sx-title, .library-intro) {
+    padding-block-start: 0;
+    margin-block-start: 0;
+  }
+  #main > h1:first-child,
+  #main > :is(.sx-title, .score-heading, .case-header, .hub-intro) > h1:first-child {
+    margin-block-start: 0;
+  }
+  #main > :is(.ce-intro, .rs-head, .yb-title, .archive-intro, .note-intro) {
+    margin-block-end: clamp(1.5rem, 2.8vw, 2.75rem);
+  }
+  #main > :is(.case-header, .oil-intro, .hub-intro, .score-heading, .sx-title) {
+    padding-block-end: clamp(1.4rem, 2.3vw, 2.25rem);
+  }
+  #main .hub-start { row-gap: .65rem; padding-block-end: var(--film-section-space); }
+  #main .hub-section > summary { padding-block: clamp(1.5rem, 2.8vw, 2.6rem); }
+  #main .hub-content { padding-block-end: var(--film-section-space); }
+
+  /* Article sections can breathe without separating every observation in a dataset. */
+  #main > .rs-study, #main > .ce-detail, #main > .stance-section,
+  #main .hub-content > :is(.mr-analysis, .policy-episode, .sx-panel),
+  #main.yen-main > section {
+    padding-block: clamp(1.6rem, 3vw, 3rem) clamp(1.8rem, 3.4vw, 3.4rem);
+  }
+  #main :is(.ce-detail, .rs-study, .policy-episode) > p:not([class]) { max-inline-size: 73ch; }
+  #main :is(.hub-content, .ce-layout, .ce-grid, .es-grid, .hs-grid, .case-layout, .note-layout, .history-body) > * {
+    min-inline-size: 0;
+  }
+  #main .study-chapters { margin-block: 1.6rem; padding-block: .95rem; gap: .65rem 1.5rem; }
+
+  /* Existing forms use both grid and flex. Keep each form's control order and wrapping. */
+  #main :is(.ce-filters, .es-controls, .mr-controls, .hs-bars, .rs-controls, .sx-controls, .pm-controls,
+            .history-toolbar, .evidence-controls, .pc-controls, .fd-controls, .amh-controls,
+            .oil-controls, .pw-controls, .yb-peer-filters, .coverage-controls,
+            .archive-search-row, .archive-narrow-fields) {
+    gap: var(--film-form-gap) clamp(1rem, 2vw, 2rem);
+    align-items: end;
+  }
+  #main :is(.ce-filters, .mr-controls, .history-toolbar) { padding-block: clamp(1rem, 2vw, 1.6rem); }
+  #main :is(.es-controls, .rs-controls, .sx-controls, .hs-bars, .pm-controls, .coverage-controls) {
+    margin-block: clamp(1.1rem, 2vw, 1.8rem);
+  }
+  #main :is(.ce-filters, .mr-controls, .rs-controls, .es-controls, .sx-controls, .archive-search-row, .archive-narrow-fields) label {
+    min-inline-size: 0;
+    gap: .45rem;
+  }
+  body:not(.film-home) #main :is(select, textarea, input[type="search"], input[type="text"], input[type="number"], input[type="date"]) {
+    box-sizing: border-box;
+    max-inline-size: 100%;
+    min-block-size: 2.75rem;
+    padding-block: .45rem;
+  }
+  #main :is(.ce-readings, .mr-metrics, .sx-facts, .es-aside dl) { row-gap: 1rem; }
+  #main .ce-reading-panels .ce-readings { grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); }
+
+  /* Wide data scroll at their own wrapper; the page, heading and filter controls stay in place. */
+  #main :is(.ce-tables, .policy-table-scroll, .mr-table-scroll, .table-scroll, .case-evidence, .es-tablewrap,
+            .hs-scroll, .rs-table-wrap, .sx-tablewrap, .coverage-scroll, .yb-scroll, .pw-table-wrap, .yen-scroll,
+            .oil-scroll, .uk-scroll, .ss-table, .fd-distribution, .amh-stat-block) {
+    box-sizing: border-box;
+    min-inline-size: 0;
+    max-inline-size: 100%;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+  }
+  body:not(.film-home) #main table :is(th, td) { padding-block: .5rem; }
+  body:not(.film-home) #main thead th { padding-block: .65rem; }
+}
+
+@media screen and (max-width: 760px) {
+  #main :is(.ce-filters, .mr-controls, .evidence-controls) {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr));
+  }
+  #main :is(.ce-filters, .rs-controls, .sx-controls, .hs-bars, .pm-controls, .archive-filters) > * {
+    max-inline-size: 100%;
+    min-inline-size: 0;
+  }
+  #main :is(.hub-content, .ce-detail, .note-layout, .rs-study, .archive-shell) a {
+    overflow-wrap: anywhere;
+  }
+  #main :is(.hub-start, .hub-resources, .study-chapters, .es-tabs, .yb-peer-filters) a,
+  #main :is(.history-buttons, .history-range, .ce-paging) button {
+    display: inline-flex;
+    min-block-size: 2.75rem;
+    align-items: center;
+  }
+  #main .study-chapters { gap: .15rem 1.25rem; padding-block: .55rem; }
+}
+
+@media screen and (max-width: 480px) {
+  #main :is(.ce-filters, .mr-controls, .es-controls, .rs-controls, .sx-controls, .evidence-controls,
+            .pc-controls, .fd-controls, .amh-controls, .oil-controls, .pw-controls,
+            .archive-search-row, .archive-narrow-fields) {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: .9rem;
+  }
+  #main .hub-content, #main :is(.archive-search-row, .archive-narrow-fields) > * { min-inline-size: 0; }
+  #main .archive-search-row > *, #main .archive-narrow-fields > * { grid-column: auto; }
+}
+
+@media(max-width: 365px) {
+  html body .film-masthead .cbi-bar { padding-inline: 12px; column-gap: 8px; min-height: 62px; }
+  html body .film-masthead .cbi-name { flex: 1 1 0; min-width: 0; }
+  html body .film-masthead .cbi-name span { white-space: normal; line-height: 1.04; text-wrap: balance; }
+  html body .film-masthead .film-index-launch { flex: 0 0 auto; }
+  .research-hub .hub-intro .history-dateline { white-space: normal; }
 }

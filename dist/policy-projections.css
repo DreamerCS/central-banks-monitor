@@ -1,5 +1,5 @@
 #fp-plot{width:100%;max-width:720px;display:block;margin:.5rem 0}
-#fp-plot text{font:12px Arial,sans-serif;fill:var(--ce-ink)}
+#fp-plot text{font:400 15px var(--sans,Arial,sans-serif);fill:var(--ce-ink)}
 #fp-plot .axis{stroke:var(--ce-line);stroke-width:1}
 #fp-plot .zero{stroke:#7b857c;stroke-width:1.5}
 #fp-plot .point{fill:#33644e;opacity:.7}

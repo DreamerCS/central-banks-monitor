@@ -22,7 +22,7 @@
 .time-chart { margin:0; min-width:0; padding:clamp(15px,2.7vw,30px); background:var(--dark); color:#f3f1e7; }
 .time-chart figcaption,.distribution h3 { font:400 clamp(1.4rem,2.7vw,2.05rem)/1.15 var(--serif); letter-spacing:-.035em; margin:0; }
 .time-chart svg { display:block; width:100%; margin:7px 0 0; height:clamp(190px,21vw,275px); overflow:visible; }
-.time-chart svg text { font-family:Arial,Helvetica,sans-serif; fill:#e5e9db; }
+.time-chart svg text { font: 400 15px var(--sans, Arial, sans-serif); fill:#e5e9db; }
 .time-chart .plot-grid { stroke:#aeb8ab; opacity:.37; }
 .time-chart .plot-zero { stroke:#d0d9bf; }
 .scale-legend { display:flex; gap:5px 15px; flex-wrap:wrap; color:#e7ebde; font-size:.8rem; }

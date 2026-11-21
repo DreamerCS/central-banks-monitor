@@ -92,7 +92,7 @@
     for (const value of [2,1,0,-1,-2,null]) {
       const y = yPos(value);
       svg.append(svgElement("line", {x1:"12%", x2:"94%", y1:y, y2:y, class:value === 0 ? "plot-zero" : "plot-grid"}));
-      svg.append(svgElement("text", {x:"9%", y, dy:".33em", "text-anchor":"end", "font-size":12}, isNumber(value) ? signed(value) : "N/A"));
+      svg.append(svgElement("text", {x:"9%", y, dy:".33em", "text-anchor":"end"}, isNumber(value) ? signed(value) : "N/A"));
     }
     const ts = date => Date.parse(date + "T12:00:00Z");
     const first = ts(matching.at(-1).date), last = ts(matching[0].date);
@@ -102,7 +102,7 @@
       svg.append(svgElement("circle", {cx:xPos(ts(row.date)), cy:yPos(row.score), r:3.3, fill:palette[group(row.score)], stroke:missing ? "#b9c5b9" : "none"}));
     }
     svg.append(svgElement("circle", {cx:xPos(ts(selected.date)), cy:yPos(selected.score), r:6.3, fill:"none", stroke:"#fff6d6", "stroke-width":1.7}));
-    const label = (date, align, str) => svg.append(svgElement("text", {x:xPos(ts(date)), y:"95%", "text-anchor":align, "font-size":12}, str));
+    const label = (date, align, str) => svg.append(svgElement("text", {x:xPos(ts(date)), y:"95%", "text-anchor":align}, str));
     if (first === last) label(selected.date, "middle", dateText(selected.date));
     else {
       const start = matching.at(-1).date, end = matching[0].date;

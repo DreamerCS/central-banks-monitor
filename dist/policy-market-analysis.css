@@ -13,12 +13,10 @@
 .pm-study #pm-scatter{border-top:1px solid var(--ce-line);margin:1.2rem 0;padding-top:1.1rem}
 .pm-study #pm-scatter h3{margin-top:0}
 .pm-study .pm-scatterplot{display:block;width:100%;max-width:770px;margin:.4rem 0}
-.pm-study .pm-scatterplot text{font:14px Arial,sans-serif;fill:var(--ce-ink)}
+.pm-study .pm-scatterplot text{font:400 15px var(--sans,Arial,sans-serif);fill:var(--ce-ink)}
 .pm-study .pm-grid{stroke:var(--ce-line);stroke-width:.7}
 .pm-study .pm-zero{stroke:#607168;stroke-width:1.5}
 .pm-study .pm-fit{stroke:#a3441a;stroke-width:2.5}
 .pm-study .pm-dot{fill:#255747;fill-opacity:.5}
 .pm-study .pm-plot-link:focus .pm-dot,.pm-study .pm-picked .pm-dot{fill:#a3441a;fill-opacity:1;stroke:#362f24;stroke-width:1.7}
 .pm-study #pm-point-info{margin:.5rem 0}
-
-@media(max-width:540px){.pm-study .pm-scatterplot text{font-size:19px}}

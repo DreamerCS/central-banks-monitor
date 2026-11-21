@@ -75,7 +75,8 @@
       .map(r=>({r,x:r.values[key],y:r.values[asset]})).sort((a,b)=>a.r.date.localeCompare(b.r.date));
     if(!points.length||points.length!==outcome.n){plot.replaceChildren(small('The available point sample does not match the saved regression. Use the table and meeting download for this release.'));return;}
     const xName=predictor.label,yName=outcome.label,yUnit=outcome.unit;
-    const left=61,right=590,top=13,bottom=262;
+    // Percentage x coordinates keep the axes readable when the chart narrows.
+    const left=16,right=93,top=13,bottom=244;
     const tickRange=values=>{
       const min=Math.min(0,...values),max=Math.max(0,...values),raw=(max-min||1)/4;
       const magnitude=10**Math.floor(Math.log10(raw));
@@ -84,16 +85,16 @@
       return {low,high:high===low?low+step:high,step};
     };
     const xr=tickRange(points.map(p=>p.x)),yr=tickRange(points.map(p=>p.y));
-    const X=x=>left+(x-xr.low)/(xr.high-xr.low)*(right-left),Y=y=>bottom-(y-yr.low)/(yr.high-yr.low)*(bottom-top);
-    const chart=svg('svg',{class:'pm-scatterplot',viewBox:'0 0 605 295',role:'group','aria-label':yName+' against '+xName+', '+points.length+' meetings'});
+    const X=x=>(left+(x-xr.low)/(xr.high-xr.low)*(right-left))+'%',Y=y=>bottom-(y-yr.low)/(yr.high-yr.low)*(bottom-top);
+    const chart=svg('svg',{class:'pm-scatterplot',width:'100%',height:289,role:'group','aria-label':yName+' against '+xName+', '+points.length+' meetings'});
     const clipId='pm-plot-area', defs=svg('defs',{}),clip=svg('clipPath',{id:clipId});
-    clip.append(svg('rect',{x:left,y:top,width:right-left,height:bottom-top}));defs.append(clip);chart.append(defs);
+    clip.append(svg('rect',{x:left+'%',y:top,width:(right-left)+'%',height:bottom-top}));defs.append(clip);chart.append(defs);
     const nice=v=>new Intl.NumberFormat('en-GB',{maximumFractionDigits:3,signDisplay:'exceptZero'}).format(v);
     for(let i=0,x=xr.low;x<=xr.high+xr.step/100;i++,x=xr.low+i*xr.step){
-      chart.append(svg('line',{x1:X(x),x2:X(x),y1:top,y2:bottom,class:Math.abs(x)<1e-9?'pm-zero':'pm-grid'}),svg('text',{x:X(x),y:bottom+21,'text-anchor':'middle'},nice(x)));
+      chart.append(svg('line',{x1:X(x),x2:X(x),y1:top,y2:bottom,class:Math.abs(x)<1e-9?'pm-zero':'pm-grid'}),svg('text',{x:X(x),y:bottom+32,'text-anchor':'middle'},nice(x)));
     }
     for(let i=0,y=yr.low;y<=yr.high+yr.step/100;i++,y=yr.low+i*yr.step){
-      chart.append(svg('line',{x1:left,x2:right,y1:Y(y),y2:Y(y),class:Math.abs(y)<1e-9?'pm-zero':'pm-grid'}),svg('text',{x:left-7,y:Y(y)+4,'text-anchor':'end'},nice(y)));
+      chart.append(svg('line',{x1:left+'%',x2:right+'%',y1:Y(y),y2:Y(y),class:Math.abs(y)<1e-9?'pm-zero':'pm-grid'}),svg('text',{x:left+'%',dx:-7,y:Y(y)+4,'text-anchor':'end'},nice(y)));
     }
     const n=points.length,xMean=points.reduce((a,p)=>a+p.x,0)/n,yMean=points.reduce((a,p)=>a+p.y,0)/n;
     const slope=outcome.slopePer10Bp==null?null:outcome.slopePer10Bp/10;

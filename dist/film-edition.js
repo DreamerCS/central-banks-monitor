@@ -1,7 +1,7 @@
 (() => {
   const catalogue = window.CBI_SITE_INDEX;
   const launcher = document.querySelector('[data-index-open]');
-  if (!launcher || !Array.isArray(catalogue)) return;
+  if (!launcher || !Array.isArray(catalogue) || document.getElementById('film-site-index')) return;
   const make = (tag, className, text) => {
     const el = document.createElement(tag);
     if (className) el.className = className;
@@ -40,18 +40,28 @@
   const groups = catalogue.map(group => {
     const panel = make('details', 'film-index-group');
     const summary = make('summary', '', group.label);
-    const list = make('ul');
-    const items = group.items.map(({label, href, keywords = ''}) => {
+    panel.append(summary);
+    const sections = new Map();
+    const items = group.items.map(({label, href, section = '', keywords = ''}) => {
+      if (!sections.has(section)) {
+        const container = make('div','film-index-subset');
+        const list = make('ul');
+        if (section) container.append(make('h3','film-index-subtitle',section));
+        container.append(list);
+        panel.append(container);
+        sections.set(section,{container,list,entries:[]});
+      }
+      const subset = sections.get(section);
       const li = make('li');
       const link = make('a', '', label);
       link.setAttribute('href', href);
       li.append(link);
-      list.append(li);
-      return {li, link, url: new URL(href, document.baseURI), words: fold([group.label,label,keywords].join(' '))};
+      subset.list.append(li);
+      subset.entries.push(li);
+      return {li, link, url: new URL(href, document.baseURI), words: fold([group.label,section,label,keywords].join(' '))};
     });
-    panel.append(summary, list);
     scroll.append(panel);
-    return {panel, items};
+    return {panel,items,sections};
   });
   dialog.append(head, scroll);
   document.body.append(dialog);
@@ -84,12 +94,13 @@
   function filter() {
     const terms = fold(search.value).split(' ').filter(Boolean);
     let count = 0;
-    for (const {panel,items} of groups) {
+    for (const {panel,items,sections} of groups) {
       let matches = 0;
       for (const {li,words} of items) {
         li.hidden = !terms.every(term => words.includes(term));
         if (!li.hidden) matches++;
       }
+      for (const {container,entries} of sections.values()) container.hidden = entries.every(entry => entry.hidden);
       panel.hidden = matches === 0;
       panel.open = Boolean(terms.length && matches);
       count += matches;

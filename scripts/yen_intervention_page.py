@@ -102,7 +102,7 @@ def render(data):
 <script src="site-index.js" defer></script>
 <script src="film-edition.js" defer></script>
 </head><body><a class="skip-link" href="#main">Skip to content</a>
-<header class="cbi-head film-masthead"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i><span>Central Bank Intelligence</span></a><nav aria-label="Primary research" class="film-primary"><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a></nav><a href="site-index.html" class="film-index-launch" data-index-open><span class="film-index-symbol" aria-hidden="true"></span>Site index</a></div></header>
+<header class="cbi-head film-masthead"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i><span>Central Bank Intelligence</span></a><nav aria-label="Primary research" class="film-primary"><a href="market-reactions.html">Market reactions</a><a href="historical-data.html">Policy history</a><a href="macro-history.html">Macro history</a><a href="research-library.html">Research library</a></nav><a href="site-index.html" class="film-index-launch" data-index-open><span class="film-index-symbol" aria-hidden="true"></span>Site index</a></div></header>
 <main class="yen-main" id="main"><a href="empirical-studies.html">← Empirical studies</a>
 <h1>What follows Japan’s yen interventions?</h1>
 <p class="yen-lead">Japan bought yen in four episodes in 2022–24. In each one the currency strengthened by the first New York noon quote after the final operation. The April 2024 gain almost disappeared a month later. The July gain grew.</p>

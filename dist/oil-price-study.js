@@ -30,11 +30,13 @@ function drawChart(series) {
   const min=Math.min(0,...values),max=Math.max(0,...values);
   const interval=[.25,.5,1,2,5,10,20,40].find(n=>n>=(max-min)/4)||50;
   const lo=Math.floor(min/interval)*interval,hi=Math.max(lo+interval,Math.ceil(max/interval)*interval);
-  const left=46,right=653,top=12,bottom=173;
+  const width=Math.round(svg.getBoundingClientRect().width)||670;
+  svg.setAttribute("viewBox","0 0 "+width+" 210");
+  const left=47,right=width-18,top=12,bottom=173;
   const x=n=>left+(n+6)*(right-left)/18, y=v=>bottom-(v-lo)*(bottom-top)/(hi-lo);
   function label(text,xx,yy,anchor){const l=svgElement("text",{x:xx,y:yy,"text-anchor":anchor});l.textContent=text;svg.append(l);}
   for(let v=lo;v<=hi+interval/10;v+=interval){svg.append(svgElement("line",{x1:left,x2:right,y1:y(v),y2:y(v),class:v===0?"oil-zero":"oil-grid"}));label(String(v),left-6,y(v)+4,"end");}
-  for(const n of [-6,-3,0,3,6,9,12])label(n>0?"+"+n:String(n),x(n),bottom+22,"middle");
+  for(const n of (width<390?[-6,0,6,12]:[-6,-3,0,3,6,9,12]))label(n>0?"+"+n:String(n),x(n),bottom+30,"middle");
   svg.append(svgElement("line",{x1:x(0),x2:x(0),y1:top,y2:bottom,class:"oil-zero"}));
   for(const [area,line] of Object.entries(series)){let d="",gap=true;line.forEach((v,i)=>{if(!valid(v)){gap=true;return;}d+=(gap?" M":" L")+x(months[i])+" "+y(v);gap=false;});svg.append(svgElement("path",{d:d.trim(),class:"oil-trace "+area.toLowerCase()}));}
 }
@@ -50,6 +52,7 @@ async function start() {
   for(const [control,key,allowed] of [[threshold,"threshold",Object.keys(data.events)],[measure,"measure",Object.keys(measures)],[horizon,"horizon",["3","6","12"]]]){
     if(allowed.includes(query.get(key)))control.value=query.get(key);
   }
+  let displayedSeries;
   function populate(anchor) {
     const anchors=data.events[threshold.value];
     event.replaceChildren(...anchors.map(m=>new Option(month(m),m)));
@@ -75,7 +78,7 @@ async function start() {
         return [label,g.length,...Object.keys(regions).flatMap(area=>{const outcomes=g.map(m=>change(m,h,area,key)).filter(valid);return [signed(median(outcomes)),outcomes.filter(v=>v>1e-8).length+" / "+outcomes.length];})];
       })));
     const paths=Object.fromEntries(Object.keys(regions).map(area=>[area,months.map(n=>change(a,n,area,key))]));
-    drawChart(paths);id("plot").setAttribute("aria-label",measures[key]+", change in "+unit+" from "+month(a)+" in the US and euro area, from six months before through twelve months after.");
+    displayedSeries=paths;drawChart(paths);id("plot").setAttribute("aria-label",measures[key]+", change in "+unit+" from "+month(a)+" in the US and euro area, from six months before through twelve months after.");
     id("caption").textContent=measures[key]+" · "+unit+" relative to "+month(a)+". Horizontal axis shows months from crossing. At +"+h+" months the changes were "+signed(change(a,h,"US",key))+" "+unit+" in the US and "+signed(change(a,h,"EA",key))+" "+unit+" in the euro area.";
     const rows=months.map(n=>{
       const m=step(a,n),r=obs(m);
@@ -89,6 +92,12 @@ async function start() {
   }
   threshold.addEventListener("change",()=>{populate(event.value);render(true);});
   for(const input of [measure,horizon,event])input.addEventListener("change",()=>render(true));
-  render(false);id("status").hidden=true;id("study").hidden=false;
+  id("study").hidden=false;render(false);id("status").hidden=true;
+  if(window.ResizeObserver){
+    new ResizeObserver(()=>{
+      const svg=id("plot");
+      if(displayedSeries && Math.round(svg.getBoundingClientRect().width)!==svg.viewBox.baseVal.width)drawChart(displayedSeries);
+    }).observe(id("plot"));
+  }
 }
 start().catch(()=>{id("status").textContent="The oil-price data could not be loaded. Reload the page to try again.";});

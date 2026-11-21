@@ -33,14 +33,17 @@
     fig.append(node('figcaption','Change in year-end rate projection and the one-year OIS move'));
     const ns='http://www.w3.org/2000/svg';
     function add(tag,attrs,text){const e=document.createElementNS(ns,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));if(text!=null)e.textContent=text;return e;}
-    const chart=add('svg',{id:'fp-plot',viewBox:'0 0 620 220',role:'img','aria-label':'Horizontal axis shows the change in the median rate projection. Vertical axis shows the OIS change. The selected release is highlighted.'});
+    const chart=add('svg',{id:'fp-plot',width:'100%',height:235,role:'img','aria-label':'Horizontal axis shows the change in the median rate projection. Vertical axis shows the OIS change. The selected release is highlighted.'});
     const xVals=points.map(r=>r.fundsRevisionBp),yVals=points.map(r=>r[stage+'Ois1yBp']);
     const xmin=Math.floor(Math.min(-5,...xVals)/5)*5,xmax=Math.ceil(Math.max(5,...xVals)/5)*5;
     const ymin=Math.floor(Math.min(-1,...yVals)),ymax=Math.ceil(Math.max(1,...yVals));
-    const X=v=>56+535*(v-xmin)/(xmax-xmin),Y=v=>167-135*(v-ymin)/(ymax-ymin);
-    for(const v of [xmin,0,xmax])chart.append(add('line',{x1:X(v),x2:X(v),y1:29,y2:168,class:v===0?'zero':'axis'}),add('text',{x:X(v),y:185,'text-anchor':'middle'},v));
-    for(const v of [ymin,0,ymax])chart.append(add('line',{x1:55,x2:593,y1:Y(v),y2:Y(v),class:v===0?'zero':'axis'}),add('text',{x:49,y:Y(v)+4,'text-anchor':'end'},v));
-    chart.append(add('text',{x:54,y:16},'One-year OIS change (bp)'),add('text',{x:315,y:210,'text-anchor':'middle'},'Median projection revision (bp)'));
+    const X=v=>(13+79*(v-xmin)/(xmax-xmin))+'%',Y=v=>167-135*(v-ymin)/(ymax-ymin);
+    for(const v of [xmin,0,xmax])chart.append(add('line',{x1:X(v),x2:X(v),y1:29,y2:168,class:v===0?'zero':'axis'}),add('text',{x:X(v),y:196,'text-anchor':'middle'},v));
+    for(const v of [ymin,0,ymax]){
+      chart.append(add('line',{x1:'13%',x2:'92%',y1:Y(v),y2:Y(v),class:v===0?'zero':'axis'}));
+      if(v===0 || Math.abs(Y(v)-Y(0))>=24)chart.append(add('text',{x:'13%',dx:-7,y:Y(v)+4,'text-anchor':'end'},v));
+    }
+    chart.append(add('text',{x:'2%',y:16},'One-year OIS change (bp)'),add('text',{x:'52.5%',y:224,'text-anchor':'middle'},'Median projection revision (bp)'));
     for(const r of points.sort((a,b)=>(a.date===date)-(b.date===date))){const c=add('circle',{cx:X(r.fundsRevisionBp),cy:Y(r[stage+'Ois1yBp']),r:r.date===date?5:3.7,class:r.date===date?'selected':'point'});c.append(add('title',{},r.date+' · '+signed(r.fundsRevisionBp,0)+' bp projection, '+signed(r[stage+'Ois1yBp'])+' bp OIS'));chart.append(c);}
     fig.append(chart);return fig;
   }

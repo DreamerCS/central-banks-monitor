@@ -35,6 +35,7 @@ const valueFormat = new Intl.NumberFormat("en-GB", {maximumFractionDigits: 4});
 const dayLabel = day => longDate.format(toDate(day));
 const canvas = ui["history-canvas"];
 const ctx = canvas.getContext("2d");
+const chartFont = '15px ' + (getComputedStyle(canvas).getPropertyValue("--sans").trim() || '"DM Sans", Arial, sans-serif');
 
 let firstDay, lastDay, archiveStart, archiveEnd, banks;
 let view = "level";
@@ -188,20 +189,15 @@ function draw() {
   canvas.width = Math.round(width * scale);
   canvas.height = Math.round(height * scale);
   ctx.scale(scale, scale);
-  ctx.font = '11px "IBM Plex Mono", ui-monospace, monospace';
-  const left = 48, right = width - 15, top = 12, bottom = height - 33;
-  const x = index => periods.length === 1 ? (left + right) / 2 : left + index * (right - left) / (periods.length - 1);
-  frame.bounds = {left, right, x};
+  ctx.font = chartFont;
   let low = Infinity, high = -Infinity;
   for (const line of lines) for (const point of line.points) {
     if (!point) continue;
     low = Math.min(low, point.value);
     high = Math.max(high, point.value);
   }
-  if (!Number.isFinite(low)) {
-    showCursor();
-    return;
-  }
+  const hasObservations = Number.isFinite(low);
+  if (!hasObservations) { low = 0; high = 1; }
   if (metric === "publications") low = 0;
   if (view === "change") {
     low = Math.min(0, low);
@@ -213,22 +209,32 @@ function draw() {
   const step = Math.max(metric === "publications" ? 1 : 0,
     magnitude * ([1, 2, 2.5, 5, 10].find(value => value * magnitude >= approx) ?? 10));
   const floor = Math.floor(low / step) * step, ceil = Math.ceil(high / step) * step;
+  const yTicks = Array.from({length: Math.round((ceil - floor) / step) + 1}, (_, i) => {
+    const value = floor + step * i;
+    return {value, label: valueFormat.format(Math.abs(value) < 1e-9 ? 0 : value)};
+  });
+  const left = Math.ceil(Math.max(...yTicks.map(t => ctx.measureText(t.label).width))) + 14;
+  const right = width - 15, top = 13, bottom = height - 35;
+  const x = index => periods.length === 1 ? (left + right) / 2 : left + index * (right - left) / (periods.length - 1);
+  frame.bounds = {left, right, x};
+  if (!hasObservations) { showCursor(); return; }
   const y = value => bottom - (value - floor) * (bottom - top) / (ceil - floor);
 
   ctx.lineWidth = 1;
   ctx.textAlign = "right";
   ctx.textBaseline = "middle";
   ctx.fillStyle = "#5b665d";
-  for (let i = 0; i <= Math.round((ceil - floor) / step); i++) {
-    const value = floor + step * i;
+  for (const {value, label} of yTicks) {
     ctx.strokeStyle = Math.abs(value) < 1e-9 ? "#93988a" : "#dcdcd1";
     ctx.beginPath();
     ctx.moveTo(left, y(value));
     ctx.lineTo(right, y(value));
     ctx.stroke();
-    ctx.fillText(valueFormat.format(Math.abs(value) < 1e-9 ? 0 : value), left - 8, y(value));
+    ctx.fillText(label, left - 8, y(value));
   }
-  const ticks = Math.min(periods.length, Math.max(2, Math.floor((right - left) / 86) + 1));
+  const dateWidth = Math.max(ctx.measureText(tickLabel(periods[0])).width,
+    ctx.measureText(tickLabel(periods.at(-1))).width, ctx.measureText(grain === "year" ? "2000" : "Sept 2000").width);
+  const ticks = Math.min(periods.length, Math.max(2, Math.floor((right - left) / (1.5 * dateWidth + 16)) + 1));
   ctx.textBaseline = "top";
   for (let i = 0; i < ticks; i++) {
     const index = ticks === 1 ? 0 : Math.round(i * (periods.length - 1) / (ticks - 1));
@@ -457,7 +463,9 @@ async function load(file) {
 }
 
 async function start() {
-  initData(...await Promise.all([load("data/historical-series.json"), load("data/research-archive.json"), load("data/archive-periods.json")]));
+  const datasets = Promise.all([load("data/historical-series.json"), load("data/research-archive.json"), load("data/archive-periods.json")]);
+  const [data] = await Promise.all([datasets, document.fonts?.load(chartFont).catch(() => {})]);
+  initData(...data);
   ui["history-explorer"].hidden = false;
   ui["history-load"].hidden = true;
   const requestedMetric = new URLSearchParams(location.search).get("metric");
