@@ -76,4 +76,6 @@ for row in channels:
 
 subprocess.run([sys.executable, Path(__file__).with_name("check-news-framing.py")], check=True)
 
+subprocess.run([sys.executable, Path(__file__).with_name("export-news-framing.py"), "--check"], check=True)
+
 print(f"OK: {coverage['linkedCount']}/{coverage['targetCount']} targets; {len(sources)} unique HTTPS source entries; {len(history['series'])} historical series")

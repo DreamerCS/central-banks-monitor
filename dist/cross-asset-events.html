@@ -25,6 +25,13 @@
     <label>Year<select id="ce-year"></select></label>
     <label>Evidence<select id="ce-lens"><option value="">All events</option><option value="news">With news coverage</option><option value="scored">With a text score</option><option value="hawk">Hawkish text</option><option value="dove">Dovish text</option><option value="wait">Hold guidance</option></select></label>
   </div>
+  <details id="ce-news-coverage" class="ce-more" hidden>
+    <summary id="ce-coverage-title">Verified news coverage by year</summary>
+    <div id="ce-coverage-table" class="ce-tables" tabindex="0" role="region" aria-labelledby="ce-coverage-title"></div>
+    <label class="ce-search">Read coverage for a year<select id="ce-news-year"></select></label>
+    <div id="ce-year-headlines" class="ce-tables" tabindex="0" role="region" aria-label="Publisher reports for the selected year"></div>
+    <div class="ce-links"><a href="data/news-framing.csv" download>Download headline readings and meeting pricing (CSV)</a><a href="data/news-framing.json" download>Download records and methodology (JSON)</a></div>
+  </details>
   <p id="ce-status" class="ce-small" role="status">Loading market observations…</p>
   <div id="ce-layout" class="ce-layout" hidden>
     <details class="ce-index" id="ce-index" open>

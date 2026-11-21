@@ -239,6 +239,76 @@
       return fields.hour+':'+fields.minute+':'+fields.second+' local · '+(gap===0?'at the recorded start':elapsed+(gap>0?' after':' before')+' the '+stageLabel(r).toLowerCase()+' start');
     } catch {return '';}
   }
+  function annualNewsCoverage(asOf) {
+    const panel=$('news-coverage'), region=$('coverage-table');
+    region.replaceChildren();
+    panel.hidden=!newsAvailable;
+    if (!newsAvailable) return;
+    if(location.hash==='#ce-news-coverage')panel.open=true;
+    const outlets = [['Reuters','Reuters'],['Bloomberg','Bloomberg'],['Financial Times','FT'],['The Wall Street Journal','WSJ']];
+    const rows = [...news.values()].flat();
+    const lastYear = Math.max(2026, Number(asOf?.slice(0,4)) || 0, ...rows.map(r=>Number(r.date.slice(0,4))));
+    const years = new Map();
+    for (let year=2000; year<=lastYear; year++) {
+      years.set(year,{decisions:new Set(),speeches:new Set(),headlines:0,publishers:new Map()});
+    }
+    for (const r of rows) {
+      const y=years.get(Number(r.date.slice(0,4)));
+      if (!y) continue;
+      if (r.type==='speech') y.speeches.add(r.date+'|'+r.speaker);
+      else y.decisions.add(r.date);
+      y.headlines++;
+      y.publishers.set(r.publisher,(y.publishers.get(r.publisher)||0)+1);
+    }
+    $('coverage-title').textContent=bankNames[state.bank]+' news coverage by year · 2000–'+lastYear;
+    const byEvent=new Map();
+    for(const report of rows) {
+      const key=[report.date,report.type,report.speaker||''].join('|');
+      if(!byEvent.has(key))byEvent.set(key,new Set());
+      byEvent.get(key).add(report.publisher);
+    }
+    const shared=[...byEvent.values()].filter(outlets=>outlets.size>1).length;
+    region.append(element('p',rows.length+' headlines cover '+byEvent.size+' distinct events. '+shared+' events have coverage from two or more of the four publishers.','ce-small'));
+    const table=element('table'), header=element('thead'), headings=element('tr'), body=element('tbody');
+    table.append(element('caption','Counts use the event year. Decisions and speeches count distinct events with verified coverage. Publisher columns count headlines. A zero marks a gap in this sample.'));
+    for (const title of ['Year','Decisions','Speeches','Headlines',...outlets.map(([,label])=>label)]) {
+      const th=element('th',title); th.scope='col'; headings.append(th);
+    }
+    header.append(headings);
+    for (const [year,y] of [...years].reverse()) {
+      const tr=element('tr'), th=element('th',String(year)); th.scope='row'; tr.append(th);
+      for (const value of [y.decisions.size,y.speeches.size,y.headlines,...outlets.map(([name])=>y.publishers.get(name)||0)]) {
+        tr.append(element('td',String(value),'ce-num'));
+      }
+      body.append(tr);
+    }
+    table.append(header,body); region.append(table);
+    const picker=$('news-year'), listing=$('year-headlines');
+    picker.replaceChildren();
+    for(const year of [...years.keys()].reverse())picker.append(new Option(String(year),String(year)));
+    picker.value=years.has(Number(state.year)) ? state.year : String(lastYear);
+    const showYear=()=>{
+      listing.replaceChildren();
+      const selected=rows.filter(row=>row.date.startsWith(picker.value));
+      if(!selected.length) {
+        listing.append(element('p','No reviewed headline for this bank and year.','ce-small'));
+        return;
+      }
+      const list=element('table'), head=element('thead'), tr=element('tr'), body=element('tbody');
+      list.append(element('caption',bankNames[state.bank]+' · '+picker.value+' · '+selected.length+' reviewed headlines'));
+      for(const label of ['Event date','Communication','Publication date','Publisher','Headline reading']) tr.append(element('th',label));
+      head.append(tr);
+      for(const row of selected.sort((a,b)=>a.date.localeCompare(b.date)||a.publisher.localeCompare(b.publisher))) {
+        const line=element('tr'), reading=element('td');
+        reading.append(link(row.angle,row.url));
+        line.append(element('td',row.date),element('td',row.speaker||'Decision'),element('td',row.publicationDate),element('td',row.publisher),reading);
+        body.append(line);
+      }
+      list.append(head,body);listing.append(list);
+    };
+    picker.onchange=showYear;
+    showYear();
+  }
   function articles(box,r) {
     const section=element('section');section.append(element('h3','How the news framed it'));
     const items=newsOf(r);
@@ -260,7 +330,7 @@
     }
     section.append(element('p','Headlines are reviewed on Bloomberg, The Wall Street Journal, Financial Times and Reuters. Each summary links to the original publisher. Meeting-day coverage can span both the release and the press conference. Each item identifies the available publication or live-entry time. Headline alignment with a market move is descriptive.','ce-small'));
     for(const report of items) {
-      const article=element('article',null,'ce-article');article.append(element('p',[report.publisher,report.recordKind,report.coverageMode,report.bylineSource].filter(Boolean).join(' · '),'ce-time'),element('h4',report.angle));
+      const article=element('article',null,'ce-article');article.append(element('p',[report.publisher,report.recordKind,report.coverageMode,report.evidenceKind].filter(Boolean).join(' · '),'ce-time'),element('h4',report.angle));
       if(report.excerpt)article.append(element('p','Words in the published title · “'+report.excerpt+'”','ce-small'));
       const timing=liveTiming(r,report);if(timing)article.append(element('p',timing,'ce-small'));
       const path = report.path ? ({
@@ -271,9 +341,11 @@
       section.dataset.hasNews='true';
       article.append(element('p',[report.action?'Decision in title: '+report.action:null,'Policy path: '+path,report.focus].filter(Boolean).join(' · '),'ce-small'));
       const sourceLinks=element('div',null,'ce-links');sourceLinks.append(link('Read the published title',report.url));
+      if(report.evidenceUrl && report.evidenceUrl!==report.url) sourceLinks.append(link('Publisher evidence',report.evidenceUrl));
       article.append(sourceLinks);
       const times=[];
       if(report.publishedAt) times.push('Publisher’s publication time '+report.publishedAt);else if(report.publicationDate) times.push('Publication date '+report.publicationDate);
+      if(report.editionAt) times.push('Edition or feed time '+report.editionAt);
       if(report.updatedAt) times.push('Updated '+report.updatedAt);
       if(report.decisionReleaseAt && numbers(report.secondsFromDecision))times.push('Official decision release '+report.decisionReleaseAt+' · live dispatch '+Math.abs(report.secondsFromDecision)+' seconds '+(report.secondsFromDecision<0?'before':'after')+' the release');
       if(report.versionNote) times.push(report.versionNote);
@@ -384,6 +456,7 @@
     const ticket=++loadToken;
     state.bank=bank;
     $('bank').value=bank;
+    $('news-coverage').hidden=true;
     $('layout').hidden=true;$('status').textContent='Loading '+bankNames[bank]+' observations…';
     const file=bank+'-cross-asset-events';
     const [main,days,intraday,policyFile,newsFile]=await Promise.allSettled([data(file),bank==='fed'?data('fed-speech-cross-asset-events'):Promise.resolve(null),bank==='fed'?data('fed-speech-intraday-assets'):Promise.resolve(null),data('stance-cohorts'),data('news-framing')]);
@@ -410,6 +483,7 @@
     cohorts=new Map((policyFile.value?.banks?.find(b=>b.id===bank)?.records||[]).map(e=>[e.date,e]));
     news=new Map();newsAvailable=newsFile.status==='fulfilled';newsMethods=Array.isArray(newsFile.value?.method)?newsFile.value.method:[];
     for(const x of newsFile.value?.records||[])if(x.bank===bank) {if(!news.has(x.date))news.set(x.date,[]);news.get(x.date).push(x);}
+    annualNewsCoverage(newsFile.value?.asOf);
     for(const group of news.values()) group.sort((a,b)=>(a.publishedAt||a.publicationDate||'').localeCompare(b.publishedAt||b.publicationDate||''));
     events=packages.flatMap(([f,key])=>f.records.map(r=>({...r,_package:f,_file:key}))).sort((a,b)=>b.date.localeCompare(a.date)||(b.time||'').localeCompare(a.time||'')||a.id.localeCompare(b.id));
     const stages=new Map();for(const [p] of packages)for(const [key,o] of Object.entries(p.stages||{})) if(events.some(r=>r.stage===key)||(key==='speech' && p.parts?.length)) stages.set(key,o.label||key);

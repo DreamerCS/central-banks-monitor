@@ -8,6 +8,7 @@ import argparse
 import csv
 import hashlib
 import json
+import re
 import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timezone
@@ -50,10 +51,10 @@ def check_rows(data):
         key = (r["bank"], r["date"], r["type"], r.get("speaker", ""))
         if key not in known:
             raise ValueError(f"Unmatched central-bank event {key}")
-        if r["id"] in ids or r["url"] in urls:
+        if r["id"] in ids or (key, r["url"]) in urls:
             raise ValueError(f"Duplicate publication {r['id']}")
         ids.add(r["id"])
-        urls.add(r["url"])
+        urls.add((key, r["url"]))
         if r["focus"] not in FOCUS or r["action"] not in ACTION or r["path"] not in PATH or r["pathBasis"] not in BASIS:
             raise ValueError(f"Unknown editorial tag on {r['id']}")
         if (r["path"] is None) != (r["pathBasis"] is None):
@@ -62,8 +63,14 @@ def check_rows(data):
             raise ValueError(f"Missing publication context on {r['id']}")
         if urlsplit(r["url"]).scheme != "https" or not r["angle"] or not r["newsroom"] or not r["versionNote"]:
             raise ValueError(f"Missing source or interpretation on {r['id']}")
+        if r.get("evidenceUrl"):
+            evidence = urlsplit(r["evidenceUrl"])
+            if evidence.scheme != "https" or evidence.netloc not in {domain, "www." + domain}:
+                raise ValueError(f"Evidence URL outside publisher domain on {r['id']}")
+        if len(r["headlineSha256"]) != 64 or any(c not in "0123456789abcdef" for c in r["headlineSha256"]):
+            raise ValueError(f"Invalid headline fingerprint on {r['id']}")
         date.fromisoformat(r["publicationDate"])
-        for clock in [r["publishedAt"], r["updatedAt"]]:
+        for clock in [r["publishedAt"], r["updatedAt"], r.get("editionAt")]:
             if clock:
                 if not clock.endswith("Z"):
                     raise ValueError(f"Clock must be UTC on {r['id']}")
@@ -83,10 +90,22 @@ def check_rows(data):
 
 
 def check_online(r):
-    req = Request(r["url"], headers={"User-Agent": "Mozilla/5.0"})
+    archive_only = r.get("evidenceKind") == "Publisher archive" and r.get("evidenceUrl")
+    req = Request(r["evidenceUrl"] if archive_only else r["url"], headers={"User-Agent": "Mozilla/5.0"})
     try:
         with urlopen(req, timeout=22) as response:
             text = response.read().decode(response.headers.get_content_charset() or "utf-8", errors="replace")
+        if archive_only:
+            marker = re.search(r'"newsArchiveArticles"\s*:\s*', text)
+            if not marker:
+                return f"{r['evidenceUrl']} — publisher archive entries unavailable"
+            entries, _ = json.JSONDecoder().raw_decode(text[marker.end():])
+            for entry in entries:
+                if urlsplit(entry.get("articleUrl", "")).path == urlsplit(r["url"]).path:
+                    headline = normalised(entry.get("headline", ""))
+                    if hashlib.sha256(headline.encode()).hexdigest() == r["headlineSha256"]:
+                        return None
+            return f"{r['evidenceUrl']} — linked archive title differs from the reviewed edition"
         doc = html.fromstring(text)
         if r["recordKind"] == "live entry":
             block = urlsplit(r["url"]).fragment
@@ -103,7 +122,8 @@ def check_online(r):
             matches = doc.xpath("//h1 | //blockquote")
         for el in matches:
             value = normalised(el.text_content())
-            if hashlib.sha256(value.encode()).hexdigest() == r["headlineSha256"]:
+            candidates = (value, value.removeprefix("Central Banking "))
+            if any(hashlib.sha256(v.encode()).hexdigest() == r["headlineSha256"] for v in candidates):
                 if r.get("excerpt") and normalised(r["excerpt"]) not in value:
                     return f"{r['url']} — short quote does not occur in the verified heading"
                 return None
