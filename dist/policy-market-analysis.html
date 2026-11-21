@@ -37,6 +37,12 @@
     <p>A decision can come close to the move already priced while markets still revise the expected policy path. Compare the one-year OIS change across meetings with different gaps between the actual and priced decisions.</p>
     <label class="pm-control">Maximum gap for an anticipated decision<select id="pm-threshold" disabled></select></label>
     <div id="pm-anticipated-output" aria-live="polite"><p>Loading meeting comparisons…</p></div>
+    <details id="pm-fed-projections">
+      <summary>Fed projections and next-meeting pricing</summary>
+      <div id="pm-projections-output" aria-live="polite"></div>
+      <p class="ce-small">Scheduled FOMC announcements from 2019. MP1 measures the current decision surprise and MP2 the change in pricing for the next meeting, from ten minutes before the statement to twenty minutes after. Participants’ projections accompany the statement on SEP dates. Both reach markets together, so these comparisons cannot isolate the effect of the projections. The later press conference has its own window.</p>
+      <div class="ce-links"><a href="https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/">San Francisco Fed event data and definitions</a></div>
+    </details>
     <details id="pm-ecb-case" hidden>
       <summary>15 December 2022 · The expected hike and the next three meetings</summary>
       <p>The ECB’s subsequent meeting account records the path investors expected going in. It envisaged 50 bp in December, a further 50 bp in February and a final 25 bp in March, taking the peak to about 2.8%. The December increase was 50 bp. Those rounded figures come from the meeting briefing.</p>

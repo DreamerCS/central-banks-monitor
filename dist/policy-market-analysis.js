@@ -306,9 +306,40 @@
     const sources=el('div',null,'ce-links');sources.append(...sourceLinks);
     box.append(disclosure('Speech methods and data sources',[...(speechData.methods||[]).map(small),sources]));
   }
+  const projectionPanel=field('fed-projections');
+  let projectionData;
+  async function showProjectionComparison(){
+    if(!projectionPanel.open) return;
+    const box=field('projections-output');
+    box.replaceChildren(small('Loading Fed announcement windows…'));
+    try {
+      projectionData ??= load('fed-cross-asset-events');
+      const data=await projectionData;
+      const releases=data.records.filter(r=>r.stage==='release' && r.scheduled===true && r.date>='2019-01-01' && typeof r.sep==='boolean');
+      const dates=releases.map(r=>r.date).sort();
+      const inside=x=>Math.abs(x)<=1.0000001;
+      const results=[true,false].map(sep=>{
+        const group=releases.filter(r=>r.sep===sep);
+        const matched=group.filter(r=>Number.isFinite(r.values.currentMeeting) && Number.isFinite(r.values.nextMeeting));
+        const anticipated=matched.filter(r=>inside(r.values.currentMeeting));
+        const moves=anticipated.map(r=>r.values.nextMeeting);
+        return [sep?'With projections':'Without projections',proportion(matched.length,group.length),numeric(anticipated.length),
+          numeric(moves.filter(x=>x>1.0000001).length),numeric(moves.filter(x=>x< -1.0000001).length),proportion(moves.filter(x=>!inside(x)).length,moves.length)];
+      });
+      box.replaceChildren(table('Scheduled statements · '+(dates[0]||'—')+' to '+(dates.at(-1)||'—'),
+        ['Meeting','Both prices / scheduled','MP1 within ±1 bp','MP2 up >1 bp¹','MP2 down >1 bp¹','MP2 outside band¹'],results),
+        small('¹ Among meetings where the current decision was within ±1 bp of prior pricing. Each count measures the statement window only.'));
+    } catch {
+      projectionData=undefined;
+      box.replaceChildren(small('The Fed statement observations are unavailable.'));
+    }
+  }
+  projectionPanel.addEventListener('toggle',showProjectionComparison);
+  if(location.hash==='#pm-fed-projections') projectionPanel.open=true;
   function renderAnticipated(){
     const box=field('anticipated-output'),threshold=field('threshold');
     field('ecb-case').hidden=bank.value!=='ecb';
+    projectionPanel.hidden=bank.value!=='fed';
     box.replaceChildren();
     const b=anticipatedData?.banks?.[bank.value],sets=b?.thresholds||[];
     setOptions(threshold,sets.map(s=>[String(s.thresholdBp),s.thresholdBp+' bp']),threshold.value||String(anticipatedData?.defaultThresholdBp??5));
