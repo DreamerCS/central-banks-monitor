@@ -7,23 +7,24 @@
   const pins = find("map-pins");
   const ctx = canvas.getContext("2d");
   const regionList = find("map-regions");
-  const locations = find("map-locations");
+  const locationPicker = find("map-location-select");
+  const mapSection = find("world-map");
   const details = find("map-selection");
   const status = find("map-status");
   const datePicker = find("map-day");
 
   const regions = {
-    World: {bounds: [-180, -57, 180, 83], colour: "#406477"},
-    "North America": {bounds: [-172, 10, -45, 77], colour: "#65c7b9"},
-    "South America": {bounds: [-87, -58, -31, 15], colour: "#da9e71"},
-    Europe: {bounds: [-26, 32, 43, 73], colour: "#81bbff"},
-    Africa: {bounds: [-24, -37, 55, 38], colour: "#ecba6d"},
-    Asia: {bounds: [23, -14, 160, 57], colour: "#b2a2f2"},
-    Oceania: {bounds: [108, -51, 181, 4], colour: "#68cddd"},
+    World: {bounds: [-180, -57, 180, 83], colour: "#ac835d"},
+    "North America": {bounds: [-172, 10, -45, 77], colour: "#d6b477"},
+    "South America": {bounds: [-87, -58, -31, 15], colour: "#d39270"},
+    Europe: {bounds: [-26, 32, 43, 73], colour: "#a7bac5"},
+    Africa: {bounds: [-24, -37, 55, 38], colour: "#beaa7b"},
+    Asia: {bounds: [23, -14, 160, 57], colour: "#ad93a6"},
+    Oceania: {bounds: [108, -51, 181, 4], colour: "#a9b3a5"},
   };
   const dayIndex = new Map();
   const todayUtc = () => new Date().toISOString().slice(0, 10);
-  const state = {region: "World", bank: null, day: "", latest: "", map: null, revision: null, archivePeriods: []};
+  const state = {region: "World", bank: null, day: "", latest: "", followLatest: true, map: null, activityReady: false, revision: null, archivePeriods: []};
   let paths = [];
   let layoutSignature = "";
   let pulseDay = "";
@@ -76,21 +77,26 @@
     }
   }
 
-  function renderEvents(items, bank, limit) {
+  function renderEvents(items, limit, bank = null) {
     const list = element("ol", "", "map-events");
     for (const item of items.slice(0, limit)) {
       const link = sourceLink(item);
       if (!link) continue;
       const row = element("li");
-      row.append(element("small", item.type), link);
-      const period = item.archive && state.archivePeriods.find(({start, end}) => start <= item.day && item.day <= end);
+      row.append(element("small", bank ? item.type : [item.institution || item.bank, item.type].filter(Boolean).join(" · ")), link);
+      const period = bank && item.archive && state.archivePeriods.find(({start, end}) => start <= item.day && item.day <= end);
       if (period) row.append(archiveLink(bank, period.id, "Open in archive", item.title));
       list.append(row);
     }
-    if (items.length > limit) {
-      list.append(element("li", `Showing ${limit} of ${items.length} publications on this day.`, "map-more"));
-    }
     details.append(list);
+    if (items.length > limit) {
+      details.append(element("p", `Showing ${limit} of ${items.length} publications.`, "map-more"));
+    }
+  }
+
+  // Show one record per active jurisdiction before filling remaining slots from the same day.
+  function dayPreview(groups) {
+    return [...groups.map(items => items[0]), ...groups.flatMap(items => items.slice(1))];
   }
 
   function choose(region, bank = null, focus = false) {
@@ -112,10 +118,21 @@
 
   function render(focusLocation = false) {
     const oldRegion = document.activeElement?.dataset.region;
-    const oldLocation = document.activeElement?.dataset.bank;
+    if (!state.map) {
+      const groups = [...(dayIndex.get(state.day)?.values() ?? [])];
+      const items = dayPreview(groups);
+      status.textContent = state.activityReady
+        ? `${state.day} · Geographic map unavailable. ${items.length} recorded publications.`
+        : "The map and publication records are currently unavailable. You can browse the publication archive below.";
+      details.replaceChildren();
+      if (items.length) renderEvents(items, 3);
+      return;
+    }
     const active = state.map.targets.filter((bank) => eventsFor(bank.name).length > 0);
     const eventCount = active.reduce((total, bank) => total + eventsFor(bank.name).length, 0);
-    status.textContent = `${state.day} · ${eventCount} ${eventCount === 1 ? "publication" : "publications"} · ${active.length} active ${active.length === 1 ? "location" : "locations"}`;
+    status.textContent = state.activityReady
+      ? `${state.day} · ${eventCount} ${eventCount === 1 ? "publication" : "publications"} across ${active.length} ${active.length === 1 ? "jurisdiction" : "jurisdictions"} worldwide`
+      : "Publication records are currently unavailable. You can still browse jurisdictions and their archives.";
 
     regionList.replaceChildren();
     for (const region of Object.keys(regions)) {
@@ -130,43 +147,41 @@
     }
 
     const visible = state.map.targets.filter((bank) => state.region === "World" || bank.region === state.region);
-    const locationButtons = [];
-    locations.replaceChildren();
     const locationOrder = [...visible].sort((a, b) =>
       Number(Boolean(eventsFor(b.name).length)) - Number(Boolean(eventsFor(a.name).length)) ||
       a.name.localeCompare(b.name)
     );
+    const all = element("option", state.region === "World" ? "All jurisdictions" : `All in ${state.region}`);
+    all.value = "";
+    locationPicker.replaceChildren(all);
     for (const bank of locationOrder) {
-      const button = element("button", bank.name, "map-location");
-      button.type = "button";
-      updateButton(button, state.bank === bank.name, bank.region, eventsFor(bank.name).length);
-      button.dataset.bank = bank.name;
-      button.addEventListener("click", () => choose(bank.region, bank.name));
-      locations.append(button);
-      locationButtons.push(button);
+      const count = eventsFor(bank.name).length;
+      const option = element("option", count ? `${bank.name} · ${count} ${count === 1 ? "publication" : "publications"}` : bank.name);
+      option.value = bank.name;
+      locationPicker.append(option);
     }
-    const activeControl = locationButtons.find((button) => button.dataset.bank === (focusLocation ? state.bank : oldLocation));
-    activeControl?.focus({preventScroll: true});
+    locationPicker.value = state.bank ?? "";
+    locationPicker.disabled = false;
 
     details.replaceChildren();
     if (state.bank) {
       const bank = state.map.targets.find((item) => item.name === state.bank);
       const items = eventsFor(bank.name);
       details.append(element("h4", bank.name));
-      if (items.length) renderEvents(items, bank, 8);
-      else details.append(element("p", "No publications recorded for this date."));
+      if (items.length) renderEvents(items, 8, bank);
+      else if (state.activityReady) details.append(element("p", "No publications recorded for this date."));
       const links = element("div", "", "map-archive-links");
       for (const period of state.archivePeriods) {
         links.append(archiveLink(bank, period.id, period.label));
       }
       details.append(links);
     } else {
-      const leaders = active.filter((bank) => visible.includes(bank));
-      details.append(element("p", leaders.length
-        ? `New on this day: ${leaders.map((bank) => bank.name).join(", ")}.`
-        : "No publications recorded in this view. Select a jurisdiction to open its archive."));
+      const items = dayPreview(locationOrder.map(bank => eventsFor(bank.name)).filter(group => group.length));
+      if (items.length) renderEvents(items, 3);
+      else if (state.activityReady) details.append(element("p", "No publications recorded in this view. Select a jurisdiction to open its archive."));
     }
     paint();
+    if (focusLocation) locationPicker.focus({preventScroll: true});
 
   }
 
@@ -181,7 +196,7 @@
   function drawGrid(project, bounds, width, height) {
     const [west, south, east, north] = bounds;
     const spacing = state.region === "World" ? 30 : 15;
-    ctx.strokeStyle = "#6bb8d51d";
+    ctx.strokeStyle = "#c2b8a422";
     ctx.lineWidth = 1;
     ctx.beginPath();
     for (let lon = Math.ceil(west / spacing) * spacing; lon < east; lon += spacing) {
@@ -261,7 +276,7 @@
         button.classList.add("map-pin-new");
         if (Date.now() < pulseUntil) button.classList.add("map-pin-pulse");
       }
-      button.addEventListener("click", () => choose(bank.region, clustered ? null : bank.name, !clustered));
+      button.addEventListener("click", () => choose(bank.region, clustered ? null : bank.name, true));
       pins.append(button);
       if (focusKey === label) button.focus({preventScroll: true});
     }
@@ -285,8 +300,8 @@
       const isSelected = selected?.codes.includes(code) && (code !== "FRA" || state.region === "Europe");
       const match = region === state.region;
       const covered = state.map.targets.some((bank) => bank.codes.includes(code));
-      ctx.fillStyle = isSelected ? "#e8a85b" : match ? activeRegion.colour + (covered ? "7b" : "52") : state.region === "World" && covered ? "#30576d" : "#152f43";
-      ctx.strokeStyle = isSelected ? "#ffe5ad" : "#507485";
+      ctx.fillStyle = isSelected ? "#e8a85b" : match ? activeRegion.colour + (covered ? "7b" : "52") : state.region === "World" && covered ? "#66564c" : "#353332";
+      ctx.strokeStyle = isSelected ? "#ffe5ad" : "#867769";
       ctx.lineWidth = isSelected ? 1.15 : .55;
       ctx.fill(path, "evenodd");
       ctx.stroke(path);
@@ -300,7 +315,7 @@
       ctx.fill();
     }
     const pinLayout = layOutPins(project);
-    ctx.strokeStyle = "#c6dcea88";
+    ctx.strokeStyle = "#d9cbb188";
     for (const {xy, anchor} of pinLayout) {
       if (!anchor || xy === anchor) continue;
       ctx.beginPath();
@@ -324,7 +339,7 @@
 
   function useSnapshot(snapshot) {
     if (!snapshot) return;
-    const keepOlderDay = state.day && state.day !== state.latest;
+    state.activityReady = true;
     dayIndex.clear();
     for (const item of snapshot.items) {
       if (!dayIndex.has(item.day)) dayIndex.set(item.day, new Map());
@@ -335,7 +350,7 @@
     const today = todayUtc();
     const days = [...new Set([today, ...dayIndex.keys()])].filter((day) => day <= today).sort().reverse();
     state.latest = days.find((day) => dayIndex.has(day)) ?? today;
-    state.day = keepOlderDay && days.includes(state.day) ? state.day : state.latest;
+    state.day = !state.followLatest && days.includes(state.day) ? state.day : state.latest;
     state.revision = snapshot.revision;
     datePicker.replaceChildren();
     for (const day of days) {
@@ -363,8 +378,14 @@
 
   datePicker.addEventListener("change", () => {
     state.day = datePicker.value;
+    state.followLatest = state.day === state.latest;
     beginPulse();
     render();
+  });
+
+  locationPicker.addEventListener("change", () => {
+    const bank = state.map?.targets.find(item => item.name === locationPicker.value);
+    choose(bank?.region ?? state.region, bank?.name ?? null);
   });
 
   async function start() {
@@ -372,16 +393,21 @@
       const results = await Promise.allSettled([
         getJSON("data/world-map.json"), getJSON("data/world-map-activity.json"), getJSON("data/archive-periods.json"),
       ]);
-      if (results[0].status === "rejected") throw results[0].reason;
-      state.map = results[0].value;
+      state.map = results[0].status === "fulfilled" ? results[0].value : null;
+      if (!state.map) mapSection.classList.add("map-unavailable");
       state.archivePeriods = results[2].value ?? [];
       if (results[1].status === "fulfilled") useSnapshot(results[1].value);
-      else state.day = todayUtc();
+      else {
+        state.day = todayUtc();
+        datePicker.options[0].textContent = "Dates unavailable";
+      }
       render();
-      new ResizeObserver(paint).observe(stage);
+      if (state.map && typeof ResizeObserver === "function") new ResizeObserver(paint).observe(stage);
+      else window.addEventListener("resize", paint);
       setInterval(refreshActivity, 15 * 60 * 1000);
     } catch {
-      status.textContent = "The map could not be loaded. The source atlas remains available below.";
+      mapSection.classList.add("map-unavailable");
+      status.textContent = "Publication data could not be loaded. You can browse the publication archive below.";
     }
   }
   start();

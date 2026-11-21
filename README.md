@@ -1,4 +1,4 @@
-# Central Bank Intelligence
+# The Policy Tape
 
 Central bank data and publications for 29 jurisdictions. The [live site](https://dreamercs.github.io/central-banks-monitor/) includes a market-reaction explorer, rates and FX history, a publication map and a monthly archive.
 

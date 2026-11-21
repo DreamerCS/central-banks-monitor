@@ -34,7 +34,7 @@ INDICATOR = "GGXCNL_NGDP"
 def source_bytes(path, url):
     if path:
         return path.read_bytes()
-    request = Request(url, headers={"User-Agent": "Central Bank Intelligence fiscal history"})
+    request = Request(url, headers={"User-Agent": "The Policy Tape fiscal history"})
     with urlopen(request, timeout=90) as response:
         return response.read()
 

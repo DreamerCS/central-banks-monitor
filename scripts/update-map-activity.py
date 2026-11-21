@@ -130,7 +130,7 @@ def collect(source, throttle):
     publisher = source.get("host", hostname(url))
     listing = source.get("listing")
     try:
-        req = Request(url, headers={"User-Agent": "CentralBankIntelligence/1.0"})
+        req = Request(url, headers={"User-Agent": "ThePolicyTape/1.0"})
         with throttle, urlopen(req, timeout=10) as response:
             base = response.url
             if not official_url(base, publisher):

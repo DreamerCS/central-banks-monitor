@@ -32,7 +32,7 @@ def read_series(name, source_dir, through):
         if through:
             params["endPeriod"] = through
         url = API + key + "?" + urlencode(params)
-        request = Request(url, headers={"User-Agent": "Central Bank Intelligence research"})
+        request = Request(url, headers={"User-Agent": "The Policy Tape research"})
         with urlopen(request, timeout=60) as response:
             raw = response.read()
     series = {}

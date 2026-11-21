@@ -20,8 +20,8 @@ PRIMARY = (
     ("Macro history", "macro-history.html"),
     ("Research library", "research-library.html"),
 )
-ASSETS = """<link rel="stylesheet" href="film-edition.css">
-<script src="site-index.js" defer></script>
+ASSETS = """<link rel="stylesheet" href="film-edition.css?v=tape1">
+<script src="site-index.js?v=tape1" defer></script>
 <script src="film-edition.js" defer></script>"""
 OLD_HEADER = re.compile(r'<header\b[^>]*\bclass="(?:masthead|cbi-head(?: [^"]*)?)"[^>]*>.*?</header>', re.DOTALL)
 SHARED_ASSET = re.compile(
@@ -38,7 +38,7 @@ def masthead(page):
         links.append(f'<a href="{href}"{current}>{label}</a>')
     return (
         '<header class="cbi-head film-masthead"><div class="shell cbi-bar">'
-        '<a class="cbi-name" href="./"><i aria-hidden="true"></i><span>Central Bank Intelligence</span></a>'
+        '<a class="cbi-name" href="./"><i aria-hidden="true"></i><span>The Policy Tape</span></a>'
         '<nav aria-label="Primary research" class="film-primary">' + "".join(links) + '</nav>'
         '<a href="site-index.html" class="film-index-launch" data-index-open>'
         '<span class="film-index-symbol" aria-hidden="true"></span>Site index</a></div></header>'
@@ -75,8 +75,8 @@ def render_index():
     return """<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Site index · Central Bank Intelligence</title>
-<meta name="description" content="Browse the market studies, policy history, macro history, publications and data tools in Central Bank Intelligence.">
+<title>Site index · The Policy Tape</title>
+<meta name="description" content="Browse the market studies, policy history, macro history, publications and data tools in The Policy Tape.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="edition.css">
 """ + ASSETS + """

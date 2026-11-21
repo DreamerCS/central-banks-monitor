@@ -27,7 +27,7 @@ DEST = Path(__file__).resolve().parents[1] / "dist/data/dollar-swap-balances.csv
 def source(local, url):
     if local:
         return Path(local).read_bytes()
-    with urlopen(Request(url, headers={"User-Agent": "Central Bank Intelligence research"}), timeout=50) as response:
+    with urlopen(Request(url, headers={"User-Agent": "The Policy Tape research"}), timeout=50) as response:
         return response.read()
 
 

@@ -71,7 +71,7 @@ ASSETS = [
 def fetch_calendar(cache, key, url):
     path = cache / key
     if not path.exists():
-        req = Request(url, headers={'User-Agent':'Central Bank Intelligence research'})
+        req = Request(url, headers={'User-Agent':'The Policy Tape research'})
         with urlopen(req,timeout=45) as response:
             content = response.read()
         path.write_bytes(content)

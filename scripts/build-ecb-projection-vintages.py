@@ -27,7 +27,7 @@ START, END = '2000-03', '2026-09'
 def read(path, url):
     if path:
         return path.read_bytes()
-    with urlopen(Request(url,headers={'User-Agent':'CentralBankIntelligence/1.0'}),timeout=45) as response:
+    with urlopen(Request(url,headers={'User-Agent':'ThePolicyTape/1.0'}),timeout=45) as response:
         return response.read()
 
 

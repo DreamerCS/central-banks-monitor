@@ -164,23 +164,23 @@ html body.research-hub .hub-start a span[aria-hidden] {
   transform-origin: right top; transform: rotate(-45deg);
 }
 
-/* A charcoal-green cover with a warm photographic print and distinct research inks. */
+/* Archival ink and warm paper. Accents distinguish the research desks. */
 :root {
-  --film-dark: #182c2b; --film-paper: #f6f1e6; --film-ink: #24251e; --film-rule: #c8c0ae;
-  --film-muted: #57594f; --film-red: #9e3c2a;
-  --film-market: #973d2a; --film-policy: #365c52; --film-macro: #3b5267; --film-library: #65513b;
+  --film-dark: #191720; --film-paper: #f6f1e7; --film-ink: #28232b; --film-rule: #c8bdaf;
+  --film-muted: #59535c; --film-red: #873448;
+  --film-market: #873448; --film-policy: #75582c; --film-macro: #454669; --film-library: #644452;
 }
 .film-home .fh-cover {
   position: relative; width: 100%; max-width: none; box-sizing: border-box;
   padding-inline: max(clamp(20px,5vw,82px),calc((100% - 1440px) / 2 + 82px));
-  background: radial-gradient(ellipse at 82% 18%,#33483d 0,transparent 57%),linear-gradient(120deg,#162a2b,#1d3431 58%,#283b34);
-  color: #faf2dd; border-block: 1px solid #53645a;
+  background: #12101d;
+  color: #faf2dd; border-block: 1px solid #534654;
 }
 html body.film-home .fh-cover #cover-title { color: #fbf3df; }
 .film-home .fh-cover #cover-title span { color: #e5ac81; }
-html body.film-home .fh-cover .fh-deck { color: #e1e6d8; max-width: 39ch; }
+html body.film-home .fh-cover .fh-deck { color: #efe8dc; max-width: 39ch; }
 .film-home .fh-cover .fh-eyebrow { color: #e8b691; font-weight: 400; letter-spacing: .14em; }
-.film-home .fh-cover .fh-primary { background: #f1d1a7; color: #20312b; border-color: #f1d1a7; }
+.film-home .fh-cover .fh-primary { background: #f1d1a7; color: #382b29; border-color: #f1d1a7; }
 .film-home .fh-cover .fh-primary:hover { background: #fae3c3; }
 .film-home .fh-cover .fh-secondary { color: #f4edda; text-decoration-color: #c2a981; }
 .film-home .fh-frame { color: #e7decb; }
@@ -209,7 +209,7 @@ html body.research-hub .hub-section[open] { border-top: 2px solid var(--desk-ink
 html body.research-hub .hub-section[open]>summary h2 { color: var(--desk-ink); }
 html body .library-intro h1 { color: var(--film-library); }
 .film-index-subtitle {
-  color: #465a4d; margin: 4px 0 5px; font: 650 .82rem/1.45 var(--sans); letter-spacing: .01em;
+  color: #684b5b; margin: 4px 0 5px; font: 650 .82rem/1.45 var(--sans); letter-spacing: .01em;
 }
 .film-index-subset + .film-index-subset { padding-top: 8px; }
 .film-index-group .film-index-subset ul { padding-bottom: .7rem; }
@@ -245,7 +245,7 @@ body.ce-page main.ce-wrap,
 .archive-shell .research-record,
 .note-shell,
 #archive-reader {
-  --reading-teal: #173f3d;
+  --reading-accent: #393147;
   --reading-wine: #762c37;
   --reading-text: #282722;
   --reading-muted: #59564f;
@@ -267,7 +267,7 @@ body.ce-page main.ce-wrap,
   font-family: var(--mono);
   font-variant-numeric: tabular-nums;
 }
-.ce-page .ce-wrap .ce-detail { border-top-color: var(--reading-teal); }
+.ce-page .ce-wrap .ce-detail { border-top-color: var(--reading-accent); }
 .ce-page .ce-wrap .ce-detail > p:not([class]) {
   max-width: 73ch;
   color: var(--reading-text);
@@ -288,7 +288,7 @@ body.ce-page main.ce-wrap,
   margin-block: 1.05rem;
   padding: clamp(1rem, 2.4vw, 1.7rem) clamp(1.1rem, 2.7vw, 2.25rem);
   border: 0;
-  background: var(--reading-teal);
+  background: var(--reading-accent);
   color: #fffbef;
   font: 400 clamp(1.13rem, 1.65vw, 1.53rem)/1.49 var(--reading-serif);
   font-variant-numeric: lining-nums tabular-nums;
@@ -302,8 +302,8 @@ body.ce-page main.ce-wrap,
 .ce-page .ce-wrap .ce-tables thead th {
   padding: .57rem .65rem;
   border-block: 1px solid var(--reading-rule);
-  background: #e4e6dd;
-  color: #233633;
+  background: #e8e2db;
+  color: #382f3a;
   font-weight: 650;
   line-height: 1.35;
 }
@@ -313,7 +313,7 @@ body.ce-page main.ce-wrap,
 }
 .ce-page .ce-wrap .ce-tables tbody th[scope="row"] { color: var(--reading-text); font-weight: 550; }
 .ce-page .ce-wrap .ce-readings dd {
-  color: var(--reading-teal);
+  color: var(--reading-accent);
   font: 500 clamp(1.21rem, 1.85vw, 1.6rem)/1.18 var(--sans);
   font-variant-numeric: lining-nums tabular-nums;
   letter-spacing: -.025em;
@@ -332,7 +332,7 @@ body.ce-page main.ce-wrap,
   max-width: 69ch;
 }
 #manuscript #note-summary p:first-child {
-  color: #283733;
+  color: #392d37;
   font: 400 clamp(1.15rem, 1.6vw, 1.38rem)/1.56 var(--reading-serif);
   max-width: 59ch;
 }
@@ -344,9 +344,9 @@ body.ce-page main.ce-wrap,
   color: var(--reading-text);
 }
 .note-shell .note-index li a[aria-current] {
-  color: var(--reading-teal);
-  background: #e1e8df;
-  box-shadow: inset 3px 0 var(--reading-teal);
+  color: var(--reading-accent);
+  background: #e8e2ed;
+  box-shadow: inset 3px 0 var(--reading-accent);
 }
 #manuscript .note-limitation {
   border-inline-start: 3px solid var(--reading-wine);
@@ -355,11 +355,11 @@ body.ce-page main.ce-wrap,
 }
 #manuscript .note-market {
   border: 0;
-  border-block-start: 2px solid var(--reading-teal);
+  border-block-start: 2px solid var(--reading-accent);
   padding: 1.05rem clamp(.85rem, 2vw, 1.5rem) 1.2rem;
-  background: #e2e9e0;
+  background: #e9e4ec;
 }
-#manuscript .note-market :is(h3, dd, a) { color: var(--reading-teal); }
+#manuscript .note-market :is(h3, dd, a) { color: var(--reading-accent); }
 #manuscript .note-market :is(dt, p) { color: #454f48; }
 #manuscript .note-market dd { font: 500 1.22rem/1.3 var(--sans); font-variant-numeric: tabular-nums; }
 
@@ -577,4 +577,130 @@ html body :is(main,#main) :is(.yb-sources,.yb-sources a,.case-sources a,.note-so
   html body .film-masthead .cbi-name span { white-space: normal; line-height: 1.04; text-wrap: balance; }
   html body .film-masthead .film-index-launch { flex: 0 0 auto; }
   .research-hub .hub-intro .history-dateline { white-space: normal; }
+}
+
+/* The cover pairs a night-sky panorama with a hinged print mounted in a journal. */
+.film-home .fh-cover {
+  isolation: isolate; overflow: clip; grid-template-columns: minmax(0,1.16fr) minmax(0,.84fr);
+  gap: clamp(22px,5vw,80px); padding-block: clamp(42px,5vw,78px) clamp(48px,5.8vw,88px);
+}
+.film-home .fh-cover::before,.film-home .fh-cover::after {
+  content: ""; position: absolute; pointer-events: none; z-index: -1;
+}
+.film-home .fh-cover::before {
+  inset: -28% -9%; background: #161323 url("media/milky-way.webp") center 49% / cover no-repeat;
+  transform: rotate(-12deg) scale(1.16);
+}
+.film-home .fh-cover::after {
+  inset: 0;
+  background: linear-gradient(90deg,rgba(19,15,31,.84),rgba(27,18,42,.54) 43%,rgba(44,31,54,.16) 72%,rgba(22,19,32,.46)),
+              linear-gradient(0deg,rgba(21,17,30,.5),transparent 23%,transparent 76%,rgba(21,17,30,.46));
+}
+.film-home .fh-cover .fh-cover-text { max-width: 37rem; }
+.film-home .fh-cover #cover-title span { display: block; color: #edc99e; }
+.film-home .fh-cover .fh-eyebrow { color: #efcbab; }
+.journal-typescript { position: relative; display: inline-block; padding-right: .3em; }
+.film-home .fh-cover-actions { column-gap: 1rem; row-gap: .55rem; }
+.film-home .fh-cover-actions a { min-height: 44px; }
+.film-home .fh-cover-actions .fh-secondary { border: 0; text-decoration: underline; text-underline-offset: .25rem; }
+.film-home .journal-print { width: min(100%,24rem); margin: 0; justify-self: center; padding: 3px; color: #302936; }
+.journal-print-sheet {
+  position: relative; display: grid; padding: clamp(12px,1.3vw,21px); box-sizing: border-box;
+  transform: rotate(2deg); background: #f5edda;
+  box-shadow: 3px 5px 0 #c6bbae, 7px 11px 0 #36313c82, 0 14px 32px #0c0a1599;
+}
+.journal-print-sheet::before {
+  content: ""; pointer-events: none; position: absolute; top: -.55rem; left: 50%; z-index: 1;
+  width: 4.5rem; height: 1.12rem; margin-left: -2.25rem; transform: rotate(-5deg);
+  background: repeating-linear-gradient(85deg,#dfbe9188 0 1px,#e8c99770 1px 4px),#cfa9785e;
+  clip-path: polygon(1% 0,99% 4%,97% 19%,100% 38%,97% 60%,99% 81%,98% 100%,0 97%,2% 78%,0 57%,3% 40%,0 19%);
+}
+.journal-print-sheet .journal-print-front,.journal-print-sheet .journal-print-back {
+  grid-area: 1/1; height: auto; min-width: 0; margin: 0;
+}
+.journal-print-front[hidden],.journal-print-back[hidden] {
+  display: block !important; visibility: hidden; pointer-events: none;
+}
+.journal-photo {
+  overflow: hidden; height: clamp(165px,17.4vw,254px); background: #e8deca;
+  border: 1px solid #cebfa9; box-sizing: border-box;
+}
+.journal-photo img {
+  width: 100%; height: 100%; display: block; object-fit: contain; mix-blend-mode: multiply; transform: scale(1.21);
+}
+html body.film-home .journal-print figcaption {
+  display: block; color: #44383e; padding: .55rem .1rem .4rem; margin: 0;
+}
+html body.film-home .journal-inscription {
+  display: block; color: #4c3743; font: italic 400 1.65rem/1.14 var(--type-display) !important;
+}
+.journal-print figcaption a,.journal-print-back a {
+  display: inline-block; color: #5b4751; text-underline-offset: .16em; font: 450 .875rem/1.4 var(--type-text);
+}
+.journal-print-back {
+  box-sizing: border-box; padding: .75rem .2rem .5rem;
+  background: repeating-linear-gradient(transparent 0 1.65rem, #946e751c 1.65rem calc(1.65rem + 1px));
+  align-content: center;
+}
+html body.film-home .journal-print-back .journal-inscription { font: italic 400 2rem/1.12 var(--type-display) !important; margin: .1rem 0 .65rem; }
+html body.film-home .journal-print-back p:not(.journal-inscription) { color: #3f3540; line-height: 1.52 !important; margin: .4rem 0 .7rem; }
+.journal-turn[hidden] { display: none; }
+html body.film-home .journal-turn {
+  min-height: 42px; padding: .3rem .1rem; justify-self: start; background: transparent; color: #722f43;
+  border: 0; border-bottom: 1px solid #aa8584; cursor: pointer; font-weight: 650;
+}
+.journal-turn::before {
+  content: "↶"; display: inline-block; margin-right: .4em; font: 400 1.12em/1 Georgia,serif;
+}
+.journal-sky-credit {
+  position: absolute; inset: auto max(20px,5vw) 9px auto; max-width: calc(100% - 32px);
+  color: #e4d9dc; font: 400 .78rem/1.45 var(--type-text);
+}
+.journal-sky-credit a { color: inherit; text-decoration-color: #b69fac; text-underline-offset: .16em; }
+.film-home .fh-library-band { background: #ede5df; }
+.film-home .fh-desk summary { color: #5f4b58; }
+html body .film-primary a[aria-current] { text-decoration-color: #f0b996; }
+@media(min-width: 1550px) {
+  .journal-sky-credit { right: calc((100% - 1440px)/2 + 82px); }
+}
+@media(max-width: 670px) {
+  .film-home .fh-cover { grid-template-columns: minmax(0,1fr); padding-block: 32px 46px; gap: 26px; }
+  .film-home .fh-cover #cover-title span { display: inline; }
+  .film-home .fh-cover::before { inset: -10% -50%; transform: rotate(-26deg) scale(1.06); background-size: auto 100%; }
+  .film-home .journal-print { width: min(100% - 10px,22rem); }
+  .journal-photo { height: clamp(153px,41vw,210px); }
+}
+@media(prefers-reduced-motion:no-preference) {
+  @keyframes journal-print-letters { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0); } }
+  @keyframes journal-caret { 0%,55% { opacity: 1; } 56%,100% { opacity: 0; } }
+  @keyframes journal-flight { from { scale: 1.08; translate: 1% 1%; } to { scale: 1; translate: 0; } }
+  @keyframes journal-leaf { from { opacity: .8; transform: perspective(800px) rotateY(-16deg) rotate(-2deg); } to { opacity: 1; transform: rotate(2deg); } }
+  @keyframes journal-leaf-back { from { opacity: .8; transform: perspective(800px) rotateY(16deg) rotate(4deg); } to { opacity: 1; transform: rotate(2deg); } }
+  .film-home .fh-cover::before { animation: journal-flight 4.6s cubic-bezier(.15,.58,.18,1) both; }
+  .journal-typescript { animation: journal-print-letters 1.05s steps(22,end) both; }
+  .journal-typescript::after {
+    content: ""; position: absolute; right: 0; top: .22em; width: 1px; height: 1.05em; background: currentColor;
+    animation: journal-caret .55s step-end 3 both;
+  }
+  .journal-print[data-side="back"] .journal-print-sheet { animation: journal-leaf .26s ease-out both; }
+  .journal-print[data-side="front"] .journal-print-sheet { animation: journal-leaf-back .26s ease-out both; }
+}
+
+/* Ruled section tabs and a slim binding margin carry the journal into the reading room. */
+@media screen {
+  body:not(.film-home) main#main {
+    background-image: linear-gradient(90deg,transparent 0 calc(var(--film-page-gutter) - 16px),#96718125 calc(var(--film-page-gutter) - 16px) calc(var(--film-page-gutter) - 15px),transparent calc(var(--film-page-gutter) - 15px));
+  }
+  .research-hub .hub-section>summary h2 { text-decoration-color: transparent; text-underline-offset: .18em; }
+  .research-hub .hub-section[open]>summary h2 { text-decoration: underline; text-decoration-color: #a888646b; text-decoration-thickness: 1px; }
+  .film-index-group[open] .film-index-subtitle {
+    padding-left: .6rem; border-left: 3px solid #b77563;
+  }
+}
+@media(max-width: 670px) {
+  body:not(.film-home) main#main { background-image: none; }
+}
+@media(prefers-reduced-motion:no-preference) {
+  @keyframes journal-print-head { from { right: calc(100% - 1px); } to { right: 1px; } }
+  .journal-typescript::after { animation: journal-print-head 1.05s steps(22,end) both, journal-caret .55s step-end 3 both; }
 }

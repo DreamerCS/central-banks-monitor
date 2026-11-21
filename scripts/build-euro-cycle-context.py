@@ -50,7 +50,7 @@ def load_source(key, cutoff, args):
     if args.input_dir:
         body = (args.input_dir / (key + ".json")).read_bytes()
     else:
-        request = Request(url, headers={"User-Agent": "Central-Banks-Monitor/1.0 (historical indicators)"})
+        request = Request(url, headers={"User-Agent": "ThePolicyTape/1.0 (historical indicators)"})
         with urlopen(request, timeout=90) as response:
             body = response.read()
         if args.save_inputs:

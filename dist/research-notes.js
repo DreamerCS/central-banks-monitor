@@ -42,7 +42,7 @@ async function showNote(header, unavailable = false) {
   if (selection !== revision) return;
   status.hidden = true;
   article.hidden = false;
-  document.title = note.title + " · Central Bank Intelligence";
+  document.title = note.title + " · The Policy Tape";
   PublicationReader.render(article, note, permalink(note));
 }
 

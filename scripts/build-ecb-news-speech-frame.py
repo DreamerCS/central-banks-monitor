@@ -62,7 +62,7 @@ def main():
         cached = args.cache / hashlib.sha256(url.encode()).hexdigest() if args.cache else None
         if cached and cached.exists():
             return cached.read_bytes()
-        with urlopen(Request(url, headers={'User-Agent': 'CentralBankIntelligence/1.0'}), timeout=60) as response:
+        with urlopen(Request(url, headers={'User-Agent': 'ThePolicyTape/1.0'}), timeout=60) as response:
             data = response.read()
         if cached:
             cached.write_bytes(data)

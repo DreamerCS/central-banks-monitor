@@ -140,9 +140,11 @@ window.CBI_SITE_INDEX = [
     "label": "Market data and tools",
     "items": [
       {"label": "Home", "href": "./", "section": "Overview and calendar"},
-      {"label": "Complete site index", "href": "site-index.html", "section": "Overview and calendar"},
+      {"label": "Week ahead · central bank events", "href": "./#week-ahead", "section": "Overview and calendar"},
+      {"label": "Central bank speaking calendar", "href": "./#speech-agenda", "section": "Overview and calendar"},
+      {"label": "Economic calendar · Trading Economics", "href": "https://tradingeconomics.com/calendar", "section": "Overview and calendar"},
       {"label": "Research desks", "href": "./#research-desks", "section": "Overview and calendar"},
-      {"label": "Upcoming central bank speeches", "href": "./#speech-agenda", "section": "Overview and calendar"},
+      {"label": "Complete site index", "href": "site-index.html", "section": "Overview and calendar"},
       {"label": "Rates and FX history", "href": "./#market-history", "section": "Charts and event calculator"},
       {"label": "Treasury close and yield curve", "href": "./#index", "section": "Charts and event calculator"},
       {"label": "Event calculator · upload market data", "href": "./#event-calculator", "section": "Charts and event calculator"},
@@ -153,19 +155,23 @@ window.CBI_SITE_INDEX = [
   {
     "label": "Publications and sources",
     "items": [
+      {"label": "Publication map", "href": "./#world-map", "section": "Coverage and jurisdictions"},
+      {"label": "Choose a jurisdiction on the publication map", "href": "./#map-location-select", "section": "Coverage and jurisdictions"},
+      {"label": "Source coverage", "href": "source-coverage.html", "section": "Coverage and jurisdictions"},
+      {"label": "Central bank source directory", "href": "./#atlas", "section": "Coverage and jurisdictions"},
+      {"label": "Browse jurisdictions", "href": "./#coverage", "section": "Coverage and jurisdictions"},
       {"label": "Research notes", "href": "research-notes.html", "section": "Notes and archives"},
       {"label": "Publication archive", "href": "research-archive.html", "keywords": "archive speeches statements minutes publications", "section": "Notes and archives"},
       {"label": "Browse notes by title, year and institution", "href": "research-notes.html#note-browser", "section": "Notes and archives"},
       {"label": "Filter publications by jurisdiction, type or date", "href": "research-archive.html#archive-advanced", "section": "Notes and archives"},
-      {"label": "Source coverage", "href": "source-coverage.html", "section": "Coverage and jurisdictions"},
-      {"label": "Publication map", "href": "./#world-map", "section": "Coverage and jurisdictions"},
-      {"label": "Central bank source directory", "href": "./#atlas", "section": "Coverage and jurisdictions"},
-      {"label": "Browse jurisdictions", "href": "./#coverage", "section": "Coverage and jurisdictions"},
       {"label": "Two-year Treasury yield source · FRED", "href": "https://fred.stlouisfed.org/series/DGS2", "section": "Data sources and image credits"},
       {"label": "US Treasury interest rate statistics", "href": "https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics", "section": "Data sources and image credits"},
       {"label": "Publication map boundaries · Natural Earth", "href": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/", "section": "Data sources and image credits"},
-      {"label": "Federal Reserve photograph · Library of Congress", "href": "https://www.loc.gov/pictures/item/2016872460/", "section": "Data sources and image credits"},
-      {"label": "Lofoten photograph · Daniel Seßler", "href": "https://unsplash.com/photos/uAnxVqzj8gk", "section": "Data sources and image credits"}
+      {"label": "Stock ticker photograph · Smithsonian National Museum of American History", "href": "https://americanhistory.si.edu/collections/object/nmah_703474", "section": "Data sources and image credits"},
+      {"label": "Night sky photograph · ESO/S. Brunier", "href": "https://www.eso.org/public/images/eso0932a/", "section": "Data sources and image credits"},
+      {"label": "Night sky photograph licence · CC BY 4.0", "href": "https://creativecommons.org/licenses/by/4.0/", "section": "Data sources and image credits"},
+      {"label": "Previous cover · Federal Reserve governors, Library of Congress", "href": "https://www.loc.gov/pictures/item/2016872460/", "section": "Data sources and image credits"},
+      {"label": "Previous cover · Lofoten, Daniel Seßler", "href": "https://unsplash.com/photos/uAnxVqzj8gk", "section": "Data sources and image credits"}
     ]
   }
 ];

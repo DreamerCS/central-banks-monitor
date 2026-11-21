@@ -27,7 +27,7 @@ def verify(pair):
                 if '/boarddocs/' in url else url.rsplit('/', 1)[-1])
     filename = cache / (row['date'] + '-' + basename) if cache else None
     data = (filename.read_bytes() if filename and filename.exists() else
-            urlopen(Request(url, headers={'User-Agent': 'Central Bank Intelligence research'}), timeout=30).read())
+            urlopen(Request(url, headers={'User-Agent': 'The Policy Tape research'}), timeout=30).read())
     doc = html.fromstring(data)
     elements = doc.xpath('//*[@id="article"]/div[contains(@class,"col-md-8") and not(contains(@class,"heading"))][1]//p')
     if not elements:

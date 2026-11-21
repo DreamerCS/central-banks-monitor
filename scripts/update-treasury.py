@@ -44,7 +44,7 @@ def main():
     try:
         for y in (year - 1, year):
             url = f"{BASE}?data=daily_treasury_yield_curve&field_tdr_date_value={y}"
-            request = urllib.request.Request(url, headers={"User-Agent": "CentralBankIntelligence/1.0", "Accept": "application/atom+xml, application/xml"})
+            request = urllib.request.Request(url, headers={"User-Agent": "ThePolicyTape/1.0", "Accept": "application/atom+xml, application/xml"})
             with urllib.request.urlopen(request, timeout=25) as response:
                 merged.update(records(response.read(5_000_000)))
         if len(merged) < 20:

@@ -1,0 +1,783 @@
+{
+  "asOf": "2026-11-21",
+  "from": "2026-11-14",
+  "through": "2027-02-19",
+  "updatedAt": "2026-11-21T09:25:41Z",
+  "sources": [
+    {
+      "agency": "BLS",
+      "country": "US",
+      "label": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/schedule/",
+      "scope": "Selected statistical releases on the BLS annual schedule.",
+      "status": "verified",
+      "lastVerifiedAt": "2026-11-21T09:25:41Z",
+      "verifiedFrom": "2026-11-14",
+      "verifiedThrough": "2027-02-19",
+      "eventCount": 38
+    },
+    {
+      "agency": "BEA",
+      "country": "US",
+      "label": "U.S. Bureau of Economic Analysis",
+      "url": "https://www.bea.gov/news/schedule",
+      "scope": "Releases listed on the official BEA economic accounts calendar.",
+      "status": "verified",
+      "lastVerifiedAt": "2026-11-21T09:25:41Z",
+      "verifiedFrom": "2026-11-14",
+      "verifiedThrough": "2027-02-19",
+      "eventCount": 15
+    },
+    {
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "label": "Eurostat euro indicators",
+      "url": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar",
+      "scope": "Confirmed euro indicators for growth, employment, prices, output, trade, retail and public finances, plus European Commission business and consumer surveys.",
+      "status": "verified",
+      "lastVerifiedAt": "2026-11-21T09:25:41Z",
+      "verifiedFrom": "2026-11-21",
+      "verifiedThrough": "2026-12-26",
+      "eventCount": 13
+    },
+    {
+      "agency": "ONS",
+      "country": "UK",
+      "label": "UK Office for National Statistics",
+      "url": "https://www.ons.gov.uk/releasecalendar",
+      "scope": "Confirmed UK releases on growth, output, retail, trade, labour, earnings, prices, household costs, public finances, balance of payments and investment.",
+      "status": "verified",
+      "lastVerifiedAt": "2026-11-21T09:25:41Z",
+      "verifiedFrom": "2026-11-21",
+      "verifiedThrough": "2026-12-26",
+      "eventCount": 16
+    }
+  ],
+  "events": [
+    {
+      "id": "bls-1eb93c1bd0f3a5eabdfa",
+      "agency": "BLS",
+      "country": "US",
+      "title": "U.S. Import and Export Price Indexes for October 2026",
+      "date": "2026-11-17",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-11-17T08:30:00-05:00"
+    },
+    {
+      "id": "bea-37bc3b66-6390-4198-9f86-2f66942c7bb5",
+      "agency": "BEA",
+      "country": "US",
+      "title": "Experimental Super Intelligence Economic Statistics, 2024",
+      "date": "2026-11-17",
+      "source": "https://www.bea.gov/news/schedule/",
+      "start": "2026-11-17T10:00:00-05:00"
+    },
+    {
+      "id": "bea-e41124a0-ac3d-4ef4-8523-e7a43deface1",
+      "agency": "BEA",
+      "country": "US",
+      "title": "Outdoor Recreation Economic Statistics, U.S. and States, 2025",
+      "date": "2026-11-18",
+      "source": "https://www.bea.gov/news/schedule/",
+      "start": "2026-11-18T10:00:00-05:00"
+    },
+    {
+      "id": "bls-d31dd42f91d05c82c7e5",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Employer-Reported Workplace Injuries and Illnesses (Annual) for 2025",
+      "date": "2026-11-18",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-11-18T10:00:00-05:00"
+    },
+    {
+      "id": "bea-e2e486f5-b9b2-426b-8e0a-040a31377b60",
+      "agency": "BEA",
+      "country": "US",
+      "title": "Activities of U.S. Multinational Enterprises, 2024",
+      "date": "2026-11-20",
+      "source": "https://www.bea.gov/news/schedule/",
+      "start": "2026-11-20T08:30:00-05:00"
+    },
+    {
+      "id": "bls-b6226f37718a801f36e0",
+      "agency": "BLS",
+      "country": "US",
+      "title": "State Employment and Unemployment (Monthly) for October 2026",
+      "date": "2026-11-20",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-11-20T10:00:00-05:00"
+    },
+    {
+      "id": "bls-e1851e88d4313ae558de",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Total Factor Productivity for Major Industries for Annual 2025",
+      "date": "2026-11-20",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-11-20T10:00:00-05:00"
+    },
+    {
+      "id": "ons-uk-trade-in-services-by-industry-country-and-service-type-2016-to-2024",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "UK trade in services by industry, country and service type, 2016 to 2024",
+      "date": "2026-11-24",
+      "source": "https://www.ons.gov.uk/releases/uk-trade-in-services-by-industry-country-and-service-type-2016-to-2024",
+      "start": "2026-11-24T09:30:00+00:00"
+    },
+    {
+      "id": "bea-395d58c3-51cf-44ef-b5bd-d35240623299",
+      "agency": "BEA",
+      "country": "US",
+      "title": "GDP (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+      "date": "2026-11-25",
+      "source": "https://www.bea.gov/news/schedule/",
+      "start": "2026-11-25T08:30:00-05:00"
+    },
+    {
+      "id": "bea-c6b23055-287a-4975-bcf7-026c2c6dd8e1",
+      "agency": "BEA",
+      "country": "US",
+      "title": "Personal Income and Outlays, October 2026",
+      "date": "2026-11-25",
+      "source": "https://www.bea.gov/news/schedule/",
+      "start": "2026-11-25T08:30:00-05:00"
+    },
+    {
+      "id": "ons-householdcostsindicesforukhouseholdgroupsjulytoseptember2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "Household Costs Indices for UK household groups: July to September 2026",
+      "date": "2026-11-27",
+      "source": "https://www.ons.gov.uk/releases/householdcostsindicesforukhouseholdgroupsjulytoseptember2026",
+      "start": "2026-11-27T09:30:00+00:00"
+    },
+    {
+      "id": "eurostat-22494568",
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "title": "European Commission (DG ECFIN) · Economic Sentiment Indicator & Business and Consumer Survey results, November 2026",
+      "date": "2026-11-27",
+      "source": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/latest-business-and-consumer-surveys_en"
+    },
+    {
+      "id": "bls-48521c1b26d84c25bafd",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Job Openings and Labor Turnover Survey for October 2026",
+      "date": "2026-12-01",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-12-01T10:00:00-05:00"
+    },
+    {
+      "id": "eurostat-22494589",
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "title": "Flash estimate inflation euro area, November 2026",
+      "date": "2026-12-01",
+      "source": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar?type=listMonth&start=1796079600000"
+    },
+    {
+      "id": "bea-24ad66f8-b973-454d-93c1-9fd339a61d9b",
+      "agency": "BEA",
+      "country": "US",
+      "title": "GDP by County and Personal Income by County, 2025",
+      "date": "2026-12-02",
+      "source": "https://www.bea.gov/news/schedule/",
+      "start": "2026-12-02T08:30:00-05:00"
+    },
+    {
+      "id": "bls-762f3501af2311a76290",
+      "agency": "BLS",
+      "country": "US",
+      "title": "County Employment and Wages for Second Quarter 2026",
+      "date": "2026-12-02",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-12-02T10:00:00-05:00"
+    },
+    {
+      "id": "bls-05953fefc4aa6e8978c1",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Metropolitan Area Employment and Unemployment (Monthly) for October 2026",
+      "date": "2026-12-02",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-12-02T10:00:00-05:00"
+    },
+    {
+      "id": "eurostat-22494600",
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "title": "Unemployment, October 2026",
+      "date": "2026-12-02",
+      "source": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar?type=listMonth&start=1796166000000"
+    },
+    {
+      "id": "eurostat-22494611",
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "title": "Industrial producer prices, domestic market, October 2026",
+      "date": "2026-12-03",
+      "source": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar?type=listMonth&start=1796252400000"
+    },
+    {
+      "id": "bls-0856c791bf0e30ab2089",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Employment Situation for November 2026",
+      "date": "2026-12-04",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-12-04T08:30:00-05:00"
+    },
+    {
+      "id": "eurostat-22519863",
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "title": "Retail trade, October 2026",
+      "date": "2026-12-04",
+      "source": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar?type=listMonth&start=1796338800000"
+    },
+    {
+      "id": "eurostat-22519874",
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "title": "GDP main aggregates and employment, Q3/2026",
+      "date": "2026-12-07",
+      "source": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar?type=listMonth&start=1796598000000"
+    },
+    {
+      "id": "eurostat-22519885",
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "title": "Services production, September 2026",
+      "date": "2026-12-07",
+      "source": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar?type=listMonth&start=1796598000000"
+    },
+    {
+      "id": "bea-fcb9a791-4080-4f4b-87cf-b5f189e6d1a2",
+      "agency": "BEA",
+      "country": "US",
+      "title": "U.S. International Trade in Goods and Services, October 2026",
+      "date": "2026-12-08",
+      "source": "https://www.bea.gov/news/schedule/",
+      "start": "2026-12-08T08:30:00-05:00"
+    },
+    {
+      "id": "bls-0ac198968e38bc33f5d9",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Productivity and Costs (R) for Third Quarter 2026",
+      "date": "2026-12-08",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-12-08T08:30:00-05:00"
+    },
+    {
+      "id": "bea-1fedfe18-0b6c-4a41-8079-5d07b8e6e6de",
+      "agency": "BEA",
+      "country": "US",
+      "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2025",
+      "date": "2026-12-10",
+      "source": "https://www.bea.gov/news/schedule/",
+      "start": "2026-12-10T08:30:00-05:00"
+    },
+    {
+      "id": "bls-17b0f7204bd33779f4ae",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Consumer Price Index for November 2026",
+      "date": "2026-12-10",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-12-10T08:30:00-05:00"
+    },
+    {
+      "id": "bls-741d1768884fad5c250b",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Real Earnings for November 2026",
+      "date": "2026-12-10",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-12-10T08:30:00-05:00"
+    },
+    {
+      "id": "ons-constructionoutputingreatbritainoctober2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "Construction output in Great Britain: October 2026",
+      "date": "2026-12-11",
+      "source": "https://www.ons.gov.uk/releases/constructionoutputingreatbritainoctober2026",
+      "start": "2026-12-11T07:00:00+00:00"
+    },
+    {
+      "id": "ons-gdpmonthlyestimateukoctober2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "GDP monthly estimate, UK: October 2026",
+      "date": "2026-12-11",
+      "source": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukoctober2026",
+      "start": "2026-12-11T07:00:00+00:00"
+    },
+    {
+      "id": "ons-indexofproductionukoctober2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "Index of Production, UK: October 2026",
+      "date": "2026-12-11",
+      "source": "https://www.ons.gov.uk/releases/indexofproductionukoctober2026",
+      "start": "2026-12-11T07:00:00+00:00"
+    },
+    {
+      "id": "ons-indexofservicesukoctober2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "Index of Services, UK: October 2026",
+      "date": "2026-12-11",
+      "source": "https://www.ons.gov.uk/releases/indexofservicesukoctober2026",
+      "start": "2026-12-11T07:00:00+00:00"
+    },
+    {
+      "id": "ons-uktradeoctober2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "UK trade: October 2026",
+      "date": "2026-12-11",
+      "source": "https://www.ons.gov.uk/releases/uktradeoctober2026",
+      "start": "2026-12-11T07:00:00+00:00"
+    },
+    {
+      "id": "ons-earningsandemploymentfrompayasyouearnrealtimeinformationukdecember2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: December 2026",
+      "date": "2026-12-15",
+      "source": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationukdecember2026",
+      "start": "2026-12-15T07:00:00+00:00"
+    },
+    {
+      "id": "ons-uklabourmarketdecember2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "UK Labour Market: December 2026",
+      "date": "2026-12-15",
+      "source": "https://www.ons.gov.uk/releases/uklabourmarketdecember2026",
+      "start": "2026-12-15T07:00:00+00:00"
+    },
+    {
+      "id": "bls-233befafe381445f3bfc",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Producer Price Index for November 2026",
+      "date": "2026-12-15",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-12-15T08:30:00-05:00"
+    },
+    {
+      "id": "eurostat-22519916",
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "title": "Industrial production, October 2026",
+      "date": "2026-12-15",
+      "source": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar?type=listMonth&start=1797289200000"
+    },
+    {
+      "id": "ons-consumerpriceinflationuknovember2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "Consumer price inflation, UK: November 2026",
+      "date": "2026-12-16",
+      "source": "https://www.ons.gov.uk/releases/consumerpriceinflationuknovember2026",
+      "start": "2026-12-16T07:00:00+00:00"
+    },
+    {
+      "id": "ons-producerpriceinflationuknovember2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "Producer price inflation, UK: November 2026",
+      "date": "2026-12-16",
+      "source": "https://www.ons.gov.uk/releases/producerpriceinflationuknovember2026",
+      "start": "2026-12-16T07:00:00+00:00"
+    },
+    {
+      "id": "bls-52b1a6b7973a1e14038b",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Employer Costs for Employee Compensation for September 2026",
+      "date": "2026-12-16",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-12-16T10:00:00-05:00"
+    },
+    {
+      "id": "eurostat-22519927",
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "title": "International trade in goods, October 2026",
+      "date": "2026-12-16",
+      "source": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar?type=listMonth&start=1797375600000"
+    },
+    {
+      "id": "eurostat-22519938",
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "title": "Job vacancy, Q3/2026",
+      "date": "2026-12-16",
+      "source": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar?type=listMonth&start=1797375600000"
+    },
+    {
+      "id": "bls-69521aeccc266a2141bd",
+      "agency": "BLS",
+      "country": "US",
+      "title": "U.S. Import and Export Price Indexes for November 2026",
+      "date": "2026-12-17",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-12-17T08:30:00-05:00"
+    },
+    {
+      "id": "eurostat-22519949",
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "title": "Inflation (HICP), November 2026",
+      "date": "2026-12-17",
+      "source": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar?type=listMonth&start=1797462000000"
+    },
+    {
+      "id": "eurostat-22519960",
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "title": "Labour cost index, Q3/2026",
+      "date": "2026-12-17",
+      "source": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar?type=listMonth&start=1797462000000"
+    },
+    {
+      "id": "ons-retailsalesgreatbritainnovember2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "Retail sales, Great Britain: November 2026",
+      "date": "2026-12-18",
+      "source": "https://www.ons.gov.uk/releases/retailsalesgreatbritainnovember2026",
+      "start": "2026-12-18T07:00:00+00:00"
+    },
+    {
+      "id": "bea-4666e9ef-89c0-422f-b8cb-fef7bd2fe8f6",
+      "agency": "BEA",
+      "country": "US",
+      "title": "U.S. International Transactions and Investment Position, 3rd Quarter 2026",
+      "date": "2026-12-18",
+      "source": "https://www.bea.gov/news/schedule/",
+      "start": "2026-12-18T08:30:00-05:00"
+    },
+    {
+      "id": "bls-273e93acaac0a1ac75c6",
+      "agency": "BLS",
+      "country": "US",
+      "title": "State Employment and Unemployment (Monthly) for November 2026",
+      "date": "2026-12-18",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-12-18T10:00:00-05:00"
+    },
+    {
+      "id": "bls-1be53705a0607aa17abf",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Work Experience of the Population (Annual) for 2025",
+      "date": "2026-12-18",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-12-18T10:00:00-05:00"
+    },
+    {
+      "id": "eurostat-22519971",
+      "agency": "Eurostat",
+      "country": "Euro area",
+      "title": "Production in construction, October 2026",
+      "date": "2026-12-18",
+      "source": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar?type=listMonth&start=1797548400000"
+    },
+    {
+      "id": "ons-balanceofpaymentsukjulytoseptember2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "Balance of payments, UK: July to September 2026",
+      "date": "2026-12-22",
+      "source": "https://www.ons.gov.uk/releases/balanceofpaymentsukjulytoseptember2026",
+      "start": "2026-12-22T07:00:00+00:00"
+    },
+    {
+      "id": "ons-gdpquarterlynationalaccountsukjulytoseptember2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "GDP quarterly national accounts, UK: July to September 2026",
+      "date": "2026-12-22",
+      "source": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2026",
+      "start": "2026-12-22T07:00:00+00:00"
+    },
+    {
+      "id": "ons-publicsectorfinancesuknovember2026",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "Public sector finances, UK: November 2026",
+      "date": "2026-12-22",
+      "source": "https://www.ons.gov.uk/releases/publicsectorfinancesuknovember2026",
+      "start": "2026-12-22T07:00:00+00:00"
+    },
+    {
+      "id": "ons-businessinvestmentintheukjulytoseptember2026revisedresults",
+      "agency": "ONS",
+      "country": "UK",
+      "title": "Business investment in the UK: July to September 2026 revised results",
+      "date": "2026-12-22",
+      "source": "https://www.ons.gov.uk/releases/businessinvestmentintheukjulytoseptember2026revisedresults",
+      "start": "2026-12-22T09:30:00+00:00"
+    },
+    {
+      "id": "bea-0a2682b1-41aa-4ec7-992e-07c8bfc1b92e",
+      "agency": "BEA",
+      "country": "US",
+      "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 3rd Quarter 2026",
+      "date": "2026-12-23",
+      "source": "https://www.bea.gov/news/schedule/",
+      "start": "2026-12-23T08:30:00-05:00"
+    },
+    {
+      "id": "bea-715d281b-925d-40f9-8400-6a9096a861ec",
+      "agency": "BEA",
+      "country": "US",
+      "title": "Personal Income and Outlays, November 2026",
+      "date": "2026-12-23",
+      "source": "https://www.bea.gov/news/schedule/",
+      "start": "2026-12-23T08:30:00-05:00"
+    },
+    {
+      "id": "bls-f0cc6aa02f14f24699a5",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Metropolitan Area Employment and Unemployment (Monthly) for November 2026",
+      "date": "2026-12-30",
+      "source": "https://www.bls.gov/schedule/2026/",
+      "start": "2026-12-30T10:00:00-05:00"
+    },
+    {
+      "id": "bls-e3558b22f7ac73ced34f",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Job Openings and Labor Turnover Survey for November 2026",
+      "date": "2027-01-05",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-01-05T10:00:00-05:00"
+    },
+    {
+      "id": "bea-60c2963e-adbe-4467-b7b3-c55ddedcead4",
+      "agency": "BEA",
+      "country": "US",
+      "title": "U.S. International Trade in Goods and Services, November 2026",
+      "date": "2027-01-07",
+      "source": "https://www.bea.gov/news/schedule/next-year",
+      "start": "2027-01-07T08:30:00-05:00"
+    },
+    {
+      "id": "bls-30bb94c3ec2c57b3b088",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Employment Situation for December 2026",
+      "date": "2027-01-08",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-01-08T08:30:00-05:00"
+    },
+    {
+      "id": "bls-32fd181e5f9fdc68dee2",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Consumer Price Index for December 2026",
+      "date": "2027-01-13",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-01-13T08:30:00-05:00"
+    },
+    {
+      "id": "bls-46d9dff921441175ae69",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Real Earnings for December 2026",
+      "date": "2027-01-13",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-01-13T08:30:00-05:00"
+    },
+    {
+      "id": "bls-aff71dd30fed80168acc",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Producer Price Index for December 2026",
+      "date": "2027-01-14",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-01-14T08:30:00-05:00"
+    },
+    {
+      "id": "bls-aebc573fbae981668dad",
+      "agency": "BLS",
+      "country": "US",
+      "title": "U.S. Import and Export Price Indexes for December 2026",
+      "date": "2027-01-15",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-01-15T08:30:00-05:00"
+    },
+    {
+      "id": "bls-9748bfedfe6002fd8732",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Usual Weekly Earnings of Wage and Salary Workers for Fourth Quarter 2026",
+      "date": "2027-01-20",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-01-20T10:00:00-05:00"
+    },
+    {
+      "id": "bls-28411cab7a13a5dc4514",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Occupational Requirements in the United States for Annual 2026",
+      "date": "2027-01-22",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-01-22T10:00:00-05:00"
+    },
+    {
+      "id": "bls-6022a96a4826fb3979ad",
+      "agency": "BLS",
+      "country": "US",
+      "title": "State Employment and Unemployment (Monthly) for December 2026",
+      "date": "2027-01-26",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-01-26T10:00:00-05:00"
+    },
+    {
+      "id": "bls-f9b153cdeb6e021d043e",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Quarterly Data Series on Business Employment Dynamics for Second Quarter 2026",
+      "date": "2027-01-27",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-01-27T10:00:00-05:00"
+    },
+    {
+      "id": "bea-20dea777-8e6b-48a2-93a7-d92e7215956d",
+      "agency": "BEA",
+      "country": "US",
+      "title": "GDP (Advance Estimate), 4th Quarter and Year 2026",
+      "date": "2027-01-28",
+      "source": "https://www.bea.gov/news/schedule/next-year",
+      "start": "2027-01-28T08:30:00-05:00"
+    },
+    {
+      "id": "bea-e3a6de0c-0553-47aa-a115-727090032aea",
+      "agency": "BEA",
+      "country": "US",
+      "title": "Personal Income and Outlays, December 2026",
+      "date": "2027-01-28",
+      "source": "https://www.bea.gov/news/schedule/next-year",
+      "start": "2027-01-28T08:30:00-05:00"
+    },
+    {
+      "id": "bls-4b218c45cb12414921c7",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Employment Cost Index for Fourth Quarter 2026",
+      "date": "2027-01-29",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-01-29T08:30:00-05:00"
+    },
+    {
+      "id": "bls-39ba80c4cea09e3aa7ed",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Job Openings and Labor Turnover Survey for December 2026",
+      "date": "2027-02-02",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-02-02T10:00:00-05:00"
+    },
+    {
+      "id": "bls-7d2f2c8a8cc8d6bcc55c",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Union Membership (Annual) for Annual 2026",
+      "date": "2027-02-02",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-02-02T10:00:00-05:00"
+    },
+    {
+      "id": "bls-e29c7847688d018af912",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Metropolitan Area Employment and Unemployment (Monthly) for December 2026",
+      "date": "2027-02-03",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-02-03T10:00:00-05:00"
+    },
+    {
+      "id": "bea-0a6d54c6-da4d-402f-a2a2-9ece90f7a839",
+      "agency": "BEA",
+      "country": "US",
+      "title": "U.S. International Trade in Goods and Services, December and Annual 2026",
+      "date": "2027-02-04",
+      "source": "https://www.bea.gov/news/schedule/next-year",
+      "start": "2027-02-04T08:30:00-05:00"
+    },
+    {
+      "id": "bls-e13e39627497fcf5b00d",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Productivity and Costs (P) for Fourth Quarter 2026",
+      "date": "2027-02-04",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-02-04T08:30:00-05:00"
+    },
+    {
+      "id": "bls-f09f31db4046d37f48f2",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Employment Situation for January 2027",
+      "date": "2027-02-05",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-02-05T08:30:00-05:00"
+    },
+    {
+      "id": "bls-5bb1c708f2e8274f0a27",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Consumer Price Index for January 2027",
+      "date": "2027-02-11",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-02-11T08:30:00-05:00"
+    },
+    {
+      "id": "bls-f22788c9edb85ed8f5e7",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Real Earnings for January 2027",
+      "date": "2027-02-11",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-02-11T08:30:00-05:00"
+    },
+    {
+      "id": "bls-19aee56426cb64135b4a",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Producer Price Index for January 2027",
+      "date": "2027-02-12",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-02-12T08:30:00-05:00"
+    },
+    {
+      "id": "bls-1408d2eb8f6c37a48d58",
+      "agency": "BLS",
+      "country": "US",
+      "title": "U.S. Import and Export Price Indexes for January 2027",
+      "date": "2027-02-17",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-02-17T08:30:00-05:00"
+    },
+    {
+      "id": "bls-1a35654efeb99bdc4275",
+      "agency": "BLS",
+      "country": "US",
+      "title": "Major Work Stoppages (Annual) for Annual 2026",
+      "date": "2027-02-19",
+      "source": "https://www.bls.gov/schedule/2027/",
+      "start": "2027-02-19T10:00:00-05:00"
+    }
+  ]
+}

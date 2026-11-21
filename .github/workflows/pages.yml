@@ -49,8 +49,25 @@ jobs:
       - name: Refresh pre-speech US yields and releases
         continue-on-error: true
         run: python3 scripts/build-pre-event-curve.py
-      - name: Refresh speaking calendar
-        run: python3 scripts/update-speaking-calendar.py
+      - name: Refresh the official economic release calendar
+        run: |
+          if ! curl --fail --silent --show-error --location --retry 2 --max-time 25 \
+            -H 'Cache-Control: no-cache' \
+            "https://dreamercs.github.io/central-banks-monitor/data/economic-calendar.json?run=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" \
+            -o "$RUNNER_TEMP/previous-economic-calendar.json"; then
+            echo "Using the bundled economic calendar as the previous schedule"
+          fi
+          python3 scripts/update-economic-calendar.py --previous "$RUNNER_TEMP/previous-economic-calendar.json"
+      - name: Restore and refresh speaking calendar
+        run: |
+          previous="$RUNNER_TEMP/previous-speaking-calendar.json"
+          if curl --fail --silent --show-error --location --retry 2 --max-time 25 \
+            -H 'Cache-Control: no-cache' \
+            "https://dreamercs.github.io/central-banks-monitor/data/speaking-calendar.json?run=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" \
+            -o "$previous.part"; then
+            mv "$previous.part" "$previous"
+          fi
+          python3 scripts/update-speaking-calendar.py --previous "$previous"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

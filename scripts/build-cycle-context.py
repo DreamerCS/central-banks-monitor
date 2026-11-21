@@ -52,7 +52,7 @@ SERIES = {
 def get_input(name, url, args):
     if args.input_dir:
         return (args.input_dir / name).read_bytes()
-    request = Request(url, headers={"User-Agent": "Central-Banks-Monitor/1.0 (historical indicators)"})
+    request = Request(url, headers={"User-Agent": "ThePolicyTape/1.0 (historical indicators)"})
     with urlopen(request, timeout=90) as response:
         body = response.read()
     if args.save_inputs:

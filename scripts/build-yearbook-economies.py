@@ -23,7 +23,7 @@ def fetch_series(indicator, end):
            f"?source=2&date=1999:{end}&format=json&per_page=5000")
     for attempt in range(3):
         try:
-            request = Request(url, headers={"User-Agent": "Central-Bank-Intelligence Yearbook"})
+            request = Request(url, headers={"User-Agent": "ThePolicyTape Yearbook"})
             with urlopen(request, timeout=45) as response:
                 meta, rows = json.load(response)
             break
