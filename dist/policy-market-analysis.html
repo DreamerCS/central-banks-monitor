@@ -29,6 +29,12 @@
       <figcaption id="pm-point-info" aria-live="polite"></figcaption>
     </figure>
     <div id="pm-stage-output"></div>
+    <details id="pm-curve-composition">
+      <summary>Which yields moved when the curve flattened or steepened?</summary>
+      <p>A flatter curve can accompany a sell-off at both maturities, a rally at both, or a rise in the two-year yield alongside a fall in the ten-year. Each has a different consequence for an outright bond position.</p>
+      <div id="pm-curve-output" aria-live="polite"></div>
+      <p class="ce-small">The Fed sample uses US Treasuries around scheduled meetings. The ECB sample uses German government yields in standard meeting windows. Both yields are observed in the same intraday window. The slope change is the ten-year change less the two-year change. Policy expectations, term premia and other news can all affect these yields. Market pricing for a particular policy meeting requires a separate instrument.</p>
+    </details>
     <p id="pm-current" class="ce-small" hidden></p>
     <div class="ce-links"><a href="data/policy-current-year.json" download>2026 year-to-date observations (JSON)</a><a href="data/policy-research-meetings.csv" download>Download meeting observations (CSV)</a><a href="data/policy-response-study.json" download>Download market estimates (JSON)</a></div>
   </section>

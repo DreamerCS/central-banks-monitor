@@ -40,6 +40,12 @@
   }
   let marketData=null, headlineData=null, speechData=null, stageData=null, currentData=null, anticipatedData=null, regimeData=null, anticipatedHeadlines=null;
   const pointFiles=new Map();
+  function eventFile(id){
+    if(!pointFiles.has(id)){
+      pointFiles.set(id,load(id+'-cross-asset-events').catch(error=>{pointFiles.delete(id);throw error;}));
+    }
+    return pointFiles.get(id);
+  }
   let plotToken=0;
   const svgNs='http://www.w3.org/2000/svg';
   function svg(tag,attrs,text){
@@ -59,9 +65,9 @@
     setOptions(select,Object.entries(predictor.outcomes).map(([id,v])=>[id,v.label]),select.value||'yield2y');
     const asset=select.value,outcome=predictor.outcomes[asset];
     plot.append(small('Loading individual decision windows…'));
-    if(!pointFiles.has(chosenBank))pointFiles.set(chosenBank,load(chosenBank+'-cross-asset-events').catch(e=>{pointFiles.delete(chosenBank);throw e;}));
+
     let file;
-    try{file=await pointFiles.get(chosenBank);}catch{if(ticket===plotToken)plot.replaceChildren(small('Individual observations are unavailable. The table above contains the saved estimates.'));return;}
+    try{file=await eventFile(chosenBank);}catch{if(ticket===plotToken)plot.replaceChildren(small('Individual observations are unavailable. The table above contains the saved estimates.'));return;}
     if(ticket!==plotToken || !window.document || !figure.isConnected)return;
     const {start,end}=marketData.period;
     const points=file.records.filter(r=>r.stage==='release'&&r.type==='decision'&&r.groupEligible&&start<=r.date&&r.date<=end&&Number.isFinite(r.values[key])&&Number.isFinite(r.values[asset]))
@@ -306,15 +312,77 @@
     const sources=el('div',null,'ce-links');sources.append(...sourceLinks);
     box.append(disclosure('Speech methods and data sources',[...(speechData.methods||[]).map(small),sources]));
   }
+  const curvePanel=field('curve-composition');
+  // Site quotes are in basis points. Round the difference at the precision of the source series.
+  const slopeChange=r=>Number((r.values.yield10y-r.values.yield2y).toFixed(7));
+  function curveForecast(rows){
+    const period=(start,end)=>rows.filter(r=>r.date.slice(0,4)>=start && r.date.slice(0,4)<=end);
+    const flattened=r=>Number(slopeChange(r)<-1);
+    const count=sample=>sample.reduce((sum,r)=>sum+flattened(r),0);
+    const test=period('2018','2025'), train=[period('2000','2008'),period('2009','2017')];
+    if(!test.length || train.some(sample=>!sample.length))return small('A training or test period has no matched decision windows.');
+    const probabilities=train.map(sample=>count(sample)/sample.length);
+    const loss=(probability,sample)=>sample.reduce((sum,r)=>sum+(probability-flattened(r))**2,0)/sample.length;
+    const scores=train.map((sample,i)=>[i?'2009–2017':'2000–2008',proportion(count(sample),sample.length),
+      loss(probabilities[i],test).toFixed(4)]);
+    const items=[small('Before each test meeting, each benchmark assigns the fraction of its training releases that flattened by more than 1 bp. Both are scored on the same 2018–2025 releases. The observed test frequency was '+proportion(count(test),test.length)+'.'),
+      table('Forecast of flattening by more than 1 bp · release windows',['Training years','Flattened / matched training releases','Test Brier score'],scores),
+      small('The Brier score averages the squared difference between the forecast probability and the outcome (one for flattening, zero otherwise). Lower scores indicate more accurate probabilities. These fixed frequencies use the available historical data vintage and ignore information about the individual meeting.')];
+    const differences=[];
+    for(const year of new Set(test.map(r=>r.date.slice(0,4)))){
+      const remaining=test.filter(r=>!r.date.startsWith(year));
+      if(remaining.length)differences.push(loss(probabilities[0],remaining)-loss(probabilities[1],remaining));
+    }
+    if(differences.length)items.push(small('Dropping one test year at a time gives an early-minus-later score difference from '+Math.min(...differences).toFixed(4)+' to '+Math.max(...differences).toFixed(4)+'. Negative values favour the earlier period. This range measures sensitivity to the years included.'));
+    return disclosure('Did the 2000–2008 flattening frequency forecast later releases better?',items);
+  }
+  async function renderCurve(){
+    if(!curvePanel.open)return;
+    const id=bank.value,box=field('curve-output');
+    box.replaceChildren(small('Loading matched yield changes…'));
+    let file;
+    try{file=await eventFile(id);}catch{
+      if(bank.value===id)box.replaceChildren(small('The event observations are unavailable.'));
+      return;
+    }
+    if(bank.value!==id || !curvePanel.open)return;
+    const output=[];
+    for(const stage of ['release','conference']){
+      const eligible=file.records.filter(r=>r.groupEligible && r.stage===stage);
+      const paired=eligible.filter(r=>Number.isFinite(r.values.yield2y) && Number.isFinite(r.values.yield10y)).sort((a,b)=>a.date.localeCompare(b.date));
+      if(!paired.length)continue;
+      const label=stage==='release'?'Decision release':'Press conference';
+      const above=paired.filter(r=>slopeChange(r)>1),below=paired.filter(r=>slopeChange(r)<-1);
+      const groups=[['Steepened >1 bp',above],['Flattened >1 bp',below]].map(([name,group])=>{
+        const legs=group.map(r=>[r.values.yield2y,r.values.yield10y]);
+        return [name,group.length,legs.filter(([a,b])=>a>0 && b>0).length,legs.filter(([a,b])=>a<0 && b<0).length,
+          legs.filter(([a,b])=>a*b<0).length,legs.filter(([a,b])=>a===0 || b===0).length];
+      });
+      output.push(table(label+' · '+paired[0].date+' to '+paired.at(-1).date,['Curve move','Events','Both yields rose','Both fell','Opposite signs','One unchanged'],groups),
+        small(paired.length+' of '+eligible.length+' eligible windows have both yields. In '+(paired.length-above.length-below.length)+' the change in slope was within ±1 bp, including the boundaries.'));
+      if(stage==='release'){
+        const example=below.filter(r=>r.values.yield2y*r.values.yield10y<0).at(-1);
+        if(example){
+          const note=small('On '+example.date+' the two-year yield rose '+digits(example.values.yield2y)+' bp and the ten-year fell '+digits(-example.values.yield10y)+' bp. The change in slope was '+signed(example.values.yield10y)+' − ('+signed(example.values.yield2y)+') = '+signed(slopeChange(example))+' bp. Window: '+example.window+'. ');
+          const link=el('a','Inspect this decision');link.href='cross-asset-events.html?'+new URLSearchParams({bank:id,stage,date:example.date,event:example.id});note.append(link);output.push(note);
+        }
+        output.push(curveForecast(paired));
+      }
+    }
+    const link=el('a',id==='fed'?'San Francisco Fed event workbook':'ECB event workbook');
+    link.href=id==='fed'?'https://www.frbsf.org/wp-content/uploads/USMPD.xlsx':'https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx';
+    box.replaceChildren(...output,link);
+  }
+  curvePanel.addEventListener('toggle',renderCurve);
+  if(location.hash==='#pm-curve-composition')curvePanel.open=true;
   const projectionPanel=field('fed-projections');
-  let projectionData;
+
   async function showProjectionComparison(){
     if(!projectionPanel.open) return;
     const box=field('projections-output');
     box.replaceChildren(small('Loading Fed announcement windows…'));
     try {
-      projectionData ??= load('fed-cross-asset-events');
-      const data=await projectionData;
+      const data=await eventFile('fed');
       const releases=data.records.filter(r=>r.stage==='release' && r.scheduled===true && r.date>='2019-01-01' && typeof r.sep==='boolean');
       const dates=releases.map(r=>r.date).sort();
       const inside=x=>Math.abs(x)<=1.0000001;
@@ -330,7 +398,6 @@
         ['Meeting','Both prices / scheduled','MP1 within ±1 bp','MP2 up >1 bp¹','MP2 down >1 bp¹','MP2 outside band¹'],results),
         small('¹ Among meetings where the current decision was within ±1 bp of prior pricing. Each count measures the statement window only.'));
     } catch {
-      projectionData=undefined;
       box.replaceChildren(small('The Fed statement observations are unavailable.'));
     }
   }
@@ -468,7 +535,7 @@
     }
     field('events').href='cross-asset-events.html?bank='+bank.value+'&lens=news#ce-news-coverage';
   }
-  bank.onchange=()=>{instrument.value='';exclusion.value='';render();const url=new URL(location.href);url.searchParams.set('bank',bank.value);history.replaceState(null,'',url);};
+  bank.onchange=()=>{instrument.value='';exclusion.value='';render();renderCurve();const url=new URL(location.href);url.searchParams.set('bank',bank.value);history.replaceState(null,'',url);};
   field('threshold').onchange=renderAnticipated;
   for(const id of ['frame','regime-asset'])field(id).onchange=renderRegimes;
   field('dimension').onchange=()=>{
