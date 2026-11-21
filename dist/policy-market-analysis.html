@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#20342b">
+  <title>Policy signals and market moves · Central Bank Intelligence</title>
+  <meta name="description" content="Compare Fed and ECB release-window market sensitivity and the relationship between headline framing and rate repricing.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="cross-asset-events.css">
+  <link rel="stylesheet" href="policy-market-analysis.css"><script defer src="policy-market-analysis.js"></script>
+</head>
+<body class="ce-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="cbi-head"><div class="shell cbi-bar"><a class="cbi-name" href="./"><i aria-hidden="true"></i>Central Bank Intelligence</a><nav aria-label="Main navigation"><a href="market-reactions.html">Market reactions</a><a href="cross-asset-events.html">Event explorer</a><a href="stance-history.html">Policy stance</a><a href="historical-data.html">Policy history</a></nav></div></header>
+<main class="ce-wrap pm-study" id="main">
+  <header class="ce-intro"><p class="eyeline">Market reactions</p><h1>Policy signals and market moves</h1><p>How far do bonds, equities and exchange rates move when the expected policy rate rises? Do hawkish and dovish headlines accompany repricing in the same direction?</p></header>
+  <nav class="ce-examples" aria-label="Studies"><a href="#market">Cross-asset sensitivity</a><a href="#headlines">Headline direction and repricing</a><a href="#speeches">Speech tone and yields</a></nav>
+  <label class="pm-control">Central bank<select id="pm-bank"><option value="fed">Federal Reserve</option><option value="ecb">European Central Bank</option></select></label>
+  <section class="ce-detail" id="market" aria-labelledby="pm-market-title">
+    <h2 id="pm-market-title">Cross-asset sensitivity</h2>
+    <p>Each estimate describes the change in an asset associated with a 10 basis point increase in the selected rate instrument during the same announcement window. Positive values indicate that the asset measure rose.</p>
+    <label class="pm-control">Rate instrument<select id="pm-instrument" disabled></select></label>
+    <div id="pm-market-output" aria-live="polite"><p>Loading release-window estimates…</p></div>
+    <figure id="pm-scatter" hidden>
+      <h3>Individual decision windows</h3>
+      <label class="pm-control">Asset on the vertical axis<select id="pm-asset"></select></label>
+      <div id="pm-plot"></div>
+      <label class="pm-control" id="pm-date-control" hidden>Inspect a meeting<select id="pm-plot-date"></select></label>
+      <figcaption id="pm-point-info" aria-live="polite"></figcaption>
+    </figure>
+    <div id="pm-stage-output"></div>
+    <p id="pm-current" class="ce-small" hidden></p>
+    <div class="ce-links"><a href="data/policy-current-year.json" download>2026 year-to-date observations (JSON)</a><a href="data/policy-research-meetings.csv" download>Download meeting observations (CSV)</a><a href="data/policy-response-study.json" download>Download market estimates (JSON)</a></div>
+  </section>
+  <section class="ce-detail" id="headlines" aria-labelledby="pm-news-title">
+    <h2 id="pm-news-title">Headline direction and repricing</h2>
+    <p>Each outlet contributes one reading per meeting. The groups reflect the policy direction expressed in the coverage. A title can report a cut or hike while giving no direction for the next move.</p>
+    <div class="pm-controls">
+      <label>Coverage timing<select id="pm-mode"><option value="report">Reports</option><option value="preview">Previews</option></select></label>
+      <label>Publisher sample<select id="pm-exclusion" disabled></select></label>
+    </div>
+    <div id="pm-news-output" aria-live="polite"><p>Loading headline comparisons…</p></div>
+    <div class="ce-links"><a href="data/headline-policy-study.json" download>Download headline comparisons (JSON)</a><a id="pm-events" href="cross-asset-events.html?bank=fed&amp;lens=news#ce-news-coverage">Inspect the underlying coverage</a></div>
+  </section>
+  <section class="ce-detail" id="speeches" aria-labelledby="pm-speech-title">
+    <h2 id="pm-speech-title">Speech tone and yields</h2>
+    <div id="pm-speech-output" aria-live="polite"><p>Loading speech observations…</p></div>
+    <div class="ce-links"><a href="data/speech-response-study.json" download>Download speech comparisons (JSON)</a></div>
+  </section>
+  <noscript><p>Enable JavaScript to display the studies or download the results using the links above.</p></noscript>
+</main></body></html>

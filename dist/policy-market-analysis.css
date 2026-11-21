@@ -1,0 +1,24 @@
+.pm-study{max-width:1300px}
+.pm-study h2{margin:.1rem 0 .6rem}
+.pm-study .ce-detail{margin-top:2.25rem}
+.pm-control,.pm-controls label{width:min(100%,330px)}
+.pm-controls{display:flex;flex-wrap:wrap;gap:.6rem 1.1rem}
+.pm-study .ce-tables{margin:.8rem 0 1.1rem}
+.pm-study table{width:100%;min-width:545px}
+.pm-study th[scope=col]:first-child{min-width:8rem}
+.pm-study details{margin:.9rem 0}
+.pm-study .ce-links{margin:.75rem 0}
+.pm-study .ce-intro h1{max-width:20ch}
+
+.pm-study #pm-scatter{border-top:1px solid var(--ce-line);margin:1.2rem 0;padding-top:1.1rem}
+.pm-study #pm-scatter h3{margin-top:0}
+.pm-study .pm-scatterplot{display:block;width:100%;max-width:770px;margin:.4rem 0}
+.pm-study .pm-scatterplot text{font:14px Arial,sans-serif;fill:var(--ce-ink)}
+.pm-study .pm-grid{stroke:var(--ce-line);stroke-width:.7}
+.pm-study .pm-zero{stroke:#607168;stroke-width:1.5}
+.pm-study .pm-fit{stroke:#a3441a;stroke-width:2.5}
+.pm-study .pm-dot{fill:#255747;fill-opacity:.5}
+.pm-study .pm-plot-link:focus .pm-dot,.pm-study .pm-picked .pm-dot{fill:#a3441a;fill-opacity:1;stroke:#362f24;stroke-width:1.7}
+.pm-study #pm-point-info{margin:.5rem 0}
+
+@media(max-width:540px){.pm-study .pm-scatterplot text{font-size:19px}}

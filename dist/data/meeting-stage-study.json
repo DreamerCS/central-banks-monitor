@@ -1,0 +1,78 @@
+{
+  "start": "2000-01-01",
+  "through": "2025-12-31",
+  "banks": {
+    "fed": {
+      "decisionCount": 214,
+      "groups": [
+        {
+          "label": "Both windows observed",
+          "n": 87,
+          "releaseMedianAbsBp": 1.3,
+          "conferenceMedianAbsBp": 1.1,
+          "conferenceLarger": 30,
+          "releaseLarger": 54,
+          "ties": 3
+        },
+        {
+          "label": "Action within 5 bp of prior pricing",
+          "n": 84,
+          "releaseMedianAbsBp": 1.3,
+          "conferenceMedianAbsBp": 1.095,
+          "conferenceLarger": 29,
+          "releaseLarger": 52,
+          "ties": 3
+        },
+        {
+          "label": "Action more than 5 bp from prior pricing",
+          "n": 3,
+          "releaseMedianAbsBp": 5.5,
+          "conferenceMedianAbsBp": 3.84,
+          "conferenceLarger": 1,
+          "releaseLarger": 2,
+          "ties": 0
+        }
+      ],
+      "note": "US release windows span 30 minutes; press-conference windows span 70 minutes. The paired sample begins with the introduction of Fed press conferences in 2011."
+    },
+    "ecb": {
+      "decisionCount": 293,
+      "groups": [
+        {
+          "label": "Both windows observed",
+          "n": 263,
+          "releaseMedianAbsBp": 0.475,
+          "conferenceMedianAbsBp": 1.3942,
+          "conferenceLarger": 190,
+          "releaseLarger": 72,
+          "ties": 1
+        },
+        {
+          "label": "Action within 5 bp of prior pricing",
+          "n": 11,
+          "releaseMedianAbsBp": 2.15,
+          "conferenceMedianAbsBp": 3.475,
+          "conferenceLarger": 7,
+          "releaseLarger": 4,
+          "ties": 0
+        },
+        {
+          "label": "Action more than 5 bp from prior pricing",
+          "n": 1,
+          "releaseMedianAbsBp": 7.5163,
+          "conferenceMedianAbsBp": 0.6325,
+          "conferenceLarger": 0,
+          "releaseLarger": 1,
+          "ties": 0
+        }
+      ],
+      "note": "The ECB release and press-conference windows use median quotes around different local times. The press-conference interval is longer. Meeting-specific prior pricing covers selected dates."
+    }
+  },
+  "method": [
+    "Each comparison pairs two observations from the same decision date. Both windows must be aggregation-eligible and have a reported one-year overnight indexed swap rate change.",
+    "Medians use absolute changes in basis points. The count of larger press-conference moves compares the two windows within each meeting. Windows have different durations and can include other information.",
+    "The close-to-pricing subgroup requires a comparable expected action and a difference of at most 5 basis points in absolute value. This fixed threshold describes the target-rate decision; guidance can still reprice the path.",
+    "US prior pricing is reconstructed from the current-meeting fed funds futures surprise. ECB gap observations use comparable documented meeting-specific quotes. The history is much shorter for these euro-area quotes."
+  ]
+}

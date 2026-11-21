@@ -1,0 +1,931 @@
+{
+  "period": {
+    "start": "2000-01-01",
+    "end": "2025-12-31",
+    "commonStart": "2004-01-01"
+  },
+  "methods": [
+    "The study uses every eligible decision-release window in the event databases from 2000 through 2025, independently of press coverage or a text score. Each bank contributes at most one release per date. Unscheduled FOMC releases and ECB observations excluded by the source build are omitted.",
+    "Each row is a separate ordinary least squares regression of a signed asset change on a signed rate repricing, with an intercept. A coefficient measures the fitted change for a 10 bp higher predictor. Both increases and decreases enter the fit. A 10 bp comparison can be large relative to typical observations.",
+    "The 95% intervals use HC1 heteroskedasticity-robust standard errors and a normal critical value. They are pointwise and allow no correction for serial dependence across meetings or for multiple comparisons.",
+    "Sensitivity estimates omit absolute predictor changes above the 95th percentile for the bank and predictor, calculated using linear interpolation. Observations equal to the threshold are retained. Original zero changes enter both fits. Missing asset quotes are excluded separately for each regression.",
+    "The rate and asset move occupy the same release window. A shift in the expected policy path, new economic information or a contemporaneous announcement can move both. The results describe co-movement. The conference window is excluded, and some FOMC statements are released alongside economic projections.",
+    "For one-year OIS the report check estimates separate regressions for decisions with at least one verified report and for the complementary sample. Preview-only dates fall in the second group. Coverage is counted once per decision, including verified reports published later. It describes archive selection and uses information that may have become available after the meeting. The two fits do not test for a difference in coefficients.",
+    "The common-calendar fit for one-year OIS starts in 2004, the first full year with US observations, and runs through 2025. Each bank retains its own decision dates and release window.",
+    "US and German sovereign yields and 10-year minus 2-year slopes are in basis points. Stock index and EUR/USD coefficients show percentage points of return. Positive EUR/USD means euro appreciation in both panels. Quote windows, available history and policy regimes differ by bank."
+  ],
+  "banks": {
+    "fed": {
+      "label": "Federal Reserve",
+      "eligibleMeetings": 207,
+      "window": "Scheduled FOMC statement, ten minutes before to twenty minutes after release (US Eastern time).",
+      "sourceUrl": "https://www.frbsf.org/research-and-insights/data-and-indicators/us-monetary-policy-event-study-database/",
+      "sourceLabel": "San Francisco Fed · USMPD",
+      "predictors": {
+        "ois1y": {
+          "label": "US dollar 1-year OIS repricing",
+          "description": "The one-year overnight indexed swap reprices the average overnight rate over a year. The change can reflect the current decision, the future policy path and risk premia.",
+          "firstDate": "2003-12-09",
+          "lastDate": "2025-12-10",
+          "observedMeetings": 176,
+          "medianAbsPredictorBp": 1.315,
+          "maxAbsPredictorBp": 18.0,
+          "outcomes": {
+            "yield2y": {
+              "n": 176,
+              "slopePer10Bp": 10.517718,
+              "ci95": [
+                8.681435,
+                12.354001
+              ],
+              "rSquared": 0.642272,
+              "firstDate": "2003-12-09",
+              "lastDate": "2025-12-10",
+              "reportCoverage": {
+                "covered": {
+                  "n": 145,
+                  "slopePer10Bp": 10.465873,
+                  "ci95": [
+                    8.592668,
+                    12.339078
+                  ],
+                  "rSquared": 0.65386,
+                  "firstDate": "2003-12-09",
+                  "lastDate": "2025-12-10"
+                },
+                "withoutReport": {
+                  "n": 31,
+                  "slopePer10Bp": 12.145067,
+                  "ci95": [
+                    8.3549,
+                    15.935234
+                  ],
+                  "rSquared": 0.456258,
+                  "firstDate": "2006-01-31",
+                  "lastDate": "2025-03-19"
+                }
+              },
+              "commonCalendar": {
+                "n": 175,
+                "slopePer10Bp": 10.517686,
+                "ci95": [
+                  8.665251,
+                  12.370121
+                ],
+                "rSquared": 0.639988,
+                "firstDate": "2004-01-28",
+                "lastDate": "2025-12-10"
+              },
+              "sensitivity": {
+                "n": 167,
+                "slopePer10Bp": 12.178053,
+                "ci95": [
+                  10.535679,
+                  13.820427
+                ],
+                "rSquared": 0.602518,
+                "firstDate": "2003-12-09",
+                "lastDate": "2025-12-10",
+                "maxAbsPredictorBp": 8.17625
+              },
+              "label": "US 2Y Treasury",
+              "unit": "bp"
+            },
+            "yield10y": {
+              "n": 176,
+              "slopePer10Bp": 4.650739,
+              "ci95": [
+                2.630918,
+                6.67056
+              ],
+              "rSquared": 0.116873,
+              "firstDate": "2003-12-09",
+              "lastDate": "2025-12-10",
+              "reportCoverage": {
+                "covered": {
+                  "n": 145,
+                  "slopePer10Bp": 4.520154,
+                  "ci95": [
+                    2.458714,
+                    6.581594
+                  ],
+                  "rSquared": 0.113816,
+                  "firstDate": "2003-12-09",
+                  "lastDate": "2025-12-10"
+                },
+                "withoutReport": {
+                  "n": 31,
+                  "slopePer10Bp": 9.062494,
+                  "ci95": [
+                    3.554759,
+                    14.570229
+                  ],
+                  "rSquared": 0.22831,
+                  "firstDate": "2006-01-31",
+                  "lastDate": "2025-03-19"
+                }
+              },
+              "commonCalendar": {
+                "n": 175,
+                "slopePer10Bp": 4.522293,
+                "ci95": [
+                  2.523415,
+                  6.521172
+                ],
+                "rSquared": 0.111239,
+                "firstDate": "2004-01-28",
+                "lastDate": "2025-12-10"
+              },
+              "sensitivity": {
+                "n": 167,
+                "slopePer10Bp": 6.583784,
+                "ci95": [
+                  4.78522,
+                  8.382349
+                ],
+                "rSquared": 0.125117,
+                "firstDate": "2003-12-09",
+                "lastDate": "2025-12-10",
+                "maxAbsPredictorBp": 8.17625
+              },
+              "label": "US 10Y Treasury",
+              "unit": "bp"
+            },
+            "slope": {
+              "n": 176,
+              "slopePer10Bp": -5.866979,
+              "ci95": [
+                -6.916265,
+                -4.817693
+              ],
+              "rSquared": 0.240475,
+              "firstDate": "2003-12-09",
+              "lastDate": "2025-12-10",
+              "reportCoverage": {
+                "covered": {
+                  "n": 145,
+                  "slopePer10Bp": -5.945719,
+                  "ci95": [
+                    -7.014401,
+                    -4.877036
+                  ],
+                  "rSquared": 0.246325,
+                  "firstDate": "2003-12-09",
+                  "lastDate": "2025-12-10"
+                },
+                "withoutReport": {
+                  "n": 31,
+                  "slopePer10Bp": -3.082573,
+                  "ci95": [
+                    -6.223546,
+                    0.0584
+                  ],
+                  "rSquared": 0.086002,
+                  "firstDate": "2006-01-31",
+                  "lastDate": "2025-03-19"
+                }
+              },
+              "commonCalendar": {
+                "n": 175,
+                "slopePer10Bp": -5.995393,
+                "ci95": [
+                  -7.013549,
+                  -4.977236
+                ],
+                "rSquared": 0.249484,
+                "firstDate": "2004-01-28",
+                "lastDate": "2025-12-10"
+              },
+              "sensitivity": {
+                "n": 167,
+                "slopePer10Bp": -5.594268,
+                "ci95": [
+                  -7.037229,
+                  -4.151307
+                ],
+                "rSquared": 0.129242,
+                "firstDate": "2003-12-09",
+                "lastDate": "2025-12-10",
+                "maxAbsPredictorBp": 8.17625
+              },
+              "label": "US 2s10s",
+              "unit": "bp"
+            },
+            "equity": {
+              "n": 176,
+              "slopePer10Bp": -0.748248,
+              "ci95": [
+                -0.891968,
+                -0.604528
+              ],
+              "rSquared": 0.295379,
+              "firstDate": "2003-12-09",
+              "lastDate": "2025-12-10",
+              "reportCoverage": {
+                "covered": {
+                  "n": 145,
+                  "slopePer10Bp": -0.761982,
+                  "ci95": [
+                    -0.904069,
+                    -0.619895
+                  ],
+                  "rSquared": 0.337771,
+                  "firstDate": "2003-12-09",
+                  "lastDate": "2025-12-10"
+                },
+                "withoutReport": {
+                  "n": 31,
+                  "slopePer10Bp": -0.251427,
+                  "ci95": [
+                    -1.090216,
+                    0.587362
+                  ],
+                  "rSquared": 0.009495,
+                  "firstDate": "2006-01-31",
+                  "lastDate": "2025-03-19"
+                }
+              },
+              "commonCalendar": {
+                "n": 175,
+                "slopePer10Bp": -0.752584,
+                "ci95": [
+                  -0.897407,
+                  -0.607762
+                ],
+                "rSquared": 0.296014,
+                "firstDate": "2004-01-28",
+                "lastDate": "2025-12-10"
+              },
+              "sensitivity": {
+                "n": 167,
+                "slopePer10Bp": -0.780571,
+                "ci95": [
+                  -0.995796,
+                  -0.565345
+                ],
+                "rSquared": 0.193333,
+                "firstDate": "2003-12-09",
+                "lastDate": "2025-12-10",
+                "maxAbsPredictorBp": 8.17625
+              },
+              "label": "S&P 500",
+              "unit": "%"
+            },
+            "eurusd": {
+              "n": 176,
+              "slopePer10Bp": -0.568528,
+              "ci95": [
+                -0.712122,
+                -0.424934
+              ],
+              "rSquared": 0.261835,
+              "firstDate": "2003-12-09",
+              "lastDate": "2025-12-10",
+              "reportCoverage": {
+                "covered": {
+                  "n": 145,
+                  "slopePer10Bp": -0.558142,
+                  "ci95": [
+                    -0.702354,
+                    -0.41393
+                  ],
+                  "rSquared": 0.28267,
+                  "firstDate": "2003-12-09",
+                  "lastDate": "2025-12-10"
+                },
+                "withoutReport": {
+                  "n": 31,
+                  "slopePer10Bp": -0.902287,
+                  "ci95": [
+                    -1.506238,
+                    -0.298336
+                  ],
+                  "rSquared": 0.146864,
+                  "firstDate": "2006-01-31",
+                  "lastDate": "2025-03-19"
+                }
+              },
+              "commonCalendar": {
+                "n": 175,
+                "slopePer10Bp": -0.576376,
+                "ci95": [
+                  -0.722134,
+                  -0.430618
+                ],
+                "rSquared": 0.266559,
+                "firstDate": "2004-01-28",
+                "lastDate": "2025-12-10"
+              },
+              "sensitivity": {
+                "n": 167,
+                "slopePer10Bp": -0.709425,
+                "ci95": [
+                  -0.872532,
+                  -0.546318
+                ],
+                "rSquared": 0.229988,
+                "firstDate": "2003-12-09",
+                "lastDate": "2025-12-10",
+                "maxAbsPredictorBp": 8.17625
+              },
+              "label": "EUR/USD",
+              "unit": "%"
+            }
+          }
+        },
+        "currentMeeting": {
+          "label": "Current-meeting Fed target surprise (MP1)",
+          "description": "The current-month federal funds futures surprise, scaled by the provider to express the unexpected component of the current rate decision in basis points.",
+          "firstDate": "2000-02-02",
+          "lastDate": "2025-12-10",
+          "observedMeetings": 207,
+          "medianAbsPredictorBp": 0.5,
+          "maxAbsPredictorBp": 21.25,
+          "outcomes": {
+            "yield2y": {
+              "n": 207,
+              "slopePer10Bp": 4.515531,
+              "ci95": [
+                2.944211,
+                6.086851
+              ],
+              "rSquared": 0.119165,
+              "firstDate": "2000-02-02",
+              "lastDate": "2025-12-10",
+              "sensitivity": {
+                "n": 196,
+                "slopePer10Bp": 0.533001,
+                "ci95": [
+                  -3.607599,
+                  4.673601
+                ],
+                "rSquared": 0.00042,
+                "firstDate": "2000-02-02",
+                "lastDate": "2025-12-10",
+                "maxAbsPredictorBp": 8.58125
+              },
+              "label": "US 2Y Treasury",
+              "unit": "bp"
+            },
+            "yield10y": {
+              "n": 207,
+              "slopePer10Bp": 1.316562,
+              "ci95": [
+                0.122043,
+                2.511081
+              ],
+              "rSquared": 0.011106,
+              "firstDate": "2000-02-02",
+              "lastDate": "2025-12-10",
+              "sensitivity": {
+                "n": 196,
+                "slopePer10Bp": -0.157601,
+                "ci95": [
+                  -2.684319,
+                  2.369117
+                ],
+                "rSquared": 3.5e-05,
+                "firstDate": "2000-02-02",
+                "lastDate": "2025-12-10",
+                "maxAbsPredictorBp": 8.58125
+              },
+              "label": "US 10Y Treasury",
+              "unit": "bp"
+            },
+            "slope": {
+              "n": 207,
+              "slopePer10Bp": -3.198969,
+              "ci95": [
+                -4.872107,
+                -1.525832
+              ],
+              "rSquared": 0.082445,
+              "firstDate": "2000-02-02",
+              "lastDate": "2025-12-10",
+              "sensitivity": {
+                "n": 196,
+                "slopePer10Bp": -0.690602,
+                "ci95": [
+                  -3.12346,
+                  1.742255
+                ],
+                "rSquared": 0.000936,
+                "firstDate": "2000-02-02",
+                "lastDate": "2025-12-10",
+                "maxAbsPredictorBp": 8.58125
+              },
+              "label": "US 2s10s",
+              "unit": "bp"
+            },
+            "equity": {
+              "n": 207,
+              "slopePer10Bp": -0.408963,
+              "ci95": [
+                -0.652274,
+                -0.165652
+              ],
+              "rSquared": 0.094583,
+              "firstDate": "2000-02-02",
+              "lastDate": "2025-12-10",
+              "sensitivity": {
+                "n": 196,
+                "slopePer10Bp": -0.405927,
+                "ci95": [
+                  -0.850034,
+                  0.03818
+                ],
+                "rSquared": 0.022565,
+                "firstDate": "2000-02-02",
+                "lastDate": "2025-12-10",
+                "maxAbsPredictorBp": 8.58125
+              },
+              "label": "S&P 500",
+              "unit": "%"
+            },
+            "eurusd": {
+              "n": 207,
+              "slopePer10Bp": -0.204376,
+              "ci95": [
+                -0.290568,
+                -0.118184
+              ],
+              "rSquared": 0.041459,
+              "firstDate": "2000-02-02",
+              "lastDate": "2025-12-10",
+              "sensitivity": {
+                "n": 196,
+                "slopePer10Bp": -0.163851,
+                "ci95": [
+                  -0.40493,
+                  0.077227
+                ],
+                "rSquared": 0.00589,
+                "firstDate": "2000-02-02",
+                "lastDate": "2025-12-10",
+                "maxAbsPredictorBp": 8.58125
+              },
+              "label": "EUR/USD",
+              "unit": "%"
+            }
+          }
+        }
+      }
+    },
+    "ecb": {
+      "label": "European Central Bank",
+      "eligibleMeetings": 291,
+      "window": "ECB decision release, median Frankfurt quotes at 13:25–13:35 and 14:00–14:10 before July 2022, then at 13:55–14:05 and 14:30–14:40.",
+      "sourceUrl": "https://www.ecb.europa.eu/pub/pdf/other/Dataset_EA-MPD.xlsx",
+      "sourceLabel": "ECB · Euro Area Extended Monetary Policy Event-Study Database",
+      "predictors": {
+        "ois1y": {
+          "label": "Euro 1-year OIS repricing",
+          "description": "The one-year overnight indexed swap reprices the average overnight rate over a year. The change can reflect the current decision, the future policy path and risk premia.",
+          "firstDate": "2000-01-05",
+          "lastDate": "2025-12-18",
+          "observedMeetings": 291,
+          "medianAbsPredictorBp": 0.5,
+          "maxAbsPredictorBp": 15.0,
+          "outcomes": {
+            "yield2y": {
+              "n": 290,
+              "slopePer10Bp": 8.502846,
+              "ci95": [
+                7.319896,
+                9.685797
+              ],
+              "rSquared": 0.724343,
+              "firstDate": "2000-01-05",
+              "lastDate": "2025-12-18",
+              "reportCoverage": {
+                "covered": {
+                  "n": 154,
+                  "slopePer10Bp": 8.176557,
+                  "ci95": [
+                    6.707097,
+                    9.646017
+                  ],
+                  "rSquared": 0.721135,
+                  "firstDate": "2000-01-05",
+                  "lastDate": "2025-12-18"
+                },
+                "withoutReport": {
+                  "n": 136,
+                  "slopePer10Bp": 9.031586,
+                  "ci95": [
+                    7.038231,
+                    11.024942
+                  ],
+                  "rSquared": 0.735637,
+                  "firstDate": "2000-01-20",
+                  "lastDate": "2025-10-30"
+                }
+              },
+              "commonCalendar": {
+                "n": 219,
+                "slopePer10Bp": 8.662021,
+                "ci95": [
+                  7.149477,
+                  10.174565
+                ],
+                "rSquared": 0.700576,
+                "firstDate": "2004-01-08",
+                "lastDate": "2025-12-18"
+              },
+              "sensitivity": {
+                "n": 275,
+                "slopePer10Bp": 9.86752,
+                "ci95": [
+                  7.486168,
+                  12.248873
+                ],
+                "rSquared": 0.560083,
+                "firstDate": "2000-01-05",
+                "lastDate": "2025-12-18",
+                "maxAbsPredictorBp": 5.1805
+              },
+              "label": "German 2-year yield",
+              "unit": "bp"
+            },
+            "yield10y": {
+              "n": 291,
+              "slopePer10Bp": 2.967427,
+              "ci95": [
+                1.372215,
+                4.562638
+              ],
+              "rSquared": 0.175264,
+              "firstDate": "2000-01-05",
+              "lastDate": "2025-12-18",
+              "reportCoverage": {
+                "covered": {
+                  "n": 155,
+                  "slopePer10Bp": 3.251368,
+                  "ci95": [
+                    1.597435,
+                    4.905302
+                  ],
+                  "rSquared": 0.249366,
+                  "firstDate": "2000-01-05",
+                  "lastDate": "2025-12-18"
+                },
+                "withoutReport": {
+                  "n": 136,
+                  "slopePer10Bp": 2.455625,
+                  "ci95": [
+                    -0.390668,
+                    5.301919
+                  ],
+                  "rSquared": 0.096745,
+                  "firstDate": "2000-01-20",
+                  "lastDate": "2025-10-30"
+                }
+              },
+              "commonCalendar": {
+                "n": 220,
+                "slopePer10Bp": 4.148347,
+                "ci95": [
+                  2.459551,
+                  5.837143
+                ],
+                "rSquared": 0.269454,
+                "firstDate": "2004-01-08",
+                "lastDate": "2025-12-18"
+              },
+              "sensitivity": {
+                "n": 276,
+                "slopePer10Bp": 5.379626,
+                "ci95": [
+                  3.005065,
+                  7.754187
+                ],
+                "rSquared": 0.209568,
+                "firstDate": "2000-01-05",
+                "lastDate": "2025-12-18",
+                "maxAbsPredictorBp": 5.1805
+              },
+              "label": "German 10-year yield",
+              "unit": "bp"
+            },
+            "slope": {
+              "n": 290,
+              "slopePer10Bp": -5.535243,
+              "ci95": [
+                -7.112659,
+                -3.957827
+              ],
+              "rSquared": 0.550592,
+              "firstDate": "2000-01-05",
+              "lastDate": "2025-12-18",
+              "reportCoverage": {
+                "covered": {
+                  "n": 154,
+                  "slopePer10Bp": -4.924142,
+                  "ci95": [
+                    -6.405492,
+                    -3.442792
+                  ],
+                  "rSquared": 0.564676,
+                  "firstDate": "2000-01-05",
+                  "lastDate": "2025-12-18"
+                },
+                "withoutReport": {
+                  "n": 136,
+                  "slopePer10Bp": -6.575961,
+                  "ci95": [
+                    -9.329467,
+                    -3.822455
+                  ],
+                  "rSquared": 0.560402,
+                  "firstDate": "2000-01-20",
+                  "lastDate": "2025-10-30"
+                }
+              },
+              "commonCalendar": {
+                "n": 219,
+                "slopePer10Bp": -4.51309,
+                "ci95": [
+                  -5.727432,
+                  -3.298748
+                ],
+                "rSquared": 0.491402,
+                "firstDate": "2004-01-08",
+                "lastDate": "2025-12-18"
+              },
+              "sensitivity": {
+                "n": 275,
+                "slopePer10Bp": -4.486331,
+                "ci95": [
+                  -6.094548,
+                  -2.878113
+                ],
+                "rSquared": 0.257673,
+                "firstDate": "2000-01-05",
+                "lastDate": "2025-12-18",
+                "maxAbsPredictorBp": 5.1805
+              },
+              "label": "German 2s10s",
+              "unit": "bp"
+            },
+            "equity": {
+              "n": 291,
+              "slopePer10Bp": -0.53544,
+              "ci95": [
+                -0.864159,
+                -0.206721
+              ],
+              "rSquared": 0.143853,
+              "firstDate": "2000-01-05",
+              "lastDate": "2025-12-18",
+              "reportCoverage": {
+                "covered": {
+                  "n": 155,
+                  "slopePer10Bp": -0.462435,
+                  "ci95": [
+                    -0.84562,
+                    -0.079251
+                  ],
+                  "rSquared": 0.139595,
+                  "firstDate": "2000-01-05",
+                  "lastDate": "2025-12-18"
+                },
+                "withoutReport": {
+                  "n": 136,
+                  "slopePer10Bp": -0.661703,
+                  "ci95": [
+                    -1.223306,
+                    -0.100099
+                  ],
+                  "rSquared": 0.158132,
+                  "firstDate": "2000-01-20",
+                  "lastDate": "2025-10-30"
+                }
+              },
+              "commonCalendar": {
+                "n": 220,
+                "slopePer10Bp": -0.594443,
+                "ci95": [
+                  -1.04027,
+                  -0.148616
+                ],
+                "rSquared": 0.16015,
+                "firstDate": "2004-01-08",
+                "lastDate": "2025-12-18"
+              },
+              "sensitivity": {
+                "n": 276,
+                "slopePer10Bp": -0.297491,
+                "ci95": [
+                  -0.67467,
+                  0.079688
+                ],
+                "rSquared": 0.019686,
+                "firstDate": "2000-01-05",
+                "lastDate": "2025-12-18",
+                "maxAbsPredictorBp": 5.1805
+              },
+              "label": "EURO STOXX 50",
+              "unit": "%"
+            },
+            "eurusd": {
+              "n": 291,
+              "slopePer10Bp": 0.182843,
+              "ci95": [
+                -0.047208,
+                0.412893
+              ],
+              "rSquared": 0.03818,
+              "firstDate": "2000-01-05",
+              "lastDate": "2025-12-18",
+              "reportCoverage": {
+                "covered": {
+                  "n": 155,
+                  "slopePer10Bp": 0.303632,
+                  "ci95": [
+                    0.114928,
+                    0.492337
+                  ],
+                  "rSquared": 0.11233,
+                  "firstDate": "2000-01-05",
+                  "lastDate": "2025-12-18"
+                },
+                "withoutReport": {
+                  "n": 136,
+                  "slopePer10Bp": -0.017715,
+                  "ci95": [
+                    -0.420556,
+                    0.385126
+                  ],
+                  "rSquared": 0.000328,
+                  "firstDate": "2000-01-20",
+                  "lastDate": "2025-10-30"
+                }
+              },
+              "commonCalendar": {
+                "n": 220,
+                "slopePer10Bp": 0.268956,
+                "ci95": [
+                  -0.01284,
+                  0.550752
+                ],
+                "rSquared": 0.075209,
+                "firstDate": "2004-01-08",
+                "lastDate": "2025-12-18"
+              },
+              "sensitivity": {
+                "n": 276,
+                "slopePer10Bp": 0.150428,
+                "ci95": [
+                  -0.148569,
+                  0.449424
+                ],
+                "rSquared": 0.010912,
+                "firstDate": "2000-01-05",
+                "lastDate": "2025-12-18",
+                "maxAbsPredictorBp": 5.1805
+              },
+              "label": "EUR/USD",
+              "unit": "%"
+            }
+          }
+        },
+        "ois1m": {
+          "label": "Euro 1-month OIS repricing",
+          "description": "A one-month overnight indexed swap covers settlement before and after the decision. Its sensitivity to a change in the policy rate depends on the effective date and any other meeting within the contract horizon.",
+          "firstDate": "2000-01-05",
+          "lastDate": "2025-12-18",
+          "observedMeetings": 277,
+          "medianAbsPredictorBp": 0.3,
+          "maxAbsPredictorBp": 19.0,
+          "outcomes": {
+            "yield2y": {
+              "n": 276,
+              "slopePer10Bp": 3.828288,
+              "ci95": [
+                1.991253,
+                5.665323
+              ],
+              "rSquared": 0.203466,
+              "firstDate": "2000-01-05",
+              "lastDate": "2025-12-18",
+              "sensitivity": {
+                "n": 262,
+                "slopePer10Bp": 1.521975,
+                "ci95": [
+                  -1.528064,
+                  4.572013
+                ],
+                "rSquared": 0.011292,
+                "firstDate": "2000-01-05",
+                "lastDate": "2025-12-18",
+                "maxAbsPredictorBp": 5.9295
+              },
+              "label": "German 2-year yield",
+              "unit": "bp"
+            },
+            "yield10y": {
+              "n": 277,
+              "slopePer10Bp": -0.374378,
+              "ci95": [
+                -1.529514,
+                0.780758
+              ],
+              "rSquared": 0.003832,
+              "firstDate": "2000-01-05",
+              "lastDate": "2025-12-18",
+              "sensitivity": {
+                "n": 263,
+                "slopePer10Bp": -1.036697,
+                "ci95": [
+                  -3.17621,
+                  1.102816
+                ],
+                "rSquared": 0.007607,
+                "firstDate": "2000-01-05",
+                "lastDate": "2025-12-18",
+                "maxAbsPredictorBp": 5.9295
+              },
+              "label": "German 10-year yield",
+              "unit": "bp"
+            },
+            "slope": {
+              "n": 276,
+              "slopePer10Bp": -4.20295,
+              "ci95": [
+                -5.645349,
+                -2.760551
+              ],
+              "rSquared": 0.449262,
+              "firstDate": "2000-01-05",
+              "lastDate": "2025-12-18",
+              "sensitivity": {
+                "n": 262,
+                "slopePer10Bp": -2.559458,
+                "ci95": [
+                  -4.162969,
+                  -0.955947
+                ],
+                "rSquared": 0.091212,
+                "firstDate": "2000-01-05",
+                "lastDate": "2025-12-18",
+                "maxAbsPredictorBp": 5.9295
+              },
+              "label": "German 2s10s",
+              "unit": "bp"
+            },
+            "equity": {
+              "n": 277,
+              "slopePer10Bp": -0.342704,
+              "ci95": [
+                -0.598623,
+                -0.086786
+              ],
+              "rSquared": 0.07943,
+              "firstDate": "2000-01-05",
+              "lastDate": "2025-12-18",
+              "sensitivity": {
+                "n": 263,
+                "slopePer10Bp": -0.276075,
+                "ci95": [
+                  -0.661703,
+                  0.109553
+                ],
+                "rSquared": 0.017179,
+                "firstDate": "2000-01-05",
+                "lastDate": "2025-12-18",
+                "maxAbsPredictorBp": 5.9295
+              },
+              "label": "EURO STOXX 50",
+              "unit": "%"
+            },
+            "eurusd": {
+              "n": 277,
+              "slopePer10Bp": 0.053743,
+              "ci95": [
+                -0.12085,
+                0.228335
+              ],
+              "rSquared": 0.004548,
+              "firstDate": "2000-01-05",
+              "lastDate": "2025-12-18",
+              "sensitivity": {
+                "n": 263,
+                "slopePer10Bp": 0.125549,
+                "ci95": [
+                  -0.190019,
+                  0.441118
+                ],
+                "rSquared": 0.007006,
+                "firstDate": "2000-01-05",
+                "lastDate": "2025-12-18",
+                "maxAbsPredictorBp": 5.9295
+              },
+              "label": "EUR/USD",
+              "unit": "%"
+            }
+          }
+        }
+      }
+    }
+  }
+}

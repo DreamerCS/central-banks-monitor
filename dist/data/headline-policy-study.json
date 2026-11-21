@@ -1,0 +1,665 @@
+{
+  "asOf": "2026-11-21",
+  "start": "2000-01-01",
+  "end": "2025-12-31",
+  "banks": [
+    {
+      "bank": "fed",
+      "instrument": "Next-meeting federal funds futures (MP2)",
+      "window": "FOMC announcement, −10 to +20 minutes",
+      "variants": [
+        {
+          "mode": "report",
+          "exclusion": null,
+          "nEvents": 178,
+          "nPriced": 172,
+          "nMultiOutlet": 27,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nEvents": 26,
+              "nPriced": 26,
+              "medianBp": 0.4639,
+              "materialN": 11,
+              "alignedN": 7
+            },
+            {
+              "direction": "easier",
+              "nEvents": 8,
+              "nPriced": 8,
+              "medianBp": -0.5,
+              "materialN": 5,
+              "alignedN": 3
+            },
+            {
+              "direction": "noDirectionalSignal",
+              "nEvents": 144,
+              "nPriced": 138,
+              "medianBp": 0.0,
+              "materialN": 57,
+              "alignedN": null
+            },
+            {
+              "direction": "split",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            }
+          ]
+        },
+        {
+          "mode": "report",
+          "exclusion": "The Wall Street Journal",
+          "nEvents": 35,
+          "nPriced": 33,
+          "nMultiOutlet": 4,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nEvents": 3,
+              "nPriced": 3,
+              "medianBp": 0.5185,
+              "materialN": 2,
+              "alignedN": 1
+            },
+            {
+              "direction": "easier",
+              "nEvents": 3,
+              "nPriced": 3,
+              "medianBp": -3.5,
+              "materialN": 2,
+              "alignedN": 2
+            },
+            {
+              "direction": "noDirectionalSignal",
+              "nEvents": 29,
+              "nPriced": 27,
+              "medianBp": 0.75,
+              "materialN": 16,
+              "alignedN": null
+            },
+            {
+              "direction": "split",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            }
+          ]
+        },
+        {
+          "mode": "preview",
+          "exclusion": null,
+          "nEvents": 29,
+          "nPriced": 29,
+          "nMultiOutlet": 0,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": 0
+            },
+            {
+              "direction": "easier",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": 0
+            },
+            {
+              "direction": "noDirectionalSignal",
+              "nEvents": 29,
+              "nPriced": 29,
+              "medianBp": 0,
+              "materialN": 14,
+              "alignedN": null
+            },
+            {
+              "direction": "split",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            }
+          ]
+        },
+        {
+          "mode": "preview",
+          "exclusion": "The Wall Street Journal",
+          "nEvents": 4,
+          "nPriced": 4,
+          "nMultiOutlet": 0,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": 0
+            },
+            {
+              "direction": "easier",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": 0
+            },
+            {
+              "direction": "noDirectionalSignal",
+              "nEvents": 4,
+              "nPriced": 4,
+              "medianBp": 0.4886,
+              "materialN": 2,
+              "alignedN": null
+            },
+            {
+              "direction": "split",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            }
+          ]
+        }
+      ],
+      "overlap": [
+        {
+          "publisherA": "Bloomberg",
+          "publisherB": "Financial Times",
+          "nShared": 2,
+          "nBothDirectional": 1,
+          "nSameDirection": 1
+        },
+        {
+          "publisherA": "Bloomberg",
+          "publisherB": "Reuters",
+          "nShared": 2,
+          "nBothDirectional": 0,
+          "nSameDirection": 0
+        },
+        {
+          "publisherA": "Bloomberg",
+          "publisherB": "The Wall Street Journal",
+          "nShared": 3,
+          "nBothDirectional": 0,
+          "nSameDirection": 0
+        },
+        {
+          "publisherA": "Financial Times",
+          "publisherB": "Reuters",
+          "nShared": 4,
+          "nBothDirectional": 0,
+          "nSameDirection": 0
+        },
+        {
+          "publisherA": "Financial Times",
+          "publisherB": "The Wall Street Journal",
+          "nShared": 14,
+          "nBothDirectional": 0,
+          "nSameDirection": 0
+        },
+        {
+          "publisherA": "Reuters",
+          "publisherB": "The Wall Street Journal",
+          "nShared": 16,
+          "nBothDirectional": 2,
+          "nSameDirection": 2
+        }
+      ],
+      "basisChecks": [
+        {
+          "basis": "level",
+          "mode": "report",
+          "exclusion": null,
+          "nEvents": 27,
+          "nPriced": 27,
+          "nMultiOutlet": 7,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nEvents": 21,
+              "nPriced": 21,
+              "medianBp": 0.3736,
+              "materialN": 9,
+              "alignedN": 5
+            },
+            {
+              "direction": "easier",
+              "nEvents": 6,
+              "nPriced": 6,
+              "medianBp": -0.5,
+              "materialN": 3,
+              "alignedN": 2
+            },
+            {
+              "direction": "noDirectionalSignal",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            },
+            {
+              "direction": "split",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            }
+          ]
+        },
+        {
+          "basis": "revision",
+          "mode": "report",
+          "exclusion": null,
+          "nEvents": 8,
+          "nPriced": 8,
+          "nMultiOutlet": 1,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nEvents": 5,
+              "nPriced": 5,
+              "medianBp": 1.0,
+              "materialN": 2,
+              "alignedN": 2
+            },
+            {
+              "direction": "easier",
+              "nEvents": 3,
+              "nPriced": 3,
+              "medianBp": -1.0,
+              "materialN": 2,
+              "alignedN": 1
+            },
+            {
+              "direction": "noDirectionalSignal",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            },
+            {
+              "direction": "split",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            }
+          ]
+        }
+      ],
+      "concentration": [
+        {
+          "publisher": "Bloomberg",
+          "nReportEvents": 4,
+          "nSoleOutlet": 1
+        },
+        {
+          "publisher": "Financial Times",
+          "nReportEvents": 19,
+          "nSoleOutlet": 5
+        },
+        {
+          "publisher": "Reuters",
+          "nReportEvents": 18,
+          "nSoleOutlet": 2
+        },
+        {
+          "publisher": "The Wall Street Journal",
+          "nReportEvents": 170,
+          "nSoleOutlet": 143
+        }
+      ],
+      "nDecisionDates": 214,
+      "nEligiblePrices": 207
+    },
+    {
+      "bank": "ecb",
+      "instrument": "1-year euro OIS",
+      "window": "Frankfurt decision-release window, before the press conference",
+      "variants": [
+        {
+          "mode": "report",
+          "exclusion": null,
+          "nEvents": 157,
+          "nPriced": 155,
+          "nMultiOutlet": 23,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nEvents": 9,
+              "nPriced": 9,
+              "medianBp": 0,
+              "materialN": 3,
+              "alignedN": 2
+            },
+            {
+              "direction": "easier",
+              "nEvents": 5,
+              "nPriced": 5,
+              "medianBp": -0.75,
+              "materialN": 3,
+              "alignedN": 2
+            },
+            {
+              "direction": "noDirectionalSignal",
+              "nEvents": 143,
+              "nPriced": 141,
+              "medianBp": -0.0071,
+              "materialN": 49,
+              "alignedN": null
+            },
+            {
+              "direction": "split",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            }
+          ]
+        },
+        {
+          "mode": "report",
+          "exclusion": "The Wall Street Journal",
+          "nEvents": 30,
+          "nPriced": 29,
+          "nMultiOutlet": 2,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nEvents": 2,
+              "nPriced": 2,
+              "medianBp": -1.5794,
+              "materialN": 2,
+              "alignedN": 1
+            },
+            {
+              "direction": "easier",
+              "nEvents": 2,
+              "nPriced": 2,
+              "medianBp": -7.9189,
+              "materialN": 2,
+              "alignedN": 2
+            },
+            {
+              "direction": "noDirectionalSignal",
+              "nEvents": 26,
+              "nPriced": 25,
+              "medianBp": 0,
+              "materialN": 12,
+              "alignedN": null
+            },
+            {
+              "direction": "split",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            }
+          ]
+        },
+        {
+          "mode": "preview",
+          "exclusion": null,
+          "nEvents": 4,
+          "nPriced": 4,
+          "nMultiOutlet": 0,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nEvents": 1,
+              "nPriced": 1,
+              "medianBp": 0.41,
+              "materialN": 0,
+              "alignedN": 0
+            },
+            {
+              "direction": "easier",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": 0
+            },
+            {
+              "direction": "noDirectionalSignal",
+              "nEvents": 3,
+              "nPriced": 3,
+              "medianBp": -0.1857,
+              "materialN": 1,
+              "alignedN": null
+            },
+            {
+              "direction": "split",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            }
+          ]
+        },
+        {
+          "mode": "preview",
+          "exclusion": "The Wall Street Journal",
+          "nEvents": 4,
+          "nPriced": 4,
+          "nMultiOutlet": 0,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nEvents": 1,
+              "nPriced": 1,
+              "medianBp": 0.41,
+              "materialN": 0,
+              "alignedN": 0
+            },
+            {
+              "direction": "easier",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": 0
+            },
+            {
+              "direction": "noDirectionalSignal",
+              "nEvents": 3,
+              "nPriced": 3,
+              "medianBp": -0.1857,
+              "materialN": 1,
+              "alignedN": null
+            },
+            {
+              "direction": "split",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            }
+          ]
+        }
+      ],
+      "overlap": [
+        {
+          "publisherA": "Bloomberg",
+          "publisherB": "Financial Times",
+          "nShared": 2,
+          "nBothDirectional": 0,
+          "nSameDirection": 0
+        },
+        {
+          "publisherA": "Bloomberg",
+          "publisherB": "Reuters",
+          "nShared": 2,
+          "nBothDirectional": 0,
+          "nSameDirection": 0
+        },
+        {
+          "publisherA": "Bloomberg",
+          "publisherB": "The Wall Street Journal",
+          "nShared": 3,
+          "nBothDirectional": 0,
+          "nSameDirection": 0
+        },
+        {
+          "publisherA": "Financial Times",
+          "publisherB": "Reuters",
+          "nShared": 2,
+          "nBothDirectional": 0,
+          "nSameDirection": 0
+        },
+        {
+          "publisherA": "Financial Times",
+          "publisherB": "The Wall Street Journal",
+          "nShared": 9,
+          "nBothDirectional": 0,
+          "nSameDirection": 0
+        },
+        {
+          "publisherA": "Reuters",
+          "publisherB": "The Wall Street Journal",
+          "nShared": 15,
+          "nBothDirectional": 1,
+          "nSameDirection": 1
+        }
+      ],
+      "basisChecks": [
+        {
+          "basis": "level",
+          "mode": "report",
+          "exclusion": null,
+          "nEvents": 13,
+          "nPriced": 13,
+          "nMultiOutlet": 2,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nEvents": 9,
+              "nPriced": 9,
+              "medianBp": 0,
+              "materialN": 3,
+              "alignedN": 2
+            },
+            {
+              "direction": "easier",
+              "nEvents": 4,
+              "nPriced": 4,
+              "medianBp": -0.2583,
+              "materialN": 2,
+              "alignedN": 1
+            },
+            {
+              "direction": "noDirectionalSignal",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            },
+            {
+              "direction": "split",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            }
+          ]
+        },
+        {
+          "basis": "revision",
+          "mode": "report",
+          "exclusion": null,
+          "nEvents": 1,
+          "nPriced": 1,
+          "nMultiOutlet": 1,
+          "groups": [
+            {
+              "direction": "tighter",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": 0
+            },
+            {
+              "direction": "easier",
+              "nEvents": 1,
+              "nPriced": 1,
+              "medianBp": -11.714,
+              "materialN": 1,
+              "alignedN": 1
+            },
+            {
+              "direction": "noDirectionalSignal",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            },
+            {
+              "direction": "split",
+              "nEvents": 0,
+              "nPriced": 0,
+              "medianBp": null,
+              "materialN": 0,
+              "alignedN": null
+            }
+          ]
+        }
+      ],
+      "concentration": [
+        {
+          "publisher": "Bloomberg",
+          "nReportEvents": 3,
+          "nSoleOutlet": 0
+        },
+        {
+          "publisher": "Financial Times",
+          "nReportEvents": 12,
+          "nSoleOutlet": 3
+        },
+        {
+          "publisher": "Reuters",
+          "nReportEvents": 19,
+          "nSoleOutlet": 4
+        },
+        {
+          "publisher": "The Wall Street Journal",
+          "nReportEvents": 150,
+          "nSoleOutlet": 127
+        }
+      ],
+      "nDecisionDates": 293,
+      "nEligiblePrices": 291
+    }
+  ],
+  "method": [
+    "The study covers completed calendar years 2000–2025. Each decision date contributes once per bank, sample and coverage mode. The study uses reviewed titles linked to a rate decision. Counts cover observed titles, and the sample depends on archive recovery.",
+    "Each outlet gets one vote per date. Repeated titles with the same direction have one vote in total. Both directions in one outlet count as a split. A majority of directional outlet votes determines the event label. Equal and opposing votes, or only internally split votes, give a split. Reports and previews are counted separately.",
+    "Direction requires an explicit tighter or easier forward policy path in the headline. A description of a completed hike or cut alone is insufficient. The no-directional-signal group also includes conditional, steady and mixed path codes. It does not measure neutral policy. The main comparison includes both future levels and revisions. The basis checks retain only dates with an explicit directional code of the chosen basis.",
+    "Price is the signed change, in basis points, in the release window. Positive means a higher expected rate. Non-standard windows and unavailable prices are excluded from price statistics. The two instruments have different horizons. For directional groups, agreement uses only moves above one basis point in absolute size.",
+    "These are descriptive event-level comparisons. Publishers can revise headlines, and reports can include later remarks from the press conference. A preview classification identifies its subject and does not establish that its reviewed wording was available before release.",
+    "Removing The Wall Street Journal repeats the vote on the remaining reports. Dates with no remaining outlet drop out. The market-move difference can reflect this change in which meetings are covered. Pairwise overlap counts compare two outlets on identical dates."
+  ]
+}
