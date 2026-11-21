@@ -32,6 +32,7 @@
     <details id="pm-curve-composition">
       <summary>Which yields moved when the curve flattened or steepened?</summary>
       <p>A flatter curve can accompany a sell-off at both maturities, a rally at both, or a rise in the two-year yield alongside a fall in the ten-year. Each has a different consequence for an outright bond position.</p>
+      <label class="pm-control">Minimum change in the 10Y less 2Y spread<select id="pm-curve-band"><option value="1">More than 1 bp</option><option value="2">More than 2 bp</option><option value="5">More than 5 bp</option></select></label>
       <div id="pm-curve-output" aria-live="polite"></div>
       <p class="ce-small">The Fed sample uses US Treasuries around scheduled meetings. The ECB sample uses German government yields in standard meeting windows. Both yields are observed in the same intraday window. The slope change is the ten-year change less the two-year change. Policy expectations, term premia and other news can all affect these yields. Market pricing for a particular policy meeting requires a separate instrument.</p>
     </details>

@@ -315,9 +315,17 @@
   const curvePanel=field('curve-composition');
   // Site quotes are in basis points. Round the difference at the precision of the source series.
   const slopeChange=r=>Number((r.values.yield10y-r.values.yield2y).toFixed(7));
-  function curveForecast(rows){
+  const curveBand=field('curve-band');
+  if(['1','2','5'].includes(query.get('curveBand')))curveBand.value=query.get('curveBand');
+  curveBand.onchange=()=>{
+    const url=new URL(location.href);
+    url.searchParams.set('curveBand',curveBand.value);
+    history.replaceState(null,'',url);
+    renderCurve();
+  };
+  function curveForecast(rows,band){
     const period=(start,end)=>rows.filter(r=>r.date.slice(0,4)>=start && r.date.slice(0,4)<=end);
-    const flattened=r=>Number(slopeChange(r)<-1);
+    const flattened=r=>Number(slopeChange(r)<-band);
     const count=sample=>sample.reduce((sum,r)=>sum+flattened(r),0);
     const test=period('2018','2025'), train=[period('2000','2008'),period('2009','2017')];
     if(!test.length || train.some(sample=>!sample.length))return small('A training or test period has no matched decision windows.');
@@ -325,8 +333,8 @@
     const loss=(probability,sample)=>sample.reduce((sum,r)=>sum+(probability-flattened(r))**2,0)/sample.length;
     const scores=train.map((sample,i)=>[i?'2009–2017':'2000–2008',proportion(count(sample),sample.length),
       loss(probabilities[i],test).toFixed(4)]);
-    const items=[small('Before each test meeting, each benchmark assigns the fraction of its training releases that flattened by more than 1 bp. Both are scored on the same 2018–2025 releases. The observed test frequency was '+proportion(count(test),test.length)+'.'),
-      table('Forecast of flattening by more than 1 bp · release windows',['Training years','Flattened / matched training releases','Test Brier score'],scores),
+    const items=[small('Before each test meeting, each benchmark assigns the fraction of its training releases that flattened by more than '+band+' bp. Both are scored on the same 2018–2025 releases. The observed test frequency was '+proportion(count(test),test.length)+'.'),
+      table('Forecast of flattening by more than '+band+' bp · release windows',['Training years','Flattened / matched training releases','Test Brier score'],scores),
       small('The Brier score averages the squared difference between the forecast probability and the outcome (one for flattening, zero otherwise). Lower scores indicate more accurate probabilities. These fixed frequencies use the available historical data vintage and ignore information about the individual meeting.')];
     const differences=[];
     for(const year of new Set(test.map(r=>r.date.slice(0,4)))){
@@ -334,7 +342,11 @@
       if(remaining.length)differences.push(loss(probabilities[0],remaining)-loss(probabilities[1],remaining));
     }
     if(differences.length)items.push(small('Dropping one test year at a time gives an early-minus-later score difference from '+Math.min(...differences).toFixed(4)+' to '+Math.max(...differences).toFixed(4)+'. Negative values favour the earlier period. This range measures sensitivity to the years included.'));
-    return disclosure('Did the 2000–2008 flattening frequency forecast later releases better?',items);
+    if(count(test)<5)items.push(small('Only '+count(test)+' test releases crossed this threshold. A small Brier score is common for a rare event. Compare training periods at the same threshold.'));
+    items.push(small('A forecast of zero probability at every meeting scores '+loss(0,test).toFixed(4)+' on this same test sample. The frequency estimates are descriptive and omit trading costs.'));
+    const forecast=disclosure('Did the 2000–2008 flattening frequency forecast later releases better?',items);
+    forecast.open=new URLSearchParams(location.search).has('curveBand');
+    return forecast;
   }
   async function renderCurve(){
     if(!curvePanel.open)return;
@@ -346,27 +358,27 @@
       return;
     }
     if(bank.value!==id || !curvePanel.open)return;
-    const output=[];
+    const output=[],band=Number(curveBand.value);
     for(const stage of ['release','conference']){
       const eligible=file.records.filter(r=>r.groupEligible && r.stage===stage);
       const paired=eligible.filter(r=>Number.isFinite(r.values.yield2y) && Number.isFinite(r.values.yield10y)).sort((a,b)=>a.date.localeCompare(b.date));
       if(!paired.length)continue;
       const label=stage==='release'?'Decision release':'Press conference';
-      const above=paired.filter(r=>slopeChange(r)>1),below=paired.filter(r=>slopeChange(r)<-1);
-      const groups=[['Steepened >1 bp',above],['Flattened >1 bp',below]].map(([name,group])=>{
+      const above=paired.filter(r=>slopeChange(r)>band),below=paired.filter(r=>slopeChange(r)<-band);
+      const groups=[['Steepened >'+band+' bp',above],['Flattened >'+band+' bp',below]].map(([name,group])=>{
         const legs=group.map(r=>[r.values.yield2y,r.values.yield10y]);
         return [name,group.length,legs.filter(([a,b])=>a>0 && b>0).length,legs.filter(([a,b])=>a<0 && b<0).length,
           legs.filter(([a,b])=>a*b<0).length,legs.filter(([a,b])=>a===0 || b===0).length];
       });
       output.push(table(label+' · '+paired[0].date+' to '+paired.at(-1).date,['Curve move','Events','Both yields rose','Both fell','Opposite signs','One unchanged'],groups),
-        small(paired.length+' of '+eligible.length+' eligible windows have both yields. In '+(paired.length-above.length-below.length)+' the change in slope was within ±1 bp, including the boundaries.'));
+        small(paired.length+' of '+eligible.length+' eligible windows have both yields. In '+(paired.length-above.length-below.length)+' the change in slope was within ±'+band+' bp, including the boundaries.'));
       if(stage==='release'){
         const example=below.filter(r=>r.values.yield2y*r.values.yield10y<0).at(-1);
         if(example){
           const note=small('On '+example.date+' the two-year yield rose '+digits(example.values.yield2y)+' bp and the ten-year fell '+digits(-example.values.yield10y)+' bp. The change in slope was '+signed(example.values.yield10y)+' − ('+signed(example.values.yield2y)+') = '+signed(slopeChange(example))+' bp. Window: '+example.window+'. ');
           const link=el('a','Inspect this decision');link.href='cross-asset-events.html?'+new URLSearchParams({bank:id,stage,date:example.date,event:example.id});note.append(link);output.push(note);
         }
-        output.push(curveForecast(paired));
+        output.push(curveForecast(paired,band));
       }
     }
     const link=el('a',id==='fed'?'San Francisco Fed event workbook':'ECB event workbook');
