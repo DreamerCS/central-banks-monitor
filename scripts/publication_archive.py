@@ -17,6 +17,15 @@ VERIFIED_PUBLICATION_URLS = {
 # These corrections identify one dated feed entry. Annual catalogues may be
 # reused for later releases, so they must never become permanent URL aliases.
 DATED_PUBLICATIONS = {
+    ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24117"): {
+        "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/07APPENDIXI19112026A198F390DF914F41AEC15D77C81602D3.PDF",
+    },
+    ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24116"): {
+        "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/06APPENDIXI191120263A7F124B464D4834966F1A0B2B409D46.PDF",
+    },
+    ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24115"): {
+        "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/05APPENDIXI191120265A109F9F1A3B48ABB08CDECD240A1F99.PDF",
+    },
     ("2026-11-19", "https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=24105"): {
         "url": "https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/01OVERVIEW19112026B29D00152F5C424E98C9CF7ABB3E9557.PDF",
     },
